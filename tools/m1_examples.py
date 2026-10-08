@@ -91,3 +91,27 @@ for inc in [True, False]:
     corr = np.corrcoef(Ki, P0)[0,1]
     print(f"[C] outside cost included={inc}: mean s0={P0.mean():.3f}; label diversion to most efficient (k=0) {dL[0]:.4f} vs price diversion {dp[0]:.4f}; "
           f"to outside label {dL0:.4f} vs price {dp0:.4f}; corr(K,P0)={corr:+.3f}; check sum label={np.nansum(dL)+dL0:.6f}")
+
+print("== D. supply side: Delta-matrix orientation with product-specific tax factors ==")
+from scipy.optimize import fsolve
+alpha_d = 0.5
+delta_d = np.array([2.0, 1.5, 1.8, 1.2])
+vth = np.array([1.13*1.10*1.05, 1.13, 1.13*1.10*1.03, 1.13])   # ICE: VAT, purchase tax, consumption tax; NEV: VAT only
+own = np.array([0, 0, 1, 1])                                    # firm 1: products 0,1; firm 2: products 2,3
+mc_true = np.array([6.0, 7.0, 6.5, 7.5])
+O = (own[:, None] == own[None, :]).astype(float)
+def shares_d(ps):
+    v = delta_d - alpha_d*vth*ps; e = np.exp(v); return e/(1+e.sum())
+def dsdp(ps):                                                   # d s_k / d p_j (consumer price), matrix [j,k]
+    s = shares_d(ps); M = alpha_d*np.outer(s, s); M[np.diag_indices(4)] = -alpha_d*s*(1-s); return M
+def foc(ps):
+    s = shares_d(ps); D = dsdp(ps)
+    return np.array([s[j] + sum(O[j, k]*(ps[k]-mc_true[k])*vth[j]*D[j, k] for k in range(4)) for j in range(4)])
+ps_eq = fsolve(foc, mc_true*1.3, xtol=1e-12)
+s_eq = shares_d(ps_eq); D = dsdp(ps_eq)
+Delta = -O*(vth[:, None]*D)                                      # row j: j's price FOC; column k: k's margin
+mc_34 = ps_eq - np.linalg.solve(Delta, s_eq)
+mc_T = ps_eq - np.linalg.solve(Delta.T, s_eq)
+print("equilibrium producer prices:", np.round(ps_eq, 4))
+print("mc recovered, BLP (3.4) orientation:", np.round(mc_34, 6), " max error", f"{np.abs(mc_34-mc_true).max():.2e}")
+print("mc recovered, transposed orientation:", np.round(mc_T, 6), " max error", f"{np.abs(mc_T-mc_true).max():.4f}")

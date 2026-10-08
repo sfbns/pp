@@ -2,11 +2,13 @@
 
 | 模型 | 轮次 | 分数 | 致命项 | 报告 | 处理 |
 |---|---|---|---|---|---|
-| M1 基准 BLP | 1 | 68 | 有（F1 份额变化未用相对效用） | reviews/M1_review_round1.md | 第 2 版重写（cf4195f），二审中 |
-| M0 基础回归 | 1 | 73 | 无 | reviews/M0_review_round1.md | 待第 2 版 |
-| 00 总论 | 1 | 70 | 无（接近：事实性过度表述） | reviews/00_review_round1.md | 待第 2 版 |
-| M2 机制一 | 1 | 66 | 无 | reviews/M2_review_round1.md | 第 2 版（72b54eb），二审中 |
-| M3 机制二 | 1 | 62 | 2 项（γ 分离；溢出交叉偏导） | reviews/M3_review_round1.md | 第 2 版重写中 |
+| M1 基准 BLP | 1 | 68 | 有（F1 份额变化未用相对效用） | reviews/M1_review_round1.md | 第 2 版重写（cf4195f） |
+| M1 基准 BLP | 2 | 81 | 无 | reviews/M1_review_round2.md | 第 3 版（外部选项两情形、φ_B 识别行、三组矩、A-FE、2024 标签时钟、ζ 微观基础、记号表），三审中 |
+| M0 基础回归 | 1 | 73 | 无 | reviews/M0_review_round1.md | 第 2 版（213d38f），二审中 |
+| 00 总论 | 1 | 70 | 无（接近：事实性过度表述） | reviews/00_review_round1.md | 第 2 版已完成，待送审 |
+| M2 机制一 | 1 | 66 | 无 | reviews/M2_review_round1.md | 第 2 版（72b54eb） |
+| M2 机制一 | 2 | 82 | 无 | reviews/M2_review_round2.md | 待第 3 版（单边校准、续航进入可估规格、纠偏型福利条件、风险溢价量级、按购车时间的锚定检验） |
+| M3 机制二 | 1 | 62 | 2 项（γ 分离；溢出交叉偏导） | reviews/M3_review_round1.md | 第 2 版（7b9a0f4），二审中 |
 | M4 跨动力替代 | — | — | — | — | 待送审 |
 | M5 异质性 | — | — | — | — | 待送审 |
 | M6 供给侧 | — | — | — | — | 待送审 |
