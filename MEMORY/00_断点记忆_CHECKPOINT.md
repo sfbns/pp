@@ -83,12 +83,16 @@ BLP模型学习与记忆 (4).pdf
 - [2026-10-08 20:01 UTC] 建立本断点文件。
 - [2026-10-08 20:08 UTC] **安装完成**：`.claude/skills/{blp-model-building, blp-project-professor, structural-model-building, economics-expert-reviewer, top-journal-hypothesis-packaging}`；`.claude/agents/{blp-professor, blp-project-professor, blp-referee}.md`；文本知识库 `BLP_KB/`（514 文件，21MB）；`CLAUDE.md` 配置文件；`tools/extract_pdfs.sh`。已 commit `111b3e2` 并 push。用户拒绝了 hooks 方案 → 改为 CLAUDE.md + 自我计时（每次重要步骤 `date -u` 检查）。
 - [2026-10-08 20:16 UTC] **记忆吸收完成**：演练稿（用户核验记号：δ, μ, ξ, Δ, b=Δ⁻¹s，(6.9b) 负号更正）、BLP1995 逐式核验、微观基础、供给福利四轨、工况项目层（制度时点、楔子事实：ICE +7.7%、PHEV 油耗 +59.3%/纯电续航 −17.3%、BEV 证据薄；外推法 corr 0.8746、可靠度 0.754）、构造协议 D01–D09、项目内核 V6-M01–M04、GRV2018（γρ、里程分布、γ=0.91）、GHVB2021（同硬件重标、估值 0.16–0.39、ΔWTP 换算）、RS2021（x̃=x−(1−α)g，决策/体验福利）、Barwick 续航焦虑、BKL2024（续航前沿 D=η_k k+η_w w+κ，容量不直接进效用）、中国补贴（续航基础 × 能量密度系数 × 能耗系数）、CAFC 公式（NEV 倍数）、残值渠道、认知不足。
+- [2026-10-08 20:26 UTC] **M1 第 1 版完成**：`deliverables/M1_基准BLP模型.md`（M1.1–M1.47；广义价格 p+φ_{d,s}K L、比例信念 B=ζL、φ=γζ、K/UF/A(R)/口碑收缩推导、楔子三用途、(M1.33) 数值效应+再估值效应、(M1.44) 过度识别检验通向 M3、IV 表、GMM、供给 Δ 方向与税楔子）。20:28 派出独立审稿 agent（opus, effort max）→ `reviews/M1_review_round1.md`。
+- [2026-10-08 20:31 UTC] **M0 第 1 版完成**：`deliverables/M0_基础回归.md`（McFadden 推导、反演、(M0.7)–(M0.10) 事件研究 β=−αφ₁、ρ=−α(φ₁−φ₀) 与天真/表示不变检验、外推测量误差衰减、logit 均衡价格传导 dp/dδ=s/α、PPML 等价、断点边界、异质性布点、映射表）。
+- [2026-10-08 20:33 UTC] **总论完成**：`deliverables/00_总论_研究定位_机制与思维导图.md`（一段话定位、需求升降读法、“认证信息偏差收敛/信任/欺诈”命名表、各动力双向机制表、贡献排序、详细思维导图+节点说明）。
 - [2026-10-08 20:18 UTC] **渲染管线完成**：`tools/build_pdf.sh`（pandoc+XeLaTeX，Noto Serif CJK SC，amsmath/mathtools/bm），测试页渲染正确（中文、\tag、aligned、\boxed、表格）。
 
 ## D. 待完成（下一步）
 
 1. ~~安装~~（完成） 2. ~~精读~~（完成） 3. ~~渲染管线~~（完成）
-4. **正在做**：写 `deliverables/00_总论_研究定位与机制.md`（一段话回答“研究什么、贡献、需求升降两种解释、信任/欺诈命名”）、`deliverables/M0_基础回归.md`、`deliverables/M1_基准BLP.md`；然后派 blp-referee（opus, effort max）审 M1（目标≥90）、M0（≥85）。
+4. **正在做**：M1 审稿中（等通知）→ 按审稿意见修改，直到 ≥90；随后送审 M0+总论（≥85）。同时写 M2_机制一_认证可信度.md、M3_机制二_短视与资本化.md。
+   - 记号统一：α_i 价格系数；K 成本尺度（元/(L/100km)）；Λ(r,H) 存活×里程×贴现年金；ζ_{d,s} 感知真实/标签比；φ_{d,s}=γζ 标签成本估值率；γ_d 资本化率；κ 信任权重；b̂ 感知偏差；R̄ 车主实测；W 楔子、w 相对楔子；S_jt 展示；A(R) 续航缺口；η 续航负效用；χ(N) 补能调节；UF 电驱份额；Q̃ 口碑收缩后验；θ_k 口碑权重；v 积分影子价。
 5. 逐模型推导 M0→M7，每个模型写入 `deliverables/`，派第三方审议 agent 评分，迭代到阈值；记录评分账本 `MEMORY/review_ledger.md`。
 5. 汇总终稿 md + pdf，commit + push。
 
@@ -98,3 +102,4 @@ BLP模型学习与记忆 (4).pdf
 |---|---|
 | 2026-10-08 20:01 | 首次写入断点 |
 | 2026-10-08 20:18 | 第 2 次断点：安装+记忆+渲染完成；下一步写 M0/M1 |
+| 2026-10-08 20:35 | 第 3 次断点：M1、M0、总论第 1 版完成；M1 送审中；下一步写 M2（认证可信度）、M3（短视） |
