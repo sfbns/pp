@@ -1,0 +1,1345 @@
+
+
+===== [PAGE 1] =====
+
+Understanding decision-making dynamics for vehicle-to-grid 
+adoption in China: a hybrid choice model approach
+Qianqian Yan a, Zhenhong Lin a,b,*, Xiaoru Chen c
+a School of Future Technology, South China University of Technology, Guangzhou 511442, China
+b Guangdong Artificial Intelligence and Digital Economy Laboratory, Guangzhou 511442, China
+c State Key Laboratory of Intelligent Green Vehicle and Mobility, School of Vehicle and Mobility, Tsinghua University Research Institute of Tsinghua 
+University in Shenzhen, Guangdong 518057, China
+A R T I C L E  I N F O
+Keywords:
+Vehicle-to-Grid (V2G)
+Public’swillingness
+Hybrid choice model (HCM)
+Willingness to acceptance (WTA)
+Pseudo-elasticity
+A B S T R A C T
+Vehicle-to-Grid (V2G) technology enables bidirectional energy flow between electric vehicles 
+(EVs) and the grid, leveraging parked vehicles for energy management and grid stability. As a 
+leading nation in EV and renewable electricity adoption, China is well-positioned to develop and 
+implement V2G technology. However, the success of V2G technology hinges on public engage­
+ment. This study examines the public’s willingness to engage with V2G technology in China. 
+Through a web-based stated choice survey, we explore consumer preferences regarding V2G at­
+tributes and latent variables using a hybrid choice model (HCM). The results highlight the 
+importance of plugged-in hours and economic incentives in shaping public willingness to engage 
+with V2G. Regarding latent variables, “Benefits”, “Concerns”, and “Technology affinity” are 
+significantly related. The Willingness to Accept (WTA) was also calculated, revealing the mone­
+tary compensation consumers expect to be paid with the changes of V2G contract attributes 
+levels. Additionally, pseudo-elasticity analysis quantifies how changes in specific attributes affect 
+the probability of consumer engagement, providing further insights for policy and incentive 
+design. In conclusion, this research provides actionable insights for policymakers to enhance V2G 
+adoption and customer satisfaction.
+1. Introduction
+The global pursuit of carbon neutrality has catalyzed an unprecedented acceleration in energy transition, marked by rapid de­
+velopments in renewable energy sources and electric vehicle (EV) adoption. However, this transformation is not without its challenges. 
+The inherent variability and unpredictability of renewable energy sources, coupled with the uncertain electricity charging demand of 
+EVs, have introduced new complexities to the management and stability of power systems (Wei et al., 2022).
+Vehicle-to-Grid systems have emerged as a promising solution to these challenges, offering dynamic interactions between EVs and 
+the power grid (Qin et al., 2023). In a broad sense, Vehicle-to-Grid includes V1G and V2G: V1G is a technology that controls the 
+charging rate and time of electricity directed from the grid to the EV battery; V2G facilitates bidirectional power flow, allowing EVs to 
+both draw power from and supply power back to the grid (Barman et al., 2023). For the purposes of this paper, we will focus 
+exclusively on V2G. As an interactive mechanism between EVs and the grid, V2G systems can play a significant role in peak shaving, 
+* Corresponding author at: South China University of Technology, Guangzhou 511442, China.
+E-mail addresses: zhenhong@gmail.com, zhenhong@scut.edu.cn (Z. Lin). 
+Contents lists available at ScienceDirect
+Transportation Research Part A
+journal homepage: www.elsevier.com/locate/tra
+https://doi.org/10.1016/j.tra.2026.105026
+Received 12 September 2024; Received in revised form 25 November 2025; Accepted 16 April 2026  
+Transportation Research Part A 209 (2026) 105026 
+Available online 22 April 2026 
+0965-8564/© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+===== [PAGE 2] =====
+
+grid stabilization, and improving energy efficiency (Mak and Tang, 2024). Since cars are driven only a small fraction of the time on 
+most days, implementing V2G during these periods of inactivity could significantly alleviate issues related to energy management and 
+grid stability. Currently, there are over 140 Vehicle-to-Grid projects worldwide, with most being proof of concept trials or small-scale 
+commercial trials (V2Ghub, 2024). V2G has been widely demonstrated to be technically feasible. However, one of the significant 
+barriers to the large-scale commercialization of V2G is the relatively low level of public engagement. Understanding public partici­
+pation is crucial for identifying the conditions that either facilitate or obstruct public participation. Such insights can inform the 
+development of more effective policies and incentives, thereby enhancing the adoption of V2G technology and strengthening national 
+energy strategies.
+Although previous studies have explored the effects of various factors on people’s acceptance of V2G, comprehensive insights into 
+these factors, particularly within the context of the Chinese market, remain limited. Furthermore, many papers have mentioned that 
+battery degradation is a significant barrier to people's participation in V2G, yet no one has quantitatively described the public's 
+tolerance level for battery degradation. China, being the largest new energy vehicle market globally, has created a favorable envi­
+ronment for the implementation of V2G technology. Additionally, as the largest supplier of renewable electricity (IRENA, 2024), China 
+has cultivated an urgent need for energy storage technologies such as V2G for coping with renewable energy fluctuation. This paper 
+pioneers in empirically explore the public's willingness to engage with V2G in China, shedding new lights on the various influencing 
+attributes. A web-based stated choice survey is designed to understand the trade-offs between different factors influencing consumer 
+acceptance and to identify opportunities for enhancing the adoption of V2G systems. The innovative use of battery degradation 
+warranties in our survey design allows us to quantitatively assess consumers' tolerance for battery degradation, a critical concern that 
+has been qualitatively discussed but seldom measured. Employing a hybrid choice model (HCM), we conduct a detailed analysis of 
+respondents' preferences and decision-making processes concerning V2G technology. Unlike conventional discrete choice models that 
+assume fully rational decisions based solely on observable attributes, HCM integrates both observable choices and latent psychological 
+constructs This enhanced explanatory power enables a more comprehensive understanding of the behavioral mechanisms underlying 
+consumers’ acceptance of V2G, which allows policymakers to design targeted interventions (e.g., awareness campaigns, information 
+transparency) accordingly. Subsequently, we calculate the attribute importance factor and the willingness to acceptance (WTA) of 
+V2G. By understanding the specific compensations required for different attributes, program designers can better communicate the 
+benefits and tailor their offerings to meet user expectations, thus enhancing overall engagement and satisfaction. In addition, we 
+employ pseudo-elasticity analysis to quantify how changes in specific V2G attributes affect the probability of consumer participation, 
+providing actionable insights for policy design and incentive optimization.
+The remainder of this paper is structured as follows: The next section presents a literature review on the topic, followed by an 
+exposition of our survey design and data collection methodology. Subsequent sections detail the model approach, and then present the 
+model estimation results. The paper concludes with a synthesis of findings and considerations for future policy development.
+2. Literature review
+Scholars have examined various factors that influence individual and organizational decisions to engage with V2G systems. This 
+literature review traces the evolution of V2G acceptance from its inception to the present day. The pioneering work of Parson et al. 
+(2014) utilized two separated but logically connected stated preference (SP) experiments to evaluate the impact of V2G capabilities on 
+the marketability of EVs and people’s preference for V2G contract attributes in the United States, with results indicating that V2G did 
+not significantly influence EV preferences. Hidrue & Parsons (2015) used contingent valuation method to study consumer willingness 
+to pay for V2G-enabled EVs. The results showed across all scenarios considered, the prices consumers were willing to pay for V2G- 
+enabled EVs were lower than the projected costs due to range anxiety, stringent V2G contracts, and high battery costs. Kubli et al. 
+(2018) found that individuals exhibit a greater propensity to engage in distributed energy presumptions (V2G) compared to heat pump 
+systems in Switzerland. Geske & Schumann (2018) revealed that 'range anxiety' and guaranteed ‘minimum range’ are dominant issues 
+for potential EV adopters to accept V2G in Germany, with limited support from remuneration. In addition to EV users, experts are also 
+valuable interview subjects. Kester et al. (2018) and Sovacool et al. (2019) interviewed 227 experts in transportation and electricity 
+across Nordic countries, revealing debates surrounding V2G and divergent perspectives across different countries.
+In recent 5 years, there has been a growing body of literature focusing on V2G participation. Lee et al. (2020) utilized the contingent 
+valuation approach to assess the willingness to accept V2G technologies among Korean households, finding a mean estimated will­
+ingness to accept was to be KRW 9821 (USD 8.83) per month per vehicle. Van Heuveln et al. (2021) interviewed 20 Dutch EV drivers 
+and found that factors like financial compensation, transparent communication, and reliable control enhance acceptance of V2G 
+technology, while range anxiety, discomfort, and battery degradation concerns hinder it. Huang et al. (2021) found a significant 
+reluctance among Dutch EV drivers to participate in V2G programs. However, the study also noted that the general preference for V2G 
+could increase substantially if fast charging is widely available in the future. Baumgartner (2022) utilized a moderation model to reveal 
+that familiarity with EVs positively influences V2G acceptance. Different from previous studies that lacked hands-on V2G experience, 
+Ghotge et al. (2022) invited seventeen Dutch participants to experience V2G technology firsthand, revealing that transparent 
+communication on battery impacts, adequate financial compensation, real-time battery monitoring, and user-friendly controls are keys 
+to enhancing user acceptance of V2G. Bohdanowicz et al. (2022) made a study across Spain, France, Italy, and Denmark and found that 
+individuals with extrinsic financial motivations were sensitive to incentives, while those with intrinsic motivations, such as controlling 
+spending or ecological concerns, showed interest regardless of reward size. Conversely, individuals with general modesty motivations 
+might be discouraged by financial incentives. Mehdizadeh et al. (2023) used a multi-equation econometric model to estimate mini­
+mum guaranteed charges and financial compensations for V2G technology in Norway. The study's findings indicated that that on 
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+2 
+
+
+===== [PAGE 3] =====
+
+average Norwegian individuals seek a $144 monthly electricity bill reduction and a guaranteed minimum 71% battery capacity as key 
+conditions for their acceptance of V2G technology investments. Later, Mehdizadeh et al. (2024) developed a structural equation model 
+to analyze factors influencing V2G adoption among EV and non-EV users in Norway, discovering similar mechanisms influencing the 
+intentions of both groups. Besides, several studies recommend focusing V2G implementation on commercial fleets rather than private 
+vehicles (Liao et al., 2021). Lucas-Healey et al. (2024) examined the willingness of Australian government-owned vehicle fleets to 
+engage in V2G, advocating for a user-centric approach.
+Although this body of literature has grown increasingly sophisticated, several critical gaps remain. First, most studies rely on 
+simplified economic or technical attributes without systematically incorporating latent psychological variables such as technology 
+trust, perceived benefit, or environmental identity. This limits understanding of how attitudinal factors mediate observed choices. 
+Second, while numerous studies acknowledge battery degradation as a major barrier to V2G participation, very few quantify how 
+consumers value or tolerate such degradation. Most existing work treats degradation as a qualitative concern rather than a measurable 
+decision variable (Hu et al., 2025). Consequently, the monetary valuation of battery degradation—that is, how much compensation 
+consumers require to offset perceived or real losses in battery life—remains a largely unaddressed issue in the V2G acceptance 
+literature. Concerns about battery degradation are not unique to V2G but are deeply rooted in broader EV acceptance research. While 
+some studies have examined the effects of battery warranties and depreciation rates on EV purchase intentions (Li et al., 2020), few 
+have translated these technical metrics into explicit financial valuations. Third, much of the research focuses on developed economies 
+such as the United States, Germany, and the Netherlands. In contrast, developing or rapidly transitioning markets like China, which 
+represent the world’s largest base of EV users and renewable electricity producers, have been underrepresented. The behavioral 
+patterns, cultural norms, and policy contexts in such markets may differ substantially, limiting the transferability of Western findings.
+In summary, while past studies have advanced knowledge about V2G acceptance, they often treat battery degradation as an ab­
+stract deterrent and overlook the attitudinal dynamics underlying participation. This paper contributes to filling these voids by 
+explicitly valuing consumers’ tolerance for degradation, incorporating latent psychological factors into behavioral modeling, and 
+situating the analysis within the Chinese context—where policy frameworks, market scale, and energy priorities collectively create a 
+unique environment for V2G development.
+3. Survey design and data collection
+The survey of this study consists of three parts, basic information of the respondents (such as age, gender, education level, income, 
+etc.), latent variables, and stated choice experiment. Basic information helps analyze differences in behavioral patterns among 
+different demographic groups. Latent variables allow for a deeper exploration of respondents' psychological and cognitive dimensions. 
+Stated choice experiments provides insights into consumer preferences and decision-making behavior for products that have not yet 
+been widely adopted in real life. By presenting respondents with hypothetical scenarios and asking them to make choices among 
+alternatives with different attribute combinations, stated choice experiments simulate real-world decision-making processes.
+3.1. Latent variables
+Latent variables represent factors that cannot be directly measured. Researching the impact of latent variables on V2G participation 
+helps to better understand the underlying factors that influence public involvement in V2G, and thus to design targeted promotional 
+strategies. The indicators of the latent variables are shown in Table 1.
+V2G offers many benefits, and how respondents value these benefits influences their willingness to engage in V2G. While Geske & 
+Schumann (2018) collected data on the benefits of V2G, they did not treat them as latent variables but rather included them in a 
+regression model by coding the 7-point Likert scale as seven binary variables. In this study, we model “Benefits” as a latent variable and 
+use a 5-point Likert scale, ranging from “not important at all” to “very important,” to assess how respondents value these benefits.
+In decision-making processes, people may hesitate or decline to participate in certain activities due to psychological concerns that 
+Table 1 
+Indicators of latent variables.
+Latent variable
+Indicator
+Benefits
+V2G can help with peak shaving and load leveling for the power grid
+I1
+V2G can facilitate greater integration of renewable energy sources by mitigating their variability
+I2
+V2G can reduce the cost of establishing additional energy storage facilities
+I3
+Concerns
+Participating in V2G would make me worried about losing control of my EV
+I4
+Participating in V2G would make me worried about third parties accessing my vehicle’s location, battery level, and other personal 
+information
+I5
+Technology affinity
+I am excited to learn about new technologies
+I6
+I like trying out products that use high-tech innovations
+I7
+I stay updated on the latest advancements and trends in emerging technologies
+I8
+I am not interested in new technology
+I9
+Social 
+responsibility
+I am willing to do public service and contribute to society
+I10
+In my daily life, I try to reduce using plastic bags or disposable chopsticks
+I11
+I usually pay attention to environmental and social issues
+I12
+Contributing to society makes me feel happy and fulfilled
+I13
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+3 
+
+
+===== [PAGE 4] =====
+
+are difficult to measure directly. Balbontin et al. (2022) explored the impact of “Concerns about public transport” as a latent variable 
+on travel mode choice. This study incorporates “Concerns” to better understand how these concerns affect users' attitudes towards 
+V2G. We use a 5-point Likert scale, ranging from “not at all concerned” to “very concerned,” to measure the level of respondents' 
+concerns.
+“Technology affinity” reflects an individual's openness to new technologies. According to Schandl et al. (2023), technology affinity 
+positively contributes to trust in new technologies and significantly influences the acceptance of autonomous shuttle buses. Smith et al. 
+(2017) studied the impact of the latent variable “excitement for new technology” on people's decisions to purchase EVs, finding that a 
+lack of interest in new technology and inertia may hinder their decision to buy EVs. Given that V2G is a novel technology, “technology 
+affinity” is chosen as a latent variable to investigate whether it encourages individual participation in V2G. To measure “technology 
+affinity,” we employ a 5-point Likert scale ranging from “strongly disagree” to “strongly agree.”
+“Social responsibility” reflects responsibility towards society and the environment, indicating that an individual or entity is willing 
+to act in a way that benefits the overall societal good. Since EVs are beneficial to the environment, Mustaf et al. (2024) suggests 
+promoting consumers' social responsibility through cultural education as a strategy to enhance the adoption of EVs. Yan et al. (2024)
+found that people with a disposition to contribute to society are more willing to engage in shared parking, which can address social 
+issues like parking shortages and congestion. In this study, the latent variable 'Social responsibility' is selected to assess whether in­
+dividuals with a higher sense of social responsibility are more likely to participate in V2G. This construct is measured using a 5-point 
+Likert scale, ranging from 'strongly disagree' to 'strongly agree.
+3.2. SP experiment design
+Before the SP experiment, we used visual aids to introduce general information about V2G, helping respondents gain a clearer 
+understanding of what V2G is. The visual aid, depicted in Fig. 1, provided a clear overview of how V2G functions. In this system, EV 
+owners connect their vehicles to the grid for a specified period. During this time, a third party, such as an energy provider, manages the 
+charging and discharging of the vehicle's battery. This process allows for the integration of stored energy into the grid during peak 
+demand periods and draws energy from the grid when demand is low. In exchange for participating in this system, vehicle owners 
+receive financial incentives.
+To help respondents understand the SP experiment, an example of an SP choice experiment was provided. The screenshot of the 
+example is shown in Fig. 2. Respondents were presented with three options: the first two were hypothetical V2G contracts, and the 
+third option was an opt-out alternative. Respondents were asked which option they would choose, assuming they have an electric 
+vehicle with a range of 500 km. The meaning of each attribute was explained to the respondents. This preparatory step was designed to 
+familiarize respondents with the experiment’s structure and the relevant attributes, thereby enhancing the accuracy and reliability of 
+their responses.
+Revenue is one of the most frequently considered factors in SP experiments about V2G. Understanding the dynamics of revenue is 
+crucial for the development of effective V2G business models. The actual revenue a V2G-EV can earn depends on many factors, 
+including the type of power market, the region of the country (different regions have different A/S prices), power capacity of the 
+connection, and others (Mak et al., 2024). Parson et al. (2014) explored people's reactions to V2G earnings, presenting scenarios with 
+annual earnings of $500 to $5000. Geske & Schumann (2018) investigated the impact of revenue on people's choices by considering 
+monthly incomes of €0-€60 and a one-time premium of €1000- €7000 for buying a car. Huang et al. (2021) examined the effects of fixed 
+monthly revenue of €20-€100 plus a variable cost of €0-€0.3 per extra hour outside of the contract. Bohdanowicz et al. (2022) took a 
+different approach by measuring the impact of additional (2.5/5/10/15/20)% free electricity as a reward on people's participation in 
+V2G. In this paper, we investigate the spectrum of consumer reactions to annual revenue, which is set between ¥1000 and ¥5000, to 
+provide insights into the economic dimensions influencing V2G adoption.
+Range anxiety is a significant concern for EV drivers. V2G technology allows EVs to supply power back to the grid, which might 
+Fig. 1. V2G operation diagram.
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+4 
+
+
+===== [PAGE 5] =====
+
+arise range anxiety. To mitigate this, ensuring a minimum guaranteed range for these vehicles could ensure the vehicles' reliability and 
+user acceptance. Parsons et al. (2014) investigated the minimum guaranteed range by a broad scope of 25 miles to 175 miles, aiming to 
+provide a buffer that could alleviate range anxiety. Geske & Schumann (2018) narrowed this range to 10 km to 50 km to explore the 
+preferences and concerns of German people. Kubli et al. (2018) brought a percentage-based perspective to the discussion by 
+considering guaranteed charging levels within a 40%-80% range. Similarly, Huang et al. (2021) provided options for the guaranteed 
+minimum charge level at 10%, 30%, and 50%, giving drivers the flexibility to choose a level that best fits their needs and routines. In 
+the context of this study, we have adopted a range of 20%-50% for the guaranteed minimum charge level, translating to a distance 
+range of 100 km-250 km.
+The average daily plugged-in time refers to the average time an EV remains connected to a V2G charger on a daily basis. If an EV is 
+connected for fewer hours on certain days, the shortfall can be compensated on other days. The range of 5 to 20 h was explored by 
+Parson et al. (2014) to assess respondents' acceptance levels of daily plugged-in hours. Geske & Schumann (2018) and Huang et al. 
+(2021) conducted similar explorations with the ranges being 5–––14 h and 5––15 h, respectively. To explore the preferences and 
+adaptability of Chinese respondents, we introduced a variable charging duration ranging from 4 to 16 h.
+Regarding whether V2G leads to battery degradation, some studies suggest that V2G could contribute to battery degradation 
+(Dubarry et al., 2018; Thingvad et al., 2021), while some others concluded that V2G has the potential to improve battery lifetime under 
+smart management (Uddin et al., 2018; Gong et al., 2024). Factors affecting battery degradation are varied and include temperature, 
+charging rate, depth of discharge, and usage patterns, among others. Estimating the extent to which V2G might shorten battery life is 
+challenging. As Liao et al. (2017) said, there are a lot of uncertainties regarding battery life and consumers may prefer more certainty 
+for these aspects. Several studies have explored user preferences regarding discharging cycles in V2G context to understand attitudes 
+towards battery degradation (Kubli et al., 2018; Geske & Schumann, 2018). However, the term 'cycle life limits' is quite technical and 
+not widely known among general customers, and it changes significantly with the rapid advancement of technology. To measure 
+people's acceptance of battery degradation, this study employs the concept of a battery degradation warranty to transform this un­
+certain variable into a certain one. The battery degradation warranty period is defined as the duration of time during which the 
+manufacturer is obligated to repair or replace the battery if it degrades. In this study, we explore the responses to different levels of 
+battery degradation warranty period, categorized into four levels spanning 6 to 9 years. Battery degradation warranty is different from 
+general battery warranty. General battery warranty period has been found to have a positive effect on the purchase of EVs (Mau et al., 
+2008). Since 2016, China has mandated that automobile manufacturers must provide a minimum of 8-year (or 120,000-km) battery 
+warranty (The State Council of China, 2024), which does not cover battery degradation. This study will explore whether and how the 
+battery degradation warranty period affects the willingness to participate in V2G.
+The battery capacity under warranty refers to the minimum battery capacity assured will be retained during the warranty period. 
+Traditionally, the End of Life for EV batteries have been determined by a simplistic SOC threshold of 70–80% (Martinez-Laserna et al., 
+Fig. 2. SP experiment example.
+Table 2 
+Attributes and Levels Used in the V2G Choice Experiment.
+Attributes
+Levels
+Annual Revenue of V2G
+1000￥
+2500￥
+4000￥
+5500￥
+Guaranteed minimal range
+100 km
+150 km
+200 km
+250 km
+Average daily plugged-in hours
+4 h
+8 h
+12 h
+16 h
+Battery degradation warranty period
+6 years
+7 years
+8 years
+9 years
+Battery capacity under warranty
+70%
+75%
+80%
+85%
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+5 
+
+
+===== [PAGE 6] =====
+
+2018; Canals Casals et al., 2022). In this study, we vary this capacity from 70% to 85% to gauge user reactions to different extents of 
+battery degradation, aiming to understand consumer tolerance and preferences regarding the longevity and performance of EV 
+batteries.
+For the final SP experiment, the five above mentioned attributes were selected, each with four levels (Table 2), resulting in a total 
+of45 = 1024 combinations in a full-factorial design. To maintain statistical independence among attributes and reduce the number of 
+combinations, orthogonal design is used, and 48 profiles was generated. These 48 profiles were further organized into sixteen blocks, 
+so that each respondent is presented with 4 choice tasks.
+3.3. Data collection
+China leads the world in EV sales, with Guangdong Province being the top region in the country for EV sales. By 2023, the number 
+of EVs in Guangdong Province reached 2.89 million (Guangdong Provincial Government, 2024). This advanced state of vehicle 
+electrification has laid the groundwork for the implementation of V2G technology. Focusing on the Guangdong area, this study ex­
+amines the impact of various contract conditions on the willingness to participate in V2G among current EV drivers and those 
+intending to purchase EVs in the future.
+Before conducting the formal data collection, we performed a pilot test from April 14th to April 30th, 2024. This pilot phase 
+allowed us to gather feedback from respondents, which we used to refine and improve our questionnaire. The formal data collection 
+was subsequently conducted in Guangdong, China, between May 1st to June 30th, 2024, using the web-based survey system Credamo. 
+The platform initially targeted participants to match the demographic distribution of Guangdong Province. Two screening questions 
+were then applied: respondents were asked whether they currently own an EV and whether they intend to purchase an EV in the future. 
+Only participants who answered “yes” to at least one of these questions were qualified to proceed as respondents. To ensure data 
+quality, we incorporated a simple arithmetic question. Respondents who answered this question incorrectly were automatically dis­
+qualified and their responses were deemed invalid. Additionally, responses with excessively short completion time and those with 
+overly patterned answers were also considered invalid. Ultimately, 2,668 observations were obtained from 667 effective respondents. 
+To verify the representativeness of our sample, we compared respondents’ key characteristics with those reported in China NEV 
+consumer profile (IPS Consulting Group, 2024). The comparison showed that the distributions of major attributes were broadly 
+similar, suggesting that our sample is reasonably representative.
+Table 3 provides a comprehensive overview of survey respondents across various demographics and other characteristics. 
+Regarding age distribution, the majority of respondents, 67.9%, are under 40 years old, with 32.1% aged 40 and above. This indicates 
+that current EV drivers and individuals interested in purchasing EVs in the future are predominantly younger, with a significant 
+concentration under 40 years old. Male respondents make up 59.6% of the sample, while females account for 40.3%. In terms of 
+education, 60.3% have a university-level education or above, while 39.7% have education below university level. This indicates that 
+current EV drivers and individuals interested in purchasing EVs in the future are largely composed of highly educated individuals. 
+Concerning annual income, 56.7% of respondents earn less than 150,000 RMB annually, while 43.3% earn 150,000 RMB or more. 
+Finally, in terms of knowledge about V2G, 22.5% had never heard of it before, 61.5% know a little about it, and 16.0% are very familiar 
+with it.
+4. Method
+4.1. Exploratory factor analysis (EFA)
+Before constructing HCM, we conducted an EFA where all the indicators are measured in one.
+analysis using oblique rotation method to identify the underlying latent factors from the set of observed indicators. This pre­
+liminary step ensures that each latent construct is measured by items that are collectively representative of a single underlying factor 
+and these factors subsequently served as inputs for the HCM.
+Table 3 
+Descriptive Analysis of the Survey Variables.
+Variable
+Classification
+Cases
+Percentage (%)
+Age
+<40
+453
+67.9%
+≥40
+214
+32.1%
+Gender
+Male
+398
+59.6%
+Female
+269
+40.3%
+Education
+Under bachelor’s degree
+265
+39.7%
+Bachelor’s degree or above
+402
+60.3%
+Annual income
+<150000￥
+378
+56.7%
+≥150000￥
+289
+43.3%
+Knowledge about V2G
+Never heard of it before
+150
+22.5%
+Know a little about it
+410
+61.5%
+Know a lot about it
+107
+16.0%
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+6 
+
+
+===== [PAGE 7] =====
+
+4.2. HCM
+To uncover how the different variables influence the acceptance of V2G, we employ a HCM in this paper. As shown in Fig. 3, the 
+HCM is an advanced analytical framework that integrates elements of discrete choice modeling with additional considerations for 
+latent variables through a Multiple Indicator-Multiple Cause (MIMIC) model. The discrete choice model focuses on observable at­
+tributes, analyzing how different features of a product or service influence preferences. However, it may not fully capture the complex, 
+underlying factors that drive these preferences. The MIMIC model addresses this gap by incorporating latent variables, which are 
+indirectly measured through multiple indicators. HCM offers deeper insights into both the observable attributes and the latent con­
+structs that shape individuals' decisions regarding V2G participation.
+The utility function for individual i choosing alternative j in choice task t can be written as: 
+Uijt = β0 +
+∑
+G
+g=1
+βgxijtg +
+∑
+L
+l=1
+βlx*
+il + ƞi + εijt, ƞin N(0, σ2
+ƞj), εijt G(0, σεj)
+(1) 
+where β0 is the constant term. xijtg is the gth attribute of alternative j for individual i in choice task t. βg is the parameter for alternative- 
+specific attribute that need to be estimated. βl is the parameter for latent variable that need to be estimated. Since each respondent 
+completes 4 choice tasks in this study, ƞi is assumed to be normal distributed with zero mean and standard deviation σφj to reflect this 
+panel effect, which means parameters vary across individuals but are constant over choice situations for the same individual. εijt is an 
+identically and independently Gumbel distributed error term.
+The MIMIC model not only helps researchers understand how exogenous variables (e.g. decision maker’s socio-demographics) 
+influence latent constructs but also reveals how these constructs manifest through specific observable indicators, thereby providing 
+a comprehensive understanding of the research problem. The structural relationship between the latent variables and the socio- 
+demographics could be expressed as follows: 
+x*
+il =
+∑
+K
+k=1
+Γkxs
+ik + ζil, ζil N (0, σ2
+ζl)
+(2) 
+where x*
+il indicates the l th latent variable of individual i, and xs
+ik is the k th socio-demographic variable. Γk represents unknown 
+Fig. 3. Framework for the proposed HCM.
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+7 
+
+
+===== [PAGE 8] =====
+
+parameters. ζil is a random disturbance term assumed to be normally distributed with zero mean and standard deviation σζl.
+By treating the indicators as ordered categorical variables, the measurement relationship between latent variables and indicators 
+are shown as equation (3). The indicators are responses to survey questions coded by Likert Scale.
+I*
+in = ∑L
+l=1Λlx*
+il +ϛin, ϛin N(0, σ2
+ϛn) (3) 
+Iin =
+⎧
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎨
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎩
+1, if −∞< I*
+in ≤τn1
+⋮
+b, ifτnb−1 < I*
+in ≤τnb
+⋮
+B, ifτnB−1 < I*
+in ≤+∞
+(4) 
+where I*
+in corresponds to the n th indicator of the latent variable x*
+il. Λl are unknown parameters. ϛin are normally distributed error term. 
+Iin represents the n th observed indicator if I*
+in lies in the range between the thresholds τnb−1 and τnb, with b corresponding to the Likert 
+scale score.
+The component of the joint likelihood function for any particular individual is as follows: 
+L i =
+∫
+ƞ,ζ
+fY(yijt
+⃒⃒xijtg, x*
+il, β0, βg, βl, ƞi)fI(Iin
+⃒⃒Λl, x*
+il, ϛin)fL(x*
+il
+⃒⃒xs
+ik, Γk, ζil)dƞdζ
+(5) 
+According to the assumed probability distribution of the disturbance terms, the sub-functions (fY(•), fI(•), fL(•)) can be written as: 
+fY(yijt
+⃒⃒xijtg, x*
+il, β0, βg, βl, ƞi) =
+∏
+j
+∏
+t
+(
+exp(β0 + ∑G
+g=1βgxijtg + ∑L
+l=1βlx*
+il)
+∑
+jexp(β0 + ∑G
+g=1βgxijtg + ∑L
+l=1βlx*
+il)
+)yijt
+• 1
+σƞj
+• ϕ
+(
+ƞj
+σƞj
+)
+(6) 
+fI(Iin
+⃒⃒Λl, x*
+il, ϛin) =
+∏
+n
+∏
+b
+(
+Φ
+(
+τnb −
+∑
+L
+l=1
+Λlx*
+il
+)
+−Φ
+(
+τnb−1 −
+∑
+L
+l=1
+Λlx*
+il
+) )yinb
+(7) 
+fL(x*
+il
+⃒⃒xs
+ik, Γk, ζil) =
+∏
+l
+1
+σζl
+• ϕ
+(
+x*
+il −∑K
+k=1Γkxs
+ik
+σζl
+)
+(8) 
+where yijt takes the value 1 if individual i choose alternative j in choice situation t, or zero otherwise. yinb takes the value 1 if individual i 
+choose b th Likert scale value for the n th indicator, or zero otherwise. ϕ( • ) is the standard normal density function, Φ( • ) is its 
+cumulative distribution function.
+Due to the complexity of the integrals involved in computing the joint likelihood and the absence of closed-form solutions, the 
+Monte Carlo method is employed. The Monte Carlo approach allows to approximate the joint likelihood by simulating a large number 
+of random draws from the specified distribution, then averaging these simulated outcomes to estimate the likelihood function. This 
+technique provides a feasible way to handle complex models where traditional analytical methods are not applicable. The simulated 
+likelihood function is shown in equation (9): 
+̃
+L i = 1
+R
+∑
+R
+r=1
+fY(yijt
+⃒⃒xijtg, x*
+il, β0, βg, βl, φi)fI(I
+⃒⃒Λ0
+l , Λl, x*
+il, ϛin)fL(x*
+il
+⃒⃒xs
+ik, Γk, Γ0
+k, ζil)
+(9) 
+4.3. Attributes’ importance
+To identify the primary drivers of V2G adoption, we compute the relative importance of each design attribute. Because the utility 
+function is linear-in-parameters, the maximum swing is simply the coefficient range (max −min) of that attribute. Dividing each range 
+by the sum of all ranges converts the swings into shares of total utility variation. Calculating attribute importance can help identify 
+which factors are the primary drivers for user engagement in V2G, which aids in designing more effective incentive measures to 
+optimize V2G technology and services. Formally, the relative importance of each attribute was calculated as follows (Hensher et al., 
+2015): 
+m =
+|Rangem|
+(
+|Range1| + |Range2| + ⋯+
+⃒⃒RangeK
+⃒⃒)
+(10) 
+where Rangem indicates the range of parameters for attribute m(m = 1,…,K)
+This normalization ensures that all attribute importance values sum to one, allowing for direct comparison of their relative 
+influence.
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+8 
+
+
+===== [PAGE 9] =====
+
+4.4. WTA
+WTA respresents the compensation individuals expect to receive when they give up a certain resource. Negative values indicate that 
+users require compensation from the provider, while positive values suggest that users see the changes or improvements as beneficial 
+and are more likely to adopt them even paying more. Formally, WTA for an attribute level can be calculated as (Van der Waerden and 
+Agarad, 2019; Kubli, 2022): 
+WTA = β −βref
+λ
+(11) 
+where βref is the parameter of the reference level, β is the parameter of the target level, and λ represents the linear monetary utility 
+value, calculated as the ratio of the parameter range of annual revenue to the range of the attribute value, yielding a part-worth utility 
+per RMB.
+4.5. Pseudo-elasticity
+Elasticity can simulate how changes in explanatory variables will affect outcomes, which is essential for planning and decision- 
+making. In discrete choice models, pseudo-elasticity is often used as a relative measure of how a change in an explanatory variable 
+influences the probability of choosing an alternative. Formally, the pseudo-elasticity of a variable can be expressed as(Louviere 
+et al.,2000; Paul et al., 2018; Zhao et al., 2025): 
+E =
+∑
+i,t
+1
+I*T ⋅
+P
+(
+yijt= j| ̃xit
+)
+−P
+(
+yijt= j|xit
+)
+P
+(
+yijt= j|xit
+)
+(12) 
+where I*T is the total number of observation. P
+(
+yijt= j|xit
+)
+is the probability when the variable is kept at the reference level. 
+P
+(
+yijt= j|̃
+xit
+)
+is the new probability after changing the variable to a new level.
+This formulation allows researchers to quantify the percentage change in choice probability associated with a discrete change in an 
+explanatory variable, providing a convenient metric for policy or market simulations.
+5. Results
+5.1. EFA results
+The EFA extracted four latent factors from the observed indicators. According to Chin et al. (1997), standardized factor loadings 
+should be 0.6 or above to be considered acceptable. Thus, we report only those factor loadings with absolute values exceeding 0.6 in 
+Table 4. Items that failed to reach this cut-off were deleted. These four factors serve as the basis for the latent variables incorporated in 
+the subsequent HCM, ensuring that the model captures the underlying psychological dimensions influencing individuals’ willingness 
+to engage with V2G technology.
+5.2. HCM reselts
+The simultaneous estimation method was employed to analyze the data, and the results of the HCM are comprehensively sum­
+marized in Tables 5, 6, and 7. We applied effect coding to alternative-specific attributes by setting the last category of each variable as 
+Table 4 
+Factor Loadings.
+Latent variable
+Indicator
+Factor 1
+Factor 2
+Factor 3
+Factor 4
+Benefits
+I1
+0.802
+​
+​
+​
+I2
+0.764
+​
+​
+​
+I3
+0.845
+​
+​
+​
+Concerns
+I4
+​
+0.668
+​
+​
+I5
+​
+0.999
+​
+​
+Technology affinity
+I6
+​
+​
+0.707
+​
+I7
+​
+​
+0.877
+​
+I8
+​
+​
+0.632
+​
+I9
+​
+​
+−
+​
+Social responsibility
+I10
+​
+​
+​
+0.832
+I11
+​
+​
+​
+−
+I12
+​
+​
+​
+0.721
+I13
+​
+​
+​
+0.814
+Note (1) Only factor loadings higher than 0.6 are included.
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+9 
+
+
+===== [PAGE 10] =====
+
+the reference category. Effect coding allows comparison of the effect of each category with the overall mean, providing a more 
+interpretable representation.
+Estimation results of the discrete choice model are presented in Table 5. The signs of the estimated parameters in this study align 
+with expectations. Estimates indicate a positive impact on choice probabilities with increasing economic incentives. Government and 
+companies can encourage consumer adoption by providing attractive economic incentives, particularly in the initial stages. The 
+guaranteed minimum range of EVs systems positively influences adoption. A longer range ensures that users' daily transportation needs 
+are not compromised, thereby increasing their willingness to participate. Companies could consider the results of this paper and set 
+appropriate guaranteed minimum range for customers. Contrary to other positive factors, longer plug-in times have a negative impact 
+on V2G acceptance. This is likely because long plug-in time is expected to cause much inconvenience to EV drivers (Huang et al., 2021). 
+The study also reveals that the longer the warranty period, the more preferable it is to consumers, reflecting their concerns about 
+battery longevity and the value they place on assurances against battery degradation. A larger battery capacity guaranteed under 
+warranty is found to be more attractive to users, which increases their preference for accepting V2G technology. This finding un­
+derscores the importance of battery health and performance in consumer decision-making. The parameter of “Benefits” underscores 
+Table 5 
+Results of the discrete choice model analysis.
+Attributes
+Levels
+Estimate
+Rob.t.val
+Annual revenue of V2G
+1000￥
+−0.492***
+−7.042
+2500￥
+−0.148**
+−2.245
+4000￥
+0.179***
+2.694
+5500￥
+0.461
+−
+Guaranteed minimal range
+100 km
+−0.334***
+−5.304
+150 km
+−0.021
+−0.358
+200 km
+0.105*
+1.812
+250 km
+0.250
+−
+Average daily plugged-in hours
+4 h
+0.736***
+10.438
+8 h
+0.302***
+5.322
+12 h
+−0.322***
+−4.995
+16 h
+−0.716
+−
+Battery degradation warranty period
+6 years
+−0.200***
+−3.313
+7 years
+−0.052
+−0.809
+8 years
+−0.026
+−0.441
+9 years
+0.278
+−
+Battery capacity under warranty
+70%
+−0.218***
+−3.308
+75%
+−0.022
+−0.217
+80%
+−0.013
+−0.349
+85%
+0.253
+−
+Benefits
+−
+0.735***
+5.772
+Concerns
+−
+−0.565***
+−2.705
+Technology affinity
+−
+0.288**
+2.207
+Social responsibility
+−
+0.051
+0.389
+Constant
+−
+1.400***
+3.731
+Panel effect parameter
+−
+−4.111***
+7.734
+LL(0)
+−2931.098
+LL(β)
+2124.871
+Adj.Rho-squared
+0.294
+Note: ***, **, * means the level of significance at 1%, 5% and 10%.
+Table 6 
+Latent variable structural model.
+Benefits
+Concerns
+Technology affinity
+Social responsibility
+Age (1: <40, −1: ≥40)
+0.483*** (2.334)
+−0.016 
+(−0.110)
+0.364*** (3.340)
+0.126 (0.685)
+Gender (1: male, −1: female)
+−0.004 (−0.022)
+0.078 (0.572)
+0.168 (1.683)
+−0.099 (−0.637)
+Education (1: under bachelor’s degree, −1: bachelor’s degree or 
+above)
+−0.015 (−0.072)
+−0.106 
+(−0.726)
+−0.243** (−2.149)
+−0.164 (−0.828)
+Income (1: <150000/year, −1: ≥150000/year)
+−0.042 (−0.223)
+−0.003 
+(−0.113)
+0.009 (0.083)
+−0.024 (−0.131)
+Knowledge (never heard of it before)
+−0.949*** 
+(−2.776)
+0.844*** 
+(3.329)
+−0.681*** 
+(−3.208)
+−1.291*** 
+(−4.245)
+Knowledge (know a little about it)
+0.271 (1.134)
+0.511*** 
+(2.377)
+0.023 (0.153)
+0.455* (1.836)
+Standard deviation
+2.428*** (9.074)
+2.477*** 
+(9.294)
+1.981*** (8.987)
+2.679*** (8.991)
+Note: ***, **, * means the level of significance at 1%, 5% and 10%.
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+10 
+
+
+===== [PAGE 11] =====
+
+the strong positive effect that benefits have on participation in V2G technology. This result emphasizes the need for clear commu­
+nication and demonstration of the benefits of V2G to potential participants. On the other hand, the negative parameter of “Concerns” 
+indicates that concerns regarding V2G technology strongly discourage participation. This finding highlights the importance of 
+addressing and mitigating consumer concerns to enhance participation in V2G programs. Additionally, “Technology affinity” shows a 
+significant positive relationship with participation in V2G technology, meaning that individuals with a higher affinity for technology 
+are more likely to engage with V2G. Finally, the parameter of “Social responsibility” is not statistically significant, suggesting that a 
+sense of duty or obligation to contribute to society may not be a key driver for participation in V2G programs.
+The structural relationships between latent variables and their observable explanatory variables are shown in Table 6. The esti­
+mation results show distinct patterns for each latent variable. “Benefits” are strongly influenced by age and knowledge age V2G. 
+Younger individuals tend to perceive more benefits, while those completely unfamiliar with the technology perceive fewer benefits. 
+Regarding “Concerns,” knowledge plays a crucial role. Individuals unfamiliar with V2G technology perceive higher concerns, whereas 
+those with some knowledge show reduced concerns, highlighting the importance of awareness in shaping risk perceptions. For 
+“Technology affinity,” individuals with lower education levels or those who have never heard of V2G technology show a significantly 
+negative association. Younger individuals (under 40) are more likely to demonstrate higher technology affinity. Finally, in the case of 
+“Social responsibility,” individuals who have never heard of V2G technology exhibit a strong negative association, while those with 
+some knowledge display a slight positive association.
+Table 7 presents the estimation results of the measurement relationship in the latent variable model part. The measurement 
+parameter is normalized to 1 for the first indicator for identification purpose (Cherchi, 2017). The results show that all indicators are 
+significantly and positively related to their latent attitudes, meaning that as a latent attitude intensifies, respondents are more likely to 
+Table 7 
+Latent variable measurement model.
+Latent variables
+Indicator
+Measurement parameter
+Cutoff parameters
+b = 1
+b = 2
+b = 3
+b = 4
+Benefits
+I1
+1.000
+−7.241*** (−11.195)
+−5.271*** (−12.187)
+−1.966*** (−7.561)
+1.586*** (5.781)
+I2
+0.909*** (8.256)
+−6.641*** (−12.836)
+−4.929*** (−14.003)
+−1.557*** (−6.994)
+1.636*** (6.227)
+I3
+1.175*** (7.782)
+−7.544*** (−9.665)
+−5.655*** (−9.332)
+−1.887*** (−5.743)
+1.577*** (5.161)
+Concerns
+I4
+1.000
+−3.266*** (−10.439)
+−0.658*** (−3.391)
+1.578*** (7.052)
+4.510*** (11.568)
+I5
+1.023*** (5.966)
+−2.981*** (−10.047)
+−1.005*** (−5.016)
+0.766*** (3.540)
+3.276*** (9.413)
+Technology affinity
+I6
+1.000
+−5.585*** (−11.189)
+−3.658*** (−12.838)
+−1.947*** (−9.410)
+1.361*** (6.994)
+I7
+1.523*** (5.287)
+−6.619*** (−8.212)
+−4.874*** (−8.264)
+−2.476*** (−7.406)
+1.689*** (5.275)
+I8
+0.779*** (7.881)
+−4.242*** (−14.100)
+−2.103*** (−12.424)
+0.119 (0.832)
+2.468*** (12.625)
+Social responsibility
+I10
+1.000
+−7.372*** (−11.599)
+−5.081*** (−11.197)
+−2.723*** (−8.329)
+1.846*** (6.345)
+I12
+0.762*** (6.639)
+−6.406*** (−12.857)
+−5.138*** (−13.367)
+−2.399*** (−9.709)
+1.541*** (7.077)
+I13
+0.774*** (8.261)
+−5.508*** (−13.894)
+−4.742*** (13.518)
+−2.622*** (−11.133)
+0.599*** (2.807)
+Note: ***, **, * means the level of significance at 1%, 5% and 10%.
+Fig. 4. Importance factors of the attributes.
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+11 
+
+
+===== [PAGE 12] =====
+
+choose higher levels on the related indicator questions.
+5.3. Results of attributes’ importance
+The results of attributes’ relative importance factors are shown in Fig. 4. Plugged-in time is shown as the most importance factor, 
+indicating that EV drivers are highly concerned about the duration of time required for charging, which may impact their daily routines 
+and travel plans. Annual revenue follows as the second most importance attribute. Understanding the importance that users place on 
+annual revenue can assist relevant enterprises in designing V2G schemes and pricing strategies that better meet the needs of users, 
+thereby enhancing their acceptance and satisfaction with V2G technology. Although not the top priority, the guaranteed minimal 
+range is also significant. One potential reason for the divergence from the result of Geske & Schumann (2018), which emphasized the 
+guaranteed minimum range as a primary concern, may be that the respondents in our study are informed that participation in V2G 
+programs would not compromise their ability to use conventional charging methods. They were informed that as long as the stipulated 
+V2G contract duration is met, they retain the flexibility to use standard charging methods at other times. This provision is crucial for 
+alleviating concerns about potential limitations on long-distance travel, thereby enhancing the perceived attractiveness of V2G 
+participation. Additionally, the battery degradation warranty period and battery capacity under warranty are also important factors. 
+Developing appropriate insurance policies that specifically cover battery health in V2G scenarios can minimize user concerns about 
+battery degradation and build trust in the technology and its long-term viability.
+5.4. Results of WTA
+Fig. 5(a) presents what drivers are willing to pay to shift from the guaranteed minimal range of 100 km to another level. The drivers 
+would be willing to pay 1477.96￥/year to switch to a guaranteed minimal range of 150 km, 2072.93￥/year to switch to a guaranteed 
+minimal range of 200 km, and 2757.61￥/year to switch to a guaranteed minimal range of 250 km, highlighting their valuation of 
+increased minimal range. Fig. 5(b) shows that drivers expect compensation of 2,049.32￥/year to shift their average daily plugged-in 
+time from 4 h to 8 h, 4,995.80￥/year for a shift to 12 h, and 6,856.24￥/year for a shift to 16 h. These WTA values highlight the 
+Fig. 5. WTA of different attributes.
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+12 
+
+
+===== [PAGE 13] =====
+
+monetary compensation required for drivers to accept longer plugged-in time. To transit battery degradation warranty period from 6 
+years to 7 years, Fig. 5(c) shows that drivers are willing to pay 698.85￥/year; 821.62￥/year for extending to 8 years, and 2257.08 
+￥/year for extending to 9 years, indicating their perceived value of warranty extension. Lastly, Fig. 5(d) show that to increase the 
+battery capacity under warranty from the standard 70% to 75%, 80%, 85%, drivers would be willing to pay an additional 925.50 
+￥/year, 968.00￥/year, and 2,224.03￥/year, respectively. These findings collectively provide critical insights into drivers' prefer­
+ences and the economic trade-offs they consider when evaluating V2G contract attributes.
+The WTA values can be used to inform policy makers and businesses about the minimum compensation required to persuade 
+consumers to accept changes or improvements in V2G attributes. These insights can help in designing better incentive programs and 
+optimizing resource allocation to enhance user engagement and satisfaction with V2G technology.
+5.5. Results of pseudo-elasticity
+Table 8 presents the pseudo-elasticity effects, which measure the percentage change in the probability when an attribute moves 
+from its reference level to the indicated level, holding all else constant. Sociodemographic effects operate indirectly through latent 
+variables in the hybrid choice model. Among them, age exhibits a noticeable impact: being under 40 increases the probability of 
+choosing V2G by 10.28%. By comparison, gender, education, and income have negligible effects, with elasticity values close to zero. 
+The most influential demographic determinant is prior knowledge of V2G. Respondents who had never heard of V2G show a sub­
+stantial 24.73% decrease in participation probability, while those who knew only a little about it exhibit an 11.95% reduction, relative 
+to individuals who are very familiar with the technology. This underscores the central importance of awareness-building. Similar 
+interpretations apply to the contractual attributes. Relative to the ¥5500 reference, shifting the revenue guarantee to ¥1000 lowers the 
+participation probability by 9.10%; the penalty shrinks to 5.72% and 2.60% at ¥2500 and ¥4000, respectively. The minimum driving 
+range matters equally: a 100-km guarantee reduces participation by 5.70%, whereas 150 km and 200 km cut the penalty to 2.61% and 
+1.40% versus the 250-km baseline. Among all contract terms, required plug-in time carries the largest positive elasticity. Mandating 4 
+h of daily charging raises participation by 15.73% relative to a 16 h requirement; the gain falls to 11.25% at 8 h and 4.46% at 12 h. 
+Battery-related guarantees show notable influences. A 6-year warranty depresses participation by 4.83%; extending coverage to 7 or 8 
+years trims the penalty to 3.31% and 3.05% below the 9-year benchmark. Tighter residual-capacity thresholds follow the same 
+gradient: guaranteeing 70% capacity lowers participation by 4.55%, whereas 75% and 80% thresholds reduce it by 2.55% and 2.64% 
+relative to the 85% reference.
+6. Conclusion and policy implications
+The deployment of V2G technology has the potential for transforming energy management and consumption. However, without 
+realistic estimates regarding the acceptability of V2G, there may be misjudgments about the value and business prospect of V2G. This 
+study illuminates the public's willingness to engage with V2G technology within the context of China's burgeoning EV market. Our 
+analysis, based in a HCM model, reveals how different factors influence people’s acceptance of V2G. Results show that the key de­
+terminants in V2G contract include plug-in time and economic incentives, complemented by the guaranteed minimum driving range, 
+battery degradation warranty, and battery capacity under warranty. Regarding latent variables, “Benefits”, “Concerns”, and “Tech­
+nology affinity” are significantly related. Younger individuals and those familiar with V2G are more likely to have higher technology 
+affinity and perceive its benefits, while individuals with lower educational backgrounds tend to have lower technology affinity and are 
+more likely to express concerns about V2G. We also calculated WTA and pseudo-elasticity, which together provide a comprehensive 
+understanding for assessing consumer preferences, formulating economic policies, and understanding market dynamics. While WTA 
+quantifies the monetary compensation required for changes in contract attributes, the pseudo-elasticity results reveal the sensitivity of 
+participation probabilities to these changes. By combining these two measures, stakeholders can design more effective incentive 
+mechanisms and communication strategies.
+The results of this study provide significant insights into the preferences and trade-offs that EV drivers in China consider when 
+evaluating V2G technology. Policymakers and businesses can enhance consumer acceptance and satisfaction by balancing trade-offs 
+and designing appealing V2G contracts based on results of this study. For example, appropriate economic incentives could be designed 
+to accelerate the transition to widespread V2G implementation. Increasing annual revenue from approximately ¥1000 to ¥5500 can 
+offset the 9.1% decline in participation and speed mass uptake. Beyond direct subsidy, institutional and market reforms such as refined 
+time-of-use or real-time pricing schemes should be integrated into China’s ongoing electricity-market reform to make short-term 
+subsidies evolve into long-term and sustainable market participation. While financial inducements remain a prerequisite, opera­
+tional conditions ultimately shape uptake. Reducing the range guarantee to 100 km lowers participation probability by 5.7%. Setting a 
+higher guaranteed minimum range will alleviate range anxiety, encouraging more users to participate without compromising their 
+mobility. Besides, participants require compensation of nearly ¥6,856 per year for 16 h daily plug-in time, indicating a strong aversion 
+to extensive charging obligations. Reducing the plug-in requirement to 4 h increases participation by 15.7%. Contracts that minimize 
+interference with daily schedules will therefore be more attractive and cost-effective. Additionally, standardized and transparent 
+battery health management systems, including clear degradation warranties and insurance coverage, can substantially enhance user 
+confidence. Results show that drivers are willing to pay ¥2,257 per year to extend warranty coverage from 6 to 9 years. Increasing the 
+battery-capacity guarantee from 70% to 85% yields a WTA of ¥2,224 per year. Policymakers could implement reasonable V2G battery 
+insurance to protect users’ assets and reduce participation risk. Once these technical and regulatory foundations are in place, policy 
+efforts can progressively shift toward psychological and informational engagement. The latent variable “Benefits” is significant. 
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+13 
+
+
+===== [PAGE 14] =====
+
+Comprehensive information campaigns can bridge knowledge gaps, thus cultivating a supportive consumer base. Collaboration be­
+tween government agencies, utilities, and EV manufacturers will be essential for creating coherent, trustworthy narratives around 
+significance of V2G. Furthermore, the latent variable “Concerns” captures worries about operation. Data governance should be 
+strengthened. Since V2G operation involves continuous information exchange between vehicles, chargers, and grid operators, clear 
+rules on data privacy, ownership, and cybersecurity are needed to reduce user concerns and facilitate cross-sector collaboration. Given 
+that “Technology affinity” significantly enhances the likelihood of V2G participation, targeted communication strategies are essential 
+to improve the efficiency of information dissemination and accelerate early-stage market uptake. In particular, advertising and 
+outreach efforts should be prioritised toward individuals who already exhibit high interest in digital technologies or smart-energy 
+systems. Finally, launching pilot programs in select regions is a strategic approach to test and refine V2G policies and technologies. 
+Gathering real-world data and user feedback from these pilot programs can provide valuable insights for informing larger-scale 
+implementation strategies.
+In conclusion, this study has laid the groundwork for a deeper understanding of the public's willingness to participate in V2G. The 
+insights gained from this study carry profound implications for policymakers and practitioners in the field of V2G technology. By 
+understanding the public's preferences for V2G contracts, more attractive and competitive contracts and services can be developed, 
+fostering the development and upgrading of the V2G industry chain and enhancing China's global competitiveness in this field.
+CRediT authorship contribution statement
+Qianqian Yan: Writing – original draft, Funding acquisition, Formal analysis, Data curation, Conceptualization. Zhenhong Lin: 
+Writing – review & editing, Supervision, Funding acquisition, Conceptualization. Xiaoru Chen: Writing – review & editing, Funding 
+acquisition.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to 
+influence the work reported in this paper.
+Acknowledgments
+This research is supported by National Key Research and Development Program of China (2024YFE0115800), Postdoctoral 
+Fellowship Program of CPSF (Grant No. GZC20230842), the Introduced Innovative R&D Team of Guangdong Under Grant, China 
+(2023ZT10L145).
+Data availability
+Data will be made available on request.
+Table 8 
+Results of pseudo-elasticity.
+Attributes
+Levels
+Pseudo-elasticity (%)
+Age
+<40
+10.277
+Gender
+male
+−0.073
+Education
+under bachelor’s degree
+−0.595
+Income
+<150000/year
+−0.402
+Knowledge
+never heard of it before
+−24.731
+know a little about it
+−11.949
+Annual revenue of V2G
+1000￥
+−9.100
+2500￥
+−5.722
+4000￥
+−2.604
+Guaranteed minimal range
+100 km
+−5.701
+150 km
+−2.613
+200 km
+−1.395
+Average daily plugged-in hours
+4 h
+15.728
+8 h
+11.248
+12 h
+4.458
+Battery degradation warranty period
+6 years
+−4.832
+7 years
+−3.311
+8 years
+−3.048
+Battery capacity under warranty
+70%
+−4.548
+75%
+−2.545
+80%
+−2.635
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+14 
+
+
+===== [PAGE 15] =====
+
+References
+Baumgartner, N., 2022. Does experience matter? Assessing user motivations to accept a vehicle-to-grid charging tariff. Transp. Res. Part D: Transp. Environ. 113, 
+103528.
+Balbontin, C., Hensher, D.A., Beck, M.J., 2022. Advanced modelling of commuter choice model and work from home during COVID-19 restrictions in Australia. 
+Transp. Res. Part e: Logist. Transp. Rev. 162, 102718.
+Barman, P., Dutta, L., Bordoloi, S., Kalita, A., Buragohain, P., Bharali, S., Azzopardi, B., 2023. Renewable energy integration with electric vehicle technology: a review 
+of the existing smart charging approaches. Renew. Sustain. Energy Rev. 183, 113518.
+Bohdanowicz, Z., Kowalski, J., Biele, C., 2022. Intentions to charge electric vehicles using vehicle-to-grid technology among people with different motivations to save 
+energy. Sustainability 14 (19), 12681.
+Canals Casals, L., Etxandi-Santolaya, M., Bibiloni-Mulet, P.A., Corchero, C., Trilla, L., 2022. Electric vehicle battery health expected at end of life in the upcoming 
+years based on UK data. Batteries 8 (10), 164.
+Cherchi, E., 2017. A stated choice experiment to measure the effect of informational and normative conformity in the preference for electric vehicles. Transp. Res. Part 
+a: Policy Pract. 100, 88–104.
+Chin, W.W., Gopal, A., Salisbury, W.D., 1997. Advancing the theory of adaptive structuration: the development of a scale to measure faithfulness of appropriation. Inf. 
+Syst. Res. 8, 342–367.
+Dubarry, M., Baure, G., Devie, A., 2018. Durability and reliability of EV batteries under electric utility grid operations: path dependence of battery degradation. 
+J. Electrochem. Soc. 165 (5), A773–A783.
+Geske, J., Schumann, D., 2018. Willing to Participate in Vehicle-to-grid (V2G)? Why not! Energy Policy 120, 392–401.
+Ghotge, R., Nijssen, K.P., Annema, J.A., Lukszo, Z., 2022. Use before you choose: what do EV drivers think about V2G after experiencing it? Energies 15 (13), 4907.
+Gong, J., Wasylowski, D., Figgener, J., Bihn, S., Rücker, F., Ringbeck, F., Sauer, D.U., 2024. Quantifying the impact of V2X operation on electric vehicle battery 
+degradation: an experimental evaluation. Etransp 20, 100316.
+Guangdong Provincial Government. https://www.gd.gov.cn/gdywdt/bmdt/content/post_4422331.html. Accessed July 26, 2024.
+Hensher, D.A., Rose, J.M., Greene, W.H., 2015. Applied Choice Analysis: a Primer, (2nd ed.). Cambridge University Press.
+Hidrue, M.K., Parsons, G.R., 2015. Is there a near-term market for vehicle-to-grid electric vehicles? Appl. Energy 151, 67–76.
+Huang, B., Meijssen, A.G., Annema, J.A., Lukszo, Z., 2021. Are electric vehicle drivers willing to participate in vehicle-to-grid contracts? A context-dependent stated 
+choice experiment. Energy Policy 156, 112410.
+Hu, Y., Bahamonde-Birke, F.J., Ettema, D., 2025. Vehicle-to-grid, why not? An interview with battery electric vehicle users with various driving patterns in Utrecht, 
+the Netherlands. Transp. Policy 164, 231–240.
+IPS Consulting Group, 2024 New Energy Vehicle Consumers Social Media Big Data Insights Report. Available online: https://www.ipscg.com/detail-1057.html 
+Accessed Nov 18, 2025.
+IRENA. Country Rankings of Renewable Energy Power Capacity or Electricity Generation. Available online: https://www.irena.org/Data/View-data-by-topic/ 
+Capacity-and-Generation/Country-Rankings. Accessed July 6, 2024.
+Kester, J., Noel, L., Zarazua De Rubens, G., Sovacool, B.K., 2018. Promoting Vehicle to Grid (V2G) in the Nordic Region: expert advice on policy mechanisms for 
+accelerated diffusion. Energy Policy 116, 422–432.
+Kubli, M., Loock, M., Wüstenhagen, R., 2018. The flexible prosumer: measuring the willingness to co-create distributed flexibility. Energy Policy 114, 540–548.
+Kubli, M., 2022. EV Drivers’ Willingness to accept smart charging: measuring preferences of potential adopters. Transp. Res. Part D: Transp. Environ. 109, 103396.
+Liao, Z., Taiebat, M., Xu, M., 2021. Shared autonomous electric vehicle fleets with vehicle-to-grid capability: economic viability and environmental co-benefits. Appl. 
+Energy 302, 117500.
+Liao, F., Molin, E., van Wee, B., 2017. Consumer preferences for electric vehicles: a literature review. Transp. Rev. 37 (3), 252–275.
+Li, L., Wang, Z., Chen, L., Wang, Z., 2020. Consumer preferences for battery electric vehicles: a choice experimental survey in China. Transp. Res. Part D: Transp. 
+Environ. 78, 102185.
+Louviere, J., Hensher, D., Swait, J., 2000. Stated Choice Methods: Analysis and Applications. Cambridge University Press.
+Lee, C.Y., Jang, J.W., Lee, M.K., 2020. Willingness to accept values for vehicle-to-grid service in South Korea. Transp. Res. Part D: Transp. Environ. 87, 102487.
+Lucas-Healey, K., Jones, L., Sturmberg, B.C., Ransan-Cooper, H., 2024. Participation and sensemaking in electric vehicle field trials: a study of fleet vehicle-to-grid in 
+Australia. Energy Res. Soc. Sci. 107, 103343.
+Mak, H.Y., Tang, R., 2024. Collaborative Vehicle-to-grid operations in frequency regulation markets. Manuf. Serv. Oper. Manag. 26 (3), 814–833.
+Mau, P., Eyzaguirre, J., Jaccard, M., Collins-Dodd, C., Tiedemann, K., 2008. The ‘Neighbor effect’: simulating dynamics in consumer preferences for new vehicle 
+technologies. Ecol. Econ. 68 (1–2), 504–516.
+Martinez-Laserna, E., Gandiaga, I., Sarasketa-Zabala, E., Badeda, J., Stroe, D.I., Swierczynski, M., Goikoetxea, A., 2018. Battery second life: hype, hope or reality? a 
+critical review of the state of the art. Renew. Sustain. Energy Rev. 93, 701–718.
+Mehdizadeh, M., Nordfjaern, T., Kl¨ockner, C.A., 2023. Estimating financial compensation and minimum guaranteed charge for vehicle-to-grid technology. Energy 
+Policy 180, 113649.
+Mehdizadeh, M., Nayum, A., Nordfjærn, T., Kl¨ockner, C.A., 2024. Are norwegian car users ready for a transition to vehicle-to-grid technology? Transp. Policy 146, 
+126–136.
+Parsons, G.R., Hidrue, M.K., Kempton, W., Gardner, M.P., 2014. Willingness to pay for vehicle-to-grid (V2G) electric vehicles and their contract terms. Energy Econ. 
+42, 313–324.
+Paul, P., Berlin, C., Maessen, M., Valtonen, H., 2018. A Comparison of regret-based and utility-based discrete choice modelling–an empirical illustration with hospital 
+bed choice. Appl. Econ. 50 (40), 4295–4305.
+Qin, Y., Rao, Y., Xu, Z., Lin, X., Cui, K., Du, J., Ouyang, M., 2023. Toward flexibility of user side in china: virtual power plant (VPP) and vehicle-to-grid (V2G). 
+Interaction. Etransp. 18, 100291.
+Sovacool, B.K., Kester, J., Noel, L., De Rubens, G.Z., 2019. Contested visions and sociotechnical expectations of electric mobility and vehicle-to-grid innovation in five 
+Nordic countries. Environ. Innov. Soc. Transit. 31, 170–183.
+Schandl, F., Fischer, P., Hudecek, M.F., 2023. Predicting acceptance of autonomous shuttle buses by personality profiles: a latent profile analysis. Transp 1–24.
+Smith, B., Olaru, D., Jabeen, F., Greaves, S., 2017. Electric vehicles adoption: environmental enthusiast bias in discrete choice models. Transp. Res. Part D: Transp. 
+Environ. 51, 290–303.
+Thingvad, A., Calearo, L., Andersen, P.B., Marinelli, M., 2021. Empirical capacity measurements of electric vehicles subject to battery degradation from V2G services. 
+IEEE Trans. Veh. Technol. 70 (8), 7547–7557.
+The State Council of China. https://www.gov.cn/xinwen/2015-04/29/content_2855040.htm. Accessed July 24, 2024.
+Uddin, K., Dubarry, M., Glick, M.B., 2018. The viability of vehicle-to-grid operations from a battery technology and policy perspective. Energy Policy 113, 342–347.
+Van Heuveln, K., Ghotge, R., Annema, J.A., Van Bergen, E., Van Wee, B., Pesch, U., 2021. Factors influencing consumer acceptance of vehicle-to-grid by electric 
+vehicle drivers in the Netherlands. Travel Behav. Soc. 24, 34–45.
+Van der Waerden, P., Agarad, S., 2019. Car drivers’ willingness to pay for design related attributes of parking garages: hierarchical information integration approach. 
+Transp. Res. Rec. 2673 (12), 485–493.
+V2Ghub. https://www.v2g-hub.com/insights. Accessed July 26, 2024.
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+15 
+
+
+===== [PAGE 16] =====
+
+Wei, Y., Pang, K., Han, X., Lu, L., Li, Y., Qin, Y., Zheng, Y., and Ouyang, M. Economic and Environmental Benefits of Vehicle-to-grid in the Power System: A National 
+Study of China’s 2030 and 2060 Dual-carbon Goal. In: 2022 IEEE 6th Conference on Energy Internet and Energy System Integration, Chengdu, China, 2022.
+Yan, Q., Feng, T., Timmermans, H., 2024. Attitudes, personality traits and private parking space owners’ willingness to engage in shared parking schemes: a hybrid 
+prospect theoretic model. Transp. a: Transp. Sci. 20 (2), 2138628.
+Zhao, Y., Hu, Y., Feng, T., Zhang, A., 2025. Passengers’ Vertiport choices for integrated urban air mobility and airline services. Transp. Policy 171, 960–969.
+Q. Yan et al.                                                                                                                                                                                                            
+Transportation Research Part A 209 (2026) 105026 
+16 

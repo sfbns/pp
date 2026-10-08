@@ -1,0 +1,162 @@
+{
+  "rank": 19,
+  "item_key": "I6ZAU5HX",
+  "title": "Providing the Spark: Impact of financial incentives on battery electric vehicle adoption",
+  "authors": [
+    "Bentley C. Clinton",
+    "Daniel C. Steinberg"
+  ],
+  "creators": [
+    {
+      "name": "Bentley C. Clinton",
+      "type": "author"
+    },
+    {
+      "name": "Daniel C. Steinberg",
+      "type": "author"
+    }
+  ],
+  "date": "2019-00-00 2019",
+  "journal": "Journal of Environmental Economics and Management",
+  "doi": "10.1016/j.jeem.2019.102255",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S0095069618303115",
+  "collections": [
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Clinton, B. C., & Steinberg, D. C. (2019). Providing the Spark: Impact of financial incentives on battery electric vehicle adoption. Journal of Environmental Economics and Management. https://doi.org/10.1016/j.jeem.2019.102255",
+    "parenthetical": "(Clinton & Steinberg, 2019)",
+    "narrative": "Clinton and Steinberg (2019)"
+  },
+  "preferred_pdf_rel": "source_pdfs/19_i6zau5hx.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "U5ZPYCQM",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:j.jeem.2019.102255.pdf.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\U5ZPYCQM\\j.jeem.2019.102255.pdf.pdf",
+    "exists": true,
+    "size": 1693358
+  },
+  "legacy_note_rel": "raw/notes/19_i6zau5hx.md",
+  "legacy_old_memory_rel": "raw/paper_memory/19_i6zau5hx.md",
+  "fulltext_json_rel": "raw/fulltext/19_i6zau5hx.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/19_i6zau5hx.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper estimates how state-level financial incentives affect BEV adoption in the US.\n- Its answer is that direct purchase rebates raise registrations, while tax credits do not show a clear effect in this design.\n- The policy implication is sharper than \"subsidies work\": the incentive form and the welfare accounting both matter.",
+    "2. Story ladder": "- Real-world tension or puzzle: governments subsidize EVs, but it is not obvious which incentive type actually changes adoption.\n- Why the puzzle matters now: EV policy is expensive, so design quality matters.\n- What the literature already explains: adoption studies often pool policies together or lack clean state-level variation.\n- What is still missing or weakly identified: a comparison that separates rebates from tax credits with quasi-experimental methods.\n- The paper's move: combine difference-in-differences with synthetic controls on national registration data and state incentive variation.\n- Main payoff: a policy ranking that is both adoption-relevant and welfare-aware.",
+    "3. Model or identification core": "- Research design type: reduced-form policy evaluation.\n- Structural model class or reduced-form design: difference-in-differences plus synthetic controls.\n- Key equations or choice objects: BEV registrations as the outcome, state incentives as the treatment.\n- Endogeneity problem: states choose incentives in ways that could correlate with adoption trends.\n- Identification strategy: exploit time and cross-state variation, then cross-check with synthetic controls.\n- What assumptions are doing the heavy lifting: parallel trends in the DID design and the validity of the synthetic comparison set.",
+    "4. Data and measurement": "- Unit of observation: state-level BEV registrations over time.\n- Market definition: US BEV market across states.\n- Main dependent variable: BEV adoption / registrations.\n- Core explanatory variables: direct rebates, tax credits, and other incentive measures.\n- Instruments / moments / shocks: policy timing and state-level incentive changes.\n- Important sample restrictions: the paper focuses on the period with enough policy variation to identify incentive effects.",
+    "5. Findings and mechanisms": "- Baseline result: direct purchase rebates increase new BEV registrations, with an effect around 8 percent per $1000 incentive.\n- Mechanism evidence: rebate effects show up more cleanly than tax-credit effects because the former are more salient and easier to time with the purchase.\n- Heterogeneity evidence: the paper notes that vehicle model availability and incentive type both matter.\n- Welfare or counterfactual result: the programs are not welfare-improving if the only benefit counted is avoided environmental damage.\n- Limits the authors admit: tax credits may be harder to identify because of limited temporal variation, so a null may mix economics and identification.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: EV subsidy papers, adoption papers, and broader clean-technology policy studies.\n- What exact gap the authors claim: no prior study had isolated state-level incentive impacts with this combination of methods.\n- How the introduction stages novelty: first the policy question, then the data gap, then the identification design.\n- Whether the contribution is data, method, theory, policy, or a combination: primarily policy with a methods component.",
+    "7. Literature review function": "- Where the review sits: the introduction uses it to motivate why incentive-type heterogeneity matters.\n- How the review is organized: by policy instrument and by EV adoption evidence.\n- Which citations do positioning work: prior EV policy papers define the policy debate.\n- Which citations do method-validation work: quasi-experimental policy evaluation references justify the DID and synthetic-control design.",
+    "8. Writing structure map": "- Introduction move sequence: EV policy puzzle -> policy heterogeneity -> identification plan -> adoption and welfare results.\n- Section order: intro -> data -> empirical design -> results -> welfare -> conclusion.\n- Where the paper turns from setup to payoff: once the state-policy design is shown to identify rebate effects.\n- How tables/figures are used to move the argument: event-style adoption comparisons and synthetic-control plots likely anchor the causal story.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"It is not enough to ask whether incentives work; we also need to know which incentives work.\"\n- Best transition pattern: \"We next separate the policy instruments using a quasi-experimental design.\"\n- Best contribution sentence pattern: \"By isolating state-level variation, we can move from anecdote to policy ranking.\"\n- Best limitation or implication move: always separate adoption effects from welfare effects.",
+    "10. Memory update": "- Durable economics-writing principle: compare policy instruments directly when the policy debate is about design, not just existence.\n- Durable structural-model principle: a null result can reflect weak identification, so note that possibility explicitly.\n- Reusable empirical design idea: synthetic controls are a strong companion to DID when state policy variation is limited.\n- Follow-up paper to pair with this one: any clean-state EV incentive study with richer welfare accounting."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_i6zau5hx_providing-the-spark-impact-of-financial-incentives-on-battery-electric-vehicle-a\ndescription: Fulltext BLP reading memory for Providing the Spark: Impact of financial incentives on battery electric vehicle adoption; includes story logic, BLP model shape, writing structure, and policy payoff.\ntype: reference\n---\n\n# Providing the Spark: Impact of financial incentives on battery electric vehicle adoption",
+    "Citation": "- Key: `I6ZAU5HX`\n- DOI: `10.1016/j.jeem.2019.102255`\n- Journal: Journal of Environmental Economics and Management\n- Year: 2019\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\I6ZAU5HX.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/I6ZAU5HX/I6ZAU5HX.llm.json`",
+    "Read Status": "- 本记忆基于全文 OCR 结果，不是只基于题录摘要。\n- OCR 引擎：MinerU 优先，DirectML 加速，关闭表格识别以避免已知编码错误；输出为 `llm.md` + `llm.json` + `chunks.jsonl`。",
+    "Story Question": "- 核心问题：To overcome adoption barriers and promote battery electric vehicles (BEVs) as an energy e cient consumer transportation option, a number of states o er subsidies to consumers for BEVs.",
+    "Story Logic": "- 从问题出发：To overcome adoption barriers and promote battery electric vehicles (BEVs) as an energy e cient consumer transportation option, a number of states o er subsidies to consumers for BEVs.\n- 把识别对象具体化：We use a national data set of vehicle registrations and state-level nancial incentives to assess the impact of vehicle purchase subsidies on adoption using both di erence-in- di erences and synthetic controls methods.\n- 最后把结果落到政策/福利含义：Our ndings indicate incentives o ered as state income tax credits do not have a statistically signi cant e ect on BEV adoptions, though we caution this may be a result of limited temporal variation in BEV incentives across our sample.",
+    "How BLP Enters": "- 分类判断：BLP-adjacent structural policy model\n- 触发证据：marginal cost, welfare, counterfactual\n- 读法提醒：这里的“BLP”既可能是严格的随机系数需求+供给均衡，也可能只是沿用差异化产品结构需求与福利反事实的传统。",
+    "Model Shape": "- Demand side: 需求侧至少是结构化产品选择模型，但是否是标准随机系数 BLP 需要结合模型节再核。 市场份额/替代关系是识别核心对象。\n- Heterogeneity: 文中通过异质偏好、车型属性、收入/里程/地区或消费者画像来刻画替代弹性。\n- Supply side: 文中显式处理供给侧，通常是 Nash-Bertrand 定价、边际成本恢复与均衡反事实。\n- Identification / estimation: 识别中明确出现工具变量/外生冲击。\n- Counterfactual / welfare: 摘要直接说明会做福利/反事实模拟，因此模型的终点是政策比较而不仅是弹性估计。",
+    "Writing Structure": "- 从 OCR 章节树看，正文大体按照下面顺序展开：\n- Journal Pre-proof\n- Providing the Spark: Impact of financial incentives on battery electric vehicle adoption\n- Bentley Clinton, Daniel Steinberg\n- PII: S0095-0696(18)30311-5\n- DOI: https://doi.org/10.1016/j.jeem.2019.102255\n- Reference: YJEEM 102255\n- To appear in: Journal of Environmental Economics and Management\n- Received Date: 28 January 2016\n- Revised Date: 30 June 2019\n- Accepted Date: 27 August 2019\n- Providing the Spark: Impact of Financial Incentives on Battery Electric Vehicle Adoption✩\n- Bentley Clintona, Daniel Steinbergb\n- Cambridge, MA 02139, United States\n- 15013 Denver West Parkway,\n- Golden, CO 80401, United States\n- Abstract\n- Keywords: Electric vehicles, tax incentives, rebates, technology adoption JEL classification: Q55; L98; O38; H71\n- Running title: Impact of Financial Incentives on BEV Adoption\n- Corresponding author contact:\n- Bentley Clinton, bclinton@mit.edu, m: 617.872.9934\n- Providing the Spark: Impact of Financial Incentives on Battery Electric Vehicle Adoption\n- Abstract\n- Keywords: Electric vehicles, tax incentives, rebates, technology adoption JEL classification: Q55, L98, O38, H71\n- 1. Introduction\n- 2. Background\n- 3. Data\n- In the presence of such a selection problem, our estimates of policy effect should be interpreted as upper bounds.\n- Gasoline prices used in our analysis are a state-wide average of prices reported by the\n- 11North Carolina made HOV lane travel legal for single-occupant BEVs in May of 2011.\n- 4. Empirical strategy",
+    "Reusable Writing Moves": "- 在模型前先铺设数据与制度背景，让后面的结构设定看起来是被场景逼出来的。",
+    "OCR Section Anchors": "- introduction: `1. Introduction` (p.4)\n- background: `2. Background` (p.8)\n- data: `3. Data` (p.10)\n- estimation: `4. Empirical strategy` (p.12)\n- results: `5. Results` (p.14)",
+    "Memory Notes": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "theory_design_memory": "- The paper estimates how state-level financial incentives affect BEV adoption in the US.\n- Its answer is that direct purchase rebates raise registrations, while tax credits do not show a clear effect in this design.\n- The policy implication is sharper than \"subsidies work\": the incentive form and the welfare accounting both matter.\n\n- Real-world tension or puzzle: governments subsidize EVs, but it is not obvious which incentive type actually changes adoption.\n- Why the puzzle matters now: EV policy is expensive, so design quality matters.\n- What the literature already explains: adoption studies often pool policies together or lack clean state-level variation.\n- What is still missing or weakly identified: a comparison that separates rebates from tax credits with quasi-experimental methods.\n- The paper's move: combine difference-in-differences with synthetic controls on national registration data and state incentive variation.\n- Main payoff: a policy ranking that is both adoption-relevant and welfare-aware.\n\n- Research design type: reduced-form policy evaluation.\n- Structural model class or reduced-form design: difference-in-differences plus synthetic controls.\n- Key equations or choice objects: BEV registrations as the outcome, state incentives as the treatment.\n- Endogeneity problem: states choose incentives in ways that could correlate with adoption trends.\n- Identification strategy: exploit time and cross-state variation, then cross-check with synthetic controls.\n- What assumptions are doing the heavy lifting: parallel trends in the DID design and the validity of the synthetic comparison set.\n\n- Unit of observation: state-level BEV registrations over time.\n- Market definition: US BEV market across states.\n- Main dependent variable: BEV adoption / registrations.\n- Core explanatory variables: direct rebates, tax credits, and other incentive measures.\n- Instruments / moments / shocks: policy timing and state-level incentive changes.\n- Important sample restrictions: the paper focuses on the period with enough policy variation to identify incentive effects.\n\n- Which papers are treated as the nearest neighbors: EV subsidy papers, adoption papers, and broader clean-technology policy studies.\n- What exact gap the authors claim: no prior study had isolated state-level incentive impacts with this combination of methods.\n- How the introduction stages novelty: first the policy question, then the data gap, then the identification design.\n- Whether the contribution is data, method, theory, policy, or a combination: primarily policy with a methods component.\n\n- Where the review sits: the introduction uses it to motivate why incentive-type heterogeneity matters.\n- How the review is organized: by policy instrument and by EV adoption evidence.\n- Which citations do positioning work: prior EV policy papers define the policy debate.\n- Which citations do method-validation work: quasi-experimental policy evaluation references justify the DID and synthetic-control design.",
+  "baseline_core_memory": "- Research design type: reduced-form policy evaluation.\n- Structural model class or reduced-form design: difference-in-differences plus synthetic controls.\n- Key equations or choice objects: BEV registrations as the outcome, state incentives as the treatment.\n- Endogeneity problem: states choose incentives in ways that could correlate with adoption trends.\n- Identification strategy: exploit time and cross-state variation, then cross-check with synthetic controls.\n- What assumptions are doing the heavy lifting: parallel trends in the DID design and the validity of the synthetic comparison set.",
+  "mechanism_memory": "- Baseline result: direct purchase rebates increase new BEV registrations, with an effect around 8 percent per $1000 incentive.\n- Mechanism evidence: rebate effects show up more cleanly than tax-credit effects because the former are more salient and easier to time with the purchase.\n- Heterogeneity evidence: the paper notes that vehicle model availability and incentive type both matter.\n- Welfare or counterfactual result: the programs are not welfare-improving if the only benefit counted is avoided environmental damage.\n- Limits the authors admit: tax credits may be harder to identify because of limited temporal variation, so a null may mix economics and identification.\n\n- 从问题出发：To overcome adoption barriers and promote battery electric vehicles (BEVs) as an energy e cient consumer transportation option, a number of states o er subsidies to consumers for BEVs.\n- 把识别对象具体化：We use a national data set of vehicle registrations and state-level nancial incentives to assess the impact of vehicle purchase subsidies on adoption using both di erence-in- di erences and synthetic controls methods.\n- 最后把结果落到政策/福利含义：Our ndings indicate incentives o ered as state income tax credits do not have a statistically signi cant e ect on BEV adoptions, though we caution this may be a result of limited temporal variation in BEV incentives across our sample.",
+  "result_memory": "- Baseline result: direct purchase rebates increase new BEV registrations, with an effect around 8 percent per $1000 incentive.\n- Mechanism evidence: rebate effects show up more cleanly than tax-credit effects because the former are more salient and easier to time with the purchase.\n- Heterogeneity evidence: the paper notes that vehicle model availability and incentive type both matter.\n- Welfare or counterfactual result: the programs are not welfare-improving if the only benefit counted is avoided environmental damage.\n- Limits the authors admit: tax credits may be harder to identify because of limited temporal variation, so a null may mix economics and identification.\n\n- Results anchor: poral variation in BEV incentives across our sample. Responses to\n- Conclusion anchor: in point estimates in quarters prior to policies taking eﬀect prevents us from treating this",
+  "writing_style_memory": "- Introduction move sequence: EV policy puzzle -> policy heterogeneity -> identification plan -> adoption and welfare results.\n- Section order: intro -> data -> empirical design -> results -> welfare -> conclusion.\n- Where the paper turns from setup to payoff: once the state-policy design is shown to identify rebate effects.\n- How tables/figures are used to move the argument: event-style adoption comparisons and synthetic-control plots likely anchor the causal story.\n\n- Best framing sentence pattern: \"It is not enough to ask whether incentives work; we also need to know which incentives work.\"\n- Best transition pattern: \"We next separate the policy instruments using a quasi-experimental design.\"\n- Best contribution sentence pattern: \"By isolating state-level variation, we can move from anecdote to policy ranking.\"\n- Best limitation or implication move: always separate adoption effects from welfare effects.\n\n- Durable economics-writing principle: compare policy instruments directly when the policy debate is about design, not just existence.\n- Durable structural-model principle: a null result can reflect weak identification, so note that possibility explicitly.\n- Reusable empirical design idea: synthetic controls are a strong companion to DID when state policy variation is limited.\n- Follow-up paper to pair with this one: any clean-state EV incentive study with richer welfare accounting.\n\n- 在模型前先铺设数据与制度背景，让后面的结构设定看起来是被场景逼出来的。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。",
+  "professional_vocab": [
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "equilibrium",
+    "substitution",
+    "marginal cost",
+    "market definition",
+    "heterogeneity",
+    "fuel economy",
+    "charging infrastructure"
+  ],
+  "fulltext_headings": [
+    "Journal Pre-proof",
+    "Providing the Spark: Impact of financial incentives on battery electric vehicle adoption",
+    "Bentley Clinton, Daniel Steinberg",
+    "PII:",
+    "S0095-0696(18)30311-5",
+    "DOI:",
+    "Reference:",
+    "YJEEM 102255",
+    "To appear in:",
+    "Journal of Environmental Economics and Management",
+    "Received Date: 28 January 2016",
+    "Revised Date:",
+    "30 June 2019",
+    "Accepted Date: 27 August 2019",
+    "Providing the Spark: Impact of Financial Incentives on Battery Electric",
+    "Bentley Clintona, Daniel Steinbergb",
+    "Cambridge, MA 02139, United States",
+    "15013 Denver West Parkway,",
+    "Golden, CO 80401, United States",
+    "Abstract",
+    "Between 2011 and 2015, vehicle rebate incentives are associated with an increase in overall BEV",
+    "Keywords: Electric vehicles, tax incentives, rebates, technology adoption",
+    "Running title: Impact of Financial Incentives on BEV Adoption",
+    "Corresponding author contact:"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 2,
+      "snippet": "Clintona, Daniel Steinbergb\naMIT Energy Initiative (MITEI),\nCambridge, MA 02139, United States\nbNational Renewable Energy Laboratory (NREL),\n15013 Denver West Parkway,\nGolden, CO 80401, United States\nAbstract\nTo overcome adoption barriers and promote battery electric vehicles (BEVs) as an energy eﬃcient\nconsumer transportation option, a number of states oﬀer subsidies to consumers for BEVs. We use\na national data set of vehicle registrations and state-level ﬁnancial incentives to assess the impact\nof vehicle purchase subsidies on adoption using both diﬀerence-in-diﬀerences and synthetic controls\nmethods. We ﬁnd that incentives oﬀered as direct purchase rebates generate increased levels of new\nBEV registrations at a rate of approximately 8 percent per thousand dollars of incentive oﬀered.\nBetween 2011 and 2015, vehicle rebate incentives are associated with an increase in overall BEV\nregistrations of approximately 11 percent. Our ﬁndings indicate incentives oﬀered as state income\ntax cre"
+    },
+    "data": {
+      "page": 2,
+      "snippet": "overcome adoption barriers and promote battery electric vehicles (BEVs) as an energy eﬃcient\nconsumer transportation option, a number of states oﬀer subsidies to consumers for BEVs. We use\na national data set of vehicle registrations and state-level ﬁnancial incentives to assess the impact\nof vehicle purchase subsidies on adoption using both diﬀerence-in-diﬀerences and synthetic controls\nmethods. We ﬁnd that incentives oﬀered as direct purchase rebates generate increased levels of new\nBEV registrations at a rate of approximately 8 percent per thousand dollars of incentive oﬀered.\nBetween 2011 and 2015, vehicle rebate incentives are associated with an increase in overall BEV\nregistrations of approximately 11 percent. Our ﬁndings indicate incentives oﬀered as state income\ntax credits do not have a statistically signiﬁcant eﬀect on BEV adoptions, though we caution this\nmay be a result of limited temporal variation in BEV incentives across our sample. Responses to\nrebate incentives do not"
+    },
+    "model": {
+      "page": 5,
+      "snippet": "information about state BEV subsidies in the\nUnited States to quantify the impact of state-level ﬁnancial incentives on BEV adoptions.\nWe take advantage of heterogeneity in subsidy types and vehicle model oﬀerings in our\nsample to explore various subsidy responses in the BEV market. Speciﬁcally, we examine\n1At the time of this writing, a number of states are considering the renewal of existing subsidies.\nTabuchi, Hiroko. 2017. “Behind the Quiet State-by-State Fight Over Electric Vehicles.” New York Times.\nhttps://nyti.ms/2mwqlYV. Accessed March 2017.\n2BEVs represent a fundamentally distinct vehicle technology from traditional hybrid vehicles (e.g., Toyota\nPrius) and plug-in hybrids (e.g., Chevrolet Volt).\nUnlike hybrids that represent an incremental change\nto conventional vehicles by providing higher mile-per-gallon realizations through supplementary electric\npower, BEVs are solely powered by electricity. This results in an increased reliance on alternative fueling\ninfrastructure and"
+    },
+    "results": {
+      "page": 2,
+      "snippet": "poral variation in BEV incentives across our sample. Responses to\nrebate incentives do not diﬀer signiﬁcantly by the make of the vehicle purchased (i.e., Tesla and\nnon-Tesla vehicles). We combine our results with recent assessments of marginal environmental\ncosts of electric vehicle charging and measure net welfare eﬀects of BEV subsidy programs. Our\nanalysis indicates these programs are not welfare-improving if only considering beneﬁts associated\nwith avoided emissions. Additional beneﬁts associated with long-term market growth, production\ncost savings, network externalities, or accelerated innovation could substantially impact the net\nwelfare outcomes.\n$This work was authored in part by the National Renewable Energy Laboratory, operated by Alliance for Sustain-\nable Energy, LLC, for the U.S. Department of Energy (DOE) under Contract No. DE-AC36-08GO28308. Funding\nprovided by the U.S. Department of Energy Oﬃce of Energy Eﬃciency and Renewable Energy. The views expressed\nherein do not"
+    },
+    "conclusion": {
+      "page": 19,
+      "snippet": "trend\nin point estimates in quarters prior to policies taking eﬀect prevents us from treating this\ntest as deﬁnitive evidence that the parallel trends assumption holds. To further explore the\ngeneral conclusion of the above diﬀerence-in-diﬀerences estimation, we augment our study\nby measuring treatment eﬀects using synthetic control methods.\nEstimated eﬀects with synthetic controls. Matching methods, such as propensity score match-\ning or synthetic controls estimation are alternatives to estimating treatment eﬀects. Neither\nof these methods require the parallel trends assumption, as they rely on selecting control\ngroups based on observable covariates and outcomes. Synthetic controls are preferable to\nalternative matching methods when single, untreated units are not good matches to treated\nunits in the sample (Abadie et al., 2015). This is the case in our data where state-level BEV\nadoption behavior is heterogeneous across states. We construct synthetic versions of treated\nstates based"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper estimates how state-level financial incentives affect BEV adoption in the US.",
+      "Which papers are treated as the nearest neighbors: EV subsidy papers, adoption papers, and broader clean-technology policy studies."
+    ],
+    "session": [
+      "Retrieve by key/title: I6ZAU5HX / Providing the Spark: Impact of financial incentives on battery electric vehicle adoption",
+      "Use collections and journal handles: Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Clinton & Steinberg, 2019) / Clinton and Steinberg (2019)"
+    ],
+    "agent": [
+      "Research design type: reduced-form policy evaluation.",
+      "Check how the paper modifies or simplifies canonical BLP before borrowing its structure."
+    ],
+    "team": [
+      "Best framing sentence pattern: \"It is not enough to ask whether incentives work; we also need to know which incentives work.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

@@ -1,0 +1,2228 @@
+
+
+===== [PAGE 1] =====
+
+ 
+ 
+Alessandro Gavazza, Alessandro Lizzeri, Nikita Roketskiy 
+A quantitative analysis of the used-car 
+market 
+Article (Accepted version) 
+(Refereed) 
+Original citation: 
+Gavazza, Alessandro, Lizzeri, Alessandro and Roketskiy, Nikita (2014) A quantitative analysis of 
+the used-car market. American Economic Review. pp. 1-44. ISSN 0002-8282 (In Press)  
+ 
+© 2014 American Economic Association 
+ 
+This version available at: http://eprints.lse.ac.uk/55720/ 
+ 
+Available in LSE Research Online: August 2014 
+ 
+LSE has developed LSE Research Online so that users may access research output of the 
+School. Copyright © and Moral Rights for the papers on this site are retained by the individual 
+authors and/or other copyright owners. Users may download and/or print one copy of any 
+article(s) in LSE Research Online to facilitate their private study or for non-commercial research. 
+You may not engage in further distribution of the material or use it for any profit-making activities 
+or any commercial gain. You may freely distribute the URL (http://eprints.lse.ac.uk) of the LSE 
+Research Online website.  
+ 
+This document is the author’s final accepted version of the journal article. There may be 
+differences between this version and the published version.  You are advised to consult the 
+publisher’s version if you wish to cite from it. 
+ 
+ 
+ 
+
+
+===== [PAGE 2] =====
+
+A Quantitative Analysis of the Used-Car Market∗
+Alessandro Gavazza¶
+Alessandro Lizzeri§
+Nikita Roketskiy∥
+January 2014
+Abstract
+We quantitatively investigate the allocative and welfare eﬀects of secondary markets
+for cars. An important source of gains from trade in these markets is the heterogeneity
+in the willingness to pay for higher-quality (newer) goods, but transaction costs are
+an impediment to instantaneous trade. Calibration of the model successfully matches
+several aggregate features of the U.S. and French used-car markets.
+Counterfactual
+analyses show that transaction costs have a large eﬀect on volume of trade, allocations,
+and the primary market. Aggregate eﬀects on consumer surplus and welfare are relatively
+small, but the eﬀect on lower-valuation households can be large.
+∗We are grateful to Chad Syverson, four anonymous referees and the editor, and many seminar audiences
+for insightful comments, and to Alistair Wilson for excellent research assistance. NSF support is gratefully
+acknowledged. The authors acknowledge the use of the UCL Legion High Performance Computing Facility
+(Legion@UCL), and associated support services, in the completion of this work.
+¶Department of Economics, London School of Economics. Houghton Street, London WC2A 2AE, United
+Kingdom. Email: a.gavazza@lse.ac.uk.
+§Department of Economics, New York University, 19 West 4th Street, New York, NY 10012-1119, United
+States. Email: alessandro.lizzeri@nyu.edu.
+∥Department of Economics, University College London, 30 Gordon Street, London, WC1H 0AX, United
+Kingdom. Email: n.roketskiy@ucl.ac.uk.
+
+
+===== [PAGE 3] =====
+
+1
+Introduction
+Secondary markets play an important allocative role for some durable goods. For instance,
+in the U.S., the number of used-car transactions is approximately three times as large as the
+number of new-car transactions. Furthermore, the dispersion of used-car prices (measured by
+the coeﬃcient of variation) is approximately ﬁve times as large as the dispersion of new-car
+prices, suggesting that secondary markets play an important role in broadening the spectrum
+of goods available to consumers.1
+The amount of activity in secondary markets varies dramatically across goods, with some
+markets extremely active (e.g., cars, aircraft) and others much less so (e.g., household appli-
+ances, computers). More surprisingly, the amount of activity also varies substantially across
+diﬀerent countries for the same goods. For instance, the American used-car market is much
+more active than the French market. What forces are responsible for these diﬀerences? What
+are the consequences for prices and allocations, for producers’ proﬁts and consumers’ welfare?
+How do these diﬀerences in activity aﬀect the extent of variety available to consumers? Can
+some of the observed diﬀerences in the primary markets across goods and countries be due, in
+part, to the underlying causes of the diﬀerences in activity in the secondary markets? These
+are some of the questions that this paper addresses.2
+We present a simple model of durable-goods markets to tackle these issues.
+As in all
+markets, activity in secondary markets arises because of some gains from trade between coun-
+terparties. In the car market, an important source of such gains from trade is heterogeneity
+in the willingness to pay for quality: high-willingness-to-pay consumers sell used units when
+they upgrade to a new unit.3 Transaction costs are an impediment to instantaneous (i.e., 100
+percent) trade.4 The extent of trade depends on the degree of heterogeneity in preferences.
+We quantitatively investigate how the distribution of non-durable consumption contributes
+to this heterogeneity by calibrating our model to match the aggregate volume of trade in the
+used-car market. Despite its simplicity, the model ﬁts the data very well.
+1The coeﬃcient of variation is calculated from the National Automobile Dealers Association (NADA) Car
+Price Guide.
+2Empirical studies of secondary markets include the following markets: cars (Porter and Sattler, 1999;
+Adda and Cooper, 2000; Stolyarov, 2002; Esteban and Shum, 2007; Chen, Esteban and Shum, 2013; and
+Schiraldi, 2011); truck tractors (Bond, 1983); commercial aircraft (Pulvino, 1998; Gavazza, 2011a and 2011b);
+business aircraft (Gilligan, 2004; Gavazza, 2013); and capital equipment (Eisfeldt and Rampini, 2009).
+3There are, of course, other reasons for trade. For instance, the ideal car depends on household size, so
+changes in the number of children may lead some households to trade in their sedan to purchase a minivan.
+We could, in principle, add such characteristics to our model.
+4Jovanovic (1998 and 2009) considers frictionless reassignment in a vintage model.
+1
+
+
+===== [PAGE 4] =====
+
+We then use the model to perform several counterfactuals, with the purpose of understand-
+ing the functioning of secondary markets and their impact on the market for new goods. First,
+we examine the eﬀects of transaction costs by comparing two polar cases with the baseline
+calibrated model: perfectly functioning secondary markets with zero transaction costs and
+complete shutdown of secondary markets with prohibitive transaction costs. Naturally, we
+expect any changes in secondary markets to aﬀect primary markets. Thus, the supply re-
+sponse of new-goods producers is an important element determining the welfare consequences
+of secondary markets’ frictions. We consider two extreme supply scenarios that help highlight
+how primary markets adjust: 1) a perfectly elastic supply—i.e., the price of new cars does not
+respond to changes in transaction costs, but the quantity does; and 2) a perfectly inelastic
+supply—i.e., the quantity of new cars does not respond to changes in transaction costs, but
+the price does. We believe that these counterfactuals are useful to understand the importance
+of transaction costs for manufacturers, since they indicate that either output or prices change
+when transaction costs change, even in an oligopolistic market for new cars.5
+Three key economic forces aﬀect allocations and welfare in our counterfactuals with diﬀer-
+ent transaction costs relative to the baseline case: 1) Higher (lower) transaction costs have the
+partial-equilibrium direct eﬀect of destroying (freeing) resources, thereby aﬀecting households’
+willingness to pay because they obtain diﬀerent net resale prices; 2) lower (higher) transaction
+costs have the partial-equilibrium indirect eﬀect of allowing a ﬁner (coarser) matching between
+households’ preferences and the quality of their cars; and 3) the two previous forces feed into
+the general-equilibrium eﬀects of changing new- and used-car prices and/or quantities relative
+to the baseline case.
+Overall, we ﬁnd that the impact of transaction costs on allocations in both the secondary
+market and in the market for new goods is large. In contrast, the eﬀects on aggregate welfare
+are small, although the distribution of these eﬀects is uneven, with low-valuation households
+suﬀering large losses from increases in transaction costs. For instance, if transaction costs
+are large enough to shut down secondary markets, the aggregate consumer-surplus loss equals
+two to six percent of the aggregate baseline consumer surplus (in which transaction costs
+are calibrated to the data), depending on the elasticity of new-car supply. However, some
+households with preferences below the median suﬀer surplus losses larger than 50 percent of
+their baseline surplus. Aggregate welfare changes are smaller because, due to heterogeneity,
+the highest-valuation households have disproportionate weights in the calculation of aggre-
+5Most of our analysis focuses on a single quality of new cars to simplify the way in which secondary markets
+expand the array of goods available to consumers, but we also consider how the forces that we discuss operate
+when new cars of diﬀerent qualities are available (see Section 5.1.2).
+2
+
+
+===== [PAGE 5] =====
+
+gate surplus. These households have the smallest surplus loss when transaction costs increase
+because several margins of adjustment allow them to reduce the eﬀects of transaction costs—
+for example, they can scrap their cars if resale is prohibitively expensive—and they do not
+suﬀer much from the higher costs that accompany such adjustments. However, since transac-
+tion costs lower the total quantity of cars by increasing scrappage, low-preference households
+disproportionately suﬀer from this reduced availability of cars.
+These counterfactual analyses also reveal some additional intriguing ﬁndings. For example,
+we ﬁnd that either new-car output or new-car prices (depending on whether new-car supply is
+elastic or inelastic) is non-monotonic in transaction costs, with either output or prices going
+up relative to the baseline case. This non-monotonicity is due to the diﬀerent quantitative
+magnitudes of the key economic forces for diﬀerent levels of transaction costs. When transac-
+tion costs are zero, frictionless secondary markets lead to much ﬁner matching of qualities to
+households’ valuations, thereby raising high-valuation households’ willingness to pay for new
+cars. When supply is perfectly elastic (inelastic), the quantity (price) of new cars produced
+must increase. When transaction costs are prohibitive, however, used-car markets shut down
+completely, so the only way for households to upgrade quality is to scrap their used units.
+Indeed, scrappage increases substantially, with cars lasting only two thirds as long as in the
+baseline scenario. This increased scrappage feeds into a substantially higher demand for new
+cars and, hence, higher output or price, depending on the elasticity of supply.
+We further consider the allocative and welfare eﬀects of a scrappage policy that forces
+households to scrap their cars earlier than they otherwise would. Scrappage policies have
+been introduced in a number of countries, and the policy that we consider is closest to the
+Japanese shaken system of tough emission inspections that induces a particularly young ﬂeet
+of cars in Japan.6 Speciﬁcally, we impose that households have to scrap their cars when they
+reach the (approximate) scrappage age that keeps the total stock of cars equal to the stock in
+the counterfactual with prohibitive transaction costs, so this choice facilitates the comparison
+between these counterfactuals. However, two substantive diﬀerences arise between these two
+counterfactuals. First, secondary markets are active when there is a scrappage policy, but
+they are not when transaction costs are prohibitive. Second, households’ scrappage decisions
+are heterogeneous when transaction costs are prohibitive, with higher-valuation households
+scrapping their cars substantially earlier than lower-valuation households. However, this het-
+erogeneity does not arise under the scrappage policy since all cars have positive net resale
+6As we explain in Section 5.2, our steady-state model is less well suited to an analysis of temporary policies
+such as cash for clunkers. See Adda and Cooper (2000) for such an analysis that does not, however, take into
+account the eﬀects of secondary markets.
+3
+
+
+===== [PAGE 6] =====
+
+values, and, thus, no households scrap them before they reach the imposed scrappage age.
+We ﬁnd that this scrappage policy has minor eﬀects on aggregate welfare relative to the
+baseline case, especially in the case of elastic supply, although the welfare losses are again
+large for low-valuation households. Moreover, we ﬁnd that welfare is higher with this scrap-
+page policy than with prohibitive transaction costs, further highlighting the welfare gains of
+resale markets. The reason is that the ﬁrst eﬀect—i.e., active secondary markets—allows a
+ﬁner matching of relatively young vintages to high-valuation consumers, whereas the second
+eﬀect—i.e., heterogeneous scrappage—allows ﬁner control of relatively low-quality cars for
+low-valuation consumers. The ﬁrst eﬀect dominates because of supermodularity: More value
+is created at the top of the quality distribution than is lost at the bottom.
+Finally, we explore the quantitative eﬀects of heterogeneity by considering data from an-
+other country, France. The distribution of non-durable consumption in France is less dispersed
+than in the U.S., and the model predicts that we should observe less trade in the French used-
+car market than in the U.S. market. Indeed, this is also what the data say. The magnitude
+of the diﬀerence is also substantial: The average holding time is approximately 30-percent
+longer in France than in the U.S. Our model quantitatively matches French aggregate statis-
+tics fairly well. Of course, there are many diﬀerences between the U.S. and France beyond
+the diﬀerences in the distribution of non-durable consumption. However, it is notable that
+the model can account for the diﬀerences in the aggregate car-market data on which we focus.
+Another interesting consequence of lower heterogeneity is that car prices are ﬂatter in France
+than in the U.S., starting with a lower new-car price and ending with higher used-car prices
+in France for the oldest vintages.
+2
+Related Literature
+This article contributes to two main strands of the literature. First, the theoretical literature
+on consumer durable goods has investigated the role of secondary markets in allocating new
+and used goods (Rust, 1985; Anderson and Ginsburgh, 1994; Waldman 1997, 2003; Hendel
+and Lizzeri, 1999a,b; Stolyarov, 2002). The ﬁrst part of our paper is close to Stolyarov (2002),
+which investigates resale rates across diﬀerent car vintages. We contribute to this strand of the
+literature by providing a quantitative analysis of the allocative and welfare eﬀects of secondary
+markets, and by evaluating policies that aﬀect secondary markets.
+Second, a series of papers analyzes car markets. Many inﬂuential papers analyze product
+diﬀerentiation and consumers’ choices among new cars (Bresnahan, 1981; Berry, Levinsohn
+and Pakes, 1995; Goldberg, 1995; Petrin, 2002) or manufacturers’ pricing (Verboven, 1996;
+4
+
+
+===== [PAGE 7] =====
+
+Goldberg and Verboven, 2001), but they do not consider used goods and secondary markets.
+Wang (2008) incorporates the durability of the good in consumers’ choice of new cars, and
+Schiraldi (2011) considers new and used cars in consumers’ choice sets, but neither analyzes the
+equilibrium in the market. Eberly (1994) and Attanasio (2000) study households’ adjustments
+of their vehicles’ stocks in partial-equilibrium. Hence, relative to all these contributions, our
+equilibrium model is better suited to address the general-equilibrium eﬀects of heterogeneity
+and secondary markets and of policies, such as scrappage policies, that impact durable-goods
+markets. The closest papers to ours are Chen, Esteban and Shum (2013) and Yurko (2012).
+The main diﬀerence with Chen, Esteban and Shum (2013) is that they focus on the eﬀects
+of the secondary market on the primary market: They consider an oligopoly model with
+forward-looking ﬁrms, and they compare the eﬀects of secondary markets both for the case
+of commitment and for the case in which manufacturers lack commitment.
+Instead, our
+main focus is on the allocative and welfare role of secondary markets: We consider a model
+with richer household heterogeneity and greater vertical variety of used goods. Similarly, the
+contemporaneous paper by Yurko (2012) investigates the role of heterogeneity in car markets,
+but does not consider the allocative and welfare eﬀects of secondary markets, as we do by
+performing the counterfactual analyses in Section 5.7
+3
+Model
+3.1
+Assumptions
+We modify a model of vertical product diﬀerentiation, which has become a standard way
+to model secondary markets (see, for instance, Rust, 1985; Anderson and Ginsburgh, 1994;
+Hendel and Lizzeri, 1999a and 1999b). Stolyarov (2002) numerically solved such a model
+and obtained some interesting patterns for secondary markets with transaction costs. We
+extend Stolyarov’s analysis to incorporate some features that are important in the data, such
+as multiple cars per household and the combination of exogenous and endogenous scrappage.
+We then evaluate how this simple model can account for some aggregate features of the data,
+while abstracting from some important features of car markets, such as horizontal product
+diﬀerentiation.
+The ﬁrst step is to obtain the equilibrium in the car market for any given level of new-car
+output. In every period, a constant (exogenous) ﬂow x of new cars enters the market. We
+7Yurko’s (2012) model also assumes an exogenous functional form for prices, whereas we impose no re-
+strictions on prices.
+5
+
+
+===== [PAGE 8] =====
+
+will infer this output from the data and, as will become clear, in our baseline model, it would
+be equivalent to assume that the unit cost of cars is equal to p0 and that the car industry is
+perfectly competitive, so that any quantity of new cars can be supplied at price p0.8
+New cars are homogeneous,9 with quality q0, and depreciate over time: A car of age a is
+of quality qa, with qa > qa+1.10 In each period, each car “dies” with exogenous probability
+γ, independent of the age of the car; we interpret this exogenous “death” as the result of
+accidents or other events that induce households to scrap their cars. All “surviving” cars
+are (endogenously) scrapped at time T. For expositional simplicity, we describe the case in
+which, in equilibrium, all agents choose to scrap at the same time T, as this is the relevant
+case for our baseline calibration.11 The steady-state total mass of cars X is equal to X =
+PT
+t=0 x (1 −γ)t = x1−(1−γ)T +1
+γ
+.
+A majority of U.S. households own more than one car (see Section 4.1). We need the model
+to capture this feature of the data for two reasons: ﬁrst, because, there are more cars than
+households, so assuming unit demand would not be consistent with secondary-market activity
+(we discuss this in more detail later); and, second, because we want to contrast the U.S. with
+France, where the number of cars per household is lower. However, allowing households to
+hold more than one car signiﬁcantly complicates the numerical computation, so we do not
+allow for more than two cars. Speciﬁcally, we assume that each household has a preference
+parameter θ that determines the ﬂow of utility that the household enjoys from its cars. A
+household with preference θ and with two cars of vintages a and b enjoys a per-period ﬂow
+of utility equal to θ max{qa, qb} −c from its ﬁrst (better) car, and αθ min{qa, qb} −c from
+its second (worse) car. The parameter α ∈(0, 1) captures the lower valuation for the second
+car, and the parameter c is a per-period holding (i.e., maintenance) cost, independent of
+car quality. The role of the holding cost is to generate a reasonable scrappage age.12 The
+preference parameter θ is distributed in the population according to the non-degenerate c.d.f.
+8In our counterfactuals, we consider two scenarios for supply: 1) a perfectly elastic supply, as in a perfectly
+competitive industry with constant marginal cost equal to p0; and 2) a perfectly inelastic (per-period) supply
+equal to x.
+9We consider heterogeneous vertical qualities of new goods in Section 5.1.2. Clearly, the car market exhibits
+features that we abstract from, such as horizontal diﬀerentiation among car models, as in Berry, Levinsohn,
+and Pakes (1995). However, the focus of our analysis is on the replacement patterns that emerge from gains
+from trade due to vertical diﬀerentiation among diﬀerent ages of a given car model.
+10We can also interpret depreciation as the growing distance between older cars and the improving techno-
+logical frontier of new models (e.g., air bags, electronic stability control, etc.).
+11Some of our counterfactuals require aggregation of heterogeneous scrappage decisions. This is a straight-
+forward extension that we omit from the main analysis to avoid cumbersome notation.
+12For scrappage decisions the only relevant holding costs are those for cars close to the scrappage age.
+6
+
+
+===== [PAGE 9] =====
+
+F, whereas α is distributed in the population according to the non-degenerate c.d.f. G. We
+assume that for each household θ and α are independent and do not change over time.13
+In order for the model to generate interesting implications for trade in the secondary
+market, and to match relevant features of the data, we introduce some frictions. We assume
+that there are transaction costs in the secondary market: If a household sells a car of age a,
+it pays a transaction cost λa proportional to the sale price.14 The level of transaction costs
+will be a key variable in some of our counterfactuals.
+3.2
+Household problem
+A household chooses how many cars to own and, for each car, which vintage to buy and how
+long to keep it. Let Vθ,α(a, b) be the value function of a household with preferences (θ, α) that,
+in the current period, is enjoying cars of vintage a and b, respectively. Vθ,α(a, b) satisﬁes:
+Vθ,α(a, b) = θ max{qa, qb} + αθ min{qa, qb} −cI {a < T + 1} −cI {b < T + 1}
+(1)
++ β (1 −γ)2 max
+a′,b′ (Vθ,α(a′, b′) −pa′ + pa+1 (1 −λa+1I{a′ ̸= a + 1})
+−pb′ + pb+1 (1 −λb+1I{b′ ̸= b + 1}))
++ β (1 −γ) γ max
+a′,b′ (Vθ,α(a′, b′) −pa′ + pa+1 (1 −λa+1I{a′ ̸= a + 1}) −pb′)
++ β (1 −γ) γ max
+a′,b′ (Vθ,α(a′, b′) −pa′ −pb′ + pb+1 (1 −λb+1I{b′ ̸= b + 1}))
++ βγ2 max
+a′,b′ (Vθ,α (a′, b′) −pa′ −pb′) ,
+where we let qx ≡0 and px ≡0 for x > T mean having no car, and β is the discount factor
+common to all households.
+Equation (1) says that the household enjoys the current-period utility ﬂows θ max{qa, qb}−c
+and αθ min{qa, qb} −c from their youngest and oldest car, respectively; recall that, if they
+own no car (car qT+1 in our notation), then this ﬂow utility is zero. In the next period, one
+of four possible events may happen to a household:
+13We considered temporary shocks to preferences but in our computation these shocks were of negligible
+importance for our calibration.
+14The fact that transaction costs are paid by the sellers is immaterial: just like for taxation, equilibrium
+allocations are invariant to the “statutory incidence” of transaction costs. Some dependence of transaction
+costs on prices is realistic and allowing for a ﬁxed component of transaction costs does not change our qual-
+itative and quantitative results. It is also possible to interpret the transaction cost as a reduced form of
+adverse selection. This would give an additional reason why the percentage transaction cost would rise with
+the vintage of the good since uncertainty over the quality of cars is likely to rise with the age of the car.
+7
+
+
+===== [PAGE 10] =====
+
+1. With probability (1 −γ)2 , all its cars are still “alive,” and the household chooses between
+replacing any car or keeping it. If the household chooses to replace the depreciated
+vintage-(a + 1) car with a diﬀerent vintage-a′ car, it pays the price pa′ and receives the
+price pa+1 net of the transaction costs λa+1pa+1. If the household chooses not to replace
+the car, it enjoys a car of vintage a′ = a + 1, thereby avoiding any transaction costs.
+2. With probability (1 −γ) γ, the household exogenously scraps its vintage-b car. It then
+chooses which vintage b′ to acquire to replace the scrapped car and chooses whether to
+replace the depreciated vintage-(a + 1) car with a diﬀerent vintage-a′ car.
+3. With probability (1 −γ) γ, the household exogenously scraps its vintage-a car. It then
+chooses which vintage a′ to acquire to replace the scrapped car and chooses whether to
+replace the depreciated vintage-(b + 1) car with a diﬀerent vintage-b′ car.
+4. With probability γ2, the household exogenously scraps both its cars and then chooses
+which vintages a′ and b′ to purchase, if any.
+At the beginning of each period, given preferences (θ, α) and currently-owned vintages a
+and b, households choose policies a∗(θ, α, a, b) and b∗(θ, α, a, b) to maximize
+Vθ,α(a′, b′) −pa′ + pa (1 −λaI{a′ ̸= a}) −pb′ + pb (1 −λbI{b′ ̸= b}) .
+Moreover, the endogenous scrappage age T is determined by the following conditions: i) No
+household chooses to keep a car of quality qT ; ii) no household buys a car of quality qT; and
+iii) a car of quality qT has a price pT equal to zero.
+Let h (a, b|θ, α) be the stationary distribution of holdings of cars of vintages a and b, respec-
+tively, for a household with preferences θ and α. This distribution h (a, b|θ, α) is constructed
+recursively as:
+h
+ a′, b′|θ, α
+
+=
+T+1
+X
+a=0
+T+1
+X
+b=0
+(1 −γ)2 I{a∗(θ, α, a + 1, b + 1) = a′, b∗(θ, α, a + 1, b + 1) = b′}h (a, b|θ, α) +
+T+1
+X
+a=0
+T+1
+X
+b=0
+(1 −γ) γI{a∗(θ, α, a + 1, T + 1) = a′, b∗(θ, α, a + 1, T + 1) = b′}h (a, b|θ, α) +
+T+1
+X
+a=0
+T+1
+X
+b=0
+(1 −γ) γI{a∗(θ, α, T + 1, b + 1) = a′, b∗(θ, α, T + 1, b + 1) = b′}h (a, b|θ, α) +
+T+1
+X
+a=0
+T+1
+X
+b=0
+γ2I{a∗(θ, α, T + 1, T + 1) = a′, b∗(θ, α, T + 1, T + 1) = b′}h (a, b|θ, α) .
+(2)
+Equation (2) says that a household with preferences θ and α and cars of vintages a and b
+faces the random exogenous scrappage of their cars. With probability (1 −γ)2, these cars do
+8
+
+
+===== [PAGE 11] =====
+
+not “die” but are one year older, and the household chooses which vintages a′ and b′ to drive
+in the current period. Similarly, with probability (1 −γ) γ, one car dies—thereby becoming
+a car of vintage T + 1—and the other car is one year older. The other events have similar
+explanations.
+Integrating over households’ preferences yields the stationary distribution Q (a′, b′) over
+holdings of cars of vintages a′ and b′:
+Q (a′, b′) =
+Z 1
+0
+Z ∞
+0
+h (a′, b′|θ, α) dF (θ) dG (α) .
+(3)
+Market equilibrium is deﬁned by standard competitive conditions. Speciﬁcally, an equi-
+librium is a vector of households’ policies a∗(θ, α, a, b) and b∗(θ, α, a, b) and a vector of prices
+p = (p0, .., pT−1) such that: (i) decision rules are optimal, and (ii) for every vintage t, house-
+holds’ car holdings PT
+b=0 Q (t, b) + PT
+a=0 Q (a, t) equal the stock x (1 −γ)t of this vintage.
+4
+Calibration
+4.1
+Data
+We use data from the 2000 Consumer Expenditure Survey (CEX), a cross-sectional survey of
+7,860 U.S. households. The CEX reports detailed information about households’ vehicles at
+the time of the interview, such as the model; the age; whether it is owned or leased; whether
+it was acquired in the last 12 months; whether it was acquired new or used; and the price
+paid.15 The CEX also reports households’ income and consumption for diﬀerent categories of
+goods. We aggregate consumption goods to construct households’ non-durable consumption
+following Krueger and Perri (2006), and we will use it to capture households’ willingness to
+pay for car quality in our quantitative analysis.
+Table 1 reports some aggregate statistics on households’ car holdings, computed from the
+CEX. The quantitative analysis of our model will aim to match these moments. Speciﬁcally,
+the ﬁrst row reports that, on average, one in every three U.S. households acquired a car
+in the 12 months prior to the survey interview. The second row reports that one in every
+4.5 cars was purchased within the last 12 months. The third row reports that, of all cars
+traded, approximately one in every four cars was new. Overall, these patterns indicate that
+15The CEX also reports some information on cars provided by the employers (company cars), but this
+information is less detailed than information about personal cars. In addition, in some cases, the decision to
+replace a company car may not be in the hands of the household. For these reasons, we exclude company cars
+from our analysis, but it is possible that some households use their cars for business purposes.
+9
+
+
+===== [PAGE 12] =====
+
+Table 1: Secondary Market for Cars, U.S.
+Households with at least one car
+Households that acquired a car in the last 12 months
+3.09
+Total stock of cars
+Cars acquired in the last 12 months
+4.54
+Cars acquired in the last 12 months
+New Cars acquired in the last 12 months
+3.55
+Correlation(log(Non-Durables), Age of Young Car)
+−0.30
+Households with no car
+0.13
+Households with one car
+0.34
+Households with more than one car
+0.53
+Notes: This table provides aggregate statistics of the U.S. car market computed from the 2000
+Consumer Expenditure Survey.
+secondary car markets are very active. The fourth row reports that, on aggregate, households’
+non-durable consumption predicts households’ car holdings, but heterogeneity in households’
+preferences plays an important role in determining their car holdings. The last three rows
+report the fraction of households with zero, one and more than one car, respectively. The
+majority of U.S. households hold more than one car.16
+4.2
+Choice of Parameters
+We calibrate the model to investigate whether it can quantitatively replicate the aggregate
+statistics for the U.S. markets reported in Table 1. Most parameters are taken directly from
+the data, while some are calibrated to match some important features of the CEX data. We
+report in Table 2 the numerical values of the parameters that we use in our calibration, and we
+describe below how we choose these numerical values, thereby providing intuitive arguments
+on the “identiﬁcation” of these parameters.
+We assume that one period equals one year, and we set the discount rate β = .95.
+One important input into our quantitative analysis is the distribution F of the marginal
+valuation for quality θ, which is not directly observable. The following theoretical argument is
+one way to understand our choice of the empirical counterpart of θ. It is natural to think that
+θ is (inversely) related to the marginal utility of the outside good (non-durable consumption
+16More precisely, 33 percent of households hold two cars; 13.4 percent of households hold three cars; 4.4
+percent of household hold four cars; 1.4 percent of households hold ﬁve cars; and 0.65 percent of households
+hold six or more cars. Our model pools all these households into households with two cars.
+10
+
+
+===== [PAGE 13] =====
+
+Table 2: Calibration Parameters
+Parameter
+Value
+β
+µy
+σy
+µǫ
+σǫ
+E (α)
+St.Dev. (α)
+0.95
+9.49
+0.63
+0
+1.16
+0.2362
+0.0748
+Parameter
+Value
+X
+x
+γ
+T
+c
+δ
+q0
+λa
+1.40
+0.0869
+0.02
+20
+1, 350
+0.0236
+0.78
+0.15 - 0.50
+Notes: This table provides the numerical values of the parameters used in the calibration.
+in our setting, see Tirole, 1988, chapter 2). If we assume that households have logarithmic
+utilities, then this inverse marginal utility is equal to non durable consumption. We also allow
+for an idiosyncratic component in the valuation for quality. Guided in part by this reasoning,
+we let θ = yǫ, where y is household non-durable consumption and ǫ is a parameter that is a
+household-speciﬁc preference component uncorrelated with y.17 Using the CEX, we ﬁnd that
+a lognormal distribution with parameters µy = 9.49 and σy = 0.63 ﬁts the distribution of
+non-durable consumption almost perfectly. We further let ǫ have a lognormal distribution,
+imposing µǫ = 0 (this is just a normalization) and calibrating the parameter σǫ. The parameter
+σǫ aﬀects several statistics in the calibration, but the correlation between the log of households’
+non-durable consumption and the age of their youngest car is particularly informative about
+this parameter σǫ. The calibrated value is σǫ = 1.16.
+We let the distribution G of α be a Beta distribution. We calibrate the two parameters
+of the Beta distribution to match the aggregate statistics reported in Table 1. We obtain
+the best ﬁt of the data with a mean α equal to 0.2362 and a standard deviation of α equal
+to 0.0748. The key statistic that pins down the mean value of α is the number of cars per
+household, whereas the standard deviation of α has a broader eﬀect on all statistics.
+We set the total stock of cars X = 1.40 to match the sum of the fraction of households with
+one car plus twice the fraction of households with more than one car. We obtain the empirical
+analog of the ratio of the stock to the ﬂow X
+x in the model from the product of the ratios
+Total stock of cars
+Cars acquired last 12 months and
+Cars acquired in the last 12 months
+New Cars acquired in the last 12 months
+reported in Table 1. This operation yields
+X
+x = 16.11, thus implying that the value of x
+equals 0.0869. We set the “exogenous scrappage” γ = 0.02 by calculating in the CEX the
+average fraction of vintage-a to vintage-(a + 1) cars for all cars less than 15 years old.18
+17Most previous empirical papers (see Section 2) on the auto market show that several observable house-
+holds’ characteristics (income, household size, age etc.) aﬀect car choices. In the Online Appendix, we show
+how our framework allows us to capture households’ heterogeneity in a similar way to those related papers.
+18The exogenous scrappage rate γ = 0.02 is lower than in Cohen and Greenspan (1999) for the years 1970-
+11
+
+
+===== [PAGE 14] =====
+
+Furthermore, from the equality of the total stock of cars X = x1−(1−γ)T +1
+γ
+, we obtain an
+endogenous scrappage age T = 20.19
+We set c = $1, 350 by computing the per-car annual average expenditure on car main-
+tenance, insurance and gasoline in the CEX.20 We then set qT to match the scrappage age
+T = 20 corresponding to this value of c, given that the marginal consumer of this car must
+receive zero ﬂow utility. We further let qa = (1 −δ)a q0, with a value of δ = 0.0236 to match
+the average annual depreciation of car prices of around 20 percent. We then choose q0 = 0.78
+to match the average price of $22,000 of a new-car purchase reported in the CEX.
+To calculate transaction costs λa, we use price data obtained from the Kelley Blue Book
+for some of the most popular cars in the U.S.: Toyota Corolla, Toyota Camry, and Toyota
+Previa/Sienna. As in Porter and Sattler (1999), we estimate transaction costs using the diﬀer-
+ence between suggested retail and trade-in values. These values increase from approximately
+15 percent for one-year-old cars to more than 50 percent for cars more than ten years old.21
+We then ﬁt a quadratic polynomial regression in age to these data on transaction costs to
+smooth them and average them across diﬀerent cars.22
+4.3
+Computational Algorithm
+For each value of the parameters, we take N = 1, 500 draws θi and αi i = 1, ..., N from their
+distributions F and G, and we compute the equilibrium using the following steps:
+1. We start with a vector of prices p = (p0, .., pT−1) .
+2. For each household (θ, α) , we calculate optimal policies a′ (θ, α, a, b) and b′ (θ, α, a, b).
+3. We calculate the stationary distribution h (a, b|θ, α).
+1996. This is consistent with the persistent improvement in car durability and reliability over time that Cohen
+and Greenspan already observed in their sample period.
+19The scrappage rate of cars older than 15 years increases substantially in the CEX. We view our choices
+of scrappage rates for cars of age a < T
+and of age T as reasonable approximations of a scrappage process
+that increases more gradually over the age of the car.
+20This number is stable across vintages, so we use a constant number to simplify computations.
+21Transaction costs are increasing in the age of the car in percentage terms. However, because car prices
+are declining in the age of the car, the dollar value of transaction costs is non-monotonic in the age of the car,
+declining for cars older than three years.
+22Our estimates of transaction costs do not take into account that transaction costs may be heterogeneous
+across households. Speciﬁcally, for individuals who choose to transact with dealers, the bid-ask spread is a
+lower bound on their transaction costs. Instead, for households that choose to transact with private parties, the
+bid-ask spread is likely an upper bound on their transaction costs. Unfortunately, allowing for heterogeneous
+transaction costs is computationally burdensome.
+12
+
+
+===== [PAGE 15] =====
+
+Table 3: Secondary Markets: Model vs. Data
+Data
+Model
+Households with at least one car
+Households that acquired a car in the last 12 months
+3.09
+3.21
+Total stock of cars
+Cars acquired in the last 12 months
+4.54
+5.08
+Cars acquired in the last 12 months
+New Cars acquired in the last 12 months
+3.55
+3.27
+Correlation(log(Non-Durables), Age of Young Car)
+−0.30
+−0.23
+Households with no car
+0.13
+0.13
+Households with one car
+0.34
+0.35
+Households with more than one car
+0.53
+0.52
+Notes: This table reports the moments of the data that the model seeks to match and the corresponding
+moments computed from the model with the parameters reported in Table 1.
+4. We calculate the stationary distribution Q (a, b) of age a as PN
+i=1 h (a, b|θi, αi) .
+5. We search for the vector of prices p that minimizes the excess demand of all vintages.
+More formally, we search for the vector of prices p that minimizes the largest absolute
+value of excess demand across all vintages:23
+min
+p
+max
+t∈{0,...,T}
+(
+T
+X
+b=0
+Q (t, b) +
+T
+X
+a=0
+Q (a, t) −x (1 −γ)t
+
+)
+.
+We choose the parameters that minimize the maximum absolute value of the percentage
+diﬀerences between the empirical and the theoretical moments reported in Table 1 (of course,
+the last line is redundant, so the objective function does not include it).
+4.4
+Results
+Table 3 reports the numerical results of the calibration of our model, along with the observed
+values in the data. (In the analysis in the following sections, we refer to the results of Table 3 as
+the “baseline case.”) The model is a quantitative success, as it matches the aggregate features
+of the U.S. car market well. This suggests that, for the purposes of understanding aggregate
+features of the allocative role of secondary markets, our simple model of vertical diﬀerentiation
+with transaction costs captures key aspects of the gains from trade in the used-car market.
+We now discuss in more detail some key outcomes of the calibrated model.
+23We stop searching for prices when this absolute value is less than
+1
+N .
+13
+
+
+===== [PAGE 16] =====
+
+Trade.
+The model closely matches the statistics on aggregate trade in cars and activity
+in secondary markets, most notably the fraction of households acquiring a car and the fraction
+of cars traded, although it slightly underpredicts them (by less than ten percent, at most).
+Household Car Holdings.
+Table 3 shows that the model matches the fraction of house-
+holds with no car, one car, and more than one car very well. The parameter that allows the
+model to match these statistics is α, the ratio between the preference for the second and for the
+ﬁrst car. Moreover, the model matches the correlation between households’ non-durable con-
+sumption and the of age of their youngest car reasonably well. The unobserved heterogeneity
+parameter ǫ governs this correlation.
+Car Prices.
+The fast decline of equilibrium prices—approximately 20 percent per year—
+is the joint outcome of cars’ physical depreciation (captured by the parameters γ, δ and T) and
+the equilibrium sorting of consumers across vintages. The reason for this large price decline
+is that the U.S. distribution of preferences displays wide dispersion, and, thus, the willingness
+to pay for a marginally better car is high. In Section 6, we will see that in France, where the
+dispersion of the distribution of preferences is lower, the price decline is not as steep.
+5
+Counterfactual Analyses
+We now perform several counterfactuals. Speciﬁcally, we analyze the eﬀects of transaction
+costs by considering two extreme cases: frictionless secondary markets and complete shutdown
+of secondary markets.
+By changing the frictions in the secondary market relative to our
+calibrated baseline, these counterfactuals can help us gain some quantitative insights into the
+allocative and welfare eﬀects of secondary markets. We then consider the case of scrappage
+policies that eliminate the availability of older cars.
+Naturally, we expect any changes in secondary markets to aﬀect primary markets. Thus,
+the supply response of new-goods producers is an important element determining the welfare
+consequences of secondary markets’ frictions. We consider two alternative scenarios that help
+highlight how primary markets adjust. First, we consider the case of perfectly elastic supply—
+i.e., the price of new cars does not respond to changes in transaction costs, but the quantity
+does. Second, we consider the case of perfectly inelastic supply—i.e., the quantity of new
+cars does not respond to changes in transaction costs, but the price does. These two cases
+can be interpreted as two extremes—a perfectly competitive industry with constant marginal
+costs of production versus an industry with binding capacity constraints for all producers. We
+14
+
+
+===== [PAGE 17] =====
+
+wish to emphasize that our counterfactuals do not include some additional long-run eﬀects,
+such as the change in the durability of cars; see the Conclusions for additional discussions.
+Nonetheless, we believe that these counterfactuals are useful for understanding the importance
+of transaction costs for manufacturers since they indicate that either output or prices change
+when transaction costs change, even in a oligopolistic market for new cars.
+In our analysis, we compare consumer surplus across the diﬀerent counterfactuals by av-
+eraging the value functions Vθ,α (a, b) over the stationary distribution h (a, b|θ, α):
+T+1
+X
+a=0
+T+1
+X
+b=0
+Z 1
+0
+Z ∞
+0
+Vθ,α (a, b) h (a, b|θ, α) dF (θ) dG (α) .
+Moreover, we calculate producers’ per-capita ﬂow proﬁts as (p0 −mc) x. In the case of a
+perfectly elastic supply, proﬁts are zero. In the case of an inelastic supply, we impute the
+marginal cost mc to be equal to the baseline new-car price p0. Hence, producers’ proﬁts are
+zero in the baseline case, whereas they are equal to (p′
+0 −p0) x in counterfactual scenarios,
+where p′
+0 is the counterfactual new-car price.
+The diﬀerences in allocations and welfare between our counterfactuals and the baseline
+case are largely due to three economic eﬀects that we will discuss in more detail for each case.
+1. Increasing (decreasing) transaction costs has the partial-equilibrium direct eﬀect of de-
+stroying (freeing) resources, thereby aﬀecting households’ willingness to pay because
+they obtain diﬀerent net resale prices.
+2. Lower (higher) transaction costs have the partial-equilibrium indirect eﬀect of allowing
+a ﬁner (coarser) matching between households’ preferences and the quality of their cars.
+3. Eﬀects (1) and (2) feed into the general-equilibrium eﬀects of changing new- and used-car
+prices and/or quantities relative to the baseline case.
+5.1
+The Eﬀects of Transaction Costs
+In this section, we consider the allocative and welfare eﬀects of transaction costs. This is
+the natural starting point to study the importance of secondary markets. In our quantitative
+analysis in Section 4, we used transaction costs proportional to prices, calculated by ﬁtting
+dealer bid-ask spreads. We now consider two extreme counterfactual scenarios: frictionless
+secondary markets and complete shutdown of secondary markets. These cases correspond to
+λa = 0 and λa = 1 for all a, respectively.
+15
+
+
+===== [PAGE 18] =====
+
+5.1.1
+Frictionless Resale Markets
+When transaction costs are zero—i.e., λa = 0 for all a—the households’ maximization problem
+is equivalent to a static one. Households hold the same car vintage/quality over time by trading
+in their depreciated units every period. Of course, households diﬀer in the vintage they hold.
+The equilibrium displays perfect matching between households’ preferences (either θ or αθ)
+and the qualities of the cars chosen in every period. Market clearing requires that either:
+1. All households have at least one car, and the highest-valuation households own two
+cars. In this case, there is a threshold value (αθ)′ that satisﬁes X = 1+1−M
+ (αθ)′
+=
+2 −M
+ (αθ)′
+, where households’ preferences αθ have c.d.f. M (z) =
+R z
+0 m (x) dx and
+p.d.f. m (x) =
+R +∞
+0
+g
+ x
+θ
+
+f (θ) 1
+θdθ. Hence, all households own one car (the term 1), and
+all households with valuation above (αθ)′ own two cars (the term 1 −M
+ (αθ)′
+); or
+2. there are households with zero, one, and two cars. In this case, there are thresholds θ′′
+and (αθ)′′′ that satisfy X = 1 −F (θ′′) + 1 −M
+ (αθ)′′′
+and θ′′ = (αθ)′′′. Hence, all
+households with valuation above θ′′ own one car (the term 1 −F (θ′′)), all households
+with valuation above (αθ)′′′ own two cars (the term 1 −M
+ (αθ)′′′
+), and the lowest
+willingness-to-pay of one- and two-car households is the same.
+Case 2 is the empirically relevant one, as 13 percent of households have no cars.
+Table 4 reports the quantitative results for the scenario of zero transaction costs for the
+case of a perfectly elastic supply of new cars—i.e., the price p0 of new cars is the same as in
+our baseline case in Section 4—and for the case of a perfectly inelastic supply of new cars—
+i.e., the quantity x of new cars is the same as in the baseline case in Section 4. Overall, the
+quantitative eﬀects are similar in these two supply scenarios.
+Quantity of cars.
+Table 4 reports that new-car output increases in the case of elastic
+supply relative to the baseline case. The reason is that the reduction in transaction costs
+and the ﬁner matching of qualities to households’ valuations combine to raise high-valuation
+households’ willingness to pay. Since prices are kept at the same level by the adjustment
+of (perfectly elastic) supply, the number of new cars demanded increases. In contrast, by
+deﬁnition, new-car output is unchanged in the case of inelastic supply.
+When new-car supply is elastic, the scrappage age decreases slightly relative to the baseline
+case. The reason is as follows. If the scrappage age did not decrease, the increase in the supply
+of new cars would lead to an increase in the total stock of cars. Hence, the marginal owner
+of a car would have a lower valuation (either θ or αθ) than in the baseline case. However,
+16
+
+
+===== [PAGE 19] =====
+
+Table 4: Allocative and Welfare Eﬀects of Secondary Markets, No Transaction Costs
+Baseline Elastic
+Supply
+Inelastic
+Supply
+New Cars
+New Cars, Baseline Case
+1
+1.05
+1
+Price of a New Car
+Price of a New Car, Baseline Case
+1
+1
+1.074
+Households with at least one car
+Households that acquired a car in the last 12 months
+3.21
+1
+1
+Total stock of cars
+Cars acquired in the last 12 months
+5.08
+1
+1
+Cars acquired in the last 12 months
+New Cars acquired in the last 12 months
+3.27
+16.64
+16.64
+Correlation(log(Non-Durables), Age of Young Car)
+−0.23
+−0.25
+−0.23
+Households with no cars
+0.13
+0.13
+0.13
+Households with one car
+0.35
+0.35
+0.35
+Households with two cars
+0.52
+0.52
+0.52
+Consumer Surplus
+Consumer Surplus, Baseline case
+1
+1.016
+1.008
+Mean
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+1
+1.024
+1.008
+Median
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+1
+1.026
+1.010
+Welfare
+Welfare, Baseline case
+1
+1.016
+1.015
+Transaction Costs
+Consumer Surplus
+0.008
+0
+0
+Notes:
+This table reports statistics on allocations and welfare computed from the model with no
+transaction costs (i.e., λa
+=
+0) and with an elastic or inelastic supply of new cars, respectively.
+Mean
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+and Median
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+are
+computed using only households with cars in the baseline case.
+17
+
+
+===== [PAGE 20] =====
+
+taking into account that the holding cost c is such that the marginal owner for the baseline
+case has zero utility, the reduction in marginal valuation implies that the marginal owner’s
+net utility ﬂow in the new scenario has to be negative, which is a contradiction. The reduction
+in scrappage age implies that some low-valuation consumers scrap their cars at the earlier age
+of T = 19 rather than at T = 20.
+In contrast, when new-car supply is inelastic, the endogenous scrappage age is the same as
+in the baseline case—i.e., T = 20. The reason is that the total stock of cars does not change,
+and, therefore, the optimal scrapping age does not change either since net prices (i.e., net of
+transaction costs) are positive in both cases. Overall, the total stock of cars is the same in
+both supply scenarios as in the baseline case.
+Prices.
+New-car prices are obviously unchanged when the supply of new cars is elastic,
+whereas they increase when the supply of new cars is inelastic. This increase is the mirror
+image of the increase in output discussed above for the case of elastic supply. First, the absence
+of transaction costs allows higher-valuation households to capture the full resale value of cars,
+thereby increasing their willingness to pay. Second, the absence of transaction costs allows
+a ﬁner matching between household preferences and cars.
+In particular, higher-valuation
+households own better cars, thereby increasing their willingness to pay.
+Interestingly, in both new-car supply scenarios, prices of older cars (i.e., older than the
+average car) decline relative to the baseline case—on average, by approximately 13 percent
+when supply is elastic and by approximately two percent when supply is inelastic. The intuition
+for the decrease is consistent with the new-car price increase and arises from the balancing of
+two contrasting eﬀects. First, as cars age, the expected number of future trades is smaller.
+Hence, while the elimination of transaction costs raises households’ willingness to pay, this
+eﬀect is smaller for older goods than for newer goods. Second, the ﬁner matching allowed by
+frictionless trade implies that, relative to the baseline case, lower-valuation households own
+older cars. Overall, the second negative eﬀect dominates the ﬁrst positive (but small) one for
+older goods, thereby depressing their prices. When the supply of cars is elastic, there is an
+additional eﬀect coming from the higher new-car output. Since only some of the oldest cars
+are scrapped when transaction costs are zero, the stock of cars of all vintages a < T is higher,
+too. Thus, since the equilibrium displays perfect matching between households’ preferences
+and the quality of their cars, the valuation (either θ or αθ) of the owner of each vintage a < T
+has to drop to equate supply and demand.
+18
+
+
+===== [PAGE 21] =====
+
+Trade.
+The eﬀect of removing transaction costs on the volume of trade is dramatic, but
+perhaps unsurprising. When transaction costs are zero, all cars trade in every period, so the
+volume of trade is equal to 100 percent. This explains the third and fourth rows of Table 4.
+While cars are endogenously scrapped at T = 20, the exogenous scrappage γ implies that the
+ratio of the stock of cars to the ﬂow of new cars equals 16.64, lower than T. This explains the
+ﬁfth row of Table 4.
+Household Car Holdings.
+The distribution of the number of cars per household is
+exactly the same in the counterfactual scenarios as in the baseline case. This holds in our
+model as long as there is trade in the oldest vintage. To understand the reason for this feature,
+note that the price of the oldest vintage must be zero because the identity of the last vintage
+is determined by the lowest-valuation used-car owner’s indiﬀerence between owning a car of
+that vintage or scrapping it—thus not owning any car and enjoying a utility ﬂow of zero.
+Hence, the scrappage age is determined by the equality of the utility ﬂow for the last vintage
+(either θ′′qT or αθ′′′qT) and the holding cost c of the lowest-valuation used-car owner (either θ′′
+or αθ′′′). Since the utility ﬂow is higher with younger vintages, the previous arguments imply
+that to ﬁgure out whether a household with valuation θ owns a car, it is enough to determine
+if its utility ﬂow for the last vintage (either θqT or αθqT) exceeds the holding cost c. Since
+the total stock of cars is the same in the counterfactual scenarios as in the baseline scenarios,
+it must also be the case that the marginal θ (and αθ) that owns a unit is the same, implying
+that the distribution of cars per household is also the same.
+Removing transaction costs increases the absolute value of the correlation between (the log
+of) households’ non-durable consumption and the age of their youngest car, as displayed in
+the sixth row of Table 4. The magnitude of this increase is small, suggesting that transaction
+costs have little eﬀect on the sorting between cars and households in the baseline case.
+Welfare.
+The three economic eﬀects of removing transaction costs discussed above—i.e.,
+the direct eﬀect of freeing resources, the indirect eﬀect of allowing a ﬁner matching between
+preferences and vintages, and the general-equilibrium eﬀect on prices—have a contrasting
+impact on consumer surplus and on overall welfare relative to the baseline case. Speciﬁcally,
+when there are no transaction costs, the ﬁrst two eﬀects increase consumer surplus and welfare
+relative to the baseline case.
+However, the general-equilibrium eﬀect on prices—lower on
+old cars and higher on new cars when the supply is inelastic—has a heterogeneous impact
+on individual households’ surplus, depending on their preferences, and a negative impact on
+aggregate consumer surplus; but the general-equilibrium eﬀect a positive impact on producers’
+19
+
+
+===== [PAGE 22] =====
+
+Consumer Surplus, as a fraction of baseline
+Percentile of Valuation θ
+13
+50
+100
+0.95
+1
+1.05
+Fig. 1: The ﬁgure displays counterfactual consumer surplus with no transaction costs relative to
+baseline consumer surplus by percentile of valuation θ, elastic new-car supply (dashed line) and
+inelastic new-car supply (solid line). Consumer surplus is calculated as the average value function
+before purchasing any car:
+R 1
+0 Vθ,α (T + 1, T + 1) dG (α).
+proﬁts when supply is inelastic.
+Figure 1 displays the ratio between consumer surplus in the counterfactual case of zero
+transaction costs and in the baseline case for all households that acquire a car, ranked by the
+percentile of their preference θ, for the two scenarios of elastic and inelastic supply. Overall,
+Figure 1 shows that, for almost all households, surplus is higher when transaction costs are
+zero, indicating that the ﬁrst two eﬀects dominate. Interestingly, the ratios are non-monotonic
+in θ. Households at the bottom of the distribution are marginal car consumers—i.e., they
+own the worst cars. Prices of these cars adjust to any change in transaction costs to leave
+surplus close to zero. Inframarginal households receive a positive surplus gain because price
+adjustment cannot fully extract the surplus change. However, while these gains are monotonic
+in the preference θ, they have a vanishing percentage eﬀect on the welfare of the highest-
+preference households. Overall, the average and median percentage surplus gains from having
+frictionless resale markets equal 0.8 to 2.4 and one to 2.6 percent of the baseline surplus,
+respectively, depending on the elasticity of the new-car supply.
+Table 4 reports that, when secondary markets are frictionless, total consumer surplus
+increases by 1.5 percent or 0.8 percent relative to the baseline case, depending on the elasticity
+of new-car supply. These correspond to $383 or $217 per year for households with at least
+one car. Table 4 further reports that the increase in aggregate consumer surplus is smaller
+20
+
+
+===== [PAGE 23] =====
+
+than the increase for most households (as displayed in Figure 1); this is because the highest-
+valuation households have disproportionate weights in the calculation of aggregate consumer
+surplus due to the large preference inequality in the U.S., and these households receive the
+smallest gains.
+When supply is elastic, producers’ proﬁts are zero, and, thus, overall welfare increases
+by the same amount as consumer surplus—i.e., by 1.5 percent. When supply is inelastic,
+producers’ proﬁts increase relative to the baseline case since new-car prices are higher. Overall,
+removing transaction costs increases welfare by 1.47 percent in the case of inelastic new-car
+supply, as well. More than half of this increase is due to the increase in consumer surplus.
+The magnitudes reported in Table 4 allow us to quantify the three economic eﬀects of
+removing transaction costs. The last row of Table 4 reports that the direct eﬀect of transaction
+costs equals 0.8 percent of consumer surplus in the baseline case. Since the total eﬀect of
+removing transaction costs on consumer surplus when new-car supply is elastic equals 1.5
+percent of consumer surplus, the indirect eﬀect—through a ﬁner matching between preferences
+and vintages—is of the same order of magnitude as the direct eﬀect of transaction costs.
+Instead, the diﬀerence between aggregate welfare and consumer surplus when new-car supply
+is inelastic suggests that the general-equilibrium eﬀect on new-car prices—or, alternatively,
+supply distortions—is quite small in this case.
+5.1.2
+No Resale Markets
+When transaction costs are prohibitive (i.e., λa = 1 for all a), households purchase only new
+cars, and their key choice is how long to keep them before scrapping and replacing them. In
+equilibrium, each household has an optimal scrappage age T (θ) , with households with higher
+valuation θ scrapping their cars earlier, thereby holding, on average, younger vintages.
+Table 5 reports the quantitative results with counterfactual prohibitive transaction costs
+for the case of a perfectly elastic supply of new cars—i.e., the price p0 of new cars is the same
+as in our baseline case in Section 4—and for the case of a perfectly inelastic supply of new
+cars—i.e., the quantity x of new cars is the same as in the baseline case in Section 4. Overall,
+as in the previous analysis of no transaction costs, the overall aggregate welfare eﬀects are
+mostly similar in the two supply scenarios.
+Quantity of cars.
+Table 5 reports that, when new-car supply is elastic, new-car output
+increases by 23 percent relative to the baseline case. Note that this implies that output is
+non-monotonic in transaction costs since Table 4 shows that new-car output is also larger
+when there are no transaction costs relative to the baseline case. However, diﬀerent forces
+21
+
+
+===== [PAGE 24] =====
+
+Table 5: Allocative and Welfare Eﬀects of Secondary Markets, Prohibitive Transaction Costs
+Baseline Elastic
+Supply
+Inelastic
+Supply
+New Cars
+New Cars, Baseline Case
+1
+1.23
+1
+Price of a New Car
+Price of a New Car, Baseline Case
+1
+1
+1.41
+Households with at least one car
+Households that acquired a car in the last 12 months
+3.21
+7.05
+7.95
+Total stock of cars
+Cars acquired in the last 12 months
+5.08
+11.36
+12.58
+Cars acquired in the last 12 months
+New Cars acquired in the last 12 months
+3.27
+1
+1
+Correlation(log(Non-Durables), Age of Young Car)
+−0.23
+−0.14
+−0.15
+Households with no cars
+0.13
+0.27
+0.32
+Households with one car
+0.35
+0.28
+0.28
+Households with two cars
+0.52
+0.45
+0.40
+Consumer Surplus
+Consumer Surplus, Baseline case
+1
+0.98
+0.94
+Mean
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+1
+0.71
+0.61
+Median
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+1
+0.91
+0.79
+Welfare
+Welfare, Baseline case
+1
+0.98
+0.97
+Transaction Costs
+Consumer Surplus
+0.008
+N.A.
+N.A.
+Notes:
+This table reports statistics on allocations and welfare computed from the model with pro-
+hibitive transaction costs (i.e., λa = 1) and with an elastic or inelastic supply of new cars, respectively.
+Mean
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+and Median
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+are
+computed using only households with cars in the baseline case.
+22
+
+
+===== [PAGE 25] =====
+
+aﬀect output in the two extreme counterfactual scenarios. The reason for the large increase
+when transaction costs are prohibitive is that scrappage increases substantially. This occurs
+because the secondary-market shutdown implies that the only way for households to upgrade
+their quality is to scrap their current cars. From the numbers reported in Table 5, it can be
+veriﬁed that, on average, scrappage occurs at approximately T = 14 in the case of inelastic
+supply and at approximately T = 13 in the case of elastic supply, as compared to T = 20 in
+the baseline case. Thus, the comparison between the elastic and inelastic cases indicates that,
+on average, households scrap cars slightly earlier in the case of elastic supply. The reason
+is that, with inelastic supply, new-car output does not increase to partially compensate for
+earlier scrappage, leading to a higher new-car price and dampening the incentive to scrap
+early. Overall, the total stock of cars decreases substantially relative to the baseline case—in
+particular, in the case of inelastic supply.
+Prices.
+Table 5 reports that, when new-car supply is inelastic, new-car prices increase
+by 41 percent relative to the baseline case. This is a mirror image of the increase in output in
+the case of a perfectly elastic supply: prices of new cars increase relative to the baseline case
+because the demand for new cars increases. Since households scrap their cars earlier than in
+the baseline case, the demand for new cars increases, and so does their price.
+Trade.
+The eﬀect of prohibitive transaction costs on the volume of trade is, again, un-
+surprising. When transaction costs are prohibitive, the volume of trade in used cars is zero.
+This, along with the change in the stock of cars, explains the fourth and ﬁfth rows.
+Household Car Holdings.
+Overall, the inability to resell cars reduces the stock of cars
+relative to the baseline case. Thus, the fraction of households with no cars increases, and
+the fraction of households with two cars decreases relative to the baseline case. However,
+a natural question arises: Since transaction costs are prohibitive, why do some households
+choose to have only one car—i.e., why do they scrap a car rather than keeping it as a second
+car? Clearly, at scrappage time, the car satisﬁes θq −c ≥0, and for most households this
+inequality holds strictly. However, households keep their ﬁrst cars until they are quite old;
+therefore, these cars are, on average, of low quality, implying that a typical case involves
+αθq −c < 0. Therefore, it is better to scrap relatively old cars than to keep them as second
+cars, even though they would give positive utility ﬂows if held as ﬁrst cars.
+Moreover, prohibitive transaction costs decrease the absolute value of the correlation be-
+tween (the log of) households’ non-durable consumption and the age of their youngest car, as
+reported in the sixth row of Table 5. The magnitude of this decrease is sizable, suggesting that
+23
+
+
+===== [PAGE 26] =====
+
+Consumer Surplus, as a fraction of baseline
+Percentile of Valuation θ
+13
+50
+100
+0
+0.5
+1
+Fig. 2:
+The ﬁgure displays counterfactual consumer surplus with prohibitive transaction costs
+relative to baseline consumer surplus by percentile of valuation θ, elastic new-car supply (dashed
+line) and inelastic new-car supply (solid line). Consumer surplus is calculated as the average value
+function before purchasing any car:
+R 1
+0 Vθ,α (T + 1, T + 1) dG (α).
+the inability to resell cars has a non-trivial eﬀect on the sorting between cars and households
+and, thus, on their surplus.
+Welfare.
+Figure 2 displays the ratio between consumer surplus with prohibitive trans-
+action costs and consumer surplus in the baseline case for all households that acquire a car
+in the baseline case, ranked by the percentile of their valuation θ, for the two scenarios of
+elastic and inelastic supply. The ﬁgure conﬁrms that surplus is higher for all households when
+new-car supply is more elastic. The ﬁgure also shows that households at the bottom of the
+valuation distribution suﬀer the largest surplus loss relative to the baseline case because the
+lower stock of cars implies that these households do not own a car. Indeed, the surplus losses
+are quite dramatic for households with valuation below the median of the distribution: The
+average and the median percentage losses equal 29-39 percent and 9-21 percent of the base-
+line surplus, respectively, depending on the elasticity of the new-car supply. Overall, Table 5
+reports that, relative to the baseline case, aggregate consumer surplus drops by two percent
+when supply is elastic and by six percent when supply is inelastic, corresponding to $505 or
+$1,513 per year, respectively, for households with cars in the baseline case. Table 5 reports
+that the drop in aggregate consumer surplus is smaller than the drop for most households
+because the highest-preference households have disproportionate weights in the calculation of
+24
+
+
+===== [PAGE 27] =====
+
+aggregate surplus. Figure 2 shows that these households have the smallest surplus loss.
+When new-car supply is inelastic, producers’ proﬁts increase substantially since new-car
+prices increase by 41 percent, as indicated in the ﬁrst row of Table 5. Overall, the decrease of
+consumer welfare due to higher new-car prices is approximately equivalent to the increase in
+producer proﬁts. Thus, the magnitude of the aggregate decrease in welfare due to prohibitive
+transaction costs relative to the baseline case is similar—two or three percent—in the two
+supply scenarios.
+Multiple qualities.
+One limitation of the previous analysis is that we have not allowed a
+plausible supply-side response: if used cars are not available, manufacturers have an incentive
+to provide lower-quality new cars.
+We can extend the model to allow for this possibility
+by assuming that there is a competitive (i.e., inﬁnitely elastic) supply of lower-quality cars.
+Speciﬁcally, in the Appendix we report in detail on the case in which manufacturers supply
+new cars of two qualities: a car of quality q0 (i.e., the same car supplied in the benchmark
+case) and a car of quality equal to q5 (i.e., a car whose quality equals a ﬁve-year old car of the
+benchmark case). We set the price of the car of quality q5 to its price in the benchmark case:
+$7, 465. Thus, the price is well below that of any new car in the U.S. market.
+This counterfactual delivers four main results. First, the output of the high-quality new
+good falls as households with intermediate preferences substitute towards the cheaper, low-
+quality good.
+However, total new car output rises signiﬁcantly relative to the case of a
+single new car. Second, the aggregate welfare loss from prohibitive transaction costs are even
+smaller than in the case with a single new car, since households have an additional margin
+of adjustment. Third, the distribution of the welfare losses are qualitatively similar to those
+displayed in Figure 2 for the case of a single quality of new cars: consumers at the bottom of
+the distribution suﬀer the most, because low-quality new goods are still too expensive for these
+consumers relative to very old used goods. Fourth, households in the middle of the preference
+distribution now suﬀer smaller losses, because the low-quality new goods allow them to obtain
+qualities that are closer to their target qualities of the benchmark case.
+Overall, this counterfactual suggests that a richer expansion of the set of new goods implies
+a reduction of the aggregate welfare losses relative to the case of a single new car, especially
+for middle-preference households.
+5.2
+Scrappage Policies
+In this section, we investigate how scrappage policies aﬀect equilibrium allocations and welfare.
+This analysis can be useful in understanding the eﬀects of policies that have been implemented
+25
+
+
+===== [PAGE 28] =====
+
+in some countries. For example, Japan has a thorough inspection registration system (called
+Shaken), with strict emission standards that induce households to scrap their cars earlier than
+households in other countries do (Clerides, 2008).
+We consider the following policy: All cars are scrapped when they reach the (approximate)
+scrappage age that keeps the total stock of cars equal to the stock in the counterfactual with
+prohibitive transaction costs examined in Section 5.1.2—i.e., T = 15 in the case of inelastic
+supply and T = 13 in the case of elastic supply. However, two substantive diﬀerences arise
+between these two counterfactuals. First, the level of transaction costs is diﬀerent. Speciﬁcally,
+we consider the eﬀects of the scrappage policy with the same level of transaction costs as in the
+baseline case (i.e., 15 percent of p1, increasing to approximately 50 percent of p10; see Section
+4.2).
+Therefore, secondary markets are active in the case of a scrappage policy.
+Second,
+households’ scrappage decisions are heterogeneous when transaction costs are prohibitive,
+with higher-valuation households scrapping their cars earlier than lower-valuation households.
+However, this heterogeneity does not arise under the policy studied in this section since all
+cars have positive net resale values, and, thus, no households scrap them before they reach T.
+As in previous analyses, we evaluate steady-state allocations and welfare. Hence, our analysis
+complements the evaluation of temporary scrappage subsidies that aﬀect the intertemporal
+incentives to scrap cars, generating a one-oﬀchange in the cross-sectional distribution of car
+vintages (Adda and Cooper, 2000; Copeland and Kahn, 2013; Miravete and Moral, 2011).
+These papers study models that do not allow for active secondary markets.
+Table 6 reports the eﬀects of these counterfactual scrappage policies on allocations and
+welfare in the two scenarios of elastic and inelastic supply, respectively. Overall, as in previous
+counterfactual analyses, the quantitative eﬀects are similar in these two supply scenarios.
+Quantity of Cars.
+Table 6 reports that, when the new-car supply is elastic, new-car
+output increases by 22 percent relative to the baseline case. However, relative to the baseline
+case, the total stock of cars decreases by 16 percent, as the new-car increase does not com-
+pensate for the decrease in the scrappage age. When the new-car supply is inelastic, the total
+stock of cars decreases by 23 percent relative to the baseline case.
+Prices.
+Figure 3 displays the eﬀect of the scrappage policy on car prices relative to the
+prices in the baseline case. The dashed line refers to elastic supply and the solid line to inelastic
+supply. Two contrasting eﬀects are at work. First, the scrappage policy reduces the total stock
+of cars, thereby raising the valuation of marginal buyers of all vintages and, thus, increasing
+prices. Second, the scrappage policy decreases cars’ “lifetime,” thereby decreasing the resale
+26
+
+
+===== [PAGE 29] =====
+
+Table 6: Allocative and Welfare Eﬀects of Scrappage Policies
+Baseline Elastic
+Supply
+Inelastic
+Supply
+New Cars
+New Cars, Baseline Case
+1
+1.22
+1
+Price of a New Car
+Price of a New Car, Baseline Case
+1
+1
+1.47
+Households with at least one car
+Households that acquired a car in the last 12 months
+3.21
+4.01
+4.90
+Total stock of cars
+Cars acquired in the last 12 months
+5.08
+6.23
+7.51
+Cars acquired in the last 12 months
+New Cars acquired in the last 12 months
+3.27
+1.98
+1.74
+Correlation(Log(Non-Durables), Age of Young Car)
+−0.23
+−0.21
+−0.21
+Households with no cars
+0.13
+0.25
+0.30
+Households with one car
+0.35
+0.33
+0.32
+Households with two cars
+0.52
+0.42
+0.38
+Consumer Surplus
+Consumer Surplus, Baseline case
+1
+0.99
+0.95
+Mean
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+1
+0.76
+0.63
+Median
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+1
+0.92
+0.79
+Welfare
+Welfare, Baseline case
+1
+0.99
+0.98
+Notes: This table reports statistics on car allocations computed from the equilibrium of the model with
+a policy that imposes scrappage of all cars older than 14 years of age in the case of inelastic supply and
+13 years of age in the case of elastic supply.
+Mean
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+and Me-
+dian
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+are computed using only households with cars in the baseline
+case.
+27
+
+
+===== [PAGE 30] =====
+
+Price, as a fraction of baseline price
+Years of Age
+0
+5
+10
+15
+0
+1
+2
+3
+4
+Fig. 3: The ﬁgure displays counterfactual car prices relative to baseline car prices when new-car
+supply is elastic (dashed line) and inelastic (solid line).
+value of cars—of older vintages, in particular—and, thus, their prices. Figure 3 shows that
+the ﬁrst eﬀect quantitatively dominates. Interestingly, intermediate vintages experience the
+highest increase in prices relative to the baseline case. Intuitively, these are the vintages that
+have more substitutes since they are in the middle of the vertical distribution of qualities.
+Thus, the scarcity of cars relative to the benchmark case increases the prices of these vintages
+relatively more. Finally, prices of older vintages drop rapidly. This is again intuitive since the
+scrappage policy reduces the useful lifespan of cars.
+Trade.
+In both supply scenarios, since cars last fewer years, primary markets become
+more important, and the volume of trade in secondary markets relative to primary markets
+is lower than in the baseline case. Overall, the number of transactions in used goods is now
+slightly lower than the number of transactions in new goods in both supply scenarios.
+Household Car Holdings.
+Table 6 shows that the smaller stock of cars, due to the
+shorter lifespan of cars, increases the fraction of people without cars relative to the baseline
+case. All of this reduction in the stock of cars comes at the expense of the fraction of households
+with two cars. The reason is that households’ willingness to pay for their second car αθ is,
+on average, low since α is low. Since the scrappage policy eliminates older cars and increases
+the prices of younger cars, second cars are too expensive relative to households’ willingness
+to pay for them. Moreover, this eﬀect is even stronger when the new-car supply is inelastic
+28
+
+
+===== [PAGE 31] =====
+
+Consumer Surplus, as a fraction of baseline
+Percentile of Valuation θ
+13
+50
+100
+0
+0.5
+1
+Fig. 4: The ﬁgure displays counterfactual consumer surplus with the scrappage policy relative to
+baseline consumer surplus by percentile of valuation θ, elastic new-car supply (dashed line) and
+inelastic new-car supply (solid line). Consumer surplus is calculated as the average value function
+before purchasing any car:
+R 1
+0 Vθ,α (T + 1, T + 1) dG (α).
+since, as Figure 3 showed, prices increase more in that case. Thus, the decrease in the fraction
+of households with two cars is larger when the new-car supply is inelastic.
+Furthermore, these scrappage policies decrease the absolute value of the correlation be-
+tween the log of households’ non-durable consumption and the age of their youngest car, as
+reported in the sixth row of Table 6. The magnitude of this decrease is smaller than that
+reported in Table 5, suggesting that scrappage policies have a smaller eﬀect than prohibitive
+transaction costs on the sorting between cars and households.
+Welfare.
+Figure 4 displays the ratio between consumer surplus with the scrappage policy
+and consumer surplus in the baseline case for households that acquire a car in the baseline
+case, ranked by the percentile of their valuation θ, for the two scenarios of elastic and inelastic
+supply. The ﬁgure conﬁrms that households at the bottom of the valuation distribution suﬀer
+the largest surplus decrease relative to the baseline case because the lower stock of cars implies
+that these households do not own a car. The average and median percentage surplus losses
+equal 24 to 37 percent and 8 to 21 percent of the baseline surplus, respectively, depending
+on the elasticity of the new-car supply.
+However, Table 6 reports that the magnitude of
+the aggregate eﬀects on consumer surplus is substantially smaller: either one or ﬁve percent,
+depending on the elasticity of the new-car supply, corresponding to $246 or $1,230 per year for
+29
+
+
+===== [PAGE 32] =====
+
+households with cars in the baseline case. The reason for the small aggregate loss relative to the
+large loss for many households displayed in Figure 4 is that the highest-valuation households
+suﬀer the smallest losses, and they have the largest weight in the aggregate consumer surplus.
+Table 6 further shows that these scrappage policies generate a redistribution of welfare
+from consumers to producers when supply is inelastic, consistent with the ﬁnding in Table 5.
+Consumer surplus is lower with this scrappage policy because transaction costs are inﬁnite
+for the oldest vintages. In contrast, producers’ proﬁts increase since new-car prices increase.
+The overall eﬀect of the policy is to decrease welfare, although, again, the quantitative eﬀect
+is only between one and two percent, depending on the elasticity of the new-car supply.24
+Two contrasting eﬀects help explain the diﬀerence in welfare between the scrappage poli-
+cies, reported in Table 6, and the case of prohibitive transaction costs, reported in Table 5.
+First, secondary markets are active in the case of the scrappage policy, but not when transac-
+tions costs are prohibitive, thereby allowing households to sell their depreciated cars at positive
+net prices. This eﬀect leads to higher welfare in the case of the scrappage policy relative to the
+case of prohibitive transaction costs. Second, households can choose when to scrap their cars
+when transaction costs are prohibitive, but not with the scrappage policy, thereby allowing
+households to keep cars older than T. This eﬀect leads to higher welfare in the case of pro-
+hibitive transaction costs relative to the case of the scrappage policy. Overall, a comparison
+between Tables 5 and 6 indicates that the ﬁrst eﬀect quantitatively dominates. The reason is
+that the ﬁrst eﬀect allows for a ﬁner matching of relatively young vintages to high-valuation
+consumers, whereas the second eﬀect allows for ﬁner control of relatively low-quality cars for
+low-valuation consumers. The ﬁrst eﬀect dominates because of supermodularity: More value
+is created at the top than is lost at the bottom.
+6
+The Eﬀect of Heterogeneity: A Comparison with France
+As we highlight throughout our analysis, gains from trade in secondary markets for many
+durable goods arise from heterogeneous valuations for quality. In our quantitative analysis,
+a key input into a household’s valuation for quality θ is non-durable consumption. In this
+section, we calibrate our model using France’s distribution of non-durable consumption to
+investigate the quantitative performance of the model on data from a diﬀerent country. This
+analysis also allows us to examine how preference heterogeneity aﬀects the allocative role of
+secondary markets and used-car prices.
+24The positive eﬀect of the scrappage policy on proﬁts may not be a general feature of the model. Because
+durability is exogenous, a reduction in durability, as in the scrappage policy, could hurt producers.
+30
+
+
+===== [PAGE 33] =====
+
+Table 7: Non-Durable Consumption, U.S. vs. France
+United States France
+Mean(Non-Durable Consumption)
+16111.05 15079.37
+St. Dev.(Non-Durable Consumption)
+11826.26
+9916.07
+Notes: Values are in U.S. dollars. French prices are converted into U.S. dollars using the average exchange
+rate during the year 2000: 1 U.S. Dollar = 1.085 Euro.
+To this end, we use the 2000-2001 Enquˆete Budget des Familles, a cross-sectional survey
+of 10,305 French households that is similar to the U.S. Consumer Expenditure Survey. Most
+notably, it reports households’ income and consumption for diﬀerent categories of goods. We
+aggregate goods to construct households’ non-durable consumption following as closely as
+possible the aggregation we performed on the U.S. CEX. Moreover, the Budget des Familles
+reports the number of vehicles that each household uses at the time of the interview, and, for
+up to two vehicles per household, it reports information about each vehicle, such as whether
+it was acquired in the previous 12 months and whether it was acquired new or used.
+Table 7 reports the mean and the standard deviation of non-durable consumption in the
+United States and in France, showing that heterogeneity is lower in France than in the U.S.
+The French distribution of non-durable consumption is very well approximated by a lognormal
+distribution with parameters µF R = 9.42 and σF R = 0.64. Moreover, Table 8 reports some ag-
+gregate statistics on French households’ car holdings calculated from the Budget des Familles.
+The ﬁrst row reports that, on average, only one out of every 4.5 households acquired a car in
+France within the last year (the ratio is equal to three in the U.S.; see Table 1). The second
+row reports that one out of every six cars was traded during the year 2000 (one out of every
+4.5 cars in the U.S.). The third row reports that, of all cars traded, approximately one in three
+cars was new (one in four in the U.S.). Overall, these aggregate statistics show that secondary
+markets for cars are substantially less active in France than in the U.S., indicating that our
+model linking the dispersion of preferences with the volume of trade is qualitatively consistent
+with these cross-market diﬀerences. The last three rows of Table 8 report the distribution
+of cars per household, documenting another important diﬀerence with the U.S.: The average
+number of cars per household is 19-percent higher in the U.S. than in France.
+In keeping with the spirit of the quantitative exercise, we perform a “constrained” cali-
+bration of the model for France. In particular, we use French-speciﬁc parameters governing
+households’ preferences over cars, the total stock of cars, and cars’ holding costs, whereas
+we keep the characteristics of cars—i.e., depreciation and exogenous scrappage—the same as
+31
+
+
+===== [PAGE 34] =====
+
+Table 8: Secondary Markets: Model vs. Data, France
+Data Model
+Households with at least one car
+Households that acquired a car in the last 12 months
+4.39
+3.79
+Total stock of cars
+Cars acquired in the last 12 months
+5.82
+5.21
+Cars acquired in the last 12 months
+New Cars acquired in the last 12 months
+2.98
+3.19
+Correlation(log(Non-Durables), Age of Young Car) −0.27
+−0.35
+Households with no cars
+0.17
+0.15
+Households with one car
+0.48
+0.53
+Households with two cars
+0.35
+0.32
+Notes: This table reports the moments of the data computed from the 2000-2001 Budget des Familles that
+the model seeks to match and the corresponding moments computed from the model; see text for more details.
+those that we used in the calibration for the U.S.. More precisely, we let the product distri-
+bution of the valuation θ = yǫ be given by the lognormal distribution of French households’
+non-durable consumption y (parametrized as described above) and by a lognormal distribu-
+tion of the unobserved heterogeneity ǫ. This unobservable heterogeneity captures some of the
+preference-based diﬀerences between the U.S. and France that we do not explicitly model. Of
+course, there are potentially other diﬀerences between the U.S. and French car market. How-
+ever, we believe that it is useful to investigate how far our fairly parsimonious model can go in
+matching the data. As for the U.S. calibration, we impose µǫ = 0 and we calibrate the param-
+eter σǫ by matching the correlation between the log of households’ non-durable consumption
+and the age of their youngest car, yielding σǫ = 0.87. We further allow the distribution G of
+α to be a Beta distribution with parameters speciﬁc to France. We choose these parameters
+to match the French aggregate statistics of the ﬁrst column. The calibrated value of the mean
+of α equals .16 and the standard deviation of α equals 0. This implies that the dispersion of
+the preference parameters ǫ and α are lower in France than in the U.S.. Moreover, we allow
+the holding costs c to be speciﬁc to France and the calibrated value of c is 1,884 dollars.25
+25Since the distribution of q, the exogenous scrappage parameter γ and the scrappage age T are the same
+in the U.S. and French calibration, we need the holding cost c to be country-speciﬁc to equate the total stock
+of cars to the total demand of cars. The Budget des Familles reports that the annual average household
+expenditure on maintenance, insurance and gasoline equals $1,708 per car. This is higher than in the U.S., as
+we ﬁnd in the calibrations.
+32
+
+
+===== [PAGE 35] =====
+
+Price
+Years of Age
+0
+5
+10
+15
+20
+0
+8000
+16000
+24000
+Fig. 5: The ﬁgure displays car prices in the U.S. (dashed line) and in France (solid line). Prices are
+in U.S. dollars. French prices are converted into U.S. dollars using the average exchange rate during
+the year 2000: 1 U.S. Dollar = 1.085 Euro.
+The second column of Table 8 reports the results of the calibration. Table 8 conﬁrms that
+our model is a quantitative success despite the constraint on the calibration. More speciﬁcally,
+it shows that the valuation distribution allows the model to match the volume of trade in
+secondary markets in France fairly well, along with the correlation between households’ non-
+durable consumption and the vintage of their youngest car. Moreover, allowing for a country-
+speciﬁc distribution of α allows the model to match the distribution of car holdings well.26
+The model also generates interesting general-equilibrium patterns on the relative decline of
+car prices between the two countries; Figure 5 displays them. New-car prices are higher in the
+U.S. than in France, as they are in the data: the calibration delivers a new-car price in France
+approximately 10-percent lower than that in the U.S.27 However, the model-generated prices
+decline at a faster rate in the U.S. than in France. Thus, old-car prices (i.e., cars older than 4
+years) are higher in France than in the U.S. The intuition for these patterns is that France’s
+less-dispersed preference distribution ﬂattens the depreciation of prices, as the willingness to
+pay for a marginally better car is lower when the preference distribution is less dispersed.
+26The match between the model and the data becomes almost perfect if we allow the quality distribution
+q to be speciﬁc to France (i.e., with q0 = 0.69 and δ = 0.015).
+27Thus, our model provides a potential explanation for cross-country diﬀerence in car prices, as reported
+by Verboven (1996) and Goldberg and Verboven (2001, 2005).
+33
+
+
+===== [PAGE 36] =====
+
+7
+Conclusions
+Secondary markets play a potentially important role in determining the set of durable goods
+available to consumers and how diﬀerent households with heterogeneous preferences beneﬁt
+from such goods.
+We set up a model to understand the allocative and welfare eﬀects of
+secondary markets. Our analysis highlights that durable goods oﬀer many diﬀerent margins
+of adjustments to consumers: which vintage to buy, how long to keep it, whether to sell it or
+scrap it. These many margins of adjustments imply that any change in secondary markets—
+because of changes in transaction costs over time or because of policies that directly aﬀect
+them, such as scrappage policies—has potentially large eﬀects on the volume of trade and
+allocations, but smaller eﬀects on consumers’ surplus and welfare.
+There are several possible interesting extensions of our analysis. First, it would be useful
+to allow for endogenous durability. This would have very little eﬀect in the counterfactual of
+eliminating transaction costs because the endogenous scrappage age is very similar to that in
+the baseline case. However, the eﬀects could be substantial in the counterfactuals with pro-
+hibitive transaction costs and with the scrappage policy because the scrappage age in these
+counterfactuals is signiﬁcantly lower than that in the baseline case. This would give manu-
+facturers an incentive to reduce their investments in durability so that cars would depreciate
+faster. Calculating the welfare consequences of accounting for endogenous durability requires
+a measure of the cost savings that come from such a reduction in durability. However, even
+without such a measure, we can conclude that the change in durability will be beneﬁcial in
+the case of perfectly elastic supply because the cost savings will be passed along to consumers;
+this allows the industry to adjust by better tailoring the design of the goods to the needs
+of consumers. Moreover, there will be a larger output response in these counterfactuals be-
+cause the reduced durability will lower the cost of production. Second, it would be useful to
+understand in more detail the eﬀects of variety of cars in the primary market. This would po-
+tentially improve our understanding of the eﬀect of secondary markets on the primary market.
+Finally, we believe that an extension of our framework may be useful in studying the eﬀects
+of alternative emissions policies: if the emissions of new vehicles are decreasing over time,
+durability aﬀects aggregate emissions. One could study the relative impact of a policy that
+accelerates the technological improvement in emissions compared to a policy that encourages
+scrappage of old, more highly polluting, vehicles.
+34
+
+
+===== [PAGE 37] =====
+
+Table 9: Allocative and Welfare Eﬀects of Secondary Markets, Prohibitive Transaction Costs,
+Elastic Supply of New Cars of Two Qualities
+Two Qualities
+of New Cars
+New Cars of Quality q0
+New Cars, Baseline Case
+0.83
+New Cars of Quality q5
+Cars of Quality q5, Baseline Case
+0.78
+Total New Cars
+New Cars, Baseline Case
+1.53
+HHs with at least one car
+HHs that acquired a car in the last 12 months
+6.24
+Total stock of cars
+Cars acquired in the last 12 months
+10.11
+Cars acquired in the last 12 months
+New Cars acquired in the last 12 months
+1
+Consumer Surplus
+Consumer Surplus, Baseline
+0.99
+Mean
+
+Consumer Surplus
+Consumer Surplus, Baseline
+
+0.86
+Median
+
+Consumer Surplus
+Consumer Surplus, Baseline
+
+0.98
+Welfare
+Welfare, Baseline case
+0.99
+Notes:
+This
+table
+reports
+statistics
+on
+allocations and
+welfare
+computed
+from
+the
+model
+with
+prohibitive
+transaction
+costs
+(i.e.,
+λa
+=
+1)
+and
+elastic
+supply
+of
+new
+cars
+of
+two
+qualities.
+Mean
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+and Median
+
+Consumer Surplus
+Consumer Surplus, Baseline case
+
+are
+computed using only households with cars in the baseline case.
+APPENDIX
+In this Appendix, we report in more detail on the counterfactual case with multiple qualities
+of new cars that we mention in Section 5.1.2. Speciﬁcally, we assume that manufacturers
+supply competitively new cars of two qualities: a car of quality q0 (i.e., the same car supplied
+in the benchmark case) and a car of quality equal to q5 (i.e., a car whose quality equals a
+ﬁve-year old car of the benchmark case). The prices of these cars are equal to their prices
+in the benchmark case: the high-quality car price is $21, 487, and the low-quality car price is
+$7, 465 (note that this price is signiﬁcantly below that of any new car in the U.S. market).
+Table 9 reports the quantitative results of this counterfactual case with prohibitive trans-
+35
+
+
+===== [PAGE 38] =====
+
+Consumer Surplus, as a fraction of baseline
+Percentile of Valuation θ
+0
+50
+100
+0
+0.5
+1
+Fig. 6:
+The ﬁgure displays counterfactual consumer surplus with prohibitive transaction costs
+relative to baseline consumer surplus by percentile of valuation θ, elastic supply of new cars of two
+qualities. Consumer surplus is calculated as the average value function before purchasing any car:
+R 1
+0 Vθ,α (T + 1, T + 1) dG (α).
+action costs and an inﬁnitely elastic supply of new cars of two qualities. The top rows of
+the table indicate that the output of the high-quality new good falls, whereas the cheaper,
+low-quality good captures approximately 45 percent of total new-car sales, as households with
+intermediate preferences substitute towards it. Overall, total new car output rises by 53 per-
+cent relative to the baseline case, and by 25 percent relative to the analogous counterfactual
+with a single new car (Table 5). The bottom rows of the table conﬁrm that the aggregate
+welfare losses from prohibitive transaction costs are small. They are even smaller than in the
+case with a single new car, since the low-quality new car provide households with an additional
+margin of adjustment. Figure 6 displays the ratio between consumer surplus with prohibitive
+transaction costs and consumer surplus in the baseline case for all households that acquire a
+car in the baseline case, ranked by the percentile of their valuation θ, for this case of elastic
+supply of two new cars. The ﬁgure shows that households with intermediate preferences suﬀer
+very small losses, because the lower-quality new goods allow these households to obtain qual-
+ities that are closer to their target qualities of the benchmark case. However, households at
+the bottom of the distribution still suﬀer large welfare losses, because low-quality new goods
+are still too expensive for these consumers relative to very old used goods.
+36
+
+
+===== [PAGE 39] =====
+
+References
+[1] Adda, J. and R. Cooper, “Balladurette and Juppette: A Discrete Analysis of Scrapping
+Subsidies,” Journal of Political Economy, Vol. 108, No. 4 (Aug., 2000), pp. 778-806.
+[2] Anderson, A. and V. Ginsburgh, “Price discrimination via second-hand markets,” Euro-
+pean Economic Review, Vol. 38, Issue 1 (Jan., 1994), pp. 23-44.
+[3] Attanasio, O., “Consumer Durables and Inertial Behaviour: Estimation and Aggregation
+of (S, s) Rules for Automobile Purchases,” The Review of Economic Studies, Vol. 67, No.
+4 (Oct., 2000), pp. 667-696.
+[4] Berry, S., J. Levinsohn, and A. Pakes,“Automobile Prices in Market Equilibrium,” Econo-
+metrica, Vol. 63, No. 4 (July, 1995), pp. 841-890.
+[5] Bond, E., “Trade in Used Equipment with Heterogeneous Firms,” The Journal of Political
+Economy, Vol. 91, No. 4. (Aug., 1983), pp. 688-705.
+[6] Bresnahan, T., “Competition and Collusion in the American Automobile Market: The
+1955 Price War,” Journal of Industrial Economics, Vol. XXXV, No. 4 (June, 1987), pp.
+457-482.
+[7] Chen, J., S. Esteban, and M. Shum, “When Do Secondary Markets Harm Firms?” Amer-
+ican Economic Review, Vol. 103, No. 7 (December, 2013), pp. 2911-2934.
+[8] Clerides, S., “Gains from trade in used goods: Evidence from automobiles,” Journal of
+International Economics, Vol. 76, Issue 2 (Dec., 2008), pp. 322-336.
+[9] Copeland, A. and J. Kahn, “The Production Impact of ‘Cash-for-Clunkers’: Implications
+for Stabilization Policy,” Economic Inquiry, Vol. 51, No. 1 (January, 2013), pp. 288-303.
+[10] Eberly, J.C., “Adjustment of Consumers’ Durables Stocks: Evidence from Automobile
+Purchases,” The Journal of Political Economy, Vol. 102, No. 3 (Jun., 1994), pp. 403-436.
+[11] Eisfeldt, A. and A. Rampini, “Capital reallocation and liquidity,” Journal of Monetary
+Economics, Vol. 53, Issue 3 (April, 2006), pp. 369-399.
+[12] Eisfeldt, A. and A. Rampini, “New or Used?
+Investment with Credit Constraints,”
+Journal of Monetary Economics, Vol. 54, Issue 8, (Nov. 2007), pp. 2656-2681.
+37
+
+
+===== [PAGE 40] =====
+
+[13] Esteban, S. and M. Shum, “Durable Goods Oligopoly with Secondary Markets: the Case
+of Automobiles,” RAND Journal of Economics, Vol. 38, Issue 2, (June, 2007), pp. 332-
+354.
+[14] Gavazza, A., “Leasing and Secondary Markets: Theory and Evidence from Commercial
+Aircraft,” Journal of Political Economy, Vol. 119, No. 2 (April, 2011a), pp. 325-377.
+[15] Gavazza, A., “The Role of Trading Frictions in Real Asset Markets,” American Economic
+Review, Vol. 101, No. 4 (June, 2011b), pp. 1106-43.
+[16] Gavazza, A., “An Empirical Equilibrium Model of a Decentralized Asset Market,” mimeo,
+London School of Economics, (2013).
+[17] Gilligan, T., “Lemons and Leases in the Used Business Aircraft Market,” The Journal of
+Political Economy, Vol. 112, No. 5, (Oct., 2004), pp. 1157-1180.
+[18] Goldberg, P. and F. Verboven, “The Evolution of Price Dispersion in the European Car
+Market,” The Review of Economic Studies, Vol. 68, No. 4. (Oct., 2001), pp. 811-848.
+[19] Goldberg, P. and F. Verboven, “Market Integration and Convergence to the Law of One
+Price: Evidence from the European Car Market,” Journal of International Economics,
+Vol. 65, Issue 1, (Jan., 2005), pp. 49-73.
+[20] Greenspan, A. and D. Cohen, “Motor Vehicle Stocks, Scrappage, and Sales,” The Review
+of Economic and Statistics, Vol. 81, No. 3 (August, 1999), pp. 369-383
+[21] Hendel, I. and A. Lizzeri, “Adverse Selection in Durable Goods Markets,” The American
+Economic Review, Vol. 89, No. 5 (Dec., 1999a), pp. 1097-1115.
+[22] Hendel, I. and A. Lizzeri, “Interfering with Secondary Markets,” RAND Journal of Eco-
+nomics, Vol. 30, No. 1. (Spring, 1999b), pp. 1-21.
+[23] Jovanovic, B. “Vintage Capital and Inequality,” Review of Economic Dynamics, Vol. 1,
+Issue 2 (April, 1998), pp. 497-530.
+[24] Jovanovic, B. “The Technology Cycle and Inequality,” Review of Economic Studies, Vol.
+76, Issue 2 (April, 2009), pp. 707-729.
+[25] Krueger, D. and F. Perri, “Does Income Inequality Lead to Consumption Inequality?
+Evidence and Theory,” Review of Economic Studies, Vol. 73, No. 1 (January, 2006), pp.
+163-193.
+38
+
+
+===== [PAGE 41] =====
+
+[26] Miravete, E. and M. Moral, “Qualitative Eﬀects of ‘Cash for Clunkers’ Programs,” mimeo,
+University of Texas at Austin, (2011).
+[27] Petrin, A. “Quantifying the Beneﬁts of New Products: The Case of the Minivan,” Journal
+of Political Economy, Vol. 110, No. 4. (Aug., 2002), pp. 705-729.
+[28] Porter, R. and P. Sattler, “Patterns of Trade in the Market for Used Durables: Theory
+and Evidence,” NBER Working Paper No. 7149, (1999).
+[29] Pulvino, T., “Do Asset Fire Sales Exist?
+An Empirical Investigation of Commercial
+Aircraft Transactions,” The Journal of Finance, Vol. 53, No. 3 (Jun., 1998), pp. 939-978.
+[30] Rust, J. “Stationary Equilibrium in a Market for Durable Assets,” Econometrica, Vol.
+53, No. 4. (Jul., 1985), pp. 783-806.
+[31] Schiraldi, P., “Automobile Replacement: a Dynamic Structural Approach,” The RAND
+Journal of Economics, Vol. 42, Issue 2 (Summer, 2011), pp. 266-291.
+[32] Stolyarov, D., “Turnover of Used Durables in a Stationary Equilibrium: Are Older Goods
+Traded More?” Journal of Political Economy, Vol. 110, No. 6, (Dec., 2002), pp. 1390-1413.
+[33] Tirole, J., The Theory of Industrial Organization, (1988), MIT Press, Cambridge, MA.
+[34] Verboven, F., “International Price Discrimination in the European Car Market,” The
+RAND Journal of Economics, Vol. 27, No. 2 (Summer, 1996), pp. 240-268.
+[35] Waldman, M. “Eliminating the Market for Secondhand Goods: An Alternative Explana-
+tion for Leasing,” The Journal of Law and Economics, Vol. XL, No. 1, (Apr. 1997), pp.
+63-91.
+[36] Waldman, M. “Durable Goods Theory for Real World Markets,” The Journal of Eco-
+nomic Perspectives, Vol. 17, No. 1. (Winter, 2003), pp. 131-154.
+[37] Wang, Y. “Empirical Investigation of Eﬀects of Durability in the US Automobile Market,”
+New York University, mimeo, (2008).
+[38] Yurko, A. “From Consumer Incomes to Car Ages: How the Distribution of Income Aﬀects
+the Distribution of Vehicle Vintages,” National Research University, mimeo, (2012).
+39
+
+
+===== [PAGE 42] =====
+
+Online Appendix
+In this Appendix, we show how to bridge the gap between the way we model consumer
+heterogeneity and the way that previous empirical work on the auto market was capturing
+it. Speciﬁcally, we let the heterogeneity of households’ preferences be given by θ = yǫ, where
+y is household non-durable consumption and ǫ is a parameter that is a household-speciﬁc
+preference component uncorrelated with y. From log θ = log y + log ǫ, we can estimate the
+weights β on observable demographic characteristics X from the regression
+log y = βX + η.
+(4)
+Thus, we can write
+log θ = βX + ω
+with ω = η+log ǫ is the unobservable component of “our” preferences and βX is the observable
+component.
+Moreover, we let households’ preferences for their second car be given by αθ, with α ≤1.
+Hence, we can extend the previous procedure to obtain
+log α + log θ = log α + βX + ω.
+In the paper, we assume that α is an unobservable component, distributed in the population
+according to a Beta distribution on [0, 1] with parameters that we calibrate (Section 4.2).
+Alternatively, we can directly assume that preferences θ are composed by an observable
+component φX and an observable part χ:
+log θ = φX + χ.
+(5)
+In our model, a households hold at least one car if its preference parameter θ exceeds a ﬁxed
+threshold. Denoting this constant threshold by θ∗, we obtain that:
+Pr (household has at least one car) = Pr (θ > θ∗) = Pr (log θ > log θ∗)
+= Pr (φX + χ −log θ∗> 0) .
+Thus, by assuming that the distribution of χ is a normal distribution, we can obtain an
+estimate of the weights φ normalized by the standard deviation σχ of χ by estimating a probit
+regression.
+Similarly, we could further decompose log α into an observable and an unobservable part
+log α = µX + ν.
+40
+
+
+===== [PAGE 43] =====
+
+Hence, we obtain
+log α + log θ = µX + ν + φX + χ = πX + ζ
+(6)
+where the weights π = (µ + φ) are the sum of the weights of the observable demographic
+characteristics X of θ and of α, and ζ = (ν + χ) is the sum of the unobservable components
+of θ and of α. In our model, households hold more than one car only if their preferences αθ
+exceed a ﬁxed threshold. Denoting this constant threshold by (αθ)∗, we obtain that:
+Pr (household has more than one car) = Pr (αθ > (αθ)∗) = Pr (log α + log θ > log (αθ)∗)
+= Pr (πX + ζ −log (αθ)∗> 0) .
+Thus, by approximating the distribution of ζ with a normal distribution, we can obtain an
+estimate of the weights π normalized by the standard deviation σζ of ζ by estimating a probit
+regression.
+Table 10 presents estimates of the coeﬃcients β of equation (4), of the coeﬃcients
+φ
+σχ of
+equation (5), and of the coeﬃcients
+π
+σζ of equation (6). Columns (1)-(3) use CEX data to
+estimate β,
+φ
+σχ and
+π
+σζ , respectively, for the U.S.; columns (4)-(6) use the Budget des Familles
+to estimate β,
+φ
+σχ and
+π
+σζ , respectively, for France.
+Interestingly, the signs of the coeﬃcients are the same in all speciﬁcations and, most
+notably, in the two countries. Moreover, the magnitudes of several coeﬃcients in columns (1)
+and (4) are fairly similar. The ratios of coeﬃcients in columns (2) and (5), and (3) and (6),
+are quite comparable, as well.
+Finally, we can recover the parameters σχ and σζ for each country by matching the overall
+variances of θ and of αθ that we obtained in our calibration. More speciﬁcally, the calibration
+for the U.S. yields
+var (log θ) = var (log y) + var (log ǫ) = .632 + 1.162 = 1.7425.
+The probit in column (2) yields
+var
+log θ
+σχ
+
+= 1
+σ2χ
+var (log θ) = var
+φX
+σχ
+
++ var
+ χ
+σχ
+
+= .732 + 1 = 1.5387.
+Thus, we obtain σχ = 1.064 for the U.S. Similarly, the calibration for the U.S. further yields:
+var (log α) + var (log θ) = .1126 + 1.7425 = 1.8551.
+The probit in column (3) yields
+var
+log α + log θ
+σζ
+
+= 1
+σ2
+ζ
+(var (log α) + var (log θ)) = var
+πX
+σζ
+
++var
+ ζ
+σζ
+
+= .8402+1 = 1.7056.
+41
+
+
+===== [PAGE 44] =====
+
+Table 10: The Role of Demographic Characteristics
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Age of HoH
+.02020
+(.00257)
+.04170
+(.00741)
+.06065
+(.00644)
+.01298
+(.00173)
+.06527
+(.00618)
+.07087
+(.00664)
+Age of HoH Squared
+−.00015
+(.00002)
+−.00036
+(.00007)
+−.00053
+(.00006)
+−.00013
+(.00002)
+−.00071
+(.00005)
+−.00075
+(.00006)
+Family Size
+.14192
+(.00517)
+.15661
+(.02299)
+.29717
+(.01721)
+.11328
+(.00412)
+.02554
+(.02102)
+.11701
+(.01309)
+Log(Household Income)
+.25593
+(.01312)
+.33555
+(.02901)
+.37009
+(.03172)
+.56052
+(.01026)
+.74048
+(.04093)
+.84257
+(.03285)
+Female of HoH
+−.02282
+(.01315)
+−.22848
+(.04821)
+−.37675
+(.03713)
+−.07692
+(.01212)
+−.79305
+(.04025)
+−.88508
+(.05229)
+Years of Education of HoH .03464
+(.00232)
+.07730
+(.00799)
+.02623
+(.00658)
+.00852
+(.00122)
+.03988
+(.00528)
+.02170
+(.00442)
+White HoH
+.12881
+(.01737)
+.66808
+(.05588)
+.42870
+(.05252)
+N/A
+N/A
+N/A
+Rural Household
+.03027
+(.02018)
+.37252
+(.10007)
+.48267
+(.06722)
+.02924
+(.00912)
+.68264
+(.04819)
+.50767
+(.03360)
+Dummies for Geography
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+R2
+.465
+.594
+log-Likelihood
+−1, 705.26 −3, 136.32
+−3, 180.94 −4, 837.81
+# Obs.
+5, 886
+5, 886
+5, 886
+10, 305
+10, 305
+10, 305
+Notes: Columns (1) and (4) report OLS estimates of the coeﬃcients β in equation (4); the dependent variable is
+the log of the household’s non-durable consumption. Columns (2) and (5) report maximum likelihood estimates
+of the coeﬃcients
+φ
+σχ in equation (5); the dependent variable is an indicator for whether the household holds
+at least one car. Columns (3) and (6) report maximum likelihood estimates of the coeﬃcients
+π
+σζ in equation
+(6); the dependent variable is an indicator for whether the household holds more than one car. Columns
+(1)-(3) use CEX data for the U.S.; columns (4)-(6) use the Budget des Familles for France. HoH means head
+of household. N/A means that the variable is not reported in the dataset.
+42
+
+
+===== [PAGE 45] =====
+
+Thus, we obtain σζ = 1.042 for the U.S.
+Similar calculations yield σχ = .791 and σζ = .746 for France.
+Interestingly, this procedure delivers that unobservable heterogeneity plays a larger role in
+the U.S. than in France, as we found in our calibrations of Sections 4 and 6, respectively.
+43

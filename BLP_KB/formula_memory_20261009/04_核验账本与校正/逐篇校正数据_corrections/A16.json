@@ -1,0 +1,11 @@
+{
+  "images": "D:\\blp-auto-fulltext-pack-20261008\\work\\pages\\A16_pNN.png（本轮渲染）",
+  "paper_note": "JEEM 期刊版（文章号 102432，页码即 PDF 页码）。模型条件于购买新车，没有 outside option，也不估供给。下列各式本轮看原页图转写。保留原文的对数价格，不能改成线性价格。",
+  "items": [
+    {"page": 8, "label": "(12)", "latex": "u_{ij}=\\underbrace{\\sum_{k=1}^{K}x_{jk}\\bar\\beta_k-\\alpha_1\\ln p_j+\\xi_j}_{\\delta_j}+\\underbrace{\\alpha_2\\frac{\\ln p_j}{Y_i}+\\sum_{kr}x_{jk}z_{ir}\\beta^{o}_{kr}+\\sum_k x_{jk}\\nu_{ik}\\beta^{u}_k}_{\\mu_{ij}}+\\varepsilon_{ij}", "check": "本轮看图", "note": "Y_i 为收入，z_{ir} 为其他人口特征，\\nu_{ik} 标准正态"},
+    {"page": 9, "label": "(13)", "latex": "P_{ijh}=\\int\\frac{\\exp[\\delta_j(\\theta)+\\mu_{ij}(\\theta)]}{\\sum_g\\exp[\\delta_g(\\theta)+\\mu_{ig}(\\theta)]}\\cdot\\frac{\\exp[\\delta_h(\\theta)+\\mu_{ih}(\\theta)]}{\\sum_{g\\ne j}\\exp[\\delta_g(\\theta)+\\mu_{ig}(\\theta)]}\\,f(\\nu)\\,d\\nu", "check": "本轮看图", "note": "首选 j、次选 h 的联合概率：两个概率在同一个 \\nu 下相乘后再积分，不能等于两个边际积分之积"},
+    {"page": 9, "label": "(14)", "latex": "\\ln L=\\sum_{i=1}^{N}\\ln R_i,\\qquad \\ln R_i=\\ln P_{ijh}", "check": "本轮看图", "note": "最大似然估计非线性参数"},
+    {"page": 9, "label": "(15)", "latex": "\\delta^{t}_j(\\theta,S)=\\delta^{t-1}_j(\\theta,S)+\\ln(S_j)-\\ln\\big(\\hat S_j(\\theta,\\delta^{t-1}(\\theta,S))\\big)", "check": "本轮看图", "note": "内层容差 1E-15；反演后 \\delta_j=-\\alpha_1\\ln p_j+\\sum_k x_{jk}\\bar\\beta_k+\\xi_j，再用 BLP 型工具估线性参数"},
+    {"page": 8, "label": "(10)–(11)", "latex": "\\frac{dN}{ds'}=\\frac{q_1(p^{0}_1)}{q_1(p_1)}\\,\\epsilon_1,\\qquad \\left.\\frac{dN}{ds'}\\right|_{p^0_1=p_1}=\\epsilon_1", "check": "本轮看图", "note": "补贴的非新增购买与 EV 自价格弹性 \\epsilon_1 成正比（第 3 节理论部分）"}
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "scope": "Symbolic algebra and synthetic-data tests only. Not real-market identification or independent peer review.",
+  "seed": 20261008,
+  "tests": 50,
+  "passed": 50,
+  "results": [
+    {
+      "test": "01_资本化变化包含交互项",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "02_校准平方误差改善恒等式",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "03_有向差距与标签变化机械相关",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "04_来源权重与数字变化精确分解",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "05_数字上调而主观油耗下降的反例",
+      "passed": true,
+      "detail": "m0=8.4, m1=7.2; illustrative only"
+    },
+    {
+      "test": "06_未来成本除100单位检查",
+      "passed": true,
+      "detail": "max_abs_error=0.000e+00"
+    },
+    {
+      "test": "07_电池容量密度质量关系",
+      "passed": true,
+      "detail": "max_abs_error=0.000e+00"
+    },
+    {
+      "test": "08_续航能量核算关系",
+      "passed": true,
+      "detail": "max_abs_error=0.000e+00"
+    },
+    {
+      "test": "09_正态后验配方与更新式一致",
+      "passed": true,
+      "detail": "max_abs_error=0.000e+00"
+    },
+    {
+      "test": "10_后验方差公式一致",
+      "passed": true,
+      "detail": "max_abs_error=0.000e+00"
+    },
+    {
+      "test": "11_相关信号后验协方差有效",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "12_对数正态均值包含半方差",
+      "passed": true,
+      "detail": "max_abs_error=1.776e-15"
+    },
+    {
+      "test": "13_CARA正态确定性等价",
+      "passed": true,
+      "detail": "max_abs_error=0.000e+00"
+    },
+    {
+      "test": "14_标签上浮边界含来源与资本化变化",
+      "passed": true,
+      "detail": "max_abs_error=2.842e-12"
+    },
+    {
+      "test": "15_注意最优一阶条件",
+      "passed": true,
+      "detail": "max_abs_error=0.000e+00"
+    },
+    {
+      "test": "16_logit曲率半正定",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "17_注意损失KL的局部二阶展开",
+      "passed": true,
+      "detail": "max_abs_error=7.369e-08"
+    },
+    {
+      "test": "18_错误选择的KL损失恒等式",
+      "passed": true,
+      "detail": "max_abs_error=2.949e-16"
+    },
+    {
+      "test": "19_双来源归一化参数恢复",
+      "passed": true,
+      "detail": "max_abs_error=0.000e+00"
+    },
+    {
+      "test": "20_独立工具相关列具有秩",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "21_共线来源使识别秩失败",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "22_单标签响应不能分离gamma和kappa",
+      "passed": true,
+      "detail": "max_abs_error=0.000e+00"
+    },
+    {
+      "test": "23_概率与份额加总",
+      "passed": true,
+      "detail": "max_abs_error=2.220e-16"
+    },
+    {
+      "test": "24_平均效用与异质项闭合",
+      "passed": true,
+      "detail": "max_abs_error=1.110e-16"
+    },
+    {
+      "test": "25_异质偏离均值为零",
+      "passed": true,
+      "detail": "max_abs_error=3.247e-17"
+    },
+    {
+      "test": "26_价格导数有限差分",
+      "passed": true,
+      "detail": "max_abs_error=2.036e-11"
+    },
+    {
+      "test": "27_价格自身负交叉正",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "28_转移率含外部选项加总为一",
+      "passed": true,
+      "detail": "max_abs_error=2.220e-16"
+    },
+    {
+      "test": "29_类型份额相对效用导数",
+      "passed": true,
+      "detail": "max_abs_error=2.220e-16"
+    },
+    {
+      "test": "30_类型份额导数有限差分",
+      "passed": true,
+      "detail": "max_abs_error=5.949e-11"
+    },
+    {
+      "test": "31_类型单调性必要符号检查",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "32_共同资本化与仅BEV资本化不可混淆",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "33_个体logodds与效用差",
+      "passed": true,
+      "detail": "max_abs_error=6.842e-16"
+    },
+    {
+      "test": "34_BLP收缩反演恢复人工delta",
+      "passed": true,
+      "detail": "max_abs_error=4.702e-12"
+    },
+    {
+      "test": "35_BLP收缩达到阈值",
+      "passed": true,
+      "detail": "iterations=143"
+    },
+    {
+      "test": "36_简单logit反演",
+      "passed": true,
+      "detail": "max_abs_error=1.665e-16"
+    },
+    {
+      "test": "37_品牌月份固定效应吸收同层分数",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "38_集中GMM线性一阶条件",
+      "passed": true,
+      "detail": "max_abs_error=3.411e-13"
+    },
+    {
+      "test": "39_税楔下markup矩阵方向与FOC",
+      "passed": true,
+      "detail": "max_abs_error=2.776e-17"
+    },
+    {
+      "test": "40_所有权矩阵方向非平凡",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "41_利润价格梯度数值核验",
+      "passed": true,
+      "detail": "max_abs_error=8.882e-11"
+    },
+    {
+      "test": "42_跨城市统一价格正确加总",
+      "passed": true,
+      "detail": "max_abs_error=1.137e-13"
+    },
+    {
+      "test": "43_校正logsum与所选误差恒等式",
+      "passed": true,
+      "detail": "max_abs_error=0.000e+00"
+    },
+    {
+      "test": "44_体验福利独立MonteCarlo验证",
+      "passed": true,
+      "detail": "error=0.00238; MC_SE=0.00309; N=180000"
+    },
+    {
+      "test": "45_反事实转移矩阵行列守恒",
+      "passed": true,
+      "detail": "max_abs_error=8.987e-14"
+    },
+    {
+      "test": "46_反事实转移矩阵列与新份额",
+      "passed": true,
+      "detail": "max_abs_error=6.878e-14"
+    },
+    {
+      "test": "47_纯比例重标不自动降低容量边际效用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "48_评分总和混合均值与条数",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "49_购置补贴在福利核算中相消",
+      "passed": true,
+      "detail": "max_abs_error=0.000e+00"
+    },
+    {
+      "test": "50_研发成本不可从净利润再次扣减",
+      "passed": true,
+      "detail": "max_abs_error=0.000e+00"
+    }
+  ],
+  "untested_empirical_conditions": [
+    "Validity and strength of exclusion restrictions",
+    "Actual policy-display timing and unchanged technology",
+    "Representativeness of owner reviews",
+    "Subjective beliefs or risk identification",
+    "Market size and outside option",
+    "Causal patent response or dynamic innovation equilibrium"
+  ]
+}

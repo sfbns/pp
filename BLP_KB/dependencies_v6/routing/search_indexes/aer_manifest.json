@@ -1,0 +1,1694 @@
+{
+  "generated_at": "2026-06-26T20:30:42",
+  "source_manifest": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\manifest.json",
+  "card_index": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\cards\\second_pass_cards_index_001_100.json",
+  "out_root": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608",
+  "paper_count": 100,
+  "done_count": 100,
+  "queued_count": 0,
+  "items": [
+    {
+      "number": 1,
+      "stage_id": "p0001",
+      "title": "Incentive Complexity, Bounded Rationality, and Effort Provision",
+      "source_pdf": "D:\\codex\\aer\\abeler-et-al-2025-incentive-complexity-bounded-rationality-and-effort-provision.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0001\\p0001\\p0001.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0001_incentive-complexity-bounded-rationality-and-effort-provision.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0001_incentive-complexity-bounded-rationality-and-effort-provision.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0001_incentive-complexity-bounded-rationality-and-effort-provision.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "standard contract theory assumes workers see all incentives clearly -> real incentive systems are complex -> complexity creates opacity -> opacity changes effort, efficiency, and welfare"
+    },
+    {
+      "number": 2,
+      "stage_id": "p0002",
+      "title": "Drivers of Change: Employment Responses to the Lifting of the Saudi Female Driving Ban",
+      "source_pdf": "D:\\codex\\aer\\abou-daher-et-al-2025-drivers-of-change-employment-responses-to-the-lifting-of-the-saudi-female-driving-ban.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0002\\p0002\\p0002.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0002_drivers-of-change-employment-responses-to-the-lifting-of-the-saudi-female-driving-ban.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0002_drivers-of-change-employment-responses-to-the-lifting-of-the-saudi-female-driving-ban.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0002_drivers-of-change-employment-responses-to-the-lifting-of-the-saudi-female-driving-ban.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "landmark rights reform should improve labor outcomes -> de jure reform alone is hard to identify -> randomize de facto access -> find both economic gains and household backlash"
+    },
+    {
+      "number": 3,
+      "stage_id": "p0003",
+      "title": "From Retributive to Restorative: An Alternative Approach to Justice in Schools",
+      "source_pdf": "D:\\codex\\aer\\adukia-et-al-2025-from-retributive-to-restorative-an-alternative-approach-to-justice-in-schools.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0003\\p0003\\p0003.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0003_from-retributive-to-restorative-an-alternative-approach-to-justice-in-schools.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0003_from-retributive-to-restorative-an-alternative-approach-to-justice-in-schools.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0003_from-retributive-to-restorative-an-alternative-approach-to-justice-in-schools.md",
+      "status": "done",
+      "tags": [
+        "diff-in-diff",
+        "implementation",
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "schools fear that less harsh discipline may reduce safety and learning -> evaluate a restorative alternative -> punitive outcomes fall while academic averages do not deteriorate -> justice reform looks less costly than critics assume"
+    },
+    {
+      "number": 4,
+      "stage_id": "p0004",
+      "title": "Gender-Biased Technological Change: Milking Machines and the Exodus of Women from Farming",
+      "source_pdf": "D:\\codex\\aer\\ager-et-al-2026-gender-biased-technological-change-milking-machines-and-the-exodus-of-women-from-farming.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0004\\p0004\\p0004.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0004_gender-biased-technological-change-milking-machines-and-the-exodus-of-women-from-farming.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0004_gender-biased-technological-change-milking-machines-and-the-exodus-of-women-from-farming.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0004_gender-biased-technological-change-milking-machines-and-the-exodus-of-women-from-farming.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "automation is often studied as skill-biased or routine-biased -> here the key bias is gendered task replacement -> displacement from agriculture leads to upward movement elsewhere"
+    },
+    {
+      "number": 5,
+      "stage_id": "p0005",
+      "title": "Just a Few Seeds More: The Value of Network Data for Diffusion",
+      "source_pdf": "D:\\codex\\aer\\akbarpour-et-al-2025-just-a-few-seeds-more-the-value-of-network-data-for-diffusion.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0005\\p0005\\p0005.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0005_just-a-few-seeds-more-the-value-of-network-data-for-diffusion.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0005_just-a-few-seeds-more-the-value-of-network-data-for-diffusion.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0005_just-a-few-seeds-more-the-value-of-network-data-for-diffusion.md",
+      "status": "done",
+      "tags": [
+        "theory"
+      ],
+      "story_ladder": "network science says better targeting should matter -> benchmark that value against a simpler policy margin -> find that more data often buys surprisingly little"
+    },
+    {
+      "number": 6,
+      "stage_id": "p0006",
+      "title": "Monetary Policy and Rational Asset Price Bubbles: Comment",
+      "source_pdf": "D:\\codex\\aer\\allen-et-al-2025-monetary-policy-and-rational-asset-price-bubbles-comment.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0006\\p0006\\p0006.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0006_monetary-policy-and-rational-asset-price-bubbles-comment.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0006_monetary-policy-and-rational-asset-price-bubbles-comment.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0006_monetary-policy-and-rational-asset-price-bubbles-comment.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "prior result seems to imply policy impotence or perversity -> isolate the exact object of the claim -> show impact stabilization remains possible under aggressive action"
+    },
+    {
+      "number": 7,
+      "stage_id": "p0007",
+      "title": "Consistent Evidence on Duration Dependence of Price Changes",
+      "source_pdf": "D:\\codex\\aer\\alvarez-et-al-2025-consistent-evidence-on-duration-dependence-of-price-changes.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0007\\p0007\\p0007.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0007_consistent-evidence-on-duration-dependence-of-price-changes.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0007_consistent-evidence-on-duration-dependence-of-price-changes.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0007_consistent-evidence-on-duration-dependence-of-price-changes.md",
+      "status": "done",
+      "tags": [
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "price-setting evidence depends on difficult hazard estimation -> build a cleaner estimator -> show the empirical picture of duration dependence and macro implications changes"
+    },
+    {
+      "number": 8,
+      "stage_id": "p0008",
+      "title": "Spillovers in State Capacity Building: Evidence from the Digitization of Land Records in Pakistan",
+      "source_pdf": "D:\\codex\\aer\\aman-rana-minaudier-2026-spillovers-in-state-capacity-building-evidence-from-the-digitization-of-land-records-in.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0008\\p0008\\p0008.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0008_spillovers-in-state-capacity-building-evidence-from-the-digitization-of-land-records-in-pa.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0008_spillovers-in-state-capacity-building-evidence-from-the-digitization-of-land-records-in-pa.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0008_spillovers-in-state-capacity-building-evidence-from-the-digitization-of-land-records-in-pa.md",
+      "status": "done",
+      "tags": [
+        "diff-in-diff",
+        "implementation",
+        "spillover"
+      ],
+      "story_ladder": "digitization is usually sold as state-capacity improvement -> reform indeed modernizes one domain -> bureaucratic reorganization spills over negatively to another -> state capacity is not modular"
+    },
+    {
+      "number": 9,
+      "stage_id": "p0009",
+      "title": "Labor Market Power, Self-Employment, and Development",
+      "source_pdf": "D:\\codex\\aer\\amodio-et-al-2025-labor-market-power-self-employment-and-development.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0009\\p0009\\p0009.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0009_labor-market-power-self-employment-and-development.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0009_labor-market-power-self-employment-and-development.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0009_labor-market-power-self-employment-and-development.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "diff-in-diff",
+        "implementation",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "self-employment is often treated as a symptom of underdevelopment -> reframe it as both symptom and countervailing force -> policy that reduces it may have ambiguous welfare consequences"
+    },
+    {
+      "number": 10,
+      "stage_id": "p0010",
+      "title": "Borrowing and Spending in the Money: Debt Substitution and the Cash-Out Refinance Channel of Monetary Policy",
+      "source_pdf": "D:\\codex\\aer\\anenberg-et-al-2025-borrowing-and-spending-in-the-money-debt-substitution-and-the-cash-out-refinance-channel-of.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0010\\p0010\\p0010.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0010_borrowing-and-spending-in-the-money-debt-substitution-and-the-cash-out-refinance-channel-o.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0010_borrowing-and-spending-in-the-money-debt-substitution-and-the-cash-out-refinance-channel-o.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0010_borrowing-and-spending-in-the-money-debt-substitution-and-the-cash-out-refinance-channel-o.md",
+      "status": "done",
+      "tags": [
+        "theory"
+      ],
+      "story_ladder": "conventional wisdom says in-the-money refinancing drives spending transmission -> rate shocks kill cash-outs -> substitution offsets much of the decline -> the refinance channel is weaker and less path dependent than advertised"
+    },
+    {
+      "number": 11,
+      "stage_id": "p0011",
+      "title": "The End of Privilege: A Reexamination of the Net Foreign Asset Position of the United States",
+      "source_pdf": "D:\\codex\\aer\\atkeson-et-al-2025-the-end-of-privilege-a-reexamination-of-the-net-foreign-asset-position-of-the-united-states.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0011\\p0011\\p0011.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0011_the-end-of-privilege-a-reexamination-of-the-net-foreign-asset-position-of-the-united-state.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0011_the-end-of-privilege-a-reexamination-of-the-net-foreign-asset-position-of-the-united-state.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0011_the-end-of-privilege-a-reexamination-of-the-net-foreign-asset-position-of-the-united-state.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "the United States was thought to enjoy favorable valuation reappraisals -> post-2007 data show the opposite -> model-based accounting reveals a reversal of privilege rooted in corporate equity valuations"
+    },
+    {
+      "number": 12,
+      "stage_id": "p0012",
+      "title": "Robust Misspecified Models",
+      "source_pdf": "D:\\codex\\aer\\ba-2026-robust-misspecified-models.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0012\\p0012\\p0012.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0012_robust-misspecified-models.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0012_robust-misspecified-models.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0012_robust-misspecified-models.md",
+      "status": "done",
+      "tags": [
+        "threshold",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "economists often assume false models lose out with enough data -> show that model competition with sticky switching allows false models to survive indefinitely -> clarify why entrenched simple models persist"
+    },
+    {
+      "number": 13,
+      "stage_id": "p0013",
+      "title": "Quid Pro Quo, Knowledge Spillovers, and Industrial Quality Upgrading: Evidence from the Chinese Auto Industry",
+      "source_pdf": "D:\\codex\\aer\\bai-et-al-2025-quid-pro-quo-knowledge-spillovers-and-industrial-quality-upgrading-evidence-from-the-chinese-auto.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0013\\p0013\\p0013.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0013_quid-pro-quo-knowledge-spillovers-and-industrial-quality-upgrading-evidence-from-the-chine.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0013_quid-pro-quo-knowledge-spillovers-and-industrial-quality-upgrading-evidence-from-the-chine.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0013_quid-pro-quo-knowledge-spillovers-and-industrial-quality-upgrading-evidence-from-the-chine.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "implementation",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "policy debate asks whether forced technology transfer ever works -> move from output quantity to multidimensional quality -> show affiliated domestic firms upgrade in the specific dimensions where partners excel"
+    },
+    {
+      "number": 14,
+      "stage_id": "p0014",
+      "title": "Increasing Degree Attainment among Low-Income Students: The Role of Intensive Advising and College Quality",
+      "source_pdf": "D:\\codex\\aer\\barr-castleman-2025-increasing-degree-attainment-among-low-income-students-the-role-of-intensive-advising-and-college.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0014\\p0014\\p0014.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0014_increasing-degree-attainment-among-low-income-students-the-role-of-intensive-advising-and-.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0014_increasing-degree-attainment-among-low-income-students-the-role-of-intensive-advising-and-.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0014_increasing-degree-attainment-among-low-income-students-the-role-of-intensive-advising-and-.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "low-income students underattain degrees -> advising could matter through many channels -> RCT shows large gains -> quality of initial college match emerges as the main engine"
+    },
+    {
+      "number": 15,
+      "stage_id": "p0015",
+      "title": "Similarity of Information and Collective Action",
+      "source_pdf": "D:\\codex\\aer\\basak-et-al-2026-similarity-of-information-and-collective-action.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0015\\p0015\\p0015.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0015_similarity-of-information-and-collective-action.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0015_similarity-of-information-and-collective-action.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0015_similarity-of-information-and-collective-action.md",
+      "status": "done",
+      "tags": [
+        "theory"
+      ],
+      "story_ladder": "common intuition says shared information should aid coordination -> collective action also has free-riding -> theory shows the sign is state dependent -> explains mixed evidence in protests and group decision-making"
+    },
+    {
+      "number": 16,
+      "stage_id": "p0016",
+      "title": "Distinguishing Causes of Neighborhood Racial Change: A Nearest-Neighbor Design",
+      "source_pdf": "D:\\codex\\aer\\bayer-et-al-2025-distinguishing-causes-of-neighborhood-racial-change-a-nearest-neighbor-design.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0016\\p0016\\p0016.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0016_distinguishing-causes-of-neighborhood-racial-change-a-nearest-neighbor-design.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0016_distinguishing-causes-of-neighborhood-racial-change-a-nearest-neighbor-design.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0016_distinguishing-causes-of-neighborhood-racial-change-a-nearest-neighbor-design.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "neighborhood racial change has many overlapping causes -> isolate the most local interpersonal margin -> show direct neighbor identity matters -> clarify how much can and cannot be attributed to that mechanism"
+    },
+    {
+      "number": 17,
+      "stage_id": "p0017",
+      "title": "“Potential” and the Gender Promotion Gap",
+      "source_pdf": "D:\\codex\\aer\\benson-et-al-2026-potential-and-the-gender-promotion-gap.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0017\\p0017\\p0017.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0017_potential-and-the-gender-promotion-gap.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0017_potential-and-the-gender-promotion-gap.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0017_potential-and-the-gender-promotion-gap.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "promotion gaps are often examined through observed performance -> firms say they promote on future potential -> data show potential ratings are biased and consequential -> subjective forecasting category becomes the wedge"
+    },
+    {
+      "number": 18,
+      "stage_id": "p0018",
+      "title": "Real Credit Cycles",
+      "source_pdf": "D:\\codex\\aer\\bordalo-et-al-2026-real-credit-cycles.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0018\\p0018\\p0018.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0018_real-credit-cycles.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0018_real-credit-cycles.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0018_real-credit-cycles.md",
+      "status": "done",
+      "tags": [
+        "theory"
+      ],
+      "story_ladder": "financial instability is often attributed to large exogenous financial shocks -> build a model where beliefs create endogenous fragility -> match credit-cycle facts with smaller shocks"
+    },
+    {
+      "number": 19,
+      "stage_id": "p0019",
+      "title": "Nonlinear Pricing and Misallocation",
+      "source_pdf": "D:\\codex\\aer\\bornstein-peter-2025-nonlinear-pricing-and-misallocation.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0019\\p0019\\p0019.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0019_nonlinear-pricing-and-misallocation.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0019_nonlinear-pricing-and-misallocation.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0019_nonlinear-pricing-and-misallocation.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "standard misallocation logic treats markup dispersion as the key signal -> introduce realistic nonlinear pricing -> the interpretation of observed markups flips -> new misallocation margin emerges"
+    },
+    {
+      "number": 20,
+      "stage_id": "p0020",
+      "title": "Changing Income Risk across the US Skill Distribution: Evidence from a Generalized Kalman Filter",
+      "source_pdf": "D:\\codex\\aer\\braxton-et-al-2025-changing-income-risk-across-the-us-skill-distribution-evidence-from-a-generalized-kalman-filter.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0020\\p0020\\p0020.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0020_changing-income-risk-across-the-us-skill-distribution-evidence-from-a-generalized-kalman-f.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0020_changing-income-risk-across-the-us-skill-distribution-evidence-from-a-generalized-kalman-f.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0020_changing-income-risk-across-the-us-skill-distribution-evidence-from-a-generalized-kalman-f.md",
+      "status": "done",
+      "tags": [
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "overall earnings volatility can hide very different underlying risks -> build a method to decompose them for every worker-period -> show persistent risk rises in high-skill, tech-exposed jobs"
+    },
+    {
+      "number": 21,
+      "stage_id": "p0021",
+      "title": "Take the Goods and Run: Contracting Frictions and Market Power in Supply Chains",
+      "source_pdf": "D:\\codex\\aer\\brugués-2026-take-the-goods-and-run-contracting-frictions-and-market-power-in-supply-chains.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0021\\p0021\\p0021.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0021_take-the-goods-and-run-contracting-frictions-and-market-power-in-supply-chains.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0021_take-the-goods-and-run-contracting-frictions-and-market-power-in-supply-chains.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0021_take-the-goods-and-run-contracting-frictions-and-market-power-in-supply-chains.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "weak enforcement is usually treated as purely harmful -> market power is also present in these environments -> the two distortions interact in a second-best way -> fixing only one friction can backfire"
+    },
+    {
+      "number": 22,
+      "stage_id": "p0022",
+      "title": "The Debt-Inflation Channel of the German (Hyper)Inflation",
+      "source_pdf": "D:\\codex\\aer\\brunnermeier-et-al-2025-the-debt-inflation-channel-of-the-german-(hyper)inflation.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0022\\p0022\\p0022.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0022_the-debt-inflation-channel-of-the-german-hyper-inflation.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0022_the-debt-inflation-channel-of-the-german-hyper-inflation.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0022_the-debt-inflation-channel-of-the-german-hyper-inflation.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "inflation transmission is often discussed through price rigidities -> an extreme historical episode isolates the balance-sheet channel -> highly levered firms expand relative to others -> debt contracts are themselves a nominal rigidity"
+    },
+    {
+      "number": 23,
+      "stage_id": "p0023",
+      "title": "Gender Differences in Financial Advice",
+      "source_pdf": "D:\\codex\\aer\\bucher-koenen-et-al-2025-gender-differences-in-financial-advice.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0023\\p0023\\p0023.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0023_gender-differences-in-financial-advice.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0023_gender-differences-in-financial-advice.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0023_gender-differences-in-financial-advice.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "advice should help less sophisticated investors the most -> advisor incentives are not aligned with client welfare -> the vulnerable group becomes the more exploitable group -> advice can widen, not close, financial inequality"
+    },
+    {
+      "number": 24,
+      "stage_id": "p0024",
+      "title": "The Value of Clean Water: Experimental Evidence from Rural India",
+      "source_pdf": "D:\\codex\\aer\\burlig-et-al-2026-the-value-of-clean-water-experimental-evidence-from-rural-india.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0024\\p0024\\p0024.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0024_the-value-of-clean-water-experimental-evidence-from-rural-india.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0024_the-value-of-clean-water-experimental-evidence-from-rural-india.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0024_the-value-of-clean-water-experimental-evidence-from-rural-india.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "implementation",
+        "spillover",
+        "policy-interaction"
+      ],
+      "story_ladder": "piped water is expensive and chlorine is unpopular -> test a different production and distribution bundle -> households reveal much higher valuation than the literature implied -> the welfare case for clean-water access strengthens"
+    },
+    {
+      "number": 25,
+      "stage_id": "p0025",
+      "title": "When Product Markets Become Collective Traps: The Case of Social Media",
+      "source_pdf": "D:\\codex\\aer\\bursztyn-et-al-2025-when-product-markets-become-collective-traps-the-case-of-social-media.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0025\\p0025\\p0025.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0025_when-product-markets-become-collective-traps-the-case-of-social-media.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0025_when-product-markets-become-collective-traps-the-case-of-social-media.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0025_when-product-markets-become-collective-traps-the-case-of-social-media.md",
+      "status": "done",
+      "tags": [
+        "policy-interaction",
+        "theory"
+      ],
+      "story_ladder": "market demand and surplus are usually evaluated holding aggregate use fixed -> network goods change the value of opting out -> a popular product can become a collective trap -> standard welfare accounting breaks"
+    },
+    {
+      "number": 26,
+      "stage_id": "p0026",
+      "title": "Dynamics of the Long-Term Housing Yield: Evidence from Natural Experiments",
+      "source_pdf": "D:\\codex\\aer\\bäcker-peral-et-al-2026-dynamics-of-the-long-term-housing-yield-evidence-from-natural-experiments.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0026\\p0026\\p0026.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0026_dynamics-of-the-long-term-housing-yield-evidence-from-natural-experiments.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0026_dynamics-of-the-long-term-housing-yield-evidence-from-natural-experiments.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0026_dynamics-of-the-long-term-housing-yield-evidence-from-natural-experiments.md",
+      "status": "done",
+      "tags": [
+        "diff-in-diff",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "housing valuations are central but long-run yield is hidden -> lease extensions create repeated pricing experiments -> a real-time series of the latent yield can be recovered -> the long-run discount environment has shifted sharply"
+    },
+    {
+      "number": 27,
+      "stage_id": "p0027",
+      "title": "Apart but Connected: Online Tutoring, Cognitive Outcomes, and Soft Skills",
+      "source_pdf": "D:\\codex\\aer\\carlana-la-ferrara-2025-apart-but-connected-online-tutoring-cognitive-outcomes-and-soft-skills.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0027\\p0027\\p0027.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0027_apart-but-connected-online-tutoring-cognitive-outcomes-and-soft-skills.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0027_apart-but-connected-online-tutoring-cognitive-outcomes-and-soft-skills.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0027_apart-but-connected-online-tutoring-cognitive-outcomes-and-soft-skills.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "pandemic school closures generated severe inequality and isolation -> online tutoring looks like an imperfect substitute -> a randomized design shows meaningful academic gains and context-dependent soft-skill gains -> remote support is more powerful than expected"
+    },
+    {
+      "number": 28,
+      "stage_id": "p0028",
+      "title": "Competition under Incomplete Contracts and the Design of Procurement Policies",
+      "source_pdf": "D:\\codex\\aer\\carril-et-al-2026-competition-under-incomplete-contracts-and-the-design-of-procurement-policies.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0028\\p0028\\p0028.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0028_competition-under-incomplete-contracts-and-the-design-of-procurement-policies.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0028_competition-under-incomplete-contracts-and-the-design-of-procurement-policies.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0028_competition-under-incomplete-contracts-and-the-design-of-procurement-policies.md",
+      "status": "done",
+      "tags": [
+        "threshold",
+        "implementation",
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "procurement reform often treats more competition as unambiguously good -> incomplete contracts mean award price is not the whole object -> cheaper winners can perform worse -> optimal procurement policy must internalize post-award execution"
+    },
+    {
+      "number": 29,
+      "stage_id": "p0029",
+      "title": "First-Generation Elite: The Role of School Social Networks",
+      "source_pdf": "D:\\codex\\aer\\cattan-et-al-2025-first-generation-elite-the-role-of-school-social-networks.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0029\\p0029\\p0029.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0029_first-generation-elite-the-role-of-school-social-networks.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0029_first-generation-elite-the-role-of-school-social-networks.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0029_first-generation-elite-the-role-of-school-social-networks.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "threshold",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "Norway has free tuition and centralized admissions yet still shows strong elite persistence -> missing ingredient is social capital -> peer exposure changes both learning and application behavior -> the design of grading and school mixing shapes mobility"
+    },
+    {
+      "number": 30,
+      "stage_id": "p0030",
+      "title": "Sequential Learning under Informational Ambiguity",
+      "source_pdf": "D:\\codex\\aer\\chen-2026-sequential-learning-under-informational-ambiguity.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0030\\p0030\\p0030.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0030_sequential-learning-under-informational-ambiguity.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0030_sequential-learning-under-informational-ambiguity.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0030_sequential-learning-under-informational-ambiguity.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "Bayesian social learning gives fragile cascade predictions -> real agents are also unsure how informative others are -> ambiguity is introduced -> cascades become the robust outcome rather than the exception"
+    },
+    {
+      "number": 31,
+      "stage_id": "p0031",
+      "title": "The Opportunity Atlas: Mapping the Childhood Roots of Social Mobility",
+      "source_pdf": "D:\\codex\\aer\\chetty-et-al-2026-the-opportunity-atlas-mapping-the-childhood-roots-of-social-mobility.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0031\\p0031\\p0031.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0031_the-opportunity-atlas-mapping-the-childhood-roots-of-social-mobility.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0031_the-opportunity-atlas-mapping-the-childhood-roots-of-social-mobility.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0031_the-opportunity-atlas-mapping-the-childhood-roots-of-social-mobility.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "place effects matter but existing evidence is too coarse for targeting -> build a tract-level outcome atlas -> show that standard proxies miss much of the variation -> create a policy and research tool grounded in actual long-run outcomes"
+    },
+    {
+      "number": 32,
+      "stage_id": "p0032",
+      "title": "Zero-Sum Thinking and the Roots of US Political Differences",
+      "source_pdf": "D:\\codex\\aer\\chinoy-et-al-2026-zero-sum-thinking-and-the-roots-of-us-political-differences.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0032\\p0032\\p0032.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0032_zero-sum-thinking-and-the-roots-of-us-political-differences.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0032_zero-sum-thinking-and-the-roots-of-us-political-differences.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0032_zero-sum-thinking-and-the-roots-of-us-political-differences.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "spillover",
+        "distribution"
+      ],
+      "story_ladder": "many US political preferences appear ideologically inconsistent -> a deeper mental model may reconcile them -> directly measure zero-sum thinking -> trace it to lived and inherited experience"
+    },
+    {
+      "number": 33,
+      "stage_id": "p0033",
+      "title": "Tying with Network Effects",
+      "source_pdf": "D:\\codex\\aer\\choi-et-al-2026-tying-with-network-effects.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0033\\p0033\\p0033.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0033_tying-with-network-effects.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0033_tying-with-network-effects.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0033_tying-with-network-effects.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "standard leverage theories of tying are contested -> network effects create a new strategic force -> tying becomes a best response without special commitment assumptions -> antitrust concerns survive in a different form"
+    },
+    {
+      "number": 34,
+      "stage_id": "p0034",
+      "title": "Default Options and Retirement Saving Dynamics",
+      "source_pdf": "D:\\codex\\aer\\choukhmane-2025-default-options-and-retirement-saving-dynamics.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0034\\p0034\\p0034.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0034_default-options-and-retirement-saving-dynamics.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0034_default-options-and-retirement-saving-dynamics.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0034_default-options-and-retirement-saving-dynamics.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "defaults look powerful in behavioral finance -> most evidence is short-run -> a dynamic perspective shows attenuation and heterogeneity -> long-run policy evaluation differs from the immediate response"
+    },
+    {
+      "number": 35,
+      "stage_id": "p0035",
+      "title": "An Equilibrium Analysis of the Effects of Neighborhood-Based Interventions on Children",
+      "source_pdf": "D:\\codex\\aer\\chyn-daruich-2025-an-equilibrium-analysis-of-the-effects-of-neighborhood-based-interventions-on-children.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0035\\p0035\\p0035.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0035_an-equilibrium-analysis-of-the-effects-of-neighborhood-based-interventions-on-children.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0035_an-equilibrium-analysis-of-the-effects-of-neighborhood-based-interventions-on-children.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0035_an-equilibrium-analysis-of-the-effects-of-neighborhood-based-interventions-on-children.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "reduced-form place studies identify local effects -> policy at scale changes equilibrium -> build a model where children, neighborhoods, and housing markets coevolve -> compare people-based and place-based interventions under general equilibrium"
+    },
+    {
+      "number": 36,
+      "stage_id": "p0036",
+      "title": "Monetary Policy and the Labor Market: A Quasi-experiment in Sweden",
+      "source_pdf": "D:\\codex\\aer\\coglianese-et-al-2025-monetary-policy-and-the-labor-market-a-quasi-experiment-in-sweden.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0036\\p0036\\p0036.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0036_monetary-policy-and-the-labor-market-a-quasi-experiment-in-sweden.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0036_monetary-policy-and-the-labor-market-a-quasi-experiment-in-sweden.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0036_monetary-policy-and-the-labor-market-a-quasi-experiment-in-sweden.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "policy-interaction",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "clean modern monetary case studies are rare -> the Swedish tightening looks unusually identifiable because it was driven by financial-stability concerns -> careful validation shows a large contraction -> the labor-market costs were both sizable and unequal"
+    },
+    {
+      "number": 37,
+      "stage_id": "p0037",
+      "title": "Sequential Cursed Equilibrium",
+      "source_pdf": "D:\\codex\\aer\\cohen-li-2026-sequential-cursed-equilibrium.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0037\\p0037\\p0037.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0037_sequential-cursed-equilibrium.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0037_sequential-cursed-equilibrium.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0037_sequential-cursed-equilibrium.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "cursed equilibrium works in simultaneous settings but misfires in extensive games -> identify the psychological asymmetry between hypothetical and observed information -> build a new solution concept around that asymmetry -> recover more plausible dynamic predictions"
+    },
+    {
+      "number": 38,
+      "stage_id": "p0038",
+      "title": "Politics at Work",
+      "source_pdf": "D:\\codex\\aer\\colonnelli-et-al-2025-politics-at-work.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0038\\p0038\\p0038.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0038_politics-at-work.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0038_politics-at-work.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0038_politics-at-work.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "implementation",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "politics is usually studied in explicitly political arenas -> partisan identity can also spill into private employment relationships -> rich microdata reveal strong assortative matching -> politics becomes an economic sorting force"
+    },
+    {
+      "number": 39,
+      "stage_id": "p0039",
+      "title": "Black Lives: The High Cost of Segregation",
+      "source_pdf": "D:\\codex\\aer\\cox-et-al-2026-black-lives-the-high-cost-of-segregation (2).pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0039\\p0039\\p0039.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0039_black-lives-the-high-cost-of-segregation.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0039_black-lives-the-high-cost-of-segregation.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0039_black-lives-the-high-cost-of-segregation.md",
+      "status": "done",
+      "tags": [
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "segregation is often discussed as a residential or distributional fact -> its most severe cost may be violent mortality -> a historical spatial design links segregation to homicide through the fiscal state"
+    },
+    {
+      "number": 40,
+      "stage_id": "p0040",
+      "title": "Why Is Workplace Sexual Harassment Underreported? The Value of Outside Options amid the Threat of Retaliation",
+      "source_pdf": "D:\\codex\\aer\\dahl-knepper-2026-why-is-workplace-sexual-harassment-underreported-the-value-of-outside-options-amid-the-threat-of.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0040\\p0040\\p0040.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0040_why-is-workplace-sexual-harassment-underreported-the-value-of-outside-options-amid-the-thr.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0040_why-is-workplace-sexual-harassment-underreported-the-value-of-outside-options-amid-the-thr.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0040_why-is-workplace-sexual-harassment-underreported-the-value-of-outside-options-amid-the-thr.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "policy-interaction",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "formal charges are not the same as true prevalence -> economic vulnerability changes the reporting decision -> shocks to outside options reveal the hidden reporting margin -> labor-market conditions shape measured harassment"
+    },
+    {
+      "number": 41,
+      "stage_id": "p0041",
+      "title": "Negative Control Falsification Tests for Instrumental Variable Designs",
+      "source_pdf": "D:\\codex\\aer\\danieli-et-al-2026-negative-control-falsification-tests-for-instrumental-variable-designs.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0041\\p0041\\p0041.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0041_negative-control-falsification-tests-for-instrumental-variable-designs.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0041_negative-control-falsification-tests-for-instrumental-variable-designs.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0041_negative-control-falsification-tests-for-instrumental-variable-designs.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "placebo tests are widespread and treated as routine credibility checks -> the logic behind them is underspecified -> formalization shows many common rejections need not imply invalid IVs -> implementation guidance matters"
+    },
+    {
+      "number": 42,
+      "stage_id": "p0042",
+      "title": "The Trade-Off between Flexibility and Robustness in Instrumental Variables Analysis",
+      "source_pdf": "D:\\codex\\aer\\deaner-2025-the-trade-off-between-flexibility-and-robustness-in-instrumental-variables-analysis.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0042\\p0042\\p0042.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0042_the-trade-off-between-flexibility-and-robustness-in-instrumental-variables-analysis.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0042_the-trade-off-between-flexibility-and-robustness-in-instrumental-variables-analysis.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0042_the-trade-off-between-flexibility-and-robustness-in-instrumental-variables-analysis.md",
+      "status": "done",
+      "tags": [
+        "theory"
+      ],
+      "story_ladder": "flexibility is usually discussed as a precision-versus-bias trade-off -> in IV there is another cost -> misspecification sensitivity rises with flexibility even in huge samples -> model choice is also a robustness choice"
+    },
+    {
+      "number": 43,
+      "stage_id": "p0043",
+      "title": "Test-Optional Admissions",
+      "source_pdf": "D:\\codex\\aer\\dessein-et-al-2025-test-optional-admissions.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0043\\p0043\\p0043.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0043_test-optional-admissions.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0043_test-optional-admissions.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0043_test-optional-admissions.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "more information should improve selection -> colleges increasingly go test optional anyway -> social pressure makes information itself costly -> withholding scores becomes an institutional response rather than an information failure"
+    },
+    {
+      "number": 44,
+      "stage_id": "p0044",
+      "title": "Firm Responses and Wage Effects of Foreign Demand Shocks with Fixed Labor Costs and Monopsony",
+      "source_pdf": "D:\\codex\\aer\\dhyne-et-al-2025-firm-responses-and-wage-effects-of-foreign-demand-shocks-with-fixed-labor-costs-and-monopsony.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0044\\p0044\\p0044.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0044_firm-responses-and-wage-effects-of-foreign-demand-shocks-with-fixed-labor-costs-and-monops.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0044_firm-responses-and-wage-effects-of-foreign-demand-shocks-with-fixed-labor-costs-and-monops.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0044_firm-responses-and-wage-effects-of-foreign-demand-shocks-with-fixed-labor-costs-and-monops.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "trade shocks affect firms directly and through networks -> firm responses reveal cost structure -> fixed labor costs and some monopsony matter -> aggregate wage incidence of tariffs is larger than benchmark models suggest"
+    },
+    {
+      "number": 45,
+      "stage_id": "p0045",
+      "title": "Keep Your Enemies Closer: Strategic Platform Adjustments during US and French Elections",
+      "source_pdf": "D:\\codex\\aer\\di-tella-et-al-2025-keep-your-enemies-closer-strategic-platform-adjustments-during-us-and-french-elections.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0045\\p0045\\p0045.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0045_keep-your-enemies-closer-strategic-platform-adjustments-during-us-and-french-elections.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0045_keep-your-enemies-closer-strategic-platform-adjustments-during-us-and-french-elections.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0045_keep-your-enemies-closer-strategic-platform-adjustments-during-us-and-french-elections.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "median-voter convergence is foundational but hard to test directly -> campaign texts provide direct platform evidence -> quasirandom rival identity shifts reveal strategic moderation -> politicians visibly follow each other"
+    },
+    {
+      "number": 46,
+      "stage_id": "p0046",
+      "title": "Allocation Mechanisms with Mixture-Averse Preferences",
+      "source_pdf": "D:\\codex\\aer\\dillenberger-segal-2025-allocation-mechanisms-with-mixture-averse-preferences.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0046\\p0046\\p0046.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0046_allocation-mechanisms-with-mixture-averse-preferences.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0046_allocation-mechanisms-with-mixture-averse-preferences.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0046_allocation-mechanisms-with-mixture-averse-preferences.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "theory"
+      ],
+      "story_ladder": "many allocation mechanisms rely heavily on randomization -> that logic changes when people dislike mixtures -> efficiency sharply restricts lottery complexity -> standard mechanisms fail more often than expected"
+    },
+    {
+      "number": 47,
+      "stage_id": "p0047",
+      "title": "Monopsony and Employer Misoptimization Explain Why Wages Bunch at Round Numbers",
+      "source_pdf": "D:\\codex\\aer\\dube-et-al-2025-monopsony-and-employer-misoptimization-explain-why-wages-bunch-at-round-numbers.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0047\\p0047\\p0047.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0047_monopsony-and-employer-misoptimization-explain-why-wages-bunch-at-round-numbers.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0047_monopsony-and-employer-misoptimization-explain-why-wages-bunch-at-round-numbers.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0047_monopsony-and-employer-misoptimization-explain-why-wages-bunch-at-round-numbers.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "threshold",
+        "implementation",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "round-number bunching resembles familiar product-market pricing patterns -> test whether workers exhibit similar left-digit bias -> null evidence rejects the standard explanation -> the distortion lies on the employer side"
+    },
+    {
+      "number": 48,
+      "stage_id": "p0048",
+      "title": "The Negligible Effect of Free Contraception on Fertility: Experimental Evidence from Burkina Faso",
+      "source_pdf": "D:\\codex\\aer\\dupas-et-al-2025-the-negligible-effect-of-free-contraception-on-fertility-experimental-evidence-from-burkina-faso.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0048\\p0048\\p0048.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0048_the-negligible-effect-of-free-contraception-on-fertility-experimental-evidence-from-burkin.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0048_the-negligible-effect-of-free-contraception-on-fertility-experimental-evidence-from-burkin.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0048_the-negligible-effect-of-free-contraception-on-fertility-experimental-evidence-from-burkin.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "distribution"
+      ],
+      "story_ladder": "subsidized family planning is often treated as a central lever for fertility reduction -> test the claim directly in a high-fertility environment -> strong null rejects even modest effects -> the policy logic needs rethinking"
+    },
+    {
+      "number": 49,
+      "stage_id": "p0049",
+      "title": "Gender Differences in Economics Seminars",
+      "source_pdf": "D:\\codex\\aer\\dupas-et-al-2026-gender-differences-in-economics-seminars.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0049\\p0049\\p0049.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0049_gender-differences-in-economics-seminars.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0049_gender-differences-in-economics-seminars.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0049_gender-differences-in-economics-seminars.md",
+      "status": "done",
+      "tags": [
+        "new-measurement",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "academic seminars are central to professional evaluation -> unequal treatment there can affect careers -> large-scale measurement reveals not just more questions for women but more disruptive and negative interruptions"
+    },
+    {
+      "number": 50,
+      "stage_id": "p0050",
+      "title": "Optimal Taxation and Market Power",
+      "source_pdf": "D:\\codex\\aer\\eeckhout-et-al-2026-optimal-taxation-and-market-power.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0050\\p0050\\p0050.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0050_optimal-taxation-and-market-power.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0050_optimal-taxation-and-market-power.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0050_optimal-taxation-and-market-power.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "competition policy is the first-best response to market power -> taxation still matters when first-best tools are incomplete -> integrating oligopoly into optimal tax theory changes both qualitative and quantitative prescriptions"
+    },
+    {
+      "number": 51,
+      "stage_id": "p0051",
+      "title": "Financial Frictions: Micro versus Macro Volatility",
+      "source_pdf": "D:\\codex\\aer\\faccini-et-al-2026-financial-frictions-micro-versus-macro-volatility.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0051\\p0051\\p0051.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0051_financial-frictions-micro-versus-macro-volatility.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0051_financial-frictions-micro-versus-macro-volatility.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0051_financial-frictions-micro-versus-macro-volatility.md",
+      "status": "done",
+      "tags": [
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "financial-frictions research focuses heavily on corporate spreads -> household credit spreads also move cyclically and matter for consumption -> integrating them into HANK changes both business-cycle and welfare conclusions"
+    },
+    {
+      "number": 52,
+      "stage_id": "p0052",
+      "title": "The Price of War",
+      "source_pdf": "D:\\codex\\aer\\federle-et-al-2026-the-price-of-war.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0052\\p0052\\p0052.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0052_the-price-of-war.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0052_the-price-of-war.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0052_the-price-of-war.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "the human cost of war is obvious, but the macro toll across countries is less systematically measured -> a long historical panel reveals large local and spillover effects -> trade and borders propagate the damage"
+    },
+    {
+      "number": 53,
+      "stage_id": "p0053",
+      "title": "A Theory of Supply Function Choice and Aggregate Supply",
+      "source_pdf": "D:\\codex\\aer\\flynn-et-al-2026-a-theory-of-supply-function-choice-and-aggregate-supply.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0053\\p0053\\p0053.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0053_a-theory-of-supply-function-choice-and-aggregate-supply.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0053_a-theory-of-supply-function-choice-and-aggregate-supply.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0053_a-theory-of-supply-function-choice-and-aggregate-supply.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "modern aggregate-supply theory implicitly assumes a restrictive firm strategy set -> allow richer supply choices -> the slope of aggregate supply becomes endogenous to the uncertainty environment -> long-run macro episodes look more interpretable"
+    },
+    {
+      "number": 54,
+      "stage_id": "p0054",
+      "title": "Cursed Sequential Equilibrium",
+      "source_pdf": "D:\\codex\\aer\\fong-et-al-2025-cursed-sequential-equilibrium.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0054\\p0054\\p0054.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0054_cursed-sequential-equilibrium.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0054_cursed-sequential-equilibrium.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0054_cursed-sequential-equilibrium.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "cursed equilibrium is influential in static settings -> dynamic games need a sequential version -> extending cursedness changes canonical dynamic predictions -> experimental patterns support the new concept"
+    },
+    {
+      "number": 55,
+      "stage_id": "p0055",
+      "title": "Monetary Cooperation during Global Inflation Surges",
+      "source_pdf": "D:\\codex\\aer\\fornaro-romei-2026-monetary-cooperation-during-global-inflation-surges.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0055\\p0055\\p0055.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0055_monetary-cooperation-during-global-inflation-surges.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0055_monetary-cooperation-during-global-inflation-surges.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0055_monetary-cooperation-during-global-inflation-surges.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "inflation is usually treated as something each central bank fights alone -> under global tradable scarcity some inflation helps reallocate supply -> spillovers mean each country underprovides that adjustment -> cooperation can reduce global contraction"
+    },
+    {
+      "number": 56,
+      "stage_id": "p0056",
+      "title": "Anatomy of the Phillips Curve: Micro Evidence and Macro Implications",
+      "source_pdf": "D:\\codex\\aer\\gagliardone-et-al-2025-anatomy-of-the-phillips-curve-micro-evidence-and-macro-implications.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0056\\p0056\\p0056.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0056_anatomy-of-the-phillips-curve-micro-evidence-and-macro-implications.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0056_anatomy-of-the-phillips-curve-micro-evidence-and-macro-implications.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0056_anatomy-of-the-phillips-curve-micro-evidence-and-macro-implications.md",
+      "status": "done",
+      "tags": [
+        "theory"
+      ],
+      "story_ladder": "aggregate Phillips-curve estimates are small -> either pricing is inert or the wrong activity measure is being used -> micro evidence shows firms respond strongly to marginal cost -> the wedge lies between output and marginal cost, not between cost and price"
+    },
+    {
+      "number": 57,
+      "stage_id": "p0057",
+      "title": "Place-Based Redistribution",
+      "source_pdf": "D:\\codex\\aer\\gaubert-et-al-2025-place-based-redistribution.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0057\\p0057\\p0057.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0057_place-based-redistribution.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0057_place-based-redistribution.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0057_place-based-redistribution.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "redistribution is usually discussed as place-blind -> migration and local markets mean taxation changes community composition -> optimal policy depends on why people sort where they do -> spatial redistribution has a rigorous tax basis"
+    },
+    {
+      "number": 58,
+      "stage_id": "p0058",
+      "title": "Equal Pay for Similar Work",
+      "source_pdf": "D:\\codex\\aer\\gentile-passaro-et-al-2026-equal-pay-for-similar-work.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0058\\p0058\\p0058.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0058_equal-pay-for-similar-work.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0058_equal-pay-for-similar-work.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0058_equal-pay-for-similar-work.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "equal-pay rules seem straightforwardly fairness-improving -> firms can change job composition and assignment -> segregation becomes the adjustment margin -> intended equity policy can worsen group gaps"
+    },
+    {
+      "number": 59,
+      "stage_id": "p0059",
+      "title": "Temporary Layoffs, Loss-of-Recall, and Cyclical Unemployment Dynamics",
+      "source_pdf": "D:\\codex\\aer\\gertler-et-al-2026-temporary-layoffs-loss-of-recall-and-cyclical-unemployment-dynamics.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0059\\p0059\\p0059.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0059_temporary-layoffs-loss-of-recall-and-cyclical-unemployment-dynamics.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0059_temporary-layoffs-loss-of-recall-and-cyclical-unemployment-dynamics.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0059_temporary-layoffs-loss-of-recall-and-cyclical-unemployment-dynamics.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "theory"
+      ],
+      "story_ladder": "recalls make temporary layoffs look like a stabilizer -> data show many layoffs convert into nonrecall unemployment -> a model with loss-of-recall fits both historical and pandemic patterns -> policy that preserves recall margins matters a lot"
+    },
+    {
+      "number": 60,
+      "stage_id": "p0060",
+      "title": "Diffusion of Reproductive Health Behavior through International Migration: Effects on Origin-Country Fertility",
+      "source_pdf": "D:\\codex\\aer\\godlonton-theoharides-2025-diffusion-of-reproductive-health-behavior-through-international-migration-effects-on-origin.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0060\\p0060\\p0060.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0060_diffusion-of-reproductive-health-behavior-through-international-migration-effects-on-origi.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0060_diffusion-of-reproductive-health-behavior-through-international-migration-effects-on-origi.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0060_diffusion-of-reproductive-health-behavior-through-international-migration-effects-on-origi.md",
+      "status": "done",
+      "tags": [
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "migration moves labor and income, but it may also move norms -> destination-country policy variation creates differential exposure across origin provinces -> fertility falls where migrant exposure to liberal policies is stronger -> migration becomes a channel of behavioral diffusion"
+    },
+    {
+      "number": 61,
+      "stage_id": "p0061",
+      "title": "A Preferred-Habitat Model of Term Premia, Exchange Rates, and Monetary Policy Spillovers",
+      "source_pdf": "D:\\codex\\aer\\gourinchas-et-al-2025-a-preferred-habitat-model-of-term-premia-exchange-rates-and-monetary-policy-spillovers.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0061\\p0061\\p0061.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0061_a-preferred-habitat-model-of-term-premia-exchange-rates-and-monetary-policy-spillovers.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0061_a-preferred-habitat-model-of-term-premia-exchange-rates-and-monetary-policy-spillovers.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0061_a-preferred-habitat-model-of-term-premia-exchange-rates-and-monetary-policy-spillovers.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "standard open-economy models imply strong insulation under floating rates -> empirical bond, FX, and QE evidence contradicts that -> segmented clienteles and limited arbitrage restore the missing spillovers"
+    },
+    {
+      "number": 62,
+      "stage_id": "p0062",
+      "title": "Do Credit Conditions Move House Prices?",
+      "source_pdf": "D:\\codex\\aer\\greenwald-guren-2025-do-credit-conditions-move-house-prices.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0062\\p0062\\p0062.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0062_do-credit-conditions-move-house-prices.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0062_do-credit-conditions-move-house-prices.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0062_do-credit-conditions-move-house-prices.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "existing studies reach opposite conclusions about credit and housing -> the hidden difference is the degree of market segmentation -> estimating that margin reconciles the debate"
+    },
+    {
+      "number": 63,
+      "stage_id": "p0063",
+      "title": "Work from Home and the Office Real Estate Apocalypse",
+      "source_pdf": "D:\\codex\\aer\\gupta-et-al-2026-work-from-home-and-the-office-real-estate-apocalypse.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0063\\p0063\\p0063.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0063_work-from-home-and-the-office-real-estate-apocalypse.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0063_work-from-home-and-the-office-real-estate-apocalypse.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0063_work-from-home-and-the-office-real-estate-apocalypse.md",
+      "status": "done",
+      "tags": [
+        "threshold",
+        "implementation",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "remote work visibly empties offices -> the real question is what that means for asset values, banks, and city finances -> lease data plus valuation modeling reveal large, persistent destruction"
+    },
+    {
+      "number": 64,
+      "stage_id": "p0064",
+      "title": "A Long and a Short Leg Make for a Wobbly Equilibrium",
+      "source_pdf": "D:\\codex\\aer\\gârleanu-et-al-2026-a-long-and-a-short-leg-make-for-a-wobbly-equilibrium.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0064\\p0064\\p0064.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0064_a-long-and-a-short-leg-make-for-a-wobbly-equilibrium.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0064_a-long-and-a-short-leg-make-for-a-wobbly-equilibrium.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0064_a-long-and-a-short-leg-make-for-a-wobbly-equilibrium.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "short sellers should attack larger mispricing -> in practice activity can collapse abruptly -> the missing piece is the lending market and equilibrium feedback in borrow fees"
+    },
+    {
+      "number": 65,
+      "stage_id": "p0065",
+      "title": "The Value of Software",
+      "source_pdf": "D:\\codex\\aer\\gómez-cram-lawrence-2025-the-value-of-software.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0065\\p0065\\p0065.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0065_the-value-of-software.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0065_the-value-of-software.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0065_the-value-of-software.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "theory"
+      ],
+      "story_ladder": "software became a dominant asset in the digital economy -> if markets were fully rational this revaluation should be quick -> long-lived anomalies suggest investors learn far more slowly than standard models imply"
+    },
+    {
+      "number": 66,
+      "stage_id": "p0066",
+      "title": "Supply, Demand, Institutions, and Firms: A Theory of Labor Market Sorting and the Wage Distribution",
+      "source_pdf": "D:\\codex\\aer\\haanwinckel-2025-supply-demand-institutions-and-firms-a-theory-of-labor-market-sorting-and-the-wage-distribution.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0066\\p0066\\p0066.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0066_supply-demand-institutions-and-firms-a-theory-of-labor-market-sorting-and-the-wage-distrib.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0066_supply-demand-institutions-and-firms-a-theory-of-labor-market-sorting-and-the-wage-distrib.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0066_supply-demand-institutions-and-firms-a-theory-of-labor-market-sorting-and-the-wage-distrib.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "spillover",
+        "policy-interaction",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "labor economics often treats supply-demand and firm heterogeneity as separate traditions -> wage inequality reflects both simultaneously -> a unified model changes which shocks look important"
+    },
+    {
+      "number": 67,
+      "stage_id": "p0067",
+      "title": "Consumer Credit and the Incidence of Tariffs: Evidence from the Auto Industry",
+      "source_pdf": "D:\\codex\\aer\\hankins-et-al-2026-consumer-credit-and-the-incidence-of-tariffs-evidence-from-the-auto-industry.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0067\\p0067\\p0067.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0067_consumer-credit-and-the-incidence-of-tariffs-evidence-from-the-auto-industry.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0067_consumer-credit-and-the-incidence-of-tariffs-evidence-from-the-auto-industry.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0067_consumer-credit-and-the-incidence-of-tariffs-evidence-from-the-auto-industry.md",
+      "status": "done",
+      "tags": [
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "tariff incidence is usually measured in product prices -> many purchases are financed -> vertically linked lenders create another pass-through channel -> total consumer burden is larger and more unequal"
+    },
+    {
+      "number": 68,
+      "stage_id": "p0068",
+      "title": "Market-Wide Predictable Price Pressure",
+      "source_pdf": "D:\\codex\\aer\\hartzmark-solomon-2025-market-wide-predictable-price-pressure.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0068\\p0068\\p0068.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0068_market-wide-predictable-price-pressure.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0068_market-wide-predictable-price-pressure.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0068_market-wide-predictable-price-pressure.md",
+      "status": "done",
+      "tags": [
+        "policy-interaction",
+        "theory"
+      ],
+      "story_ladder": "standard finance assumes aggregate markets absorb uninformed flows without moving price -> scheduled cash distributions provide advance-known flow shocks -> prices still move when the trades happen -> market-level price pressure is real"
+    },
+    {
+      "number": 69,
+      "stage_id": "p0069",
+      "title": "Power Flows: Transmission Lines, Allocative Efficiency, and Corporate Profits",
+      "source_pdf": "D:\\codex\\aer\\hausman-2025-power-flows-transmission-lines-allocative-efficiency-and-corporate-profits.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0069\\p0069\\p0069.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0069_power-flows-transmission-lines-allocative-efficiency-and-corporate-profits.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0069_power-flows-transmission-lines-allocative-efficiency-and-corporate-profits.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0069_power-flows-transmission-lines-allocative-efficiency-and-corporate-profits.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "transmission is usually discussed as an efficiency and decarbonization issue -> incomplete integration also creates concentrated corporate winners from the status quo -> political economy becomes central to why reform is slow"
+    },
+    {
+      "number": 70,
+      "stage_id": "p0070",
+      "title": "The Long-Term Effects of Income for At-Risk Infants: Evidence from Supplemental Security Income",
+      "source_pdf": "D:\\codex\\aer\\hawkins-et-al-2025-the-long-term-effects-of-income-for-at-risk-infants-evidence-from-supplemental-security-income.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0070\\p0070\\p0070.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0070_the-long-term-effects-of-income-for-at-risk-infants-evidence-from-supplemental-security-in.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0070_the-long-term-effects-of-income-for-at-risk-infants-evidence-from-supplemental-security-in.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0070_the-long-term-effects-of-income-for-at-risk-infants-evidence-from-supplemental-security-in.md",
+      "status": "done",
+      "tags": [
+        "threshold",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "early-life cash transfers often show long-run benefits -> this program provides a much larger and more targeted intervention -> strong first stage still yields null outcome effects -> not all disadvantaged early-life conditions are equally remediable through cash"
+    },
+    {
+      "number": 71,
+      "stage_id": "p0071",
+      "title": "Downward Rigidity in the Wage for New Hires",
+      "source_pdf": "D:\\codex\\aer\\hazell-taska-2025-downward-rigidity-in-the-wage-for-new-hires.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0071\\p0071\\p0071.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0071_downward-rigidity-in-the-wage-for-new-hires.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0071_downward-rigidity-in-the-wage-for-new-hires.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0071_downward-rigidity-in-the-wage-for-new-hires.md",
+      "status": "done",
+      "tags": [
+        "theory"
+      ],
+      "story_ladder": "wage rigidity matters for macro but evidence on new hires is limited -> vacancy-posted wages offer a direct measure -> job-level evidence reveals asymmetric rigidity"
+    },
+    {
+      "number": 72,
+      "stage_id": "p0072",
+      "title": "Across-Country Wage Compression in Multinationals",
+      "source_pdf": "D:\\codex\\aer\\hjort-et-al-2026-across-country-wage-compression-in-multinationals.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0072\\p0072\\p0072.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0072_across-country-wage-compression-in-multinationals.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0072_across-country-wage-compression-in-multinationals.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0072_across-country-wage-compression-in-multinationals.md",
+      "status": "done",
+      "tags": [
+        "diff-in-diff",
+        "implementation",
+        "distribution"
+      ],
+      "story_ladder": "wages are usually treated as locally determined -> multinationals may instead coordinate compensation globally -> headquarters shocks show up in foreign workers' pay -> internal norms matter across borders"
+    },
+    {
+      "number": 73,
+      "stage_id": "p0073",
+      "title": "Strategic Voting in Two-Party Legislative Elections",
+      "source_pdf": "D:\\codex\\aer\\hughes-2025-strategic-voting-in-two-party-legislative-elections.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0073\\p0073\\p0073.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0073_strategic-voting-in-two-party-legislative-elections.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0073_strategic-voting-in-two-party-legislative-elections.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0073_strategic-voting-in-two-party-legislative-elections.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "multidistrict elections aggregate preferences differently than single-district contests -> strategic voting across dimensions changes what policies survive -> legislative competition can improve aggregation properties"
+    },
+    {
+      "number": 74,
+      "stage_id": "p0074",
+      "title": "What You Don’t Know May Be Good for You",
+      "source_pdf": "D:\\codex\\aer\\hörner-samuelson-2026-what-you-don-t-know-may-be-good-for-you.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0074\\p0074\\p0074.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0074_what-you-don-t-know-may-be-good-for-you.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0074_what-you-don-t-know-may-be-good-for-you.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0074_what-you-don-t-know-may-be-good-for-you.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "transparency is usually treated as beneficial -> experts respond strategically to public performance data -> risky clients get avoided -> information can worsen matching even while helping clients screen"
+    },
+    {
+      "number": 75,
+      "stage_id": "p0075",
+      "title": "Robustness Measures for Welfare Analysis",
+      "source_pdf": "D:\\codex\\aer\\kang-vasserman-2025-robustness-measures-for-welfare-analysis.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0075\\p0075\\p0075.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0075_robustness-measures-for-welfare-analysis.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0075_robustness-measures-for-welfare-analysis.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0075_robustness-measures-for-welfare-analysis.md",
+      "status": "done",
+      "tags": [
+        "theory"
+      ],
+      "story_ladder": "welfare analysis routinely leans on demand assumptions -> debates about realism are often qualitative -> robustness measures convert that debate into a quantitative margin"
+    },
+    {
+      "number": 76,
+      "stage_id": "p0076",
+      "title": "Intermediated Asymmetric Information, Compensation, and Career Prospects",
+      "source_pdf": "D:\\codex\\aer\\kaniel-orlov-2025-intermediated-asymmetric-information-compensation-and-career-prospects.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0076\\p0076\\p0076.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0076_intermediated-asymmetric-information-compensation-and-career-prospects.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0076_intermediated-asymmetric-information-compensation-and-career-prospects.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0076_intermediated-asymmetric-information-compensation-and-career-prospects.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "intermediaries appear to add value by identifying talent -> that same informational edge allows them to exploit agents -> dynamic churning and compensation reflect the race between reputation formation and information rent extraction"
+    },
+    {
+      "number": 77,
+      "stage_id": "p0077",
+      "title": "Moonshot: Public R&D and Growth",
+      "source_pdf": "D:\\codex\\aer\\kantor-whalley-2025-moonshot-public-r-d-and-growth.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0077\\p0077\\p0077.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0077_moonshot-public-r-d-and-growth.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0077_moonshot-public-r-d-and-growth.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0077_moonshot-public-r-d-and-growth.md",
+      "status": "done",
+      "tags": [
+        "spillover"
+      ],
+      "story_ladder": "the moonshot is the iconic example of transformative public R&D -> credible evidence has been lacking -> new identification shows real but modest growth effects -> symbolism exceeds aggregate measured payoff"
+    },
+    {
+      "number": 78,
+      "stage_id": "p0078",
+      "title": "Racial Disparities in Housing Returns",
+      "source_pdf": "D:\\codex\\aer\\kermani-wong-2026-racial-disparities-in-housing-returns.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0078\\p0078\\p0078.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0078_racial-disparities-in-housing-returns.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0078_racial-disparities-in-housing-returns.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0078_racial-disparities-in-housing-returns.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "spillover",
+        "policy-interaction",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "low minority housing returns are often attributed to lower appreciation -> the bigger force is distress -> homeownership as a wealth-building tool fails through a financial-fragility channel"
+    },
+    {
+      "number": 79,
+      "stage_id": "p0079",
+      "title": "Abundance from Abroad: Migrant Income and Long-Run Economic Development",
+      "source_pdf": "D:\\codex\\aer\\khanna-et-al-2026-abundance-from-abroad-migrant-income-and-long-run-economic-development.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0079\\p0079\\p0079.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0079_abundance-from-abroad-migrant-income-and-long-run-economic-development.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0079_abundance-from-abroad-migrant-income-and-long-run-economic-development.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0079_abundance-from-abroad-migrant-income-and-long-run-economic-development.md",
+      "status": "done",
+      "tags": [
+        "theory"
+      ],
+      "story_ladder": "migration is often studied as remittance support -> bigger question is whether foreign earnings prospects rewire local development trajectories -> crisis-driven shocks show large long-run domestic spillovers"
+    },
+    {
+      "number": 80,
+      "stage_id": "p0080",
+      "title": "Micro versus Macro Labor Supply Elasticities: The Role of Dynamic Returns to Effort",
+      "source_pdf": "D:\\codex\\aer\\kleven-et-al-2025-micro-versus-macro-labor-supply-elasticities-the-role-of-dynamic-returns-to-effort.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0080\\p0080\\p0080.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0080_micro-versus-macro-labor-supply-elasticities-the-role-of-dynamic-returns-to-effort.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0080_micro-versus-macro-labor-supply-elasticities-the-role-of-dynamic-returns-to-effort.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0080_micro-versus-macro-labor-supply-elasticities-the-role-of-dynamic-returns-to-effort.md",
+      "status": "done",
+      "tags": [
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "micro and macro labor-supply elasticities often conflict -> top careers feature dynamic returns and discrete pay adjustments -> job-switch-based evidence closes part of the gap"
+    },
+    {
+      "number": 81,
+      "stage_id": "p0081",
+      "title": "Innovative Ideas and Gender (In)Equality",
+      "source_pdf": "D:\\codex\\aer\\koffi-2025-innovative-ideas-and-gender-(in)equality.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0081\\p0081\\p0081.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0081_innovative-ideas-and-gender-in-equality.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0081_innovative-ideas-and-gender-in-equality.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0081_innovative-ideas-and-gender-in-equality.md",
+      "status": "done",
+      "tags": [
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "historical examples of women losing credit motivate a modern question -> ordinary citation counts are inadequate because relevance is endogenous -> text similarity creates a counterfactual citation benchmark -> omission rates reveal who gets underrecognized"
+    },
+    {
+      "number": 82,
+      "stage_id": "p0082",
+      "title": "Imperfect Competition and Rents in Labor and Product Markets: The Case of the Construction Industry",
+      "source_pdf": "D:\\codex\\aer\\kroft-et-al-2025-imperfect-competition-and-rents-in-labor-and-product-markets-the-case-of-the-construction-industry.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0082\\p0082\\p0082.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0082_imperfect-competition-and-rents-in-labor-and-product-markets-the-case-of-the-construction-.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0082_imperfect-competition-and-rents-in-labor-and-product-markets-the-case-of-the-construction-.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0082_imperfect-competition-and-rents-in-labor-and-product-markets-the-case-of-the-construction-.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "spillover",
+        "policy-interaction",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "existing work measures labor or product power separately -> firms often exercise both at once -> procurement data reveal both margins -> the interaction changes welfare and incidence"
+    },
+    {
+      "number": 83,
+      "stage_id": "p0083",
+      "title": "Employers and Unemployment Insurance Take-Up",
+      "source_pdf": "D:\\codex\\aer\\lachowska-et-al-2025-employers-and-unemployment-insurance-take-up.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0083\\p0083\\p0083.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0083_employers-and-unemployment-insurance-take-up.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0083_employers-and-unemployment-insurance-take-up.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0083_employers-and-unemployment-insurance-take-up.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "theory"
+      ],
+      "story_ladder": "employers matter in labor markets beyond wages -> UI agencies actively involve employers in take-up decisions -> organizational behavior becomes a major determinant of program access and progressivity"
+    },
+    {
+      "number": 84,
+      "stage_id": "p0084",
+      "title": "Direct and Indirect Effects of Investment Tax Incentives",
+      "source_pdf": "D:\\codex\\aer\\lerche-2025-direct-and-indirect-effects-of-investment-tax-incentives.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0084\\p0084\\p0084.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0084_direct-and-indirect-effects-of-investment-tax-incentives.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0084_direct-and-indirect-effects-of-investment-tax-incentives.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0084_direct-and-indirect-effects-of-investment-tax-incentives.md",
+      "status": "done",
+      "tags": [
+        "threshold",
+        "diff-in-diff",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "standard policy evaluation asks whether treated firms invest more -> the broader question is whether local production systems expand or are merely reshuffled -> spillover mapping changes the policy assessment"
+    },
+    {
+      "number": 85,
+      "stage_id": "p0085",
+      "title": "Underbidding for Oil and Gas Tracts",
+      "source_pdf": "D:\\codex\\aer\\martin-et-al-2025-underbidding-for-oil-and-gas-tracts.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0085\\p0085\\p0085.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0085_underbidding-for-oil-and-gas-tracts.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0085_underbidding-for-oil-and-gas-tracts.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0085_underbidding-for-oil-and-gas-tracts.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "common-values theory imposes sharp equilibrium restrictions when ex post value is observable -> those restrictions can be tested directly -> the data point toward underbidding"
+    },
+    {
+      "number": 86,
+      "stage_id": "p0086",
+      "title": "A Goldilocks Theory of Fiscal Deficits",
+      "source_pdf": "D:\\codex\\aer\\mian-et-al-2025-a-goldilocks-theory-of-fiscal-deficits.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0086\\p0086\\p0086.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0086_a-goldilocks-theory-of-fiscal-deficits.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0086_a-goldilocks-theory-of-fiscal-deficits.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0086_a-goldilocks-theory-of-fiscal-deficits.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "the textbook view says larger deficits eventually explode debt -> low rates and the ZLB complicate that simple monotonic story -> fiscal space is state dependent and nonmonotone"
+    },
+    {
+      "number": 87,
+      "stage_id": "p0087",
+      "title": "Raising the Stakes: Physician Facility Investments and Provider Agency",
+      "source_pdf": "D:\\codex\\aer\\munnich-et-al-2026-raising-the-stakes-physician-facility-investments-and-provider-agency.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0087\\p0087\\p0087.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0087_raising-the-stakes-physician-facility-investments-and-provider-agency.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0087_raising-the-stakes-physician-facility-investments-and-provider-agency.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0087_raising-the-stakes-physician-facility-investments-and-provider-agency.md",
+      "status": "done",
+      "tags": [
+        "diff-in-diff",
+        "implementation",
+        "spillover",
+        "theory"
+      ],
+      "story_ladder": "principal-agent problems in medicine are usually framed as overprovision of procedures -> the location of treatment is another important margin -> ownership creates a sharp incentive change that reveals the preexisting distortion"
+    },
+    {
+      "number": 88,
+      "stage_id": "p0088",
+      "title": "Treatment Effects in Market Equilibrium",
+      "source_pdf": "D:\\codex\\aer\\munro-et-al-2025-treatment-effects-in-market-equilibrium.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0088\\p0088\\p0088.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0088_treatment-effects-in-market-equilibrium.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0088_treatment-effects-in-market-equilibrium.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0088_treatment-effects-in-market-equilibrium.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "standard experiments assume limited interference -> many policy settings are markets where interference is the point -> market equilibrium must enter the treatment-effect object itself"
+    },
+    {
+      "number": 89,
+      "stage_id": "p0089",
+      "title": "International Trade Responses to Labor Market Regulations",
+      "source_pdf": "D:\\codex\\aer\\muñoz-2025-international-trade-responses-to-labor-market-regulations.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0089\\p0089\\p0089.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0089_international-trade-responses-to-labor-market-regulations.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0089_international-trade-responses-to-labor-market-regulations.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0089_international-trade-responses-to-labor-market-regulations.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "trade models often separate domestic labor regulation from international competitiveness -> posted-worker markets place them side by side -> regulatory reforms become trade shocks"
+    },
+    {
+      "number": 90,
+      "stage_id": "p0090",
+      "title": "Managers and Public Hospital Performance",
+      "source_pdf": "D:\\codex\\aer\\muñoz-otero-2025-managers-and-public-hospital-performance.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0090\\p0090\\p0090.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0090_managers-and-public-hospital-performance.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0090_managers-and-public-hospital-performance.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0090_managers-and-public-hospital-performance.md",
+      "status": "done",
+      "tags": [
+        "diff-in-diff",
+        "implementation",
+        "distribution"
+      ],
+      "story_ladder": "public-service performance is often attributed to budgets or workers at the front line -> top management may be a binding constraint -> a recruitment reform provides causal leverage"
+    },
+    {
+      "number": 91,
+      "stage_id": "p0091",
+      "title": "Making Bricks from Straw: Resources and Productivity in Health Care",
+      "source_pdf": "D:\\codex\\aer\\okeke-2026-making-bricks-from-straw-resources-and-productivity-in-health-care.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0091\\p0091\\p0091.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0091_making-bricks-from-straw-resources-and-productivity-in-health-care.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0091_making-bricks-from-straw-resources-and-productivity-in-health-care.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0091_making-bricks-from-straw-resources-and-productivity-in-health-care.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "diff-in-diff",
+        "implementation"
+      ],
+      "story_ladder": "weak public-service performance is often blamed on effort or governance -> unrestricted money reveals what workers do when the resource margin is loosened -> behavior points to capital scarcity as a major constraint"
+    },
+    {
+      "number": 92,
+      "stage_id": "p0092",
+      "title": "Risk Preferences and Field Behavior: The Relevance of Higher-Order Risk Preferences",
+      "source_pdf": "D:\\codex\\aer\\schneider-sutter-2026-risk-preferences-and-field-behavior-the-relevance-of-higher-order-risk-preferences.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0092\\p0092\\p0092.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0092_risk-preferences-and-field-behavior-the-relevance-of-higher-order-risk-preferences.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0092_risk-preferences-and-field-behavior-the-relevance-of-higher-order-risk-preferences.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0092_risk-preferences-and-field-behavior-the-relevance-of-higher-order-risk-preferences.md",
+      "status": "done",
+      "tags": [
+        "implementation",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "the literature often fails to link laboratory risk aversion to field behavior -> perhaps it measures the wrong preference object -> higher-order preferences recover the missing predictive power"
+    },
+    {
+      "number": 93,
+      "stage_id": "p0093",
+      "title": "Is Air Pollution Regulation Too Lenient? Evidence from US Offset Markets",
+      "source_pdf": "D:\\codex\\aer\\shapiro-walker-2025-is-air-pollution-regulation-too-lenient-evidence-from-us-offset-markets.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0093\\p0093\\p0093.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0093_is-air-pollution-regulation-too-lenient-evidence-from-us-offset-markets.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0093_is-air-pollution-regulation-too-lenient-evidence-from-us-offset-markets.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0093_is-air-pollution-regulation-too-lenient-evidence-from-us-offset-markets.md",
+      "status": "done",
+      "tags": [
+        "new-measurement",
+        "implementation",
+        "theory"
+      ],
+      "story_ladder": "cost-benefit debates usually struggle on the cost side -> offset markets reveal actual willingness to pay for abatement -> matching those prices to benefits gives a policy-stringency test"
+    },
+    {
+      "number": 94,
+      "stage_id": "p0094",
+      "title": "Monotonicity among Judges: Evidence from Judicial Panels and Consequences for Judge IV Designs",
+      "source_pdf": "D:\\codex\\aer\\sigstad-2026-monotonicity-among-judges-evidence-from-judicial-panels-and-consequences-for-judge-iv-designs.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0094\\p0094\\p0094.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0094_monotonicity-among-judges-evidence-from-judicial-panels-and-consequences-for-judge-iv-desi.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0094_monotonicity-among-judges-evidence-from-judicial-panels-and-consequences-for-judge-iv-desi.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0094_monotonicity-among-judges-evidence-from-judicial-panels-and-consequences-for-judge-iv-desi.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "implementation",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "monotonicity is central but usually unobservable -> panel decisions make it observable -> direct evidence replaces speculation and clarifies how much the practical bias matters"
+    },
+    {
+      "number": 95,
+      "stage_id": "p0095",
+      "title": "A Model of Populism as a Conspiracy Theory",
+      "source_pdf": "D:\\codex\\aer\\szeidl-szucs-2025-a-model-of-populism-as-a-conspiracy-theory.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0095\\p0095\\p0095.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0095_a-model-of-populism-as-a-conspiracy-theory.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0095_a-model-of-populism-as-a-conspiracy-theory.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0095_a-model-of-populism-as-a-conspiracy-theory.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "populism combines anti-elite rhetoric, conspiratorial framing, and reduced accountability -> a model of alternative reality formation can explain that package coherently"
+    },
+    {
+      "number": 96,
+      "stage_id": "p0096",
+      "title": "Immigration, Innovation, and Growth",
+      "source_pdf": "D:\\codex\\aer\\terry-et-al-2026-immigration-innovation-and-growth.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0096\\p0096\\p0096.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0096_immigration-innovation-and-growth.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0096_immigration-innovation-and-growth.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0096_immigration-innovation-and-growth.md",
+      "status": "done",
+      "tags": [
+        "experiment",
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "immigration debates stay stuck because migrants self-select into growing places -> a new instrument isolates exogenous local shocks -> dynamic innovation effects change the welfare calculus"
+    },
+    {
+      "number": 97,
+      "stage_id": "p0097",
+      "title": "Evaluating the Impact of Urban Transit Infrastructure: Evidence from Bogotá’s TransMilenio",
+      "source_pdf": "D:\\codex\\aer\\tsivanidis-2026-evaluating-the-impact-of-urban-transit-infrastructure-evidence-from-bogotá-s-transmilenio.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0097\\p0097\\p0097.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0097_evaluating-the-impact-of-urban-transit-infrastructure-evidence-from-bogot-s-transmilenio.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0097_evaluating-the-impact-of-urban-transit-infrastructure-evidence-from-bogot-s-transmilenio.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0097_evaluating-the-impact-of-urban-transit-infrastructure-evidence-from-bogot-s-transmilenio.md",
+      "status": "done",
+      "tags": [
+        "diff-in-diff",
+        "spillover",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "transit projects are often evaluated by engineering time savings -> cities are spatial equilibria -> the true gains and their distribution depend on reallocation and land-use responses"
+    },
+    {
+      "number": 98,
+      "stage_id": "p0098",
+      "title": "Market Power and Capital Constraints",
+      "source_pdf": "D:\\codex\\aer\\wittwer-allen-2026-market-power-and-capital-constraints.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0098\\p0098\\p0098.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0098_market-power-and-capital-constraints.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0098_market-power-and-capital-constraints.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0098_market-power-and-capital-constraints.md",
+      "status": "done",
+      "tags": [
+        "new-measurement",
+        "spillover",
+        "policy-interaction",
+        "theory"
+      ],
+      "story_ladder": "intermediary-asset-pricing papers emphasize capital constraints while market-microstructure papers emphasize market power -> real-world auctions involve both -> their interaction changes prices and liquidity"
+    },
+    {
+      "number": 99,
+      "stage_id": "p0099",
+      "title": "Nested Bundling",
+      "source_pdf": "D:\\codex\\aer\\yang-2025-nested-bundling.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0099\\p0099\\p0099.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0099_nested-bundling.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0099_nested-bundling.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0099_nested-bundling.md",
+      "status": "done",
+      "tags": [
+        "theory"
+      ],
+      "story_ladder": "firms commonly sell nested plans but theory gives little clean guidance -> a simple partial order recovers when that common practice is actually optimal"
+    },
+    {
+      "number": 100,
+      "stage_id": "p0100",
+      "title": "Games on Multiplex Networks",
+      "source_pdf": "D:\\codex\\aer\\zenou-zhou-2026-games-on-multiplex-networks.pdf",
+      "artifact_md": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\parsed\\p0100\\p0100\\p0100.llm.md",
+      "source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0100_games-on-multiplex-networks.source_pack.md",
+      "prompt": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\prompts\\per_paper\\p0100_games-on-multiplex-networks.prompt.md",
+      "memory": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\paper_memories\\p0100_games-on-multiplex-networks.md",
+      "status": "done",
+      "tags": [
+        "spillover",
+        "policy-interaction",
+        "distribution",
+        "theory"
+      ],
+      "story_ladder": "real social systems are multilayer but most network games are not -> adding layers changes both equilibrium and targeting -> multilayer complexity is therefore not decorative but substantive"
+    }
+  ]
+}

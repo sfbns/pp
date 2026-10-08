@@ -1,0 +1,170 @@
+{
+  "rank": 5,
+  "item_key": "UNMC2I56",
+  "title": "Consumer myopia, imperfect competition and the energy efficiency gap: Evidence from the UK refrigerator market",
+  "authors": [
+    "François Cohen",
+    "Matthieu Glachant",
+    "Magnus Söderberg"
+  ],
+  "creators": [
+    {
+      "name": "François Cohen",
+      "type": "author"
+    },
+    {
+      "name": "Matthieu Glachant",
+      "type": "author"
+    },
+    {
+      "name": "Magnus Söderberg",
+      "type": "author"
+    }
+  ],
+  "date": "2017-00-00 2017",
+  "journal": "European Economic Review",
+  "doi": "10.1016/j.euroecorev.2017.01.004",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S0014292117300107",
+  "collections": [
+    "BLP_1995_Citing_Literature_2026-03-21",
+    "Green Demand Applications"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Cohen, F., Glachant, M., & Söderberg, M. (2017). Consumer myopia, imperfect competition and the energy efficiency gap: Evidence from the UK refrigerator market. European Economic Review. https://doi.org/10.1016/j.euroecorev.2017.01.004",
+    "parenthetical": "(Cohen et al., 2017)",
+    "narrative": "Cohen et al. (2017)"
+  },
+  "preferred_pdf_rel": "source_pdfs/05_unmc2i56.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "R8FP2TGM",
+    "link_mode": 0,
+    "content_type": "application/pdf",
+    "path": "storage:Cohen_Glachat_Kyle_2017_Consumer_Myopia_Fridge_LSE.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\R8FP2TGM\\Cohen_Glachat_Kyle_2017_Consumer_Myopia_Fridge_LSE.pdf",
+    "exists": true,
+    "size": 1995852
+  },
+  "legacy_note_rel": "raw/notes/05_unmc2i56.md",
+  "legacy_old_memory_rel": "raw/paper_memory/05_unmc2i56.md",
+  "fulltext_json_rel": "raw/fulltext/05_unmc2i56.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/05_unmc2i56.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper asks whether the energy efficiency gap in refrigerators is driven by consumer myopia and imperfect competition.\n- It finds that consumers do undervalue future energy savings, but the resulting energy-use effect is modest.\n- The broader implication is that the gap exists, but this market's inefficiency is smaller than the strongest behavioral stories suggest.",
+    "2. Story ladder": "- Real-world tension or puzzle: energy-efficient appliances often do not sell as much as engineering calculations imply they should.\n- Why the puzzle matters now: policy debates hinge on whether the gap is behavioral, market-power driven, or both.\n- What the literature already explains: myopia and imperfect competition are both plausible explanations.\n- What is still missing or weakly identified: a market-level decomposition of how much each channel actually matters.\n- The paper's move: estimate demand and counterfactuals in the UK refrigerator market.\n- Main payoff: myopia matters, but not enough to explain the whole gap.",
+    "3. Model or identification core": "- Research design type: structural demand and counterfactual analysis.\n- Structural model class or reduced-form design: refrigerator choice model with energy costs and imperfect competition.\n- Key equations or choice objects: consumer utility over purchase price, operating cost, and product attributes.\n- Endogeneity problem: observed prices and qualities reflect firm strategic pricing and consumer preferences.\n- Identification strategy: infer willingness to pay and discounting from observed product choices and market structure.\n- What assumptions are doing the heavy lifting: stable demand, credible fuel-cost expectations benchmark, and firm pricing behavior.",
+    "4. Data and measurement": "- Unit of observation: refrigerator products / market shares in the UK.\n- Market definition: UK refrigerator retail market.\n- Main dependent variable: product choice and implied energy consumption.\n- Core explanatory variables: purchase price, operating cost, energy label / efficiency, and competition structure.\n- Instruments / moments / shocks: not fully extracted from OCR; likely product market moments rather than a single external instrument.\n- Important sample restrictions: refrigerator market only; precise sample window was not fully recoverable from OCR.",
+    "5. Findings and mechanisms": "- Baseline result: average energy consumption is only about 7.2% higher than the perfect-competition, non-myopic benchmark.\n- Mechanism evidence: consumers underestimate future energy savings by about 35%.\n- Heterogeneity evidence: the myopia channel exists, but its aggregate effect is smaller than many policy arguments imply.\n- Welfare or counterfactual result: imperfect competition lowers energy use somewhat, but the gap remains.\n- Limits the authors admit: the paper is one market and one product category, so generalization should be cautious.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: energy-efficiency-gap, myopia, and imperfect competition papers.\n- What exact gap the authors claim: prior work often identifies a gap, but not its quantitative magnitude in a real market.\n- How the introduction stages novelty: by combining behavioral discounting with market structure in a structural setup.\n- Whether the contribution is data, method, theory, policy, or a combination: mainly method plus policy-relevant quantification.",
+    "7. Literature review function": "- Where the review sits: early introduction, before the structural model.\n- How the review is organized: behavioral explanations, market-power explanations, and appliance-efficiency evidence.\n- Which citations do positioning work: energy-efficiency-gap and consumer myopia studies.\n- Which citations do method-validation work: structural demand and industrial-organization papers on product markets.",
+    "8. Writing structure map": "- Introduction move sequence: puzzle -> candidate explanations -> empirical gap -> market study -> result.\n- Section order: background, model, data, estimation, counterfactuals, conclusion.\n- Where the paper turns from setup to payoff: once the benchmark comparison shows the gap is smaller than expected.\n- How tables/figures are used to move the argument: tables likely anchor the estimated discounting and counterfactual energy consumption; OCR did not fully expose every exhibit.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"The efficiency gap may be real, but its size is an empirical question.\"\n- Best transition pattern: move from observed underinvestment to structural decomposition.\n- Best contribution sentence pattern: \"We quantify how much myopia and imperfect competition jointly matter.\"\n- Best limitation or implication move: \"Policy should be calibrated to the size of the gap, not its existence alone.\"",
+    "10. Memory update": "- Durable economics-writing principle: do not stop at identifying a gap; measure its magnitude.\n- Durable structural-model principle: compare the observed market to a benchmark that separates behavior from structure.\n- Reusable empirical design idea: decompose a policy problem into behavioral and market-power components.\n- Follow-up paper to pair with this one: a study of appliance labels or operating-cost disclosure in another durable-good market."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_unmc2i56_consumer-myopia-imperfect-competition-and-the-energy-efficiency-gap-evidence-from-the-uk-r\ndescription: Fulltext memory for Consumer myopia, imperfect competition and the energy efficiency gap: Evidence from the UK refrigerator market; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# Consumer myopia, imperfect competition and the energy efficiency gap: Evidence from the UK refrigerator market",
+    "Citation": "- Key: `UNMC2I56`\n- DOI: `10.1016/j.euroecorev.2017.01.004`\n- Journal: European Economic Review\n- Year: 2017\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\UNMC2I56.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/UNMC2I56/UNMC2I56.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/UNMC2I56.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- The empirical literature on the energy efficiency gap concentrates on demand inefficiencies in the energy -using durables markets and finds evidence that consumers underestimate future energy costs when purchasing a new appliance.",
+    "Story Logic": "- 故事起点：The empirical literature on the energy efficiency gap concentrates on demand inefficiencies in the energy -using durables markets and finds evidence that consumers underestimate future energy costs when purchasing a new appliance.\n- 制度/市场切口：Introduction In energy and environmental policy circles, it is commonly believed that an “energy efficiency gap” exists between the desirable level of energy consumption and observed consumption (e.g.\n- 模型推进：As a result, the market equilibrium maintains an energy efficiency gap defined as a wedge between the cost-minimizing level of energy efficiency and the level actually reached.\n- 结论落点：Introduction In energy and environmental policy circles, it is commonly believed that an “energy efficiency gap” exists between the desirable level of energy consumption and observed consumption (e.g.",
+    "BLP Model Memory": "- BLP positioning: canonical BLP demand-supply\n- Evidence hits: mixed logit, nested logit, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 需求侧更像嵌套 logit / 分层离散选择，保留了产品空间替代结构，但异质性比经典 BLP 更轻。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1. Introduction\n- ACCEPTED MANUSCRIPT\n- 4. Data\n- 3.2 Supply\n- 5. Estimation\n- 6. Results\n- 7. Counterfactual simulations\n- 8. Conclusion\n- Article (Accepted version) Refereed\n- Available in LSE Research Online: February 2017\n- LSE Research Online\n- LSE THE LONDON SCHOOL OF ECONOMICS AND POLITICAL SCIENCE",
+    "Reusable Writing Moves": "- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n- 正文常见顺序是“模型设定 -> 识别/估计 -> 结果 -> 政策反事实”，避免一上来就堆公式。",
+    "OCR Anchors": "- abstract: `Abstract` (p.2) - Abstract The empirical literature on the energy efficiency gap concentrates on demand inefficiencies in the energy-using durables markets and finds evidence that consumers underestimate future energy costs when purchasing a new appliance. We take a broader view and also consider the impact of imperfect competition.\n- introduction: `1. Introduction` (p.3) - 1. Introduction In energy and environmental policy circles, it is commonly believed that an “energy efficiency gap” exists between the desirable level of energy consumption and observed consumption (e.g.\n- background: `ACCEPTED MANUSCRIPT` (p.3) - ACCEPTED MANUSCRIPT 2 This is only half of the picture, however. On the supply side, manufacturers of energy-using durables also make decisions.\n- data: `4. Data` (p.17) - 4. Data We use market data from the refrigerator market in the UK on the product level from 2002 to 2007 collected by the market research company GfK Retail and Technology (received by the Department for Environment, Food and Rural Affairs).\n- model: `3.2 Supply` (p.14) - 3.2 Supply In contrast to the demand equation, we adopt a reduced-form approach to assess the impact of imperfect competition on prices. Previous empirical contributions that examine supply-side issues (see the literature review above) generally adopt a structural approach in which multi-product manufacturers compete à la Bertrand.\n- estimation: `5. Estimation` (p.25) - 5. Estimation In this section, we specify the different equations and discuss identification issues.\n- results: `6. Results` (p.33) - 6. Results\n- counterfactual: `7. Counterfactual simulations` (p.36) - 7. Counterfactual simulations In this section, we perform simulations to quantify the impact of the two identified market imperfections on energy consumption and consumer surplus.\n- conclusion: `8. Conclusion` (p.42) - 8. Conclusion While the empirical literature on the energy efficiency gap in the residential sector has primarily focused on consumer behavior, this paper develops a comprehensive view of both demand-side and supply-side behaviors that occur in the UK refrigerator market.",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- The paper asks whether the energy efficiency gap in refrigerators is driven by consumer myopia and imperfect competition.\n- It finds that consumers do undervalue future energy savings, but the resulting energy-use effect is modest.\n- The broader implication is that the gap exists, but this market's inefficiency is smaller than the strongest behavioral stories suggest.\n\n- Real-world tension or puzzle: energy-efficient appliances often do not sell as much as engineering calculations imply they should.\n- Why the puzzle matters now: policy debates hinge on whether the gap is behavioral, market-power driven, or both.\n- What the literature already explains: myopia and imperfect competition are both plausible explanations.\n- What is still missing or weakly identified: a market-level decomposition of how much each channel actually matters.\n- The paper's move: estimate demand and counterfactuals in the UK refrigerator market.\n- Main payoff: myopia matters, but not enough to explain the whole gap.\n\n- Research design type: structural demand and counterfactual analysis.\n- Structural model class or reduced-form design: refrigerator choice model with energy costs and imperfect competition.\n- Key equations or choice objects: consumer utility over purchase price, operating cost, and product attributes.\n- Endogeneity problem: observed prices and qualities reflect firm strategic pricing and consumer preferences.\n- Identification strategy: infer willingness to pay and discounting from observed product choices and market structure.\n- What assumptions are doing the heavy lifting: stable demand, credible fuel-cost expectations benchmark, and firm pricing behavior.\n\n- Unit of observation: refrigerator products / market shares in the UK.\n- Market definition: UK refrigerator retail market.\n- Main dependent variable: product choice and implied energy consumption.\n- Core explanatory variables: purchase price, operating cost, energy label / efficiency, and competition structure.\n- Instruments / moments / shocks: not fully extracted from OCR; likely product market moments rather than a single external instrument.\n- Important sample restrictions: refrigerator market only; precise sample window was not fully recoverable from OCR.\n\n- Which papers are treated as the nearest neighbors: energy-efficiency-gap, myopia, and imperfect competition papers.\n- What exact gap the authors claim: prior work often identifies a gap, but not its quantitative magnitude in a real market.\n- How the introduction stages novelty: by combining behavioral discounting with market structure in a structural setup.\n- Whether the contribution is data, method, theory, policy, or a combination: mainly method plus policy-relevant quantification.\n\n- Where the review sits: early introduction, before the structural model.\n- How the review is organized: behavioral explanations, market-power explanations, and appliance-efficiency evidence.\n- Which citations do positioning work: energy-efficiency-gap and consumer myopia studies.\n- Which citations do method-validation work: structural demand and industrial-organization papers on product markets.",
+  "baseline_core_memory": "- Research design type: structural demand and counterfactual analysis.\n- Structural model class or reduced-form design: refrigerator choice model with energy costs and imperfect competition.\n- Key equations or choice objects: consumer utility over purchase price, operating cost, and product attributes.\n- Endogeneity problem: observed prices and qualities reflect firm strategic pricing and consumer preferences.\n- Identification strategy: infer willingness to pay and discounting from observed product choices and market structure.\n- What assumptions are doing the heavy lifting: stable demand, credible fuel-cost expectations benchmark, and firm pricing behavior.\n\n- BLP positioning: canonical BLP demand-supply\n- Evidence hits: mixed logit, nested logit, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 需求侧更像嵌套 logit / 分层离散选择，保留了产品空间替代结构，但异质性比经典 BLP 更轻。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+  "mechanism_memory": "- Baseline result: average energy consumption is only about 7.2% higher than the perfect-competition, non-myopic benchmark.\n- Mechanism evidence: consumers underestimate future energy savings by about 35%.\n- Heterogeneity evidence: the myopia channel exists, but its aggregate effect is smaller than many policy arguments imply.\n- Welfare or counterfactual result: imperfect competition lowers energy use somewhat, but the gap remains.\n- Limits the authors admit: the paper is one market and one product category, so generalization should be cautious.\n\n- 故事起点：The empirical literature on the energy efficiency gap concentrates on demand inefficiencies in the energy -using durables markets and finds evidence that consumers underestimate future energy costs when purchasing a new appliance.\n- 制度/市场切口：Introduction In energy and environmental policy circles, it is commonly believed that an “energy efficiency gap” exists between the desirable level of energy consumption and observed consumption (e.g.\n- 模型推进：As a result, the market equilibrium maintains an energy efficiency gap defined as a wedge between the cost-minimizing level of energy efficiency and the level actually reached.\n- 结论落点：Introduction In energy and environmental policy circles, it is commonly believed that an “energy efficiency gap” exists between the desirable level of energy consumption and observed consumption (e.g.",
+  "result_memory": "- Baseline result: average energy consumption is only about 7.2% higher than the perfect-competition, non-myopic benchmark.\n- Mechanism evidence: consumers underestimate future energy savings by about 35%.\n- Heterogeneity evidence: the myopia channel exists, but its aggregate effect is smaller than many policy arguments imply.\n- Welfare or counterfactual result: imperfect competition lowers energy use somewhat, but the gap remains.\n- Limits the authors admit: the paper is one market and one product category, so generalization should be cautious.\n\n- Results anchor: ioning of durable goods markets. Section 3\n- Conclusion anchor: loss is the same when shifting to perfect competition or shifting to perfect",
+  "writing_style_memory": "- Introduction move sequence: puzzle -> candidate explanations -> empirical gap -> market study -> result.\n- Section order: background, model, data, estimation, counterfactuals, conclusion.\n- Where the paper turns from setup to payoff: once the benchmark comparison shows the gap is smaller than expected.\n- How tables/figures are used to move the argument: tables likely anchor the estimated discounting and counterfactual energy consumption; OCR did not fully expose every exhibit.\n\n- Best framing sentence pattern: \"The efficiency gap may be real, but its size is an empirical question.\"\n- Best transition pattern: move from observed underinvestment to structural decomposition.\n- Best contribution sentence pattern: \"We quantify how much myopia and imperfect competition jointly matter.\"\n- Best limitation or implication move: \"Policy should be calibrated to the size of the gap, not its existence alone.\"\n\n- Durable economics-writing principle: do not stop at identifying a gap; measure its magnitude.\n- Durable structural-model principle: compare the observed market to a benchmark that separates behavior from structure.\n- Reusable empirical design idea: decompose a policy problem into behavioral and market-power components.\n- Follow-up paper to pair with this one: a study of appliance labels or operating-cost disclosure in another durable-good market.\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- 1. Introduction\n- ACCEPTED MANUSCRIPT\n- 4. Data\n- 3.2 Supply\n- 5. Estimation\n- 6. Results\n- 7. Counterfactual simulations\n- 8. Conclusion\n- Article (Accepted version) Refereed\n- Available in LSE Research Online: February 2017\n- LSE Research Online\n- LSE THE LONDON SCHOOL OF ECONOMICS AND POLITICAL SCIENCE\n\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n- 正文常见顺序是“模型设定 -> 识别/估计 -> 结果 -> 政策反事实”，避免一上来就堆公式。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "instrumental variable",
+    "gmm",
+    "equilibrium",
+    "outside option",
+    "markup",
+    "marginal cost",
+    "market definition",
+    "heterogeneity",
+    "fuel economy",
+    "differentiated product"
+  ],
+  "fulltext_headings": [
+    "Consumer myopia, imperfect competition",
+    "Article (Accepted version)",
+    "Refereed",
+    "Original citation:",
+    "Reuse of this item is permitted through licensing under the Creative Commons:",
+    "Available in LSE Research Online: February 2017",
+    "LSE has developed LSE Research Online so that users may access research output of the",
+    "Accepted Manuscript",
+    "Gap: Evidence from the UK Refrigerator Market",
+    "PII:",
+    "S0014-2921(17)30010-7",
+    "DOI:",
+    "Reference:",
+    "EER 2948",
+    "To appear in:",
+    "European Economic Review",
+    "Received date:",
+    "19 May 2016",
+    "Accepted date:",
+    "4 January 2017",
+    "ACCEPTED MANUSCRIPT",
+    "Consumer Myopia, Imperfect Competition and the",
+    "Energy Efficiency Gap: Evidence from the UK",
+    "Refrigerator Market"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 3,
+      "snippet": "ndon School of Economics and Political Science, London, \nUK \nMatthieu Glachant, MINES ParisTech and PSL – Research University, Paris, \nFrance* \nMagnus Söderberg, University of Gothenburg, Sweden \n \n \nAbstract \nThe empirical literature on the energy efficiency gap concentrates on demand \ninefficiencies in the energy-using durables markets and finds evidence that \nconsumers underestimate future energy costs when purchasing a new \nappliance. We take a broader view and also consider the impact of imperfect \ncompetition. Using data on the UK refrigerator market (2002-2007), we find \nthat the average energy consumption of appliances sold during this period was \nonly 7.2% higher than what would have been observed under a scenario with a \nperfectly competitive market and non-myopic consumers. One reason for this \nsmall gap is that market power actually reduces energy use. \nKeywords: Energy Efficiency; Electricity Prices; Consumer Myopia; \nImperfect Competition. \nJEL Classification: D12, L68, Q"
+    },
+    "data": {
+      "page": 3,
+      "snippet": "les markets and finds evidence that \nconsumers underestimate future energy costs when purchasing a new \nappliance. We take a broader view and also consider the impact of imperfect \ncompetition. Using data on the UK refrigerator market (2002-2007), we find \nthat the average energy consumption of appliances sold during this period was \nonly 7.2% higher than what would have been observed under a scenario with a \nperfectly competitive market and non-myopic consumers. One reason for this \nsmall gap is that market power actually reduces energy use. \nKeywords: Energy Efficiency; Electricity Prices; Consumer Myopia; \nImperfect Competition. \nJEL Classification: D12, L68, Q41. \n* Corresponding author: CERNA – Centre for industrial economics, MINES \nParisTech, 60, boulevard St Michel, 75006 Paris, France. \nmatthieu.glachant@mines-paristech"
+    },
+    "model": {
+      "page": 7,
+      "snippet": "ient goods than on less efficient ones – as \nis the case in the UK refrigerator market in this paper – then subsidies should \nbe lower than they would be if prices were equal to marginal costs.4  \nWe model demand using a standard discrete choice model with differentiated \nquality based on Berry (1994). We take the first-difference to eliminate time-\ninvariant product attributes. A nested logit framework is used to control for \nproduct segmentation caused by product differentiation. To address \nendogeneity issues arising from the simultaneous determination of refrigerator \nprices and quantities, our instrumentation strategy incorporates data from two \noutside product markets – freezers and washing machines – which present \n                                                 \n4 Another option would be to adjust antitrust regulations, which is the primary policy tool to \nmitigate imperfect competition concerns. However this tool was not initially conceived for \nsector-specific adjustments."
+    },
+    "results": {
+      "page": 9,
+      "snippet": "ioning of durable goods markets. Section 3 \ndevelops the conceptual framework. Section 4 presents the data. Section 5 \noutlines our empirical strategy and addresses identification issues. Estimation \nresults are presented in Section 6. In Section 7, we run simulations to predict \nthe impacts on the energy consumption of sold appliances and evaluate the \nwelfare impacts of imperfect competition and consumer myopia. Section 8 \nsummarizes our findings and formulates policy implications. \n                                                 \n5 Note that consumer surplus includes the utility that consumers derive from the other non-\nenergy related attributes of the products they purchase."
+    },
+    "conclusion": {
+      "page": 43,
+      "snippet": ", the profit \nloss is the same when shifting to perfect competition or shifting to perfect \ncompetition without myopia: it corresponds to the average profit in the “business-as-\nusual” situation. \n8. Conclusion \nWhile the empirical literature on the energy efficiency gap in the residential \nsector has primarily focused on consumer behavior, this paper develops a"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper asks whether the energy efficiency gap in refrigerators is driven by consumer myopia and imperfect competition.",
+      "Which papers are treated as the nearest neighbors: energy-efficiency-gap, myopia, and imperfect competition papers."
+    ],
+    "session": [
+      "Retrieve by key/title: UNMC2I56 / Consumer myopia, imperfect competition and the energy efficiency gap: Evidence from the UK refrigerator market",
+      "Use collections and journal handles: BLP_1995_Citing_Literature_2026-03-21, Green Demand Applications",
+      "Preferred in-text citation handle: (Cohen et al., 2017) / Cohen et al. (2017)"
+    ],
+    "agent": [
+      "Research design type: structural demand and counterfactual analysis.",
+      "BLP positioning: canonical BLP demand-supply"
+    ],
+    "team": [
+      "Best framing sentence pattern: \"The efficiency gap may be real, but its size is an empirical question.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

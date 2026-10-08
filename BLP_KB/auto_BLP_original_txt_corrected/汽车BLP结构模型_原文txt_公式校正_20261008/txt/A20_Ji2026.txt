@@ -1,0 +1,1973 @@
+==============================================================================
+【文献】Ji, Wang, Zheng & Fan (2026). 中国新能源汽车补贴的 BLP 评估（人口特征交互）. JAERE 13(1).
+【编号】A20　【简称】Ji2026　【分组】需求侧
+【原文 PDF】D:\blp-lit-recommend-20261002\package_20261008\03_人口特征交互_Ji2026_JAERE\Ji2026_原文.pdf
+【页数】40 页　【页码换算】印刷页码与 PDF 页码相同
+【文本来源】PyMuPDF 抽取 PDF 文字层（按版面块排序）
+【公式校正】6 条，按页附在对应页末（以「公式校正」标出），LaTeX 书写，均已对照原页图
+【校正说明】JAERE 13(1)（2026 年 1 月号），页码即 PDF 页码。PDF 文字层会把希腊字母抽错（如 \sigma_k 抽成 jk）。本文价格以对数 \ln(p_{jt}) 进入，价格系数为对数正态随机变量的相反数。观测特征里的油耗按 NEDC 测定（脚注 13）。
+【核对页图】D:\blp-auto-fulltext-pack-20261008\work\pages\A20_pNN.png（本轮渲染）；式 (1)(6) 沿用 2026-09-25 中译稿的看图核验（D:\blp-lit-recommend-20261002\package_20261008\03_人口特征交互_Ji2026_JAERE\Ji2026_全文中译_公式已核.md）；本包 核对页图\ 文件夹内有副本
+【使用提醒】正文是机器抽取的原文，不是译文；公式区以页末校正或原 PDF 为准。页标记中的 PDF 页码可直接用于在原 PDF 中翻页定位。
+==============================================================================
+
+===== [PDF 第 1 页｜印刷第 1 页] =====
+Quantifying the Welfare Effects of Electric
+Vehicle Subsidies: Evidence from China
+
+
+Qing Ji, Chunan Wang, Xiaoyong Zheng, Ying Fan
+
+
+
+Abstract: We evaluate the welfare effects of China’s electric vehicle (EV) subsidy pol-
+icy from 2015 to 2019. Our ﬁndings indicate that the subsidies primarily transfer
+funds from the government to consumers, with car manufacturers capturing only a
+small share. This outcome is driven by EV demand curvatures exceeding one and sig-
+niﬁcant heterogeneity in consumer price sensitivities. We further decompose the wel-
+fare effects into two key components: the baseline subsidy based on driving range and
+the subsidy adjustment coefﬁcients targeting technological innovations. While the latter
+intensiﬁes competition among EVs, reducing manufacturer proﬁts, it also enhances en-
+vironmental beneﬁts by lowering emissions. Finally, our results underscore the need to
+account for nonenvironmental externalities—such as trafﬁc accidents and congestion—
+as well as the assumptions regarding the transportation mode underlying the outside
+choice in welfare analysis. Varying these assumptions can yield opposing conclusions
+on the overall social welfare effect.
+
+JEL Codes: H23, Q51, Q58
+
+Keywords: electric vehicles (EVs), subsidy, social welfare
+
+
+
+ELECTRIC VEHICLES (EVS) represent a new generation of automobiles with the po-
+tential to reduce the transportation sector’s reliance on fossil fuels, offering a solution to
+the problem of air pollution caused by motor vehicles. However, EVs also face challenges,
+including limited driving range per charge, underdeveloped technology, and relatively
+
+
+Qing Ji is at the School of Economics and Management, China University of Petroleum (Beijing),
+Beijing, China, and MOE Laboratory for Low-Carbon Intelligent Governance (LLIG), Beihang
+University, Beijing, China. Chunan Wang (corresponding author) is at the School of Economics
+and Management, Beihang University, Beijing, China, and MOE Laboratory for Low-Carbon
+Intelligent Governance (LLIG), Beihang University, Beijing, China (chnwang@buaa.edu.cn).
+Xiaoyong Zheng is in the Department of Agricultural and Resource Economics, North Carolina
+State University, Raleigh, North Carolina, United States. Ying Fan (corresponding author) is at
+Dataverse data: https://doi.org/10.7910/DVN/PISPQV
+
+Received August 18, 2022; Accepted June 11, 2025; Published online October 21, 2025.
+
+Journal of the Association of Environmental and Resource Economists, volume 13, number 1, January 2026.
+© 2025 The Association of Environmental and Resource Economists. All rights reserved. Published by The
+University of Chicago Press for The Association of Environmental and Resource Economists.
+https://doi.org/10.1086/737533
+                                                                             1
+
+===== [PDF 第 2 页｜印刷第 2 页] =====
+2    Journal of the Association of Environmental and Resource Economists    January 2026
+
+high prices (Hidrue et al. 2011; Egbue and Long 2012). As a result, while market share
+for EVs is growing, it remains low compared to conventional vehicles with internal com-
+bustion engines (ICEVs) (see table 1 of Xing et al. 2021).1
+  To encourage EV adoption and support the development of this emerging indus-
+try, governments worldwide have provided subsidies in the form of direct purchase re-
+bates (Clinton and Steinberg 2019), income tax credits (Sheldon and Dua 2019), and
+sales tax exemptions (Gallagher and Muehlegger 2011).2 While subsidies effectively
+boost EV sales (Ma et al. 2017), they are also costly. For instance, China spent a total
+of 35.81 billion RMB on battery electric vehicle (BEV) subsidies in 2017 and 2018
+(MIIT 2019a, 2019b).3 This raises important questions about who beneﬁts from these
+subsidies, who bears the costs, and whether such a signiﬁcant investment is worthwhile
+for society.
+   This study uses data from China between 2015 and 2019 to quantify the welfare ef-
+fects of EV subsidies and address key questions regarding their impact. We estimate the
+effects on consumer welfare, manufacturer proﬁts, and government revenue, while also
+examining the environmental (greenhouse gas and air pollutant emissions) and nonen-
+vironmental externalities (trafﬁc accidents and congestion) associated with the subsidies.
+  On the demand side, we estimate a differentiated-products discrete choice model
+based on Berry et al. (1995). To improve identiﬁcation, we construct a generalized method
+
+
+the School of Economics and Management, Beihang University, Beijing, China, and MOE Lab-
+oratory for Low-Carbon Intelligent Governance (LLIG), Beihang University, Beijing, China
+(yfan1123@buaa.edu.cn). We would like to express our gratitude to two anonymous reviewers,
+to Shanjun Li, and to participants from seminars and conferences at Auburn University, the
+Hong Kong Polytechnic University, Zhejiang University, and the 2023 Allied Social Science
+Associations (ASSA) meetings in New Orleans, for their valuable comments and suggestions.
+We also acknowledge the ﬁnancial support from the National Natural Science Foundation of
+China (grants 72001015, 72371012, 72021001, 71934006, 72274213), the Science Foundation
+of China University of Petroleum, Beijing (grant 2462023YJRC025), and the China Postdoc-
+toral Science Foundation (grant 2024M763637). Any remaining errors are our own. Edited by
+Shanjun Li.
+    1. Electric vehicles (EVs) include battery electric vehicles (BEVs), plug-in hybrid electric ve-
+hicles (PHEVs), hybrid electric vehicles (HEVs), and fuel cell electric vehicles (FCEVs), cate-
+gorized based on their energy sources and powertrain systems (Singh et al. 2023). In this article,
+EVs refer to BEVs and PHEVs. HEVs are grouped with internal combustion engine vehicles
+(ICEVs) as they are not eligible for EV subsidies in China. Another major type of new energy
+vehicle in China is FCEVs, which use ethanol, biogas, or biodiesel as energy sources (IEA 2020).
+However, this category holds a very small market share.
+    2. Governments have also offered nonﬁnancial incentives, such as the availability of charging
+infrastructure (Sierzchula et al. 2014; Li et al. 2017), access to high-occupancy vehicle (HOV)
+lanes (Beresteanu and Li 2011; Sheldon and DeShazo 2017), and exemptions from driving re-
+strictions aimed at reducing trafﬁc congestion (Ma et al. 2019; Liu et al. 2021).
+    3. The exchange rate between USD and RMB in 2017 was $US1 5 6.75 RMB.
+
+===== [PDF 第 3 页｜印刷第 3 页] =====
+                                 Welfare Effects of Electric Vehicle Subsidies      Ji et al.   3
+
+of moments (GMM) estimator using both aggregate and micro moments. On the supply
+side, we use a Bertrand–Nash oligopoly model for differentiated products to estimate
+marginal costs. With estimates from both models, we conduct counterfactual experi-
+ments to assess the welfare effects of EV subsidies.
+  A unique feature of the EV subsidies in China is the two-step process used to de-
+termine subsidy amounts since 2017. First, a baseline subsidy is calculated based on the
+vehicle’s driving range, similar to the approach in other countries (e.g., the United
+States calculates subsidies based on battery capacity; Sheldon and Dua 2019). In the
+second step, two adjustment coefﬁcients are applied based on the vehicle’s battery en-
+ergy density and energy efﬁciency (electricity consumption per 100 kilometers). The
+ﬁnal subsidy is the product of the baseline amount and the two adjustment coefﬁcients.
+These coefﬁcients were introduced to encourage technological innovation, aiming to
+make the EV ﬂeet more energy efﬁcient. To our knowledge, no other country has im-
+plemented a similar policy. In our welfare analysis, we decompose the effects of the sub-
+sidy into two components: one for the baseline subsidy and another for the adjustment
+coefﬁcients. This enables us to compare the welfare effects of both components.
+  Our results show that the subsidy policy primarily transfers funds from the govern-
+ment to consumers, with car manufacturers receiving a small share. The subsidies lead
+to a signiﬁcant increase in consumer welfare, a modest rise in manufacturer proﬁts, and
+a substantial decrease in government revenue. This outcome is driven by the demand
+curvatures for EVs being larger than one and signiﬁcant heterogeneity in price sensitiv-
+ities among consumers, prompting manufacturers to engage in intense competition and
+lower prices, effectively passing on most of the subsidies to price-sensitive consumers.
+  The subsidies also enhance social welfare by reducing greenhouse gas (CO2) and air
+pollutant (PM2.5, SO2, NOx) emissions as consumers shift from ICEVs to EVs. How-
+ever, the welfare impact of the subsidies on trafﬁc congestion and accidents depends on
+the assumed transportation mode when consumers do not purchase a new vehicle (the
+outside choice). When the outside choice is assumed to be biking or walking, the sub-
+sidies result in a welfare loss, as some consumers are incentivized to switch from biking/
+walking to purchasing a vehicle, leading to increased trafﬁc congestion and accidents.
+When the outside choice is assumed to be continuing to drive a ﬁve-year-old ICEV,
+the subsidies create a welfare gain, as they encourage some consumers to switch from
+an older ICEV to a new EV. Since, on average, ICEVs are driven 1.43 times more an-
+nually than EVs, this shift reduces overall trafﬁc congestion and accidents.
+   Overall, the total welfare effect of the subsidies offered in the second half of 2019
+ranges from a loss of 4,000.57 million RMB (0.28% of total vehicle sales) to a gain of
+3,373.71 million RMB (0.24% of total vehicle sales), depending on the assumption re-
+garding the outside choice. Furthermore, our results show that trafﬁc-related external-
+ities are a signiﬁcant component of the overall welfare impact. Ignoring them would alter
+both the sign and magnitude of the total social welfare effect. These ﬁndings emphasize
+the need to carefully consider different assumptions about the outside choice and account
+
+===== [PDF 第 4 页｜印刷第 4 页] =====
+4    Journal of the Association of Environmental and Resource Economists    January 2026
+
+for nonenvironmental externalities in welfare analysis, as different assumptions can lead
+to entirely different conclusions.
+  When decomposing the welfare effects into two components—the baseline subsidy
+and the adjustment coefﬁcients targeting technological innovations—we ﬁnd that the
+adjustment coefﬁcients have a negative impact on manufacturer proﬁts by intensifying
+competition among EVs. However, they have a positive impact on environmental exter-
+nalities, reducing greenhouse gas and air pollutant emissions. These ﬁndings contrast
+with the effects of the baseline subsidy, demonstrating that the adjustment coefﬁcients,
+designed to encourage technological innovation, have a beneﬁcial marginal effect on en-
+vironmental protection.
+  Our study contributes to the small but growing literature on welfare analysis of EV
+subsidy policies. The closest paper to ours is Guo and Xiao (2023), which examines the
+welfare effects of EV subsidy policies in Shanghai during the second half of 2019. Our
+study differs from theirs in four key aspects. First, while their study quantiﬁes the wel-
+fare effects of overall subsidy levels, we separately analyze the effects of the baseline sub-
+sidy (based on driving range) and the adjustment coefﬁcients targeting technological
+improvements. Second, their study excludes externality costs related to trafﬁc conges-
+tion and accidents, focusing only on environmental externalities such as greenhouse gas
+and air pollutant emissions. In contrast, we include trafﬁc-related externalities and ﬁnd
+that these costs are a signiﬁcant part of the overall welfare impact; ignoring them could
+lead to vastly different conclusions.
+   Third, their analysis is limited to Shanghai, which has a unique quota policy. This
+results in their ﬁnding that an increase in EV subsidies raises domestic ICEV prices
+due to additional demand for vehicle registration, increasing quota costs for all vehi-
+cles. Our analysis, conducted at the national level, is not inﬂuenced by such city-
+speciﬁc policies and offers broader, more representative results. Finally, using demand
+curvature analysis (Miravete et al. 2023, 2024), we show that the overshifting of sub-
+sidies—a key ﬁnding in both our study and Guo and Xiao’s (2023)—is driven by de-
+mand curvatures for EVs greater than one, coupled with signiﬁcant heterogeneity in
+price sensitivities among consumers purchasing new cars.
+   Another closely related paper is Yang and Tang (2019), which examines the effects of
+early EV subsidy policies in China (2011–12) by quantifying the welfare impacts on con-
+sumer welfare, ﬁrm proﬁts, government revenue, and environmental externalities. Our
+study differs from theirs in two key aspects. First, we analyze the subsidy policy post-
+2017, when adjustment coefﬁcients targeting technological innovations were introduced,
+while their study focuses on the period before 2017, when subsidies were based solely on
+driving range. Second, regarding externality effects, Yang and Tang (2019) consider only
+environmental externalities in terms of greenhouse gas emissions, while we also include
+the environmental externalities of air pollutants and the nonenvironmental externalities
+of trafﬁc accidents and congestion. We ﬁnd that incorporating nonenvironmental exter-
+nalities is crucial, as ignoring them could lead to entirely different conclusions.
+
+===== [PDF 第 5 页｜印刷第 5 页] =====
+                                 Welfare Effects of Electric Vehicle Subsidies      Ji et al.   5
+
+  The third closely related paper is Clinton and Steinberg (2019). They ﬁrst estimate
+the impact of subsidies on EV adoption and then, assuming a linear demand and supply
+model, combine their results with those of Holland et al. (2016) to measure the welfare
+effects of EV subsidies. Their ﬁndings suggest that EV subsidies are not welfare-
+improving when considering only the beneﬁts from avoided emissions. Our study dif-
+fers from theirs in two signiﬁcant ways. First, we estimate a nonlinear structural
+demand and supply model using observed market share data, whereas they assume a
+linear demand and supply model without estimation. As a result, our welfare analysis
+is more consistent with real-world data. Second, while they focus solely on environ-
+mental externalities, we incorporate both environmental and nonenvironmental exter-
+nalities in our analysis.
+  Our study makes two primary contributions to the existing literature. First, we
+conduct a more comprehensive welfare analysis of the EV subsidy policy than previous
+studies. Speciﬁcally, our analysis includes six components: consumer welfare, producer
+proﬁts, government revenue, externalities related to greenhouse gas emissions, air pol-
+lutant emissions, and trafﬁc accidents and congestion. Second, leveraging the unique
+design of China’s subsidy policy, we decompose the welfare effects into two parts: one
+related to the baseline subsidy based on driving range and the other to the adjustment
+coefﬁcients targeting technological innovations. To the best of our knowledge, this ap-
+proach has not been explored in the literature.
+   Additionally, our study contributes to the broader literature on welfare analysis in
+the automobile industry. Studies by Xiao and Ju (2014) and Tan et al. (2019) examine
+the welfare effects of consumption and fuel tax adjustments, while Xiao et al. (2017) and
+Li (2018) quantify the effects of vehicle quota systems. Shen et al. (2021) compare the
+welfare impacts of a consumption tax versus a tariff. A common ﬁnding across these stud-
+ies is that additional taxes, vehicle registration quotas, and driving restrictions reduce ve-
+hicle sales and miles driven, leading to lower greenhouse gas and air pollutant emissions.
+  The remainder of the paper is organized as follows. Section 1 provides a historical
+overview of EV subsidy policies in China over the past decade and describes the data.
+The empirical model and estimation strategy are detailed in section 2, while sections 3
+and 4 present and discuss the estimation and counterfactual results. Finally, section 5
+concludes.
+
+
+1. POLICY BACKGROUND AND DATA
+1.1. EV Subsidy Policies in China
+Over the past two decades, China’s automobile market has experienced rapid growth.
+According to the National Bureau of Statistics of China, the number of household ve-
+hicles nationwide reached 225.09 million in 2019, 23 times higher than in 2002.4
+
+
+
+    4. See https://data.stats.gov.cn/index.htm.
+
+===== [PDF 第 6 页｜印刷第 6 页] =====
+6    Journal of the Association of Environmental and Resource Economists    January 2026
+
+However, this growth has also led to increased urban trafﬁc congestion and environ-
+mental pollution. In 2019, motor vehicle pollutant emissions totaled 16.04 million tons,
+making vehicles one of the major sources of air pollution in China (MEE 2020). In
+response, the Chinese government has implemented various policies, such as vehicle
+license quotas (Xiao et al. 2017; Li 2018), consumption taxes (Xiao and Ju 2014),
+fuel taxes (Tan et al. 2019), and one-day-per-week driving restrictions (Viard and Fu
+2015). While these policies effectively limit vehicle purchases and use, they do not fully
+address the issue of vehicle pollution (Muller and Mendelsohn 2009; Huo et al. 2013).
+  Amid these challenges, electric vehicles (EVs), particularly battery electric vehicles
+(BEVs), have gained attention for their low (PHEVs) or zero (BEVs) tailpipe emis-
+sions. The emergence of EVs has spurred the electriﬁcation of the transportation sec-
+tor, accelerated the transformation of the automobile industry, and offered a potential
+solution to vehicle tailpipe emissions, a major source of air pollution. However, con-
+sumers still have concerns about EVs, such as limited driving ranges per charge, imma-
+ture technology, and relatively high prices (Hidrue et al. 2011; Egbue and Long 2012).
+  To promote EV sales, the Chinese government introduced a direct purchase rebate
+in 2010. The subsidy is paid to manufacturers, who pass it on by reducing vehicle prices.
+Initially, the subsidy was based solely on the electric driving range. Table A1 (tables A1–
+A10 are available online) shows how the electric driving range subsidy was calculated from
+2010 to 2019. Before 2013, BEVs and PHEVs received subsidies of 60,000 RMB
+and 50,000 RMB, respectively, which equaled about 30% of the average EV price at that
+time. Over time, the subsidy threshold increased, and the subsidy amount decreased. By
+the second half of 2019, only BEVs with driving ranges greater than 250 kilometers (km)
+qualiﬁed for a subsidy, with amounts ranging from 18,000 RMB to 25,000 RMB de-
+pending on whether the driving range exceeded 400 kilometers. These changes reﬂect
+the government’s intention to phase out the subsidy over time and shift from promoting
+all EVs in the early market stages to encouraging high-quality EVs, particularly those
+with longer driving ranges, as the market matured.5
+   In 2016, another major change to the subsidy policy was introduced: adjustment
+coefﬁcients targeting technological innovations. A subsidy based solely on driving range
+encourages manufacturers to increase range by simply adding more batteries. However,
+this makes the car heavier, leading to less energy efﬁciency. An alternative approach is
+to develop better batteries with higher energy density or reduce the weight of other car
+parts to offset the weight of the additional batteries. These methods require technolog-
+ical innovations in battery and car design to improve energy efﬁciency.
+  To promote these innovations, the government introduced two adjustment coefﬁ-
+cients to the subsidy calculation formula. The ﬁrst targets battery energy density for
+BEVs only. Table A2 lists the adjustment coefﬁcients for each year. For example,
+
+
+    5. Driving range anxiety is widely acknowledged as a barrier to consumer adoption of BEVs
+(Li et al. 2017).
+
+===== [PDF 第 7 页｜印刷第 7 页] =====
+                                 Welfare Effects of Electric Vehicle Subsidies      Ji et al.   7
+
+in 2017, BEVs with a battery energy density below 90 kilowatt-hours per kilogram
+(kWh/kg) received no subsidy. The second coefﬁcient targets energy efﬁciency, with
+corresponding coefﬁcients listed in table A3 for BEVs and table A4 for PHEVs. For
+instance, in 2017, if a BEV weighing 1,200 kg consumed more electricity than the
+benchmark of 16.9 kWh per 100 km, it would not qualify for any subsidy, regardless
+of its driving range. Like the baseline subsidy policy, these adjustment coefﬁcients be-
+came stricter over time, reﬂecting the government’s strategy to promote technological
+innovations and the introduction of more energy-efﬁcient EVs.
+  Thanks to these subsidies and other factors such as rising environmental awareness
+(Ziegler 2012), improvements in EV technology (Ma et al. 2019), and the expansion
+of charging infrastructure (IEA 2021), EV sales grew from 1,440 units in 2010 to
+340,000 in 2016, and 1.06 million in 2019 (IEA 2023). By 2019, the stock of EVs
+in China accounted for 46.81% of the world’s total, compared to Europe’s 24.31%
+and the United States’ 20.14% (IEA 2023).
+
+
+1.2. Data
+To measure the welfare effects of EV subsidy policies, we compiled a unique dataset
+from multiple sources. This subsection provides a detailed description of each data
+source.
+
+
+1.2.1. Vehicle Data
+The EV sales data are sourced from the Bloomberg New Energy Finance (BNEF) da-
+tabase,6 which tracks the quarterly sales of EVs in the Chinese market from 2015 to
+2019. This results in a total of 1,265 observations across 193 different vehicle models.
+The ICEV sales data are obtained from the Comprehensive Economic, Industry, and
+Corporate (CEIC) database, containing 9,195 observations across 923 products.7
+  We collected the characteristics of each vehicle model from the Autohome and
+PCAuto websites.8 These characteristics include effective consumer price,9 maximum
+horsepower, weight, electricity consumption per hundred kilometers (kWh/100 km),
+fuel consumption per hundred kilometers (L/100 km), vehicle size, and vehicle type.
+Our data can identify different engine types within the same nameplate but do not dis-
+tinguish between attributes such as transmission type, color, or seat conﬁgurations.
+
+
+
+    6. For the BNEF data source, see https://about.bnef.com.
+    7. For the CEIC data source, see https://www.ceicdata.com/en.
+    8. For the Autohome and PCAuto websites, see http://www.autohome.com.cn and https://
+www.pcauto.com.cn, respectively.
+    9. Websites like Autohome and PCAuto only provide the retail price of vehicles, which in-
+cludes value-added tax. We calculated the purchase tax, vehicle and vessel usage fee, license fee,
+and premium for mandatory insurance based on vehicle features. Then, we used eq. (11) to ar-
+rive at the effective consumer price.
+
+===== [PDF 第 8 页｜印刷第 8 页] =====
+8    Journal of the Association of Environmental and Resource Economists    January 2026
+
+Therefore, we deﬁne a vehicle model based on the combination of its nameplate and
+engine type.
+   Table 1 presents the summary statistics of the variables in our dataset. The vari-
+ables are reported at different levels. At the quarter level, we report the average effective
+consumer price, number of ﬁrms, number of products, and number of households (mar-
+ket size). Since our sample period spans 20 quarters, we have 20 observations for these
+variables. On average, about 66 ﬁrms are active each quarter, selling around 523 different
+vehicle models. The average effective consumer price of these vehicles is approximately
+172,090 RMB.
+  At the ﬁrm level, we report variables such as quarterly vehicle sales and models of-
+fered. Our sample includes 83 ﬁrms, of which 14 only produce EVs, 27 only produce
+ICEVs, and 42 produce both types of vehicles. The average quarterly number of vehi-
+cles sold per ﬁrm is about 6,054, and the average number of vehicle models offered by
+a ﬁrm per quarter is 7.12.
+  At the vehicle model level, we report several characteristics, such as the distribution
+of vehicle types. In our sample, sedans, SUVs (sport utility vehicles) and MPVs (mul-
+tipurpose vehicles) represent 61.1%, 31.0%, and 7.9% of all models, respectively. Fi-
+nally, at the quarter-model level, we report the number of vehicles sold and the effec-
+tive consumer price for each vehicle model.
+
+
+1.2.2. Demographics and Income Distribution Estimation
+Following Li (2018), in our empirical analysis, we assume that half of all households are
+potential buyers of new vehicles, regardless of whether they own a vehicle or not. Ad-
+ditionally, we assume that the number of households remains constant each quarter
+within a year. As such, the market size in each quarter is equal to the number of house-
+holds in a year divided by 8. Data on the number of households and average household
+size are sourced from the China Statistical Yearbooks, as detailed in table A5.10 Using
+this information, we can calculate the market share of a vehicle model in a market as the
+ratio of the number of vehicles sold for that particular model and the market size in the
+corresponding market.
+   Households in different income groups exhibit varying willingness to pay for vehi-
+cles (Li 2018; Ma et al. 2019). Therefore, household income is included as a key house-
+hold characteristic variable in our empirical model, as outlined below. For estimation
+and counterfactual analysis, we need to understand the income distribution from which
+we can simulate household incomes. To estimate the household income distribution,
+we follow the approach of Xiao et al. (2017). Speciﬁcally, assuming that per capita in-
+come follows a lognormal distribution (Clementi and Gallegati 2005),11 we simulate
+
+
+   10. See https://www.stats.gov.cn/sj/ndsj/.
+   11. Clementi and Gallegati (2005) conducted an extensive analysis of income data spanning
+the United States, the United Kingdom, and Germany. Their ﬁndings reveal a notable pattern:
+
+===== [PDF 第 9 页｜印刷第 9 页] =====
+                                 Welfare Effects of Electric Vehicle Subsidies      Ji et al.   9
+
+Table 1. Summary Statistics of Vehicle Data
+
+Variable                         Mean    SD     Min    Max     Obs.
+
+                                                     Quarter Level
+
+Average consumer price (10,000 RMB)     17.21         .45   16.67      18.4    20
+Number of ﬁrms                         66.35       3.25   60        71      20
+Number of vehicle models              523         52.41  444       605      20
+Number of households (millions)          55.26       2.43   51.26      58.33   20
+
+                                                   Firm Level
+
+Average sales per quarter                6,054     7,850.05    6     48,693.17   83
+Number of vehicle models per quarter       7.12       8.58    1       44      83
+
+                                                     Vehicle Model Level
+
+Log(horsepower/weight)                 –2.36         .27   –4.18     –1.33   923
+Size of vehicles (m2)                       8.04     1        3.75      10.23   923
+Weight (kg)                           1,444.29     292.92  713.2     2,940     923
+Sedan dummy                                .61         .49    0       1      923
+SUV dummy                                 .31         .46    0       1      923
+MPV dummy                                .08         .27    0       1      923
+
+                                              Quarter–Vehicle Model Level
+
+Sales                                  8,780.34  15,833.91    1     211,687   10,460
+Purchase price (10,000 RMB)             17.18      11.22    2.28     102.18  10,460
+
+   Note. The sample period is from 2015 to 2019. The quarterly EV sales data are sourced from the
+Bloomberg New Energy Finance (BNEF) database (https://about.bnef.com.). The quarterly ICEV sales
+data are obtained from the Comprehensive Economic, Industry, and Corporate (CEIC) database (https://
+www.ceicdata.com/en.). The vehicle characteristics data are collected from the Autohome (https://www
+.autohome.com.cn) and PCAuto (https://www.pcauto.com.cn) websites. Data on the number of households
+are sourced from the China Statistical Yearbooks. MPV stands for multipurpose vehicles.
+
+
+income data for a large number of individuals based on a pair of mean and variance pa-
+rameters for the lognormal distribution. These simulated incomes are then sorted into
+quintiles, and the average per capita income for each quintile is computed. We search
+over the parameter space to identify the pair of mean and variance parameters that align
+the simulated average per capita income for each quintile with the values reported in the
+Chinese statistical yearbooks.
+   Table A6 presents the observed and simulated average per capita income for each
+quintile for the year 2019. As shown in the table, the differences between observed
+and simulated values are small, and the per capita income distribution can be accurately
+
+
+the incomes of the low and middle classes, comprising roughly 97%–99% of the overall popu-
+lation, exhibit a strong correspondence to a two-parameter lognormal distribution.
+
+===== [PDF 第 10 页｜印刷第 10 页] =====
+10    Journal of the Association of Environmental and Resource Economists    January 2026
+
+approximated by a lognormal distribution with a mean of 10.101 and a variance of
+0.766. Consequently, in our estimation and counterfactual analyses, we simulate per
+capita income using this distribution and multiply the simulated per capita income
+by the average household size reported in table A5 of the Chinese statistical yearbooks
+to derive the simulated household income required for model estimation.
+
+
+2. EMPIRICAL MODEL
+To evaluate the social welfare effects of EV subsidy policies, we adopt the methods
+used by Xiao et al. (2017), Li (2018), and Barwick et al. (2021). First, we estimate the
+parameters that govern consumer preferences for vehicles and manufacturers’ proﬁt
+functions. Next, through counterfactual analysis, we compare the market equilibria be-
+fore and after the implementation of various EV subsidy policies, calculating the changes
+in consumer and producer welfare, government revenue, and social externalities.
+
+
+2.1. Demand
+Since we only have access to vehicle market share data, we estimate a random-
+coefﬁcients discrete choice demand model following the approach of Berry et al. (1995).
+Speciﬁcally, assume that the utility of household i from purchasing vehicle j in period t
+(a quarter in our context) is
+
+
+                                K
+                                   uijt 5 ait ln  pjt 1 o xjktβikt 1 yjt 1 eijt,                   (1)
+                                       k51
+
+where pjt is the effective consumer price (suggested retail price adjusted for taxes, govern-
+ment subsidies, and other expenses such as mandatory insurance) of vehicle j in period t,12
+and xjkt represents the kth observed characteristic of vehicle j in period t. The observed
+characteristics include liter of fuel consumption per 100 kilometers measured by the
+NEDC method (FC100),13 kilowatts of electricity consumption per 100 kilometers
+(PC100), the logarithm of horsepower per kilogram of weight (log(HP/Weight)), the
+logarithm of electric driving range per kilogram of weight (log(EDR/Weight)), vehicle
+size in squared meters (Size), and dummy variables for BEVs (BEV dummy) and
+PHEVs (PHEV dummy). The terms ait and βikt are the corresponding coefﬁcients,
+which are assumed to be heterogeneous across households. The term yjt denotes the
+
+
+
+
+   12. See sec. 2.2 and (11) regarding the relationships among effective consumer price, sug-
+gested retail price, taxes, and other expenditures such as mandatory insurances and government
+subsidies.
+   13. The NEDC fuel consumption refers to the standard method of measuring a vehicle’s
+fuel efﬁciency and emissions levels in Europe, known as the New European Driving Cycle. Since
+January 1, 2021, China has replaced the NEDC test with the WLTP, which stands for the
+Worldwide Harmonized Light Vehicles Test Procedure.
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(1)  u_{ijt}=\alpha_{it}\ln(p_{jt})+\sum_{k=1}^{K}x_{jkt}\beta_{ikt}+\xi_{jt}+\epsilon_{ijt}
+    核对方式：沿用 09-25 看图核验；说明：p_{jt} 为税、补贴、强制保险调整后的有效消费者价格；outside u_{i0t}=\epsilon_{i0t}
+----- 【公式校正结束】 -----
+
+===== [PDF 第 11 页｜印刷第 11 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   11
+
+unobserved characteristics of vehicle j in period t, such as manufacturer promotions.
+The error term eijt is assumed to be independently and identically distributed according
+to the type I extreme value distribution. In each period, there are a total of Jt vehicles
+available for purchase, including BEVs, PHEVs, and ICEVs, where j 5 0 represents
+the outside choice (i.e., no purchase or purchasing a vehicle model that is not included
+in our data such as fuel cell electric vehicles).14 The utility from the outside choice is
+normalized to be ui0t 5 ei0t.
+
+
+2.1.1. Speciﬁcation
+We deﬁne the random coefﬁcient ait on price as the negative of a lognormally distrib-
+uted random variable,
+
+                                    ait 5 –ea11a2 ln ð yit Þ1jpnipt:                           (2)
+
+This formulation is widely used because it ensures downward-sloping demand for all
+consumers (Barwick et al. 2021; Guo and Xiao 2023; Barwick et al. 2024; Conlon and
+Gortmaker 2025). The ea1 term represents the baseline price sensitivity, while ea2 ln(yit)
+captures how price sensitivity varies with household income yit. Since a household’s
+marginal utility of income tends to decrease with savings, we anticipate a2 to be neg-
+ative. The ejpnipt term introduces a random shock that reﬂects idiosyncratic factors in-
+ﬂuencing price elasticity.
+   Next, we further specify βikt and yjt as follows,
+     8
+         5            1 jknikt                    βk
+
+         5                     yjt                     g1zbev–dummyt                 1 g2zphev–dummyt     >>>>>>>>>>< βikt
+          1 g3zev–dummylog ð EDR/Weight Þ                        :         (3)
+
+          1 g4zsuv–dummy 1 g5zmpv–dummy     >>>>>>>>>>:
+          1 c6zyear–FE 1 c7zquarter–FE 1 c8zfirm–FE 1 Dyjt
+
+In equation (3), the effect of the kth vehicle characteristic on consumer utility, βikt, is
+decomposed into a mean effect component βk, and a heterogeneous effect component
+jknikt. nikt (for k 5 1,  ...  , K) follows a multivariate standard normal distribution
+P(v) 5 N(0, IK). The unobserved vehicle characteristics term yjt is decomposed into
+the interaction between the time trend (t) and the BEV dummy variable, the interac-
+tion between the time trend and the PHEV dummy variable, the interaction between
+
+
+   14. The main reason for including the fuel cell electric vehicles in the outside choice is their
+small market share. According to data from the China Association of Automobile Manufactur-
+ers (http://www.caam.org.cn/chn/4/cate_154/con_5228367.html), fuel cell electric vehicles
+accounted for only 0.01% of the total vehicle sales (25.769 million units) in China in 2019.
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(2)  \alpha_{it}=-e^{\alpha_1+\alpha_2\ln(y_{it})+\sigma_p\nu_{ipt}}
+    核对方式：本轮看图
+(3)  \begin{cases}\beta_{ikt}=\bar\beta_k+\sigma_k\nu_{ikt}\\ \xi_{jt}=\gamma_1\zeta_{bev\text{-}dummy}t+\gamma_2\zeta_{phev\text{-}dummy}t+\gamma_3\zeta_{ev\text{-}dummy}\log(\text{EDR/Weight})+\gamma_4\zeta_{suv\text{-}dummy}+\gamma_5\zeta_{mpv\text{-}dummy}+\gamma_6\zeta_{year\text{-}FE}+\gamma_7\zeta_{quarter\text{-}FE}+\gamma_8\zeta_{firm\text{-}FE}+\Delta\xi_{jt}\end{cases}
+    核对方式：本轮看图；说明：\nu_{ikt}\sim N(0,I_K)
+----- 【公式校正结束】 -----
+
+===== [PDF 第 12 页｜印刷第 12 页] =====
+12    Journal of the Association of Environmental and Resource Economists    January 2026
+
+the EV dummy variable and logarithm of electric driving range per kilogram of vehicle
+weight, the SUV dummy variable (sport utility vehicles or not), the MPV dummy
+variable (multipurpose vehicles or not), three sets of year, quarter, and ﬁrm ﬁxed ef-
+fects, and a residual term Dyjt. The interactions between the time trend and the BEV
+and PHEV dummy variables capture how consumers’ preferences for these two types
+of EVs relative to ICEVs evolve over time. The interaction between the EV dummy
+variable and the logarithm of electric driving range per kilogram of vehicle weight cap-
+tures consumers’ preferences for EVs with different energy efﬁciencies. The SUV and
+MPV dummy variables capture consumers’ preferences for these two types of cars rel-
+ative to other cars such as sedans. The year ﬁxed effects capture any macroeconomic
+factors that inﬂuence demand, while the quarter ﬁxed effects account for seasonal var-
+iations. The ﬁrm ﬁxed effects control for time-invariant factors that affect the demand
+for all vehicles produced by the same ﬁrm such as the reputation of the ﬁrm or brand.
+Finally, Dyjt captures any other unobserved vehicle characteristics or factors that vary
+over time and across vehicles.15
+   Using equations (2) and (3), the consumer utility function from equation (1) can
+be rewritten as
+
+                                        uijt ð vÞ 5 djt ð v1 Þ 1 mijt ð v2 Þ 1 eijt,                       (4)
+
+where
+         8
+                           K
+                                    djt ð v1 Þ 5                                                     xjkt βk 1 yjt              o         >>>><                                 k51
+                                                                                         :                  (5)
+                                     K
+                                                                       xjkt ð jknikt Þ         >>>>: mijt ð v2 Þ 5 ait ln  pjt 1 o
+                                             k51
+
+In equation (5), djt(v1) represents the mean utility, and mijt(v2) represents the hetero-
+geneous part of the utility. Following Nevo (2000), the parameters v also can be de-
+composed into two parts: v1 5 ( βk, g1, g2, g3, g4, g5, c6, c7, c8), which correspond to
+the coefﬁcients of the mean utility, and v2 5 (a1, a2, ap, jk), which correspond to the
+coefﬁcients in the heterogeneous part of the utility.16 Thus, v(v1,v2) is the vector of
+coefﬁcients to be estimated. Since eijt follows the type I extreme value distribution,
+the market share of product j in period t can be written as
+
+
+
+
+   15. One such variable is the availability of charging stations in different time periods. Both
+Kalthaus and Sun (2021) and Li et al. (2017) ﬁnd charging stations have a positive effect on
+demand of EVs.
+   16. To better identify the parameters in the model, we only include one random coefﬁcient
+for the EV dummy variable, rather than two random coefﬁcients for the BEV dummy variable
+and the PHEV dummy variable separately.
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(4)  u_{ijt}(\theta)=\delta_{jt}(\theta_1)+\mu_{ijt}(\theta_2)+\epsilon_{ijt}
+    核对方式：本轮看图
+(5)  \delta_{jt}(\theta_1)=\sum_{k=1}^{K}x_{jkt}\bar\beta_k+\xi_{jt},\qquad \mu_{ijt}(\theta_2)=\alpha_{it}\ln(p_{jt})+\sum_{k=1}^{K}x_{jkt}(\sigma_k\nu_{ikt})
+    核对方式：本轮看图；说明：原文随后写 \theta_2=(\alpha_1,\alpha_2,\alpha_p,\sigma_k)，其中 \alpha_p 与式 (2) 的 \sigma_p 记号不一，按 (2) 应为 \sigma_p
+----- 【公式校正结束】 -----
+
+===== [PDF 第 13 页｜印刷第 13 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   13
+                             ð
+                                                                  edjt1mijt
+                                         sjt ð v1, v2 Þ 5                     Jt       dP ð vÞ:                    (6)
+                              1 1 ok51edkt1mikt
+
+2.1.2. Moment Conditions, Identiﬁcation, and GMM Estimation
+One challenge in estimating the demand model (4)–(6) is that the price variable is
+likely to be correlated with the time-varying unobserved product characteristics Dyjt,
+as companies make pricing decisions based on consumer valuations of products in spe-
+ciﬁc markets. This correlation renders the price variable endogenous. To address this
+endogeneity issue, we construct a generalized method of moments (GMM) estimator
+using moment conditions derived from both market-level data (aggregate moments)
+and micro-level household survey data (micro moments).
+  The aggregate moments are constructed by interacting instrumental variables with
+the unobserved product characteristics Dyjt. The ideal instruments are variables that
+are correlated with prices but uncorrelated with the unobserved product characteristics.
+The ﬁrst set of instruments includes 12 Berry et al.–type instrumental variables: the
+number of other vehicles produced by the same ﬁrm, the number of vehicles produced
+by other ﬁrms, and the sum of own and rival product characteristics for the following
+variables: FC100, PC100, log(HP/Weight), log(EDR/Weight), and Size. These Berry
+et al.–type instruments capture competition intensity and differences in ﬁrm portfolios,
+inﬂuencing pricing decisions (Berry and Jia 2010; Miravete et al. 2018; Barwick et al.
+2021).
+  The second set of instruments comprises 10 cost shifters, as used in Xiao et al.
+(2017). These include the interaction between labor costs in the manufacturing sector
+with ﬁve exogenous product characteristics (FC100, PC100, log(HP/Weight), log
+(EDR/Weight), and Size), and the interaction between the producer price index of
+the metallurgical industry and these exogenous product characteristics.17 Cost shifters
+provide an exogenous source of variation in prices, helping to identify the demand
+model.
+  The third set of instruments includes the consumption tax rate and the purchase tax
+rate.18 These taxes form part of the ﬁnal price consumers pay for a vehicle, so they are
+correlated with the endogenous price variable. However, these taxes are set by the gov-
+ernment through regulations and are unlikely to be correlated with unobserved product
+characteristics.
+
+
+
+
+   17. The labor costs in the manufacturing sector (average wages of urban employees in the
+manufacturing sector) in China from 2015 to 2019 are 55,324, 59,470, 64,452, 72,088, and
+78,147 RMB, respectively. The producer price index of the metallurgical industry in China
+from 2016 to 2019 is 100.783, 120.740, 130.182, and 164.214 respectively, with the value
+in 2015 normalized to be 100.
+   18. We thank a referee for suggesting this set of instruments.
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(6)  s_{jt}(\theta_1,\theta_2)=\int\frac{e^{\delta_{jt}+\mu_{ijt}}}{1+\sum_{k=1}^{J_t}e^{\delta_{kt}+\mu_{ikt}}}\,dP(\nu)
+    核对方式：沿用 09-25 看图核验
+----- 【公式校正结束】 -----
+
+===== [PDF 第 14 页｜印刷第 14 页] =====
+14    Journal of the Association of Environmental and Resource Economists    January 2026
+
+  The ﬁnal set of aggregate moments is generated by interacting the 19 exogenous
+product characteristics in the demand model with the unobserved product character-
+istics Dyjt. These variables include the constant, log(HP/Weight), log(EDR/Weight),
+Size, PC100, FC100, the BEV dummy, the BEV dummy interacted with the time
+trend, the PHEV dummy, the PHEV dummy interacted with the time trend, the SUV
+dummy, the MPV dummy, year ﬁxed effects, and quarter ﬁxed effects.
+   In total, we construct 43 aggregate moments. These moments can be expressed as
+gA(v2) 5 (1/NA)oNAjt51Zjt0Dyjt, where Zjt collects the 43 instruments, and NA is the
+number of observations in the market-level data.19 As noted in Salanié and Wolak
+(2022) and Conlon and Gortmaker (2025), identifying the nonlinear parameters v2 re-
+quires cross-market variation in product choice sets, product characteristics, and con-
+sumer demographic distributions. For example, a1 in (2) represents responsiveness to
+price by an average consumer. A higher a1 implies fewer people will purchase more ex-
+pensive cars, and its identiﬁcation comes from cross-market variation in car prices and
+market shares for cheap versus expensive cars. Similarly, jk in (3) represents variation
+in consumers’ tastes for the kth vehicle characteristic. This parameter is identiﬁed by
+how consumers choose different products when faced with different product choice sets
+across different markets. If consumers make similar choices in both markets where prod-
+ucts are similar in the kth vehicle characteristic and markets where products are quite
+different in the kth vehicle characteristic, this implies that consumers’ tastes for the
+kth vehicle characteristic are similar and hence a small value of jk.
+  On the other hand, little or no cross-market variation in product choice sets, prod-
+uct characteristics, and consumer demographic distributions would result in poorly
+identiﬁed and biased estimates. In our context, one market is deﬁned as the national
+market in one quarter, and the data span 20 quarters over ﬁve years. More importantly,
+the sample period coincides with the introduction of many new BEVs and PHEVs and
+the termination of older EV models. Prices for EVs also changed signiﬁcantly due to
+policy adjustments. As a result, there is substantial cross-market variation in product
+choice sets and prices, especially in the EV segment, even though such variation is more
+limited in the ICEV segment. Furthermore, since the market-level data are national,
+the only source of cross-market variation in consumer demographics comes from na-
+tional variations over time, which are limited. Therefore, to improve the identiﬁcation
+of the nonlinear structural parameters v2, we follow the literature and construct addi-
+tional micro moments using household survey data (Petrin 2002; Berry et al. 2004; Li
+2018; Barwick et al. 2021; Barwick et al. 2024).20 These micro moments allow us to
+
+
+
+   19. Note that the moment conditions are a function of the nonlinear parameters v2 only
+because, as demonstrated in Nevo (2000), the linear parameters v1 can be concentrated out of
+the objective function in the GMM estimation.
+   20. We thank Shanjun Li for sharing the Chinese household survey data with us.
+
+===== [PDF 第 15 页｜印刷第 15 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   15
+
+exploit within-market variation from household survey data that link demographics to
+individual choices to better identify the parameters (Conlon and Gortmaker 2025).
+  More speciﬁcally, using three years of household survey data, we match the pre-
+dicted shares of income groups among new vehicle buyers to the observed shares. We
+divide households into four annual income groups: below 72k RMB, 72k–120k RMB,
+120k–240k RMB, and above 240k RMB. Using the fourth income group as the baseline
+group, we formulate nine micro moment conditions (three income groups for three
+years) as follows,
+                       gM ð v2 Þ 5 ^Sgy ð v2 Þ – Sgy,                           (7)
+
+where ^Sgy(v2) and Sgy are 9 × 1 vectors, with one row for each of the nine micro mo-
+ments. For each micro moment in (7), the observed share for group g in year y can be
+calculated from the consumer survey data as Sgy 5 (1/Nsy)o Nsyi51I(Incomei ∈g), where
+Nsy is the sample size for the consumer survey in year y. I(Incomei ∈g) is an indicator
+function that equals 1 if household i0s income falls into group g. The predicted share of
+income group g among vehicle buyers in year y is computed as
+
+         oNSi51o Jtj50PrijtI ð j ≠0,  t ∈y ÞI ð Incomeit ∈g Þ
+                      ^Sgt ð v2 Þ 5         NS      Jt
+            oi51oj50Prijt1ð j ≠0,  t ∈y Þ
+                                                                                  (8)
+            oNSi51oJtj51PrijtI ð Incomeit ∈g Þ             5                                  NS      Jt                          ,
+               o i51oj51Prijt
+where Prijt is the probability for simulated consumer i in market t to choose product j,21
+and equation (8) mirrors equation (17) in Li (2018).
+  As noted, micro moments aid in the identiﬁcation of the nonlinear structural pa-
+rameters v2, particularly the price coefﬁcients (Barwick et al. 2021). For example, a2 in
+(2) measures how price responsiveness changes with income. A more negative a2 sug-
+gests that wealthier individuals are less responsive to price, making them more likely to
+buy expensive cars. Micro moments, such as the probability of purchasing a car among
+different income groups, help identify this parameter. Similarly, jp measures how the
+price responsiveness varies with random factors. Higher jp increases the chance that
+wealthier individuals buy cheap cars and poor individuals purchase expensive cars.
+Again, micro moments, such as the probability of purchasing a car among different
+income groups, help identify this parameter.
+   Stacking the aggregate and micro moments together, we have
+                            "     #
+                                       gA ð v2 Þ
+                                  g ð v2 Þ 5                     ,
+                                gM ð v2 Þ
+
+
+   21. The derivation of (8) can be found in app. 2 (apps. 1–3 are available online).
+
+===== [PDF 第 16 页｜印刷第 16 页] =====
+16    Journal of the Association of Environmental and Resource Economists    January 2026
+
+and the GMM objective function can be written as
+
+                      min qð v2 Þ 5 g ð v2 Þ0Wg ð v2 Þ,                         (9)                                         v2
+
+where W is a weighting matrix. We adopt the two-step optimal GMM estimation
+routine.22
+
+
+2.2. Supply
+On the supply side, we assume a Bertrand Nash oligopoly model, where ﬁrms com-
+pete by setting prices.23 The proﬁt function for ﬁrm f in period t is given by
+
+                                          prjt
+                   Pft 5                                                                           (10)          o  ð 1 1 tv Þ ð 1 1 tc Þ – mcjt  Mtsjt – Cft,                                j∈Ff
+
+where prjt is the retail price of product j in period t. The terms tn and tc represent the
+value-added and consumption tax rates, respectively. The term prjt/½(1 1 tv)(1 1 tc)
+is the net price received by the ﬁrm, after accounting for these taxes. The term mcjt is
+the marginal cost of producing vehicle j in period t, and Cft is the ﬁxed cost of ﬁrm f in
+period t. Additionally, the effective consumer price of a vehicle pjt can be expressed as
+
+                                         tt            1 1 tv 1 tt
+                        pjt 5 prjt 1         prjt 1 ϱjt 5               prjt 1 ϱjt,           (11)
+                      1 1 tv            1 1 tv
+where tt is the vehicle purchase tax rate, and ϱjt represents other expenditures related
+to the vehicle purchase, such as vehicle and vessel usage fee, license fees, and premium
+for mandatory insurance, net of any subsidies received.
+  The ﬁrst-order condition with respect to prjt is,
+             1                              prjt                     ∂srt ∂pjt
+                                              sjt 1                                                                           (12)         ð 1 1 tv Þ ð 1 1 tc Þ            o  ð 1 1 tv Þ ð 1 1 tc Þ – mcrt   ∂pjt ∂prjt 5 0:                                     r∈Ff
+
+The ﬁrst-order conditions for all products in a given market can be collectively written
+in matrix form as
+
+                                  st                                   prt
+                5 G             – mct    ,            (13)
+                 ð 1 1 tv Þ ð 1 1 tc Þ       ð 1 1 tv Þ ð 1 1 tc Þ
+
+where st, prt, and mct are vectors containing the market shares, retail prices, and mar-
+ginal costs for the Jt products in market t, respectively. The term Γ is a matrix where
+
+
+
+   22. The estimation details can be found in app. 3.
+   23. With this assumption, our supply model only allows short-run price responses by the
+manufacturers. In reality, ﬁrms could make medium-run or long-run changes such as introduc-
+ing new EVs or improving certain features of existing EVs (Barwick et al. 2024).
+
+===== [PDF 第 17 页｜印刷第 17 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   17
+
+the element in the jth row and rth column is –(∂srt/∂pjt)(∂pjt/∂prjt) if products j and r
+are produced by the same ﬁrm, and 0 otherwise.24 Using equation (13), we can recover
+the marginal cost for each product in each market as
+
+                                                 prt                                   st            mct 5               – G–1                             :          (14)
+                        ð 1 1 tv Þ ð 1 1 tc Þ          ð 1 1 tv Þ ð 1 1 tc Þ
+
+
+2.3. Counterfactual Analysis
+Using the estimates from the demand and supply models, we can perform counterfac-
+tual analysis to examine the effects of EV subsidy policies on social welfare and its
+components. In our framework, social welfare is composed of four parts: consumer
+surplus, producer surplus, government revenue, and the social externalities associated
+with vehicle usage. Below, we provide a detailed explanation of how each component is
+calculated.
+
+
+2.3.1. Consumer Surplus
+We use the compensating variation (CV) to approximate changes in consumer welfare
+(Jehle and Reny 2011). In this context, CV is implicitly deﬁned by the following
+equation,
+
+         max         U p0jt, yit, djt, m0ijt, eijt 5 max                        U psjt, yit, CVsit, djt, msijt, eijt  ,        (15)                                                         j∈Js                j∈J0
+
+where the superscripts 0 and s represent the baseline and counterfactual scenarios, re-
+spectively. The term p0jt is the observed effective consumer price in the baseline sce-
+nario, while psjt is the new equilibrium effective consumer price in the counterfactual
+scenario, computed using equation (13) along with estimates of the demand model
+parameters and marginal costs.
+   Following Herriges and Kling (1999) and Li (2018), we use a simulation method to
+compute the expected CVsit for each simulated consumer in the counterfactual scenar-
+ios. Independently of the estimation, we simulate NSs 5 2,000 households for each
+market t, each characterized by a vector of income and unobserved household attri-
+butes, including 1,000 vectors of the errors eit per household to improve precision.25
+  When the vehicle price pjt increases, consumers must be compensated with a cer-
+tain amount of income to maintain the same level of utility as before. Consequently,
+changes in consumer surplus and the computed compensating variation are inversely
+related, that is, DCS 5 –DCV. Thus, the overall change in consumer surplus in mar-
+ket t is DTCSst 5 –Mt½(oiCVsit)/NSs .
+
+
+   24. Further derivations of ∂srt/∂pjt and ∂pjt/∂prjt can be found in app. 2.
+   25. The simulation procedure used to compute CVsit can be found in app. 3.
+
+===== [PDF 第 18 页｜印刷第 18 页] =====
+18    Journal of the Association of Environmental and Resource Economists    January 2026
+
+2.3.2. Producer Surplus
+To compute the changes in ﬁrm proﬁts (or producer surplus) DPsft, we ﬁrst substitute
+the new equilibrium prices psjt into equation (6) to obtain the new equilibrium market
+shares ssjt. Next, we substitute both psjt and ssjt(psjt) into equation (10) to calculate the
+ﬁrms’ proﬁts. Finally, we compare the proﬁts from the base scenario with those from
+the counterfactual scenario s to determine the change in ﬁrm proﬁts, assuming that mar-
+ginal and ﬁxed costs remain constant.
+
+
+2.3.3. Government Revenue
+The EV subsidy policies also impact the government’s revenue. On the expenditure
+side, the government needs to pay out a subsidy for each EV purchased, with the amount
+of subsidy calculated using tables A1–A4 for each EV sold.
+  On the income side, for every vehicle purchased, several taxes contribute to the gov-
+ernment’s revenue. First, the value-added tax (VAT) for a vehicle is calculated as follows,
+
+                                                                   prjt
+              VATjt 5  VICEVjt  1 VBEVjt  1 VPHEVjt                  tv,             (16)
+                                             1 1 tv
+
+where VICEVjt      , VBEVjt     , and VPHEVjt     are dummy variables for ICEVs, BEVs, and PHEVs,
+respectively, and are equal to 1 if the vehicle is of that type, and 0 otherwise. The sum
+VICEVjt  1 VBEVjt  1 VPHEVjt     always equals 1.
+   Second, the consumption tax (CT) for an ICEV is calculated as
+
+                                                      prjt
+                      CTjt 5 VICEVjt                                  tc:                   (17)
+                                        ð 1 1 tv Þ ð 1 1 tc Þ
+
+Third, the purchase tax (PT) for an ICEV is
+
+                                                     prjt
+                            PTjt 5 VICEVjt                tt:                        (18)
+                                    1 1 tv
+
+Note that BEVs and PHEVs are exempted from both consumption and purchase taxes.
+   In addition to the taxes collected when vehicles are sold, the government also col-
+lects taxes when vehicles are in operation. For ICEVs and PHEVs, which run on gas-
+oline, part of the spending on gasoline is directed to the government in the form of a fuel
+tax. The fuel tax generated by operating an ICEV or PHEV is computed as follows,
+
+              8
+              <  VICEVjt   FCjVMTjLTjkt
+                       FTjt 5                                                   ,                  (19)
+              :                        VPHEVjt   FCjVMTjLTjqgjtkt
+
+where FCj is the amount of gasoline needed to operate a vehicle j per kilometer, VMTj
+is the average annual vehicle distance traveled (in kilometers), LTj is the average lifespan
+
+===== [PDF 第 19 页｜印刷第 19 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   19
+
+of vehicle j (in years), kt is the rate of fuel tax in market t, and qgjt is the percentage of
+vehicle distance traveled in pure gasoline mode for a PHEV.26
+  On the other hand, EVs use electricity, and part of the spending on electricity is
+collected by the government through VAT. The VAT on electricity consumption
+for operating an EV is calculated as follows,
+              8
+              <  VBEVjt  PCjVMTjLTjPEttv
+             PCVATjt 5                                                           ,             (20)
+              :                         VPHEVjt   PCjVMTjLTjqejtPEttv
+
+where PCj is the electricity required to operate a BEV or PHEV per kilometer, PEt is
+the electricity price per kilowatt-hour (kWh) in market t, and qejt is the percentage of
+vehicle distance traveled in pure electricity mode for a PHEV.27
+  The change in government revenue is the sum of all these components. Following
+Clinton and Steinberg (2019), the social cost of government spending is set to 1.4 times
+the actual spending to account for the fact that government expenditures are ﬁnanced
+by taxes, which incur deadweight losses.28
+
+
+2.3.4. Social Externality
+The ﬁnal component of social welfare is the social externality of vehicle usage. These
+externalities primarily include environmental issues arising from power generation and
+tailpipe emissions (Holland et al. 2016) as well as trafﬁc congestion and accidents
+(Parry et al. 2014).29 A detailed explanation of how these social externalities are com-
+puted can be found in appendix 3.
+
+
+2.3.5. Outside Choice
+In our demand model, the outside choice is deﬁned as either not purchasing a new
+vehicle or purchasing a new fuel cell electric vehicle (FCEV). However, due to the lack
+of FCEV sales data and their negligible market share (0.01%) in China, we deﬁne the
+outside choice in the counterfactual analysis solely as “not purchasing a new vehicle.”
+  When a household forgoes purchasing a new vehicle, it has several alternative trans-
+portation options. It may continue driving an existing vehicle if owned, purchase a used
+
+
+
+
+   26. An implicit assumption here is that we expect the fuel tax rate to remain the same for the
+entire life of the vehicle.
+   27. Again, we implicitly assume that the value-added tax rate kt will remain the same during
+the entire life of the EV vehicle.
+   28. For more details, see n. 19 of Clinton and Steinberg (2019).
+   29. We do not consider the cost of disposing retired batteries for BEVs, as China has al-
+ready introduced a relatively complete policy for recycling batteries of BEVs. The main purpose
+of this policy is to reduce or eliminate the environmental pollution caused by retired batteries.
+
+===== [PDF 第 20 页｜印刷第 20 页] =====
+20    Journal of the Association of Environmental and Resource Economists    January 2026
+
+vehicle, or rely on public transportation, motorcycles, bicycles, or walking. These dif-
+ferent transportation modes have varying implications for government revenue and so-
+cial externalities. However, since we lack data on the distribution of households across
+these modes, we cannot compute a weighted average welfare impact for the outside choice.
+Instead, we evaluate the welfare implications under two extreme scenarios.
+   In the ﬁrst scenario, we assume that the household does not use any motorized ve-
+hicle (e.g., cars, buses, or motorcycles) when forgoing a new vehicle purchase. Under
+this assumption, producer surplus, government revenue, and social externalities are all
+set to zero, representing the case with the least social externalities.
+   In the second scenario, we assume that the household continues driving a ﬁve-year-
+old ICEV with average vehicle characteristics. Here, producer surplus remains zero
+for the outside choice, but government revenue and social externalities are accounted
+for using the same methods described earlier. This scenario reﬂects the case where
+the outside choice generates substantial social externalities.
+  By quantifying the welfare effects of subsidies under these two contrasting cases, we
+assess how our results vary depending on the assumed transportation mode underlying
+the outside choice.
+
+
+3. ESTIMATION RESULTS
+3.1. Demand Estimation Results and Robustness Checks
+Table 2 presents the GMM estimation results for the random-coefﬁcients discrete
+choice model across several different speciﬁcations. Panel A reports the estimates of
+the coefﬁcients for the mean utility v1, while panel B shows the estimates of coefﬁ-
+cients v2. Speciﬁcation 1 represents our baseline model.
+  The results in panel A indicate that, on average, consumers prefer vehicles with
+higher horsepower (reﬂected in the larger value of the logarithm of horsepower/weight)
+and lower electricity or fuel consumption. These ﬁndings are consistent with previous
+literature (Ma et al. 2019; Yang and Tang 2019). Consumers also favor larger vehicles
+and tend to prefer BEVs and PHEVs over ICEVs, which aligns with previous studies
+(Guo and Xiao 2023). Panel B reveals that consumers’ price sensitivities vary depending
+on their income levels and individual preferences. Higher-income consumers are less re-
+sponsive to price changes. Additionally, the statistically signiﬁcant j coefﬁcients for ve-
+hicle horsepower per kilogram of weight, price, and whether the vehicle is an EV or not
+suggest considerable heterogeneity in consumer preferences for these vehicle character-
+istics. This supports the use of the random-coefﬁcients logit model over a simple logit
+model, which would ignore such heterogeneity.
+  To assess the robustness of our main results, we estimate several alternative speciﬁca-
+tions. In speciﬁcation 2, we exclude the instrumental variables (IVs) based on cost shifters
+to examine how the results change when different sets of IVs are used. In speciﬁcation 3,
+we assume that all households are potential buyers, adjusting the market size for each
+quarter to be the total number of households in a year divided by 4, instead of by 8.
+
+===== [PDF 第 21 页｜印刷第 21 页] =====
+Table 2. Demand Estimation Results
+
+                                                Speciﬁcation  Speciﬁcation  Speciﬁcation
+                                            1           2           3
+
+                                                      Est.   SE    Est.   SE    Est.   SE
+
+                                                A. Linear Parameters (v1)
+Constant                                       –1.79***   .60 –1.73**   .60 –8.63***   .57
+Log(HP/weight)                                       .57***   .17     .58***   .17   –.73***   .16
+Size                                                 1.59***   .04   1.60***   .04   1.00***   .04
+PC100 (kw of electricity consumption per
+  100 km)                                        –.28***   .03   –.28***   .03   –.27***   .03
+FC100 (liter of fuel consumption per 100 km)    –.43***   .03   –.43***   .03   –.74***   .03
+BEV dummy (BEV or not)                        6.12***   .74   6.20***   .74   2.02***   .71
+BEV dummy × time trend                        –.07***   .02   –.07***   .02    .00     .02
+PHEV dummy (PHEV or not)                   7.89*** 1.22   7.94*** 1.22   6.12*** 1.16
+PHEV dummy × time trend                         .07**   .03    .06**   .03    .06**   .03
+EV dummy × log(electric driving range/weight)   2.17***   .38   2.16***   .38   2.35***   .36
+
+                                                      B. Nonlinear Parameters (v2)
+
+Price sensitivity ait:
+  Constant (a1)                                    3.33***   .11   3.32***   .10   4.89***   .50
+  Log(income) (a2)                               –.61***   .04   –.61***   .04 –1.39***   .15
+  Random coefﬁcients on price (jp)                  .38***   .04     .38***   .04   1.04***   .18
+Random coefﬁcients xjkt:
+  Constant (jcontant)                              .12     .14    .12     .14    .06     .08
+  Log(HP/weight)                                    .11***   .03     .11***   .03     .08***   .02
+ EV dummy                                      1.78***   .50   1.76***   .51   1.02     .89
+GMM objective function value                       .19            .19            .05
+GMM objective function value for aggregate
+  moments                                         .01            .01            .01
+GMM objective function value for micro
+  moments                                         .18            .18            .04
+
+   Note. The number of observations is 10,460. Speciﬁcation 1 serves as the benchmark speciﬁcation and
+uses 43 aggregate moment conditions and 9 micro moment conditions. The 43 aggregate moments are con-
+structed by interacting the unobserved vehicle characteristics with 12 Berry et al.–type instrumental vari-
+ables capturing market competition intensity, 10 cost shifters, two tax variables, and 19 observed exogenous
+product characteristics variables. Speciﬁcation 2 does not include the 10 aggregate moment conditions based
+on cost shifters. Speciﬁcation 3 assumes all households as potential buyers; thus the market size in a quarter
+is calculated as the total number of households in the year divided by 4. Speciﬁcations 1–3 include SUV
+dummy, MPV dummy, ﬁrm ﬁxed effects, quarter ﬁxed effects, and year ﬁxed effects. MPV 5 multipurpose
+vehicle.
+    * Signiﬁcant at 10%.
+    ** Signiﬁcant at 5%.
+    *** Signiﬁcant at 1%.
+
+===== [PDF 第 22 页｜印刷第 22 页] =====
+22    Journal of the Association of Environmental and Resource Economists    January 2026
+
+  The results from these robustness checks, reported in columns for speciﬁcations 2–
+3 of table 2, show that the estimates from the alternative speciﬁcations are largely con-
+sistent with those from the baseline model, both in terms of the signs and statistical
+signiﬁcance. This demonstrates that our main estimation results are robust to alterna-
+tive speciﬁcations.
+
+
+3.2. Model Fit in Micro Moments
+As discussed in section 2.1.2, the aggregate moments are effective in identifying certain
+demand parameters such as a1 and jk. However, the identiﬁcation of other parameters,
+such as a2 and jp, which describe how consumer price sensitivity varies across income
+levels, primarily relies on micro moments. To illustrate this, table 3 compares the ob-
+served shares of household income groups among new vehicle buyers with the predicted
+shares from two speciﬁcations. In the ﬁrst speciﬁcation, only the aggregate moments are
+used, while the second speciﬁcation is our baseline, where both aggregate and micro
+moments are incorporated.
+
+
+
+Table 3. Observed and Predicted Shares of Household Income Groups Among
+New Vehicle Buyers
+
+                                                         Predicted Share
+
+                     Observed Share   Aggregate Moments Only  Aggregate and Micro
+Year and Income            (%)                  (%)             Moments (%)
+Group                         (1)                     (2)                       (3)
+
+2015:
+  <72k                       9.4                  14.65                    9.43
+  72k–120k               21.32                28.66                  24.13
+  120k–240k              42.37                40.45                  45.42
+  ≥240k                  26.91                16.25                  21.02
+2016:
+  <72k                     7.67                 13.35                    8.28
+  72k–120k               22.15                26.54                  23.55
+  120k–240k              44                  41.70                  45.89
+  ≥240k                  26.18                18.41                  22.28
+2017:
+  <72k                     6.43                 11.25                    4.59
+  72k–120k               19.86                24.03                  18.78
+  120k–240k              46.05                42.46                  48.12
+  ≥240k                  27.66                22.26                  28.52
+
+   Note. The predicted shares in col. 2 are from a GMM estimator using aggregate moments only, while
+the predicted shares in col. 3 are from a GMM estimator using both aggregate and micro moments. The
+observed share data come from a Chinese household survey data.
+
+===== [PDF 第 23 页｜印刷第 23 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   23
+
+  Two key results emerge from table 3. First, the predictions from the speciﬁcation
+using both aggregate and micro moments align closely with the observed shares, demon-
+strating the goodness of ﬁt of our baseline speciﬁcation. Second, when only the aggregate
+moments are used, there is an overprediction of the shares of low-income groups among
+new vehicle buyers and an underprediction of the shares of high-income groups. Since
+low-income households tend to be more price sensitive than high-income households,
+this suggests that relying solely on aggregate moments would overestimate changes in con-
+sumer welfare when product prices are affected by subsidy policies, which is consistent
+with one of the ﬁndings in Petrin (2002).
+
+3.3. Consumer Price Elasticities and Firm Proﬁt Margins
+Using estimates from our baseline speciﬁcation and data from the ﬁnal quarter in the
+sample, we compute own- and cross-price elasticities as well as ﬁrm markups per vehicle
+sold. First, we calculate the sales-weighted average own-price elasticities by household
+income quartile and vehicle type through simulations. For example, to compute the
+sales-weighted average own-price elasticity for ICEVs among households in the lowest
+income quartile, we ﬁrst simulate household income and other unobserved attributes for
+NS 5 1,000 households. We then calculate the own-price elasticities of vehicle j for
+those households with an annual income less than 72k RMB using equations (A9)
+and (A10) in app. 2.30 Next, we average the individual household own-price elasticities
+to get the own-price elasticity of vehicle  j in this income group, that is, Ejj 5(1/ng)
+ongi51Eijj, where ng represents the number of households with an annual income less
+than 72k RMB. Finally, the sales-weighted average own-price elasticity for ICEVs is
+calculated as oj∈ICEV(sj/oj∈ICEVsj)Ejj, where sj is the market share of vehicle j.
+  The computed own-price elasticities are reported in table 4. Several noteworthy re-
+sults emerge. First, own-price elasticities decrease as income increases. For the lowest-
+income group, the average own-price elasticity across all vehicle models is –3.85, while
+for the highest-income group, it is only –2.46. This indicates that higher-income con-
+sumers are less sensitive to price changes. Second, the overall sales-weighted average
+own-price elasticity for all vehicles across all income groups is –2.88, which is compa-
+rable to the estimate of –2.66 obtained by Konishi and Zhao (2017) using data from
+the Japanese market in 2012. However, Tan et al. (2019) estimated the average own-
+price elasticity for ICEVs in China to be –4.23 for the period 2009–10. This difference
+can partly be attributed to the increase in household income in China during the 2010s.
+According to data from the National Bureau of Statistics, per capita disposable income
+for urban residents in 2019 was 42,359 RMB, 2.256 times higher than in 2010.31
+   Next, we compute the sales-weighted average cross-price elasticities for pairs of ve-
+hicle models grouped by vehicle type and size difference. For example, to calculate the
+
+
+   30. See app. 2 for elasticity formulas.
+   31. See https://data.stats.gov.cn/index.htm.
+
+===== [PDF 第 24 页｜印刷第 24 页] =====
+24    Journal of the Association of Environmental and Resource Economists    January 2026
+
+Table 4. Sales-Weighted Average Own-Price Elasticities by Income Groups and Vehicle Type
+
+Income Group         <72k     72k–120k     120k–240k     ≥240k        All
+
+ICEVs                 –3.85        –3.48          –3.00        –2.40      –2.86
+PHEVs                –3.67        –3.33          –3.00        –2.67      –2.79
+BEVs                  –3.96        –4.01          –3.61        –3.02      –3.28
+All vehicles             –3.85        –3.49          –3.03        –2.46      –2.88
+
+   Note. The elasticities are computed via simulations using estimates from our baseline speciﬁcation
+(speciﬁcation 1 in table 2) and data from the ﬁnal quarter in the sample (quarter 4 of 2019).
+
+
+sales-weighted average cross-price elasticity among ICEV pairs grouped by vehicle size
+difference, we begin by calculating the cross-price elasticities between all pairs of ICEVs
+using equation (A10) in app. 2. For each ICEV in the market, we calculate the size dif-
+ference between this vehicle and all other ICEVs. These pairwise size differences are then
+sorted into tertiles, and a mean cross-price elasticity is computed within each tertile for
+each ICEV. Finally, within each tertile, we compute the sales-weighted cross-price elas-
+ticities using the sales of each ICEV as the weights. Figure 1 displays the sales-weighted
+cross-price elasticities for pairs of vehicle models grouped by vehicle type and size differ-
+ence in the fourth quarter of 2019. Product pairs in the left-most bins are closest in size,
+while those in the right-most bins are the farthest apart. It clearly shows that vehicle
+models similar in size tend to be closer substitutes.
+   Finally, using the estimates and data, we compute the ﬁrm markups per vehicle sold.
+From equation (10), the ﬁrm markup per vehicle sold is ½prjt/(1 1 tv)(1 1 tc) – mcjt.
+In ﬁgure 2, we plot the computed markups against vehicle price by vehicle type. Two
+key results emerge. First, markups increase with price, which can be explained by the
+fact that more expensive vehicles are typically purchased by higher-income households,
+who are less price sensitive, allowing ﬁrms to charge higher markups. Second, BEVs
+and PHEVs tend to have higher markups compared to ICEVs with similar prices. This
+is consistent with the fact that there are many more ICEV models than BEV or PHEV
+models. As a result, the competition among ICEVs is more intense, leading to lower
+markups for these vehicles compared to BEVs and PHEVs.
+
+
+4. COUNTERFACTUAL ANALYSES
+To quantify the effects of EV subsidies on market equilibrium and social welfare, and
+further decompose these effects into two components—one attributable to the baseline
+subsidy based on driving range and the other to the adjustment coefﬁcients targeting
+technological innovations—we conduct two counterfactual simulations. These simula-
+tions use parameter estimates from our baseline model (speciﬁcation 1 in table 2) and
+data from the second half of 2019. In the ﬁrst counterfactual experiment, we eliminate
+all subsidies (the No Subsidy scenario). In the second experiment, we retain the base-
+line subsidy, calculated based on driving range, but remove the adjustment coefﬁcients
+
+===== [PDF 第 25 页｜印刷第 25 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   25
+
+
+
+
+
+   Figure 1. Cross-price elasticities in the fourth quarter of 2019. The ﬁgure plots the sales-
+weighted average cross-price elasticities among pairs of vehicle models grouped by vehicle type
+and difference in vehicle size. The elasticities are computed via simulations using estimates from
+our baseline speciﬁcation (speciﬁcation 1 in table 2) and data from the ﬁnal quarter in the sample
+(quarter 4 of 2019); 0 means the size difference is in the ﬁrst tertile among all pairs of products; 1
+means the size difference is in the second tertile among all pairs of products; 2 means the size dif-
+ference is in the third tertile among all pairs of products.
+
+
+targeting technological innovations (the Baseline Subsidy scenario). As a result, the dif-
+ferences in market and welfare outcomes between the Baseline Subsidy and No Sub-
+sidy scenarios can be interpreted as the effects of the baseline subsidy. Similarly, the
+differences between the Baseline Subsidy and the observed (Subsidy with Adjustment
+Coefﬁcients) scenarios represent the effects of the adjustment coefﬁcients targeting
+technological innovations.
+
+
+4.1. Parameter Values
+To conduct the counterfactual analysis described above, we must ﬁrst determine the
+values of key parameters. This subsection details our approach to selecting these pa-
+rameter values.
+
+
+4.1.1. Tax Rates
+From 2015 to 2019, the fuel tax rate (kt) and the average electricity price (PEt) in China
+were 1.52 RMB/L and 0.56 RMB/kWh, respectively. The rates for value-added tax
+
+===== [PDF 第 26 页｜印刷第 26 页] =====
+26    Journal of the Association of Environmental and Resource Economists    January 2026
+
+
+
+
+
+   Figure 2. Markups in the fourth quarter of 2019. The ﬁgure plots the markups (½prjt/(1 1 tn)
+(1 1 tc) – mcjt) against the consumer price pjt for different types of vehicles. The markups are
+computed using estimates from our baseline speciﬁcation (speciﬁcation 1 in table 2) and data from
+the ﬁnal quarter in the sample (quarter 4 of 2019). Each dot represents a vehicle. Vehicle types are
+distinguished by marker shapes: squares for ICEVs (internal combustion engine vehicles), circles
+for BEVs (battery electric vehicles), and triangles for PHEVs (plug-in hybrid electric vehicles).
+
+(tn), purchase tax (tt), and consumption tax (tc) varied over time and by engine displace-
+ment. The speciﬁc values for these rates are presented in tables A7–A9.
+
+
+4.1.2. Annual Mileage Driven and Lifespan of Vehicles
+Following Guo and Xiao (2023), we assume that the average annual mileages (VMTj)
+in China is 17,988 km for ICEVs and 12,592 km for EVs. The lifespan (LTj) of all
+vehicles is assumed to be 15 years.
+
+
+4.1.3. Distance Traveled in Electric Versus Gasoline Mode by PHEVs
+PHEVs can be driven using either electricity or gasoline. For the purpose of comput-
+ing social welfare, we assume that travel  is predominantly in pure electric mode
+(qejt 5 75 %), with the remaining travel in gasoline mode (qgjt 5 25 %).32
+
+
+
+   32. We also considered the 50-50 split scenario and the scenario in which 25% of the distance
+is traveled in pure electric mode and the remaining 75% is traveled in gasoline mode. Results from
+
+===== [PDF 第 27 页｜印刷第 27 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   27
+
+4.1.4. The Social Costs of Carbon Dioxide from Consuming Electricity and Gasoline
+According to Rennert et al. (2022), the social cost of carbon dioxide (SCC) for 2019
+was 1,244.933 RMB per ton.33 The Ministry of Ecology and Environment of China
+(CN-MEE)34 reported that the CO2 emission factor for producing one unit of elec-
+tricity in 2019 was 589 gCO2/kWh.35 Therefore, the SCC of producing one unit of
+electricity in 2019 was 0.733 RMB/kWh. In addition, using the numbers reported by
+Parry et al. (2014) and Rennert et al. (2022), the SCC of using one unit of gasoline in
+2019 was computed to be 3.577 RMB/L.36
+
+
+
+4.1.5. The Social Costs of Local Pollutants from Consuming Electricity and Gasoline
+According toYi et al. (2020), the social costs ofthree air pollutants (PM2.5, SO2, and NOx)
+from consuming one unit of electricity in 2019 amounted to 0.072 RMB/kWh.37
+
+
+
+
+
+these two scenarios do not change the main conclusions qualitatively and are available upon
+request.
+   33. Rennert et al. (2022) estimate that the social cost of CO2 in 2020 was $185 per ton, based
+on a 2% near-term risk-free discount rate. To obtain the social cost of carbon for 2019, we ﬁrst
+converted this value to RMB using the exchange rate of 100 USD 5 689:76 RMB in 2020, re-
+sulting in 1,276.056 RMB per ton. Then, we adjusted this value to the 2019 value using the Con-
+sumer Price Index (CPI), yielding approximately 1,244.933 RMB per ton by assuming a CPI in-
+dex of 100 for 2019 and 102.5 for 2020.
+   34. The link for the CN-MEE report is http://www.caep.org.cn/sy/tdftzhyjzx/zxdt/202310
+/W020231027692141725225.pdf.
+   35. The CN-MEE report indicates that the CO2 emission factors for producing one unit of
+electricity in 2018 and 2020 were 570 gCO2/kWh and 608 gCO2/kWh, respectively. We as-
+sume that the value for 2019 is the average of the values for 2018 and 2020.
+   36. Parry et al. (2014) show that the SCC of using one unit of gasoline in 2010 was
+0.08 USD/L based on a damage assumption of $35 per ton of CO2. However, Rennert et al.
+(2022) provide an updated estimate of the social cost of CO2 at $185 per ton, using a 2% near-term
+risk-free discount rate. Adjusting Parry et al.’s SCC estimate to reﬂect this updated damage as-
+sumption, we scale the original value by a factor of 5.286 (185/35), yielding a revised SCC of
+0.423 USD/L in 2010. To obtain the SCC of using one unit of gasoline for 2019, we ﬁrst con-
+verted the unit of this value into RMB using the exchange rate of 100 USD 5 676:95 RMB in
+2010, resulting in 2.863 RMB/L. Then, we adjusted this value to the 2019 value using the CPI,
+yielding approximately 3.577 RMB/L. Normalizing the CPI index to be 100 for the previous
+year, the CPIs from 2011 to 2019 are 105.4, 102.6, 102.6, 102.0, 101.4, 102.0, 101.6, 102.1,
+and 102.9, respectively.
+   37. Yi et al. (2020) estimate that the social cost of local pollutants from consuming one unit
+of electricity for 2015 was 0.066 RMB/kWh. We adjusted this value to 2019 using the CPI.
+Normalizing the CPI index to be 100 for the previous year, the CPIs from 2016 to 2019 are
+102.0, 101.6, 102.1, and 102.9, respectively.
+
+===== [PDF 第 28 页｜印刷第 28 页] =====
+28    Journal of the Association of Environmental and Resource Economists    January 2026
+
+Additionally, Parry et al. (2014) report that the social cost of local pollutants from con-
+suming one unit of gasoline in 2019 was 0.338 RMB/L.38
+  By adding the ﬁgures from sections 4.1.4 and 4.1.5, the total social cost for using one
+unit of electricity in 2019 (COSTCO21PM2:51SO21NOx/kWh) is 0.805 RMB/kWh. Sim-
+ilarly, the total social cost for using one unit of gasoline (COSTCO21PM2:51SO21NOx/L) is
+3.915 RMB/L.
+
+
+4.1.6. The Social Costs of Trafﬁc Congestion and Accidents
+The external cost caused by trafﬁc congestion in China in 2019 is 0.423 RMB/km
+(Parry et al. 2014).39 The accident externality refers to the external cost of trafﬁc ac-
+cidents caused by vehicles, and it varies with vehicle weight. Our calculation method
+follows Anderson and Auffhammer (2014) and Barwick et al. (2024), focusing only
+on multi-vehicle collisions and excluding single-vehicle accidents or those involving pe-
+destrians, cyclists, and motorcyclists.
+  The formula for calculating the accident externality per vehicle is presented in
+(A14) of app. 3, where the accident rate (AR) per kilometer is set to 3.65% per
+17,600 kilometers for ICEVs, based on Anderson and Auffhammer (2014) and Bar-
+wick et al. (2024). For EVs, including both BEVs and PHEVs, we set the AR to be
+2.25 times that of ICEVs,40 reﬂecting the higher accident rate for EVs due to their
+unique characteristics, such as low noise levels and faster acceleration. The value of a
+
+
+   38. Parry et al. (2014) show that the social cost of local pollutants from consuming one
+unit of gasoline in 2010 was 0.04 USD/L. To obtain the social cost of local pollutants using
+one unit of gasoline for 2019, we ﬁrst converted the unit of this value into RMB using the ex-
+change rate of 100 USD 5 676:95 RMB in 2010, resulting in 0.271 RMB/L. Then, we ad-
+justed this value to 2019 using the CPI, yielding approximately 0.338 RMB/L. Normalizing
+the CPI index to be 100 for the previous year, the CPIs from 2011 to 2019 are 105.4, 102.6,
+102.6, 102.0, 101.4, 102.0, 101.6, 102.1, and 102.9, respectively.
+   39. Parry et al. (2014) show that the external cost caused by trafﬁc congestion in China in 2010
+is 0.05 USD/km. To obtain the external cost caused by trafﬁc congestion in China for 2019, we
+ﬁrst converted the unit of this value into RMB using the exchange rate of 100 USD 5 676:95
+RMB in 2010, resulting in 0.338 RMB/km. Then, we adjusted this value to 2019 using the
+CPI, yielding approximately 0.423 RMB/km. Assuming a CPI index of 100 for the previous year,
+the CPIs from 2011 to 2019 are 105.4, 102.6, 102.6, 102.0, 101.4, 102.0, 101.6, 102.1, and 102.9,
+respectively.
+   40. According to statistics from 2017 to 2019 (https://m.mp.oeeee.com/a/BAAFRD
+000020220316661565.html), EVs in China experienced a total of 18,582 trafﬁc accidents, with
+an accident rate per 10,000 vehicles approximately three times that of ICEVs. Another study by
+the insurer Axa reports that EVs were involved in 50% more trafﬁc accidents than petrol and
+diesel powered vehicles (https://www.brusselstimes.com/287315/electric-cars-involved-in
+-more-accidents-than-regular-vehicles-study-shows). Therefore, we set the accident rate for
+EVs to be 2.25 times of that of ICEVs, the average of the numbers reported in these two
+studies.
+
+===== [PDF 第 29 页｜印刷第 29 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   29
+
+statistical life (VSL) in China in 2019 is 4.758 million RMB (Cao et al. 2023).41 Fi-
+nally, all social cost parameters are collected in table A10.
+
+
+4.1.7. The Outside Choice
+As discussed earlier, we conduct our counterfactual simulations under two alternative
+assumptions about the transportation mode underlying the outside choice. In case 1,
+we assume that the household relies on biking or walking, meaning both government
+revenue and social externalities are zero when this choice is taken. In case 2, we assume
+that the household continues driving a ﬁve-year-old ICEV with average characteris-
+tics. Since our simulations use data from the second half of 2019, this implies that
+the outside choice in this scenario corresponds to driving an ICEV produced in 2014,
+with average characteristics among all ICEVs from that model year.42
+
+
+4.2. Results
+4.2.1. Effects of Baseline Subsidy
+We ﬁrst examine the effects of the baseline subsidy. The simulated market outcomes
+are presented in table 5, while the associated welfare effects are summarized in table 6.
+The comparison between the No Subsidy scenario and the Baseline Subsidy scenario
+in table 5 shows that the implementation of the baseline subsidy results in a 5.96%
+(438,379 units) increase in vehicle sales. Speciﬁcally, BEVs increase by 205.49%
+(561,221 units), PHEVs increase by 6.11% (6,089 units), and ICEVs decrease by
+1.85% (128,931 units). Thus, the subsidy for EVs induces both a market expansion
+effect and a substitution effect from ICEVs. This ﬁnding is consistent with Kalthaus
+and Sun (2021) and Guo and Xiao (2023), who also report that government subsidies
+positively impact EV sales, with both market expansion and substitution effects.
+   In terms of consumer prices, the baseline subsidy has little effect on the sales-
+weighted average price of ICEVs. This result differs from that of Guo and Xiao (2023),
+who ﬁnd that EV subsidies lead to an increase in ICEV prices. The discrepancy arises
+because their analysis focuses solely on Shanghai, where a unique vehicle quota policy
+causes additional demand from EV subsidies to increase vehicle registration costs, thus
+driving up ICEV prices. In contrast, our analysis operates at the national level, where the
+results are not driven by policies speciﬁc to any single city. With the EV subsidies, some
+
+
+   41. The amount 4.76 million RMB is equivalent to $689,659, which is close to the value of
+$0.7 million used in Barwick et al. (2024).
+   42. More speciﬁcally, the average fuel consumption of all ICEVs produced in 2014 was de-
+termined to be 7.31 L/100 km. Additionally, the average and minimum vehicle weights for
+ICEVs manufactured in the same year were calculated as 2,982.12 lbs and 1,421.97 lbs, respec-
+tively. These ﬁndings are based on monthly vehicle sales records provided by the China Asso-
+ciation of Automobile Manufacturers (CAAM). This dataset offers detailed insights into vehi-
+cle production and sales, facilitating accurate fuel efﬁciency calculations for 2014 models. We
+thank Peng Zhang and Chen Xi for granting access to this dataset.
+
+===== [PDF 第 30 页｜印刷第 30 页] =====
+30    Journal of the Association of Environmental and Resource Economists    January 2026
+
+Table 5. Market Equilibria in Counterfactual and Observed Scenarios
+
+                       No          Baseline       Subsidy with Adjustment
+                                Subsidy       Subsidy         Coefﬁcients (observed)
+
+Number of vehicles sold:
+  Total                        7,355,491  7,793,870 (5.96%)      7,427,977 (.99%)
+  ICEVs                      6,982,681      6,853,750         6,934,266 (–.69%)
+                                            (–1.85%)
+  BEVs                       273,118  834,339 (205.49%)     392,032 (43.54%)
+  PHEVs                      99,692    105,781 (6.11%)      101,679 (1.99%)
+Vehicle consumer prices
+  (10,000 RMB):
+     Sales-weighted average price  19.180    18.115 (–5.55%)       19.018 (–.85%)
+     Sales-weighted IECV        19.048     19.082 (.18%)        19.045 (–.02%)
+        average price
+     Sales-weighted BEV         17.306    8.529 (–50.72%)      15.076 (–12.89%)
+        average price
+     Sales-weighted PHEV       33.573    31.081 (–7.42%)      32.378 (–3.56%)
+        average price
+
+   Note. The counterfactual scenarios are simulated using data from the second half of 2019 and param-
+eter estimates from our baseline model (speciﬁcation 1 in table 2). The percentage changes relative to the
+No Subsidy scenario are in parentheses. In the No Subsidy scenario, all electric vehicle (EV) subsidies are
+removed. In the Baseline Subsidy scenario, only the baseline subsidy based on driving range is retained,
+while the adjustment coefﬁcients targeting technological innovations are removed. The Subsidy with Ad-
+justment Coefﬁcients scenario is the observed scenario where the EV subsidies are computed by multiplying
+the baseline subsidy based on driving range with adjustment coefﬁcients targeting technological innovations.
+
+
+consumers switch from ICEVs to EVs, but as EVs still have a relatively small market
+share, average ICEV prices remain largely unchanged.
+  We also observe that the baseline subsidy reduces the sales-weighted average prices
+for BEVs and PHEVs by 50.72% and 7.42%, respectively. The baseline subsidies rep-
+resent 12.02% and 3.64% of the vehicle price for BEVs and PHEVs, respectively.
+This suggests that EV manufacturers lower prices by more than the subsidy amount,
+a result that aligns with prior ﬁndings from Guo and Xiao (2023) and Pless and van
+Benthem (2019). According to Miravete et al. (2023), the curvature of demand plays a
+crucial role in ﬁrms’ strategic pricing responses to changes in subsidies, determining
+the pass-through rate. They show that overshifting, or a pass-through rate larger than
+one, is possible only when the demand curvature exceeds one. To verify this, we com-
+pute the estimated demand curvature for each vehicle in our dataset. Using the method
+in Miravete et al. (2023), the demand curvature for our estimated model is calculated
+as follows:43
+
+
+   43. Derivation of (21) can be found in app. 2.
+
+===== [PDF 第 31 页｜印刷第 31 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   31
+             0                1
+                 N B oNi51aitsijt 1 – sijt   ait – 2aitsijt – 1 C                   rjt ð p Þ 5 o sijt @      h                  i2      A:         (21)
+                         i51     oNi51aitsijt 1 – sijt
+
+The results show that the estimated demand curvatures for BEVs range from 1.31 to
+1.53, with a mean of 1.38, while for PHEVs, the range is 1.37 to 1.65, with a mean
+of 1.42. This conﬁrms that the overshifting of the subsidy is driven by the shapes of
+the demand functions of BEVs and PHEVs.
+   Furthermore, the analysis by Miravete et al. (2024) suggests that the demand cur-
+vature’s larger-than-one value is primarily driven by heterogeneity in consumer price
+sensitivities. Our elasticity results support this mechanism. As shown in table 4, con-
+sumers exhibit varying price sensitivities, with an overall average own-price elasticity of
+–2.88. Households with annual incomes under 72,000 RMB are more price sensitive,
+with an average elasticity of –3.85. The subsidies allow ﬁrms to lower EV prices, at-
+tracting these more price-sensitive households into the vehicle market, thereby trigger-
+ing price competition among EV manufacturers. This results in price reductions for
+EVs that exceed the size of the subsidy itself, which is consistent with the ﬁndings
+of Guo and Xiao (2023). As seen in table 5, with subsidies, BEVs have the lowest
+sales-weighted average price among all vehicle types.
+   Turning to the welfare effects, the ﬁrst column of table 6 presents the welfare im-
+pacts of the baseline subsidy by component under case 1, where the outside choice is
+assumed to be biking or walking. Consumer welfare increases signiﬁcantly due to the
+higher vehicle sales and lower prices, particularly for BEVs. BEV producers beneﬁt
+the most, experiencing notable proﬁt increases, while ICEV manufacturers suffer sub-
+stantial proﬁt declines, and PHEV manufacturers experience modest losses. This is be-
+cause the subsidy boosts the sales of BEVs and PHEVs, while ICEV sales decline.
+  On the other hand, government revenue decreases by 27,688.7 million RMB,
+largely due to the subsidy expenditure. The government also collects less in consump-
+tion, purchase, and fuel taxes because of the lower sales of ICEVs, although it gains
+additional value-added electricity consumption taxes from the increased sales of EVs
+and more value-added vehicle sales taxes due to overall higher vehicle sales. The results
+regarding consumer surplus, producer surplus and government revenue reﬂect a sub-
+stantial transfer from the government to consumers, with EV manufacturers receiving
+only a small share of the subsidy.
+   Regarding the externalities, the subsidy leads to a welfare loss due to the increased
+emissions of greenhouse gases (CO2) and air pollutants (PM2.5, SO2, and NOx), as
+well as higher trafﬁc accidents and congestion. The welfare loss from trafﬁc accidents
+and congestion is approximately 58 times greater than the welfare loss from emissions.
+These negative externalities are driven by the overall increase in vehicle sales due to the
+subsidy and the additional electricity required to power the EVs. While EVs emit less
+CO2 and air pollutants than ICEVs during operation, the large increase in the total
+
+===== [PDF 第 32 页｜印刷第 32 页] =====
+Table 6. Welfare Effects for the Second Half of 2019
+
+                         Effects of Baseline     Effects of Adjustment
+                          Subsidy               Coefﬁcients           Total Effects
+
+                    Case 1     Case 2     Case 1     Case 2     Case 1    Case 2
+                         (1)          (2)          (3)          (4)         (5)        (6)
+
+                         Change in Consumer Surplus (DCS, million RMB)
+
+Total consumer
+                    20,234.22  20,234.22  –10,172.98 –10,172.98 10,061.23 10,061.23
+   surplus
+                            Change in Firm Proﬁts (DFP, million RMB)
+
+Total proﬁts        –691.22    –691.22     673.28     673.28    –17.94    –17.94
+Total proﬁts from
+  ICEVs           –6,253.70  –6,253.70   3,323.62    3,323.62  –2,930.08 –2,930.08
+Total proﬁts from
+  BEVs             5,729.61    5,729.61   –2,627.18  –2,627.18  3,102.43  3,102.43
+Total proﬁts from
+  PHEVs          –167.13    –167.13    –23.15     –23.15    –190.29  –190.29
+
+                        Change in Government Revenue (DGR, million RMB)
+
+Subsidy expendi-
+   ture of BEVs
+  and PHEVs     –23,569.41 –23,569.41  15,219.22  15,219.22  –8,350.19 –8,350.19
+Consumption tax
+   of ICEVs        –1,080.77  –1,080.77    609.46     609.46   –471.30   –471.3
+Value-added tax
+  (VAT) of all
+   vehicle sales       3,081.64    3,081.64   –1,714.16  –1,714.16  1,367.48  1,367.48
+Purchase tax of
+  ICEVs           –2,500.46  –2,500.46   1,436.55    1,436.55  –1,063.91 –1,063.91
+Fuel tax of ICEVs   –4,900.34  –17,173.89  3,052.57   13,296.69  –1,847.78  –3,877.2
+Fuel tax of PHEVs     89.14      89.14     –75.77     –75.77      13.37     13.37
+VAT from power
+  consumption of
+  BEVs             1,186.40    1,186.4    –882.23    –882.23    304.17    304.17
+VAT from power
+  consumption of
+  PHEVs               5.11        5.11      –4.17      –4.17         .94        .94
+
+                  Change in Environmental Externality: CO2 (DECO2, million RMB)
+
+CO2 from gas of
+  ICEVs            8,237.09   28,867.95  –5,131.13  –22,350.69  3,105.97  6,517.26
+CO2 from gas of
+ PHEV           –149.84    –149.84     127.36     127.36    –22.48    –22.48
+
+                                      32
+
+===== [PDF 第 33 页｜印刷第 33 页] =====
+Table 6 (Continued)
+
+                         Effects of Baseline     Effects of Adjustment
+                          Subsidy               Coefﬁcients           Total Effects
+
+                    Case 1     Case 2     Case 1     Case 2     Case 1    Case 2
+                         (1)          (2)          (3)          (4)         (5)        (6)
+
+                  Change in Environmental Externality: CO2 (DECO2, million RMB)
+
+CO2 from electric-
+   ity of BEVs      –8,532.49  –8,532.49   6,344.90    6,344.90  –2,187.59 –2,187.59
+CO2 from electric-
+   ity of PHEVs      –36.72     –36.72      30.00      30.00     –6.73     –6.73
+
+                     Change in Environmental Externality: PM2.5 1 SO2 1 NOx
+                    (DEE 5 DEPM2.5 1 DESO2 1 DENOx, million RMB)
+
+Pollutant from gas
+   of ICEVs          778.34    2,727.8    –484.85   –2,111.97    293.49    615.83
+Pollutant from gas
+   of PHEVs         –14.16     –14.16      12.04      12.04     –2.12     –2.12
+Pollutant from
+   electricity of
+  BEVs            –838.12    –838.12     623.24     623.24   –214.88  –214.88
+Pollutant from
+   electricity of
+  PHEVs            –3.61      –3.16        2.95        2.95      –.66      –.66
+
+                  Change in Nonenvironmental Externalities: Congestion and Accident
+                       (DNE 5 DCON 1 DACC, million RMB)
+
+                  –32,451.90  1,839.52   27,490.26  –1,131.11  –4,961.64 708.42
+
+                   DSocial Welfare 5 DCS 1 DFP 1 DGR 1 DEX (DEX 5 DECO2 1
+                           DEE 1 DNE, million RMB)
+
+                  –41,157.10  3,441.11   37,156.53    –67.39  –4,000.57  3,373.71
+
+   Note. The counterfactual scenarios are simulated using data from the second half of 2019 and parameter
+estimatesfrom ourbaselinemodel (speciﬁcation 1 intable2). The effects of baselinesubsidy are measured bythe
+differences in market and welfare outcomes between the Baseline Subsidy and No Subsidy scenarios, capturing
+the impact of the baseline subsidy based on driving range. The effects of adjustment coefﬁcients are determined
+bythe differencesbetweenthe Subsidy with AdjustmentCoefﬁcients (observed) andBaselineSubsidy scenarios,
+isolating the impact of applying the adjustment coefﬁcients targeting technological innovations to the baseline
+EV subsidy. The total effects represent the overall impact of EV subsidies, calculated as the differences between
+the Subsidy with Adjustment Coefﬁcients (observed) and No Subsidy scenarios. Case 1 is the case where bik-
+ing/walking is assumed to be the transportation mode underlying the outside choice (not purchasing a new ve-
+hicle). Case 2 is the case where continuing to drive a ﬁve-year-old ICEV with average vehicle characteristics is
+assumed to be the transportation mode underlying the outside choice.
+
+
+
+                                      33
+
+===== [PDF 第 34 页｜印刷第 34 页] =====
+34    Journal of the Association of Environmental and Resource Economists    January 2026
+
+number of vehicles on the road and the additional electricity consumption leads to
+more emissions overall.
+  When combining all welfare components, our results show that the effect of the
+baseline subsidy under case 1 leads to a decrease of 41,157.10 million RMB in social
+welfare. Given that the total vehicle sales in the second half of 2019 amounted to
+1,412,348.59 million RMB, this welfare effect corresponds to 2.91% of total vehicle
+sales during the same period.
+  The second column of table 6 presents the welfare impacts of the baseline subsidy by
+component under case 2, where the outside choice is assumed to be continuing to drive
+a ﬁve-year-old ICEV. The welfare values in this column are identical to those in col-
+umn 1, except for ﬁve key components: government fuel tax revenue from ICEVs, en-
+vironmental externalities from CO2 emissions, environmental externalities from pollut-
+ant emissions due to gasoline consumption, nonenvironmental externalities from trafﬁc
+congestion and accidents, and total social welfare. This is because the assumption regard-
+ing the transportation mode underlying the outside choice affects only these components.
+  Compared to biking or walking, continuing to drive a ﬁve-year-old ICEV increases gov-
+ernment fuel tax revenue but also results in higher CO2 and pollutant emissions as well as
+greater trafﬁc congestion and accident-related externalities. Since the baseline subsidy shifts
+some households from the outside choice to purchasing an EV (the market expansion ef-
+fect), changing the outside choice assumption from biking/walking to driving an ICEV
+ampliﬁes the subsidy’s negative impact on government fuel tax revenue while increasing
+its positive impact on social welfare by reducing emissions, congestion, and accidents.
+  As a result of these changes, the total effect of the baseline subsidy on social welfare
+under case 2 is a decrease of 3,441.11 million RMB, equivalent to 0.24% of total ve-
+hicle sales in the second half of 2019.
+
+
+4.2.2. Effects of Adjustment Coefﬁcients Targeting Technological Innovations
+Next, we examine the additional welfare effects resulting from the use of adjustment
+coefﬁcients targeting technological innovations. Comparing the last two columns of ta-
+ble 5, we observe that these adjustments lead to a 4.97% decrease in vehicle sales
+(–365,893 units). This decrease is driven by a 1.16% increase in ICEV sales (80,516 units)
+and a 161.95% decrease in BEVs (–442,307 units) and a 4.12% decrease in PHEVs
+(–4,102 units). Regarding consumer prices, the sales-weighted average price for all
+vehicles increases by 4.7%, primarily due to the increase in the sales-weighted average
+EV price. The sales-weighted average ICEV price remains largely unchanged. Thus, the
+use of adjustment coefﬁcients targeting technological innovations appears to have two pri-
+mary effects on market outcomes. First, it causes the vehicle market to shrink, as the ad-
+justments effectively render some EVs either ineligible for subsidies or eligible for a re-
+duced subsidy. Second, it reduces the competitive intensity among EVs, since fewer
+EVs are eligible for subsidies, leading to higher EV prices and less consumer substitution
+from ICEVs to EVs.
+
+===== [PDF 第 35 页｜印刷第 35 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   35
+
+   Turning to welfare effects, the third column of table 6 reports the welfare effects of
+using adjustment coefﬁcients targeting technological innovations, broken down by com-
+ponent, under case 1. First, unlike the baseline subsidy, these adjustments beneﬁt the gov-
+ernment. The marginal effect on consumer welfare is negative, as the adjustments result
+in fewer vehicles sold and higher average prices. Consequently, ICEV manufacturers see
+an increase in proﬁts, while EV manufacturers experience a smaller decrease in proﬁts,
+resulting in a net increase in total proﬁts for manufacturers. Second, with regard to en-
+vironmental externalities, the use of adjustment coefﬁcients targeting technological inno-
+vations leads to a welfare gain due to lower emissions of greenhouse gases (CO2) and air
+pollutants (PM2.5, SO2, and NOx). The magnitude of this effect is 1,524.51 million
+RMB. This effect is the opposite of the baseline subsidy, which leads to a decrease in wel-
+fare because of higher emissions. This ﬁnding demonstrates that adjustment coefﬁcients
+targeting technological innovations positively impact the environment, as they encourage
+ﬁrms to adopt technologies with fewer environmental externalities. This result is consis-
+tent with one of the key ﬁndings of Barwick et al. (2024), who suggest that attribute-
+based subsidy designs improve welfare by motivating ﬁrms to select attributes with
+smaller environmental impacts. Finally, the additional adjustments contribute to a wel-
+fare gain by reducing trafﬁc accidents and congestion, driven by the decrease in the total
+number of vehicles on the road.
+  When we combine all welfare components, our results show that the marginal effect
+of using adjustment coefﬁcients targeting technological innovations on social welfare is
+an increase of 37,156.53 million RMB. Given that total vehicle sales in the second half
+of 2019 amounted to 1,412,348.59 million RMB, the additional welfare effects from
+these adjustments represent 2.63% of total vehicle sales.
+  The fourth column of table 6 presents the welfare effects of applying adjustment
+coefﬁcients targeting technological innovations under case 2, where the outside choice
+is assumed to be continuing to drive a ﬁve-year-old ICEV.
+   Since these adjustment coefﬁcients reduce overall vehicle sales—particularly EV
+sales—more households opt for the outside choice. Consequently, shifting the as-
+sumption from biking/walking to driving an ICEV results in a larger positive impact
+of the adjustment coefﬁcients on government fuel tax revenue and a larger negative impact
+on the externalities component of social welfare, due to increased CO2 and pollutant
+emissions as well as higher trafﬁc congestion and accident-related externalities.
+  As a result, under case 2, the total effect of the adjustment coefﬁcients on social
+welfare is a decrease of 67.39 million RMB.
+
+
+4.2.3. Total Welfare Effects
+The ﬁfth column of table 6 presents the total welfare effects of EV subsidies under
+case 1, where the outside choice is assumed to be biking or walking. All components ex-
+hibit the same directional effects as the baseline subsidy. However, the total effect on
+social welfare is reduced by 90.28% in magnitude. This reduction is primarily driven
+
+===== [PDF 第 36 页｜印刷第 36 页] =====
+36    Journal of the Association of Environmental and Resource Economists    January 2026
+
+by two factors. First, the additional adjustments make some EVs ineligible for subsidies
+or eligible for a reduced subsidy, improving the relative competitiveness of ICEVs and
+reducing the total proﬁt loss for car manufacturers. Second, the adjustments shift EV
+sales from lower-technology models to higher-technology models, which helps reduce
+greenhouse gas and air pollutant emissions. Taking all components into account, the to-
+tal social welfare loss due to the subsidies under case 1 amounts to 4,000.57 million
+RMB, or 0.28% of total vehicle sales during the same period.
+  The last column of table 6 presents the total welfare effects of EV subsidies under
+case 2, where the outside choice is assumed to be continuing to drive a ﬁve-year-old
+ICEV. In this case, the total welfare effect of the subsidies is a gain of 3,373.71 million
+RMB, or 0.24% of total vehicle sales, which contrasts with the negative effect observed
+under case 1. A key reason for this difference lies in the impact of subsidies on trafﬁc con-
+gestion and accidents. Under case 1, the subsidies result in a welfare loss of 4,961.64 mil-
+lion RMB from increased congestion and accidents, as some consumers shift from biking/
+walking to purchasing a vehicle. In contrast, under case 2, the subsidies generate a welfare
+gain of 708.4 million RMB, as they incentivize consumers to switch from driving an older
+ICEV to purchasing an EV. Since, on average, ICEVs are driven 1.43 times more annu-
+ally than EVs (as discussed in sec. 4.1.2), this shift reduces congestion and accidents.
+   These ﬁndings underscore the importance of considering different assumptions re-
+garding the transportation mode underlying the outside choice when evaluating the
+welfare effects of EV subsidies. As seen in table 6, different assumptions can lead to
+opposite conclusions about the overall welfare impact.
+   Another key takeaway from table 6 is the signiﬁcance of including nonenvironmental
+externalities—such as trafﬁc congestion and accidents—in welfare analysis. Under case 1,
+omitting these factors would reverse the total welfare effect from negative to positive. Un-
+der case 2, ignoring them would reduce the total welfare effect by nearly 21%. This high-
+lights that excluding nonenvironmental externalities in welfare evaluations could lead to
+substantially different conclusions about the effects of EV subsidies.
+
+
+5. CONCLUSIONS
+This study estimates the welfare effects of EV subsidies on consumer welfare, manu-
+facturer proﬁts, government revenue, environmental externalities (greenhouse gas and
+air pollution emissions), and nonenvironmental externalities (trafﬁc accidents and con-
+gestion) using a structural demand and supply model. We decompose the effects into
+two components: the baseline subsidy based on driving range and the adjustment co-
+efﬁcients targeting technological innovations.
+  Our results show that the subsidies primarily beneﬁt consumers, with manufac-
+turers receiving a small share. This is driven by price-sensitive consumers, particularly
+low-income households, who are attracted to EVs through lower prices enabled by the
+subsidy. Our analysis further shows that adjustment coefﬁcients targeting technological
+innovations negatively impact manufacturer proﬁts by intensifying competition among
+
+===== [PDF 第 37 页｜印刷第 37 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   37
+
+EVs but positively affect environmental externalities by reducing emissions. Finally,
+our results show that it is important to consider different assumptions regarding the
+transportation mode underlying the outside choice and including nonenvironmental
+externalities like trafﬁc accidents and congestion in welfare analysis, as varying these
+assumptions could lead to drastically different conclusions.
+  Our ﬁndings have several policy implications. First, while costly, the subsidy policy
+mainly beneﬁts consumers and plays a crucial role in generating demand for EVs, which
+is vital for an emerging industry. Without it, the EV market in China would have grown
+much more slowly. Second, even though the overall welfare effect of the subsidy is small
+and can be either negative or positive depending on different modeling assumptions, this
+does not diminish its value, as our analysis excludes beneﬁts like economies of scale and
+accelerated technological innovations driven by increased EV demand. Third, adjustment
+coefﬁcients targeting technological innovations have a positive impact on environmental
+protection, suggesting that increasing their weight in the subsidy calculation could enhance
+both technological progress and consumer appeal. Finally, our results highlight the impor-
+tance of including externalities from trafﬁc accidents and congestion, as well as considering
+alternative assumptions regarding the transportation mode underlying the outside choice,
+in welfare analysis, as omitting them could lead to drastically different conclusions.
+  Our welfare analysis has several caveats. First, our supply model only captures short-
+run price responses from manufacturers. In reality, ﬁrms may make medium- or long-
+term adjustments, such as introducing new EVs or enhancing existing features (Barwick
+et al. 2024). Ignoring these product changes likely leads to a conservative estimate of
+welfare effects. Second, due to data limitations, we do not account for the availability
+of charging stations, which Kalthaus and Sun (2021) ﬁnd positively impacts EV adop-
+tion. Feedback loops between EVs and charging infrastructure, as studied in Li et al.
+(2017), suggest that our welfare results may also be conservative. Third, similar to Clin-
+ton and Steinberg (2019), our analysis does not consider beneﬁts from increased pro-
+duction efﬁciencies, economies of scale, or accelerated innovation in the EV supply
+chain. Addressing these factors would require a more complex, dynamic model and is
+left for future research.
+
+
+
+REFERENCES
+Anderson, Michael L., and Maximilian Auffhammer. 2014. Pounds that kill: The external costs of vehicle
+    weight. Review of Economic Studies 81 (2): 535–71.
+Barwick, Panle Jia, Shengmao Cao, and Shanjun Li. 2021. Local protectionism, market structure, and social
+    welfare: China’s automobile market. American Economic Journal: Economic Policy 13 (4): 112–51.
+
+Barwick, Panle Jia, Hyuk-Soo Kwon, and Shanjun Li. 2024. Attribute-based subsidies and market power:
+  An application to electric vehicles. Working paper no. w32264, National Bureau of Economic Research,
+
+   Cambridge, MA.
+
+Beresteanu, Arie, and Shanjun Li. 2011. Gasoline prices, government support, and the demand for hybrid
+    vehicles in the United States. International Economic Review 52 (1): 161–82.
+
+===== [PDF 第 38 页｜印刷第 38 页] =====
+38    Journal of the Association of Environmental and Resource Economists    January 2026
+
+Berry, Steven, and Panle Jia. 2010. Tracing the woes: An empirical analysis of the airline industry. American
+   Economic Journal: Microeconomics 2 (3): 1–43.
+
+Berry, Steven, James Levinsohn, and Ariel Pakes. 1995. Automobile prices in market equilibrium.
+    Econometrica 63 (4): 841–90.
+———. 2004. Differentiated products demand systems from a combination of micro and macro data: The
+   new car market. Journal of Political Economy 112:68–105.
+Cao, Chaoji, Xinke Song, Wenjia Cai, et al. 2023. Estimating the value of a statistical life in China: A con-
+
+    tingent valuation study in six representative cities. Chinese Journal of Population Resources and Environ-
+   ment 21:269–78.
+Clementi, Fabio, and Mauro Gallegati. 2005. Pareto’s law of income distribution: Evidence for Germany,
+
+    the United Kingdom, and the United States. In Econophysics of wealth distributions, vol 1, Econophys-
+    Kolkata I, ed. A. Chatterjee, S. Yarlagadda, and B. K. Chakrabarti, 3–14. Milan: Springer Milan.
+Clinton, Bentley C., and Daniel C. Steinberg. 2019. Providing the spark: Impact of ﬁnancial incentives on
+
+    battery electric vehicle adoption. Journal of Environmental Economics and Management 98:102255.
+
+Conlon, Christopher, and Jeff Gortmaker. 2025. Incorporating micro data into differentiated products de-
+   mand estimation with PyBLP. Journal of Econometrics, 105926.
+
+Egbue, Ona, and Suzanna Long. 2012. Barriers to widespread adoption of electric vehicles: An analysis of
+   consumer attitudes and perceptions. Energy Policy 48:717–29.
+Gallagher, Kelly Sims, and Erich Muehlegger. 2011. Giving green to get green? Incentives and consumer adop-
+    tion of hybrid vehicle technology. Journal of Environmental Economics and Management 61 (1): 1–15.
+
+Guo, Xiaodan, and Junji Xiao. 2023. Welfare analysis of the subsidies in the Chinese electric vehicle indus-
+     try. Journal of Industrial Economics 71 (3): 675–727.
+
+Herriges, Joseph A., and Catherine L. Kling. 1999. Nonlinear income effects in random utility models. Re-
+    view of Economics and Statistics 81 (1): 62–72.
+Hidrue, Michael K., George R. Parsons, Willett Kempton, and Meryl P. Gardner. 2011. Willingness to pay
+    for electric vehicles and their attributes. Resource and Energy Economics 33 (3): 686–705.
+
+Holland, Stephen P., Erin T. Mansur, Nicholas Z. Muller, and Andrew J. Yates. 2016. Are there environ-
+   mental beneﬁts from driving electric vehicles? The importance of local factors. American Economic Re-
+    view 106 (12): 3700–3729.
+
+Huo, Hong, Qiang Zhang, Fei Liu, and Kebin He. 2013. Climate and environmental effects of electric ve-
+    hicles versus compressed natural gas vehicles in China: A life-cycle analysis at provincial level. Environ-
+    mental Science and Technology 47 (3): 1711–18.
+
+IEA (International Energy Agency). 2020. Global EV outlook, 2020. IEA, Paris.
+———. 2021. Global EV outlook, 2021. IEA, Paris.
+———. 2023. Global EV data explorer. IEA, Paris.
+
+Jehle, Geoffrey A., and Philip J. Reny. 2011. Advanced microeconomic theory. 3rd ed. Pearson Education,
+    Prentice Hall.
+
+Kalthaus, Martin, and Jiatang Sun. 2021. Determinants of electric vehicle diffusion in China. Environmental
+   and Resource Economics 80 (3): 473–510.
+Konishi, Yoshifumi, and Meng Zhao. 2017. Can green car taxes restore efﬁciency? Evidence from the
+
+    Japanese new car market. Journal of the Association of Environmental and Resource Economists 4 (1):
+   51–87.
+Li, Shanjun. 2018. Better lucky than rich? Welfare analysis of automobile licence allocations in Beijing and
+    Shanghai. Review of Economic Studies 85 (4): 2389–2428.
+
+===== [PDF 第 39 页｜印刷第 39 页] =====
+                                Welfare Effects of Electric Vehicle Subsidies      Ji et al.   39
+
+Li, Shanjun, Lang Tong, Jianwei Xing, and Yiyi Zhou. 2017. The market for electric vehicles: Indirect net-
+
+   work effects and policy design. Journal of the Association of Environmental and Resource Economists 4 (1):
+   89–133.
+Liu, Xiaoling, Xiaohua Sun, Hui Zheng, and Dongdong Huang. 2021. Do policy incentives drive electric
+    vehicle adoption? Evidence from China. Transportation Research Part A: Policy and Practice 150:49–
+
+    62.
+Ma, Shao-Chao, Ying Fan, and Lianyong Feng. 2017. An evaluation of government incentives for new en-
+    ergy vehicles in China focusing on vehicle purchasing restrictions. Energy Policy 110:609–18.
+
+Ma, Shao-Chao, Jin-Hua Xu, and Ying Fan. 2019. Willingness to pay and preferences for alternative in-
+    centives to EV purchase subsidies: An empirical study in China. Energy Economics 81:197–215.
+MEE (Ministry of Ecology and Environment of the People’s Republic of China). 2020. China mobile source
+
+    environmental management annual report (2020).
+MIIT (Ministry of Industry and Information Technology of the People’s Republic of China). 2019a. Public
+
+   announcement on the 2017 annual promotion and application of new energy vehicle subsidy funds liqui-
+
+    dation audit. https://www.miit.gov.cn/jgsj/zbys/gzdt/art/2020/art_792f05ca8af64fb89183d133d5ebe5e3
+    .html (accessed February 16, 2025).
+———. 2019b. Public announcement on the 2018 annual promotion and application of new energy vehicle
+
+    subsidy funds pre-allocation audit. https://www.miit.gov.cn/jgsj/zbes/gzdt/art/2020/art_50db22bda4c
+   24618b0d2a6f31a3d474e.html (accessed October 10, 2025).
+
+Miravete, Eugenio J., María J. Moral, and Jeff Thurk. 2018. Fuel taxation, emissions policy, and competitive
+    advantage in the diffusion of European diesel automobiles. RAND Journal of Economics 49 (3): 504–40.
+Miravete, Eugenio J., Katja Seim, and Jeff Thurk. 2023. Pass-through and tax incidence in differentiated
+
+    product markets. International Journal of Industrial Organization 90:102985.
+———. 2024. Elasticity and curvature of discrete choice demand models. Working paper, University of
+   Texas at Austin.
+Muller, Nicholas Z., and Robert Mendelsohn. 2009. Efﬁcient pollution regulation: Getting the prices right.
+   American Economic Review 99 (5): 1714–39.
+Nevo, Aviv. 2000. Mergers with differentiated products: The case of the ready-to-eat cereal industry.
+  RAND Journal of Economics 31 (3): 395–421.
+
+Parry, Ian W. H., Dirk Heine, Eliza Lis, and Shanjun Li. 2014. Getting energy prices right: From principle
+    to practice. International Monetary Fund.
+Petrin, Amil. 2002. Quantifying the beneﬁts of new products: The case of the minivan. Journal of Political
+   Economy 110 (4): 705–29.
+Pless, Jacquelyn, and Arthur A. Van Benthem. 2019. Pass-through as a test for market power: An appli-
+    cation to solar subsidies. American Economic Journal: Applied Economics 11 (4): 367–401.
+
+Rennert, Kevin, Frank Errickson, Brian C. Prest, et al. 2022. Comprehensive evidence implies a higher so-
+     cial cost of CO2. Nature 610:687–92.
+Salanié, Bernard, and Frank A. Wolak. 2022. Fast, detail-free, and approximately correct: Estimating mixed
+
+   demand systems. Working paper.
+Sheldon, Tamara L., and J. R. DeShazo. 2017. How does the presence of HOV lanes affect plug-in electric
+
+    vehicle adoption in California? A generalized propensity score approach. Journal of Environmental Eco-
+    nomics and Management 85:146–70.
+Sheldon, Tamara L, and Rubal Dua. 2019. Measuring the cost-effectiveness of electric vehicle subsidies.
+
+    Energy Economics 84:104545.
+
+===== [PDF 第 40 页｜印刷第 40 页] =====
+40    Journal of the Association of Environmental and Resource Economists    January 2026
+
+Shen, Caixia, Yanfei Wang, Junji Xiao, and Xiaolan Zhou. 2021. Comparison between uniform tariff and
+
+    progressive consumption tax in the Chinese automobile industry. Journal of Industrial Economics 69 (1):
+   169–213.
+Sierzchula, William, Sjoerd Bakker, Kees Maat, and Bert Van Wee. 2014. The inﬂuence of ﬁnancial in-
+    centives and other socio-economic factors on electric vehicle adoption. Energy Policy 68:183–94.
+
+Singh, Satendra, D., Ganeshwar Rao, and Manoj Dixit. 2023. Future of transportation: A comparison be-
+   tween internal combustion engine, electric vehicles and fuel cell vehicles. Universal Journal of Mechanical
+    Engineering 11 (1): 13–23.
+
+Tan, Jijun, Junji Xiao, and Xiaolan Zhou. 2019. Market equilibrium and welfare effects of a fuel tax in
+    China: The impact of consumers’ response through driving patterns. Journal of Environmental Economics
+   and Management 93:20–43.
+Viard, V. Brian, and Shihe Fu. 2015. The effect of Beijing’s driving restrictions on pollution and economic
+     activity. Journal of Public Economics 125:98–115.
+
+Xiao, Junji, and Heng Ju. 2014. Market equilibrium and the environmental effects of tax adjustments in
+    China’s automobile industry. Review of Economics and Statistics 96 (2): 306–17.
+Xiao, Junji, Xiaolan Zhou, and Wei-Min Hu. 2017. Welfare analysis of the vehicle quota system in China.
+    International Economic Review 58 (2): 617–50.
+
+Xing, Jianwei, Benjamin Leard, and Shanjun Li. 2021. What does an electric vehicle replace? Journal of En-
+    vironmental Economics and Management 107:102432.
+Yang, Ziying, and Manping Tang. 2019. Welfare analysis of government subsidy programs for fuel-efﬁcient
+    vehicles and new energy vehicles in China. Environmental and Resource Economics 74 (2): 911–37.
+Yi, Bo-Wen, Shaohui Zhang, and Ya Wang. 2020. Estimating air pollution and health loss embodied in
+
+     electricity transfers: An inter-provincial analysis in China. Science of the Total Environment 702:134705.
+
+Ziegler, Andreas. 2012. Individual characteristics and stated preferences for alternative energy sources and
+    propulsion technologies in vehicles: A discrete choice analysis for Germany. Transportation Research
+    Part A: Policy and Practice 46 (8): 1372–85.

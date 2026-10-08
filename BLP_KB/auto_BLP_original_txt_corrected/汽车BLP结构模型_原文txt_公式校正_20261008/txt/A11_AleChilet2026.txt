@@ -1,0 +1,2118 @@
+==============================================================================
+【文献】Alé-Chilet, Chen, Li & Reynaert (2026). Colluding Against Environmental Regulation. Review of Economic Studies 93(1): 35-71.
+【编号】A11　【简称】AleChilet2026　【分组】供给侧
+【原文 PDF】D:\auto-demand-lit-2026-09\原文PDF\J10_AleChilet_2026_REStud_journal.pdf
+【页数】37 页　【页码换算】印刷（期刊）页码 = PDF 页码 + 34
+【文本来源】PyMuPDF 抽取 PDF 文字层（按版面块排序）
+【公式校正】11 条，按页附在对应页末（以「公式校正」标出），LaTeX 书写，均已对照原页图
+【校正说明】ReStud 期刊版（93(1): 35–71），期刊页 = PDF 页 + 34。文字层干净，公式被抽成碎片。下列各式本轮看原页图转写；式 (10)–(12)（嵌套结构与份额）与式 (17)–(24) 本包未校正。本文需求价格系数 \alpha 带符号进入 \delta_j。
+【核对页图】D:\blp-auto-fulltext-pack-20261008\work\pages\A11_pNN.png（本轮渲染）；本包 核对页图\ 文件夹内有副本
+【使用提醒】正文是机器抽取的原文，不是译文；公式区以页末校正或原 PDF 为准。页标记中的 PDF 页码可直接用于在原 PDF 中翻页定位。
+==============================================================================
+
+===== [PDF 第 1 页｜印刷第 35 页] =====
+Review of Economic Studies (2026)     , 35–71                                  https://doi.org/10.1093/restud/rdaf024
+
+
+
+Colluding Against Environmental
+           Regulation
+
+                             Jorge Al´e-Chilet
+                            Universidad de Los Andes, Chile
+                              Cuicui Chen
+                         State University of New York at Albany, USA
+                                   Jing Li
+                                      Tufts University, USA
+
+                                and
+
+                           Mathias Reynaert
+           Toulouse School of Economics, University of Toulouse Capitole, France
+
+
+            First version received April 2023; Editorial decision October 2024; Accepted April 2025 (Eds.)
+
+
+         We study collusion among firms against imperfectly monitored environmental regulation. Firms
+       increase variable profits by violating regulation and reduce expected noncompliance penalties by vio-
+        lating jointly. We consider a case of three German automakers colluding to reduce the effectiveness
+       of emissions control technology. By estimating a structural model of the European automobile indus-
+        try from 2007 to 2018, we find that collusion lowers expected noncompliance penalties substantially
+      and increases buyer and producer surplus. Due to increased pollution, welfare decreases by e 1.57–
+       5.57 billion. We show how environmental policy design and antitrust play complementary roles in
+       preventing noncompliance.
+
+      Key words: Collusion, Regulation, Pollution, Automobile market, Noncompliance
+
+      JEL codes: L4, L5, L6, Q5
+
+
+
+                                       1. INTRODUCTION
+
+Violation of environmental regulation is a pervasive problem (Duflo et al., 2018; Blundell et al.,
+2020; Kang and Silveira, 2021; Reynaert and Sallee, 2021). Most studies on noncompliance
+assume that firms choose actions independently from competitors. In settings where the regulator
+has imperfect information for detecting and punishing noncompliance, theoretical studies by
+Laffont and Martimort (1997, 2000) and Che and Kim (2006) have considered the possibility
+of agents colluding against the regulator. This paper considers firms colluding over compliance
+strategies to undermine regulation.
+
+
+
+
+The editor in charge of this paper was Francesca Molinari.
+
+
+                                                      35
+
+===== [PDF 第 2 页｜印刷第 36 页] =====
+36                 REVIEW OF ECONOMIC STUDIES
+
+  Why may firms collude on noncompliance, and what are the welfare effects of such collu-
+sion? We study these questions in the context of an antitrust case. In July 2021, the European
+Commission found that German automakers BMW, Daimler, and Volkswagen (the “working
+group”) colluded to restrict the effectiveness of diesel emissions control technology (European
+Commission, 2021). Although the case did not involve collusive pricing, the Commission con-
+cluded for the first time that coordinating to limit technical development violates competition
+law.
+   Our analysis begins with a model that explores what firms can gain from participating in a
+coordinated scheme to reduce compliance. Firms face a pollution standard that is imperfectly
+enforced because of monitoring costs. Insufficient pollution abatement could result in non-
+compliance penalties, including fines, legal costs, and reputation damages. However, abatement
+increases firms’ marginal costs and compromises product attributes that consumers value. Vari-
+able profits thus decrease with a firm’s own abatement and increase with competitors’ abatement.
+A firm’s payoff is its variable profit minus the expected noncompliance penalty. Firms choose
+their pollution abatement either non-cooperatively or following a joint scheme.
+   The model shows that coordination on low abatement is only profitable when the expected
+penalties increase with other firms’ abatement choices. We provide three reasons why coordi-
+nated noncompliance may reduce expected penalties. First, penalties may decrease through the
+diffusion of responsibility: A penalty for a noncompliant firm may be lower when multiple vio-
+lators are caught. Second, coordination gives all participants “skin in the game,” which lowers
+the risk of a compliant competitor reporting the violation. Third, the probability of the regulator
+inspecting a firm can depend on how that firm’s abatement choice compares with other firms.
+The first and third reasons can be at play when a regulator considers multiple violators too big to
+fail and becomes reluctant to prosecute or impose steep penalties. Our model shows that antitrust
+can complement regulation by counteracting the reduction in the expected penalties and making
+coordinated noncompliance unattractive.
+  We apply our model to the EU antitrust case on diesel emissions control. In 2007, the EU
+announced a much stricter diesel NOx emission limit, the EU6 standard, to take effect in 2014.
+We take the EU emissions standards as given and study automakers’ compliance decisions.1
+The compliance option for large diesel vehicles is a NOx control technology called Selective
+Catalytic Reduction (SCR). SCR requires a Diesel Exhaust Fluid (DEF) tank to neutralise NOx
+emissions. The DEF tank takes up trunk space, which consumers value. The three German
+automakers communicated extensively through meetings and emails to agree on a “coordinated
+approach” to limit the DEF tank sizes (Dohmen and Hawranek, 2017). The firms designed DEF
+refills to coincide with the annual vehicle maintenance to reduce inconvenience for drivers.
+Given an annual refill, a smaller DEF tank means lower DEF consumption per mile driven and
+more NOx pollution.
+   Our data cover vehicle registrations, characteristics, and on-road emissions from the Euro-
+pean automobile market between 2007 and 2018. We observe detailed information on DEF tank
+sizes, emissions control systems, and trunk space, among other variables. On-road emissions
+test results reveal that diesel vehicles exceed the NOx standard by a factor of three on average,
+and more than 70% of the diesel vehicles are out of compliance. We observe an average DEF
+tank size of 16 liters. Based on the on-road emissions and engineering estimates, we compute
+the observed DEF tanks to be 13 liters smaller than what is required for compliance.
+
+
+
+
+       1. We abstract from two dynamic issues: firms can lobby ex-ante to change the stringency of standards, and
+policymakers can base regulation on past compliance. Our framework focuses on coordinated compliance choices to a
+regulation. We summarise all the effects of regulatory enforcement on future payoffs in the expected penalty term.
+
+===== [PDF 第 3 页｜印刷第 37 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    37
+
+  We estimate a structural model of vehicle demand and marginal costs, incorporating abate-
+ment costs through DEF tank size choices. Large DEF tanks reduce variable profits by increasing
+marginal costs and taking up trunk space. Our demand estimates show that consumers are will-
+ing to pay e 231 to avoid the trunk space shrinkage from larger, compliant DEF tanks.2 Our
+marginal cost estimates show that the SCR system costs e 687, consistent with SCR system cost
+estimates from the engineering literature. Increasing the volume of the DEF tank by one liter is
+estimated to cost e 42. We do not find significant differences in DEF costs between the working
+group and other firms, which suggests that the collusive scheme did not induce cost efficien-
+cies for the working group. The antitrust case and supportive documents did not mention cost
+efficiencies either, nor were upstream DEF suppliers involved in the case.
+   The estimated variable profit functions and the participation constraints of collusion provide
+bounds for the expected noncompliance penalties of the working group. Estimating these bounds
+requires information on the DEF tank sizes that firms would have chosen without colluding. We
+present two approaches to quantifying this counterfactual non-cooperative equilibrium. First, we
+rely on the observation that non-working-group firms are not in the collusive scheme. Their non-
+cooperative choices imply first-order conditions that allow us to estimate the marginal expected
+noncompliance penalty function. Based on the estimated function, we compute the counter-
+factual equilibrium of DEF choices, where both non-working-group and working-group firms
+choose DEF sizes non-cooperatively. This procedure shows that the non-cooperative industry
+equilibrium would have been compliant. Collusion thus brings the whole industry into non-
+compliance. In a second approach, we use the descriptive evidence from our case to present a
+scenario in which the industry would be noncompliant in the non-cooperative equilibrium. In
+this scenario, collusion merely allows the working group to reduce their DEF tank sizes further
+below non-working-group firms’ choices. Given the range of non-cooperative scenarios derived
+from both the structural and descriptive approaches, we estimate that the expected noncompli-
+ance penalties for the working group are at least e 69–345 million lower due to coordinated
+noncompliance.
+  We discuss how the working group achieves such substantial expected penalty reductions
+in the EU automobile market. The EU sets the emissions standards, and member states enforce
+them. Enforcement at a lower level of government generates a too-big-to-fail setting. The Ger-
+man automobile industry is important for the German economy; for example, it employs 11% of
+manufacturing workers (ACEA, 2024). The working group may expect a national authority to
+be unwilling to punish widespread noncompliance. Furthermore, we find that coordinated non-
+compliance would diffuse 22–43% of reputation damages when working-group firms are caught
+together, give skin in the game to competitors whose stolen business would contribute to 25–
+47% of a single violator’s variable profit gain, and help mask otherwise suspiciously small DEF
+tanks.
+   The welfare effects of collusion against regulation are theoretically ambiguous. Environmen-
+tal regulation weighs market surplus against pollution externalities. Collusion could improve
+social welfare if the emissions standards were too stringent.3 In our empirical case, collusion
+increases industry profits and car buyer surplus due to larger trunk space and lower marginal
+costs. However, these benefits are outweighed by the cost of increased NOx pollution. Across
+
+
+
+
+
+       2. Monetary values are in 2018 euros throughout this paper.
+       3. The EU emissions standards have become increasingly stringent over time, and industry experts stated the EU
+6 standards would be too demanding for manufacturers.
+
+===== [PDF 第 4 页｜印刷第 38 页] =====
+38                 REVIEW OF ECONOMIC STUDIES
+
+the scenarios we consider, collusion against regulation reduced social welfare by e 1.57–
+5.57 billion. The Commission fined the cartel e 2.7 billion, which, based on our estimates, is
+sufficient to repair welfare.
+   Our work has three policy implications. First, we evaluate how the existing EU policy envi-
+ronment compares to a “collusion-proof” environment, where welfare-reducing collusion does
+not occur. Che and Kim (2006) argue that policymakers can make firms the residual claimant
+of the total surplus to achieve collusion-proofness. We find that when making the proposal
+to reduce abatement, the working group expected to pay at most 11% of the penalties speci-
+fied in a collusion-proof policy. Second, antitrust may have a complementary role in regulatory
+enforcement. To play this role in practice, antitrust would need to broaden its scope to be able to
+evaluate coordinated noncompliance and incorporate externality damages. Third, in the absence
+of antitrust, environmental policy design could consider the possibility that enforcement might
+create incentives for coordinated noncompliance.
+   This paper contributes to the regulatory enforcement literature by providing a theoretical
+and empirical framework for understanding coordinated noncompliance. The literature has con-
+sidered cases where the regulator faces either a single firm or a perfectly competitive industry,
+such as Duflo et al. (2018), Blundell et al. (2020), and Kang and Silveira (2021). This litera-
+ture shows that monitoring schemes and regulator discretion can make environmental regulation
+more robust to pollution hiding, but collusion among firms against the regulator has not been
+considered. We show that accounting for the possibility of collusion has important implications
+for environmental policy design and highlights a potential complementary role for antitrust.
+   Collusion against regulation has been considered in theoretical settings in Laffont and Mar-
+timort (1997, 2000), and Che and Kim (2006). The key vulnerability of regulation to collusion
+in Shleifer (1985), Auriol and Laffont (1992), Tanger˚as (2002), and Rai and Sj¨ostr¨om (2004)
+is the ability of agents to coordinate on the information they report to the principal. Our analy-
+sis of collusion against regulation in an imperfectly competitive industry shows that information
+manipulation is not the only reason for collusion. Whenever the enforcement of regulation gen-
+erates sufficiently strong negative spillovers from firms’ compliance choices on other firms, a
+regulation becomes vulnerable to collusion.
+  We also contribute to the empirical literature on collusion. Most of this literature studies
+collusion in prices (e.g. Bresnahan, 1987) and quantities (e.g. Porter, 1983, and more recent work
+that structurally estimates incentives for such collusion Igami and Sugaya, 2022). Instead, we
+study collusion in a dimension other than prices and quantities, as in Al´e-Chilet and Atal (2020),
+Gross (2020), Sullivan (2020), and Bourreau et al. (2021) (also see Nocke, 2007 for a theoretical
+analysis).4 The unique aspect of our paper is that firms collude on a product characteristic that
+is key to compliance with environmental regulation. Our focus on regulation adds complexity
+to the analysis because collusion interacts with expected noncompliance penalties and produces
+pollution damages. In contrast to coordination and standard-setting (such as in Shapiro, 2001;
+Li, 2023), where social welfare hinges on whether firms coordinate, we study a case where social
+welfare also depends on which outcome firms jointly choose.
+    Lastly, our work adds to the literature on compliance issues in the automobile industry.
+Imperfect compliance in the European automobile sector, without collusion, has been studied in
+
+
+
+
+
+       4. The semi-collusion literature has mainly focused on settings where firms collude on prices and compete in
+other dimensions. Our case is the reverse, with collusion on technology and no evidence for price collusion. Explicit
+collusion on prices is known to be illegal and frequently prosecuted, while collusion on technology choices is less
+well-defined and rarely prosecuted. The working group consisted of engineers and operated separately from the pricing
+departments.
+
+===== [PDF 第 5 页｜印刷第 39 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    39
+
+Reynaert and Sallee (2021) and Reynaert (2021). A few papers analyse the effects of the Volk-
+swagen Dieselgate scandal in the US: Alexander and Schwandt (2022) and Holland et al. (2016)
+on health outcomes, Bachmann et al. (2022) on reputation spillovers among German automak-
+ers, and Ater and Yoseph (2022) on the second-hand automobile market. The collusion we study
+predates the Volkswagen scandal.
+  We proceed as follows. Section 2 presents a model of coordinated noncompliance. Section
+3 describes our data. Section 4 describes the empirical context and shows descriptive evidence
+for collusion and widespread noncompliance in the industry. Section 5 describes our empirical
+strategy for estimating vehicle demand and marginal costs and for bounding expected noncom-
+pliance penalties. Section 6 presents estimation results. Section 7 presents the welfare effects of
+collusion and discusses policy implications. We conclude in Section 8.
+
+
+                                            2. MODEL
+
+We provide a model to understand firms’ regulatory compliance choices. The model shows
+that gains from coordinating on noncompliance stem from reductions in expected penalties.
+Antitrust reduces the benefits of participating in coordinated noncompliance and complements
+environmental regulation. The model provides estimable bounds that inform the structure of
+the expected noncompliance penalties. Finally, we describe the enforcement of coordinated
+noncompliance and the implications of coordination by a subgroup of firms on other firms.
+
+
+2.1.  Individual abatement choices
+
+Firms indexed by  f ∈ {1, 2, . . . , n} face a regulation that aims to correct a negative externality.
+In response to the regulation, firms take abatement actions to reduce those externalities. Let
+a ≡(a1, a2, . . . , an) represent the profile of those abatement actions in the industry. We do not
+model entry and assume that the regulation does not drive firms out of the market.
+   Each firm f receives a variable profit of π f (a). We assume that the variable profit is strictly
+decreasing in a firm’s own abatement action and strictly increasing in a competitor’s abate-
+ment action. This assumption rationalises regulation: no firm would abate absent the regulation.
+Abatement typically increases marginal costs or reduces quality by compromising product char-
+acteristics desirable to consumers. Firms who abate little, therefore, steal business from those
+who abate more.
+   For each firm f, let a∗f denote the minimal abatement action that would be sufficient for it
+to comply with the regulation. If firm f chooses an abatement action below a∗f , the firm is out
+of compliance. We assume away information asymmetry among firms. The regulator is at an
+information disadvantage relative to the firms. The regulator observes firms’ abatement actions
+but not the degree to which those abatement actions reduce externalities towards compliance.5
+As a result, a noncompliant firm probabilistically incurs penalties (such as regulatory fines and
+reputation damages). The regulator inspects firm f with probability Pf (a) to reveal its com-
+pliance status. If inspected, the firm incurs a noncompliance penalty K f (a) ≥0. We allow the
+probability and the penalty to depend on other firms’ abatement choices. We discuss multi-
+ple reasons for this dependency below. We denote firm f’s expected noncompliance penalty
+
+
+       5. One can conceptualise this as each firm having a pollution type θ f and abatement a f . Emissions are deter-
+mined by e f = θ f −a f . The regulator sets an emission standard e∗. The regulator observes a f but not θ f . Firms can
+misreport emissions to the regulator and enter the market with e f > e∗. We assume that misreporting in itself is not
+costly, but noncompliant firms risk penalties. Putting the regulator at an information disadvantage relative to the industry
+is consistent with the regulation literature, e.g. Weitzman (1974) and Baron and Myerson (1982).
+
+===== [PDF 第 6 页｜印刷第 40 页] =====
+40                 REVIEW OF ECONOMIC STUDIES
+
+as EK f (a) ≡Pf (a)K f (a) and use EK f (a f , a−f ) to define the expected penalty when firm f
+would play a f while the other firms are at a profile a−f .
+   Firm f’s payoff at the industry abatement profile a is π f (a) −EK f (a). We define the abate-
+ment profile aN as the non-cooperative equilibrium. We denote a∗as the profile where each firm
+exactly complies with the standard. Noncompliance penalties are zero when firms comply or
+overcomply: EK f (a f , ·) = 0 for a f ≥a∗f . Because variable profits are decreasing in abatement,
+it follows that over-compliance is a dominated action, and hence, there is no overcompliance in
+the non-cooperative equilibrium aN ≤a∗.
+
+
+2.2.  Coordinated abatement choices
+
+A working group proposes a profile of abatement actions a J.6 The proposal is accepted if and
+only if all firms agree to it. The working group can enforce the joint decision—we discuss this
+below in Section 2.3. Firms participating in the scheme may risk antitrust scrutiny. We define
+EA f ≥0 as the expected antitrust penalty a firm assigns to participating. The expected antitrust
+penalty EA f is separate from EK f (a), because EA f applies only when firms coordinate to play
+a = a J, while EK f (a) applies whenever firms are noncompliant. Additionally, antitrust and
+regulatory penalties are usually determined by different governmental agencies.
+   Firm f considers whether to accept the joint proposal based on its participation constraint:
+
+             π f (a J) −EK f (a J) −EA f (a J) ≥π f (aN) −EK f (aN),                (1)
+
+showing that the profits from coordinating need to be higher than the non-cooperative profits
+to achieve participation. The participation constraint reveals a complementary role for antitrust
+in enforcing regulation. When firms expect higher antitrust penalties, EA f , a working group is
+less likely to be able to make a profitable proposal that would reduce abatement and increase
+pollution.
+   Without the joint proposal, firms would play aN, the non-cooperative equilibrium. By the
+definition of a non-cooperative equilibrium, firm f would obtain a lower payoff by unilaterally
+deviating from aNf  to a Jf :
+
+             π f (aN) −EK f (aN) ≥π f (a Jf , aN−f ) −EK f (a Jf , aN−f ).                  (2)
+
+Together (1) and (2) reveal that if a proposal is accepted, it must be that coordinating is more
+profitable than not coordinating, which in turn is more profitable than abating a Jf unilaterally.
+  A working group may propose abatement actions that can be lower or higher than the non-
+cooperative abatement choices. Proposition 1 states that if firms accept a coordinated profile
+proposal that lowers abatement, this must imply that the expected penalty increases with other
+firms’ abatement:
+
+Proposition 1.  If firm f chooses to participate in a joint proposal that decreases compliance
+(a J < aN), then EK f (a J) < EK f (a Jf , aN−f ). The difference between these expected penalties
+is bounded below by the difference in the firm’s variable profit:
+
+            EK f (a Jf , aN−f ) −EK f (a J) ≥π f (a Jf , aN−f ) −π f (a J).                  (3)
+
+
+
+
+
+       6. Not all firms may receive the working group’s proposal. In Section 2.4, we discuss the incentives of firms not
+included in the proposal.
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(1)  \pi_f(\boldsymbol a^J)-\mathbb EK_f(\boldsymbol a^J)-\mathbb EA_f(\boldsymbol a^J)\ \ge\ \pi_f(\boldsymbol a^N)-\mathbb EK_f(\boldsymbol a^N)
+    核对方式：本轮看图；说明：参与约束；\mathbb EK_f(\boldsymbol a)\equiv P_f(\boldsymbol a)K_f(\boldsymbol a) 为预期违规罚金，\mathbb EA_f 为预期反垄断罚金
+(2)  \pi_f(\boldsymbol a^N)-\mathbb EK_f(\boldsymbol a^N)\ \ge\ \pi_f(a^J_f,\boldsymbol a^N_{-f})-\mathbb EK_f(a^J_f,\boldsymbol a^N_{-f})
+    核对方式：本轮看图；说明：非合作均衡的定义
+(3)  \mathbb EK_f(a^J_f,\boldsymbol a^N_{-f})-\mathbb EK_f(\boldsymbol a^J)\ \ge\ \pi_f(a^J_f,\boldsymbol a^N_{-f})-\pi_f(\boldsymbol a^J)
+    核对方式：本轮看图；说明：命题 1
+----- 【公式校正结束】 -----
+
+===== [PDF 第 7 页｜印刷第 41 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    41
+
+Proof: Since firm  f chooses to participate in the joint proposal, its participation constraint
+defined in (1) must hold. Without the joint proposal, firms would play aN, the non-cooperative
+equilibrium defined in (2). Combining (1) and (2) yields:
+
+         π f (a J) −EK f (a J) −EA f (a J) ≥π f (a Jf , aN−f ) −EK f (a Jf , aN−f ).           (4)
+
+Rearranging  the  terms, we  have EK f (a Jf , aN−f ) −EK f (a J) ≥π f (a Jf , aN−f ) −π f (a J) +
+EA f (a J) ≥π f (a Jf , aN−f ) −π f (a J) because EA f (a J) ≥0. We have thus established Inequality
+(3). Since the variable profit is strictly increasing in a competitor’s abatement action, aN−f > a−fJ
+implies that π f (a Jf , aN−f ) −π f (a J) > 0. Therefore, EK f (a Jf , aN−f ) −EK f (a J) > 0.    □
+
+   To gain intuition behind Proposition 1, observe that the acceptance of a collusive proposal
+to lower abatement reveals that abatement imposes negative spillovers on other firms. Collu-
+sion increases payoffs by limiting these negative spillovers from abatement. A firm’s payoff is
+the variable profit minus the expected noncompliance penalty. Because variable profits increase
+with competitors’ abatement, the source of negative spillovers must be the expected noncom-
+pliance penalty.7 This is what Proposition 1 concludes: the expected penalty that a firm incurs
+must increase (and the firm’s total payoff decrease) as other firms increase their abatement.8 In
+our empirical analysis of the case where automakers coordinated to limit emissions control tech-
+nology, we quantify the strength of these negative spillovers in expected penalties by bounding
+them from below with the estimated positive spillovers in variable profits.
+  We now discuss three reasons why coordinated noncompliance can reduce expected non-
+compliance penalties.9
+    First, reputation damages included in the noncompliance penalty K f can decrease when
+several firms are caught noncompliant. Such “diffusion of responsibility” can also arise from a
+too-big-to-fail argument. Upon detection of widespread noncompliance, enforcing the regulation
+would result in industry-wide fines, which the regulator might be reluctant to impose because of
+adverse economic effects. Second, when a firm violates the regulation by choosing noncompli-
+ance, our variable profit assumption implies that the firm will steal profits from compliant firms.
+This business-stealing effect creates a risk that honest competitors might report the noncompli-
+ance to the regulator. By jointly choosing noncompliance, competitors get “skin in the game:”
+noncompliant competitors have less incentive to report noncompliance, thereby reducing Pf .
+Third, the probability of detecting a firm’s noncompliance can decrease when other firms are
+noncompliant. The regulator may infer the sufficiency of a firm’s abatement action by compar-
+ing it to other firms’ abatement actions.10 If the regulator uses yardstick competition (Shleifer,
+1985) and makes inspection decisions based on the observations of firms’ abatement actions,
+firms can manipulate the regulator’s information by coordinating abatement actions (Tanger˚as,
+
+
+
+       7. Appendix A3 formalises how the direction of the joint proposal depends on the signs of spillovers in the
+variable profit and expected penalty functions.
+       8. We compare EK f (a J) and EK f (a Jf , aN−f ), but it is important to note the comparison does not follow from
+having firms other than f strategically change their choices from a J   to aN   . Proposition 1 is a statement about                                                 −f    −f
+spillovers between firms’ expected noncompliance penalty function revealed by collusion. The proof relies on the
+participation constraint and the definition of the non-cooperative Nash profile from firm f’s perspective.
+       9. Appendix A2 presents a simple two-by-two example to illustrate each channel. These channels do not need to
+be present simultaneously to reduce expected penalties.
+       10. Earnhart and Friesen (2021) provide evidence that the US Environmental Protection Agency inspectors
+implement this “competitive endogenous audit” mechanism, where firms that appear less compliant than similar
+regulated firms are subject to more intensive audits.
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(4)  \pi_f(\boldsymbol a^J)-\mathbb EK_f(\boldsymbol a^J)-\mathbb EA_f(\boldsymbol a^J)\ \ge\ \pi_f(a^J_f,\boldsymbol a^N_{-f})-\mathbb EK_f(a^J_f,\boldsymbol a^N_{-f})
+    核对方式：本轮看图
+----- 【公式校正结束】 -----
+
+===== [PDF 第 8 页｜印刷第 42 页] =====
+42                 REVIEW OF ECONOMIC STUDIES
+
+2002). This “reduction in the detection probability” channel can also arise from the too-big-
+to-fail argument. A regulator might be disinclined to start investigating when an investigation
+would reveal industry-wide noncompliance.11
+
+
+2.3.  Enforcement of joint decisions
+
+Our model has so far been agnostic about how the working group enforces the joint abatement
+decisions. In contrast to collusion on prices, deviation from the collusive noncompliance scheme
+leads to lower variable profits. Deviation incentives arise if a colluding firm, by unilaterally
+increasing abatement, reduces its expected noncompliance penalty by more than the reduction
+in its variable profit. Because we do not observe the data to quantify cartel enforcement in
+response to deviations, our framework focuses on the participation decision of working group
+members and is, therefore, not explicitly dynamic.12 Appendix A1 elaborates on the dynamic
+cartel enforcement and whistle-blower incentives.
+
+
+2.4.  Coordination by a subgroup of firms
+
+Not all firms in the market may receive a joint noncompliance proposal from the working
+group. We now discuss the incentives of firms that are not part of the scheme.13 We assume
+that non-working-group firms observe whether the proposal is accepted before making abate-
+ment choices.14  If the proposal is accepted, the non-working-group firms condition on the
+proposal while choosing non-cooperative abatement actions. For notational convenience, we
+include those actions in the profile a J. If the proposal is not accepted, all firms choose actions
+non-cooperatively, aN.
+   Observing a noncompliant choice by a non-working-group firm g, a gJ < a∗g, implies that a
+unilateral deviation from a gJ to a∗g would make the firm worse off:
+
+                        πg(a J) −EKg(a J) ≥πg(a∗g, a−g),J                               (5)
+
+where we have used Kg(a∗g, ·) = 0. This inequality implies that firm g’s expected noncom-
+pliance penalty at a J is at most πg(a J) −πg(a∗g, a−g).J   By following the working group into
+noncompliance, a non-working-group firm increases its variable profit more than it increases
+the expected noncompliance penalty. The same three reasons outlined above can explain why
+the non-working-group firms expect penalty reductions when they follow suit. We estimate the
+upper bound on non-working-group firms’ expected noncompliance penalties in our empirical
+case in Section 6.
+
+
+
+
+
+       11. Firms may also have the power to affect the regulation directly through successful lobbying. Analyzing this
+possibility is beyond the scope of this paper.
+       12. A recent empirical contribution by Igami and Sugaya (2022) estimates incentives to collude in the context of
+collusion on prices. Their setting allows quantification of the punishment from a reversal to Nash pricing.
+       13. We take the membership in the working group as exogenous. In our empirical context, the firms included in
+the working group are all German and have long-established cooperation on engineering and R&D choices.
+       14. Section 3 reports that the working group had introduced a small number of noncompliant vehicles in the
+years before the emission standard took effect. We interpret this as the working group communicating their acceptance
+of a proposal to non-working-group firms.
+
+===== [PDF 第 9 页｜印刷第 43 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    43
+
+                                              3. DATA
+
+Our vehicle sales and price data are from a market research firm (JATO Dynamics). The data
+contain new registrations, retail prices, and attributes of all passenger vehicles sold in seven
+European markets (Germany, UK, France, The Netherlands, Belgium, Spain, Italy), representing
+90% of the European market. Our sample period starts in 2007, which captures the working
+group’s earliest adoption of Selective Catalytic Reduction (SCR) to control NOx. We end our
+sample in 2018 when the large majority of vehicles registered were still approved for Euro 6
+emission standards under the New European Driving Cycle (NEDC) and before the Volkswagen
+Dieselgate scandal began to affect vehicle designs.15
+  We augment the JATO data with data from ADAC, a German automobile association.16 The
+ADAC data provide information on NOx control technology, Diesel Exhaust Fluid (DEF) tank
+size, trunk space, and designations of series and series generation. We define a vehicle as a
+combination of brand, engine displacement, horsepower, body type, fuel type, transmission,
+trunk space, emissions control technology, emission standards, and (when applicable) DEF tank
+size.
+   Additional data include the location and plant of production of each vehicle from PwC Auto-
+facts; population, GDP, price indices, and input costs from statistical agencies; and Real Driving
+Emissions (RDE) data from Emissions Analytics, an independent testing and data company. The
+company conducted a thousand tests on on-road NOx emissions between 2011 and 2020.
+   In our sample period 2007–2018, the EU automobile industry consists of the working-group
+firms—BMW, Daimler, and Volkswagen—and 21 other firms.17 The working group accounts
+for about half of the sales revenue in our sample. The diesel segment is an important source of
+revenue for the working group. In 2017, the working group generated e 81 billion in revenue
+from diesel vehicles and e 55 billion from gasoline vehicles, compared with e 78 billion and
+e 72 billion for non-working-group firms, respectively.
+
+
+
+                                   4. EMPIRICAL CONTEXT
+
+4.1.  EU regulation of automobile NOx emissions
+
+Road transport generates about 40% of nitrogen oxide (NOx) emissions in the EU, of which 80%
+come from diesel vehicles (European Environment Agency, 2015). NOx is a family of poisonous
+gases with adverse environmental and human health effects.18 Vehicle emission standards are a
+common government tool to reduce tailpipe emissions.19
+
+
+
+
+
+       15. We describe the details of the Euro 6 emission standards, the NEDC, and the Volkswagen Dieselgate scandal
+in Section 4.
+       16. Vehicle models available in Germany cover almost all vehicles available in other European countries, though
+aesthetic trims and packages may vary across countries. We match 93% of observations (or 96% of registrations) in the
+JATO data with the detailed characteristics data from ADAC.
+       17. In our study period, BMW owns BMW and MINI, and Volkswagen owns Audi, Bentley, Lamborghini,
+Porsche, SEAT, Skoda, and VW.
+       18. NOx combines with atmospheric chemicals to form fine particulate matter (PM2.5). NOx also produces
+smog-causing ground-level ozone when combined with volatile organic compounds and sunlight. In 2015, the global
+death toll of PM2.5 through heart disease, stroke, lung cancer, chronic lung disease, and respiratory infections was
+4.2 million; ground-level ozone accounted for an additional 0.25 million deaths (Health Effects Institute, 2017). NOx
+reduces crop and forest productivity, leads to more CO2 in the atmosphere, and interacts with water to form acid rain.
+       19. Jacobsen et al. (2023) show that emission standards have caused substantial reductions in air pollution from
+transport in the US.
+
+===== [PDF 第 10 页｜印刷第 44 页] =====
+44                 REVIEW OF ECONOMIC STUDIES
+
+   Since 2000, the EU has adopted increasingly stringent NOx emission standards for diesel
+vehicles. The emission standards relevant to our analysis are Euro 6 (2014–). The change from
+the Euro 5 to the Euro 6 standards required carmakers to more than halve NOx emissions for
+diesel vehicles from 0.18 g/km to 0.08 g/km. Appendix Figure A2 shows this change brought
+the EU NOx emission standard closer to the more stringent one of the US. The EU implements
+the standards using a “type approval” procedure. Automakers typically receive one year to type-
+approve vehicles before the standard binds. For example, type approval requires Euro 6 from
+September 2014 onward, and new vehicle registrations require Euro 6 from September 2015
+onward. A vehicle “type” can only enter the market if it passes the emissions test conducted
+by a third-party testing company. While the EU sets the emission standards, the member states
+oversee the type approval procedure and enforce the emission standards.
+   The Euro 6 emissions limits were announced in 2007. Given the long gap between the
+announcement and the implementation of the regulation, our framework focuses on firm
+behaviour in response to a fixed regulation. The vehicles affected by the collusion were tested
+under the New European Driving Cycle (NEDC) procedure. Starting in 2017, the EU changed
+the testing procedure several times to better reflect real driving emissions (RDE). The World-
+wide Harmonised Light Vehicle Test Procedure (WLTP) is the current testing procedure. We end
+our study in 2018 when most new vehicles registered were still approved under NEDC.
+
+
+4.2.  Abatement responses to NOx emission standards
+
+To meet Euro 6 emission standards, automakers adopted Selective Catalytic Reduction (SCR)
+in passenger diesel vehicles, a technology already used in trucks. SCR has virtually no perfor-
+mance penalty on vehicles and is suitable for larger vehicles. SCR requires a tank to hold Diesel
+Exhaust Fluid (DEF), a urea solution sprayed into engine-out emissions. DEF neutralises NOx
+into harmless water and nitrogen. An alternative to SCR is Lean NOx Trap (LNT), which reduces
+fuel efficiency and is more suitable for small vehicles. Further, SCR and LNT can be combined
+to achieve more effective emissions control, but this option is less common.
+   While trucks refill their DEF tanks frequently, automakers designed DEF tanks in passen-
+ger cars to have annual refills. A full tank of DEF was supposed to last for a year of driving
+for two reasons. First, automakers were wary of burdening consumers with the hassle of refill-
+ing the DEF tank more frequently than annual check-ups. They wanted to avoid making diesel
+cars less attractive than gasoline cars.20 Second, during the years of our study, passenger car
+owners found it challenging to refill DEF tanks themselves. The refilling infrastructure had been
+designed for trucks, and tune-ups would be needed after refills.21 Because each DEF tank pro-
+vides DEF for a year of driving, we can convert the tank size to “dosage,” defined as the ratio of
+the DEF tank size to the amount of diesel that sustains one year of driving. The term dosage is
+
+
+
+       20. Dohmen and Hawranek (2017) report that the manufacturers’ internal records show that DEF tanks are
+“designed so that customers would not have to refill them.” and the U.S. Environmental Protection Agency explicitly
+“demanded that the tanks contain enough urea to ensure that they would only have to be refilled during an inspection after
+about 16,000 kilometers. They were unwilling to accept the possibility that the tanks could be refilled between inspec-
+tion dates[. . . ].” Ewing and Granville (2019) write that “refilling the tank would become an extra chore and expense for
+the owner, a potential turnoff for prospective customers,” and that “Volkswagen wanted the fluid to last long enough to
+be refilled by dealers during regularly scheduled oil changes, so there would be no inconvenience to owners.”
+       21. Total, a fuel station brand, advises consumers against refilling themselves, pointing out that the DEF filler
+neck on the vehicle may be hard to access, that DEF pumps at gas stations are designed specifically for trucks but not
+passenger vehicles, and that many vehicles need a technical reset by a mechanic after the DEF refill. Likewise, on their
+website, Jaguar asks consumers to book a refill with an authorised repairer when the vehicle alerts that DEF levels are
+critically low. Persistent URLs in Appendix.
+
+===== [PDF 第 11 页｜印刷第 45 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    45
+
+ (a)                                        (b)
+
+
+
+
+
+                                        FIGURE 1
+            Adoption of Euro 6 and DEF tanks in large diesel vehicles (a) Euro 6 share. (b) DEF share.
+Notes: Subfigure (a) presents the share of large diesel vehicle registrations with Euro 6 type approval; Subfigure (b) presents the share
+of large diesel vehicle registrations with a DEF tank. The reference lines mark September 2015, after which all new registrations must
+comply with Euro 6.
+
+
+
+used in the engineering literature to measure the effectiveness of SCR systems. The amount of
+diesel a vehicle consumes annually depends on a vehicle’s fuel efficiency and a driver’s mileage.
+Increasing dosage corresponds to increased DEF tank size when considering a specific vehicle,
+mileage, and refill frequency. Therefore, we focus on DEF tank size and dosages as measures of
+the efficiency of the DEF system for a given vehicle.
+   Figure 1 depicts the adoption of Euro 6 emission standards and DEF tanks in new large diesel
+vehicle registrations.22 The reference line marks September 2015, the Euro 6 implementation
+date for registrations. Subfigure (a) depicts the share of large diesel registrations with Euro 6
+type approval. The share of Euro 6 registrations increases gradually in the years leading up to
+the Euro 6 implementation deadline, reaching 100% after the deadline. Subfigure (b) depicts
+the share of large diesel registrations with a DEF tank; it increases leading up to the Euro 6
+implementation deadline as vehicle models with Euro 6 type approval enter. DEF market shares
+continue to increase after the Euro 6 implementation deadline as more DEF models enter and
+non-DEF models exit. The specific adoption of DEF tanks in response to Euro 6 shows that
+firms respond to the regulation and at least signal compliance steps to the regulator. The firms
+choose DEF as their primary compliance technology in response to Euro 6. However, despite
+widespread DEF adoption, low dosages might still lead to insufficient compliance. Below, we
+discuss the dosages and efficiency of the DEF systems.
+   Figure 2 shows the distribution of DEF tank sizes on SCR-only vehicles in the industry.23
+The observed tank sizes are dispersed, ranging from 8 liters to 38 liters, showing the automakers
+did not coordinate on a uniform DEF tank size.
+
+
+
+
+
+       22. We define large diesel vehicles as having at least 1.8 liters engines. The sample median is 1.97 liters.
+Appendix Table A2 shows that DEF tanks are installed on larger and more powerful vehicles, consistent with Yang
+et al. (2015).
+       23. Because LNT reduces emissions, DEF tank sizes on vehicles with both SCR and LNT are not comparable to
+those with SCR only.
+
+===== [PDF 第 12 页｜印刷第 46 页] =====
+46                 REVIEW OF ECONOMIC STUDIES
+
+
+
+
+
+                                        FIGURE 2
+                            Distribution of DEF tank sizes in SCR-only vehicles, 2007–18
+
+Notes: Figure plots the frequency distribution of the DEF tank sizes in liters observed in vehicles registered between 2007 and 2018.
+
+
+
+4.3.  Imperfect enforcement
+
+It is difficult for a regulator to know the precise DEF dosage a vehicle needs to comply with
+the Euro 6 standards. Automakers have proprietary engine tuning technologies that manage the
+combustion process and determine engine-out emissions. Those engine-out emissions then inter-
+act with the SCR system. Tailpipe emissions are determined by a complex process involving
+a catalyst and its temperature, engine load, altitude, speed, and driving dynamics (European
+Commission, 2021).
+   The regulator does not observe engine-out emissions directly and has to measure tailpipe
+emissions. In our sample period, the EU relied on NEDC tests, consisting exclusively of lab
+measurement, to monitor Euro 6 compliance.24
+   Monitoring is further complicated due to defeat devices. The 2015 Volkswagen Dieselgate
+scandal in the US revealed the use of defeat devices to circumvent emission standards. These
+devices consist of sensors to identify testing conditions and software that artificially reduces
+vehicle emissions in lab testing. With defeat devices, automakers could obtain type approval for
+vehicles that were not compliant with emission standards on the road.
+  An inquiry by the EU Parliament (Gieseke and Gerbandy, 2017) revealed deficiencies in the
+enforcement of EU emission standards. First, the inquiry describes the inconsistent application
+of EU law across member states regarding exemptions for defeat devices (Art. 33). Second, it
+points out that member states contravened their legal obligation to monitor the ban on defeat
+devices (Art. 34). Third, the inquiry blames the member states and the European Commission for
+maladministration and failing to understand the discrepancy between lab and on-road emissions
+(Art. 36–42).
+   The Parliamentary inquiry also calls upon member states to impose the EU rules on their
+domestic automobile industry. However, given the national importance of these industries, a
+
+
+
+
+       24. Accurate measurement of tailpipe emissions would require testing vehicles on the road. On-road testing with
+portable emissions measurement systems attached to the vehicle accurately reflects emissions from the driving conditions
+of each individual test. However, while in-lab tests are generally reproducible, on-road tests were difficult and costly to
+incorporate into regulation due to uncontrolled variability from the driver, traffic, and weather. The EU implemented on-
+road testing only with the change from NEDC to WLTP in 2018, when on-road testing technology became more mature
+and available.
+
+===== [PDF 第 13 页｜印刷第 47 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    47
+
+“too-big-to-fail” mechanism might be at play, whereby the member states are reluctant to enforce
+EU standards strictly to avoid damaging their domestic industry.25
+   The regulatory environment is thus characterised by weak monitoring and legal uncertainty
+about what constitutes a defeat device, making it possible for firms to risk a noncompliance
+strategy without the certainty of getting caught. Although vehicles may be legally compliant
+based on in-lab tests, they exceed emissions limits on the road. This paper defines compliance
+as actual emission reductions on the road, in line with the goal of the EU regulation to reduce
+pollution.
+   Despite imperfect enforcement, automakers still may face consequences for noncompliance.
+The discovery of defeat devices and the resulting attention on on-road emissions negatively
+affected automakers for several reasons. First, automakers face a series of ongoing lawsuits by
+consumer groups and shareholders for dishonesty. Second, the discovery of high diesel pollution
+causes reputation damage for the diesel segment and for the brands that engage in dishonest
+behaviour. Third, the use of defeat devices is legally dubious in the EU, and several countries
+have started legal investigations into the practice.
+
+
+4.4.  The antitrust case
+
+The European Commission found guilty and fined BMW, Daimler, and Volkswagen in July 2021
+for forming a cartel that restricted emission control technology (European Commission, 2021).
+Since the 1990s, engineers of the firms in the working group have met regularly to discuss
+different technologies and engine specifications (Dohmen and Hawranek, 2017).
+   The decision of the antitrust case documents the coordination from internal meeting notes.
+It is striking that the firms recorded their coordination; we think this behaviour might mean
+that firms were not expecting to be the subject of an antitrust investigation, so that the firms’
+expected antitrust penalty (EA in our model in Section 2) may be zero. The antitrust case is the
+first concluded case that has ruled technology coordination violated EU competition law.
+   As early as 2006, the working group discussed fitting a DEF tank in future models.26 Accord-
+ing to an internal working-group report, after the failure of an initial agreement to effectively
+limit the DEF tank sizes, the automakers sensed the “urgent need for cooperation.” They pres-
+sured their managers to hold additional meetings and reach an agreement. Although larger
+DEF tanks reduce more NOx, the chassis managers preferred smaller tanks because they were
+“lightweight, did not cost much, and left enough space for golf bags in the trunk” (Dohmen and
+Hawranek, 2017). Moreover, none of the companies wanted to make customers refill DEF tanks
+more than once a year. The firms thus coordinated to limit tank sizes and refill ranges. There is
+no evidence for explicit coordination on noncompliance and defeat devices. However, the firms
+allegedly knew smaller tanks would not contain enough DEF to reduce NOx emissions and be
+compliant with Euro 6. A 2011 internal report stated that Euro 6 would require large DEF tanks
+to increase DEF consumption by 50 percent (Ewing, 2018). By explicitly coordinating on DEF
+tank size and refill frequency, the firms implicitly coordinated on noncompliance.
+   In May 2014, Audi sent an email warning that the increased DEF injection required by Euro
+6 could necessitate the costly adoption of larger DEF tanks. Such communication and the ini-
+tially stated need for cooperation in 2007 show that individual automakers seem to have had
+
+
+
+       25. The German industry employs 11% of the German manufacturing workforce (ACEA, 2024), there is strong
+evidence of revolving doors between the German government and the automotive industry (Joshua Posaner and Flo-
+rian Muller, 2017), and German policymakers have openly tried to delay and reduce the stringency of EU emission
+regulations during the legislative process (Gearino, 2020).
+       26. Note that the coordination took place well before the 2015 Volkswagen Dieselgate scandal.
+
+===== [PDF 第 14 页｜印刷第 48 页] =====
+48                 REVIEW OF ECONOMIC STUDIES
+
+the incentive to deviate to larger DEF tanks unilaterally. The firms communicate that DEF tanks
+should increase in size to attain compliance.
+   The cartel potentially had to enforce their proposal to limit tank sizes. The long-term R&D
+relationship among the cartel members allows the cartel to punish deviant firms by excluding
+them from future R&D collaborations. Because R&D collaboration is not public information,
+we do not empirically estimate cartel punishment and instead focus on participation in the cartel.
+   In October 2017, the European Commission began initial inquiries into possible collusion by
+inspecting the premises of BMW, Daimler, and Volkswagen in Germany. After the initial inquiry,
+Daimler and, soon afterward, Volkswagen applied for leniency to become whistle-blowers. Both
+firms blew the whistle because the inquiry into documents related to the ongoing Volkswagen
+emission scandal in the US was likely to uncover their agreement. Our framework focuses on
+quantifying the ex-ante risk firms placed on the exposure of their collusion at the time of the
+participation decision. The escalation in antitrust risk following the exposure of the Volkswagen
+scandal is beyond the scope of this paper.27
+   In April 2019, the Commission sent a statement of objections to the working group with
+the preliminary view that the working group “participated in a collusive scheme, in breach of
+EU competition rules, to limit the development and roll-out of emission cleaning technology
+[. . . ]” (European Commission, 2019). The investigation concluded in July 2021, and the EC
+found the working group guilty of violating Article 101(1) of the Treaty and Article 53(1) of
+the EEA Agreement, European Commission (2021). The firms were convicted of forming a
+cartel that restricted competition in the EU by coordinating their emissions control technology.
+The Commission argues that automakers colluded not to provide abatement beyond regulatory
+requirements, which could be interpreted as if the non-cooperative equilibrium would be one
+with over-compliance and that collusion limited the industry to compliance. This is at odds
+with the evidence of on-road noncompliance we present below. The Commission is restricted to
+implementing EU antitrust law and does not have jurisdiction over environmental regulation. The
+authority to determine noncompliance lies within the purview of individual member states. We
+interpret the Commission’s argumentation as sufficient to show a violation of EU competition
+law without adjudicating on behalf of member states what constitutes environmental compliance.
+   The European Commission set a fine of e 2.7 billion for limiting the sizes of their DEF
+tanks in diesel cars and coordinating their refill ranges. The automakers received lower fines
+in practice after a 20% novelty discount and a 10% settlement discount. The novelty discount
+was given because this is the first case of technology cooperation being ruled a cartel. BMW
+received a e 373 million fine, and Volkswagen received a e 502 million fine (including an addi-
+tional leniency discount of 45% for cooperating with the investigation). Daimler avoided a total
+fine of e 727 million for being the first whistle-blower.
+
+
+
+4.5.  Evidence for widespread noncompliance
+
+The EC closed its case based on the proven communication among the firms to attempt to reduce
+the size of the DEF tanks, but it did not make statements about the actual market effects of the
+coordination. We study DEF dosages to investigate if carmakers restricted the emissions control
+systems below the EU standards.
+
+
+
+
+
+       27. An EU antitrust expert shared the view that the whistle-blowing status was misused in this case because the
+firms would have been exposed anyway. The whistle-blowing was still useful in enabling the European Commission to
+close the case in a settlement.
+
+===== [PDF 第 15 页｜印刷第 49 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    49
+
+
+
+
+
+                                        FIGURE 3
+                          Distributions of DEF dosages by the working group and other Firms
+Notes: Box plot based on all diesel SCR vehicles (NEDC and WLTP) approved for Euro 6. Dosage equals DEF tank size divided by the
+fuel consumption for an annual mileage of 20,000 km. Lines within the box plot indicate the median. Box edges represent the 25th and
+75th percentiles. End points represent the lower and upper adjacent values. Outside values are omitted.
+
+
+
+   Using our data, we plot in Figure 3 the distributions of DEF dosages adopted by the working
+group and other firms. We convert DEF tank sizes to dosages by dividing the former by the
+annual fuel consumption. To obtain the annual fuel consumption for each vehicle, we multiply
+an annual average mileage of 20,000 km with the vehicle-specific fuel consumption (liter per km
+driven).28 Figure 3 shows that the working group sold SCR vehicles as early as 2009 before the
+Euro 6 emission standards took effect. The number of these early SCR vehicles was small: the
+working group introduced an average of 12 SCR vehicles per year before 2014, compared with
+137 afterward. Except for a single vehicle in 2011, all other firms introduce SCR vehicles after
+Euro 6. The interquartile values of the working group’s dosages are between 0.7% and 2.4%.
+The interquartile ranges of their dosages are consistently below those of other firms until 2018.
+Appendix Table A3 reports regressions of log DEF dosages on the working group indicator
+and finds that the working group adopts, on average, 8% lower dosages than other firms for
+SCR vehicles approved under NEDC. Contrarily, the working group has a higher dosage for
+WLTP-approved vehicles. This explains the narrowing of the dosage gap towards 2018, shown
+in Figure 3 as the share of WLTP vehicles starts to increase.
+  We now assess whether those dosage choices are sufficient for Euro 6 compliance under
+NEDC. To do so, we first use the RDE data to estimate the relationship between DEF choices
+and on-road NOx emissions. The on-road emission for vehicle j, measured in mg/km, is:
+
+                         e j = n jκ −Removal Rate × a j + υ j,                          (6)
+
+
+where n jκ is the part of vehicle j’s engine-out emission that is explained by a large set of control
+variables n j including fuel consumption and the presence of a supplementary LNT system, υ j is
+
+
+
+
+
+       28. The UK travel survey reports that diesels travel 17,200 km per year on average, see National Travel Sur-
+vey Table NTS0902, whereas based on odometer readings, the Dutch statistical agency reports diesel vehicles travel
+on average 23,000 km per year, see Centraal Bureau voor de Statistiek, “Dienst voor het wegverkeer, gemiddelde
+jaarkilometrage.”
+
+===== [PDF 第 16 页｜印刷第 50 页] =====
+50                 REVIEW OF ECONOMIC STUDIES
+
+                                   TABLE 1
+                                  Determinants of on-road emissions, mg/km
+
+                                                                            (1)                                       (2)
+
+DEF Size (L)                                             −8.19                           −7.71
+                                                                     (2.03)                                (3.63)
+LNT+SCR Relative to SCR                                −109.39                          −72.18
+                                                                  (50.55)                              (58.87)
+On-road Fuel Consumption (l/100 km)                             68.35                               69.06
+                                                                  (35.03)                              (31.02)
+Euro 6 Cycle                                                Both                    NEDC
+Controls                                    X                     X
+N                                                         143                              90
+Adjusted R2                                                      0.338                               0.374
+
+Notes: An observation is a diesel SCR vehicle approved for Euro 6 in the on-road emission dataset. Controls include
+the brand fixed effects, power, vehicle segment fixed effects, number of cylinders, curb weight, ambient temperature,
+ambient pressure, and relative humidity. Standard errors clustered at the brand level are in parentheses.
+
+
+the i.i.d. idiosyncratic part of j’s engine-out emission, and a j is the DEF tank size. The parameter
+of interest is RemovalRate, describing how much a liter of DEF neutralises NOx.29
+   Table 1 reports the regression results using equation (6) based on the RDE test results.
+Column (1) shows that emissions decrease with the DEF tank size and the presence of a supple-
+mentary LNT system and increase with fuel consumption. Because the collusion affected NEDC
+vehicles, we restrict to this subsample in Column (2) and estimate the DEF removal rate to be
+7.71 mg/km per liter of DEF.
+  We then use the estimated relationship in (6) to calculate a counterfactual DEF size for each
+vehicle such that it is compliant with the emission limit of 80 mg/km. We find that the average
+compliant dosage for NEDC vehicles in our RDE dataset would be 2.7%. This average com-
+pliant dosage is much higher than the average observed dosage of 1.67% and exceeds the 75th
+percentile of observed dosages shown in the top panel of Table 2. Correspondingly, the RDE
+test results show that those vehicles emitted, on average, three times the NOx emission limit on
+the road and that almost three-quarters of the tested models emit more than the emission limit.
+Engineering studies on the potential of SCR to help achieve Euro 6 compliance corroborate our
+compliance calculations.30 Following these studies, we adopt 3% as the dosage needed for com-
+pliance. Our appendix reports robustness using a 2%-scenario in favour of automakers and a “3%
+plus”-scenario that increases the fuel consumption ratings by 30% to account for on-road fuel
+consumption for EU vehicles being higher than official fuel consumption (Reynaert and Sallee,
+2021).
+  We apply the compliant dosages informed by the RDE dataset to our main dataset that cov-
+ers the universe of NEDC SCR models available in the seven representative European markets.
+Comparing the actual choices of DEF tank sizes with our computed compliant sizes shows
+widespread noncompliance in the industry. Panel B in Table 2 shows that the implied dosage
+of the DEF tank sizes on all NEDC vehicles in our main dataset is, on average, 1.71%. DEF tank
+
+
+
+       29. We use a linear relationship between emission and DEF tank size. In our sample, we have no observations
+with zero emissions after SCR treatment (at which point additional DEF cannot abate because emissions cannot be
+negative), and we find no statistical evidence for a nonlinear relationship between a j and e j.
+       30. Holderbaum et al. (2015) test a vehicle with different NOx treatment systems and conclude that compliance in
+real driving conditions requires DEF dosages between 2.9% and 3.6%. The study tested vehicles with fuel consumption
+of 6.8 liters/100 km and reports DEF usage of 2 to 2.5 liters/1,000 km to obtain compliance. Similarly, Op De Beeck
+et al. (2013) report a compliant dosage of 3%, and Sala et al. (2018) report 3–5%.
+
+===== [PDF 第 17 页｜印刷第 51 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    51
+
+                                   TABLE 2
+                     DEF tank size, dosage, and NOx exceedance factor
+
+                         Mean    St.Dev.    Min    25th Per.    75th Per.   Max  % Noncompliant
+
+Panel A: Real Driving Emissions Dataset
+  Observed DEF size (L)        16.42      6.40      8.00     12.00       17.00     33.40
+  Implied dosage (%)             1.67      0.58      0.81      1.25        2.14      3.21
+  NOx exceedance factor         2.99      2.62      0.12      0.99        3.88     13.76         73.8
+Panel B: Main Dataset
+  Observed DEF tank size (L)    16.27      5.22      8.00     12.00       17.00     38.70
+  Implied dosage (%)             1.70      0.57      0.59      1.28        2.15      3.25
+  Compliant DEF size (L)
+   2% dosage                 19.78      4.46    11.92     16.45       22.49     39.40         66.8
+   3% dosage                 29.68      6.69    17.89     24.68       33.74     59.09         99.2
+   3% dosage plus            38.58      8.69    23.25     32.08       43.86     76.82        100
+
+Notes: Implied dosage is derived by dividing the observed DEF tank size by the fuel consumption for an annual mileage
+of 20,000 km. Compliant DEF tank sizes are computed for the three scenarios described in the text. Each observation is a
+diesel SCR vehicle approved under Euro 6 NEDC. The RDE dataset has 84 such vehicles, and our main dataset has 744.
+
+
+sizes would need to increase on average from 16.3 liters to 29.7 liters in the 3% compliance sce-
+nario. At least 66.1% of vehicle models have insufficient DEF tank sizes in the conservative 2%
+scenario. Overall, Table 2 provides evidence that the automakers did not comply with the Euro
+6 emission standards under the NEDC.
+  We also find that the working group increased dosages and became more compliant from
+2018 onwards under the WLTP. In Appendix Table A5 Column (1), we report results from
+regressing the working group’s DEF dosage choices on the test cycle indicator with vehicle
+series fixed effects. We find that the average working-group vehicle increases its DEF dosage by
+0.21 percentage points as the test cycle changed from NEDC to WLTP (the mean dosage was
+1.6% under NEDC). In Column (2), using the RDE dataset, we find the working group substan-
+tially reduced NOx emissions. The NOx exceedance factor decreases by 1.35 from a mean of
+2.8 when the test procedure changed from NEDC to WLTP. Therefore, the working group could
+have achieved compliance but chose not to use the SCR technology to its full potential under
+NEDC between 2014 and 2018.
+  We conclude that there is clear evidence of noncompliance in the period 2014–2018 when
+NEDC type-approved Euro 6 vehicles were sold. The firms communicated about reducing DEF
+tank sizes, and the DEF emission control systems were upgraded in response to regulatory
+changes after the VW scandal.
+
+
+4.6.  Summary
+
+We summarize this section with four important takeaways for our empirical model. First, the fact
+that firms install costly SCR systems in response to the regulation and express concern about
+insufficiently-sized DEF tanks in internal communications shows that firms consider potential
+noncompliance penalties when making noncompliant abatement choices. In the language of our
+theoretical model, EK f (a) > 0 when a f < a∗f . Second, the EU member states enforce the Euro
+6 emissions standards imperfectly and are at an information disadvantage about actual emissions
+and the amount of abatement needed for compliance. Firms can, therefore, enter the market
+with noncompliant vehicles. Third, the working group settled a cartel case with the European
+Commission and admitted to coordinating to restrict DEF tank sizes. In the data, we thus observe
+a coordinated equilibrium with less abatement than without coordination: aJ < aN. Fourth, our
+data confirm widespread noncompliance in the industry, aJ < a∗, and we find the working group
+
+===== [PDF 第 18 页｜印刷第 52 页] =====
+52                 REVIEW OF ECONOMIC STUDIES
+
+chooses smaller DEF tanks than the rest of the industry, and we observe tank sizes increase after
+the revelation of noncompliance. These facts inform the non-cooperative counterfactuals we
+construct below.
+
+
+                                         5. ESTIMATION
+
+5.1.  Demand
+
+The demand model is a random coefficients nested logit model (RCNL), which combines the
+nested logit as in Cardell (1997) and Berry (1994), and the random coefficients logit as in BLP
+(Berry et al., 1995). See Miller and Weinberg (2017) for a recent application and Grigolon and
+Verboven (2014) for comparing different demand models. We define a market as a country-year
+and suppress the market subscript for notational ease. Each consumer i has conditional indirect
+utility from purchasing vehicle j:
+
+                                Ui j = δ j + µi j + ¯εi j,                                   (7)
+
+where δ j is the mean utility of vehicle j that is the same for every consumer, µi j is the individual
+deviation from the mean utility, and ¯εi j is a stochastic term described below. The outside option
+( j = 0) is not purchasing a vehicle, with its indirect utility normalised to ui0 = ¯εi0.31
+   The mean utility δ j of vehicle j is:
+
+                                δ j = αp j + x j(a j)β + ξ j,                                (8)
+
+where p j is the retail price, and x j is a vector of vehicle characteristics. Unobserved vehicle-
+specific attributes and demand shocks are represented by ξ j. The abatement choice a j, measured
+as the size of the DEF tank, enters the indirect utility function through its effect on vehicle
+characteristics x j, such as trunk space.32 Pollution reduction is considered an externality and
+does not enter the indirect utility independently.33 In Section 6, we empirically test whether
+consumers value DEF tanks sizes.
+   The individual deviation µi j from the mean utility is:
+
+                           µi j = σp p jνip + ∑︂ σkx jk(a jk)νik,                            (9)
+                                                               k
+
+where νip, νik are standard normal draws. We allow the DEF tank size to affect this individual-
+specific utility through trunk space. Some consumers may care more about trunk space (e.g.
+families and golfers). Additionally, we allow for random coefficients on prices, power, and range.
+   Consumer-vehicle-specific taste shocks,  ¯εi j, follow the distributional assumptions of the
+nested logit model in Cardell (1997). We define ten size classes, c = 0, 1, . . . , 9, such that class 0
+
+
+
+       31. We assume that households are in the market for a new vehicle every 7 years. The implied outside good share
+varies between 30% and 77%.
+       32. Appendix Table A4 reports that a 1-liter increase in the DEF tank size reduces the trunk space by 0.91 liters.
+An average DEF tank of 16 liters then takes up 3.6% of the average trunk space of a diesel vehicle. A DEF tank also
+increases curb weight by 1%, affecting, in turn, fuel consumption. We focus on trunk space because it is the most
+important margin. Ewing (2018) reports only the trade-off with trunk space.
+       33. Our framework can accommodate consumers partially considering pollution, as long as the private willing-
+ness to pay for pollution reduction is less than its social value. The impact of collusion on buyer surplus would be
+ambiguous because collusion (which decreases abatement) would increase buyer surplus through increased trunk space
+but decrease it through increased pollution.
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(7)  U_{ij}=\delta_j+\mu_{ij}+\bar\varepsilon_{ij}
+    核对方式：本轮看图；说明：outside u_{i0}=\bar\varepsilon_{i0}；\bar\varepsilon_{ij} 按 Cardell (1997) 的嵌套 logit 分布，十个车身尺寸组 c=0,\dots,9
+(8)  \delta_j=\alpha p_j+x_j(a_j)\beta+\xi_j
+    核对方式：本轮看图；说明：减排选择 a_j（尿素罐容积）经后备箱空间等特征 x_j(a_j) 进入效用
+(9)  \mu_{ij}=\sigma_p p_j\nu_{ip}+\sum_k\sigma_k x_{jk}(a_{jk})\nu_{ik}
+    核对方式：本轮看图；说明：\nu_{ip},\nu_{ik} 为标准正态
+----- 【公式校正结束】 -----
+
+===== [PDF 第 19 页｜印刷第 53 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    53
+
+includes the outside good, and the other nine classes are based on the EU vehicle size classifica-
+tion: subcompact, compact, intermediate, standard, luxury, MPV, SUV, compact van, and sports.
+We have ¯εi j = ζic(ρ ) + (1 −ρ )εi j, with εi j i.i.d. extreme value, and ζic(ρ ), which depends on
+the parameter ρ, having the unique distribution such that ¯εi j is extreme value. The nesting param-
+eter ρ has a value, 0 ≤ρ ≤1. When ρ = 0, the model becomes a standard random coefficient
+logit model. When the nesting parameter is larger than 0, consumer preferences for goods in the
+same nest correlate more strongly.
+   Consumer i chooses vehicle j if Ui j ≥Ui j′ for all  j′ = j. The market share for vehicle j
+comes from integrating over individual choices:
+
+                         ∫︂exp{(δ j + µi j)/(1 −ρ )} exp{Iic}
+                         s j =                                     dνi,                    (10)
+                                   exp{Iic/(1 −ρ )}     exp{Ii}
+
+with the inclusive value terms defined as: Ii0 = 0, Iic = (1 −ρ )log ∑︁Jcj′=1 exp{(δ j′ + µi j′)/(1 −
+ρ )}, and Ii = log(1 + ∑︁Cc=1 exp{Iic}), where the first sum is over the products Jc within class
+c and the second sum over all inside nests C. The parameters from the demand model to be
+estimated are θ = (α, β , ρ , σ ).
+  We allow for correlation between prices and the unobserved ξ j. Our model considers strate-
+gic choices of the DEF tank size. We are less concerned about the correlation between ξ j and
+trunk space through the DEF tank size. The DEF tank size is a design choice that is not eas-
+ily adjustable after market entry, and automakers design vehicles years ahead of market launch.
+For robustness, we allow for potential correlations of ξ j and trunk space due to the DEF tank
+size choice. Our instrumental variables below correct the potential bias in the taste parameter for
+trunk space stemming from that correlation.
+  We instrument for prices, trunk space, random coefficients, and the nesting parameter with
+five groups of instrumental variables. First, we include BLP instruments constructed from exoge-
+nous vehicle characteristics. The BLP instruments are the sums of each of the exogenous
+characteristics of other vehicles produced by the same automaker and those produced by other
+automakers in the same market. Second, we include a set of cost instruments related to produc-
+tion organisation. We compute the number of engine versions produced on the same production
+line and a dummy capturing changes in production lines, assuming that production line changes
+affect costs.34 Third, we instrument for trunk space using gross trunk space. In the data, we
+observe net trunk space after space is taken up by the DEF tank (when a DEF tank is present
+in the vehicle). However, the gross trunk space equals the net trunk space for vehicles without
+DEF tanks. The gross trunk space of a vehicle without a DEF tank strongly correlates with the
+trunk space of a vehicle with a DEF tank in the same series.35 Gross trunk space is a valid instru-
+ment because it is chosen in the earliest stages of vehicle design and remains fixed throughout
+the whole design process (Whitefoot et al., 2017). Fourth, we construct approximate optimal
+instruments to identify the variances of the random coefficients (Reynaert and Verboven, 2014;
+Conlon and Gortmaker, 2020). Fifth, we include the number of products in each nest and market
+to instrument for the nesting parameter.
+
+
+
+
+       34. A typical manufacturing plant consists of several production lines. A production line consists of several
+stations where workers or machines perform various assembly steps. Our data includes the name of each production
+line. A change in production line means that the vehicle assembly process moves to another line within the same or
+another plant.
+       35. Series are distinguished by body styles (e.g. Audi A3 Cabriolet versus Audi A4 Limousine), and vehicles
+within a series have very similar dimensions and gross trunk space.
+
+===== [PDF 第 20 页｜印刷第 54 页] =====
+54                 REVIEW OF ECONOMIC STUDIES
+
+  We estimate the demand model with a general method of moments estimator. We invert the
+market shares using a contraction mapping to obtain ξ (θ ) for every parameter guess. Define Z
+to be the matrix of instruments and A a weighting matrix. We estimate θ by:
+
+                             min ξ (θ )′Z AZ′ξ (θ ).                                (11)
+                                                  θ
+
+Our estimation algorithm takes into account the recent improvements in demand estimation.36
+
+
+5.2.  Supply
+
+In the supply model, firms joining the working group make coordinated decisions in response to
+the EU emissions standard. The timing is as follows. First, the firms observe the emission stan-
+dard and the penalty function for noncompliance. Second, selected firms receive an invitation to
+join the working group. If all invited firms accept, then they form the working group. Third, all
+firms make simultaneous abatement choices (DEF dosages) for vehicles with an SCR system.
+The working group coordinates their abatement choices, and non-working group firms make
+non-coordinated choices. This ends the vehicle design phase for the EU6 production period
+2014–2018. Fourth, vehicle-by-market-specific demand and cost shocks materialize. Fifth, all
+firms make simultaneous price decisions for all vehicles (gasoline and diesel) in a Nash Bertrand
+game and collect variable profits. Sixth, the regulator might discover noncompliance; noncom-
+pliant firms pay penalties when caught. The difficulty of the empirical setting is that we do
+not observe the penalty function associated with noncompliance and that our application only
+contains a single noncompliance event. Yet, we present an approach to estimate reductions in
+the penalty function obtained by the working group and the market equilibrium effects of the
+collusive agreement.
+   Firms’ payoffs at the end of the game are the sum of variable profits and expected penalties.
+Many of our results focus on the participation decision to join the working group, a decision
+made before the demand and cost shocks materialize. Therefore, we use the terms expected
+penalty EK f and expected profit Eπ f to quantify the firms’ expectations about penalties and
+variable profits at the time of the participation decision. We draw from the estimated cost and
+demand shock distributions to obtain the expected profit Eπ.
+
+    5.2.1. Variable profits. Firms earn variable profits given by:
+
+                  π f (a, p) = ∑︂ [︁ p j −mc j(a j)]︁ q j(a, p),                     (12)
+                                            j∈J f
+
+where J f is the set of products of firm f, mc j is the marginal cost of vehicle j, and q j is sales quan-
+tity. Abatement actions a j may impact variable profits in two ways. First, larger DEF tanks may
+reduce the willingness to pay for the vehicle because it compromises trunk space, an attribute
+that buyers potentially value. Second, abatement actions may increase the marginal cost of pro-
+duction. Larger DEF tanks may be costlier to install. Our demand and marginal cost estimates
+
+
+
+       36. We use the Knitro solver with an analytic gradient, approximate the market share integral with 1,000 Modified
+Latin Hypercube Sampling (MLHS) draws, use a tight convergence criterion for the contraction mapping (1e−12),
+estimate variances of the random coefficients and not standard deviations, use approximate optimal instruments for the
+random coefficients, start from 10 different starting values to avoid local minima, estimate two-step GMM with optimal
+weighting matrix, and check first and second-order conditions at the obtained minimum. See Conlon and Gortmaker
+(2020) for an overview of methodological improvements in demand estimation.
+
+===== [PDF 第 21 页｜印刷第 55 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    55
+
+indicate how much variable profits decrease with DEF tank size. Likewise, cross-price and cross-
+trunk-space derivatives of the estimated demand model determine the degree to which a firm’s
+variable profit depends on competitors’ abatement actions.
+
+
+    5.2.2. Marginal costs. Assuming Nash Bertrand competition in prices, we back out
+marginal costs from the first-order conditions of the variable profit function. Let Ω be the owner-
+ship matrix, where the element Ω jh indicates whether the same firm sells product j and product
+h. Let S(a, p) be a matrix whose element Sjh = −∂sh(a,∂p j p) . Then, the first-order condition of the
+firms’ maximisation problem implies the following vector of marginal costs:
+
+                    mc = p + (Ω ⊙S(a, p))−1s,                           (13)
+
+where s is the vector of products’ market shares, and ⊙is the element-by-element matrix
+multiplication operator.
+  We regress these marginal costs on product attributes and an indicator for members of the
+working group to estimate the implications of abatement choices and collusion on marginal
+costs:
+
+                  mc j = ηxx j + ηaa j + ηwga jWG j + ω j,                      (14)
+
+where WG j is a dummy variable, taking the value of one whenever the producer of vehicle j is
+in the working group and zero otherwise, and ω j is the unobserved marginal cost. If the working
+group achieved cost savings relative to other firms, we expect the parameter ηwg to be negative.
+We estimate marginal costs with a rich set of fixed effects. The cost parameters are identified
+from variations between almost identical vehicles in the same series generation produced on the
+same platform and plant. Because of the rich set of fixed effects and our timing assumptions, we
+assume that there is no concern for any remaining endogeneity of DEF tank sizes.
+
+
+    5.2.3. Bounds on expected noncompliance penalties. We estimate a bound on the reduc-
+tion in expected penalties formulated in Proposition 1 by simulating automakers’ expected
+variable profits at different abatement action profiles. We estimate this bound in three steps.
+    First, we derive a lower bound on the expected noncompliance penalty faced by each
+working-group firm if it were to unilaterally choose the same level of low abatement as in the
+working-group proposal. We do so by rearranging Inequality (2):
+
+           EK f (a Jf , aN−f ) ≥Eπ f (a Jf , aN−f ) −Eπ f (aN) + EK f (aN),              (15)
+
+which indicates that the expected noncompliance penalty of this unilateral low abatement choice
+must more than offset the associated variable profit gain, plus any applicable penalty at the non-
+cooperative profile. A conservative lower bound on the expected noncompliance penalty of this
+unilateral low abatement is Eπ f (a Jf , aN−f ) −Eπ f (aN), because EK f (aN) ≥0.
+   Second, we obtain an upper bound on the expected penalties faced by each working-group
+firm from the participation constraint in Inequality (1):
+
+          EK f (a J) + EA f (a J) ≤Eπ f (a J) −Eπ f (aN) + EK f (aN).             (16)
+
+The expected noncompliance penalty for a working-group firm f under the collusive proposal
+must be smaller than the variable profit gain from collusion, plus any applicable penalties at the
+non-cooperative profile.
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(13)  \boldsymbol{mc}=\boldsymbol p-\big(\Omega\odot S(\boldsymbol a,\boldsymbol p)\big)^{-1}\boldsymbol s,\qquad S_{jh}=-\frac{\partial s_h(\boldsymbol a,\boldsymbol p)}{\partial p_j}
+    核对方式：本轮看图；说明：原页印作 \boldsymbol{mc}=\boldsymbol p+(\Omega\odot S(\boldsymbol a,\boldsymbol p))^{-1}\boldsymbol s。在原文自己的定义 S_{jh}=-\partial s_h/\partial p_j 下，(\Omega\odot S)^{-1}s 是正的加价，加号是笔误，照抄会得到 mc>p；上式为正确写法，等价于 \boldsymbol p+(\Omega\odot J^{\top})^{-1}\boldsymbol s（J_{jh}=\partial s_j/\partial p_h）
+(14)  mc_j=\eta_x x_j+\eta_a a_j+\eta_{wg}\,a_j\,WG_j+\omega_j
+    核对方式：本轮看图；说明：WG_j 为工作组（合谋）成员虚拟变量
+(15)  \mathbb EK_f(a^J_f,\boldsymbol a^N_{-f})\ \ge\ \mathbb E\pi_f(a^J_f,\boldsymbol a^N_{-f})-\mathbb E\pi_f(\boldsymbol a^N)+\mathbb EK_f(\boldsymbol a^N)
+    核对方式：本轮看图；说明：单方低减排时预期罚金的下界
+(16)  \mathbb EK_f(\boldsymbol a^J)+\mathbb EA_f(\boldsymbol a^J)\ \le\ \mathbb E\pi_f(\boldsymbol a^J)-\mathbb E\pi_f(\boldsymbol a^N)+\mathbb EK_f(\boldsymbol a^N)
+    核对方式：本轮看图；说明：合谋方案下预期罚金的上界
+----- 【公式校正结束】 -----
+
+===== [PDF 第 22 页｜印刷第 56 页] =====
+56                 REVIEW OF ECONOMIC STUDIES
+
+   Third, we combine the lower and upper bounds from above to obtain a rearranged version of
+Inequality (4) from Proposition 1:
+
+       EK f (a Jf , aN−f ) −EK f (a J) −EA f (a J) ≥Eπ f (a Jf , aN−f ) −Eπ f (a J),        (17)
+           ⏞         Reduction in Expected⏟⏟      Penalties       ⏞   ⏞   Reduction in⏟⏟Variable Profit  ⏞
+
+which provides a lower bound on the reduction in the expected penalties from joint low abate-
+ment relative to unilateral low abatement. The inequality also gives a conservative lower bound
+for the reduction in expected noncompliance penalties, EK f (a Jf , aN−f ) −EK f (a J), because
+EA f (a J) ≥0. Although this lower bound is a direct derivation from the lower bound in Inequal-
+ity (15) and the upper bound in Inequality (16), it has the advantage of not relying on EK f (aN);
+we only need information on variable profits at different abatement profiles.
+
+    5.2.4. Non-cooperative equilibria. To quantify the bounds on expected noncompliance
+penalties characterised by Inequalities (15)–(17), we need to estimate variable profits Eπ f (a J),
+Eπ f (a Jf , aN−f ), and Eπ f (aN). We estimate the first term from observed quantities and Nash-
+Bertrand markups defined in equation (13).37 To estimate the remaining terms, we need to know
+DEF tank size choices in a non-cooperative equilibrium, aN, which is not observed in the data.
+   The relative position of aN between a J and a∗determines the degree of additional noncom-
+pliance achieved by the working group. We present results for two cases of the non-cooperative
+equilibrium. First, a structural estimation of the marginal expected noncompliance penalty func-
+tion, which shows that the industry would move to a compliant equilibrium aN = a∗without
+collusion. Second, we simulate a noncompliant aN ∈(a J, a∗) that plausibly captures the min-
+imal effect of collusion without relying on assumptions about the expected noncompliance
+penalty function.
+   In the first case, we estimate aN from the optimal abatement choices of non-working-group
+firms. We assume firms make abatement choices at the series generation level r.38 This modelling
+choice is based on the observation that there is no variation in the DEF tank size within a series
+generation. The first-order condition associated with the non-cooperative abatement choices of
+non-working group firms balances the marginal profit of changing abatement for all DEF vehi-
+cles in series r with the marginal change in the expected profit. Thus, the first-order condition
+for series r by a non-working-group firm g, conditional on the working-group collusion, is:
+
+                           ∂Eπg(a J)   ∂EKg(a J)
+                        =                  .                             (18)
+                                   ∂ar          ∂ar
+
+The estimated model of demand and supply allows us to construct the left-hand side of this
+equation. Following the analytical method of Villas-Boas (2007), we compute the marginal
+changes in expected profits by summing up the marginal changes due to increased marginal
+production cost, decreased demand from smaller trunk space, and an adjustment of equilib-
+rium prices (see Appendix Section A4.1). We use variations in the marginal expected profits
+to estimate the marginal expected noncompliance penalty of the non-working group firms by
+
+
+
+
+
+       37. Firms make decisions before demand and cost shocks materialize. In simulations, we take 100 draws with
+replacement from the estimated demand and cost shock distributions, ξ and ω, respectively.
+       38. A series generation is a firm-designated collection of models of the same style and dimensions within 3–5
+years. For example, the series generation “BMW Series 3 Limousine (07/15–10/18)” contains models 316, 318, 320,
+325, 330, 335, 340 and runs from 2015 to 2018.
+
+===== [PDF 第 23 页｜印刷第 57 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    57
+
+specifying the right-hand side of (18) as follows:
+
+             ∂EKg(a)
+              = −exp{γ0 + γ1ar + γ2a−g + γ3 log(sizeg) + ϵr},            (19)
+                  ∂ar
+
+where the marginal expected noncompliance penalty is an exponential function of a firm’s own
+abatement choice, the average abatement levels of other firms, and its historical sales revenue.
+We assume an i.i.d. error term ϵr. We present estimation results in Appendix Section A4.3.
+   With the estimation results of (19), we expand the set of equation (18) to include the first-
+order conditions that working group firms would use to choose DEF dosage non-cooperatively.
+The system has aN as unknowns, equal to the total number of series generations with SCR.
+We recompute the equilibrium prices while solving for the counterfactual aN. We detail the
+computation in Appendix A4.3. We find that all firms have the incentive to increase abatement
+in the absence of collusion: the decrease in variable profits is smaller than the decrease in the
+expected penalty. Since the expected noncompliance penalty is zero at compliance, our estimates
+imply that the non-cooperative equilibrium is the corner solution with industry-wide compliance,
+aN = a∗.
+  A compliant non-cooperative equilibrium corresponds to the maximal amount of additional
+noncompliance achieved by the working group proposal. It not only allows the working group to
+choose lower dosages than the rest of the industry, but it also leads to widespread noncompliance
+in the industry.39 We construct this aN by increasing the DEF tank sizes of all firms in the indus-
+try to compliance. We show results for the 3% dosage scenario defined in Section 3 and report
+robustness results for the 2% dosage and 3% dosage plus (with real-world fuel consumption) in
+Appendix Table A9. These scenarios span a comprehensive range of what it takes to comply,
+with average DEF tank sizes ranging from 19 to 38 liters and average increases of 3 to 22 liters.
+   In the second case, we focus on a scenario where the working group achieves a mini-
+mal amount of additional noncompliance beyond non-cooperative choices: aN ∈(a J, a∗). To
+approximate this aN, we rely on the difference in the observed dosages between the working
+and non-working group firms, as shown in Figure 3. Collusion may have merely enabled the
+working-group firms to adopt lower dosages than the non-working-group firms. In this case,
+absent collusion, the working group may have chosen dosages comparable to the rest of the
+industry. We implement this approach by moving the distribution of dosages of the working
+group so that their median dosage in each year equals that of the median of non-working-
+group firms. Across years, this corresponds to an increase in the working group median dosages
+from 1.5% to 2.1%, or a 5-liter increase in median tank sizes. We ignore a potential strate-
+gic response of non-working-group firms to the change in the DEF tank sizes of the working
+group. Such strategic responses are of second-order importance for the welfare results because
+the non-working-group firms sell much fewer vehicles with DEF tanks.
+   To sum up, collusion succeeded in reducing tank sizes, and we compute two non-cooperative
+scenarios corresponding to a minimal and a maximal collusion-enabled reduction. We use these
+scenarios to quantify the possible outcomes of interest in the next two sections.
+
+
+
+
+
+       39. Figure 3 shows that working-group firms released vehicles approved for Euro 6 before the regulation became
+binding in 2014. The early DEF dosages are comparable to what firms chose in 2014–2018. The working group may
+have thus signalled their low DEF dosage choices to non-working group firms. When Euro 6 standards take effect, the
+non-working groups follow the working group into noncompliance.
+
+===== [PDF 第 24 页｜印刷第 58 页] =====
+58                 REVIEW OF ECONOMIC STUDIES
+
+                                   6. ESTIMATION RESULTS
+
+We first present our demand and marginal cost estimates. We then quantify the bounds of the
+reduction in expected noncompliance penalties achieved by collusion. We show empirical evi-
+dence for the possible reasons behind such a reduction, discussed in Section 2. We conclude by
+describing how the collusive scheme affects the compliance choices of firms outside the working
+group.
+
+
+6.1.  Demand estimates
+
+We report the demand estimates in Table 3. Column (1) presents a logit OLS. In column (2), we
+expand the model to the nested logit, and we instrument for prices, trunk space, and the nesting
+term. The instrumental variables for price correct the upward bias in the price coefficient in Col-
+umn (1). The trunk IV based on gross trunk does not change the trunk space coefficient relative
+to the OLS, providing evidence that DEF tanks are likely uncorrelated with the unobserved vehi-
+cle quality. The magnitude of the trunk space coefficient implies that the willingness to pay for a
+14-liter increase in the trunk space, or equivalently having an average-sized DEF tank removed,
+is e 291.40 The nesting parameter is 0.33, meaning there is more substitution between vehicles
+in the same size class than between vehicles in different size classes.
+   The nested random coefficient logit specification in Column (3) shows significant hetero-
+geneity in the price and range coefficients but not in the trunk space or power coefficient.41 We
+use the RCNL model from Column (3) in all the subsequent estimates. The nesting coefficient
+is precisely estimated to be 0.47, and together with the random coefficients, the demand model
+estimates higher cross-price elasticities for more similar vehicles in terms of prices, power, and
+size class relative to the logit model. The outside good is in a separate nest, so there is also more
+substitution between inside goods than between the outside good and inside goods.
+   The median own-price elasticity is −3.06. The median firm-level price elasticity is −2.44.
+The median market-level price elasticity is −0.74. The median margin is 37%. These price
+elasticities are of the same magnitude as recent other applications in the Spanish (Miravete et al.,
+2018) and German (Remmy, 2022) automobile markets, but somewhat lower than estimates
+in the US market (Grieco et al., 2023). Appendix Table A7 reports the price diversion ratios.
+The results show that due to the random coefficients, the products of the collusive firms are
+closer substitutes, and more so for vehicles with DEF tanks. These substitution patterns play an
+important role in our analysis of the diffusion of responsibility and skin in the game mechanisms
+below and in our counterfactual analysis.
+   Column (4) also tests consumer demand for DEF by including an indicator variable of
+whether the vehicle has an SCR system with a DEF tank and, if so, the DEF tank size. We
+find no statistically significant demand for DEF. In Appendix Table A6, we report more speci-
+fications involving the DEF tank size and similarly find no statistically significant coefficients.
+While those imprecise estimates do not statistically rule out a positive demand for DEF, several
+arguments indicate that consumer demand for DEF is unlikely. First, if consumers value SCR
+emissions control technology, automakers could have offered SCR much earlier. Engine variants
+
+
+
+
+       40. To obtain this number, we compute: 0.87/1,000 × 14/1.47 × 35,091 = 283 using the average GDP per
+capita of e 35,091.
+       41. We estimate a normal distribution for the random coefficient on price. In theory, this could be inconsistent
+because firms would set infinite prices if some consumers have a positive price coefficient. In practice, we use a truncated
+normal distribution so that no simulated individuals ever have a positive taste for the price. We truncate the 1% most
+extreme positive and negative MLHS draws for the price random coefficient.
+
+===== [PDF 第 25 页｜印刷第 59 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    59
+
+                                   TABLE 3
+                                    Demand estimates
+
+                                        (1)                  (2)                     (3)                      (4)
+
+                                 Logit OLS      Nested Logit IV    RC Nested Logit     RC Nested Logit
+
+                            Param.   St. Err.  Param.    St. Err.   Param.      St. Err.     Param.      St. Err.
+
+                                                     Mean Valuation      Mean Valuation
+
+Retail Price / Per Capita GDP  −0.21    (0.02)  −1.47     (0.08)   −2.04       (0.31)    −2.04       (0.31)
+Trunk Space (cubic m)          0.90    (0.13)    0.87     (0.09)     0.83       (0.13)      0.83       (0.13)
+Power (100 kw)             −0.54    (0.02)    0.25     (0.03)     0.13       (0.09)      0.13       (0.09)
+Engine Size (L)                 0.08    (0.02)    0.15     (0.01)     0.13       (0.02)      0.12       (0.01)
+Curb Weight (ton)           −1.70    (0.07)  −1.10     (0.05)   −0.81       (0.01)    −0.81       (0.06)
+Footprint (sq m)                1.77    (0.03)    1.28     (0.04)     1.04       (0.04)      1.05       (0.04)
+Fuel Cost / Per Capita GDP   −64.73    (1.14) −36.54     (1.12)  −52.80       (1.23)   −52.92       (1.23)
+Foreign                   −0.90    (0.01)  −0.56     (0.01)   −0.54       (0.01)    −0.54       (0.01)
+Range (1,000 km)               0.82    (0.04)    0.60     (0.04)     0.07       (0.04)      0.07       (0.04)
+Having SCR                                                                  −0.01       (0.04)
+DEF Tank Size (cubic m)                                                                   3.67       (2.30)
+
+                                                                   Standard Deviation     Standard Deviation
+
+Retail Price / Per Capita GDP                                         0.78       (0.20)      0.78       (0.20)
+Trunk Space                                                        0.04       (0.19)      0.04       (0.19)
+Power                                                              0.18       (0.04)      0.19       (0.04)
+Range                                                              0.00       (0.00)      0.00       (0.00)
+
+Nesting Parameter                                0.33     (0.01)     0.47       (0.01)      0.46       (0.01)
+
+IV for Price                           X            X             X
+IV for Trunk                          X            X             X
+N                              212,661          212,661             212,661              212,661
+
+Notes: All specifications include country-year trend, country-fuel type FE, drive type FE, transmission FE, series-body
+FE, Euro emission standards FE, and market duration FE. The random coefficient nested logit is estimated by optimal
+two-step GMM.
+
+and interior choices are omnipresent in this market. In contrast, SCR was deployed as a response
+to Euro 6, as shown in Figure 1. Second, consumers are likely uninformed about the DEF tank
+size. DEF tank sizes are not usually listed in owner’s manuals or displayed at dealerships. Third,
+as described in Section 4, DEF refills are designed to coincide with annual check-ups without
+consumer intervention during the study period.
+
+
+6.2.  Marginal cost estimates
+
+Table 4 reports the marginal cost estimates for diesel vehicles. We allow the marginal cost func-
+tion to be specific for diesel and gasoline.42 Column (1) estimates that the SCR technology costs
+e 687 and the LNT technology costs e 437. The estimates are statistically consistent with the
+engineering estimates in Sanchez et al. (2012), who report SCR to cost $494 (for large vehicles)
+and LNT $320 (for small vehicles). To estimate how the marginal cost increases with every liter
+of the DEF tank size, Column (2) shows that DEF tanks are on average e 42 per liter. We use
+this estimate in our counterfactual analysis when we change DEF tank sizes.
+
+
+
+
+       42. We do not report the results for gasoline vehicles because they never have a DEF tank and their marginal
+costs remain constant in the counterfactual simulations.
+
+===== [PDF 第 26 页｜印刷第 60 页] =====
+60                 REVIEW OF ECONOMIC STUDIES
+
+                                   TABLE 4
+                                         Marginal cost estimates
+
+                                               (1)                    (2)                    (3)                    (4)
+
+LNT                                 437.18              405.08              450.89              430.01
+                                        (84.57)              (81.12)             (132.15)             (130.83)
+SCR                                 686.88                                 941.76
+                                      (115.72)                                 (200.14)
+DEF Size (L)                                               42.09                                   62.28
+                                                                (6.61)                                   (13.87)
+LNT × Working Group                                                  −18.17            −23.51
+                                                                                (168.88)             (165.08)
+SCR × Working Group                                                  −378.65
+                                                                                (247.60)
+DEF Size × Working Group                                                                −26.98
+                                                                                                       (15.94)
+Controls                     X            X            X            X
+Fixed Effects                  X            X            X            X
+N                                    97,228              97,228              97,228              97,228
+Adjusted R2                             0.631               0.631               0.631               0.631
+
+Notes: Reported in 2018 euros. Diesel vehicles only. Fixed effects are at the series generation level. Control variables
+include engine size, horsepower, torque, wheelbase, footprint, height, fuel consumption, curb weight, country-specific
+year trend, and dummies of registration country, transmission, drive type, body type, numbers of doors, number of
+gears, number of valves, fuel injection, engine platform, and producing plant. Standard errors are clustered at the series
+generation level.
+
+
+   Columns (3)–(4) add interaction terms with the working group indicator to the previous
+two specifications. All the interaction terms have statistically imprecise parameters. We do not
+find statistical evidence that the working group achieved cost savings relative to the rest of the
+industry. The European Commission’s documents and the working group’s responses did not
+mention cost efficiencies, nor were upstream DEF suppliers involved in the case.
+
+
+6.3.  Estimates of expected noncompliance penalties
+
+To estimate the bounds on the expected noncompliance penalties, we simulate the expected
+variable profits at DEF tank size choices according to Inequalities (15)–(17). We consider the
+observed DEF tank sizes as the collusive choices a Jf . For the non-cooperative tank size choices
+aNf , we use the two scenarios discussed in Section 5: one where the non-cooperative equilibrium
+is noncompliant and the other where it is compliant. We recompute marginal costs and trunk
+space with counterfactual DEF tank sizes for each scenario and find new equilibrium prices and
+quantities.
+   Table 5 quantifies the bound from Inequality (17). For the noncompliant counterfactual sce-
+nario, the bounds for (15) and (16) cannot be computed because the expected penalty EK f (aN)
+is not zero when aN < a∗. However, the term EK f (aN) cancels out when taking the difference
+between the first two bounds, so that the reduction in the expected penalty can be computed
+without having to take a stance on the level of expected penalties in the non-cooperative profile.
+Compared to unilateral low abatement, coordinated low abatement reduces the expected penal-
+ties by at least e 30–109 million for BMW, e 18–83 million for Daimler, and e 21–153 million
+for Volkswagen. The estimated penalty reductions differ between firms because the size of the
+change in the counterfactual trunks is asymmetric and because each firm sells different prod-
+ucts associated with different own- and cross-price elasticities. In sum, collusion reduces the
+
+===== [PDF 第 27 页｜印刷第 61 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    61
+
+                                   TABLE 5
+                       Bounds on the reduction in expected noncompliance penalties
+
+                                                                 Non-Cooperative Scenario
+
+                                                Noncompliant                               Compliant
+
+BMW                                             30                                    109
+Daimler                                            18                                     83
+Volkswagen                                         21                                    153
+Working Group Total                                 69                                    345
+
+Notes: Reported in million 2018 euros. This table quantifies Inequality (17) under two non-cooperative scenarios.
+
+
+
+expected noncompliance penalties the working group faces by at least e 69–345 million across
+the two scenarios. Appendix Table A9 reports results under additional compliance scenarios.
+   The reductions in expected penalties are economically significant. In the compliant non-
+cooperative scenario, the working group increases variable profits by e 410 million relative to
+compliance (see Table 8). The e 345 million reduction in expected penalties is large relative to
+the additional realised variable profit gain from collusion.
+
+
+6.4.  Reasons for expected penalty reduction
+
+We provide quantitative evidence for the three reasons that potentially reduce expected penalties:
+diffusion of responsibility, skin in the game, and probability of detection. The evidence presented
+here, illustrated with compliance as the non-cooperative scenario, suggests the extent to which
+these economic forces are potentially present in the industry. With a single collusion case, we
+cannot identify their importance separately.
+
+
+    6.4.1. Diffusion of responsibility. We quantify the degree to which a single firm’s noncom-
+pliance penalty could decrease when caught along with other violators compared to being caught
+alone. To do so, we compute a hypothetical example where firms receive reputation damages
+alone or jointly. We proceed in two steps. First, we apply joint reputation shocks that reduce the
+profits of the working group firms. We reduce buyers’ indirect utilities with firm-specific addi-
+tive shocks t f until each firm’s profits decrease by one-third of the working group gains. Second,
+we apply the same reputation shock to one firm at a time without shocking the reputation of the
+other working group firms (firm f receives t f and t−f = 0 for other firms −f ).43
+  When a firm’s profit from a joint shock is smaller than that from a shock received alone,
+we interpret this as evidence of the presence of diffusion in this industry. When only one firm
+is caught and receives a reputation shock, other firms’ reputations are unaffected, so consumers
+can substitute for the undamaged firms or the outside good. When multiple firms are caught
+noncompliant, all firms’ reputations are affected. The joint reputation shock shifts the industry’s
+position relative to the outside option but not the relative position between firms. Joint reputation
+shocks thus potentially diffuse the damage that unilateral reputation shocks inflict on single
+firms.44
+
+
+
+
+       43. Bachmann et al. (2022) study the collective reputation of the German automakers; we shock reputations of
+individual automakers.
+       44. A further argument for the diffusion of responsibility could come from the political economy of national
+economic concerns. According to an EU parliamentary report (Gieseke and Gerbandy, 2017), member states were aware
+of noncompliance but were reluctant to intervene. A group of firms or an entire industry might be too big to prosecute.
+
+===== [PDF 第 28 页｜印刷第 62 页] =====
+62                 REVIEW OF ECONOMIC STUDIES
+
+                                   TABLE 6
+                                  Diffusion of responsibility with reputation shocks
+
+                             Joint                   Unilateral
+                   Shock Effect           Shock Effect              Effect Difference      % Diffused
+
+              π f (t f , t−f ) −π f      π f (t f , 0) −π f      π f (t f , t−f ) −π f (t f , 0)
+
+BMW               −137              −186                     49               26%
+Daimler              −137              −175                     38               22%
+Volkswagen           −137              −242                    105               43%
+
+Notes: Reputation shock t f  is the reduction in the indirect consumer utility for each firm f in the working group that
+reduces the working group’s variable profit (in million 2018 euros) to that under the 3% dosage compliance. The last
+column computes the percentage of reputation damages that are diffused by the joint shocks relative to the unilateral
+shocks (e.g. 100 × 49/186 = 26%).
+
+
+                                   TABLE 7
+                                     Skin in the game with business stealing
+
+                                   Variable Profit Change            % Variable Profit Change Stolen
+
+           BMW         Daimler         Volkswagen         from the Rest of the Working Group
+
+BMW              100         −12           −28                     39%
+Daimler          −31            177           −53                     47%
+Volkswagen        −65         −59              498                     25%
+
+Notes: This table reports the change in variable profits (in million 2018 euros) when a firm in a row is the unilateral
+violator of the regulation: the firm chooses tank sizes a Jf while competitors choose a∗−f from the 3% compliance
+scenario. The final column computes the percentage of the increase in profits from violation that is stolen from other
+firms in the working group (e.g. (31 + 53)/177 = 47%).
+
+
+
+   Table 6 shows the extent to which reputation damage to a single working-group firm dif-
+fuses with joint reputation shocks. The reputation damage would be 26% smaller for BMW,
+22% for Daimler, and 43% for Volkswagen when other firms also receive reputation shocks. To
+explain the strong diffusion effect for Volkswagen, note that the degree of diffusion in this exer-
+cise depends on the estimated substitution patterns and number of affected vehicles. Since each
+working-group firm loses less when other firms’ reputations are also damaged, we interpret this
+as evidence that noncompliance penalties could diffuse in this sector.
+
+
+    6.4.2. Skin in the game. We compute the extent to which a unilateral violator would reduce
+the variable profits of its compliant competitors. The degree to which unilateral noncompliance
+leads to business stealing depends on the substitution patterns in the industry. Suppose that the
+competitors can legally recoup the variable profit damages inflicted by the violator. The violating
+firm may then want to reduce such risks by including its competitors in a collusive scheme.
+   Table 7 shows that whenever a working-group firm violates unilaterally, between 25% to
+47% of the variable profit gains from unilateral violation stem from stealing business from other
+firms in the working group. Collusion reduces the risk of being reported by a competitor to the
+regulator. When every working group member violates the regulation, every member has skin in
+the game and is less likely to expose the noncompliance.
+
+
+    6.4.3. Probability of detection. We show that DEF tank sizes of each working-group firm
+would have stood out had the firm been the sole violator. Coordinated noncompliance can reduce
+the probability of each working-group firm being detected noncompliant by the regulator.
+
+===== [PDF 第 29 页｜印刷第 63 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    63
+
+   While Figure 2 shows the DEF tank size distribution observed under the collusive scheme,
+Figure 4 plots the observed DEF tank sizes of each working-group firm against the 3% compliant
+distribution for the rest of the industry. It suggests that vehicles released by BMW, Daimler,
+and Volkswagen would likely appear suspicious relative to a compliant rest-of-industry.45 The
+working group thus potentially benefits from reduced scrutiny by moving into noncompliance
+jointly.46
+   In sum, we find empirical support for an economic environment that is susceptible to reduc-
+tions in expected penalties under coordinated noncompliance. Our demand estimates show that
+the working-group firms are close competitors, especially in the large diesel segment; this leads
+to strong diffusion of responsibility and skin in the game. Furthermore, by adopting similarly
+small DEF tanks, the working group masks their otherwise suspiciously low abatement. Finally,
+the working group involves all major German automakers, creating a situation where the national
+enforcer might find the working group too big to fail, an explanation that can be nested under
+diffusion of responsibility and reduction in the detection probability.
+
+
+
+6.5.  Estimated incentives of the non-working-Group firms
+
+Our empirical analysis of the non-working-group firms’ variable profits shows that non-
+working-group firms prefer the non-cooperative equilibrium. Relative to the noncompliant
+non-cooperative scenario, collusion causes the non-working-group firms to lose e 109 million
+in variable profits because they compete with more attractive diesel vehicles of the working
+group. However, moving from the compliant non-cooperative scenario to the observed collusion
+only reduces the non-working-group firms’ variable profits by e 66 million. Relative to the com-
+pliant non-cooperative scenario, collusion enables noncompliance for the entire industry. The
+non-working group’s loss from competing with more attractive diesel vehicles of the working
+group is almost completely offset by gains from also being able to move into noncompliance.
+   Conditional on the working group colluding, the non-working-group firms collectively gain
+e 327 million in variable profits by following the working group into noncompliance from 3%
+dosage compliance.47 We obtain this number from Inequality (5), which compares each non-
+working-group firm’s observed variable profits with what it would earn as the only compliant
+firm. This variable profit gain is also an estimate of the upper bound on the noncompliance
+penalties that the non-working-group firms expect. The reasons that explain the reduction in
+expected noncompliance penalties may also apply to non-working-group firms.
+
+
+
+
+
+       45. Dohmen and Hawranek (2017) write that “[i]f one manufacturer had installed larger [DEF] tanks, licensing
+and regulatory authorities would probably have become suspicious. The obvious question would have been why that
+one company’s vehicles needed so much more urea to clean the exhaust gases, while the other manufacturers’ cars
+supposedly managed with significantly less [DEF].”
+       46. One could make an opposite case: given that all firms are noncompliant, any single investigation would be
+more likely to expose all the firms. The probability of detection may then increase. It is interesting to consider the
+Volkswagen scandal. The scandal was exposed in the US by independent investigators who wanted to understand how
+Volkswagen succeeded in bringing clean diesel vehicles to the market while US automakers did not. This event matches
+the argument about a noncompliant firm standing out relative to other presumably compliant firms. In the EU, almost all
+automakers released noncompliant diesel vehicles. The regulator never investigated even while third parties, such as the
+ICCT, questioned compliance before the Volkswagen scandal.
+       47. We obtain this number using the realised demand and cost shocks instead of taking expectations (as we do
+for the working group firm’s bounds) due to computation burden.
+
+===== [PDF 第 30 页｜印刷第 64 页] =====
+64                 REVIEW OF ECONOMIC STUDIES
+
+                                                                                                                                                                  tank
+                                                                                                                          DEF
+                                                                                                                                                                                                                                                                                                                                                                              compliant
+                                                                                 of
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       distribution
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         counterfactual
+
+                                         a
+                                                                                                                                                                                                                                                                                            against
+                                                                                                                                                                                                                                                                                                                                     vehicles
+                                                                                                                                                                                                                                                    firm’s
+
+
+                                                                                                      out                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                working-group
+                                                                                                                                                                                                             stands  each
+                                                                                 of
+                                 4         NEDC)
+
+                                         6                                                                                                                                                                                                     FIGURE                                                                                                                                                                                                                                                                                                                                                                                                                                                            noncompliance  Euro
+                                                                                                                                                                                                                                                                                                                                                     Unilateral for                                                                                                                                                                                                                                                                                                                                     approved
+                                                                                                                                                                                                                                                                                                                                     vehicles
+                                                                                                                                                                                                                                                                                                                                     SCR-only
+                                                                                                                          (in
+                                                                                                                                                                                                           sizes
+                                                                                                                                                                  tank
+                                                                                                                          DEF
+                                                                                 of                                                                                                                                                                                                                                                                                                                                                                                         industry.
+                                                                                                                              the
+                                                                                    of                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       distribution rest
+                                                                                                                          the the
+                                                                                                                                                                                                           plots for
+                                                                                                                                                                                                                                                    figure  dosage)
+                                                                                                                                                                  This 3%
+                                                                                                                              (at
+                                                                                                                                                                                                                                                    Notes:  sizes
+
+===== [PDF 第 31 页｜印刷第 65 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    65
+
+                                   TABLE 8
+                                      Welfare effects of collusion, 2007–18
+
+                                                                  Non-Cooperative Scenario
+
+                                                 Noncompliant                            Compliant
+
+Working Group’s Profit Δπ                                 0.20                                      0.41
+                                                              [0.14, 0.29]                                   [0.29, 0.60]
+Residual Claim ℜ                                    −1.77                               −5.98
+                                                    [−2.03, −1.29]                         [−7.00 −4.26]
+NOx health impact                                   −2.18                               −7.89
+                                                    [−2.40, −1.52]                           [−8.78, −5.45]
+Buyer surplus                                              0.52                                      1.97
+                                                              [0.25, 0.76]                                   [0.88, 2.87]
+Other firms’ profit                                   −0.11                               −0.07
+                                                    [−0.16, −0.07]                           [−0.10, −0.05]
+Net Welfare Δπ + ℜ                                 −1.57                               −5.57
+                                                    [−1.85, −1.05]                           [−6.63, −3.80]
+Ratio λ = Δπ /(−ℜ)                                       0.11                                      0.07
+                                                              [0.09, 0.20]                                   [0.05, 0.13]
+
+Notes: Reported in billion 2018 euros. The 95% confidence intervals are in brackets. See Appendix A5 for details on the
+computation of those confidence intervals.
+
+
+                         7. WELFARE AND POLICY IMPLICATIONS
+
+This section explains how we compute welfare in counterfactual simulations, discusses the wel-
+fare effects of collusion, and offers policy implications by comparing the existing regulatory
+environment with a collusion-proof mechanism.
+
+
+7.1.  Welfare computation
+
+We define social welfare associated with an abatement action profile a as:
+
+                W(a) = BS(a) + ∑︂ π f (a) − ∑︂ φe j(a j)q j(a),                  (20)
+                                                                                        f                          j
+
+which includes buyer surplus BS, the sum of firm profits π f , and the externality damages given
+by the marginal damage of a unit of NOx emissions, φ, times emissions and sales. Regulatory
+penalties are considered a transfer and cancel out. The social welfare change caused by collusion
+relative to competition equals:
+
+                ΔW = W(a J) −W(aN).                             (21)
+
+To find changes in buyer surplus BS and variable profits π f , we use the estimated demand and
+marginal cost parameters from Section 5. For each diesel vehicle approved under Euro 6 NEDC
+with a DEF tank, we compute corresponding changes in marginal production costs and trunk
+space from enlarging the DEF tank to be compliant.48 Given these new marginal production costs
+and trunk spaces, we solve for a new Bertrand Nash price equilibrium. We compute quantities,
+firm profits, and buyer surplus represented by the inclusive value of the choice sets.
+
+
+
+       48. We do not include a scenario where automakers change the DEF refill frequency because it is not feasible to
+estimate the costs of refills for consumers in our empirical context. If increasing the refill frequency is less costly than
+increasing the tank size, we will overestimate the collusive benefits to firms and car buyers.
+
+===== [PDF 第 32 页｜印刷第 66 页] =====
+66                 REVIEW OF ECONOMIC STUDIES
+
+   For changes in externality damages, we sum the changes in NOx damages from each of firm
+f’s Euro 6 NEDC SCR vehicle j registered in year t as follows:
+
+
+           T
+     ∑︂ δτ  [︁q j(e∗+ (a∗j −a j)Removal Rate) −q∗j e∗]︁ × AnnualMileage × φ ,     (22)
+         τ=0
+
+where T is the lifetime of a vehicle, δ is the discount factor, e∗is the compliant emission, a j
+is the DEF tank size, and q∗j and a∗j are the counterfactual sales quantity and compliant DEF
+tank sizes.49 RemovalRate is the reduction in NOx emissions per unit of DEF tank size per
+distance driven, AnnualMileage is the annual mileage. The term (e∗+ (a∗j −a j)Removal Rate)
+represents the on-road emissions of vehicle j. To parameterize these NOx damages, we use δ =
+0.943 (which corresponds to a yearly discount rate of 6%), T = 14, e∗= 80 mg/km which is
+the Euro 6 emission limit, and AnnualMileage = 20,000 km. We take the marginal damage
+estimate from Oldenkamp et al. (2016) at $78 per kg of NOx (in 2013 dollars), calculated from
+a disability-adjusted cost of 20 life years per kton from the PM2.5 pathway induced by NOx
+across the EU and a value of a statistical life (VSL) of $7.6 million.50 We emphasize that these
+are only the health damages from NOx-induced PM 2.5. They do not include damages from
+NOx-induced ozone, agricultural productivity loss, compromised visibility and recreation, and
+reduced absorption of carbon dioxide by affected biomass. We use a removal rate of 7.71 as
+estimated in Section 3.
+
+
+7.2.  Welfare results
+
+Table 8 reports the welfare effects of collusion. The table shows that the working group’s extra
+variable profits due to collusion are 200 million relative to the noncompliant non-cooperative
+scenario and 410 million relative to the compliant scenario. The aggregate profits of other firms
+decrease by a smaller extent. Buyer surplus increases substantially with as much as e 1.97 billion
+relative to compliance, which amounts to e 332 per DEF vehicle sold. We find the health dam-
+ages of excess NOx to reach e 2.18–7.89 billion, outweighing the sum of the gains in firm profits
+and buyer surplus.51
+   Collusion enables both the working-group and non-working-group firms to increase prices
+and sales of Euro 6 NEDC DEF vehicles. Compared to the compliant non-cooperative scenario,
+Appendix Table A8 reports that the working group sells 1.4% more Euro 6 NEDC DEF vehicles
+featuring 3.6% larger trunk space and 1.4% higher prices (trunk space and price changes are
+weighted by sales quantity). Likewise, other firms sell SCR vehicles with 2.5% larger trunk
+space and 1.17% higher prices. The prices and quantities of non-NEDC-DEF diesel and gasoline
+vehicles experience only slight decreases.
+
+
+
+
+       49. We assume the outside good and vehicles without DEF cause no NOx emissions. We ignore outside good
+emissions because we find collusion increases the total quantity of vehicles sold by only 0.02%. See Appendix Table
+A8. Diesel vehicles without DEF have a very small market share, and gasoline vehicles emit low levels of NOx. See
+Jacobsen et al. (2023) for an example of how scrappage affects US pollution standards’ efficiency.
+       50. This number is comparable to the current VSL recommended by the U.S. Environmental Protection Agency
+at 7.4 million in 2006 dollars. The VSL would need to be as low as 5 million to undo the net welfare damage we find
+below across the three scenarios. All monetary values in the results are reported in 2018 euros; dollars are inflated from
+2013 to 2018 using the CPI (from 232.957 to 251.107) and converted to Euro using the 2018 exchange rate of e 1 to
+$1.18.
+       51. The excess NOx emissions due to collusion are 111 kton relative to compliance.
+
+===== [PDF 第 33 页｜印刷第 67 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    67
+
+   Taking together buyer surplus, firm profits, and NOx damages, we find that the net welfare
+change as defined in equation (21) is −e 5.57 billion relative to the compliant non-cooperative
+scenario with a 95% confidence interval of [−6.63, −3.80]. Relative to all the non-cooperative
+scenarios in Table 8 and Appendix Table A10, we estimate welfare changes between −e 1.57
+and −e 9.57 billion.
+   The welfare consequence of this collusion case is very different from that of price collusion.
+While price collusion typically results in a transfer from consumers to producers, this collusion
+on noncompliance benefits both participating firms and buyers at the expense of population-wide
+externality damages.
+
+
+7.3.  Policy implications
+
+Although our welfare results show the collusion decreased welfare, simply banning all coop-
+eration is not an optimal policy. The optimal policy would aim to prevent welfare-reducing
+collusion. Cooperation on abatement decisions could enhance welfare if there is over-regulation
+(e.g. a too stringent standard) or when coordination reduces the cost of technology development.
+Our model does not include technology cost reductions from coordination, which is consistent
+with the case document and our empirical findings. However, in other contexts, cost reductions
+could be the reason for firms’ coordinated responses to regulation.
+   Following Che and Kim (2006), we compute the penalty that prevents welfare-reducing col-
+lusion by making the cartel the residual claimant of the welfare effect of collusion on the rest of
+the society:
+                     ℜ = ΔW −Δπ ,                                  (23)
+
+where Δπ is the working group’s profit gain from collusion, ∑︁ f ∈WG[π f (a J) −π f (aN)]. A
+residual claim penalty transforms the sum of the participation constraints (1) into Δπ + ℜ =
+ΔW ≥0,52 so that the working group’s objective becomes perfectly aligned with that of a
+welfare-maximising regulator. Firms accept the collusive proposal aJ only when collusion is
+not welfare-reducing.
+  We construct a benchmark to evaluate the actual policy environment firms used to make their
+participation decision:
+                           Δπ
+                                λ = −ℜ.                                     (24)
+
+Under a collusion-proof policy, we should only observe collusion if ΔW ≥0, or λ ≥1 when
+we focus on cases where ℜ< 0. In this case, collusion increases the working group’s profits
+more than it harms the rest of the society. Making the working group the residual claimant has
+a redistributive role, but the working group would still collude as it generates enough profits to
+pay the claim. Such welfare-increasing collusion could indicate that the emission standards are
+too stringent; collusion increases efficiency but does so by harming other market participants.
+   However, the actual policy environment is not necessarily collusion-proof. If λ ∈(0, 1), then
+collusion increases the working group profits less than it harms the rest of the society. This is
+where our empirical case falls. The residual claim, as reported in Table 8, is −e 1.77 billion
+when we compare the collusive outcome to a noncompliant non-cooperative scenario and
+−e 5.98 billion when the comparison is with compliance. We estimate λ to be 0.11 and 0.07
+
+
+
+       52. The residual claim is given to the working group rather than individual firms. If the working group finds a
+transfer scheme between firms that satisfy firm-specific participation constraints, the working group would be allowed
+to implement it (see Che and Kim, 2006).
+
+===== [PDF 第 34 页｜印刷第 68 页] =====
+68                 REVIEW OF ECONOMIC STUDIES
+
+in the two scenarios. We can interpret this in three different ways. First, firms would participate
+in the collusive proposal as long as the probability of being made the residual claimant is lower
+than λ. Second, firms would participate in the collusive proposal if they expect to be caught and
+pay at most λ of the residual claim. Third, (1 −λ) gives the lower bound on the distance of the
+existing regulatory environment from the residual claim policy.
+    Antitrust complements weakly enforced environmental regulation and brings the EU regu-
+latory environment closer to a residual claim policy. However, the antitrust fines imposed on
+the working group are not sufficient. While the antitrust fines are sufficient to repair welfare
+damages ex-post, they fall short of deterring welfare-decreasing collusion on noncompliance
+ex-ante.
+
+
+                                         8. CONCLUSION
+
+We study the causes and welfare effects of firms coordinating on insufficient pollution abate-
+ment in response to imperfectly monitored environmental regulation. We examine the collusion
+among BMW, Daimler, and Volkswagen in restricting the effectiveness of their diesel NOx con-
+trol technologies since 2006. We build and estimate a structural model of vehicle demand and
+abatement choices, in which the incentive to coordinate on noncompliance stems from the ability
+to reduce expected penalties. Our welfare analysis reveals that the collusive benefits to automak-
+ers and car buyers come at the greater cost of NOx damages. Collusion reduces social welfare
+by between e 1.57–5.57 billion. The magnitude of the welfare damages the cartel inflicts on the
+rest of the society reaches between e 1.77–5.98 billion.
+   Although our analysis shows that antitrust is not stringent enough to prevent welfare-
+reducing collusion in the EU, we find an important complementary role of antitrust in enforcing
+regulation. Antitrust counteracts the reduction in the expected noncompliance penalty and
+reduces the benefits from collusion against regulation. However, using antitrust to complement
+environmental regulation has practical challenges. Unlike price collusion where the degree of
+overcharging provides the basis for fines and damages, coordinated noncompliance leads to
+overselling rather than overcharging. Prices are too low or product quality too high from a social
+perspective, which increases sales as well as pollution per unit sold. As such, the quantity sold
+and the additional pollution could form the basis of antitrust fines. The European Commission
+based fines on revenues from the relevant segment. There were no claims about the pollution,
+and the actual fines do not directly relate to a relevant welfare statistic (European Commission,
+2021). As discussed in Section 4, the European Commission has no legal authority to make state-
+ments about environmental compliance. This makes it challenging to set fines based on relevant
+welfare measures such as the residual claim and to rely on antitrust to complement environmen-
+tal regulation in the case of profitable coordination on noncompliance. In practice, the scope of
+antitrust would need to be broadened to allow explicit evaluation of noncompliance in order to
+have antitrust complement regulation.
+   Where antitrust is insufficient or has limited jurisdiction, welfare can be improved by an
+environmental policy that is robust against forces that reduce expected penalties for joint
+action. First, fines could increase with the number of noncompliant firms to undo the dif-
+fusion of reputation damages. This can be justified from a legal perspective with proof of
+explicit conspiracy. Second, policymakers could incentivize firms to reveal noncompliance,
+similar to leniency programs for price collusion, to reduce skin in the game. Third, inspec-
+tion decisions could incorporate the possibility that seemingly consistent abatement choices in
+the industry result from a joint scheme. Further research needs to investigate potential solu-
+tions to coordinated noncompliance, especially when regulation targets imperfectly competitive
+industries.
+
+===== [PDF 第 35 页｜印刷第 69 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    69
+
+
+    Acknowledgments.  We thank the editor and three referees for their helpful and constructive comments and Mike
+Abito, Charles Angelucci, Megan Bailey, Ying Fan, Matt Gentzkow, Bob Gibbons, Gautam Gowrisankaran, Ginger
+Jin, Karam Kang, Ashley Langer, Ignacia Mercadal, Kostas Metaxoglou, Nate Miller, Juan-Pablo Montero, Stef Proost,
+Mar Reguant, Patrick Rey, Franc¸ois Salani´e, Chris Sullivan, Frank Verboven and seminar and conference participants
+for useful discussions and suggestions. Chunyu Guo provided excellent research assistance. Al´e-Chilet acknowledges
+funding from NSF-BSF grant number 2020690 and from ANID FONDECYT Iniciaci´on en Investigaci´on under grant
+11230007. Chen acknowledges support from the University at Albany Faculty Research Award Category A and the NSF
+under grant SES-2049446. Li acknowledges support from the NSF under grants SES-2049263 and SES-2434980. Rey-
+naert acknowledges funding from ANR under grant ANR-17-EURE-0010 (Investissements d’Avenir program) and grant
+ANR-CAREGUL-18-CE03-0004-01. Legal disclaimer: This work analyses an antitrust case strictly from an economic
+point of view. Our statements are based on the European Commission statements, media articles, and economic data.
+We do not discuss the legality of the firms’ actions.
+
+
+Supplementary Data
+
+Supplementary data are available at Review of Economic Studies online.
+
+
+Data Availability
+
+The data underlying this article are proprietary and are provided to the authors under license by Jato Analytics, PwC,
+and Emission Analytics. The replication package describes in detail how researchers can obtain access to the data and is
+available on Zenodo: http://doi.org/10.5281/zenodo.14230848.
+
+REFERENCES
+
+ACEA (2024), “The Automobile Industry Pocket Guide 2023/2024”.
+AL´E-CHILET, J. and ATAL, J. P. (2020), “Trade Associations and Collusion among Many Agents: Evidence from
+   Physicians”, RAND Journal of Economics, 51, 1197–1221.
+ALEXANDER, D. and SCHWANDT, H. (2022), “The Impact of Car Pollution on Infant and Child Health: Evidence
+   from Emissions Cheating”, Review of Economic Studies, 89, 2872–2910.
+ATER, I. and YOSEPH, N. (2022), “The Impact of Environmental Fraud on the Used Car Market: Evidence from
+   Dieselgate”, Journal of Industrial Economics, 70, 463–491.
+AURIOL, E. and LAFFONT, J.-J. (1992), “Regulation by Duopoly”, Journal of Economics & Management Strategy, 1,
+   507–533.
+BACHMANN, R., EHRLICH, G., FAN, Y., et al. (2022), “Firms and Collective Reputation: A Study of the Volkswagen
+   Emissions Scandal”, Journal of the European Economic Association, 21, 484–525.
+BARON, D. P. and MYERSON, R. B. (1982), “Regulating a Monopolist with Unknown Costs”, Econometrica: Journal
+   of the Econometric Society, 50, 911–930.
+BERRY, S., LEVINSOHN, J. and PAKES, A. (1995), “Automobile Prices in Market Equilibrium”, Econometrica:
+   Journal of the Econometric Society, 63, 841.
+BERRY, S. T. (1994), “Estimating Discrete-Choice Models of Product Differentiation”, The Rand Journal of Economics,
+   25, 242–262.
+BLUNDELL, W., GOWRISANKARAN, G. and LANGER, A. (2020), “Escalation of Scrutiny: The Gains from
+  Dynamic Enforcement of Environmental Regulations”, American Economic Review, 110, 2558–85.
+BOURREAU, M., SUN, Y. and VERBOVEN, F. (2021), “Market Entry, Fighting Brands and Tacit Collusion: Evidence
+   from the French Mobile Telecommunications Market”, American Economic Review, 111, 3459–3499.
+BRESNAHAN, T. F. (1987), “Competition and Collusion in the American Automobile Industry: The 1955 Price War”,
+   Journal of Industrial Economics, 35, 457–482.
+CARDELL, N. S. (1997), “Variance Components Structures for the Extreme-Value and Logistic Distributions with
+   Application to Models of Heterogeneity”, Econometric Theory, 13, 185–213.
+CHE, Y.-K. and KIM, J. (2006), “Robustly Collusion-Proof Implementation”, Econometrica: Journal of the Econometric
+   Society, 74, 1063–1107.
+CONLON, C. and GORTMAKER, J. (2020), “Best Practices for Differentiated Products Demand Estimation with
+  PyBLP”, RAND Journal of Economics, 51, 1108–1161.
+DOHMEN, F. and HAWRANEK, D. (2017), “The Cartel: Collusion Between Germany’s Biggest Carmakers”.
+DUFLO, E., GREENSTONE, M., PANDE, R., et al. (2018), “The Value of Regulatory Discretion: Estimates From
+   Environmental Inspections in India”, Econometrica: Journal of the Econometric Society, 86, 2123–2160.
+EARNHART, D. and FRIESEN, L. (2021), “Use of Competitive Endogenous Audit Mechanisms by Federal and State
+   Inspectors Within Environmental Protection Agencies”, Journal of Environmental Economics and Management, 109,
+   102476.
+European Commission  (2019),  “Antitrust:  Commission  Sends  Statement  of  Objections  to BMW,  Daimler
+   and VW  for  Restricting Competition on Emission  Cleaning Technology”  https://ec.europa.eu/commission/
+   presscorner/detail/en/IP 19 2008 (accessed 21 September 2021).
+
+===== [PDF 第 36 页｜印刷第 70 页] =====
+70                 REVIEW OF ECONOMIC STUDIES
+
+
+—— (2021), “Case AT.40178 - Car Emissions - Commission Decision of 8.7.2021”.
+European Environment Agency (2015), “Air Quality in Europe—2015 Report” (Technical Report).
+EWING, J. (2018), Faster, Higher, Farther: The Inside Story of the Volkswagen Scandal (New York, NY: W. W.
+   Norteon & Company).
+EWING,  J. and GRANVILLE, K. (2019), “VW, BMW and Daimler Hindered Clean-Air Technology, European
+   Regulator Says”.
+GEARINO, D. (2020), “Love is Blind: How Germany’s Long Romance with Cars led to the Nation’s Biggest Clean
+   Energy Failure”, Inside Climate News. https://insideclimatenews.org/news/11062020/germany-transportation-auto-
+   industry-volkswagen-tesla-clean-energy/ (accessed 30 May 2024).
+GIESEKE, J. and GERBANDY, G.-J. (2017), “Report on the Inquiry into Emission Measurements in the Automotive
+   Sector” (Technical Report 2016/2215(INI), European Parliament).
+GRIECO, P. L. E., MURRY, C. and YURUKOGLU, A. (2023), “The Evolution of Market Power in the U.S. Automobile
+   Industry*”, The Quarterly Journal of Economics, 139, 1201–1253.
+GRIGOLON, L. and VERBOVEN, F. (2014), “Nested Logit or Random Coefficients Logit? a Comparison of Alternative
+   Discrete Choice Models of Product Differentiation”, The Review of Economics and Statistics, 96, 916–935.
+GROSS, D. P. (2020), “Collusive Investments in Technological Compatibility: Lessons from U.S. Railroads in the Late
+   19th Century”, Management Science, 66, 5485–6064.
+Health Effects Institute (2017), “State of Global Air 2017” (Technical Report).
+HOLDERBAUM, B., KIND, M., MENNE, C., et al. (2015), “Potential for Euro 6 Passenger Cars with SCR to Meet
+  RDE Requirements”, Internationales Wiener Motorensymposium, 36, 1–22.
+HOLLAND, S. P., MANSUR, E. T., MULLER, N. Z., et al. (2016), “Damages and Expected Deaths Due to Excess NOx
+   Emissions from 2009 to 2015 Volkswagen Diesel Vehicles”, Environmental Science and Technology, 50, 1111–1117.
+IGAMI, M. and SUGAYA, T. (2022), “Measuring the Incentive to Collude: The Vitamin Cartels, 1990–99”, Review of
+   Economic Studies, 89, 1460–1494.
+JACOBSEN, M. R., SALLEE, J. M., SHAPIRO, J., et al. (2023), ”Regulating untaxable externalities: Are vehicle air
+   pollution standards effective and efficient?”, The Quarterly Journal of Economics, 138, 1907–1976.
+KANG, K. and SILVEIRA, B. S. (2021), “Understanding Disparities in Punishment: Regulator Preferences and
+   Expertise”, Journal of Political Economy, 129, 2947–2992.
+LAFFONT, J.-J. and MARTIMORT, D. (1997), “Collusion Under Asymmetric Information”, Econometrica: Journal of
+   the Econometric Society, 65, 875–911.
+—— —— (2000), “Mechanism Design with Collusion and Correlation”, Econometrica: Journal of the Econometric
+   Society, 68, 309–342.
+LI, J. (2023), “Compatibility and Investment in the U.S. Electric Vehicle Market”.
+MILLER, N. H. and WEINBERG, M. C. (2017), “Understanding the Price Effects of the MillerCoors Joint Venture”,
+   Econometrica: Journal of the Econometric Society, 85, 1763–1791.
+MIRAVETE, E.  J., MORAL, M.  J. and THURK,  J. (2018), “Fuel Taxation, Emissions Policy, and Competitive
+   Advantage in the Diffusion of European Diesel Automobiles”, The Rand Journal of Economics, 49, 504–540.
+NOCKE, V. (2007), “Collusion and Dynamic (Under-)Investment in Quality”, The Rand Journal of Economics, 38,
+   227–249.
+OLDENKAMP, R., VAN ZELM, R. and HUIJBREGTS, M. A. (2016), “Valuing the Human Health Damage Caused by
+   the Fraud of Volkswagen”, Environmental Pollution, 212, 121–127.
+OP DE BEECK, J., THOMPSON, J. and BOOTH, N. (2013), “Upcoming Emission Regulations for Passenger Cars:
+   Impact on SCR System Requirements and Developments” (SAE Technical Papers, 2).
+PORTER, R. H. (1983), “A Study of Cartel Stability: The Joint Executive Committee, 1880–1886”, The Bell Journal of
+   Economics, 14, 301–314.
+POSANER, J., MULLER, F. and HERVEY, G. (2017), “Too Big to Fail: Why Germany’s Autostate Keeps Winning”
+   Politico.
+RAI, A. S. and SJ ¨OSTR¨OM, T. (2004), “Is Grameen Lending Efficient? Repayment Incentives and Insurance in Village
+   Economies”, Review of Economic Studies, 71, 217–234.
+REMMY, K. (2022), “Adjustable Product Attributes, Indirect Network Effects, and Subsidy Design: The Case of Electric
+   Vehicles” University of Bonn and University of Mannheim, Germany.
+REYNAERT, M. (2021), “Abatement Strategies and the Cost of Environmental Regulation: Emission Standards on the
+   European Car Market”, The Review of Economic Studies, 88, 454–488.
+REYNAERT, M. and SALLEE, J. M. (2021), “Who Benefits When Firms Game Corrective Policies?” American
+   Economic Journal: Economic Policy, 13, 372–412.
+REYNAERT, M. and VERBOVEN, F. (2014), “Improving the Performance of Random Coefficients Demand Models:
+  The Role of Optimal Instruments”, Journal of Econometrics, 179, 83–98.
+SALA, R., KRASOWSKI, J., DZIDA, J., et al. (2018), “Experiment of Selective Catalytic Reduction Retrofit for Euro
+   6 NOx Emission Level Compliance for Euro 5 Light Duty Vehicle”, IOP Conference Series: Materials Science and
+   Engineering, 421, 042070.
+SANCHEZ, F. P., BANDIVADEKAR, A. and GERMAN, J. (2012), “Estimated Cost of Emission Reduction Technolo-
+   gies for LDVs” (Technical Report, The International Council on Clean Transportation).
+SHAPIRO, C. (2001), “Setting Compatible Standards: Coordination or Collusion?” in Expanding the Bounds of
+   Intellectual Property (Oxford University Press) 81–101.
+SHLEIFER, A. (1985), “A Theory of Yardstick Competition”, The Rand Journal of Economics, 16, 319–327.
+
+===== [PDF 第 37 页｜印刷第 71 页] =====
+     Al´e-Chilet et al.           COLLUDING AGAINST ENVIRONMENTAL REGULATION    71
+
+
+SULLIVAN, C. (2020), “Split Apart: Differentiation, Diversion, and Coordination in the Market for Superpremium Ice
+   Cream”, AEA Papers and Proceedings, 110, 573–78.
+TANGER˚AS, T. P. (2002), “Collusion-proof Yardstick Competition”, Journal of Public Economics, 83, 231–254.
+VILLAS-BOAS, S. B. (2007), “Vertical Relationships between Manufacturers and Retailers: Inference with Limited
+   Data”, Review of Economic Studies, 74, 625–652.
+WEITZMAN, M. L. (1974), “Price vs. Quantities”, Review of Economic Studies, 41, 477–491.
+WHITEFOOT, K. S., FOWLIE, M. L. and SKERLOS, S. J. (2017), “Compliance by Design: Influence of Accelera-
+   tion Trade-Offs on co2 Emissions and Costs of Fuel Economy and Greenhouse gas Regulations”, Environmental
+   Science & Technology, 51, 10307–10315. PMID: 28825797.
+YANG, L., FRANCO, V., CAMPESTRINI, A., et al. (2015), “NOX Control Technologies for Euro 6 Diesel Passenger
+   Cars: Market Penetration and Experimental Performance Assessment (White Paper)” (Technical Report, International
+   Council on Clean Transportation).

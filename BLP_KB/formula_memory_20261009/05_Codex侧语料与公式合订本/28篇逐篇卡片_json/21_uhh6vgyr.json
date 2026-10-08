@@ -1,0 +1,171 @@
+{
+  "rank": 21,
+  "item_key": "UHH6VGYR",
+  "title": "The Electric Vehicle Transition and the Economics of Banning Gasoline Vehicles",
+  "authors": [
+    "Stephen P. Holland",
+    "Erin T. Mansur",
+    "Andrew J. Yates"
+  ],
+  "creators": [
+    {
+      "name": "Stephen P. Holland",
+      "type": "author"
+    },
+    {
+      "name": "Erin T. Mansur",
+      "type": "author"
+    },
+    {
+      "name": "Andrew J. Yates",
+      "type": "author"
+    }
+  ],
+  "date": "2021-00-00 2021",
+  "journal": "American Economic Journal: Economic Policy",
+  "doi": "10.1257/pol.20200120",
+  "url": "https://doi.org/10.1257/pol.20200120",
+  "collections": [
+    "20papers_import",
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "BLP-adjacent structural policy model",
+  "apa_citation": {
+    "reference": "Holland, S. P., Mansur, E. T., & Yates, A. J. (2021). The Electric Vehicle Transition and the Economics of Banning Gasoline Vehicles. American Economic Journal: Economic Policy. https://doi.org/10.1257/pol.20200120",
+    "parenthetical": "(Holland et al., 2021)",
+    "narrative": "Holland et al. (2021)"
+  },
+  "preferred_pdf_rel": "source_pdfs/21_uhh6vgyr.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "FJMW86Q5",
+    "link_mode": 0,
+    "content_type": "application/pdf",
+    "path": "storage:Holland_Mansur_Yates_2020_Banning_Gasoline_Vehicles_NBER.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\FJMW86Q5\\Holland_Mansur_Yates_2020_Banning_Gasoline_Vehicles_NBER.pdf",
+    "exists": true,
+    "size": 804624
+  },
+  "legacy_note_rel": "raw/notes/21_uhh6vgyr.md",
+  "legacy_old_memory_rel": "raw/paper_memory/21_uhh6vgyr.md",
+  "fulltext_json_rel": "raw/fulltext/21_uhh6vgyr.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/21_uhh6vgyr.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper studies the transition from gasoline vehicles to electric vehicles with a dynamic model.\n- Its answer is that static adoption models miss the path-dependence of fleet transition, but a calibrated dynamic model suggests the inefficiency from current policy is modest.\n- The practical payoff is a comparison of subsidies, bans, and bankable production quotas, with the quota often looking like the smallest deadweight loss option.",
+    "2. Story ladder": "- Real-world tension or puzzle: EV transition policy is not just about one purchase decision; it is about a changing fleet.\n- Why the puzzle matters now: gasoline vehicles impose flows of emissions, while EV costs and damages change over time.\n- What the literature already explains: static models explain adoption, but not transition dynamics.\n- What is still missing or weakly identified: a model that lets costs, damages, and substitution evolve over time.\n- The paper's move: build and calibrate a dynamic model of the EV transition to the US market.\n- Main payoff: compare policy instruments in a setting where timing and transition path matter.",
+    "3. Model or identification core": "- Research design type: dynamic structural model.\n- Structural model class or reduced-form design: dynamic transition model with declining EV production costs and potentially declining damages.\n- Key equations or choice objects: vehicle replacement, adoption timing, and dynamic welfare.\n- Endogeneity problem: the transition path itself changes the future state of the market.\n- Identification strategy: calibration to observed US market conditions and simulation of counterfactual policies.\n- What assumptions are doing the heavy lifting: the dynamic law of motion for costs, damages, and substitution.",
+    "4. Data and measurement": "- Unit of observation: vehicle transition over time, calibrated to the US market.\n- Market definition: the US light-vehicle market.\n- Main dependent variable: EV adoption and welfare over the transition path.\n- Core explanatory variables: EV costs, gasoline vehicle attributes, damages, and policy interventions.\n- Instruments / moments / shocks: calibration moments rather than quasi-experimental shocks.\n- Important sample restrictions: the model is intentionally focused on the transition margin, not a full micro demand system.",
+    "5. Findings and mechanisms": "- Baseline result: the inefficiency of the current transition path is modest in the calibration.\n- Mechanism evidence: falling costs and the timing of substitution matter more than a one-period static snapshot.\n- Heterogeneity evidence: the model can be extended to endogenous substitutability and learning.\n- Welfare or counterfactual result: a bankable gasoline-vehicle production quota can have the smallest deadweight loss among the compared policies.\n- Limits the authors admit: calibration-based results depend on the assumed transition technology and market environment.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: static EV adoption models and dynamic adoption papers.\n- What exact gap the authors claim: static models are poorly suited to study fleet transition and policy timing.\n- How the introduction stages novelty: first the transition problem, then why static models fail, then the dynamic solution.\n- Whether the contribution is data, method, theory, policy, or a combination: dynamic theory plus policy comparison.",
+    "7. Literature review function": "- Where the review sits: early in the introduction.\n- How the review is organized: by the limitation of static models and the need for dynamic transition analysis.\n- Which citations do positioning work: prior EV adoption and green-technology transition papers define the gap.\n- Which citations do method-validation work: papers on dynamic vehicle adoption and replacement support the model class.",
+    "8. Writing structure map": "- Introduction move sequence: static-limit argument -> dynamic alternative -> calibration -> policy ranking.\n- Section order: intro -> model -> calibration -> welfare and policy comparisons -> extensions -> conclusion.\n- Where the paper turns from setup to payoff: once the model is calibrated and the policy comparison can be simulated.\n- How tables/figures are used to move the argument: transition-path plots and policy-comparison tables carry the policy conclusion.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"A static model can miss the point when the object of interest is the transition itself.\"\n- Best transition pattern: \"We now calibrate the model to quantify the size of the inefficiency.\"\n- Best contribution sentence pattern: \"The policy ranking changes once the model tracks the fleet over time.\"\n- Best limitation or implication move: keep the answer tied to the assumed trajectory of technological change.",
+    "10. Memory update": "- Durable economics-writing principle: if the policy concern is a transition, write the model as a transition model.\n- Durable structural-model principle: endogenous substitution and learning can materially change welfare rankings.\n- Reusable empirical design idea: calibration is the right tool when the main object is a long-run policy path.\n- Follow-up paper to pair with this one: any durable-good transition model with policy bans or quotas."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_uhh6vgyr_the-electric-vehicle-transition-and-the-economics-of-banning-gasoline-vehicles\ndescription: Fulltext memory for The Electric Vehicle Transition and the Economics of Banning Gasoline Vehicles; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# The Electric Vehicle Transition and the Economics of Banning Gasoline Vehicles",
+    "Citation": "- Key: `UHH6VGYR`\n- DOI: `10.1257/pol.20200120`\n- Journal: American Economic Journal: Economic Policy\n- Year: 2021\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\UHH6VGYR.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/UHH6VGYR/UHH6VGYR.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/UHH6VGYR.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- We analyze this transition with a dynamic model capturing falling costs of electric vehicles, decreasing pollution from electricity, and increasing vehicle substitutability.",
+    "Story Logic": "- 故事起点：We analyze this transition with a dynamic model capturing falling costs of electric vehicles, decreasing pollution from electricity, and increasing vehicle substitutability.\n- 制度/市场切口：Our calibration to the US market shows a transition from gasoline vehicles is not optimal at current substitutability: a gasoline vehicle production ban would have large deadweight loss.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：Our calibration to the US market shows a transition from gasoline vehicles is not optimal at current substitutability: a gasoline vehicle production ban would have large deadweight loss.",
+    "BLP Model Memory": "- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, marginal cost, welfare\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 Model\n- 4 Simulation Results\n- 5 Conclusion\n- THE ELECTRIC VEHICLE TRANSITION AND THE ECONOMICS OF BANNING GASOLINE VEHICLES\n- ABSTRACT\n- 2.1 Terminal steady state\n- 2.2 Transition From Gasoline to Electric Vehicles\n- The following proposition characterizes the transition times:\n- 2.3 Market outcomes and BAU\n- Case 2: Good Substitutes\n- 2.4 Extensions",
+    "Reusable Writing Moves": "- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。",
+    "OCR Anchors": "- abstract: `ABSTRACT` (p.1) - ABSTRACT Electric vehicles have a unique potential to transform personal transportation. We analyze the transition to electric vehicles with a dynamic model that captures the falling costs of producing electric vehicles, the decreasing pollution from electricity generation, the increasing substitutability of electric for gasoline vehicles, and the durability of the vehicle stock.\n- introduction: `1 Introduction` (p.2) - 1 Introduction Transportation is a substantial source of global and local air pollution (Davis and Killian 2011, Tschofen et al 2019). Several new technologies including electric vehicles, fuel cell vehicles, biofuel powered vehicles, and improved gasoline vehicles hold promise for decreasing this pollution.\n- model: `2 Model` (p.5) - 2 Model Consider a continuous time model in which society benefits from the stock of gasoline and/or electric vehicles. The benefit per unit of time in dollars is given by U ( G , X ) where G(t) denotes the stock of gasoline vehicles and X(t) the stock of electric vehicles at time t .\n- counterfactual: `4 Simulation Results` (p.18) - 4 Simulation Results We use the open-source program BOCOP (2017) to simulate numerical solutions to (1) and (8). BOCOP implements a local optimization method in which the optimal control problem is approximated by a finite dimensional optimization problem using a time discretization.23 Where possible, results from BOCOP are verified by solving the necessary conditions numerically in Mathematica.\n- conclusion: `5 Conclusion` (p.36) - 5 Conclusion This paper studies the transition from gasoline vehicles to electric vehicles using a theoretical model and numerical simulations calibrated to the U.S. market.",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- The paper studies the transition from gasoline vehicles to electric vehicles with a dynamic model.\n- Its answer is that static adoption models miss the path-dependence of fleet transition, but a calibrated dynamic model suggests the inefficiency from current policy is modest.\n- The practical payoff is a comparison of subsidies, bans, and bankable production quotas, with the quota often looking like the smallest deadweight loss option.\n\n- Real-world tension or puzzle: EV transition policy is not just about one purchase decision; it is about a changing fleet.\n- Why the puzzle matters now: gasoline vehicles impose flows of emissions, while EV costs and damages change over time.\n- What the literature already explains: static models explain adoption, but not transition dynamics.\n- What is still missing or weakly identified: a model that lets costs, damages, and substitution evolve over time.\n- The paper's move: build and calibrate a dynamic model of the EV transition to the US market.\n- Main payoff: compare policy instruments in a setting where timing and transition path matter.\n\n- Research design type: dynamic structural model.\n- Structural model class or reduced-form design: dynamic transition model with declining EV production costs and potentially declining damages.\n- Key equations or choice objects: vehicle replacement, adoption timing, and dynamic welfare.\n- Endogeneity problem: the transition path itself changes the future state of the market.\n- Identification strategy: calibration to observed US market conditions and simulation of counterfactual policies.\n- What assumptions are doing the heavy lifting: the dynamic law of motion for costs, damages, and substitution.\n\n- Unit of observation: vehicle transition over time, calibrated to the US market.\n- Market definition: the US light-vehicle market.\n- Main dependent variable: EV adoption and welfare over the transition path.\n- Core explanatory variables: EV costs, gasoline vehicle attributes, damages, and policy interventions.\n- Instruments / moments / shocks: calibration moments rather than quasi-experimental shocks.\n- Important sample restrictions: the model is intentionally focused on the transition margin, not a full micro demand system.\n\n- Which papers are treated as the nearest neighbors: static EV adoption models and dynamic adoption papers.\n- What exact gap the authors claim: static models are poorly suited to study fleet transition and policy timing.\n- How the introduction stages novelty: first the transition problem, then why static models fail, then the dynamic solution.\n- Whether the contribution is data, method, theory, policy, or a combination: dynamic theory plus policy comparison.\n\n- Where the review sits: early in the introduction.\n- How the review is organized: by the limitation of static models and the need for dynamic transition analysis.\n- Which citations do positioning work: prior EV adoption and green-technology transition papers define the gap.\n- Which citations do method-validation work: papers on dynamic vehicle adoption and replacement support the model class.",
+  "baseline_core_memory": "- Research design type: dynamic structural model.\n- Structural model class or reduced-form design: dynamic transition model with declining EV production costs and potentially declining damages.\n- Key equations or choice objects: vehicle replacement, adoption timing, and dynamic welfare.\n- Endogeneity problem: the transition path itself changes the future state of the market.\n- Identification strategy: calibration to observed US market conditions and simulation of counterfactual policies.\n- What assumptions are doing the heavy lifting: the dynamic law of motion for costs, damages, and substitution.\n\n- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, marginal cost, welfare\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+  "mechanism_memory": "- Baseline result: the inefficiency of the current transition path is modest in the calibration.\n- Mechanism evidence: falling costs and the timing of substitution matter more than a one-period static snapshot.\n- Heterogeneity evidence: the model can be extended to endogenous substitutability and learning.\n- Welfare or counterfactual result: a bankable gasoline-vehicle production quota can have the smallest deadweight loss among the compared policies.\n- Limits the authors admit: calibration-based results depend on the assumed transition technology and market environment.\n\n- 故事起点：We analyze this transition with a dynamic model capturing falling costs of electric vehicles, decreasing pollution from electricity, and increasing vehicle substitutability.\n- 制度/市场切口：Our calibration to the US market shows a transition from gasoline vehicles is not optimal at current substitutability: a gasoline vehicle production ban would have large deadweight loss.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：Our calibration to the US market shows a transition from gasoline vehicles is not optimal at current substitutability: a gasoline vehicle production ban would have large deadweight loss.",
+  "result_memory": "- Baseline result: the inefficiency of the current transition path is modest in the calibration.\n- Mechanism evidence: falling costs and the timing of substitution matter more than a one-period static snapshot.\n- Heterogeneity evidence: the model can be extended to endogenous substitutability and learning.\n- Welfare or counterfactual result: a bankable gasoline-vehicle production quota can have the smallest deadweight loss among the compared policies.\n- Limits the authors admit: calibration-based results depend on the assumed transition technology and market environment.\n\n- Results anchor: bankable gasoline vehicle production quota. This policy caps cumulative production of\n- Conclusion anchor: This paper studies the transition from gasoline vehicles to electric vehicles using a theoretical",
+  "writing_style_memory": "- Introduction move sequence: static-limit argument -> dynamic alternative -> calibration -> policy ranking.\n- Section order: intro -> model -> calibration -> welfare and policy comparisons -> extensions -> conclusion.\n- Where the paper turns from setup to payoff: once the model is calibrated and the policy comparison can be simulated.\n- How tables/figures are used to move the argument: transition-path plots and policy-comparison tables carry the policy conclusion.\n\n- Best framing sentence pattern: \"A static model can miss the point when the object of interest is the transition itself.\"\n- Best transition pattern: \"We now calibrate the model to quantify the size of the inefficiency.\"\n- Best contribution sentence pattern: \"The policy ranking changes once the model tracks the fleet over time.\"\n- Best limitation or implication move: keep the answer tied to the assumed trajectory of technological change.\n\n- Durable economics-writing principle: if the policy concern is a transition, write the model as a transition model.\n- Durable structural-model principle: endogenous substitution and learning can materially change welfare rankings.\n- Reusable empirical design idea: calibration is the right tool when the main object is a long-run policy path.\n- Follow-up paper to pair with this one: any durable-good transition model with policy bans or quotas.\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 Model\n- 4 Simulation Results\n- 5 Conclusion\n- THE ELECTRIC VEHICLE TRANSITION AND THE ECONOMICS OF BANNING GASOLINE VEHICLES\n- ABSTRACT\n- 2.1 Terminal steady state\n- 2.2 Transition From Gasoline to Electric Vehicles\n- The following proposition characterizes the transition times:\n- 2.3 Market outcomes and BAU\n- Case 2: Good Substitutes\n- 2.4 Extensions\n\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "gmm",
+    "equilibrium",
+    "substitution",
+    "markup",
+    "marginal cost",
+    "two-sided market",
+    "market definition",
+    "heterogeneity",
+    "fuel economy",
+    "charging infrastructure"
+  ],
+  "fulltext_headings": [
+    "NBER WORKING PAPER SERIES",
+    "THE ELECTRIC VEHICLE TRANSITION AND THE ECONOMICS OF BANNING",
+    "GASOLINE VEHICLES",
+    "Working Paper 26804",
+    "NATIONAL BUREAU OF ECONOMIC RESEARCH",
+    "1050 Massachusetts Avenue",
+    "Cambridge, MA 02138",
+    "February 2020",
+    "We thank Severin Borenstein, Nicholas Muller, Derek Lemoine, Ashley Langer, and seminar",
+    "University of California Energy Institute, University of North Carolina Chapel Hill, and the",
+    "The views expressed herein are those of the authors and do not necessarily reflect the views of the",
+    "At least one co-author has disclosed a financial relationship of potential relevance for this",
+    "The Electric Vehicle Transition and the Economics of Banning Gasoline Vehicles",
+    "ABSTRACT",
+    "Bryan School of Business and Economics",
+    "University of North Carolina, Greensboro",
+    "Greensboro, NC 27402-6165",
+    "Dartmouth College",
+    "100 Tuck Hall",
+    "Hanover, NH 03755",
+    "Department of Economics",
+    "Environment and Ecology",
+    "University of North Carolina at Chapel Hill",
+    "CB 3305"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 2,
+      "snippet": "ectric Vehicle Transition and the Economics of Banning Gasoline Vehicles\nStephen P. Holland, Erin T. Mansur, and Andrew J. Yates\nNBER Working Paper No. 26804\nFebruary 2020\nJEL No. D62,H23,Q40,Q53,Q54\nABSTRACT\nElectric vehicles have a unique potential to transform personal transportation. We analyze the \ntransition to electric vehicles with a dynamic model that captures the falling costs of producing \nelectric vehicles, the decreasing pollution from electricity generation, the increasing \nsubstitutability of electric for gasoline vehicles, and the durability of the vehicle stock. Due to the \nexternal costs from pollution, inefficiencies under business as usual result from the mix of \nvehicles as well as the transition timing, the severity of which depends on substitutability. We \ncalibrate the model to the US market and ˝find the magnitude of the inefficiency is rather modest: \nless than 5 percent of total external costs. The optimal purchase subsidy for electric vehicles and \nthe optim"
+    },
+    "data": {
+      "page": 2,
+      "snippet": "dartmouth.edu\nAndrew J. Yates\nDepartment of Economics\nand Curriculum for the\nEnvironment and Ecology\nUniversity of North Carolina at Chapel Hill \nCB 3305\nChapel Hill, NC 27599\najyates@email.unc.edu\nA data appendix is available at http://www.nber.org/data-appendix/w26804"
+    },
+    "model": {
+      "page": 2,
+      "snippet": "26804\nFebruary 2020\nJEL No. D62,H23,Q40,Q53,Q54\nABSTRACT\nElectric vehicles have a unique potential to transform personal transportation. We analyze the \ntransition to electric vehicles with a dynamic model that captures the falling costs of producing \nelectric vehicles, the decreasing pollution from electricity generation, the increasing \nsubstitutability of electric for gasoline vehicles, and the durability of the vehicle stock. Due to the \nexternal costs from pollution, inefficiencies under business as usual result from the mix of \nvehicles as well as the transition timing, the severity of which depends on substitutability. We \ncalibrate the model to the US market and ˝find the magnitude of the inefficiency is rather modest: \nless than 5 percent of total external costs. The optimal purchase subsidy for electric vehicles and \nthe optimal ban on the production of gasoline vehicles both give about the same efficiency \nimprovement, but the latter leads to a sharp increase in gasoline veh"
+    },
+    "results": {
+      "page": 5,
+      "snippet": "bankable gasoline vehicle production quota. This policy caps cumulative production of\ngasoline vehicles and can be implemented by an intertemporal cap-and-trade program. The\nbankable production quota results in the smallest deadweight loss by a substantial margin,\neven compared to dynamically adjusted subsidies.\nIn addition to the general literature on electric vehicles, this paper contributes to several\nother literatures. A number of papers use dynamic models of transitions between technolo-\ngies to analyze the design of subsidies (Kalish and Lilien 1983; Meyer et al.\n1993; and\nLanger and Lemoine 2017) and learning by doing (Van Benthem et al. 2008; Chakravorty et\nal. 2012; Amigues et al. 2016; Bahel and Chakravorty 2016; and Creti et al. 2018). Relative\nto this literature, which assumes that technologies are perfect substitutes, a distinguishing\ncharacteristic of our work is that we allow electric and gasoline vehicles to be imperfect sub-\nstitutes and also consider substitutability"
+    },
+    "conclusion": {
+      "page": 37,
+      "snippet": "5\nConclusion\nThis paper studies the transition from gasoline vehicles to electric vehicles using a theoretical\nmodel and numerical simulations calibrated to the U.S. market.\nThe theoretical model\nshows that BAU electric vehicle production can begin too early or too late depending on the\nsubstitutability of gasoline vehicles for electric vehicles. Similarly, the vehicle mix ineﬃciency\ndepends on substitutability but is highest at intermediate levels of substitutability in which\nthe ﬁrst best transitions to electric vehicles but BAU does not.\nThese oﬀsetting eﬀects\nsuggest that ineﬃciencies may not be large. Our numerical simulations assess the magnitudes\nof these ineﬃciencies for the U.S. and ﬁnd modest levels of deadweight loss: less than ﬁve\npercent of total external costs.\nElectric vehicle"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper studies the transition from gasoline vehicles to electric vehicles with a dynamic model.",
+      "Which papers are treated as the nearest neighbors: static EV adoption models and dynamic adoption papers."
+    ],
+    "session": [
+      "Retrieve by key/title: UHH6VGYR / The Electric Vehicle Transition and the Economics of Banning Gasoline Vehicles",
+      "Use collections and journal handles: 20papers_import, Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Holland et al., 2021) / Holland et al. (2021)"
+    ],
+    "agent": [
+      "Research design type: dynamic structural model.",
+      "BLP positioning: BLP-adjacent structural policy model"
+    ],
+    "team": [
+      "Best framing sentence pattern: \"A static model can miss the point when the object of interest is the transition itself.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

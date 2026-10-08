@@ -1,0 +1,166 @@
+{
+  "rank": 17,
+  "item_key": "F8UTG3XW",
+  "title": "Network Externality and Subsidy Structure in Two-Sided Markets: Evidence from Electric Vehicle Incentives",
+  "authors": [
+    "Katalin Springel"
+  ],
+  "creators": [
+    {
+      "name": "Katalin Springel",
+      "type": "author"
+    }
+  ],
+  "date": "2021-00-00 2021",
+  "journal": "American Economic Journal: Economic Policy",
+  "doi": "10.1257/pol.20190131",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/pol.20190131",
+  "collections": [
+    "20papers_import",
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Springel, K. (2021). Network Externality and Subsidy Structure in Two-Sided Markets: Evidence from Electric Vehicle Incentives. American Economic Journal: Economic Policy. https://doi.org/10.1257/pol.20190131",
+    "parenthetical": "(Springel, 2021)",
+    "narrative": "Springel (2021)"
+  },
+  "preferred_pdf_rel": "source_pdfs/17_f8utg3xw.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "",
+    "link_mode": -1,
+    "content_type": "application/pdf",
+    "path": "fallback-local-pdf",
+    "resolved_path": "D:\\codex\\blp_structural_memory_2026-04-18\\source_pdfs\\17_f8utg3xw.pdf",
+    "exists": true,
+    "size": 1429457
+  },
+  "legacy_note_rel": "raw/notes/17_f8utg3xw.md",
+  "legacy_old_memory_rel": "raw/paper_memory/17_f8utg3xw.md",
+  "fulltext_json_rel": "raw/fulltext/17_f8utg3xw.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/17_f8utg3xw.fulltext.txt",
+  "llm_json_rel": "raw/ocr_llm/17_f8utg3xw.llm.json",
+  "llm_md_rel": "raw/ocr_llm/17_f8utg3xw.llm.md",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper asks whether, in the EV market viewed as a two-sided market, one dollar of subsidy should go to car buyers or to charging stations.\n- Its answer is no: subsidy allocation is not neutral once buyer demand and charging-station entry are linked through network externalities.\n- Using Norway registry data and a structural model of vehicle choice plus station entry, the paper shows that station subsidies are more effective at low spending levels, but that this ranking can reverse as spending rises because station-side returns taper off faster.",
+    "2. Story ladder": "- Real-world puzzle: governments often subsidize both EV purchases and charging infrastructure, but policy debates usually compare totals rather than the allocation across sides.\n- Why this matters: in a two-sided market the same budget can generate different adoption outcomes depending on which side gets the subsidy.\n- What existing theory gives: price structure is non-neutral in two-sided markets, and EV adoption is shaped by charging-network externalities.\n- What is still missing: paper-level empirical evidence on how subsidy allocation works once flexible substitution in vehicle demand and charging-station entry are jointly modeled.\n- The paper's move: combine a two-sided market perspective with an empirically estimated structural model of EV demand and station entry in Norway.\n- Main payoff: the policy ranking depends on the level of spending and on the strength of demand-side and infrastructure-side primitives, not just on the headline budget.",
+    "3. Model or identification core": "- Research design type: structural two-sided market estimation with counterfactual policy simulations.\n- Structural core: a demand system for vehicle choice is linked to a charging-station entry equation so EV demand and infrastructure evolve through indirect network effects.\n- Choice objects: consumers choose among vehicles with flexible substitution patterns; station providers choose whether to enter given expected EV demand and subsidies.\n- Endogeneity problem: EV subsidies, charging infrastructure, and EV adoption are jointly determined.\n- Identification logic: use large-scale Norwegian registry data, observed subsidy variation, and the joint demand-entry structure to back out demand and entry primitives relevant for counterfactuals.\n- Heavy-lifting assumptions: network effects operate through charging availability, the estimated demand system captures substitution patterns well enough for out-of-sample policy simulations, and entry responds to market-side profitability.",
+    "4. Data and measurement": "- Market setting: Norway, one of the world's most important EV adoption environments during the sample period.\n- Main data: large-scale vehicle registry data, charging-station information, and policy/subsidy measures.\n- Core outcome variables: EV purchases or sales, charging-station entry, and policy spending by subsidy type.\n- Key explanatory variables: buyer-side EV price subsidies, station-side subsidies, and charging availability.\n- Measurement goal: recover both the direct effect of subsidies and the indirect network effect created when station expansion feeds back into EV demand.",
+    "5. Findings and mechanisms": "- Descriptive finding: EV purchases are positively related to both consumer price subsidies and charging-station subsidies.\n- Baseline structural result: the model estimates both vehicle demand and charging-station entry, then uses them to compare buyer-side and station-side subsidy allocations.\n- Core policy result: at relatively low spending levels, station subsidies generate more additional EV purchases than buyer subsidies.\n- Quantitative illustration from the paper: 100 million NOK spent on station subsidies yields about 835 additional EV purchases, while the same amount spent on buyer subsidies yields about 387 additional EV purchases relative to no-subsidy counterfactuals.\n- Mechanism: station subsidies relax the charging-network bottleneck and amplify adoption through indirect network effects.\n- Nonlinearity: the advantage of station subsidies diminishes faster as spending rises, so subsidy-ranking can reverse at higher spending levels.",
+    "6. Contribution construction": "- Nearest neighbors: two-sided market theory, network-externality models, and structural EV-demand papers.\n- Claimed gap: prior discussions of EV policy often treat subsidy spending as fungible across sides, without estimating the non-neutrality implied by two-sided market feedback.\n- Method contribution: the paper turns the abstract non-neutrality insight into an empirically disciplined counterfactual exercise.\n- Policy contribution: it gives a concrete rule-of-thumb that subsidy effectiveness depends on which bottleneck is binding at the current market-development stage.",
+    "7. Literature review function": "- The literature review is functional rather than broad: it first anchors the paper in two-sided market price-structure theory, then links that theory to EV-specific network externalities.\n- Theory citations justify why allocation, not only total subsidy level, matters.\n- Empirical EV citations justify why the charging network is the relevant missing margin.\n- The review therefore prepares the reader to see the structural model as necessary for policy ranking rather than as an ornamental extension.",
+    "8. Writing structure map": "- Introduction move sequence: policy puzzle -> two-sided market intuition -> empirical gap -> Norway setting -> headline counterfactual result.\n- Section order: introduction -> industry and policy background -> data -> empirical framework -> results -> policy counterfactuals -> conclusion.\n- The paper turns from setup to payoff when it states that the same subsidy budget may have different impacts depending on which side receives it.\n- Tables and figures are used to connect descriptive subsidy-adoption patterns to the structural counterfactuals, especially the budget-to-adoption comparisons.",
+    "9. Reusable writing moves": "- Best framing move: ask not only whether subsidies work, but whether the allocation of subsidies across market sides is itself a first-order policy choice.\n- Best transition move: move from network externalities as intuition to a structural model that quantifies policy non-neutrality.\n- Best contribution template: existing work shows the market has indirect network effects; we show that those effects make subsidy allocation non-neutral and quantify the ranking.\n- Best interpretation habit: report where the policy ranking holds, then immediately note where it may reverse as the market matures or spending rises.",
+    "10. Memory update": "- Durable structural-model lesson: in a networked adoption market, the relevant counterfactual is often not more subsidy versus less subsidy, but who receives the subsidy.\n- Durable writing lesson: the paper earns the right to use a structural model by making the policy-ranking question explicit before estimation.\n- Reuse rule: when citing this paper later, pair its headline result with the qualifier that station-side superiority is strongest at lower spending levels and weakens as infrastructure saturation rises.\n- Citation-ready short takeaway: in EV two-sided markets, subsidy allocation is non-neutral because infrastructure support and buyer incentives operate through different feedback loops."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_f8utg3xw_network-externality-and-subsidy-structure-in-two-sided-markets-evidence-from-ele\ndescription: Fulltext BLP reading memory for Network Externality and Subsidy Structure in Two-Sided Markets: Evidence from Electric Vehicle Incentives; includes story logic, BLP model shape, writing structure, and policy payoff.\ntype: reference\n---\n\n# Network Externality and Subsidy Structure in Two-Sided Markets: Evidence from Electric Vehicle Incentives",
+    "Citation": "- Key: `F8UTG3XW`\n- DOI: `10.1257/pol.20190131`\n- Journal: American Economic Journal: Economic Policy\n- Year: 2021\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\F8UTG3XW.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/F8UTG3XW/F8UTG3XW.llm.json`",
+    "Read Status": "- 本记忆基于全文 OCR 结果，不是只基于题录摘要。\n- OCR 引擎：MinerU 优先，DirectML 加速，关闭表格识别以避免已知编码错误；输出为 `llm.md` + `llm.json` + `chunks.jsonl`。",
+    "Story Question": "- 核心问题：Network Externality and Subsidy Structure in Two-Sided Markets: Evidence from Electric Vehicle Incentives by Katalin Springel.",
+    "Story Logic": "- 从问题出发：Network Externality and Subsidy Structure in Two-Sided Markets: Evidence from Electric Vehicle Incentives by Katalin Springel.\n- 把识别对象具体化：Published in volume 13, issue 4, pages 393-432 of American Economic Journal: Economic Policy, November 2021, Abstract: This paper uses new, large-scale vehicle registry data\n- 最后把结果落到政策/福利含义：Published in volume 13, issue 4, pages 393-432 of American Economic Journal: Economic Policy, November 2021, Abstract: This paper uses new, large-scale vehicle registry data",
+    "How BLP Enters": "- 分类判断：canonical BLP demand-supply\n- 触发证据：random coefficients, discrete choice, marginal cost, markup, welfare, counterfactual, instrument\n- 读法提醒：这里的“BLP”既可能是严格的随机系数需求+供给均衡，也可能只是沿用差异化产品结构需求与福利反事实的传统。",
+    "Model Shape": "- Demand side: 需求侧明显是随机系数离散选择框架。 市场份额/替代关系是识别核心对象。\n- Heterogeneity: 文中通过异质偏好、车型属性、收入/里程/地区或消费者画像来刻画替代弹性。\n- Supply side: 文中显式处理供给侧，通常是 Nash-Bertrand 定价、边际成本恢复与均衡反事实。\n- Identification / estimation: 识别中明确出现工具变量/外生冲击。\n- Counterfactual / welfare: 模型最终用于反事实比较：税收、补贴、禁令、配额、标签政策、进入冲击或福利分配。",
+    "Writing Structure": "- 从 OCR 章节树看，正文大体按照下面顺序展开：\n- Network Externality and Subsidy Structure in Two-Sided Markets: Evidence from Electric Vehicle Incentives\n- Katalin Springel\n- Resources for the Future\n- Washington, DC 20036\n- First Version: November 8, 2016\n- Current Version: October 31, 2017\n- Network Externality and Subsidy Structure in Two-Sided Markets: Evidence from Electric Vehicle Incentives ∗\n- Katalin Springel †\n- First Version: November 8, 2016\n- Current Version: October 31, 2017\n- Abstract\n- Keywords: network externality, two-sided market, electric vehicle, subsidies\n- 1 Industry and Policy Background\n- 2 Data\n- 11 The use of consumer-level data in the empirical analysis is work in progress.\n- 3 Empirical Framework\n- 15 In the current modeling framework, vehicle manufacturers’ profit maximization problem is not explicitly modeled.\n- 17 Naturally, only consumers who choose to purchase an electric vehicle have positive demand for charging.\n- 3.1 Vehicle Demand Model\n- 19 The use of consumer-level data to enrich the present analysis is a work in progress.\n- 3.2 Station Entry Model\n- 21 The data confirms that zero electric vehicles were scrapped during the observed time period.\n- 3.3 Consumer Effects of Subsidies\n- Recall that the market share of j in market m is given by\n- 3.3.1 EV Price Subsidy\n- 3.3.2 Subsidy for Charging Stations\n- 3.4 Estimation Methodology\n- 4 Results\n- 5 Policy Counterfactuals\n- 5.1 Comparison of Car Purchase to Station Subsidies in Norway",
+    "Reusable Writing Moves": "- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。",
+    "OCR Section Anchors": "",
+    "Memory Notes": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "theory_design_memory": "- The paper asks whether, in the EV market viewed as a two-sided market, one dollar of subsidy should go to car buyers or to charging stations.\n- Its answer is no: subsidy allocation is not neutral once buyer demand and charging-station entry are linked through network externalities.\n- Using Norway registry data and a structural model of vehicle choice plus station entry, the paper shows that station subsidies are more effective at low spending levels, but that this ranking can reverse as spending rises because station-side returns taper off faster.\n\n- Real-world puzzle: governments often subsidize both EV purchases and charging infrastructure, but policy debates usually compare totals rather than the allocation across sides.\n- Why this matters: in a two-sided market the same budget can generate different adoption outcomes depending on which side gets the subsidy.\n- What existing theory gives: price structure is non-neutral in two-sided markets, and EV adoption is shaped by charging-network externalities.\n- What is still missing: paper-level empirical evidence on how subsidy allocation works once flexible substitution in vehicle demand and charging-station entry are jointly modeled.\n- The paper's move: combine a two-sided market perspective with an empirically estimated structural model of EV demand and station entry in Norway.\n- Main payoff: the policy ranking depends on the level of spending and on the strength of demand-side and infrastructure-side primitives, not just on the headline budget.\n\n- Research design type: structural two-sided market estimation with counterfactual policy simulations.\n- Structural core: a demand system for vehicle choice is linked to a charging-station entry equation so EV demand and infrastructure evolve through indirect network effects.\n- Choice objects: consumers choose among vehicles with flexible substitution patterns; station providers choose whether to enter given expected EV demand and subsidies.\n- Endogeneity problem: EV subsidies, charging infrastructure, and EV adoption are jointly determined.\n- Identification logic: use large-scale Norwegian registry data, observed subsidy variation, and the joint demand-entry structure to back out demand and entry primitives relevant for counterfactuals.\n- Heavy-lifting assumptions: network effects operate through charging availability, the estimated demand system captures substitution patterns well enough for out-of-sample policy simulations, and entry responds to market-side profitability.\n\n- Market setting: Norway, one of the world's most important EV adoption environments during the sample period.\n- Main data: large-scale vehicle registry data, charging-station information, and policy/subsidy measures.\n- Core outcome variables: EV purchases or sales, charging-station entry, and policy spending by subsidy type.\n- Key explanatory variables: buyer-side EV price subsidies, station-side subsidies, and charging availability.\n- Measurement goal: recover both the direct effect of subsidies and the indirect network effect created when station expansion feeds back into EV demand.\n\n- Nearest neighbors: two-sided market theory, network-externality models, and structural EV-demand papers.\n- Claimed gap: prior discussions of EV policy often treat subsidy spending as fungible across sides, without estimating the non-neutrality implied by two-sided market feedback.\n- Method contribution: the paper turns the abstract non-neutrality insight into an empirically disciplined counterfactual exercise.\n- Policy contribution: it gives a concrete rule-of-thumb that subsidy effectiveness depends on which bottleneck is binding at the current market-development stage.\n\n- The literature review is functional rather than broad: it first anchors the paper in two-sided market price-structure theory, then links that theory to EV-specific network externalities.\n- Theory citations justify why allocation, not only total subsidy level, matters.\n- Empirical EV citations justify why the charging network is the relevant missing margin.\n- The review therefore prepares the reader to see the structural model as necessary for policy ranking rather than as an ornamental extension.",
+  "baseline_core_memory": "- Research design type: structural two-sided market estimation with counterfactual policy simulations.\n- Structural core: a demand system for vehicle choice is linked to a charging-station entry equation so EV demand and infrastructure evolve through indirect network effects.\n- Choice objects: consumers choose among vehicles with flexible substitution patterns; station providers choose whether to enter given expected EV demand and subsidies.\n- Endogeneity problem: EV subsidies, charging infrastructure, and EV adoption are jointly determined.\n- Identification logic: use large-scale Norwegian registry data, observed subsidy variation, and the joint demand-entry structure to back out demand and entry primitives relevant for counterfactuals.\n- Heavy-lifting assumptions: network effects operate through charging availability, the estimated demand system captures substitution patterns well enough for out-of-sample policy simulations, and entry responds to market-side profitability.",
+  "mechanism_memory": "- Descriptive finding: EV purchases are positively related to both consumer price subsidies and charging-station subsidies.\n- Baseline structural result: the model estimates both vehicle demand and charging-station entry, then uses them to compare buyer-side and station-side subsidy allocations.\n- Core policy result: at relatively low spending levels, station subsidies generate more additional EV purchases than buyer subsidies.\n- Quantitative illustration from the paper: 100 million NOK spent on station subsidies yields about 835 additional EV purchases, while the same amount spent on buyer subsidies yields about 387 additional EV purchases relative to no-subsidy counterfactuals.\n- Mechanism: station subsidies relax the charging-network bottleneck and amplify adoption through indirect network effects.\n- Nonlinearity: the advantage of station subsidies diminishes faster as spending rises, so subsidy-ranking can reverse at higher spending levels.\n\n- 从问题出发：Network Externality and Subsidy Structure in Two-Sided Markets: Evidence from Electric Vehicle Incentives by Katalin Springel.\n- 把识别对象具体化：Published in volume 13, issue 4, pages 393-432 of American Economic Journal: Economic Policy, November 2021, Abstract: This paper uses new, large-scale vehicle registry data\n- 最后把结果落到政策/福利含义：Published in volume 13, issue 4, pages 393-432 of American Economic Journal: Economic Policy, November 2021, Abstract: This paper uses new, large-scale vehicle registry data",
+  "result_memory": "- Descriptive finding: EV purchases are positively related to both consumer price subsidies and charging-station subsidies.\n- Baseline structural result: the model estimates both vehicle demand and charging-station entry, then uses them to compare buyer-side and station-side subsidy allocations.\n- Core policy result: at relatively low spending levels, station subsidies generate more additional EV purchases than buyer subsidies.\n- Quantitative illustration from the paper: 100 million NOK spent on station subsidies yields about 835 additional EV purchases, while the same amount spent on buyer subsidies yields about 387 additional EV purchases relative to no-subsidy counterfactuals.\n- Mechanism: station subsidies relax the charging-network bottleneck and amplify adoption through indirect network effects.\n- Nonlinearity: the advantage of station subsidies diminishes faster as spending rises, so subsidy-ranking can reverse at higher spending levels.\n\n- Results anchor: in Two-Sided Markets: Evidence from\n- Conclusion anchor: 1 It is not Easy Being ‘Green’: Subsidy Non-Neutrality in Two-Sided Markets 1",
+  "writing_style_memory": "- Introduction move sequence: policy puzzle -> two-sided market intuition -> empirical gap -> Norway setting -> headline counterfactual result.\n- Section order: introduction -> industry and policy background -> data -> empirical framework -> results -> policy counterfactuals -> conclusion.\n- The paper turns from setup to payoff when it states that the same subsidy budget may have different impacts depending on which side receives it.\n- Tables and figures are used to connect descriptive subsidy-adoption patterns to the structural counterfactuals, especially the budget-to-adoption comparisons.\n\n- Best framing move: ask not only whether subsidies work, but whether the allocation of subsidies across market sides is itself a first-order policy choice.\n- Best transition move: move from network externalities as intuition to a structural model that quantifies policy non-neutrality.\n- Best contribution template: existing work shows the market has indirect network effects; we show that those effects make subsidy allocation non-neutral and quantify the ranking.\n- Best interpretation habit: report where the policy ranking holds, then immediately note where it may reverse as the market matures or spending rises.\n\n- Durable structural-model lesson: in a networked adoption market, the relevant counterfactual is often not more subsidy versus less subsidy, but who receives the subsidy.\n- Durable writing lesson: the paper earns the right to use a structural model by making the policy-ranking question explicit before estimation.\n- Reuse rule: when citing this paper later, pair its headline result with the qualifier that station-side superiority is strongest at lower spending levels and weakens as infrastructure saturation rises.\n- Citation-ready short takeaway: in EV two-sided markets, subsidy allocation is non-neutral because infrastructure support and buyer incentives operate through different feedback loops.\n\n- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。",
+  "professional_vocab": [
+    "structural estimation",
+    "random coefficients",
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "instrumental variable",
+    "gmm",
+    "equilibrium",
+    "substitution",
+    "outside option",
+    "markup",
+    "marginal cost",
+    "two-sided market",
+    "network effects",
+    "heterogeneity",
+    "fuel economy",
+    "charging infrastructure",
+    "consumer demand"
+  ],
+  "fulltext_headings": [
+    "UC Berkeley",
+    "UC Berkeley Electronic Theses and Dissertations",
+    "Title",
+    "Essays in Industrial Organization and Environmental Economics",
+    "Permalink",
+    "Author",
+    "Springel, Katalin",
+    "Publication Date",
+    "Powered by the California Digital Library University of California",
+    "Economics",
+    "Graduate Division",
+    "University of California, Berkeley",
+    "Committee in charge:",
+    "Professor Benjamin Handel, Chair Professor Kei Kawai Professor Reed Walker",
+    "Spring 2017",
+    "Copyright 2017 by Katalin Springel",
+    "Abstract",
+    "Katalin Springel",
+    "Doctor of Philosophy in Economics",
+    "Professor Benjamin Handel, Chair",
+    "Contents",
+    "Contents ii",
+    "List of Figures iii",
+    "List of Tables iv"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 4,
+      "snippet": "Abstract\nEssays in Industrial Organization and Environmental Economics\nby\nKatalin Springel\nDoctor of Philosophy in Economics\nUniversity of California, Berkeley\nProfessor Benjamin Handel, Chair\nThis dissertation studies both theoretically and empirically how the allocation of subsidies might matter for economic outcomes in a two-sided market framework.\nThe first chapter establishes a non-neutrality result with respect to subsidy allocation in the price theory of two-sided markets with membership externalities building on the works of Rochet and Tirole (2006) and Armstrong (2006). There are many examples of two-sided (or more generally, multi-sided) markets in which two (or more) groups of agents interact via intermediaries or “platforms.” The distinguishing feature of these markets is the p"
+    },
+    "data": {
+      "page": 4,
+      "snippet": "work externalities to determine which side of the market is more efficient to subsidize depending on key vehicle demand and charging station supply primitives. I use new, large-scale vehicle registry data from Norway to empirically estimate the impact that different subsidies have on electric vehicle adoption when network externalities are present. I present descriptive evidence to show that electric vehicle purchases are positively related to both consumer price and charging station subsidies. I then estimate a structural model of consumer vehicle choice and charging station entry, which incorporates flexible substitution patterns and allows me to analyze out-of-sample predictions of electric vehicle sales.\n1"
+    },
+    "model": {
+      "page": 4,
+      "snippet": "n this work, I consider whether this non-neutrality in the price allocation carries over to the case of subsidies (or taxes) in two-sided markets. Specifically, I develop a stylistic two-sided market model to show that subsidies to the different sides of the market are non-neutral, in the sense that one dollar spent on subsidies given to one side of the market has a different economic impact as the same amount spent on subsidies given to end-users on the other side of the market. This result is driven by a key feature of two-sided markets: the positive network externalities between the two sides of the market. The non-neutrality of the allocation of subsidies has important implications for such quickly growing industries like the electric vehicle market in which currently most governments are subsidizing both sides of the market. Therefore, if we really want to learn where to give subsidies to achieve the policy goal of increased electric vehicle sales the findings of this chapter show"
+    },
+    "results": {
+      "page": 7,
+      "snippet": "in Two-Sided Markets: Evidence from\ntext\nElectric Vehicle Incentives 32\ntext\n2.1 Introduction 32\ntext\n2.2 Industry and Policy Background 37\ntext\n2.3 Data . 40\ntext\n2.4 Empirical Framework 43\ntext\n2.5 Results . . 5 1\ntext\n2.6 Policy Counterfactuals 53\ntext\n2.7 Conclusion 56\ntext\n2.8 Figures . . 6 0\ntext\n2.9 Tables 6 9\ntext\nBibliography 77\nii"
+    },
+    "conclusion": {
+      "page": 7,
+      "snippet": "text\n1 It is not Easy Being ‘Green’: Subsidy Non-Neutrality in Two-Sided Markets 1\ntext\n1.1 Introduction 1\ntext\n1.2 Literature Review 2\ntext\n1.3 Modeling Framework 4\ntext\n1.4 Simulations 10\ntext\n1.5 Conclusion 15\ntext\n1.6 Figures . . 1 7\ntext\n1.7 Tables 31\ntext\n2 Network Externality and Subsidy Structure in Two-Sided Markets: Evidence from\ntext\nElectric Vehicle Incentives 32\ntext\n2.1 Introduction 32\ntext\n2.2 Industry and Policy Background 37\ntext\n2.3 Data . 40\ntext\n2.4 Empirical Framework 43\ntext\n2.5 Results . . 5 1\ntext\n2.6 Policy Counterfactuals 53\ntext\n2.7 Conclusion 56\ntext\n2.8 Figures . . 6 0\ntext\n2.9 Tables 6 9\ntext\nBibliography 77\nii"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper asks whether, in the EV market viewed as a two-sided market, one dollar of subsidy should go to car buyers or to charging stations.",
+      "Nearest neighbors: two-sided market theory, network-externality models, and structural EV-demand papers."
+    ],
+    "session": [
+      "Retrieve by key/title: F8UTG3XW / Network Externality and Subsidy Structure in Two-Sided Markets: Evidence from Electric Vehicle Incentives",
+      "Use collections and journal handles: 20papers_import, Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Springel, 2021) / Springel (2021)"
+    ],
+    "agent": [
+      "Research design type: structural two-sided market estimation with counterfactual policy simulations.",
+      "Check how the paper modifies or simplifies canonical BLP before borrowing its structure."
+    ],
+    "team": [
+      "Best framing move: ask not only whether subsidies work, but whether the allocation of subsidies across market sides is itself a first-order policy choice.",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

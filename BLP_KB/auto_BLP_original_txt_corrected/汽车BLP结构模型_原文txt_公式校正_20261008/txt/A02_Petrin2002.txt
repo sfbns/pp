@@ -1,0 +1,1545 @@
+==============================================================================
+【文献】Petrin (2002). Quantifying the Benefits of New Products: The Case of the Minivan. Journal of Political Economy 110(4): 705-729. 本地为工作论文版
+【编号】A02　【简称】Petrin2002　【分组】需求侧
+【原文 PDF】D:\codex\research-memory\pdfs\Z47HEXTA_Petrin_2002.pdf
+【页数】52 页　【页码换算】印刷页码 = PDF 页码 − 2（前 2 页为封面或前置页）
+【文本来源】RapidOCR 识别（每页按 200 dpi 渲染），原 PDF 文字层是坏字体
+【公式校正】8 条，按页附在对应页末（以「公式校正」标出），LaTeX 书写，均已对照原页图
+【校正说明】本地为 52 页工作论文版（正式刊 JPE 110(4): 705–729），印刷页码 = PDF 页 − 2。PDF 文字层整页是坏字体，本包正文是 RapidOCR 识别结果，希腊字母常被误识（如 \xi 被识成 o，\theta 被识成 0）。下列各式本轮看原页图转写，与 2026-10-08 文献包的看图转写一致。
+【核对页图】D:\blp-auto-fulltext-pack-20261008\work\pages\A02_pNN.png（本轮渲染）；本包 核对页图\ 文件夹内有副本
+【备注】文字层整页坏字体，本包文本为 RapidOCR 识别结果
+【使用提醒】正文是机器抽取的原文，不是译文；公式区以页末校正或原 PDF 为准。页标记中的 PDF 页码可直接用于在原 PDF 中翻页定位。
+==============================================================================
+
+===== [PDF 第 1 页] =====
+NBERWORKINGPAPERSERIES
+Amil Petrin
+Working Paper 8227
+http://www.nber.0rg/papers/w8227
+1050MassachusettsAvenue
+Cambridge, MA 02138
+April 2001
+This research has benefited from discussions with Dan Ackerberg, Steve Berry, Judy Chevalier, Roger
+Gordon,Gautam Gowrisankaran,Torn Hubbard,Peter Klenow,James Levinsolm,JeffMackie-Mason,Aviv
+Nevo, Ariel Pakes, Sinichi Sakata, Frank Wolak, a very helpful referee, and numerous seminar participants.
+Financial support from the Alfred P. Sloan Foundation is gratefully acknowledged. The views expressed
+herein are those of the author and not necessarily those of the National Bureau of Economic Research.
+ 20o1 by Amil Petrin. All rights reserved. Short sections of text, not to exceed two
+paragraphs, may be quoted without explicit permission provided that full credit, including ①
+notice,isgiventothesource.
+
+===== [PDF 第 2 页] =====
+Quantifying the Benefits of New Products: The Case of the Minivan
+Amil Petrin
+NBER Working Paper No. 8227
+April 2001
+JEL No.C51, D12, D43,D60,L13,O47
+ABSTRACT
+I develop a technique useful for obtaining more precise estimates of demand and supply
+curves when constrained to market-level data. It augments the estimation routine with data on the
+automobile market, estimating the economic effects of the minivan introduction. I show that
+standard approaches yield results that are meaningfully different from those obtained with my
+extension. I report benefits accruing to both minivan and non-minivan consumers. I complete the
+welfare picture by measuring the extent of first- mover advantage and of profit cannibalization both
+initially by the innovator and later by the imitators. My results support a simple economic story
+where large improvements in consumers' standard of living arise from competition as firms, ignoring
+the externalities they impose on one another, cannibalize each others profits by continually seeking
+new goods that give them some temporary market power.
+Amil Petrin
+Graduate School of Business
+University of Chicago
+1101 E. 58th St.
+Chicago, IL 60637
+and NBER
+Tel: (773) 834-2861
+Email: amil.petrin@gsb.uchicago.edu
+WWW: http://gsb.uchicago.edu/fac/amil.petrin
+
+===== [PDF 第 3 页｜印刷第 1 页] =====
+1Introduction
+Every year consumers benefit from a greater breadth of choice in both the kind and
+quality of many products. Producers are the driving force behind these improvements as
+they seek the transitory market power associated with being the first-mover. This source
+of economic growth includes the improvements in existing goods and the production of
+entirely new goods, and can readily be observed in products like automobiles, consumer
+electronics, and health care.1
+This paper measures the economic effects of the minivan introduction. In doing so,
+I develop a technique useful for obtaining more precise estimates of demand and supply
+curves when using market-level data on prices, quantities sold, and characteristics. Using
+this technique, I am able to quantify welfare benefits accruing to both consumers and
+non-consumers of minivans. I provide measures of the extent of first-mover advantage
+and profit cannibalization both initially by the innovator and later by the imitators.
+Additionally, I show that standard approaches yield results that are economically and
+statistically different from those obtained with my extension.
+Discrete choice models were introduced by Gorman-Lancaster and developed econo-
+metrically in McFadden (1981). Much of the recent focus has been on addressing the
+endogeneity of price and on capturing important aspects of consumer heterogeneity, given
+the usual data, modeling, and computational constraints. Results from Berry, Levinsohn,
+and Pakes (1995) (heretofore BLP) show the importance of allowing for heterogeneity in
+consumer tastes when estimating cross-price elasticities. However, they have difficulty
+obtaining precise estimates of the variation in tastes, which requires a number of ob-
+servations on how consumers substitute as available price and product characteristics in
+the choice set vary. Since BLP, many studies have reported the same result, primarily
+because we usually observe just a few market outcomes and/or these outcomes often do
+1Welfare consequences of new product introductions have recently received increased attention from
+economists (in particular, see Bresnahan and Gordon (1997).） Papers focusing on buyer benefits from
+new products cover a range of goods, including automobiles (Feenstra (1988), Berry, Levinsohn, and
+Pakes (1993),Fershtman and Gandal (1998)), computers (Bresnahan (1986),Greenstein (1994),health
+care technology (Trajtenberg (1989)), breakfast cereals (Hausman (1997a)), telecommunications services
+(Hausman (1997b)),and cellular phones (Hausman (1998)). New products have also been the focus of
+economists’attempts at revising the Consumer Price Index, in part because of findings by Armknecht
+(1984) that changes in the index are mostly due to price infation from new products.
+1
+
+===== [PDF 第 4 页｜印刷第 2 页] =====
+not contain sufficient variation in price and product characteristics.
+Berry, Levinsohn, and Pakes (1998) show that much more precise estimates of substi-
+tution patterns obtain when consumer-level data on first and second choices is observed.
+Unfortunately, this data cannot generally be posed as the answer because it rarely exists,
+and, when it does, is usually proprietary.
+In this paper I offer an alternative solution: augment market-level data with data
+that relates the average characteristics of consumers to the characteristics of the products
+they purchase. This kind of data is more readily available than consumer-level data,
+and my results show that even limited additional information can play a useful role in
+estimating elasticities and consumer welfare. One might find this kind of information
+in supplemental surveys associated with any of the detailed panels often used by social
+scientists. Other possible sources include marketing or customer satisfaction surveys,
+which frequently appear in news and industry periodicals. Finally, very complete micro
+data may exist, but it also may be inaccessible to researchers, either for confidentiality
+reasons (e.g. Census or IRS data) or because it is prohibitively expensive to obtain. In
+either case, averages of the micro data may circumvent these problems by either satisfying
+disclosure requirements or reducing the cost of access.
+The paper is organized in the following manner. Section 2 provides a brief history
+of the economics surrounding the minivan history. Section 3 reviews welfare estimators
+in differentiated goods markets. Section 4 outlines the utility specification and Section
+5 discusses the supply side. The different sources of data are covered in Section 6 and
+the estimation procedure is outlined in Section 7.Sections 8 and 9 report results and
+conclusions.
+2 The Minivan Innovation
+The introduction of the minivan and the ensuing response of competitors to its popularity
+sheds light on firms motivation to innovate, including the degree to which a first-mover
+advantage can be maintained. In this section I provide a history of the minivan as it
+relates to these economic issues; readers not interested in these details can skip to section
+3 with no loss in continuity.
+The idea for an all-purpose family compact van had been circulating the car industry
+2
+
+===== [PDF 第 5 页｜印刷第 3 页] =====
+since at least the 1950's, the heyday of the station wagon.2 Early minivan prototypes
+included the Volkswagen Microbus and Corvair Greenbriar, introduced in 1949 and 1960
+average vehicle, but they were rear-wheel drive, rear-engined vehicles with swing-axle
+(non-independent) suspensions. These features resulted in poor performance and han-
+dling, and a less than smooth ride for passengers. Plush-interiored full-size passenger
+vans with luxury sedan options emerged as popular vehicles with certain crowds during
+the late 1960s and 1970s. However, they were not garageable at many homes and their
+poor handling also made them unpopular with many drivers.
+In the early 1970s, a Ford designer named Don DeLaRussa recognized this shortcoming
+of the new vehicle market. This led him to an idea he would call the “Mini/Max". His
+insight was to build a front-wheel drive functionally-sized box better suited for errands and
+hauling the family than the conventional station wagon.3The front-wheel drive would
+provide car-like handling and a smooth ride. It would also allow the drivetrain, that
+received support from only one of Ford's top managers, Harold Sperlich. Other managers
+sales, which had been strong throughout the 1970s. DeLaRussa's idea would sit dormant
+for a decade, an apparent victim of strong station wagon sales.4
+Rebirth of the minivan idea occurred during the early 1980s at the troubled Chrysler
+Corporation of America. Lee Iacocca, the Chairman of Chrysler, was a former Ford
+manager who at the time was most famous for presiding over the team that designed the
+Mustang.5 He took over the ailing Chrysler in 1979 and brought with him from Ford a
+2These family haulers commanded 15% of the automobile market in 1957, their highest share ever.
+Their predecessor, the “depot hack,” was also a people hauler. “Depot hacks” would take travelers from
+the train depot on the outskirts of town to the downtown hotels. They were usually converted truck
+or touring car chassis which had seats placed one behind another to carry a maximum body count. As
+3DeLaRussa came to the U.S. from Europe, where he worked as a car designer. In Europe, the better
+handling of front-wheel drive was popular with drivers who had to negotiate many narrow, winding roads.
+4Much of the discussion in this section comes from Yates (1996),and from a number of (mostly)
+industry publications, including various issues of Motor Trend, Popular Mechanics, Popular Science,
+Wards Automotive, Automotive News, Consumer Reports, Fortune, Newsweek, and Time.
+5In 1961, as a young General Manager at Ford, he managed the redesign of the mundane Ford Falcon
+3
+
+===== [PDF 第 6 页｜印刷第 4 页] =====
+number of colleagues, including DeLaRussa and Sperlich. After convincing Congress to
+bail the company out, Iacocca quickly began rebuilding Chrysler's beleaguered product
+line.6 His plan was to spin most new models off of a single platform - drivetrain, foorpan,
+and suspension - to create a variety of vehicles. Using the front-wheel drive K-car platform
+of the Dodge Aries/Plymouth Reliant, Chrysler produced the Chrysler LeBaron/Dodge
+400, the Chrysler E-Class/Dodge 600, and the luxury Chrysler New Yorker. Sperlich
+continued to push the minivan idea, and Iacocca agreed, allocating $700 million towards
+itsdevelopment.
+Prior to their introduction, Chrysler executives believed the new minivans would re-
+place station wagons. However, the numerous names dubbed them suggest that it was not
+clear which market niche, if any, would be filled by these vehicles.7 The new and innova-
+tive dimensions of the minivan, different from any other available vehicle at the time, gave
+rise to the alternative titles of compact van, garageable van, and super station wagon.
+The Plymouth Voyager/Dodge Caravan had an overall length of 176 inches, shorter than
+both the standard Dodge B-150 full-size van and the luxury LeBaron station wagon by
+four and three inches respectively. At just over 6 feet wide, it was just an inch wider than
+the station wagon and almost a foot slimmer than the B-150 full-size van.With a height
+of 64 inches, the minivan lay between the 53 inch LeBaron and the 80 inch B-150 van.
+This in-between size, with the “height-induced roominess" instead of roominess from the
+length, loosens the vehicle space-constraint considerably. Additional interior space and
+easier entry via a low step-in came from lowering the foorpan (the bottom of the vehicle),
+which could be dropped with front-wheel drive because the drivetrain no longer had to
+run underneath the length of the vehicle (to the rear-drive wheels.) Lowering the foorpan
+also had an added benefit; passengers could move from the front to the back of the vehicle
+into the successful Mustang. By adapting the Falcon's engine, transmission, and axles, Iacocca slashed
+the cost of development to one-fourth that of a standard new car. In the end, he produced a sporty Ford
+Mustang that ended its first year with a new annual sales record of 418,00o. Later successes with the
+Mercury Cougar and Marquis and the higher end Lincoln Mark III established Iacocca as a significant
+figurein the automotiveindustry (seeIacocca(1986).)
+6Despite strong opposition from much of the business community, Iacocca obtained passage of the
+Loan Guarantee Act at the end of 1979. This bail-out was the largest financial transaction in U.S.
+history, and included loan guarantees of up to $1.5 billion. Participants included 452 banks, three foreign
+countries, four states, 1500 dealerships and suppliers, and the UAW and five other unions.
+7Motor Trend's June, 1987 issue reported “... as consumers, we are still trying to figure out specifically
+what they (minivans) are. Genetic analysis reveals they are part bus, part stevedore, and part limousine."
+4
+
+===== [PDF 第 7 页｜印刷第 5 页] =====
+without exitingit.
+The move to front wheel drive was a second major innovation. It provided improved
+handling over the rear-wheel drive vehicles of the day for a few reasons. First, the power
+from the engine goes directly to the front wheels, over which the driver has control.
+Second, the weight of the engine sits over the drive wheels. Finally, it led Chrysler to
+improve the suspension.
+The new suspension concept of the minivan was specifically designed to accomodate
+the largest front-wheel drive vehicle in the new car market. Instead of leaf springs, the
+minivan was equipped with an independent front suspension based on a modified form of
+the McPherson strut, a technology common to passenger cars of the day. Leaf springs,
+literally a horse-and-buggy technology, were inexpensive and well-designed to handle large
+loads. At the time, they exclusively equipped both the front and rear wheels of all trucks
+and vans. The disadvantage of this technology lay in its inability to stop the transmission
+of the normal bumps and bruises to the frame of the body, where it is then passed on
+to the passengers. McPherson struts have coil springs, which are much better suited to
+absorbing bumps. The struts are also designed to counter other physical forces acting on
+moving vehicles that can destroy the ride and handling.
+On October 7, 1983, the first Dodge Caravans and Plymouth Voyagers began rolling
+off the assembly line. This new vehicle was an immediate success; Chrysler sold almost
+170,000 Caravans in 1984, its debut year, capturing 1.58% of the new vehicle market.
+General Motors (GM) and Ford quickly responded, introducing their own versions of
+minivans in 1985 (GM Astro/Safari) and 1986 (Ford Aerostar.) However,because they
+did not forecast the minivan's success, they had little choice but to build their minivans
+on truck platforms with rear-wheel-drive, and their versions handled more like down-sized
+full-size vans than passenger cars. It was not until six years later, the average time from
+drawing board to showroom, that GM delivered the first minivan competitor with front
+wheel drive to market.
+Five years after its introduction, Americans had bought over 2.25 million minivans,
+with Chrysler selling 1.3 million of these new vehicles to households who willingly paid
+(at least) the base sticker price of $8700 (1982-84 CPI adjusted.) This and later success
+obtained from Chrysler's continual effort to monitor the likes and dislikes of its customers,
+8For example, the independence of one front wheel's suspension from the other also minimizes trans-
+mission of shocks across the axle (and eventually into the passenger compartment).
+5
+
+===== [PDF 第 8 页｜印刷第 6 页] =====
+using its first-mover informational advantage to guide the later innovations on its mini-
+vans.9 In 1997, fourteen years after the minivan introduction, with six firms marketing a
+total of thirteen different kinds of minivans, Chrysler still dominated this market niche,
+claiming 44% of the total 1.16 million units sold that year.
+Ford and GM, the dominant station wagon sellers, watched as the wagon sales peaked
+in 1984 at 950,000 and then plummeted over the next seven years to 300,000. Industry
+analysts echoed Ford managers’ fears of the “Mini/Max", concluding that the minivan
+had replaced the station wagon.
+3  Discrete Choice Demand and Welfare Estimation
+In this section I review the Gorman-Lancaster-McFadden discrete choice model with a
+focus on recent progress in demand and welfare estimation using market-level data. I
+then describe my suggestion for obtaining more precise estimates of the distribution of
+unobserved heterogeneity in consumer tastes.
+3.1 Overview and Recent Developments
+Discrete choice models start with conditional indirect utility, usually given as a function of
+observed and unobserved product j and consumer i characteristics and model parameters
+0. Given these arguments, it is straightforward to solve for the conditional indirect utility
+for any product j, uj(0), and for the level of unconditional indirect utility that obtains
+for any choice set J, or
+V'(0) = max uij(0).
+jEJ
+These models lend themselves naturally to true cost-of-living indices, which fix a
+benchmark level of utility and ask how income must change to reach this utility level
+(see Hicks (1946).）With new products,one reasonable benchmark utility level is that
+9Two of the most striking examples relate to the engine and the two sliding doors. The early Dodge
+this engine in 1987 with a higher performance 6-cylinder engine. Chrysler was also the first to put two
+Parents appreciated the two sliding doors because kids could now exit from either side of the street onto
+the sidewalk or from either side of the vehicle in the garage.
+6
+
+===== [PDF 第 9 页｜印刷第 7 页] =====
+obtained when consumers have the new good in their choice set, or, VB = V(p°, yi), where
+choice set B includes the new good, y is income and p° is the vector of prices with the
+new good available. Compensating variation uses this benchmark utility and asks how
+much consumers need to be compensated to willingly give up the new good; that is, it is
+the change in income △y that solves
+VB = V(p°,yi) = Vi(p,yi + △y),
+that demand is zero (e.g. infinity.) Thus, it will depend on a consumer's income and the
+prices that obtain in the market both with and without the new good.
+A general random utility model is given by the following three-component function:
+Uij(0) = 8(0) + μij(0) + Eij·
+The first component, o§(0), is a product specific utility term common to all consumers.
+acteristics. Finally, Ei is a “love of variety” taste term that is assumed to be i.i.d. across
+products and consumers.Consumer i is assumed to choose the product j that yields
+maximal utility, and market shares obtain from aggregating over consumers.
+The utility component common to all consumers, O§, can be written as
+j = -αpj + X;β +j
+where α is the marginal utility of income, X; and β are, respectively, a vector of observed
+product characteristics and the taste parameters associated with those characteristics. j
+represents utility derived from characteristics observed to consumers and producers but
+notobserved tothe econometrician.
+The μij term allows substitution patterns to refect heterogeneity in consumer tastes
+for product characteristics. This heterogeneity may be driven by differences in demograph-
+ics and/or idiosyncratic tastes. BLP show that allowing for these tastes is important for
+getting realistic substitution patterns and cross-price elasticities; without them, the only
+consumer taste heterogeneity arises from (eii), which is i.i.d. across consumers and prod-
+ucts.10 Thus, without μij(0), all consumers share the same expected ordering over the
+10See also Nevo (1998).
+7
+
+===== [PDF 第 10 页｜印刷第 8 页] =====
+products (that given by the o's.) In terms of substitution patterns, this ordering means
+vehicles with the largest o,'s, regardless of the characteristics of her first choice.
+One of the negative results that obtains from recent demand estimation is that pa-
+rameters describing the distribution of μiy(0) are often difficult to precisely estimate with
+market-level data. This result obtains because precise identification of substitution pat-
+terns requires observations onhow consumers substitute between products as the set of
+available choices changes." With market-level data, we often do not observe many market
+outcomes and/or the various market outcomes sometimes do not contain a lot of varia-
+tion in price and product characteristics. Berry, Levinsohn, and Pakes (1998) show that
+precise estimates of substitution patterns do obtain when one observes consumer-level
+first and second choices; thus, “micro-micro" data can identify the distribution of μij(0).
+Unfortunately, this data cannot be posed as the solution because it rarely exists, and,
+when it does, is usually proprietary. Before turning to my suggestion for obtaining more
+precise estimates of μij (0), I briefly describe the importance of the product-specific errors.
+Until recently, discrete choice models with market-level data often ignored the i’s,
+in essence assuming that the (usually half dozen or so) observed characteristics provide
+a complete description of what consumers value. As Berry, Levinsohn, and Pakes (1995)
+note, without this term, the only source of variance in the model is sampling error. With
+market-level data this variance is often too small to account for discrepancies between
+predicted and observed market shares, and in such cases formal testing rejects the model
+specification in favor of the “overfitting” alternative.
+Introducing these product-specific errors makes an otherwise dormant endogeneity is-
+11Figure 1 provides a suggestion of how identification obtains from observing variation in choice sets.
+Consider a market with three cars that differ only in the amount of their interior space; two cars have
+lots relative to the third (choice set 1.) In this first market, we see each car obtaining equal market shares
+of one-third. In a second market (say in the following year or in a different geographic region), one of
+the vehicles with lots of interior space is no longer available. I describe two extreme outcomes for market
+shares and their information content. In the first case, the remaining vehicle with large interior space
+obtains two-thirds of the market; thus consumers appear to substitute entirely to the vehicle with lots of
+interior space, suggesting these consumers have strong taste for interior space. Furthermore, they disagree
+with the consumers purchasing the car with limited interior space, so there is evidence of heterogeneity
+in tastes for interior space. In the second extreme case, the two remaining vehicles split the market
+share. This change provides no evidence of heterogeneity in taste for interior space as consumers appear
+torandomlysortbetween thetwoavailable alternatives.
+8
+
+===== [PDF 第 11 页｜印刷第 9 页] =====
+sue apparent; if there are unobserved (to the econometrician) characteristics, and these
+characteristics are observed to both consumers and producers, price is likely to be posi-
+tively correlated with these errors. This correlation biases the marginal utility of income
+e.g. Trajtenberg (1989).) Instrumental variable (IV) methods are the usual solution, al-
+though their application is frustrated by the fact that both the py and ; enter the share
+equations in a non-linear fashion. Berry (1994) provides an important advance, devel-
+oping a method that makes IV applicable to a large class of non-linear random utility
+models. I now turn to my suggestion.
+3.2  Identifying Heterogeneity Using Secondary Data Sources
+I offer a middle-of-the-road approach to obtaining more precise estimates of the param-
+characteristics of consumers associated with some of the relevant attributes of the prod-
+ucts they purchase. In particular, for my welfare question I incorporate information from
+a supplement to the Consumer Expenditure Survey (CEX) on new vehicle purchasers. I
+use this information to help identify the marginal utility of income and substitution pat-
+terns between vehicles in the family vehicle segment. For the marginal utility of income, I
+allow for income effects (indexing α by i,), matching the model predictions for probability
+of purchase across income groups to the observed conditional purchase probabilities from
+the CEX. I also match model predictions for average household characteristics (like family
+size) for purchasers of different vehicles to those in the CEX data.
+This approach has a number of appealing features. First, this kind of information is
+more likely to be available to researchers. One might find this kind of information on
+average characteristics in supplemental surveys associated with any of the detailed panels
+often used by social scientists. Other possible sources include marketing or customer
+satisfaction surveys. Second, while micro data is always preferred, averages of micro
+data may be more readily available because they satisfy the disclosure requirements of
+confidential data or are less expensive to purchase than the full collection of data. Third,
+the approach adds no real computational burden to BLP. Once one has the additional
+averages that one wants the model to match, augmenting the market-level data is done
+by adding the new moments to the BLP estimation routine. And since the sampling
+9
+
+===== [PDF 第 12 页｜印刷第 10 页] =====
+the market-level data, the variance of the combined moments is block diagonal, making
+computation of the objective function and the standard errors less burdensome.
+Finally, my results suggest that even limited additional information can play an im-
+portant role in more precisely estimating the parameters associated with the distribution
+of unobserved heterogeneity. In particular, the role of the independent and identically
+distributed (i.i.d. ) error terms is reduced, and I find this leads to much more reasonable
+estimates of the marginal utility of income, own-and cross-price elasticities, and welfare
+change. I now turn to the specifics of the utility function.
+4The Utility Specification
+In this section I describe the utility specification, which is tailored to allow for individual
+tastes that can vary across consumers both because of their demographics and because
+they may have strong idiosyncratic taste for observed vehicle characteristics.
+The utility function has consumer i choosing the good j that maximizes
+Uij = αi ln(yi- Pi) + Xjβ + kVikxjk + Si + eij,
+k
+where X,β,fj, and Eij are as described in Section 3 and jk E X. Utility from the
+composite commodity good is given by Q; ln(yi - pi). Income effects are prevalent in the
+survey data, so I allow the marginal utility of income to vary according to income groups:
+αo if (yi≤1)
+Q=< Q1if (y1 ≤yi< y2)
+Q2 if (yi ≥2)
+where Ji and y2 divide the U.S. population into three equally sized groups ordered by
+income. The kth characteristic of vehicle j is given by jk, for k = 1,... , K. Each con-
+sumer i has K idiosyncratic tastes for the K observed characteristics, V = (vi1,... ,Vik).
+The consumer specific vik are interacted with k, a parameter measuring the heterogeneity
+in tastes for the observed characteristics in the population. This yields Yik, consumer i's
+personal taste for characteristic k,
+Yik = MkVik.
+10
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+（效用，印刷 p.10）  u_{ij}=\alpha_i\ln(y_i-p_j)+X_j\beta+\sum_k\gamma_k\nu_{ik}x_{jk}+\xi_j+\epsilon_{ij}
+    核对方式：本轮看图
+（收入组价格系数）  \alpha_i=\begin{cases}\alpha_0 & y_i\le\bar y_1\\ \alpha_1 & \bar y_1\le y_i<\bar y_2\\ \alpha_2 & y_i\ge\bar y_2\end{cases},\qquad \gamma_{ik}=\gamma_k\nu_{ik}
+    核对方式：本轮看图；说明：\bar y_1,\bar y_2 把美国人口按收入三等分。第 7.1 节（PDF 第 17 页）把这三个参数记作 (\alpha_1,\alpha_2,\alpha_3)，低收入组写作 y_i<\bar y_1，原文前后记号不一
+----- 【公式校正结束】 -----
+
+===== [PDF 第 13 页｜印刷第 11 页] =====
+I allow the Yik's associated with minivans, station wagons, full-size passenger vans,
+and sport-utility vehicles to depend in a special way on demographics. Specifically, if f si
+is the family size of household i, and, for example, mi and sw subscripts denote minivan
+and station wagon, consumer i's tastes are
+f?a (sf)u ?ul = u?
+Yi,sw = Ysw In(fsi) Vif,
+where vif is a common idiosyncratic taste i has for family vehicles (independent of demo-
+graphics) and (ln(fsi)vif) is the full demographic-dependent taste term. The parameter
+Ymi (sw) is a taste-shifter that allows families of different sizes to value minivans (sta-
+tion wagons) differently. With this parameterization, the covariance between taste for
+minivans and taste for station wagons is increasing in Ymi and Ysw. Thus, patterns of
+substitution between family vehicles can emerge for 2 reasons: larger families prefer these
+vehicles, and/or the vehicles share other similar observed characteristics.
+After integrating over the logit “love of variety” error the probability household i
+purchases good j is given by:
+y+ +gx+()u?
+Pr(j|X,i) = teai ln(gi-pi)+X1β+k YkVikxik+1
+Aggregate demands s obtain from integration over household-specific characteristics, so
+ej+μij
+Pr(j|X,i)P(di) = Ji ∑iedi+μil -P(di),
+where i indexes income, family size, and the vector of unobserved tastes (yi, fs,vi). The
+joint distribution of income and family size from the CEX is used to integrate out (yi, fsi).
+I use K independent x?(3) distributions truncated at 95% to approximate the distribution
+of unobserved consumer tastes. While perhaps ad hoc (as this choice always is), I choose
+this distribution for two reasons. First, it is bounded above and below. Second, using x2
+instead of the normal distribution implies that taste heterogeneity in the population is
+skewed toward the direction of strong positive taste. Having specified the distribution of
+consumer characteristics, the demand side is complete.
+11
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+（家庭规模交互，印刷 p.11）  \gamma_{i,mi}=\gamma_{mi}\ln(fs_i)\,\nu_{if},\qquad \gamma_{i,sw}=\gamma_{sw}\ln(fs_i)\,\nu_{if}
+    核对方式：本轮看图；说明：mi 为厢式旅行车（minivan），sw 为旅行车；\nu_{if} 为对家庭用车的共同特异口味
+（选择概率与份额）  Pr(j\mid X,i)=\frac{e^{\alpha_i\ln(y_i-p_j)+X_j\beta+\sum_k\gamma_k\nu_{ik}x_{jk}+\xi_j}}{\sum_l e^{\alpha_i\ln(y_i-p_l)+X_l\beta+\sum_k\gamma_k\nu_{ik}x_{lk}+\xi_l}},\qquad s_j=\int_i Pr(j\mid X,i)\,P(di)=\int_i\frac{e^{\delta_j+\mu_{ij}}}{\sum_l e^{\delta_l+\mu_{il}}}P(di)
+    核对方式：本轮看图；说明：(y_i,fs_i) 联合分布取自 CEX；未观测口味用 K 个独立、在 95% 处截断的 \chi^2(3)
+----- 【公式校正结束】 -----
+
+===== [PDF 第 14 页｜印刷第 12 页] =====
+5 The Supply Side
+In this section I discuss the supply side model. It is identical to the approach used by
+BLP, and I use it two reasons. First, given the observed market shares, prices and charac-
+teristics, and the demand side model, one can invert the equilibrium first order conditions
+to solve for product-specific marginal costs. Since information on marginal costs is pro-
+prietary and very difficult to obtain, this approach permits me to estimate these costs,
+which I use to measure changes in producer surplus. Second, it's computationally possible
+to solve for new equilibrium price vectors under different counterfactuals. Solving for new
+equilibrium price vectors is important because I want to account for the price effects of
+imperfect competition when computing consumer and producer changes in welfare.
+The competitive environment has F multiproduct firms competing on price. Each firm
+f produces some subset Jf of the J total products. Firms have a marginal cost function
+that is log-linear in a vector of k' cost characteristics. Similar to the demand side, the
+cost characteristics are separated into an observed and an unobserved component. The
+vector W; represents the observed component, and w, the unobserved component. Given
+these assumptions, the (log) marginal cost function can be written
+ln(mcj) = WjT + Wj, (5.1)
+where T is a vector of cost parameters associated with product characteristics.
+Each firm has a profit function
+IIf = M (p; - mc;)s;(p, X; 0),
+jEJf
+where M is the number of households in the U.S., s§() is good j's predicted market share,
+and qj(p, X;0) = Ms;(p, X;0).12 Firms are assumed to compete in a Bertrand-Nash
+fashion; given their products and the prices and attributes of competing products, firms
+choose prices to maximize profits.
+In this model, any product sold by the optimizing firm f will have a price and market
+12This profit function ignores the 25% tarifflevied against Japanese minivans during the 1980s. While it
+is possible to incorporate this tariff into the model, I do not complicate matters simply because Japanese
+minivansmakeup a trivialpart of minivan sales.
+12
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(5.1)  \ln(mc_j)=W_j\tau+\omega_j
+    核对方式：本轮看图；说明：其后 \Pi_f=M\sum_{j\in J_f}(p_j-mc_j)\,s_j(p,X;\theta)，q_j(p,X;\theta)=M\,s_j(p,X;\theta)，多产品 Bertrand-Nash
+----- 【公式校正结束】 -----
+
+===== [PDF 第 15 页｜印刷第 13 页] =====
+share satisfying the first order condition
+sj(p, X; 0) + (pr - mcr) 0sr(p, X; 0) =0. (5.2)
+rEJf apj
+apj
+estimated, (5.2) makes it clear that markups of the firm will be underestimated, thus
+contaminating measure of producer profits.
+Defining a new JxJ matrix, △, whose (j,r) element is
+sr if j and r are produced by the same firm
+de
+otherwise
+the J first order conditions from (5.2) can be written as
+s(po, X;0) - (po, X;0)[po - mc] = 0,
+where po is the (observed) equilibrium price vector. This system of equations can be
+inverted to solve for the price-cost markups:
+po - mc = △(po, X; 0)-1s(po, X; 0). (5.3)
+Since prices are observed and markups can be explicitly evaluated using △(po, X; 0)-1s(po, X; 0),
+estimates of marginal costs (mc) can be computed. Using (5.3) and (5.1), the estimating
+equation is
+ln(mc) = ln(po - △(po, X;0)-1s(po, X;0)) = WT + w,
+where W is a J x k' matrix of new vehicles by observed cost side characteristics.
+In order to compute the change in both consumer and producer profits, I use (5.2) to
+solve for a new equilibrium price vector for different counterfactuals. The new equilibrium
+price vector pi that obtains with the new choice set is used to compute the change in
+variable profits, △IIf(po, P1, mc; 0) for each firm f, and >f △IIf gives the total change in
+producer profits.
+6 Data
+I draw from a number of different data sources for this work. The data set includes all 2407
+nameplates marketed in the U.S. from the years 1981 to 1993 with sales over 1000 vehicles,
+13
+
+===== [PDF 第 16 页｜印刷第 14 页] =====
+including three years, 1981-1983, for which minivans were not available to consumers.
+The product level information combines data recorded in the Automotive News Market
+Data Book and in Wards Automotive Yearbook, with most information on passenger cars
+coming from the former, while the latter provided detailed information on station wagons,
+minivans, sport-utility vehicles, and full-size passenger vans.13 Vehicle characteristics
+include a measure of acceleration (horsepower/curb weight), vehicle dimensions, drive
+type, fuel efficiency, and a measure of luxury (a/c standard.) Quantity sold and list price
+are then linked to the characteristics of the base model. Econometrically, nameplate/year
+observations that lie in adjacent years and do not change horsepower, wheelbase, width
+or length by more than 10 percent are treated as the same model. Given this definition,
+thereare916 distinctmodels.
+The Consumer Expenditure Survey (CEX) is a rotating panel recording a U.S. house-
+holds purchasing pattern behavior for 5 quarters. I use the years 1987-1992, which includes
+a total of close to 30,0o0 households.It contains an automobile supplement which has
+information on the demographics of new vehicle purchasers and of family vehicle pur-
+chasers. Unfortunately, only 4o0 new vehicle purchases are reported annually, while there
+are about 200 different kinds of vehicles marketed annually, frustrating efforts to use the
+micro data directly.14 It does, however, contain questions which allow me to identify a
+subset of purchasers for my primary vehicles of interest, i.e. minivans, station wagons,
+sport-utility vehicles, and full-size vans. I use family size and head-of-household age to
+compute averages for purchasers of these types of vehicles. In the case of minivans, station
+wagons, sport-utilities, and full-size vans, the sample size is limited, with these vehicle
+types having 120, 63, 131, and 23 observations each. In total 1 observe 2660 new vehicle
+purchases over this 6 year period, and I use this information to compute estimates of
+purchase probabilities given consumer income levels. Finally, I use the full 30,000 obser-
+vations to approximate the empirical joint distribution of family size and income in the
+UnitedStates.
+Annual observations on a number of microeconomic and macroeconomic variables are
+also included.The number of households (M） in the U.S.comes from the Statistical
+Abstract of the U.S., as do prices for a gallon of unleaded gas in the 1990s. Gasoline
+13My thanks to BLP for providing me with the data on passenger cars and to Rob Feenstra for data
+on prices and quantities sold for many of the early 1980s full-size vans and sport utilities.
+14See Goldberg (1995) for a more complete discussion of this data.
+14
+
+===== [PDF 第 17 页｜印刷第 15 页] =====
+prices in the 1980s are taken from the U.S Department of Commerce's Business Statistics.
+Figures on GNP are drawn from the Economic Report of the President. Finally, the log-
+normal parameters of the distribution of income in the U.S. were estimated using data
+from the annual March Current Population Surveys (used for the random coefficients
+approach with just aggregate data.)
+7Estimation
+In this section I describe my estimation strategy. It closely resembles the Generalized
+momentswith anewsetof moments.
+7.1  The New Moments
+The idea for using these new moments relates to a suggestion by Imbens and Lancaster
+(1994). They point out that aggregate data is aggregated micro data, and therefore con-
+tains information on the average of micro variables. In my case, the CEX automobile
+supplement provides information on aggregates of new car purchasers. The GMM estima-
+tion routine essentially chooses the parameter estimates to match (in part) the average
+model predictions to the observed average CEX outcomes.
+The first set of new moments matches average probability of new vehicle purchase
+conditional on income level, thus providing more precise identification of the income effect
+parameters (Q1, Q2, Q3). These moments are given by
+E[{i purchases new vehicle}| {y < yi}],
+E[{i purchases new vehicle}| {y ≤ yi < y2}], and
+E[{i purchases new vehicle}|{y ≥ y2}],
+where {i purchases new vehicle} is the event that consumer i purchases a new vehicle,
+and {y < yi}, {y1 ≤ y < y2}, and {yi ≥ y2} are, respectively, the events that consumer
+i is in the low, middle, and high income group. I also match the model predicted averages
+15
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+（微观矩一，印刷 p.15）  E\big[\{i\text{ 购新车}\}\mid\{y_i<\bar y_1\}\big],\quad E\big[\{i\text{ 购新车}\}\mid\{\bar y_1\le y_i<\bar y_2\}\big],\quad E\big[\{i\text{ 购新车}\}\mid\{y_i\ge\bar y_2\}\big]
+    核对方式：本轮看图；说明：按收入组的购车概率，识别收入效应参数
+----- 【公式校正结束】 -----
+
+===== [PDF 第 18 页｜印刷第 16 页] =====
+to those observed in the CEX for the moments
+E[fs;I {i purchases a minivan}],
+E[fs:| {i purchases a station wagon}],
+E[fs| {i purchases a sport utility}], and
+E[ fs| {i purchases a full-size van}],
+which respectively are the average family size of purchasers of minivans, station wagons,
+sport utilities, and full-size vans. Finally, I include four moments that match the prob-
+ability head-of-household is between age 30 and 60 for each of these four family vehicle
+groups.
+7.2 The BLP Moments
+One might describe the BLP approach as using two different sets of moments. The first
+set of moments matches the model's share predictions (s,(8(0),0)) to those in the data
+(sj), or
+sj(8(0),0) - sj = 0, j=0,1,.·· ,J.
+This moment matching is equivalent to solving for the vector 8(0) of product dummy
+variables that matches the predicted to the observed market shares, which Berry (1994)
+shows exists and is unique under mild regularity conditions on the distribution of consumer
+tastes.15 These moments cannot identify additional parameters as there are J moments
+that exactly identify the J elements of  (one element is normalized to zero.)
+The second set relates to the market-level disturbances (f;(0),w;(0)). Except for
+price, the unobserved demand and supply disturbances for any vehicle j are assumed to
+be uncorrelated with observed demand and cost side variables of all vehicles in that year,
+or
+E[≤;(0o) I (X, W)] = E[w(0o) I (X, W)] = 0.
+While admittedly a strong assumption, it does not impose the frequently used stronger
+assumption that own-product price is uncorrelated with the own-product error. Instead,
+it assumes that just the product characteristics are exogenous.
+15 While Berry's discussion and examples are all couched in terms of mean utility, his proof of existence
+and uniqueness carries directly over to my utility framework, where ? acts as a vector of base utilities for
+each product.
+16
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+（微观矩二，印刷 p.16）  E\big[fs_i\mid\{i\text{ 购 minivan}\}\big],\ E\big[fs_i\mid\{i\text{ 购 station wagon}\}\big],\ E\big[fs_i\mid\{i\text{ 购 SUV}\}\big],\ E\big[fs_i\mid\{i\text{ 购 full-size van}\}\big]
+    核对方式：本轮看图；说明：另有四个矩：四类家庭用车买家户主年龄在 30 至 60 岁的概率。共 11 个微观矩
+（BLP 矩）  s_j(\delta(\theta),\theta)-\mathbf s_j=0,\ j=0,1,\dots,J;\qquad E[\xi_j(\theta_0)\mid(X,W)]=E[\omega_j(\theta_0)\mid(X,W)]=0
+    核对方式：本轮看图
+----- 【公式校正结束】 -----
+
+===== [PDF 第 19 页｜印刷第 17 页] =====
+I follow BLP's approximation to the optimal instruments. Product l's characteristics
+are valid instruments for themselves. For prices, two sets of instruments are available. The
+first set are cost side variables that are excluded from the demand equation. The second
+set derive from the equilibrium first order conditions from (5.2), where firm f's choice of
+its product I's price is determined by its proximity in characteristics space to competing
+products and to its own-firm products. In any year, a first order approximation to the
+optimal instruments is given by the sum of the characteristic k across other own-firm
+ZitJ, rjk.16 This completes the description of the moments.
+7.3 The Objective Function
+The two sets of moments that enter the GMM objective function are Gi(o),the BLP-
+like moments, and G2(0), the moments associated with the CEX data. The population
+moment conditions are assumed to uniquely equal zero at the truth 0o,or
+G1(00)
+E[G(0o)] = E = 0.
+G2(00)
+Hansen (1982) shows that the optimal (two-step) GMM estimator takes the form
+0 = arg min G*(0)'G*(0),
+where G*(0) = a(0) G(0), G() is the sample analog to G(), and a(0) is a consistent
+estimate of the “square root” of the inverse of the asymptotic variance-covariance matrix
+of the moments (obtained using 0, a preliminary consistent estimate of 0o.)
+The two sources of variance in V = E[ G*(oo)G*(0o)' ] come from two independent
+sampling processes, so V is block diagonal. The upper left hand block Vi(G*(0o)) is
+the variance of the BLP-like moments, and the lower right hand block V2(G*(0o)) is the
+variance of the new moments. Letting T = E G*(00) 00 ,the gradient of the moments with
+respect to theparameters evaluated at the trueparameter values,the asymptoticvariance
+of √n(0 - 0o) is given by
+(T'r)-1 r'Vr (r'r)-1
+16Bresnahan, Stern, and Trajtenberg (1997) provide a nice discussion of the intuition behind using
+these instruments.
+17
+
+===== [PDF 第 20 页｜印刷第 18 页] =====
+As usual, reported standard errors estimate I and V using the consistent estimates T(0)
+and V(0).17 I now turn to the results.
+8 Results
+I organize the results into six different sets of tables: descriptive statistics,parameter
+estimates, consumer welfare, markups and producer welfare, total welfare, and robustness
+results.
+8.1  Descriptive Statistics
+The descriptive statistics contain the essence of the story that the model structure and the
+later tables quantify. The average characteristics of new vehicles sold in the United States
+are reported in Table 1a, including averages for the different family vehicles (minivans,
+station wagons, sport utility vehicles, and full-size vans.) Except for the small, inexpensive
+station wagons, priced on average more that $3000 (1982-84 CPI adjusted) less than other
+family vehicles, I find that family vehicles stand out from other vehicles primarily in their
+size and are priced competitively with one another. Most minivans and station wagons
+come equipped with front wheel drive (FWD), with Chrysler almost exclusively accounting
+for the 63% of FWD minivan sales. Finally, minivans also have the distinction of coming
+with more luxury; 78% have air conditioning (and presumably other features) as part of
+the list price package.
+Table 1b summarizes income, family size, and head-of-household age for different new
+vehicle purchasers and for the United States population as a whole. Income effects for new
+automobiles exist; new vehicle purchasers have an average income almost $13,000 higher
+than the average income of U.S. households, and this effect is even more pronounced for
+most of the family vehicles. Minivans, station wagons, sport-utilities, and full-size vans
+are typically purchased by larger families, and by households whose head is between the
+age of 30 and 60. With an average family size of 3.86 and a probability of 0.78 that the
+head of household is between age 30 and 60, minivans stand out most prominently as the
+17Moment restrictions for models that are similar in nameplate and characteristics over time are ag-
+gregated into one sample observation. Thus, the standard errors of the parameter estimates permit
+product-specific errors for similar models to exhibit arbitrary correlation across years.
+18
+
+===== [PDF 第 21 页｜印刷第 19 页] =====
+familyvehicle.
+Table 1c presents summary sales figures for the family-vehicle market segment from
+1981-93. Minivans sales climb dramatically in popularity over the 1980s, moving from
+a market share of 1.5% in 1984 to almost 10% in 1993. The waning appeal of station
+wagons is closely correlated with the success of minivans; they control approximately
+10% of the new car market in each year 1981, 1982, and 1983, but in 1984 (with the
+introduction of the minivan) their sales start to plummet, and fall every year until 1991.
+Further evidence in the market-level data of a covariance in taste between station wagons
+and minivans lies in column 5, which provides the sum of station wagon and minivan
+sales; while station wagon sales fell and minivan sales climbed, the sum of percentage
+sales remained remarkably constant over the sample period.
+8.2Parameter Estimates
+Table 2a reports the results for the four different demand-side models: OLS, IV, random
+coefficients with IV correction, and random coefficients with IV correction and the CEX
+data. OLS and IV results (columns 3 and 4) illustrate both the need to instrument and the
+need for permitting heterogeneity in taste.Even though the coefficient on price doubles
+with instruments (similar to BLP's finding) the estimated IV demand curves remain very
+inelastic, suggesting a specification problem. Both models are nested in the more general
+models reported in columns 1 and 2 that allow for unobserved heterogeneity in tastes,
+and Wald tests easily reject the OLS and IV models.
+Column 2 reports the random coefficient demand estimates with just market-level
+data. They suffer from the usual problem of being imprecisely estimated; only 6 of 24
+demand side parameter estimates have t-statistics that are greater than 1,and not one of
+the eight coefficients that relate to the family vehicles has a t-statistic that is greater than
+1. Thus, the 13 years of market-level data do not provide enough variation to precisely
+estimate the covariances in taste that are crucial to my welfare questions.
+I extend the random coefficients approach so that family size can potentially influence
+preference for family vehicles, and I add the supplemental CEX information that relates
+tastes to consumer observables. I find that even the limited information provided by the
+CEX survey from Table 1b can significantly reduce the imprecision in a random coeffcients
+model; 21 of the 24 parameter estimates with this new information have t-statistics greater
+19
+
+===== [PDF 第 22 页｜印刷第 20 页] =====
+than 1. The parameters most closely related to the additional information show the biggest
+increase in precision. In particular, the coefficients related to family vehicles and income
+effects are much improved as all 11 coeffcients have t-statistics greater than 3.18
+The cost side parameters of the model are presented in Table 2b. All of the car char-
+acteristics enter with significant coeficients that are of the expected sign. It costs more
+and more luxury into a new vehicle. Overall, the estimated precision of the demand and
+supply side parameters and the model predictions for the CEX moments are encouraging.
+I now turn to their implications.
+8.3  Changes in Consumer Welfare: 1984
+Here I compare the estimated changes in consumer welfare in 1984 across the four demand
+sidemodels.
+Table 3a summarizes the predicted changes in equilibrium prices that occur with the
+1984 minivan entry into the new vehicle market.These price changes illustrate how
+increased price competition in an imperfectly competitive market can bring significant
+Caravan had many substitutes that were top-selling vehicles. In particular, station wagons
+(SW) experienced the largest percentage price decreases, and the large family sedans (LS)
+show the largest dollar decreases.19 Overall, consumers of these popular vehicles benefit
+by an amount between $100 and $150 dollars. When aggregated benefits across all new
+vehicle purchasers in 1984, gains to non-minivan purchasers account for almost 43% of
+the total consumer benefits.
+Table 3b presents the compensating variation results for minivan purchasers across
+the four different demand-side models. Compensating variation is the dollar amount a
+(former) minivan purchaser would need to be compensated in the equilibrium without
+minivans to be just indifferent to being in the equilibrium with minivans. The medians,
+18The model is sufficiently fexible to match the new moments; predictions for average family size given
+minivan and station wagon purchase are 3.85 and 3.19 respectively, and 3.86 and 3.17 from the CEX
+data. Under the null hypothesis of “compatible”, the formal test statistic is distributed chi-squared with
+10 degrees of freedom, and the realized value of 8.5 is below the 10% level-of-significance critical value of
+15.98.
+19See Table A in the appendix for more detail on estimated substitution patterns.
+20
+
+===== [PDF 第 23 页｜印刷第 21 页] =====
+means, and the standard deviations of the distribution of compensating variations vary
+substantially across the demand-side models. The OLS and IV logit models suffer from
+very inelastic demand curves, as average compensation is $13,652 and $7,414 respectively
+               
+dom coeffcients using just market-level data, but the average compensation still appears
+to be quite high ($3,171) relative to the new-product introductory price. The random
+coefficients model augmented with data on consumer observables yields a prediction of
+$1,247 for average compensation, the most plausible of the four.
+In order to gain a better understanding of what lies behind these differences, Chart
+1 plots the distribution of compensating variations for the IV logit model, the random
+coefficients approach without micro data,and the full model.Here a story of “extreme-
+taste'” consumers is quite evident, as the top two histograms illustrate the dominant role
+played by the i.i.d. logit error in explaining minivan purchase. In the IV logit case,
+over 40% of minivan purchasers would willingly pay an additional $8,722 (the minivan's
+introductory price) to retain the right to purchase the minivan, and an extreme 10%
+would offer at least $20,00o. While the situation improves with the random coefficients
+(the second histogram), there are still many consumers that can find no close substitute
+in the new vehicle market and would still willingly pay thousands of dollars to retain the
+minivan. It is not until the micro data is brought to the random coefficients framework
+(the third histogram) that substitution patterns suggest minivan purchasers are able to
+find compensation from other vehicles’ observed characteristics. Additionally, the extra
+information appears to be quite important for accurately identifying the marginal utility
+of income terms; the full model is the only model that reasonably predicts average income
+conditional on purchase (see Table 2a.) I now turn to changes on the supply side.
+8.4  Markups, Producer Surplus, and Profit Dissipation
+In this section I summarize markups for family vehicles and the entire new vehicle market
+over the first few years of the minivan introduction. I also explore how these markups
+differ across the different demand side models, how variable profits changed as a result
+minivan.
+Table 4a, which reports some figures on the distribution of markups under each of the
+21
+
+===== [PDF 第 24 页｜印刷第 22 页] =====
+four demand systems, makes it clear that unreasonable demand side elasticities contam-
+inate the the supply side results. In the case of the OLS and IV logit, markups average
+$13,904 and $7,551 over the sample period, so estimated marginal costs are negative for
+73% and 22% of vehicles respectively. Of some interest is the fact that the difference in
+the estimated markups between the OLS and IV logit frameworks arises almost entirely
+from the difference in estimates of o (price-sensitivity) due to instrumenting; the ratio
+of the coefficients, 0.13/0.07, is almost exactly equal to the ratio of average markups, or
+$13,904/$7,551.
+Markups from the full model (column 1) and the random coefficients model restricted
+to market-level data (column 2) are all positive. The average markup from the model
+without micro data is about twice that of the average markup when micro data is added
+to the framework (40% vs. 17%), which is well within the realm of realistic for the
+automobile market.2° However, some markups without micro data refect the less elastic
+demand curves than those from the full model; at least 10% of the vehicles have markups
+greatthan62%.
+Table 4b reports the average (sales-weighted) prices and markups/price for family
+vehicles and for all other vehicles from 1983-1987. Minivans enjoy consistently larger
+markups than station wagons, sport-utility vehicles, and other new vehicles. Station
+wagon markups are 2% to 3% lower on average than minivan markups, and consistently
+fall below the market average. Markups also appear to generally fall over this time period
+in the new vehicle market, primarily because it becomes increasingly crowded as the
+numberof modelsclimbsfrom157in1983to198in1987.
+Changes in Chrysler's, Ford's and GM's total variable profits and in industry profits
+due to the introduction of the minivan are reported in Table 4c. Chrysler benefits signif-
+20Two estimates of markups from the same time period come from BLP and Goldberg (1995). BLP use
+market-level data from 1971-1990 on the U.S. passenger car market (i.e. no minivans, sport-utilities, or
+vans). Their random coefficients model (in which they instrument) yields ranges of markups depending
+upon the cost and demand side specification that range from as small as 15% to 25% to as large as 30% to
+40% (their analysis reports seven different cost side specifications.） Goldberg (1995) uses a nested-logit
+framework with the same market-level data as BLP (only using 1983-87) and combines this data with
+consumer-level information from the CEX. She treats prices as exogenous and finds an average markup
+of 38%, with a range from 14% to 61%. She also reports estimates from a number of other different
+sources, including Annual Survey of Manufacturers, and Consumer Reports, both of which suggest an
+average markupbetween15% and 25%.
+22
+
+===== [PDF 第 25 页｜印刷第 23 页] =====
+icantly from introducing the minivan, as variable profits increase by $202 million (14%)
+in its first year, relative to what profits would have been without the introduction. Sales
+and markups continue to grow over the next few years, partly because Chrysler continues
+to innovate on its original innovation, and partly because consumers learn about the new
+product. By the end of 1987, Chrysler's minivans had generated almost $1.5 billion in
+profits, well-exceeding the estimated $700 million spent on the cost of development, and
+this appears to have been only the beginning for their minivan's success.21
+Ford and GM are both hurt by Chrysler's innovation. In percentage terms, they lose
+between 1% and 2% annually, which works out to hundreds of millions for GM. Both were
+quick to respond to Chrysler, introducing their own versions of minivans, although they
+handled like trucks and had the design of a down-sized full-size van. Table 4d reports a
+measure of the success these imitations had in dissipating Chrysler's private returns by
+computing Chrysler's hypothetical profits without Ford and GM minivans. These profits
+are then compared to the profits that actually obtain. Over four years GM and Ford
+dissipated approximately $126 million dollars, which amounts to approximately a loss in
+sales of 76,000 minivans. While significant, they are not enormous, as Chrysler appears
+to have created a unique and different product.
+8.5  Total Welfare Change: 1984-88
+Table 5 summarizes changes in consumer and producer welfare across the industry after
+the introduction of the minivan for the years 1984-88. Consumers benefit significantly,
+gaining a new product for which some households, especially those with large families, have
+strong taste. Additionally, non-minivan consumers reap the benefits of price competition,
+obtaining almost half of the overall returns to this new innovation. For example, of the
+$367 million in consumer gains for 1984, $210 million accrued to minivan buyers, while
+$157 million went to non-minivan buyers. It also appears that the industry ex post would
+have been willing to pay Chrysler to not produce the minivan, as total producer surplus
+21 Information on total cost of development is difficult to locate. The $700 million figure was reported
+in the March 21, 1983 issue of Time magazine. Other figures include an estimate from the November 14,
+1983 issue of Fortune, which reported a $400 million cost of retooling at the first minivan plant (a lower
+be $1.5 billion in 1983 (Ward's Automotive, 1983). Of course, some of the initial design of the minivan
+had been completed by DeLaRussa while he worked at Ford in the 1970s.
+23
+
+===== [PDF 第 26 页｜印刷第 24 页] =====
+for the industry falls slightly in 1984 and 1985. Finally, total welfare change over the
+first five years is about $2.9 billion dollars, of which $2.8 billion is from consumer surplus,
+suggesting benefits to consumers of this new product introduction swamped both the costs
+to society of producing the vehicle and the private returns the innovator obtained.
+8.6  Specification and Robustness Checks
+In this subsection I provide specification/robustness checks. I test whether the model
+appears to be consistent with the additional micro moments.I explore whether com-
+pensating variation results are sensitive to different choice sets over time and to different
+assumptions about price changes. I report the equivalent of Table 5, which summarizes the
+change in welfare, using the observed (equilibrium) prices with minivans in the market
+instead of the new predicted prices from the model. Finally, I explore different distri-
+butional assumptions for unobserved tastes to see whether the compensating variation
+numbers aresensitiveto them.
+Table 6a reports the Consumer Expenditure Survey moments that I ask the model
+to match.It also reports the model predictions for these moments at the parameter
+estimates. Overall, the results indicate that the model's parameterization is sufficiently
+flexible to match the moments. Average family sizes conditional on different vehicle
+purchases match very closely. The CEX data suggest a point estimate of 3.86 for minivans,
+while the model yields an estimate of 3.85, well within the 0.1 standard error from the
+CEX sampling variance.22 Similarly, for station wagons the CEX data yields an average of
+3.17 with a standard deviation of 0.17, while the full model predicts 3.19. Predictions for
+probability of being middle aged given family vehicle purchase and probability of new car
+purchase conditional on income group are also statistically reasonable. Finally, a formal
+test of diferences is not able to reject the null that the two estimates are the same.23
+Table 6b reports results over time from the full model for compensating variation
+and for substitution patterns within the family vehicle segment.The distribution of
+compensating variation appears to be stable over changing choice sets and to evaluating
+compensating variation at either the new equilibrium prices without minivan's inthe
+22This standard error ignores the variance from the estimated parameters. Incorporating this variance
+would only increase the likelihood that I would conclude the model and the CEX data are compatible.
+23The test statistic is distributed chi-squared with 10 degrees of freedom, and the realized value of 8.5
+is below the 10% level-of-significance critical value of 15.98.
+24
+
+===== [PDF 第 27 页｜印刷第 25 页] =====
+market, or at the equilibrium prices obtained with minivans in the market (column marked
+with minivans.)24
+The fraction of minivan purchasers substituting to the other kinds of family vehicles
+appear to change over time in a way consistent with anecdotal evidence in the market. One
+can see that minivan purchasers primarily (31%) substitute to station wagons in 1984.
+By 1997, only 13% of former minivan purchasers are buying station wagons, as these
+family vehicles are eclipsed by a new breed of sport-utilities that, similar to minivans, are
+becoming more family friendly over time.
+The overall welfare results using the equilibrium prices when minivans were in the
+market during 1984-1988 are reported in Table 6c. While these are the equilibrium prices
+with minivans in the choice set, they provide a useful alternative set of prices which I use
+to check robustness, and the results are quite similar.25
+Table 6d presents some robustness results for the distributional assumptions made
+on the random coeficients associated with the observed product characteristics. I only
+experiment with different x² distributions for idiosyncratic tastes of observed product
+characteristics because I want to bound tastes from below (so there are not people that
+infinitely dislike every characteristic.）Four different distributional specifications are re-
+ported, including the x"(3) and the x"(1) distributions, and their truncated counterparts
+(cut off at 95%). The improvements over previous approaches appear to be robust to
+changes in the distributional specifications. However, the non-truncated distributions do
+produce welfare numbers that are larger than their truncated counterparts, suggesting
+that the tails of these distributions can still play a role in the welfare measure. Also,
+the x?(3) distribution yields numbers marginally larger that x?(1) distribution, perhaps
+because of the thicker tail this the sum of three squared normal deviates has relative to
+just one squared normal deviate.
+241 have also estimated the model with the demand side alone, and the consumer surplus numbers that
+obtain are very similar.
+251f the choice set from the previous year included exactly the same vehicles up to the minivan, 1983
+prices would be the best set of equilibrium prices to use for the counterfactual. Unfortunately, between
+1983 and 1984 some vehicles leave the choice set, other new vehicles appear, and some vehicles in the
+choice setchangetheir characteristics.
+25
+
+===== [PDF 第 28 页｜印刷第 26 页] =====
+9 Conclusions
+In this paper I report two main findings. One is of methodological importance for the
+estimation of demand systems in differentiated goods’markets. The second quantifies how
+the minivan introduction changed consumer and producer welfare in the United States.
+I suggest a technique useful for obtaining more precise estimates of demand curves.
+My recommendation is to supplement market-level data with information matching some
+important averages of consumers to those of observed product characteristics. Many kinds
+of observed empirical means can be used to supplement the estimation routine, making the
+technique useful for a broad range of markets where price and product characteristics data
+may not be sufficient to precisely identify the relevant substitution patterns. I find the
+results obtained from using previous methodologies far less plausible both economically
+and statistically than what I obtain when I use the additional data.
+I focus on the quantitative effects of the minivan introduction. The model suggests
+that consumer benefits swamped both the development costs and the profits obtained by
+the innovator. Consumer benefits are distributed across households in a non-random way,
+and almost half of these benefits accrued to new vehicle buyers that were not minivan
+purchasers, but were purchasing other vehicles with lower prices due to increased com-
+petition. On the producer side, the results were mixed. Chrysler obtained large benefits
+from the minivan introduction, easily recouping its initial development costs. These sales
+came at the expense of the rest of the industry, especially since Ford and General Mo-
+tors were unprepared for the minivan innovation and unable to respond quickly with the
+introduction of a comparable product.
+My results support a simple economic story where large improvements in consumers'
+standard of living arise from competition between firms in a differentiated goods market.
+These firms ignore the externalities imposed upon one another as they cannibalize each
+others profits by introducing new and different goods. The new goods that successfully
+differentiate themselves from existing products frequently yield large profits for the inno-
+vator, and even more importantly, can generate benefits for consumers that swamp those
+accruingtotheinnovator.
+26
+
+===== [PDF 第 29 页｜印刷第 27 页] =====
+A Substitution Patterns
+Here I discuss the substitution patterns implied by the parameter estimates. Table A
+documents the 1984 substitution patterns for four family vehicles and one top-selling
+inexpensive small sedan. These vehicles are Chrysler's Dodge Caravan minivan, Gen-
+eral Motor's Chevrolet Celebrity station wagon (the top-selling station wagon in 1984),
+Chrysler's full-size Ram B10 van (one of the top-selling three vans), the Chevrolet Blazer
+K sport utility vehicle (one of the biggest sport utility's of the day), and the Dodge Aries
+K-car, a small, inexpensive family sedan (to provide some idea of what substitution pat-
+terns look like outside the family vehicle segment.）I report the own-price elasticity of
+each model and their top five substitutes. A number of other vehicles, many of which
+are in the family vehicle segment, appear in the cross-price elasticity part of table A, and
+I denote these vehicles as MI (minivan), SW (station wagon), SU (sport-utility), VAN
+(full-size van), or SS (small sedan.)
+The model estimates imply an own-price elasticity of -6.695 for the new Dodge Car-
+avan; a one percent increase in the Dodge Caravan's $8722 introduction price (1982-84
+dollars) would lead to a 6.7% fall in demand (ceteris paribus). The model predicts the
+Caravan's closest substitute to be the Celebrity station wagon (column 2), the top-selling
+station wagon in 1984. The Celebrity has in turn the Caravan as its closest substitute.26
+Demand for the Celebrity is more price elastic than demand for the Caravan, probably due
+to the stiff nature of competition between station wagons, as 18.4% of the 1984 new vehi-
+cle models are in this class. Both the Caravan's and the Celebrity's other top competitors
+are all mid-size and large station wagons.
+The full-size Ram B10 van and General Motor's Blazer K sport utility are reported
+in columns 3 and 4. Again, the results for these sub-categories appear sensible. They
+each have at least one representative of the van, sport utility, and station wagon class in
+their top five substitutes. Chrysler's Ram B10 van has as closest competitors Chevrolet's
+Sportvan and Ford's Econoline 150 van, which together make up 65% of the 1984 full-size
+utility available to consumers in 1984.The model predicts as its closest substitute the
+Suburban C10, another General Motor's sport utility that has the distinction of being
+the largest sport utility in the sample from 1984-93. Finally, the Dodge Aries K-car, a
+26 This symmetric outcome is not directly imposed by the model.
+27
+
+===== [PDF 第 30 页｜印刷第 28 页] =====
+mid-sized inexpensive ($6658) family sedan in the crowded family sedan market, has the
+highest own-price elasticity of the five automobiles surveyed here. This result is consistent
+with the small sedan segment of the vehicle market; not only is it in one of the market's
+most crowded segments, but it is also frequented by the most price-sensitive consumers.
+Again, the model sensibly predicts substitution patterns; the Dodge Aries K primary
+substitutes are all other inexpensive small family sedans of the day, including the Ford
+Escort ($5616), the (Ford) Mercury Lynx ($5542), the Chevrolet Celebrity family sedan
+($5988), and Chrysler's Dodge Colt ($5400).
+28
+
+===== [PDF 第 31 页｜印刷第 29 页] =====
+B Computational Issues
+In this section I describe three important computational aspects to the welfare calcu-
+lations.27 First, I show how the delta method is used to compute the variance of the
+CEX moments. Next, I provide an overview of the minimization algorithm, including a
+description of the computation of the micro moments implied by any set of parameter
+values. Finally, I describe the algorithm that is used to locate new equilibrium prices for
+the different counterfactuals I consider.
+B.1  Estimating the Variance of the CEX moments
+I use the delta method to compute the variance-covariance matrix for the CEX moments.
+This matrix enters both the optimal weighting matrix and the estimates of the standard
+errors.The need for the delta method arises because the conditions for the conditional
+moments are not generally satisfied by all N observations in the CEX.28 Here I outline this
+construction for two conditional means from Section 7.The procedure extends directly
+to additional moments.
+I begin by constructing new random variables that yield exactly the same conditional
+means, but use all N observations from the CEX. Define the vector of indicator random
+variables I ={I1,I2,I3,I4} as
+I = {i purchases new vehicle} * {yi < yi}
+I2={y<可}
+I3 = fs * {i purchases minivan}
+I4 = {i purchases minivan},
+each of which is well-defined for every one of the N observations in the CEX. Next,
+construct a function of the means of these four random variables that yields the conditional
+moments of interest. In this case, define h() such that
+h(I1, I2, I3, I4) = (I1/I2 ,I3/I4)
+and note that h()yields the same estimate of the conditional means that would obtain if
+I computed them in the “usual" way, by first selecting all observations that satisfied the
+27 Most other computational aspects are discussed in Berry, Levinsohn, and Pakes (1995).
+28 While not an issue for computing the variance of any particular moment, this complicates the com-
+putation of the covariances between conditional moments.
+29
+
+===== [PDF 第 32 页｜印刷第 30 页] =====
+condition and then averaging. Under mild regularity conditions √N(I-μ1)  N(0, V(I)),
+so, by the delta method,
+/N I/I2 - E[{ purchases new vehicle} | {yi < y1}]   N(0, Vh(μr) V(I) Vh(μ1),
+I3/I4 -  E[fs |{i purchases minivan}]
+where Vh(u1) is the gradient of h(μ1). Thus, the CEX variance can be computed with
+an estimate of V(I) obtained from all N observations, combined with an estimate of the
+derivative of h() obtained using an analytic solution to the gradient and the data.
+B.2 Estimating the Parameters
+Using the Nelder-Mead Non-Derivative search algorithm (see Nelder and Mead (1965)),
+the objective function is evaluated at many different values of θ E O until the minimum is
+located.29 The following five steps provide an overview of this iterative process. I describe
+the first three in detail.
+Given a 0 E O:
+1) locate the 5* that solves s = s(o*, 0) ,
+2) compute the micro moments,
+3) compute the markups, marginal cost, and the implied BLP moments,
+4) use sample moments from (2) and (3) to compute objective function value,
+5 perturb 0 using Nelder-Mead and return to 1 until minimum located.
+Step 1: Locate the 8* that solves s = s(8*,0)
+Berry, Levinsohn, and Pakes (1995) design a contraction mapping for locating the 5*
+that matches observed to predicted market shares. They prove that the operator
+T(0)[6] = 6 + ln(s) - ln(s(0,6)) (B.1)
+is a contraction mapping with modulus less than one for random utility with a logit error.
+Given θ and an initial guess for 5, say 81, s(0,81) is computed, and, using the operator
+above, a new 5, 82 = T(0)[s1] obtains. This process is repeated until the distance between
+On and on-1 is small (the contraction property ensures that this distance can be made as
+small as desired.)
+29 The computational work is done in Gauss and C, with code available on request.
+30
+
+===== [PDF 第 33 页｜印刷第 31 页] =====
+Step 2:Compute the micro moments
+For any candidate set of parameter values, the error in any micro moment is computed
+as the difference between the CEX value of the conditional mean (which is unaffected by
+the parameter values) and the prediction offered by the model. The prediction from the
+model is computed using Bayes Rule. Iillustrate this computation for average family size
+given minivan purchase; the other moments are computed in a similar manner.
+Average family size conditional on minivan purchase is given by
+(B.2)
+Thus, its computation requires an estimate of the probabilities associated with family
+size taking on different values for minivan purchasers. Using Bayes Rule, the conditional
+probabilities can be rewritten as
+Pr(minivan purchase | fs)Pr(fs)
+Pr(minivan purchase)
+An estimator of the probability of minivan purchase is given by the observed market share
+of minivans (and is exactly matched by the model because the individual automobile
+market shares are matched.）An estimate of Pr(fs) is computed from the CEX. An
+estimate of the average probability of minivan purchase conditional on family size is
+obtained in two steps. First, simulate (to integrate out) the unobserved tastes for each
+family from the CEX sample; this yields a minivan purchase probability for each CEX
+family. Second, average the purchase probabilities for each family size (i.e. integrate over
+the observed demographics.） With these three probabilities and (B.2) one can estimate
+the average family size conditional on minivan purchase from the model. The other micro
+means are computed in a similar manner.
+Step 3:Compute the markups,marginal cost,and the implied BLP moments
+Estimates of the markups obtain from simulating the derivatives that enter  (see
+(5.3)). Marginal cost (mc) is observed price minus estimated markup. Estimates of 8* and
+the log of marginal cost are then regressed onto the demand and cost side characteristics.
+Residuals for each product, § = 5* - X;βo and @, = ln(mc;) - W, are interacted with
+the instruments to obtain theBLP moments.
+31
+
+===== [PDF 第 34 页｜印刷第 32 页] =====
+B.3  Solving for New Equilibrium Prices
+The numerical algorithm for locating new equilibrium prices comes from (5.3), the rear-
+ranged equilibrium first order conditions. A fixed point of the operator
+V[0][p] = mc(0) + △(0,p)-1 * s(0,p) (B.3)
+is an equilibrium price vector if the second order conditions for a maximum (profit max-
+imization) hold at the fixed point. There is no guarantee that this operator converges to
+a fixed point if one (or more) exist.
+I use the estimated parameters and markups to estimate new equilibrium prices under
+a counterfactual,so
+V[0][p] = mc(0) + △(0,p)-1 * s(0,p). (B.4)
+In practice the initial guess p = mc(0) seemed to work well. After locating a fixed point
+that satisfies
+p* = mc(0) + △(0,p*)-1 * s(0,p*) (B.5)
+and verifying that the second order conditions hold at p*,I use these prices and the
+new implied sales as the equilibrium prices and quantities for the counterfactual (e.g. no
+minivans.)
+32
+
+===== [PDF 第 35 页｜印刷第 33 页] =====
+References
+ARMKNECHT, P.(1984): “Quality adjustment in the CPI and methods to improve it,
+in Proceedings of the Business and Economic Statistics Section, pp. 57-63. American
+Statistical Association.
+BERRY, S., J. LEVINSOHN, AND A. PAKES (1993): “Some ApplicationS and Limita-
+tions of Recent Advances in Empirical Industrial Organization: Price Indexes and the
+Analysis of Environmental Change,” American Economic Review, 83(2), 240-246.
+(1995): “Automobile Prices in Market Equilibrium,” Econometrica, 63(4), 841-
+890.
+(1998): “Differentiated Products Demand Systems from a Combination of Micro
+and Macro Data: Autos Again,” Working Paper.
+BERRY, S. T. (1994): “Estimating discrete-choice models of product differentiation,"
+RAND Journal of Economics,25(2),242-262.
+BRESNAHAN, T., AND R. GORDON (eds.) (1997): The economics of new goods. Chicago:
+University of Chicago Press.
+BRESNAHAN, T., S. STERN, AND M. TRAJTENBERG (1997): “Market Segmentation and
+the Sources of Rents from Innovation:Personal Computers in the Late 1980s,” RAND
+Journal of Economics, 28, S17-S44.
+BRESNAHAN, T. F. (1986): “Measuring the Spillovers from Technical Advance: Main-
+frame Computers in Financial Services,” American Economic Review, 76(4), 742-755.
+FEENsTRA, R. C. (1988): Empirical Methods for International Trade.Cambridge, MA:
+MIT Press, chap. 5, pp. 119-140.
+FERSHTMAN, C., AND N. GANDAL (1998): “The Effect of the Arab Boycott on Israel:
+The Automobile Market,” RAND Journal of Economics, 29, 193-214.
+GOLDBERG, P. (1995): “Product Differentiation and Oligopoly in International Markets:
+the Case of the U.S.Automobile Industry,” Econometrica, 63, 891-952.
+33
+
+===== [PDF 第 36 页｜印刷第 34 页] =====
+in the Computing Market,” NBER Working Paper 4899.
+HANSEN, L. P.(1982): “Large Sample Properties of Generalized Method of Moments
+Estimators,” Econometrica, 50(4), 1029-1054.
+HAUSMAN, J. (1998): “Cellular Telephone, New Products and the CPI,” mimeo, MIT.
+HAUsMAN, J. A. (1997a): Valuation of New Goods Under Perfect and Imperfect Compe-
+tition, in The Economics of New Goods.Chicago: University of Chicago Press, chap. 5,
+pp. 209-237.
+(1997b): “Valuing the Effects of Regulation on New Services in Telecommuni-
+cations,”in Brookings Papers on Economic Activity, Microeconomics.
+H1CKs, J. R.(1946): “The Generalized Theory of Consumers’ Surplus,” Review of Eco-
+nomic Studies, 13.
+IACOCCA,L.(1986): Iacocca.Bantam Books.
+IMBENS, G. W., AND T. LANCAsTER (1994): “Combining Micro and Macro Data in
+Microeconometric Models,” Review of Economic Studies, 61(4), 655-680.
+McFADDEN, D. (1981): Econometric Models of Probabilistic Choice, in Structural Anal-
+ysis of Discrete Data with Econometric Applications.Cambridge: MIT Press, chap. 5.
+NELDER, J., AND R. MEAD (1965): “A Simplex Method for Function Minimization,
+The Computer Journal, 7, 308-13.
+NEvO, A. (1998): “Measuring Market Power in the Ready-To-Eat Cereal Industry,"
+NBERWorkingPaperNo.6387.
+TRAJTENBERG, M. (1989): “The Welfare Analysis of Product Innovations, with an Ap-
+plication to Computed Tomography Scanners,” Journal of Political Economy, 94, 444-
+479.
+YATEs, B.(1996): The critical path : inventing an automobile and reinventing corpora-
+tion. Little, Brown.
+34
+
+===== [PDF 第 37 页｜印刷第 35 页] =====
+TABLE 1a
+Average (Sales-Weighted) Characteristics for Selected Vehicle Types, 1981-93
+All Minivans St. WagonsSt. Wagons Sport Full Size
+Vehicles    >  Vans
+Mean StdDev
+Horsepower/Weight 0.39 0.07 0.36 0.35 0.37 0.40 0.30
+Length*Width*Height 0.71 0.13 0.87 0.60 0.78 0.83 1.13
+A/C Standard 0.27 0.44 0.78 0.00 0.16 0.56 0.37
+Miles/Dollar 24.11 6.55 22.84 26.50 22.24 20.20 17.56
+Front Wheel Drive 0.64 0.48 0.63 0.83 0.60 0.00 0.00
+List Price (1982-84 CPI $) 9,867 4,559 10,060 6,864 10,421 10,949 10,321
+Notes:
+1) List price is base model price.
+2) Lowest list-price quartile of station wagons separated out from the top 75%.
+TABLE 1b
+Average Consumer Characteristics for the U.S.and Selected Sub-Populations, 1987-92
+U.S. New Vehicle Minivan St. Wagon Sport Util FS Van
+Purchasers Purchasers Purchasers Purchasers Purchasers
+Mean StdDev
+Income 23,728 21,255 36,113 39,476 40,196 41,569 31,164
+Family Size 2.58 1.53 2.87 3.86 3.17 2.97 3.47
+MidAge 0.55 0.49 0.64 0.78 0.73 0.74 0.65
+Notes:
+1)Sourceis the ConsumerExpenditure Survey.
+2) Income is measured in 1982-84 CPI adjusted dollars.
+3) Family size is number of household members.
+4) MidAge is binary variable for head of household age between 30 and 60 inclusive.
+35
+
+===== [PDF 第 38 页｜印刷第 36 页] =====
+TABLEIc
+FamilyVehicle Sales as aPercent of Total Vehicle Sales
+U.S.AutomobileMarket,1981-1993
+Minivans Station Sport Full Size Minivans+ U.S.AutoSales
+Year Wagons Utilities Vans Sta. Wagons Millions
+1981 0.00 10.51 0.58 0.82 10.51 7.58
+1982 0.00 10.27 0.79 1.17 10.27 7.05
+1983 0.00 10.32 3.51 1.04 10.32 8.48
+1984 1.58 8.90 5.51 1.20 10.48 10.66
+1985 2.32 7.33 6.11 1.05 9.65 11.87
+1986 3.63 6.70 5.73 0.85 10.43 12.21
+1987 4.86 6.47 6.44 0.73 11.33 11.21
+1988 5.97 5.14 7.18 0.69 11.11 11.76
+1989 6.45 4.13 7.47 0.61 10.58 11.06
+1990 7.95 3.59 7.78 0.27 11.54 10.51
+1991 8.29 3.05 7.80 0.29 11.34 9.75
+1992 8.77 3.07 9.33 0.39 11.84 10.12
+1993 9.93 3.02 11.66 0.29 12.95 10.71
+36
+
+===== [PDF 第 39 页｜印刷第 37 页] =====
+TABLE 2a
+Parameter Estimates for theDemand Side Equation
+Random Random IV OLS
+Coefficients Coefficients Logit Logit
+μij ≠ 0 μij≠0 μij=0 μij =0
+Variable (1) (2) (3) (4)
+Base coefficients (Bo's)
+Constant -15.67 -12.74 -10.04 -10.03
+(4.39)** (5.65)** (0.34)** (0.32)**
+Horsepower/Weight 2.83 3.40 3.78 1.48
+(8.16) (39.79) (0.44)** (0.34)**
+Size 4.80 4.60 3.25 3.17
+(3.57)* (24.64) (0.27)** (0.26)**
+Air Cond. Standard 3.88 -1.97 0.21 -0.20
+(2.21)* (2.23) (0.08)** (0.06)**
+Miles/Dollar -15.79 -0.54 0.05 0.18
+(0.87)** (3.40) (0.07) (0.06)**
+Front Wheel Drive -12.32 -5.24 0.15 0.32
+(2.36)** (3.09) (0.06)** (0.05)**
+Minivan -5.65 4.34 -0.10 0.09
+(0.68)** (13.16) (0.15) (0.14)
+Station Wagon -1.31 -20.52 1.12 1.12
+(0.36)** (36.17) (0.07)** (0.06)**
+Sport Utility -4.38 3.10 -0.61 0.41
+(0.41)** (10.76) (0.10)** (0.09)**
+Full Size Van -5.26 -28.54 -1.89 -1.73
+(1.30)** (235.51) (0.17)** (0.16)**
+% Change GNP 0.24 0.08 0.03 0.03
+(0.02)** (0.02)** (0.01)** (0.01)**
+Term on Price (Q's)
+Q1 7.52 4.92 0.13 0.07
+(1.24)** (9.78) (0.01)** (0.01)**
+Q2 31.13 11.89
+(4.07)** (21.41)
+Q3 34.49 37.92
+(2.56)** (18.64)**
+Uses CEX (Micro)Data YES NO NO NO
+Notes:
+Standard errors in parentheses.
+*-t-statistic > 1
+**－t-statistic > 2
+Quadratic time trend included in all specifications.
+μij ≠ 0 - heterogeneity in taste related to observed characteristics permitted.
+37
+
+===== [PDF 第 40 页｜印刷第 38 页] =====
+TABLE 2a (cont.)
+Random CoefficientParameter Estimates
+Random Coefficients (r's)
+Micro DataNo Micro Data
+Variable (1) (2)
+Constant 3.23 1.46
+(0.72)** (0.87)*
+Horsepower/Weight 4.43 0.10
+(1.60)** (14.15)
+Size 0.46 0.14
+(1.07) (8.60)
+A/C Standard 0.01 0.95
+(0.78) (0.55)*
+Miles/Dollar 2.58 0.04
+(0.14)** (1.22)
+Front Wheel Drive 4.42 1.61
+(0.79)** (0.78)**
+0.57 0.97
+(0.10)** (2.62)
+sw 0.28 3.43
+(0.09)** (5.39)
+Ysu 0.31 0.59
+(0.09)** (2.84)
+Ypu 0.42 4.24
+(0.21)** (32.23)
+Notes:
+Standard errors in parentheses.
+*－ t-statistic > I
+**-t-statistic > 2
+Quadratic time trend included in all specifications.
+Uij ≠ 0 - heterogeneity in taste related to observed characteristics permitted.
+38
+
+===== [PDF 第 41 页｜印刷第 39 页] =====
+TABLE 2b
+Parameter Estimates for the Cost Side
+ParameterS  Standard
+Variable (T's) Estimate Error
+Constant 1.50 0.08
+In(HorsePower/Weight) 0.84 0.03
+In(Weight) 1.28 0.04
+In(M PG) 0.23 0.04
+A/C Standard 0.24 0.01
+Front Wheel Drive 0.01 0.01
+Trend -0.01 0.01
+Japan 0.12 0.01
+Japan*Trend -0.01 0.01
+Europe 0.47 0.03
+Europe*Trend -0.01 0.01
+In(g) -0.05 0.01
+39
+
+===== [PDF 第 42 页｜印刷第 40 页] =====
+TABLE 3a
+Equilibrium Prices With and Without the Minivan, 1984
+1982-84 CPI Adjusted $
+Price:
+With Without
+Minivan Minivan △ Price % △ Price
+Largest Price Decreases On Entry:
+GM Oldsmobile Toronado LS 15,502 15,643 -141 0.90
+GM Buick Riviera LS 15,379 15,519 -139 0.89
+GM Buick Electra LS 12,843 12,978 -135 1.04
+GM ChevroletCelebrity SW 8,304 8,431 -127 1.51
+Ford Cadillac Eldorado LS 19,578 19,704 -126 0.64
+Ford Cadillac Seville LS 21,625 21,749 -125 0.57
+GM Pontaic 6000 SW 9,273 9,397 -123 1.31
+GM Oldsmobile Ciera SW 9,591 9,714 -123 1.27
+GM Buick Century SW 8,935 9,056 -121 1.34
+GM OldsmobileFirenzaSW 7,595 7,699 -104 1.35
+Largest Price Increases On Entry:
+Chrysler LeBaron SW 9,869 9,572 297 3.10
+Volkswagen Quattro SW 13,263 13,079 184 1.41
+Chrysler (Dodge) Aries K SW 7,829 7,659 170 2.22
+AMCEagleSW 10,178 10,069 109 1.08
+Notes:
+1) Vehicle codes:
+LS - Large Sedan
+SW - Station Wagon
+2)Bertrand-Nash pricing with random coefficients does not
+a priori determine signs of firm-specific price changes.
+40
+
+===== [PDF 第 43 页｜印刷第 41 页] =====
+TABLE 3b
+Average Compensating Variation Conditional on Minivan Purchase, 1984
+1982-84CPIAdjustedDollars
+Random Random IV OLS
+Coefficients Coefficients Logit Logit
+μij ≠ 0 μij≠ 0 μij =0 μij = 0
+(1) (2) (3) (4)
+CompensatingVariation:
+Median 783 1,217 5,130 9,573
+Mean 1,247 3,171 7,414 13,652
+Std. Dev. 1,524 7,790 7,448 13,494
+Income ofMinivanPurchasers:
+Mean 36,091 99,018 23,728 23,728
+Std. Dev. 22,902 184,057 21,255 21,255
+CEX(Micro)Data YES NO NO NO
+Notes:
+1) μij ≠ 0 indicates heterogeneity in taste permitted for observed characteristics.
+2) Compensating variation evaluated at equilibrium prices without minivans.
+41
+
+===== [PDF 第 44 页｜印刷第 42 页] =====
+TABLE 4a
+Implied Markups Derived From Demand-Side Estimates and Bertrand-Nash
+Pricing Assumption, 1981-1993 (2407 models)
+$ and % Markups Using:
+Random Random IV OLS
+Coefficients Coefficients Logit Logit
+μij ≠ 0 μij≠ 0 μij = 0 μij = 0
+Statistic $ % $ % $ $
+Median 1,439 15.0% 2,593 36.7% 7,513 13,834
+Mean 1,753 16.7% 4,017 40.7% 7,551 13,904
+10% 819 11.2% 1,628 27.8% 7,413 13,647
+90% 2,856 24.8% 8,357 62.6% 7,765 14,297
+Standard Deviation 1,229 6.2% 4,089 14.0% 140 257
+% of Estimated Marginal
+Costs That Are Negative 0% 0% 22.6% 73.7%
+CEX (Micro)Data YES NO NO NO
+Notes:
+1) μij ≠ 0 indicates heterogeneity in taste permitted for observed characteristics.
+2) % markups, or markups/price, are not reported for IV and OLS logit because the
+estimated marginal cost is negative for many vehicles.
+TABLE 4b
+Average (Sales-Weighted) Markup/Price and Price, 1983-1987
+Station Sport-Utility All Other
+Minivans Wagons Vehicles Vehicles
+Year %  $ % $ %  $ % $
+1983 18.27% 8,230 17.28% 9,715 18.85% 9,059
+1984 19.19% 8,722 17.83% 8,400 17.07% 9,952 17.72% 9,085
+1985 19.43% 8,655 16.81% 8,412 16.51% 9,904 17.12% 9,101
+1986 17.33% 8,898 15.82% 9,164 15.41% 10,115 16.43% 9,480
+1987 16.31% 9,527 13.86% 9,620 14.06% 11,123 14.79% 10,053
+Note. - Dollars are 1982-84 CPI adjusted.
+42
+
+===== [PDF 第 45 页｜印刷第 43 页] =====
+TABLE 4c
+Change in Industry and Big Three Total Variable Profits
+With theAdventof Minivans
+Industry Chrysler Ford GM
+Year $Millions %  $Millions % $Millions % 
+1984 -0.21% 202.5 14.38 -31.8 -1.16 -155.8 -1.50
+1985 -0.13% 259.1 13.99 -37.4 -1.29 -171.0 -1.63
+1986 0.14% 201.1 12.42 54.7 1.84 -119.9 -1.09
+1987 0.17% 346.1 23.27 -22.8 -0.66 -174.5 -2.14
+1988 0.65% 504.1 32.50 24.7 -0.70 -235.4 -2.90
+TABLE 4d
+Chrysler's Profit Dissipation With Entry
+Ford, GM Minivans
+Change In Total Variable Profits
+Year $Millions %
+1985 -6.06 -0.16
+1986 -22.72 -1.99
+1987 -42.35 -2.25
+1988 -55.68 -2.63
+43
+
+===== [PDF 第 46 页｜印刷第 44 页] =====
+TABLE 5
+The Change In U.S. Welfare From the Minivan Innovation, 1984-1988
+Compensating Change in Welfare
+Variation Producer Profits Change
+Year $Millions $Millions $Millions
+1984 367.29 -36.68 330.61
+1985 625.04 -25.07 599.97
+1986 439.93 27.30 467.23
+1987 596.59 29.75 626.34
+1988 775.70 110.24 885.94
+Total 2804.55 105.54 2910.09
+Note. - Computations done using I982-84 CPI Adjusted Dollars.
+44
+
+===== [PDF 第 47 页｜印刷第 45 页] =====
+TABLE 6a
+Micro Moments from the Consumer Expenditure Survey and
+EquivalentPredictions from the Full Model
+CEX (StdErr)1 Model(0)2
+Average Family Size, Given Purchase of:
+Minivan 3.86 (0.10) 3.85
+Station Wagon 3.17 (0.17) 3.19
+Sport-Utility 2.97 (0.12) 3.02
+Full-Size Van 3.47 (0.36) 3.44
+Pr(Middle Age)3, Given Purchase of:
+Minivan 78.3% (3.7%) 75.0%
+Station Wagon 73.0% (5.5%) 67.5%
+Sport-Utility 74.0% (3.8%) 66.3%
+Full-Size Van 65.2% (9.9%) 72.5%
+Pr(purchase new carlincome tercile):
+Middle 7.94% (0.27%) 8.07%
+High 15.81% (0.37%) 15.96%
+Notes:
+I) Standard error on the Consumer Expenditure Survey reflects
+sampling variance associated with these moments (accounted
+for in estimation procedure.)
+2)Predicted values for moments evaluated at parameter estimates.
+3) Middle age is a binary variable for head of household age between 30 and 60.
+45
+
+===== [PDF 第 48 页｜印刷第 46 页] =====
+TABLE 6b
+Compensating Variation and Substitution Patterns Across Time
+1982-84 CPIAdjustedDollars
+Year
+1984 1985 1987 1989
+Compensating Variation (NewPrices):
+Mean 1,247 1,152 1,094 1,133
+Std. Dev. 1,524 1,341 1,385 1,394
+Compensating Variation (Old Prices):
+Mean 1,221 1,181 1,099 1,086
+Std. Dev. 1,472 1,316 1,491 1,200
+Minivan Purchasers Substituting To:
+Station Wagon 31.1% 20.8% 18.0% 13.3%
+Sport Utility 1.6% 5.9% 15.2% 19.6%
+Full Size Passenger Van 1.0% 1.3% 1.9% 3.1%
+Notes:
+1) New and old prices are equilibrium prices with and without minivans respectively.
+2) Substitution patterns evaluated at equilibrium prices without minivans.
+46
+
+===== [PDF 第 49 页｜印刷第 47 页] =====
+TABLE 6c
+The Change In U.S. Welfare From the Minivan Innovation, 1984-1989
+EquilibriumPricesWithMinivans
+Compensating Change in Welfare
+Variation Producer Profits Change
+Year $Millions $Millions $Millions
+1984 307.66 -7.85 299.81
+1985 600.28 9.37 609.65
+1986 554.29 40.76 595.05
+1987 736.45 71.60 808.05
+1988 1000.01 146.33 1146.34
+Total 3198.69 260.21 3458.90
+Note. - Computations done at equilibrium prices when minivans were in
+the market (1982-84 CPI Adjusted Dollars).
+TABLE 6d
+Robustness Across Distributional Assumptions For Random Coefficients
+1982-84 CPI Adjusted Dollars
+x²(3) x²(1) x²(3) x²(1)
+95% 95% NT NT
+Compensating Variation:
+Median 783 667 1,249 899
+Mean 1,247 1,125 2,026 1,658
+Std. Dev. 1,524 1,616 2,496 2,610
+Notes:
+1) 95% -Distribution truncated at 95th percentile
+2) NT -No truncation of distribution
+47
+
+===== [PDF 第 50 页｜印刷第 48 页] =====
+Dodge Aries K SS -8.787 Ford Escort SS Mercury Lynx SS Plymouth Reliant SS Chevrolet Cavalier SS  Dodge Colt SW
+Chevrolet Blazer K SU -8.015 Suburban C10 SU Econoline 150 VAN Ram Charger SU Chevrolet Sport VAN Pontiac Parisienne SW
+TABLE A  Own-Price Elasticity and Top Five Substitutes For Five Vehicles, 1984 Chevrolet Celebrity SW  Dodge Caravan MI Ram B10 VAN Own-Price Elasticity: -7.293 -6.695 -7.948 Top Substitutes: Chevrolet Celebrity SW  Dodge Caravan MI Chevrolet Sport VAN Econoline 150 VAN Chrysler Lebaron SW Pontiac 6000 SW 2 American Eagle SW American Eagle SW 3 Ford Bronco SU Buick Century SW Buick Century SW  Ram Charger SU 48 4 5 Pontiac 6000 SW Oldsmobile Ciera SW Oldsmobile Cutlass SW Vehicle Codes: MI - Minivan SW - Station Wagon SU - Sport-Utility Vehicle VAN - Full-size Van SS - Small Family Sedan
+
+===== [PDF 第 51 页｜印刷第 49 页] =====
+2
+Chart 1: Compensating Variation for 1984 Minivan Purchasers 10 IV Logit Random CoefficientsWith No Micro Data Random Coefficients With Micro Data
+0.6 0.4 0.2 0.0 0.6 0.4 0.2 0.0 0.6 0.4 0.2 0.0
+Frequency Frequency Frequency
+49
+
+===== [PDF 第 52 页｜印刷第 50 页] =====
+Variation in Choice Sets and Identification
+Key:
+CHOICE SET 1: All other -- vehicle with
+characteristics 1/3 market share
+1/3(1/3
+Interior Space
+CHOICE SET 2:
+Case 1 -- evidence for Case 2 -- no evidence for
+taste heterogeneity: taste heterogeneity:
+All other All other
+characteristics characteristics
+2/3 1/2 1/2
+Interior Space Interior Space
+Figure 1
+50

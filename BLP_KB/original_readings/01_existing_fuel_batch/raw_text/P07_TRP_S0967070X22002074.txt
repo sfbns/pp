@@ -1,0 +1,1390 @@
+
+
+===== [PAGE 1] =====
+
+Transport Policy 126 (2022) 268–279
+Available online 5 August 2022
+0967-070X/© 2022 Elsevier Ltd. All rights reserved.
+Empirical analysis of the depreciation of electric vehicles compared to 
+gasoline vehicles 
+Lukas Schloter 
+Technical University Munich, TUM School of Management, Arcisstr. 21, 80333, Munich, Germany   
+A R T I C L E  I N F O   
+Keywords: 
+Electric vehicles 
+Depreciation 
+Value loss 
+Vehicle depreciation 
+A B S T R A C T   
+The depreciation pattern of passenger vehicles is an important input parameter for economic considerations of 
+buyers and other stakeholders such as financial insti-tutions. Due to their technical specifications and un­
+certainties in their degradation and life expectancy, it seems plausible that electric vehicles depreciate differently 
+to conventional vehicles. This paper contributes to existing research in the economics of electric vehicles by 
+analyzing the depreciation of electric vehicles along several countries and segments and compares it to gasoline 
+vehicles by empirical analysis of public available data of 24,000 used vehicle sales. The results show that vehicles 
+have a degressive depreciation relationship over the age of the vehicle, but that elec-tric vehicles have a sub­
+stantially higher depreciation of 1.16% per month (13.9% per annum) compared to gasoline vehicles with 0.87% 
+per month (10.4% per annum). Consequently, research into the economics of vehicles and budgeting consid­
+erations should apply a different depreciation rate for electric vehicles than for conventional vehicles. The 
+resulting difference in depreciation to gasoline vehicles imply adapta-tion in economic models of insurance and 
+leasing companies and gives governments the opportunity to adapt subsidies for electric vehicles to become more 
+efficient.   
+1. Introduction 
+“E-mobility is the only way to reduce carbon dioxide emissions in 
+individual mobility quickly and efficiently” 
+– Herbert Diess, CEO Volkswagen Group (2021) 
+Climate change represents an impetus for industries worldwide to 
+change their business models to more sustainable models. This devel­
+opment is of particular importance to the automotive industry because 
+greenhouse gases from road transport contribute 17% of global emis­
+sions (IPCC, 2014). For many years, the automotive industry has been 
+subject to changes in its business model because of growing digitaliza­
+tion, new forms of mobility and an increased focus on sustainability. The 
+latter in particular can be seen in the increased requirement for fleet 
+electrification (Mohr et al., 2016). The electrification of passenger ve­
+hicles is one of the overriding challenges for the automotive industry, 
+which is also magnified by increasing regulatory pressure to switch to 
+low emission vehicles in many countries. Developed countries in 
+particular have incentive schemes for electric vehicles (EVs) such as 
+reduced parking costs or even direct subsidies on the purchase price of 
+the vehicle (IEA, 2021). At the same time, many are introducing re­
+strictions and levies on conventional vehicles such as city tolls or are 
+planning to ban them completely (IEA, 2021). 
+The regulatory support together with the increased environmental 
+awareness of con-sumers have resulted in an increased number of new 
+EV registrations in many developed countries. For many years, Norway 
+has been the forerunner in new EV registrations with a share of 74% in 
+2020 (EAFO, 2020a). More recently, however, other European countries 
+have been catching up in respect of new EV registrations, for example 
+Germany (13%) or the Netherlands (25%) (EAFO, 2020c,d). As one of 
+the largest automotive markets worldwide, the USA currently has a very 
+small proportion of just 2% of new registrations in 2020, but with a clear 
+trend towards strongly increasing numbers (IEA, 2021). 
+In addition to the increasing proportion of new EV registrations, 
+many countries have also set ambitious targets for the decarbonization 
+of their passenger vehicle fleet. The European Commission has proposed 
+an emission reduction target for new vehicles of 100% by 2035 and 
+agreed a target of 30 million EVs by 2030 (EC, 2020, 2021). Germany 
+aims to contribute 10 million EVs to this target by 2030 (BMU, 2019). 
+The aim of the Netherlands is to achieve 100% zero emission vehicle 
+registrations by 2030 and Norway even earlier - by 2025 (Wappelhorst, 
+2021; Ministry of Transportation Norway, 2021). The USA aims to 
+become carbon neutral by 2050 and to increase its EV sales to 50% by 
+E-mail address: lukas.schloter@tum.de.  
+Contents lists available at ScienceDirect 
+Transport Policy 
+journal homepage: www.elsevier.com/locate/tranpol 
+https://doi.org/10.1016/j.tranpol.2022.07.021 
+Received 5 April 2022; Received in revised form 20 June 2022; Accepted 22 July 2022   
+
+
+===== [PAGE 2] =====
+
+Transport Policy 126 (2022) 268–279
+269
+2030 (The White House, 2021). 
+The technical concept of an EV differs fundamentally from that of a 
+conventional ve-hicles resulting in a different bill of materials (BOM) for 
+the EV. Instead of a complex combustion engine, a much simpler and 
+smaller electric engine propels the car. Further-more, the fuel tank is 
+replaced by a heavy, much larger and more costly electric battery. 
+Additionally, high-voltage power electronics and wiring are required 
+(DOE, 2021). 
+Compared to conventional vehicles, the different technical layout of 
+EVs with a large battery and a much smaller electric engine implies 
+changes to the cost structure of the EV in comparison with conventional 
+vehicles. As the powertrain and engine are less complex and have less 
+parts, they are generally cheaper when compared to conventional ve­
+hicles. By contrast the battery makes up the largest fraction of the costs 
+with roughly 40% of the total production costs (K¨onig et al., 2021). 
+Experience of the mass production of EVs is roughly only a decade, 
+resulting in limited but increasing knowledge on the degradation and 
+life expectancy of the battery. This lack of knowledge impacts also the 
+view on the depreciation of EVs. While there is a lot of data on the 
+historical depreciation of conventional vehicles, little is known about 
+the loss in value of EVs. 
+The depreciation of a vehicle is defined as the value loss of the 
+vehicle over time. To calculate the depreciation over a certain time the 
+sale price of the vehicle is deducted by the current (resale) value. The 
+depreciation of vehicles is an important economic in-dicator for many 
+stakeholders: automotive manufacturers require the depreciation and 
+life expectancy of their vehicles to estimate warranty costs. Mobility 
+providers such as car rental agencies or taxi services require the 
+depreciation to set their tariffs. Insurers determine their rates based on 
+the expected value loss of the vehicle. Banks define the conditions of car 
+credits based on the depreciation of the vehicle. Authorities and govern- 
+ments require the deprecation to define subsidies, taxes and other reg­
+ulatory instruments. Lastly, consumers too are keen to understand how 
+the value of their investment will change over time. 
+The total cost of ownership (TCO) method analyzes the total costs of 
+a good such as a vehicle for a consumer over the entire period of 
+ownership (Ellram, 1995). When analyzing the TCO of a vehicle in 
+addition to variable costs such as fuel, the depreciation of the vehicle 
+also needs to be included. Wu et al. (2015) analyze the total costs of 
+ownership of EVs compared to conventional vehicles across market 
+segments. They mention in their 2015-published paper that “empirical 
+data were not sufficient to derive the resale value of an EV”(Wu et al. 
+(2015), p.200)). 
+Since Wu et al. (2015) mentioned the lack of data on EVs in 2015, the 
+EV market has changed significantly. From a market-dependent 15–45 
+available models in 2015, model availability has risen to over 500 
+(Yang, 2016; Gersdorf et al., 2020). Electric vehicle volumes grew from 
+just over half a million units in 2015 to over 6 million units in 2021 (Irle, 
+2021). Ten years after the first mass production of EVs, there is now 
+sufficient quantitative and qualitative data on EVs and especially on the 
+used vehicle market of EVs to address the research gap on the depreci­
+ation of EVs mentioned by Wu et al. (2015). 
+This research presents findings on the depreciation of EVs in com­
+parison with gaso-line vehicles. Quantitative data of over 24,000 used 
+vehicles across several markets and segments have been analyzed. By 
+applying established empirical methods depreciation rates have been 
+identified and the deviation relative to that of gasoline vehicles have 
+been derived. 
+This paper begins with a literature review on economics of conven­
+tional and electric vehicles. The following sections include the meth­
+odology and an overview of the collected data. This is followed by the 
+results of the data analysis including a sensitivity analysis. The paper 
+finishes with a discussion of the results as well as a conclusion and im­
+plications for research and other stakeholders such as insurance or 
+leasing companies. 
+2. Literature review 
+Vehicle depreciation is relevant for many stakeholders such as 
+financial institutions, gov-ernmental authorities and consumers. Con­
+ventional vehicles have existed for over a cen-tury and the accounting 
+profession has researched the depreciation of conventional vehicles in 
+great detail. In general, the research is based on the historical data of 
+vehicles such as the life expectancy and influence of various factors such 
+as mileage driven, age or market developments. In his research, Peles 
+(1988) analyzed the depreciation of over 34 different vehicle models in 
+the United States. He compares different depreciation methods such as 
+the straight line method, which is a uniformly reduction of the value of 
+an asset over time, and the geometric method, which is a depreciation of 
+a constant annual rate. He con-cludes that vehicles have an annual 
+deprecation of 9–10% when applying the straight line method and 
+21–24% when applying a geometric method. As both methods appear to 
+be a good approximation for the actual depreciation he concludes that 
+the true depreciation function lays somewhere between these two 
+methods. 16 years later, Storchmann (2004) investigated the same issue 
+of depreciation rates and patterns for vehicles in 30 countries among 54 
+vehicle models. He pointed out that the geometric depreciation pattern 
+is a better approximation of the true depreciation function and came to 
+the conclusion that the annual depreciation for vehicles in developed 
+countries is on average 31%. 
+In their research, Linz et al. (2003) derived the actual year-on-year 
+price increase of used vehicles in Germany by applying hedonic mea­
+surement of the price. The hedonic method enables the separation of 
+qualitative influencing factors such as technical progress and changes in 
+consumer behavior from the actual pure price increase. For this reason, 
+the researchers took monthly data on used vehicle prices, quality 
+characteristics such as age, mileage driven, make and manufacturer’s 
+suggested retail price (MSRP) and define a multiple regression analysis. 
+The data was collected from a database of over 20,000 to 25,000 
+monthly transaction price records from commercial and private sellers 
+in Ger-many. The authors assume a geometric degressive depreciation 
+behavior of vehicles with a semi-logarithmic correlation of the resale 
+price and the age of the vehicle and a double-logarithmic correlation of 
+the resale price and the MSRP. A dummy variable represents 
+The influence of the make on the resale price. Use of a logarithmic 
+function to derive the resale value enables the researcher to investigate 
+the influence factors of each variable such as age, mileage driven or 
+vehicle make on the resale price. One of the main results is that age has 
+the highest impact on the resale value at roughly 15% per year. 
+Gilmore and Lave (2013) were among the first researchers to 
+investigate costs and depreciation of vehicles with different propulsion 
+systems and especially with more efficient and environmental friendly 
+propulsion systems, such as hybrid vehicles. They found that vehicles 
+with better fuel consumption such as diesel or hybrid vehicles have a 
+higher resale value in comparison with gasoline vehicles. Their research 
+raises the question of whether the depreciation derived in the previously 
+mentioned research also apply to vehicles with alternative propulsion 
+systems such as EVs. 
+Wu et al. (2015) compared the total cost of ownership (TCO) of EVs 
+to that of conventional vehicles. The research highlights that the 
+depreciation over the ownership period is the largest cost factor for the 
+consumer. Hence, detailed knowledge of the depreciation is necessary 
+for an accurate analysis. The authors point out that while for conven­
+tional vehicles there is sufficient data to determine the resale value after 
+the ownership period, for EVs “empirical data is insufficient to derive 
+the resale value” (Wu et al. (2015, p.200)). Without sufficient data on 
+the resale value of EVs, the researchers applied the formula developed 
+by Linz et al. (2003) to approximate the resale value of EVs. 
+Due to the lack of sufficient data and research on the depreciation, 
+researchers inves-tigating the cost of electric vehicles often assume the 
+same depreciation for EVs as for conventional vehicles (see Palmer et al. 
+(2018) and Hagman et al. (2016)). By contrast Danielis et al. (2018) and 
+L. Schloter                                                                                                                                                                                                                                        
+
+
+===== [PAGE 3] =====
+
+Transport Policy 126 (2022) 268–279
+270
+L’evay et al. (2017) both argue in their research on the TCO of electric 
+vehicles that the depreciation of EVs should differ to that of conven­
+tional vehicles due to the technical characteristics and the dynamic 
+market. 
+With the developing second hand market for used EVs, more and 
+more market data is now available compared to 2015 when Wu et al. 
+(2015) mentioned the insufficient empirical data. Schoettle and Sivak 
+(2018) analyzed market data on resale values of used vehicles in the 
+USA. They obtained sufficient data for 11 electric vehicles from the 
+model years 2011–2015 to compare them with similar conventional 
+vehicles. The average resale values are obtained from a database with no 
+direct access to validate the raw data. A similar effort was made by Guo 
+and Zhou (2019) who analyzed model years 2010–2016 of EVs in the 
+USA among 11 models and 10 makes. In this case the researchers were 
+able to access the raw data of 26,622 price listings from the data pro­
+vider. The focus of both studies was the USA only and a time period of 6 
+years. Both studies focused on the resale value without further analysis 
+of the depreciation rate and behavior. They both came to a similar 
+conclusion, in general, EVs loose more value over time than conven­
+tional vehicles. Existing research has mostly focused on the resale value 
+without analyzing the de-preciation rate and behavior as well as the 
+impact of single attributes on the value. Furthermore, it is limited on 
+single countries such as the USA and on a limited number of EV models 
+and segments for only a time horizon of maximum 6 years. Moreover, 
+the raw data of the research is not public available and its quality is hard 
+to validate. 
+The present research builds on the existing research in the field and 
+further investigates the value retention of EVs focusing on depreciation 
+rates and behavior. Over 24,000 public available data entries on used 
+vehicles in several major EV markets such as the USA, Norway and 
+Germany has been analyzed. The impact of different factors such as age, 
+mileage and sales price on the value of the vehicle by applying a multiple 
+regression analysis has been investigated. The regression function is 
+derived from the previous work on vehicle depreciation by Linz et al. 
+(2003). Furthermore, a sensitivity analysis on the influencing factors of 
+the value retention has been conducted and compared to the deprecia­
+tion behavior of gasoline vehicles. 
+3. Data overview 
+Five key automotive markets (see Table 1) has been selected for the 
+analysis: The USA as one of the largest automotive markets in the world 
+as well as Norway, Sweden, Nether-lands and Germany as the most 
+rapidly growing electric vehicle markets in terms of new registrations 
+(EAFO, 2020b,c,d,a; OICA, 2020). All of the selected countries have EVs. 
+On the road and a second hand EV market that has been established 
+for multiple years. As the loss in value of electric vehicles with con­
+ventional vehicles is compared, data for electric and gasoline vehicles 
+among several vehicle segments has been collected. Diesel vehicles were 
+excluded because there is insufficient data for all vehicle segments and 
+coun-tries. Vehicles with a battery and a combustion engine such as 
+plug-in or hybrid vehicles were also excluded. 
+The focus of the analysis is on EV models that have been on market 
+for many years and thus have also been available in the second hand 
+market for many years, as well as vehicles that have significant sales 
+numbers (see Table 2). Premium automotive makes such as Tesla and 
+BMW has been included as well as high volume mass-market makes such 
+as Toyota and Volkswagen. The selected gasoline vehicles are in the 
+same segments as the EVs and have similar vehicle characteristics in 
+terms of performance and size. 
+The focus is solely on online platforms as a data source to gather as 
+many entries as possible. Leading regional online platforms are used, e. 
+g., autoscout24.com for Germany and the Netherlands, bytbil.com for 
+Sweden, finn.no for Norway and edmunds.com for the USA. Offers from 
+commercial dealers as well as from private sellers are included. To 
+obtain a large amount of data records, a Python script has been devel­
+oped which automatically gathers the required vehicle data from the 
+websites as, in general, the website interface (API) is not publicly 
+available. The Python script collects data on the vehicle make, model, 
+age, mileage, propulsion type, location, vendor type, performance, offer 
+number and time as well as the price data. 
+The price on the website is in general the seller’s offer price and not 
+the actual transac-tion price of the deal. The transaction price might be 
+marginal lower as the tools estimate usually the expected selling price 
+for the seller and reduces the price automatically if the. 
+price is to high. Hence, the deviation for used cars on the online 
+platforms between the offered price and actual transaction price are 
+marginal. Furthermore, this effect is valid for all vehicle types. Hence, as 
+the aim of the research is to compare vehicles of different propulsion 
+types and analyze the deviation in depreciation rates, the effect is not 
+relevant for this research. A total of over 40,000 vehicle entries from the 
+years 2020 and 2021 are collected. Afterwards, the data is cleaned up for 
+entries with insufficient and inaccu-rate data and vehicles with high 
+deviations in price and mileage as well as any damaged vehicles are 
+excluded. Furthermore, only vehicles with a maximum age of ten years 
+are considered as there is insufficient data for older vehicles. This limits 
+the vehicle entries available for the analysis to 24,325. 
+In general, the manufacturer’s suggested retail price (MSRP) of the 
+vehicles is not available on the online platforms. For this reason, the 
+exact vehicle model is collected from the online platforms and the MSRP 
+from other data sources. For Germany the data source is the Allgemeiner 
+Deutscher Automobil-Club e.V. (ADAC), for the USA the website aut 
+oblog.com and for Norway the data from the Norwegian tax adminis­
+tration is used (norw.: Skatteetaten). For the remaining countries the 
+MSRP is collected from the automotive manufacturers website partly by 
+using the web-archive function. The vehicle segments are assigned ac­
+cording to the classification of the European Union (EC, 2002). 
+The age distribution of the data is shown in Fig. 1 by yearly age group 
+and cate-gorized to electric and gasoline vehicles. The figures show that 
+the largest set of vehicles have an age of 1–5 years and subsequently the 
+number of vehicles decreases until year group ‘ten’. The peak of vehicles 
+Table 1 
+Total observed vehicles by country and propulsion type.   
+Germany 
+USA 
+Netherlands 
+Norway 
+Sweden 
+Electric vehicles 
+5478 
+7848 
+689 
+2202 
+1041 
+Conventional vehicles 
+4442 
+728 
+1744 
+0* 
+151 
+Total 
+9920 
+8576 
+2433 
+2204 
+1192 
+*Data on comparable gasoline vehicles in Norwegian second hand market is very 
+limited. 
+Table 2 
+Vehicles selected for the depreciation analysis.  
+Make 
+Model 
+Segment 
+Type 
+Observations 
+BMW 
+3 series 
+Large (D) 
+Gasoline 
+781 
+BMW 
+7 series 
+Luxury (F) 
+Gasoline 
+193 
+BMW 
+i3 
+Small (B) 
+Electric 
+3970 
+Chevrolet 
+Bolt 
+Medium (C) 
+Electric 
+2197 
+Citroen 
+C-Zero 
+Mini (A) 
+Electric 
+112 
+Hyundai 
+i10 
+Mini (A) 
+Gasoline 
+1402 
+Hyundai 
+i30 
+Medium (C) 
+Gasoline 
+682 
+Hyundai 
+Ioniq 
+Medium (C) 
+Electric 
+763 
+Nissan 
+Leaf 
+Medium (C) 
+Electric 
+2930 
+Renault 
+Clio 
+Small (B) 
+Gasoline 
+952 
+Renault 
+Zoe 
+Small (B) 
+Electric 
+2081 
+Tesla 
+Model 3 
+Large (D) 
+Electric 
+1859 
+Tesla 
+Model S 
+Luxury (F) 
+Electric 
+2656 
+Toyota 
+Auris 
+Medium (C) 
+Gasoline 
+131 
+Toyota 
+Aygo 
+Mini (A) 
+Gasoline 
+683 
+Toyota 
+Corolla 
+Medium (C) 
+Gasoline 
+617 
+Volkswagen 
+Golf 
+Medium (C) 
+Gasoline 
+496 
+Volkswagen 
+Polo 
+Small (B) 
+Gasoline 
+1130 
+Volkswagen 
+e-up! 
+Mini (A) 
+Electric 
+690  
+L. Schloter                                                                                                                                                                                                                                        
+
+
+===== [PAGE 4] =====
+
+Transport Policy 126 (2022) 268–279
+271
+in the age group 3 to 4 also correlates with the increased sales of vehicles 
+in 2016 and 2017 in many countries and a typical first ownership period 
+for vehicles of roughly 4 years (L’evay et al., 2017). 
+The age of a vehicle tend to linear correlate with the total mileage of 
+the vehicle. The older a vehicle gets the more distance could have been 
+traveled with the vehicle. This cor-relation of age and mileage can also 
+be observed in the analysis (see for example Germany Fig. 2). This 
+observation is particularly relevant for the regression as multi­
+collinearity needs to be prevented. Therefore, a relative mileage per 
+month value is used in the later analysis. 
+Peles (1988) concluded in his research that the real depreciation of a 
+vehicle lays between a straight and a geometric function. Subsequently, 
+this was corrected by Storch-mann (2004) who concluded that the real 
+depreciation is best represented by a geometric. 
+function. The geometric relation of the vehicle value and the age can 
+be confirmed in the observed data (see Fig. 3). This can also be 
+confirmed for the relationship between the selling price and the total 
+mileage. If a logarithmic transformation of the selling price is per­
+formed, the relationship between the selling price and the age or mileage 
+can be expressed as a straight line confirming the geometric relation of 
+the variables. This observation is of particular interest for the function 
+used for the vehicle data regression. 
+4. Methodology 
+The data set with over 24,000 records of used electric and gasoline 
+vehicles makes it possible to investigate the influence of specific vehicle 
+characteristics on the value of the vehicle. The research objective is to 
+obtain the depreciation of EVs and compare it with that of gasoline 
+vehicles. Thus, the specific focus is on the age variable of the vehicle. In a 
+first step, the aim is to understand the influence of predictor variables on 
+the value of the vehicle. 
+A regression analysis is a suitable method for investigating the 
+relationship between a variable such as the value of a vehicle and its 
+influencing factors such as age or mileage as the age has a significant 
+impact on the value of the vehicle. In empirical research this method is 
+widely used to investigate the relationship of a target variable with 
+indepen-dent predictor variables (Chatterjee and Simonoff, 2013). The 
+purpose of a least squares regression is to find coefficients in a function 
+that minimize the sum of squared errors. The regression analysis applied 
+in this study is based on the equation developed by Linz et al. (2003) for 
+their analysis of the price development of used vehicles in Germany. 
+For the case of the value of a vehicle it is assumed that not only have 
+one predictor variable such as the age, but several predictor variables 
+such as the mileage, MSRP and vehicle make. In the case of multiple 
+Fig. 1. Categorization of collected vehicle data distributed by age for electric (left) and gasoline (right) vehicles.  
+Fig. 2. Correlation of mileage [km] and age [months] of vehicles for Sweden (R2 = 0.55).  
+L. Schloter                                                                                                                                                                                                                                        
+
+
+===== [PAGE 5] =====
+
+Transport Policy 126 (2022) 268–279
+272
+predictor variables a multiple linear regression analysis is performed. 
+Due to the presence of multiple variables, the function of a multiple 
+linear regression describes a hyperplane and can only be applied if 
+specific requirements are fulfilled. In general, the target variable of the 
+multiple linear regression needs to be defined by a linear combination of 
+the predictor variables. Thus, this method can be used for the analysis of 
+the vehicle depreciation only if a depreciation of the vehicle by a fixed 
+amount per year or percentage in value per year is assumed. From the 
+previous research of Storchmann (2004) and the analysis of the data in 
+the previous section (see Fig. 3), it is known that this assumption holds 
+true for the observed vehicle data. 
+When choosing age, mileage and MSRP as the predictor variables of 
+the target variable 
+value of the vehicle, the following multiple regression function is 
+obtained:  
+Ri = β0 + β1 ⋅ Mi + β2 ⋅ Ai + β3 ⋅ Si + εi                                            
+(1) 
+where R is the (resale) value of vehicle i, M is the total mileage driven of 
+the vehicle i, A is the age in months of vehicle i, S is the MSRP of vehicle 
+i, β0, …,β3 are the coefficients of the predictor variables and ε is the 
+standard error of vehicle i. 
+During the analysis of the data a logarithmic relationship of the value 
+of the vehicle and the age can be noted (see Fig. 3). This relationship 
+needs to be transferred to the equation with a logarithmic trans­
+formation of the resale value of the vehicle. Furthermore, it turns out 
+that a double-logarithmic relationship between the resale value of the 
+vehicle and the MSRP exists which brings me to a logarithmic trans­
+formation of the MSRP in the equation analogous to Linz et al. (2003). 
+In the previous section it can be observed that in the data a corre­
+lation of the age and the total mileage driven of the vehicle exists (see 
+Fig. 2). This multicollinearity should be eliminated to avoid errors in the 
+regression analysis (Olive, 2017). Hence, Linz et al. (2003) transfer the 
+variable to a mileage value per month to avoid a correlation within the 
+function. A higher relative mileage per month does not necessarily mean 
+a higher total age of the vehicle and thus, the correlation of the two 
+predictor variables is eliminated. 
+The above mentioned characteristics of the vehicle data leads to an 
+adaption of the previous equation (1): 
+In(Ri) = β0 + β1⋅Mi
+Ai
++ β2⋅Ai + β3⋅In(Si) + ∈i
+(2) 
+Another assumed influencing factor on the vehicle value is the 
+vehicle make. For example, do vehicles from some premium automotive 
+companies such as Audi hold the value better compared to mass-market 
+vehicle makes such as Volkswagen (ADAC, 2012). As a vehicle can only 
+have the attribute of a single make, a so called dummy variable is 
+introduced analogous to Linz et al. (2003). This dummy variable can 
+either be “true” (=1) or “not true” (=0) depending on whether the 
+requirement is fulfilled. As a vehicle 
+can only have the characteristic to be from one make this means that 
+if one dummy variable of a make is “true” all other dummy variables of 
+the other makes have to be “not true”. To avoid this multicollinearity 
+BMW is chosen as reference make which leads to a total of 8 dummy 
+variables for the observed 9 automotive makes. 
+The method described above leads to the following adapted equa­
+tion: 
+In(Ri) = β0 + β1⋅Mi
+Ai
++ β2⋅Ai + β3⋅In(Si) + δ1⋅Dmake(1) + +δ8⋅Dmake(8) + ∈i
+(3) 
+where D is the binary dummy variable of a make and δ1, …,δ8 are the 
+coefficients of this predictor variables Dmake(n). 
+The conducted regression analysis gives us the coefficients of the 
+predictor variables. These coefficients for the predictor variables age, 
+mileage per month, MSRP and vehicle make explain how much a change 
+in a variable e.g., age influences the value of a vehicle. For the analysis of 
+the depreciation it is especially interesting to understand the influence 
+of age on the vehicle value. For this reason, a typical reference vehicle is 
+selected as a fixed value for the remaining variables is needed to analyze 
+the influence of only one of them. The reference vehicle is based on an 
+approximate average value of the variables from the data set. This means 
+an MSRP of EUR 40,000 and a mileage per month of 1500 km. Both 
+values are validated by similar values for the average MSRP and mileage 
+per month in Germany collected by Deutsche Automobil Treuhand 
+GmbH (2020). BMW is selected as a reference vehicle make to set all 
+dummy variables to 0. For the analysis of the MSRP and mileage per 
+month, a reference age of 36 months is set. In all analyzed countries 
+some sort of subsidy on the MSRP of EVs exists. Therefore, the value of 
+EVs is normalized to that of gasoline vehicles which do not receive a 
+subsidy when new (age = 0). 
+5. Results 
+5.1. Regression analysis 
+A regression analysis is performed on the full sample of 24,325 en­
+tries by applying equation. 
+3. Electric and gasoline vehicles are separately analyzed to compare 
+the influence of the predictor variables between the two propulsion 
+types. Table 3 reports the results of the regression analysis. 
+Fig. 3. Correlation of selling price [EUR] and age [months] for the example of a Renault Zoe in Germany(R2 = 0.62).  
+L. Schloter                                                                                                                                                                                                                                        
+
+
+===== [PAGE 6] =====
+
+Transport Policy 126 (2022) 268–279
+273
+The results show that the coefficients β0, β1, β2 and β3 are significant 
+by a value of > 99%. Therefore, the H0 hypothesis which implies that all 
+predictor variables have no impact on the target variable ln(R) has to be 
+rejected. Thus, the corresponding H1 hypothesis has to be confirmed. 
+Additionally, the results of the regression show that the variables in the 
+regression function have a good regression fit which is indicated by the 
+high R2 value of 0.902 and 0.925. 
+The results of the regression analysis by country (Germany, USA, 
+Sweden, Nether-lands, Norway) can be found in the Table 4 and will be 
+discussed in the graphical representation of the findings in a later ab­
+stract of this section. 
+The interpretation of the findings of the regression analysis gives the 
+depreciation of the vehicle based on age, mileage per month and MSRP 
+which are discussed separately below. 
+Due to the logarithmic transformation, the depreciation of the ve­
+hicles as an age variable is defined by eβ2 −1 ≈β2. As for the numerical 
+values of β2 the approximation gives an error per month of roughly 
+0.5%, the exact formula is used. Thus, the annual depreciation of the 
+vehicle is calculated based on age by applying the equation eβ2⋅12. This 
+results in an age-dependent annual geometric depreciation for EVs of 
+13.1% and for gasoline vehicles of 9.9% excluding the impact of the 
+other predictor variables such as MSRP or relative mileage. For the co­
+efficient β1 for the relative mileage per month, an influence on the value 
+of the vehicle of −0.6% per 100 km per month for EVs and −0.2% per 
+100 km per month for gasoline vehicles are observed. The third coeffi­
+cient β3 defines the influence of the MSRP of the vehicle. A double 
+logarithmic relationship between the value of the vehicle and the MSRP 
+is observed. Thus, the coefficients β3 are interpeted as elasticity of the 
+price. The results show that for EVs a 1% higher MSRP is translated to a 
+0.74% higher value of the vehicle. On the other hand, it can be seen that 
+for gasoline vehicles this value is marginally lower with a 0.71% higher 
+value of the vehicle with a 1% higher MSRP. 
+In addition to the numerical values binary dummy variables δ1, …, δ8 
+are implemented in the function. The dummy variables distinguish be­
+tween different vehicle makes in the data set and their influence on the 
+value of the vehicle. The vehicle make BMW has been selected as a 
+reference make for the analysis. It can be observed that almost all other 
+vehicle makes have a more negative impact on the value of the vehicle 
+compared to the reference make BMW. For example the vehicle make 
+Renault has a coefficient of −0.26 
+which translates as 23% (EUR -5000) less value that a reference 
+vehicle with an MSRP of EUR 40,000, a relative mileage of 1500 km per 
+month and an age of 36 months. Tesla is the only vehicle make which 
+has a positive impact on the value of the vehicle compared to the 
+reference make BMW with a coefficient of +0.40. This means for the 
+above mentioned reference vehicle a 50% (EUR +10,000) higher value 
+of the vehicle compared to a BMW with the same characteristics. 
+5.2. Graphical analysis 
+After the analysis of the single coefficients of the regression results, a 
+graphical represen-tation of the results is shown in the following. As a 
+multiple linear regression defines a hyperplane, the predictor variables 
+are shown in separate graphs for better understand-ing. In the following 
+diagrams the relationship of each of the three numerical predictor var­
+iables relative mileage, age and MSRP with the value of the vehicle is 
+shown. As the variables are described separately and a fixed value for 
+the other variables is selected, the graphical representation is only 
+theoretical. 
+Fig. 4 is the graphical representation of the change in value of a 
+reference vehicle relative to its age. The MSRP of the reference vehicle is 
+set to EUR 40,000, the relative mileage per month to 1500 km and the 
+reference make is BMW. On the y-axis the value of the vehicle is divided 
+by the MSRP to obtain the relative value. It can be noted that even at 
+point zero, the EV already has a value less than 100%, i.e., 88%. This 
+observation can be explained by the definition of the MSRP in the data. 
+The manufacturer’s suggested retail price excludes the local subsidies 
+which exist in the analyzed countries. To include subsidies in the vehicle 
+prices a historical analysis of the development of subsidies over the last 
+ten years in the five selected countries for different vehicle segments 
+needs to be done as actual price data is not publicly available. As the 
+main objective is the comparison of EVs to gasoline vehicles and this 
+phenomenon also applies to the data set of gasoline vehicles, a complex 
+analysis of historical real prices is neglected and a simple adaption of the 
+data is applied. For this reason, the value of the EV is set at the starting 
+point to the same value as for the gasoline vehicle. Afterwards, the 
+depreciation is applied on the plot (dashed blue line). For this normal­
+ized depreciation line it can be observed that EVs have a higher depre­
+ciation compared to gasoline vehicles. Based on the regression function, 
+it can be seen that a gasoline vehicle with the reference vehicle speci­
+fications has a value of 56% after 5 years compared to an EV which has a 
+value of only 47%. 
+Furthermore, a degressive development of the value is observed. For 
+the reference vehicle characteristics, a monthly depreciation for EVs of 
+1.16% (13.9% per annum) and for gasoline vehicles of 0.87% (10.4% 
+per annum) can be seen. 
+Table 3 
+Results of the regression analysis for gasoline and electric vehicles.   
+Electric 
+Gasoline 
+Estimate 
+t-value 
+Estimate 
+t-value 
+(Intercept) 
+β0 
+2.7106510*** 
+36.41 
+2.9956300*** 
+42.24 
+mileage
+month ​ in ​ km 
+β1 
+−0.0000631*** 
+−26.23 
+−0.0000194*** 
+−13.90 
+Age in months 
+β2 
+−0.0116656*** 
+−188.09 
+−0.0087059*** 
+−115.37 
+ln(MSRP) in EUR 
+β3 
+0.7357529*** 
+104.19 
+0.7142582*** 
+110.35 
+BMWR 
+– 
+– 
+– 
+– 
+– 
+Chevrolet 
+δ1 
+−0.0925648*** 
+−18.69 
+– 
+– 
+Citroen 
+δ2 
+−0.03254714*** 
+- 17.98 
+– 
+– 
+Hyundai 
+δ3 
+−0.0362618*** 
+−4.94 
+−0.1952022*** 
+−21.41 
+Nissan 
+δ4 
+−0.1689510*** 
+−35.84 
+– 
+– 
+Renault 
+δ5 
+−0.2608803*** 
+−46.15 
+−0.1618982*** 
+−17.34 
+Tesla 
+δ6 
+0.4040080*** 
+71.76 
+– 
+– 
+Volkswagen 
+δ7 
+−0.0125194 
+−1.49 
+−0.1216600*** 
+−14.80 
+Toyota 
+δ8 
+– 
+– 
+−0.1019585*** 
+−10.71 
+Observations 
+N 
+17,258 
+7067 
+R2 
+0.902  
+0.925 
+R Vehicle make BMW was selected as reference make (see section 4). 
+***p < 0.01. 
+L. Schloter                                                                                                                                                                                                                                        
+
+
+===== [PAGE 7] =====
+
+Transport Policy 126 (2022) 268–279
+274
+Fig. 5 shows the same depreciation by age categorized by country. 
+All values are normalized to 100% at start for better comparison of the 
+value loss. In all countries EVs loose value more quickly than gasoline 
+vehicles. Germany has the best value retention for gasoline vehicles 
+compared to the USA which has the highest loss of value. Considering 
+EVs, Germany and the Netherlands have a significant gap between the 
+value of the gaso-line vehicle and the EV. On the other hand, in the USA 
+and in Sweden the gap between the two propulsion types is much 
+smaller. For Norway there is only data on EVs as there is insufficient 
+available gasoline vehicle data. The depreciation in Norway of EVs is 
+almost the same as in its neighboring country Sweden and is only 
+exceeded by the Netherlands with an even greater loss of value over 
+time. 
+Another variable is the relative mileage per month in kilometers. For 
+the graphical representation in Fig. 6, a reference vehicle with an age of 
+36 months, an MSRP of EUR 40,000 and the vehicle make BMW is used. 
+For better understanding of the influence of the mileage on the vehicle 
+value, the relative mileage per month is multiplied by the reference age 
+of 36 months. The relative value of the vehicle is shown on the y-axis and 
+the total mileage from 0 to 180,000 km is shown on the x-axis. The value 
+does not start at 100% because of the reference values such as age or 
+MSRP which are set to a specific value and influence the value of the 
+vehicle at point zero. This results in a value of a theoretical 36 month old 
+gasoline vehicle with an MSRP of EUR 40,000 and 0 km of mileage of 
+roughly 74%. The diagram shows that the value of the vehicles declines 
+with higher mileage. Furthermore, it can be observed that the value of 
+the EV declines by a greater amount per 1000 km than the gasoline 
+vehicle. Compared with the age of the vehicle, the mileage has less in­
+fluence on the value of the vehicle. Despite there being an exponential 
+relationship between the value of the vehicle and the relative mileage, 
+the plot appears almost linear. Analogously to the previous figures there 
+is a downward shift of the EV value due to the excluded subsidies in the 
+MSRP. For this reason, the dashed line shows a normalized value decline 
+of the EV. The higher decline compared to the gasoline vehicle can be 
+seen clearly in the chart. 
+In Fig. 7 the relationship between the MSRP and the value of the 
+vehicle is shown. For this reason a reference vehicle of an age of 36 
+months, a relative mileage of 1500 km per month (18,000 km per 
+annum) and the vehicle make BMW is used. The plot shows that the 
+relationship between the MSRP and the vehicle value is initially expo­
+nential and then develops to an almost linear relationship above an 
+MSRP of 15,000 EUR. With lower MSRP the gap between the two pro­
+pulsion types is roughly 36%, but steadily decreases to a gap of 23% at 
+an MSRP of 120,000 EUR. This suggests that with a higher MSRP the 
+difference between EVs and gasoline vehicles decreases and might be 
+eliminated at an indefinite point. As for the other coefficients, a lower 
+vehicle value for the MSRP for EVs when compared to gasoline vehicles 
+can be seen. However, as the MSRP does not include subsidies the true 
+line of EVs should be closer to that of gasoline vehicles. When comparing 
+both vehicle types at an MSRP of EUR 40,000, a value gap of roughly 
+EUR 7000 between the two propulsion types can be seen. If, for example, 
+the current subsidy for EVs in Germany of EUR 9000 for a vehicle with 
+an MSRP of EUR 40,000 is included, this difference in value of EUR 7000 
+can be removed making the EV value even better compared to the gas­
+oline vehicle. 
+To demonstrate the connection between the above figures of the 
+separate variables, the reference values can be applied to all diagrams. 
+Adopting the reference values of an MSRP of EUR 40,000, an age of 36 
+months and a relative mileage of 1500 km (or 18,000 km per annum), it 
+can be observed that in all of the above Figs. 4, 6 and 7 the exact same 
+value of the electric vehicle of roughly 22,000 EUR. 
+5.3. Sensitivity analysis 
+The graphical analysis of the three numerical predictor variables 
+underlines that vehicle value depends on all three of them. The 
+Table 4 
+Results of the regression analysis by country and vehicle type.   
+Germany 
+USA 
+Sweden 
+Norway 
+Netherlands 
+Electric 
+Gasoline 
+Electric 
+Gasoline 
+Electric 
+Gasoline 
+Electric 
+Gasoline 
+Electric 
+Gasoline 
+(Intercept) 
+β0 
+1.8025880*** 
+2.3165413*** 
+2.1717050*** 
+3.7135020*** 
+3.6203590*** 
+7.7899871*** 
+2.0289230*** 
+– 
+0.07863117 
+1.5731510*** 
+mileage
+month in km 
+β1 
+−0.0000616*** 
+−0.0000968*** 
+−0.0000788*** 
+0.0000141*** 
+−0.0000543*** 
+−0.0001312*** 
+−0.0000777*** 
+– 
+−0.0000541*** 
+−0.0000874*** 
+Age in months 
+β2 
+−0.0102179*** 
+−0.0079343*** 
+−0.0114918*** 
+−0.0099188*** 
+−0.0093826*** 
+−0.0086427*** 
+−0.0117495*** 
+– 
+−0.0125360*** 
+−0.0089396*** 
+ln(MSRP) 
+β3 
+0.8201477*** 
+0.7830172*** 
+0.7698723*** 
+0.6492343*** 
+0.6499378*** 
+0.2791760*** 
+0.8263658*** 
+– 
+0.9268883*** 
+0.8711730*** 
+BMW 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+Chevrolet 
+δ1 
+– 
+– 
+0.1011808*** 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+Citroen 
+δ2 
+−0.3346742*** 
+– 
+– 
+– 
+– 
+– 
+0.6319966*** 
+– 
+−0.3511370*** 
+– 
+Hyundai 
+δ3 
+−0.0596087*** 
+−0.1539950*** 
+0.0758550*** 
+– 
+−0.0757390*** 
+– 
+0.0033965 
+– 
+0.0226674 
+−0.1499969*** 
+Nissan 
+δ4 
+−0.1319365*** 
+– 
+−0.0665337*** 
+– 
+−0.0907751*** 
+– 
+−0.2431574*** 
+– 
+−0.0761075*** 
+– 
+Renault 
+δ5 
+−0.2979605*** 
+−0.2119315*** 
+– 
+– 
+– 
+−1.0623175*** 
+−0.2574725*** 
+– 
+−0.0894192*** 
+−0.1261472*** 
+Tesla 
+δ6 
+0.3390999*** 
+– 
+0.5485115*** 
+– 
+0.4165646*** 
+– 
+0.1838399*** 
+– 
+0.2260757*** 
+– 
+Volkswagen 
+δ7 
+−0.0293026*** 
+−0.0834033*** 
+– 
+0.0498738** 
+– 
+– 
+−0.2006861*** 
+– 
+0.0680767** 
+−0.0859388*** 
+Toyota 
+δ8 
+– 
+−0.1690924*** 
+– 
+−0.1201324*** 
+– 
+−0.8623681*** 
+– 
+– 
+– 
+−0.0166205 
+Observations 
+N 
+5478 
+4442 
+7848 
+728 
+1041 
+151 
+2202 
+– 
+689 
+1744 
+R2  
+0.930 
+0.931 
+0.925 
+0.923 
+0.772 
+0.952 
+0.949 
+– 
+0.935 
+0.946 
+Vehicle make BMW was selected as reference make (see section 4). 
+**p < 0.05 ***p < 0.01. 
+L. Schloter                                                                                                                                                                                                                                        
+
+
+===== [PAGE 8] =====
+
+Transport Policy 126 (2022) 268–279
+275
+depreciation of vehicles is often interpreted as the vehicle value over the 
+age of the vehicle. Thus, the focus of this analysis of the depreciation lays 
+on its dependence on the variable age. However, it is obvious that the 
+other variables also influence the value of the vehicle. 
+In general, the depreciation is often calculated for a specific vehicle 
+which is either an actual vehicle or a fictional vehicle e.g., an average 
+vehicle in a segment. In these cases the vehicle is assigned specific 
+vehicle characteristics such as a specific average mileage. As the focus of 
+this research is on the deprecation over the vehicle age, a fixed values for 
+the other variables is selected. To better understand the influence on the 
+other two predictor variables relative mileage and MSRP, a sensitivity 
+analysis has been conducted. 
+In Fig. 8 a sensitivity analysis of the relative mileage is conducted. A 
+reference vehicle with an MSRP of EUR 40,000 and the vehicle make 
+BMW is defined for the analysis. The relative mileage per month varies 
+from 800 to 2000 km (or 9600 to 24,000 km per annum). It can be 
+observed that based on the reference value of 1500 km relative mileage 
+presented in section 5.2, only a marginal deviation occurs. The diagram 
+shows a maximum deviation from the reference value of ± 1%. 
+Furthermore, the influence of the relative mileage on the value of the 
+vehicle decreases with age. This observation can be confirmed for EVs 
+(left plot) as well as for gasoline vehicles (right plot). The small influence 
+of the relative mileage can also be seen in Fig. 6. The sensitivity analysis 
+reveals that when applying realistic relative mileages between 800 and 
+2000 km per month, the influence of the relative mileage is marginal 
+compared to the impact of the age. 
+Fig. 9 shows the sensitivity analysis of a different MSRP on the value 
+of the vehicle. A relative mileage of 1500 km per month and BMW as 
+vehicle make are selected as reference values. For EVs (left plot) and 
+gasoline vehicles (right plot) the same behavior can be observed. The 
+Fig. 4. Change in value of gasoline and electric vehicles with age.  
+Fig. 5. Change in value of gasoline and electric vehicles (normalized) with age for selected countries.  
+L. Schloter                                                                                                                                                                                                                                        
+
+
+===== [PAGE 9] =====
+
+Transport Policy 126 (2022) 268–279
+276
+Fig. 6. Relationship of relative vehicle value to the total mileage of gasoline and electric vehicles.  
+Fig. 7. Relationship between vehicle value and MSRP for gasoline and electric vehicles.  
+Fig. 8. Sensitivity analysis for the relative mileage of electric (left) and gasoline (right) vehicles.  
+L. Schloter                                                                                                                                                                                                                                        
+
+
+===== [PAGE 10] =====
+
+Transport Policy 126 (2022) 268–279
+277
+deviation in vehicle value for higher and lower MSRP is more significant 
+than the deviation for relative mileage. The higher the MSRP, the lower 
+is the value of the vehicle and vise versa. With an MSRP of EUR 30,000 
+the vehicles have a higher value of +6% at point zero and a lower 
+vehicle value of −11% for an MSRP of EUR 60,000 compared to a 
+reference vehicle with an MSRP of EUR 40,000. Furthermore, the impact 
+of the MSRP decreases with increasing age of the vehicle reducing the 
+deviation from the reverence MSRP. 
+6. Discussion 
+Existing research on economics of vehicles is grounding the depre­
+ciation of EVs on as-sumptions and either assumes the same depreciation 
+as gasoline vehicles or a delta to that of gasoline vehicles (see Wu et al. 
+(2015) and Danielis et al. (2018)). Recent empir-ical research on EVs 
+value development focuses on the resale value without analysis of 
+depreciation rates, behavior and influencing factors. Furthermore, the 
+research has often a limited scope on only a few countries, segments or 
+models and is based on non-public data (see Guo and Zhou (2019) and 
+Schoettle and Sivak (2018)). 
+In this research the aim is to focus on the depreciation rate, behavior 
+and influencing factors for electric vehicles and compare them to gas­
+oline vehicles. The scope of the analysis is wider and includes 5 auto­
+motive markets and 5 vehicle segments with a total of 19 vehicle models. 
+The data set is from a public available source and includes over 24,000 
+data records over a time horizon of 10 years. The increased scope of the 
+research enables additional insights on electric vehicle adaptation, 
+economics and depreciation compared to existing research. 
+The data of used vehicles confirms the findings of Storchmann 
+(2004) that vehicles tend to have a geometric degressive depreciation 
+over time. The conducted regression analysis confirms the research 
+conducted by Linz et al. (2003) on vehicle depreciation. The vehicle age, 
+mileage, MSRP and make have a significant impact on the value of the 
+electric vehicle. Age has the highest impact on the value of EVs with 
+−1.17% and is followed by the relative mileage with −0.6% per 100 km 
+per month. The MSRP is described as price elasticity in the analysis and 
+results in a 0.74% higher value of the electric vehicle for a 1% higher 
+MSRP. Another result of the regression analysis is the different influence 
+of the vehicle make on the vehicle value. Tesla is the only vehicle make 
+which increases the value of the EV compared to the reference vehicle 
+make, BMW. 
+The depreciation can be aggregated to an annual depreciation rate 
+for EVs of 13.9% and for gasoline vehicles of 10.4%. The obtained values 
+confirm existing research in this field with a similar depreciation. 
+Mueller et al. (2017) obtain a depreciation of 12.5%–15% per annum 
+and Morrison et al. (2018) a 12.4% depreciation per annum for EVs. Linz 
+et al. (2003) indicate a result of 11.6% per annum for the depreciation 
+rate. Breetz and Salon (2018) use in their analysis a depreciation rate of 
+11% for gasoline vehicles and 17% for EVs based on an online database 
+confirming the observed difference between the two propulsion types in 
+this analysis. The observed delta between the two vehicle types could 
+have several reasons which might include one of the following (see also 
+Breetz and Salon (2018)):  
+• less current demand for EVs on the market because consumers have 
+different vehicle requirements, 
+• insufficient knowledge concerning the degradation and life expec­
+tancy of the battery and other parts of the EV,  
+• high rate of technological advancements of EVs,  
+• dynamic market with new makes and models introduced regularly. 
+The higher depreciation and the underlying reasons are typical for 
+nascent technologies. As Danielis et al. (2018) mentions in his research 
+this circumstance might change in the future. Technological advance­
+ments and the growing market might be the reason that in the near 
+future the delta in depreciation between EVs and gasoline vehicles might 
+decrease or even disappear. 
+The analysis on a country level shows that the delta between EVs and 
+gasoline vehicles occurs in all countries, but in some countries the 
+depreciation and the delta between the two propulsion types is higher. 
+This might be explained by the different dynamics of the national 
+automotive markets. The US market has for example a high share of 
+vehicles financed through short-term leasing (30% of new vehicles) 
+which might stimulate higher depreciation compared to other countries 
+such as Germany with a lower leasing share (22%) (Deutsche Automobil 
+Treuhand GmbH, 2020; Zabritski, 2021). 
+The conducted sensitivity analysis on the variables relative mileage 
+and MSRP in-vestigates the influence of these variables on the value of 
+the vehicle. It shows that all variables have an influence on the value of 
+the vehicle when varying the variables by a realistic extend. The relative 
+mileage and MSRP of the vehicle have a significant lower influence on 
+the vehicle value compared to the age. Car buyers might see age as the 
+Fig. 9. Sensitivity analysis for the MSRP of electric (left) and gasoline (right) vehicles Summarizing the sensitivity analysis, it can be concluded that the MSRP has a 
+higher impact on the value of the vehicle compared to the relative mileage. However, both variables have only a limited impact on the value compared to the 
+influence of the age variable. 
+L. Schloter                                                                                                                                                                                                                                        
+
+
+===== [PAGE 11] =====
+
+Transport Policy 126 (2022) 268–279
+278
+highest impact for the value of the vehicle as technology becomes easily 
+outdated over time and components might become rusty (Kranz, 2019). 
+The MSRP of the vehicle has a significant lower impact on the value. 
+Vehicles with higher MSRP loose value fast which might be explained by 
+premium car buyers who tend to sell their vehicle early when it is 
+outdated and used car buyers might not want to pay a premium for a 
+used premium vehicle (Gorzelany, 2019). Mileage has the lowest impact 
+on the value of the vehicle. This might be due to the fact that a young 
+vehicle with high mileage which has been maintained can be seen as 
+more valuable by car buyers (Kranz, 2019). 
+The conducted research has two main limitations which should be 
+acknowledged. Firstly, for the original sale price of the used vehicles the 
+MSRP of the vehicle type is used, which does neglect potential extra 
+equipment of the car and subsidies. Due to the fact that there are over 
+24,000 data records from 5 countries over a time period of 10 years it is 
+very complex to get the exact subsidy and original sale price of each ve- 
+hicle. This effect is reduced by the conducted normalization of the EV 
+value to that of the gasoline vehicle, but could not been completely 
+eliminated. Secondly, the analysis of the depreciation of passenger ve­
+hicles is a snapshot of the current development. It can be assumed that 
+the depreciation might change in the future (see Danielis et al. (2018)). 
+Therefore, a similar analysis after some years would give additional 
+insight on the changes in the depreciation. 
+7. Conclusion and implications 
+Literature on the economics of EVs lack data on the depreciation and 
+researchers base their depreciation on assumptions (see Wu et al. (2015) 
+and Danielis et al. (2018)). Re- cent research on value development of 
+EVs focus mainly on the resale value and not on depreciation behavior 
+and have a limited scope (see Guo and Zhou (2019) and Schoettle and 
+Sivak (2018)). This research addresses this gap and provides a broader 
+and empirical approach on the depreciation of EVs compared to gasoline 
+vehicles. With a maturing EV market more sufficient data on EVs and 
+their value development is public available to conduct this analysis. 
+The obtained data on depreciation and the delta to gasoline vehicle is 
+typical. Nascent technologies such as EVs tend to have a higher depre­
+ciation due to e.g., technological advancements and other factors dis­
+cussed in the previous chapter. With a maturing and growing market for 
+EVs in the next years this circumstance might change and the depreci­
+ation might come closer to that of gasoline vehicles. 
+The results of this research have implications for research but also 
+many other stake-holders. The developed equation (3) and also the re­
+sults for the annual depreciation enables a more accurate and specific 
+application of the depreciation for electric and gasoline ve-hicles. It 
+enables a differentiation between the two propulsion types, but also 
+between country and includes vehicle characteristics such as mileage 
+and make. 
+The results on the depreciation can be applied in research on trans­
+portation policies and vehicle economics. The results can change TCO 
+analysis and evaluations of different propulsion systems. The more ac­
+curate and specific depreciation gives governments the opportunity to 
+tailor subsidies for EVs so that they become more effective and efficient. 
+Authorities can adapt tax benefits and tax depreciation rates of different 
+vehicle types so that it differentiate between gasoline and electric ve­
+hicles. Mobility provider such as rental companies can adapt their tariff 
+according to the different depreciation rates as well as insurance com­
+panies. Banks and leasing companies can use the more accurate depre­
+ciation to tailor their contracts for vehicles to become more profitable. 
+Automotive manufacturer can use the depreciation delta to implement 
+approaches to reduce the delta 
+Through measures such as an extended guarantee on EVs. Lastly, also 
+consumers benefit from the more accurate and specific depreciation 
+from this research. This provides to consumers more transparency on the 
+costs associated with a vehicle and gives them a clearer picture on the 
+value at a certain point in time. 
+This research leaves also room for further research on the depreci­
+ation and economics of EVs. With a growing EV market more data will 
+be available in the near future to extend the research. Furthermore, the 
+exact reasons behind the delta of EVs and gasoline vehicle can be 
+investigated. This could help automotive manufacturer as well as gov­
+ernments to address the reasons and enhance the value of the vehicles. 
+Research on the degradation of the electric vehicle battery and on the 
+life expectancy of the EV and its parts could improve the understanding 
+of the value drivers of the EV and enhance research in vehicle 
+economics. 
+References 
+ADAC (11.05.2012). ADAC AutoMarxX: Juni 2012. Allgemeiner Deutscher Automobil- 
+Club e.V. 
+BMU, 2019. Klimaschutzprogramm 2030 der Bundesregierung zur Umsetzung des Kli- 
+maschutzplans 2050. Bundesministerium für Umwelt, Naturschutz und nukleare 
+Sicher- heit. 
+Breetz, H.L., Salon, D., 2018. Do electric vehicles need subsidies? Ownership costs for 
+conventional, hybrid, and electric vehicles in 14 U.S. cities. Energy Pol. 120, 
+238–249. 
+Chatterjee, S., Simonoff, J.S., 2013. Handbook of Regression Analysis. Wiley Hand- 
+books in Applied Statistics. In: Wiley, J. (Ed.). New York, NY, 1. Auflage edition.  
+Danielis, R., Giansoldati, M., Rotaris, L., 2018. A probabilistic total cost of owner- ship 
+model to evaluate the current and future prospects of electric cars uptake in Italy. 
+Energy Pol. 119, 268–281. 
+Deutsche Automobil Treuhand GmbH, 2020. DAT Report 2020. 
+DOE, 2021. How Do All-Electric Cars Work? U.S. Department of Energy. Last accessed on 
+November 11, 2021. https://afdc.energy.gov/vehicles/how- do-all-electric-cars- 
+work. 
+EAFO, 2020a. AF Market Share New Registrations M1 (2020): Country: Sweden. Euro- 
+pean Alternative Fuels Oberservatory. 
+EAFO, 2020b. AF Market Share New Registrations M1 (Electricity) (2020): Country: 
+Germany. European Alternative Fuels Oberservatory.  
+EAFO, 2020c. AF Market Share New Registrations M1 (Electricity) (2020): Country: 
+Netherlands. European Alternative Fuels Oberservatory. 
+EAFO, 2020d. AF Market Share New Registrations M1 (Electricity) (2020). Country: 
+Norway. European Alternative Fuels Oberservatory.  
+EC, 2002. Leitpfaden 2002 zum Kraftfahrzeugvertrieb und -Kundendienst in der Eu- 
+ropaischen Union: Verordnung (EG) NR. 1400/2002 der Kommission vom 31. Juli 
+2002: U ber die Anwendung von Artikel 81 Absatz 3 des Vertrags auf Gruppen von 
+vertikalen Vereinbarungen und aufeinander abgestimmten Verhaltensweisen im 
+Kraft- fahrzeugsektor. European Commission. 
+EC, 2020. Sustainable and Smart Mobility Strategy – Putting European Transport on 
+Track for the Future: COM(2020) 789 Final. European Commission.  
+EC, 2021. Proposal for a Regulation of the European Parliament and of the Council 
+Amending Regulation (EU) 2019/631 as Regards Strengthening the CO2 Emission 
+Per- Formance Standards for New Passenger Cars and New Light Commercial 
+Vehicles in Line with the Union’s Increased Climate Ambition: COM(2021) 556 
+Final. European Com- mission. 
+Ellram, L.M., 1995. Total cost of ownership. Int. J. Phys. Distrib. Logist. Manag. 25. 
+Gersdorf, T., Schaufuss, P., Schenk, S., Hertzke, P., 2020. McKinsey Electric Vehi- Cle 
+Index: Europe Cushions a Global Plunge in EV Sales: McKinsey’s Recent Analysis of 
+Global Electric-Vehicle Markets Shows Both Challenges and Opportunities Ahead. 
+McKin- sey & Comnpany, Inc. 
+Gilmore, E.A., Lave, L.B., 2013. Comparing resale prices and total cost of ownership for 
+gasoline, hybrid and diesel passenger cars and trucks. Transport Pol. 27, 200–208. 
+Gorzelany, J. (07.11.2019). Burning Money: Vehicles That Depre- ciate The Fastest, and 
+Those That Hold Onto Their Values Best. https://www.forbes. 
+com/sites/jimgorzelany/2019/11/07/burning-money- vehicles-that-depreciate-th 
+e-fastest-and-those-that-hold-onto-their-values- best/?sh=58d52b885f4a. Last 
+accessed on May 19, 2022. 
+Guo, Z., Zhou, Y., 2019. Residual value analysis of plug-in vehicles in the United States. 
+Energy Pol. 125, 445–455. 
+Hagman, J., Ritz´en, S., Stier, J.J., Susilo, Y., 2016. Total cost of ownership and its 
+potential implications for battery electric vehicle diffusion. Research in 
+Transportation Business & Management 18, 11–17. 
+IEA, International Energy Agency, 2021. Global EV Outlook 2021: Accelerating 
+Ambitions Despite the Pandemic. 
+IPCC (2014). Climate Change 2014: Mitigation of Climate Change: Working Group III 
+Contribution to the Fifth Assessment Report of the Intergovernmental Panel on 
+Climate Change. Cambridge University Press. 
+Irle, R., 2021. Global EV sales for 2021 H1. https://www.ev-volumes.com/country/total- 
+world-plug-in-vehicle-volumes/. (Accessed 22 November 2021). 
+K¨onig, A., Nicoletti, L., Schr¨oder, D., Wolff, S., Waclaw, A., Lienkamp, M., 2021. An 
+overview of parameter and cost for battery electric vehicles. World Electric Vehicle 
+Journal 12 (1), 21. 
+Kranz, R. (13.08.2019). Buying a Used Car: Does Age Matter? https://www.kbb. 
+com/car-advice/used-car-shopping-insider-tip-whats-more- important-mileage-age/. 
+Last accessed on May 19, 2022. 
+L. Schloter                                                                                                                                                                                                                                        
+
+
+===== [PAGE 12] =====
+
+Transport Policy 126 (2022) 268–279
+279
+L´evay, P.Z., Drossinos, Y., Thiel, C., 2017. The effect of fiscal incentives on mar- ket 
+penetration of electric vehicles: a pairwise comparison of total cost of ownership. 
+Energy Pol. 105, 524–533. 
+Linz, S., Dexheimer, V., Kathe, A., 2003. Hedonische Preismessung bei Gebraucht- 
+wagen. Wirtsch. Stat. 6, 538–542. 
+Ministry of Transportation Norway, 2021. Norway is elec- tric. https://www.regjeringen. 
+no/en/topics/transport-and- communications/veg/faktaartikler-vei-og-ts/norway-i 
+s-electric/id2677481/. (Accessed 15 November 2021). 
+Mohr, D., Kaas, H.-W., Gao, P., Wee, D., M¨oller, T., 2016. Automotive Revolution & 
+Perspective towards 2030: How the Convergence of Disruptive Technology-Driven 
+Trends Could Transform the Auto Industry. McKinsey & Comnpany, Inc. 
+Morrison, G., Stevens, J., Joseck, F., 2018. Relative economic competitiveness of light- 
+duty battery electric and fuel cell electric vehicles. Transport. Res. C Emerg. Technol. 
+87, 183–196. 
+Mueller, S., Rohr, S., Schmid, W., Lienkamp, M., 2017. Analysing the influence of driver 
+behaviour and tuning measures on battery aging and residual value of electric 
+vehicles. In: EVS30 International Battery, Hybrid and Fuel Cell Electric Vehicle 
+Symposium. Stuttgart.  
+OICA, 2020. Passenger car sales 2020 (International Organization of Motor Vehicle Man- 
+ufacturers). https://www.oica.net/category/sales-statistics/. (Accessed 6 December 
+2021). 
+Olive, D.J., 2017. Linear Regression. Springer International Publishing. 
+Palmer, K., Tate, J.E., Wadud, Z., Nellthorp, J., 2018. Total cost of ownership and market 
+share for hybrid and electric vehicles in the UK, US and Japan. Appl. Energy 209, 
+108–119. 
+Peles, Y.C., 1988. On the depreciation of automobiles. International Journal of Trans- 
+port Economics/Rivista Int. di Econ. dei Trasporti 15 (1), 43–54. 
+Schoettle, B., Sivak, M., 2018. Resale Values of Electric and Conventional Vehicles: 
+Recent Trends and Influence on the Decision to Purchase a New Vehicle. 
+Storchmann, K., 2004. On the depreciation of automobiles: an international compar- 
+ison. Transportation 31 (4), 371–408. 
+The White House, 05.08.2021. Fact Sheet: President Biden Announces Steps to Drive 
+American Leadership Forward on Clean Cars and Trucks. 
+Wappelhorst, S., 2021. Small but Mighty: The Netherlands’ Leading Role in Electric 
+Vehicle Adoption. The International Council on Clean Transportation. Last accessed 
+on January 7, 2022. https://theicct.org/blog/staff/netherlands-ev-leader-feb2021. 
+Wu, G., Inderbitzin, A., Bening, C., 2015. Total cost of ownership of electric vehicles 
+compared to conventional vehicles: a probabilistic analysis and projection across 
+market segments. Energy Pol. 80, 196–214. 
+Yang, Z. (18.05.2016). 2015 Global Electric Vehicle Trends: Which Markets Are up (The 
+Most). 
+Zabritski, M., 2021. State of the Auto Finance Market Q3 2021. 
+L. Schloter                                                                                                                                                                                                                                        

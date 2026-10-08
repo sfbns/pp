@@ -1,0 +1,164 @@
+{
+  "rank": 18,
+  "item_key": "N5SE78G4",
+  "title": "Optimal policy and network effects for the deployment of zero emission vehicles",
+  "authors": [
+    "Guy Meunier",
+    "Jean-Pierre Ponssard"
+  ],
+  "creators": [
+    {
+      "name": "Guy Meunier",
+      "type": "author"
+    },
+    {
+      "name": "Jean-Pierre Ponssard",
+      "type": "author"
+    }
+  ],
+  "date": "2020-00-00 2020",
+  "journal": "European Economic Review",
+  "doi": "10.1016/j.euroecorev.2020.103449",
+  "url": "https://hal.science/hal-03348070",
+  "collections": [
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "BLP-adjacent structural policy model",
+  "apa_citation": {
+    "reference": "Meunier, G., & Ponssard, J. (2020). Optimal policy and network effects for the deployment of zero emission vehicles. European Economic Review. https://doi.org/10.1016/j.euroecorev.2020.103449",
+    "parenthetical": "(Meunier & Ponssard, 2020)",
+    "narrative": "Meunier and Ponssard (2020)"
+  },
+  "preferred_pdf_rel": "source_pdfs/18_n5se78g4.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "UMR8H5F6",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:j.euroecorev.2020.103449.pdf.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\UMR8H5F6\\j.euroecorev.2020.103449.pdf.pdf",
+    "exists": true,
+    "size": 1133666
+  },
+  "legacy_note_rel": "raw/notes/18_n5se78g4.md",
+  "legacy_old_memory_rel": "raw/paper_memory/18_n5se78g4.md",
+  "fulltext_json_rel": "raw/fulltext/18_n5se78g4.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/18_n5se78g4.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper asks how indirect network effects change the deployment of zero-emission vehicles and what policy should do about it.\n- Its answer is a static partial-equilibrium model with market power and scale economies that can generate multiple equilibria and local welfare optima.\n- The payoff is a policy map: in some configurations, subsidizing charging stations is more effective than subsidizing vehicles.",
+    "2. Story ladder": "- Real-world tension or puzzle: ZEV adoption depends on vehicles and refueling infrastructure at the same time.\n- Why the puzzle matters now: lock-in and tipping can trap the market in a low-adoption equilibrium.\n- What the literature already explains: many papers discuss direct adoption incentives, but fewer model the two-sided feedback structure explicitly.\n- What is still missing or weakly identified: a welfare framework that compares market equilibrium to social optimum under indirect network effects.\n- The paper's move: build a stylized equilibrium model with consumers, producers, and stations on both sides of the market.\n- Main payoff: policy prescriptions depend on the configuration, not just on whether subsidies exist.",
+    "3. Model or identification core": "- Research design type: theory-first partial equilibrium.\n- Structural model class or reduced-form design: static equilibrium with indirect network effects, producer market power, and scale economies.\n- Key equations or choice objects: consumer utility from transport and refueling, producer supply decisions, station deployment, and equilibrium consistency.\n- Endogeneity problem: not empirical endogeneity in the usual sense, but equilibrium feedback and multiple local optima.\n- Identification strategy: comparative statics and welfare analysis across calibrated configurations.\n- What assumptions are doing the heavy lifting: the structure of network effects and the market power assumptions.",
+    "4. Data and measurement": "- Unit of observation: not an econometric panel in the main identification sense; the paper is model-based.\n- Market definition: stylized ZEV market with stations and vehicles.\n- Main dependent variable: welfare and deployment outcomes.\n- Core explanatory variables: network-effect parameters, production cost structure, and market power.\n- Instruments / moments / shocks: calibration and scenario analysis rather than IV.\n- Important sample restrictions: the model is deliberately stylized so that policy logic is transparent.",
+    "5. Findings and mechanisms": "- Baseline result: indirect network effects can create multiple market equilibria and multiple welfare local extrema.\n- Mechanism evidence: the interaction between stations and vehicles is the source of lock-in and tipping.\n- Heterogeneity evidence: different configurations map to different policy priorities, from short-range BEVs to long-distance use cases.\n- Welfare or counterfactual result: subsidizing charging stations can dominate subsidizing vehicles under some parameter values.\n- Limits the authors admit: the model is most useful where network effects are important; it is less useful in settings where those effects are weak.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: prior work on ZEV policy, network effects, and two-sided markets.\n- What exact gap the authors claim: the field lacked a welfare model that directly links market design to deployment dynamics.\n- How the introduction stages novelty: first the lock-in problem, then the need for network effects, then the policy comparison.\n- Whether the contribution is data, method, theory, policy, or a combination: mainly theory and policy design.",
+    "7. Literature review function": "- Where the review sits: the introduction uses it to motivate why indirect network effects matter.\n- How the review is organized: by market failure, not by chronology.\n- Which citations do positioning work: papers on adoption subsidies and infrastructure deployment define the existing policy debate.\n- Which citations do method-validation work: network-economics and welfare-theory references justify the equilibrium approach.",
+    "8. Writing structure map": "- Introduction move sequence: market tension -> network effects -> policy problem -> model promises.\n- Section order: intro -> model -> welfare analysis -> policy cases -> calibration/examples -> appendix.\n- Where the paper turns from setup to payoff: once it proves multiple equilibria and local welfare extrema.\n- How tables/figures are used to move the argument: the policy diagrams and configuration cases likely do the heavy lifting, but some figure detail is not fully visible from extraction.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"Because the market is two-sided, the wrong subsidy can reinforce the wrong side of the market.\"\n- Best transition pattern: \"We now compare the market equilibrium to the social optimum.\"\n- Best contribution sentence pattern: \"A stylized model is enough to rank policies when the key mechanism is network feedback.\"\n- Best limitation or implication move: be explicit that the best policy changes with the deployment stage and the size of network effects.",
+    "10. Memory update": "- Durable economics-writing principle: if policy ranking depends on stage of adoption, make the stage dependence visible early.\n- Durable structural-model principle: indirect network effects can create multiplicity, so welfare comparisons must be local and global.\n- Reusable empirical design idea: even without micro data, a clean equilibrium model can be policy-informative.\n- Follow-up paper to pair with this one: any two-sided network market with infrastructure adoption."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_n5se78g4_optimal-policy-and-network-effects-for-the-deployment-of-zero-emission-vehicles\ndescription: Fulltext memory for Optimal policy and network effects for the deployment of zero emission vehicles; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# Optimal policy and network effects for the deployment of zero emission vehicles",
+    "Citation": "- Key: `N5SE78G4`\n- DOI: `10.1016/j.euroecorev.2020.103449`\n- Journal: European Economic Review\n- Year: 2020\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\N5SE78G4.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/N5SE78G4/N5SE78G4.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/N5SE78G4.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- We analyze the impact of indirect network effects in the deployment of zero emission vehicles in a static partial equilibrium model.",
+    "Story Logic": "- 故事起点：We analyze the impact of indirect network effects in the deployment of zero emission vehicles in a static partial equilibrium model.\n- 制度/市场切口：The optimal two subsidies for vehicles and stations are derived so that the Pareto dominating market equilibrium would coincide with the social optimum.\n- 模型推进：We analyze the impact of indirect network effects in the deployment of zero emission vehicles in a static partial equilibrium model.\n- 结论落点：The optimal two subsidies for vehicles and stations are derived so that the Pareto dominating market equilibrium would coincide with the social optimum.",
+    "BLP Model Memory": "- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: bertrand, marginal cost, welfare\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧并非完全缺席，作者至少把进入、定价或市场结构响应嵌进均衡框架。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1. Introduction\n- 2.1. Framework\n- Optimal policy and network effects for the deployment of zero emission vehicles-\n- 7. Discussion, caveats, and extensions\n- a r t i c l e i n f o\n- a b s t r a c t\n- European Economic Review 126 (2020) 103449\n- Contents lists available at ScienceDirect\n- European Economic Review\n- EUROPEAN ECONOMIC REVIEW\n- 2. The model and the social optimum\n- Total welfare is then",
+    "Reusable Writing Moves": "- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。",
+    "OCR Anchors": "- introduction: `1. Introduction` (p.0) - 1. Introduction Emissions from land transport are a major source of greenhouse gas emissions (approximately 24% for the EU28).1 A large fraction of these emissions is from passenger cars and trucks that heavily rely on fossil fuels.\n- model: `2.1. Framework` (p.2) - 2.1. Framework We consider two complementary goods: Vehicles and refueling stations.\n- counterfactual: `Optimal policy and network effects for the deployment of zero emission vehicles-` (p.0) - Optimal policy and network effects for the deployment of zero emission vehicles- Guy Meunier a,b,∗ , Jean-Pierre Ponssard b,c a INRA-UR1303 ALISS France b CREST - Ecole Polytechnique France c CNRS France\n- conclusion: `7. Discussion, caveats, and extensions` (p.15) - 7. Discussion, caveats, and extensions Several important features of the transportation sector and electric mobility have not been considered in our model.",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- The paper asks how indirect network effects change the deployment of zero-emission vehicles and what policy should do about it.\n- Its answer is a static partial-equilibrium model with market power and scale economies that can generate multiple equilibria and local welfare optima.\n- The payoff is a policy map: in some configurations, subsidizing charging stations is more effective than subsidizing vehicles.\n\n- Real-world tension or puzzle: ZEV adoption depends on vehicles and refueling infrastructure at the same time.\n- Why the puzzle matters now: lock-in and tipping can trap the market in a low-adoption equilibrium.\n- What the literature already explains: many papers discuss direct adoption incentives, but fewer model the two-sided feedback structure explicitly.\n- What is still missing or weakly identified: a welfare framework that compares market equilibrium to social optimum under indirect network effects.\n- The paper's move: build a stylized equilibrium model with consumers, producers, and stations on both sides of the market.\n- Main payoff: policy prescriptions depend on the configuration, not just on whether subsidies exist.\n\n- Research design type: theory-first partial equilibrium.\n- Structural model class or reduced-form design: static equilibrium with indirect network effects, producer market power, and scale economies.\n- Key equations or choice objects: consumer utility from transport and refueling, producer supply decisions, station deployment, and equilibrium consistency.\n- Endogeneity problem: not empirical endogeneity in the usual sense, but equilibrium feedback and multiple local optima.\n- Identification strategy: comparative statics and welfare analysis across calibrated configurations.\n- What assumptions are doing the heavy lifting: the structure of network effects and the market power assumptions.\n\n- Unit of observation: not an econometric panel in the main identification sense; the paper is model-based.\n- Market definition: stylized ZEV market with stations and vehicles.\n- Main dependent variable: welfare and deployment outcomes.\n- Core explanatory variables: network-effect parameters, production cost structure, and market power.\n- Instruments / moments / shocks: calibration and scenario analysis rather than IV.\n- Important sample restrictions: the model is deliberately stylized so that policy logic is transparent.\n\n- Which papers are treated as the nearest neighbors: prior work on ZEV policy, network effects, and two-sided markets.\n- What exact gap the authors claim: the field lacked a welfare model that directly links market design to deployment dynamics.\n- How the introduction stages novelty: first the lock-in problem, then the need for network effects, then the policy comparison.\n- Whether the contribution is data, method, theory, policy, or a combination: mainly theory and policy design.\n\n- Where the review sits: the introduction uses it to motivate why indirect network effects matter.\n- How the review is organized: by market failure, not by chronology.\n- Which citations do positioning work: papers on adoption subsidies and infrastructure deployment define the existing policy debate.\n- Which citations do method-validation work: network-economics and welfare-theory references justify the equilibrium approach.",
+  "baseline_core_memory": "- Research design type: theory-first partial equilibrium.\n- Structural model class or reduced-form design: static equilibrium with indirect network effects, producer market power, and scale economies.\n- Key equations or choice objects: consumer utility from transport and refueling, producer supply decisions, station deployment, and equilibrium consistency.\n- Endogeneity problem: not empirical endogeneity in the usual sense, but equilibrium feedback and multiple local optima.\n- Identification strategy: comparative statics and welfare analysis across calibrated configurations.\n- What assumptions are doing the heavy lifting: the structure of network effects and the market power assumptions.\n\n- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: bertrand, marginal cost, welfare\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧并非完全缺席，作者至少把进入、定价或市场结构响应嵌进均衡框架。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+  "mechanism_memory": "- Baseline result: indirect network effects can create multiple market equilibria and multiple welfare local extrema.\n- Mechanism evidence: the interaction between stations and vehicles is the source of lock-in and tipping.\n- Heterogeneity evidence: different configurations map to different policy priorities, from short-range BEVs to long-distance use cases.\n- Welfare or counterfactual result: subsidizing charging stations can dominate subsidizing vehicles under some parameter values.\n- Limits the authors admit: the model is most useful where network effects are important; it is less useful in settings where those effects are weak.\n\n- 故事起点：We analyze the impact of indirect network effects in the deployment of zero emission vehicles in a static partial equilibrium model.\n- 制度/市场切口：The optimal two subsidies for vehicles and stations are derived so that the Pareto dominating market equilibrium would coincide with the social optimum.\n- 模型推进：We analyze the impact of indirect network effects in the deployment of zero emission vehicles in a static partial equilibrium model.\n- 结论落点：The optimal two subsidies for vehicles and stations are derived so that the Pareto dominating market equilibrium would coincide with the social optimum.",
+  "result_memory": "- Baseline result: indirect network effects can create multiple market equilibria and multiple welfare local extrema.\n- Mechanism evidence: the interaction between stations and vehicles is the source of lock-in and tipping.\n- Heterogeneity evidence: different configurations map to different policy priorities, from short-range BEVs to long-distance use cases.\n- Welfare or counterfactual result: subsidizing charging stations can dominate subsidizing vehicles under some parameter values.\n- Limits the authors admit: the model is most useful where network effects are important; it is less useful in settings where those effects are weak.\n\n- Results anchor: of households and their income), and the available modes of transportation (private and public). More complex models may\n- Conclusion anchor: spite its limitations, allows an evaluation of",
+  "writing_style_memory": "- Introduction move sequence: market tension -> network effects -> policy problem -> model promises.\n- Section order: intro -> model -> welfare analysis -> policy cases -> calibration/examples -> appendix.\n- Where the paper turns from setup to payoff: once it proves multiple equilibria and local welfare extrema.\n- How tables/figures are used to move the argument: the policy diagrams and configuration cases likely do the heavy lifting, but some figure detail is not fully visible from extraction.\n\n- Best framing sentence pattern: \"Because the market is two-sided, the wrong subsidy can reinforce the wrong side of the market.\"\n- Best transition pattern: \"We now compare the market equilibrium to the social optimum.\"\n- Best contribution sentence pattern: \"A stylized model is enough to rank policies when the key mechanism is network feedback.\"\n- Best limitation or implication move: be explicit that the best policy changes with the deployment stage and the size of network effects.\n\n- Durable economics-writing principle: if policy ranking depends on stage of adoption, make the stage dependence visible early.\n- Durable structural-model principle: indirect network effects can create multiplicity, so welfare comparisons must be local and global.\n- Reusable empirical design idea: even without micro data, a clean equilibrium model can be policy-informative.\n- Follow-up paper to pair with this one: any two-sided network market with infrastructure adoption.\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- 1. Introduction\n- 2.1. Framework\n- Optimal policy and network effects for the deployment of zero emission vehicles-\n- 7. Discussion, caveats, and extensions\n- a r t i c l e i n f o\n- a b s t r a c t\n- European Economic Review 126 (2020) 103449\n- Contents lists available at ScienceDirect\n- European Economic Review\n- EUROPEAN ECONOMIC REVIEW\n- 2. The model and the social optimum\n- Total welfare is then\n\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "gmm",
+    "equilibrium",
+    "substitution",
+    "marginal cost",
+    "two-sided market",
+    "network effects",
+    "market definition",
+    "heterogeneity",
+    "charging infrastructure",
+    "differentiated product"
+  ],
+  "fulltext_headings": [
+    "European Economic Review 126 (2020) 103449",
+    "Contents lists available at ScienceDirect",
+    "European Economic Review",
+    "Optimal policy and network effects for the deployment of",
+    "Article history:",
+    "Received 11 March 2020",
+    "Accepted 14 April 2020",
+    "Available online 4 May 2020",
+    "Q55",
+    "Q42",
+    "C61",
+    "Keywords:",
+    "Network effects",
+    "Technology deployment",
+    "Lock-in",
+    "Optimal policy",
+    "We analyze the impact of indirect network effects in the deployment of zero emission",
+    "1. Introduction",
+    "2. The model and the social optimum",
+    "2.1. Framework",
+    "Total welfare is then",
+    "2.3. Social optimum",
+    "F (X/K)",
+    "F , depends"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 1,
+      "snippet": "ifferent values \nof the parameters are explored to revisit the policy issues at various stages of deployment \nof hydrogen and battery electric vehicles. \n© 2020 Elsevier B.V. All rights reserved. \n1. Introduction \nEmissions from land transport are a major source of greenhouse gas emissions (approximately 24% for the EU28). 1 A \nlarge fraction of these emissions is from passenger cars and trucks that heavily rely on fossil fuels. The number of light-duty \nvehicles may double until 2050 ( IEA, 2013 ). Urban pollution, especially particulate matter (PM2.5) and ground level ozone, \nis causing 3 million premature deaths annually ( OECD, 2014 ). Battery and fuel cell (hydrogen) electric vehicles (BEVs and \nFCEVs, respectively, or ZEVs when taken together) are thought to be attractive technologies to ameliorate these challenges, \nand many cities and countries plan to phase out fossil fuel cars ( Burch and Gilchrist, 2018 ). However, with the exception \nof BEVs in Norway, the current market sh"
+    },
+    "data": {
+      "page": 12,
+      "snippet": "roviders \nEncourage coordination \nbetween clusters \nSupport policies \nActive support for \ninfrastructure along \ncorridors \nIntroduction of regulation of transport for \nuse of essential facilities and data \nexploitation \nRaise social awareness: transport plans in \ncities direct and indirect \nincentives(subsidy, carbon tax, traﬃc \nrestrictions) \nOpening up of integrated ﬁrms \nto stimulate entry \nTable 2 \nCalibration of the three conﬁgurations . \nParameter \nUnit \nTakeoff\nPowering up \nCruising \na - c 0 \n€ /yr ∗FCEV \n1 500 \n2 000 \n5 000 \nb \n€ /yr ∗FCEV 2 \n0.4 \n0.2 \n0.1 \ng \n€ /yr ∗FCEV 2 \n0.1 \n0.01 \n0.005 \nm \n1 \n2 \n10 \nβ\n€ /yr \n5 000 \n5 000 \n5 000 \nf \n€ /yr \n50 000 \n50 000 \n50 000 \nc F \n€ ∗S/yr ∗FCEV 2 \n0.8 \n0.8 \n0.8 \nmanufacturers and energy providers. Then, the coordination among clusters is critical to move to the Powering up stage to \ncash-in the beneﬁt of learning by doing. Competition should be encouraged, and exclusive deals eliminated, and joint subsi- \ndies for infrastructure and ve"
+    },
+    "model": {
+      "page": 1,
+      "snippet": "ffects \nTechnology deployment \nLock-in \nOptimal policy \na b s t r a c t \nWe analyze the impact of indirect network effects in the deployment of zero emission \nvehicles in a static partial equilibrium model. In most theoretical analyses, direct and in- \ndirect effects are conﬂated, and relatively few authors have explicitly considered indirect \nnetwork effects. We also introduce the market power of vehicle producers and scale ef- \nfects in the production function. The model exhibits a multiplicity of local social critical \npoints and market equilibria, suggesting a possibility of lock-in. The optimal two subsidies \nfor vehicles and stations are derived so that the Pareto dominating market equilibrium \nwould coincide with the social optimum. Conﬁgurations associated with different values \nof the parameters are explored to revisit the policy issues at various stages of deployment \nof hydrogen and battery electric vehicles. \n© 2020 Elsevier B.V. All rights reserved. \n1. Introduction \nEmiss"
+    },
+    "results": {
+      "page": 4,
+      "snippet": "mber \nof households and their income), and the available modes of transportation (private and public). More complex models may \ngenerate many market equilibria. \n2.2. Speciﬁcation 1 \nAll ﬁgures, some results, and the numerical illustrations are obtained with Speciﬁcation 1. We assume that s ( X ) is \nquadratic and r ( K ) inversely proportional to K . The unitary costs of a vehicle are assumed to be linearly decreasing with \nrespect to the quantity of vehicles, and the refueling cost is assumed to be quadratic: \nSpeciﬁcation 1. Consider the following functional forms \ns (X ) = (a −b \n2 X ) X and r(K) = 1 \nK \n(4) \nC V (X ) = max { c 0 −gX, 0 } \n(5) \nC F (x ) = c F x 2 / 2 so that ¯x = \n\u0006 \n2 f \nc F \nand ¯C F = \n\u0007 \n2 fc F \n(6) \nin which a, b, g, c 0 , c F > 0. \nThe two parameters a and b generate the demand function. The parameter a referred to as the willingness to pay for \nzero-emissions vehicles. It increases with the social cost of carbon and the ecological attitude of consumers. The"
+    },
+    "conclusion": {
+      "page": 18,
+      "snippet": "spite its limitations, allows an evaluation of \nthe relative importance of the market failures at the various stages of deployment, which may be of interest in designing a \nmore exhaustive model. \n8. Conclusion \nIn this paper, we formalize the interaction between three important features in the deployment of zero emission vehicles: \nindirect network effects; scale effects, which incorporate learning by doing and spillovers; and imperfect competition among \nvehicle producers. Indirect network effects are from the deployment of refueling stations and are associated with a market \nfailure because of an unpriced beneﬁt for consumers from refueling stations. The more stations there are, the lower the cost \nto search for and reach a station. \nOrdinarily, there are three critical points (two maxima and a saddle point) and three market equilibria; thus, there is \na possibility of lock-in and a tipping point. Next, we focus on the Pareto dominating equilibrium and derive the optimal \nsubsidies"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper asks how indirect network effects change the deployment of zero-emission vehicles and what policy should do about it.",
+      "Which papers are treated as the nearest neighbors: prior work on ZEV policy, network effects, and two-sided markets."
+    ],
+    "session": [
+      "Retrieve by key/title: N5SE78G4 / Optimal policy and network effects for the deployment of zero emission vehicles",
+      "Use collections and journal handles: Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Meunier & Ponssard, 2020) / Meunier and Ponssard (2020)"
+    ],
+    "agent": [
+      "Research design type: theory-first partial equilibrium.",
+      "BLP positioning: BLP-adjacent structural policy model"
+    ],
+    "team": [
+      "Best framing sentence pattern: \"Because the market is two-sided, the wrong subsidy can reinforce the wrong side of the market.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

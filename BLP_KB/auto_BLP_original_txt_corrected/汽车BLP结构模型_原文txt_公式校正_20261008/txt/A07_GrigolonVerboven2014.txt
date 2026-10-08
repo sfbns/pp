@@ -1,0 +1,1322 @@
+==============================================================================
+【文献】Grigolon & Verboven (2014). Nested Logit or Random Coefficients Logit? A Comparison of Alternative Discrete Choice Models of Product Differentiation. Review of Economics and Statistics 96(5): 916-935.
+【编号】A07　【简称】GrigolonVerboven2014　【分组】需求侧
+【原文 PDF】C:\Users\于舒奕\Downloads\Nested_Logit_or_Random_Coefficients_Logit__A_Comparison_of_Alternative_Discrete_Choice_Models_of_Product_Differentiation.pdf
+【页数】20 页　【页码换算】印刷（期刊）页码 = PDF 页码 + 915
+【文本来源】PyMuPDF 抽取 PDF 文字层（按版面块排序）
+【公式校正】本篇未逐式校正。正文公式为机器抽取，常有错位、缺字或乱码，引用公式请以原 PDF 为准
+【使用提醒】正文是机器抽取的原文，不是译文；公式区以页末校正或原 PDF 为准。页标记中的 PDF 页码可直接用于在原 PDF 中翻页定位。
+==============================================================================
+
+===== [PDF 第 1 页｜印刷第 916 页] =====
+        NESTED LOGIT OR RANDOM COEFFICIENTS LOGIT?
+       A COMPARISON OF ALTERNATIVE DISCRETE CHOICE
+           MODELS OF PRODUCT DIFFERENTIATION
+
+                              Laura Grigolon and Frank Verboven*
+
+
+Abstract—We propose a random coefﬁcients nested logit (RCNL) model   coefﬁcients for continuously measured product characteris-
+to compare the tractable nested logit (NL) model with the more complex                                                                        tics (and at the same time still allows random coefﬁcients onrandom coefﬁcients logit (RC) model. After a simulation study, we use
+data on the European automobile market. Both the NL and RC models are  group dummy variables with other distributional assumptions
+rejected against the RCNL model. The RC model results in different sub-   than those of the nested logit model). This creates potentially
+stitution patterns and a wider market deﬁnition than the NL and RCNL                                                 more ﬂexible substitution patterns, where products tend tomodels. Nevertheless, the predicted price effects from mergers are robust
+across models. Our ﬁndings stress the importance of accounting for dis-  be closer substitutes as they have more similar continuous
+crete sources of market segmentation not captured by continuous product   characteristics. However, the random coefﬁcients model is
+characteristics.                                                          computationally more demanding, and several recent papers
+                                                      have studied a variety of problems relating to its numerical
+                            I.   Introduction                     performance (see Knittel & Metaxoglou, forthcoming; Dubé,
+                                                        Fox, & Su, 2012; Judd & Skrainka, 2011).
+    ISCRETE choice models of product differentiation                                                           Against this background, a particularly timely issue is
+     havegainedconsiderableimportance inempirical work.D                                                           to assess whether and when the popular logit and nested
+Because they treat products as bundles of characteristics, they                                                                     logit models can be used as reasonable alternatives to the
+offer the possibility of uncovering rich substitution patterns                                                          computationally more demanding random coefﬁcients logit
+with a limited number of parameters. Berry (1994) developed                                                       model. In this paper we provide a systematic comparison of
+aframeworktoestimateaclassofdiscretechoicemodelswith                                                             these demand models, and as an illustration, we assess how
+unobserved consumer heterogeneity based on aggregate sales                                                           they perform in competition policy analysis. To accomplish
+data. His framework includes the random coefﬁcient logit                                                                          this, we start from a random coefﬁcients nested logit model
+model of Berry, Levinsohn, and Pakes (1995, hereafter BLP),                                                 (RCNL), which combines the random coefﬁcients logit (RC)
+the nested logit model (with special random coefﬁcients on                                                    and nested logit (NL) models. The random coefﬁcients on the
+discrete product characteristics), and the logit model (without                                                         continuous characteristics can take any distributional form,
+consumer heterogeneity).                                                            as in the general RC framework. In contrast, the random
+  The logit and nested logit models have been popular                                                            coefﬁcients for the discrete characteristics take the special
+because of their computational simplicity, since they can be                                                                  distributional assumptions of the NL model. This simpliﬁes
+transformed to simple linear regressions of market shares                                                              the computational burden and enables us to assess the relative
+on product characteristics. At the same time, they have long                                                        importance of both sources of consumer heterogeneity.1
+been criticized because they yield substitution patterns that                                                   To motivate our empirical analysis, we begin with two
+are too restrictive. The logit model assumes that consumer                                                       groups of Monte Carlo experiments. First, we consider an RC
+preferences are uncorrelated across all products, implying                                                  model with a normally distributed random coefﬁcient for a
+symmetric cross-price elasticities. The nested logit model                                                      group dummy variable. For a wide variety of designs, we ﬁnd
+allows preferences to be correlated across products within                                                                   that the true RC model and a misspeciﬁed NL model result in
+the same group or “nest.” It thus entails a special kind of ran-                                                           similarestimatedown-andcross-priceelasticities.Hence,the
+dom coefﬁcients on group dummy variables (Cardell, 1997).                                                          speciﬁc distributional assumptions of the RC and NL mod-
+It allows products of the same group to be closer substitutes                                                                    els regarding the valuation for the group dummy variable do
+than products of different groups, but the aggregate substitu-                                                           not matter much in this simple setup.2 Second, we consider
+tion patterns remain restrictive: cross-price elasticities within                                      RCNL models with both a normally distributed random coef-
+the same group are still symmetric, and substitution out-                                                            ﬁcient for a continuous characteristic and a nesting parameter
+side a group is symmetric to all other groups. In contrast,                                                                 for a group dummy variable. For the wide range of consid-
+BLP’s random coefﬁcients logit model incorporates random                                                          ered designs, we ﬁnd that both the RC and the NLs model are
+                                                           reasonable approximations, with stronger substitution within
+  Received for publication September 17, 2011. Revision accepted for
+publication August 14, 2013. Editor: Philippe Aghion.
+ * Grigolon: McMaster University; Verboven: University of Leuven and      1 As shown by McFadden and Train (2000), any discrete choice model
+CEPR.                                                             can be approximated by an RC model. This of course also applies to
+ We are grateful to three referees and to Geert Dhaene, Tobias Klein,   our setting. For example, it is possible to include random coefﬁcients for
+Pasquale Schiraldi, Øyvind Thomassen, Jo Van Biesebroeck, and Patrick   the group dummy variables directly in an RC model (with other distribu-
+Van Cayseele for their useful comments. We also thank seminar participants    tional assumptions than those of the nested logit). This would, however, be
+at TSE, and conference participants at EARIE 2010, ZEW 2010, CRESSE   computationally very costly when there are many group dummy variables.
+2012, and RES 2012.                                                                      2 ThisisalsoconﬁrmedbyareversesetofMonteCarlowherethetruedata-
+ A supplemental appendix  is available online at http://www.mitpress   generating process is that of an NL model and the RC is the misspeciﬁed
+journals.org/doi/suppl/10.1162/REST_a_00420.                          model.
+
+
+The Review of Economics and Statistics, December 2014, 96(5): 916–935
+© 2014 by the President and Fellows of Harvard College and the Massachusetts Institute of Technology
+doi:10.1162/REST_a_00420
+
+===== [PDF 第 2 页｜印刷第 917 页] =====
+                    NESTED LOGIT OR RANDOM COEFFICIENTS LOGIT?                          917
+
+thanbetweengroups.TheRCmodelprovidesabetterapprox-  between the tractable NL model and the computationally
+imation of the own-price elasticities than the NL model, while  more complex RC model may depend on the application.
+both models tend to underestimate the cross-price elasticities   In our analysis of hypothetical domestic mergers, consumer
+within a group.                                              heterogeneity regarding the cars’ domestic or foreign origin
+  These ﬁndings are conﬁrmed in our main empirical analy-   is particularly relevant, and the NL model captures this rea-
+sis. We collected a unique data set on the automobile market   sonably well. In other applications, the most relevant aspects
+for nine European countries covering around 90% of the car   of consumer heterogeneity may not be captured well by nest-
+sales in the European Union from 1998 to 2006. The mar-   ing parameters for groups or subgroups. In these cases, it is
+ket is commonly classiﬁed in various segments (subcompact,   appropriate to estimate RC models with random coefﬁcients
+compact, intermediate, standard, luxury, SUV, and sports),   for the most relevant continuous characteristics.
+and car manufacturers typically promote their models as     Second, our results imply that  it can be important to
+belonging to one of these segments. Hence, the segments   account for sources of market segmentation that are not
+may proxy for observed product characteristics such as size,   captured by continuously measured product characteristics.
+engine performance, and fuel efﬁciency. But it is also possi-  Adding a nested logit structure to BLP’s random coefﬁcients
+ble that they capture intrinsically unobserved features shared  model is a tractable way to accomplish this, since it gives
+by different car models. Our data set is therefore particu-   closed-form expressions for integrals in the choice proba-
+larly interesting to compare the performance of the logit, NL,   bilities.3 In principle, BLP’s framework can of course also
+RC, and RCNL models. Consistent with earlier ﬁndings, the   incorporate random coefﬁcients on group dummies (and in
+logit model is rejected against both the NL and RC models.   a more ﬂexible way). But this is more complicated because
+More important, in the RCNL model, the nesting parameters    it increases the dimensionality of the integrals that need to
+become quantitatively smaller (consistent with the results of  be simulated, and in practice it often proves difﬁcult to esti-
+our Monte Carlo experiment), but they remain highly signif-  mate the coefﬁcients as precisely as in the closed-form GEV
+icant and economically important. Furthermore, the random   models. For example, Nevo (2001) estimates a rich demand
+coefﬁcients relating to car size become insigniﬁcant, while  model for the U.S. cereals market. His model includes three
+the random coefﬁcients relating to engine power and fuel  random coefﬁcients for the segments (all-family, kids, and
+efﬁciency remain signiﬁcant. These various ﬁndings suggest   adult), but two of these are estimated rather imprecisely.
+that the nesting parameters may proxy for random coefﬁ-    Our comparison of alternative discrete choice models is
+cients of some of the observed continuous characteristics   timely for several related reasons. First, a few recent papers
+but also capture other unobserved dimensions of consumer  have thoroughly studied several (often commonly known)
+preferences.                                              numerical difﬁculties with the aggregate random coefﬁcients
+  To illustrate the implications of our ﬁndings, we present  model: the role of starting values and different optimization
+own- and cross-price elasticities for the different models, and  methods (Knittel & Metaxoglou, forthcoming), the accuracy
+we perform policy counterfactuals common in competition   of BLP’s contraction mapping to invert the market share sys-
+policy: market deﬁnition and merger simulation. In terms   tem(Dubéetal.,2012),andalternativemethodsofintegration
+of substitution patterns, the results are consistent with our   of the market share system (Judd & Skrainka, 2011). We
+Monte Carlo analysis: the RC model better approximates the  draw from these ﬁndings in our own empirical analysis by
+own-price elasticities than the NL model, and both models   cautiously considering multiple starting values, using a tight
+somewhat underestimate the cross-price elasticities within   inner loop contraction mapping, and carefully approximating
+segments (but less so for the NL model). Despite the differ-   the market share integrals.4
+ent substitution patterns, merger simulations of two domestic     Second, there is a large and rapidly growing empirical liter-
+mergers yield robust conclusions across different demand   ature estimating aggregate discrete choice models of product
+models: while the simple logit clearly appears inappropriate,   differentiation, with applications in industrial organization,
+the NL, RC, and RCNL all tend to give robust conclusions. In   international trade, environmental and public economics,
+contrast, the conclusions for market deﬁnition are less robust:   marketing, ﬁnance, and other areas. A complete review of
+the RC suggests a wider market deﬁnition than the NL and   the applied aggregate discrete choice literature is beyond the
+RCNL models. This is true whether we start from “segments”
+or from “ten nearest substitutes” as the candidate relevant      3 Instead of the nested logit structure, one may also consider other tractable
+markets. We draw two implications for competition policy.   models from McFadden’s (1978) generalized extreme value model (GEV).
+                                                               Examples are Small’s (1987) model of ordered alternatives, Bresnahan,
+First, in market deﬁnition, it is important to include sufﬁcient    Stern, and Trajtenberg’s (1997) principles of differentiation model, and
+sources of market segmentation in the demand model. Sec-   most recent, the ﬂexible coefﬁcient multinomial logit model of Davis and
+ond, the robustness in merger simulation suggests that the    Schiraldi4 To invert(2012).the market share system, we do not consider Dubé et al.’s
+simple NL model can be sufﬁcient to obtain reliable policy   (2012) alternative MPEC approach because we have a large number of
+conclusions, despite the different substitution patterns from   products and markets, implying a large number of nonlinear constraints in
+the RC model.                                                                 their constrained optimization algorithm. To approximate the market share
+                                                                                    integrals, we follow Judd and Skrainka (2011) in our Monte Carlo with
+  More generally, one can draw two implications for the   low-dimensional integrals and use a large number of Halton draws in our
+choice of demand model in applied work. First, the choice   empirical analysis with high-dimensional integrals.
+
+===== [PDF 第 3 页｜印刷第 918 页] =====
+918                      THE REVIEW OF ECONOMICS AND STATISTICS
+
+scope of this introduction, so we limit attention here to early  where  xjt  is a 1 × K vector of observed product charac-
+work. Much of this work has actually also looked at automo-   teristics (including price), βi is a K × 1 vector of random
+biles. Bresnahan (1981) and Feenstra and Levinsohn (1995)   coefﬁcients capturing the individual-speciﬁc valuations for
+are important contributions preceding the seminal work of   the product characteristics, ξjt refers to unobserved product
+Berry (1994) and BLP. Verboven (1996) and Fershtman and   characteristics (to the econometrician), and εijt is a remaining
+Gandal (1998) are early applications of Berry’s (1994) aggre-   individual-speciﬁc valuation for product j.
+gate nested logit model. Nevo (2001), Petrin (2002), and    Assume that the distributions of the individual valuations
+Sudhir (2001) are early applications with interesting exten-   βi and εijt are mutually independent. The random coefﬁcients
+sions of BLP’s full random coefﬁcients model. In recent   vector, βi, can be speciﬁed as follows. Let β be a K × 1
+years, academic work appears to focus more exclusively on   vector of mean valuations of the characteristics, σ be a K × 1
+the random coefﬁcients models, whereas competition policy   vector with standard deviations of the valuations, and νi be
+practitioners often use the logit and nested logit models. Our   a K × 1 vector with standard normal random variables. We
+ﬁndings on the automobile market suggest that the nested   then specify
+logit model may be a reasonable approximation not only
+in competition policy but also in other applications where      βi = β + Σνi,                                         (2)
+the market segments are the most relevant differentiating
+                                                   where Σ is a K × K diagonal matrix with the standarddimensions, for example, an analysis of trade liberalization.
+                                                              deviations σ on the diagonal.6In contrast, applications on, for example, quality discrimina-
+                                                  The individual valuations for the products j, εijt follow thetion or environmental policy would warrant estimating BLP’s
+                                                                  distributional assumptions of the NL model, which allowsrandom coefﬁcients logit model, since the relevant random
+                                                              valuations to be correlated across products in the same group.coefﬁcients (engine power and fuel efﬁciency) are not well
+                                              More speciﬁcally, suppose each product j can be assignedcaptured by the nesting parameters.5
+                                                                 to one of G collectively exhaustive and mutually exclusive  The rest of this paper is organized as follows. Section II
+                                                           groups, g = 0, . . . , G, where group 0 is reserved for thepresents the model and conducts Monte Carlo experiments.
+                                                             outside good 0. WriteSection III uses the data set for the European car market
+to estimate the logit, NL, RC, and RCNL models and the
+                                                                                                            εijt = ζigt + (1 −ρ)εijt,                                (3)
+implied price elasticities. Section IV draws implications for
+competition policy analysis, applying market deﬁnition and                                                   where εijt is i.i.d extreme value and ζigt has the (unique) distri-
+merger simulation. Conclusions follow in section V.                                                           bution such that εijt is extreme value. The nesting parameter
+                                                                  ρ, with 0 ≤ρ < 1, proxies for the degree of preference
+                           II.  The Model                         correlation between products of the same group. As ρ goes
+                                                                 to 1, the within-group correlation of utilities goes to 1, and
+A.  Demand                                           consumers perceive products of the same group as perfect
+                                                                   substitutes. As ρ goes to 0, the within-group correlation goes  We consider an RCNL that contains the logit, NL, and RC
+                                                                 to 0, and the model reduces to the simple logit.as special cases. As we discuss, the RCNL model can itself
+                                                          Following Berry’s (1994) discussion of Cardell (1997),be seen as a random coefﬁcients model, with special distri-
+                                                              the ζigt can be interpreted as random coefﬁcients on group-butional assumptions for the heterogeneity on the discrete
+                                                          speciﬁc dummy variables. More speciﬁcally, let djgt be aproduct characteristics.
+                                                      group dummy variable equal to 1 if j belongs to group g.  There are T markets,  t =  1, . . . , T. In each market  t,
+                                                     Using equations (2) and (3) and deﬁning the mean utilitythere are Lt potential consumers. Each consumer i may either
+                                                                 for product j, δjt ≡xjtβ + ξjt, we can write consumer i’schoose the outside good 0 or one of the J differentiated prod-
+                                                             conditional indirect utility (1) asucts, j = 0, . . . , J. Consumer i’s conditional indirect utility
+for the outside good is ui0t = εi0t. For products j = 1, . . . , J,                        G
+it is                                                                                            uijt = δjt + xjtΣνi +    g=1 djgtζigt + (1 −ρ)εijt.       (4)
+
+                                                                 Indirect utility thus contains consumer heterogeneity for the
+    uijt = xjtβi + ξjt + εijt,                                 (1)   continuous characteristics xjt and consumer heterogeneity for
+                                                              the group dummy variables djgt. The heterogeneity in the
+                                                              valuations for djgt follows the speciﬁc distributional assump-  5 Wojcik (2000) also compares the NL and RC models. She claims the
+NL model is likely to be superior, but Berry and Pakes (2001) raise serious   tions of the nested logit. As an alternative, one may include
+methdological problems with her comparison. Our approach is rather differ-    djgt in the xjt vector. This potentially creates more ﬂexibil-
+ent from Wojcik’s since we start from an RCNL model that enables a better   ity; in particular, it also allows one to incorporate correlation
+comparison of the NL and RC models. Furthermore, we follow prediction
+excercises in the spirit of those advocated by Berry and Pakes by focusing   in the random coefﬁcients for the continuous and discrete
+on comparing price elasticities and other counterfactuals. Our conclusions
+are much more nuanced since we focus on identifying circumstances where      6 In principle, one may also specify nonzero off-diagonal elements in Σ
+the NL may, or may not, be a reasonable alternative.                          to allow consumer valuations to be correlated across characteristics.
+
+===== [PDF 第 4 页｜印刷第 919 页] =====
+                    NESTED LOGIT OR RANDOM COEFFICIENTS LOGIT?                          919
+
+characteristics.Thiswillcome,however,atanincreasedcom-   generates data sets according to RC models. We specify one
+putational cost. We can see several special cases in equation   normally distributed random coefﬁcient for a discrete prod-
+(4). If σk = 0 for all elements in Σ, we obtain the standard   uct characteristic, a dummy variable for the product’s group.
+nested logit model. If ρ = 0, we obtain BLP’s random coef-  We focus on the performance of estimating misspeciﬁed NL
+ﬁcients logit model. And if all σk = ρ = 0, the simple logit   models, where the nests are deﬁned according to the same
+model results.                                          group dummy variable. For a wide range of designs, we ﬁnd
+  Each consumer i in market t chooses the product j that   that the NL model approximates the substitution patterns
+maximizes her utility. With the above assumptions, the condi-   of the RC model very well, so the different distributional
+tional probability that consumer i chooses product j in market   assumptions do not matter much.
+t takes the nested logit form,                                Setup 2 goes a step further and also includes consumer
+                                                            heterogeneity for a continuous product characteristic. We
+               exp    δjt + xjtΣνi / (1 −ρ) exp Iig         generate data sets according to the more general RCNL   πjt(δt, θ, νi) =                                                           ,   (5)
+                    exp  Iig/ (1 −ρ)      exp Ii         models, with one normally distributed random coefﬁcient
+                                                                 for a continuous product characteristic (price) and one nest-
+where θ = (β, σ, ρ) and Iig and Ii are McFadden’s (1978)                                                           ing parameter for the group dummy variable. Across all our
+“inclusive values” deﬁned by                                                              designs, we obtain the following robust conclusions. While
+                              Jg                                      the logit, NL, and RC models yield biased parameter esti-
+    Iig = (1 −ρ) ln      exp ((δkt + xktΣνi) / (1 −ρ)) ,                      k=1                                mates of the true RCNL model, only the logit model generates
+               G                                        implausible substitution patterns. The RC model provides
+    Ii = ln 1 +      exp Iig   ,                   g=1                                    a better approximation of the own-price elasticities than
+                                                              the NL model. Furthermore, in contrast to the logit model,
+and Jg is the number of products in segment g such that
+  G                                                     both the RC and the NL models yield stronger substitution
+   g=1 Jg =  J. The unconditional choice probability or   within than between groups (although all models underesti-
+aggregate market share of product j in market t is                                                    mate the cross-price elasticities between products of the same
+                                                            group).
+    sjt(δt, θ) =    πjt(δt, θ, ν)φ(ν)dν,                      (6)     Wefocusmostofthediscussiononsubstitutionbiasesfrom
+                                                            estimating misspeciﬁed models. But we also take the oppor-
+which simpliﬁes to BLP’s random coefﬁcients logit model if   tunity to brieﬂy comment on the numerical performance of
+ρ = 0. The market share integral may be approximated using   the different models in light of the recent literature on these
+Monte Carlo integration as in BLP or using quadrature rules   issues.
+as suggested by Judd and Skrainka (2011).
+  To estimate the demand parameters θ, we follow Berry
+(1994), BLP, and the subsequent literature. We equate the
+                                                               Setup.  We conduct a large number of Monte Carlo exper-observed market share vector (i.e., unit sales per product
+                                                         iments in two main setups: an RC model for a discretedivided by the number of potential consumers Lt) to the
+                                                                  characteristic and an RCNL model. For each experiment wepredicted market share vector, st = st(δt, θ). We solve this
+                                                           generate 1,000 data sets. Each data set consists of T = 50system for δt in each market t using ﬁxed-point iteration on
+                                                         independent markets and J = 25 products per market. Each
+   δr+1t  ≡δrt + ln(st) −(1 −ρ) ln(st(δrt ))                (7)   product j in each market t has an observed characteristics vec-
+                                                                    tor xjt = (1, x1jt, djt): a constant, one continuous characteristic
+until convergence is reached (δr+1t  ≈δrt ). This is a slight   x1jt (the price variable), and one discrete characteristic djt, a
+modiﬁcation of BLP’s contraction mapping: it dampens the                                         dummy variable referring to the product’s group or nest (seg-
+ﬁnal term by 1 −ρ (see also Brenkers & Verboven, 2006).                                                  ment 0 or 1). Furthermore, each product has an unobserved
+In appendix A we show that this dampening is necessary to                                                          product characteristic ξjt, which is drawn from a standard nor-
+satisfy the conditions for a contraction mapping in nested                                                  mal distribution and uncorrelated with xjt. We thus abstract
+logit models when ρ is sufﬁciently high (as opposed to logit                                                    from the issue of endogeneity of some product characteris-
+models where dampening is not needed). Since the error term                                                                        tics (typically price), since we want to focus on comparing
+enters additively in δt, solving for δt gives a solution for the   the performance of misspeciﬁed models.7
+error term ξjt for each product j = 1, . . . , J in market t. We   We draw the continuous price variable x1jt from a log-
+can then interact this with a set of instruments providing the                                                     normal distribution, which ensures positive realizations and
+moment conditions to proceed with GMM, as we discuss in                                                         roughly mimics the distribution of prices in empirical data
+more detail in section 3.                                                                        sets. It will be convenient to treat the dummy variable for the
+
+B.  Monte Carlo Experiments
+                                                                                                7 For a recent discussion on the endogeneity of product characteristics,
+  Overview.  Before analyzing the car market data we   and the role of instruments in the GMM context, see Armstrong (2012) and
+consider two setups of Monte Carlo experiments. Setup 1   Reynaert and Verboven (2014).
+
+===== [PDF 第 5 页｜印刷第 920 页] =====
+920                      THE REVIEW OF ECONOMICS AND STATISTICS
+
+product’s group djt as the realization of a latent continuous    Figure 1.—Relationship between Heterogeneity Parameters in the                                                                   RC and NL Models
+variable d∗jt. More speciﬁcally, assume that
+     ln x1jt        0  1  ςxd      ∼N                        ,     d∗jt          0, ςxd  1
+and djt = 1{d∗jt>γ}. In the Monte Carlo designs we can vary
+ςxd, the correlation between d∗jt and x1jt, to capture the extent to
+whichtheproduct’sgroupisinformativeaboutthecontinuous
+characteristic. We can also vary the cutoff point γ to set the
+number of products allocated in groups 0 and 1. Unless stated
+otherwise, we set ςxd = 0 and γ = 0 as the default values.
+  We specify a broad range of preference parameters: the
+mean valuations β = (β0, βx1, βd), the standard deviations
+σ = (σ0, σx1, σd), and the nesting parameter ρ. We discuss the      The relationship between the mean of the estimated ρ in the misspeciﬁed NL model against the mean of
+various parameter designs in more detail in the next section,     the50 marketsestimatedandσdin25 theproducts.correctlyThespeciﬁedtrue modelRC ismodel.the RCThemodelestimateswith 10aredifferentbased ondesigns:1,000 randomσd = 0.5;samples1 . . . 5.of
+where we explain the results for our two main setups.
+  The market shares are computed from the market share
+equation (6) using the generated product characteristics (xjt                                                              ten designs for σd, varying over 0.5, 1, . . . , 5.10 For each
+and ξjt) and the assumed demand parameters θ = (β, σ, ρ).                                                          design and each of the 1,000 generated data sets, we estimate
+To approximate the market share integral (6) over the normal                                                         both the correctly speciﬁed RC model and the misspeciﬁed
+random variable vector νi, we use an accurate polynomial-                                                  NLandlogitmodels.TheRCandNLmodelsdifferonlyinthe
+based sparse grid quadrature rule as suggested by Judd and                                                          distributionalassumptionsregardingconsumerheterogeneity
+Skrainka (2011),
+                                                                 for the discrete characteristic djt (normal versus generalized
+               N    exp    δjt + xjtΣνi / (1 −ρ) exp Ig    extreme value). This comparison thus enables us to assess
+    sjt(δt, θ) ≈        ϕi                                                         ,
+                   i=1       exp Ig/ (1 −ρ)       exp I     to what extent ρ takes over the role of σd and whether the
+                                                           (8)   misspeciﬁed NL model provides a good approximation for
+                                                              the price elasticities of the correctly speciﬁed RC model.11
+where we use nine nodes appropriately weighted by ϕi.8 Since                                                            Figure 1 plots the mean of the estimated ρ in the misspec-
+our focus is not on numerical integration error, we use the                                                         iﬁed NL models against the mean of the estimated σd in the
+same set of nodes and weights to compute the market share                                                                correctly speciﬁed RC models for the ten different designs.
+in the DGP and the estimation.                                                      There is a clear increasing relationship between the estimated
+  For each design and its associated 1,000 data sets, we                                                  ρ and σd. The estimated nesting parameter ρ thus captures the
+use GMM to estimate the correctly speciﬁed model and the                                                          omitted random coefﬁcient σd. Furthermore, ρ is increasing
+other, misspeciﬁed models. In all cases, we generate the set                                                                 in σd at a decreasing rate. Hence, ρ remains in the unit interval
+of instruments from within the model, following Chamber-                                                      even for high values of σd, consistent with the assumptions
+lain’s (1987) approach as applied in Berry et al. (1999). Given                                                            of the NL model.
+the demand parameters θ = (β, σ, ρ), this instrument vec-                                                           Table 1 shows more detailed estimation results for two
+tor is the expected value of ∂ξjt(θ)/∂θ′. This includes the                                                            of the ten designs: limited consumer heterogeneity for the
+characteristics vector itself (xjt) and nonlinear functions of                                                                 discrete characteristic (σd = 1) and strong heterogeneity
+the characteristics and the parameters. Finally, following the                                                               (σd = 5). The top part shows the mean and standard deviation
+recent literature we consider multiple starting values, a state-                                                            of the main parameters as estimated from the 1,000 gener-
+of-the-art optimization algorithm (Knitro 8.0), and a tight                                                            ated data sets. We ﬁrst look at the parameters for the correctly
+inner loop contraction mapping.                                                         speciﬁed RC model. For both designs, the means of βx1 and σd
+                                                              are very close to the true parameters, their standard deviations
+  Results setup 1: RC model for discrete characteristic.  We                                                              are fairly small, and the distribution is approximately normal
+specify RC models with only a random coefﬁcient for the                                                                 (as conﬁrmed by Q-Q plots, not shown). This conﬁrms that
+discrete characteristic djt and no other consumer heterogene-
+ity. More speciﬁcally, we assume that the mean valuations
+are β = (−1, −2, −0.5), the standard deviations are σ =      10 We took the default values for the correlation between d∗jt and x1jt,
+                                                                                 ςxd = 0 and for the cutoff point of belonging to group 0 or 1, γ = 0.
+(0, 0, σd), and the nesting parameter is ρ = 0.9 We consider  We also experimented with different values of ςxd and γ, and this gives
+                                                                           robust conclusions.
+  8 A relatively low number of nodes is needed for accurate integration: with      11 We have also conducted the reverse group of experiments: we spec-
+nine nodes, the unidimensional market share integral is exact at accuracy    ify an NL model and compare the estimates of the correctly speciﬁed
+level 17.                                         NL model with those of a misspeciﬁed RC model. We use the same
+  9 The choice of the mean valuations β is based on obtaining a realistic   mean valuation vector and consider ten designs for the nesting parame-
+setting in which the outside good market share varies between 0.10 and    ter, ρ = 0.10, 0.15, . . . , 0.50. We obtain comparable results, as reported in
+0.70 under the different data-generating processes.                          online appendix B.
+
+===== [PDF 第 6 页｜印刷第 921 页] =====
+                    NESTED LOGIT OR RANDOM COEFFICIENTS LOGIT?                          921
+
+                            Table 1.—Monte Carlo Results Setup 1: RC Model for Discrete Characteristic
+
+                                                            True σd = 1                                       True σd = 5
+
+     Parameter                                  Logit         NL          RC              Logit         NL          RC
+
+      βx1                                  −2.00          −1.83          −2.00          −1.98          −1.16          −2.00
+                                                   (0.04)            (0.12)            (0.04)            (0.05)            (0.18)            (0.04)
+      σd                          NA         NA              1.00         NA         NA              5.05
+                                                                                        (0.36)                                                 (0.45)
+     ρ                           NA              0.09         NA         NA              0.42         NA
+                                                                     (0.08)                                                 (0.12)
+    Own elasticity                         −2.607         −2.610         −2.607         −2.579         −2.599         −2.582
+                                                 (0.404)           (0.405)           (0.405)           (0.400)           (0.404)           (0.404)
+       Cross-elasticity, same segment               0.037            0.042            0.043            0.037            0.052            0.056
+                                                 (0.009)           (0.012)           (0.011)           (0.009)           (0.014)           (0.014)
+       Cross-elasticity, different segment            0.037            0.034            0.032            0.038            0.028            0.021
+                                                 (0.010)           (0.009)           (0.008)           (0.010)           (0.008)           (0.005)
+     Model selection criteria
+     GMM-AIC                           1               263            736            0              6               994
+     GMM-BIC                           2               262            736            0              6               994
+
+  The table reports the empirical means and standard deviations (in parentheses) of selected parameters, the implied price elasticities for T = 1, and two information criteria, GMM-BIC and GMM-AIC. The estimates
+are based on 1,000 random samples of 50 markets and 25 products. The true model is the RC model of setup 1 with two designs: σd = 1 and σd = 5.
+
+
+our estimation procedure, with a state-of-the-art optimiza-   true data-generating process in up to 26% of the 1,000 cases.
+tion algorithm, analytical derivatives, numerical integration,   In contrast, in the design with strong consumer heterogene-
+and a tight inner loop contraction mapping, works well in   ity (σd = 5), both selection criteria correctly detect the RC
+practice.12                                          model as the true model in almost all cases.
+  Next, we consider the parameters of the misspeciﬁed mod-    Note that we also implemented the reverse Monte Carlo
+els. The price parameter βx1  is close to the true value of   experiments, where the NL model is the true data-generating
+−2 in the misspeciﬁed logit model. In contrast, it appears   process and the RC model is the misspeciﬁed model (reported
+to differ signiﬁcantly from the true value in the misspeciﬁed   in online appendix B). We can draw analogous conclusions:
+NL model, especially in the second design with strong con-   the RC model captures the asymmetric substitution patterns
+sumer heterogeneity ( βx1 = −1.16 > −2). However, this   of the NL model quite well, with only minor differences
+is entirely due to the signiﬁcance of the nesting parameter   because of different distributional assumptions. This ﬁnding
+ρ, which rescales all utility parameters. Indeed, the rescaled   is consistent with McFadden and Train (2000), who showed
+price parameter βx1/(1 −ρ) is very close to the true value of   that any random utility model (so also a NL model) can be
+−2.                                                    approximated by a random coefﬁcients logit model.
+  What do these ﬁndings imply for the estimated price elas-    To summarize, in contrast with the logit model, a misspeci-
+ticities? The middle part of table 1 shows that the own-price  ﬁed NL model results in comparable asymmetric substitution
+elasticities of the logit and NL models are very close to the   patterns as the true RC model (and vice versa). In fact, it
+ones in the RC model (on average about −2.57 for all mod-   is quite difﬁcult to formally distinguish between the NL
+els). Furthermore, the cross-price elasticities of the NL model  and RC models for low levels of consumer heterogeneity.
+are also quite close to those of the RC model, with stronger  Hence, when consumer heterogeneity mainly refers to a dis-
+substitution within than between groups (especially in the   crete characteristic, the computationally tractable NL model
+second design with σd = 5). In contrast, the logit model  may often be preferable to the RC model (unless there are
+yields symmetric substitution patterns. Hence, although the   strong reasons to expect a speciﬁc functional form for the
+NL model resulted in a biased price parameter, the nesting   distribution for consumer heterogeneity).
+parameter ρ accounts for the omitted σd, so that the bias in the
+cross-price effects is very small. As expected, the NL model                                                               Results setup 2: RCNL model.  We now specify RCNL
+especially improves on the logit model in the second design                                                    models with a random coefﬁcient for the continuous char-
+with strong consumer heterogeneity (σd = 5).                                                                      acteristic x1jt and a nesting parameter ρ  for the group
+   Finally, we calculated the AIC and BIC model selection                                         dummy variable. More speciﬁcally, we assume that β =
+criteria, as developed in the GMM framework by Andrews                                                     (−1, −3, −2), σ = (0, σx1, 0) and take various values for ρ.13
+(1999). Most interesting, in the design with limited consumer                                      We consider eight designs according to three criteria. Firstly,
+heterogeneity (σd = 1), both selection criteria have difﬁ-                                                                    set either σx1 = 1.0 and ρ = 0.3, or σx1 = 0.5 and ρ = 0.5:
+culties distinguishing between the misspeciﬁed NL and the                                                              the ﬁrst case is closer to an RC model, whereas the second
+true RC model: they incorrectly pick the NL model as the                                                          case is closer to an NL model. Second, set the cutoff point
+
+  12 Note that the nesting parameter ρ enters nonlinearly in the choice prob-
+abilities. This may be another source of multiple minima and sensitivity to      13 The choice of the mean valuations β is again based on obtaining a
+starting values. However, in our GMM context, we did not ﬁnd the issue to    realistic setting for the outside good market share, varying between 0.20
+be larger than in the models without ρ.                                and 0.83.
+
+===== [PDF 第 7 页｜印刷第 922 页] =====
+922                      THE REVIEW OF ECONOMICS AND STATISTICS
+
+                                 Table 2.—Monte Carlo Results Setup 2: RCNL Model (One Design)
+
+      Coefﬁcients                               True Parameter              Logit          NL          RC         RCNL
+
+      β0                                −1                −2.89           −0.16           −1.60           −1.00
+                                                                                 (0.06)              (0.20)              (0.09)              (0.16)
+      βd                                −2                −0.44           −5.66           −0.86           −2.01
+                                                                                 (0.15)              (0.46)              (0.12)              (0.30)
+       βx1                               −3                −1.94           −0.31           −4.06           −2.99
+                                                                                 (0.06)              (0.13)              (0.16)              (0.27)
+     ρ                                                   0.3                     n/a                0.88                 n/a                0.30
+                                                                                                     (0.07)                                  (0.07)
+       σx1                                          1                       n/a                 n/a                1.30               1.00
+                                                                                                                         (0.06)              (0.08)
+    Own elasticity                                                 −2.545          −3.347          −5.205          −5.344
+                                                                               (0.397)            (1.513)            (0.820)            (0.860)
+       Cross-elasticity, same segment                                          0.028             0.093             0.083             0.112
+                                                                               (0.007)            (0.058)            (0.020)            (0.032)
+       Cross-elasticity, different segment                                       0.015             0.002             0.082             0.057
+                                                                               (0.004)            (0.001)            (0.024)            (0.017)
+     Model selection criteria
+       AIC                                                         0                0                0               1000
+       BIC                                                         0                0                0               1000
+
+  The table reports the empirical means and standard deviations (in parentheses) of the parameters, the implied price elasticities for T = 1, and two information criteria, GMM-BIC and GMM-AIC. The estimates are
+based on 1,000 random samples of 50 markets and 25 products. The true model is the RCNL model of setup 2 with the following design: σx1 = 1.0 and ρ = 0.3; ςxd = 0.9; γ = 1.
+
+
+for belonging to group 0 or 1 at either γ = 0 or γ = 1: in  RC model, which imposes ρ = 0, also results in parameter
+the ﬁrst case both groups are equally crowded, while in the   biases: βx1 = −4.06 < −3 and σx1 = 1.30 > 1.0. Hence,
+second case, group 0 is more crowded than group 1. Finally,   the nesting parameter ρ and the standard deviation σx1 partly
+we set either ςxd = 0 or ςxd = 0.9: in the ﬁrst case, the group   take the role of the other omitted parameter.
+dummy djt is not informative about the continuous character-    What do these estimates imply for the substitution pat-
+istic x1jt, while in the second case, djt is very informative about   terns? The own-price elasticities tend to be underestimated
+x1jt. For each design and each of the 1,000 generated data sets,   (in absolute value) in the logit and NL models; in the RC
+we estimate the correctly speciﬁed RCNL model and the mis-  model, they are relatively close to the estimates of the cor-
+speciﬁed models (RC with ρ = 0, NL with σx1 = 0 and logit   rectly speciﬁed RCNL model. The cross-price elasticities
+with ρ = σx1 = 0). These experiments enable us to see to  between products of the same group are underestimated in
+what extent ρ takes over the role of σx1 (and vice versa) and   all misspeciﬁed models (logit, NL, and RC). This conﬁrms
+what this implies for the price elasticity estimates under a   the importance of accounting for all sources of consumer
+broad variety of designs.                                    heterogeneity (regarding the continuous variable and group
+  Table 2 shows detailed results for one of the eight designs:  dummy). Finally, the cross-price elasticities between prod-
+σx1 = 0.5 and ρ = 0.5, γ = 1, and ςxd = 0.9. We begin   ucts of different groups are underestimated in the NL model
+with this design because  it best mimics our car data set.  and overestimated in the RC model.14
+First, there is relatively strong consumer heterogeneity for    These ﬁndings refer to one of the eight designs (the design
+the group dummy (high ρ); second, more products belong to   that is closest to our empirical data set below). However,
+group0thantogroup1(84%versus16%oftheproducts);and   as we show in table 3, our main conclusions remain across
+third, the group dummy is quite informative for the continu-   all dimensions of the designs. The RC model estimates the
+ous characteristic x1jt (probit regressions of the group dummy   own-price elasticities quite well (i.e., close to the ones from
+on the continuous characteristic imply 88.4% correct classi-   the correctly speciﬁed RCNL model), whereas the logit and
+ﬁcations, where group 0 tends to contain the low-price goods  NL models tend to underestimate the own-price elastici-
+and group 1 the high-priced goods).                               ties (but the NL model less so when the nesting parameter
+  We ﬁrst look at the parameter estimates of the correctly   is strong). The logit, RC, and NL models underestimate
+speciﬁed RCNL model. The means are very close to the   substitution within groups, since they do not capture all
+true parameters, the standard errors are small, and the dis-   sources of consumer heterogeneity. The RC model overes-
+tribution is approximately normal (not shown). This again   timates substitution between different groups, while the NL
+conﬁrmsthatourestimationprocedureworkswellinpractice,  model underestimates it. Despite these biases, the NL and
+as well as in the RCNL model where we used the modiﬁed
+contraction mapping.                                                                14 Note that the AIC and BIC selection criteria now correctly detect that
+  The parameter estimates for the logit, NL, and RC models   the data-generating process is the RCNL model in all of the 1,000 generated
+give interesting results on the effects of estimating misspeci-   data sets. Hence, they always lead to the conclusion that one should account
+ﬁed models. The NL model, which imposes σx1 = 0, leads to    for both sources of heterogeneity (on the continuous characteristic and on                                                                            the group dummy). This differs from setup 1, where the selection criteria
+an upward bias of the mean valuation of x1jt and of the nesting   often could not distinguish between the NL and RC models (because the
+parameter ρ: βx1 = −0.31 > −3 and ρ = 0.88 > 0.3. The   group dummy was the only source of heterogeneity).
+
+===== [PDF 第 8 页｜印刷第 923 页] =====
+                    NESTED LOGIT OR RANDOM COEFFICIENTS LOGIT?                          923
+
+              Table 3.—Monte Carlo Results Setup 2: Own- and Cross-Elasticity under Different Designs of RCNL Model
+
+                                           Logit      NL       RC      RCNL        Logit      NL       RC      RCNL
+
+                                                               σx1 = 1.0 and ρ = 0.3                                       σx1 = 0.5 and ρ = 0.5
+
+                                                                                               ςxd = 0, γ = 0
+
+  Own elasticity                     −2.355      −2.598      −5.412      −5.410      −5.761      −5.838      −7.694      −7.797
+    Cross-elasticity, same segment           0.020        0.064        0.086        0.123        0.041        0.113        0.071        0.144
+    Cross-elasticity, different segment        0.021        0.005        0.090        0.063        0.043        0.015        0.073        0.035
+
+                                                                                              ςxd = 0.9, γ = 0
+
+  Own elasticity                     −2.025      −2.383      −5.411      −5.411      −5.685      −5.745      −7.691      −7.721
+    Cross-elasticity, same segment           0.017        0.096        0.088        0.145        0.043        0.156        0.067        0.200
+    Cross-elasticity, different segment        0.018        0.005        0.068        0.049        0.045        0.020        0.075        0.037
+
+                                                                                               ςxd = 0, γ = 1
+
+  Own elasticity                     −2.396      −2.729      −5.380      −5.408      −5.747      −5.818      −7.645      −7.780
+    Cross-elasticity, same segment           0.025        0.048        0.099        0.114        0.050        0.080        0.082        0.113
+    Cross-elasticity, different segment        0.016        0.004        0.065        0.044        0.033        0.014        0.056        0.027
+
+                                                                                              ςxd = 0.9, γ = 1
+
+  Own elasticity                     −2.545      −3.347      −5.205      −5.344      −5.887      −5.879      −7.699      −7.573
+    Cross-elasticity, same segment           0.028        0.093        0.083        0.112        0.054        0.106        0.083        0.141
+    Cross-elasticity, different segment        0.015        0.002        0.082        0.057        0.029        0.014        0.060        0.025
+
+  The table reports the empirical means and standard deviations (in parentheses) of the price elasticities for T = 1. The estimates are based on 1,000 random samples of 50 markets and 25 products. The true model is
+the RCNL model of setup 2, with eight different designs according to three criteria: (a) σx1 = 1.0 and ρ = 0.3, or σx1 = 0.5 and ρ = 0.5; (b) ςxd = 0 or ςxd = 0.9; or (c) γ = 0 or γ = 1.
+
+
+
+RC models ﬁnd stronger substitution within than between                        III.  Empirical Analysis
+groups, in contrast with the logit where substitution is entirely
+                                                             A.  Data set for the European Car Marketsymmetric.15 These ﬁndings will be conﬁrmed in the next
+sections, where we provide an empirical analysis of the car   We make use of a unique data set on the automobile mar-
+market.                                                       ket maintained by JATO. The data are at the level of the car
+  More generally, these ﬁndings stress the importance of  model (e.g., VW Golf) and include essentially all passen-
+accounting for unobserved consumer heterogeneity regard-   ger cars sold during nine years (1998–2006) in nine West
+ing group dummy variables. But this does not mean that  European countries. This covers around 90% of the sales
+researchers should necessarily estimate an RCNL model   in the European Union. The countries are Belgium, France,
+when they expect unobserved heterogeneity on group dummy   Great Britain, Germany, Greece, Italy, Portugal, Spain, and
+variables. They may also specify an RC model with an   the Netherlands. For each model, country, and year, we have
+additional random coefﬁcient for the group dummy vari-   information on sales, deﬁned as total new registrations. For
+able. To illustrate this, online appendix B provides results  modelsintroducedoreliminatedwithinagivenyear,weknow
+from a Monte Carlo experiment with one random coefﬁ-   the number of months with positive sales in the given year.
+cient on a continuous variable and one on a discrete variable.  We exclude the models with extremely small market shares
+We ﬁnd that omitting the random coefﬁcient on the dis-   (e.g., Bentley Arnage or Kia Clarus). This results in a data
+crete variable results in very similar biases as the earlier   set of 18,643 model/country/year observations or on average
+ﬁndings on omitting the nesting parameter from the RCNL   about 230 models per country/year.
+model.16                                   We combine the  sales data with information on the
+                                                                                  list prices and various characteristics referring to the base
+                                                      model: vehicle size (curb weight, width, and height), engine
+                                                                    attributes (horsepower and displacement), and fuel consump-
+                                                                 tion (liter/100 km or euros /100 km). We start from JATO’s  15 The cross-price elasticities in the logit model do not appear to be entirely
+symmetricinthetwolowerpanels(designs5–8,withγ = 1).Thisisbecause   classiﬁcation to assign each model to one of seven possi-
+one of the two groups is less crowded than the other. The cross-elasticities   ble marketing segments: subcompact, compact, intermediate,
+are symmetric if one considers them at a more disaggregate level (e.g.,
+                                                              standard, luxury, SUV, and sports. Furthermore, we assignaverage separately for group 0 and 1).
+  16 As a further check, we also compared the Monte Carlo results from   the models to their brands’ perceived country of origin. For
+the RCNL (last column of table 2) with an RC model with two ran-   example, the Volkswagen Golf is perceived of German origin
+dom coefﬁcients—one on the continuous variable and one on the discrete
+variable. This model is “misspeciﬁed” since it has different distributional  even  if produced in Spain. We construct a dummy vari-
+assumptions about the discrete variable than the RCNL model. But the   able for whether a model is of foreign or domestic origin
+implied own-price and cross-price elasticities are very close (respectively   in each country. Our two-level nested logit model will use
+−5.727, 0.114, 0.064, compared with −5.344, 0.112 and 0.054 for the
+RCNL model in table 2). This generalizes our ﬁndings in the simpler setup   the marketing segments and foreign origin dummy to deﬁne
+of table 1.                                                      the groups (e.g., subcompact) and subgroups (e.g., domestic
+
+===== [PDF 第 9 页｜印刷第 924 页] =====
+924                      THE REVIEW OF ECONOMICS AND STATISTICS
+
+                                                  Table 4.—Summary Statistics
+
+                                                      All countries                          France                       Germany
+
+                                    Mean         SD           Mean         SD           Mean         SD
+
+      Sales (units)                             5,785            14,694            8,440            19,931           11,432           21,074
+      Price/income                               1.19              0.94              0.90              0.53              0.95              0.63
+     Horsepower (in kW)                       88.8              40.9              87.7              37.4              92.8              44.6
+      Fuel efﬁciency (euros /100 km)               8.4                2.1                8.5                2.3                8.8                2.6
+     Width (cm)                             173.0                8.5            173.1                8.5            173.4                8.6
+      Height (cm)                            148.3              13.8            149.2              14.2            148.2              14.1
+      Foreign (0–1)                              0.92              0.28              0.86              0.35              0.71              0.45
+     Months present (1–12)                      9.89              2.55              9.70              2.65              9.77              2.56
+
+  Means and standard deviations of the main variables. The total number of observations (models/markets) is 18,643, where markets refer to the nine countries and nine years.
+
+
+
+                                             Table 5.—Summary Statistics by Segment
+
+   Segment                           Subcompact      Compact        Intermediate       Standard      Luxury     SUV         Sport
+
+   Mean of the characteristics
+      Sales (units)                          11,155           7,450            5,009            4,632         2,889        2,205        1,517
+      Price/income                             0.55             0.81             1.04             1.39           2.13          1.61          1.85
+     Horsepower (in kW)                     48.7             70.1             84.6             99.6         134.0        113.7        126.6
+      Fuel efﬁciency (euros /100 km)             6.4               7.2               8.0               8.7           10.4          11.2           9.6
+     Width (cm)                           162.5            171.4            175.3            175.1         182.3        179.4        175.1
+      Height (cm)                           149.1            144.2            144.9            142.6         145.3        175.9        133.6
+      Foreign (0–1)                            0.92             0.92             0.93             0.91           0.89          0.96         0.86
+     Months present (1–12)                    9.72             9.87             9.88             9.77           9.94        10.11        10.03
+     Number of observations                 3,788            4,095            2,656            1,711         1,764        2,521        2,108
+    Correct classiﬁcations into different marketing segments (in percent)
+     Subcompact                          –              93.7             99.4             99.9         100.0          95.5          97.6
+     Compact                                            –               76.6             91.1           97.7          99.7          92.8
+      Intermediate                                                        –              77.9           91.4          99.7          91.0
+      Standard                                                                          –            90.0          99.9          84.4
+     Luxury                                                                                        –           99.7          88.9
+    SUV                                                                                                      –           99.9
+      Sports                                                                                                                –
+
+  The top panel reports means of the main variables per segment. The bottom panel reports the percentage of correctly classiﬁed car models, based on binary probit of a segment dummy per pair on four continuous
+characteristics (horsepower, fuel efﬁciency, width, and height).
+
+
+subcompact,foreignsubcompact).Table4providessummary   ask how often the probit correctly classiﬁes the different car
+statistics for sales, price, and the product characteristics used   models. The table shows that the continuous variables predict
+in our empirical demand model. We show the summary statis-   the SUV extremely well, with over 95% correct classiﬁca-
+tics for all countries and for France and Germany separately   tions with respect to any other segment. Classiﬁcation is also
+(since we will focus on these countries when we present our   quite accurate for most other segments; for example, for the
+counterfactuals).                                          luxury segment, there are over 89% correct classiﬁcations
+  Since our empirical analysis will focus on comparing   with respect to any other segment. The lowest number of
+the nested logit and random coefﬁcients logit models, it is   correct classiﬁcations occurs for a few neighboring segments
+informative to provide background on how the continuous   (on the diagonal), for example, 76.6% correct classiﬁca-
+characteristics relate to the marketing segments. Table 5 (top   tions between compact and intermediate, 77.9% between
+panel) shows summary statistics for our four characteristics   intermediate and standard. But even in these instances, the
+by marketing segment. Cars belonging to the same marketing   characteristics predict the segments quite well.
+segment tend to have similar horsepower, fuel consump-     In sum, this preliminary evidence indicates that a limited
+tion, width, and height. Horsepower and fuel consumption  number of characteristics (horsepower, fuel consumption,
+show a higher dispersion within a segment than width and   width, and height) have quite good, but not perfect, predictive
+height, but their segment averages also vary more widely.  power for the classiﬁcation in marketing segments. We will
+For example, average horsepower varies from 48.7 kW in   bear this in mind when comparing the NL and RC models.
+the subcompact to 134 kW in the luxury segment, whereas
+average width varies from 162.5 cm in the subcompact to                                                             B.  Speciﬁcation
+182.3 cm in the luxury segment. Table 5 (bottom panel)
+summarizes how well the four characteristics predict which    To estimate the logit, NL, RC, and RCNL demand mod-
+segment each model belongs to. For each segment pair (e.g.,   els, we make three modiﬁcations to the framework dis-
+subcompact-compact), we estimate a probit explaining seg-   cussed in section II. First, we treat price separately since
+ment assignment as a function of the four characteristics and    it is an endogenous characteristic and since we allow its
+
+===== [PDF 第 10 页｜印刷第 925 页] =====
+                    NESTED LOGIT OR RANDOM COEFFICIENTS LOGIT?                          925
+
+random coefﬁcient to follow the empirical distribution of   general country-speciﬁc demand shocks relative to the out-
+income. We adopt the following variant of the above utility   side good.18 Finally, Δξjt is the residual, capturing remaining
+speciﬁcation (1):                                        unobserved product characteristics, varying across products
+                                                    and markets. Since our data are at the annual level, we also
+                                                            include a set of dummy variables for the number of months    uijt = xjtβi −αipjt + ξjt + εijt.
+                                                       each model was available in a country within a given year
+                                                                   (for models introduced or dropped within a year).
+The vector of observed product characteristics, xjt, includes
+horsepower, fuel efﬁciency, width, height, and a dummy                                                          C.  Identiﬁcation and Estimation
+variable for the product’s country of origin (domestic or for-
+eign). The corresponding random coefﬁcients are speciﬁed    To estimate the demand parameters θ = (β, α, σ, ρ), we
+as before: βik = βk + σkνik for characteristic k. Price pjt   follow Berry (1994), BLP, and the subsequent literature. We
+enters slightly differently: its random coefﬁcient is speciﬁed   solve the system st = st(δt, θ) for δt in each market t to obtain
+as αi = α/yi, where yi is the income of individual i. In the   a solution for the error term Δξjt for each product j = 1, . . . , J
+RC and RCNL model, we treat yi as a random variable with   in market t:
+a known distribution equal to the empirical distribution of
+income. In the NL model, we treat yi as nonrandom and set       δjt(st, α, σ, ρ) = xjtβ + ξj + ξt + Δξjt.                 (9)
+it equal to mean income in market t, yi = yt. In sum, for                                                               In the (two-level) NL model, the left-hand side has an
+the nonprice characteristics, we estimate both the mean valu-
+                                                                analytic solution,
+ationsβk andthestandarddeviationsσk;forprice,weestimate
+only α so that heterogeneity in willingness to pay follows the                                                                                    δjt(st, α, σ, ρ) = ln sjt/s0t −ρ1 ln sj|hgt −ρ2 ln sh|gt
+empirical distribution of income.17
+                                          + αpjt/y,                           (10)  Second, the product-speciﬁc taste parameter  εijt follows
+the distributional assumptions of the two-level nested logit                                                         so that a linear estimator can be used. In the RC and
+model instead of the one-level nested logit of section II. The                                      RCNL model, δjt(st, α, σ, ρ) should be computed numerically
+upper level consists of the seven different market segments                                                  by solving the system st =  st(δt, θ) for δt, which makes
+(subcompact, compact, standard, intermediate, luxury, SUV,                                                            estimation considerably more complex.
+and sports) and one separate segment for the outside good.                                                         For all models, we can proceed with GMM by interacting
+The lower level divides every segment in two subsegments                                                              the error term with a vector of instrumental variables zjt that
+according to the models’ country of origin (domestic or for-                                                                           is uncorrelated with the error term. Since there are 2K + 3
+eign). In four countries, there are only foreign cars, so the                                                         parameters (K mean valuations βk, K standard deviations σk,
+subsegments of domestic cars are empty (Belgium, Greece,                                                              the price parameter α, and the two nesting parameters ρ1 and
+Portugal, and the Netherlands). There are now two nesting                                                                  ρ2), we need at least 2K + 3 instruments in zjt. Price pjt does
+parameters, ρ = (ρ1, ρ2). The nesting parameter ρ1 measures                                                           not qualify as an instrument to identify the price effect, since
+the correlation of preferences across cars of the same sub-                                                                                          it is likely to be correlated with Δξjt. For example, a pos-
+segment, and ρ2 measures correlation of preferences across                                                                        itive demand shock for product j in market t will not only
+subsegments of the same segment. For the model to be con-                                                             increase the demand for the product but may also induce the
+sistent with random utility maximization, 0 ≤ρ2 ≤ρ1 < 1.                                             ﬁrm to raise its price. Failure to account for this endogene-
+If ρ1 = ρ2, the model reduces to a one-level nested logit                                                                       ity issue will lead to an estimated price coefﬁcient (α) that
+where the segments are the nests; if ρ1 > ρ2 = 0, the model                                                                           is downward biased.19 Our identiﬁcation assumption is that
+reduces to a one-level nested logit where the subsegments                                                              the observed product characteristics xjt are uncorrelated with
+are the nests. If ρ1 = ρ2 = 0, the model reduces to a sim-                                                              the unobserved product characteristics Δξjt (which is weaker
+ple logit. Assuming that consumers choose the product that                                                          than the often adopted assumption that xjt is uncorrelated with
+maximizes utility, we obtain a two-level nested logit version                                                                                  ξjt). As discussed in BLP, one may use alternative functions
+of the aggregate market shares, equation (6).                                                            of these characteristics as instruments to estimate the 2K + 3
+  Third, we exploit the panel features of our data set to                                                            parameters. More speciﬁcally, following previous practice,
+specify the error term as ξjt = ξj + ξt + Δξjt. The ξj are                                                         our vector of instrumental variables zjt includes: the vector of
+product ﬁxed effects, capturing time-invariant unobserved                                                          product characteristics xjt, the sum of the characteristics of
+characteristics for a car model j. The ξt are market ﬁxed
+effects, modeled as country-speciﬁc ﬁxed effects interacted      18 We set the potential number of consumers Lt as the number of house-
+with a time trend and squared time trend. These capture   holds in the market. Alternative assumptions on Lt are absorbed in the
+                                                                   market ﬁxed effects and do not have an important impact on the results, as
+                                                     we discuss below.
+  17 This utility speciﬁcation approximates BLP’s Cobb-Douglas speciﬁca-      19 In the linear NL model, the within-subgroup and within-group market
+tion α ln(yi −pj) when the price is small relative to (capitalized) income. It   shares ln sj|hgt and ln sh|gt evidently do not qualify as instruments to identify
+is particularly convenient when studying countries with different exchange   the nesting parameters ρ1 and ρ2 (just like functions of market shares would
+rates, since local price is simply expressed relative to local income (see   not qualify as instruments for the distributional parameters σ in the RC
+Goldberg & Verboven, 2001).                                           model).
+
+===== [PDF 第 11 页｜印刷第 926 页] =====
+926                      THE REVIEW OF ECONOMICS AND STATISTICS
+
+                                  Table 6.—Parameter Estimates for Alternative Demand Models
+
+                                            Logit                   Nested Logit            RC Logit           RC Nested Logit
+
+                                  Parameter      SE        Parameter      SE        Parameter      SE        Parameter      SE
+
+   Mean valuations for the characteristics in xjt (β)
+      Price/income                −1.76          0.17        −1.00          0.03        −5.52          0.66       −2.75          0.18
+     Horsepower (kW/100)            2.30          0.24          1.34          0.08        −3.67          1.86          0.57          0.77
+      Fuel (euros /10,000 km)       −11.48          1.43        −6.13          0.52       −20.77          3.06       −4.68          0.73
+     Width (cm/100)                  2.51          0.55       −0.10          0.29          3.64          0.83          1.26          0.50
+      Height (cm/100)                 3.46          0.35          1.17          0.19          0.27          1.32          2.12          0.46
+      Foreign (0/1)                −1.21          0.03       −0.47          0.04        −3.66          0.89       −0.57          0.14
+    Standard deviations of valuations for the characteristics in xjt (σ)
+     Horsepower (kW/100)           NA                NA                    4.67          0.83          0.92          0.41
+      Fuel (euros /10,000 km)          NA                NA                    1.15          1.69          1.66          0.57
+     Width (cm/100)               NA                NA                    1.93          0.71          0.10          1.74
+      Height (cm/100)               NA                NA                    4.83          0.55          0.15          1.11
+      Foreign (0/1)                NA                NA                    5.46          1.05          0.22          0.84
+      Constant                   NA                NA                    1.18          0.43          0.21          3.00
+    Nesting parameters (ρ1 and ρ2)
+     Subsegment ρ1               NA                    0.65          0.03          NA                    0.57          0.03
+     Segment ρ2                 NA                    0.48          0.03          NA                    0.47          0.07
+   Model ﬁxed effects                     Yes                       Yes                       Yes                       Yes
+   Market ﬁxed effects                    Yes                       Yes                       Yes                       Yes
+   Income distribution                 No                   No                       Yes                       Yes
+   Random coefﬁcients                No                   No                       Yes                       Yes
+   # inelastic demands                  3,514 (19%)                 556 (3%)                     0                        0
+   χ2 test ρ1 = ρ2                 NA                        83.04               NA                         2.76
+    Prob. χ2                                                                  (0.00)                                                         (0.10)
+
+  Parameter estimates and standard errors for the different demand models. The logit and NL models assume equal income (−α/yt), and the RC and RCNL models allow for heterogeneous income (−α/yi). The total
+number of observations (models/markets) is 18,643, where markets refer to the nine countries and nine years.
+
+
+other products of competing ﬁrms, and the sum of the char-   particular, we take a large number of 500 Halton draws for
+acteristics of other products of the same ﬁrm. For the NL and  each of the 81 markets (country/years).21 Second, to ensure
+RCNL models, we also include these sums over products   the GMM objective function is smooth, we use a tight toler-
+belonging to the same subsegment and segment, following  ance level of 1e−12 to invert the shares using our modiﬁcation
+Verboven (1996).20                                          of BLP’s contraction mapping, equation (7). This tolerance
+  The GMM objective function includes a weighting matrix   level is considerably stricter than typically used in the liter-
+to account for heteroskedasticity (obtained from the residuals   ature. Third, we program analytic derivatives of the gradient
+using a two-step procedure). To minimize the GMM objective   of the objective function. While this is particularly tedious
+function with respect to the parameters θ = (β, α, σ, ρ), we   for the RCNL model, it greatly improves accuracy and com-
+ﬁrst concentrate out the linear parameters β (which includes   putation time. Finally, even if the GMM objective function is
+a set of dummy variables for the market ﬁxed effects ξt).  smooth, it may not be globally convex. To minimize the func-
+We do not directly estimate the more than 200 car model   tion with respect to the nonlinear parameters (α, σ, ρ), we use
+ﬁxed effects ξj; instead we use a within transformation of the   different starting values, using a stringent convergence crite-
+data (Baltagi, 1995). Standard errors are computed using the  rionof1e−6 andcarefullyexaminingthegradient,thesolution
+standard GMM formulas for asymptotic standard errors.       path, and the Hessian eigenvalues. We use a BFGS algorithm,
+ A few recent papers have studied several numerical dif-  an efﬁcient procedure that uses information at different points
+ﬁculties with estimating the RC model (which also apply   to obtain a sense of the curvature of the objective function.
+to the RCNL model): global convergence problems and the  We usually obtain the same optimum, except for very high
+role of starting values and different optimization algorithms   or low starting values, but in these cases, the value of the
+(Knittel & Metaxoglou, 2012), problems with numerically   objective function at convergence is always higher.22
+solving δt using BLP’s contracting mapping (Dubé et al.,
+2012), and problems with approximating the integral over  D.  Parameter Estimates
+the logit probabilities using simulation (Judd & Skrainka,
+2011).                                                      Table 6 shows the parameter estimates for the four demand
+  We draw lessons from this recent literature and proceed as   models. The logit model imposes σ = ρ = 0 and yi = yt.
+follows. First, to approximate the high-dimensional integral,
+equation (6), we make use of a large number of Halton draws      21 Halton draws can be very effective compared to pseudo-random draws.
+                                                                    For example, Bhat (2001) and Train (2000) report that the simulation vari-
+over the density N(0, 1). This provides a more effective cov-   ance in the estimated parameters is lower with 100 Halton draws than with
+erage of the density domain than pseudo-random draws. In   1,000 pseudo-random draws.
+                                                                                                22 The log condition number of the Hessian matrix is, at worst, 1.9, which
+                                                             means that only two (of a total of sixteen) decimal places of accuracy are
+  20 Weak instruments tests show that the instruments are jointly signiﬁcant.   being lost in the calculation of the Hessian, thus suggesting accurate results.
+
+===== [PDF 第 12 页｜印刷第 927 页] =====
+                    NESTED LOGIT OR RANDOM COEFFICIENTS LOGIT?                          927
+
+The NL model assumes σ = 0 and yi = yt and estimates ρ.   the mean valuation for horsepower is unexpectedly nega-
+The RC model assumes ρ = 0, estimates σ, and allows yi   tive. However, for both characteristics, we ﬁnd substantial
+to follow the empirical distribution of income. Finally, the  and signiﬁcant heterogeneity: about 50% of consumers have
+RCNL estimates both ρ and σ, and allows yi to follow the   a positive valuation for height, and about 30% have a positive
+empirical distribution of income.                             valuation for horsepower. Finally, we estimate a signiﬁcant
+  In the simple logit model both the price parameter (α) and   standard deviation for the constant, indicating signiﬁcant
+the mean valuation parameters (β) have the expected signs   heterogeneity in the valuation of new cars relative to the out-
+and are all signiﬁcantly different from 0. However, as is well   side good. Overall, the random coefﬁcients show evidence
+known, the model is very restrictive since it imposes symmet-   of signiﬁcant consumer heterogeneity in several dimensions,
+ric cross-price elasticities. Furthermore, demand is inelastic   in particular height, horsepower, and foreign origin. Yet it
+for almost 20% of the car models across countries and years.   is striking that the random coefﬁcients are estimated much
+This  is inconsistent with oligopolistic proﬁt-maximizing   less precisely than the two nesting parameters in the NL
+behavior unless marginal costs would be negative.           model.
+  In the NL model, the upper nest level consists of the seven     In the RCNL model, we combine the previous two mod-
+marketing segments, and the lower nest level consists of the   els, so we include both the nesting parameters and the random
+segments and origin (domestic or foreign). The price param-   coefﬁcients. Both the price parameter (α) and the mean valua-
+eter (α) and the mean valuation parameters (β) again have the   tion parameters (β) have the expected signs and are estimated
+expected sign and are signiﬁcantly different from 0, with the   signiﬁcantly with the exception of the horsepower parameter,
+exception of the parameter for width, which is now insignif-  which is insigniﬁcant. The most interesting ﬁndings relate to
+icant. The nesting parameters are estimated very precisely,   the estimated nesting parameters (ρ) and random coefﬁcients
+ρ1 = 0.65 and ρ2 = 0.48. Their magnitudes are consis-   (σ) in comparison with the NL and RC models.
+tent with the requirements of random utility maximization      First, compared with the NL model, the nesting parame-
+(0 ≤ρ2 ≤ρ1 < 1) and imply that consumer preferences   ters remain highly signiﬁcant, but their magnitude becomes
+show the strongest correlation across cars from both the same   smaller. This is consistent with the results from our Monte
+marketing segment and origin (domestic or foreign) and show   Carlo study, where we found an overestimate of the nesting
+weaker but still important correlation across cars from the   parameters if the random coefﬁcients are important and the
+same segment but a different origin. This is consistent with   groups are correlated with the characteristics for the omitted
+earlier work for a more limited set of countries (Goldberg  random coefﬁcients. Furthermore, we can no longer reject
+& Verboven, 2001; and Brenkers & Verboven, 2006).23 As   the hypothesis that ρ1 = ρ2 (P-value 0.0967) and the ran-
+documented below, this implies more plausible cross-price  dom coefﬁcient for foreign origin is insigniﬁcant. So the
+elasticities than the simple logit model. Furthermore, the  model reduces to a one-level nested logit with no need to
+implied own-price elasticities are higher than in the simple   divide the seven segments into domestic and foreign sub-
+logit: demand is now inelastic for only 3% of the car models.   groups, and it seems at ﬁrst that there is no longer consumer
+This may seem surprising at ﬁrst, since the price coefﬁcient   heterogeneity for foreign origin. However, the subsegment
+α is closer to 0 than in the simple logit model. However,   parameter ρ1 captures similar effects as the random coefﬁ-
+the elasticities depend not only on α but also on the nesting   cient for foreign origin, suggesting it is not sensible to include
+parameters ρ1 and ρ2.                                         both. Indeed, in a one-level nested logit where we constrain
+  In the RC model, we estimate the price parameter (α)   ρ1 = ρ2 (so that the subgroups are no longer relevant), the
+and the means (β) and standard deviations (σ) for the val-  random coefﬁcient for foreign origin becomes signiﬁcant
+uations of the other characteristics (including the constant).   again (as in the RC model). We show these results in online
+The price parameter (α) is again signiﬁcantly estimated with  appendix B.24
+the expected sign (negative effect). Consumers have a neg-     Second, compared with the RC model, the random coefﬁ-
+ative and signiﬁcant mean valuation for fuel consumption,   cients for horsepower and fuel efﬁciency remain signiﬁcant,
+and heterogeneity is limited so that almost all consumers   but this is no longer the case for width, height, and the
+dislike fuel-inefﬁcient cars. Consumers have a positive and   constant. Intuitively, the nesting parameter for the segments
+signiﬁcant mean valuation for width, and the standard devia-   captures a lot of the heterogeneity relating to the car dimen-
+tion implies that about 10% of consumers dislike large cars.   sions and the outside good, but not much of the heterogeneity
+Consumers have a negative mean valuation for cars of for-   relating to horsepower and fuel efﬁciency.
+eign origin. The standard deviation is relatively large, so that     Since the logit, NL, and RC are all restricted versions of the
+25% of consumers actually prefer foreign cars. The mean  RCNL model, we can compare their statistical performance
+valuation for height is insigniﬁcantly different from 0, and
+
+                                                                                                24 In this case, the one-level nested logit with a random coefﬁcient for
+  23 We also estimated a two-level NL model with the reverse nesting struc-   foreign origin seems preferable to a two-level nested logit model, since it
+ture, where origin deﬁnes the upper level and origin or segment of the lower   does not impose the consumer heterogeneity to enter in a hierarchical way.
+level of the nests. This led to estimates of ρ1 and ρ2 inconsistent with ran-   Nevertheless, we base our subsequent discussion on the two-level nested
+dom utility maximization, in line with the results of other studies on the car    logit. The implied price elasticities and competition policy counterfactuals
+market.                                                                     are very similar in the one-level nested logit model (not shown).
+
+===== [PDF 第 13 页｜印刷第 928 页] =====
+928                      THE REVIEW OF ECONOMICS AND STATISTICS
+
+ Table 7.—Likelihood Ratio Tests for Alternative Demand Models     We have done various sensitivity analyses to assess the
+                           Logit        Nested Logit     RC Logit      robustness of these conclusions. We added a random coefﬁ-
+                                                                 cient for the continuous characteristic weight, or dropped the    Logit                  –
+   Nested logit          584.08             –                   random coefﬁcient for height. In both cases, the magnitude
+                          (0.0000)                            and signiﬁcance of the nesting parameter for the segments
+  RC logit              34.08         NA             –
+                                                              are hardly affected.26 We also estimated a model with an                          (0.0000)
+  RC nested logit       534.10            30.61           423.84        additional upper nest to distinguish the three lower class seg-
+                          (0.0000)         (0.0002)         (0.0000)    ments (subcompact, compact, and standard) from the other
+  χ2 statistics and P-values (in parentheses) of likelihood ratio tests for different model pairs.         four segments. We did not ﬁnd this to be an additional source
+                                                            of segmentation. In sum, this suggests that the segments cap-
+                                                                 ture a separate, unobserved source of market segmentation.
+using likelihood ratio tests adapted to the GMM context.25   In principle, this may be captured without imposing a nested
+Table 7 reports LR values and asymptotic P-values for all   logit structure, through random coefﬁcients on the segment
+pairs of models, except the NL and RC, which are not nested  dummies with another distribution (e.g., normal as for the
+in each other. Each restricted model is rejected against the   continuous variables). This would, however, substantially
+more general models. The logit is clearly rejected against any   increase the computational burden.
+other model. More interesting, both the NL and RC models
+are rejected against the more general RCNL model. In fact,
+the NL appears to provide a better ﬁt than the RC logit relative   E.  Substitution Patterns
+to the RCNL, since the χ2 statistic is lower for the NL than the
+                                        We have already commented on the number of inelas-
+RC model (30.61 versus 423.84). We already observed that
+                                                                           tic own-price elasticities implied by our estimates. We now
+the individual random coefﬁcients in the RC model are much
+                                                          provide a more systematic discussion on the substitution pat-
+less precisely estimated than the two nesting parameters in
+                                                                     terns. We consider own-price and cross-price elasticities at
+the NL model. The likelihood ratio tests thus indicate that
+                                                              the level of the individual products and at the level of the
+the random coefﬁcients of the RC model are also jointly less
+                                                                  entire segments.
+signiﬁcant than the nesting parameters of the NL model.
+
+                                                               Product-level  price  elasticities.   First,  consider  the  Summary.  We can summarize our empirical results in
+                                                              product-level own- and cross-price elasticities. We averagefour points:
+                                                             these by segment and distinguish between cross-price elas-
+                                                                           ticities with respect to other products in the same subsegment,   a.  It is important to include the nesting parameter relating
+                                                                 in a different subsegment within the same segment, and in a      to the seven marketing segments since it remains highly
+                                                                  different segment. Table 8 shows these average product-level      signiﬁcant after including the random coefﬁcients.
+                                                                       elasticities for Germany in 2006 (the largest country in the   b.  It does not seem appropriate to include an additional
+                                                    most recent year of our data set). In the logit and NL models,      subnesting parameter relating to the origin within
+                                                              the own-price elasticities tend to increase more or less propor-     each segment, since the random coefﬁcient for origin
+                                                                  tionally with price as one moves to higher segments, resulting      captures this well.
+                                                                 in an average own-price elasticity that is almost four times   c.  It is relevant to include random coefﬁcients for horse-
+                                                     higherintheluxurythaninthesubcompactsegment.Thenear     power and fuel efﬁciency, but not those for the dimen-
+                                                             proportional relationship follows from the functional form      sions width and height since these are captured well by
+                                                         assumption: price enters utility linearly with a homogeneous      the marketing segments.
+                                                             valuation across consumers (−α/yt). In contrast, in the RC   d.  It is striking that the nesting parameters (reﬂecting het-
+                                                    and RCNL models, the price elasticities increase much less      erogeneity regarding segments and subsegments) are
+                                                          than proportionally, by a factor of 2.2 and 2.3 in the respective      estimated much more precisely than the random coef-
+                                                        models. This follows from the less restrictive functional form:      ﬁcients (reﬂecting heterogeneity regarding continuous
+                                                               price still enters utility linearly, but consumer valuations are      characteristics).
+                                                         heterogeneous (−α/yit). Hence, price-insensitive consumers
+                                                              are more likely to purchase high-priced cars.While these ﬁndings apply to our data set of the European
+car market, they can be useful as a guide for interpretations
+also in other applications.                                                         26 Adding random coefﬁcients raises the computational burden of approx-
+                                                                       imating the market share integral and makes it more difﬁcult to identify
+                                                                            the standard deviations of the individual random coefﬁcients. To reduce the
+  25 Following Hayashi (2000), we deﬁne the likelihood ratio  statistic   number of random coefﬁcients, we also conducted a principal components
+(LR) as the difference between the value of the objective function of the   analysis before estimating the model. We ﬁnd that there are two main prin-
+restricted model (reestimated using the second-stage weighting matrix of    cipal components: the ﬁrst is closely related to the performance and size
+the unrestricted model) and the value of the objective function of the unre-    variables; the second is closely related to the sports aspect (acceleration and
+stricted model. Under the null hypothesis, the statistic is asymptotically χ2    height). We estimate a strongly signiﬁcant random coefﬁcient for the ﬁrst
+distributed with degrees of freedom equal to the number of restrictions.       principal component and a less signiﬁcant one for the second component.
+
+===== [PDF 第 14 页｜印刷第 929 页] =====
+                    NESTED LOGIT OR RANDOM COEFFICIENTS LOGIT?                          929
+
+     Table 8.—Product-Level Price Elasticities in Germany for       and cross-price elasticities. We can summarize these results
+                  Alternative Demand Models
+                                                            as follows. First, as is well known, both the logit and NL mod-
+                 Own-               Cross-Price Elasticity            els imply fully symmetric substitution patterns at the segment
+                         Price        Same       Same      Different     level (i.e., identical cross-elasticities per row). For example,
+  Segment            Elasticities    Subsegment    Segment    Segment    a price increase of all compact cars by 1% raises the demand
+  Logit                                                           in all other segments by 0.02% (more precisely, by 0.017%).
+    Subcompact      −0.76        <0.01       <0.01     <0.01      In sharp contrast, the RC model implies more intense sub-
+    Compact        −1.09        <0.01       <0.01     <0.01
+    Intermediate     −1.49        <0.01       <0.01     <0.01      stitution to neighboring segments. Taking the same example,
+    Standard        −1.94        <0.01       <0.01     <0.01     a price increase of all compact cars by 1% has the highest
+    Luxury          −2.94        <0.01       <0.01     <0.01      effect on the demand for subcompact (+0.76%) and interme-
+   SUV           −2.32        <0.01       <0.01     <0.01
+    Sports          −2.73        <0.01       <0.01     <0.01      diate cars (+0.66%) and the lowest effects on the demand for
+  Nested logit                                                luxury (0.26%) and SUV cars (+0.39%). Finally, the RCNL
+    Subcompact      −1.23           0.02          0.01     <0.01     model implies cross-price elasticities somewhere in between
+    Compact        −1.74           0.03          0.02     <0.01
+    Intermediate     −2.38           0.05          0.03     <0.01      the NL and RC models, though closer to the NL model: the
+    Standard        −3.04           0.13          0.05     <0.01      cross-price elasticities to other segments are fairly (but not
+    Luxury          −4.64           0.17          0.07     <0.01     completely) symmetric, and they are somewhat higher than
+   SUV           −3.73           0.05          0.04     <0.01
+    Sports          −4.40           0.08          0.03     <0.01      in the NL model, but not nearly as high as in the RC model.
+ RC logit                                                Although the substitution patterns of the most general
+    Subcompact      −2.85           0.03       <0.01     <0.01    RCNL model appear to be better approximated by the NL
+    Compact        −3.66           0.02       <0.01        0.01
+    Intermediate     −4.38           0.03       <0.01        0.01     model than by the RC model, this does not necessarily mean
+    Standard        −4.96           0.04          0.01        0.01      that the NL model should be preferred over the RC model.
+    Luxury          −6.24           0.06          0.03        0.01     The main message is that  it is important to account for
+   SUV           −5.67           0.04       <0.01        0.01
+    Sports          −6.13           0.02       <0.01        0.02     consumer heterogeneity regarding the marketing segments.
+ RC nested logit                                      The NL model is one simple way to capture this, but there
+    Subcompact      −2.57           0.03          0.03     <0.01    may be alternative ways. For example, one may consider
+    Compact        −3.33           0.05          0.05     <0.01
+    Intermediate     −3.90           0.06          0.06     <0.01     adding random coefﬁcients for the segments at an increased
+    Standard        −4.54           0.15          0.09     <0.01     computational cost.
+    Luxury          −5.75           0.17          0.11     <0.01
+   SUV           −5.01           0.07          0.06     <0.01
+    Sports          −5.42           0.10          0.05     <0.01       Summary.  We can summarize the differences in the esti-
+  Product-level own- and cross-price elasticities, based on the parameter estimates in table 6. Elasticities  mated substitution patterns across models as follows. First,
+are   averages          by segment                          for                      Germany                                        in 2006. Cross-price                                                                    elasticities                                                                      are averaged                                                                                 across                                                                                    products                                                                                  from   the own-price elasticities at the product level increase roughlythe same        subsegment,                  from                         a                               different subsegment                                                within the                                                same segment,                                                                and from                                                                                           different                                                                                       segments.
+                                                              proportionally with price in the logit and NL models, but
+                                                                   less than proportionally in the RC and RCNL models. This
+  The cross-price elasticities show even more striking differ-   is because the latter two models allow consumer hetero-
+ences across the estimated models. In the logit model, they are   geneity in the price parameter. Second, the product-level
+extremely small even with respect to cars from the same sub-   cross-price elasticities show that products of the same seg-
+segment or segment (always less than 0.01). In contrast, in the  ment are strong substitutes in the NL and RCNL models, but
+NL and RCNL models, the cross-price elasticities are quite   not in the logit and RC models. Finally, the segment-level
+high with respect to products of the same subsegment (about   cross-price elasticities show quite strong substitution across
+0.1–0.4), and they are still relevant with respect to products of  segments (especially the neighboring ones) in the RC model
+other subsegments in the same segment (about 0.05). In the   but only weak (and symmetric) substitution in the logit, NL,
+RC model, the cross-elasticities with respect to products of  and RCNL models.
+the same subsegment are still sizable, mainly because of the
+magnitude and signiﬁcance of the foreign ownership random
+                                                                      IV.   Implications for Competition Policy Analysis
+coefﬁcient. But they are negligible with respect to products
+of other segments within the same segment (usually below     Section III showed how the different demand models gen-
+0.01). These ﬁndings illustrate the importance of accounting   erate quite different substitution patterns. But how relevant
+for consumer heterogeneity relating to the marketing seg-   are the found differences for applications in industrial organi-
+ments (as done only in the NL and RCNL models) and the   zation or related ﬁelds? To address this question, we consider
+domestic or foreign origin (as done in all models except the  two areas of competition policy, market deﬁnition and merger
+simple logit).                                                 simulation, and ask whether the different demand models
+                                                               yield robust conclusions.
+   Segment-level  price  elasticities.  Now  consider  the    Much of competition policy still heavily relies on mar-
+segment-level price elasticities, that is, the effect of a joint 1%   ket deﬁnition and an assessment of the ﬁrms’ market shares
+price increase of all cars in a given segment on demand in the   within the deﬁned market. It is simple and widely applicable
+various segments. Table 9 reports these segment-level own-   to mergers and horizontal or vertical agreements because it
+
+===== [PDF 第 15 页｜印刷第 930 页] =====
+930                      THE REVIEW OF ECONOMICS AND STATISTICS
+
+                       Table 9.—Segment-Level Price Elasticities in Germany for Alternative Demand Models
+
+    Segment              Subcompact        Compact          Intermediate         Standard         Luxury      SUV          Sport
+
+     Logit
+      Subcompact           −0.77               0.02               0.02               0.02             0.02           0.02           0.02
+      Compact                 0.02            −1.12               0.02               0.02             0.02           0.02           0.02
+       Intermediate              0.01               0.01            −1.41               0.01             0.01           0.01           0.01
+       Standard                  0.01               0.01               0.01            −1.75             0.01           0.01           0.01
+      Luxury                   0.01               0.01               0.01               0.01          −2.59           0.01           0.01
+     SUV                     0.01               0.01               0.01               0.01             0.01        −2.24           0.01
+       Sports                <0.01            <0.01            <0.01            <0.01          <0.01        <0.01        −2.05
+     Nested logit
+      Subcompact           −0.44               0.01               0.01               0.01             0.01           0.01           0.01
+      Compact                 0.01            −0.64               0.01               0.01             0.01           0.01           0.01
+       Intermediate           <0.01            <0.01            −0.81            <0.01          <0.01        <0.01        <0.01
+       Standard              <0.01            <0.01            <0.01            −1.00          <0.01        <0.01        <0.01
+      Luxury               <0.01            <0.01            <0.01            <0.01          −1.48        <0.01           0.01
+     SUV                 <0.01            <0.01            <0.01            <0.01          <0.01        −1.28        <0.01
+       Sports                <0.01            <0.01            <0.01            <0.01          <0.01        <0.01        −1.17
+   RC logit
+      Subcompact           −1.72               0.67               0.47               0.19             0.07           0.33           0.29
+      Compact                 0.75            −2.77               0.66               0.54             0.26           0.39           0.41
+       Intermediate              0.29               0.39            −3.47               0.43             0.30           0.45           0.42
+       Standard                  0.12               0.32               0.44            −3.55             0.56           0.43           0.45
+      Luxury                   0.05               0.16               0.32               0.61          −4.05           0.86           0.67
+     SUV                     0.15               0.18               0.37               0.43             0.92        −4.13           0.75
+       Sports                    0.08               0.11               0.20               0.25             0.42           0.49        −4.36
+   RC nested logit
+      Subcompact           −1.08               0.04               0.04               0.04             0.04           0.04           0.04
+      Compact                 0.04            −1.42               0.05               0.06             0.06           0.06           0.05
+       Intermediate              0.03               0.03            −1.65               0.04             0.04           0.04           0.04
+       Standard                  0.03               0.03               0.04            −1.90             0.05           0.05           0.05
+      Luxury                   0.03               0.04               0.05               0.06          −2.37           0.08           0.07
+     SUV                     0.03               0.04               0.05               0.06             0.08        −2.12           0.07
+       Sports                    0.02               0.02               0.03               0.03             0.04           0.04        −2.03
+
+  The segment-level own- and cross-price elasticities (when all products in the same segment raise their price by 1%), based on the parameter estimates in table 6. The elasticities refer to Germany in 2006.
+
+
+makes few assumptions about oligopoly behavior. However,   exclusive distribution system. According to this regulation,
+the choice of candidate-relevant markets can often be quite   automobile manufacturers may impose selective or exclu-
+arbitraryandartiﬁcial.Furthermore,becauseitisnotbasedon   sive distribution to their dealers, provided they have market
+a speciﬁc model of oligopoly behavior, it cannot make pre-   shares below 30% or 40%. Some niche manufacturers such
+cise predictions about market power effects or incorporate   as Mercedes or BMW may meet these thresholds if markets
+other considerations in an integrated framework. In merger   are deﬁned widely to include all cars, but not if they are
+cases,oneincreasinglyresortstosimulationanalysistoassess  deﬁned narrowly. Hence, it is important to know the size of
+market power effects and incorporate efﬁciencies or other   the relevant markets.
+elements (see Werden & Froeb, 1994; Hausman, Leonard, &     According to the small but signiﬁcant and nontransi-
+Zona, 1994; Nevo, 2000; Peters, 2006). While merger simu-   tory increase in price (SSNIP) test, the relevant market is
+lation may in principle extend to other types of competition   the smallest group of products for which a hypothetical
+investigations, this is difﬁcult in practice because it requires   monopolist could proﬁtably impose a small, nontransitory
+the speciﬁcation of an appropriate oligopoly model for the   but signiﬁcant increase in price (typically 5%–10%). Since
+speciﬁc competition issue under investigation.                the proﬁtability of a price increase depends on the extent of
+  Theserelativeadvantagesanddisadvantagesofmarketdef-   substitution to other goods, the estimated demand model is
+inition and merger simulation have been widely discussed.   of central importance. For each of the four estimated demand
+We will instead look at this from a different angle; we ask   models, we ﬁrst compute all products’ implied marginal costs
+to which extent both approaches are sensitive to the adopted  assuming multiproduct price-setting ﬁrms (following BLP,
+demand model. If one approach gives more robust conclu-  Nevo, 2000, and others). Given the estimated demand sys-
+sions across demand models, this provides a new motivation  tems and the marginal costs, we then ask whether a 10%
+to prefer it over the other approach.                           price increase by all products in a candidate-relevant market
+                                                                  raises proﬁts.
+                                        We begin with considering the marketing segments as the
+A.  Market Deﬁnition
+                                                              candidate-relevant markets. Table 10A shows the SSNIP test
+  Market deﬁnition in the European car market is relevant not   results for France and Germany in 2006. The logit model
+only for the evaluation of mergers, but also for the implemen-   suggests that none of the seven marketing segments can be
+tation of the block exemption regulation for the selective and   considered as separate relevant markets. For example, a joint
+
+===== [PDF 第 16 页｜印刷第 931 页] =====
+                    NESTED LOGIT OR RANDOM COEFFICIENTS LOGIT?                          931
+
+                                  Table 10.—Relevant Market Definition in France and Germany
+
+                                        Logit                    Nested Logit             RC Logit            RC Nested Logit
+
+                              France      Germany       France      Germany       France      Germany       France      Germany
+
+                                                  A: Candidate Markets Are Segments
+   Subcompact             −0.1         −0.2             5.0             6.7             4.5             4.9             8.8           11.0
+   Compact                −0.6         −0.5             7.2             8.7         −5.1         −1.4           10.8           12.6
+    Intermediate             −1.0         −1.0             7.4             8.4         −8.6         −5.3           10.4           10.4
+    Standard                −1.6         −1.5           13.5           11.1         −7.8         −5.1           16.3           13.3
+   Luxury                 −3.4         −3.2           16.2           15.0         −9.5         −5.9           16.6           15.2
+   SUV                   −2.4         −2.6           16.5           15.7             2.9         −5.9           18.1           16.0
+    Sports                  −1.4         −2.4           10.1           13.9        −11.2         −9.1           12.6           14.2
+                                       B: Candidate Markets Are Selected Products’ Ten Closest Substitutes
+  VW Polo                −0.4         −1.0             2.0             3.4             1.4             2.6             3.3             4.0
+  VW Golf                −0.4         −1.0             4.5             6.8         −1.6             2.6             6.0             8.3
+  VW Passat              −0.4         −1.0             4.0             5.1         −1.4         −0.5             4.8             5.5
+   Audi A4                −0.4         −1.0           10.8           10.1         −3.5         −1.3           12.3           11.7
+   Audi A6                −0.4         −1.0           11.8           13.5         −3.3         −2.3           10.7           13.1
+  BMW X3               −0.4         −1.1             5.5             7.7         −4.6         −1.6             2.0             4.3
+   Mercedes SLK Class       −0.4         −1.1             4.0             5.0         −5.2         −2.3             3.4             1.1
+
+  Percentage proﬁt increases implied by a joint 10% price increase of all products in the same segment (panel A) and for selected products’ ten closest substitutes (panel B). The results are based on the parameter
+estimates in table 6, assuming marginal costs implied by multiproduct Bertrand competition. The effects refer to France and Germany in 2006.
+
+
+10% price increase in the compact segment in France reduces    To assess this second possibility, we considered candidate-
+proﬁts by 0.6%. The RC model yields a similar conclusion:   relevant markets according to the products’ ten closest sub-
+only the subcompact segment can be deﬁned as a relevant   stitutes, based on the estimated cross-price elasticities for the
+market in both France and Germany. In sharp contrast, the   four different demand models. Table 10B implements this
+NL and RCNL models result in higher and positive proﬁt   for seven representative products, the top-selling cars in Ger-
+effects, implying that all marketing segments constitute sep-  many in each segment (e.g., the VW Golf in the compact
+arate relevant markets. A joint 10% price increase in the  segment or the Audi A4 in the standard segment). As may be
+compact segment in France would raise proﬁts by 7.21%   expected, for the NL and RCNL, these ten closest substitutes
+according to the NL model and even by 10.84% according to   almost always come from the same segment. In contrast, for
+the RCNL model. This narrow market deﬁnition follows, of   the RC model, they often come from other segments since the
+course, from the high signiﬁcance of the nesting parameter  model does not explicitly account for segments as a source of
+for the segments in the NL and RCNL models.27                differentiation.28 Interestingly, despite the fact that we now
+  Should we conclude that the RC model fails to deﬁne the   include closer substitutes in the RC model, the conclusions
+markets narrowly at the segment level, in contrast with the  from Table 10B remain similar to those in Table 10A. The
+more general RCNL model against which it was rejected?   relevant market is not wider than each product’s ten clos-
+The answer may seem to be yes, since we found that the   est substitutes under the NL and RCNL models, while it is
+RC model omits important unobservables relating to the  always wider under the logit model. Under the RC model, it
+marketing segments that are captured in the more general   is also usually wider, though there are two exceptions: for the
+RCNL model. However, proper caution is warranted. First, VW Polo, the relevant market is as narrow as its ten closest
+the RCNL model is itself restrictive since it imposes largely   substitutes in both France and Germany; for the VW Golf,
+symmetric substitution across the segments. As an alternative   the relevant market is also narrow in Germany, though it is
+to the RCNL model, one may also include random coefﬁ-  wider in France. We also computed the minimum number of
+cients for segment dummies within an RC framework (at an   closest substitutes to form a separate relevant market for the
+increased computational cost, since it requires approximat-   four different demand models. In general, we found that the
+ing a higher dimensional market share integral). Second, even   fewest number of products has to be included for the NL and
+an RC model without random coefﬁcients on segment dum-  RCNL model (about ﬁve to ten vehicles), a larger number for
+mies may result in a narrower market deﬁnition if we do not   the RC model (about ten to ﬁfteen vehicles), and the largest
+restrict attention to segments as candidate-relevant markets,   for the simple logit model.
+but instead consider the set of nearest substitutes (which are     In sum, when we use the closest substitutes as a selection
+more likely to include products from other segments in an   criterion for deﬁning candidate markets, the RC model results
+RC model).                                                     in a narrower market deﬁnition than when we use the segment
+
+  27 Market deﬁnition may be sensitive to the deﬁnition of the potential
+market size. Recall that we speciﬁed the potential number of consumers Lt       28 To illustrate, online appendix B reports the ten closest competitors for
+as the number of households. We reestimated the demand models by scaling   the VW Golf for each estimated demand model. In the logit model, the
+Lt up or down by a factor of 2 or 4. The SSNIP test conclusions are robust:    closest competitors are simply the top-selling cars; in the RC model, they are
+the logit and RC model still predict a wide market deﬁnition, while the NL   cars with similar characteristics, which may come from different segments.
+and RCNL models predict the reverse. To illustrate, we report the SSNIP   In the NL and RCNL models, the ten closest competitors all come from the
+test results for Lt/2 in online Appendix B.                            same segment (with one exception).
+
+===== [PDF 第 17 页｜印刷第 932 页] =====
+932                      THE REVIEW OF ECONOMICS AND STATISTICS
+
+                              Table 11.—Effects of Two Hypothetical Mergers in France and Germany
+
+                               All        Subcompact      Compact        Intermediate       Standard       Luxury     SUV        Sport
+
+                                                                  PSA-Renault Merger in France
+Domestic market shares (%)
+    PSA                   33.4            35.3             38.8              46.0              –            19.1          –          37.3
+      Renault                22.7            29.8             20.9             17.8              –              9.5          –          13.5
+Predicted domestic price increase (%)
+      Logit                    0.9              1.6               0.9               0.75              0.0             0.2           0.0          0.5
+      Nested logit            15.5            31.2             13.5             12.8               0.0             2.1           0.0          7.0
+    RC logit               20.2            37.1             22.6             24.1               0.6             4.8           0.1         14.0
+    RC nested logit          8.3            15.9               8.0               8.2           −0.1             1.5        −0.1          4.5
+                                           VW-BMW Merger in Germany
+Domestic market shares (%)
+   BMW                 10.6              2.1               7.9              –              39.6           25.3          15.2         10.8
+   VW                   30.8            23.1             36.3             53.8             31.3           32.4          12.0         21.4
+Predicted domestic price increase (%)
+      Logit                    0.3              0.3               0.4               0.3               0.6             0.3           0.2          0.2
+      Nested logit              2.9              0.6               2.8               0.1             10.0             4.3           1.6          1.1
+    RC logit                 2.2              0.6               2.0               1.8               4.9             3.2           1.7          1.5
+    2RC nested logit         1.9              0.6               1.8               0.5               5.8             3.0           1.1          0.9
+
+  Percentage price increases for two hypothetical mergers, PSA-Renault and BMW-VW, in their domestic markets, France and Germany, based on the parameter estimates in table 6 and assuming multiproduct Bertrand
+competition. The effects refer to France and Germany in 2006. Conﬁdence intervals of 95%, based on a bootstrapping procedure, are shown in online appendix B. For example, the 95% conﬁdence interval for the
+overall predicted price increase after the PSA-Renault merger is [0.7–1.8]% for the logit, [12.5–18.3]% for the NL, [14.6–27.2]% for the RC, and [5.4–15.7]% for the RCNL model.
+
+
+criterion, but it is still wider than the market deﬁnition in   We ﬁrst compute the products’ marginal costs assuming
+the NL and RCNL models. This does not mean that the RC   multiproduct price-setting ﬁrms, as we also did to implement
+model necessarily leads to a wider market deﬁnition than  market deﬁnition. Given the estimated demand systems and
+the NL or RCNL model. It just stresses the importance of   the marginal costs, we then predict the new Nash equilib-
+incorporating sufﬁcient sources of heterogeneity in the RC  rium resulting from the changed ownership structure after
+model, in particular, random coefﬁcients for the segments.   the merger. Intuitively, a merger will entail high price effects
+The nesting parameters are one way to achieve this, but within    if the merging ﬁrms sell close substitutes with respect to each
+an RC model, it is also possible to make other distributional   other (low cross-price elasticities) and weak substitutes with
+assumptions.                                                 respect to outsider ﬁrms (low own-price elasticities).
+  In practical terms, using the closest substitutes to deﬁne     Table 11 shows the predicted price effects of the two merg-
+markets may become tedious, especially in terms of pre-   ers in the ﬁrms’ home markets. We also brieﬂy comment on
+senting unambiguous, nonoverlapping market deﬁnitions in   the effects in the foreign markets and show these results in
+competition cases. As a simpler alternative, one may deﬁne   online appendix B. We show the percentage price increases
+two neighboring segments as the relevant market in the RC   for both the entire market and each of the seven market-
+model (as suggested by the cross-price elasticities). Our   ing segments (using price indices, where postmerger market
+SSNIP test results at the level of neighboring segments (not   shares are the weights).
+shown) demonstrate that two neighboring segments still do     For both mergers, the logit model predicts very small
+not form relevant markets in the logit model, but they do form   domestic price effects, despite the merging ﬁrms’ strong
+relevant markets in the RC model: a joint 10% price increase   domestic market presence. In sharp contrast, the NL, RC,
+would raise proﬁts for compact + intermediate (+1.6%), for  and RCNL models give more robust conclusions. The
+example, but not for compact + luxury (–1.2%).             PSA-Renault merger would result in large aggregate price
+                                                              increases in France (between 8.3% and 20.2%). The over-
+                                                                           all predicted price increases are closeest for the NL and
+                                      RC models (15.5% and 20.1%). They are somewhat lower
+B.  Merger Simulation
+                                                                 for the RCNL model (20.2%), but the conﬁdence intervals
+  We consider the effects of two hypothetical mergers.    still overlap (as shown in online appendix B). The BMW-
+The ﬁrst merger is between the two French manufacturers VW merger entails more modest price increases in its home
+PSA (Peugeot and Citroën) and Renault, and the second   country, Germany, but the results are again robust across all
+merger is between the two German manufacturers BMW and  models except the logit model (between 1.9% and 3.0%).
+Volkswagen (Volkswagen, Audi, Seat, and Skoda). As shown   In particular, the predicted price increases are the largest in
+in table 11, PSA and Renault are strong in their home market,   the standard segment, where the German producers have the
+France, with a combined market share of 56% (mainly due to   strongest presence (between 4.9% and 10.0%). While the NL,
+the mass segments). BMW and Volkswagen are slightly less  RC, and RCNL all give fairly robust conclusions regarding
+strong in their home market, Germany, with a combined mar-   the predicted merger effects, the NL model gives more pre-
+ket share of 41%. But they have a particularly strong presence   cise predictions than the RC model (as shown by the smaller
+in the standard segment (71%) and the luxury segment (58%).  conﬁdence intervals in online appendix B). The predictions
+
+===== [PDF 第 18 页｜印刷第 933 页] =====
+                    NESTED LOGIT OR RANDOM COEFFICIENTS LOGIT?                          933
+
+from the RC model consequently also show more sensitivity  model, but this would come at an increased computational
+under alternative speciﬁcations.29                            burden.
+  The predicted price effects in the foreign markets are much     In terms of substitution patterns, the NL and RC mod-
+smaller (shown in online appendix B). But there is again   els yield quite different results. The own-price elasticities
+a notable difference between the logit model and the other   increase nearly proportionally with price in the NL model and
+three models (where the predicted effects are between 0.4%   less than proportionally in the RC model, because the latter
+and 0.6% for the BMW-VW merger in France and between  modelallowsforconsumerheterogeneityinthepriceparame-
+0.2% and 0.4% for the PSA-Renault merger in Germany).      ter. Furthermore, products within the same segment are much
+  In sum, from a practical perspective, these ﬁndings show   closer substitutes in the NL model, whereas there is strong
+that it is clearly inappropriate to use a simple logit model   substitution to other segments (especially to neighboring
+with its symmetric substitution patterns. The merger pre-   ones) in the RC model.
+dictions from the NL, RC, or RCNL model are broadly     Despite the rather different substitution patterns, the NL
+consistent, although the conﬁdence intervals are higher in the  and RC models generate quite robust conclusions on the
+RC model (so that they are also more sensitive to variations   predicted price effects from mergers. In sharp contrast, the
+in the speciﬁcation).                                        conclusions for market deﬁnition are not robust: markets are
+                                                   deﬁned more narrowly in the NL and RCNL models than in
+                                                              the RC or logit models. This suggests two implications forC.  Summary
+                                                          competition policy. First, in market deﬁnition, it is important
+  We can summarize our ﬁndings on market deﬁnition and   to directly account for the segment dummies as direct sources
+merger simulation as follows. Merger simulation yields fairly   of market segmentation. Second, in merger simulation, the
+clear conclusions across different demand models: the simple   conclusions are more robust across demand models, sug-
+logit model is clearly inappropriate, but a generalization to   gesting that the simple NL model can be sufﬁcient to obtain
+the NL, RC, or RCNL gives fairly robust conclusions (though   reliable policy conclusions despite the different substitution
+less precise for the RC model). In contrast, market deﬁni-   patterns.
+tion depends more heavily on the adopted demand model. In    More generally, one can draw two implications for the
+particular, the RC model suggests a wider market deﬁnition   choice of demand model in applied work. First, the choice
+than the NL and RCNL models, which directly incorporate  between the tractable NL model and the computationally
+the segments as a segmentation source.                   more complex RC model may depend on the application.
+                                                            In our merger analysis, we considered two domestic merg-
+                      V.  Conclusion                            ers. In this case, a particularly relevant aspect of consumer
+                                                            heterogeneity is the cars’ domestic or foreign origin, which
+  We started from an aggregate RCNL model to provide   the NL model captures reasonably well. In other applica-
+a systematic comparison between the simple logit and NL   tions, the most relevant aspects of consumer heterogeneity
+models and the computationally more complex RC model.  may not be captured well by nesting parameters for groups
+We ﬁrst used simulated data to document parameter biases   or subgroups. In these cases, it is appropriate to estimate
+from estimating an NL or RC model. We then use data on  RC models with random coefﬁcients for the most relevant
+the automobile market to estimate the different models and,   continuous characteristics.
+as an illustration, to assess what they imply for competition     Second, ourﬁndingsshowthatitisimportanttoaccountfor
+policy analysis. Our main ﬁndings on the advantages and dis-   sources of market segmentation that are not captured by the
+advantages of the NL and RC models can be summarized as   continuously measured characteristics in the RC model. We
+follows.                                                      established this by adding a nested logit structure to BLP’s
+  In terms of statistical performance, both the NL and the  random coefﬁcients model (which is computationally simpler
+RC models are rejected against the RCNL model. The NL   than adding random coefﬁcients for the segment dummies
+model appears to be less strongly rejected (much lower χ2)   with other distributions). In future research, one may also
+than the RC model, and the nesting parameters of the NL   consider other tractable models from the GEV family to
+model (ρ) drop by only a modest amount after including ran-   capture additional sources of heterogeneity.
+dom coefﬁcients on continuous variables (σ) in the RCNL
+model. Furthermore, the nesting parameters are estimated                     REFERENCES
+more precisely than the random coefﬁcients. This shows
+                                                                 Andrews, Donald W. K., “Consistent Moment Selection Procedures for
+that the marketing segments capture an important, separate          Generalized Method of Moments Estimation,” Econometrica 67
+source of unobserved consumer heterogeneity. In principle,          (1999), 543–564.
+this could be captured with random coefﬁcients in the RC   Armstrong, Timothy B., “Large Market Asymptotics for Differentiated
+                                                                            Product Demand Estimators with Economic Models of Supply,”
+                                                                               Stanford University technical report (2012).
+  29 We dropped the random coefﬁcient for height and added one for weight    Baltagi, Badi H., Econometric Analysis of Panel Data (New York: John
+as alternative speciﬁcations. This results in lower predicted price effects          Wiley, 1995).
+in the RC model, but the patterns across the different segments remain   Berry, Steven T., “Estimating Discrete-Choice Models of Product Differ-
+comparable (see online appendix B).                                                   entiation,” RAND Journal of Economics 25 (1994), 242–262.
+
+===== [PDF 第 19 页｜印刷第 934 页] =====
+934                      THE REVIEW OF ECONOMICS AND STATISTICS
+
+
+Berry, Steven T., and Ariel Pakes, “Comments on Alternative Models of   Sudhir, K., “Competitive Pricing Behavior in the Auto Market: A Structural
+     Demand for Automobiles, by Charlotte Wojcik,” Economics Letters          Analysis,” Marketing Science 20 (2001), 42–60.
+      74 (2001), 43–51.                                                     Train, Kenneth, “Halton Sequences for Mixed Logit,” Department of
+Berry, Steven T., James Levinsohn, and Ariel Pakes, “Automobile Prices in         Economics, working paper series 1035, UC Berkeley (May 2000).
+      Market Equilibrium,” Econometrica 63 (1995), 841–890.            Verboven, Frank, “International Price Discrimination in the European Car
+——— “Voluntary Export Restraints on Automobiles: Evaluating a Trade          Market,” RAND Journal of Economics 27 (1996), 240–268.
+       Policy,” American Economic Review 89 (1999), 400–430.           Werden, Gregory J., and Luke M. Froeb, “The Effects of Mergers in Dif-
+Bhat, Chandra R., “Quasi-Random Maximum Simulated Likelihood Esti-           ferentiated Products Industries: Logit Demand and Merger Policy,”
+      mation of the Mixed Multinomial Logit Model,” Transportation          Journal of Law, Economics, and Organization 10 (1994), 407–426.
+      Research Part B: Methodological 35 (2001), 677–693.              Wojcik, Charlotte, “Alternative Models of Demand for Automobiles,”
+Brenkers, Randy, and Frank Verboven, “Liberalizing a Distribution Sys-         Economics Letters 68 (2000), 113–118.
+      tem: The European Car Market,” Journal of the European Economic
+       Association 4 (2006), 216–251.
+Bresnahan, Timothy F., “Departures from Marginal-Cost Pricing in the                  APPENDIX
+      American Automobile Industry: Estimates for 1977–1978,” Journal
+       of Econometrics 17 (1981), 201–227.                                                                             Contraction Mapping for Nested Logit Model
+Bresnahan, Timothy F., Scott Stern, and Manuel Trajtenberg, “Market
+      Segmentation and the Sources of Rents from Innovation: Personal                                                                              In this appendix we show how to modify BLP’s contraction mapping to
+      Computers in the Late 1980s,” RAND Journal of Economics 28                                                                          solve the demand system s = s(δ) in the random coefﬁcients nested logit
+       (1997), S17–S44.                                                                    model, with a nesting parameter ρ. To simplify the exposition, we consider
+Cardell, Scott N., “Variance Components Structures for the Extreme-                                                                      a nested logit without random coefﬁcients, so σ = 0. Note that in this
+      Value and Logistic Distributions with Application to Models of                                                                               case, there is an analytic solution for s = s(δ) (Berry (1994), so a contrac-
+       Heterogeneity,” Econometric Theory 13 (1997), 185–213.                                                                                tion mapping is not actually needed. The analysis here straightforwardly
+Chamberlain, Gary, “Asymptotic Efﬁciency in Estimation with Condi-                                                                            generalizes to the case where σ ̸= 0.
+       tional Moment Restrictions,” Journal of Econometrics 34 (1987),
+      305–334.
+Davis, Peter, and Pasquale Schiraldi, “The Flexible Coefﬁcient Multinomi-   BLP’s Original Contraction Mapping
+        lal Logit (FC-MNL) Model of Demand for Differentiated Products,”
+      mineograph (July 2012).                                BLP showed that the function f (δ), deﬁned pointwise by
+Dubé, Jean-Pierre H., Jeremy T. Fox, and Che-Lin Su, “Improving the
+      Numerical Performance of Static and Dynamic Aggregate Discrete        fj(δ) ≡δj + ln(sj) −ln(sj(δ)),
+      Choice Random Coefﬁcients Demand Estimation,” Econometrica
+      80 (2012), 2231–2267.
+                                                                                             is a contraction mapping with modulus less than 1 when the demand systemFeenstra, Robert C., and James A. Levinsohn, “Estimating Markups and
+                                                                                s = s(δ) is given by the (random coefﬁcients) logit model, where the nesting      Market Conduct with Multidimensional Product Attributes,” Review
+                                                                      parameter ρ = 0. To satisfy the conditions of their theorem, it is required       of Economic Studies 62 (1995), 19–52.
+                                                                                   that fj is differentiable and satisﬁes the following monotonicity conditions:Fershtman, Chaim, and Neil Gandal, “The Effect of the Arab Boycott on
+        Israel: The Automobile Market,” RAND Journal of Economics 29
+       (1998), 193–214.                                                                     ∂fj            ∂sj                                            = 1 −1   ≥0,
+Goldberg, Pinelopi Koujianou, and Frank Verboven, “The Evolution of        ∂δj            sj ∂δj
+       Price Dispersion in the European Car Market,” Review of Economic        ∂fj(δ)         ∂sj       Studies 68 (2001), 811–848.                           = −1    ≥0, k ̸= j,                              (A1)
+Hausman, Jerry A., Gregory Leonard, and J. Douglas Zona, “Competitive        ∂δk          sj ∂δk
+      Analysis with Differentiated Products,” Annales d’Economie et de            J                        J                                                                                                       ∂fj       1      ∂sj
+       Statistique 34 (1994), 159–180.                           −1 =         <0.
+Hayashi, Fumio, Econometrics (Princeton, NJ: Princeton University Press,        k=1 ∂δk            sj k=1 ∂δk
+       2000).
+Judd, Kenneth L., and Ben Skrainka, “High Performance Quadrature Rules:   To assess whether these conditions are satisﬁed for the nested logit model,
+    How Numerical Integration Affects a Popular Model of Product   note ﬁrst that the demand derivatives are given by
+       Differentiation,” CeMMAP working papers CWP03/11 (February
+       2011).                                                                          ∂sj       1      ρ
+Knittel, Christopher R., and Konstantinos Metaxoglou, “Estimation of Ran-      =     −        −sj   sj,                                                                                        −ρsj|g     dom Coefﬁcient Demand Models: Two Empiricists’ Perspective,”        ∂δj     1 −ρ   1
+        this review (forthcoming).                                                   ∂sj        ρ
+                                            = −                                                                          1 −ρsk|g −sk   sj for j, k in the same group g,McFadden, Daniel L., “Modelling of Choice of Residential Location,” in       ∂δk
+        F. Snickers A. Karlquist, L. Lundquist, and J. Weibull, eds., Spatial
+                                                                                        ∂sj
+       Interaction Theory and Residential Location (Amsterdam: North-      = −sksj for j, k in a different group g.
+      Holland, 1978).                                                       ∂δk
+McFadden,DanielL.,andKennethTrain,“MixedMNLModelsforDiscrete
+      Response,” Journal of Applied Econometrics 15 (2000), 447–470.     Substituting these derivatives in equation (A1) and rearranging shows that
+Nevo, Aviv, “Mergers with Differentiated Products: The Case of the Ready-
+       to-Eat Cereal Industry,” RAND Journal of Economics 31 (2000),         ∂fj                           sj
+                                             ≥0 ⇔ρ ≤                     ,
+      395–421.                                                                   ∂δj           1 −sj|g + sj
+——— “Measuring Market Power in the Ready-to-Eat Cereal Industry,”                         ρ
+      Econometrica 69 (2001), 307–342.                                                ∂fj           1−ρsk|g + sk ≥0  for j, k in the same group g                                             ≥0 ⇔                                                                             ,
+Peters, Craig, “Evaluating the Performance of Merger Simulation: Evidence       ∂δk                 sk ≥0      for j, k in a different group g
+      from the U.S. Airline Industry,” Journal of Law and Economics 49
+       (2006), 627–649.                                                                               J   ∂fj
+Petrin, Amil, “Quantifying the Beneﬁts of New Products: The Case of the         −1<0 ⇔s0 > 0,                                                                                 ∂δk
+      Minivan,” Journal of Political Economy 110 (2002), 705–729.             k=1
+Reynaert, Mathias, and Frank Verboven, “Improving the Performance
+       of Random Coefﬁcients Demand Models: The Role of Optimal   where s0 = 1 −     Jk=1 sk is the market share of the outside good. The
+       Instruments,” Journal of Econometrics 179:1 (2014), 83–98.         second and third inequality are satisﬁed. However, the ﬁrst inequality is
+Small, Kenneth A., “A Discrete Choice Model for Ordered Alternatives,”   satisﬁed only for ρ sufﬁciently close to 0, so that BLP’s function f (δ) is not
+      Econometrica 55 (1987), 409–424.                                   necessarily a contraction mapping for the nested logit model.
+
+===== [PDF 第 20 页｜印刷第 935 页] =====
+                    NESTED LOGIT OR RANDOM COEFFICIENTS LOGIT?                          935
+
+
+Modiﬁed Contraction Mapping                                         Thesecondandthirdconditionsremainsatisﬁedasintheorginalcontraction
+                                                              mapping for 0 ≤ρ < 1. To verify the ﬁrst condition, substitute the above
+   Consider the following modiﬁcation of BLP’s original function f (δ),      derivative for ∂sj/∂δj to obtain
+
+    fj(δ) ≡δj + ln(sj) −(1 −ρ) ln(sj(δ)),
+                                                                                                  ∂fj                1      ρ
+                                            = 1 −(1 −ρ)     −        −sjwhich dampens the original function by (1 −ρ).                                  ∂δj              1 −ρ   1 −ρsj|g
+  The monotonicity conditions of BLP’s theorem become
+                                            = ρsj|g + (1 −ρ)sj ≥0,
+     ∂fj             1 ∂sj
+    = 1 −(1 −ρ)     ≥0,
+    ∂δj                      sj ∂δj
+    ∂fj(δ)           1 ∂sj                                                   for 0 ≤ρ ≤1. Hence, the modiﬁed function satisﬁes BLP’s mono-
+     = −(1 −ρ)     ≥0, k ̸= j,                                       tonicity conditions, and we use this as a contraction mapping to solve
+     ∂δk                     sj ∂δk                                                the (random coefﬁcients) nested logit demand system. Note that the
+       J   ∂fj             1   J   ∂sj                                 dampening for the contraction mapping implies a larger value for the
+       −1 = (1 −ρ)        <0.                                   Lipschitz constant and thus a slower rate of convergence, especially as ρ
+    k=1 ∂δk                      sj k=1 ∂δk                                    approaches 1.

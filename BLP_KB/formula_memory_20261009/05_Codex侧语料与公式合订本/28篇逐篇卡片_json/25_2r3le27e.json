@@ -1,0 +1,163 @@
+{
+  "rank": 25,
+  "item_key": "2R3LE27E",
+  "title": "The Welfare Effects of Peer Entry: The Case of Airbnb and the Accommodation Industry",
+  "authors": [
+    "Chiara Farronato",
+    "Andrey Fradkin"
+  ],
+  "creators": [
+    {
+      "name": "Chiara Farronato",
+      "type": "author"
+    },
+    {
+      "name": "Andrey Fradkin",
+      "type": "author"
+    }
+  ],
+  "date": "2022-00-00 2022",
+  "journal": "American Economic Review",
+  "doi": "10.1257/aer.20180260",
+  "url": "https://doi.org/10.1257/aer.20180260",
+  "collections": [
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Farronato, C., & Fradkin, A. (2022). The Welfare Effects of Peer Entry: The Case of Airbnb and the Accommodation Industry. American Economic Review. https://doi.org/10.1257/aer.20180260",
+    "parenthetical": "(Farronato & Fradkin, 2022)",
+    "narrative": "Farronato and Fradkin (2022)"
+  },
+  "preferred_pdf_rel": "source_pdfs/25_2r3le27e.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "5ECQWNZ7",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:ch3.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\5ECQWNZ7\\ch3.pdf",
+    "exists": true,
+    "size": 574841
+  },
+  "legacy_note_rel": "raw/notes/25_2r3le27e.md",
+  "legacy_old_memory_rel": "raw/paper_memory/25_2r3le27e.md",
+  "fulltext_json_rel": "raw/fulltext/25_2r3le27e.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/25_2r3le27e.fulltext.txt",
+  "llm_json_rel": "raw/ocr_llm/25_2r3le27e.llm.json",
+  "llm_md_rel": "raw/ocr_llm/25_2r3le27e.llm.md",
+  "note_sections": {
+    "1. One-paragraph thesis": "- 从问题出发：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.\n- BLP-related structural paper\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.",
+    "2. Story ladder": "- 从问题出发：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.\n- 把识别对象具体化：We present a model of competition between flexible and dedicated sellers (peer hosts and hotels) who provide differentiated products.\n- 用结构模型推进：We present a model of competition between flexible and dedicated sellers (peer hosts and hotels) who provide differentiated products.\n- 最后把结果落到政策/福利含义：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.",
+    "3. Model or identification core": "- Structural classification: BLP-related structural paper\n- Model anchor: The paper uses a differentiated-product or adjacent structural framework.\n- Read this section as the place where the endogenous object, identification move, and counterfactual payoff are tied together.",
+    "4. Data and measurement": "- Data section must be read together with the recovered fulltext headings and paper PDF.\n- Recovered section headings: headings not recovered",
+    "5. Findings and mechanisms": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.",
+    "6. Contribution construction": "- 从问题出发：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.",
+    "7. Literature review function": "- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+    "8. Writing structure map": "- Recovered section order:\n- headings not recovered",
+    "9. Reusable writing moves": "- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。",
+    "10. Memory update": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_2r3le27e_the-welfare-effects-of-peer-entry-the-case-of-airbnb-and-the-accommodation-indus\ndescription: Fulltext BLP reading memory for The Welfare Effects of Peer Entry: The Case of Airbnb and the Accommodation Industry; includes story logic, BLP model shape, writing structure, and policy payoff.\ntype: reference\n---\n\n# The Welfare Effects of Peer Entry: The Case of Airbnb and the Accommodation Industry",
+    "Citation": "- Key: `2R3LE27E`\n- DOI: `10.1257/aer.20180260`\n- Journal: American Economic Review\n- Year: 2022\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\2R3LE27E.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/2R3LE27E/2R3LE27E.llm.json`",
+    "Read Status": "- 本记忆基于全文 OCR 结果，不是只基于题录摘要。\n- OCR 引擎：MinerU 优先，DirectML 加速，关闭表格识别以避免已知编码错误；输出为 `llm.md` + `llm.json` + `chunks.jsonl`。",
+    "Story Question": "- 核心问题：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.",
+    "Story Logic": "- 从问题出发：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.\n- 把识别对象具体化：We present a model of competition between flexible and dedicated sellers (peer hosts and hotels) who provide differentiated products.\n- 用结构模型推进：We present a model of competition between flexible and dedicated sellers (peer hosts and hotels) who provide differentiated products.\n- 最后把结果落到政策/福利含义：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.",
+    "How BLP Enters": "- 分类判断：BLP-style differentiated-product demand\n- 触发证据：random coefficients, discrete choice, marginal cost, welfare, counterfactual, instrument\n- 读法提醒：这里的“BLP”既可能是严格的随机系数需求+供给均衡，也可能只是沿用差异化产品结构需求与福利反事实的传统。",
+    "Model Shape": "- Demand side: 需求侧明显是随机系数离散选择框架。 市场份额/替代关系是识别核心对象。\n- Heterogeneity: 文中通过异质偏好、车型属性、收入/里程/地区或消费者画像来刻画替代弹性。\n- Supply side: 文中显式处理供给侧，通常是 Nash-Bertrand 定价、边际成本恢复与均衡反事实。\n- Identification / estimation: 识别中明确出现工具变量/外生冲击。\n- Counterfactual / welfare: 摘要直接说明会做福利/反事实模拟，因此模型的终点是政策比较而不仅是弹性估计。",
+    "Writing Structure": "- 从 OCR 章节树看，正文大体按照下面顺序展开：\n- The Welfare Effects of Peer Entry: The Case of Airbnb and the Accommodation Industry\n- By Chiara Farronato and Andrey Fradkin∗\n- JEL: D4, K2, L1, L83, L86.\n- Keywords: Peer-to-Peer Platforms, Flexible Supply, Market Structure, Consumer Welfare.\n- I. Introduction\n- THE AMERICAN ECONOMIC REVIEW\n- MONTH YEAR\n- 1The 50 largest US cities were selected on the basis of their total number of hotel rooms.\n- VOL. VOL NO. ISSUE\n- THE WELFARE EFFECTS OF PEER ENTRY\n- THE AMERICAN ECONOMIC REVIEW\n- MONTH YEAR\n- VOL. VOL NO. ISSUE\n- THE WELFARE EFFECTS OF PEER ENTRY\n- II. Data and Stylized Facts\n- THE AMERICAN ECONOMIC REVIEW\n- MONTH YEAR\n- VOL. VOL NO. ISSUE\n- THE WELFARE EFFECTS OF PEER ENTRY\n- THE AMERICAN ECONOMIC REVIEW\n- MONTH YEAR\n- 7We consider the role of location within a city in Online Appendix D.\n- San Francisco.\n- A. Descriptives\n- VOL. VOL NO. ISSUE\n- THE WELFARE EFFECTS OF PEER ENTRY\n- Table 1—: Descriptive Statistics\n- THE AMERICAN ECONOMIC REVIEW\n- MONTH YEAR\n- VOL. VOL NO. ISSUE",
+    "Reusable Writing Moves": "- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。",
+    "OCR Section Anchors": "",
+    "Memory Notes": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "theory_design_memory": "- 从问题出发：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.\n- BLP-related structural paper\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.\n\n- 从问题出发：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.\n- 把识别对象具体化：We present a model of competition between flexible and dedicated sellers (peer hosts and hotels) who provide differentiated products.\n- 用结构模型推进：We present a model of competition between flexible and dedicated sellers (peer hosts and hotels) who provide differentiated products.\n- 最后把结果落到政策/福利含义：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.\n\n- Structural classification: BLP-related structural paper\n- Model anchor: The paper uses a differentiated-product or adjacent structural framework.\n- Read this section as the place where the endogenous object, identification move, and counterfactual payoff are tied together.\n\n- Data section must be read together with the recovered fulltext headings and paper PDF.\n- Recovered section headings: headings not recovered\n\n- 从问题出发：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.\n\n- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+  "baseline_core_memory": "- Structural classification: BLP-related structural paper\n- Model anchor: The paper uses a differentiated-product or adjacent structural framework.\n- Read this section as the place where the endogenous object, identification move, and counterfactual payoff are tied together.",
+  "mechanism_memory": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.\n\n- 从问题出发：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.\n- 把识别对象具体化：We present a model of competition between flexible and dedicated sellers (peer hosts and hotels) who provide differentiated products.\n- 用结构模型推进：We present a model of competition between flexible and dedicated sellers (peer hosts and hotels) who provide differentiated products.\n- 最后把结果落到政策/福利含义：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.",
+  "result_memory": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.\n\n- Results anchor: Section IV presents our results. We find that consumers’ mean utility for Airbnb is lower than for hotels, but that preferences for Airbnb increase between 2013 and 2015. By the end of the sample period, the mean utility from top-quality Airbnb listings is closer to the mean utility of economy and midscale hotels. We f\n- Conclusion anchor: ounterfactual, Airbnb rooms do not completely replace hotels as the most common accommodations option, which is due to the much lower mean utilities that we estimate for Airbnb compared to hotels.",
+  "writing_style_memory": "- Recovered section order:\n- headings not recovered\n\n- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。\n\n- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。",
+  "professional_vocab": [
+    "random coefficients",
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "instrumental variable",
+    "equilibrium",
+    "substitution",
+    "outside option",
+    "marginal cost",
+    "heterogeneity",
+    "consumer demand",
+    "differentiated product"
+  ],
+  "fulltext_headings": [
+    "The Welfare Effects of Peer Entry: The Case of Airbnb and the Accommodation Industry",
+    "THE AMERICAN ECONOMIC REVIEW",
+    "MONTH YEAR",
+    "THE WELFARE EFFECTS OF PEER ENTRY",
+    "We use all these predictors in a linear regression of Airbnb penetration:",
+    "Our baseline regression specification is:",
+    "Here",
+    "The effects of interest are",
+    "Consumer Demand",
+    "For consumer",
+    "Hotel Supply",
+    "Taking advantage of the implicit function theorem, the optimization problem gives rise",
+    "Peer Supply",
+    "Peers of each quality type",
+    "Equilibrium",
+    "The market equilibrium consists of prices and quantities for hotels and peer hosts",
+    "We use data from the 10 largest cities in terms of the share of Airbnb bookings in our",
+    "One key choice we must make in the estimation is",
+    "Our market share moments are",
+    "The vector",
+    "Therefore, in a specific market n we compare the ratio",
+    "Once we obtain demand estimates that let us compute",
+    "Finally, the supply of Airbnb can be estimated separately using another linear",
+    "REFERENCES"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 1,
+      "snippet": "nditions, expand supply as hotels fill up, and keep hotel prices down as a result.\nJEL: D4, K2, L1, L83, L86.\nKeywords: Peer-to-Peer Platforms, Flexible Supply, Market Structure, Consumer Welfare.\nI. Introduction\nThe Internet has greatly reduced entry and advertising costs across a variety of industries. As an example, peer-to-peer marketplaces such as Airbnb, Uber, and Etsy currently provide a platform for small and part-time peer providers to sell their goods and services. Several of these marketplaces have grown quickly and become widely known brands. In this paper, we study the welfare effects of peer production in the market for short-term accommodations, where Airbnb is the main peer-to-peer platform and hotels are incumbent suppliers.\nSince its founding in 2008, Airbnb has grown to list more rooms than any hotel group in the world. Yet Airbnb’s expansion across cities and over time has been highly heterogeneous, with supply shares ranging from over 15% to less than 1% across maj"
+    },
+    "data": {
+      "page": 1,
+      "snippet": "bnb in the accommodation industry. We present a model of competition between flexible and dedicated sellers - peer hosts and hotels - who provide differentiated products. We estimate this model using data from major US cities and quantify the welfare effects of Airbnb on travelers, hosts, and hotels. The welfare gains are concentrated in specific locations (New York) and times (New Year’s) when hotel capacity is constrained. This occurs because peer hosts are responsive to market conditions, expand supply as hotels fill up, and keep hotel prices down as a result.\nJEL: D4, K2, L1, L83, L86.\nKeywords: Peer-to-Peer Platforms, Flexible Supply, Market Structure, Consumer Welfare.\nI. Introduction\nThe Internet has greatly reduced entry and advertising costs across a variety of industries. As an example, peer-to-peer marketplaces such as Airbnb, Uber, and Etsy currently provide a platform for small and part-time peer providers to sell their goods and services. Several of these marketplaces hav"
+    },
+    "model": {
+      "page": 1,
+      "snippet": "e Case of Airbnb and the Accommodation Industry\nBy Chiara Farronato and Andrey Fradkin∗\nWe study the welfare effects of enabling peer supply through Airbnb in the accommodation industry. We present a model of competition between flexible and dedicated sellers - peer hosts and hotels - who provide differentiated products. We estimate this model using data from major US cities and quantify the welfare effects of Airbnb on travelers, hosts, and hotels. The welfare gains are concentrated in specific locations (New York) and times (New Year’s) when hotel capacity is constrained. This occurs because peer hosts are responsive to market conditions, expand supply as hotels fill up, and keep hotel prices down as a result.\nJEL: D4, K2, L1, L83, L86.\nKeywords: Peer-to-Peer Platforms, Flexible Supply, Market Structure, Consumer Welfare.\nI. Introduction\nThe Internet has greatly reduced entry and advertising costs across a variety of industries. As an example, peer-to-peer marketplaces such as Airbnb"
+    },
+    "results": {
+      "page": 4,
+      "snippet": "Section IV presents our results. We find that consumers’ mean utility for Airbnb is lower than for hotels, but that preferences for Airbnb increase between 2013 and 2015. By the end of the sample period, the mean utility from top-quality Airbnb listings is closer to the mean utility of economy and midscale hotels. We find that peer hosts often have higher marginal costs than hotels in the corresponding quality tier and that, consistent with our model, the distribution of peer costs makes peer supply highly elastic.\nIn the absence of Airbnb, total welfare would be lower and travelers and peer producers would be worse off, while hotels would benefit from less competition. Reporting the effects for 2014, we observe that hotels in the top 10 US cities would increase profits by $165 million but peer host surplus would"
+    },
+    "conclusion": {
+      "page": 39,
+      "snippet": "ounterfactual, Airbnb rooms do not completely replace hotels as the most common accommodations option, which is due to the much lower mean utilities that we estimate for Airbnb compared to hotels.\nV. Conclusion\nThe spread of digital technology has enabled peer production in the accommodation industry. We study the welfare implications of this new mode of production for consumers, incumbent providers (hotels), and peer hosts.\nThe returns to peer production vary across cities and over time. Predictors of Airbnb penetration across cities include hotel room capacity, demand trends and volatility, and peers’ costs of hosting strangers in their homes. Peer host supply is three times as elastic as hotel supply, rapidly expanding when demand and prices increase. The highly elastic host supply implies that the largest effects of Airbnb occur in markets where hotels are often near full capacity, which we confirm with reduced-form regressions. In particular, we show that Airbnb entry negatively a"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "从问题出发：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry.",
+      "从问题出发：We study the welfare effects of enabling peer supply through Airbnb in the accommodation industry."
+    ],
+    "session": [
+      "Retrieve by key/title: 2R3LE27E / The Welfare Effects of Peer Entry: The Case of Airbnb and the Accommodation Industry",
+      "Use collections and journal handles: BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Farronato & Fradkin, 2022) / Farronato and Fradkin (2022)"
+    ],
+    "agent": [
+      "Structural classification: BLP-related structural paper",
+      "Check how the paper modifies or simplifies canonical BLP before borrowing its structure."
+    ],
+    "team": [
+      "典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

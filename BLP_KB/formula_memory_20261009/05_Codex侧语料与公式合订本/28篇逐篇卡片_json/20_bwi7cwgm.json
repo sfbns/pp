@@ -1,0 +1,164 @@
+{
+  "rank": 20,
+  "item_key": "BWI7CWGM",
+  "title": "The Economics of Attribute-Based Regulation: Theory and Evidence from Fuel Economy Standards",
+  "authors": [
+    "Koichiro Ito",
+    "James M. Sallee"
+  ],
+  "creators": [
+    {
+      "name": "Koichiro Ito",
+      "type": "author"
+    },
+    {
+      "name": "James M. Sallee",
+      "type": "author"
+    }
+  ],
+  "date": "2018-00-00 2018",
+  "journal": "The Review of Economics and Statistics",
+  "doi": "10.1162/rest_a_00704",
+  "url": "https://doi.org/10.1162/rest_a_00704",
+  "collections": [
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Ito, K., & Sallee, J. M. (2018). The Economics of Attribute-Based Regulation: Theory and Evidence from Fuel Economy Standards. The Review of Economics and Statistics. https://doi.org/10.1162/rest_a_00704",
+    "parenthetical": "(Ito & Sallee, 2018)",
+    "narrative": "Ito and Sallee (2018)"
+  },
+  "preferred_pdf_rel": "source_pdfs/20_bwi7cwgm.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "RJRGLH3P",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:REST_a_00704.pdf.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\RJRGLH3P\\REST_a_00704.pdf.pdf",
+    "exists": true,
+    "size": 960250
+  },
+  "legacy_note_rel": "raw/notes/20_bwi7cwgm.md",
+  "legacy_old_memory_rel": "raw/paper_memory/20_bwi7cwgm.md",
+  "fulltext_json_rel": "raw/fulltext/20_bwi7cwgm.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/20_bwi7cwgm.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper studies attribute-based regulation, where the stringency of a standard depends on a secondary characteristic of the regulated object.\n- Its answer is that this policy form can generate distortion, bunching, and welfare tradeoffs that are not visible in a simple flat standard.\n- The contribution is both theoretical and empirical: a framework plus evidence from Japanese weight-based fuel-economy rules.",
+    "2. Story ladder": "- Real-world tension or puzzle: fuel-economy regulations often tie the target to vehicle weight or another attribute.\n- Why the puzzle matters now: policymakers use attribute-based rules widely, but their welfare consequences are not transparent.\n- What the literature already explains: conventional standards and taxes are better understood than attribute-based designs.\n- What is still missing or weakly identified: a unified way to map the extra attribute into welfare and behavior.\n- The paper's move: build a theory of attribute-based regulation and then test its predictions with bunching and a policy change.\n- Main payoff: a clearer guide to when attribute basing is useful and when it is mainly distortionary.",
+    "3. Model or identification core": "- Research design type: theory plus quasi-experimental evidence.\n- Structural model class or reduced-form design: welfare model of attribute-based regulation, plus empirical bunching and counterfactual estimation.\n- Key equations or choice objects: the regulation is a function of the target attribute and the secondary attribute.\n- Endogeneity problem: regulated agents may sort or bunch around thresholds, and the attribute itself may change response to policy.\n- Identification strategy: bunching around notches plus a policy change to estimate response and welfare implications.\n- What assumptions are doing the heavy lifting: the mapping from observed bunching to behavioral responses and the maintained structure of the welfare model.",
+    "4. Data and measurement": "- Unit of observation: vehicles around the regulated threshold.\n- Market definition: the Japanese vehicle market under weight-based fuel-economy regulation.\n- Main dependent variable: bunching / weight choice / fuel-economy outcome.\n- Core explanatory variables: regulatory targets, vehicle weight, and secondary attributes.\n- Instruments / moments / shocks: policy thresholds and a policy reform.\n- Important sample restrictions: the empirical design focuses on vehicles near the relevant regulatory cutoffs.",
+    "5. Findings and mechanisms": "- Baseline result: vehicle weight increased in response to regulation, consistent with bunching.\n- Mechanism evidence: attribute basing changes the shadow value of the secondary characteristic and therefore the chosen bundle.\n- Heterogeneity evidence: the welfare effect depends on the relationship between the targeted and secondary attributes.\n- Welfare or counterfactual result: the paper computes welfare consequences of attribute-based policies and compares them with alternative standards.\n- Limits the authors admit: exact welfare ranking depends on the parameterization and the policy environment.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: work on fuel-economy standards, regulation design, and bunching.\n- What exact gap the authors claim: previous literature lacked a unified economics framework for attribute-based regulation.\n- How the introduction stages novelty: define the policy form, show its prevalence, then explain the missing theory and evidence.\n- Whether the contribution is data, method, theory, policy, or a combination: theory plus policy evaluation, with an empirical check.",
+    "7. Literature review function": "- Where the review sits: the introduction and setup sections.\n- How the review is organized: by policy design problem, especially why the secondary attribute matters.\n- Which citations do positioning work: fuel-economy regulation papers and attribute-based policy examples show the policy relevance.\n- Which citations do method-validation work: bunching and tax-function literature justify the empirical approach.",
+    "8. Writing structure map": "- Introduction move sequence: policy form -> prevalence -> missing framework -> empirical strategy -> welfare result.\n- Section order: intro -> theory -> empirical setting -> bunching -> estimation -> counterfactuals -> conclusion.\n- Where the paper turns from setup to payoff: once the theory identifies the key parameters and the bunching evidence appears.\n- How tables/figures are used to move the argument: threshold plots and counterfactual tables are the natural bridge from theory to welfare.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"The target of the regulation is not the only margin that matters.\"\n- Best transition pattern: \"We now use a simple model to pin down the welfare consequences.\"\n- Best contribution sentence pattern: \"A policy class that is common in practice deserves a theory that matches its actual design.\"\n- Best limitation or implication move: make the welfare ranking conditional on the correlation between the target and the secondary attribute.",
+    "10. Memory update": "- Durable economics-writing principle: define the policy class by its actual administrative rule, not by a simplified label.\n- Durable structural-model principle: a secondary attribute can change both incentives and welfare in ways a flat standard cannot capture.\n- Reusable empirical design idea: bunching at cutoffs is the right lens for attribute-based rules.\n- Follow-up paper to pair with this one: any regulation paper where the policy index depends on another characteristic."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_bwi7cwgm_the-economics-of-attribute-based-regulation-theory-and-evidence-from-fuel-econom\ndescription: Fulltext BLP reading memory for The Economics of Attribute-Based Regulation: Theory and Evidence from Fuel Economy Standards; includes story logic, BLP model shape, writing structure, and policy payoff.\ntype: reference\n---\n\n# The Economics of Attribute-Based Regulation: Theory and Evidence from Fuel Economy Standards",
+    "Citation": "- Key: `BWI7CWGM`\n- DOI: `10.1162/rest_a_00704`\n- Journal: The Review of Economics and Statistics\n- Year: 2018\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\BWI7CWGM.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/BWI7CWGM/BWI7CWGM.llm.json`",
+    "Read Status": "- 本记忆基于全文 OCR 结果，不是只基于题录摘要。\n- OCR 引擎：MinerU 优先，DirectML 加速，关闭表格识别以避免已知编码错误；输出为 `llm.md` + `llm.json` + `chunks.jsonl`。",
+    "Story Question": "- 核心问题：This paper analyzes \"attribute-based regulations,\" in which regulatory compliance depends upon some secondary attribute that is not the intended target of the regulation.",
+    "Story Logic": "- 从问题出发：This paper analyzes \"attribute-based regulations,\" in which regulatory compliance depends upon some secondary attribute that is not the intended target of the regulation.\n- 把识别对象具体化：For example, in many countries, fuel-economy standards mandate that vehicles have a certain fuel economy, but heavier or larger vehicles are allowed to meet a lower standard.\n- 用结构模型推进：We develop a theoretical framework to predict how actors will respond to attribute-based regulations and to characterize the welfare implications of these responses.\n- 最后把结果落到政策/福利含义：We develop a theoretical framework to predict how actors will respond to attribute-based regulations and to characterize the welfare implications of these responses.",
+    "How BLP Enters": "- 分类判断：canonical BLP demand-supply\n- 触发证据：random coefficients, discrete choice, marginal cost, markup, welfare, counterfactual\n- 读法提醒：这里的“BLP”既可能是严格的随机系数需求+供给均衡，也可能只是沿用差异化产品结构需求与福利反事实的传统。",
+    "Model Shape": "- Demand side: 需求侧明显是随机系数离散选择框架。\n- Heterogeneity: 文中通过异质偏好、车型属性、收入/里程/地区或消费者画像来刻画替代弹性。\n- Supply side: 文中显式处理供给侧，通常是 Nash-Bertrand 定价、边际成本恢复与均衡反事实。\n- Identification / estimation: 识别中明确出现工具变量/外生冲击。\n- Counterfactual / welfare: 摘要直接说明会做福利/反事实模拟，因此模型的终点是政策比较而不仅是弹性估计。",
+    "Writing Structure": "- 从 OCR 章节树看，正文大体按照下面顺序展开：\n- The Economics of Attribute-Based Regulation: Theory and Evidence from Fuel-Economy Standards\n- Koichiro Ito\n- University of Chicago and NBER\n- James M. Sallee*\n- University of California, Berkeley and NBER\n- July 10, 2017\n- Abstract\n- Keywords: fuel-economy standards, energy efficiency, corrective taxation, notches, bunching analysis\n- JEL: H23, Q48, Q58, L62\n- 1 Introduction\n- Our frst empirical strategy is to test for “bunching” (excess mass) in the distribution of\n- 1See Slemrod (2010) for a review.\n- Review of Economics and Statistics Just Accepted MS.\n- 2 Theory\n- 2.1 ABR is an imperfect substitute for compliance trading\n- Review of Economics and Statistics Just Accepted MS. doi:10.1162/REST_a_00704\n- Review of Economics and Statistics Just Accepted MS. doi:10.1162/REST_a_00704\n- Graphical illustration\n- We do not formally analyze the optimal choice of which attribute to use in this paper.\n- 2.2 The deadweight loss of ABR\n- 2.3 Distributional justifications for ABR\n- 2.4 Additional implications of attribute basing\n- 3 Identifying Attribute Distortions via Bunching\n- 3.1 Data and Policy Background\n- 3.2 Excess Bunching at Weight Notches\n- 3.3 Estimation of Excess Bunching at Notches\n- Review of Economics and Statistics Just Accepted MS.\n- Table 1: Excess Bunching and Weight Increases at Notches: Old Fuel-Economy Standard\n- Panel A: Regular passenger cars\n- Review of Economics and Statistics Just Accepted MS.",
+    "Reusable Writing Moves": "- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。",
+    "OCR Section Anchors": "",
+    "Memory Notes": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "theory_design_memory": "- The paper studies attribute-based regulation, where the stringency of a standard depends on a secondary characteristic of the regulated object.\n- Its answer is that this policy form can generate distortion, bunching, and welfare tradeoffs that are not visible in a simple flat standard.\n- The contribution is both theoretical and empirical: a framework plus evidence from Japanese weight-based fuel-economy rules.\n\n- Real-world tension or puzzle: fuel-economy regulations often tie the target to vehicle weight or another attribute.\n- Why the puzzle matters now: policymakers use attribute-based rules widely, but their welfare consequences are not transparent.\n- What the literature already explains: conventional standards and taxes are better understood than attribute-based designs.\n- What is still missing or weakly identified: a unified way to map the extra attribute into welfare and behavior.\n- The paper's move: build a theory of attribute-based regulation and then test its predictions with bunching and a policy change.\n- Main payoff: a clearer guide to when attribute basing is useful and when it is mainly distortionary.\n\n- Research design type: theory plus quasi-experimental evidence.\n- Structural model class or reduced-form design: welfare model of attribute-based regulation, plus empirical bunching and counterfactual estimation.\n- Key equations or choice objects: the regulation is a function of the target attribute and the secondary attribute.\n- Endogeneity problem: regulated agents may sort or bunch around thresholds, and the attribute itself may change response to policy.\n- Identification strategy: bunching around notches plus a policy change to estimate response and welfare implications.\n- What assumptions are doing the heavy lifting: the mapping from observed bunching to behavioral responses and the maintained structure of the welfare model.\n\n- Unit of observation: vehicles around the regulated threshold.\n- Market definition: the Japanese vehicle market under weight-based fuel-economy regulation.\n- Main dependent variable: bunching / weight choice / fuel-economy outcome.\n- Core explanatory variables: regulatory targets, vehicle weight, and secondary attributes.\n- Instruments / moments / shocks: policy thresholds and a policy reform.\n- Important sample restrictions: the empirical design focuses on vehicles near the relevant regulatory cutoffs.\n\n- Which papers are treated as the nearest neighbors: work on fuel-economy standards, regulation design, and bunching.\n- What exact gap the authors claim: previous literature lacked a unified economics framework for attribute-based regulation.\n- How the introduction stages novelty: define the policy form, show its prevalence, then explain the missing theory and evidence.\n- Whether the contribution is data, method, theory, policy, or a combination: theory plus policy evaluation, with an empirical check.\n\n- Where the review sits: the introduction and setup sections.\n- How the review is organized: by policy design problem, especially why the secondary attribute matters.\n- Which citations do positioning work: fuel-economy regulation papers and attribute-based policy examples show the policy relevance.\n- Which citations do method-validation work: bunching and tax-function literature justify the empirical approach.",
+  "baseline_core_memory": "- Research design type: theory plus quasi-experimental evidence.\n- Structural model class or reduced-form design: welfare model of attribute-based regulation, plus empirical bunching and counterfactual estimation.\n- Key equations or choice objects: the regulation is a function of the target attribute and the secondary attribute.\n- Endogeneity problem: regulated agents may sort or bunch around thresholds, and the attribute itself may change response to policy.\n- Identification strategy: bunching around notches plus a policy change to estimate response and welfare implications.\n- What assumptions are doing the heavy lifting: the mapping from observed bunching to behavioral responses and the maintained structure of the welfare model.",
+  "mechanism_memory": "- Baseline result: vehicle weight increased in response to regulation, consistent with bunching.\n- Mechanism evidence: attribute basing changes the shadow value of the secondary characteristic and therefore the chosen bundle.\n- Heterogeneity evidence: the welfare effect depends on the relationship between the targeted and secondary attributes.\n- Welfare or counterfactual result: the paper computes welfare consequences of attribute-based policies and compares them with alternative standards.\n- Limits the authors admit: exact welfare ranking depends on the parameterization and the policy environment.\n\n- 从问题出发：This paper analyzes \"attribute-based regulations,\" in which regulatory compliance depends upon some secondary attribute that is not the intended target of the regulation.\n- 把识别对象具体化：For example, in many countries, fuel-economy standards mandate that vehicles have a certain fuel economy, but heavier or larger vehicles are allowed to meet a lower standard.\n- 用结构模型推进：We develop a theoretical framework to predict how actors will respond to attribute-based regulations and to characterize the welfare implications of these responses.\n- 最后把结果落到政策/福利含义：We develop a theoretical framework to predict how actors will respond to attribute-based regulations and to characterize the welfare implications of these responses.",
+  "result_memory": "- Baseline result: vehicle weight increased in response to regulation, consistent with bunching.\n- Mechanism evidence: attribute basing changes the shadow value of the secondary characteristic and therefore the chosen bundle.\n- Heterogeneity evidence: the welfare effect depends on the relationship between the targeted and secondary attributes.\n- Welfare or counterfactual result: the paper computes welfare consequences of attribute-based policies and compares them with alternative standards.\n- Limits the authors admit: exact welfare ranking depends on the parameterization and the policy environment.\n\n- Results anchor: proposition characterizes this trade-oﬀ. Taken together, our results imply that whether an\n- Conclusion anchor: tortions and fully equalizes",
+  "writing_style_memory": "- Introduction move sequence: policy form -> prevalence -> missing framework -> empirical strategy -> welfare result.\n- Section order: intro -> theory -> empirical setting -> bunching -> estimation -> counterfactuals -> conclusion.\n- Where the paper turns from setup to payoff: once the theory identifies the key parameters and the bunching evidence appears.\n- How tables/figures are used to move the argument: threshold plots and counterfactual tables are the natural bridge from theory to welfare.\n\n- Best framing sentence pattern: \"The target of the regulation is not the only margin that matters.\"\n- Best transition pattern: \"We now use a simple model to pin down the welfare consequences.\"\n- Best contribution sentence pattern: \"A policy class that is common in practice deserves a theory that matches its actual design.\"\n- Best limitation or implication move: make the welfare ranking conditional on the correlation between the target and the secondary attribute.\n\n- Durable economics-writing principle: define the policy class by its actual administrative rule, not by a simplified label.\n- Durable structural-model principle: a secondary attribute can change both incentives and welfare in ways a flat standard cannot capture.\n- Reusable empirical design idea: bunching at cutoffs is the right lens for attribute-based rules.\n- Follow-up paper to pair with this one: any regulation paper where the policy index depends on another characteristic.\n\n- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。",
+  "professional_vocab": [
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "policy analysis",
+    "identification strategy",
+    "equilibrium",
+    "markup",
+    "marginal cost",
+    "market definition",
+    "heterogeneity",
+    "fuel economy",
+    "attribute-based regulation"
+  ],
+  "fulltext_headings": [
+    "The Economics of Attribute-Based Regulation:",
+    "Theory and Evidence from Fuel-Economy Standards",
+    "Koichiro Ito",
+    "University of Chicago and NBER",
+    "University of California, Berkeley and NBER",
+    "July 10, 2017",
+    "Soren Anderson, Severin Borenstein, Meghan Busse, Raj Chetty, Lucas Davis, Francesco De-",
+    "Hiro Kasahara, Kazunari Kainou, Ryan Kellogg, Ben Keys, Christopher Knittel, Ashley",
+    "Langer, Bruce Meyer, Richard Newell, Matt Notowidigdo, Ian Parry, Mar Reguant, Nancy",
+    "Rose, Mark Rysman, Jesse Shapiro, Joel Slemrod, Reed Walker, Sarah West, Katie White-",
+    "University, Chicago, the EPA, Harvard, Michigan, Michigan State, MIT, the National Tax",
+    "Abstract",
+    "Keywords:",
+    "JEL: H23, Q48, Q58, L62",
+    "Introduction",
+    "An attribute-based regu-",
+    "The goal of this paper is to investigate the welfare consequences of attribute-based regu-",
+    "We begin by establishing a simple theoretical model that facilitates the analysis of",
+    "Some policies (including CAFE) have a compliance trading",
+    "ABR is preferable to a standard based only on the targeted characteristic will depend upon",
+    "In the second part of our paper, we develop two complementary empirical methods that",
+    "To quantify this bunching, we use methods recently",
+    "This not only works against the goal of",
+    "Our back-of-the-envelope estimate based on the value of a statistical life and estimates of the"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 2,
+      "snippet": "Abstract\nWe study “attribute-based regulations,” under which regulatory compliance of a ﬁrm,\nproduct, or individual depends upon a secondary attribute that is not the intended\ntarget of the regulation. We develop a theoretical model of the welfare consequences\nof attribute basing, including its distortionary costs and potential beneﬁts. We then\nquantify these welfare consequences using quasi-experimental evidence from weight-\nbased fuel-economy regulations. We use bunching analysis to show that vehicle weight\nincreased in response to regulation. We also leverage a policy change and develop a\nnew method for analyzing “double-notched” policies to compare the costs and beneﬁts\nof a speciﬁc attribute-based policy.\nKeywords:\nfuel-economy standards, energy eﬃciency, corrective taxation, notches,"
+    },
+    "data": {
+      "page": 5,
+      "snippet": "ing. To do so, we analyze Japanese fuel-economy regu-\nlations, under which ﬁrms making heavier cars are allowed to have lower fuel economy. The\nJapanese regulation oﬀers two empirical advantages over data from other markets, including\nautomobile markets in the E.U. and U.S. First, the Japanese regulations have existed for\nmore than three decades and have experienced several policy reforms. Second, the Japanese\nABR is notched—the fuel economy required for a given vehicle is a decreasing step function\nof its weight. Automakers therefore have a large incentive to increase vehicle weight only up\nto key thresholds where the mandated fuel economy drops discretely. These notches do not\nchange the fundamental economic incentives at play, but they aid empirical identiﬁcation.\nOur panel analysis diﬀers from existing work in this area by considering a double notch (i.e.,\na notch in two coordinates), which is, to the best of our knowledge, new to the literature.1\nOur ﬁrst empirical strategy is to"
+    },
+    "model": {
+      "page": 2,
+      "snippet": "e-based regulations,” under which regulatory compliance of a ﬁrm,\nproduct, or individual depends upon a secondary attribute that is not the intended\ntarget of the regulation. We develop a theoretical model of the welfare consequences\nof attribute basing, including its distortionary costs and potential beneﬁts. We then\nquantify these welfare consequences using quasi-experimental evidence from weight-\nbased fuel-economy regulations. We use bunching analysis to show that vehicle weight\nincreased in response to regulation. We also leverage a policy change and develop a\nnew method for analyzing “double-notched” policies to compare the costs and beneﬁts\nof a speciﬁc attribute-based policy.\nKeywords:\nfuel-economy standards, energy eﬃciency, corrective taxation, notches,\nbunching analysis\nJEL: H23, Q48, Q58, L62\nc⃝2015 Koichiro Ito and James M. Sallee. All rights reserved.\n0\n\u0004\u0005\u0006\u0007\u0005\b\u0003\t\n\u0003\u000b\f\t\r\t\u000e\u0007\f\u000f\u0003\u0010\r\u0011\u0003\u0012\u0013\u0010\u0013\u0007\u000f\u0013\u0007\f\u000f\u0003\u0004\u0005\u0006\u0007\u0003\b\t\t\n\u000b\u0007\n\f\u0003\r\u000e\u000f\n\f\u0010\u0011\u0012\u0013\u0014\u000f\u0013\u0013\u0015\u0016\u0017\u0018\u0019\u000e\u001a\u001b\u001c\u001b\u0014\u0014704\n\u001d\u0003\u001e\u001f\u0003\u0007 \n\u0003!\"\n\u0006\u0011\f\n#\u0007\u0003\u001c#\f\u0003$\n%%\u0010&\u0006\u0003\u0010'\u0003(\u001c\")\u001c\"\f\u0003"
+    },
+    "results": {
+      "page": 5,
+      "snippet": "proposition characterizes this trade-oﬀ. Taken together, our results imply that whether an\nABR is preferable to a standard based only on the targeted characteristic will depend upon\nthe elasticity of the attribute with respect to regulatory incentives and the degree of marginal\ncost equalization that the ABR is able to achieve.\nA second possibility is distribution. Attribute basing can achieve distributional goals\nwhen the planner wishes to shift welfare across consumers or producers based on the sec-\nondary attribute. In this case, the eﬃciency costs of ABR that are our focus represent the\ncost of achieving distributional goals. For example, size-based fuel-economy regulations can\nbe rationalized as a way of shifting welfare between ﬁrms that sell small vehicles and those\nthat sell large vehicles (perhaps in order to favor domestic producers and th"
+    },
+    "conclusion": {
+      "page": 44,
+      "snippet": "tortions and fully equalizes\nthe marginal costs of compliance. Fourth, ABR changes the distributional impacts of policy,\nso that ABR could be used as a way to favor one set of products over others.\n5\nConclusion\nThis paper shows that attribute-based regulation is an imperfect substitute for ﬂat policies\nwith compliance trading. The key drawback to attribute basing is that it creates distor-\ntions in the attribute, and we show that those distortions are greater when the attribute is\nmore responsive to policy. Empirically we demonstrate that those distortions are substan-\ntial for the case of weight-based fuel-economy regulations in Japan. Attribute basing may\nhave appeal when it is used to achieve distributional goals, or when compliance trading is\nunavailable. Regarding the latter, for the Japanese tax policy we consider, attribute basing\nis signiﬁcantly more eﬃcient than a ﬂat standard without trading, but it is twice as costly\nas a ﬂat standard with compliance trading.\n42\n\u0004\u0005\u0006\u0007\u0005\b\u0003\t\n\u0003"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper studies attribute-based regulation, where the stringency of a standard depends on a secondary characteristic of the regulated object.",
+      "Which papers are treated as the nearest neighbors: work on fuel-economy standards, regulation design, and bunching."
+    ],
+    "session": [
+      "Retrieve by key/title: BWI7CWGM / The Economics of Attribute-Based Regulation: Theory and Evidence from Fuel Economy Standards",
+      "Use collections and journal handles: Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Ito & Sallee, 2018) / Ito and Sallee (2018)"
+    ],
+    "agent": [
+      "Research design type: theory plus quasi-experimental evidence.",
+      "Check how the paper modifies or simplifies canonical BLP before borrowing its structure."
+    ],
+    "team": [
+      "Best framing sentence pattern: \"The target of the regulation is not the only margin that matters.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

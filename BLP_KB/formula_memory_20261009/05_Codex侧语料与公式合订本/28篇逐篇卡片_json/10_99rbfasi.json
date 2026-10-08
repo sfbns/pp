@@ -1,0 +1,175 @@
+{
+  "rank": 10,
+  "item_key": "99RBFASI",
+  "title": "Fiscal Policy and CO2 Emissions of New Passenger Cars in the EU",
+  "authors": [
+    "Reyer Gerlagh",
+    "Inge van den Bijgaart",
+    "Hans Nijland",
+    "Thomas Michielsen"
+  ],
+  "creators": [
+    {
+      "name": "Reyer Gerlagh",
+      "type": "author"
+    },
+    {
+      "name": "Inge van den Bijgaart",
+      "type": "author"
+    },
+    {
+      "name": "Hans Nijland",
+      "type": "author"
+    },
+    {
+      "name": "Thomas Michielsen",
+      "type": "author"
+    }
+  ],
+  "date": "2018-00-00 2018",
+  "journal": "Environmental and Resource Economics",
+  "doi": "10.1007/s10640-016-0067-6",
+  "url": "https://link.springer.com/article/10.1007/s10640-016-0067-6",
+  "collections": [
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "BLP-adjacent structural policy model",
+  "apa_citation": {
+    "reference": "Gerlagh, R., Bijgaart, I. v. d., Nijland, H., & Michielsen, T. (2018). Fiscal Policy and CO2 Emissions of New Passenger Cars in the EU. Environmental and Resource Economics. https://doi.org/10.1007/s10640-016-0067-6",
+    "parenthetical": "(Gerlagh et al., 2018)",
+    "narrative": "Gerlagh et al. (2018)"
+  },
+  "preferred_pdf_rel": "source_pdfs/10_99rbfasi.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "2SS2BB4X",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:s10640-016-0067-6.pdf.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\2SS2BB4X\\s10640-016-0067-6.pdf.pdf",
+    "exists": true,
+    "size": 1453096
+  },
+  "legacy_note_rel": "raw/notes/10_99rbfasi.md",
+  "legacy_old_memory_rel": "raw/paper_memory/10_99rbfasi.md",
+  "fulltext_json_rel": "raw/fulltext/10_99rbfasi.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/10_99rbfasi.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper studies how different fiscal policies change the CO2 intensity of new passenger cars in the EU.\n- It finds that registration taxes with stronger CO2 sensitivity reduce emissions intensity, while fuel taxes also push toward more efficient cars.\n- Annual road taxes, by contrast, have little or even adverse effect.",
+    "2. Story ladder": "- Real-world tension or puzzle: EU countries use several car taxes, but their emissions effects are not the same.\n- Why the puzzle matters now: climate policy needs to know which tax margin actually changes vehicle choices.\n- What the literature already explains: car taxation should affect efficiency and fuel mix, but evidence is fragmented.\n- What is still missing or weakly identified: a comparative estimate across registration, fuel, and annual taxes.\n- The paper's move: evaluate those fiscal instruments in a common EU car-market framework.\n- Main payoff: not all car taxes are equal; some are much better aligned with CO2 goals.",
+    "3. Model or identification core": "- Research design type: comparative policy evaluation with market-level CO2 outcomes.\n- Structural model class or reduced-form design: vehicle-choice framework linking taxes to vehicle attributes.\n- Key equations or choice objects: new-car choice over emissions, fuel type, and other specifications.\n- Endogeneity problem: tax regimes co-evolve with consumer demand and policy goals.\n- Identification strategy: exploit cross-country and policy variation in fiscal instruments.\n- What assumptions are doing the heavy lifting: comparability across markets and stable response to tax incentives.",
+    "4. Data and measurement": "- Unit of observation: new passenger cars.\n- Market definition: EU passenger-car markets.\n- Main dependent variable: CO2 intensity of the average new car.\n- Core explanatory variables: registration taxes, fuel taxes, and annual road taxes.\n- Instruments / moments / shocks: policy variation across countries and time.\n- Important sample restrictions: new cars in the EU; precise country coverage is in the paper, but the OCR read was clear on the main design.",
+    "5. Findings and mechanisms": "- Baseline result: higher CO2-sensitivity of registration taxes reduces CO2 intensity by about 1.3%.\n- Mechanism evidence: the same policy increases diesel share by about 6.5 percentage points.\n- Heterogeneity evidence: higher fuel taxes also induce more efficient cars, while higher diesel fuel taxes reduce diesel share.\n- Welfare or counterfactual result: annual road taxes show little or negative effect on CO2 intensity.\n- Limits the authors admit: policy effects differ by tax type, so no single fiscal instrument is dominant in every context.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: vehicle-tax policy, fuel-demand, and emissions studies.\n- What exact gap the authors claim: previous work has not cleanly compared the emissions effects of the full tax menu.\n- How the introduction stages novelty: by focusing on fiscal policy instruments rather than a single regulation.\n- Whether the contribution is data, method, theory, policy, or a combination: policy comparison with reduced-form evidence.",
+    "7. Literature review function": "- Where the review sits: early introduction before the empirical specification.\n- How the review is organized: fiscal policy, emissions outcomes, and vehicle substitution.\n- Which citations do positioning work: car-tax and CO2-policy papers.\n- Which citations do method-validation work: market-level vehicle-choice studies.",
+    "8. Writing structure map": "- Introduction move sequence: emissions problem -> tax toolkit -> comparison gap -> result summary.\n- Section order: policy context, empirical design, results, robustness, conclusion.\n- Where the paper turns from setup to payoff: when registration taxes are shown to beat annual taxes on CO2 alignment.\n- How tables/figures are used to move the argument: results tables and policy-comparison figures likely do the heavy lifting; OCR was clear on the headline estimates.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"The question is not whether taxes matter, but which tax margin matters.\"\n- Best transition pattern: move from policy inventory to instrument comparison.\n- Best contribution sentence pattern: \"We compare the emissions effects of the main fiscal tools in one market.\"\n- Best limitation or implication move: \"A tax instrument is only as good as the margin it actually changes.\"",
+    "10. Memory update": "- Durable economics-writing principle: policy menus should be evaluated instrument by instrument, not as a single lump.\n- Durable structural-model principle: CO2 outcomes are mediated by substitution toward fuel type and vehicle efficiency.\n- Reusable empirical design idea: compare policy types that target the same market but different choice margins.\n- Follow-up paper to pair with this one: a cross-country comparison of registration taxes versus feebates on vehicle emissions."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_99rbfasi_fiscal-policy-and-co2-emissions-of-new-passenger-cars-in-the-eu\ndescription: Fulltext memory for Fiscal Policy and CO2 Emissions of New Passenger Cars in the EU; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# Fiscal Policy and CO2 Emissions of New Passenger Cars in the EU",
+    "Citation": "- Key: `99RBFASI`\n- DOI: `10.1007/s10640-016-0067-6`\n- Journal: Environmental and Resource Economics\n- Year: 2018\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\99RBFASI.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/99RBFASI/99RBFASI.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/99RBFASI.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- To what extent have national fiscal policies contributed to the decarbonisation of newly sold passenger cars?",
+    "Story Logic": "- 故事起点：To what extent have national fiscal policies contributed to the decarbonisation of newly sold passenger cars?\n- 制度/市场切口：First, we use a large database of vehicle-specific taxes in 15 EU countries over 2001-2010 to construct a measure for the vehicle registration and annual road tax levels, and separately, for the $$\\hbox {CO}_{2}$$ sensitivity of these taxes.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：First, we use a large database of vehicle-specific taxes in 15 EU countries over 2001-2010 to construct a measure for the vehicle registration and annual road tax levels, and separately, for the $$\\hbox {CO}_{2}$$ sensitivity of these taxes.",
+    "BLP Model Memory": "- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: bertrand, welfare, instrument\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 论文明确把模型用于税收、补贴、禁令、标签或进入政策的反事实分析。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 1 See European Commission (2016).\n- 4 Data\n- 3 Model\n- 6 Results\n- 7 Discussion\n- Fiscal Policy and \\mathbf { C O } _ { 2 } Emissions of New Passenger Cars in the EU\n- Reyer Gerlagh1 Inge van den Bijgaart1,4 Hans Nijland2 Thomas Michielsen3\n- Accepted: 23 September 2016\n- CrossMark\n- 1 Tilburg University, Tilburg, Netherlands\n- 2 PBL Netherlands Environmental Assessment Agency, The Hague, Netherlands",
+    "Reusable Writing Moves": "- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 正文常见顺序是“模型设定 -> 识别/估计 -> 结果 -> 政策反事实”，避免一上来就堆公式。",
+    "OCR Anchors": "- introduction: `1 Introduction` (p.1) - 1 Introduction Transport accounts for about 23 % of energy-related \\mathrm { C O } _ { 2 } emissions (Sims and Schaeffer 2014), and 15 % of global greenhouse gas emissions (Blanco et al. 2014).\n- background: `1 See European Commission (2016).` (p.1) - 1 See European Commission (2016). 2 See Figs.\n- data: `4 Data` (p.6) - 4 Data Here we describe the data used for the empirical analysis. The dependent variable of interest is the average \\mathrm { C O } _ { 2 } intensity of newly purchased vehicles, which depends on substitution patterns between more and less fuel efficient cars, but also on common fuel efficiency improvements over all cars, which in our econometric strategy is absorbed by time fixed effects.\n- model: `3 Model` (p.4) - 3 Model We illustrate the effect of vehicle purchase taxes on the average emission intensity with a simple model. We consider two car types.\n- results: `6 Results` (p.12) - 6 Results\n- conclusion: `7 Discussion` (p.19) - 7 Discussion We find empirical evidence that fiscal vehicle policies significantly affect emission intensities of new bought cars. A greater \\mathrm { C O } _ { 2 } -sensitivity of registration taxes lead to the purchase of more fuel-efficient cars.",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- The paper studies how different fiscal policies change the CO2 intensity of new passenger cars in the EU.\n- It finds that registration taxes with stronger CO2 sensitivity reduce emissions intensity, while fuel taxes also push toward more efficient cars.\n- Annual road taxes, by contrast, have little or even adverse effect.\n\n- Real-world tension or puzzle: EU countries use several car taxes, but their emissions effects are not the same.\n- Why the puzzle matters now: climate policy needs to know which tax margin actually changes vehicle choices.\n- What the literature already explains: car taxation should affect efficiency and fuel mix, but evidence is fragmented.\n- What is still missing or weakly identified: a comparative estimate across registration, fuel, and annual taxes.\n- The paper's move: evaluate those fiscal instruments in a common EU car-market framework.\n- Main payoff: not all car taxes are equal; some are much better aligned with CO2 goals.\n\n- Research design type: comparative policy evaluation with market-level CO2 outcomes.\n- Structural model class or reduced-form design: vehicle-choice framework linking taxes to vehicle attributes.\n- Key equations or choice objects: new-car choice over emissions, fuel type, and other specifications.\n- Endogeneity problem: tax regimes co-evolve with consumer demand and policy goals.\n- Identification strategy: exploit cross-country and policy variation in fiscal instruments.\n- What assumptions are doing the heavy lifting: comparability across markets and stable response to tax incentives.\n\n- Unit of observation: new passenger cars.\n- Market definition: EU passenger-car markets.\n- Main dependent variable: CO2 intensity of the average new car.\n- Core explanatory variables: registration taxes, fuel taxes, and annual road taxes.\n- Instruments / moments / shocks: policy variation across countries and time.\n- Important sample restrictions: new cars in the EU; precise country coverage is in the paper, but the OCR read was clear on the main design.\n\n- Which papers are treated as the nearest neighbors: vehicle-tax policy, fuel-demand, and emissions studies.\n- What exact gap the authors claim: previous work has not cleanly compared the emissions effects of the full tax menu.\n- How the introduction stages novelty: by focusing on fiscal policy instruments rather than a single regulation.\n- Whether the contribution is data, method, theory, policy, or a combination: policy comparison with reduced-form evidence.\n\n- Where the review sits: early introduction before the empirical specification.\n- How the review is organized: fiscal policy, emissions outcomes, and vehicle substitution.\n- Which citations do positioning work: car-tax and CO2-policy papers.\n- Which citations do method-validation work: market-level vehicle-choice studies.",
+  "baseline_core_memory": "- Research design type: comparative policy evaluation with market-level CO2 outcomes.\n- Structural model class or reduced-form design: vehicle-choice framework linking taxes to vehicle attributes.\n- Key equations or choice objects: new-car choice over emissions, fuel type, and other specifications.\n- Endogeneity problem: tax regimes co-evolve with consumer demand and policy goals.\n- Identification strategy: exploit cross-country and policy variation in fiscal instruments.\n- What assumptions are doing the heavy lifting: comparability across markets and stable response to tax incentives.\n\n- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: bertrand, welfare, instrument\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 论文明确把模型用于税收、补贴、禁令、标签或进入政策的反事实分析。",
+  "mechanism_memory": "- Baseline result: higher CO2-sensitivity of registration taxes reduces CO2 intensity by about 1.3%.\n- Mechanism evidence: the same policy increases diesel share by about 6.5 percentage points.\n- Heterogeneity evidence: higher fuel taxes also induce more efficient cars, while higher diesel fuel taxes reduce diesel share.\n- Welfare or counterfactual result: annual road taxes show little or negative effect on CO2 intensity.\n- Limits the authors admit: policy effects differ by tax type, so no single fiscal instrument is dominant in every context.\n\n- 故事起点：To what extent have national fiscal policies contributed to the decarbonisation of newly sold passenger cars?\n- 制度/市场切口：First, we use a large database of vehicle-specific taxes in 15 EU countries over 2001-2010 to construct a measure for the vehicle registration and annual road tax levels, and separately, for the $$\\hbox {CO}_{2}$$ sensitivity of these taxes.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：First, we use a large database of vehicle-specific taxes in 15 EU countries over 2001-2010 to construct a measure for the vehicle registration and annual road tax levels, and separately, for the $$\\hbox {CO}_{2}$$ sensitivity of these taxes.",
+  "result_memory": "- Baseline result: higher CO2-sensitivity of registration taxes reduces CO2 intensity by about 1.3%.\n- Mechanism evidence: the same policy increases diesel share by about 6.5 percentage points.\n- Heterogeneity evidence: higher fuel taxes also induce more efficient cars, while higher diesel fuel taxes reduce diesel share.\n- Welfare or counterfactual result: annual road taxes show little or negative effect on CO2 intensity.\n- Limits the authors admit: policy effects differ by tax type, so no single fiscal instrument is dominant in every context.\n\n- Results anchor: literature: ﬁrst, unlike most studies, our study deals with the effects of car taxes in multiple\n- Conclusion anchor: emissions for the diesel ﬂeet but also induce substi-",
+  "writing_style_memory": "- Introduction move sequence: emissions problem -> tax toolkit -> comparison gap -> result summary.\n- Section order: policy context, empirical design, results, robustness, conclusion.\n- Where the paper turns from setup to payoff: when registration taxes are shown to beat annual taxes on CO2 alignment.\n- How tables/figures are used to move the argument: results tables and policy-comparison figures likely do the heavy lifting; OCR was clear on the headline estimates.\n\n- Best framing sentence pattern: \"The question is not whether taxes matter, but which tax margin matters.\"\n- Best transition pattern: move from policy inventory to instrument comparison.\n- Best contribution sentence pattern: \"We compare the emissions effects of the main fiscal tools in one market.\"\n- Best limitation or implication move: \"A tax instrument is only as good as the margin it actually changes.\"\n\n- Durable economics-writing principle: policy menus should be evaluated instrument by instrument, not as a single lump.\n- Durable structural-model principle: CO2 outcomes are mediated by substitution toward fuel type and vehicle efficiency.\n- Reusable empirical design idea: compare policy types that target the same market but different choice margins.\n- Follow-up paper to pair with this one: a cross-country comparison of registration taxes versus feebates on vehicle emissions.\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 1 See European Commission (2016).\n- 4 Data\n- 3 Model\n- 6 Results\n- 7 Discussion\n- Fiscal Policy and \\mathbf { C O } _ { 2 } Emissions of New Passenger Cars in the EU\n- Reyer Gerlagh1 Inge van den Bijgaart1,4 Hans Nijland2 Thomas Michielsen3\n- Accepted: 23 September 2016\n- CrossMark\n- 1 Tilburg University, Tilburg, Netherlands\n- 2 PBL Netherlands Environmental Assessment Agency, The Hague, Netherlands\n\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 正文常见顺序是“模型设定 -> 识别/估计 -> 结果 -> 政策反事实”，避免一上来就堆公式。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "counterfactual",
+    "welfare",
+    "policy analysis",
+    "identification strategy",
+    "instrumental variable",
+    "gmm",
+    "equilibrium",
+    "substitution",
+    "markup",
+    "market definition",
+    "heterogeneity",
+    "fuel economy",
+    "consumer demand",
+    "differentiated product"
+  ],
+  "fulltext_headings": [
+    "Environ Resource Econ",
+    "Fiscal Policy and CO2 Emissions of New Passenger Cars",
+    "Accepted: 23 September 2016",
+    "B Reyer Gerlagh",
+    "Tilburg University, Tilburg, Netherlands",
+    "PBL Netherlands Environmental Assessment Agency, The Hague, Netherlands",
+    "CPB Netherlands Bureau for Economic Policy Analysis, The Hague, Netherlands",
+    "University of Gothenburg, Gothenburg, Sweden",
+    "1 Introduction",
+    "Directive 1999/94/EC obliges Member States to provide this information and to transpose",
+    "Over the past years, many EU countries implemented the third strategy pillar, by green-",
+    "Also the level of, as well as the decline in, the emission intensity of newly purchased cars",
+    "After presenting the model, we build a dataset in which we compare vehicle tax systems",
+    "Germany, Italy, Luxembourg, Sweden, United Kingdom), while Spain has low purchase taxes",
+    "Our research has three characteristics, which, combined, make it unique and add to existing",
+    "2 Literature",
+    "3 Model",
+    "We illustrate the effect of vehicle purchase taxes on the average emission intensity with a",
+    "We are interested in the effect of changes in car taxes on the average CO2 intensity of the car",
+    "Proof The policy in the proposition increases the price of the relatively emission-intensive",
+    "Indeed, Bordley (1993) obtains higher (Hicksian) price elasticities for luxury car segments,",
+    "4 Data",
+    "4.1 Data Sources",
+    "The dataset from Campestrini and Mock (2011) contains information on the CO2 intensity"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 1,
+      "snippet": "the EU\nReyer Gerlagh1 · Inge van den Bijgaart1,4 ·\nHans Nijland2 · Thomas Michielsen3\nAccepted: 23 September 2016\n© The Author(s) 2016. This article is published with open access at Springerlink.com\nAbstract To what extent have national ﬁscal policies contributed to the decarbonisation of\nnewly sold passenger cars? We construct a simple model that generates predictions regarding\nthe effect of ﬁscal policies on average CO2 emissions of new cars, and then test the model\nempirically. Our empirical strategy combines a diverse series of data. First, we use a large\ndatabase of vehicle-speciﬁc taxes in 15 EU countries over 2001–2010 to construct a measure\nfor the vehicle registration and annual road tax levels, and separately, for the CO2 sensitivity\nof these taxes. We ﬁnd that for many countries the ﬁscal policies have become more sensitive\nto CO2 emissions of new cars. We then use these constructed measures to estimate the effect\nof ﬁscal policies on the CO2 emissions of the new car ﬂeet."
+    },
+    "data": {
+      "page": 1,
+      "snippet": "model that generates predictions regarding\nthe effect of ﬁscal policies on average CO2 emissions of new cars, and then test the model\nempirically. Our empirical strategy combines a diverse series of data. First, we use a large\ndatabase of vehicle-speciﬁc taxes in 15 EU countries over 2001–2010 to construct a measure\nfor the vehicle registration and annual road tax levels, and separately, for the CO2 sensitivity\nof these taxes. We ﬁnd that for many countries the ﬁscal policies have become more sensitive\nto CO2 emissions of new cars. We then use these constructed measures to estimate the effect\nof ﬁscal policies on the CO2 emissions of the new car ﬂeet. The increased CO2-sensitivity of\nregistration taxes have reduced the CO2 emission intensity of the average new car by 1.3%,\npartly through an induced increase of the share of diesel-fuelled cars by 6.5 percentage points.\nHigher fuel taxes lead to the purchase of more fuel efﬁcient cars, but higher diesel fuel taxes\nalso decrease the shar"
+    },
+    "model": {
+      "page": 1,
+      "snippet": "s article is published with open access at Springerlink.com\nAbstract To what extent have national ﬁscal policies contributed to the decarbonisation of\nnewly sold passenger cars? We construct a simple model that generates predictions regarding\nthe effect of ﬁscal policies on average CO2 emissions of new cars, and then test the model\nempirically. Our empirical strategy combines a diverse series of data. First, we use a large\ndatabase of vehicle-speciﬁc taxes in 15 EU countries over 2001–2010 to construct a measure\nfor the vehicle registration and annual road tax levels, and separately, for the CO2 sensitivity\nof these taxes. We ﬁnd that for many countries the ﬁscal policies have become more sensitive\nto CO2 emissions of new cars. We then use these constructed measures to estimate the effect\nof ﬁscal policies on the CO2 emissions of the new car ﬂeet. The increased CO2-sensitivity of\nregistration taxes have reduced the CO2 emission intensity of the average new car by 1.3%,\npartly through a"
+    },
+    "results": {
+      "page": 3,
+      "snippet": "existing\nliterature: ﬁrst, unlike most studies, our study deals with the effects of car taxes in multiple\ncountries, thus controlling for year-speciﬁc effects. This makes it easier to generalize our\nresults. Second, unlike most studies, our study jointly considers three different types of car-\nrelated taxes, i.e. registration taxes, road taxes and fuel taxes. This allows for a better insight\nin the effect of different components of car-related taxes. Third, we provide a method to\ndecompose registration taxes in two parts: the ﬁrst part measures the level while the second\npart measures the CO2-sensitivity. The decomposition allows for a richer analysis.\nWe ﬁnd empirical evidence that ﬁscal vehicle policies signiﬁcantly affect emission inten-\nsities of new bought cars. We ﬁnd evidence that especially the CO2-sensitivity of registration\ntaxes and the level of the fuel taxes are important determinants of the emission intensity of new\ncars. The diesel–petrol substitution induced by changes"
+    },
+    "conclusion": {
+      "page": 20,
+      "snippet": "emissions for the diesel ﬂeet but also induce substi-\ntution of petrol cars for diesel cars. The ﬁnding is consistent with Ryan et al. (2009), but a\nsubtle and important distinction from the general conclusion in the literature that higher petrol\nprices tend to lead to more fuel efﬁcient cars (Davis and Kilian 2011; Burke and Nishitateno\n2013; Klier and Linn 2013).\nThere is a clear positive potential for ﬁscal instruments as part of the set of policy mea-\nsures aimed at reducing CO2 emissions from cars.30 Our ﬁndings thus support the European\nCommission’s third policy pillar. Yet, we should not overstate the contribution of registration\ntaxes. The overall effect of the registration tax changes that we identify, a 1.3% improvement\nof fuel efﬁciency, is small compared to the overall achievement over the period observed\n(Fig. 1). Innovation and other policy instruments have played a substantial role. In that con-\ntext, it is important to understand that various policy instruments can str"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper studies how different fiscal policies change the CO2 intensity of new passenger cars in the EU.",
+      "Which papers are treated as the nearest neighbors: vehicle-tax policy, fuel-demand, and emissions studies."
+    ],
+    "session": [
+      "Retrieve by key/title: 99RBFASI / Fiscal Policy and CO2 Emissions of New Passenger Cars in the EU",
+      "Use collections and journal handles: Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Gerlagh et al., 2018) / Gerlagh et al. (2018)"
+    ],
+    "agent": [
+      "Research design type: comparative policy evaluation with market-level CO2 outcomes.",
+      "BLP positioning: BLP-adjacent structural policy model"
+    ],
+    "team": [
+      "Best framing sentence pattern: \"The question is not whether taxes matter, but which tax margin matters.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

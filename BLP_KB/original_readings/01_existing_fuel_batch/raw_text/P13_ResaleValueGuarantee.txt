@@ -1,0 +1,1037 @@
+
+
+===== [PAGE 1] =====
+
+Vol.:(0123456789)
+Annals of Operations Research
+https://doi.org/10.1007/s10479-020-03901-4
+1 3
+S.I.: INFORMATION- TRANSPARENT SUPPLY CHAINS
+Resale value guaranteed strategy, information sharing 
+and electric vehicles adoption
+Xiang Zhang1,2,3,4   · Chenguang Zhao1
+Accepted: 8 December 2020 
+© The Author(s), under exclusive licence to Springer Science+Business Media, LLC part of Springer Nature 2021
+Abstract
+A resale value guaranteed (RVG) strategy has emerged as a novel way to alleviate EV pur-
+chasers’ resale anxiety. However, certain questions, such as when to initiate a RVG strategy 
+and whether to share information with supply chain partners, are unanswered. In this study, 
+we aim to investigate the impacts of a RVG strategy and reliability of a RVG decision on 
+EV adoption and supply chain performance. We develop analytical models to analyze the 
+optimal RVG strategy in asymmetric versus symmetric information situations, using the 
+traditional business model as a benchmark. The results indicate that a RVG strategy can be 
+an effective way to increase supply chain profits for products that are subject to a degree of 
+resale anxiety, trade-in cost, and the reliability of the manufacturer’s commitments. Incen-
+tives provided by one party to the other can be utilized to encourage information sharing. 
+However, information sharing does not necessarily lead to higher sales volume.
+Keywords  Electric vehicle · Resale anxiety · Resale value guaranteed · Information 
+sharing · Decision reliability
+1  Introduction
+Promoting electric vehicles (EVs) is an integral part of worldwide efforts to cope with 
+global climate change and sustain both the automotive and transportation industries (Sper-
+ling and Gordon 2009; Zhang and Bai 2017; Zhang et al. 2018). However, EVs depreciates 
+ *	 Xiang Zhang 
+	
+xiangzhang@bit.edu.cn
+	
+Chenguang Zhao 
+	
+zcg729@163.com
+1	
+School of Management and Economics, Beijing Institute of Technology, 5# Zhong‑guan‑cun South 
+Street, Haidian District, Beijing 100081, China
+2	
+Sustainable Development Research Institute for Economy and Society of Beijing, Beijing 100081, 
+China
+3	
+Beijing Key Laboratory of Energy Economics and Environmental Management, Beijing 100081, 
+China
+4	
+Center for Energy and Environmental Policy Research, Beijing Institute of Technology, 
+Beijing 100081, China
+
+
+===== [PAGE 2] =====
+
+	
+Annals of Operations Research
+1 3
+much more rapidly than petrol and diesel cars.1 On average, the resale price of current 
+mainstream EVs in China is only about 32% of its original price.2 The rapid depreciation 
+of an EV’s value can easily generate EV purchasers’ resale anxiety (Lim et al. 2015) which 
+refers to consumers’ concern about the accelerated loss of the future value of used EVs. A 
+recent survey shows that resale anxiety has become one of obstacles to mass adoption of 
+EVs (Zheng et al. 2020).
+To counteract resale anxiety, some EV makers have initiated resale value guaranteed 
+(RVG) strategy in an attempt to eliminate consumers’ resale anxiety. A RVG strategy refers 
+to a product return program that allows EV consumers to sell back their used cars at a 
+guaranteed price to the original manufacturer. For example, Audi announced that it would 
+buy back the all-electric “e-tron” car in China for up to 55% of its original retail price.3 
+Companies like Tesla, BYD and Venucia have also announced their own RVG policies. 
+However, implementation of a RVG strategy involves additional costs, and the need to con-
+sider dealers’ responses. This study will demonstrate that the reliability and accuracy of 
+manufacturers’ decisions concerning a RVG strategy are closely related to whether dealers 
+share information about consumers’ resale anxiety. Consumers’ resale anxiety information 
+in this study does not refer to individual consumer’s private information, but to general 
+information that helps estimate the parameters of a demand function. Purchasing used EVs 
+with the involvement of the dealer leads to additional expenditure that could otherwise be 
+used to deliver other essential services or products. Hence the following questions naturally 
+arise in a RVG strategy study: (1) When can a RVG strategy bring more profits to the sup-
+ply chain? (2) Is it necessary to incentivize the dealer to share consumers’ information? 
+(3) Can the supply chain sell more EVs with information sharing than in an asymmetric 
+information situation?
+Previous studies provide no clear answers to these questions. Broadly speaking, a RVG 
+strategy provides a kind of insurance against potential customer dissatisfaction with the 
+purchased product. As such, a RVG strategy is similar to a money-back guarantee (MBG), 
+which has been the subject of much marketing and economics research (Moorthy and 
+Srinivasan 1995; McWilliams 2012) and, more recently, operations management (OM) 
+area (Akçay et al. 2013). OM researchers are more concerned with consumers’ valuations 
+(Hsiao and Chen 2012), and their impacts on ordering (or stocking) strategy (Akçay et al. 
+2013) and channel strategy (Chen and Chen 2017). However, the literature on money-back 
+guarantees does not consider information sharing. When information has been the subject 
+of research, there has been very little investigation of the impacts of information reliability 
+on supply chain performance when information is shared between supply chain partners, 
+and nothing on how it affects EV adoption in practice.
+In this study, we aim to investigate the impacts of a RVG strategy and reliability of 
+a RVG decision on EV adoption and supply chain performance. We develop analytical 
+models with the aim of finding the optimal RVG strategy in asymmetric versus symmetric 
+information situations, using the traditional business model as a benchmark. The results of 
+1  Diss, K. The big problem with electric vehicle resale prices compared to petrol, diesel and hybrid cars. 
+Retrieved February 6, 2018, from https​://www.abc.net.au/news/2018-02-06/elect​ric-vehic​le-resal​e-price​
+-compa​red-to-petro​l-diese​l-hybri​d/93801​86.
+2  2019 Annual Report on Resale Value of Automobile in China (2019 中国汽车保值率报告). Accessed on 
+July 2, 2020 at https​://www.sohu.com/a/29866​1196_37277​7.
+3  Source: 
+https​://www.audi.cn/cn/web/zh/audi_used_car/trade​_in.html 
+and 
+http://www.eeo.com.
+cn/2019/1120/36989​1.shtml​.
+
+
+===== [PAGE 3] =====
+
+Annals of Operations Research	
+1 3
+our analysis demonstrate that a RVG strategy can be an effective way to increase supply 
+chain profits for products that are subject to a degree of resale anxiety, trade-in cost, and 
+the reliability of the manufacturer’s commitments. Incentives provided by one party to the 
+other can be utilized to encourage information sharing. However, information sharing does 
+not necessarily lead to higher sales volume. Our results highlight the interdependence of 
+resale anxiety and the reliability of decisions made in the supply chain when a RVG strat-
+egy is implemented.
+The rest of this paper is organized as follows. Section  2 reviews relevant literature 
+in both related money-back guarantees research and supply chain information shar-
+ing research. Section 3 develops the noncooperative game models used in our analysis. 
+Section 4 examines and summarizes optimal strategies in different situations. Section 5 
+explores further managerial insights using numeric experiments. Finally, Sect. 6 concludes 
+with suggestions for future research.
+2  Research background and literature review
+Implementing a resale value guaranteed strategy has emerged as a new way to alleviate 
+consumers’ resale anxiety. Our research of RVG strategy mostly relates to three areas: 
+money-back guarantee, information sharing, and resale anxiety.
+In the money-back guarantee literature, Hsiao and Chen (2012) investigate the rationale 
+behind the different return policies of Internet sellers. Their analysis shows that a MBG 
+policy is necessary only when consumers have a higher “hassle cost”, and when the seller 
+is thought to take high-quality risk may offer higher-than-price refund. Akçay et al. (2013) 
+propose a model to identify the impacts of MBG policies on sales quantity, price, and 
+firms’ performance. They show that a MBG policy can increase sales and profit for the 
+dealer, while the resale of returned products can decrease stocking levels. Chen and Chen 
+(2017) study MBG policy as a channel selection problem. They propose that the dealer 
+should offer a MBG as long as the salvage value of the returned goods in a channel is posi-
+tive. MBGs in these studies are initiated by the dealer, because the dealer possesses more 
+market information, and most of MBG-covered products are fast-moving consumer goods. 
+However, in the EV industry, a RVG strategy is normally initiated by the EV makers, as 
+they are more motivated to sell EVs and have more capacity to reallocate the returned vehi-
+cles to other businesses, such as leasing.
+Few researchers have studied the impacts of MBG on manufacturers’ operational per-
+formance. There are notable exceptions. Crocker and Letizia (2014) propose that the opti-
+mal return policy for a manufacturer is to refund the full wholesale price for any returns, 
+together with a bonus paid to the dealer. Li et al. (2018) propose a dual-channel supply 
+chain, with the manufacturer selling both high- and low-quality products. Letizia et  al. 
+(2018) further show that flexibility in reducing returns through a dual channel structure 
+can be the most profitable way for the manufacturer. However, information sharing is not 
+a focus of their research. In fact, few current MBG studies consider information sharing 
+as an influential factor. Information sharing is a concern, because manufacturers who are 
+considering a RVG or MBG policy are not close to the market, and have to contend with 
+absent or unreliable consumer information.
+The second category of related literature is in the field of information sharing. The 
+research into information sharing in business has a long history. In general, it has been 
+shown that firms can benefit from information sharing if prices and ordering information 
+
+
+===== [PAGE 4] =====
+
+	
+Annals of Operations Research
+1 3
+are set collusively. The economic value of information sharing is derived from a properly 
+designed sharing mechanism (Clarke 1983). Hence many efforts have been made to con-
+struct such effective mechanisms so as to encourage information sharing alone the supply 
+chain. A stream of researchers has shown that some signals concerning advance quantity 
+commitments (Li et al. 2014; Özer and Wei 2006), production capacity (Liu et al. 2020a, 
+b), cheap talk (Chu et al. 2017), or supply chain contracts (Ha and Tong 2008), are helpful 
+in designing effective information sharing mechanisms. Other researchers demonstrate that 
+incentives such as side payments can be effective in encouraging the dealer to share market 
+information (Jiang and Hao 2016; Zhang 2002). Sometime the dealer may voluntarily share 
+his or her private market information with the manufacturer when the dealer has imperfect 
+demand information and there is a significant level of market demand uncertainty (Li and 
+Zhang 2015).
+All these studies share a common assumption that decisions made on the information 
+that will be shared is reliable. However, this might not always be the case, and inaccu-
+rate information could lead to unreliable decision. Chen et al. (2001) study two competing 
+firms, and show that imperfect targeting of consumers’ information and unreliable demand 
+information can adversely affect firms’ competitive strategies. We take a different angle 
+by studying a supply chain that consists of one EV maker and one dealer, to investigate 
+whether information sharing is beneficial to the implementation of a RVG strategy. In addi-
+tion, the EV industry is different from the subjects of the research cite above with addi-
+tional consideration of resale anxiety and reliability of decisions, which have significant 
+impacts on the demand function and operational performance.
+The third related area considers EV resale anxiety. In psychology, anxiety is consid-
+ered to be one of the sources of consumer prejudice, and the existence of such prejudice 
+often leads to negative results (Svenson 1981; Taylor and Brown 1988). In the EV industry, 
+resale anxiety arises from consumers’ concerns about the rapid depreciation of an EV’s 
+value. Although the negative impacts of resale anxiety have been widely reported, it is only 
+recently that resale anxiety has been captured in OM research. Lim et al. (2015) take resale 
+anxiety to be the main influencing on people choosing between different EV battery mod-
+els. In this paper, we consider the influence of resale anxiety on the reliability of decision 
+making in the EV supply chain implementing a RVG strategy.
+3  The model
+Consider a supply chain selling a type of EV. A risk neutral manufacturer produces EVs at 
+a constant marginal cost c. A risk neutral dealer orders EVs from the manufacturer using a 
+wholesale contract. The supply chain partners seek to maximize their own profits in asym-
+metry versus symmetry information situations.
+We take as a benchmark the traditional selling business, in which demand is influenced 
+by consumers’ resale anxiety which has significant negative impacts on the adoption of 
+EVs. In the traditional selling business, there is no resale value guarantee. Since RVGs or 
+return policies and the like are, in general, valued by consumers and can influence demand 
+as much as does price elasticity (Ketzenberg and Zuidwijk 2009), we separate resale anxi-
+ety from price elasticity. Let qs be the market demand. Then, qs can be written as 
+qs = a −bps −훽ps , where a is the initial market size, b the elasticity of demand to the 
+dealer’s unit selling price, ps, and β the degree of devaluation due to resale anxiety, 
+
+
+===== [PAGE 5] =====
+
+Annals of Operations Research	
+1 3
+0 ≤ β < 1. The item −βps captures the negative impact of resale anxiety on EV demand. Let 
+πsr be the dealer’s profit in the traditional selling business. Let w be the wholesale price. 
+Then the dealer’s profit function can be written as 휋sr = (ps −w)qs . Let πsm be the manu-
+facturer’s profit in the traditional selling business. With a wholesale contract, the manufac-
+turer’s profit function is 휋sm = (w −c)qs . It is easy to see that, in the traditional selling 
+business, the optimal wholesale price is w∗
+s = a+(b+훽)c
+2(b+훽)  , the optimal selling price is 
+p∗
+s = 3a+(b+훽)c
+4(b+훽)  , the optimal sales volume is q∗
+s = a−(b+훽)c
+4
+ , and the maximum profit for the 
+manufacture and the retailer are 휋∗
+sm = (a−(b+훽)c)2
+8(b+훽)  and 휋∗
+sr = (a−(b+훽)c)2
+16(b+훽)  , respectively.
+Next, we present a model that incorporates a RVG strategy to analyze when it is benefi-
+cial for the manufacturer to initiate such a strategy. Normally, a RVG strategy is initiated 
+by the manufacturer because they have more capacity to deploy the returned EVs to other 
+businesses (such as leasing businesses). Once the RVG strategy is initiated, the manufac-
+turer can be sure that consumers’ resale anxiety will be alleviated. Let qr be the corre-
+sponding demand. Let pr be the dealer’s unit selling price in the RVG scenario. Then the 
+demand is qr = a −bpr if a RVG is initiated. Whether the manufacturer initiates the RVG 
+strategy depends on whether it is more profitable than the traditional selling model. The 
+profits arising from a RVG strategy largely depends on how well the manufacturer knows 
+consumers’ degree of resale anxiety. However, the manufacturer has only prior belief about 
+the market’s resale anxiety. Dealers usually have more reliable information regarding resale 
+anxiety, because they have more access to consumers’ purchase histories, and are closer to 
+the market, so are more aware of consumers’ preferences. In an asymmetric information 
+situation, consumers’ resale anxiety information is kept private by the dealer who does not 
+share it with the manufacturer. The manufacturer has to make an estimation based on prior 
+distribution. In such a case, the dealer and the manufacturer are playing a non-coorperative 
+game.
+Let Pr(φi) (i = s, r) be the probability that the market state suits a traditional selling 
+(i = s) or a RVG (i = r) strategy, respectively. Let Pr(ρ) be the probability that the manufac-
+turer initiates a RVG strategy. Following Chen et al. (2001), the unbiased condition to initi-
+ate a RVG strategy can be written as: Pr(휌) = Pr(휑r)Pr(휌||휑r ) + Pr(휑s)Pr(휌||휑s ) = Pr(휑r) . 
+That means the unconditional probability that the manufacturer will estimate the market 
+state is suitable to initiate a RVG strategy is equal to the true probability that it is suitable. 
+Assume Pr(φr) = γ. Then the probability that the dealer will choose the traditional selling 
+strategy is Pr(φs) = 1– γ. Let T = Pr(휌||휑r ) . Then T is the accuracy of the manufacture’s 
+decision.
+When the information is shared between the dealer and the manufacturer, let 
+Pr(휌||휑r ) = 1 . 
+When, 
+however, 
+information 
+is 
+completely 
+unreliable, 
+let 
+Pr(휌||휑r ) = Pr(휌) = 훾 . Hence Tmax = 1 and Tmin = 훾 . Define the reliability of the manu-
+facturer’s decision to initiate a RVG strategy as I, such that I∈[0,1]. Then I can be written 
+as I ≡
+T−Tmin
+Tmax−Tmin
+ , i.e., T = I + (1 −I)훾 . Together with the unbiased condition, we can 
+derive the conditional probability Pr(휌||휑s ) = (1 −I)훾.
+In an asymmetric information situation, the dealer will not share consumers’ resale 
+information but may still accept the manufacturer’s proposal to initiate a RVG strategy 
+as long as the strategy can be more profitable for the dealer. Let 휋A
+r  , qr , and pA
+r be the 
+dealer’s profit, ordering quantity, and unit retail price of RVG strategy in an asymmetric 
+information situation, respectively. The dealer’s profit can be written as 휋A
+r = (pA
+r −w)qr . 
+
+
+===== [PAGE 6] =====
+
+	
+Annals of Operations Research
+1 3
+Alternatively, the dealer may place an order for quantity qs if the dealer believes the tradi-
+tional selling strategy is more profitable.
+Assume the manufacturer’s unit trade-in cost is η and the proportion of consum-
+ers who choose to follow the RVG strategy and return their used cars to manufac-
+turer is ξ, such that 0 ≤ ξ ≤ 1. The manufacture’s profit 휋A
+m can be written in the follow-
+ing manner: 휋A
+m = (w −c)EqA −휂휉qr , where EqA represents the expected quantity, 
+EqA(w) = Pr(휌||휑r )qr + Pr(휌||휑s )qr + Pr(휌||휑r )qs + Pr(휌||휑s )qs . The following Lemma 1 
+presents the optimal solutions when a RVG strategy is implemented. All proofs of Lemma 
+and Propositions in this study are given in the “Appendix”.
+Lemma 1  In an asymmetric information situation,
+(1)	 The optimal wholesale price of the RVG model can be written in the following:
+(2)	 The optimal selling price can be written as:
+(3)	 The optimal sales volume is:
+(4)	 And the maximum profits for both the manufacture and the dealer are: 
+휋A∗
+m = (I+2훾(1−I))(2a−(2b+훽)c)2
+8(2b+훽)
++ 휂휉b(2a+c(2b+훽))
+4(2b+훽)
++
+(휂휉b)2
+8(I+2훾(1−I))(2b+훽) −휂휉a
+2 ,  
+a n d 
+휋A∗
+r
+=
+(
+ab+훽a
+2b+훽−
+휂휉b2
+2(I+2훾(1−I))(2b+훽) −bc
+2
+)2
+4b
+.
+The sequence of events can be summarized as follows: First, the manufacturer needs to 
+decide whether to initiate a RVG strategy and how much incentive to provid if it is neces-
+sary to initiate the RVG strategy. Second, the dealer needs to decide whether to agree to 
+participate a RVG and whether to agree to share consumers’ resale anxiety information 
+with the manufacturer. Third, both parties proceed as decided, and demand is realized.
+4  Properties of RVG strategy and information sharing
+In this section, we characterize how the best responses of the manufacturer, the dealer, and 
+the supply chain changes with important parameters in the three different situations: i.e., 
+the traditional business model, the RVG strategy in an asymmetric information situation, 
+and the RVG strategy with information sharing situation.
+wA∗
+r
+=
+a
+2b + 훽+
+휂휉b
+2(I + 2훾(1 −I))(2b + 훽) + c
+2;
+pA∗
+r
+= a
+2b + 2(I + 2훾(1 −I))a + 휂휉b + (I + 2훾(1 −I))(2b + 훽)c
+4(I + 2훾(1 −I))(2b + 훽)
+;
+qA∗
+r
+= a
+2 −2(I + 2훾(1 −I))ab + 휂휉b2 + (I + 2훾(1 −I))(2b + 훽)bc
+4(I + 2훾(1 −I))(2b + 훽)
+;
+
+
+===== [PAGE 7] =====
+
+Annals of Operations Research	
+1 3
+4.1  RVG strategy in an asymmetric information situation
+Our first concern is to find when to initiate a RVG strategy is profitable. We demonstrate 
+that a RVG strategy is more profitable as long as Proposition 1 can be satisfied.
+Proposition 1  In an asymmetric information situation, the manufacturer will initiate a 
+RVG strategy and can obtain more profits, 𝜋A∗
+m > 𝜋∗
+sm, if (훽+ b)([I + 2(1 −I)훾]2
+[2a −(2b + 훽)c]2 + 2[I + 2(1 −I)훾]휂휉b[2a + (2b + 훽)c] + (휂휉b)2 −4[I + 2(1 −I)훾]
+(2b + 𝛽)𝜂𝜉a) −[I + 2(1 −I)𝛾](2b + 𝛽)[a −(b + 𝛽)c]2 > 0.
+Proposition 1 reveals that whether the RVG strategy can generate more profits for 
+the manufacturer mainly depends on three key factors, i.e., the degree of resale anxiety 
+β, the reliability of the manufacturer’s decision I, and the trade-in cost η (or ηξ as total 
+trade-in costs). Proposition 2 provides further insights into how those factors influence 
+the key performance indicators of the supply chain.
+Proposition 2  In an asymmetric information situation,
+(1)	
+𝜕𝜋A∗
+m
+𝜕𝛽< 0 ; 
+𝜕pA∗
+r
+𝜕𝛽< 0 ; 
+𝜕qA∗
+r
+𝜕𝜂< 0;
+(2)	
+𝜕𝜋A∗
+m
+𝜕𝜂< 0 when 𝜂< (I+2𝛾(1−I))(2ab+2𝛽a−(2b+𝛽)bc)
+𝜉b2
+;
+(3)	
+𝜕𝜋A∗
+m
+𝜕I
+> 0 when I > 2𝛾(2a−2bc−c𝛽)−𝜂𝜉b
+(2a−(2b+𝛽)c)(2𝛾−1) and γ < 1/2.
+(4)	
+𝜕qA∗
+r
+𝜕I > 0 when γ < 1/2. Otherwise, 
+𝜕qA∗
+r
+𝜕I < 0 when γ > 1/2.
+Proposition 2 shows that the manufacturer can be more profitable when the manu-
+facturer knows more information about β and I. These two factors β and I are largely 
+related to consumers’ information. That means if the dealer can share consumers’ infor-
+mation, the manufacturer might have the opportunity to further improve their profitabil-
+ity. One important way to encourage the dealer to share consumers’ information is for 
+the manufacturer to provide incentive to do so. If the dealer agrees to share consumers’ 
+information, this becomes a RVG strategy in information sharing situation.
+4.2  RVG strategy with information sharing
+When information is shared, let 휋S
+r be the dealer’s profit, 휋S
+r = (pS
+r −w)qS
+r + A , where pS
+r 
+and qS
+r are the unit retail price and ordering quantity in an information sharing situation, 
+respectively; and A the information sharing incentives provided by the manufacturer 
+to the dealer. The dealer will agree to share consumers’ information, and to implement 
+the RVG strategy if 𝜋S∗
+r
+> 𝜋A∗
+r  . Anticipating the dealer’s responses, the manufacturer 
+needs to properly design the incentive A, and to evaluate whether proposing informa-
+tion sharing is a win–win strategy. If this is the case, the manufacturer’s profit becomes 
+휋S
+m = (w −c)EqS −휂휉qS
+r −A , where EqS(w) = Pr(휌||휑r )qS
+r + Pr(휌||휑s )qS
+r . Proposition 3 
+reveals the manufacturer’s considerations to provide information sharing incentive to 
+the dealer.
+
+
+===== [PAGE 8] =====
+
+	
+Annals of Operations Research
+1 3
+Proposition 3  When the dealer agrees to participate in a RVG strategy, the manufacturer 
+can incentivize the dealer to share consumers’ information by providing the following incentive, 
+A, to the dealer, such that A ∈ (Θ, Ψ), where 훩=
+(
+ab+훽a
+2b+훽−
+휂휉b2
+2(I+2훾(1−I))(2b+훽) −bc
+2
+)2
+−
+(
+a
+2 −
+휂휉b
+2(I+2훾(1−I)) −bc
+2
+)2
+4b
+, 
+and 훹= ((I+2훾(1−I))a−((I+2훾(1−I))c+휂휉)b)2
+8(I+2훾(1−I))b
+−(I+2훾(1−I))(2a−(2b+훽)c)2
+8(2b+훽)
+−휂휉b(2a+(2b+훽)c)
+4(2b+훽)
+−
+(휂휉b)2
+8(I+2훾(1−I))(2b+훽) + 휂휉a
+2 .
+Proposition 3 shows that the information-sharing incentive provided by the manu-
+facturer to the dealer falls within a range within which it is critical both that the manu-
+facturer decides whether to propose the RVG strategy with associated incentive, and 
+the dealer decides whether to share consumers’ information. The exact incentive value 
+depends on the relative bargaining power of the manufacturer and the dealer.
+In addition, the sales volume if a RVG strategy is implemented will be conditionally 
+higher, as shown in Proposition 4.
+Proposition 4 
+(1)	 qA∗
+r
+> qS∗
+r > q∗
+s when 0 < 𝜂< c𝛽(I+2𝛾(1−I))
+b𝜉
+;
+(2)	 qA∗
+r
+> q∗
+s > qS∗
+r  when c𝛽(I+2𝛾(1−I))
+b𝜉
+< 𝜂< 𝛽(a+2bc+c𝛽)(I+2𝛾(1−I))
+b2𝜉
+.
+(3)	 q∗
+s > qA∗
+r
+> qS∗
+r  when 𝜂> 𝛽(a+2bc+c𝛽)(I+2𝛾(1−I))
+b2𝜉
+.
+(4)	 qA∗
+r
+> qS∗
+r  and qA∗
+r −qS∗
+r = (I+2𝛾(1−I))𝛽a+(b+𝛽)𝜂𝜉b
+4(I+2𝛾(1−I))(2b+𝛽)
+> 0.
+Proposition 4 demonstrates that a RVG strategy can sell more EVs than a traditional 
+selling strategy when the trade-in cost, the degree of resale anxiety, and the reliability 
+of the manufacturer’s decision meet certain conditions. Our findings that a RVG strategy 
+under information asymmetry to increase sales is in consistent with MBG research, see 
+for example (Akçay et al. 2013). However, we further show the differences that a RVG 
+strategy sells less with information sharing than that when a RVG strategy is imple-
+mented with information asymmetry. The reason is that information sharing reduces 
+the manufacturer’s uncertainty in estimating the dealer’s response, and hence leads to a 
+reduced expected quantity EqS.
+Fig. 1   Sales volume, trade-in cost (η), and the degree of resale anxiety (β)
+
+
+===== [PAGE 9] =====
+
+Annals of Operations Research	
+1 3
+Proposition 4 provides a set of options for supply chain partners to consider when 
+preparing their appropriate ordering strategy. As an illustration, to show how the order-
+ing strategy of different business models is influenced by the key factors, we take trade-
+in cost and the degree of resale anxiety as examples, as shown in Fig.  1. In Fig.  1, 
+according to different values of η, I, and β, it is seen that the traditional business model 
+can promote more EVs in Area I, whereas a RVG strategy with asymmetric information 
+can promote more EVs in Areas II and III. Information sharing has advantages over the 
+traditional business model in terms of sales volume only in Area III. Nevertheless, RVG 
+strategy models can bring more opportunities for the supply chain to sell more EVs in 
+Areas II and III.
+5  Numerical experiments
+To gain further insights into the findings and strategies analyzed in the previous section, 
+we conduct numerical experiments. We set parameters close to those pertaining in the real 
+world where possible. Take Audi as an example; it announced that its all-electric Audi 
+e-tron 55 quattro is sold in China at a price in the range 692.8 ~ 800.8 KRMB.4 Then, we 
+set a = 70,000, b = 50, c = 550 KRMB, γ = 0.2, ξ = 0.8, and A = 100,000 for all numeric 
+experiments. Let 휋∗
+s denote the total profit of traditional selling supply chain, 휋A∗
+t  the total 
+profit of the RVG strategy supply chain with information asymmetry, and 휋S∗
+t  the total 
+profit of the RVG strategy supply chain with information symmetry.
+Fig. 2   Supply chain profits with different degrees of resale anxiety
+4  The retail price of Audi e-tron can be found at https​://www.audi.cn/cn/web/zh/model​s/e-tron/e-tron.html 
+as of February 18, 2020.
+
+
+===== [PAGE 10] =====
+
+	
+Annals of Operations Research
+1 3
+Firstly, we are interested in how supply chain profits of different business models 
+change according to resale anxiety. To illustrate the results, let I = 0.8 and η = 380KRMB. 
+Let β vary from 0 to 60, in steps of 1. Based on the results of our numeric experiments, we 
+obtain Observation 1.
+Observation 1  Total profits of both the traditional selling supply chain and RVG strategy 
+supply chain with information asymmetry diminish with an increase in the degree of resale 
+anxiety; whereas total profits of the RVG strategy supply chain with information sharing 
+remain constant, as shown in Fig. 2.
+Observation 1 can explain why companies such as Tesla and Audi change their business 
+models from time to time. Taking Tesla as an example, when Tesla first entered China in 
+2014, it attracted Chinese consumers by adopting a RVG strategy, which alleviated con-
+sumers’ resale anxiety. With the development of battery technology, and the increasing 
+market for used cars in China, Tesla terminated its RVG program in 2016. Similarly, in 
+2019, the Audi e-tron started to sell on the Chinese market. Audi proposed a RVG pro-
+gram to try to relieve consumers’ resale anxiety. The rationale for these practices can be 
+explained by the results of the analyses in this study. As shown in Fig. 2, different EV 
+products of different companies at different market stages will face different degrees of 
+resale anxiety. Hence the supply chain with a lower perceived resale anxiety, such as cur-
+rent long-range Tesla products, can safely adopt a traditional selling strategy to maximize 
+their profits. Supply chains with EV products that face a relatively higher perceived resale 
+anxiety should think about adopting a RVG strategy to maximize their profits. The strate-
+gies summarized in the above Propositions provide a variety of options for EV companies, 
+based on their products and market conditions.
+Secondly, as we shown in Sect. 4, the reliability of the manufacturer’s decision as to 
+whether to implement a RVG strategy will have significant impacts on the supply chain’s 
+Fig. 3   Supply chain profits versus reliability of the manufacturer’s RVG decision
+
+
+===== [PAGE 11] =====
+
+Annals of Operations Research	
+1 3
+performance. We illustrate the changes in supply chain profits according to the changes of 
+reliability of the manufacturer’s decision to initiate a RVG strategy. Let β = 50, let I vary 
+from 0 to 1 in steps of 0.01, and let other parameters remain unchanged, as in Observation 
+1. We obtain Observation 2.
+Observation 2  RVG strategy supply chain’s total profits are increase nonlinearly with 
+the increase of reliability of the manufacturer’s decision, as shown in Fig. 3.
+Observation 2 can explain the rationales underlying why some companies prefer to 
+share their information, while others do not. As Fig. 3 shows, the reliability of different 
+EV manufacturers’ decisions varies according to their capabilities. Hence supply chain 
+partners with less reliable decisions tend not to share consumers’ information, and to do 
+business independently. On the other hand, supply chain partners with relatively more 
+reliable decisions can think about sharing consumers’ information to maximize their 
+profits. The total profits of the traditional selling supply chain remain constant, as it 
+does not consider a RVG strategy. The traditional selling supply chain has advantages, 
+especially in a situation in which decisions are barely reliable. Chen et al. (2001) study 
+observed similar relationships between profit and the reliability of a company’s deci-
+sion in different markets. We further show that these relationships exist in supply chain 
+activities in three different business models (i.e., the traditional selling business model 
+and the RVG business models with asymmetric and symmetric information) in one mar-
+ket. These findings further deepen the understandings of the mechanism underlying how 
+decision reliability and information sharing can impact supply chain performance.
+Thirdly, we are also interested in the impacts of trade-in cost on the supply chain’s prof-
+its in different situations. To illustrate, let β = 50, let η vary from 0 to 800KRMB in steps 
+of 20KRMB, and let other parameters remain unchanged, as in Observation 1. We obtain 
+Observation 3.
+Fig. 4   Supply chain profits with different trade-in costs
+
+
+===== [PAGE 12] =====
+
+	
+Annals of Operations Research
+1 3
+Observation 3  Total profits of RVG strategy supply chains fall as the unit trade-in cost 
+rises, as shown in Fig. 4.
+Observation 3 provide a guide as to set how to determine the trade-in cost if the 
+supply chain initiates a RVG strategy. As shown in Fig. 4, when the EV manufacturer 
+intends to set a relatively lower trade-in price, it can implement a RVG strategy without 
+requiring information sharing. However, a supply chain with a relatively higher trade-in 
+cost should consider sharing consumers’ information to maximize profits.
+6  Concluding remarks
+In this study, we investigate the impacts of a resale value guaranteed strategy and infor-
+mation sharing on EV adoption and supply chain performance. To do so, we develop 
+noncooperative game models to analyze the optimal RVG strategy in asymmetric versus 
+symmetric information situations, using the traditional business model as a benchmark. 
+The results of our analysis demonstrate that a RVG strategy can be an effective way to 
+increase supply chain profits, subject to the degree of resale anxiety, trade-in cost, and 
+reliability of the manufacturer’s decision as to whether to implement such a strategy. 
+Incentives provided by the manufacturer to the dealer can be utilized to encourage infor-
+mation sharing. However, information sharing does not necessarily lead to higher sales 
+volume. We show that information sharing reduces the manufacturer’s uncertainty in 
+estimating the dealer’s response, and hence leads to a reduced expected sales quantity. 
+Our results highlight the interdependence of resale anxiety and reliability of the manu-
+facturer’s decision made in the RVG supply chain.
+Our study has important implications for those in the supply chain. Firms that are 
+running a sales business in the EV market should acknowledge that EVs’ resale value 
+has significant impacts on the demand function. Hence firms should consider whether 
+to adopt a RVG strategy, as such a strategy can be an effective way to reduce consum-
+ers’ resale concerns and to increase firm’s profits, as demonstrated in our study. When 
+implementing a RVG strategy, attention should be paid to certain key factors, including 
+the degree of resale anxiety, the reliability of the RVG strategy decision, and the trade-
+in costs. These key factors determine when is the best time to initiate a RVG strategy, 
+and whether it is necessary for the manufactuer to provide incentive to the dealer.
+As pointed out in our analyses, EV makers have to reallocate the returned vehicles to 
+other businesses, or resell them onto the market. Whether to adopt a RVG strategy when 
+selling both new and used EVs could be an interesting future research topic.
+Acknowledgements  This study is supported by the National Natural Science Foundation of China (No. 
+71872012, 71521002), the key research program of the Beijing Social Science Foundation (15JDJGA021), 
+the International Clean Energy Talents Program of China Scholarship Council (Liujinfa [2017]5047 
+and Liujinfa [2018]5023), and the Special Fund of Beijing Municipal Commission of Education (No. 
+20162139016).
+Compliance with ethical standards 
+Conflict of interest  These authors declare that they have no conflict of interest.
+
+
+===== [PAGE 13] =====
+
+Annals of Operations Research	
+1 3
+Appendix
+Proof of Lemma 1
+(1)	 Since 휋r = (pr −w)qr = (pr −w)(a −bpr) , we have p∗
+r = a+bw
+2b  and q∗
+r = a−bw
+2  . In addi-
+tion, Eq(w) = Pr(휌||휑s )훼q∗
+s + Pr(휌||휑r )훼q∗
+s + Pr(휌||휑s )(1 −훼)qr + Pr(휌||휑r )(1 −훼)qr = [I + 2(1 −I)훾] 2a−(2b+훽)w
+2
+ . 
+Hence 휋A
+m = (w −c)Eq −휂휉q∗
+r = (w −c)
+[
+[I + 2(1 −I)훾] 2a−(2b+훽)w
+2
+]
+−휂휉a−bw
+2  . Using 
+the first order condition of πm with respect to w, we have the result 
+wA∗
+r
+=
+a
+2b+훽+
+휂휉b
+2[I+2(1−I)훾](2b+훽) + c
+2.
+(2)	 Replacing wA∗
+r  with w in p∗
+r = a+bw
+2b  , we have the result.
+(3)	 Replacing wA∗
+r  with w in q∗
+r = a−bw
+2  , we have the result.
+(4)	 Since 휋A∗
+r
+= (p∗
+r −w∗
+r)q∗
+r =
+(a−bw∗
+r )2
+4b
+ , replacing wA∗
+r  , we have the result for 휋A∗
+r  . In a 
+similar way, since 휋A∗
+m = (w∗
+r −c)
+[
+[I + 2(1 −I)훾]
+2a−(2b+훽)w∗
+r
+2
+]
+−휂휉
+a−bw∗
+r
+2  , replacing wA∗
+r  , 
+we have the results for 휋A∗
+m .
+□
+Proof of Proposition 1
+In a traditional selling business, the demand function is qs = a −bps −훽ps . The dealer’s 
+profit function is 휋sr = (ps −w)(a −bps −훽ps) , and the manufacturer’s profit function is 
+휋sm = (w −c)qs . Then we can see that the maximum profit of the manufacturer, 휋∗
+sm , is 
+휋∗
+sm = [a−(b+훽)c]2
+8(b+훽)  , and the maximum profit of the dealer, 휋∗
+sr , is 휋∗
+sr = [a−(b+훽)c]2
+16(b+훽)  . We can fur-
+ther obtain the optimal sales volume q∗
+s , the unit retail price p∗
+s , and the unit wholesale 
+price w∗
+s , which are q∗
+s = a−(b+훽)c
+4
+ , p∗
+s = 3a+(b+훽)c
+4(b+훽)  , and w∗
+s = a+(b+훽)c
+2(b+훽)  , respectively.
+With a RVG strategy, the demand function becomes qr = a −bpr . Even if the dealer 
+agrees to follow the manufacturer’s RVG proposal, the manufacturer needs to account for 
+the possibility that the dealer’s consumer information is not accurate. Hence the manufac-
+turer’s 
+profit 
+function 
+becomes 
+휋A
+m = (w −c)Eq −휂휉qr , 
+where 
+Eq(w) = Pr(휌||휑s )q∗
+s + Pr(휌||휑r )q∗
+s + Pr(휌||휑s )qr + Pr(휌||휑r )qr , as shown in Sect.  3. The 
+dealer’s profit is 휋A
+r = (pr −w)(a −bpr) if the dealer agrees to initiate the RVG strategy. 
+Hence we can obtain the maximum profit of the manufacturer 휋A∗
+m  , i.e., 
+휋A∗
+m = [I+2(1−I)훾][2a−(2b+훽)c]2
+8(2b+훽)
++ 휂휉b(2a+(2b+훽)c)
+4(2b+훽)
++
+(휂휉b)2
+8[I+2(1−I)훾](2b+훽) −휂휉a
+2 .
+Solving the inequality 𝜋A∗
+m > 𝜋∗
+sm , we obtain the result.
+□
+Proof of Proposition 2
+(1)	 Because 
+𝜕𝜋A∗
+m
+𝜕𝛽
+= −[I+2(1−I)𝛾][2a−(2b+𝛽)c]c
+4(2b+𝛽)
+−[I+2(1−I)𝛾][2a−(2b+𝛽)c]2
+8(2b+𝛽)2
+−
+𝜂𝜉ab
+2(2b+𝛽)2 −
+(𝜂𝜉b)2
+8[I+2(1−I)𝛾](2b+𝛽)2 < 0 , we have 
+the first result in Proposition 2 (1).
+	
+  From analysis in Sect. 3, we can obtain p∗
+r =
+a
+2b + 2[I+2(1−I)훾]a+휂휉b
+4[I+2(1−I)훾](2b+훽) + [I+2(1−I)훾]c
+4[I+2(1−I)훾] . Take 
+the first derivative of p∗
+r w.r.t. β, we have 
+𝜕p∗
+r
+𝜕𝛽= −2[I+2(1−I)𝛾]a+𝜂𝜉b
+4[I+2(1−I)𝛾](2b+𝛽)2 < 0 . It is the second 
+result in Proposition 2 (1).
+	
+  Because q∗
+r = a
+2 −2[I+2(1−I)훾]ab+휂휉b2+[I+2(1−I)훾](2b+훽)bc
+4[I+2(1−I)훾](2b+훽)
+ and 
+𝜕q∗
+r
+𝜕𝜂= −
+𝜉b2
+4(I+2(1−I)𝛾)(2b+𝛽) < 0 , 
+we have the third result in Proposition 2 (1).
+
+
+===== [PAGE 14] =====
+
+	
+Annals of Operations Research
+1 3
+(2)	 Because 
+휕휋A∗
+m
+휕휂= 휉b(2a+(2b+훽)c)[I+2(1−I)훾]+휂휉2b2−2[I+2(1−I)훾](2b+훽)휉a
+4[I+2(1−I)훾](2b+훽)
+ , 
+𝜕𝜋A∗
+m
+𝜕𝜂< 0 when 
+𝜂< [I+2(1−I)𝛾][2ab+2𝛽a−(2b+𝛽)bc]
+𝜉b2
+ . We have the result in Proposition 2 (2).
+(3)	 B e c a u s e  
+휕휋A∗
+m
+휕I
+= ((2a−(2b+훽)c)(I+2(1−I)훾)+휂휉b)((2a−(2b+훽)c)(I+2(1−I)훾)−휂휉b)(1−2훾)
+8(I+2(1−I)훾)2(2b+훽)
+ ,  
+w h e n 
+(2a −(2b + 𝛽)c)(I + 2(1 −I)𝛾) −𝜂𝜉b > 0 , i.e., I > 2𝛾(2a−2bc−c𝛽)−𝜂𝜉b
+(2a−(2b+𝛽)c)(2𝛾−1) , we have the result 
+in Proposition 2 (3).
+(4)	 Because q∗
+r = a
+2 −2[I+2(1−I)훾]ab+휂휉b2+[I+2(1−I)훾](2b+훽)bc
+4[I+2(1−I)훾](2b+훽)
+ , and 
+휕qA∗
+r
+휕I =
+휂휉b2(1−2훾)
+4[I+2(1−I)훾]2(2b+훽) , when 
+γ < ½, we have 
+𝜕qA∗
+r
+𝜕I > 0 . Otherwise, 
+𝜕qA∗
+r
+𝜕I < 0.
+□
+Proof of Proposition 3
+Because 
+휋S∗
+r
+= (pS∗
+r −wS∗)qS∗
+r + A =
+(
+a−bc
+2 −
+휂휉b
+2(I+훾(1−I))
+)2
+4b
++ A , 
+and 
+because 
+휋A∗
+r
+=
+(
+a(b+훽)
+2(b+훽) −
+휂휉b2
+2(I+2훾(1−I))2b+훽−bc
+2
+)2
+4b
+ , solving A from 𝜋S∗
+r
+> 𝜋A∗
+r  , we have the result on the left-
+hand 
+side. 
+Similarly, 
+because 
+휋A∗
+m = (I+2훾(1−I))(2a−c(2b+훽))2
+8(2b+훽)
++ 휂휉b(2a+c(2b+훽))
+4(2b+훽)
++
+(휂휉b)2
+8(I+2훾(1−I))(2b+훽) −휂휉a
+2  , 
+and 
+because 
+휋S∗
+m = ((I+2훾(1−I))a−((I+2훾(1−I))c+휂휉)b)2
+8(I+2훾(1−I))b
+−A , solving A from 𝜋S∗
+m > 𝜋A∗
+m  , we have the result on 
+the right-hand side.
+□
+Proof of Proposition 4
+(1)	 The proof is obtained by solving η from comparison of qS∗
+r  and qA∗
+r  . Because 
+qS∗
+r = a
+2 −a(I+2훾(1−I))+b(휂휉+c(I+2훾(1−I)))
+4(I+2훾(1−I))
+ ,  
+q∗
+s = a−(b+훽)c
+4
+ ,  
+a n d  
+b e c a u s e 
+qA∗
+r
+= a
+2 −2ab(I+2훾(1−I))+휂휉b2+bc(2b+훽)(I+2훾(1−I))
+4(2b+훽)(I+2훾(1−I))
+ , we have the result of Proposition 4 (1).
+Similarly, we can obtain results of Proposition 4 (2) and (3). (4) The difference between 
+qS∗
+r  and qA∗
+r  is qA∗
+r −qS∗
+r = (I+2𝛾(1−I))𝛽a+(b+𝛽)𝜂𝜉b
+4(I+2𝛾(1−I))(2b+𝛽)
+> 0 . Then, we have the result of Proposition 
+4 (4).
+□
+References
+Akçay, Y., Boyacı, T., & Zhang, D. (2013). Selling with money-back guarantees: The impact on prices, 
+quantities, and retail profitability. Production and Operations Management, 22(4), 777–791.
+Chen, B., & Chen, J. (2017). When to introduce an online channel, and offer money back guarantees and 
+personalized pricing? European Journal of Operational Research, 257(2), 614–624.
+Chen, Y., Narasimhan, C., & Zhang, Z. J. (2001). Individual marketing with imperfect targetability. Market-
+ing Science, 20(1), 23–41.
+Chu, L. Y., Shamir, N., & Shin, H. (2017). Strategic communication for capacity alignment with pricing in a 
+supply chain. Management Science, 63(12), 4366–4388.
+Clarke, R. N. (1983). Collusion and the incentives for information sharing. The Bell Journal of Economics, 
+14(2), 383–394.
+
+
+===== [PAGE 15] =====
+
+Annals of Operations Research	
+1 3
+Crocker, K. J., & Letizia, P. (2014). Optimal policies for recovering the value of consumer returns. Produc-
+tion and Operations Management, 23(10), 1667–1680.
+Ha, A. Y., & Tong, S. (2008). Contracting and information sharing under supply chain competition. Man-
+agement Science, 54(4), 701–715.
+Hsiao, L., & Chen, Y.-J. (2012). Returns policy and quality risk in E-business. Production and Operations 
+Management, 21(3), 489–503.
+Jiang, L., & Hao, Z. (2016). Incentive-driven information dissemination in two-tier supply chains. Manufac-
+turing & Service Operations Management, 18(3), 393–413.
+Ketzenberg, M. E., & Zuidwijk, R. A. (2009). Optimal pricing, ordering, and return policies for consumer 
+goods. Production and Operations Management, 18(3), 344–360.
+Letizia, P., Pourakbar, M., & Harrison, T. (2018). The impact of consumer returns on the multichannel sales 
+strategies of manufacturers. Production and Operations Management, 27(2), 323–349.
+Li, W., Chen, J., Liang, G., & Chen, B. (2018). Money-back guarantee and personalized pricing in a Stack-
+elberg manufacturer’s dual-channel supply chain. International Journal of Production Economics, 197, 
+84–98.
+Li, Z., Gilbert, S. M., & Lai, G. (2014). Supplier encroachment under asymmetric information. Management 
+Science, 60(2), 449–462.
+Li, T., & Zhang, H. (2015). Information sharing in a supply chain with a make-to-stock manufacturer. 
+Omega, 50, 115–125.
+Lim, M. K., Mak, H.-Y., & Rong, Y. (2015). Toward mass adoption of electric vehicles: Impact of the range 
+and resale anxieties. Manufacturing & Service Operations Management, 17(1), 101–119.
+Liu, C., Xiang, X., & Zheng, L. (2020). Value of information sharing in a multiple producers–distributor 
+suppliy chain. [Research article]. Annals of Operations Research, 285(1-2), 121-148.
+Liu, C., Xiang, X., & Zheng, L. (2020b). Value of information sharing in a multiple producers–distributor 
+suppliy chain. Annals of Operations Research, 285(1–2), 121–148.
+McWilliams, B. (2012). Money-back guarantees: Helping the low-quality retailer. Management Science, 
+58(8), 1521–1524.
+Moorthy, S., & Srinivasan, K. (1995). Signaling quality with a money-back guarantee: The role of transac-
+tion costs. Marketing Science, 14(4), 442–466.
+Özer, Ö., & Wei, W. (2006). Strategic commitments for an optimal capacity decision under asymmetric 
+forecast information. Management Science, 52(8), 1238–1257.
+Sperling, D., & Gordon, D. (2009). Two billion cars: Driving toward sustainability. New York: Oxford Uni-
+versity Press.
+Svenson, O. (1981). Are we all less risky and more skillful than our fellow drivers? Acta Psychologica, 
+47(2), 143–148.
+Taylor, S. E., & Brown, J. D. (1988). Illusion and well-being: A social psychological perspective on mental 
+health. Psychological Bulletin, 103(2), 193–210.
+Zhang, H. (2002). Vertical information exchange in a supply chain with duopoly retailers. Production and 
+Operations Management, 11(4), 531–546.
+Zhang, X., & Bai, X. (2017). Incentive policies from 2006 to 2016 and new energy vehicle adoption in 
+2010–2020 in China. Renewable and Sustainable Energy Reviews, 70, 24–43.
+Zhang, X., Bai, X., & Shang, J. (2018). Is subsidized electric vehicles adoption sustainable: Consumers’ 
+perceptions and motivation toward incentive policies, environmental benefits, and risks. Journal of 
+Cleaner Production, 192, 71–79.
+Zheng, R., Gu, Y., Pan, S., Gu, C., Fu, L., Li, M., et al. (2020). Lifecycle value management of new energy 
+vehicle: Challenges and outlook 2020. Shanghai: Roland Berger and Autobole.
+Publisher’s Note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.

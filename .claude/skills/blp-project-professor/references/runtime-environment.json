@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "captured_utc": "2026-10-08T14:54:02.351109+00:00",
+  "python_version": "3.12.5",
+  "numpy_version": "2.3.3",
+  "python": {
+    "version": "3.12.5",
+    "version_info": [
+      3,
+      12,
+      5,
+      "final",
+      0
+    ],
+    "sys_version": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]"
+  },
+  "numpy": {
+    "version": "2.3.3",
+    "package_path": "C:\\Users\\\u4e8e\u8212\u5955\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy",
+    "imported_core_path": "C:\\Users\\\u4e8e\u8212\u5955\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_multiarray_umath.cp312-win_amd64.pyd"
+  },
+  "executables": [
+    {
+      "name": "python",
+      "absolute_path": "C:\\Users\\\u4e8e\u8212\u5955\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "sha256": "5aba6ec903f2e0e946459f98dc45c8129d3f22187f5adac00713d733191d3a3f",
+      "bytes": 103704
+    },
+    {
+      "name": "sh",
+      "absolute_path": "d:\\Program Files\\Git\\bin\\sh.exe",
+      "sha256": "748fa9d081c278397347b054b34bc9541ec55f7ee2de965169ceb0754bb44740",
+      "bytes": 47008
+    },
+    {
+      "name": "git",
+      "absolute_path": "d:\\Program Files\\Git\\cmd\\git.EXE",
+      "sha256": "da240fe9bc24895b3e04150a4990b8a6ff329ecabcd8f19684c2cc310da5ef3f",
+      "bytes": 46480
+    }
+  ],
+  "binary_files": [
+    {
+      "name": "numpy_multiarray_umath",
+      "absolute_path": "C:\\Users\\\u4e8e\u8212\u5955\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_multiarray_umath.cp312-win_amd64.pyd",
+      "sha256": "032cec3f5af160c7f9d5735046cb9b76f61c4cdb5ff7f1a12b7bd40280021acf",
+      "bytes": 4531200
+    },
+    {
+      "name": "numpy_blas",
+      "absolute_path": "C:\\Users\\\u4e8e\u8212\u5955\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+      "sha256": "860d95b1c38e637ce4509f5fa24fbf2a98ba8696f9f3d28bf184bee74ad9a325",
+      "bytes": 20403712
+    }
+  ],
+  "core_binary_hashes": [
+    {
+      "role": "python_executable",
+      "locator": {
+        "base": "python_executable"
+      },
+      "sha256": "5aba6ec903f2e0e946459f98dc45c8129d3f22187f5adac00713d733191d3a3f",
+      "bytes": 103704
+    },
+    {
+      "role": "numpy_multiarray_umath",
+      "locator": {
+        "base": "numpy_package",
+        "path": "_core/_multiarray_umath.cp312-win_amd64.pyd"
+      },
+      "sha256": "032cec3f5af160c7f9d5735046cb9b76f61c4cdb5ff7f1a12b7bd40280021acf",
+      "bytes": 4531200
+    },
+    {
+      "role": "numpy_blas",
+      "locator": {
+        "base": "numpy_install_parent",
+        "path": "numpy.libs/libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll"
+      },
+      "sha256": "860d95b1c38e637ce4509f5fa24fbf2a98ba8696f9f3d28bf184bee74ad9a325",
+      "bytes": 20403712
+    }
+  ],
+  "rollback_environment": {
+    "required_for_numeric_guard": false,
+    "executables": [
+      {
+        "name": "sh",
+        "absolute_path": "D:\\Program Files\\Git\\usr\\bin\\sh.exe",
+        "sha256": "fc362aae1f217d34d02237d99527839dd6cf85b37c7a0277109400bfa0faa594",
+        "bytes": 2553064
+      },
+      {
+        "name": "git",
+        "absolute_path": "D:\\Program Files\\Git\\cmd\\git.exe",
+        "sha256": "da240fe9bc24895b3e04150a4990b8a6ff329ecabcd8f19684c2cc310da5ef3f",
+        "bytes": 46480
+      },
+      {
+        "name": "dirname",
+        "absolute_path": "D:\\Program Files\\Git\\usr\\bin\\dirname.exe",
+        "sha256": "53896fda354605a1a1d1f5e6802daba5ba6c05961f3074b892194e068aa82772",
+        "bytes": 34830
+      },
+      {
+        "name": "cp",
+        "absolute_path": "D:\\Program Files\\Git\\usr\\bin\\cp.exe",
+        "sha256": "5f91e0b445edb4e4c17e9a660ac29239f6cac5a821a173a86d4332b9eaa8cea3",
+        "bytes": 114653
+      }
+    ],
+    "path_entries": [
+      "D:\\Program Files\\Git\\usr\\bin",
+      "D:\\Program Files\\Git\\cmd",
+      "D:\\Program Files\\Git\\bin"
+    ],
+    "scope": "Actual local POSIX shell engine, git, dirname and cp are byte-pinned for text transactions only. Full usr/bin+cmd+bin PATH is explicit; not a complete OS or transitive dependency freeze."
+  },
+  "scope": {
+    "locked": "Exact recorded Python executable, imported NumPy multiarray core and installed NumPy BLAS binaries plus version fields",
+    "not_locked": [
+      "complete Python standard library",
+      "complete operating system",
+      "all transitive runtime libraries",
+      "native agent registration"
+    ],
+    "absolute_paths": "Observed local provenance; dynamic locators, hashes and versions govern numeric compatibility",
+    "rollback_tools": "Observed local sh/git provenance only; not mandatory for a cross-platform numeric guard"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images": "D:\\blp-auto-fulltext-pack-20261008\\work\\pages\\A20_pNN.png（本轮渲染）；式 (1)(6) 沿用 2026-09-25 中译稿的看图核验（D:\\blp-lit-recommend-20261002\\package_20261008\\03_人口特征交互_Ji2026_JAERE\\Ji2026_全文中译_公式已核.md）",
+  "paper_note": "JAERE 13(1)（2026 年 1 月号），页码即 PDF 页码。PDF 文字层会把希腊字母抽错（如 \\sigma_k 抽成 jk）。本文价格以对数 \\ln(p_{jt}) 进入，价格系数为对数正态随机变量的相反数。观测特征里的油耗按 NEDC 测定（脚注 13）。",
+  "items": [
+    {"page": 10, "label": "(1)", "latex": "u_{ijt}=\\alpha_{it}\\ln(p_{jt})+\\sum_{k=1}^{K}x_{jkt}\\beta_{ikt}+\\xi_{jt}+\\epsilon_{ijt}", "check": "沿用 09-25 看图核验", "note": "p_{jt} 为税、补贴、强制保险调整后的有效消费者价格；outside u_{i0t}=\\epsilon_{i0t}"},
+    {"page": 11, "label": "(2)", "latex": "\\alpha_{it}=-e^{\\alpha_1+\\alpha_2\\ln(y_{it})+\\sigma_p\\nu_{ipt}}", "check": "本轮看图", "note": ""},
+    {"page": 11, "label": "(3)", "latex": "\\begin{cases}\\beta_{ikt}=\\bar\\beta_k+\\sigma_k\\nu_{ikt}\\\\ \\xi_{jt}=\\gamma_1\\zeta_{bev\\text{-}dummy}t+\\gamma_2\\zeta_{phev\\text{-}dummy}t+\\gamma_3\\zeta_{ev\\text{-}dummy}\\log(\\text{EDR/Weight})+\\gamma_4\\zeta_{suv\\text{-}dummy}+\\gamma_5\\zeta_{mpv\\text{-}dummy}+\\gamma_6\\zeta_{year\\text{-}FE}+\\gamma_7\\zeta_{quarter\\text{-}FE}+\\gamma_8\\zeta_{firm\\text{-}FE}+\\Delta\\xi_{jt}\\end{cases}", "check": "本轮看图", "note": "\\nu_{ikt}\\sim N(0,I_K)"},
+    {"page": 12, "label": "(4)", "latex": "u_{ijt}(\\theta)=\\delta_{jt}(\\theta_1)+\\mu_{ijt}(\\theta_2)+\\epsilon_{ijt}", "check": "本轮看图", "note": ""},
+    {"page": 12, "label": "(5)", "latex": "\\delta_{jt}(\\theta_1)=\\sum_{k=1}^{K}x_{jkt}\\bar\\beta_k+\\xi_{jt},\\qquad \\mu_{ijt}(\\theta_2)=\\alpha_{it}\\ln(p_{jt})+\\sum_{k=1}^{K}x_{jkt}(\\sigma_k\\nu_{ikt})", "check": "本轮看图", "note": "原文随后写 \\theta_2=(\\alpha_1,\\alpha_2,\\alpha_p,\\sigma_k)，其中 \\alpha_p 与式 (2) 的 \\sigma_p 记号不一，按 (2) 应为 \\sigma_p"},
+    {"page": 13, "label": "(6)", "latex": "s_{jt}(\\theta_1,\\theta_2)=\\int\\frac{e^{\\delta_{jt}+\\mu_{ijt}}}{1+\\sum_{k=1}^{J_t}e^{\\delta_{kt}+\\mu_{ikt}}}\\,dP(\\nu)", "check": "沿用 09-25 看图核验", "note": ""}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "images": "D:\\blp-auto-fulltext-pack-20261008\\work\\pages\\A21_pNN.png（本轮渲染）",
+  "paper_note": "NBER w33378（2025 年 8 月修订），印刷页码 = PDF 页 − 2。下列各式本轮看原页图转写；(5)(6)(8)(9) 与附录式未校正。本文需求价格系数 \\alpha_i 带符号（以 +\\alpha_i(p-\\phi) 进入效用）。",
+  "items": [
+    {"page": 13, "label": "(1)", "latex": "p_{jct}=\\underbrace{mc^{b}_{jct}}_{\\text{电池成本}}+\\underbrace{mc^{v}_{jct}}_{\\text{非电池成本}}+\\underbrace{mk^{b}_{jct}}_{\\text{电池加价}}+\\underbrace{mk^{v}_{jct}}_{\\text{整车加价}}", "check": "本轮看图", "note": ""},
+    {"page": 13, "label": "(2)", "latex": "U_{ijct}=\\alpha_i(p_{jct}-\\phi_{jct})+\\mathbf X_{jct}\\boldsymbol\\beta_i+\\xi_{jct}+\\varepsilon_{ijct}", "check": "本轮看图", "note": "\\phi_{jct} 为中央政府消费者补贴。原文此处写 consumer i in county c，全文其余处为 country c，county 疑为笔误"},
+    {"page": 14, "label": "（整车利润与 (3)）", "latex": "\\pi^{v}(\\mathbf p)=\\sum_{j\\in\\Omega_v}(p_j-\\tau_j-mc^{v}_j)\\,q_j(\\mathbf p,\\phi);\\qquad q_j+\\sum_{k\\in\\Omega_v}\\underbrace{(p_k-\\tau_k-mc^{v}_k)}_{mk^{v}_k}\\frac{\\partial q_k}{\\partial p_j}=0\\ \\ (3)", "check": "本轮看图", "note": "\\tau_j 为电池价格；脚注 11：合资企业与其中方母公司视为不同厂商"},
+    {"page": 15, "label": "（纳什乘积与 (4)）", "latex": "NP_j(\\tau_j,\\tau_{-j})=(\\pi^{v}-d^{v})^{(1-\\lambda^{b})}(\\pi^{b}-d^{b})^{\\lambda^{b}};\\qquad (1-\\lambda^{b})(\\pi^{b}-d^{b})\\frac{\\partial\\pi^{v}}{\\partial\\tau_j}+\\lambda^{b}(\\pi^{v}-d^{v})\\frac{\\partial\\pi^{b}}{\\partial\\tau_j}=0\\ \\ (4)", "check": "本轮看图", "note": "\\pi^{b}(\\tau)=\\sum_{j\\in\\Omega_b}(\\tau_j-mc^{b}_j)q_j(\\mathbf p,\\phi)，\\lambda^b\\in(0,1) 为电池供应商的议价权重；脚注 14：电池化学体系与能量密度可因车型而异"},
+    {"page": 18, "label": "（价格系数）", "latex": "\\alpha_i=\\alpha_1+\\frac{\\alpha_{c(i)}}{y_i}+\\sigma_p\\nu^{p}_i", "check": "本轮看图", "note": "按人均收入把国家分四组，\\alpha_{c(i)} 随组变化；前瞻版纳什乘积把 \\pi^{b}-d^{b} 换成 V^{b}-D^{b}"},
+    {"page": 20, "label": "(7)", "latex": "mc^{b}_{jct}=BK_{bjct}\\Big(\\underbrace{\\gamma_0E_{bt}^{\\gamma_E}+CH_{bjct}\\gamma_1+PK_{bt}\\gamma_2+\\eta\\, t}_{\\text{每 kWh 成本}}\\Big)", "check": "本轮看图", "note": "BK 为电池容量（kWh），E_{bt}=\\sum_{s<t}\\sum_c\\sum_{j\\in\\mathscr I\\{I_{bcs}=1\\}}q_{jcs} 为供应商累计产量（干中学），学习率 1-2^{\\gamma_E}；CH 为电池化学类型，PK 为工厂产能。同页 mk^{b}_{jct}=\\frac{\\lambda^b}{1-\\lambda^b}\\overline{mk}^{b}_{jct}；正文把非电池成本写作 mc^{c}_{jct}，与 (1) 的 mc^{v}_{jct} 记号不一"}
+  ]
+}

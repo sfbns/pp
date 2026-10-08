@@ -1,0 +1,3728 @@
+==============================================================================
+【文献】Grieco, Murry & Yurukoglu (2024). The Evolution of Market Power in the U.S. Automobile Industry. Quarterly Journal of Economics 139(2): 1201-1253. 本地为作者版（2023-03-09）
+【编号】A03　【简称】GMY2024　【分组】需求侧
+【原文 PDF】D:\auto-demand-lit-2026-09\原文PDF\J03_Grieco_2024_QJE_author.pdf
+【页数】67 页　【页码换算】印刷页码与 PDF 页码相同
+【文本来源】PyMuPDF 抽取 PDF 文字层（按版面块排序）
+【公式校正】8 条，按页附在对应页末（以「公式校正」标出），LaTeX 书写，均已对照原页图
+【校正说明】作者版（2023-03-09）文字层干净，但公式被抽成一行行碎片。下列各式本轮看原页图转写。注意本文价格系数 \alpha_{it} 带符号（以 +\alpha_{it}p_{jt} 进入效用，取负值）。本地只有作者版，期刊版是否已改正下列笔误未核。
+【核对页图】D:\blp-auto-fulltext-pack-20261008\work\pages\A03_pNN.png（本轮渲染）；本包 核对页图\ 文件夹内有副本
+【使用提醒】正文是机器抽取的原文，不是译文；公式区以页末校正或原 PDF 为准。页标记中的 PDF 页码可直接用于在原 PDF 中翻页定位。
+==============================================================================
+
+===== [PDF 第 1 页｜印刷第 1 页] =====
+The Evolution of Market Power in the US Automobile
+                       Industry∗
+
+             Paul L. E. Grieco†      Charles Murry‡       Ali Yurukoglu§
+
+                              March 9, 2023
+
+
+
+
+
+                                       Abstract
+
+
+    We construct measures of industry performance and welfare in the U.S. automobile market from
+     1980 to 2018. We estimate a demand model using product level data on market shares, prices,
+     and attributes, and consumer level data on demographics, purchases, and stated second choices.
+    We estimate marginal costs assuming Nash-Bertrand pricing. We relate trends in consumer
+      welfare and markups to trends in market structure and the composition of products. Although
+       real prices rose, we ﬁnd that markups decreased substantially, and the fraction of total surplus
+      accruing to consumers increased. Consumer welfare increased over time due to improved product
+      quality and improved production technology.
+
+
+
+    JEL Codes: L11, L62, D43
+
+
+1  Introduction
+
+From 1980 to 2018, the U.S. automobile industry experienced numerous technological and regula-
+
+tory changes and its market structure changed dramatically. The goal of this paper is to examine
+
+whether these changes led to discernible changes in industry performance. This work complements
+
+a recent academic and policy literature analyzing long-term trends in market power and sales con-
+
+centration from a macroeconomic perspective (De Loecker et al., 2020; Autor et al., 2020) with an
+
+industry-speciﬁc approach. Several papers and commentators point to a competition problem where
+
+price-cost margins and industry concentration have increased during this time period (Economist,
+
+2016; Covarrubias et al., 2020). We ﬁnd that, in this industry, the situation for consumers has
+
+  ∗We thank Naibin Chen, Andrew Hanna and Arnab Palit for excellent research assistance. We thank Aviv Nevo
+and Matthew Weinberg for comments.  Portions of our analysis use data derived from a conﬁdential, proprietary
+syndicated product owned by MRI-Simmons.
+   †The Pennsylvania State University.
+   ‡Boston College.
+   §Graduate School of Business, Stanford University and NBER.
+
+
+                                          1
+
+===== [PDF 第 2 页｜印刷第 2 页] =====
+improved noticeably over time. Our estimates of price-cost margins for this industry diﬀer from
+
+those computed using methods and data from the recent macroeconomics literature that indicate
+
+declining markups.  Furthermore, our approach—in contrast to the recent literature—admits a
+
+measure of consumer surplus over time. We ﬁnd that consumer welfare in the U.S automobile mar-
+
+ket has increased signiﬁcantly over this period, primarily due to improvements in product quality
+
+and production technology.
+
+   To estimate trends in industry performance in the U.S. new car industry, we specify a het-
+
+erogeneous agent demand system and assume Nash-Bertrand pricing by multi-product automobile
+
+manufacturers. The key inputs into the demand estimates are aggregate data on prices, market
+
+shares, and vehicle characteristics over time, microdata on the relationship between demographics
+
+and car characteristics over time, microdata on consumers’ stated second choices, and the use of
+
+the real exchange rate between the US and product origin countries as an instrumental variable
+
+for endogenous prices. With the demand system in hand, we infer product level markups from the
+
+ﬁrst order condition of each ﬁrm’s proﬁt maximization problem.
+  We ﬁnd that median markups as deﬁned by the Lerner index (L = p−mc ) fell from 0.325 in                                                                                     p
+1980 to 0.185 by 2018 (Figure VI). However, as we detail below, although markups are useful
+
+proxy for market eﬃciency when products are ﬁxed over time, they are a conceptually unattractive
+
+measure over long periods of time when products change. We use our model to consider trends
+
+in consumer and producer surplus directly. To quantify changes in welfare over time, we utilize a
+
+decomposition from Pakes et al. (1993) to develop a measure of consumer surplus that is robust
+
+to changes in the attractiveness of the outside good. This approach leverages continuing products
+
+to capture changes in unobserved automobile quality over time.  However,  it is not inﬂuenced
+
+by aggregate ﬂuctuations in demand for automobiles e.g., business cycle eﬀects such as monetary
+
+policy or changes in alternative transportation options. We ﬁnd that the fraction of eﬃcient surplus
+
+going to consumers went from 0.62 in 1980 to 0.82 by 2018 and that average consumer surplus per
+
+household increased by roughly $8,000 over our sample period.
+
+   The increase in consumer surplus is predominantly due to the increasing quality of cars and im-
+
+proved production technology. We conﬁrm the patterns in Knittel (2011) that horsepower, size, and
+
+fuel eﬃciency have improved signiﬁcantly over this time period. We use the estimated valuations
+
+of these car attributes to put a dollar amount on this improvement. Furthermore, we use market
+
+shares of continuing products to estimate the combined valuation of improvements in other char-
+
+acteristics such as electronics, safety, or comfort features that are not readily available in common
+
+data sets (e.g., audio and entertainment systems, rear-view cameras, driver assistance systems).
+
+Improvements on these dimensions are quantitatively large.  Additionally, we estimate improved
+
+production technology from variation in marginal cost over time controlling for product attributes.
+
+Counterfactuals that eliminate the observed increase in import competition or the increase in the
+
+number of vehicle models have small to moderate eﬀects on consumer surplus. Counterfactuals that
+
+eliminate the increase in automobile quality and the technological improvements in production have
+
+the greatest eﬀect on consumer surplus.
+
+
+
+                                          2
+
+===== [PDF 第 3 页｜印刷第 3 页] =====
+  A number of caveats are warranted for this analysis. First, our main results assume static Nash-
+
+Bertrand pricing each year and rule out changes in conduct, for example via the ability to tacitly
+
+collude. However, for robustness, we present a number of alternative assumptions on conduct, all
+
+of which indicate declining markups. Second, we do not model the complementary dealer, parts,
+
+or ﬁnancing markets where the behavior of margins or product market eﬃciency over time may be
+
+diﬀerent than for the automobile manufacturers.
+
+   By studying long-run trends in market power and market eﬃciency using the workhorse toolbox
+
+of supply and demand estimation, we provide an alternative perspective on the analysis of the recent
+
+literature on the rise in aggregate markups based on production-side modeling and accounting
+
+data on revenues and costs, for example De Loecker et al. (2020) and various subsequent studies.
+
+This approach infers markups at the ﬁrm level under the assumption that ﬁrms optimally choose
+
+the quantity of variable inputs in production in order to minimize costs.  The assumptions of
+
+these two approaches are non-nested; we provide a comparison of our markup estimates in the
+
+US automobile industry with those constructed by De Loecker et al. (2020) in Section 5.6. Our
+
+perspective is rooted in the methods developed in industrial organization that grew out of the
+
+critique of the Structure-Conduct-Performance literature, for example Demsetz (1973), and for a
+
+historical perspective see Berry et al. (2019). Our approach also allows for an understanding of the
+
+mechanisms that contribute to trends in market power and consumer surplus. In particular, we
+
+highlight the importance of characterizing consumer welfare, which is only possible by estimating
+
+demand curves.
+
+   While we focus on a single industry, our results suggest that more work should be done to care-
+
+fully measure market power and welfare in important industries in order to provide an alternative
+
+measurement from the production approach and to identify the mechanisms that drive trends in
+
+market power and eﬃciency. This work thus complements research that raises measurement issues
+
+and proposes alternatives within the production paradigm such as Traina (2021), Raval (2022),
+
+Demirer (2020), Bond et al. (2021), Doraszelski and Jaumandreu (2021), and Foster et al. (2022).
+
+   There are now other recent examples of researchers using demand and supply to characterize
+trends in markups in speciﬁc industries.1 Brand (2020) and Döpper et al. (2021) analyze multiple
+
+grocery categories for a selection of retail outlets over the period 2006 to 2017 and 2019, respectively.
+
+Miller et al. (2022) analyze the cement industry over the years 1976 to 2016. Ganapati (2021)
+
+studies the wholesaling sector over the period 1997 to 2007. Relative to these papers, this paper
+
+uses household level data on purchases, demographics, and second choice data to estimate a demand
+
+speciﬁcation with rich heterogeneity and employs standard instrumental variable identiﬁcation
+
+strategies. This paper also compares its markup estimates with production function based estimates
+
+as reported in De Loecker et al. (2020) and analyzes the determinants of the change in consumer
+
+surplus over time. Bet (2021) compares markup estimates from a demand approach with those from
+
+a production approach for domestic airlines and ﬁnds that, under Nash-Bertrand pricing, markups
+
+    1In an earlier contribution, Berry and Jia (2010) analyzed changes demand and market power in the U.S. airline
+industry between the years 1999 and 2006.
+
+
+
+                                          3
+
+===== [PDF 第 4 页｜印刷第 4 页] =====
+from the demand approach are ﬂat for large carriers while under the production approach, markups
+
+for large carriers are increasing over the period 2013 to 2019. Relative to these other papers, our
+
+work estimates the role of technological progress in improving consumer surplus by decomposing
+
+over time changes in demand shocks into improvements in unobservable quality and changes in
+
+the value of the outside option. This decomposition is important for interpreting the economics of
+
+how changing prices and markups translate into consumer welfare when products and technology
+
+change over time.
+
+   Our research is also closely related to Hashmi and Biesebroeck (2016) who model dynamic
+
+competition and innovation in the world automobile market using a logit model over the period 1982
+
+to 2006. Relative to their work, this paper focuses on analyzing the evolution of consumer surplus
+
+and markups rather than modeling dynamic competition in quality. Furthermore, in addition to
+
+analyzing a longer time period, this paper uses micro data and second choice data to estimate
+
+demand following Bordley (1993) and Berry et al. (2004), uses a diﬀerent instrumental variable to
+
+account for price endogeneity, and decomposes time eﬀects in demand separately into changes in
+
+unobservable quality and changes in the value of the outside option.
+
+
+2  Data
+
+We compiled a data set covering 1980 through 2018 consisting of automobile characteristics and
+
+market shares, individual consumer choices and demographic information, and consumer survey
+
+responses regarding alternate “second choice” products. This section describes the data sources
+
+and presents basic descriptive information.
+
+
+2.1  Automobile Market Data
+
+Our primary source of data is information on sales, manufacturer suggested retail prices (MSRP),
+
+and characteristics of all cars and light trucks sold in the U.S. from 1980-2018 that we obtain from
+
+Ward’s Automotive. Ward’s keeps digital records of this information from 1988 through the present.
+
+To get information from before 1988, we hand collected data from Ward’s Automotive Yearbooks.
+
+The information in the yearbooks is non-standard across years and required multiple layers of digi-
+
+tization and re-checking. We supplemented the Ward’s data with additional information, including
+
+vehicle country of production, company ownership information, missing and nonstandard product
+
+characteristics (e.g. electric vehicle eMPG and driving range, missing MPG, and missing prices),
+
+brand country aﬃliation (e.g. Volkswagen from Germany, Chrysler from the U.S., and model re-
+
+design years. Prices in all years are deﬂated to 2015 USD using the core consumer price index. In
+
+order to construct market shares, we deﬁne the market size as the number of households in the
+
+U.S. divided by 2.5, which reﬂects the fact that the average household owns nearly two cars and
+
+the average tenure of car-ownership during this time period is roughly ﬁve years.
+
+
+
+
+
+                                          4
+
+===== [PDF 第 5 页｜印刷第 5 页] =====
+Product aggregation  Vehicles sold in the U.S. are highly diﬀerentiated products. Each brand
+
+(or “make”) produces many models and each model can have multiple variants (more commonly
+
+called “trims”). Although we have speciﬁcations and pricing of individual trims, our sales data is
+
+at the make-model level. Similar to other studies of this market, we make use of the sales data
+
+by aggregating the trim information to the make-model level, see Berry et al. (1995) Berry et al.
+
+(2004), Goldberg (1995), and Petrin (2002). We aggregate price and product characteristics by
+
+taking the median across trims.
+
+
+                                      [Table 1 about here.]
+
+
+   In Table I we display summary statistics for our sample of vehicles at the make-model-year
+
+level. An example of an observation is a 1987 Honda Accord. There are 6,130 cars, 2,243 SUVs,
+680 trucks, and 641 vans in our sample.2 The average car has 52,089 sales in a year and the average
+
+truck has 140,207 sales. Trucks and vans are more likely to be from U.S. brands and less likely to
+
+be assembled outside of the U.S. than cars and SUVs. Two percent of our sample has an electric
+
+motor (including hybrid gas-powered and electric only). We present a description of trends in
+
+vehicle characteristics in Section 3.
+
+
+2.2  Price Instrument
+
+To identify the price sensitivity of consumers, we rely on an instrumental variable that shifts price
+
+while being plausibly uncorrelated with unobserved demand shocks. We employ a cost-shifter
+
+related to local production costs where a vehicle is produced. For each automobile in each year, we
+
+use the price level of expenditure in the country where the car was manufactured, obtained from
+the Penn World Tables version 9.1 variable pl_con, lagged by one year to reﬂect planning horizons.
+Following Feenstra et al. (2015), we refer to this as the Real Exchange Rate (RXR). RXR is equal
+
+to the purchasing power parity (PPP) exchange rate relative to the U.S. divided by the nominal
+
+exchange rate relative to the U.S.. RXR varies with two sources that are useful for identifying
+
+price sensitivities.  First, if wages in the country of manufacture rise, the cost of making the car
+
+will rise, which will in turn raise the real exchange rate via the PPP rising. Therefore, the real
+
+exchange captures one source of input cost variation through local labor costs. Another source of
+
+variation is through the nominal exchange rate.  If the nominal exchange rate rises, so that the
+
+local currency depreciates relative to the dollar, a ﬁrm with market power will have an incentive
+
+to lower retail prices in the U.S., thereby providing another avenue of positive covariation between
+
+the real exchange rate and retail prices in the U.S.. Exchange rates were employed as instrumental
+
+variables for car prices in Goldberg and Verboven (2001), which is focused on the European car
+
+market, and in Berry et al. (1999), along with wages. In Figure I, we display the lagged Real XR
+
+   2We use Wards’ vehicle style designations to create our own vehicle designations. We aggregate CUV (crossover
+utility vehicles) and SUV to our SUV designation. Truck and van are native Wards designations. We designate all
+other styles (sedan, coupe, wagon, hatchback, convertible) as car. Some models are produced in multiple variants.
+For example the Chrysler LeBaron has been available as a sedan, coupe, and station wagon in various years. However,
+no model is produced as both a car and an SUV, or any other combination of our designations, in our sample.
+
+
+                                          5
+
+===== [PDF 第 6 页｜印刷第 6 页] =====
+for the most popular production countries, where the size of the plot marker is proportional to
+
+the number of products sold from each country and the black dashed line represents the U.S. price
+
+level. Although our measure of RXR is relative to the U.S., U.S. RXR is also changing over time
+
+due to U.S. inﬂation.
+
+
+                                      [Figure 1 about here.]
+
+
+  We use a second instrument for price to aid identifying additional time-varying price parameters
+
+that we include in some speciﬁcations of our model. The second instrument we use is a dummy for
+
+whether a particular car is assembled in the country of the brand headquarter, similar to Gandhi
+
+and Houde (2019) who use a dummy for when a vehicle’s production is moved to the U.S.. The
+
+theoretical justiﬁcation for this instrument is similar to the RXR instrument in that vehicles whose
+
+production is shifted to a new location likely reﬂects cost advantages of that new location which
+
+may not be captured in the RXR. For example, a foreign manufacturer might relocate production
+
+to Canada where labor costs are higher than in Mexico, but transportation costs into major markets
+
+in the U.S. are lower.
+
+  We demonstrate the behavior of the RXR instrumental variable in a simple setup in Table II.
+
+We estimate a logit model of demand, as in Berry (1994), ﬁrst via OLS and then using two-stage
+
+least squares with RXR as an instrumental variable for price. We include make ﬁxed eﬀects and
+
+year ﬁxed eﬀects. Within make there is variation in real exchange rates both within and across time.
+
+Within time variation is due to the fact that diﬀerent models of the same make are assembled in
+
+diﬀerent countries. For example, BMW assembles vehicles for the U.S. market in Germany and the
+
+U.S., General Motors has produced U.S. sold vehicles in Canada, Mexico, and South Korea (among
+
+other countries), and many of the Japanese and South Korean brands produce some of their models
+
+in the United States, Canada, and Mexico.  Lacetera and Sydnor (2015) provide evidence that
+
+vehicle manufacturers maintain quality standards when producing vehicles in diﬀerent countries.
+
+The ﬁrst column in Table II shows the ﬁrst stage relevance of the instrumental variable. The sign
+
+is positive as predicted by the theory with a ﬁrst stage F-stat of 14.09. We cluster the standard
+
+errors at the make level. The ﬁrst stage implies a pass-through of RXR to prices of 0.117, which
+
+is consistent with estimates in the literature (Goldberg and Campa, 2010; Burstein and Gopinath,
+
+2014). The diﬀerence in the price coeﬃcient in the last two columns demonstrates that employing
+
+the IV moves the coeﬃcient estimate on price in the negative direction, which is expected because
+
+the OLS coeﬃcient should be biased in the positive direction  if prices positively correlate with
+
+unobserved demand shocks conditional on observable characteristics. Comparing the mean own
+
+price elasticities between the OLS and IV estimates conﬁrms the importance of controlling for
+
+price endogeneity.
+
+
+                                      [Table 2 about here.]
+
+
+
+
+
+                                          6
+
+===== [PDF 第 7 页｜印刷第 7 页] =====
+2.3  Consumer Choices and Demographics
+
+We collect individual level data on car purchases and demographics from two data sources: the
+
+Consumer Expenditure Survey (CEX) and MRI’s Survey of the American Consumer (MRI). These
+
+data sets provide observations on a sample of new car purchasers for each year, including the
+
+demographics of the purchaser and the car model purchased. CEX covers the years 1980-2005 with
+
+an average of 1,014 observations per year. MRI covers the years 1992-2018 with an average of
+
+2,005 observations per year. We construct micro-moments from these data to use as targets for
+
+the heterogeneous agent demand model, following Goldberg (1995), Petrin (2002), and Berry et
+
+al. (2004). There are some general patterns from these data that motivate speciﬁcation choices for
+
+the demand model. For example, that the average purchaser of a van having a larger family size
+
+suggests families value size more than non-families. That the average price of a car purchased by
+
+a high income versus low income buyer suggests higher income buyers are either less sensitive to
+
+price or value characteristics that come in higher priced cars more. That rural households are more
+
+likely to purchase a truck suggests diﬀerent preferences for features of trucks by rural households.
+
+   In order to approximate the distribution of household demographics, we sample from the CPS,
+
+which contains the demographics information from 1980-2018 that we use from the CEX and MRI
+
+samples. Average household income (in 2015 dollars) increases from $55,382 to $81,375 from 1980
+
+to 2018. Average household age increases from 46 to 51; average household size falls from 1.60 to
+
+1.25; the percent of rural households decreases from 27.9 to 13.4. We will account for these trends
+
+by explicitly including evolving consumer heterogeneity in income, family size, and rural status as
+
+part of our model.
+
+
+2.4  Second Choices
+
+We obtain data on consumers’ reported second choices from MartizCX, an automobile industry
+
+research and marketing ﬁrm. MaritzCX surveys recent car purchasers based on new vehicle regis-
+
+trations. The survey includes a question about cars that the respondents considered, but did not
+
+purchase. We use the ﬁrst listed car as the purchaser’s second choice. These data have previously
+
+been used, such as in Leard et al. (2017) and Leard (2019), and are similar to the survey data used
+in Berry et al. (2004).3 After we merge with our sales data, we use second choice data from 1991,
+
+1999, 2005 and 2015, representing 29,396, 20,413, 42,533, and 53,328 purchases, respectively.
+
+   In Table III we display information about second choices for many popular cars of diﬀerent styles
+
+and features to give a sense for how strong substitution within vehicle style appears in the data. For
+
+each year, we display the modal second choice, the next most common second choice, and the share
+
+who report these two cars as second choices over the total responses for that car. For example, in
+
+1991, the the Dodge Ram Pickup is the modal second choice among the respondents who purchased
+
+   3The MaritzCX survey asks respondents about vehicles that the respondents considered but did not purchase.
+One of the questions is whether the respondent considered any other cars or trucks when shopping for their vehicle.
+Respondents answer this question either yes or no. For those that answer yes, the survey asks respondents to provide
+vehicle make-model and characteristics for the model most seriously considered.
+
+
+
+                                          7
+
+===== [PDF 第 8 页｜印刷第 8 页] =====
+a Ford F Series. The Chevrolet CK Pickup is the second most popular second choice, and together,
+
+these two second choices make up 69 percent of reported second choices for the Ford F Series. From
+
+this sample of vehicles, second choices tend to be similar types of vehicles (i.e. trucks, cars, SUVs,
+
+vans). Also, there is substantial variation in the share that the two most frequent choices represent:
+
+for example, in 1991, the F Series and Dodge Ram represent 76 percent of reported second choices
+
+for the Chevrolet Silverado in 1999, but the Civic and Corolla only represent 22 percent of second
+
+choices for the Ford Focus in 2005. The generally strong substitution towards similar vehicles is
+
+crucial for identifying unobserved heterogeneity in the demand model we present in Section 4.
+
+
+                                      [Table 3 about here.]
+
+
+3  Empirical Description of the New Car Industry, 1980-2018
+
+This section describes trends in the U.S. automobile industry from 1980 to 2018 related to market
+
+power and market eﬃciency. We ﬁrst discuss changes in prices and market structure. Second, we
+
+discuss trends in product characteristics.
+
+
+3.1  Prices and Market Structure
+
+Inﬂation adjusted average prices in the automobile industry rose from 1980 to 2018. At the same
+
+time, concentration decreased. Figure II displays these patterns. In panel (a), we document that the
+
+average manufacturer suggested retail price (MSRP) rose from around $17,000 in 1980 to around
+
+$34,000 in 2018 (in 2015 USD, deﬂated by the core consumer price index). The bulk of the change
+
+in average price occurred before the year 2000, although the upper 25 percent of prices continued
+
+to rise after 2000. At the same time, HHI measured at the parent company level fell from over 2500
+
+to around 1200, see panel (b). The C4 index saw a similar decrease over the same time period, from
+
+around 0.80 to 0.58. In panel (c), we document the main source of decreasing concentration. While
+
+the total number of ﬁrms in this industry fell slightly from 1980 to 2018, there were about twice as
+
+many products in 2018 as there were in 1980. In 1980, the “Big 3” US manufacturers accounted
+
+for a large portion of sales, whereas by 2018, sales were more evenly dispersed among domestic and
+
+international ﬁrms, consistent with patterns in other manufacturing industries (Amiti and Heise,
+
+2021).
+
+
+                                      [Figure 2 about here.]
+
+
+3.2  Physical Characteristics of Vehicles
+
+That prices rose while concentration fell might seem counterintuitive at ﬁrst pass, however prices
+
+are also a function of physical characteristics, quality, and production technology. There are two
+
+main trends regarding the physical characteristics of cars. The ﬁrst is the rise of the SUV, which
+
+was a nearly non-existent vehicle class in 1980 and by the end of our sample represented roughly
+
+
+
+                                          8
+
+===== [PDF 第 9 页｜印刷第 9 页] =====
+half of all sales. Second, cars and trucks have become larger and more powerful without sacriﬁcing
+
+fuel eﬃciency (Knittel, 2011).
+
+   The number of products available to consumers increased from 1980 to 2018. A major contri-
+
+bution to this change is the rise of SUV production, particularly smaller SUVs that are designed
+
+to compete with sedans. Our SUV category aggregates SUVs (typically larger vehicles built on
+
+pickup truck frames, like the Toyota 4Runner) together with CUVs (smaller than SUVs and built
+
+on sedan frames, like the Honda CRV). In Figure II(d) we display the number of products by vehicle
+
+style over time. In the early 1980’s less than 25 SUVs were available to consumers (typically large
+
+truck-like vehicles) and after the year 2000 there were nearly 100 SUVs available in the market.
+
+
+                                      [Figure 3 about here.]
+
+
+   Figure III displays selected product attributes over time.  Average horsepower and footprint
+
+(length times width) increased substantially from 1980 to 2018. Average horsepower more than
+
+doubled for cars and roughly tripled for trucks from 1980 to 2018, see Figure IIIa. Cars became
+
+larger, SUVs and vans became smaller during the 1980s and then grew, and the average truck size
+
+grew substantially from 1980 to 2018. At the same time as horsepower and size increased, average
+
+fuel economy remained roughly constant, which largely reﬂects federal regulatory standards for
+
+ﬂeet fuel economy, ﬁrst enacted in the Energy Policy and Conservation Act of 1975.
+
+    Additionally, attributes not related to size and power changed substantially from 1980 to 2018.
+
+In Figure IIId, we show the percent of cars (i.e. not trucks, SUVs, or vans) sold with the following
+
+features, for years 1980, 1990, 2000, 2010, and 2014:  air conditioning, power windows, anti-lock
+brakes, cassette player stereo system, side airbags, memory seats, and rear camera.4 The percentage
+
+of cars with many of these features increased from 1980 to 2018, however, both technology and
+
+trends in preferences aﬀected the rate of adoption diﬀerently for diﬀerent features. For example, air
+
+conditioning reached near universal adoption by 2000, but rear cameras are a recent addition. Safety
+
+features, like side airbags, were quickly adopted through the 1990s as federal safety regulations
+
+tightened.  The cassette player, once a luxury feature, faded from cars as CDs and streaming
+
+services became popular, disappearing by 2010. In our demand model, many of these features will
+
+be subsumed into a quality residual which summarizes all characteristics not captured by readily
+
+available data like horsepower and vehicle size.
+
+
+4  Model
+
+Our framework is a diﬀerentiated product demand and oligopoly pricing model following Berry et
+
+al. (1995), which is standard in the industrial organization literature.
+
+   4These data were collected from Wards Automotive Yearbooks of the corresponding years.
+
+
+
+
+
+                                          9
+
+===== [PDF 第 10 页｜印刷第 10 页] =====
+4.1  Consumers
+
+Consumer i makes a discrete choice among the Jt options in the set Jt of car models available
+in year t and an outside “no-purchase” option (indexed 0), choosing the option that delivers the
+maximum conditional indirect utility.5
+    Utility is a linear index of a vector of vehicle attributes (xjt), price (pjt), an unobserved vehicle
+speciﬁc term (ξjt), and an idiosyncratic consumer-vehicle speciﬁc term (ϵijt).
+
+
+                                       uijt = βitxjt + αitpjt + ξjt + ϵijt                               (1)
+
+   The index i denotes an individual in a given year. We specify and estimate parametric distribu-
+tions of taste parameters βi and αi across individuals that depend on time-varying demographics
+and allow for unobservable heterogeneity. In our preferred speciﬁcation, the parameters governing
+
+these distributions are ﬁxed over time, but we also report estimates including time-varying compo-
+nents to parameters of the distribution of αi and some dimensions of βi. We assume that ϵijt are
+independent draws from the standard Gumbel distribution.
+    Utility of the no-purchase option is ui0t = γt+ϵi0t, where γt reﬂects factors that change the utility
+of the no-purchase option from year to year, including business cycle ﬂuctuations, urbanization,
+
+and durability of used automobiles. The average unobserved quality of new automobiles is also
+
+changing over time. We denote the mean utility of the choice set in year t relative to the base year
+as τt so that ξjt = τt + ˜ξjt and assume that E[˜ξjt|zjt] = 0, where zjt is a vector of instruments
+including xjt, year dummies, and an instrument for price (i.e., RXR).
+    It is well known that discrete choice models only identify utility relative to the outside good.
+
+Therefore, without further restrictions, we would be unable to separately identify yearly average
+unobserved quality, τt, and the value of the outside option, γt. To address this issue, we follow
+Pakes et al. (1993) and add the restriction that
+
+                  ∀j ∈Ct : E[ξjt −ξjt−1] = E[(τt −τt−1) + (˜ξjt −˜ξjt−1)] = 0                 (2)
+
+where Ct is the set of continuing vehicles oﬀered in both year t and t −1 that have not been
+redesigned by the manufacturer.  Consider a model j ∈Ct as a product nameplate and design
+generation appearing both in t −1 and t.6 This restriction captures the fact that models within
+
+a model generation have substantively the same design from year to year, although it allows for
+idiosyncratic changes in features, marketing, or consumer taste.  That is, while ξjt can change
+from year to year, innovations in ξjt are mean zero across years within a model generation. This
+restriction separately identiﬁes average quality of the choice set, τt, from the average consumer
+valuation of the outside good, γt. Identiﬁcation follows from a two step argument: First, following
+the usual logic of discrete choice models,  τt −γt  is identiﬁed.  Second, given that  ˜ξjt can be
+
+   5Our model focuses on consumers’ selection of a manufacturer’s product. In particular, we abstract away from
+ﬁnancing, leasing, and dealership choice.
+    6Vehicle models are periodically redesigned. Within a design generation and across years, models share the same
+styling and the same (or very similar) attributes. A typical design generation is between ﬁve and seven years.
+
+
+                                          10
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(1)  u_{ijt}=\beta_{it}\mathbf x_{jt}+\alpha_{it}p_{jt}+\xi_{jt}+\epsilon_{ijt}
+    核对方式：本轮看图；说明：outside：u_{i0t}=\gamma_t+\epsilon_{i0t}；\xi_{jt}=\tau_t+\tilde\xi_{jt}，E[\tilde\xi_{jt}\mid\mathbf z_{jt}]=0
+(2)  \forall j\in\mathscr C_t:\ E[\xi_{jt}-\xi_{jt-1}]=E\big[(\tau_t-\tau_{t-1})+(\tilde\xi_{jt}-\tilde\xi_{jt-1})\big]=0
+    核对方式：本轮看图；说明：\mathscr C_t 为未改款的持续车型；归一化 \tau_0=0
+----- 【公式校正结束】 -----
+
+===== [PDF 第 11 页｜印刷第 11 页] =====
+constructed from identiﬁed objects, the moment condition over continuing products (2) identiﬁes
+τt (subject to the normalization that τ0 = 0). As this argument for identiﬁcation is constructive,
+we will follow it closely when estimating the model below.
+
+   Separating average unobserved quality and the value of the outside option is important because
+
+we expect that unobserved product attributes change over time as in Figure IIId. It is important
+
+for us to incorporate this concept into consumer welfare. Second, the time eﬀects capture aggregate
+
+economic conditions that inﬂuence the total sales of vehicles, but that are arguably not relevant
+
+for assessing the functioning of competition in the industry.
+
+  We model consumer heterogeneity by interacting household demographics and unobserved pref-
+
+erences with car attributes. Our baseline speciﬁcation is:
+
+
+
+               X
+                                      αit = ¯α +   αhDhit                                           (3)
+                                            h
+               X
+                                    βik = ¯βk +   βkhDhit + σkνik,                                (4)
+                                             h
+
+where subscript k denotes the kth car characteristic (including a constant) and h indexes dimensions
+
+of consumer demographics (e.g., income). Allowing for observed heterogeneity allows substitution
+patterns to diﬀer by demographics. The distribution of Dit is taken from the Current Population
+Survey. In practice, we do not interact every demographic with every car characteristic. See Table
+
+VI for a complete listing of demographic - characteristic interactions and unobserved heterogeneity
+
+that we include in the model.  Allowing for unobserved heterogeneity allows for more ﬂexible
+substitution patterns.  Unobserved taste for automobile characteristics, νik are assumed to be
+independent draws from the standard normal distribution.
+   Our baseline speciﬁcation holds the parameters underlying the distributions of βi and αi ﬁxed
+over time.  That said, the distributions themselves can change over time because of changing
+
+demographics. For example, increasing income inequality will lead to increasing dispersion in the
+αit distribution over time. We also estimate additional speciﬁcations where we allow the mean of
+these distributions to change over time. That is, we allow for ¯α and ¯β to depend on t. This allows
+
+for greater ﬂexibility in the estimation of markups, since consumers’ price sensitivity and other
+
+tastes will vary over time, and ﬁrms will react to these changes when setting price. However, it
+
+will also imply changes in surplus due only to changes in the parameters of the utility function.
+
+As we report in Section 5, allowing for time varying parameters does not substantially change our
+
+estimates of markups. Therefore our baseline speciﬁcation maintains stable-over-time parameters
+
+with clearer consumer welfare implications.
+
+   For a given year, market shares in the model are given by integrating over the distribution of
+
+consumers who vary in their demographics, unobserved tastes for characteristics, and idiosyncratic
+
+error terms,
+
+
+
+
+
+                                          11
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(3)  \alpha_{it}=\bar\alpha+\sum_h\alpha_h D^h_{it}
+    核对方式：本轮看图
+(4)  \beta_{ik}=\bar\beta_k+\sum_h\beta_{kh}D^h_{it}+\sigma_k\nu_{ik}
+    核对方式：本轮看图；说明：D_{it} 的分布取自 CPS，\nu_{ik} 独立标准正态
+----- 【公式校正结束】 -----
+
+===== [PDF 第 12 页｜印刷第 12 页] =====
+                       Z
+                                      exp(βitxjt + αitpjt + ξjt)
+                          sjt =      P                            dF(i).                   (5)
+                                               i exp(γt) +   l∈Jt exp(βitxlt + αitplt + ξlt)
+
+   Shares conditional on consumer demographics can be computed by replacing the population dis-
+tribution with the appropriate conditional distribution F(i|Dit ∈·). Moreover, second choice shares
+conditional on a given ﬁrst choice vehicle can be computed similarly by integrating consumers’
+
+choice probabilities, when the ﬁrst choice vehicle is removed, over the distribution of consumers,
+
+weighted by their probability of making that ﬁrst choice.
+
+
+4.2  Firms
+
+On the supply side, we assume automobile manufacturers, indexed by m, play a static, full infor-
+
+mation, simultaneous move pricing game each year. Manufacturers choose the price for all vehicles
+for all of their brands, Jmt  , with the objective of maximizing ﬁrm proﬁt. Observed prices form a
+Nash equilibrium to the pricing game. We assume a constant marginal cost, cjt, associated with
+producing a vehicle in a given year. The pricing ﬁrst order condition for vehicle j is:
+
+              X            ∂sjt
+                                         sjt +      (pjt −cjt)   = 0                                (6)
+                                                      ∂pkt                                k∈Jmt
+
+   These ﬁrst order conditions will be used in conjunction with the estimated demand system to
+
+solve for marginal costs for each product. Marginal costs will then be used to compute markups and
+
+for counterfactual analysis. For a subset of counterfactual analysis, we will parameterize marginal
+costs to depend on vehicle covariates including elements of xjt and cost shifters excluded from
+demand which we describe in detail in Appendix B.2.
+
+   Our assumption of Nash-Bertrand pricing to maximize ﬁrms’ proﬁts rules out cartels or other
+changes in conduct over the time period.7 If ﬁrms became more or less collusive, then the implied
+
+marginal costs inferred by assuming a static Nash equilibrium in prices would be misleading. We
+
+will consider alternative conduct assumptions for robustness and analyze alternative models of
+
+conduct in counterfactual analysis. However, we do not attempt to measure changes in conduct as
+
+in Bresnahan (1982), Lau (1982), or Duarte et al. (2020).
+
+
+5  Estimation and Results
+
+We estimate the model using GMM, closely following the procedures outlined by Petrin (2002) and
+
+Berry et al. (2004). Our estimation procedure is implemented in three steps. We brieﬂy outline
+
+each step here and relegate a full description to Appendix A.
+
+   7We also rule out the eﬀect that voluntary export restraints (VER) in the 1980s and corporate average fuel
+economy (CAFE) standards have on optimal pricing. See Goldberg (1995) and Berry et al. (1999) for supply side
+models of VERs and Goldberg (1998) and Gillingham (2013) for models of CAFE standards.  In both cases, the
+marginal costs we recover reﬂect the shadow costs of adhering to these restrictions.
+
+
+
+
+                                          12
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(5)  s_{jt}=\int_i\frac{\exp(\beta_{it}\mathbf x_{jt}+\alpha_{it}p_{jt}+\xi_{jt})}{\exp(\gamma_t)+\sum_{l\in\mathscr J_t}\exp(\beta_{it}\mathbf x_{lt}+\alpha_{it}p_{lt}+\xi_{lt})}\,dF(i)
+    核对方式：本轮看图
+(6)  s_{jt}+\sum_{k\in\mathscr J^m_t}(p_{kt}-c_{kt})\,\frac{\partial s_{kt}}{\partial p_{jt}}=0
+    核对方式：本轮看图（放大核对）；说明：原页印作 s_{jt}+\sum_{k\in\mathscr J^m_t}(p_{jt}-c_{jt})\,\partial s_{jt}/\partial p_{kt}=0，下标写反，为作者版笔误；上式为与 BLP (3.3) 一致的正确写法
+----- 【公式校正结束】 -----
+
+===== [PDF 第 13 页｜印刷第 13 页] =====
+   In the ﬁrst step, we jointly estimate consumer heterogeneity and the mean consumer valua-
+
+tions. We compute the conditional demographic and second choice moments from the model and
+
+construct a GMM estimator matching these to their analogues in the consumer-level choice data.
+
+We employ micromoments from two sources: (1) demographic information linked to car purchases
+
+from MRI and CEX and (2) second-choice information from the MaritzCX survey. An example of
+
+a moment for the ﬁrst source is the diﬀerence between the observed and predicted average price of
+
+vehicle purchases for each quintile of the income distribution. For the second source, we match the
+correlations in car characteristics between the purchased and second-choice cars.8
+   In the second step, we estimate ¯α and ¯β and year ﬁxed eﬀects by regressing the estimated
+
+consumer mean valuations on product characteristics, prices, make dummies, and year dummies.
+Our assumption that xjt and the real exchange rate are uncorrelated with product-level demand
+shocks provides the classic moment conditions for 2SLS. The year ﬁxed eﬀects absorb the structural
+parameters for annual variation in mean car quality, τt, and preference for outside good, γt.
+   In the third step we use the empirical analogue of the continuing product condition (2) to
+separately estimate τt and γt from the estimated year eﬀects.
+  We compute standard errors using a bootstrap procedure. We re-sample the micro data, in-
+
+cluding the sampled households in the CEX and MRI surveys as well as the MaritzCX survey,
+
+and re-estimate the model following the same three-step procedure. We account for the sampling
+variation in ξjt in the second step of the estimation procedure. In each of the 500 bootstrap draws
+of the micro data, we employ a nested parametric bootstrap, clustering at the make level, of the
+
+second step estimation.
+
+
+5.1  Parameter Estimates
+
+Tables IV, V, and VI present parameter estimates for our demand system.  In addition to the
+
+estimates presented, we also include brand dummies and year dummies.  Later, we present the
+decomposition of the year eﬀects into unobserved quality and aggregate eﬀects, γt and τt, following
+equation 2. We estimate three speciﬁcations of the utility function with varying degrees of temporal
+
+ﬂexibility in the “mean” parameters. We do this to separate changing preferences from other reasons
+
+market power changes over time.
+
+   In Table IV, we present the price sensitivity parameters for the three speciﬁcations: (1) the
+“mean” price sensitivity parameter, ¯α, does not change over time; (2) a linear trend in ¯αt = α0+tα1;
+(3) separate ¯αt estimates for ﬁve-year intervals. Speciﬁcations (2) and (3) additionally allow for a
+time trend in taste for automobile type (e.g., Van, Truck, SUV). The point estimate for the linear
+
+trend speciﬁcation (column 2) implies a slight (statistically imprecise) negative trend over time.
+The ﬁve-year interval estimates (column 3) do not suggest a strong upward or downward trend.9
+
+    8See Table X for a complete list of micromoments.
+    9In order to identify additional price parameters, we need additional instruments. We use both the Real XR
+instrument and a dummy if the vehicle was produced in the same country as the headquarters of the parent company,
+and interact both instruments with a time trend (in column 2) and time interval dummies (in column 3). See Gandhi
+and Houde (2019) for an example of this other instrument with the original BLP dataset.
+
+
+                                          13
+
+===== [PDF 第 14 页｜印刷第 14 页] =====
+As we show later, all three speciﬁcations have similar implications for trends in markups over time.
+
+
+                                      [Table 4 about here.]
+
+
+   Table V reports “mean” parameters on vehicle attributes. We allow for temporal ﬂexibility in
+
+the speciﬁcations in columns 2 and 3 by interacting vehicle-type dummies with a time trend.
+
+    Lastly, Table VI reports the observed (demographic) and unobserved (random coeﬃcients)
+
+preference heterogeneity. The demographic estimates are intuitive and match clear patterns in
+
+the microdata. Higher-income and older consumers are less price sensitive for the relevant range
+
+of incomes.  Larger households have stronger preferences for vans and vehicle footprint.  Rural
+
+households have a stronger preference for trucks. In general, we estimate large and economically
+
+meaningful coeﬃcients representing unobserved heterogeneity, which rationalizes very strong sub-
+
+stitution patterns observed in the second-choice data. The largest random coeﬃcients appear on
+
+vehicle style, suggesting consumers substitute most strongly within vehicle style. The random coef-
+
+ﬁcient on Truck is double the magnitude of the interaction of Truck with a rural consumer dummy
+
+variable, suggesting that unobservable taste heterogeneity is quantitatively important.  Electric
+
+vehicles also have a large estimated random coeﬃcient.
+
+
+                                      [Table 5 about here.]
+
+
+                                      [Table 6 about here.]
+
+
+   Although we ﬁx model parameters over time in the baseline speciﬁcation (column 1 in Table
+
+IV), even in the baseline speciﬁcation the distribution of price sensitivity and other tastes does
+
+change due to the change in the distribution of consumer demographics over time. For example,
+Figure IV presents the distribution of consumers’ price sensitivity, αi, in 1985, 2000, and 2015.
+Over the data period, there has been a shift in the mean distribution towards less price sensitivity,
+
+which is a reﬂection of higher incomes and an older population. This, together with changes in the
+
+product set, drives changes in the elasticity of demand.
+
+   Our estimates of own-price elasticities for the earlier years in our sample are similar to BLP,
+
+Goldberg (1995), and Petrin (2002). The average own-price elasticity across out entire sample is
+
+-6.16. Table VII displays elasticities for the aggregate market and for a group of parent companies.
+
+Berry et al. (2004), on the suggestion of analysts at General Motors, calibrate their model by
+
+targeting an aggregate price elasticity of -1 for 1993.  Our estimates are roughly validate this
+
+assumption. Demand elasticities became more elastic over time in each of these categories with
+
+most of the change from 1985 to 1995.
+
+
+                                      [Figure 4 about here.]
+
+
+                                      [Table 7 about here.]
+
+
+
+
+                                          14
+
+===== [PDF 第 15 页｜印刷第 15 页] =====
+5.2  Decomposition of Time Eﬀects
+
+The restriction in (2) decomposes the time eﬀects into average improvements in unobservable car
+
+quality and relative movements in the utility of the outside good over time—potentially due to
+
+business cycle factors or changes in the utility of not purchasing a new car.
+
+   Figure V displays the results of this decomposition. We ﬁnd that unobservable vehicle quality
+
+is steadily increasing, roughly linearly, by a cumulative total of about $25,000. The value of the
+
+outside option also generally increases over the time period with noticeable deviations from trend
+
+during the 1990-1991 and 2007-2009 recessions.
+
+   Our model points to a substantial improvement in the quality of automobiles over the sample
+
+period, equal to approximately the mean price of a new car in the early part of the sample period.
+
+The economic meaning of this increase is that a consumer faced with the choice between two new
+
+automobiles of the same observable characteristics (e.g., size, horsepower, fuel economy) but with
+
+average unobserved quality (e.g., airbags, sound system, durability) of 1980 versus 2018 would
+
+place a signiﬁcantly higher value on the 2018 vehicle. To quantitatively assess the plausibility of
+
+the estimated unobserved quality component, we manually collected data from the Kelly Blue Book
+
+website in 2021 for mint condition used automobiles produced every ﬁve years between 1992 and
+
+2017. We then regressed the Kelly Blue Book private party transaction value against characteristics
+
+and dummy variables for the year of production. The year of production dummy variables should
+
+capture the average unobserved product diﬀerences across years of production. The full speciﬁcation
+
+is presented in Appendix B.4. We ﬁnd that the year of production dummies rise by $19,638.88
+
+between 1992 and 2017, which is nearly the increase we estimate for the value of unobserved
+
+product improvements, suggesting the estimate is not implausibly large.
+
+  A number of narratives also support such large increases.  Automobiles have become safer
+
+through features such as improved airbag technology, body construction, rear-view cameras, and
+
+blind spot sensors. According to the National Highway Traﬃc Safety Administration (NHTSA),
+
+fatalities not involving alcohol impairment per vehicle miles traveled (VMT) have decreased 40
+
+percent between 1982 and 2019 from 1.27 per hundred million VMT to 0.74 per hundred million
+VMT.10 Unobserved comfort improvements include power steering, durable interior materials, and
+
+electronic features such as Bluetooth audio systems and power or heated seats. Many of these
+
+features had not even been invented at the start of the sample.
+
+
+                                      [Figure 5 about here.]
+
+
+    Finally, car durability is likely an important aspect for both the increased quality of new cars
+
+and the value of the outside good (which includes driving used cars). We would expect increased
+
+car durability to increase the value of a car.  Between 1980 and 2018, data from the NHTSA
+
+implies that the average time a consumer keeps a new car has risen from 3.9 to 5.9 years, consistent
+
+with increased durability. This is part of the improvement in unobserved quality captured by our
+
+   10While this could also be due to safer driving behavior or safer road construction, the rise of distracted driving
+because of mobile handsets likely pushes in the opposite direction.
+
+
+                                          15
+
+===== [PDF 第 16 页｜印刷第 16 页] =====
+quality adjustment, τt, along with improvements in safety, comfort, and electronics. However, as
+cars become more durable, households will replace them less often, which has the eﬀect of making
+
+the outside option appear more attractive. We expect this eﬀect to be captured in the outside good
+part of the time eﬀect, γt. The outside option series is broader than durability, however. In addition
+to improvements in the attributes of used cars, the outside option is also inﬂuenced by alternative
+
+transportation methods such as public transport or ride-sharing, or changes in the commuting needs
+
+of the population. It will also be aﬀected by business cycle ﬂuctuations or monetary policy which
+
+may lead consumers to accelerate or postpone new car purchases.
+
+
+5.3  Model Fit
+
+We target correlations between the attributes of purchased cars and stated second choices for survey
+
+years 1991, 1999, 2005, and 2015. The ﬁrst column of Table VIII presents the average correlation
+
+across years for each attribute we target. These correlations suggest strong substitution patterns
+
+among vehicles with similar characteristics.  As seen in the second column of Table VIII, our
+
+estimated model is able to match these moments well. To emphasize the importance of observed and
+
+unobserved consumer heterogeneity in our model, we compare our ﬁt to a series of more restrictive
+
+models.  In column 3, we present the implied correlations from a model with only demographic
+
+heterogeneity and a random coeﬃcient on footprint.  This model is roughly able to match the
+
+second choice correlation on footprint, but understates the remaining second choice correlations,
+
+even those one would expect to be highly correlated with footprint (e.g., horsepower, miles per
+
+gallon, and truck). Column 4 drops the random coeﬃcient on footprint. Surprisingly, this model
+
+achieves essentially none of the second choice correlations reported in the data. This is despite the
+
+fact that it matches demographic patterns well, as reported in Table X in Appendix B. Indeed, it
+
+is only a slightly improved ﬁt for second choices over the logit model in Column 5, which restricts
+
+substitution by assuming independence of irrelevant alternatives. We conclude that observable
+
+heterogeneity alone is insuﬃcient to generate substitution patterns implied by the second-choice
+
+survey data. Table XI of Appendix B shows that the model matches the second-choice correlations
+
+separately in each year that we have second-choice data.  Table X displays the ﬁt of all of the
+
+demographic moments we match.
+
+
+                                      [Table 8 about here.]
+
+
+5.4  Markup Estimates
+
+We infer marginal costs of each vehicle using the ﬁrst-order conditions in (6) at the estimated
+
+demand parameters. Table XII in Appendix B.2 displays the coeﬃcient estimates from projecting
+
+inferred marginal costs on vehicle attributes and cost shifters. Together with the observed vehicle
+
+prices, we use the marginal costs to calculate vehicle markups. Figure VIa presents the median
+
+Lerner index over time for our three demand speciﬁcations. Each speciﬁcation diﬀers in the tem-
+
+poral ﬂexibility of the average price sensitivity parameter, corresponding to the three columns in
+
+
+                                          16
+
+===== [PDF 第 17 页｜印刷第 17 页] =====
+Table IV, which leads to diﬀerences in elasticities and, thus, markups.  Across all three speciﬁ-
+cations, average markups decrease substantially over time.11 Because the markup trends are not
+
+sensitive to ﬂexibility in the price sensitivity parameter, we restrict the rest of our analysis to the
+
+speciﬁcation where ¯α is constant over time.
+
+   In Figure VIb we display the median markups in terms of the Lerner index over time, as well
+
+as the 10th, 25th, 75th, and 90th percentiles. There is variation in markups across vehicles, and
+
+the entire distribution falls from 1980 to 2018.
+
+
+                                      [Figure 6 about here.]
+
+
+   In Figure VII, we display median markups by vehicle style in panel (a) and by import status
+
+in panel (b). The decline in markups occurs across all vehicle styles and for both imported and
+
+domestically produced vehicles.  Starting with panel (a), truck markups were higher than other
+
+vehicles at the beginning of our sample but  fell more steeply throughout the 1990’s.  This is
+
+likely due to two factors, a steeper increase in the quality and price of trucks and slightly greater
+
+competition as the popularity of foreign-manufactured trucks increased. This speciﬁc pattern is
+
+consistent with the move by Toyota and Nissan to produce trucks in the US to avoid the so-called
+
+“chicken tax.” Markups for SUVs also experienced a sharp fall during the 1990s, likely due to
+
+the massive increase in competition in this segment. The number of SUVs available nearly tripled
+
+during this time, and our demand estimates imply strong within-category substitution. Turning to
+
+panel (b) in Figure VII, overall, imported vehicles have lower markups than domestically produced
+
+vehicles, where our classiﬁcation is based on the country of production, not the headquarters
+
+country of the product. However, domestically produced vehicles experienced a much greater fall
+
+in markups over our sample period.
+
+
+                                      [Figure 7 about here.]
+
+
+   To assess sampling variability in the estimated markup trend, we utilize a bootstrap procedure
+accounting for sampling variability in the demand estimates, demographic data, and the ξjt residu-
+als. In our baseline results, only a single product out of 9,694 has inelastic demand and all consumer
+
+price sensitivities are negative. However, in some of our bootstrap samples, some products have
+
+positive elasticities due to some consumers having positive price sensitivities. In these cases, which
+
+comprise 5.6 percent of products over all bootstrap draws, the Nash pricing condition cannot be
+satisﬁed and there is no inversion from observed prices to marginal costs.12 This occurs for at least
+
+one ﬁrm in 14.2 percent of year and bootstrap combinations. In all bootstrap samples where the
+
+inversion is well deﬁned for all ﬁrms in 1980 and 2018, we ﬁnd that median markups decrease over
+
+the sample period.
+
+  11The ﬁve year ¯αt series has a dramatic decline in markups in 1985, this is due to the low-price sensitivity for the
+ﬁrst period reported in Table IV, but matches the other series closely from 1985-2018.
+  12One possible route to avoid this issue would be to add restrictions to increase the precision of our estimates of
+price sensitivity. These restrictions could take the form of additional exclusion restrictions or enforcing the supply
+model as part of estimation.
+
+
+                                          17
+
+===== [PDF 第 18 页｜印刷第 18 页] =====
+5.4.1  Explaining the Evolution of Markups
+
+What drives the decline in markups? In the model, the exogenous forces which can change markups
+
+are changes in the ownership conﬁguration, product entry and exit and associated changes in prod-
+
+uct characteristics, changes in the value of the outside option, and changes in consumer demo-
+
+graphics or preferences. In our data and estimates, all of these forces are active throughout the
+
+time period.
+
+  An intermediate observation to understand the estimated change in markups is that the trend
+
+is similar if we infer markups assuming single product ﬁrms, as seen in Figure VIIIa. Assuming
+
+single product ﬁrms is a good approximation if vehicles manufactured by the same parent are not
+
+strong substitutes for each other. In the single product ﬁrm case, the Lerner index is equal to the
+
+inverse elasticity of the product:
+
+                                p −mc    1     s   1
+                         =   =  ×                                      (7)
+                                   p       elas   p    ds
+                                                                  dp
+
+   In the remaining panels of Figure VIII, we plot average prices (panel b), average market shares
+
+(c) and average derivatives of share with respect to price (d), noting that some intuition about the
+
+drivers of markups over time can be gleaned despite each of these being both an average and an
+
+endogenous function of the underlying preference, technology, and ownership structure primitives.
+
+During the period 1980 to 1999, when estimated markups decreased, average market shares and
+
+the average of their derivatives with respect to price are stable while average prices increased. This
+
+combination suggests that markups decrease according to equation 7. The economic reason why
+
+prices are increasing without shares decreasing and without changes in the derivative of share with
+
+respect to price is that vehicle quality is increasing. In the period 2000 to 2019, markups are stable
+
+as average market shares are decreasing, the average of their derivatives with respect to price are
+
+increasing, and average prices are roughly stable.  In this latter period, although quality is still
+
+increasing steadily, the outside option also experiences substantial growth which can explain the
+
+ﬂattened average price trend and oﬀsetting the decline in average shares and increase in the average
+
+of their derivative with respect to price. Under the logic of equation 7, this combination leads to
+
+ﬂat markups.
+
+
+                                      [Figure 8 about here.]
+
+
+   In order to study which primitive factors explain the estimated decline in markups, we turn
+
+to counterfactual simulations. To consider the impact of concentration, the ﬁrst counterfactual we
+
+perform adjusts the ownership matrix in each year to remove the impact of the growth of com-
+
+petition from foreign brands since 1980. To consider the impact of product product proliferation,
+
+our second counterfactual holds the number of products ﬁxed over time at the level of 1980. These
+
+counterfactual are described in full in Section 6.2 as Mechanisms 1 and 2. These changes to primi-
+
+tives do not eliminate the decrease in markups we observed in our baseline results. We display the
+
+results in Figure XVIII in the appendix. Next, we simulate a counterfactual where the observable
+
+
+                                          18
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(7)  \frac{p-mc}{p}=\frac{1}{\text{elas}}=\frac{s}{p}\times\frac{1}{ds/dp}
+    核对方式：本轮看图；说明：原页如此；按字面 ds/dp<0 时右端为负，弹性须取绝对值，即 (p-mc)/p=-\frac{s}{p}\big/\frac{ds}{dp}（单产品厂商情形）
+----- 【公式校正结束】 -----
+
+===== [PDF 第 19 页｜印刷第 19 页] =====
+characteristics of vehicles in each year are scaled down to match the distribution of characteristics
+
+from 1980.  Speciﬁcally, if a vehicle is in a certain percentile of a characteristic in a given year,
+
+we assign the same percentile from the 1980 distribution of that characteristic. As a result of this
+
+change, which shifts the distribution of products towards lighter, lower horsepower vehicles, the
+
+increase in marginal costs over time estimated by our model is eﬀectively eliminated, as shown in
+
+IXa. The reason marginal costs are ﬂat despite an estimated downward technological trend is that
+
+there is an oﬀsetting upward time trend in the RXR, see XII in Appendix B.2. Other primitives,
+
+like the number of products and the market structure, are allowed to evolve as they do in the data.
+
+This counterfactual, which eﬀectively eliminates the growth in observed product quality, does elim-
+
+inate the fall in markups, as shown in Figure IXb. The main takeaway of this exercise is that a
+
+major driver of the decline in markups is is that increasing observable quality of vehicles results in
+
+increasing marginal costs which are less than fully passed through to consumer prices.
+
+   The importance of vehicle quality in driving markup trends highlights the fact that markups
+are not conceptually attractive proxies for welfare when the product set is changing.13 This fact
+
+motivates our focus on the model’s measures of welfare and surplus over time to assess industry
+
+performance in Section 6.
+
+
+                                      [Figure 9 about here.]
+
+
+5.5  Robustness to Conduct Assumption
+
+In this section, we compare markup estimates under alternative assumptions of conduct. To sum-
+
+marize the results, while there is a disparity in the level of markups, these alternatives all point
+
+towards declining markups over the sample period, as in the base case of Nash-Bertrand pricing. In
+
+the ﬁrst case, we assume the Big Three US auto manufacturers (G.M., Ford, and Chrysler) collude
+on prices for our entire sample.14 Markups are much higher than our baseline case in the 1980s,
+
+but then become closer to our baseline case throughout time. This is consistent with the decline in
+
+the dominance of the Big-3 ﬁrms over time. Notably, markups at the end of the sample under the
+
+assumption that the Big-3 collude are lower than the Nash-Bertrand markups at the start of the
+
+sample. Therefore, under the assumption that the Big-3 were competing in 1980 and organized a
+
+pricing cartel in response to import competition after 1980, we would still ﬁnd a decline in markups
+
+between 1980 and 2018. In the second case, we consider markups that are implied if all of the ﬁrms
+
+colluded on prices. In this case, markups are much higher. However, there is still a decrease in
+
+markups over the time period.
+
+   13For a simple example of when markups can be misleading, consider a monopolist facing logit demand with
+u = δ −αp + ε, whose market share is s = 1+exp(δ−αp).exp(δ−αp)   The pricing ﬁrst order condition is p = c + α(1−s)1  =
+c + α(11  + exp(δ −αp)).  Suppose the product improves in quality without changing its marginal cost.  Totally
+diﬀerentiating the ﬁrst order condition with respect to δ, we ﬁnd dpdδ = αs > 0. Since marginal cost is constant, this
+implies markups rise. However, since d(δ−αp)dδ  = 1 −s > 0 consumer surplus also increases.
+   14For Chrysler, we follow the ownership from Chrysler to Daimler to Cerebus private equity ﬁrm, then to Fiat,
+and assume the owner of Chrysler colludes with all of the ultimate owner’s brands. For example, then the Fiat brand
+is part of the “cartel” after 2012.
+
+
+                                          19
+
+===== [PDF 第 20 页｜印刷第 20 页] =====
+                                     [Figure 10 about here.]
+
+
+   Figure X establishes that markups decline over time under a variety of constant conduct as-
+
+sumptions. However, it is possible that a cartel could have formed during our sample period. We
+
+now ask how large such a cartel would need to be to have held markups constant over the period.
+
+To quantify this, we consider diﬀerent size cartels in 2018 to measure how many cartel members it
+
+would take for a cartel in 2018 to achieve the baseline non-collusive level of markups found in 1980.
+
+Speciﬁcally, we form cartels with the largest (by sales) manufacturers, adding one manufacturer
+
+at a time. The results are in Table IX. One change in conduct from Nash-Bertrand that would
+
+produce estimated increases in markups would involve a cartel of the six largest parent companies
+
+(“Top 5 + Nissan”) forming during our sample. Overall, it seems that a price-ﬁxing cartel on the
+
+scale needed to keep markups at their 1980 level would be unlikely to escape the notice of antitrust
+
+authorities.
+
+
+                                      [Table 9 about here.]
+
+
+5.6  Comparison to production-based approach
+
+De Loecker et al. (2020) use ﬁnancial data from Compustat to estimate markups.15 This approach
+
+uses a model of ﬁrm production and data on input expenditures and output revenue to estimate
+
+price over marginal cost ratios.  In their baseline results, they estimate an increase in the sales
+
+weighted average price to marginal cost ratio (across all sectors) from 1.21 to 1.61 from 1980
+
+to 2016.  In addition to aggregate results, De Loecker et al. (2020) report estimates for speciﬁc
+
+industries, including the US auto industry. Figure XIa displays the time series of average price to
+
+marginal cost ratio from their work together with our own measure. We also include an estimate
+
+from Berry et al. (1995), which reports an average price to marginal cost ratio from 1971-1990.
+
+Both the level and trends in the price to marginal cost ratio diﬀer from the estimates we derive,
+
+though both series are relatively ﬂat from 1995 onward. In the right panel, we plot our estimates
+
+for total variable proﬁts, which is the sum of price minus marginal cost multiplied by quantity sold
+
+over models in a year. Quantity thus enters directly into the right panel, but does not enter directly
+
+in our estimates in the left panel. Our estimates for total variable proﬁts share some patterns with
+
+the De Loecker et al. (2020) estimates for markups, including an increase in the 1980’s, a dip and
+
+recovery in the 1990’s, and a dip and recovery around the Great Recession.
+
+
+                                     [Figure 11 about here.]
+
+
+   The two markup estimates rely on diﬀerent underlying data and non-nested sets of assumptions.
+
+The approach for our estimates relies on a credible demand system and an assumption of static
+Nash pricing conduct by the manufacturers.16 The De Loecker et al. (2020) approach relies on
+
+   15For purposes of comparison, this section reports markups as the price to marginal cost ratio p/c rather than the
+Lerner index, (p −c)/p.
+   16Although, as we noted above, the downward trend in markups is robust to a variety of conduct assumptions.
+
+
+                                          20
+
+===== [PDF 第 21 页｜印刷第 21 页] =====
+an assumption of cost minimization with respect to a fully ﬂexible input and credible production
+
+function estimation to measure the elasticity of output with respect to the ﬂexible input.
+
+   There are a number of potential issues in implementing the production approach which may lead
+
+to inaccurate estimates in this context. First, if the input used to obtain marginal costs is not freely
+
+chosen by the ﬁrm (e.g., if it contains any ﬁxed rather than variable costs), the static ﬁrst-order
+
+condition at the heart of the approach does not apply. The ﬂexible input employed in De Loecker
+
+et al. (2020) is Cost of Goods Sold (COGS) reported in Compustat at the ﬁrm-year level. In the
+
+context of auto manufacturing, COGS includes some marginal costs such as the additional material
+
+or labor costs associated with producing additional vehicles, but it also includes, by Generally
+
+Accepted Accounting Principles (GAAP), ﬁxed overhead associated with manufacturing. That is,
+
+manufacturers are required to allocate ﬁxed overhead costs as part of COGS. In this sense, COGS
+contains capital expenditures and thus may not satisfy the requirements as a ﬂexible input.17 In
+
+practice, including ﬁxed costs in the ﬂexible input can lead to over time variation in the estimated
+
+markups even when the true price over marginal cost is ﬁxed simply due to ﬂuctuating quantities.
+
+Being driven by quantity sold rather than the true price to marginal cost ratio is one potential
+
+reason why the DLEU series shares some patterns with our estimates of total variable proﬁts over
+
+time in the right panel of Figure XIb.
+
+  A second set of challenges are due to the estimation of output elasticities.  Ideally, output
+
+elasticities would be estimated as part of a production function relating quantities of output to
+
+quantities of input accounting for endogenous input choices on the part of ﬁrms. There are three
+
+practical challenges with estimating output elasticities using Compustat data that may contribute
+
+to diﬀerences in the estimated series.  Compustat reports total revenues at the ﬁrm-year level
+
+whereas a traditional output elasticity would be estimated using quantity instead of revenue (Bond
+
+et al., 2021).  Second, observing revenue at the ﬁrm-year level leads to abstracting away from
+
+the multiproduct nature of production, with unknown consequences for the interpretation of the
+
+resulting output elasticity used to estimate markups. Third, there is the question of allowing for
+
+cross-ﬁrm heterogeneity in output elasticities, which can be challenging since Compustat contains
+
+only public ﬁrms. To address this, De Loecker et al. (2020) pool ﬁrms in the same two digit NAICS
+
+code to estimate output elasticities which for example pools auto manufacturers in NAICS code
+
+33 with a wide range of manufacturing segments including computer manufacturing, ship building,
+
+furniture manufacturing, and many others. Using the Annual Survey of Manufacturers, Foster et
+
+al. (2022) estimate output elasticities allowing for ﬂexibility across ﬁrms in the same industry and
+
+ﬁnds, in some speciﬁcations, decreasing average manufacturing markups for the period 1977 to
+
+2012.
+
+    Finally, diﬀerences in the data sample may account for discrepancies between the two series.
+
+The demand approach uses price and quantity data of products available in a given market—
+
+the US new car market in our case. The production approach is applied to a collection of ﬁrms
+
+   17Relatedly, Traina (2021), Raval (2022), and Demirer (2020) examine how markup estimation can be sensitive to
+choice of ﬂexible input and related functional form assumptions
+
+
+
+                                          21
+
+===== [PDF 第 22 页｜印刷第 22 页] =====
+assumed to have a similar production technology with no explicit assumption on conduct. In the
+
+case of the Compustat data used by De Loecker et al. (2020), the ﬁrms included are primarily those
+
+publicly listed on US stock exchanges. Consequently, the data does not include some important
+
+auto manufacturers who sell in the US (e.g.  Volkswagen, BMW, Hyundai-Kia, Nissan, Mazda,
+
+and Mitsubishi) in certain years.  For example, Nissan enters the Compustat data in 1989 and
+
+Volkswagen enters in 2001, even though both were selling in the US market prior to these dates.
+
+BMW, Hyundai-Kia, Mazda and Mitsubishi never appear in the dataset. Moreover, Compustat
+
+includes additional revenue streams outside of automobile manufacturing such as any vertically
+
+integrated parts manufacturing, consumer ﬁnancing operations, or manufacturing of other products.
+
+Finally, the revenue information in Compustat will include sales of vehicles outside of the U.S.
+
+market, which may have very diﬀerent markups than autos sold inside the U.S. market.
+
+   Census or industry-speciﬁc production data sets can alleviate some of these concerns.  For
+
+example, the US Census of Manufacturers includes inputs such as materials and energy which are
+
+arguably closer to ﬂexible. It also contains quantity data for select industries. However, only the
+
+Census of Manufacturers (as opposed to other parts of the Economic Census) is well suited to the
+
+estimation of output elasticities and even for manufacturing there is little information on multi-
+product production.18 Moreover, such data would contain information only on products produced
+
+in the United States. Compared to our data set, this excludes the substantial number of imported
+
+automobiles, and incorrectly includes automobiles that are exported.
+
+   Given these diﬃculties with estimating markups via the production approach in practice, we
+
+believe the approach of estimating markups using detailed demand data and conduct assumptions
+
+is a useful alternative. This approach does have the downside of requiring detailed industry-speciﬁc
+
+data sets and tailored modeling to each market under study. While resource intensive, this research
+
+is feasible. Indeed, in some cases, the two approaches may agree. De Loecker and Scott (2016)
+
+examine production and demand based estimates for beer and ﬁnd both approaches ﬁnd plausibly
+
+similar markup estimates. An important advantage of the demand side approach is that it provides
+
+direct measures of consumer surplus which are not available without an estimated demand system
+
+and accounts for changing product quality over time. For the remainder of the paper, we will use
+
+our estimates to go beyond markups and analyze the welfare trends of the US automobile industry.
+
+
+6  The Evolution of Welfare
+
+What are the implications of our estimates for assessing the performance of the industry over
+
+time? It may seem natural to evaluate concentration and markups as proxies for welfare, and we
+
+documented that both concentration and markups have fallen. However, it is well known that the
+
+relationship between concentration and welfare is theoretically ambiguous (Demsetz, 1973). Above
+
+   18Similar industry level datasets may sometimes be available for services. For example, Bet (2021) reports produc-
+tion based estimates for the domestic airline industry using detailed data from the Bureau of Transportation Statistics
+and estimates diﬀerent levels and time series behavior for markups than those reported for airlines in De Loecker et
+al. (2020).
+
+
+
+                                          22
+
+===== [PDF 第 23 页｜印刷第 23 页] =====
+we show that the relationship between markups and welfare is ambiguous  if the product set is
+
+changing and that our markup estimates are largely driven by the changing cost and quality of
+
+cars. This section directly examines welfare trends over time.
+
+
+6.1  Consumer surplus, producer surplus, and deadweight loss over time.
+
+We ﬁrst deﬁne a consumer surplus measure appropriate for our context.  Typically, studies use
+
+the compensating variation of the product set relative to only the outside good being available to
+
+consumers. While this approach is straightforward, it is sensitive to changes in the valuation of
+
+the outside good over time. For example, suppose consumers choose to delay buying cars during a
+macroeconomic downturn. Then, in the down year the value of the outside good, γt, will be high
+as more consumers choose not to purchase. Similarly, suppose there is a signiﬁcant improvement
+in public transit over time, this again is reﬂected in an increase in γt which will cause a decline
+in consumer surplus. Both of these cases will aﬀect the standard consumer surplus measure, even
+
+when the quality of automobiles and their prices are held ﬁxed. We construct a measure of consumer
+
+surplus that captures the attractiveness of the choice set and is straightforward to compare across
+
+years. For each year, instead of using the value of the outside option associated with that year, we
+
+average the compensating diﬀerential overall all of the 39 (1980-2018) estimated values of outside
+
+options.
+
+   To make things concrete, consider the compensating variation of a consumer being oﬀered the
+
+inside product bundle in year t with the outside good valued at γ relative to receiving only the
+
+option to purchase this hypothetical outside good. Given our model assumptions, this is,
+
+                                             
+                  Z
+                     1      X
+         CSt(γ) =      log exp(γ) +     exp(βitxjt + αitp(γ)jt + ξjt)−γ dFt(i).        (8)
+                                     i αit                                               j∈Jt
+
+In this calculation, p(γ)t   represents the equilibrium vector of prices when ﬁrms face an outside good
+valued at γ.
+   The traditional consumer surplus measure is simply CSt(γt)—the compensating variation that
+would make consumers in year t indiﬀerent between the product bundle they face and only the
+
+outside good from that bundle.  However we can also examine how the inside product bundle
+
+in year t would have been valued against the the outside good in other years, enabling a direct
+
+comparison of product sets across years. Our preferred surplus measure removes the inﬂuence of
+
+changes in the outside good over time by averaging over the outside good across all years in the
+
+sample,
+                                        1 XT
+                             CStg =      CSt(γv).
+                                  T                                             v=0
+
+We can compute producer surplus and deadweight loss measures analogously.
+
+
+                                     [Figure 12 about here.]
+
+
+
+                                          23
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(8)  CS_t(\gamma)=\int_i\frac{1}{\alpha_{it}}\left[\log\Big(\exp(\gamma)+\sum_{j\in\mathscr J_t}\exp\big(\beta_{it}\mathbf x_{jt}+\alpha_{it}p^{(\gamma)}_{jt}+\xi_{jt}\big)\Big)-\gamma\right]dF_t(i)
+    核对方式：本轮看图；说明：原页如此。本文 \alpha_{it}<0，按字面 1/\alpha_{it} 会使补偿变化为负，钱度量应除以 -\alpha_{it}（即 |\alpha_{it}|）。其后 \widetilde{CS}_t=\frac{1}{T}\sum_{v=0}^{T}CS_t(\gamma_v)，v 从 0 到 T 共 T+1 项，与 1/T 不一致，按文意为对 39 个年份的 \gamma 取平均
+----- 【公式校正结束】 -----
+
+===== [PDF 第 24 页｜印刷第 24 页] =====
+   In Figure XII we plot estimated consumer surplus (gCSt), producer surplus, and deadweight
+loss over the sample period. These components sum to total eﬃcient surplus, which we measure by
+
+computing surplus when prices equal marginal costs. Surplus is displayed as per U.S. household.
+
+Total surplus rises roughly $10,000 per household, from around a little less than $2,000 to roughly
+
+$11,000. Overall, the market is very eﬃcient, with deadweight loss representing a small portion of
+
+total eﬃcient surplus. This ﬁnding is reminiscent of Bresnahan and Reiss (1991) who estimate that
+
+most of the increase in competition comes with the entry of the second and third ﬁrms on their
+
+sample of retailers in multiple industries. The U.S. automobile market typically features four or
+more parent companies producing each speciﬁc style of vehicle.19
+
+   The more common measurement of consumer surplus in the industrial organization literature
+
+simply compares the value of the choice set to the current year’s estimated value of the outside
+option, or CSt(γt) in our notation.  This is a more static approach, which may be appropriate
+when the researcher does not have a long time series with a drastically changing outside option.
+
+However, we prefer our measure of consumer surplus because it captures the welfare impacts of
+
+industry developments separately from external eﬀects such as changes in macroeconomic conditions
+
+or developments in substitute products represented in the outside option, such as public transit.
+
+   Figure XIIIa displays both measures of consumer surplus.  Under the traditional measure,
+
+consumer surplus is relatively ﬂat over the period with marked troughs in the early 1980s, early
+
+1990s, and 2009, corresponding to the three major economic downturns in our sample period.
+
+Clearly, this measure confounds the value of the set of available products with the value of the
+
+outside option when comparing across years. The diﬀerence between these panels is intuitive given
+
+the signiﬁcant changes in our estimates of the value of the outside good over time, as shown in
+
+Figure V. Figure XIIIb plots the share of consumer surplus of total eﬃcient surplus. We do this
+
+for our baseline measure of consumer surplus, as well as for the traditional measure. In both cases,
+
+consumers’ share of available surplus is increasing from 1980 to 2018. For our baseline measure,
+
+consumers’ share of surplus rises from 0.62 to 0.82.
+
+
+                                     [Figure 13 about here.]
+
+
+6.2 Why does consumer surplus rise?
+
+We now investigate the economic primitives driving the increase in consumer surplus over time.
+
+There are many plausible reasons for this increase. There has been a signiﬁcant change in market
+
+structure; foreign brands now oﬀer a larger proportion of products relative to the 1980s. The number
+
+of products available has also increased dramatically which beneﬁts consumers due to increased
+
+variety and strong competition between models. Products have changed in terms of characteristics
+
+in numerous ways: Today, there are many SUVs available, whereas they were a negligible part of
+
+the market in 1980. Automobiles are larger, more powerful, more eﬃcient and oﬀer greater comfort
+
+   19This can be seen directly from the diversion implied by our demand model. A vehicle’s highest diversion rivals
+are typically products oﬀered by other parent companies. On average, of a vehicles 5 closest substitutes, 3.8 are
+produced by rival manufacturers, and 7.8 of top 10 substitutes are rivals.
+
+
+                                          24
+
+===== [PDF 第 25 页｜印刷第 25 页] =====
+and reliability than in the past. Finally, production has become more eﬃcient. We propose a series
+
+of counterfactuals where we isolate these industry trends and recompute equilibrium outcomes to
+
+determine the main drivers of consumer surplus growth.
+
+
+Mechanism 1: Increased competitive pressure form foreign brands.   It is possible that
+
+the increase in foreign brands competing in the US led to downward pressure on prices that beneﬁted
+consumers.20 To understand this mechanism, we simulate an alternative scenario where we assume
+
+all vehicles sold by foreign brands in our data are instead owned by the Big 3 US car manufacturers
+
+(General Motors, Ford, and Chrysler), so that these manufacturers internalize the competitive
+
+pressure of the increase in foreign-owned products over our time period. To implement this, we
+
+randomly assign ownership of foreign brand vehicles to one of the Big 3 ﬁrms and recompute the
+
+pricing equilibrium. We do this ten times and take an average of the outcomes across the random
+
+assignments. Chrysler itself experiences ownership changes, so we track the ultimate owner of the
+
+Chrysler brand and treat that company as a Big 3 ﬁrm. While this exercise captures the eﬀect of
+
+competition on prices, it holds ﬁxed product design or quality and productivity. It is possible that
+
+improvements in product quality or marginal costs may ultimately be due to increased pressure
+
+from foreign competition.
+
+   The results, in terms of consumer surplus, are presented in the left panel of Figure XIV.
+
+Throughout this section, the solid line in the ﬁgures corresponds to our baseline consumer sur-
+
+plus, and the dashed line corresponds to a counterfactual. Our estimates indicate that, had foreign
+
+brands been owned by domestic ﬁrms, consumer surplus would still have increased substantially.
+
+We conclude that the competitive pricing pressure from foreign brands was not a primary driver of
+
+the rise in consumer surplus. Again, this is consistent with competition constraining market power
+
+with only a few competitors within clusters of similar products.
+
+
+                                     [Figure 14 about here.]
+
+
+  We benchmark the result against two alternatives to emphasize this point. In the middle panel,
+
+we plot a counterfactual where the Big 3 coordinate pricing for the entire period without owning
+
+imports, and in the right panel we show a case where all ﬁrms enter into a cartel to maximize joint
+
+proﬁts. Only in the the full cartel case is the gain in consumer surplus dampened substantially.
+
+In other words, by changing the ownership structure, the model is able to deliver outcomes where
+
+consumer surplus is greatly reduced, but the ownership conﬁguration which eliminates foreign-brand
+
+competition does not achieve this.
+
+
+                                     [Figure 15 about here.]
+
+   20There is a distinction between foreign brands and imports. Foreign brands are brands owned by parent companies
+traditionally headquartered outside of the U.S. Many foreign brands assemble vehicles in the U.S. (not imports) and
+many U.S. brands assemble vehicles in other countries and import to the U.S.
+
+
+
+
+
+                                          25
+
+===== [PDF 第 26 页｜印刷第 26 页] =====
+Mechanism 2: Product proliferation.  Another potential reason for the increase in consumer
+
+surplus is the increase in the number of available products. Consumer welfare increases with the
+
+number of products for two reasons.  First, consumers are heterogeneous and thus beneﬁt from
+
+variety, all else equal.  Second, additional products in the choice set crowds the characteristics
+
+space and adds to competitive pressure.
+
+   To quantify this mechanism, we simulate an alternate market where we restrict the number of
+active products to be at the 1980 level of 165 available products.21 The results are presented in
+
+the left panel of Figure XV. There is not much gap between the counterfactual consumer surplus
+
+and the estimated baseline path of consumer surplus. This is particularly striking considering that
+
+there were over 314 products in 2018, so the choice set was reduced by more than half.  This
+
+suggests that product proliferation was not a signiﬁcant driver of the consumer surplus increase.
+
+The intuition behind this result is that even though many products are eliminated from the choice
+
+set, consumers are able to substitute towards similar products. The rich substitution patterns
+
+of our demand system are important to capturing this eﬀect.  Indeed, under the logit model—
+
+which assumes symmetric unobserved product diﬀerentiation (Ackerberg and Rysman, 2005)—the
+
+increase in welfare over the 1980-2018 is roughly 5 times larger than under our model, largely as a
+
+result of product proliferation.
+
+   Another major development related to product proliferation is the rise in the the number of
+
+SUV’s available to consumers, as we documented in Figure IId. SUVs today represent a popular
+
+segment of the automobile market that was essentially unavailable in 1980. We estimate signiﬁcant
+
+heterogeneity in taste for SUVs, which suggests the possibility of the introduction of SUV to
+
+generate large consumer surplus gains. In the right panel of Figure XV, displays a counterfactual
+
+where we eliminate all SUVs from the choice set. As expected, this has a larger eﬀect in the later
+
+years of the sample, when SUVs are more numerous. However, while consumer surplus is lower
+
+than baseline, the diﬀerence is modest and only explains a small portion of the rise in consumer
+
+surplus between 1980 and 2018.
+
+
+Mechanism 3: Changing product attributes. We now turn to changes in product charac-
+
+teristics. A notable trend in the industry has been the general growth in car characteristics such
+
+as size and horsepower, as we documented in Figure III. To see how these improvements aﬀected
+
+consumer surplus, we scale the distribution of horsepower, MPG, footprint, height, and curb weight
+
+for each year in the sample to match the mean and variance of these characteristics in the 1980
+
+choice set. This exercise aﬀects consumer utility holding marginal cost ﬁxed for all products. The
+
+results are displayed in the left panel of Figure XVI.
+
+                                     [Figure 16 about here.]
+
+   In addition to improvements in observable characteristics, we documented a steady rise in
+
+unobservable quality (see Figure V). In the right panel of Figure XVI, we simulate a counterfactual
+
+   21In practice, we randomly select 165 products to be available each year. We do this procedure ten times and take
+an average of the outcome.
+
+
+                                          26
+
+===== [PDF 第 27 页｜印刷第 27 页] =====
+where the unobservable mean vehicle quality is ﬁxed at 1980 levels. Speciﬁcally, since the rise in ξ is
+captured by the quality adjustment term τ in (2), we set τt = 0 ∀t. In this case, the counterfactual
+delivers substantially lower increases in consumer surplus between 1980 and 2018. This comparison
+
+suggests that a large portion of the increased surplus enjoyed by consumers is due to improvements
+
+to vehicles that are outside our observed set of characteristics, such as safety features like airbags
+
+and rear view cameras, reliability improvements, and improved electronics like Bluetooth audio and
+
+navigation.
+
+
+                                     [Figure 17 about here.]
+
+
+Mechanism 4: Decreasing costs.  As we report in Appendix B.2, our results indicate that
+
+marginal costs of producing a car with ﬁxed characteristics has experienced a steady decline of
+
+1.4% per year over the sample period. To investigate the welfare implications of these technolog-
+
+ical improvements in production, the left panel of Figure XVII eliminates the downward trend in
+
+marginal costs. We ﬁnd that welfare increases by about half as much as in the baseline. Thus,
+
+technological progress in production is also a signiﬁcant driver of the measured increase in consumer
+
+surplus.
+
+    Finally, in the right panel of Figure XVII, we combine the improvement in marginal costs and
+
+the improvement in vehicle quality (from the right panel of Figure XVI) and simulate a world where
+
+neither the unobservable product quality increases nor do marginal costs fall. This combination
+
+almost entirely eliminates the measured increase in consumer surplus.
+
+
+7  Conclusion
+
+
+Antitrust policy has come under scrutiny in the U.S. in recent years.  Critics argue that weak
+
+antitrust enforcement from the 1980’s onward has led to an increasingly tight grip of large ﬁrms
+
+over product markets to the detriment of consumers.  In this paper, we focus on the new auto-
+
+mobile market over nearly forty years. Employing a supply and demand industry oligopoly model
+
+with detailed microdata, we ﬁnd that concentration has decreased, markups have decreased (in
+
+contrast to ﬁndings in studies estimating markups using production data), and consumer welfare
+
+has increased. The fraction of eﬃcient surplus accruing to consumers has also increased.
+
+  We attribute the increase in consumer surplus primarily to increasing product quality and de-
+
+creasing marginal costs.  Speciﬁcally, we ﬁnd that unobservable attributes—those that are not
+
+measured by speciﬁcations such as size, horsepower, and fuel eﬃciency—have increased signiﬁ-
+
+cantly.  These attributes include safety, reliability, comfort, and improved electronics. We ﬁnd
+
+that competition was healthy enough that beneﬁts from these improvements mostly accrued to
+
+consumers. However, our simulations indicate that had competition been signiﬁcantly weaker, for
+
+example under a monopoly, then consumer beneﬁts would have been oﬀset through higher prices.
+
+
+
+
+                                          27
+
+===== [PDF 第 28 页｜印刷第 28 页] =====
+   Our analysis makes a number of important assumptions. We consider speciﬁc models of ﬁrm
+
+conduct to infer marginal costs. Testing diﬀerent models of ﬁrm conduct to detect changes over
+
+time would be a useful direction for future research. Moreover, we do not analyze adjacent markets
+
+such as the market for ﬁnancing, parts suppliers, labor, or retail dealerships.  Proﬁts and ﬁrm
+
+behavior in these markets are linked and could be oﬀsetting the changes we measure here. We
+
+largely abstract away from the used car market except as it appears in a time-varying outside
+
+option for consumers in our model. More detailed modelling of the joint dynamics of new and used
+
+cars could lead to more precise measurements of consumer welfare.
+
+   Most importantly, to speak to the broader question of the performance of antitrust and industry
+
+regulation, more long term studies of speciﬁc industries are necessary. While broad based studies
+
+using accounting or production data are important and attractive due to their feasibility, speciﬁc
+
+industry studies are useful to validate measurements. Furthermore, as proxies for welfare such as
+
+concentration or markups can be misleading in an environment where products are improving over
+
+time, speciﬁc industry studies often lend themselves to direct welfare calculations thereby avoiding
+
+the use of proxy measurements.
+
+
+
+
+
+                                          28
+
+===== [PDF 第 29 页｜印刷第 29 页] =====
+References
+
+Ackerberg, Daniel and Marc Rysman, “Unobserved Product Diferentiation in Discrete-Choice
+
+  Models: Estimating Elasticities and Welfare Eﬀects,” RAND Journal of Economics, 2005, 36 (4),
+
+  771–788.
+
+Amiti, Mary and Sebastian Heise, “US Market Concentration and Import Competition,” 2021.
+
+Autor, David, David Dorn, Lawrence F Katz, Christina Patterson, and John Van
+
+  Reenen, “The Fall of the Labor Share and the Rise of Superstar Firms,” The Quarterly Journal
+
+  of Economics, 02 2020, 135 (2), 645–709.
+
+Berry, Steven and Panle Jia, “Tracing the Woes: An Empirical Analysis of the Airline Industry,”
+
+  American Economic Journal: Microeconomics, 2010, 2 (3), 1–43.
+
+   , James Levinsohn, and Ariel Pakes, “Automobile Prices in Market Equilibrium,” Econo-
+
+  metrica: Journal of the Econometric Society, 1995, pp. 841–890.
+
+   ,    , and     , “Voluntary Export Restraints on Automobiles: Evaluating a Trade Policy,” Amer-
+
+  ican Economic Review, 1999, 89 (3), 400–430.
+
+   ,    , and     , “Diﬀerentiated Products Demand Systems from a Combination of Micro and Macro
+
+  data: The New Car Market,” Journal of Political Economy, 2004, 112 (1), 68–105.
+
+   , Martin Gaynor, and Fiona Scott Morton, “Do Increasing Markups Matter? Lessons from
+
+  Empirical Industrial Organization,” Journal of Economic Perspectives, 2019, 33 (3), 44–68.
+
+Berry, Steven T, “Estimating Discrete-choice Models of Product Diﬀerentiation,” The RAND
+
+  Journal of Economics, 1994, pp. 242–262.
+
+Bet, Germán, “Market Power in the US Airline Industry,” Available at SSRN 3913695, 2021.
+
+Bond, Steve, Arshia Hashemi, Greg Kaplan, and Piotr Zoch, “Some Unpleasant Markup
+
+  Arithmetic: Production Function Elasticities and Their Estimation from Production Data,” Jour-
+
+  nal of Monetary Economics, 2021, 121, 1–14.
+
+Bordley, Robert F, “Estimating Automotive Elasticities from Segment Elasticities and First
+
+  Choice/Second Choice Data,” The Review of Economics and Statistics, 1993, pp. 455–462.
+
+Brand, James, “Diﬀerences in Diﬀerentiation: Rising Variety and Markups in Retail Food Stores,”
+
+  Available at SSRN 3712513, 2020.
+
+Bresnahan, Timothy F, “The Oligopoly Solution Concept is Identiﬁed,” Economics Letters,
+
+  1982, 10 (1-2), 87–92.
+
+  and Peter C Reiss, “Entry and Competition in Concentrated Markets,” Journal of Political
+
+  Economy, 1991, 99 (5), 977–1009.
+
+
+                                          29
+
+===== [PDF 第 30 页｜印刷第 30 页] =====
+Burstein, Ariel and Gita Gopinath, “International Prices and Exchange Rates,” in “Handbook
+
+  of international economics,” Vol. 4, Elsevier, 2014, pp. 391–451.
+
+Covarrubias, Matias, Germán Gutiérrez, and Thomas Philippon, “From Good to Bad
+
+  Concentration? US Industries over the past 30 years,” NBER Macroeconomics Annual, 2020, 34
+
+   (1), 1–46.
+
+Demirer, Mert, “Production Function Estimation with Factor-augmenting Technology: An Ap-
+
+  plication to Markups,” Technical Report, MIT working paper 2020.
+
+Demsetz, Harold, “Industry Structure, Market Rivalry, and Public Policy,” Journal of Law and
+
+  Economics, 1973, 16 (1), 1–9.
+
+Döpper, Hendrik, Alexander MacKay, Nathan Miller, and Joel Stiebale, “Rising
+
+  Markups and the Role of Consumer Preferences,” Available at SSRN 3939126, 2021.
+
+Doraszelski, Ulrich and Jordi Jaumandreu, “Reexamining the De Loecker & Warzynski (2012)
+
+  Method for Estimating Markups,” 2021.
+
+Duarte, Marco, Lorenzo Magnolﬁ, and Christopher Sullivan, “Testing Firm Conduct,”
+
+  2020.
+
+Economist, The, “Corporate Concentration: The creep of consolidation across America’s corpo-
+
+  rate landscape,” Technical Report 2016.
+
+Feenstra, Robert C, Robert Inklaar, and Marcel P Timmer, “The Next Generation of the
+
+  Penn World Table,” American Economic Review, 2015, 105 (10), 3150–82.
+
+Foster, Lucia S, John C Haltiwanger, and Cody Tuttle, “Rising Markups or Changing
+
+  Technology?,” Technical Report, National Bureau of Economic Research 2022.
+
+Ganapati, Sharat, “The Modern Wholesaler: Global Sourcing, Domestic Distribution, and Scale
+
+  Economies,” Technical Report 2021.
+
+Gandhi, Amit and Jean-François Houde, “Measuring Substitution Patterns in Diﬀerentiated-
+
+  products Industries,” NBER Working Paper, 2019, (w26375).
+
+Gillingham,  Kenneth,  “The  Economics  of  Fuel Economy  Standards  versus  Feebates,”
+
+  Manuscript: Yale University, 2013.
+
+Goldberg, Linda S and José Manuel Campa, “The Sensitivity of the CPI to Exchange Rates:
+
+  Distribution Margins, Imported Inputs, and Trade Exposure,” The Review of Economics and
+
+   Statistics, 2010, 92 (2), 392–407.
+
+Goldberg, Pinelopi Koujianou, “Product Diﬀerentiation and Oligopoly in International Mar-
+
+  kets: The Case of the US Automobile Industry,” Econometrica: Journal of the Econometric
+
+  Society, 1995, pp. 891–951.
+
+
+                                          30
+
+===== [PDF 第 31 页｜印刷第 31 页] =====
+    , “The Eﬀects of the Corporate Average Fuel Economy Standards in the US,” Journal of Industrial
+
+  Economics, 1998, 46 (1), 1–33.
+
+  and Frank Verboven, “The Evolution of Price Dispersion in the European Car Market,” The
+
+  Review of Economic Studies, 2001, 68 (4), 811–848.
+
+Hashmi, Aamir Raﬁque and Johannes Van Biesebroeck, “The Relationship Between Market
+
+  Structure and Innovation in Industry Equilibrium: A Case Study of the Global Automobile
+
+  Industry,” Review of Economics and Statistics, 2016, 98 (1), 192–208.
+
+Knittel, Christopher R, “Automobiles on Steroids: Product Attribute Trade-oﬀs and Techno-
+
+   logical Progress in the Automobile Sector,” American Economic Review, 2011, 101 (7), 3368–99.
+
+Lacetera, Nicola and Justin Sydnor, “Would You Buy a Honda Made in the United States?
+
+  The Impact of Production Location on Manufacturing Quality,” The Review of Economics and
+
+   Statistics, 2015, 97 (4), 855–876.
+
+Lau, Lawrence J, “On Identifying the Degree of Competitiveness from Industry Price and Output
+
+  Data,” Economics Letters, 1982, 10 (1-2), 93–99.
+
+Leard, Benjamin, “Estimating Consumer Substitution Between New and Used Passenger Vehi-
+
+   cles,” 2019.
+
+   , Joshua Linn, and Y Zhou, “How Much Do Consumers Value Fuel Economy and Performance.
+
+  Evidence from Technology Adoption,” Resources for the Future Report, 2017, pp. 1–37.
+
+Loecker, Jan De and Paul T Scott, “Estimating Market Power: Evidence from the US Brewing
+
+  Industry,” Technical Report, National Bureau of Economic Research 2016.
+
+   , Jan Eeckhout, and Gabriel Unger, “The Rise of Market Power and the Macroeconomic
+
+  Implications,” The Quarterly Journal of Economics, 2020, 135 (2), 561–644.
+
+Miller, Nathan, Matthew Osborne, Gloria Sheu, and Gretchen Sileo, “The Evolution of
+
+  Concentration and Markups in the United States Cement Industry,” Available at SSRN, 2022.
+
+Pakes, Ariel and David Pollard, “Simulation and the Aymptotics of Optimization Estimators,”
+
+  Econometrica, 1989, 57 (5), 1027–1057.
+
+   , Steven Berry, and James A Levinsohn, “Applications and Limitations of Some Recent
+
+  Advances in Empirical Industrial Organization: Price Indexes and the Analysis of Environmental
+
+  Change,” The American Economic Review, 1993, 83 (2), 240–246.
+
+Petrin, Amil, “Quantifying the Beneﬁts of New Products: The Case of the Minivan,” Journal of
+
+   Political Economy, 2002, 110 (4), 705–729.
+
+Raval, Devesh, “Testing the Production Approach to Markup Estimation,” Review of Economic
+
+  Studies, 2022.
+
+
+                                          31
+
+===== [PDF 第 32 页｜印刷第 32 页] =====
+Traina, James, “Is Aggregate Market power Increasing?  Production Trends using Financial
+
+  Statements,” 2021.
+
+
+
+
+
+                                          32
+
+===== [PDF 第 33 页｜印刷第 33 页] =====
+A  Demand Estimation Procedure
+
+In this appendix, we detail the three steps of our demand estimation procedure.
+
+
+A.1  Unobserved Heterogeneity and Mean Valuation
+
+Following Berry et al. (1995) we can decompose a consumer utility net of taste for the outside good
+into a vertical component δjt and horizontal components,22
+
+                                         uijt −γt = δjt + µijt(θ) + ϵijt.
+
+
+Where the vertical component is
+
+                                           δjt = ¯βxjt + ¯αpjt + ξjt −γt                                  (9)
+
+
+and the heterogeneity term is
+
+          X X    X    X
+                       µijt(θ) =       βkhxkjtDhit +   αhpjDhit +   σkxkjtνik,                 (10)
+                                   k  h              h              k
+
+where xkjt is the kth element of xjt and we collect the heterogeneity parameters into the vector
+θ = ({βkh}, {αh}, σ).
+   Our goal in this step is to estimate (θ, δ). For any consumer i, the conditional choice probability
+
+as a function of parameters is
+
+                                       exp (δjt + µijt(θ))
+                                  sijt(θ, δ) =  P                                               (11)                                   1 +   k∈Jt exp (δkt + µikt(θ)).
+
+Integrating these choice probabilities over the distribution of consumers gives us the market shares.
+
+Since there is a one-to-one mapping between δ and market shares, we can solve for mean valuations
+
+as a function of θ by matching model predicted shares to the market share data,
+
+                                    Z
+                                           sjt =    sij(θ, δ(θ))dFt(i).
+
+
+  We can now construct the moments for our estimator of θ.  Let sij(θ) = sij(θ, δ(θ)).  For
+readability, we drop t from the notation from the rest of this section and let yi be the observed
+purchase of consumer i
+
+   Our ﬁrst set of moments rely on microdata where we observe consumers’ automobile choice as
+well as their demographic characteristics, so we observe a random sample {yi, Di}. We use this
+information to match product characteristics conditional on consumer demographics. Speciﬁcally,
+
+   22In this stage of estimation, it is convenient to re-normalize utility to be net of the outside good in year t, so that
+γt is a term in δjt. We will show how to estimate γt below.
+
+
+
+
+
+                                          33
+
+===== [PDF 第 34 页｜印刷第 34 页] =====
+we construct moments of the form23
+
+                                         Z                 X
+       \                      g1(θ) = E[x(yi)|i ∈H] −       xjsij(θ) dF(i|i ∈H),                   (12)
+                                                                        j
+
+where H describes a set of consumers identiﬁable based on demographics, x(yi is the characteristic
+         \vector of the product purchased by i and E[x(yi)|i ∈H] is an estimate from the microdata.  In
+         \practice, we match diﬀerences and ratios of E[x(yi)|i ∈H] across alternative demographic sets, H.
+Table X lists the demographic moments we target and the associated model ﬁt.
+
+   Our second set of moments relies on microdata for which we observe the consumers ﬁrst and
+second choices of products. That is, the data is a random sample {yi, zi}, where zi is the stated
+second choice of consumer i. Conditional on purchasing an automobile, our model predicts the ﬁrst
+and second choices of consumer i,24
+
+                            exp (δj(θ) + µij(θ))     exp (δk(θ) + µik(θ))
+                       si(j,k)(θ) = P                                · P                                     (13)                                  ℓ∈J exp (δℓ+ µiℓ(θ))     ℓ∈J\j exp (δℓ+ µiℓ(θ)).
+
+We construct moments based on the correlation of product characteristics of ﬁrst and second choices,
+
+                                         Z                 X
+       \                      g2(θ) = E[x(yi) ◦x(zi)] −      (xj ◦xk)si(j,k)(θ)dF(i)                  (14)
+                                                                       j,k
+
+          \where ◦denotes element-wise multiplication and E[x(yi) ◦x(zi)] is an estimate based on the micro-
+data. Table VIII displays the second choice correlations we target and the model ﬁt.
+
+  We stack these two sets of moments and estimate θ via simulated GMM. We use a weight
+
+matrix based on the inverse variance matrix of the data moments. Simulation over the distribution
+of consumers follows Pakes and Pollard (1989). Given ˆθ, our estimate of mean valuations is ˆδ = δ(ˆθ).
+
+
+A.2  Mean Taste for Characteristics
+
+With the estimates of mean valuations from the previous step, we can now estimate mean tastes
+
+for product characteristics. We use the following regression equation,
+
+                                           δjt = ¯βxjt + ¯αpjt + ιt + ˜ξjt,                               (15)
+
+where ιt = τt −γt absorbs the eﬀect of the average utility of the outside good and the average
+car quality in year t. We use our ﬁrst stage estimate ˆδ as a proxy for δ and employ a simple (IV)
+
+regression where the real exchange rate is our instrument for price. The extension to allow for
+
+variation in mean preference parameters over time is straightforward.
+
+   23In practice, we condition this moment on purchasing an automobile, since the outside good does not have
+characteristics. An exception to this is that we do include one moment based on purchase probabilities in order to
+estimate a demographic coeﬃcient on the constant.
+  24Our second choice data does not include information on outside good selection, so we again condition out the
+no purchase option when constructing second choice moments.
+
+
+
+                                          34
+
+===== [PDF 第 35 页｜印刷第 35 页] =====
+A.3  Mean Quality over Time
+
+Our ﬁnal step estimates τ and γ separately using the continuing product condition (2).  The
+empirical analogue of this condition can be rewritten as an estimator of τt using the residuals from
+our second step,
+                X
+                                                                ˆτt = ˆτt−1 +      (ˆ˜ξjt−1 −ˆ˜ξjt),                              (16)
+                                                j∈Ct
+
+with τ0 normalized to 0. Finally, we can estimate ˆγt = ˆιt −ˆτt.
+
+
+B  Additional Results and Analysis
+
+B.1  Model Fit
+
+In this section, we report model ﬁt for all of the moments used in estimation. Fit for the demo-
+
+graphic interaction moments, for both the MRI and CEX samples, are reported in Table X. Table
+
+XI reports the second choice moments we match in demand estimation. An aggregated (averaged
+
+across the four sample years) version of these moments appears in the body of the paper (Table
+
+VIII).
+
+
+                                     [Table 10 about here.]
+
+
+                                     [Table 11 about here.]
+
+
+B.2  Determinants of Marginal Cost
+
+In a subset of the counterfactual exercises, we consider scenarios that alter the marginal cost of
+
+products.  To do so, we estimate a parsimonious model of the determinants of marginal cost,
+
+relating them to observable characteristics, the real exchange rate, and a linear time trend to
+
+capture technological innovation.
+
+
+                                log(cjt) = µxjt + ψ · RXRjt + ρ · t + ωjt,                        (17)
+
+   Where xjt is the characteristic set used in utility and RXRjt is the real exchange rate (our cost
+instrument).25 The coeﬃcient estimates for this estimation are provided in Table XII.
+
+   For the exercises in counterfactual Mechanism 4, which are reported in Figure XVII, we compute
+
+counterfactual marginal costs by eliminating the technological improvements represented by the
+
+time trend (i.e., setting ρ = 0) while holding all other cost elements ﬁxed (including the residuals).
+
+We then solve for a new price equilibrium and compute the resulting consumer surplus.
+
+
+                                     [Table 12 about here.]
+
+  25We have also experimented with including unobserved quality ξjt in the speciﬁcation for marginal cost. While
+this produces qualitatively similar results for the counterfactuals, we opted to omit ξ from our baseline speciﬁcation
+since it incorporates a mix of technological improvements many of which (such as inventing anti-lock breaks in 1980)
+are likely not directly attributable to marginal costs.
+
+
+                                          35
+
+===== [PDF 第 36 页｜印刷第 36 页] =====
+B.3  Additional Markup Counterfactuals
+
+In this section we report plots for additional markup counterfactuals mentioned in Section 5.4.1.
+
+In Figure XVIIIa, we display median markups after assigning all foreign brands to be owned by
+
+one of the Big 3 U.S. manufacturers. Markups are slightly higher throughout the time period,
+
+but the downward trend remains. In Figure XVIIIb, we display median markups after (randomly)
+
+limiting the number of products oﬀered each year to match the number of oﬀerings in 1980. Median
+
+markups have a similar trend in this case as the the baseline.
+
+
+                                     [Figure 18 about here.]
+
+
+B.4  Used Car Analysis
+
+We manually collected data from the Kelly Blue Book website in December 2021 for mint condition,
+
+the best possible option, which KBB reﬂects 1-2% of the vehicles they evaluate, used automobiles
+
+with a total of 500 miles driven produced every ﬁve years between 1992 and 2017. Our query
+
+asked for the private party transaction value of the top ﬁve vehicles in each of the years for each of
+
+cars, SUV’s, vans, and trucks. We then regressed the midpoint of Kelly Blue Book private party
+
+transaction value range against characteristics and dummy variables for the year of production.
+
+The year of production dummy variables should capture the unobserved product diﬀerences across
+
+years of production. Table XIII reports the results, which indicate a steady increase in product
+
+quality over time which is consistent with the results of our demand estimation.
+
+
+                                     [Table 13 about here.]
+
+
+
+
+
+                                          36
+
+===== [PDF 第 37 页｜印刷第 37 页] =====
+                           1.5
+                                   Japan
+                               Germany
+                                  Korea
+                                 Mexico
+                                Rate 1     U.S.
+                                                                Exchange
+                                Real 0.5
+
+
+
+                        0
+                        1980   1985   1990   1995   2000   2005   2010   2015
+                                                   Year
+
+                               Figure I: Real Exchange Rates
+
+
+Note: Lagged real exchange rates from Penn World Table 9.1. Size of dots corresponds to the relative number of
+
+sales by production country, except for U.S.A.
+
+
+
+
+
+                                          37
+
+===== [PDF 第 38 页｜印刷第 38 页] =====
+$55,000
+          Mean Price                                                                               0.3                                                         1
+$50,000    IQR                                                                                                                              HHIC4
+$45,000                                                                                        0.25                                                                     0.9
+
+$40,000                                                                                              0.2
+                                                                                                                                                                               0.8
+$35,000                                                                                         HHI 0.15                                                                                                                       Share
+$30,000                                                                                                                                                                      0.7C4
+                                                                                                       0.1
+$25,000
+                                                                                                                                                                               0.6
+$20,000                                                                                        0.05
+
+$15,000                                                                                0                                                                     0.5
+     1980   1985   1990   1995   2000   2005   2010   2015                      1980   1985   1990   1995   2000   2005   2010   2015
+                                 Year                                                                           Year
+                    (a) Prices                                      (b) Measures of Concentration
+                                                               25                  200    CarSUV   340    Count of Products
+          Count of Parent Companies                                                                     Truck
+   320                                                                                      Van                                                                                                                                                                                     Models
+   300                                                                         150Offered                                                            20Owners
+   280
+
+   260                                                                                                                                                                                                                                                                               Available 100Products 240                                                                                                                                                                                             Ultimate          of
+of 220                                                         15of
+Count 200                                                                                                                      Count                              Number 50
+   180
+   160                                                         10                    0
+    1980   1985   1990   1995   2000   2005   2010   2015                        1980   1985   1990   1995   2000   2005   2010   2015
+                                Year                                                                          Year
+         (c) Products and Manufacturers                          (d) Count of Products by Styles
+
+                       Figure II: Prices and Market Structure, 1980-2018
+
+
+Notes: Panel (a) displays share-weighted average price along with the interquartile range. Panel (b): HHI (bold
+
+ line and left scale) and C4 (dashed line and right scale) are deﬁned at the parent company level, e.g. Honda is the
+
+parent company of the Honda and Acura brands. In Panel (c), the number of products corresponds to a model
+
+available in a given year in our sample. The style deﬁnitions referred to in Panel (d) are described in the text. Data
+
+ is from Wards Automotive Yearbooks and the sample selection is described in the text.
+
+
+
+
+
+                                          38
+
+===== [PDF 第 39 页｜印刷第 39 页] =====
+   350                                                                        18
+          Car                                                                                  Car
+         SUV                                                                   SUV                                                                             17    Truck   300    Truck                                                                                          Van          Van
+                                                                             16   250                                                                                                                                                                                                 (1000s)
+                                                                             15
+   200                                                                                                                                                                                  Inches 14Horsepower
+   150
+                                                                             13                                                                                                                                                                                  Square
+   100                                                                        12
+
+    50                                                                        11
+    1980   1985   1990   1995   2000   2005   2010   2015                   1980   1985   1990   1995   2000   2005   2010   2015
+                                Year                                                                      Year
+                 (a) Horsepower                                   (b) Footprint (length × width)
+   28
+         Car
+        SUV                                                                      100
+   26    Truck
+         Van
+   24                                                                               80
+
+                                                                                   60Gallon 22                                                                                                                                                                                                                                                                            Installedper
+   20
+
+                                                                                                                                                                                           Air                                                                                                                                                                  Cond.Miles                                                                                 40   18                                                                                                                                                                                                                 Factory                                                                                                                                                    Power                                                                                                                                                     Windows
+                                %                                                                                                                                                                                             Anit-lock                                                                                                                                                                     Brake
+                                                                                   20                                                               Cassette
+   16                                                                                                                                                                   Side Airbag
+                                                                                                                                       Memory Seats
+   14                                                                                0                                                         Rear Camera
+   1980   1985   1990   1995   2000   2005   2010   2015                     1980        1990        2000        2010 2014
+                               Year                                                                    Year
+                 (c) Fuel Economy                             (d) Additional Factory Installed Features
+
+                     Figure III: Physical Vehicle Characteristics, 1980-2018
+
+
+Notes: Panels (a)-(c) display average characteristics for available models in our sample. Panel (d) is the percent of
+
+each feature installed on total “cars” sold (i.e. not trucks, SUVs, or vans). Factory installed features were compiled
+
+from Wards Automotive Yearbooks from various years. For example, in 1980 61% of “cars” sold had air
+
+ conditioning.
+
+
+
+
+
+                                          39
+
+===== [PDF 第 40 页｜印刷第 40 页] =====
+                                                                                                                              1985
+                                                   0.8                                                                           2000
+                                                                                                                              2015
+
+
+                                                   0.6
+
+                                                                                               Density 0.4
+
+
+                                                   0.2
+
+
+
+                                             0
+                                                        -3.5            -3           -2.5            -2           -1.5            -1           -0.5
+                                                                                    ,i
+
+                          Figure IV: Distribution of Price Sensitivity
+
+Note: Plot displays smoothed kernel regression of 10,000 draws from the estimated distribution
+of αi, by year, for the baseline speciﬁcation with constant ¯α over time.
+
+
+
+
+
+                                          40
+
+===== [PDF 第 41 页｜印刷第 41 页] =====
+                              $35,000
+                                               Average Unobserved Quality
+                              $30,000       Value of the Outside Good
+
+                              $25,000
+
+                              $20,000
+
+                              $15,000
+
+                              $10,000
+
+                                $5,000
+
+                                  $0
+
+                                $-5,000
+
+                              $-10,000
+                                   1980     1985     1990     1995     2000     2005     2010     2015
+                                                                  Year
+
+                 Figure V: Quality and Aggregate Components of Time Eﬀects
+
+
+Notes: Average unobserved quality, τt, and value of outside good, γt, in dollars. See text for estimation details.
+
+
+
+
+
+                                          41
+
+===== [PDF 第 42 页｜印刷第 42 页] =====
+    0.8
+                                                                         Constant 7, (1)                             0.5                                                               Median
+    0.7                                                                      Linear5-year 7,tTrend(3) (2)                         0.45                                                                               Quartiles10-90 Deciles
+    0.6                                                                                                                    0.4
+
+                                                                                                                    0.35    0.5
+                                                                                                                           0.3
+
+                                                                 pp!mc p 0.4                                                                                                                                                                                                                                         p!mc
+                                                                                                                    0.25
+    0.3
+                                                                                                                           0.2
+    0.2
+                                                                                                                    0.15
+    0.1                                                                                                                    0.1
+
+      0                                                                                                            0.05
+     1980     1985     1990     1995     2000     2005     2010     2015                            1980     1985     1990     1995     2000     2005     2010     2015
+                                      Year                                                                                        Year
+
+        (a) Markups, Three Speciﬁcations                            (b) Distribution of Markups
+
+                                     Figure VI: Markups
+
+
+Notes: Panel (a) displays the median markup over time for three speciﬁcations of demand. Refer to Tables 4, 5,
+
+and 6 for demand estimates. Panel (b) displays the distribution of markups, over time, for demand speciﬁcation (1).
+
+
+
+
+
+                                          42
+
+===== [PDF 第 43 页｜印刷第 43 页] =====
+      0.4                                                                                                                  0.4
+                                                                                     Car                                                                                                           Domestic
+                                                              SUV                                                                                                               Import
+                                                                                      Truck
+    0.35                                                                   Van                            0.35
+
+
+      0.3                                                                                                                  0.3
+
+
+
+
+
+ p                                                               p
+p!mc  0.25                                                                                                                                                                                                                                       p!mc  0.25
+
+
+      0.2                                                                                                                  0.2
+
+
+    0.15                                                                                                            0.15
+
+      1980     1985     1990     1995     2000     2005     2010     2015                            1980     1985     1990     1995     2000     2005     2010     2015
+                                       Year                                                                                        Year
+
+          (a) Markups by Vehicle Style                             (b) Markups by Import Status
+
+              Figure VII: Markups over Time by Vehicle Style and Import Status
+
+
+Note: Median markups across all vehicles. Vehicle style deﬁned in the text. “Domestic” are those cars produced in
+
+the U.S., regardless of brand headquarters.
+
+
+
+
+
+                                          43
+
+===== [PDF 第 44 页｜印刷第 44 页] =====
+    0.5
+                                                                                 Baseline                              $42,000
+                                                                                  Single-product
+                                                                                                          $40,000
+    0.4
+                                                                                                          $38,000
+
+                                                                                                          $36,000
+    0.3
+Index                                                                                                       $34,000
+    0.2Lerner                                                                                                       $32,000                                                                                                          $30,000
+
+    0.1                                                                                                    $28,000
+
+                                                                                                          $26,000
+
+      0                                                                                                   $24,000
+     1980     1985     1990     1995     2000     2005     2010     2015                             1980     1985     1990     1995     2000     2005     2010     2015
+
+              (a) Average Markups                                       (b) Average Price
+                                                                                      #10 -3
+    0.25                                                                                               0
+
+
+     0.2                                                                                                                -1
+
+
+    0.15                                                                                                                -2
+(%)                                                                                                                                                                        dsj dpj
+Share  0.1                                                                                                                -3
+
+
+    0.05                                                                                                                -4
+
+
+       0                                                                                                               -5
+      1980     1985     1990     1995     2000     2005     2010     2015                          1980     1985     1990     1995     2000     2005     2010     2015
+
+                 (c) Average Share                                 (d) Average Own-price Derivative
+
+                           Figure VIII: Markups, Prices, and Shares
+
+
+Notes: The top-left panel displays share-weighted mean markups for our baseline model and a model that assumes
+
+each product’s price is set independently of all other products. In the top-right panel, average prices are in 2015
+
+USD.
+
+
+
+
+
+                                          44
+
+===== [PDF 第 45 页｜印刷第 45 页] =====
+                                                                                                                      0.40
+   $35,000                                                                                                                                                                                                       Baseline
+                                                                                       Baseline                                                                                                                          Counterfactual
+                                                                                        Counterfactual
+
+   $30,000                                                                                                           0.30
+2015)
+   $25,000                                                                                                                                                          Index
+(USD,                                                                                                                  0.20
+Cost $20,000                                                                                                                                                                                         Lerner
+
+                                                                                                                      0.10Marginal $15,000                                                                                                                                                                                         Median
+Median $10,000
+          1980               1990               2000               2010           2018                        1980               1990               2000               2010           2018
+                                          Year                                                                                        Year
+
+ (a) Marginal Cost: Baseline vs. Counterfactual              (b) Markups: Baseline vs. Counterfactual
+
+            Figure IX: Counterfactual Markups, 1980 Distribution of Characteristics
+
+
+Note: For each vehicle in each year, we assign the same percentile from the 1980 distribution of each characteristic,
+
+recompute marginal costs, which are plotted in panel (a), and recompute the pricing equilibrium and markups
+
+which are plotted in panel (b).
+
+
+
+
+
+                                          45
+
+===== [PDF 第 46 页｜印刷第 46 页] =====
+                                                   0.9                                                                        Baseline
+                                                                                                                    Big 3 Collusion
+                                                                                                                                           Full Collusion
+                                                   0.8
+
+                                                   0.7
+
+                                                   0.6
+
+
+                          p                                                                                                   p!mc                                                   0.5
+
+                                                   0.4
+
+                                                   0.3
+
+                                                   0.2
+
+                                            1980     1985     1990     1995     2000     2005     2010     2015
+                                                                           Year
+
+                    Figure X: Markups: Alternative Conduct Assumptions
+
+
+Notes: Estimated median markups for Nash Bertrand pricing by parent companies (“Baseline”), the Big 3 U.S.
+
+automobile manufacturers colluding for every year in our sample (“Big 3 Collusion”), and joint price setting by
+
+every parent company in our sample (“Full Collusion”).
+
+
+
+
+
+                                          46
+
+===== [PDF 第 47 页｜印刷第 47 页] =====
+    1.8                                                                                               $130
+                                                               Mean Markups
+    1.7                                                 DLEU (2020)
+                                                           BLP (1995)                          $120
+    1.6
+
+    1.5                                                                                               $110
+                                                                                                                                     bil.(P/MC)
+    1.4
+Cost                                $ $100    1.3                                                                                                                                                            (2015
+
+    1.2                                                                                                $90Marginal                                                                                                                                                                                                                                 Profits
+to 1.1
+                                                                                                      $80Price   1                                                                                                                                                                                                                                                       Variable
+of
+                                                                                                      $70
+                                                                                                       1980     1985     1990     1995     2000     2005     2010     2015Ratio 0.91980     1985     1990     1995     2000     2005     2010     2015                                     Total
+                                      Year                                                                                        Year
+
+          (a) Price over Marginal Cost                               (b) Total Variable Proﬁts
+
+                      Figure XI: Comparison to De Loecker et al. (2020)
+
+
+Notes: Panel (a) displays share-weighted mean price over marginal cost in our estimates, the estimate for
+
+share-weighted mean price over marginal cost in the U.S. automobile industry from De Loecker et al. (2020), and
+
+the average estimate across 1971-1990 from Berry et al. (1995). Panel (b) displays our estimate of total variable
+
+proﬁts, quantity sold multiplied by margins, summed across all products.
+
+
+
+
+
+                                          47
+
+===== [PDF 第 48 页｜印刷第 48 页] =====
+                       $12,000
+                                          Producer Surplus
+                                     Consumer Surplus
+                       $10,000    DWL
+
+
+                         $8,000
+
+
+                         $6,000
+
+
+                         $4,000
+
+
+                         $2,000
+
+
+                           $0
+                            1980     1985     1990     1995     2000     2005     2010     2015
+                                                           Year
+
+            Figure XII: Consumer Surplus, Producer Surplus, and Deadweight Loss
+
+
+Notes: Consumer surplus, producer surplus and deadweight loss. Consumer surplus in the compensating variation
+
+procedure detailed in the text. Deadweight loss is computed by netting consumer and producer surplus form
+
+eﬃcient surplus, deﬁned as the surplus available when prices equal marginal costs. Surplus measured in 2015 dollars.
+
+
+
+
+
+                                          48
+
+===== [PDF 第 49 页｜印刷第 49 页] =====
+                                                                                                                                 0.85$10,000                                                                                                                                                             Baseline                Baseline consumer surplus
+           CS relative to current year outside good                                                                         CS relative to current year outside good
+ $8,000                                                                                                                                 0.8
+
+
+ $6,000                                                                                                                         0.75                                                                                                                                                                                                                                                                     Surplus
+
+ $4,000                                                                                                                                 0.7                                                                                                                                                                                                                                                                                                                                                Efficient
+                                                                           to
+ $2,000                                                                      CS 0.65
+                                                                           of
+                                                                                                                                                                                           Ratio  0.6      $0
+       1980     1985     1990     1995     2000     2005     2010     2015                                        1980     1985     1990     1995     2000     2005     2010     2015
+                                       Year                                                                                                   Year
+
+     (a) Consumer Surplus Comparison                      (b) CS as a Share of Total Available Surplus
+
+                         Figure XIII: Consumer Surplus Comparison
+
+
+Notes: Panel (a) displays consumer surplus computed two ways: the baseline deﬁnition described in the text, and
+
+consumer surplus computed as the compensating variation to the current year outside good. Panel (b) displays the
+
+ratio of consumer surplus to total eﬃcient surplus using both approached presented in panel (a), where eﬃcient
+
+surplus is computed as consumer surplus when prices equal estimated marginal costs of production, vehicle by
+
+vehicle.
+
+
+
+
+
+                                          49
+
+===== [PDF 第 50 页｜印刷第 50 页] =====
+   $10,000                                                                      $10,000                                                                $10,000
+                    Baseline                                                                                    Baseline                                                                             Baseline
+                    Foreign Brands Owned by Big 3                                                      Big3 Collusion                                                           Monopoly Collusion
+
+     $8,000                                                                        $8,000                                                                  $8,000
+
+Surplus  $6,000                                                                                                                                                  Surplus  $6,000                                                                                                                                      Surplus  $6,000
+Consumer  $4,000                                                                                                                                                                       Consumer  $4,000                                                                                                                                                         Consumer  $4,000
+     $2,000                                                                        $2,000                                                                  $2,000
+
+
+         $0                                                                     $0                                                                $0
+          1980         1990         2000         2010       2018                1980         1990         2000         2010       2018           1980         1990         2000         2010       2018
+                                 Year                                                              Year                                                          Year
+
+
+
+Notes: Vertical axis represents consumer surplus per U.S. household in 2015 dollars. In the ﬁrst panel, we simulate
+
+the market equilibrium if all vehicles produced by foreign brands were owned by the Big 3 U.S. car manufacturers
+
+(randomly assigning new ownership). In the second panel, we simulate market equilibrium if the Big 3 jointly set
+
+prices. In the third panel, we simulate market equilibrium if all ﬁrms jointly set prices.
+
+                Figure XIV: Consumer Surplus: Alternative Product Ownership
+
+
+
+
+
+                                          50
+
+===== [PDF 第 51 页｜印刷第 51 页] =====
+               $10,000                                                                $10,000
+                                   Baseline                                                                             Baseline
+                              1980 Product Count                                                                  Eliminate SUV
+
+                 $8,000                                                                  $8,000
+
+                          Surplus  $6,000                                                                                                                                     Surplus  $6,000
+
+                 $4,000                                                                  $4,000
+                              Consumer                                                                                                                                                                           Consumer
+                 $2,000                                                                  $2,000
+
+
+                    $0                                                                $0
+                     1980         1990         2000         2010       2018           1980         1990         2000         2010       2018
+                                           Year                                                          Year
+
+
+                     Figure XV: Consumer Welfare, Product Proliferation
+
+
+Notes: Vertical axis represents consumer surplus per U.S. household in 2015 dollars. In the ﬁrst panel, we simulate
+
+the market equilibrium if we eliminate (randomly) products in every year so that the number of products in the
+
+choice set is the same as in 1980. In the second panel we eliminate all SUVs from our sample and simulate market
+
+the equilibrium.
+
+
+
+
+
+                                          51
+
+===== [PDF 第 52 页｜印刷第 52 页] =====
+               $10,000                                                                $10,000
+                                   Baseline                                                                             Baseline
+                              1980 Attributes                                                  No Change in Unobserved Quality
+
+                 $8,000                                                                  $8,000
+
+                          Surplus  $6,000                                                                                                                                     Surplus  $6,000
+
+                 $4,000                                                                  $4,000
+                              Consumer                                                                                                                                                                           Consumer
+                 $2,000                                                                  $2,000
+
+
+                    $0                                                                $0
+                     1980         1990         2000         2010       2018           1980         1990         2000         2010       2018
+                                           Year                                                          Year
+
+
+                    Figure XVI: Consumer Welfare, Changes in Attributes
+
+
+Notes: Vertical axis represents consumer surplus per U.S. household in 2015 dollars. In the ﬁrst panel, we simulate
+
+the market equilibrium if, in each year, we re-scale the distribution of footprint, horsepower, MPG, curbweight, and
+
+height, to match the 1980 distribution. In the second panel we eliminate the improvements to average unobserved
+quality, ξjt over time.
+
+
+
+
+
+                                          52
+
+===== [PDF 第 53 页｜印刷第 53 页] =====
+               $10,000                                                                $10,000
+                                   Baseline                                                                             Baseline
+                        No MC Improvements                                             No Quality or MC Improvements
+
+                 $8,000                                                                  $8,000
+
+                          Surplus  $6,000                                                                                                                                     Surplus  $6,000
+
+                 $4,000                                                                  $4,000
+                              Consumer                                                                                                                                                                           Consumer
+                 $2,000                                                                  $2,000
+
+
+                    $0                                                                $0
+                     1980         1990         2000         2010       2018           1980         1990         2000         2010       2018
+                                           Year                                                          Year
+
+
+              Figure XVII: Consumer Welfare, Changes in Production Eﬃciency
+
+
+Notes: Vertical axis represents consumer surplus per U.S. household in 2015 dollars. In the ﬁrst panel, we simulate
+
+the market equilibrium if, in each year, we eliminate the production eﬃciency trend estimated in Table XII. In the
+
+second panel, we eliminate both the changes in production eﬃciency and unobserved quality (from Figure ??).
+
+
+
+
+
+                                          53
+
+===== [PDF 第 54 页｜印刷第 54 页] =====
+   0.40                                                                                     0.40
+                                                                   Baseline                                                                                               Baseline
+                                                                  Counterfactual                                                                                        Counterfactual
+
+Index 0.30                                                                                                                                                Index 0.30
+
+   0.20                                                                                     0.20Lerner                                                                                                                                                                                     Lerner
+Median 0.10                                                                                                                                                                            Median 0.10
+
+
+
+     1980           1990           2000           2010        2018                  1980           1990           2000           2010        2018
+                                Year                                                                          Year
+ (a) Markup Counterfactual: Foreign Ownership           (b) Markup Counterfactual: 1980 Product Count
+
+                       Figure XVIII: Additional Counterfactual Markups
+
+
+Note: Panel (a) displays counterfactual median markups for the counterfactual described in Mechanism 1 in
+
+Section 6.2. Panel (b) displays median markups for the counterfactual described in Mechanism 2 in Section 6.2.
+
+
+
+
+
+                                          54
+
+===== [PDF 第 55 页｜印刷第 55 页] =====
+                              Table I: Summary Statistics
+
+
+                     Mean   Std. Dev.     Min      Max                        Mean   Std. Dev.     Min      Max
+
+ Cars, N=6,130                                          SUVs, N=2,243
+
+ Sales                  52,088.60   72,750.83      10.00   473108.00      Sales                  51,629.61   66,932.79      10.00   753064.00
+ Price                      35.85       18.76      11.14       99.99      Price                      40.41       14.94      12.75       96.94
+ MPG                      22.67         6.82      10.00       50.00   MPG                      18.01        4.98      10.00       50.00
+ Horsepower              178.21       83.41      48.00      645.00     Horsepower              232.33       74.92      63.00      510.00
+ Height                    55.76         4.21      43.50      107.50     Height                     69.01        4.38      53.00       90.00
+ Footprint              12,870.08     1,710.41   6,514.54   21,821.86     Width                 13,790.90    1,785.69   8,127.00   18,136.00
+ Curbweight             3,181.94      639.51   1,488.00     6,765.00     Curbweight             4,246.05      854.30   2,028.00     7,230.00
+ US Brand                   0.40         0.49       0.00         1.00    US Brand                   0.40        0.49       0.00         1.00
+ Import                      0.59         0.49       0.00         1.00     Import                      0.59        0.49       0.00         1.00
+  Electric                     0.02         0.14       0.00         1.00      Electric                     0.01        0.12       0.00         1.00
+
+
+ Trucks, N=680                                              Vans, N=641
+
+ Sales                 140207.22   184123.33      12.00   891482.00      Sales                  59,103.39   86,940.25      10.00   891482.00
+ Price                      27.81         9.82      12.02       69.43      Price                      36.05       17.13      11.14       99.99
+ MPG                      17.83         4.36      10.00       50.00   MPG                      20.94        6.58      10.00       50.00
+ Horsepower              189.17       90.31      44.00      403.00     Horsepower              192.18       83.88      44.00      645.00
+ Height                    68.39         6.33      51.80       81.00     Height                     60.95        8.41      43.50      107.50
+ Footprint              15,086.14     2,478.91   8,437.30   20,000.00      Footprint              13,392.63    1,968.92   6,514.54   21,821.86
+ Curbweight             4,043.42     1,114.94   1,113.00     7,178.00     Curbweight             3,561.21      897.77   1,113.00     8,550.00
+ US Brand                   0.65         0.48       0.00         1.00    US Brand                   0.44        0.50       0.00         1.00
+ Import                      0.35         0.48       0.00         1.00     Import                      0.55        0.50       0.00         1.00
+  Electric                     0.00         0.00       0.00         0.00      Electric                     0.02        0.13       0.00         1.00
+
+ Notes: An observation is a make-model-year, aggregated by taking the median across trims in a given year. Statistics are not sales weighted. Prices
+are in 2015 000’s USD. Physical dimensions are in inches and curbweight is in pounds.
+
+
+
+
+
+                                        55
+
+===== [PDF 第 56 页｜印刷第 56 页] =====
+                                    Table II: Logit Demand
+
+
+                                            First Stage  Reduced Form        OLS           IV
+
+ Price                                                                   -0.334 (0.042)   -1.696 (0.598)
+ RXR                                0.411 (0.110)   -0.697 (0.232)
+ Height                                -0.199 (0.048)   -0.064 (0.066)   -0.120 (0.069)   -0.401 (0.161)
+ Footprint                             -0.117 (0.066)    0.348 (0.081)   0.318 (0.082)   0.149 (0.149)
+ Horsepower                          0.768 (0.116)   -0.097 (0.070)   0.149 (0.067)   1.206 (0.472)
+ MPG                                0.113 (0.036)   -0.062 (0.057)   -0.018 (0.062)   0.130 (0.116)
+ Curbweight                          0.803 (0.111)   -0.493 (0.142)   -0.233 (0.140)   0.868 (0.541)
+ Num. of Trims                       -0.115 (0.020)    1.097 (0.045)   1.060 (0.044)   0.902 (0.091)
+ Release Year                          -0.081 (0.040)   -0.173 (0.054)   -0.195 (0.056)   -0.311 (0.091)
+ Yrs. Since Design                    0.000 (0.012)   -0.145 (0.017)   -0.145 (0.017)   -0.144 (0.024)
+ Sport                                0.480 (0.090)   -0.679 (0.105)   -0.523 (0.102)   0.134 (0.323)
+ Electric                              0.765 (0.176)   -1.031 (0.255)   -0.791 (0.245)   0.267 (0.560)
+ Truck                                 -0.416 (0.154)   -0.485 (0.099)   -0.631 (0.107)   -1.190 (0.359)
+ SUV                                  -0.111 (0.117)    0.561 (0.100)   0.515 (0.105)   0.372 (0.214)
+ Van                                  -0.268 (0.161)    0.037 (0.126)   -0.060 (0.143)   -0.417 (0.330)
+
+ Mean Own Price Elas.                         –              –            -1.20            -6.11
+ Implied Pass-through                 0.117 (0.032)
+ First Stage F-Stat                           14.09
+
+ Notes: Unit of observations: year-make-model, from 1980 to 2018. Number of observations: 9,694. All
+speciﬁcations include year and make ﬁxed eﬀects. Standard errors clustered by make in parentheses.
+All continuous car characteristics are in logs and price is in 2015 $10,000.  Variables are logged and
+standardized.
+
+
+
+
+
+                                   56
+
+===== [PDF 第 57 页｜印刷第 57 页] =====
+                     Table III: Second Choices, Selected Examples
+
+
+ Model and Year                    Modal Second Choice                Next Second Choice                  (Modal + Next)/n
+
+ 1991 (N=29,436)
+
+ Ford F Series                           Dodge Ram Pickup                           Chevrolet Ck Pickup                                   0.35
+ Honda Accord                              Toyota Camry                               Nissan Maxima                                         0.19
+ Dodge Caravan                            Ford Aerostar                            Plymouth Voyager                                      0.15
+ Mercedes-benz Mercedes E Class         Bmw 5 Series                              Lexus Ls                                               0.17
+ Toyota 4runner                             Ford Explorer                               Nissan Pathﬁnder                                       0.34
+ Nissan 300zx                                  Alfa Romeo Alfa Romeo 164                  Chevrolet Corvette                                     0.20
+
+ 1999 (N=20,413)
+
+ Chevrolet Silverado                         Ford F Series                           Dodge Ram Pickup                                     0.76
+ Toyota Camry                          Honda Accord                               Nissan Maxima                                         0.38
+ Plymouth Voyager                          Ford Windstar                          Dodge Caravan                                         0.42
+ Audi A6                       Bmw 5 Series                               Volvo 80                                                0.28
+ Chevrolet Tahoe                           Ford Expedition                         Dodge Durango                                         0.36
+ Bmw Z3                                    Porsche Boxster                        Mazda Mx-5 Miata                                     0.42
+
+ 2005 (N=42,977)
+
+ Toyota Tacoma                              Nissan Frontier                             Ford F Series                                           0.35
+ Ford Focus                                 Toyota Corolla                          Honda Civic                                            0.22
+ Honda Odyssey                             Toyota Sienna                                Chrysler Town & Country                              0.71
+ Lincoln Town Car                              Cadillac Deville                               Chrysler 300 Series                                     0.44
+ Honda Cr-v                                Toyota Rav4                               Ford Escape                                            0.38
+ Porsche Cayenne                  Bmw X5                               Land Rover Range Rover                               0.43
+
+ 2015 (N=53,391)
+
+ Ford F Series                                Chevrolet Silverado                  Ram Pickup                                            0.64
+ Toyota Prius                           Honda Accord Hybrid                    Honda Cr-v                                            0.11
+ Toyota Sienna                          Honda Odyssey                               Chrysler Town & Country                              0.64
+ Volvo 60                       Bmw 3 Series                             Audi A4                                                0.16
+ Nissan Frontier                             Toyota Tacoma                              Chevrolet Colorado                                     0.69
+ Chevrolet Camaro                          Ford Mustang                           Dodge Challenger                                       0.46
+ Toyota Prius Phev                           Chevrolet Volt                               Nissan Leaf                                             0.32
+
+ Notes: Data from Maritz CX surveys in 1991, 1999, 2005, and 2015. Vehicles selected are high selling vehicles that represent a range of styles and attributes. The last
+column displays diversion to the two most popular second choices, conditional on diversion to any vehicle.
+
+
+
+
+
+                                        57
+
+===== [PDF 第 58 页｜印刷第 58 页] =====
+Table IV: “Mean” price parameters for diﬀerent speciﬁcations
+
+
+                                   (1)           (2)             (3)
+                              Baseline  Linear Trend  5-year Breaks
+
+     Price                      -3.112       -2.839           –
+                                (1.122)      (0.737)
+    Trend X Price              –          -0.018           –
+                                               (0.02)
+    1980-1984                 –           –            -1.933
+                                                             (0.521)
+    1985-1989                 –           –             -3.05
+                                                                  (1.3)
+    1990-1994                 –           –            -2.682
+                                                             (0.791)
+    1995-1999                 –           –            -2.722
+                                                             (0.617)
+    2000-2004                 –           –             -2.57
+                                                             (0.571)
+    2005-2009                 –           –            -3.222
+                                                             (0.847)
+    2010-2014                 –           –             -3.65
+                                                             (0.839)
+    2015-2018                 –           –            -3.312
+                                                               (0.83)
+
+    Notes: Brand and year dummies included. Standard errors account for
+    correlation within make of realizations of ξjt and are bootstrapped over
+   the entire estimation procedure, so they account for sampling error in
+   the survey data. Price is in 2015 $10,000.
+
+
+
+
+
+                          58
+
+===== [PDF 第 59 页｜印刷第 59 页] =====
+Table V: “Mean” attribute parameters for diﬀerent speciﬁcations
+
+
+                                     (1)           (2)             (3)
+                                Baseline  Linear Trend  5-year Breaks
+
+      Height                     -1.788       -1.696          -1.631
+                                  (0.317)      (0.263)         (0.253)
+       Footprint                  0.534        0.409          0.502
+                                   (0.26)       (0.253)         (0.237)
+      Horsepower                1.018        1.24           1.189
+                                  (0.955)      (0.689)         (0.766)
+    MPG                      -0.965       -0.957          -0.971
+                                  (0.212)      (0.207)         (0.196)
+      Curbweight                0.339        0.454          0.088
+                                  (0.932)      (0.671)         (0.629)
+     Num. of Trims            1.118        1.108          1.153
+                                  (0.142)      (0.081)          (0.08)
+       Release Year               -0.238       -0.296          -0.234
+                                   (0.16)       (0.133)         (0.129)
+       Yrs. Since Design          -0.214        -0.22           -0.221
+                                  (0.025)      (0.023)         (0.021)
+      Sport                      -3.046       -3.039          -3.203
+                                  (0.549)      (0.381)         (0.418)
+       Electric                    -5.549       -5.244          -5.261
+                                  (1.403)      (1.171)         (1.233)
+      Truck                      -7.463       -6.885          -6.387
+                                  (0.892)        (0.9)          (0.836)
+    SUV                       -0.079       -2.727          -2.604
+                                  (0.338)      (0.625)         (0.676)
+     Van                        -7.614       -5.942          -5.701
+                                  (0.599)      (0.657)           (0.6)
+     Van Trend                 –          -0.099          -0.106
+                                               (0.018)          (0.02)
+    SUV Trend                –          0.093          0.092
+                                               (0.033)         (0.028)
+      Truck Trend               –          -0.042          -0.058
+                                               (0.021)         (0.018)
+
+      Notes: Brand and year dummies included. Brand and year dummies
+      included. Standard errors account for correlation within make of real-
+      izations of ξjt and are bootstrapped over the entire estimation proce-
+      dure, so they account for sampling error in the survey data. Footprint
+       is vehicle length times height in square inches. All continuous physical
+      attributes are logged and standardized.
+
+
+
+
+
+                           59
+
+===== [PDF 第 60 页｜印刷第 60 页] =====
+  Table VI: Coeﬃcient Estimates: Unobserved and Observed Heterogeneity
+
+
+                                          Demographic Interactions
+
+               σ       Income   Inc. Sq.   Age    Rural  Fam. Size 2  FS 3-4  FS 5+
+ Price           –         0.094    -0.462    2.065     –         –         –       –
+                              (0.01)    (0.133)   (0.122)
+ Van            5.538        –        –        –       –        1.737      3.681     5.84
+                 (0.133)                                             (0.165)     (0.176)   (0.223)
+ SUV           3.617        –        –        –       –         –         –       –
+                 (0.087)
+ Truck          6.309        –        –        –      3.007       –         –       –
+                 (0.31)                                    (0.34)
+ Footprint      1.873        –        –        –       –        0.481      0.459    0.636
+                 (0.118)                                             (0.053)     (0.054)   (0.07)
+ Horsepower    1.246        –        –        –       –         –         –       –
+                 (0.361)
+ Miles/Gal.     1.645        –        –        –       –         –         –       –
+                 (0.151)
+ Luxury        2.624        –        –        –       –         –         –       –
+                 (0.047)
+ Sport          2.617        –        –        –       –         –         –       –
+                 (0.075)
+ EV            3.798        –        –        –       –         –         –       –
+                 (0.511)
+ Euro. Brand   1.921        –        –        –       –         –         –       –
+                 (0.054)
+ US Brand      2.141        –        –        –       –         –         –       –
+                 (0.048)
+ Constant        –         0.362      –        –       –         –         –       –
+                             (0.034)
+
+ Notes: Brand and year dummies included. Standard errors are constructed by bootstrapping the
+microdata.  All continuous car characteristics are in logs and standardized, and price is in 2015
+$10,000. Footprint is vehicle length times height in square inches. Income is normalized to have
+zero mean and unit variance.
+
+
+
+
+
+                                 60
+
+===== [PDF 第 61 页｜印刷第 61 页] =====
+                 Table VII: Selected Elasticities
+
+
+                                            Year
+
+                                   1985  1995  2005  2015
+
+ Average Own-price Elasticity         -4.23   -5.30   -5.78   -5.36
+
+ Market Elasticity                      -1.07   -1.44   -1.38   -1.29
+
+ Ford                                   -3.51   -4.21   -5.29   -4.75
+ GM                                   -2.64   -3.75   -4.60   -4.72
+ Toyota                                -3.40   -5.06   -4.67   -4.40
+ Volkswagen                            -4.15   -5.42   -5.54   -5.45
+ Hyundai                            –     -3.43   -3.93   -4.11
+
+ Notes:  “Average Own-price Elasticity”  is the percent change in sales for a
+one percent increase in price, averaged across each available product (share-
+weighted). “Market Elasticity” is the percentage change in the sales of all vehi-
+cles for a one percent increase in the price of all vehicles. Manufacturer-speciﬁc
+elasticities represent the percent change in sales for all cars of that manufacturer
+for a one percent increase in price for all cars of that manufacturer.
+
+
+
+
+
+                             61
+
+===== [PDF 第 62 页｜印刷第 62 页] =====
+            Table VIII: Attribute Correlation between First and Second Choice
+
+
+                                                                          Alternative Speciﬁcations
+
+                                                       Only Dem. &      Only
+                                    Data      Model     Footprint RC  Demographics     Logit
+
+ Van                                     0.720       0.729         0.048           0.008         -0.008
+ SUV                                     0.642       0.636         0.018           -0.007         -0.010
+ Truck                                    0.843       0.797         0.246           -0.013         -0.024
+ Footprint                                0.710       0.695         0.666           -0.003         -0.018
+ Horsepower                              0.599       0.589         0.385           0.009         -0.012
+ MPG                                    0.647       0.657         0.363           0.003         -0.013
+ Luxury                                  0.484       0.499         0.031           0.005         -0.005
+ Sport                                    0.277       0.293         0.001           -0.004         -0.004
+ Electric                                  0.373       0.182         0.002           -0.001         -0.001
+ Euro Brand                              0.336       0.347         0.019           0.000         -0.003
+ US Brand                                0.479       0.471         0.120           -0.010         -0.012
+
+ Notes: Data from MaritzCX survey, 1991, 1999, 2005, 2015. The numbers are the average across these four
+years.  “Model” column represents the predictions from the model presented in Table VI, and column 1 of
+Tables IV and V. The “Logit” column contains model predictions from a simple logit demand speciﬁcation,
+with no observed or unobserved heterogeneity. The “Only Demographics” column contains model predictions
+from a model with the same demographic interactions as our main speciﬁcation, but without any unobserved
+heterogeneity. “Logit” and “Only Demographics” are estimated without moments on second choices.
+
+
+
+
+
+                                        62
+
+===== [PDF 第 63 页｜印刷第 63 页] =====
+ Table IX: Average Markups with Diﬀerent Cartel Assumptions
+
+
+                                              Median Markup  HHI
+
+ 1980 Baseline                                                0.32       2661
+
+ 2018 Baseline                                                0.19       1132
+
+ 2018 Hypothetical Cartel Membership
+ GM + Ford + Toyota                                       0.22       2546
+ Top 3 + Fiat                                                0.23       3724
+ Top 4 + Honda                                              0.26       4819
+ Top 5 + Nissan                                              0.32       6000
+
+ Notes: Computed median markups and HHI with simulated collusion in 2018 for various manu-
+facturer cartels. Note: Fiat is the parent company of Chrysler in 2018.
+
+
+
+
+
+                            63
+
+===== [PDF 第 64 页｜印刷第 64 页] =====
+                                                         MRI              CEX
+
+                                                                              Only                   Only
+ Demographic                              Car Attribute           Data  Model  Demos    Data  Model  Demos
+
+ E[x|Income Q5] −E[x|Income Q1]                Price                     0.215   0.383    0.363      0.603    0.4     0.421
+ E[x|Income Q4] −E[x|Income Q1]                Price                     0.016   0.229    0.215      0.356   0.266    0.268
+ E[x|Income Q3] −E[x|Income Q1]                Price                       -0.08   0.131    0.121      0.189   0.149    0.15
+ E[x|Income Q2] −E[x|Income Q1]                Price                     -0.146   0.068    0.062      0.069   0.078    0.075
+ E[x|Age > 60] −E[x|Age < 30]                  Price                     0.518   0.369    0.328      0.257   0.344    0.342
+ E[x|Age50 −60] −E[x|Age < 30]                Price                     0.388    0.34     0.33      0.239   0.291    0.316
+ E[x|Age40 −50] −E[x|Age < 30]                Price                     0.329   0.294    0.295      0.265   0.236    0.246
+ E[x|Age30 −40] −E[x|Age < 30]                Price                     0.266   0.146    0.148      0.265   0.135    0.139
+ E[x|Family = 2] −E[x|Family = 1]           Van                      0.025   0.022    0.022      0.02   0.021    0.021
+ E[x|Family = 3/4] −E[x|Family = 1]         Van                      0.063   0.062    0.061      0.058   0.059    0.059
+ E[x|Family = 5+] −E[x|Family = 1]         Van                      0.132   0.131    0.126      0.12   0.121    0.122
+ E[x|Family = 2] −E[x|Family = 1]             Footprint                 0.036   0.027    0.026      0.026   0.027    0.027
+ E[x|Family = 3/4] −E[x|Family = 1]           Footprint                 0.018   0.024    0.023      0.026   0.025    0.025
+ E[x|Family = 5+] −E[x|Family = 1]            Footprint                 0.03    0.035    0.033      0.036   0.036    0.036
+ E[x|Rural] −E[x|NotRural]                   Truck                     -0.103   -0.098   -0.101      –      –       –
+ E[x|Income Q2] / E[x|Income Q1]               PurchaseProb             –       –       –       7.813   9.239    9.091
+ E[x|Income Q3] / E[x|Income Q1]               PurchaseProb             –       –       –       5.466   5.077    5.246
+ E[x|Income Q4] / E[x|Income Q1]               PurchaseProb             –       –       –       3.641   2.706    2.866
+ E[x|Income Q5] / E[x|Income Q1]               PurchaseProb             –       –       –       2.265    1.66    1.684
+
+ Notes: Moments from the consumer samples that we target in estimation, along with the analog from our model at the estimated
+parameters. For the demographic moments, our data comes from two surveys, the Consumer Expenditure Survey (CEX) covering
+years 1980-2005 and MRI covering years 1992-2018. The "Only Demos" column correspond to a speciﬁcation where we include all
+of the demographic interactions but none of the random coeﬃcients.
+
+              Table X: Moments and Model Fit: Demographic Interactions
+
+
+
+
+
+                                       64
+
+===== [PDF 第 65 页｜印刷第 65 页] =====
+                                         1991             1999             2005             2015
+ Attribute                          Data  Model    Data  Model    Data  Model    Data  Model
+
+ Van                                   0.688   0.734     0.735   0.739     0.735   0.719      0.72   0.696
+ SUV                                   0.605    0.58      0.652   0.639     0.623   0.665      0.69   0.663
+ Truck                                   0.84   0.792      0.83    0.79      0.828   0.805     0.872   0.799
+ Footprint                              0.638   0.665      0.68   0.684     0.739   0.713     0.782   0.714
+ Horsepower                            0.512   0.542     0.567   0.559     0.643   0.611     0.674   0.636
+ MPG                                  0.627   0.647     0.686   0.667     0.664   0.664     0.611   0.641
+ Luxury                                0.426   0.514     0.438   0.469     0.521   0.499      0.55   0.476
+ Sport                                  0.229   0.266     0.217   0.244     0.314   0.267     0.348   0.338
+ Electric                               –      –        –     0.003       –      –       0.373   0.371
+ Euro Brand                            0.186   0.276     0.337   0.359     0.409   0.368     0.413   0.363
+ US Brand                             0.468   0.453     0.475   0.471      0.51   0.474     0.464    0.48
+
+ Notes: Moments from the Maritz second choice survey that we target in estimation and the analog from our model
+at the estimated parameters.
+
+         Table XI: Moments and Model Fit: Second Choice Moments
+
+
+
+
+
+                                  65
+
+===== [PDF 第 66 页｜印刷第 66 页] =====
+Table XII: Marginal Cost Function Estimates
+
+
+                             Coeﬃcient    S.E.
+
+ Trend                             -0.014     (0.002)
+ RXR                             0.211     (0.030)
+ Height                            -0.839     (0.133)
+ Footprint                         -0.289     (0.122)
+ HP                              0.552     (0.049)
+ MPG                            0.096     (0.042)
+ Curbweight                      1.280     (0.125)
+ Trims                             -0.032     (0.007)
+ Release Year                      -0.012     (0.013)
+ SUV                             0.025     (0.026)
+ Truck                             -0.124     (0.037)
+ Van                              0.042     (0.029)
+ EV                              0.313     (0.066)
+ Sport                            0.110     (0.019)
+ Design Years                      -0.000     (0.003)
+
+ Brand Eﬀect               ✓
+
+ Notes: Dependent variable is log marginal costs re-
+covered from the ﬁrst-order conditions. All continuous
+attributes are logged. Standard errors are clustered by
+brand.
+
+
+
+
+
+                   66
+
+===== [PDF 第 67 页｜印刷第 67 页] =====
+        Table XIII: KBB Price Regression
+
+
+                        Coeﬃcient     S.E.
+
+ Height                   26058.27   (5244.96)
+ Footprint                12470.29   (6862.72)
+ Horsepower                600.47    (2407.91)
+ MPG                      -258.53    (4450.29)
+ Weight                    -9710.17    (5279.84)
+ No. Trims                   -2.65       (11.90)
+ Years Since Redesign       -99.44     (100.48)
+ Truck                     -1809.78    (1403.22)
+ SUV                      421.12    (1223.43)
+ Van                       -1124.60    (1101.78)
+ Year 1997                  -586.04     (951.43)
+ Year 2002                 395.62    (1251.81)
+ Year 2007                 3424.69    (1506.16)
+ Year 2012                10224.18   (1485.64)
+ Year 2017                19638.88   (1956.91)
+
+ Notes:  Unit of observations:  year make-model,
+from 1980 to 2018. Number of observations:  72.
+Speciﬁcation include make ﬁxed eﬀects. Car char-
+acteristics in logs.
+
+
+
+
+
+                 67

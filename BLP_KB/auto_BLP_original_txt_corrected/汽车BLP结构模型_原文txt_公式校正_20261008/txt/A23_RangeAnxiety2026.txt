@@ -1,0 +1,3811 @@
+==============================================================================
+【文献】Barwick et al. (2026). Range Anxiety. NBER Working Paper w34871.
+【编号】A23　【简称】RangeAnxiety2026　【分组】动态
+【原文 PDF】D:\auto-demand-lit-2026-09\原文PDF\W03_Barwick_2026_NBER_NBERwp.pdf
+【页数】68 页　【页码换算】印刷页码 = PDF 页码 − 2（前 2 页为封面或前置页）
+【文本来源】PyMuPDF 抽取 PDF 文字层（按版面块排序）
+【公式校正】本篇未逐式校正。正文公式为机器抽取，常有错位、缺字或乱码，引用公式请以原 PDF 为准
+【备注】使用侧连续时间动态模型，不是购车选择
+【使用提醒】正文是机器抽取的原文，不是译文；公式区以页末校正或原 PDF 为准。页标记中的 PDF 页码可直接用于在原 PDF 中翻页定位。
+==============================================================================
+
+===== [PDF 第 1 页] =====
+                  NBER WORKING PAPER SERIES
+
+
+
+
+
+                       RANGE ANXIETY
+
+                                    Panle Jia Barwick
+                                     Shanjun Li
+                                            Tianli Xia
+
+                              Working Paper 34871
+                            http://www.nber.org/papers/w34871
+
+
+             NATIONAL BUREAU OF ECONOMIC RESEARCH
+                            1050 Massachusetts Avenue
+                                Cambridge, MA 02138
+                                     February 2026
+
+
+
+
+
+We thank Sarah Armitage, Jim Bushnell, Peter Christensen, Edward Glaeser, Yizhen Gu, Erich
+Muehlegger, Jing Li, Ming Li, Gabriel Kreindler, Emmanuel Saez, Jeremy West, Matthew
+Zaragoza-Watkins, and seminar and conference participants at Harvard, LSE, Rochester, UC-
+Davis, UC-Santa Cruz, and PKU-HSBC for their helpful comments. We thank Xiufang Cao and
+Yanhaohan Wen for excellent research assistance. The authors declare that they have no relevant
+financial interests or conflicts of interest related to this research. The views expressed herein are
+those of the authors and do not necessarily reflect the views of the National Bureau of Economic
+Research.
+
+NBER working papers are circulated for discussion and comment purposes. They have not been
+peer-reviewed or been subject to the review by the NBER Board of Directors that accompanies
+official NBER publications.
+
+© 2026 by Panle Jia Barwick, Shanjun Li, and Tianli Xia. All rights reserved. Short sections of text,
+not to exceed two paragraphs, may be quoted without explicit permission provided that full credit,
+including © notice, is given to the source.
+
+===== [PDF 第 2 页] =====
+Range Anxiety
+Panle Jia Barwick, Shanjun Li, and Tianli Xia
+NBER Working Paper No. 34871
+February 2026
+JEL No. L91, R13, R21
+
+                         ABSTRACT
+
+Range anxiety, the fear of depleting battery before reaching a charging station, is often cited as a
+major barrier to electric vehicle (EV) adoption, yet there has been limited formal economic analysis
+to quantify its magnitude and examine the policy implications. We develop a continuous-time
+dynamic model of EV usage and charging decisions to micro-found range anxiety as the utility loss
+from feasible yet unrealized trips due to perceived range constraints. Using high-frequency data of
+188,000 EV trips and 26,000 charging events among 8,000 EVs in Shanghai, we recover model
+parameters governing consumer driving and charging decisions. The estimates imply that, across
+EV models with varying driving ranges, average range anxiety was about $1,900 in 2021 but
+declined to $1,200 in 2024, driven by improvements in charging infrastructure and, especially,
+increases  in  driving  range. Policy simulations underscore  the importance  of coordinating
+investments in driving range and charging infrastructure to address range anxiety. Relative to
+socially optimal levels, Shanghai’s EV market has under-invested in driving range but over-
+invested in charging infrastructure.
+
+Panle Jia Barwick                               Tianli Xia
+University of Wisconsin - Madison             University of Rochester
+Department of Economics                 Simon Business School
+and CEPR                                Department of Marketing
+and also NBER                                tianli.xia@rochester.edu
+panle.barwick@gmail.com
+
+Shanjun Li
+Stanford University
+Doerr School of Sustainability
+Environmental Social Sciences,
+and Freeman Spogli Institute for
+International Studies
+and NBER
+shanli@stanford.edu
+
+===== [PDF 第 3 页｜印刷第 1 页] =====
+1  Introduction
+
+With the transportation sector responsible for nearly one-third of global carbon emissions,
+
+transitioning to electric vehicles (EVs) powered by a clean energy grid has become a corner-
+
+stone of global decarbonization efforts. Since being introduced into the mass market in 2011,
+
+global passenger EV sales have grown rapidly, reaching 17.1 million units, or 20% of new
+passenger vehicle sales, by 2024.1 Market penetration, however, varies widely: EVs accounted
+
+for 40% of new vehicle sales in China, 28% in Europe, 11% in the United States, and just 5%
+in the rest of the world. Even within countries or regions, adoption is highly uneven.2 Under-
+
+standing the barriers to EV adoption and identifying solutions to address them is critical for
+
+the next phase of EV diffusion.
+
+   Consumer surveys and industry reports regularly identify range anxiety as one of the most
+
+significant barriers to EV adoption (Wardlaw, 2020; Chokshi et al., 2021; Klier and Rubenstein,
+
+2022; Rainieri et al., 2023; Bloomberg Intelligence, 2024). Range anxiety refers to the fear of
+
+depleting the battery before reaching a charging station, stemming from the combination of
+limited driving range and inadequate charging infrastructure.3 Despite the widely recognized
+
+importance of range anxiety, formal analysis of the phenomenon and the cost-effectiveness of
+
+strategies to mitigate it remains limited. To bridge this gap, we develop a micro-foundation for
+
+range anxiety utilizing a continuous-time dynamic model of consumer EV usage and charging
+
+behavior. Based on estimated parameters, we quantify range anxiety in monetary terms and
+
+perform policy simulations to evaluate the relative efficiency of increasing vehicle driving range
+
+versus expanding charging infrastructure.
+
+   In the model, trip needs of varying distances arrive stochastically, and EV drivers decide
+
+whether to undertake a trip or initiate charging based on their remaining battery range, access
+
+to charging network, and charging prices. We define range anxiety as the utility loss from
+
+feasible but forgone trips, arising from the driver’s perceived risk of battery depletion before
+
+reaching a charging station. Our empirical analysis leverages a unique, granular, and high-
+
+frequency dataset on EV driving and charging behavior. It records the location and remaining
+
+  1EVs include both battery electric vehicles (BEVs) and plug-in hybrid electric vehicles (PHEVs).
+   2Within Europe, EVs accounted for nearly 90% of new vehicle sales in Norway, compared to less than 20%
+in Germany. In the U.S., EVs made up about 26% of new car registrations in California in 2024, but less than
+7% in Texas.
+   3Early EV models typically offered only 100–200 miles per charge, well below the 300–400 miles that
+gasoline vehicles can travel on a full tank. There were about 12,000 public EV charging stations in the U.S.
+in 2015. While the number grew to nearly 70,000 by 2025, it is still far fewer than the nearly 150,000 gasoline
+stations. In addition, EV charging infrastructure is found to be less reliable than gasoline stations, with one
+in every five EV chargers in the U.S. being out of order, reported by consumer reviews (Liu et al., 2023).
+
+
+
+                                        1
+
+===== [PDF 第 4 页｜印刷第 2 页] =====
+range of 8,000 EVs at 5-second intervals, along with detailed information on charging, such
+
+as station location, charging duration, price, and quantity. The data contains about 188,000
+
+trips and 26,000 charging events across four weeks each in 2021 and 2024.
+
+  We begin by documenting some key patterns in the data. First, the charging probability,
+
+defined as the share of charging events among both driving and charging events, is higher
+
+when the remaining range (i.e., state of charge or SOC) is low. This is intuitive, as a limited
+
+remaining range both constrains the ability to take trips and increases the need to recharge.
+
+Second, the probability of charging rises with better charging access and falls with charging
+
+prices, the pattern becoming more pronounced at lower remaining ranges. Third, drivers with
+
+home charging access rely primarily on home charging to meet their needs. Their probability
+
+of using public fast charging is much less sensitive to remaining range than it is for those
+
+without home access, highlighting charging behavior differences between the two groups.
+
+   Empirical support for range anxiety stems from a robust pattern of “missing trips” in the
+
+data, defined as feasible trips that are foregone when they would result in a low SOC among
+
+BEVs. This pattern persists, though to varying degrees, across several sub-samples: daytime
+
+vs. nighttime, commuting time vs. leisure time, weekdays vs. weekends, winter vs. summer,
+
+and drivers with vs. without home chargers. However, a placebo test on PHEVs does not
+
+detect this pattern. To provide causalevidence, we conduct a regression analysis examining
+
+how the projected remaining range (after a trip) affects the hazard rate of trip-taking, and
+
+how this effect varies with charging density or access. To address potential endogeneity in
+
+charging access, we construct a shift-share instrument by interacting the pre-sample (2018)
+
+number of points of interest (POIs) with the declining cost of charging equipment over time.
+
+Our analysis shows that drivers forgo over 60% of trips that would reduce their remaining
+
+range below 50 km and approximately 14% of trips that would leave them between 50-100
+
+km. Notably, improved charging access mitigates this behavior: the expansion of the charging
+
+network observed from 2021 to 2024 reduces the frequency of missing trips by nearly one-
+
+quarter.
+
+   Guided by these data patterns, we develop and estimate a continuous-time dynamic model
+
+to recover the structural parameters governing driving and charging decisions. We incorporate
+
+rich consumer heterogeneity and state variables.  Consumers are characterized by the full
+
+driving range of their EV (e.g., 250km vs. 400km), the charging network structure (2021 vs.
+
+2024), and whether they have access to a home charger. The set of state variables for a driver
+
+at any given point in time includes the remaining range of his vehicle, attributes of his current
+
+location (number of local charging stations, local charging price, number of local amenities,
+
+
+
+                                        2
+
+===== [PDF 第 5 页｜印刷第 3 页] =====
+home vs. away from home), and whether at daytime or nighttime. The estimates suggest that
+
+the probability of charging decreases with remaining range and charging prices, but increases
+
+with better charging access and rises for vehicles with longer driving ranges. In contrast, the
+
+probability of driving rises with remaining range but drops sharply if taking a trip reduces
+
+the remaining range below 50 or 100 km, or if the trip ends in areas with sparse or costly
+
+charging options.  Finally, the estimated price elasticity of charging demand at fast public
+
+stations is -0.98 for drivers without home charging and -0.28 for those with home charging.
+
+The lower elasticity among drivers with home charging likely reflects their infrequent use of
+
+public stations.
+
+   Using the estimated parameters, we find that the willingness to pay (WTP) for improve-
+
+ments in driving range and charging access is substantial, especially among drivers without
+
+home charging. In 2018, the average driving range of the existing EV stock was 318km, and
+
+there wer only about 100 fast charging stations in the city. By 2024, the average range in-
+
+creased to 383km, while the number of fast charging stations surged to 2,268 (with a total of
+
+40,000 fast chargers). For drivers without home chargers, the estimated WTP for these im-
+
+provements is Y62,000 (approximately $8,600), compared with Y18,000 (or $2,500) for those
+
+with home chargers. The WTP exhibits diminishing returns for both driving range and charg-
+
+ing access. Moreover, the two attributes are substitutes: the combined WTP from improving
+
+both is smaller than the sum of their individual effects.
+
+  We next quantify range anxiety by monetizing the utility loss from feasible but unrealized
+
+trips due to fear of getting stranded on the road. The average range anxiety across vehicles
+
+with different ranges was $2,550 in 2018, falling to $1,900 in 2021 and $1,200 in 2024. The
+
+averages mask significant heterogeneity across EVs with different driving range. The decline
+
+in range anxiety over time reflects both the expansion of the charging network and, especially,
+
+improvements in driving range. Overall, the reduction in range anxiety accounts for over 50%
+
+of WTP for improved driving range and charging access among drivers without home chargers,
+
+and roughly 15% among those with home charging.
+
+  We use simulations to evaluate two common strategies for alleviating range anxiety: ex-
+
+panding charging infrastructure vs.  increasing driving range. The socially optimal level of
+
+each is determined by maximizing the aggregate welfare, defined as consumer surplus net of
+
+the social costs of improving range (via larger battery capacity) and charging access (through
+
+denser station networks). Our results reveal that the actual levels of charging access and driv-
+
+ing range in Shanghai’s EV market deviate substantially from the social optimum. Between
+
+2018 and 2024, driving ranges consistently fell short of optimal levels. Charging infrastruc-
+
+
+
+                                        3
+
+===== [PDF 第 6 页｜印刷第 4 页] =====
+ture, in contrast, was insufficient in 2018 and 2021 but expanded so rapidly that by 2024 the
+
+number of stations was roughly double the social optimum. These results highlight the need
+
+to better coordinate investments in charging networks and battery capacity, especially since
+
+both are often supported by government policies such as subsidies.
+
+   Our paper contributes to four strands of literature. First, it extends the extensive work on
+
+consumer demand for EVs. Prior studies have primarily examined barriers to EV adoption—
+
+such as high upfront purchase costs, limited access to charging infrastructure, and the role of
+
+government policies in addressing these challenges (Springel, 2021a; Rapson and Muehlegger,
+
+2023; Bushnell et al., 2025). A key finding in this literature is the importance of indirect net-
+
+work effects (the “chicken-and-egg” problem), whereby charging infrastructure investment and
+
+EV adoption reinforce each other through positive spillovers (Li et al., 2017; Li, 2023; Springel,
+
+2021b; Jacqz and Johnston, 2024; Wang, 2024). While range anxiety is frequently invoked
+
+as the implicit mechanism linking charging access to EV adoption, it has remained largely
+
+without a formal definition in the literature. Qin and Scott (2025) examine how driving range
+
+interacts with fuel prices to influence EV demand as a proxy for range anxiety because the
+
+disutility of limited range is magnified when lower fuel prices increase the demand for travel.
+
+More recently, Kaps et al. (2025) illustrate the presence of range anxiety by demonstrating
+
+that while BEVs and gasoline vehicles exhibit similar total mileage, BEVs are significantly
+
+less likely to be used for long-distance trips (exceeding 150 km), a gap that narrows as charg-
+
+ing network density increases. In contrast, our paper provides a micro-foundation for range
+
+anxiety through a continuous-time dynamic model, allowing us to quantify range anxiety in a
+
+utility maximization framework using high-frequency data on driving and charging behavior.
+
+   Second, our paper contributes to the emerging literature on EV charging. A central ques-
+
+tion in this literature is how charging behavior responds to prices across different settings,
+
+including home, workplace, and public stations. Field experiments document substantial vari-
+
+ation in price elasticities across contexts (Garg et al., 2024; La Nauze et al., 2024; Bernard
+et al., 2025; Bailey et al., 2025).4 Relying on highly disaggregated data, other studies infer
+
+EV usage from household electricity consumption in California (Burlig et al., 2021), estimate
+
+the time cost of fueling gasoline vehicles among drivers in Michigan and use this estimate to
+
+benchmark the cost of charging (Dorsey et al., 2025), and examine the impact of charging on
+
+the electricity grid in Germany (Heid et al., 2024). Our paper extends this literature by exam-
+
+   4For example, interventions on charging prices yield elasticity estimates of –0.4 for workplace charging at
+UCSD (Garg et al., 2024), –0.44 for home charging among Tesla owners in Australia (La Nauze et al., 2024),
+and –1.6 for home charging in Calgary (Bailey et al., 2025). A UK national intervention at public charging
+stations finds price elasticities of -2 to -2.9 (Bernard et al., 2025), with considerable heterogeneity.
+
+
+
+                                        4
+
+===== [PDF 第 7 页｜印刷第 5 页] =====
+ining how driving and charging respond to both charging prices and charging access, within
+
+a unified framework applied to highly granular observational data. Our structural estimates
+
+indicate a price elasticity of –1 for public charging. Notably, EV drivers with home charging
+
+exhibit a stronger response to price changes at home than to prices at public stations.
+
+   Third, our study contributes to the literature on policy design aimed at promoting EV
+
+adoption and infrastructure investment. We quantify the interaction between driving range
+
+and charging access through a micro-founded model of EV driving and charging decisions.
+
+Zhou and Li (2018) highlight the critical role of indirect network effects in EV diffusion and
+
+argue that government intervention may be necessary to coordinate consumer adoption and
+
+infrastructure development. Barwick et al. (2024) and Remmy (2025) examine automakers’ in-
+
+centives in supplying product attributes such as driving range, showing that market power and
+
+network effects can lead to socially suboptimal outcomes. Relatedly, Arkolakis et al. (2025)
+
+and Barwick et al. (2025a) develop models to characterize optimal charging networks that
+
+account for road network and driving patterns. Sunada and Xia (2025) shows the importance
+
+of coordinated investment on charger speed and density. Complementing these studies, our
+
+analysis demonstrates that the combination of limited driving range (supplied by automakers)
+
+and sparse charging access (provided by station investors) is the fundamental source of range
+
+anxiety, and that this interaction jointly determines the socially optimal levels of vehicle range
+
+and charging network size.
+
+    Finally, our paper contributes to the literature on public-private interactions.  Li and
+
+Springel (2025) study the relationship between public and private charging stations in the
+
+U.S. Cabral et al. (2025) examines the substitutability and complementarity between public
+
+and private R&D. Our policy simulations underscore the importance of coordinating policy
+
+instruments such as subsidies that target different market participants, echoing the insight
+
+from Liu (2025) on the value of a coordinated policy mix in the EV sector.
+
+   The remainder of the paper proceeds as follows. Section 2 describes the data and discusses
+
+key data patterns. Section 3 presents the empirical model and estimation strategy. Section 4
+
+discusses the estimation results. Section 5 conducts policy simulations. Section 6 concludes.
+
+
+2  Data Description and Evidence
+
+2.1  Data Description
+
+Background and Data Sources  Our analysis draws on data from Shanghai, a city with
+
+24.9 million residents and 4.15 million households, spanning an area roughly the size of the
+
+
+                                        5
+
+===== [PDF 第 8 页｜印刷第 6 页] =====
+state of Delaware. By the end of 2024, Shanghai had 5.1 million registered passenger vehicles,
+
+including 1.51 million EV, the largest EV stock of any single city in the world. In 2024 alone,
+
+278,000 new EVs were sold in Shanghai, accounting for 45% of all new passenger vehicle sales,
+slightly above the national average of 40%.5 For comparison, the state of California in the
+
+U.S. has 39 million residents and 25 million passenger cars, of which 2.2 million are EVs. In
+
+2024, 443,000 new EVs were sold in the state, accounting for 25% of new vehicle sales.
+
+   Our main dataset consists of eight weekly cross-sections of detailed EV usage and driving
+
+records, with four weeks drawn from 2021 and four from 2024. The four weeks fall in January,
+
+March, August, and October and capture seasonal variations across the year. Each cross-
+
+section contains data on 1,100 battery EVs, randomly sampled from the active residential-use
+
+EV fleet in Shanghai, with complete information on all trips and charging events during the
+
+week. Trip records are based on GPS tracking and include driving location and distance, while
+
+charging records provide the state of charge (SOC, i.e., remaining battery capacity measured
+
+in percentage from 0% to 100%), charging duration, and price.
+
+  We classify the continuous vehicle telematics data into three distinct event types: trips,
+
+charging events, and parking. A trip is defined as a non-charging movement segment, begin-
+
+ning with vehicle start and ending with shut-off. Consecutive segments separated by intervals
+
+of less than two minutes are aggregated into a single trip.
+
+   Charging events are classified as public or private. A public charging event is constructed
+
+by combining the charging session with the immediately preceding and subsequent trips,
+provided they occur within thirty minutes of the session’s start or end.6 Conversely, private
+
+charging (or home charging) refers to sessions at chargers in residential areas or workplaces.
+
+These are typically restricted-access, slow AC units that do not impose commercial markups.
+
+Parking is defined as any period where the vehicle is turned off and not classified as a trip or
+
+charging event.
+
+   Applying these definitions yields a final sample of approximately 188,000 trips and 26,000
+
+charging events. There are 8,500 commercial fast charging sessions and 17,500 private slow-
+
+charging sessions. We exclude public slow-charging events, as they are rare and account for
+
+less than 5% of the total. Table A1 reports summary statistics of the sample.
+
+   5Battery electric vehicles (BEVs) made up 71% of the EV stock and 89% of all new EV sales in Shanghai
+in 2024. Plug-in hybrid (PHEVs) accounted for the rest.
+  6On average, drivers travel 2 km and spend ten minutes reaching a public charging station (including
+potential waiting and setup time). The thirty-minute threshold serves as a conservative upper bound to
+accommodate unobserved heterogeneity in traffic conditions, while excluding longer, unrelated commutes.
+The number of charging events is robust to varying this threshold between 15 and 45 minutes. Trips following
+a private charging session are treated as separate trips.
+
+
+
+                                        6
+
+===== [PDF 第 9 页｜印刷第 7 页] =====
+   Our second dataset, obtained from the Shanghai Electric Technology Center, covers all
+
+commercial fast charging stations in Shanghai from 2020 to 2024, including each station’s
+
+location, posted prices, and hourly usage. Merging this data with the trip-level records allows
+
+us to measure the density of nearby fast charging options and the price menu available at
+
+alternative stations for every trip in the primary dataset. Appendix Figure A1 plots the spatial
+
+distribution and frequency of charging events for fast and slow stations using the primary trips
+
+data. These patterns align well with the location and usage statistics from the secondary
+
+dataset on charging stations, corroborating the representativeness of the trip sample. Figure
+
+A2 illustrates the average charging prices at fast charging stations disaggregated by location
+
+and time of day, revealing substantial spatio-temporal heterogeneity.
+
+   Our third dataset, provided by the Shanghai Municipal Government, contains time-of-
+
+use (TOU) electricity pricing schedules for residential and commercial charging. Appendix
+
+Figure A3 illustrates the hourly price trajectories across seasons. While the peak-load windows
+
+remain largely consistent throughout the year, the pricing structure varies seasonally: summer
+
+and winter seasons feature four distinct pricing tiers, whereas spring and autumn utilize a
+
+three-tier system. Although these rates do not exhibit spatial variation, they are characterized
+
+by significant fluctuations both across seasons and within daily hourly cycles.
+
+
+Development Over Time  Shanghai witnessed a substantial expansion of its charging net-
+
+work. The total number of fast chargers surged from 780 in January 2020 to 34,020 in Decem-
+
+ber 2024, about a 44-fold expansion, with roughly 15 chargers per station on average (Figure
+1).7 For comparison, as of December 2024, California, with a land area over 60 times that of
+
+Shanghai, had about 15,000 fast chargers, while the entire United States had around 50,000.
+
+The bottom panel of Figure 1 maps fast charging access across the city, measured by the log
+
+of inverse distance-squared weighted sum of charging stations (measured in kilometers). For
+
+example, A value of 2 corresponds to 7.4 charging stations within 1km or 1.8 charging stations
+
+within 0.5 km.  In 2021, only the central districts with the highest population density had
+
+charging access above 2.0; by 2024, most urban areas exceeded this threshold. The average
+
+charging access weighted by trip frequency across the entire city was 2.08 in 2021 and 2.84 in
+
+  7The rapid expansion was driven by significant reductions in the capital costs of charging infrastructure,
+generous investment subsidies, parking mandates, and a sharp increase in EV stock. The average capital
+cost of fast charging equipment fell from about 500 Y/kW per charger in 2018 to 130 Y/kW in 2024 (Gao,
+2023). The Shanghai municipal government provided subsidies covering 10–30% of total investment costs
+and required 10–15% of parking spaces in newly built garages to be equipped for EV charging. During this
+period, the EV stock in Shanghai rose from 240,000 to more than 1.5 million, further stimulating market
+entry of charging facilities. Stations are owned by electric utilities, EV manufacturers, and, most commonly,
+independent network operators.
+
+
+                                        7
+
+===== [PDF 第 10 页｜印刷第 8 页] =====
+2024.
+
+   The average driving range of the existing EV stock in the main sample increased from 281
+
+km in winter 2021 (January) to 331 km in winter 2024, as newer models tend to offer longer
+ranges (Figure 2, Panel (a)).8 Weekly usage also rose: the average number of trips per EV
+
+grew by 25%, from 20 in winter 2021 to 25 in winter 2024, while the corresponding weekly
+
+driving distance increased by 36%, from 335 km to 457 km (Figure 2, Panels (b)-(c)). Patterns
+
+are similar in the other seasons, with trip counts and driving distance increasing across the
+
+board from 2021 to 2024.
+
+   The expansion of the charging network also helps explain the sharp decline in reliance
+
+on slow charging (or home charging, as slow charging in commercial stations in our sample
+
+is rare). The share of drivers who exclusively used slow charging fell from 76.9% to 53.6%
+
+from 2021 to 2024 (a 30% drop), likely reflecting improved availability and reliability of fast-
+
+charging infrastructure. Consistent with this, the average weekly frequency of fast charging per
+
+driver more than doubled from 0.7 in winter 2021 to 1.5 in winter 2024 (Figure 2, Panel (e)).
+
+Moreover, the average state of charge (remaining battery level) at the start of fast charging
+
+sessions increased from 36% to 40%, suggesting that drivers are charging more proactively
+
+rather than waiting until the battery is close to depletion (Figure 2, Panel (g)).
+
+   Overall, the data reveal a clear shift toward more frequent use of EVs and longer driving
+
+distances, in concert with the improvements in vehicle driving range and the rapid expansion
+
+of fast charging infrastructure. Together, these developments reflect the growing maturity of
+
+Shanghai’s EV ecosystem between 2021 and 2024.
+
+
+2.2  Charging Patterns
+
+Our rich data on driving and charging trips reveal several interesting patterns. First, Figure 3
+
+provides clear evidence that charging behavior is strongly influenced by the remaining battery
+
+level. Charging events (blue bars) are most likely to occur when the state of charge (SOC) is
+between 30% and 50%, and decline as SOC increases.9 In contrast, driving events (pink bars)
+
+are much more likely when SOC is high, with more than 80% of trips occurring when the
+
+battery level exceeds > 50%. The green line represents the fraction of charging events among
+
+   8Driving range is the lowest during winter months due to cold-weather battery inefficiency and increased
+auxiliary power use, trailing other seasons by approximately 70 km.
+   9Although U.S. EV drivers are often advised to maintain battery levels between 20% and 80%, we observe
+no adherence to this guideline in our setting. The distributions of battery levels at the start and end of
+charging events are smooth, with no evidence of bunching at the 20% or 80% thresholds (see Appendix Figure
+A8).
+
+
+
+                                        8
+
+===== [PDF 第 11 页｜印刷第 9 页] =====
+all events. It falls steadily with SOC, from about 70% when the remaining battery is below
+
+10% to less than 10% when the remaining battery exceeds 80% of full capacity. Appendix
+
+Figure A4 reports the results separately for drivers with and without home chargers.
+
+   Second, fast charging decisions are influenced by both convenience and price. To illustrate
+
+this, Figure 4(a) presents a binned scatterplot of the charging probability (the ratio of charging
+
+trips to total trips) against station density, defined as the number of stations within 1 km
+
+(ranging from 1 to 15). We stratify the sample by the initial State of Charge (SOC < 40%
+
+versus SOC ≥40%) and fit lines to highlight the relationship. Figure 4(b) repeats the analysis
+
+and plots charging probability against the price at the nearest station.
+
+   As shown in Figure 4, charging behavior varies significantly with station availability, par-
+
+ticularly when battery levels are low (SOC<40%). The probability of initiating a charging
+
+trip rises sharply with the number of nearby stations at low SOC levels, consistent with the
+
+hypothesis that greater local availability reduces search and hassle costs.  In contrast, this
+
+relationship is much flatter for trips with SOC > 40%, when drivers are less constrained and
+
+can afford to delay charging or travel further. Analogous heterogeneity holds for prices: charg-
+
+ing events are more likely when prices are low, with low-SOC drivers exhibiting a stronger
+
+response to price differences.
+
+    Lastly, Figure 5 shows that drivers with home charging exhibit distinct patterns from those
+
+without. Those with home chargers primarily charge at home and use public fast chargers
+
+occasionally (e.g., for long-distance trips).  They are also more likely to initiate charging
+
+at higher remaining battery levels than drivers without home chargers, likely reflecting the
+
+convenience of at-home charging.
+
+
+2.3  Evidence on Range Anxiety
+
+Raw Data Patterns We first examine range anxiety using raw data patterns. Figure 6
+
+shows the hourly hazard rate of trip initiation (y-axis) against the remaining range at the
+
+start of the trip (x-axis), where the hazard rate is the ratio of the observed count of events to
+total exposure time, or       1      in our setting. We stratify the data into three trip-length                            Exposure time
+categories: < 50 km, 50–100 km, and 100–150 km. The figure reveals a significant decline in
+
+the hazard rate for all three categories when the remaining range is low. The rate stabilizes
+
+once the remaining range exceeds 250 km (and especially 300 km). For instance, the hourly
+
+hazard rate for short trips (< 50 km) is approximately 0.12 when the remaining range exceeds
+
+250 km (i.e., 0.12 trips per hour), but drops to nearly 0.05 when the range falls between 50 and
+
+100 km. Similar patterns persist for other trip lengths. This sharp decline in trip initiation at
+
+
+                                        9
+
+===== [PDF 第 12 页｜印刷第 10 页] =====
+lower ranges is consistent with range anxiety: drivers appear to forgo trips that would deplete
+
+the battery significantly (even if not fully), likely due to the fear of being unable to reach a
+charging station when needed.10
+
+   One might be concerned that the drop in the hazard rate at low remaining ranges is driven
+
+by factors other than range anxiety, such as weather or traffic conditions. As a placebo test,
+
+we plot the hazard rate for PHEVs in Appendix Figure A5.  Unlike the pronounced drop
+
+observed for EVs, PHEVs show no comparable decline. This is consistent with the notion that
+
+range anxiety is largely irrelevant for PHEVs, which can switch to gasoline power when the
+
+remaining battery is low.
+
+   Figure A6 extends the analysis to different subsamples: daytime hours between 8am and
+
+10pm (Panel a), weekend (Panel b), winter (Panel c), summer (Panel d), 2021 (Panel e),
+
+and 2024 (Panel f). While baseline hazard rates vary across subsamples, the decline in trip
+
+initiation at low ranges is universal. As expected, the hazard rate is highest during morning
+
+hours, which also exhibit the largest decline.  Interestingly, there are more missing trips at
+
+low ranges in 2021 than in 2024. This likely reflects the substantial expansion of the charging
+
+network, which has helped mitigate range anxiety over time.
+
+   To the extent that drivers charge in anticipation of the next day’s travel (planned charging),
+
+current SOC levels may be endogenous. To investigate this channel, Figure A7 plots the
+
+average SOC on the preceding day against the next day’s longest trip distance (Panel a) and
+
+total driving distance (Panel b). We find no clear relationship between prior SOC and the next
+
+day’s longest trip, and only a very weak correlation with total distance. This suggests that the
+
+observed decline in trip initiation at low SOC is unlikely to be an artifact of planned charging
+
+(i.e., drivers avoiding low SOC states prior to known trips), as the correlation between SOC
+
+and trip distance the next day is very weak.
+
+  An additional concern is that the observed behavioral shifts might be driven by the “20–80”
+
+rule of thumb, a widely cited heuristic advising drivers to maintain the SOC between 20% and
+
+80% to preserve battery longevity. If followed, this practice could confound our identification of
+
+range anxiety. To evaluate this possibility, Figure A8 plots SOC levels immediately preceding
+
+and following each trip and charging session. The distribution reveals no systematic bunching
+
+at these intermediate thresholds; instead, the only significant concentration occurs at 100%
+
+following a charge.  These patterns provide no evidence that drivers actively manipulate
+
+  10Beyond limited driving range and charging infrastructure, range anxiety can also stem from uncertainty
+regarding the accuracy of the reported remaining range, which fluctuates with driving conditions.  While
+charger reliability is a documented concern exacerbating range anxiety in the U.S., it has not been reported
+as a widespread issue in Shanghai.
+
+
+
+                                        10
+
+===== [PDF 第 13 页｜印刷第 11 页] =====
+battery levels to adhere to the “20–80” range, reinforcing the conclusion that the observed
+
+decline in trip frequency at low SOC is attributable to range constraints rather than battery-
+
+preservation heuristics.
+
+
+Causal Evidence A key empirical challenge is to separate the range anxiety from the
+
+confounders that low trip demand may correlate with low SOC. To tackle this, we turn to a
+
+regression analysis that leverages the granularity of our data. A central empirical implication
+
+of range anxiety is that it should be mitigated by improved charging access: drivers living
+
+and traveling in areas with greater charger density should exhibit less anxiety at low battery
+
+levels, and thus forgo fewer trips. Conversely, if the observed decline in trips at low remaining
+
+ranges were driven by confounders, such as unobserved low demand that coincides with low
+
+remaining ranges, we would expect the relationship between trip frequency at low SOC and
+
+local charging access to be weak or nonexistent.
+
+   To test this hypothesis, we calculate the number of trips originating from each jiedao (a
+
+sub-district administrative unit in Shanghai comparable to a census tract) for a given trip
+type i (defined as a unique combination of initial remaining range and trip distance).11 Our
+
+empirical strategy hinges on the interaction terms between indicators of low remaining range
+
+and measures of charging access. These interactions allow us to test whether the behavioral
+
+response to low range is attenuated in areas with better charging infrastructure. Specifically,
+
+we estimate the following Poisson model of trip counts:
+
+  E[ yijt | Xijt ] = exp β11{post-rangeit < 50} + β21{50 ≤post-rangeit < 100}            (1)
+
+        + γ11{post-rangeit < 50} × CAjt + γ21{50 ≤post-rangeit < 100} × CAjt  (2)
+
+        + ln(exposure timeijt) + ηs(i)t + δj  ,                                        (3)
+
+
+where the outcome variable yijt denotes the total count of trips of type i observed in jiedao
+j during period t (t = 2021 or 2024). The term ln(exposure time)ijt represents the log of
+the total standing time for trip type i at location j and time t. We include this as an offset
+
+variable (fixing its coefficient to 1) to scale the outcome by the duration of opportunity, thereby
+ensuring the model estimates event rates rather than raw counts.12
+
+  11We restrict the sample to trips shorter than 250 km to mitigate observations with zero counts, as trips
+longer than 250 km are rare. We define five distance bins (< 50 km, 50–100 km, etc.) and nine starting
+range bins (50–100 km, 100–150 km, . . . , 450–500 km). After excluding infeasible combinations (where the
+trip distance exceeds the starting range), we have 35 distinct trip types. Our spatial unit is the jiedao, a
+sub-district administrative unit in Shanghai comparable to a census tract. There are 225 jiedaos in Shanghai.
+  12In Poisson regression, the correct way to adjust for differing exposure durations is to include ln(exposure)
+
+
+                                        11
+
+===== [PDF 第 14 页｜印刷第 12 页] =====
+   Our key explanatory variables identify trips that risk battery depletion. The indicator
+1{post-rangeijt < 50} equals 1  if completing the trip would reduce the remaining battery
+range to below 50 km. Similarly, 1{50 ≤post-rangeijt < 100} identifies trips resulting in a
+remaining range between 50 and 100 km. The coefficients β capture the extent of forgone trips
+
+at these low levels (indicative of range anxiety), while the interaction coefficients γ estimate
+
+whether improved charging access mitigates this decline. We control for trip distance-by-year
+
+fixed effects, ηs(i)t, and jiedao fixed effects, δj.
+  A key empirical challenge is the potential endogeneity of charging access, which may corre-
+
+late with unobserved shocks to trip demand. For example, commercial development in an area
+
+might simultaneously generate more trips and encourage investment in charging infrastruc-
+
+ture. To address this, we construct a shift-share instrument by interacting the 2018 number of
+Point of Interest (POIs) with the time-varying construction costs of charging stations.13 The
+
+instrument relies on the observation that charging stations are disproportionately sited near
+
+POIs. Thus, reductions in construction costs are likely to induce larger increases in station
+
+deployment in areas with a higher initial density of POIs. The 2018 POI distribution (which
+
+predates our sample) captures baseline exposure, determining how cost shocks differentially
+
+propagate across locations.
+
+   Table 1 reports the regression results. We find strong evidence of range anxiety, corrob-
+
+orating the graphical analysis. Across specifications, trips that would result in a remaining
+range of less than 50 km exhibit roughly a 60% reduction in the hazard rate.14 Trips ending
+
+with 50–100 km of remaining range show a more moderate but still notable reduction of 14%,
+
+indicating that range anxiety persists even at these intermediate levels.
+
+   Charging access meaningfully alleviates range anxiety. In the PPML IV control-function
+
+specification (Column 3), a one-standard-deviation increase in charging access, roughly the
+
+observed change from the 2021 to the 2024 level, offsets roughly 15 percentage points (ap-
+
+proximately one-quarter) of the decline in trip frequency for trips leading to remaining range
+
+< 50km, and about 7 percentage point (roughly half) of the decline for trips ending with a
+
+range of 50–100 km. Comparing the baseline estimates in Columns 1-2 with the IV results
+
+in Column 3 reveals a clear downward bias in the estimated mitigation effect. Jiedaos that
+
+on the right-hand side as an offset rather than dividing the dependent variable by duration of exposure.
+  13A Point of Interest, POI, is a geo-tagged location such as a shop, restaurant, office, park, or transit station.
+Excluding charging stations, our baseline data from Gaode (a major location-based service provider in China)
+contains 1.23 million POIs in Shanghai as of 2018.
+  14PPML coefficients are in log-points. The exact percentage change is calculated as %∆= eβ −1. For
+example, a coefficient of −0.90 implies a reduction 59% (e−0.90 −1 ≈−0.59), while a coefficient of −0.15
+implies a reduction of 14%.
+
+
+
+                                        12
+
+===== [PDF 第 15 页｜印刷第 13 页] =====
+exhibit stronger range anxiety (with lower baseline trip rates) tend to attract more charging
+
+station investment between 2021 and 2024, creating a negative correlation between charging
+
+access and trip hazard. Failing to correct for this endogeneity biases the coefficients toward
+zero, leading to an underestimate of the role of charging infrastructure.15
+
+   Taken together, the graphical and regression analyses offer compelling evidence of range
+
+anxiety, indicating that certain trips were avoided because they would have ended with a low
+
+remaining range. We next turn to the structural model, which characterizes the underlying
+
+decisions that give rise to these missing trips and quantifies the extent of range anxiety.
+
+
+3  Empirical Model of EV Usage and Charging
+
+This section provides a micro-foundation of range anxiety by developing a continuous-time
+
+discrete-choice dynamic model to characterize EV driving and charging decisions.  Range
+
+anxiety is captured by the utility loss from drivers’ decisions to forgo certain trips that would
+
+leave the post-trip (ending) range low. We then translate the utility loss into monetary terms
+using the util-dollar conversion implied in the model.16
+
+  A continuous-time dynamic model has two advantages over a discrete-time approach. First,
+
+trips and charging events occur in continuous time with irregular intervals between them. A
+
+continuous-time model allows us to directly exploit variation in these intervals and avoids dis-
+
+cretizing time into coarse units (e.g., hours), thereby eliminating discretization bias. Second,
+
+when multiple charging or driving events occur within a short period, the continuous-time
+
+framework does not require imposing an arbitrary ordering of events, since the probability
+
+that two events occur at exactly the same instant is zero by construction.
+
+
+3.1  Setup
+
+A representative driver of type i (type defined below) operates a vehicle with a full battery
+range of ¯Ri. Trip opportunities arrive according to a Poisson process. Upon arrival, the driver
+decides whether to undertake the trip. Accepting a trip yields utility but alters the state of
+
+the driver. For example, taking a trip reduces the remaining battery and relocates the vehicle
+
+to an area with different charging accessibility and amenities.
+
+  15Appendix Table A2 replicates this jiedao-level analysis for different types of trips. We find consistent
+patterns across trips at different times (commuting, weekend, summer, winter), and the biggest range anxiety
+is for commuting trips.
+  16The util per dollar is derived from the effect of charging prices on charging probabilities, which is standard
+in discrete-choice models.
+
+
+                                        13
+
+===== [PDF 第 16 页｜印刷第 14 页] =====
+    Similarly, charging opportunities arrive via a Poisson process, at which point the driver
+
+decides whether to charge based on the current state (e.g., prevailing price). Charging restores
+the battery to its full capacity.17 Our model treats trips and charging events as independent
+
+activities, effectively ruling out mid-route charging.  This is consistent with inner-city EV
+driving patterns, where long detours for mid-trip charging are rare.18 Thus, we model every
+
+charging event as a destination in itself. The key model elements are summarized below.
+
+
+Driver Types We categorize drivers into I homogeneous types. Each type i is defined by a
+triplet comprising: 1) the vehicle’s full battery range (¯R), which bounds the maximum driving
+
+distance on a single charge; 2) the sample period (2021 vs. 2024), which captures temporal
+
+shifts in aggregate public charging infrastructure; and 3) home charger access (H), which
+
+reflects differences in charging costs.
+
+   The value function is solved independently for each driver type. While all driver types
+
+share a common set of state variables (that are described below), we specify type-specific
+
+transition processes to accommodate heterogeneous trip arrivals and charging availabilities.
+
+This is critical given the rapid evolution of EV technology and infrastructure between 2021
+
+and 2024. By endowing each type with its own transition dynamics and value functions, the
+
+model flexibly captures how these technological and infrastructure improvements differentially
+impact driver utility.19
+
+
+State Variables  The driver’s state is defined by six variables: remaining battery range, four
+
+location-specific attributes, and a time-of-day indicator (daytime vs. evening). The first state
+
+variable is the remaining battery range, r ∈{0, 1, . . . , 9}, which corresponds to ten 50-km bins
+
+(0-50 km, 50-100 km, . . . , 450-500 km). The second variable, charging density (d), measures
+
+the convenience of the current location. We first calculate a continous measure of charging
+
+access, CAl, defined as the inverse–squared-distance weighted count of stations within a 3
+                               1
+km radius: CAl = Pk,distclk≤3km         where distclk is the distance between location l and                                     (distclk)2,
+
+  17In our sample, 82% of charging events restore the battery to full capacity (defined as [90%, 100%] of the
+total battery capacity). In a more general setting, a charging event could change the battery level to r′ > r
+with probability p(r′).
+  18We compared the travel time of observed charging trips against a hypothetical direct route from the pre-
+charging to post-charging location. In 90% of cases, the direct route is significantly shorter (by at least 50%),
+implying that charging is typically a primary destination rather than a detour on the way to another location.
+  19Alternatively, the three driver-type attributes could be incorporated directly into the state vector, ex-
+panding the state space to nine dimensions. Our approach allows us to solve the value function for each type
+in parallel and significantly reduces computational time.
+
+
+
+                                        14
+
+===== [PDF 第 17 页｜印刷第 15 页] =====
+station k.20 Higher values of CA indicate greater local charging availability. We then create
+
+a categorical variable d ∈{1, 2, 3, 4} by grouping log(CA) into four bins based on the 2021
+
+quartile cutoffs.
+
+   The third state variable captures access to amenities, specifically food and shopping lo-
+
+cations. We define a continuous measure of amenity access, AAl, for location l using a for-
+                                                                                                                                 lk ismulation analogous to that of charging access: AAl = Pk,distalk≤3km (dista1lk)2), where dista
+the distance between location l and food/shopping store k. We then construct a categorical
+
+variable a ∈{1, 2, 3, 4} by binning log(AA) according to 2021 quartile cutoffs. Locations with
+
+greater amenity access are likely to be more desirable, as they offer greater trip utility and
+
+reduce opportunity costs of charging by allowing drivers to combine charging sessions with
+
+shopping or dining.
+
+   The fourth state variable is the charging price: p = {1, 1.3, 1.5, 2} Y/kWh, corresponding
+
+to the four most frequently observed tiers. The fifth state variable is only relevant to drivers
+
+with private charging: h = {0, 1}, which takes the value of 1 if the location is at a residential
+
+building or workplace. The sixth variable is a time-of-day indicator, k = {0, 1}, where k = 1
+
+denotes daytime hours (08:00–20:00). Altogether, there are a total of 2,560 (10×4×4×4×2×2)
+
+different state values.
+
+
+Exogenous State Transitions  The transition probability from state s to state s′ is gov-
+
+erned by the frequency of trips that move a driver between these states. We first describe the
+
+exogenous transition process generated solely by trip arrivals, and then turn to the endogenous
+
+transition process (i.e., the hazard rate), which combines exogenous trip arrivals with drivers’
+
+decisions to accept or decline a trip.
+
+  We use the matrix Λr to denote the transition probabilities of the remaining battery range.
+The (r, r −j)th entry corresponds to the probability that the battery range moves from level
+
+r to level r −j as a result of taking a trip with length j (j = 0, 1, . . . , 9, corresponding to
+
+the same set of bins as r: 0-50 km, 50-100 km, ..., 450-500 km). As shown in Figure 6, the
+
+trip hazard rate is roughly constant when the remaining range is over 300km. Our graphical
+
+and regression analysis suggests that the drop in trip frequency at the low remaining range
+
+was driven by range anxiety, rather than a decrease in the trip opportunities. Therefore, we
+
+assume that the arrival rate of trip opportunities with varying length j is independent of the
+
+remaining range. In other words, a trip of length 0-50 km arrives at the same rate regardless of
+
+whether the vehicle’s remaining driving range is 200 km or 400 km. Consequently, we assume
+
+  20The 3km radius is roughly 10 minutes of city driving. The correlation between CA calculated using a 3km
+vs a 5km radius is nearly 1.0. Hence, the 3km threshold provides a good approximation of overall access.
+
+
+                                        15
+
+===== [PDF 第 18 页｜印刷第 16 页] =====
+that the transition matrix Λr has a Toeplitz structure:  it is a lower-triangular matrix with
+constant values along each subdiagonal. Specifically,
+
+                        λ0  0   0    · · ·  0 
+                                    λ1  λ0  0    · · ·  0
+                           Λr =  λ2  λ1  λ0   · · ·  0    ,
+                                                                                                                                                                                            ...                 ...                 ...    ...  0                                                                                                                                                                                                                                                                                                    
+                                    λ9  λ8  λ7   · · ·  λ0
+
+where λj denotes the arrival rate of a trip with length j.21 All entries above the main diagonals
+are zero, since the battery level cannot increase without charging.
+
+   To account for temporal variations in trip arrival rates between daytime (8:00 AM – 8:00
+
+PM) and evening (8:00 PM – 8:00 AM), we expand the arrival process using a transition-
+
+weighted matrix structure:
+
+                    "                              #                         λk=0→k=0Λr(k = 0),  λk=0→k=1Λr(k = 0)
+                    Λrk =                                                                     .
+                         λk=1→k=0Λr(k = 1),  λk=1→k=1Λr(k = 1)
+
+In this formulation, k ∈{0, 1} represents the time period, where k = 1 denotes daytime and
+
+k = 0 denotes evening. The term Λr(k) represents the trip frequency for period k. The scalar
+λk→k′ represents the probability that a trip beginning in period k concludes in period k′.
+    It is important to note that the transition matrix Λrk remains stochastic even when trip
+patterns are deterministic or distances are fixed. For instance, consider a routine work com-
+
+mute. Despite the fixed destination, the remaining battery range upon arrival is inherently
+
+random, as energy consumption is influenced by exogenous factors such as traffic congestion,
+
+weather temperature (cold vs. hot days), and road topography. These variables can deplete
+
+battery capacity at rates significantly different from nominal conditions. Consequently, our
+
+derivation of Λrk relies on state-of-charge (SOC) rather than odometer readings, as the primary
+objective is to capture the stochastic evolution of available range over time.  In robustness
+
+analyses, we allow Λrk to differ across driver types.
+   Let Λd denote the transition matrix of charging access. Each element λdd′ represents the
+probability that a trip takes the driver from a location with charging density (d) to one with
+density (d′). Since charging density has four levels, Λd is a 4×4 matrix. Similarly, Λa denotes
+the transition matrix for amenity access and Λp the transition probability of charging prices.
+
+  21The rth row of Λr is set to zero if driver type i’s vehicle has a full driving range shorter than r.
+
+
+
+                                        16
+
+===== [PDF 第 19 页｜印刷第 17 页] =====
+Both Λa and Λp are also 4×4 matrices. Finally, the probability that a trip returns the driver
+to their home charging location is given by a scalar, λh.
+   Assuming the (exogenous) transition process of different state variables is independent,
+the full transition matrix of moving from state s to state s′, q ≡{qs,s′}, is given by:
+
+                     q ≡Λrk O Λd O Λa O Λp O λh,                          (4)
+
+
+where N is a Kronecker product.
+
+
+Trip Utility  Once a trip arrives, the deterministic part of the utility from taking the trip
+that moves from state s to state s′ is given by:
+
+                ψ(1, s, s′) = α0 + α1(rs −rs′) + α21(rs′ = 2) + α31(rs′ = 1),              (5)
+
+
+where rs′ = 2 indicates that the remaining range after the trip is in the second bin,  i.e.,
+between [50km, 100km], and rs′ = 1 denotes the remaining range after the trip is in the
+first bin of [0km, 50km].  Parameter α0 represents the baseline utility of a trip and α1 is
+the premium for trips with a longer distance.  α2 and α3, the key parameters of interest,
+capture the disutility associated with completing a trip at a low battery level, less than 50km
+
+or 100km, respectively. These two parameters are used to rationalize the missing trips, i.e.,
+
+feasible but unrealized trips as shown in Figure 6. We use these parameters to quantifying
+range anxiety. Total utility also includes an idiosyncratic shock: ˜ψ(1, s, s′) = ψ(1, s, s′) + εt,1
+(where the subscript t denotes ‘trip’). The utility of skipping the trip is normalized to zero
+plus a random shock: ˜ψ(0, s, s) = εt,0. Without loss of generality, both shocks εt,1 and εt,0 are
+assumed to have variance 1.
+
+  We assume drivers always take the trip if the remaining battery level is above 300 km,
+
+corresponding to a cutoff ¯r = 6. In other words, we assume that range anxiety is irrelevant
+
+when the remaining battery is sufficiently high.  If the remaining battery level is below 300
+
+km, the driver decides whether to take the trip based on the trip utility.  If the utility shock
+
+εt has a type I extreme-value distribution, the policy of taking the trip is given by:
+
+                 
+                                         1,                                     if r > ¯r                                           πtrip(s, s′) =                                                          (6)
+                                                     exp[(ψ(1,s,s′)+V (s′)]
+                                                                                              if r ≤¯r,                  exp[ψ(1,s,s′)+V (s′)]+exp[V (s)],
+
+where V (s) and V (s′) are value functions defined in Section 3.2 below.
+
+
+
+                                        17
+
+===== [PDF 第 20 页｜印刷第 18 页] =====
+   Incorporating both the exogenous transition process and the endogenous travel probability,
+
+the realized state transition process (i.e., hazard rate) is given by:
+
+
+                                                         ˜q = q ⊙Πtrip,                                     (7)
+
+
+where ⊙denotes a Hadamard product, or an element-by-element product.
+
+
+Charging Arrivals and Decisions  The arrival rate of charging opportunities is denoted
+
+by λc. We assume four charging opportunities occur daily, λc = 4, roughly the same number
+of trips per day.22 Upon the arrival of an opportunity, the driver decides whether to charge.
+
+Charging incurs a cost and fully replenishes the battery (with probability 1); all other state
+variables remain unchanged. Forgoing the opportunity keeps the state the same s′ = s. We
+
+parameterize the deterministic component of charging costs as:
+
+
+                                     c(1, s) = β0 + β1ds + β2ps,                               (8)
+
+
+where ds is the charging density at state s and ps is the charging price. More charging stations
+nearby reduce search and hassle costs. We estimate separate charging cost parameters for
+
+drivers without home chargers, those with home (private) chargers using public stations, and
+
+those charging at home. As with trip utility, total charging cost includes an idiosyncratic
+
+shock:  ˜c(1, s) = c(1, s) + εc,1. The cost of not charging is normalized to zero plus a random
+shock: ˜c(0, s) = εc,0.23
+   Let ¯s ≡(r′ = ¯ri, d, p, h, k, a) denote the state immediately following a full charge, where
+¯ri represents the range bin corresponding to the full battery capacity of driver i’s vehicle.
+Assuming the cost shock εc is distributed type-I extreme value, the probability of charging
+conditional on an opportunity arising is given by:
+
+                                    exp c(1, s) + V (¯s)
+                          πchg(s) =                                                     .                      (9)
+                              exp c(1, s) + V (¯s) + exp V (s)
+
+Combining the exogenous arrival rate of charging opportunities with the endogenous charging
+
+decisions, the hazard (realized) rate of charging is given by: ˜qchg = λcΠchg.
+
+  22The total number of charging opportunities is analogous to the market-size measure in demand analyses.
+Results are robust to assuming λc = 5.
+  23The random shock εc,1 captures factors known to the driver but unobserved by the researcher, such as
+specific time constraints or anticipated future travel. Provided these unobserved factors are orthogonal to
+charging cost shifters, our framework yields consistent estimates of β.
+
+
+
+                                        18
+
+===== [PDF 第 21 页｜印刷第 19 页] =====
+Other Modeling Elements We assume flow utility u(s) = 0. That is, utility only comes
+
+from trips. We set the continuous-time discount rate at 0.1 per year, or a daily discount rate
+
+of ρ = 0.999726.
+
+
+3.2  Bellman Equation
+
+The Bellman equation characterizes the value function V (s) in a continuous-time decision
+
+process where transitions occur stochastically. To gain intuition, consider a short time window
+
+∆t. The driver accrues an immediate flow utility u(s)∆t, which is assumed 0 in our setting.
+With probability qss′∆t, a trip opportunity arises that changes the state from s to s′.  If the
+driver takes the trip, he gains trip utility ψ(1, s, s′). The continuation value changes to V (s′).
+
+Additionally, charging events occur with arrival rate λc∆t, and the driver decides whether to
+charge the vehicle to maximize the continuation value net of charging costs.
+
+   The probability that no events (neither a trip arrival nor a charging opportunity) occur
+within the time interval ∆t is given by 1 −(Ps′ qss′ + λc)∆t. With discounting, the resulting
+Bellman equation is:
+
+                        (                     )                              qss′∆t
+   V (s) = u(s) × ∆t + X        max   ψ(j = 1, s, s′) + V (s′) + εt,1 , V (s) + εt,0                         1 + ρ∆tE j∈{0,1}
+                                           s′                   |               travel{z           } | not {ztravel }
+               (                   )           λc∆t
+     +        max    c(j = 1, s) + V (¯s) + εc,1 , V (s) + εc,0           1 + ρ∆tE j∈{0,1}
+                             |          charging{z         } |not charging{z   }
+           1 −Ps′ qss′∆t −λc∆t     +                 V (s).
+                 1 + ρ∆t
+
+This equation approximates a continuous-time Hamilton-Jacobi-Bellman (HJB) equation as
+∆t →0. Solving the equation for V (s) yields:24
+
+         Ps′ qss′  log  exp[ψ(1, s, s′) + V (s′)] + exp[V (s)] + γ
+           V (s) =
+                                         λc + ρ + Ps′ qss′
+
+                     λc log  exp[c(1, s) + V (¯s)] + exp[V (s)] + λcγ
+           +                                                                  (10)
+                                    λc + ρ + Ps′ qss′
+
+  24Appendix Section A contains details about the derivation.
+
+
+
+
+
+                                        19
+
+===== [PDF 第 22 页｜印刷第 20 页] =====
+3.3  Estimation Details
+
+We follow a two-step estimation procedure. In the first step, we recover the exogenous state
+
+arrival and transition process based on the observed trip arrivals and the time interval between
+
+these events. In the second step, we evaluate the empirical likelihood of observed trips and
+
+charging events and estimate structural parameters in trip utility and charging costs. This
+
+estimation procedure is similar to the discrete-choice dynamic model, but it leverages the time
+
+intervals between events in a continuous manner (via the hazard rates) and avoids the need
+
+to specify an arbitrary event ordering.
+
+
+Estimating Exogenous Arrival Rates and Transition Probabilities  Let qs,s′ denote
+the transition probability from state s to s′ as defined in Equation 4. The state vector s
+
+consists of six elements: the current battery level, local charging density, charging price, home
+
+(private) charging availability, local amenities, and a daytime indicator.
+
+  A primary empirical challenge is that observed trip frequencies at low battery levels likely
+
+underestimate the latent trip arrival rate, as drivers may strategically forgo travel to avoid the
+
+risk of battery depletion. To identify the underlying trip arrival parameters (Λ), we impose
+
+a behavioral assumption: range anxiety is not an issue when battery reserves are abundant.
+
+Specifically, for the subsample where the remaining range exceeds 300 km, we assume drivers
+
+accept all arriving trip opportunities.  This identification strategy allows us to recover the
+latent trip arrival process from observed behavior in the high-range subsample.25
+
+   The probability that the state changes due to a trip arrival within τ units of time is:
+
+                              "        !#
+                             1 −exp −τ X qs,s′      ,
+                                                                                  s′
+
+and the probability that the state does not change within τ units of time is defined analo-
+
+gously. This is the cumulative distribution function (cdf) of an exponential distribution with
+a transition rate equal to the aggregate trip frequency from state s to all reachable states s′.
+
+Differentiating this CDF with respect to the inter-arrival time τ yields the density function
+
+with the same rate parameter:
+
+                     !   "        !#
+         X qs,s′  exp −τ X qs,s′      .                         (11)
+                                                      s′                                s′
+
+  25Should range anxiety persist even at high battery levels, our estimates would constitute a conservative
+lower bound on the true magnitude of the range anxiety effect.
+
+
+
+                                        20
+
+===== [PDF 第 23 页｜印刷第 21 页] =====
+Define g(τ, s; q) = exp [−τ (Ps′ qs,s′)].
+   To construct the likelihood function for trip arrivals, we categorize the observed durations
+
+into two distinct types of intervals. In the first case, a trip arrives at time τ following the
+previous event, triggering a state transition from s to s′ as illustrated below:
+
+                                               τ
+
+                   Previous event concludes     A trip arises
+                                                                      time
+                            at state s               state s →state s′        Case 1:
+
+
+The corresponding likelihood is the product of a) the density function of a trip occurring at
+duration τ, and b) the probability of transitioning to state s′ among all potential states:
+
+            !   "        !#                                                                                        qs,s′
+L(τ, s, s′) = X qs,s′  exp −τ X qs,s′  ×                 = qs,s′g(τ, s; q).
+                                  (Ps′ qs,s′)                          s′                                s′
+                                                      |   {zto s′|} a trip arrives            |     likelihood of a {ztrip arriving by τ    }   prob of transitioning
+
+In the second case, the interval τ is right-censored by either a charging event or the conclusion
+
+of the driver’s observation period, as shown below:
+
+                                               τ
+
+                   Previous event concludes  Charging/End of sample
+                                                                      time
+                            at state s               state s →state ¯s        Case 2:
+
+
+Its likelihood corresponds to the probability that no trip arrives during this interval, which is
+
+given by g(τ, s; q).
+
+  Now consider a sample of M drivers, each experiencing Nm state transitions in the sample.
+Let τmn ≡tmn −¯tm,n−1 denote the time interval between the completion of the previous event
+and the beginning of the next event (a trip, charging, or end of the observation period). Define
+1mn(Trip, s′) as the indicator for whether the n-th transition for driver m is a trip ending in
+state s′, and 1mn(Chg, ¯s) = 1 if the n-th transition is a charging event that restores battery
+to its full capacity, ¯s, or if the interval is right-censored by the termination of the observation
+
+window (in which case ¯s is the same as the state of the last event). The log-likelihood of the
+
+
+
+
+
+                                        21
+
+===== [PDF 第 24 页｜印刷第 22 页] =====
+observed transition processes is:
+
+                                                           
+       M Nm
+LL1(q) = X X X 1mn(Trip, s′) [ln g(τmn, smn; q) + ln qs,s′] + 1mn(Chg, ¯s) ln g(τmn, smn; q)
+         m=1 n=1                                                                                  s′                                         |            Case{z 2          } .
+                   |                     Case{z 1                 }
+
+We use ˆq to denote the MLE estimate of the exogenous transition process, where the relevant
+
+parameters are specified in Equation (4).
+
+
+Estimating Structural Parameters  Given structural parameters in trip utility and charg-
+
+ing costs, θ = {α, β}, and the state transition process estimated in the first stage, ˆq, we can
+
+solve the state-dependent value function via value function iteration as defined in Equation
+
+(10): T(V (s|ˆq, θ)) →V (s|ˆq, θ).
+
+  A driver’s decision to accept a trip opportunity depends on the current vehicle range rs
+relative to a threshold χ. When the range is sufficient (rs > χ), the driver is assumed to always
+accept the trip. Otherwise, the probability of acceptance is governed by a logit specification
+
+that balances the disutility from range anxiety against the value of the trip:
+
+                    exp[ψ(1, s, s′|θ) + V (s′|ˆq, θ)]
+                                                                                     if rs ≤χ             exp[ψ(1, s, s′|θ) + V (s′|ˆq, θ)] + exp(V (s|ˆq, θ))          πtrip(s, s′|ˆq, θ) =
+            1                                                                       if rs > χ            
+
+where χ is the range anxiety cutoff. Similarly, when a charging opportunity arises, the driver
+
+decides whether to charge based on the associated costs and the value of a full battery. The
+
+probability that a driver chooses to charge is given by:
+
+                                          exp[c(1, s|θ) + V (¯s|ˆq, θ)]
+                     πchg(s|ˆq, θ) =
+                                 exp[c(1, s|θ) + V (¯s|ˆq, θ)] + exp(V (s|ˆq, θ))
+
+By combining the driver’s decision rules with the exogenous arrival process, we can de-
+
+fine the arrival rates for observed behaviors.  Specifically, the observed trip rate is  ˜qs,s′ =
+ˆqs,s′πtrip(s, s′|ˆq, θ) and the observed charging rate is λcπchg(s|ˆq, θ).  Given the well-known
+“thinning” property of a Poisson process (Ross, 1995), an independent selection from a Pois-
+
+son process with probability p yields a new Poisson process with rate pλ. Hence, the observed
+
+sample of both driver-chosen trips and charging events can be characterized as a Poisson
+process with an updated arrival rate of Ps′ ˜qs,s′ + λcπchg.
+   Consequently, the joint density of observing a trip acceptance leading to state s′ at time τ
+
+
+                                        22
+
+===== [PDF 第 25 页｜印刷第 23 页] =====
+(following a duration of inactivity) is the product of the event-specific rate and the probability
+
+of no prior arrivals:
+
+                                 "             !#
+                               ˆqs,s′πtrip(s, s′|ˆq, θ) exp −τ X ˜qs,s′ + λcπchg
+                     |            ˜qs,s′{z      }                    s′
+                                      |                h(τ,s;ˆq,θ){z            }
+
+where h(τ, s; ˆq, θ) represents the survival function of the aggregate Poisson process and ˜qs,s′ =
+ˆqs,s′πtrip(s, s′|ˆq, θ) is the effective arrival rate for that specific trip destination. Similarly, the
+joint density of observing a charging event at time τ is:
+
+                               "             !#
+                            λcπchg(s|ˆq, θ) exp −τ X ˜qs,s′ + λcπchg
+                                                                                    s′
+
+For each driver m and observed action n = 1, ..., Nm, we define Imn(Trip, s′) = 1 if the event
+is a trip to state s′, and Imn(Chg, ¯s) = 1 if the event is a charging session that restores the
+battery to full capacity. The second stage log-likelihood function is:26
+
+         M " Nm
+   LL2(θ) = X X       ln h (τmn, smn; ˆq, θ)  + X Imn(Trip, s′) ln πtrip(smn, s′|ˆq, θ)
+            m=1  n=1                       Common|   term to{ztrips and charging}            s′
+                                                    |                      trips{z               }
+                                                                #
+              + Imn(Chg, ¯s) ln πchg(smn|ˆq, θ) + ln h (τm,Nm+1, sm,Nm+1; ˆq, θ)   ,
+                          |             charging{z           }     |        Terminal{zinterval      }
+
+   where τm,Nm+1 denotes the interval between the last event and the end of the observation
+period and sm,Nm+1 denotes the final state. Because the Poisson process is memoryless, the
+likelihood depends only on observed transitions and the durations between them, remaining
+
+independent of unobserved opportunities that were not taken. We estimate the parameter
+
+vector θ = {α, β} using Maximum Likelihood Estimation (MLE).
+
+  26We solve for the value function for each driver type, derive the log-likelihood for drivers in each type, and
+then sum over all types in LL2(θ).
+
+
+
+
+
+                                        23
+
+===== [PDF 第 26 页｜印刷第 24 页] =====
+4  Estimation Results
+
+4.1  Model Estimates
+
+Trip Arrival Rates  Since drivers with access to home charging, i.e., slow charging at home
+
+or workplace, may exhibit different vehicle usage from those without, we report trip frequencies
+
+and state transition probabilities separately for the two groups in Table 2. We begin with
+
+drivers without access to home charging, who make up 67% of the drivers, and then present
+
+corresponding statistics for those without a home charger. Overall, the trip patterns across
+
+the two groups appear qualitatively similar, though drivers with home chargers are more likely
+
+to take trips that end in areas with lower charging density.
+
+   The top panel of Table 2 summarizes the estimated daily Poisson arrival rates of trips by
+
+distance. As described in Section 3.1, since range anxiety is irrelevant when the remaining
+
+battery range exceeds 300 km, we use trip frequencies observed in these high SOC states
+
+to estimate the exogenous arrival rates of trips with different distances, {λ0, ..., λ9}. The
+estimates show a clear pattern: short trips are much more frequent than long-distance ones.
+
+Among drivers without a home charger, trips under 50 km occur on average 2.83 per day,
+
+while trips of 50–100 km occur 1.25 times per day.  In contrast, trips longer than 200 km
+
+are infrequent, with arrival rates falling below 0.04 per day. This pattern is consistent with
+
+observed EV usage: most trips are for daily commuting or errands, while long-distance travel
+
+is occasional due to range constraints, planning needs, and limited charging infrastructure.
+
+Trip arrival patterns are similar for drivers with home chargers.
+
+
+Trip Transition Frequencies  The bottom three panels of Table 2 document the empirical
+
+frequencies of trips ending in destinations grouped by quartiles of charging access and charging
+
+prices, separately for 2021 and 2024.  In 2021, a larger share of trips ended in areas with
+
+low charging access, reflecting the uneven early development of the charging network. By
+
+2024, trips were more likely to end in locations with high charging access, suggesting a more
+
+developed charging infrastructure across the city.
+
+   Appendix Table A3 also reports trip arrival rates separately for daytime and nighttime,
+
+along with amenity differences across destinations. Trip activity is notably higher during the
+
+daytime (8AM–8PM), averaging 5.69 trips per day for drivers without a home charger and
+
+6.30 trips for those with one. At night (8PM–8AM), average trip frequencies decline to 2.53
+
+and 1.43 trips per day for drivers without and with home charging, respectively.
+
+
+
+
+                                        24
+
+===== [PDF 第 27 页｜印刷第 25 页] =====
+Trip Utility Parameters We present results from two specifications: the main specification
+
+and an alternative specification that allows trip arrival rates to differ between daytime and
+
+nighttime, while adding trip timing (day versus night) and amenity access as additional state
+
+variables. We discuss the results from the main specification first.
+
+   The top panel of Table 3 presents structural parameters governing the utility of taking a
+
+trip as a function of trip distance. The average base utility of a trip is captured by α0, and the
+estimate from the main specification implies the average utility of a trip to be about Y32 (or
+$4.6), thus suggesting high costs of foregoing trips.27 The positive coefficient estimate on α1
+suggests that drivers gain a larger utility from longer trips. The negative coefficient estimates
+
+on α2 and α3 suggest that trips leading to a low battery level generate disutility, especially
+for trips that would reduce the range to be below 50km. These negative estimates, capturing
+
+the extent of range anxiety, are consistent with the drop in observed trip frequencies for trips
+
+that lead to low battery levels in Figure 6.
+
+
+Charging Cost Estimates  The middle panel of Table 3 summarizes estimates for the cost
+
+of charging for drivers without home chargers. The coefficient estimate on β0 (-2.55) suggests
+a large hassle (non-price) cost for undertaking fast charging, as it involves searching, parking,
+
+and waiting, especially so with limited charging access. Our estimates indicate that access
+
+to the fast stations greatly reduces the hassle cost from Y24 to Y13 (or $3.5 to $2) from the
+
+2021 network to the 2024 network (β1 = 0.70).We convert the charging prices and use the
+average charging quality ¯q = 30kWh per charging event to get the monetized hazard cost:
+−β0+β1×CA × ¯q.       β2
+   The coefficient estimate on β2 (-1.48) implies that charging costs are more substantial than
+hassle costs for fast charging: assuming 30kWh per charge, the average hassle cost accounts for
+
+25% to 38% of the total cost, and charging costs account for the rest. Based on the structural
+
+estimates, we can compute the elasticity of charging given a uniform increase in the charging
+
+price (in all stations) to be -0.98. These estimates are consistent with the data pattern shown
+
+in Figure 4: consumers not only value charging convenience but also are sensitive to charging
+
+prices.
+
+   The bottom panel of Table 3 summarizes estimates for the cost of charging for drivers with
+
+home chargers. These drivers have options of both slow charging at home or workplace and
+
+fast charging at commercial public charging stations. Consistent with the intuition, the hassle
+cost of home charging is close to zero (βh3 ≈0), but the hassle cost of charging at fast chargers
+
+  27We calculate the compensating variation in charging prices for an average trip value (α0 +α1 ×dist). The
+monetized trip value is comparable to the taxi cost for a trip of about 9km during the daytime in Shanghai.
+
+
+                                        25
+
+===== [PDF 第 28 页｜印刷第 26 页] =====
+is high (βh0 = −4.46, or Y184 per charge, or $26). The much larger disutility from fast charging
+is consistent with the data pattern that drivers with home chargers charge at home 90% of
+the time. Interestingly, access to fast charging only alleviates the cost slightly (βh1 = 0.06), in
+sharp contrast with the much larger effect of charging access for those without home chargers
+
+(β1 = 0.69). In terms of sensitivity to charging price among drivers with home chargers: they
+are less sensitive to fast charging prices (βh2 = −0.72) than to home charging (i.e., electricity)
+prices (βh5 = −1.85). This likely reflects the fact that fast charging is used only when necessary
+and that these drivers are less familiar with fast charging networks because they use them
+
+infrequently. Note that the price coefficient for home charging is the most negative among the
+
+three types. This is supported by the data pattern, where people most often charge at home
+
+during evening hours (after 9PM), indicating high price elasticity. Overall, for consumers with
+
+home chargers, the average elasticity of charging probability with respect to charging price is
+
+-0.90; therefore, they are less price-sensitive.
+
+
+Robustness Checks  The second specification in Table 3 is a more flexible specification that
+
+allows trip arrival rates to differ between daytime and nighttime while including trip timing
+
+and amenity access as additional state variables. This specification delivers similar results in
+
+terms of price elasticity and the hassle cost of charging. We find slightly lower range anxiety
+
+for trips that leave 50–100 km of remaining range, which may reflect reduced anxiety when
+
+vehicles are at lower charge levels during nighttime. We also find a positive but economically
+
+small effect of amenity access on charging utility, suggesting that amenity availability plays a
+
+relatively minor role in charging decisions.
+
+   Table A4 presents results from two additional robustness checks. The specification in
+
+column (1) discretizes the remaining range into 25 km increments (rather than 50 km) to
+
+more precisely capture range anxiety.  The estimated preference parameters for post-trip
+
+remaining range follow an intuitive pattern: disutility is greatest when the remaining range
+
+is under 25 km, while coefficient estimates become smaller and statistically insignificant for
+
+ranges between 75 and 100 km. Other parameter estimates are very similar to those in the
+
+baseline specification in Table 3.  The specification in column (2) incorporates additional
+
+consumer heterogeneity by splitting the sample into two groups based on the median average
+
+daily trip distance. These parameter estimates remain close to those in the main specification.
+
+In principle, with sufficiently long driving histories, each driver could be modeled as a distinct
+
+type, with the trip arrival rate estimated as the individual-specific long-term average rate.
+
+This exercise indicates that our estimates of charging and trip primitives are robust even
+
+under this highly demanding specification. Together, these alternative models demonstrate
+
+
+                                        26
+
+===== [PDF 第 29 页｜印刷第 27 页] =====
+the robustness of the key parameters that underpin the EV usage and charging decisions
+
+observed in our data.
+
+
+Model fit  Figure 7 illustrates the model fit by presenting trip hazard rates in Panel (a)
+
+and charging probabilities in Panels (b) and (c). Panel (a) shows that the model successfully
+
+replicates the observed pattern of missing trips at low remaining range. Panels (b) and (c)
+
+indicate that the predicted probability of charging is strongly influenced by remaining range,
+
+while charging access and charging prices shift charging probabilities in ways consistent with
+
+the data. Overall, the model’s predictions closely match the observed data patterns.
+
+
+4.2  Estimated Policy Functions
+
+Figure 8 illustrates the estimated policy functions (i.e., decision rules) governing charging and
+
+travel decisions under various SOC levels and station attributes. Given that we have different
+
+consumer types, Panel (a) starts by reporting the policy functions for drivers with a maximum
+
+range of 500km, without home chargers (only relying on commercial fast chargers), and facing
+
+the 2024 charging network. Panel (a) shows that the probability of charging declines as the
+
+remaining range increases. At the same time, the charging decision is shifted by both station
+
+access and charging price: drivers are most likely to charge when there is better access to
+
+charging network and when prices are low (orange dashed line on the top), and least likely
+
+when stations are sparse and prices are high (yellow dashed line on the bottom). This confirms
+
+the important role of charging access and charging price in charging decisions, consistent with
+
+the data pattern shown in Figure 4.
+
+   Panel (b) extends the analysis by comparing charging probabilities across consumers with
+
+different maximum ranges. The curves are closely aligned, suggesting that the general shape of
+
+the charging policy is preserved across EVs with different maximum ranges. However, vehicles
+
+with a larger maximum range is less likely to charge given the same SOC (in % of maximum
+range), indicating the advantage of a larger battery.28 But they are more likely to charge given
+
+the same remaining range (in km) because of the higher continuation value of recharging the
+
+bigger battery.
+
+   Panel (c) plots the probability of fast charging, analogous to Panel (a), but for drivers
+
+with home chargers. These drivers are very unlikely to charge at commercial fast charging
+
+stations when remaining range is high (> 200km) because home charging serves as a backup
+
+  28For example, a car with maximum range of 500km is less likely to charge when the remaining range is
+250km (50%) compared to a car with maximum range of 400km and remaining range of 200 km (50%).
+
+
+                                        27
+
+===== [PDF 第 30 页｜印刷第 28 页] =====
+option. They are also less sensitive to charging access and fast charging prices, likely because
+
+they use these stations infrequently and only in rare or urgent situations.
+
+   Panel (d) shows the probability of home charging for drivers with home chargers. The de-
+
+cision rules differ markedly from those for fast charging. Because home charging is convenient
+
+and involves lower hassle costs, drivers often choose to charge even when remaining range is
+
+high.  Nevertheless, they are sensitive to home charging prices, with a higher likelihood of
+
+charging under off-peak prices than under peak prices.
+
+   Appendix Figure A9 presents the estimated probability of taking certain trips as heat
+
+maps. Each cell reports the conditional probability of taking a trip that changes remaining
+
+range from the value on the x-axis to the value on the y-axis, holding other location attributes
+
+fixed. Panel (a) considers trips from the most attractive origins (low prices, high access) to the
+
+least attractive destinations; probabilities are close to zero at low remaining range, indicating
+
+pronounced range anxiety under poor charging conditions. Panel (b) reverses the direction,
+
+from the least attractive to the most attractive locations, and shows high probabilities even at
+
+very low remaining range, consistent with observed travel toward cheaper and better-served
+
+areas when remaining range is low. Overall, the estimated policy responds strongly to both
+
+remaining range and spatial variation in charging prices and access.
+
+
+5  Quantification and Policy Simulations
+
+We evaluate counterfactual improvements in driving range and charging infrastructure by
+
+monetizing the model’s value function, which represents the lifetime utility of vehicle usage.
+
+Specifically, we analyze two primary policy levers:  battery capacity and the scale of the
+
+public charging network. Consumers’ willingness to pay (WTP) for these improvements arises
+
+through three primary channels: (1) the facilitation of trips that were previously infeasible or
+
+forgone, (2) a reduction in charging hassle costs, and (3) optimized charging behavior, which
+
+reallocates charging to more cost-effective and accessible locations. Furthermore, we quantify
+
+“range anxiety” as the monetary value of forgone but feasible trips, a metric determined
+
+by both vehicle range and network coverage.  Finally, we evaluate optimal policy design by
+
+integrating these welfare gains with cost data for battery and infrastructure investments.
+
+
+5.1  From Value Function to WTP
+
+To quantify consumer WTP, we analyze the value function for a vehicle with full range ¯R,
+given a charging network size N and home-charging access H: V (s; N, ¯R, H). This function is
+
+
+                                        28
+
+===== [PDF 第 31 页｜印刷第 29 页] =====
+evaluated at the steady state of a continuous-time Markov process.29 Let π(s) represent the
+
+stationary distribution, which denotes the probability of the system occupying state s at any
+
+given time:
+
+                            V = X π(s)V (s)
+
+                                                         s
+
+                                where π × Q = π,
+
+
+where Q is the transition rate matrix, which depends on trip rates ˜q and charging rates h.30
+Finally, we numerically simulate dV  to translate shifts in the value function into monetary                                         dp
+terms. By computing ∆p = ∆V/dV at the steady state, we express these changes as equivalent                                       dp
+adjustments in charging prices. If the equivalent adjustment, defined here as the compensating
+
+variation, of a policy change is ∆p, the resulting impact on lifetime charging costs is expressed
+
+as:
+                                                             Dlifetime
+                   WTP = ∆p ·             ,                               (12)
+                                                             ¯E
+where ¯E represents the average energy efficiency (6 km/kWh) and Dlifetime denotes the total
+lifetime driving distance (160, 000 km), calculated based on an eight-year vehicle lifespan at
+
+20, 000 km per year. This formulation enables the translation of marginal price adjustments
+
+into a measure of lifetime WTP.
+
+
+Decomposition Exercise We begin with a decomposition exercise to quantify the evolution
+
+of WTP for an EV in Shanghai from 2018 to 2024.  This change is primarily driven by
+
+two factors: (1) the expansion of charging infrastructure, with the charging access measure
+
+increasing from 2.08 to 2.84, and (2) the improvement in driving range from about 350 km to
+
+400 km. Importantly, range improvements do not apply retroactively; while legacy vehicles
+
+purchased in 2018 do not benefit from newer battery technology, they still gain utility from
+
+the expanding charging network. Due to the exponential growth of EV sales in Shanghai,
+
+pre-2018 vehicles comprised only 13% of the 2021 market, and pre-2021 vehicles accounted for
+
+just 20% of the 2024 market. Consequently, the welfare gains for the average car in the 2024
+
+stock are comparable to, though slightly lower than those for vehicles purchased between 2021
+
+and 2024. In the main text, we focus on the aggregated welfare changes in Figure 9, while a
+
+  29For notational simplicity, we denote the type-specific value function as V (s).
+  30In a continuous-time Markov process, the transition rate matrix Q describes the rates of movement between
+states. The off-diagonal elements qij ≥0 represent transition rates, while diagonal elements are defined as
+qii = −Pj̸=i qij, ensuring each row sums to zero.
+
+
+
+                                        29
+
+===== [PDF 第 32 页｜印刷第 30 页] =====
+detailed disentanglement of stock and flow vehicles is provided in Appendix Figure A10.
+
+   Figure 9 illustrates the evolution of WTP from 2018 to 2024, highlighting that consumers
+
+benefit from both battery advancements and the expanding charging network. When aggre-
+
+gated by observed home-charging shares, the weighted average WTP reaches approximately
+
+Y30,000 by 2024; specifically, Y62,000 for those without home chargers compared to Y18,000
+
+for those with them. These gains are significantly larger for households lacking home-charging
+
+access, as they rely more heavily on public infrastructure and thus benefit more from its ex-
+pansion. Furthermore, these households derive greater utility from battery improvements.31
+
+Collectively, the total welfare improvement from 2018 to 2024 is equivalent to roughly 20% of
+
+the purchase price of an average EV.
+
+
+5.2 WTP for Driving Range and Charging Access
+
+To isolate WTP for improvement in driving range and charging access, we hold the trip arrival
+
+probabilities constant and vary the state variables to re-evaluate the value function. Regarding
+driving range, we increase the full range ¯R from 250 km to 600 km in 50 km discrete intervals,
+
+a range that encompasses 95% of EVs currently on the market.  To model infrastructure
+
+improvements, we induce marginal shifts in the probability distribution of regional charging
+
+access levels (ordered from lowest to highest) using the specification: θr = [0.8, 0.2, 0.0, 0.0] +
+[−0.1, −0.02, 0.02, 0.1] × r, where r ∈{1, 2, . . . , 8}. Incrementing r allows us to simulate a
+
+market’s evolution from sparse to robust charging access. As a benchmark, the mean charging
+
+access levels in Shanghai were 2.08 in 2021 and 2.84 in 2024.
+
+   Panel (a) of Figure 10 reports the lifetime WTP (in Y) for simultaneous increases in bat-
+
+tery range and charging accessibility. The values are normalized such that WTP equals zero
+
+at the baseline of a 250 km range and a charging access index of 1.525.  Three key find-
+
+ings emerge. First, both policy instruments exhibit significant diminishing marginal returns.
+
+Holding charging access constant at 1.525, a range increase from 250 km to 300 km raises
+
+WTP by Y22,000, whereas an increase from 550 km to 600 km adds only Y4,000. Similarly,
+
+with the range fixed at 250 km, improving charging access from 1.525 to 1.85 yields a gain of
+
+Y6,000, while a shift from 3.475 to 3.80 adds only Y4,000. Consequently, while both range
+
+and network density demonstrate diminishing marginal utility, the benefits of range extension
+
+dissipate more rapidly than those of infrastructure expansion.
+
+   Second, driving range and charging network density function as substitutes (i.e., negative
+
+  31Drivers without home-charging access benefit more from battery advancements because increased range
+reduces charging frequency, which is more costly and time-consuming for fast charging than for home charging.
+
+
+                                        30
+
+===== [PDF 第 33 页｜印刷第 31 页] =====
+cross-derivatives). From the baseline, increasing the battery range to 500 km in isolation
+
+yields Y70,000, while increasing charging access alone to 2.825 yields Y22,000.  However,
+
+implementing both improvements simultaneously results in a total gain of Y85,000—notably
+
+less than the Y92,000 sum of their individual effects. Intuitively, range extensions are most
+
+valuable when charging infrastructure is sparse, whereas infrastructure improvements provide
+
+the greatest marginal utility when vehicle range is limited.
+
+    Finally, Panel (b) of Figure 10 reports the WTP for drivers with home-charging access.
+
+While the WTP for incremental improvements in range and public infrastructure is higher for
+
+those reliant on fast charging, the baseline utility for drivers with home chargers is Y10,000
+higher. This disparity underscores the significant role of residential charging in EV adoption.32
+
+
+5.3  Quantifying Range Anxiety
+
+In this section, we quantify the magnitude of range anxiety in monetary terms, specifically
+
+capturing the utility loss associated with forgone trips, those that are technically feasible but
+
+not undertaken due to the fear of battery depletion before reaching a charging station.  In
+
+the trip utility specification defined in Equation (5), the parameters α2 and α3 represent the
+disutility of embarking on trips that result in a low state of charge. We compute the welfare
+
+impact of range anxiety as the difference in the value function between the baseline model
+
+and a counterfactual scenario where α2 = 0 and α3 = 0. In this counterfactual, we assume
+all feasible trips are taken, thereby isolating the utility costs driven by the psychological or
+
+risk-averse constraints of the charging state.
+
+   Figure 11 plots (monetized) range anxiety against the full driving range of the EV observed
+
+in the data for 2021 and 2024 separately. There is strong negative relationship between range
+
+anxiety and the driving range of an EV. For an EV with a driving range of 200km in 2021,
+
+the lower end of the range distribution, range anxiety amounts to Y44,000 (or 44% of the EV
+
+price), but range anxiety reduces to only Y3000 for an EV with a driving range of 450km. The
+
+comparison between 2021 and 2024 shows range anxiety shifts down for an EV of the same
+
+range from 2021 to 2024 due to improvement in charging access. On average, range anxiety
+
+amounts to Y13,600 ($1,900), or 10% of the EV price in 2021. In 2024, range anxiety drops
+
+to Y8,400 ($1,200), or 6% of the EV price. The reduction was driven by both the increase in
+
+EV driving range (from 353km to 388km), and the charging network size (from 400 to 2,268
+
+  32This likely represents a lower bound, as home-charging users in our sample tend to drive less frequently.
+If trip arrival rates were held constant across both cohorts, the implied WTP gain from home-charging access
+would be substantially higher.
+
+
+
+                                        31
+
+===== [PDF 第 34 页｜印刷第 32 页] =====
+stations), with the former contributing to 80% of the drop in range anxiety.
+
+   To further illustrate the role of charging access in affecting range anxiety, the two dotted
+
+lines depict the level of range anxiety assuming the EV of a certain driving range only has
+
+the worst charging access (top) or the best charging access (bottom) observed in the data.
+
+Consistent with the intuition, charging access plays a bigger role for EVs with a low driving
+
+range. For EVs with a range of 200km, improving charging access from the worst to the best
+
+can reduce range anxiety from Y46,000 to Y30,000, a 35% reduction.
+
+   Figure A11 presents range anxiety with respect to driving range separately for two groups
+
+of EV drivers: those without access to home charging in panel (a), and those with access
+
+in panel (b). Panel (a) shows that range anxiety shifts down from 2021 to 2024 for an EV
+
+with the same driving range, due to the improvement in charging access. However, there is
+
+no visible shift in range anxiety from 2021 to 2024 for those with home charging as shown
+
+in Panel (b), suggesting a more limited role of access to public charging in addressing range
+
+anxiety for those drivers with access to home charging. Comparing the two panels, average
+
+range anxiety does not differ significantly between these two groups of EV drivers due to a
+
+combination of two countervailing forces: (1) access to home charging relieves range anxiety;
+
+and (2) those with access to home charging tend to be less sensitive to overall charging prices,
+
+as the parameter estimates suggest.
+
+   Our estimates of range anxiety likely represent lower bounds of its true magnitude for two
+
+reasons.  First, the EV driving data do not include inter-city travel, which tends to involve
+
+longer distances and may induce greater range anxiety. However, inter-city travel by private
+
+car is less common in China than in the U.S. due to the extensive and affordable high-speed
+
+rail network (Fang et al., 2025), and Shanghai is a major hub with direct connections to all
+
+nearby major cities. Second, our sample includes only EV drivers. Because these individuals
+
+have already chosen to purchase an EV, their range anxiety is likely lower than that of non–EV
+
+owners. Nevertheless, EVs accounted for about one-third of the passenger vehicle stock and
+
+nearly half of new vehicle sales in Shanghai by 2024.
+
+
+5.4  Policy Design
+
+Our analysis of range anxiety highlights two key remedies for mitigating it and, in turn,
+
+promoting EV adoption: increasing vehicle driving range and expanding the charging network.
+
+While countries such as China and Norway have invested heavily in charging infrastructure, the
+
+United States has lagged behind, and a large-scale build-out comparable to those countries
+
+
+
+
+                                        32
+
+===== [PDF 第 35 页｜印刷第 33 页] =====
+is unlikely in the near term.33  In the absence of strong government support for charging
+
+infrastructure, many industry experts argue that increasing vehicle driving range is the most
+
+logical path for the next stage of EV adoption. Our following simulations aim to shed light on
+
+different approaches to promoting EV adoptions via increasing consumers’ WTP. Specifically,
+
+we solve for the optimal combination of EV driving range and charging network size from the
+
+social planner’s perspective. We then compare this optimal design with observed levels, as
+
+well as with the optimal outcome under a constrained scenario in which only one approach is
+
+employed. While the analysis is conducted in the context of Shanghai and the quantitative
+
+findings are unlikely to generalize to other regions, the underlying mechanisms and qualitative
+
+insights should have broader applicability.
+
+
+The Value of Battery Capacity  To validate the model’s empirical estimates, we perform
+
+a heuristic comparison between the marginal economic benefit of extended driving range and
+the associated costs of increasing battery capacity.34 A reasonable model should produce a
+
+lifetime WTP for additional range that is of a comparable order of magnitude to the physical
+
+cost of the required battery hardware.  According to Barwick et al. (2025b), battery pack
+
+costs were approximately $155/kWh in 2021 and $115/kWh in 2024. Assuming a constant
+efficiency factor of ¯E = 6 km/kWh, a 50-km range extension necessitates an additional battery
+expenditure of approximately 50 × ($155/¯E) (Y9,042) in 2021 and 50 × ($115/¯E) (Y6,708) in
+
+2024. These figures likely represent a lower bound for the total cost of range extension, as they
+
+exclude auxiliary expenses related to structural redesign and energy management systems.
+
+   Nevertheless, these cost estimates align closely with the WTP for a 50-km range increase
+
+derived from our model (Figure 10).  Specifically, in 2021, assuming a baseline range of 350
+
+km and a charging access level of 2.08, the estimated WTP for a 50-km increase was about
+
+Y12,000 for households without home charging and Y9,000 for those with it. By 2024, at a
+
+baseline range of 390 km and improved charging access at 2.84, these WTP values shifted to
+
+about Y9,000 and Y6,000, respectively. The alignment between these market-based costs and
+
+our model’s WTP estimates provides support for the model’s validity.
+
+  33The Bipartisan Infrastructure Bill passed in 2021 under the Biden administration allocated $7.5 billion
+to expand the national charging network, but only a small fraction of the funding had been obligated due to
+administrative and program-approval delays prior to the start of the Trump administration, which subsequently
+suspended future funding.
+  34While range may also be extended through enhancements in vehicle efficiency, aerodynamics, or thermal
+management, these factors are held constant in this analysis. We focus exclusively on battery capacity as the
+primary driver of range extension, treating other technological improvements as incremental and outside the
+current scope.
+
+
+
+                                        33
+
+===== [PDF 第 36 页｜印刷第 34 页] =====
+The Value of Charging Network Expansion We evaluate the marginal economic benefit
+
+of expanding the charging network by examining the impact of adding a single station. To
+
+quantify this, we derive the mapping from the total network size to charging access, denoted
+
+as N →CA, based on the observed expansion trajectory of the charging infrastructure in
+
+Shanghai (see Appendix Figure A12 for details). At a given network scale N, the marginal
+contribution of an additional station is defined by the gradient ∂CA . Consequently, the WTP                                                        ∂N
+                                                                       ∂V ( ¯R,N)   ∂CA  ∂V ( ¯R,CA)for one additional station can be decomposed using the chain rule:     =        ·              ,                                                              ∂N      ∂N    ∂CA
+where V (¯R, CA) represents the value function associated with a given range ¯R and access
+
+level CA.
+   The cost of adding one station is estimated using industry benchmarks.35  According
+
+to these data, the unit cost per charger was approximately Y231,000 in 2018, declining to
+
+Y150,500 by 2024. For our baseline calculations, we assume a representative station configu-
+
+ration of 20 chargers. To internalize these costs at the individual level, we distribute the total
+
+station cost across a potential adoption base of one million EV drivers. These cost-benefit
+
+parameters allow us to characterize the socially optimal density of charging infrastructure for
+
+different types of consumer.
+
+
+Optimal Network size and Driving Range. We solve the following optimization problem
+to compute the optimal level of driving range (¯R, via charging battery capacity) and the
+
+network size (N) for different years given the associated cost and benefit parameters discussed
+
+above:
+             max WTP(¯R, N) −Battery Cost(¯R) −Charger Cost(N).             (13)
+                        ¯R,N
+
+   Table 4 and Figure 12 present the optimal levels of driving range and charging network
+
+size, along with the corresponding social welfare and consumer WTP, for the years 2018, 2021,
+
+and 2024. These values are disaggregated by consumer type: those with and without access to
+
+home charging. We find that the substantial cost reductions observed between 2018 and 2024
+
+drive a monotonic increase in the optimal levels of both driving range and network density.
+
+The optimal expansion path (indicated by the green line in Figure 12) represents the weighted
+
+average of the optimal trajectories for drivers with home chargers (red line) and those without
+(blue line). Specifically, the optimal combination of range and network scale (¯R, N) progresses
+
+from (321 km, 414 stations) in 2018, to (404 km, 825 stations) in 2021, and finally to (469 km,
+
+1158 stations) in 2024. These results suggest that as technology matures and costs decline,
+
+  35The cost parameters are sourced from industry reports available at: “The Rise of 800V High-Voltage
+Architecture: Coordinated Upgrading Across Materials and Vehicle-Side Supply Chains”, by Cinda Security,
+December 2022.
+
+
+                                        34
+
+===== [PDF 第 37 页｜印刷第 35 页] =====
+the social planner should shift toward a regime of both higher-capacity batteries and more
+
+ubiquitous public charging infrastructure.
+
+   Comparing the optimal benchmarks with observed market levels, we find that while Shang-
+
+hai lagged in both dimensions in 2018, it has since experienced a rapid convergence, partic-
+
+ularly regarding the charging network. The observed expansion trajectory (indicated by the
+
+dashed black line in Figure 12) reveals that the current network size has surpassed the optimal
+level for both consumer segments.36 Conversely, the observed average driving range (382 km)
+
+is still far below the social optimum of 469 km. We estimate that the welfare loss, defined as
+
+the gap in social surplus between the observed state and the social optimum, is approximately
+
+Y4,600 per consumer.
+
+   Both driving range and charging network size can reduce range anxiety, and increase
+
+consumer WTP for an EV. They are substitutes in that an arbitrarily large battery could
+
+eliminate the need for public charging, and an extremely dense network would offset limited
+
+range. However, there exists diminishing return to each technology as shown in Figure 10.
+
+This relationship implies that a coordinated investment strategy is likely to be more efficient
+
+than a singular focus on either technology. Figure A13 provides a stylized illustration of this
+
+logic: the efficient trajectory from current infrastructure and battery levels toward the social
+
+optimum is a balanced expansion path which necessitates simultaneous investment in both
+
+technologies. A one-dimensional approach, by contrast would result in efficiency losses.
+   Table 5 empirically evaluates the optimal expansion path of (¯R, N) relative to the observed
+
+trajectory and alternative strategies that prioritize only a single technology.  The results
+
+indicate that focusing exclusively on either driving range or network expansion yields lower
+
+social welfare. Taking 2021 for example, both the observed range and network size (353 km,
+
+400 stations) were below the socially optimal levels (404 km, 825 stations).  In a second-
+
+best scenario, investing in range alone would require an increase to 411 km to compensate
+
+for the below-optimal charging network.  Similarly, investing in the charging network alone
+
+would require 884 stations to compensate for the range deficit. While either isolated strategy
+
+would improve social welfare relative to the observed baseline (by Y2,000 and Y1,400 per EV,
+
+respectively), the optimal strategy of simultaneous investment increases the welfare gain by at
+
+least 50%. This effect is even more pronounced in 2024, where the welfare improvement from
+
+joint investment more than doubles the gains realized from single-technology interventions.
+
+These results underscore the complementarity in returns on investment between driving range
+
+and charging infrastructure.
+
+  36For context, Shanghai possessed nearly 2,300 public fast charging stations by the end of 2024, significantly
+outnumbering the approximately 800 gasoline stations in the city.
+
+
+                                        35
+
+===== [PDF 第 38 页｜印刷第 36 页] =====
+6  Conclusion
+
+Although range anxiety consistently emerges as a key barrier to EV adoption in consumer
+
+surveys, industry reports, and policy discussions, there has been limited economic analysis
+
+quantifying its magnitude and evaluating the effectiveness of potential remedies. This study
+
+provides, to our knowledge, the first analysis to micro-found range anxiety, defined as the
+
+utility loss from unrealized yet feasible trips due to fear of battery depletion before reaching a
+
+charging station. We operationalize this concept by developing and estimating a continuous-
+
+time dynamic model of EV driving and charging behavior.
+
+   Leveraging high-frequency data from 8,000 EVs in Shanghai, we identify compelling evi-
+
+dence of range anxiety by documenting a robust pattern of “missing trips”, feasible but foregone
+
+trips when such trips will result in low remaining range after travel. This behavioral distortion
+
+is more pronounced in regions with sparse charging infrastructure from IV regressions. But
+
+such a pattern does not exist for PHEVs which have auxiliary gasoline engines, further allevi-
+
+ating the concerns for unobserved factors. Our structural analysis estimates the average range
+
+anxiety to be approximately $1,900 per vehicle in 2021 (about 10% of the average EV purchase
+
+price), declining to $1,200 (6% of the average price) by 2024. These aggregate figures, however,
+
+mask substantial heterogeneity across EV models with varying driving range. The observed
+
+37% reduction in average range anxiety over this period is primarily attributable to the rapid
+
+expansion of the charging network (from 400 to 2,268 stations) and, more significantly, to the
+
+concurrent improvement in average driving range from 353 km to 388 km.
+
+   Our simulations highlight the crucial roles of two approaches in addressing range anxiety:
+
+expanding driving range (through increased battery capacity) and enhancing charging access
+
+(through larger charging networks). Because each approach exhibits diminishing returns, the
+
+optimal policy requires coordinated investment in both charging infrastructure and battery
+
+capacity. The socially optimal levels of charging network size and driving range evolve as the
+
+costs of charging station construction and battery production decline over time. Our analysis
+
+indicates that the realized investment trajectory diverges significantly from the optimal path:
+
+by 2024, Shanghai has over-invested in charging infrastructure while under-investing in driving
+
+range relative to the social optimum.
+
+  We note two important caveats and directions for future research.  First, our data and
+
+analysis are restricted to travel within Shanghai, and thus our estimates of range anxiety
+
+likely represent a lower bound, as range anxiety may be more pronounced for long-distance
+
+trips. That said, long-distance driving is less common in China than in countries such as the
+
+U.S., partly due to China’s extensive high-speed rail system. Second, our empirical analysis
+
+
+                                        36
+
+===== [PDF 第 39 页｜印刷第 37 页] =====
+is based on data from Shanghai, and the quantitative findings should be interpreted in that
+
+context. As detailed EV usage and charging data become available elsewhere, our framework
+
+can be adapted to quantify range anxiety and its policy implications across different settings,
+
+where underlying preferences may vary. Another important direction for future research is to
+
+leverage granular data to examine the optimal spatial distribution of charging infrastructure
+
+while explicitly incorporating range anxiety in the model.
+
+
+
+
+
+                                        37
+
+===== [PDF 第 40 页｜印刷第 38 页] =====
+References
+
+Arkolakis, Costas, Kenneth T. Gillingham, and Seung-Yong Yoo, “Optimizing Electric Ve-
+   hicle Infrastructure,” AEA Papers and Proceedings, May 2025, 115, 563–67.
+Bailey, Megan R., David P. Brown, Blake C. Shaffer, and Frank A. Wolak, “Show Me the
+  Money! A Field Experiment on Electric Vehicle Charge Timing,” American Economic Journal:
+  Economic Policy, 2025, 17 (2), 259–284.
+Barwick, Panle Jia, Christopher Knittel, Shanjun Li, Youming Liu, James Stock, and
+  Binglin Wang, “Optimal Charging Infrastructure for Electric Vehicles,” Working Paper 2025.
+   , Hyuk-Soo Kwon, and Shanjun Li, “Attribute-based Subsidies and Market Power: an Appli-
+  cation to Electric Vehicles,” Working Paper 32264, National Bureau of Economic Research March
+  2024.
+   ,     ,     , and Nahim B Zahur, “Drive Down the Cost: Learning by Doing and Government
+   Policies in the Global EV Battery Industry,” Working Paper 33378, National Bureau of Economic
+  Research January 2025.
+Bernard, Louise, Andy Hackett, Robert Metcalfe, Luca Panzone, and Andrew Schein,
+  “The Impact of Dynamic Prices on Electric Vehicle Public Charging Demand: Evidence from a
+  Nationwide Natural Field Experiment,” Technical Report, Centre for Net Zero May 2025. Working
+  Paper.
+Bloomberg Intelligence, “Global Battery Electric Vehicle Outlook,” 2024.
+Burlig, Fiona, James Bushnell, David Rapson, and Catherine Wolfram, “Low Energy:
+  Estimating Electric Vehicle Electricity Use,” AEA Papers and Proceedings, May 2021, 111, 430–35.
+Bushnell, James B, Erich Muehlegger, and David S Rapson, “Energy Prices and Electric
+  Vehicle Adoption,” Journal of Political Economy Microeconomics, 2025.
+Cabral, Luis, Chiara Gardenghi, Deepak Hegde, and Junrui Lin, “Public and Private Inno-
+   vation: Complements or Substitutes?,” Columbia University Working Paper, 2025.
+Chokshi, Niraj, Matthew Goldstein, and Erin Woo, “Biden’s electric car plans hinge on having
+  enough chargers,” The New York Times, 2021. Accessed: 2025-07-12.
+Dorsey, Jackson, Ashley Langer, and Shaun McRae, “Fueling alternatives: Gas station choice
+  and the implications for electric charging,” American Economic Journal: Economic Policy, 2025,
+  17 (1), 362–400.
+Fang, Hanming, Ming Li, Long Wang, and Zoe Yang, “High-Speed Rail and China’s Electric
+  Vehicle Adoption Miracle,” Working Paper 33489, National Bureau of Economic Research February
+  2025.
+Gao, Hong, “In-depth Report on the Charging Pile Industry,” Tech. Rep., Nanjing Securities 2023.
+Garg, Teevrat, Ryan Hanna, Jeffrey Myers, Sebastian Tebbe, and David G. Victor, “Elec-
+   tric Vehicle Charging at the Workplace: Experimental Evidence on Incentives and Environmental
+  Nudges,” CESifo Working Paper 11445, CESifo, Munich 2024.
+Heid, Pascal, Kevin Remmy, and Mathias Reynaert, “Equilibrium Effects in Complementary
+  Markets: Electric Vehicle Adoption and Electricity Pricing,” TSE Working Paper, 2024.
+Jacqz, Irene and Sarah Johnston, “Electric Vehicle Subsidies and Urban Air Pollution Dispari-
+   ties,” Journal of the Association of Environmental and Resource Economists, 2024, 11 (S1).
+Kaps, Christian, Michael W. Toffel, and Ulrich Niklas, “Are We There Yet? Evaluating the
+  Transition to EVs,” Working Paper, Harvard Business School December 2025.
+
+
+
+                                        38
+
+===== [PDF 第 41 页｜印刷第 39 页] =====
+Klier, Thomas H. and James M. Rubenstein, “North America’s Rapidly Growing Electric Ve-
+   hicle Market: Implications for the Geography of Automotive Production,” Economic Perspectives,
+  December 2022, No. 5. Accessed: 2025-07-12.
+La Nauze, Andrea, Lana Friesen, Kai Li Lim, Flavio M. Menezes, Lionel Page, Thara
+  Philip, and Jake Whitehead, “Can Electric Vehicles Aid the Renewable Transition? Evidence
+  from a Field Experiment Incentivising Midday Charging,” CESifo Working Paper 11386, CESifo,
+  Munich 2024.
+Li, Jing, “Compatibility and investment in the us electric vehicle market,” Unpublished manuscript,
+  MIT, 2023.
+  and Katalin Springel, “Entry and Coordination in the U.S. Electric Vehicle Charging Industry,”
+  Tufts Working Paper, 2025.
+Li, Shanjun, Lang Tong, Jianwei Xing, and Yiyi Zhou, “The market for electric vehicles: indi-
+   rect network effects and policy design,” Journal of the Association of Environmental and Resource
+  Economists, 2017, 4 (1), 89–133.
+Liu, Yifan, Azell Francis, Catharina Hollauer, M. Cade Lawson, Omar Shaikh, Ashley
+  Cotsman, Khushi Bhardwaj, Aline Banboukian, Mimi Li, Anne Webb, and Omar Isaac
+  Asensio, “Reliability of electric vehicle charging infrastructure: A cross-lingual deep learning
+  approach,” Communications in Transportation Research, 2023, 3, 100095.
+Liu, Zikun, “Policy Design for Sustainable Innovation and Adoption: A Structural Analysis of the
+   Electric Vehicle Market,” 2025. Working Paper.
+Qin, Molin and Jonathan Scott, “The High Cost of Low Range: Estimating the Hidden Cost of
+  Range Anxiety in Electric Vehicles,” Journal of Industrial Economics, 2025. forthcoming.
+Rainieri, Giuseppe, Chiara Buizza, and Alberto Ghilardi, “The psychological, human factors
+  and socio-technical contribution: A systematic review towards range anxiety of battery electric
+   vehicles’ drivers,” Transportation Research Part F: Traffic Psychology and Behaviour, 2023, 99,
+  52–70.
+Rapson, David S. and Erich Muehlegger, “The economics of electric vehicles,” Review of Envi-
+  ronmental Economics and Policy, 2023, 17 (2), 274–294.
+Remmy, Kevin, “Adjustable Product Attributes, Indirect Network Effects, and Subsidy Design:
+  The Case of Electric Vehicles,” 2025. Working Paper.
+Ross, Sheldon M., Stochastic Processes, 2nd Edition, Wiley, 1995.
+Springel, Katalin, “It’s Not Easy Being “Green”: Lessons from Norway’s Experience with Incentives
+   for Electric Vehicle Infrastructure,” Review of Environmental Economics and Policy, 2021, 15 (2).
+    , “Network externality and subsidy structure in two-sided markets: Evidence from electric vehicle
+   incentives,” American Economic Journal: Economic Policy, 2021, 13 (4), 393–432.
+Sunada, Takeaki and Tianli Xia, “From Pumps to Plugs: Value of Time and Charging Policies,”
+  Working paper, 2025.
+Wang, Yucheng, “Who Receives Environmental Benefits from Driving Electric Vehicles?,” Unpub-
+   lished Manuscript, April 2024.
+Wardlaw, Christian, “What is Range Anxiety with Electric Vehicles?,” J.D. Power November 2020.
+  Accessed 2025-07-12.
+Zhou, Yiyi and Shanjun Li, “Technology Adoption and Critical Mass: The Case of the U.S.
+   Electric Vehicle Market,” The Journal of Industrial Economics, 2018, 66 (2), 423–480.
+
+
+
+
+                                        39
+
+===== [PDF 第 42 页｜印刷第 40 页] =====
+ Main Figures
+
+
+
+                   Figure 1: Numbers and Usage of Fast-Chargers
+
+
+
+
+
+           Charging Station Access (Log Scale) - 2021                                             Charging Station Access (Log Scale) - 2024
+
+
+
+
+                                                                                            3.0                                                                                                       3.0
+
+
+                                                                                            2.5                                                                                                       2.5
+
+
+                                                                                            2.0                                                                                                       2.0
+
+
+                                                                                            1.5                                                                                                       1.5
+
+
+                                                                                            1.0                                                                                                       1.0
+
+
+                                                                                            0.5                                                                                                       0.5
+
+
+
+
+           (a) Charging Access (2021)                            (b) Charging Access (2024)
+
+
+Notes: The top figure shows the number of fast charging chargers and their usage (number of charging
+events) in Shanghai. There are on average 15 chargers per station. Bottom Figures (a) and (b) report
+the log(charging access) of each location measured in 2021 and 2024. Charging access for location i is
+                                                                                 1
+defined as the sum of the inverse squared distance to fast charging stations i. (CAi = Pj         ).
+                                                                                               dist2ij
+
+
+
+
+
+                                      40
+
+===== [PDF 第 43 页｜印刷第 41 页] =====
+            Figure 2: Data Description of EV usage dataset: 2021 vs. 2024
+
+
+                            (a) Full range                                        (b) Trip count
+                                                                    409                                                                                               25                                        406                                                                                                              24                                                                 25                                                      374      378         400                                                                                                                            23       22   24                                   354                                                354                                                                                                                      21                                                                                                        21                                                                                          20                          331
+                                                                 20           (km)         300      281
+
+                                                                 15             range                                                                                                                                       trips
+           full  200                                                                                                                           Total  10
+           Mean  100                                                                  5
+                               2021         2024                                      2021         2024
+           0                                                      0
+                    Winter       Spring     Summer         Fall                     Winter       Spring     Summer         Fall
+
+                            (c) Trip distance                                     (d) Trip duration
+         500           465                                          20            19            18            18            19
+                                        438           428           441
+                                                                                                                      15            16           (km)  400                    372           365           387                  (hr)                         15
+                     338                                              15      14
+
+         300                     distance                                                                                                                                                                                                                       duration  10
+           trip  200                                                                                                   trip
+        Avg  100                                                                          Avg   5
+                               2021         2024                                      2021         2024
+           0                                                      0
+                    Winter       Spring     Summer         Fall                     Winter       Spring     Summer         Fall
+
+
+                                          (a) Trip-related events
+
+
+                        (e) # of fast charging                                        (f) # of slow charging
+                               1.5
+           1.5                                                     4
+                                                                 1.3                                             3.4
+                                                1.2
+                                                               1    1.1         3
+                                                                                                                                                    2.5
+          1                        .89              .89                                             2.4                     2.3
+                                                                                                                                           2
+                        .71                                               2                         1.7              1.8                     Sessions                                                                                                                                                                                                                       Sessions                                                                1.5
+             .5
+                                                                 1
+
+                              2021         2024                                      2021         2024
+          0                                                     0
+                   Winter       Spring     Summer         Fall                    Winter       Spring     Summer         Fall
+
+                       (g) Fast charging SOC                              (h) Slow charging SOC
+                                        44                                                                                          48   49       48   50
+                         40                          40            39         50                                   45   46       45   45
+         40      36            37
+                                                34            33                                                                 40
+        (%)  30                                                                            (%)  30
+        SOC  20                                                                            SOC  20
+
+         10                                                      10
+                              2021         2024                                       2021         2024
+          0                                                       0
+                   Winter       Spring     Summer         Fall                     Winter       Spring     Summer         Fall
+
+
+                                     (b) Charging-related events
+
+Notes: The dataset in each year includes four weekly cross-sections of 1100 randomly selected represen-
+tative EVs in Shanghai during a week in Jan (Winter), March (Spring), Aug (Summer), and Oct (Fall),
+respectively, for the years 2021 and 2024. The top panel reports vehicle range, weekly trip count, weekly
+distance, and weekly trip duration. The bottom panel reports the weekly fast charging and slow charging
+events, as well as SOC for fast charging and slow charging, respectively.
+
+                                      41
+
+===== [PDF 第 44 页｜印刷第 42 页] =====
+                  Figure 3: Number of Events by Remaining Battery
+
+
+
+
+
+  Notes: A driving event (or a non-charging trip) is defined by the start of the car to the shut-off of the
+  car when the distance traveled is above 100 meters. A charging event includes both fast charging at
+  stations, and home charging. For fast charging, the charging events include the travel to the charger,
+  charging at the station, and the immediate travel away from the charging station, provided the travel is
+  initiated within 30 minutes of the end of charging. Fraction of charging events show the ratio of charging
+  events over charging and driving events.
+
+
+
+
+       Figure 4: Charging Behavior as a Function of Charging Network and Price
+
+
+     .5                                            SOC<40%               .6                                            SOC<40%
+                                                SOC>40%                                                      SOC>40%
+Trip)  .4                                                                                                                                                                              Trip)  .4
+
+     .3
+Charging
+     .2Prob(                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Prob(Charging  .2
+     .1
+
+
+    0                                                                          0
+       0                  5                 10                 15                   1                     1.5                  2                     2.5
+                                   #Stations within 1km                                                                Price of the nearest station (￥/kwh)
+
+ (a) Charging probability vs. local charging access     (b) Charging probability vs. price at nearest station
+
+  Notes: these graphs examine how charging probability varies with local station access and price. Con-
+ sumers are more likely to charge in areas with a dense network (Panel (a)) and low prices (Panel (b)).
+  In both cases, the effect is stronger when the remaining battery (SOC) is below 40%.
+
+
+
+                                       42
+
+===== [PDF 第 45 页｜印刷第 43 页] =====
+   Figure 5: Charging behavior by remaining battery: with or without home chargers
+
+
+
+
+
+ Notes: This figure plots the distribution of charging events by the remaining percentage of battery at
+ the start of an event. The solid blue line shows home charging for users with home chargers, while the
+ dashed blue line indicates their fast charging behavior. The dashed red line represents users without home
+ chargers. Charging at very low battery levels is disproportionately concentrated among those without
+ home chargers, while users with home chargers tend to charge more frequently at higher remaining
+ battery levels.
+
+
+
+Figure 6: Range Anxiety: hourly hazard rate of trip initiation by remaining driving range
+
+
+
+
+
+ Notes: Each colored line corresponds to a trip with a certain distance: < 50 km, 50–100 km, 100–150
+ km, and 150–200 km. Hazard rates are computed as the number of trips initiated per hour from each
+ starting remaining range (x-axis), normalized by the hours vehicles stay in that state (until a trip arrives).
+ Shaded areas show 95% confidence intervals.
+
+
+                                      43
+
+===== [PDF 第 46 页｜印刷第 44 页] =====
+            Figure 7: Model Fit: Trip Hazard Rates and Charging Probabilities
+
+
+                            (a) Trip hazard rates by trip distance
+
+
+
+
+
+     (b) Charging decision by charging access   (c) Charging decision by charging price
+
+          1                                                1
+                                           d=1 (data)
+                                           d=4 (data)
+                                           d=1 (model)
+          0.8                               d=4 (model)            0.8
+
+
+          0.6                                                        0.6               charging                                                                                                                                          charging
+    of                                  of
+        prob 0.4                                                                 prob 0.4
+
+          0.2                                                        0.2
+
+
+          0                                                0
+           0      100     200     300     400     500          0      100     200     300     400     500
+                     remaining range in km                               remaining range in km
+
+Notes: This figure demonstrates model fit for trip hazard rates in Panel (a), and charging probabilities in
+Panels (b) and (c). Solid lines denote data patterns and dashed line denotes model predictions.
+
+
+
+
+
+                                        44
+
+===== [PDF 第 47 页｜印刷第 45 页] =====
+                     Figure 8: Estimated policy function h(b, d, p, h)
+
+              (a)πH=0, ¯R=500(r; d, p)                         (b) πH=0, ¯R(r)
+
+          0.9                                                        0.9
+
+          0.8                                                        0.8
+
+          0.7                                                        0.7
+
+          0.6                                                        0.6
+
+          0.5                                                        0.5               charging                                                                                                                                          charging
+    of 0.4                                of 0.4
+        prob 0.3                                                                 prob 0.3
+
+          0.2                                                        0.2
+
+          0.1                                                        0.1
+
+          0                                                0
+           0      100     200     300     400     500          0    100   200   300   400   500   600
+                     remaining range in km                               remaining range in km
+
+            (c) hH=1, ¯R=500(r; d, p, h = 0)              (d) hH=1, ¯R=500(r; d, p, h = 1)
+
+          0.9                                                        0.9
+                                                                                                                Off-peak price
+          0.8                                                        0.8                             Peak price
+          0.7                                                                     0.7
+          0.6
+                                                                     0.6
+          0.5               charging                                                                                                                                          charging                                                                     0.5
+    of 0.4                                of
+        prob 0.3                                                                 prob 0.4
+                                                                     0.3          0.2
+          0.1                                                        0.2
+
+          0                                                        0.1
+           0      100     200     300     400     500          0      100     200     300     400     500
+                     remaining range in km                               remaining range in km
+Notes: This figure presents the estimated policy functions h(b, r, p, h) governing charging decisions as a function
+of b (remaining battery range), d (charging access), p (charging price), and h (home charger nearby). Panel
+(a) shows the charging probability for consumers without home chargers as a function of remaining range
+under four scenarios defined by price and station access. Panel (b) shows charging probabilities for consumers
+without home chargers across the different battery capacities. Panels (c) and (d) display the probability of
+charging for consumers with home chargers. The probability of using fast charging is low (close to zero when
+range > 200km). Charging at home is frequent even when the remaining battery is relatively high and during
+off-peak hours.
+
+
+
+
+                                        45
+
+===== [PDF 第 48 页｜印刷第 46 页] =====
+             Figure 9: Decomposition of welfare gain: 2018 vs. 2021 vs. 2024
+
+                       104                  7
+                                  With home charger
+                  6                                   Without home charger
+                                Weighted avg.                  5
+
+                  4
+
+                  3
+
+                  2
+
+                  1
+
+                  0
+
+
+
+
+
+   Notes:  Bars show ∆WTP (lifetime WTP, 10, 000 Y) relative to 2018 (N=18, ¯R=18) as (N, ¯R) are
+   sequentially updated to 2021 and 2024:  at each x-tick, first raise ¯R holding N fixed, then raise N
+   holding ¯R fixed.  Colors: blue = with home charger; red = without; green = sample-weighted mean
+   (weights = observed home-charger shares at 67%).
+
+
+                  Figure 10: WTP for driving range and charging access
+
+        (a) ∆WTP without home chargers        (b) ∆WTP with home chargers
+
+                     Lifetime WTP as " 1,000 ￥                               Lifetime WTP as
+                                                             100
+             1.525   0   22  39  52  62  70  76  80                       1.525  0  18  31  39  45  50  53  56
+                                                            90                                                           50
+               1.85   6   28  45  57  67  74  80  84                                                            80                1.85  0  19  31  40  46  50  54  57
+             CA)                                                          CA)             2.175  12  33  50  62  71  78  83  88       70              2.175  1  19  31  40  46  51  54  57      40
+                                                            60                  (Avg.                                                                                  2.5  1  19  32  40  46  51  54  57                     (Avg.   2.5  17  39  54  66  75  82  87  91
+                                                                                                                      30
+                                                                                             Size                 Size                                                50                                                                          2.825  2  20  32  41  47  51  55  57             2.825  22  43  59  70  79  85  90  94
+                                                            40
+                                                                                                                      20
+               3.15  27  48  63  74  82  88  93  97       30                3.15  2  20  33  41  47  52  55  58                             Network                                                                                                                                       Network
+             3.475  31  52  67  77  85  91  96  99       20              3.475  3  21  33  42  48  52  55  58      10
+                                                            10                  3.8  3  21  33  42  48  52  56  58                 3.8  35  56  70  81  88  94  98  102
+                                                            0                                                            0
+              250 300 350 400 450 500 550 600                    250300350400450500550600
+                         Battery Full Range (km)                                      Battery Full Range (km)
+
+Notes: Figure (a) shows the estimated willingness to pay (WTP) for network size (or higher average charging
+access) and the full driving range, both expressed in terms of lifetime charging costs. The baseline in Panel (a)
+is 100% battery as the current level and the current charging access (CA) level. 2021 network has CA=2.08
+and 2024 network has CA=2.84. Panel (b) shows the surplus loss from (“narrowly defined”) range anxiety, i.e.,
+people forgo trips that are technically feasible, computed as the difference of the value function when trips are
+always taken, converted to lifetime WTP.
+
+
+                                        46
+
+===== [PDF 第 49 页｜印刷第 47 页] =====
+                      Figure 11: Range Anxiety by Driving Range
+                                  104
+                             5
+                                                           Worst charging access
+                                                             Best charging access
+                             4                      2021
+                                                       2024
+                                                 Mean level 2021
+                             3                   Mean level 2024
+
+
+                             2
+
+
+                             1
+
+
+                             0
+                                   200     300     400     500
+                                                     Full Range (km)
+Notes: Each panel plots monetized range anxiety (lifetime WTP, 104 Y) against the vehicle’s full range
+(km).  Circle size is proportional to the empirical frequency of the range level in that year’s EV sample.
+Filled squares show the weighted mean level for the year. The downward slope indicates that range anxiety
+declines with battery range; the downward shift from 2021 to 2024 reflects improvements in network size
+(from 400 to 2268 stations) and full driving range (from 353 to 388km).
+
+         Figure 12: Optimal levels of Driving Range and Charging Network Size
+
+                                                   ￥63                         w/ home c.
+                                                                                                w/out home c.
+                                                                                             weighted avg.                    2000
+                                                                                    Observed
+       $                                                               2018
+        N                                                               2021
+                                                                                   2024
+                                 size 1500
+
+                                                                          ￥81
+
+                                                                      ￥67                                                         network                                       ￥63
+                    1000
+
+                                  ￥36                ￥51                                                         Optimal
+                     500
+                                ￥27      ￥48
+
+                          ￥12      ￥23      ￥29            ￥41
+                      0
+                           300          350          400          450          500
+                                         Optimal battery full range 7R$
+Notes: Each series traces the optimal pair (¯R∗, N ∗)—battery capacity (km) on the x-axis and charging-
+network size index on the y-axis—for three cost environments (2018, 2021, 2024). Blue: consumers with
+home chargers; orange: without home chargers; green: sample-weighted average (weights are the observed
+home-charger shares). The dashed black line connects the observed (¯R, N) in the data. Markers indicate
+years: □2018, • 2021, ⋄2024. Currency labels next to the points report the model net surplus at the
+corresponding optimum (WTP minus cost, in 1,000 Y). Connecting lines illustrate how optimal technology
+and infrastructure choices shift as battery and station costs change over time.
+
+
+
+                                       47
+
+===== [PDF 第 50 页｜印刷第 48 页] =====
+  Main Tables
+
+
+
+
+
+                    Table 1: Empirical Evidence of Range Anxiety
+
+
+                                                                      (1)         (2)         (3)
+                                        PPML   PPML    IV-CF
+
+
+       1(Range after a trip < 50km)                           -0.840∗∗∗   -0.879∗∗∗   -0.898∗∗∗
+                                                                (0.0302)    (0.0361)    (0.0410)
+       1(Range after a trip ∈50–100km)                       -0.140∗∗∗   -0.150∗∗∗   -0.152∗∗∗
+                                                                (0.0175)    (0.0193)    (0.0204)
+       1(Range after a trip < 50km) × Charging Access                  0.0996∗∗∗   0.162∗∗∗
+                                                                            (0.0329)    (0.0453)
+       1(Range after a trip ∈50–100km) × Charging Access              0.0387∗∗   0.0716∗∗∗
+                                                                            (0.0190)    (0.0276)
+
+        Jiedao FE                                           Yes       Yes       Yes
+        Trip distance bin × Year FE                           Yes       Yes       Yes
+
+Notes: This table shows the PPML regression results from a Poisson model on the hazard rate of trips.
+The number of observations is 15,272 by jiedao (225) by year (2) by trip-bins (35). Jiedao is a sub-district
+administrative unit in Shanghai comparable to a census tract. The last column reports the results from the
+IV regression under PPML where the control function (CF) approach is implemented. The IV for charging
+access is constructed as the interaction between the number of points of interest (POIs) in the corresponding
+jiedao in 2018, and annual charging equipment costs, which drop over time. Standard errors are clustered at
+the jiedao level. Charging access is normalized, and one unit equals a standard deviation. The jiedao FEs,
+and the trip distance bin by year FEs are included.
+
+
+
+
+
+                                       48
+
+===== [PDF 第 51 页｜印刷第 49 页] =====
+               Table 2: Model Estimates: State Arrival & Transition
+
+                                  W/out H.C.      W/ H.C.
+
+                                      Estimate    SE    Estimate    SE
+
+   Trip Arrival (per day)
+  <50km                               2.8316    (0.0165)   2.7081    (0.0105)
+   50-100km                             1.2479    (0.0108)   1.0021    (0.0066)
+   100-150km                            0.2263    (0.0047)   0.1127    (0.0022)
+   150-200km                            0.0941    (0.0030)   0.0323    (0.0012)
+   200-250km                            0.0382    (0.0021)   0.0101    (0.0007)
+   250-300km                            0.0193    (0.0020)   0.0037    (0.0006)
+   300-350km                            0.0099    (0.0014)   0.0013    (0.0003)
+   350-400km                            0.0043    (0.0013)   0.0007    (0.0004)
+   400-450km                            0.0000    (4.1094)   0.0000    (2.3447)
+   Probability to a location (2021)
+   Pr(->CA ∈[0, 1])                     0.4181    (0.0033)   0.5037    (0.0024)
+   Pr(->CA ∈[1, 2])                     0.3277    (0.0032)   0.3130    (0.0023)
+   Pr(->CA ∈[2, 3])                     0.1443    (0.0024)   0.1213    (0.0016)
+   Pr(->Price ∈[0, 1.2])                  0.2498    (0.0031)   0.2617    (0.0022)
+   Pr(->Price ∈[1.2, 1.5])                0.1717    (0.0026)   0.2017    (0.0020)
+   Pr(->Price ∈[1.5, 2])                  0.2968    (0.0032)   0.2733    (0.0022)
+   Probability to a location (2024)
+   Pr(->CA ∈[0, 1])                     0.1719    (0.0024)   0.2256    (0.0019)
+   Pr(->CA ∈[1, 2])                     0.0984    (0.0019)   0.1741    (0.0017)
+   Pr(->CA ∈[2, 3])                     0.2555    (0.0028)   0.2770    (0.0020)
+   Pr(->Price ∈[0, 1.2])                  0.2887    (0.0029)   0.2754    (0.0020)
+   Pr(->Price ∈[1.2, 1.5])                0.1849    (0.0025)   0.2272    (0.0019)
+   Pr(->Price ∈[1.5, 2])                  0.2700    (0.0029)   0.2471    (0.0019)
+   Probability to home charger
+   Pr(->W/ Private Charger)                     -             -       0.1985    (0.0020)
+
+Notes: The sample includes 8,000 drivers with 214,000 sessions. The table reports estimated Poisson
+trip arrival rates and transition probabilities by types (with or without home chargers, under the 2021
+or 2024 network).
+
+
+
+
+
+                                      49
+
+===== [PDF 第 52 页｜印刷第 50 页] =====
+                  Table 3: Model Estimates: Structural Primitives
+
+                                                (1)                      (2)
+                               Main specification  Day vs. night + Amenity
+
+  Parameter                        Estimate    S.E.   Estimate       S.E.
+
+  Trip utility
+  α0 (baseline trip utility)              2.4794    0.0129    3.4473       0.0264
+  α1 (marginal utility per 50 km)       0.8492    0.0155    0.7842       0.0202
+  α2 (anxiety: 50–100 km remaining)   -0.7866   0.0206   -0.2254       0.0198
+  α3 (anxiety: 0–50 km remaining)     -1.9079   0.0372   -1.9304       0.0373
+  α4 (utility from amenity)       —   —      0.0729       0.0073
+
+ Charging cost: drivers w/out home chargers
+  β0 (base cost)                        -2.5790   0.0263   -4.0509       0.0267
+  β1 (sensitivity to charging access)     0.6942    0.0100    0.7194       0.0100
+  β2 (sensitivity to charging price)      -1.4823   0.0164   -1.4900       0.0167
+  β3 (sensitivity to amenity)      —   —      0.1353       0.0057
+
+ Charging cost: drivers w/ home chargers
+ when using fast charger:
+  βh0 (base cost)                        -4.4177   0.0257   -4.7738       0.0274
+  βh1 (sensitivity to charging access)     0.0641    0.0130    0.0510       0.0134
+  βh2 (sensitivity to charging price)      -0.7196   0.0162   -0.8154       0.0172
+ when using home charger:
+  βh3 (base cost)                        -0.2715   0.0184   -0.1650       0.0176
+  βh4 (sensitivity to charging access)     -0.0087   0.0116    0.0408       0.0114
+  βh5 (sensitivity to charging price)      -1.6274   0.0316   -1.5289       0.0307
+
+Notes: The number of observations is 8,000 drivers with 214,000 sessions. Table 3 reports the estimated
+structural parameters that govern the charging and driving choices: Consumers without home chargers:
+C(charging, s) = β0+β1(CA)+β2(price)+β3(amenity). Consumers with home chargers: C(charging, s) =
+1(not home) × (βh0 + βh1 (CA) + βh2 (price)) + 1(home) × (βh3 + βh4 (CA) + βh5 (price)). Utility from trips:
+ψ(trips, k, s) = α0 + α1(trip distance) + α21(bk ∈[50, 100]) + α31(bk ∈[0, 50]) + α4(amenity), where bk
+denotes remaining range after trip. The first specification is the main specification where the second is
+the alternative where the trip arrival rate is seperately estimated for daytime (8AM-8PM) and nighttime
+(8PM-8AM) as shown in Table A3.
+
+
+
+
+
+                                      50
+
+===== [PDF 第 53 页｜印刷第 51 页] =====
+                   Table 4: Optimal Range and Network Size by Year
+
+                    Cost level  Ropt¯  (km)  Nopt  Welfare WTP  Cost
+
+                    Panel A: w/ home c.
+                    2018          295      100     12.3     43.2   30.9
+                    2021          368      100     29.3     60.4   31.1
+                    2024          426      100     41.0     69.2   28.2
+
+                    Panel B: w/out home c.
+                    2018          328      806     35.8     86.6   50.8
+                    2021          417     1080    62.5    110.7   48.2
+                    2024          484     1335    80.8    122.3   41.6
+
+                    Panel C: weighted avg.
+                    2018          321      414     26.6     69.8   43.1
+                    2021          404      825     50.7     94.3   43.6
+                    2024          469     1158    67.3    106.1   38.8
+  Notes: Panel A is for EV drivers without access to home charging while Panel B is for those with. Panel
+ C shows the weighted average between the two groups. We use grid search to find the optimal bundle
+  {¯R ∈[250, 600], N ∈[100, 2500]}. Welfare, WTP, and Cost are reported in Y1,000. The WTP and cost
+  estimates are relative to an EV with a full range of 200km with charging access at the worst quartile.
+  Welfare= WTP-social cost.
+
+             Table 5: Complementarity of Battery (¯R) and Network Size (N)
+
+                  Scenario          ¯R (km)  N    Welfare WTP  Cost
+
+                Panel A: 2018 level of battery and station cost
+                A: (¯Ropt, N opt)    321    414     26.6     69.8   43.1
+                B: (¯Robs, N obs)    318    100     22.4     60.4   38.0
+                C: (¯Ropt, N obs)    327    100     22.5     63.3   40.7
+                D: (¯Robs, N opt)    318    414     26.6     68.9   42.2
+
+                Panel B: 2021 level of battery and station cost
+                A: (¯Ropt, N opt)    404    825     50.7     94.3   43.6
+                B: (¯Robs, N obs)    353    400     47.7     78.6   30.9
+                C: (¯Ropt, N obs)    411    400     49.7     91.2   41.5
+                D: (¯Robs, N opt)    353    884     49.1     84.0   34.9
+
+                Panel C: 2024 level of battery and station cost
+                A: (¯Ropt, N opt)    469    1158    67.3    106.1   38.8
+                B: (¯Robs, N obs)    388    2268    62.7     97.3   34.6
+                C: (¯Ropt, N obs)    461    2268    64.9    108.4   43.5
+                D: (¯Robs, N opt)    388    1315    64.7     94.4   29.7
+
+ Notes:  Each panel corresponds to cost levels in the indicated year.   ( ¯Ropt, N opt) denotes the welfare-
+maximizing pair, (¯Robs, N obs) fixes both at observed levels in each year, and mixed cases optimize only one
+dimension while holding the other fixed at observed. The WTP and cost estimates are relative to that of an
+EV with a full range of 200km but without access to fast charging stations. Welfare= WTP-social cost.
+
+
+
+                                        51
+
+===== [PDF 第 54 页｜印刷第 52 页] =====
+           Online Appendix
+
+
+A  Appendix A. Derivation of Bellman Equation (10)
+
+We begin by discretizing time into intervals of length ∆t. Within each interval, four events
+
+may occur:
+
+    1. Flow utility: The agent receives instantaneous flow utility u(s) ∆t from remaining in
+
+state s during the interval.
+    2. Travel transition: With probability qs,s′∆t, the state transitions to s′ ̸= s due to a travel
+event. Upon such a transition, the agent chooses between traveling (j = 1) and not traveling
+
+(j = 0), which yields the choice-specific values
+
+                        ψ(1, s, s′) + V (s′) + εt,1  or  V (s) + εt,0.
+
+
+    3. Charging opportunity: With probability λc∆t, a charging opportunity arises. The agent
+then chooses whether to charge (j = 1) or not (j = 0), yielding the values
+
+
+                        −c(1, s) + V (¯s) + εc,1  or  V (s) + εc,0.
+
+    4. No event: With the remaining probability 1 −Ps′ qs,s′∆t −λc∆t, no travel or charging
+event occurs, and the state remains s.
+
+   Because the model includes discounting at a rate ρ, each continuation value is divided by
+
+(1 + ρ∆t). Putting these components together gives:
+
+                                  qs,s′∆t                              n                             max      V (s) = u(s) ∆t + X                                             ψ(1, s, s′) + V (s′) + εt,1, V (s) + εt,0 o                          1 + ρ∆tE j∈{0,1}
+                                             s′
+                λc∆t      n                      o         +        max   −c(1, s) + V (¯s) + εc,1, V (s) + εc,0                1 + ρ∆tE j∈{0,1}
+                1 −Ps′ qs,s′∆t −λc∆t         +                 V (s).
+                      1 + ρ∆t
+
+   This recursion is a discrete-time approximation to the continuous-time Hamilton–Jacobi–Bellman
+
+(HJB) equation, which becomes exact as ∆t →0 following the two steps below:
+
+   Step 1. Simplifying the expectation terms With i.i.d. Type I extreme value shocks, the
+
+
+
+
+
+                                        52
+
+===== [PDF 第 55 页｜印刷第 53 页] =====
+expectation of the maximum is:
+
+                                !
+               E j∈{0,1}{vjmax  + εj} = σ ln X evj/σ + γσ,
+                                                                               j
+
+where γ is the Euler–Mascheroni constant. Normalizing σ = 1 gives:
+
+
+                                                                                                 (s′)        (s)        E max{ψ(1, s, s′) + V (s′), V (s)} = ln  eψ(1,s,s′)+V  + eV  + γ,
+
+         E max{−c(1, s) + V (¯s), V (s)} = ln e−c(1,s)+V (¯s) + eV (s) + γ.
+
+
+   Substituting the log-sum expressions into the recursion, we obtain
+
+                                          qs,s′∆t n                                                  ln eψ(1,s,s′)+V (s′) + eV (s) + γ o            V (s) = u(s) ∆t + X
+                                 1 + ρ∆t
+                                                          s′
+                      λc∆t                              (¯s)        (s)             +           ln e−c(1,s)+V  + eV  + γ
+                      1 + ρ∆t
+                         1                               h             +                              1 − X qs,s′∆t −λc∆ti V (s).
+                      1 + ρ∆t
+                                                                   s′
+
+   Notice that the last term comes from the probability of staying in the same state when
+
+neither a travel nor a charging event occurs. At this stage, every coefficient is scaled by ∆t
+
+and discounted by 1 + ρ∆t.
+
+   Step 2. Taking the ∆t →0 limit. To simplify, multiply both sides by (1 + ρ∆t):
+
+            (1 + ρ∆t)V (s) = u(s) ∆t + X qs,s′∆tn ln eψ(1,s,s′)+V (s′) + eV (s) + γ o
+                                                                    s′
+                       n                        (¯s)        (s)   o                + λc∆t  ln e−c(1,s)+V  + eV  + γ
+
+                            h                +                            1 − X qs,s′∆t −λc∆ti V (s).
+                                                               s′
+
+   Bring the last term on the right-hand side together with the left-hand side:
+
+                h(1 + ρ∆t)V (s) −                1 − X qs,s′∆t −λc∆ti V (s) = u(s) ∆t
+                                       s′
+                           + X qs,s′∆tn ln eψ(1,s,s′)+V (s′) + eV (s) + γ o
+                                                                                       s′
+                                    n                        (¯s)        (s)   o                           + λc∆t  ln e−c(1,s)+V  + eV  + γ   .
+
+
+
+
+                                        53
+
+===== [PDF 第 56 页｜印刷第 54 页] =====
+   Simplify the coefficient on V (s):
+
+           (1 + ρ∆t) −(1 − X qs,s′∆t −λc∆t) V (s) = (ρ + λc + X qs,s′)∆t V (s).
+                                                  s′                                                             s′
+
+   Dividing both sides by ∆t and taking the limit as ∆t →0, we obtain:
+
+          (ρ + λc + X qs,s′)V (s) = u(s) + X qs,s′ n ln eψ(1,s,s′)+V (s′) + eV (s) + γ o
+                                    s′                                     s′
+                          n                        (¯s)        (s)   o                    + λc  ln e−c(1,s)+V  + eV  + γ   .
+
+
+   Dividing both sides gives (note we assume u(s) = 0):
+
+                         n                     (s′)        (s)   o            Ps′ qs,s′  ln eψ(1,s,s′)+V  + eV  + γ
+                 V (s) =
+                                    ρ + λc + Ps′ qs,s′
+                      n                        (¯s)        (s)   o                                λc  ln e−c(1,s)+V  + eV  + γ
+                 +                                                    ,
+                                  ρ + λc + Ps′ qs,s′
+
+which matches Equation (10).
+
+
+
+
+
+                                        54
+
+===== [PDF 第 57 页｜印刷第 55 页] =====
+B  Appendix Figures
+
+
+                     Figure A1: Descriptions of the EV Trip dataset
+
+
+
+
+
+             (a) Fast Charging Locations                           (b) Slow Charging Locations
+
+
+
+
+
+            (c) Trip: Origin to Destination                     (d) Fast Stations (weighted by usage)
+
+  Note: Figures (a)-(c) are constructed based on the eight-week EV charging sample. Figure (a) plots
+  locations of the observed 8,524 fast charging; Figure (b) plots the locations of the 16,986 observed slow
+  charging; Figure (c) plots the connected lines of 188,707 trip origins to destinations (excluding trips
+  outside Shanghai for visualization). Figure (d) plots the fast charging station usages in 2024 from the
+  charging network dataset sourced from Shanghai Electric Technology Center, and it aligns well with
+  Figure (a), verifying the representativeness of the trip sample.
+
+                                        55
+
+===== [PDF 第 58 页｜印刷第 56 页] =====
+              Figure A2: Charging Prices (Y/kWh) Cross Locations by Time
+
+
+
+
+
+            (a) Charging Price (noon)                                 (b) Charging Price (10 pm)
+
+  Notes: The plots show the average charging price (Y/kWh) in fast charging stations across locations in
+  Shanghai around noon in Panel (a) and at 10pm in Panel (b) in our sample. Prices vary significantly
+  across location, and are much higher around noon than at 10pm.
+
+
+                     Figure A3: Electricity Prices by Month in 2024
+
+                    (a) January                               (b) March
+
+
+
+
+
+                       (c) July                                (d) October
+
+
+
+
+
+Notes: The plots depict hourly electricity prices (Y/kWh) in each of the four months in 2024 for home charging.
+
+
+
+
+                                        56
+
+===== [PDF 第 59 页｜印刷第 57 页] =====
+     Figure A4: Number of Events by Remaining Battery: by home charger ownership
+
+
+            (a) Without home chargers                       (b) With home chargers
+
+
+
+
+
+Notes: Each colored line corresponds to a trip with a certain distance: < 50 km, 50–100 km, 100–150 km, and
+150–200 km. Hazard rates by the y-axis are computed as the number of trips initiated per hour from each
+starting remaining range (x-axis), normalized by the hours vehicles stay in that state (until a trip arrives).
+Shaded areas show 95% confidence intervals. Each panel presents the results for a specific time frame. The
+overall pattern is consistent with that from pooling all the data together.
+
+
+
+
+              Figure A5: Placebo: No Missing Trips at Low SOC for PHEVs
+
+
+
+
+
+Notes: The data is based on the tracking data for 250 PHEVs in each of the 8 weeks as in the main sample
+for BEVs. Each colored line corresponds to a trip with a certain distance: < 50 km, 50–100 km, 100–150 km,
+and 150–200 km. Hazard rates by the y-axis are computed as the number of trips initiated per hour from each
+starting remaining range (x-axis), normalized by the hours vehicles stay in that state (until a trip arrives).
+Shaded areas show 95% confidence intervals. Each panel presents the results for a specific time frame. The
+overall pattern is consistent with that from pooling all the data together.
+
+
+
+                                        57
+
+===== [PDF 第 60 页｜印刷第 58 页] =====
+                        Figure A6: Unrealized Trips at Low SOC
+
+                    (a) Morning time only                (b) Weekend time only
+
+
+
+
+
+                      (c) Winter time only                 (d) Summer time only
+
+
+
+
+
+                          (e) 2021 only                             (f) 2024 only
+
+
+
+
+
+                 (g) Without home chargers             (h) With home chargers
+
+
+
+
+
+Notes: Each colored line corresponds to a trip with a certain distance: < 50 km, 50–100 km, 100–150 km, and
+150–200 km. Hazard rates by the y-axis are computed as the number of trips initiated per hour from each
+starting remaining range (x-axis), normalized by the hours vehicles stay in that state (until a trip arrives).
+Shaded areas show 95% confidence intervals. Each panel presents the results for a specific time frame. The
+overall pattern is consistent with that from pooling all the data together.
+
+
+
+
+
+                                        58
+
+===== [PDF 第 61 页｜印刷第 59 页] =====
+       Figure A7: Anticipation Charging: SOC Level at Day t −1 and Trip at day t
+
+
+             (a) Longest Trip Distance                  (b) Total Trip Distance
+
+
+
+
+
+Notes: This figure presents the average SOC at day t−1, conditional on the trips taken at day t with Panel (a)
+showing the longest trip distance and Panel (b) showing the total trip distance in four bins: [0,50), [50,100),
+[100,150), [150, ∞). The SOC level seems flat and does not exhibit a strong correlation.
+
+
+
+
+                     Figure A8: SOC Levels at Event Start and End
+
+
+             (a) SOC before Charging                  (b) SOC after Charging
+
+
+
+
+
+                (c) SOC before Trip                       (d) SOC after Trip
+
+
+
+
+
+Notes: Panels (a) to (d) plot the distribution of observed events (charging or driving) with the starting or
+ending SOC at a given level. There is no evidence of systematic bunching at the 20% or 80% thresholds,
+suggesting that drivers do not adhere to the “20–80” heuristic for battery preservation.
+
+
+
+                                        59
+
+===== [PDF 第 62 页｜印刷第 60 页] =====
+             Figure A9: Estimated Trip-taking Probability hH=0, ¯R=500(b, r, p)
+
+
+                (a) Trip Probability                      (b) Trip Probability
+
+
+                                                                                                                   0.9
+          50  0.95  0.90  0.82  0.78  0.82     0.95        50  0.17  0.16  0.15  0.16  0.23     0.8
+
+                                                                                                                   0.7
+         100        0.97  0.94  0.92  0.93              100        0.53  0.51  0.54  0.64                                                         0.9         (km)                                                             (km)                                             0.6
+
+         150              0.97  0.96  0.97              150              0.80  0.82  0.87     0.5           Range                                           0.85        Range                                                                                                                   0.4
+       To:                                              To:         200                    0.96  0.96              200                    0.86  0.90                                                                                                                   0.3
+                                                         0.8                                                                                                                   0.2
+         250                          0.95              250                          0.88
+                                               nan                                              nan
+              50   100  150  200  250                    50   100  150  200  250
+                 From: Range (km)                           From: Range (km)
+
+Notes: This figure presents the estimated policy functions governing charging and traveling decisions. Panels
+(a) and (b) display the probability of taking a trip with a starting range (x-axis) to an end range (y-axis).
+“Nan” denotes infeasible trips. Darker shades represent higher probabilities. Each heatmap cell corresponds
+to the probability of taking the trip that moves the car from a given initial range (x-axis) to a new remaining
+range (y-axis).
+
+
+
+
+
+                                        60
+
+===== [PDF 第 63 页｜印刷第 61 页] =====
+          Figure A10: WTP Decomposition for EV Purchased in Different Years
+
+                              (a) An average EV bought in 2018
+
+                                      104                                 7
+                                                   With home charger
+                                 6          Without home charger
+                                                 Weighted avg.
+                                 5
+
+                                 4
+
+                                 3
+
+                                 2
+
+                                 1
+
+                                 0
+
+
+                             (b) An average EV bought in 2021
+
+                                      104                                 7
+                                                   With home charger
+                                 6          Without home charger
+                                                 Weighted avg.
+                                 5
+
+                                 4
+
+                                 3
+
+                                 2
+
+                                 1
+
+                                 0
+
+
+                               (c) An average EV bought in 2024
+
+                                      104                                 7
+                                                   With home charger
+                                 6          Without home charger
+                                                 Weighted avg.
+                                 5
+
+                                 4
+
+                                 3
+
+                                 2
+
+                                 1
+
+                                 0
+
+
+
+Notes: The plots depict the WTP for the expansion of charging network (from 2018 to 2021 or 2024 levels)
+and the improvement in driving range (from 2018 to 2021 or 2024 levels) separately for drivers with access to
+home charging and those without.
+
+
+
+
+                                        61
+
+===== [PDF 第 64 页｜印刷第 62 页] =====
+              Figure A11: Range Anxiety by Access to Home Charging
+
+   (a) Range anxiety w/o home chargers       (b) Range anxiety with home chargers
+
+          104                                                      104
+       5                                                      5
+                                  2021                                                         2021
+                                  2024                                                         2024
+       4                       Mean level 2021                   4                       Mean level 2021
+                              Mean level 2024                                          Mean level 2024
+
+       3                                                      3
+
+
+       2                                                      2
+
+
+       1                                                      1
+
+
+       0                                                      0
+             200     300     400     500                           200     300     400     500
+                         Full Range (km)                                                   Full Range (km)
+
+Notes: Each panel plots monetized range anxiety (lifetime WTP, 104 Y) against the vehicle’s full range
+(km). Circle area is proportional to the empirical frequency of each full-range level in that year’s sample.
+Filled squares mark the weighted mean level for the year. Panel (a) evaluates consumers without home
+charging; panel (b) evaluates consumers with home charging. The downward slope indicates that range
+anxiety declines with battery range; the downward shift from 2021 to 2024 reflects improvements in
+network size and prices.
+
+
+
+
+    Figure A12: Relationship between Charging Access and the Number of Stations
+
+               (a) Average CA                       (b) Pr(CA = 1, 2, 3, 4)
+
+
+
+
+
+Notes: Charging access (CA) is an inverse–distance–squared index for each location i, CAi = Pj 1/dist2ij,
+where nearby stations receive more weight. Panel (a) plots the sample average of log(CA) as the total
+number of stations increases; the vertical dashed lines mark the observed station counts in 2021–2024.
+The concavity indicates diminishing marginal improvements in access as the network grows. Panel (b)
+shows how the cross-sectional distribution of access shifts with network size: stacked areas are the shares
+of locations falling in four CA bins ( < 1, 1−2, 2−3, >3 ).
+
+
+
+                                      62
+
+===== [PDF 第 65 页｜印刷第 63 页] =====
+  Figure A13: Policy Coordination between Driving Range and Network Size Investments
+
+    2,000                                         2,000
+                                                       Iso-value curve
+                                               Cost curve
+N 1,500                 N 1,500
+ size                                                                               size            ( ¯R, N                                                                                                                                                          ′ )
+    1,000                                         1,000
+                                    (¯R∗, N ∗)
+  Network  500                                                                                                                       Network  500                                                                                         ( ¯R′, N )
+              Current (¯R, N)
+       0                                         0
+        250   300   350   400   450   500          250   300   350   400   450   500
+                  Driving Range ¯R                             Driving Range ¯R
+
+    (a) Iso-value (solid) and cost (dashed) curves                   (b) Single-technology strategy
+
+Notes: The figure illustrates the role of policy coordination between investing in driving range R and investing
+in charging network size N. The solid curve is an iso-value (welfare) contour: combinations above the curve
+(light shading) deliver higher welfare. The dashed line is the budget line, representing relative prices that
+keep total cost constant along the line. Panel (a) shows the optimum at the tangency between the iso-value
+and cost curves (¯R∗, N ∗); the current configuration (¯R, N) lies below. Panel (b) depicts the single-investment
+trajectory from the current point: moving vertically to (¯R, N ′) improves only network size, while moving
+horizontally to (¯R′, N) improves only battery capacity, both along the same cost line. Because investment
+in ¯R and N exhibits diminishing marginal returns, coordinated investments that move (¯R, N) toward the
+tangency achieves larger welfare gains than strategies that adjust only ¯R or only N.
+
+
+
+
+
+                                        63
+
+===== [PDF 第 66 页｜印刷第 64 页] =====
+C  Appendix Tables
+
+
+                             Table A1: Dataset Overview
+
+
+ Year                               2021                             2024
+                      Winter  Spring  Summer    Fall   Winter  Spring  Summer    Fall
+
+ Driver info
+ # Drivers              1100    1100     1100    1100    1100    1100     1100    1100
+ Avg. range (km)        293     357      356     381     332     411      378     416
+ With home charger     75.1%   61.9%   62.8%   57.2%   67.0%   64.8%   66.7%   63.5%
+ Driving Trips per driver per week
+ Count                   20.9     20.3      20.5     20.9     23.4     21.6      21.7     21.7
+ Total distance (km)     376.4    388.5    381.8    405.6    477.2    447.1    447.6     514
+ Total duration (hour)    15.6     16.3      15.8     16.1     19.2     18.4      18.8      19
+ Chargings per driver per week
+ # Fast                    0.7       0.9       0.9       1.1      1.5       1.2       1.3       1.1
+ # Slow                   2.5       1.9       1.9       1.6      3.5       2.4       2.6       2.1
+ Fast Duration (hour)     2.3       1.6       1.7       1.9      2.1       1.8       1.8       1.7
+ Slow Duration (hour)    14.7     13       13.3     11.7     13.6     11       12.4     12.2
+ Fast Starting SOC       35      37       34      33      40      44       39      39
+ Slow Starting SOC       47      48       45      45      49      50       46      45
+
+Note: The dataset in each year includes four weekly cross-sections of 1100 randomly selected EVs from the
+EV stock in Shanghai during Jan 23-30 (Winter), March 20-27 (Spring), Aug 23-30 (Summer), and Oct 20-27
+(Fall).  In total, there are 188,707 driving trips, about 16,986 slow charging sessions, and about 8,524 fast
+                                                                Total distance driven
+charging sessions. Driving range is calculated based on the data:               × Battery Size.
+                                                               Total battery consumed
+
+
+                    Table A2: Empirical Evidence of Range Anxiety
+
+
+                                            (1)         (2)         (3)         (4)          (5)
+                                       Baseline    Peak    Weekend   Winter   Summer
+  1(Range after a trip < 50km)       -0.840∗∗∗   -1.158∗∗∗   -0.813∗∗∗   -0.783∗∗∗    -0.730∗∗∗
+                                       (0.0302)   (0.0625)   (0.0770)    (0.0552)    (0.0579)
+  1(Range after a trip ∈50–100km)   -0.140∗∗∗   -0.321∗∗∗   -0.178∗∗∗   -0.0852∗∗∗   -0.0746∗∗∗
+                                       (0.0175)   (0.0288)   (0.0400)    (0.0319)    (0.0287)
+
+   Jiedao FE                         Yes       Yes       Yes       Yes        Yes
+   Trip distance bin × Year FE         Yes       Yes       Yes       Yes        Yes
+
+Note:  This table shows the PPML regression results from a Poisson model on the hazard rate of trips.
+The number of observations is 15,272 by jiedao (225) by year (2) by trip-bins (35). Jiedao is a sub-district
+administrative unit in Shanghai comparable to a census tract. For Columns (2)-(5), we limit the sample to
+peak-hour trips (weekday 6-9 am and 4-7 pm), weekend trips, trips in the winter (January), and trips in the
+summer (August). The jiedao FEs, and the trip distance bin by year FEs are included.
+
+
+
+
+                                        64
+
+===== [PDF 第 67 页｜印刷第 65 页] =====
+               Table A3: Model Estimates: State Arrival & Transition
+
+                                 W/out Home Charging W/ Home Charging
+
+                                        Estimate     SE      Estimate    SE
+
+   Trip Arrival (per day): daytime
+  <50km                                 3.7267      (0.0487)     4.5121    (0.0808)
+   50-100km                               1.5608      (0.0237)     1.5808    (0.0298)
+   100-150km                              0.2438      (0.0068)     0.1546    (0.0045)
+   150-200km                              0.0958      (0.0040)     0.0368    (0.0019)
+   200-250km                              0.0334      (0.0023)     0.0099    (0.0009)
+   250-300km                              0.0155      (0.0018)     0.0034    (0.0006)
+   300-350km                              0.0093      (0.0017)     0.0017    (0.0006)
+   350-400km                              0.0032      (0.0013)     0.0010    (0.0006)
+   Trip Arrival (per day): nighttime
+  <50km                                 1.4052      (0.0316)     0.8933    (0.0179)
+   50-100km                               0.7494      (0.0193)     0.4199    (0.0095)
+   100-150km                              0.1983      (0.0079)     0.0706    (0.0027)
+   150-200km                              0.0916      (0.0051)     0.0280    (0.0016)
+   200-250km                              0.0459      (0.0035)     0.0103    (0.0010)
+   250-300km                              0.0251      (0.0029)     0.0041    (0.0007)
+   300-350km                              0.0107      (0.0023)     0.0009    (0.0004)
+   350-400km                              0.0058      (0.0022)     0.0003    (0.0004)
+  Peak Transition
+   Pr(OffPeak->Peak)                     0.3545      (0.0096)     0.2536    (0.0065)
+   Pr(Peak->OffPeak)                     0.2771      (0.0085)     0.4270    (0.0102)
+   Location Transition (2021)
+   Pr(->CA ∈[0, 1])                       0.4181      (0.0034)     0.5037    (0.0025)
+   Pr(->CA ∈[1, 2])                       0.3277      (0.0032)     0.3130    (0.0023)
+   Pr(->CA ∈[2, 3])                       0.1443      (0.0024)     0.1213    (0.0016)
+   Pr(->Price ∈[0, 1.2])                    0.2498      (0.0030)     0.1994    (0.0020)
+   Pr(->Price ∈[1.2, 1.5])                  0.1717      (0.0026)     0.1991    (0.0020)
+   Pr(->Price ∈[1.5, 2])                    0.2969      (0.0031)     0.3865    (0.0024)
+   Pr(->Amenity ∈[0, 1])                  0.2151      (0.0028)     0.2120    (0.0020)
+   Pr(->Amenity ∈[1, 2])                  0.2073      (0.0028)     0.2573    (0.0022)
+   Pr(->Amenity ∈[2, 3])                  0.2550      (0.0030)     0.2668    (0.0022)
+   Pr(->W/ Private Charger)              0.0000     (NaN)      0.1985    (0.0020)
+   Location Transition (2024)
+   Pr(->CA ∈[0, 1])                       0.1719      (0.0024)     0.2256    (0.0019)
+   Pr(->CA ∈[1, 2])                       0.0984      (0.0019)     0.1741    (0.0017)
+   Pr(->CA ∈[2, 3])                       0.2555      (0.0028)     0.2770    (0.0020)
+   Pr(->Price ∈[0, 1.2])                    0.2887      (0.0029)     0.2027    (0.0018)
+   Pr(->Price ∈[1.2, 1.5])                  0.1849      (0.0025)     0.2276    (0.0019)
+   Pr(->Price ∈[1.5, 2])                    0.2700      (0.0028)     0.3670    (0.0021)
+   Pr(->Amenity ∈[0, 1])                  0.2251      (0.0027)     0.2667    (0.0020)
+   Pr(->Amenity ∈[1, 2])                  0.2302      (0.0027)     0.2826    (0.0020)
+   Pr(->Amenity ∈[2, 3])                  0.2683      (0.0028)     0.2392    (0.0019)
+   Pr(->W/ Private Charger)              0.0000     (NaN)      0.2108    (0.0018)
+Notes: The sample includes 8,000 drivers with 214,000 sessions. The table reports estimated Poisson
+trip arrival rates and transition probabilities by types.
+                                      65
+
+===== [PDF 第 68 页｜印刷第 66 页] =====
+                  Table A4: Model Estimates: Robustness checks
+
+                                                     (1)                 (2)
+                                  25km Interval     Distance Types
+
+      Parameter                        Estimate   S.E.   Estimate   S.E.
+
+     Trip utility
+      α0 (baseline trip utility)              2.0218   0.0226   2.4916   0.0129
+      α1 (marginal utility per 50 km)       1.0585   0.0170   0.8164   0.0152
+      α2 (anxiety: 50–100 km remaining)                       -0.7953   0.0200
+      α3 (anxiety: 0–50 km remaining)                         -1.8197   0.0358
+      α2 (anxiety: 75–100 km remaining)   0.0604   0.0319
+      α3 (anxiety: 50–75 km remaining)    -0.4092   0.0405
+      α4 (anxiety: 25–50 km remaining)    -1.3303   0.0606
+      α5 (anxiety: 0–25 km remaining)     -2.8368   0.0957
+
+     Charging cost: drivers w/out home chargers
+      β0 (base cost)                        -2.8452   0.0294   -2.5157   0.0260
+      β1 (sensitivity to charging access)     0.6858   0.0106   0.6980   0.0100
+      β2 (sensitivity to charging price)      -1.5229   0.0181   -1.4498   0.0163
+
+     Charging cost: drivers w/ home chargers
+     when using fast charger:
+     βh0 (base cost)                        -4.3653   0.0273   -4.3371   0.0257
+     βh1 (sensitivity to charging access)     0.0480   0.0133   0.0648   0.0131
+     βh2 (sensitivity to charging price)      -0.6772   0.0172   -0.7378   0.0162
+     when using home charger:
+     βh3 (base cost)                        -0.6205   0.0181   -0.2449   0.0176
+     βh4 (sensitivity to charging access)     0.0414   0.0115   0.0000   0.0113
+     βh5 (sensitivity to charging price)      -1.4086   0.0312   -1.6095   0.0304
+
+Notes: The number of observations is 8,000 drivers with 214,000 sessions. Table reports the robustness
+checks on estimated structural parameters that govern the charging and driving choices: Consumers
+without home chargers: C(charging, s) = β0 + β1(CA) + β2(price) + β3(amenity). Consumers with home
+chargers: C(charging, s) = 1(not home) × (βh0 + βh1 (CA) + βh2 (price)) + 1(home) × (βh3 + βh4 (CA) +
+βh5 (price)). Utility from trips: ψ(trips, k, s) = α0 + α1(trip distance) + α21(bk ∈[50, 100]) + α31(bk ∈
+[0, 50]) + α4(amenity), where bk denotes remaining range after trip.  The first specification (25 Km
+interval) further splits the remaining range into 25 km instead of 50 km bins. The second specification
+(Distance types) adds more granular types based on the average daily trip distance above or below the
+median. The estimates are close to the main specification in Table 3.
+
+
+
+
+
+                                      66

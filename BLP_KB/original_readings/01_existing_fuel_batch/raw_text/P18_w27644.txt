@@ -1,0 +1,3640 @@
+
+
+===== [PAGE 1] =====
+
+NBER WORKING PAPER SERIES
+QUID PRO QUO, KNOWLEDGE SPILLOVER, 
+AND INDUSTRIAL QUALITY UPGRADING: 
+EVIDENCE FROM THE CHINESE AUTO INDUSTRY
+Jie Bai
+Panle Jia Barwick
+Shengmao Cao
+Shanjun Li
+Working Paper 27644
+http://www.nber.org/papers/w27644
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+August 2020, Revised November 2022
+We thank David Atkin, Lauren Bergquist, Loren Brandt, Meghan Busse, Davin Chor, Kerem 
+Cosa, Dave Donaldson, Jeffery Frankel, Asim Khwaja, Gabriel Kreindler, Gordon Hanson, James 
+Harrigan, Hanwei Huang, Wolfgang Keller, Robert Lawrence, Ernest Liu, Benjamin Olken, 
+Jessica Pan, Ivan Png, Yu Qin, Dani Rodrik, Meredith Startz, Heiwai Tang, Eric Verhoogen, 
+Shaoda Wang, Shangjin Wei, Tom Wollmann, Daniel Xu, and seminar and conference 
+participants at Baruch College, the Beijing International Trade and Investment Symposium, Bank 
+of Canada–Tsinghua PBCSF–University of Toronto Conference on the Chinese Economy, China 
+Economics Summer Institute, Columbia University, Georgetown University, George Washington 
+University, Harvard Kennedy School, IGC-Stanford conference on firms, trade and development, 
+Johns Hopkins University, Microsoft Economics, MIT, National University of Singapore, NBER 
+Chinese Economy Workshop, NBER Industrial Organization Workshop, NBER Development/
+BREAD (preconference), Stanford, trade seminar at Hong Kong Universities, University of 
+Alberta, University of Toronto, University of Virginia, University of Zurich, UPenn China 
+Seminar, US Census Bureau, World Bank Development Research Group, and Yale for helpful 
+comments. We thank Ann Xie and Minghuang Zhang for generous data support and Luming 
+Chen, Yikuan Ji, Yiding Ma, Binglin Wang, Yukun Wang and especially Youming Liu for 
+excellent research assistance. All errors are our own. The views expressed herein are those of the 
+authors and do not necessarily reflect the views of the National Bureau of Economic Research.
+NBER working papers are circulated for discussion and comment purposes. They have not been 
+peer-reviewed or been subject to the review by the NBER Board of Directors that accompanies 
+official NBER publications.
+© 2020 by Jie Bai, Panle Jia Barwick, Shengmao Cao, and Shanjun Li. All rights reserved. Short 
+sections of text, not to exceed two paragraphs, may be quoted without explicit permission 
+provided that full credit, including © notice, is given to the source.
+
+
+===== [PAGE 2] =====
+
+Quid Pro Quo, Knowledge Spillover, and Industrial Quality Upgrading: Evidence from the 
+Chinese Auto Industry
+Jie Bai, Panle Jia Barwick, Shengmao Cao, and Shanjun Li
+NBER Working Paper No. 27644
+August 2020, Revised November 2022
+JEL No. F23,O14,O25
+ABSTRACT
+This paper studies the impact of FDI via quid pro quo (technology for market access) in facilitating
+knowledge spillover and quality upgrades. Our context is the Chinese automobile industry, where
+foreign automakers are required to set up joint ventures (the quid) with domestic automakers in return
+for market access (the quo). Our identification strategy exploits a unique dataset of detailed vehicle
+quality measures and relies on within-product variation across quality dimensions. We show that affiliated
+domestic automakers tend to adopt the quality strengths of their joint venture partners, consistent with
+learning and knowledge spillover. We rule out alternative explanations, such as endogenous joint venture
+formation, geographic proximity, overlapping customer bases, brand image association, and patent
+transfers. Additional analysis shows that worker flows and supplier networks mediate knowledge spillover.
+Finally, using an equilibrium model for the auto industry, we show that knowledge spillover due to
+ownership affiliation, in additional to any industry-wide knowledge spillover, improved the quality
+of affiliated domestic models by 3.8-12.7% and raised their profits by 1.0-3.5% between 2007 and
+2014.
+Jie Bai
+Harvard Kennedy School
+79 JFK Street
+Cambridge, MA 02138
+and NBER
+jie_bai@hks.harvard.edu
+Panle Jia Barwick
+University of Wisconsin-Madison
+Department of Economics
+1180 Observatory Dr
+Madison, WI 53706
+and NBER
+panle.barwick@gmail.com
+Shengmao Cao
+Kellogg School of Management
+Northwestern University
+2211 Campus Drive
+Evanston, IL 60201
+United States
+shengmao.cao@kellogg.northwestern.edu
+Shanjun Li
+Cornell University
+405 Warren Hall
+Ithaca, NY 14853
+and NBER
+SL2448@cornell.edu
+
+
+===== [PAGE 3] =====
+
+Quid Pro Quo, Knowledge Spillover, and Industrial Quality Upgrades:
+Evidence from the Chinese Auto Industry
+Jie Bai
+Panle Jia Barwick
+Shengmao Cao
+Shanjun Li∗
+November 14, 2022
+Abstract
+This paper studies the impact of FDI via quid pro quo (technology for market access) in
+facilitating knowledge spillover and quality upgrades. Our context is the Chinese automobile
+industry, where foreign automakers are required to set up joint ventures (the quid) with
+domestic automakers in return for market access (the quo).
+Our identiﬁcation strategy
+exploits a unique dataset of detailed vehicle quality measures and relies on within-product
+variation across quality dimensions. We show that aﬃliated domestic automakers tend to
+adopt the quality strengths of their joint venture partners, consistent with learning and
+knowledge spillover. We rule out alternative explanations, such as endogenous joint venture
+formation, geographic proximity, overlapping customer bases, brand image association, and
+patent transfers. Additional analysis shows that worker ﬂows and supplier networks mediate
+knowledge spillover. Finally, using an equilibrium model for the auto industry, we show
+that knowledge spillover due to ownership aﬃliation, in additional to any industry-wide
+knowledge spillover, improved the quality of aﬃliated domestic models by 3.8-12.7% and
+raised their proﬁts by 1.0-3.5% between 2007 and 2014.
+Keywords: FDI, knowledge spillover, quality upgrade, joint venture
+JEL classiﬁcation: F23, O14, O25
+∗Contact: Bai: Harvard Kennedy School and NBER (email: jie bai@hks.harvard.edu); Barwick: Department
+of Economics, University of Wisconsin-Madison and NBER (email: pbarwick@wisc.edu); Cao: Department of
+Strategy, Kellogg School of Management (email: shengmao.cao@kellogg.northwestern.edu); Li: Dyson School of
+Applied Economics and Management, Cornell University and NBER (email: sl2448@cornell.edu).
+We thank
+David Atkin, Lauren Bergquist, Loren Brandt, Meghan Busse, Davin Chor, Kerem Cosa, Dave Donaldson,
+Jeﬀery Frankel, Asim Khwaja, Gabriel Kreindler, Gordon Hanson, James Harrigan, Hanwei Huang, Wolfgang
+Keller, Robert Lawrence, Ernest Liu, Benjamin Olken, Jessica Pan, Ivan Png, Yu Qin, Dani Rodrik, Meredith
+Startz, Heiwai Tang, Eric Verhoogen, Shaoda Wang, Shangjin Wei, Tom Wollmann, Daniel Xu, and seminar and
+conference participants at Baruch College, the Beijing International Trade and Investment Symposium, Bank of
+Canada–Tsinghua PBCSF–University of Toronto Conference on the Chinese Economy, China Economics Summer
+Institute, Columbia University, Georgetown University, George Washington University, Harvard Kennedy School,
+IGC-Stanford conference on ﬁrms, trade and development, Johns Hopkins University, Microsoft Economics, MIT,
+National University of Singapore, NBER Chinese Economy Workshop, NBER Industrial Organization Workshop,
+NBER Development/BREAD (preconference), Stanford, trade seminar at Hong Kong Universities, University of
+Alberta, University of Toronto, University of Virginia, University of Zurich, UPenn China Seminar, US Census
+Bureau, World Bank Development Research Group, and Yale for helpful comments. We thank Ann Xie and
+Minghuang Zhang for generous data support and Luming Chen, Yikuan Ji, Yiding Ma, Binglin Wang, Yukun
+Wang and especially Youming Liu for excellent research assistance. All errors are our own.
+
+
+===== [PAGE 4] =====
+
+1
+Introduction
+The past several decades have witnessed signiﬁcant liberalization among developing economies to for-
+eign trade and investment, as advocated by international organizations (UNCTAD, 2018; World Bank,
+2018).1 Nevertheless, for strategic reasons, emerging economies such as China, India, and Brazil con-
+tinue to impose considerable restrictions on foreign direct investment (FDI) in certain sectors. One
+such policy is quid pro quo (technology for market access), which requires multinational ﬁrms to form
+joint ventures (JVs) with domestic ﬁrms, often with a strict cap on the share of foreign equity, in return
+for access to the host country’s domestic market (Holmes, McGrattan, and Prescott, 2015).2 While
+the joint venture requirement more directly exposes ﬁrms in developing countries to foreign technol-
+ogy, multinational ﬁrms consider it a form of coerced technology transfer and a signiﬁcant barrier to
+investing in developing countries. Quid pro quo lies at the forefront of the U.S.–China trade tensions,
+and concern over this policy was a key stated justiﬁcation for the Trump administration’s decision to
+impose tariﬀs on $50 billion worth of Chinese imports in 2018.3
+Despite the policy relevance of quid pro quo and these recent controversies, little is known about
+its beneﬁts to the host country over a policy of unrestricted FDI.4 The famous ﬁasco of the GM-
+Toyota JV in the 1990s suggests learning need not materialize for hosting countries for reasons such
+as limited absorptive capacity and cultural diﬀerences. The vast literature on FDI has paid relatively
+scant attention to whether and how the form of FDI matters. In this paper, we attempt to ﬁll this
+knowledge gap by examining the eﬀectiveness of the joint venture requirement under quid pro quo in
+facilitating learnign and knowledge spillover from foreign to domestic ﬁrms. Unlike previous studies
+that mostly rely on ﬁrm-level total factor productivity (TFP) as the outcome variable, we exploit a
+rich set of product quality attributes that embody ﬁrms’ fundamental technological capabilities. These
+quality measures allow us to look inside the black box of TFP and provide concrete evidence of learning
+and knowledge spillover. In addition, a better understanding of industrial quality upgrades is valuable
+in itself and relevant for both academics and policy makers in developing countries (Verhoogen, 2020).
+1Restrictions on foreign investment and technology transfer were common in developing countries before the 1990s.
+Economic and trade liberalization in the 1980s and 1990s brought about a more laissez-faire attitude toward foreign
+investment and technology transfer, and many restrictions were removed during that period (Karabay, 2010).
+2China imposes a 50% foreign ownership cap in 38 “restricted access” industries. Vietnam has a 49% foreign ownership
+cap for all publicly listed companies. The Philippines has a 40% foreign ownership cap on telecommunication and utility
+companies. In India and Brazil, foreign ownership was restricted in numerous key industries until recently.
+3The Oﬃce of the U.S. Trade Representative (USTR) issued a report in 2018 on its investigation into China’s
+policies and practices related to technology transfer, intellectual property, and innovation. Forced technology transfer
+through foreign ownership restrictions is considered a key component of China’s technology transfer regime.
+Source:
+https://ustr.gov/sites/default/ﬁles/Section 301 FINAL.PDF.
+4While it seems natural that joint ventures should facilitate learning and knowledge spillover, eﬀective learning may
+not necessarily materialize. One example is New United Motor Manufacturing, Inc. (NUMMI), a joint venture between
+GM and Toyota between 1984 and 2010. GM executives attempted to spread the Toyota Production System to its other
+assembly plants in the US, but it proved largely unsuccessful after over two decades of joint ventures. A full story can be
+found in 561: NUMMI (2015) - This American Life.
+1
+
+
+===== [PAGE 5] =====
+
+Our context is the Chinese automobile industry, the largest in the world since 2009. Foreign au-
+tomakers are required to set up joint ventures (the quid) with domestic automakers to produce and
+sell cars in China (the quo). A ﬁxed cap of 50% is imposed on the foreign ownership share, and it is
+binding in all cases. There are 23 joint ventures (e.g., BMW–Brilliance), 12 domestic automakers that
+are aﬃliated with the joint ventures but have independent production (e.g., Brilliance Auto),5 and 7
+domestic automakers with no joint venture aﬃliation (e.g., BYD).
+The automobile industry is the paradigmatic industry for studying knowledge spillover and quality
+upgrades given the multitude of technological and quality features embodied in the ﬁnal products. Our
+primary dataset consists of rich quality measures along multiple dimensions of vehicle performance,
+including both malfunction rates and driver experience ratings, for nearly the universe of car models
+produced in China from 2001 to 2014.6 We map these granular quality data onto the entire ownership
+network to trace knowledge ﬂow patterns. To examine potential channels of knowledge ﬂow, we lever-
+age additional data sets on worker ﬂows among automakers, parts and components suppliers, patent
+transfers, and auto assembly plant locations. To our knowledge, this represents one of the most com-
+prehensive data of China’s automobile industry, spanning a period of unprecedented growth from its
+near-nascence to being the world’s largest auto market.
+We begin by documenting the quality catch-up among Chinese domestic automakers. Malfunction
+rates of car models produced by domestic automakers fell by more than 75% from 2001 to 2014, demon-
+strating impressive quality improvement. At the same time, the quality gap between domestic models
+and JV models produced in China narrowed greatly: while the malfunction rate of domestic models
+was 65% higher than that of JV models in 2001, by 2014, this gap had shrunk to 33%.
+While many factors may explain the overall quality upgrading of the industry, including industry-
+wide knowledge spillover from foreign automakers, we focus on the role of quid pro quo. The joint
+venture requirement creates a set of domestic automakers that are aﬃliated with foreign automakers
+through JVs. These domestic automakers are the primary beneﬁciaries of the policy, receiving direct
+exposure to foreign technology.7 Therefore, to isolate the direct learning beneﬁt as a result of ownership
+aﬃliation under quid pro quo, in addition to any industry-wide spillover due to the presence of the
+JVs, we examine whether aﬃliated domestics automakers (“followers”) learn more from their aﬃliated
+foreign automakers (“leaders”) than do nonaﬃliated domestic automakers.
+To identify learning and knowledge spillover, we leverage our rich multidimensional quality data
+5Brilliance Auto is the domestic partner of BMW and owns 50% equity in the joint venture BMW–Brilliance. The JV
+produces BMW models sold in China. At the same time, Brilliance Auto has its own independent production facilities
+and produces indigenous models under the Brilliance brand.
+6The data are sourced from J.D. Power, a leading marketing ﬁrm best known for its automobile quality rankings.
+These measures are widely regarded as industry-standard:
+https://www.vox.com/the-goods/2018/11/27/18105479/
+jd-power-car-commercials.
+7As a common practice under quid pro quo, foreign automakers oﬀer existing product lines and knowhow as equity,
+while domestic partners provide capital and manufacturing facilities when setting up a JV.
+2
+
+
+===== [PAGE 6] =====
+
+and examine whether aﬃliated domestic followers adopt JV leaders’ quality strengths in their indepen-
+dent production. An example helps illustrate our empirical strategy. BMW–Brilliance, a JV between
+the German automaker BMW and the domestic automaker Brilliance, produces BMW models that
+have strong engine performance.
+Toyota–FAW, a JV between the Japanese automaker Toyota and
+the domestic automaker First Auto Work, produces Toyota models that are fuel eﬃcient. We examine
+whether Brillaince produces indigenous models with better engine performance and FAW produces more
+fuel-eﬃcient models relative to indigenous models produced by other domestic automakers.
+Our analysis takes advantage of detailed quality measures along multiple dimensions and exploits
+within-model relative quality across dimensions.
+Speciﬁcally, the main speciﬁcation controls for the
+overall quality of each model in each period. This accounts for potential endogenous JV formation,
+whereby foreign and domestic automakers strategically choose each other as partners based on overall
+quality. In addition, it also controls for industry-wide technological progress in diﬀerent quality dimen-
+sions (e.g., fuel-saving technologies) and the quality strengths common across vehicle segments (e.g.,
+better safety features in the luxury segment).8 We ﬁnd that when a JV model scores one standard
+deviation higher on a quality dimension, the indigenous models of the aﬃliated domestic automaker
+in the same vehicle segment score 0.087 standard deviations higher on the same dimension than the
+models from other domestic automakers do.
+We address a series of alternative explanations.
+While our main speciﬁcation accounts for JV
+formation based on overall quality level, one may be concerned about endogenous JV formation based
+on relative strengths. For example, domestic automakers may seek foreign partners that are strong on
+certain quality dimensions to compensate for their own weaknesses or augment their advantages. To
+address this issue, we ﬁrst exploit an institutional feature by limiting our sample to JVs formed in the
+1980s and 1990s. At that time, China’s passenger vehicle market was in its infancy. Most domestic
+automakers had scant technological knowhow in passenger vehicle production. Therefore, it is unlikely
+that JV partners were matched based on quality strengths. Nevertheless, the pattern of shared quality
+persists for this subsample. To further examine any initial selection in JV formation, we focus on JVs
+formed after 2000, for which we observe the quality performance of the leader and follower models from
+the very beginning of the partnership formation. If anything, aﬃliated partners tend to exhibit negative
+association in relative quality strength when the JV was formed, and only become similar over time.
+This pattern further supports the learning and knowledge spillover interpretation: it takes time for
+aﬃliated domestic automakers to learn from their foreign partners. Hence, similarity in relative quality
+strength only emerges over time.
+Next, we consider the role of geographic proximity. To the extent that production facilities of JVs
+8Following the standard classiﬁcation system, we group models into eight segments: mini sedan, small sedan, compact
+sedan, medium sedan, large sedan, small-medium sport utility vehicle (SUV), large SUV, and multipurpose vehicle (MPV).
+Quality is measured in diﬀerent dimensions such as the engine, transmission, and interior, as discussed in Section 2.2.
+3
+
+
+===== [PAGE 7] =====
+
+and their aﬃliated domestic ﬁrms are sometimes located in the same region, the patterns of knowl-
+edge spillover could be partly driven by geographic proximity rather than ownership aﬃliation per
+se.
+Exploring the partial overlap between the ownership and geographical networks, we show that
+while spillover between aﬃliated pairs produced in the same province is the strongest, there remains
+substantial knowledge spillover from JVs to aﬃliated domestic ﬁrms located in diﬀerent provinces.
+We also consider potential demand-side confounding factors. One is that aﬃliated partners might
+target the same set of consumers and hence design similar products. However, analyses using household
+vehicle ownership surveys indicate that most car buyers do not consider models from JVs and aﬃli-
+ated domestic partners to be close substitutes. Yet another potential demand-side explanation for the
+shared relative strength is brand image association: if consumers perceive aﬃliated partners as sharing
+similar quality strength, such perception may then induce domestic ﬁrms to strategically specialize in
+certain quality dimension to exploit the positive association. To examine this, we leverage an additional
+consumer survey to gauge consumers’ awareness of ownership aﬃliation and examine whether stronger
+awareness of a JV partnership leads to greater similarity in relative quality strength. The ﬁndings reveal
+imperfect knowledge about ownership aﬃliation and alleviate the concern that strategic investment due
+to brand image association drives the knowledge spillover patterns among aﬃliated partners.
+Lastly, we show that the observed patterns of shared quality strength are not driven by explicit
+market transactions such as patent transfers: only 27 out of over 10,000 patent transfers in China’s
+auto industry originated from a JV. The ﬁndings are consistent with Holmes, McGrattan, and Prescott
+(2015) which shows that the JVs themselves ﬁle a small number of patent applications in China.
+All together, the reduced form results are indicative of learning and knowledge spillover from JVs
+to their aﬃliated automakers. Next, we examine two potential mechanisms for this spillover—worker
+ﬂows and supplier networks—both of which are documented in the literature. As carriers of technology
+knowhow, workers move across automakers and serve as a conduit of knowledge ﬂow.9 We construct
+worker ﬂows between each JV–domestic automaker pair using data from LinkedIn (China). We ﬁnd
+signiﬁcantly higher rates of worker ﬂows between aﬃliated pairs than nonaﬃliated pairs. Flows from
+JVs to aﬃliated domestic automakers, rather than the reverse, are associated with knowledge spillover.
+In addition, the strength of the spillover increases with the share of high-tech workers (engineers and
+designers) in these ﬂows. The estimates imply that the additional worker ﬂows that domestic automakers
+receive from aﬃliated JVs can explain up to 54% of knowledge spillover from ownership aﬃliation.
+We next investigate the role of parts suppliers, motivated by the observation that high-quality
+parts and components directly aﬀect the performance of the downstream vehicles. JVs’ high quality
+9Studies that document the role of worker ﬂows in transmitting knowledge between ﬁrms include Castillo et al. (2020);
+Stoyanov and Zubanov (2012a); Maliranta, Mohnen, and Rouvinen (2009); Boschma, Eriksson, and Lindgren (2009); Møen
+(2005), and works documenting this mechanism between foreign multinationals and domestic ﬁrms include Balsvik (2011);
+G¨org and Strobl (2005); Poole (2013); Fosfuri, Motta, and Rønde (2001).
+4
+
+
+===== [PAGE 8] =====
+
+standards could enhance the performance of domestic parts suppliers. If aﬃliated domestic automakers
+source from the same set of parts suppliers that serve JVs, they could directly beneﬁt from the “shared
+supplier spillover” (Kee, 2015).10 Using supplier network data from MarkLines, we calculate the number
+of common part suppliers shared by JV–domestic model pairs. JVs and aﬃliated domestic ﬁrms have
+greater supplier overlap than nonaﬃliated ﬁrm pairs, which can explain up to 65% of knowledge spillover
+from ownership aﬃliation.
+Finally, we turn to quantify the impact of quid pro quo on domestic quality upgrades and ﬁrm proﬁt.
+Based on the estimates discussed above, the additional learning beneﬁts due to ownership aﬃliation
+under quid pro quo improved the quality of domestic aﬃliated models by 3.8-12.7% from 2007 and 2014.11
+To translate the quality changes into sales and proﬁts, we estimate a structural model of automobile
+market equilibrium to recover consumers’ willingness to pay for quality. The improved quality as a
+result of quid-pro-quo-induced knowledge spillover translates to 0.9%-3.9% more sales and 1.02-3.49%
+higher proﬁts for aﬃliated domestic models between 2007 and 2014. Overall, we ﬁnd that while quid pro
+quo facilitates quality upgrading in addition to industry-wide knowledge spillover, its overall impacts on
+domestic quality, sales and proﬁts are modest. In light of the trade dispute between China and the U.S.,
+these ﬁndings suggest that China’s recent policy change to remove the joint ownership requirement may
+not signiﬁcantly hinder quality upgrades and sales performance of Chinese domestic automakers.
+We acknowledge several caveats and highlight potential directions for future research. First, our
+study focuses on the beneﬁts of quid pro quo for domestic ﬁrms but does not speak about the costs to
+foreign ﬁrms in terms of either the proﬁt split or potential IP infringement risks. Understanding the
+former takes us one step closer to evaluating the full costs and beneﬁts of the industrial policy and
+speaks to the current policy debate. Second, our analysis focuses on spillover to domestic automakers
+conditioning on the existing set of products and technologies introduced by foreign automakers. Future
+work is needed to examine foreign ﬁrms’ incentives to introduce products and technology and more gen-
+erally ﬁrms’ incentives to organize global supply chains in light of the global knowledge spillover.(Antr`as
+and Chor, 2013; Buera and Oberﬁeld, 2016; Bilir and Morales, 2016).
+Our work contributes to several strands of the existing literature. First, it speaks to the extensive
+empirical literature on FDI spillover.
+We refer interested readers to Harrison and Rodr´ıguez-Clare
+(2009) for an excellent review. We highlight three key contributions to this literature. First, we focus
+on whether and how the form of FDI matters, beyond its mere presence. Second, methodologically, we
+propose a new identiﬁcation strategy that exploits rich within-product quality measures to control for
+10A large body of work documents the positive impact of trade and FDI on the development of the local intermediate
+inputs market and spillover via backward linkages (e.g., Javorcik (2004); Blalock and Gertler (2008); Javorcik and Spatare-
+anu (2008); Havranek and Irsova (2011); Gorodnichenko, Svejnar, and Terrell (2014); Kee (2015); Eslava, Fieler, and Xu
+(2015); Kee and Tang (2016)).
+11We choose 2007 as the baseline year since all of the major JVs had been formed by then. This allows us to focus on
+knowledge spillover conditioning on the set of existing market participants.
+5
+
+
+===== [PAGE 9] =====
+
+industry-wide and ﬁrm-level potential confounders.12 Lastly, we look beyond TFP and study the impact
+on quality upgrading using product-level quality attributes that embed ﬁrms’ technological capability.13
+Second, our paper relates to the growing body of work in trade and development that aims to
+elucidate the importance of technological innovation and quality upgrades for economic growth (see
+Verhoogen (2020) for an excellent review). The existing literature focuses mostly on indirect measures
+of technology and quality improvement, such as market shares and prices (Khandelwal, 2010), as quality
+is rarely observed in standard ﬁrm surveys. Our study adds to a nascent literature leveraging detailed
+quality measures for speciﬁc industries (e.g., Atkin, Khandelwal, and Osman (2017); Medina (2017);
+Macchiavello and Miquel-Florensa (2019); Hansman et al. (2020); Bai et al. (2020)) to identify knowledge
+spillover and examine the impact of FDI on domestic quality upgrades in developing countries.
+Third, our study speaks to an emerging literature on the impacts of government-initiated technology
+transfers (Giorcelli, 2019; Giorcelli and Li, 2021) and industrial policies (Kalouptsidi, 2017; Wollmann,
+2018; Igami and Uetake, 2019; Chen et al., 2019; Barwick, Kalouptsidi, and Zahur, 2019; Lane, 2022)
+on ﬁrm behavior, innovation, and growth.
+Our analysis allows us to examine the role of China’s
+longstanding but controversial quid pro quo policy in an important industry (Holmes, McGrattan, and
+Prescott, 2015; Howell, 2018).
+The remainder of the paper is organized as follows. Section 2 discusses the industrial background
+and data. Section 3 illustrates the empirical strategy. Section 4 presents the main empirical results and
+robustness checks. Section 5 investigates the mechanisms. Section 6 discusses policy implications and
+performs a quantiﬁcation exercise. Section 7 concludes.
+2
+Background and Data
+2.1
+The Chinese Auto Industry and Quid Pro Quo
+When China launched its reform and opening policy in 1978, the country was an economic and tech-
+nological backwater. China’s automobile manufacturing was low tech, with limited capacity. It had
+virtually no production of passenger vehicles.14 To develop its domestic automobile sector, the Chinese
+government allowed international automakers to enter the market but required them to partner with
+12Existing work has relied mostly on cross-industry variation in the presence or intensity of FDI to identify the impact
+on the host country (e.g., Haddad and Harrison (1993); Aitken and Harrison (1999); Javorcik (2004); Keller and Yeaple
+(2009)). However, entry of foreign ﬁrms could be driven by unobserved industry-level shocks, such as changing demand
+conditions and government policies, which may directly aﬀect the performance of domestic ﬁrms in the same industry.
+More recent work has tried to deal with this challenge by leveraging external shocks (e.g., through tariﬀreforms as in
+McCaig, Pavcnik, and Wong (2020) and foreign entry induced by the shocks.
+13Most existing studies focus on TFP improvement as the key outcome variable (e.g., Haskel, Pereira, and Slaughter
+(2007); Keller and Yeaple (2009); Abebe, McMillan, and Seraﬁnelli (2018)), which reﬂects both the positive spillover eﬀect
+and the negative competition eﬀect (Kosova, 2010; Lu, Tao, and Zhu, 2017; Fons-Rosen et al., 2017; Jiang et al., 2018).
+14The industry’s total production was only 146,000 units of heavy trucks and 2,600 units of passenger vehicles in 1978.
+6
+
+
+===== [PAGE 10] =====
+
+domestic ﬁrms to set up production facilities. In forming JVs, foreign automakers oﬀer knowhow and
+product lines as equity, which is capped at 50%, while domestic partners provide manufacturing facil-
+ities and labor.15 There are two key rationales for the policy. The ﬁrst is to protect young and small
+domestic producers in nascent industries. The second is to allow domestic ﬁrms to learn from their
+foreign partners and enhance domestic technical capabilities.
+The ﬁrst joint venture for automobile manufacturing was set up in 1983 between American Motors
+Corporation (AMC, later acquired by Chrysler Corporation) and Beijing Jeep Corporation Ltd. (now
+Beijing Automotive Industry Corporation [BAIC]). In 1984, Volkswagen joined Shanghai Tractor Cor-
+poration (now Shanghai Automotive Industry Corporation [SAIC]) to form a second JV in the country.
+In the early years, foreign automakers used joint ventures as a strategy to avoid the high tariﬀof around
+250% at that time. The majority of manufacturing activities consisted of “knockdown kit” assembly
+and relied almost exclusively on imported parts. As a result, technology transfer was limited.
+Prior to 2000, most aﬃliated domestic automakers relied on JVs for the production of passenger
+vehicles.16 There were few indigenous brands in the country prior to 2000, as shown in Figure E.1. In
+2004, the central government announced an explicit goal of developing domestic automotive technology
+and promoting indigenous brands by supporting the establishment of R&D facilities with tax incentives.
+The 2009 Automotive Adjustment and Revitalization Plan encouraged mergers and the reorganization
+of automobile ﬁrms and called for the creation of new indigenous brands for both domestic sale and
+export. Under these government policies, aﬃliated domestic automakers started to launch their own
+passenger vehicle brands. For example, SAIC launched Roewe, and FAW launched its ﬁrst indigenous
+brand, Besturn, both in 2006. Dongfeng built its own assembly plants in 2007 and introduced its ﬁrst
+indigenous model in 2009. By 2014, aﬃliated domestic automakers had caught up with nonaﬃliated
+domestic automakers in product oﬀerings.
+Figure 1 presents a snapshot of the ownership network of the Chinese auto industry in 2014. Many
+international automakers formed multiple joint ventures with diﬀerent domestic partners and vice versa.
+For example, in addition to VW–SAIC, Volkswagen partnered with First Automobile Works Group
+(FAW) to form VW–FAW in 1991. Likewise, a single domestic ﬁrm might have multiple foreign partners.
+In total, there are seven large aﬃliated groups, as shown by the dotted blocks in Figure 1. To avoid
+complications related to intellectual property rights, foreign automakers transfer the production line
+of a given brand exclusively to one domestic partner. For example, VW–SAIC produces Passat and
+15In 1978, China’s First Ministry of Machinery, in charge of automobile production, invited major international au-
+tomakers to visit China and negotiated terms of technology transfer with the goal of developing the domestic auto in-
+dustry. GM was the ﬁrst to send a delegation to China, in October 1978, and met with the Vice Premier Li Lanqing.
+During the meeting, GM CEO Thomas Murphy put forward the idea of a joint venture, which was a foreign concept to
+his Chinese hosts. The proposal to use joint ventures to incentivize foreign automakers to provide technology was quickly
+reported to the pragmatic leader Deng Xiaoping, who supported the idea. It then became a longstanding policy. Source:
+https://media.gm.com/media/cn/zh/gm/news.detail.html/content/Pages/news/cn/zh/2011/Aug/0802.html.
+16Most nonaﬃliated domestic automakers did not start production till after 2000.
+7
+
+
+===== [PAGE 11] =====
+
+Tiguan cars, while VW–FAW sells Audi and Jetta brands. There is no product-line overlap between
+any pair of JVs. All aﬃliated domestic automakers during our sample period are SOEs. Nonaﬃliated
+domestic automakers (those without foreign partners) include both SOEs and private ﬁrms.
+The industry witnessed unprecedented growth after China entered the WTO in 2001. Sales of new
+passenger vehicles increased from 0.85 million units in 2001 to 24.7 million units in 2017, with China
+surpassing the US in 2009 to become the world’s largest car market.17 In 2017, China alone accounted
+for more than 33% of global auto production and sales. The industry was highly competitive, with 48
+ﬁrms producing more than 10,000 units in 2014. The number of JVs also increased steadily (Figure
+E.2): by 2007, most major international automakers had launched JVs in China. Table E.1 lists the
+JVs and their sales and market shares in 2014. While JVs dominated the industry, the sales of domestic
+ﬁrms had also grown over the past decade (Figure E.3). This is especially true in the SUV segment,
+where the market share of domestic ﬁrms grew from 27% to 36% between 2009 and 2014.
+Under WTO rules, explicit technology transfer requirements for market access are not permitted.
+Hence, quid pro quo in China has mostly been carried out implicitly via ownership restrictions on
+joint ventures to facilitate technology transfer from foreign ﬁrms. As part of China’s broad industrial
+policy, it is considered by some countries to create unfair advantages for domestic companies. Because
+of the emphasis on technology transfer, this policy has been criticized as a state-sponsored eﬀort to
+systematically pry technology from foreign companies. According to the 2018 China Business Climate
+Survey Report conducted by the American Chamber of Commerce, 21% of 434 companies surveyed in
+China faced pressure to transfer technology. Such pressure was most often felt in strategically important
+industries such as aerospace (44%) and chemicals (41%).18
+Amid recent trade tensions with the U.S., the Chinese government pledged to further open its
+automobile market by lifting the foreign ownership cap by 2022, representing a major shift away from
+the quid pro quo policy after around four decades. This will eﬀectively allow foreign automakers to
+have solely owned production facilities in China. Following the pledge, BMW and its domestic partner
+Brilliance reached an agreement whereby BMW would pay Brilliance $4.1 billion to increase BMW’s
+ownership share in the joint venture from 50% to 75% by 2022. Some have speculated that this could
+impact not only the Chinese market but also the global industry. Understanding the role played by
+ownership aﬃliation is a crucial step toward understanding the implications of removing quid pro quo.
+2.2
+Data
+Our empirical analysis beneﬁts from a multitude of datasets on the Chinese auto industry. We describe
+each of them in detail below.
+17Passenger vehicles include sedans, SUVs, and MPVs. Minivans and pickup trucks are considered commercial vehicles.
+18Source: http://www.iberchina.org/files/2017/amcham_survey_2017.pdf.
+8
+
+
+===== [PAGE 12] =====
+
+Vehicle quality measures Quality measures come from the annual Initial Quality Study (IQS) and
+Automotive Performance, Execution and Layout Study (APEAL) that are conducted by J.D. Power
+between 2001 and 2014.19 Between April and June each year, J.D. Power recruits subjects who have
+purchased a vehicle in the past year in over 50 cities in China and surveys their user experience dur-
+ing the ﬁrst six months of vehicle ownership. The survey covers the major passenger vehicle models
+in China, which account for over 90% of the market share in terms of sales.
+The total number of
+survey respondents for 2014 is 18,884 and around 110 car owners per model. The IQS study reports
+the number of problems experienced per 100 vehicles during the ﬁrst 90 days of ownership. The sur-
+vey asks more than 200 questions, covering a complete spectrum of vehicle functionalities, which fall
+under nine quality dimensions: exterior problems, driving experience, feature/control/displays, au-
+dio/entertainment/navigation, seat problems, heating/ventilation/air conditioning (HVAC) problems,
+interior problems, and engine and transmission problems.20 Industry experts believe that initial quality
+is an excellent predictor of long-term reliability, which has a signiﬁcant impact on owner satisfaction
+and brand reputation. The APEAL study elicits user satisfaction ratings over 100 vehicle quality at-
+tributes, which are grouped into ten performance dimensions: interior, exterior, storage and space,
+audio/entertainment/navigation, seats, heating/ventilation/air conditioning, driving dynamics, engine/
+transmission, visibility and driving safety, and fuel economy.21
+Figure 2 presents the relationship between vehicle prices and the two quality measures. Panel A plots
+prices against the IQS, with the left ﬁgure controlling for vehicle size and horsepower/weight (a proxy
+for acceleration) and the right ﬁgure further controlling for year, segment, and ownership type ﬁxed
+eﬀects. Panel B shows the relationship between prices and the APEAL with the same controls. The
+tight correlations between price and the IQS/APEAL indicators provide strong evidence that these are
+credible measures of vehicle quality, with high-quality models consistently commanding high prices.22
+Worker ﬂow To examine worker mobility, we collect data on the employment history for all past and
+current employees in the Chinese auto industry who are registered on LinkedIn (China). The data
+contain 52,898 LinkedIn users who have worked in 60 JVs and domestic ﬁrms. The spatial distribution
+of these users is consistent with that of automobile production: the correlation coeﬃcient between the
+number of LinkedIn users in a province and that province’s automobile production for 2018 is 0.89.
+19The IQS survey was launched in 2001, and the APEAL survey was launched in 2003.
+20The IQS includes items such as “Engine doesn’t start at all” (engine), “Emergency/parking brake won’t hold vehicle”
+(driving experience), and “Cup holders – broken/ damaged” (interior).
+21The APEAL study includes items such as “smoothness of gearshift operation” (engine/transmission), “braking respon-
+siveness/eﬀort” (driving dynamics), and “interior materials convey an impression of high quality” (interior).
+22We have also repeated our analysis using observable technology features installed on a car to measure quality. The
+technology features we observe can also be classiﬁed into diﬀerent dimensions, including turbochargers, direct fuel injection,
+emergency brake assist, anti-slip regulation, electronic stability control, dual-clutch transmission, and other safety and
+comfort features. Results are qualitatively similar and are available upon request. Consultation with industry experts
+suggests that IQS and APEAL are better quality measures than technology features themselves, which are sometimes
+“bells and whistles”: many are easy to install but may function poorly, which is exactly what IQS is designed to capture.
+9
+
+
+===== [PAGE 13] =====
+
+The two provinces with the largest auto production, Guangzhou and Shanghai, also have the highest
+number of users in our data.23
+We identify 4,099 users who moved at least once from one automobile company to another. For each
+job switch, we compile information on the ﬁrm name and location before and after the switch as well
+as worker characteristics such as current occupation and education level. The majority of workers who
+changed jobs switched once (81%) or twice (16%). Our ﬁnal sample covers 3,086 job switches after we
+drop observations with missing location data. Of these, 617 moved from JVs to domestic ﬁrms. The
+data allow us to examine worker ﬂows as a mechanism of knowledge spillover.
+Supplier network Data on the auto parts supplier network is compiled from MarkLines’s Who Supplies
+Whom database.24 MarkLines started collecting data in 2008, but most of the supplier information is
+available only for models produced after 2012.
+Since data at the annual level are sparse, we pool
+information from all years to construct the supplier network. Our ﬁnal sample covers 1,378 distinct
+part suppliers, 271 vehicle parts under 31 part categories, and 459 vehicle models.25 Each auto parts
+company supplies on average 2.8 parts for 11 vehicle models, and there are a small number of large
+suppliers that cover many parts and models. For an average model, we have supplier information on
+39 vehicle parts. While the data are not complete enough to be regarded as a census of suppliers, they
+provide valuable information on the production network and capture the major parts suppliers.
+Geographic location of auto plants We identify the plant location of each model using information
+from auto ﬁrms’ oﬃcial websites (Table E.2). Figure E.4 maps vehicle models to their production cities.
+Each circle represents a city.
+Colors of the circle indicate the ownership composition of all models
+produced in a given city. There is a partial overlap between the ownership and location networks. For
+example, Dongfeng, one of the largest aﬃliated SOE ﬁrms, has a plant in the same city, Wuhan, as one
+of its JVs’ plants (Honda–Dongfeng). It also has a plant in Liuzhou, which does not host any of its JVs.
+At the same time, Geely, a private ﬁrm with no JV aﬃliation, has a plant in Shanghai, which hosts two
+joint ventures (VW–SAIC and GM–SAIC). Our empirical analysis explores this partial overlap between
+ownership and geographical networks to assess the role of both in mediating knowledge ﬂow.
+Patent database Data on patent transfers are collected by China’s State Intellectual Property Oﬃce
+and cover the universe of patent transfers between ﬁrms from 2001 to 2018. This information allows us
+to examine the extent of market-based direct technology transfers between JVs and domestic ﬁrms.
+23Ge, Huang, and Png (2020) ﬁnd that LinkedIn provides more accurate measures of worker mobility than commonly
+used patent databases.
+24MarkLines collects supplier information in a number of ways.
+Some information is directly sourced from supplier
+companies or downstream assembly ﬁrms. Some is obtained from vehicle teardowns, where supplier information is retrieved
+from the label or stamp on vehicle parts. Press releases and news articles are another important data source.
+25For example, part categories include the ventilation system, the engine’s lubrication system, interior accessories, and
+exterior accessories. A part category contains multiple parts. For example, the lubrication system of the engine includes
+a sump, oil galleries, an oil pump, and a ﬁlter.
+10
+
+
+===== [PAGE 14] =====
+
+Household vehicle ownership survey Finally, we complement the above data sets with a large,
+nationally representative household-level survey conducted annually by the China National Information
+Center from 2009 to 2014. Each household in the survey reports the vehicle purchased and alternative
+models considered. We use these choices to assess whether JVs and aﬃliated SOEs serve consumers
+with correlated quality preferences.
+2.3
+Descriptive Quality Upgrade Patterns
+We begin by documenting descriptive quality upgrade patterns across ownership types. J.D. Power’s
+raw IQS scores report malfunction rates of parts and components and represent an objective measure
+of vehicle performance.26 Figure 3 plots the dramatic improvement in the overall IQS score during the
+sample period, summed across all nine quality dimensions, for JVs, aﬃliated SOEs, and nonaﬃliated
+domestic automakers, respectively (note that a smaller number of defects indicates higher quality). In
+2003, JVs had signiﬁcantly higher quality than the other two carmaker types: the number of defects
+per 100 vehicles was 278 for JV models, in contrast to 508 for models produced by aﬃliated domestic
+ﬁrms and 349 for those produced by nonaﬃliated domestic ﬁrms. By 2014, the overall IQS score of
+the domestic models had largely converged to that of JVs: the number of defects per 100 vehicles was
+94 for JV models, 123 for models from aﬃliated domestic ﬁrms, and 134 for those from nonaﬃliated
+automakers. Our empirical strategy seeks to isolate the role of ownership aﬃliation under quid pro quo
+in driving the quality improvement of domestic models from other confounders.
+Table 1 reports the summary statistics of IQS and APEAL scores by year and ownership type for
+each of the quality dimensions. Since the raw IQS and APEAL scores (the malfunction rates) diﬀer
+substantially in magnitude across diﬀerent quality dimensions, we separately standardize the responses
+for each of the IQS survey questions and APEAL questions using all model-year observations. Then,
+we aggregate the standardized z-scores to the nine IQS dimensions and ten APEAL dimensions. There
+is signiﬁcant heterogeneity in quality performance across diﬀerent dimensions among ﬁrms within an
+ownership type, a key source of variation that we exploit in our empirical strategy.
+3
+Empirical Strategy
+3.1
+Empirical Framework
+The goal of our empirical analysis is to identify learning and knowledge spillover induced by the own-
+ership aﬃliation stipulations under quid pro quo in addition to any industry-wide learning and quality
+26On the other hand, APEAL scores, measuring consumer satisfaction, may be aﬀected by consumer perceptions and
+could evolve over time as consumers become more knowledgeable about quality.
+As shown in Table 1, the over-time
+improvement in APEAL is much more modest compared to the improvement in IQS.
+11
+
+
+===== [PAGE 15] =====
+
+improvements. If the domestic partners in JVs were randomly assigned, comparing the quality of ve-
+hicles produced by aﬃliated and nonaﬃliated domestic ﬁrms before and after the JV formation would
+identify the eﬀects of quid pro quo. However, there are two key identiﬁcation challenges in our em-
+pirical setting. First, most domestic ﬁrms did not introduce their indigenous brands until after the
+JV formation; as a result, we rarely observe their quality before the JV formation. Second, the selec-
+tion of domestic partners is not random. For example, all the aﬃliated domestic partners are SOEs,
+which could have diﬀerent baseline quality, production capability, and upgrading dynamics from the
+nonaﬃliated private ﬁrms.
+To confront these empirical challenges, we propose a novel identiﬁcation strategy that exploits the
+multi-dimensional quality measures within ﬁrm-product. Our research design follows a simple intuition:
+if there are additional learning beneﬁts through ownership aﬃliation, then the aﬃliated domestic au-
+tomakers would more likely adopt the quality strengths of their JV partners than nonaﬃliated domestic
+ﬁrms. For example, German brands such as BMW, Mercedes Benz, and Volkswagen are often asso-
+ciated with high quality in engine performance, driving dynamics, and safety dimensions. If models
+produced by their aﬃliated domestic automakers exhibit higher quality in these same dimensions than
+nonaﬃliated models, ceteris paribus, that is indicative of learning and knowledge spillover via ownership
+aﬃliation.27
+Figure 4 illustrates this with a speciﬁc example. It shows the engine quality and interior quality of
+four models, two from JVs (BMW–Brilliance and Toyota–FAW) and two from the aﬃliated domestic
+automakers (Brilliance and FAW). The JV model from BMW–Brilliance has stronger engine performance
+but is weaker in interior quality than the model from Toyota–FAW. The two domestic models produced
+by Brilliance and FAW exhibit similar relative strengths, consistent with learning.
+To examine such patterns systematically, we implement two steps. First, we measure the relative
+strength of each model by partialing out a rich set of ﬁxed eﬀects that control for common unobservables
+that aﬀect quality. This allows us to obtain the relative quality strength for both JV models and domestic
+models that is purged of common confounders. We do this separately for JV and domestic models.
+Speciﬁcally, we construct the residualized (i.e., relative) quality score for model i in vehicle segment s
+for quality dimension k in year t by partialing out ﬁxed eﬀects for model-year it (e.g., BMW–Brilliance
+27One could micro-found this intuition using a model in which ﬁrms choose how much to invest in each quality dimension
+and incur a cost in improving each quality dimension. Learning from the aﬃliated JVs lowers the costs of quality upgrades,
+and such learning beneﬁt is larger the stronger the leader is in a given quality dimension (or the wider the quality gap
+is between the leader and follower). In equilibrium, ceteris paribus, aﬃliated domestic ﬁrms would invest more in quality
+dimensions the JV partner is stronger at, relative to non-aﬃliated domestic ﬁrms and relative to the ﬁrm’s investments in
+other quality dimensions. This then translates into shared relative quality strengths between the aﬃliated pairs, which we
+exploit in the empirical identiﬁcation. Appendix C formalizes the intuition.
+12
+
+
+===== [PAGE 16] =====
+
+X3 in 2014) and segment-dimension-year skt (e.g., engine of small-medium SUV in 2014):28
+Scoreikt = λit + λskt + ^
+Scoreikt,
+(1)
+where model-by-year ﬁxed eﬀects (λit) absorb the overall quality of each model and any time-varying
+changes. This accounts for the fact that models produced by aﬃliated SOEs may be on diﬀerent quality
+trajectories from nonaﬃliated models due to the selection of the JVs. The segment-dimension-year
+ﬁxed eﬀects (λskt) capture the diﬀerential trends of quality improvement across vehicle segments. For
+example, it allows for greater engine power of SUVs compared to sedans and accounts for industry-
+wide improvements in engine performance over time. The residual ^
+Scoreikt captures model i’s relative
+strength in a quality dimension k in year t and is the focus on our second-step analysis.
+In the second step, we construct all possible follower–leader model pairs, where a leader is a JV
+model (e.g., BMW–Brilliance X3) and a follower is a model by an aﬃliated (e.g., Brilliance H230) or
+nonaﬃliated domestic automaker (e.g., BYD F3) in the same year. We regress follower i’s relative
+quality on that of leader j:
+^
+DMScoreikt = α + β0 ^
+JVScorejkt +
+^
+JVScorejkt × Zijβ1 + ǫijkt
+(2)
+where
+^
+DMScoreikt and
+^
+JVscorejkt are residualized scores for follower i and leader j in year t and metric
+k that we obtain via Equation (1). Zij is a vector of pair attributes, such as whether the pair is produced
+by aﬃliated automakers (i.e., a domestic automaker and its aﬃliated JVs), belongs to the same vehicle
+segment, or is produced in the same province. The key parameters of interest are β1. This pairwise
+research design allows us to examine heterogeneity in knowledge spillover among diﬀerent model pairs.
+Our empirical framework represents a signiﬁcant departure from the approaches used in existing
+literature on knowledge spillover from FDI to domestic ﬁrms, which mainly rely on TFP variation at
+the industry level along with the inclusion of standard panel ﬁxed eﬀects (e.g., Haddad and Harrison
+(1993); Aitken and Harrison (1999); Javorcik (2004); Keller and Yeaple (2009)). The key identiﬁcation
+concern is that these standard panel ﬁxed eﬀects may be inadequate in controlling for industry-time-
+level shocks that aﬀect both the entry/performance of foreign ﬁrms and that of domestic ﬁrms, such as
+government policies targeting certain industries. By focusing on diﬀerent dimensions of quality strength
+within a product-year, our analysis explores a much ﬁner level of variation and allows us to control for
+time-varying unobservables at the ﬁrm and product level. At the same time, this rich set of controls
+absorb industry-wide quality improvements. Therefore, if spillover from JVs beneﬁts both aﬃliated
+automakers and nonaﬃliated automakers by the same magnitude, the estimate of β1 does not capture
+28To ease interpretation, we multiply the raw IQS scores by negative one, so that a larger IQS number (e.g., a less
+negative number) implies better quality (fewer defects).
+13
+
+
+===== [PAGE 17] =====
+
+this— rightly so—as industry-wide spillover does not pertain to ownership aﬃliation and thus should
+not be counted as the beneﬁt due to quid pro quo.
+Finally, the two-step procedure in Equations (1) and (2) has advantages over the standard one-step
+estimation where one regresses a follower’s quality on a leader’s quality with all the ﬁxed eﬀects. First,
+it allows us to control for the time-varying average quality of the domestic and JV models separately.
+As discussed above, the ability to absorb time-varying unobservables at the ﬁrm and product level
+and isolate the relative quality strength is a key contribution to the existing literature. The standard
+one-step estimation only controls for followers’ average quality. Second, as shown by Lee and Lemieux
+(2010), under mild conditions, partialing out ﬁxed eﬀects ﬁrst could potentially increase the eﬃciency
+of the key parameter estimates β1 while maintaining consistency. We present our main results based
+on the two-step estimation procedure and perform robustness checks with the standard one-step ﬁxed
+eﬀect model in Section 4.1.
+3.2
+Evidence of Relative Strengths
+Before we move to the main analysis, we test a key premise for our empirical analysis: models produced
+by diﬀerent JVs indeed have diﬀerential quality strengths that domestic ﬁrms can learn from. Figure
+5 graphically illustrates JV models’ quality variation along three performance dimensions: driving
+dynamics, engine, and fuel eﬃciency. It is evident that ﬁrms have diﬀerent comparative advantages.
+For example, models by VW–FAW and Hyundai–BAIC enjoy better driving dynamics. VW–FAW and
+BMW–Brilliance have more powerful and reliable engines. Nissan–Dongfeng excels at fuel eﬃciency.
+These patterns are consistent with the common perception that German brands have prime engine
+performance while Japanese brands are more fuel eﬃcient.
+To quantify the extent of similarity in quality strengths among models produced by the same JV
+ﬁrm, we ﬁrst estimate Equations (1) and (2) using JV pairs only. We randomly assign half of all JV
+models as leaders and the rest as followers. Then, we take all models in a year to form an exhaustive
+list of pairs, compute the residualized scores for each JV model and regress the follower scores on the
+leader scores. This exercise also serves as a proof of concept for our spillover analysis below. If the
+framework is capable of identifying relative strength among products within the same JV ﬁrm, we can
+use it to examine the similarity in relative quality strengths between JV and domestic models.
+As shown in Table 2, the coeﬃcient on the interaction term with SameFirm is positive and statisti-
+cally signiﬁcant, indicating that models produced by the same ﬁrm exhibit similar qualiaty strength.29
+The magnitude is also economically meaningful. When we include ﬁrm ﬁxed eﬀects as well as dimension-
+year and dimension-segment ﬁxed eﬀects, a reduction of 10 defects in a JV model is associated with a
+29As the follower and leaders are randomly assigned, the coeﬃcient estimate of β0 has no causal interpretation and is
+purely the correlation in quality between a random pair of models.
+14
+
+
+===== [PAGE 18] =====
+
+reduction of 3.1 defects in the same quality dimension among other models by the same ﬁrm. The co-
+eﬃcient is stable across the diﬀerent columns of Table 2, with diﬀerent combinations of ﬁrm, ﬁrm-year,
+model, and model-year ﬁxed eﬀects. Such within-ﬁrm cross-model correlation corroborates the patterns
+in Figure 5. Firms do indeed specialize in diﬀerent quality dimensions, which sets the ground for our
+analysis below examining spillover from JVs to domestic ﬁrms.
+4
+Results on Knowledge Spillover
+4.1
+Main Results
+Our unit of observation is a domestic–JV pair by quality metric by year, with a total of 738,948
+observations. There are 13,946 distinct domestic–JV pairs, and 723 belong to aﬃliated pairs. We have
+nineteen quality metrics: nine IQS quality dimensions and ten APEAL performance dimensions.
+Table 3 presents the estimation results for Equation 2. While our main speciﬁcation incorporates
+model-by-year ﬁxed eﬀects λit, we also report less demanding speciﬁcations in Columns (1) to (5)
+with ﬁxed eﬀects for ﬁrm, ﬁrm-year, or ﬁrm-year and model. These alternative speciﬁcations absorb
+endogenous selection at the ﬁrm or model level: for example, the average quality of aﬃliated domestic
+ﬁrms might be systematically diﬀerent from that of nonaﬃliated automakers.
+Column (1) partials out ﬁrm, dimension-year and dimension-segment FEs. The coeﬃcient on JVS-
+core captures the association in relative quality strengths between a random pair of nonaﬃliated mod-
+els.30 The SameGroup dummy ﬂags follower–leader pairs that come from JVs (e.g., Toyota–FAW) and
+their aﬃliated domestic partners (FAW). The interaction term between JVScore and the SameGroup
+dummy captures the association in relative quality strengths between aﬃliated models. Its coeﬃcient is
+positive but statistically insigniﬁcant. When we further add interaction terms to ﬂag pairs that belong
+to the same vehicle segment (SameSegment) in Column (2), we ﬁnd that spillover occurs primarily
+among products in the same segment (e.g., sedan or SUV). The triple interaction term of JVScore,
+SameGroup and SameSegment is positive and signiﬁcant at the 1% level, indicating that ownership
+aﬃliation enhances the spillover.
+In light of the above ﬁnding, we focus on follower–leader pairs belonging to the same segment for the
+remaining empirical analysis. In Columns (3) to (6), we gradually add more FEs to absorb ﬁrm-year,
+model, and model-year variation. The results remain robust. When we look at Column (6), our main
+speciﬁcation (also the most demanding speciﬁcation), the coeﬃcient estimate of the interaction term is
+economically signiﬁcant: 8.7% of the quality improvement observed in a JV model would be transmitted
+30By construction, the association in relative quality strengths between a random pair of follower–leader models, including
+both aﬃliated and nonaﬃliated models, is close to zero given that the sample consists of all possible follower–leader pairs in
+the same year. The absolute magnitudes of the coeﬃcients on JVScore and JVScoreXSameGroup capture the association
+among nonaﬃliated and aﬃliated pairs, respectively, and the gap between the two reﬂects the additional learning spillover
+to aﬃliated domestic models over the spillover to nonaﬃliated domestic models.
+15
+
+
+===== [PAGE 19] =====
+
+to the aﬃliated domestic models in the same segment. Another way to interpret the magnitude is to
+compare it with that in Column (6) of Table 2: the shared quality strength between aﬃliated JV–
+domestic pairs is 31% (= 0.087
+0.284) of that among models within the same JV ﬁrm.
+One might be concerned that we over control and underestimate the strengths of knowledge spillover
+by using a rich set of ﬁxed eﬀects. Note that our estimates are relatively stable across columns in Table 3
+with diﬀerent sets of ﬁxed eﬀects. Hence, the concern of attenuated estimates is unlikely to be ﬁrst-order
+in our analysis.
+Robustness checks: We perform three sets of robustness checks. First, we explore an alternative ﬁxed
+eﬀect regression speciﬁcation. Our baseline empirical strategy is based on residualized quality measures
+after model-year and dimension-segment-year ﬁxed eﬀects are partialed out separately for leaders and
+followers. Table E.3 reports the results of running one-step ﬁxed eﬀect regressions that use the same
+combinations of ﬁxed eﬀects as in Table 3 as opposed to the two-step procedure. Mathematically, these
+regressions are not the same, but the estimates are similar, and all of them suggest that learning and
+knowledge spillover occur in the same segment and same group.
+Second, we experiment with alternative clustering of the standard errors. The standard errors in
+Table 3 are two-way clustered by i’s ﬁrm and quality dimension and j’s ﬁrm and quality dimension.
+This allows for cross-sectional and temporal correlation of a given quality dimension (e.g., engine) across
+models in the same ﬁrm. Table E.4 reports the standard errors clustered at six diﬀerent levels, including
+by the leading ﬁrm and following ﬁrm, by the ﬁrm pair, or by ﬁrm-year. Our results are robust to all
+of these diﬀerent levels of clustering.
+Third, Table E.5 repeats the analysis with the IQS and APEAL scores separately. As described in
+Section 2, the IQS survey is designed to be objective and record the number of defects while APEAL
+measures consumer attitudes and perceptions. It is reassuring that the estimate for knowledge spillover
+is stable whether we use the IQS and APEAL indicators separately or jointly.
+4.2
+Alternative Explanations
+The ﬁnding that domestic models mimic the quality strengths of their aﬃliated JV models is consistent
+with learning and knowledge spillover via ownership network. We now investigate several alternative
+interpretations, including endogenous JV formation, spillover due to geographic proximity, overlapping
+customer bases, brand image association, and market transactions for technologies. As spillover occurs
+primarily among products in the same segment (as shown in Table 3), we limit the sample to follower–
+leader pairs in the same segment for the rest of the paper. Including follower–leader pairs in diﬀerent
+segments does not aﬀect the key parameter of interest.
+Endogenous JV formation One might be concerned that the ownership network—the set of domestic
+16
+
+
+===== [PAGE 20] =====
+
+ﬁrms that form joint ventures with foreign auto producers—is not random. For example, to overcome
+their own weaknesses, domestic automakers may seek foreign partners who are strong on speciﬁc quality
+dimensions. The initial negative correlation in quality strengths between the follower and the leader
+could bias the coeﬃcient estimates downward, masking evidence of knowledge spillover. On the other
+hand, if foreign ﬁrms choose to partner with domestic ﬁrms with similar quality strengths, it would bias
+the estimates upward.
+To address this issue, we ﬁrst exploit an important institutional feature. Many major JVs in the
+Chinese auto industry were formed in the 1980s and 1990s, a period when domestic automakers had
+virtually no passenger vehicle production capacity. Their production of agricultural machinery (such
+as tractors) or heavy-duty trucks was low tech and relied on imports for key components. It was not
+until the mid-2000s when these domestic automakers started to develop their own indigenous brands.
+Therefore, in these early JVs, it would have been very diﬃcult, if not impossible, for foreign automakers
+to predict the strengths/weaknesses of potential Chinese partners decades later, let alone to base their
+partnership decisions on those predictions. Appendix A provides a brief history of two joint ventures
+and shows that the ownership decisions were made by the central government with no evidence of
+consideration of the relative technical strengths of either party.
+In Table 4, we examine knowledge spillover separately for JVs formed before and after 2000. Column
+(1) reproduces our baseline speciﬁcation (Column (6) in Table 3) using follower–leader model pairs in
+the same vehicle segment.31 Column (2) shows that knowledge spillover is stronger from JVs formed
+before 2000, whose partnership choices were unlikely to be inﬂuenced by selection on relative quality
+strengths. In Column (3), we focus on JVs formed after 2000, for which we can directly examine any
+initial association in relative quality strength between the aﬃliated partners and how the association
+evolves as the partnership ages.
+The initial correlation in relative quality strengths appears to be
+negative, becomes less so over time, and eventually turns positive after 10 years.32 This pattern lends
+further support to the learning and knowledge spillover interpretation: similarity in relative quality
+strength only emerges over time because it takes time for aﬃliated domestic automakers to learn from
+their foreign partners. Taken together, these results alleviate concerns over endogenous JV formation
+as an alternative interpretation of our main ﬁndings.
+Spillover due to geographic proximity Existing literature has documented the role of geographic
+proximity in promoting spatially-mediated knowledge spillover (Jaﬀe, Trajtenberg, and Henderson, 1993;
+Bloom, Schankerman, and Van Reenen, 2013). To the extent that production facilities of JVs and their
+31The SameGroup coeﬃcient in Column (1) of Table 4 when the sample is limited to model pairs in the same segment is
+roughly the sum of SameGroup, SameSeg, and SameGroup × SameSeg coeﬃcients in the baseline speciﬁcation of Column
+(6) in Table 3 when all model pairs are included.
+32This is consistent with the positive interaction in Column (2) of Table 4 for JVs established before 2000, most of which
+were more than 10 years old at the beginning of our sample period.
+17
+
+
+===== [PAGE 21] =====
+
+aﬃliated domestic ﬁrms are sometimes located close to one another, the patterns of knowledge spillover
+could be partly driven by geographic proximity rather than ownership aﬃliation per se.33 To examine
+this, we exploit the partial overlap between the ownership and geographical networks as shown in Figure
+E.4. We construct a dummy for two models in the same province and interact the ownership dummies
+(SameGroup and DiﬀGroup) with the location dummies (SameProvince and DiﬀProvince). Column
+(1) of Table 5 replicates the baseline speciﬁcation. Column (2) presents the full interaction between
+ownership and geography dummies. While spillover between aﬃliated pairs in the same province is the
+strongest, there remains substantial knowledge spillover from JVs to aﬃliated domestic ﬁrms in diﬀerent
+provinces. In addition, the spillover between unaﬃliated pairs in the same province is positive but
+insigniﬁcant. These patterns provide evidence that the knowledge spillover detected between aﬃliated
+pairs cannot be fully explained by geographic proximity.
+Overlapping customer bases The observed similarity in relative quality strength may be partially
+driven by demand-side factors, as opposed to learning and knowledge spillover on the supply side.
+For example, models produced by aﬃliated automakers may be designed to target the same group of
+consumers who share similar taste, which then leads ﬁrms to specialize in similar quality dimensions.
+To examine this possibility, we leverage the household choices reported in the vehicle ownership survey
+(described in Section 2.2) to evaluate whether JVs and domestic automakers have overlapping customer
+bases. We estimate the following equation using a sample that consists of all pairwise combinations of
+models in the same year:
+Log(TopTwoChoicesijt + 1)
+=
+α + β1SameGroupij + β2SameGroupij × SameSegmentij
++
+Xijtγ + λt + εijt
+where TopTwoChoicesijt counts the number of times that model pair {i, j} is listed as the top two choices
+by some household. A larger number suggests that the model pair is considered by more households to
+be close substitutes and is evidence that both models compete for similar customers. The key regressors
+are SameGroup dummy and its interaction with SameSegment dummy, as deﬁned in Section 4.1. We
+control for whether the two models have the same segment, same ownership type, or same ﬁrm and for
+diﬀerences in price, size, and engine power.
+The results in Table E.6 provide no evidence that aﬃliated model pairs are more likely to attract
+similar customers than a random pair of JV and domestic models, ceteris paribus. If anything, the
+estimates suggest that a pair of aﬃliated models in the same segment are slightly less likely to be listed
+as the top two choices. This is not surprising given that JV models are considerably more expensive
+than domestic indigenous models and target wealthier households.
+33In total, 267 out of 723 pairs of aﬃliated JV-domestic models are produced in the same province.
+18
+
+
+===== [PAGE 22] =====
+
+Brand image association Another potential explanation for the observed knowledge spillover is brand
+image association. On the one hand, brand association could aﬀect consumer’s perception of product
+quality strength. For example, consumers may perceive Brilliance to excel at engine performance simply
+because it has a joint venture with BMW (BMW–Brilliance) even though Brilliance may not have
+strength in engine performance. On the other hand, ﬁrms may strategically specialize in certain quality
+dimension to take advantage of the brand image association. For example, Brilliance may strategically
+invest in engine performance to take advantage of consumers’ brand perceptions, even absent any
+learning and actual knowledge spillover.
+To examine this possibility, we leverage an additional consumer survey to ﬁrst gauge consumers’
+awareness of JV aﬃliations. The survey was conducted by a Chinese market research company and
+covers 200 consumers at vehicle dealers in a large city in northern China. The survey respondents are
+either potential buyers or existing owners of vehicles. The survey listed eleven domestic ﬁrms and asked
+the respondents to identify their aﬃliated JV partners from a list of twelve foreign ﬁrms. Appendix B
+describes the survey data in detail.
+Results are shown in Appendix Figure E.5. Two patterns stand out. First, while consumers exhibit
+some awareness of ownership aﬃliation, such knowledge is far from perfect. On average, a JV aﬃliation
+was recognized by only 43% of the survey respondents. Second, there is signiﬁcant heterogeneity among
+diﬀerent JVs: for example, 78% of consumers reorganized Brilliance-BMW, compared to only 2.5% who
+recognized Changan-PSA. Exploring this heterogeneity, we show in Appendix Table E.7 that stronger
+JV recognition, and hence (potentially) stronger brand image association, does not translate into greater
+similarity in quality strength between the aﬃliated partners. These ﬁndings alleviate the concern that
+either perception or strategic investment through brand image associations drives the shared relative
+quality strength between aﬃliated partners.
+Direct technology transfer The identiﬁed spillover eﬀect might be driven by market transactions.
+For example, technologically advanced ﬁrms might sell or license their patents to ﬁrms that do not have
+the capacity to conduct R&D in house. A common challenge in the literature that analyzes the impact
+of FDI on knowledge spillover is that data on market transactions for technology transfer are rarely
+observed (Keller, 2004).
+To address this concern, we obtain data on all patent transfers from the National Intellectual Prop-
+erty Administration (i.e., the Chinese Patent Oﬃce). For the period between 2001 and 2019, there
+are 1,208,325 records of patent transfers nationwide, of which 10,626 correspond to the auto industry
+(i.e., either the transferer or the transferee is owned by an auto assembly ﬁrm). Among the 10,626
+cases of patent transfers, 68% are between a parent company and a subsidiary company or between two
+subsidiary companies under the same parent company. Only 27 cases originated from a JV. The lack of
+direct patent transfer from JVs to domestic ﬁrms is consistent with the ﬁnding in Holmes, McGrattan,
+19
+
+
+===== [PAGE 23] =====
+
+and Prescott (2015) that JVs ﬁle a small number of patent applications in China in comparison to
+either Chinese domestic ﬁrms or foreign multinationals. Therefore, the observed patterns of spillover
+are unlikely to be driven by market transactions of technologies.
+In sum, we have shown that domestic models share similar quality strengths with aﬃliated JV
+models. The reduced-form ﬁndings support the interpretation of learning and knowledge spillover via
+the ownership network. Next, we investigate the potential underlying mechanisms.
+5
+Mechanisms of Knowledge Spillover
+The vehicle production process includes interrelated stages from product planning (e.g., market analy-
+sis), to design and engineering (e.g., of the chassis, power train, exterior and interior), to the sourcing
+of parts and components, testing, and assembly. The whole process involves complex interactions of
+technologies, equipment, and workers. Learning could occur during all stages of the production and
+through many diﬀerent channels, including through deliberate communication among partners, worker
+ﬂows or shared parts suppliers. In this section, we examine worker ﬂows and supplier networks as two
+potential mechanisms.34 Since we do not have exogenous variation in work ﬂows and supplier network,
+the estimates do not have a causal interpretation and are suggestive of the mediation eﬀect.
+5.1
+Worker Flows
+Flows of workers as carriers of knowledge can lead to knowledge ﬂow across ﬁrms.
+Before foreign
+automakers entered China, passenger vehicle production was nearly nonexistent, and the labor force in
+the auto industry was small with few experienced technicians or executives. JVs provided a training
+ground for the development of both engineering skills and managerial knowhow. As workers move from
+JVs to domestic automakers, they take valuable knowledge with them. Many high-level managers and
+skilled workers in domestic automakers have gained valuable experiences in JVs.
+We compile job switches from user proﬁles on LinkedIn (China) for the automobile sector.35 We ﬁrst
+document that workers are considerably more likely to move from JVs to aﬃliated SOEs. Among all
+workers who switched jobs from a JV to a domestic ﬁrm, 27.2% moved to the JV’s aﬃliated domestic
+ﬁrm. This fraction would have been 9.3% if worker movements were random.36
+34We focus on pairs of domestic and JV models in the same vehicle segment, for which we have observed the strongest
+spillover eﬀect (Table 3). The main takeaways are robust when we include model pairs in diﬀerent vehicle segments.
+35Among job switchers who left a JV ﬁrm, 52.6% moved to another JV, and 47.4% moved to a domestic automaker.
+Among those who left a domestic ﬁrm, 36.8% moved to a JV, and 63.2% moved to another domestic automaker.
+36To calculate this, we hold the number of workers moving from and to each ﬁrm ﬁxed and assume that workers’
+propensity to move to a ﬁrm does not depend on where they move from. For example, if 200 workers move to ﬁrm A and
+100 workers move to ﬁrm B in total, we assume that all workers are twice as likely to move to ﬁrm A regardless of which
+ﬁrm they move from.
+20
+
+
+===== [PAGE 24] =====
+
+We then examine the extent to which worker ﬂow mediates knowledge spillover through ownership
+aﬃliation. We measure the intensity of worker ﬂow using the number of job switchers between each
+pair of JV and domestic ﬁrms and standardize it across all observations. Then, we interact worker ﬂow
+with the same-group dummy. Table 6 summarizes the results. Column (1) shows that spillover is on
+average 10.3% between aﬃliated pairs in the same segment. Column (2) shows that spillover is 3.8%
+when worker ﬂow is at the national average and increases by 2.3% for each standard-deviation increase
+in the volume of worker ﬂow. The estimates suggest that worker ﬂow explains 54% of the knowledge
+spillover from JVs to aﬃliated automakers.37
+Some underlying factors, such as closer connections between ﬁrms, could result in both larger worker
+ﬂow and more knowledge spillover. Column (3) additionally controls for reverse worker ﬂow (from the
+domestic ﬁrm to the JV), which is a proxy for business connections between the two ﬁrms. We ﬁnd
+similar eﬀects for JV-to-domestic worker ﬂow, and no appreciable eﬀect for domestic-to-JV ﬂow. The
+asymmetric results are consistent with anecdotal evidence that domestic ﬁrms beneﬁt from recruiting
+technicians with working experience at JVs, especially in key production areas with technology bot-
+tlenecks (Liu, 2019). Column (4) examines whether the eﬀect is larger for the ﬂow of skilled workers.
+To conduct this estimate, we limit the sample to observations with positive JV-to-domestic ﬂows and
+compute the share of technicians, classiﬁed based on job titles.38 Consistent with the previous liter-
+ature (e.g., Poole (2013)), we ﬁnd that the strength of knowledge spillover increases with the ﬂow of
+technicians from JVs to domestic automakers. Furthermore, we see that the ﬂow of skilled workers ben-
+eﬁts both aﬃliated and nonaﬃliated domestic ﬁrms. This ﬁnding corroborates a popular view among
+industry experts that JVs have trained a large number of technicians for the Chinese auto industry,
+generating an important positive externality for both aﬃliated and nonaﬃliated domestic ﬁrms. We
+lack statistical power to evaluate whether ownership aﬃliation itself confers an additional advantage.
+While variations in worker ﬂow across ﬁrms are not exogenous, the results provide suggestive evidence
+that worker ﬂow plays an important role in mediating knowledge spillover. Our ﬁndings are also in line
+with the ﬁnding in Levitt, List, and Syverson (2013) that product defects in auto assembly plants are
+aﬀected by the production experience stock embodied in plants’ broader organizational capital, which
+could be aﬀected by ﬂow of workers with signiﬁcant technical and managerial expertise. More generally,
+the ﬁndings are consistent with the existing literature that that the beneﬁt to a receiving ﬁrm is more
+pronounced when workers move from more productive ﬁrms to less productive ﬁrms, rather than the
+other way around, and that ﬂow of skilled workers transmits more knowledge than ﬂow of nonskilled
+workers (Poole, 2013; Stoyanov and Zubanov, 2012b).
+37The diﬀerence in the average z-scores of an aﬃliated and a nonaﬃliated pair is 2.43. Additional worker ﬂow from JVs
+to aﬃliated automakers contributes 2.43 × 0.23 = 0.056 or 54% of knowledge spillover (the baseline is 0.103).
+38We classify workers as tech-relevant and non-tech-relevant using the occupation classiﬁcation of LinkedIn.
+Tech-
+relevant workers include designers, mechanical engineers, software engineers and procurement, quality control, and R&D
+workers. The rest are non-tech-relevant workers. Examples include operations, sales, and media and outreach employees.
+21
+
+
+===== [PAGE 25] =====
+
+5.2
+Supplier Network
+The supply network can serve as another important conduit for learning and knowledge spillover. This is
+especially true for the automobile industry, where quality of parts and components is a key determinant
+of vehicle performance. The presence of JVs has been argued to have helped and incentivized domestic
+parts suppliers to improve their product quality, beneﬁting domestic automakers.39
+JVs’ sourcing
+decisions may also provide valuable information to domestic partners and help the latter identify reliable
+and high-quality suppliers. Here, we examine the importance of the so-called shared supplier spillover.
+Our data aﬃrm that ownership linkages have a sizable impact on supplier overlap. Aﬃliated model
+pairs share on average 12 common suppliers, in comparison to the average of 5.4 common suppliers
+between nonaﬃliated pairs.40 We examine the extent to which the shared quality strengths between
+aﬃliated pairs could be driven by common parts suppliers.
+For each model pair, we compute the
+Szymkiewicz–Simpson overlap ratio, which equals the number of common suppliers divided by the
+smaller number of suppliers among the two ﬁrms. Then, we standardize the overlap ratio across all
+observations and interact the standardized overlap ratio with the same-group dummy.41 Table 7 reports
+the results. Columns (1) and (2) contain domestic–JV model pairs from all years from 2001 to 2014.
+Columns (3) and (4) restrict the sample to model pairs from 2012 to 2014 to account for missing
+information in the early years of the supplier network data (see Section 2.2). Overall, we see that larger
+supplier overlap is indeed associated with stronger knowledge spillover; this is true for both aﬃliated
+and nonaﬃliated pairs. The estimates from Columns (3) and (4) imply that the greater supplier overlap
+among aﬃliated pairs can explain 65% of knowledge spillover via ownership aﬃliation.42
+The importance of shared supplier spillover has been documented in the existing literature. For
+example, using variation in supplier networks generated by a trade policy shock in Bangladesh’s garment
+industry, Kee (2015) ﬁnds that shared supplier networks explain about 1/3 of the productivity spillover
+from FDIs to domestic ﬁrms. Our results echo the earlier ﬁndings despite the diﬀerent contexts.
+6
+Quantify the Impact of Quid Pro Quo on Domestic Upgrades
+We end our analysis with a quantiﬁcation exercise to evaluate the impact of quid pro quo on domestic
+vehicle quality, sales and proﬁts.
+The exercise proceeds in two steps.
+The ﬁrst step quantiﬁes the
+learning beneﬁts due to the ownership aﬃliation under quid pro quo on quality upgrades of aﬃliated
+39China’s 1994 Auto Policy, which was lifted after China’s WTO entry in 2001, required all JVs to source at least 40%
+of their parts and components locally. This led to the development of the upstream parts industry. For example, the rate
+of local sourcing for FAW–VW Jetta was only 24% in 1994 but reached 84% by 2000 (Gallagher, 2003).
+40MarkLines focuses on ﬁrst-tier suppliers. On average, a JV model has 64 suppliers and a domestic model has 32.
+41We drop 3% of pairs for which at least one model has fewer than ﬁve distinct suppliers to reduce measurement error
+in the overlap ratio. The results are similar if we use the full sample.
+42The diﬀerence in the average supplier overlap z-scores of an aﬃliated and a nonaﬃliated pair is 1.06. Additional
+supplier overlap contributes 1.06 × 0.037 = 0.039 or 65% of knowledge spillover (the baseline is 0.06).
+22
+
+
+===== [PAGE 26] =====
+
+domestic ﬁrms, controlling for any industry-wide spillover. The second step then translates the quality
+changes into impacts on sales and proﬁts. This step estimates a structural model of the automobile
+market and conducts counterfactual analyses on vehicle prices and ﬁrm proﬁts. We choose 2007 as the
+baseline year for the policy evaluation because all major JVs had formed by this point (see Figure E.2)
+and thus we can focus on knowledge spillover conditioning on the set of existing market participants.43
+Since our empirical identiﬁcation is based on relative quality strengths between followers and lead-
+ers, additional assumptions are needed to quantify the policy’s impact on the overall quality levels of
+domestic models. We make the following assumptions. First, we take the linear speciﬁcation in Equa-
+tion (2) literally and assume that the size of spillover or the strength of learning is proportional to the
+quality gap between the two. Second, for followers with multiple leaders, we use the average leader
+quality. Appendix C provides more details. It also illustrates how knowledge spillover of this nature
+translates into shared relative quality strengths between leaders and followers and that estimates based
+on relative quality strengths (Equations (1) and (2)) capture the intensity of spillover.
+We experiment with two diﬀerent assumptions on the dynamics of knowledge spillover. The ﬁrst
+scenario assumes knowledge spillover and learning that domestic aﬃliated ﬁrms experience in a given
+year are proportional to the diﬀerence between the JV model quality in that year and domestic model
+quality in 2007. The second scenario assumes that learning occurs cumulatively each year. The beneﬁt
+that aﬃliated domestic automakers receive in a particular year embodies all past learning with no
+depreciation, where learning in a given year is proportional to the quality diﬀerence in that year. Which
+assumption is more appropriate depends on the nature of learning (the frequency of model redesigns,
+persistence of the acquired technical skills, etc.). We use the two scenarios to bound our predictions on
+the eﬀects of quid pro quo.
+Figure 6 shows the results based on our baseline estimate in Table 3. We use the total IQS score
+as the quality measure of interest. The solid lines plot the observed annual average IQS scores for
+JV models, aﬃliated domestic models, and nonaﬃliated domestic models. The dashed line plots the
+predicted quality of aﬃliated domestic models in the absence of quid pro quo, i.e., if the additional
+knowledge spillover due to ownership aﬃliation was removed in 2007. In the ﬁrst scenario, quid pro quo
+contributes to an average of 3.8% improvement in quality for aﬃliated models between 2007 and 2014
+(around 5 fewer defects per model), and an average of 2.8% improvement in quality for all domestic
+models. With cumulative learning, the eﬀect amounts to a 19.5% improvement (around 24 fewer defects
+per model) for aﬃliated models and a 12.7% improvement for all domestic models. Note that in both
+exercises, any industry-wide knowledge spillover due to the presence of foreign automakers is kept the
+same, as absorbed by model-year and quality dimension-segment-year ﬁxed eﬀects. Thus, the estimated
+eﬀect purely captures the additional learning beneﬁt due to ownership aﬃliation under quid pro quo.
+43Six small JVs with limited production entered after 2007. They accounted for 1.5% of market sales by 2014.
+23
+
+
+===== [PAGE 27] =====
+
+To translate the impact on quality changes to sales performance of China’s domestic automakers,
+we estimate an equilibrium model of vehicle demand and supply. Speciﬁcally, we extend the model in
+Barwick, Cao, and Li (2020) by allowing both demand and cost of production to depend on vehicle
+quality measured by IQS. Knowledge spillover under quid pro quo improves the quality of domestic
+models, and thereby inﬂuences the sales and proﬁts of domestic automakers. We discuss details of the
+model and estimation results in Appendix D.
+Our estimates suggest that conditional on prices and other key vehicle attributes, the elasticity of
+vehicle demand to IQS is -0.60.
+Combined with the results on quality changes shown in Figure 6,
+this translates to a 0.9%-3.9% increase in sales of aﬃliated domestic models between 2007 and 2014,
+and a 0.5%-2.0% increase for all domestic models (equivalent to 330 and 1,120 million yuan, or $50 -
+$165 million in US dollar). Overall, these results suggest that while quid pro quo facilitates learning of
+aﬃliated domestic ﬁrms, its impacts on domestic quality, sales and proﬁts are modest.44 In light of the
+trade dispute between China and the U.S., China’s recent policy change to remove the joint ownership
+requirement may not signiﬁcantly hinder quality upgrades and sales of Chinese domestic automakers.
+7
+Conclusion
+This paper studies the eﬀect of quid pro quo, the policy of requiring joint ownership in exchange for
+market access, in facilitating knowledge spillover from developed countries to developing countries.
+Leveraging unique datasets on quality ratings, supplier networks, worker ﬂows, and household surveys,
+we document consistent patterns of additional knowledge spillover from JVs to aﬃliated domestic au-
+tomakers as a result of quid pro quo beyond the general spillover induced by the presence of foreign
+automakers. Consistent with the existing literature, we ﬁnd that worker ﬂows and supplier networks
+are the primary channels of such knowledge spillover. On the other hand, the quantiﬁcation exercise
+suggests that the ownership aﬃliation as a result of quid pro quo confers a modest beneﬁt in terms of
+quality upgrades, sales and proﬁts for domestic partners.
+Our ﬁndings imply that the high-proﬁle policy shift by the Chinese government to eliminate quid
+pro quo in automobile manufacturing starting from 2022 will unlikely have a large impact on quality
+dynamics and ﬁrm performance going forward. We end with an important caveat: our analysis abstracts
+away from potential endogenous changes in product oﬀerings among foreign and domestic automakers
+in the absence of quid pro quo. With a majority stake or even sole ownership, foreign automakers may
+have stronger incentives to bring the most advanced technology into the Chinese market and oﬀer a
+diﬀerent set of products, as they can better guard their technology knowhow. How such incentives are
+shaped by global knowledge spillover is an important open area for future empirical research.
+44While the eﬀect may seem modest, it is worth noting that our estimate of knowledge spillover is not attenuated by a
+rich set of ﬁxed eﬀects. As shown in Table 3, the estimate is stable across columns and similar with weaker sets of controls.
+24
+
+
+===== [PAGE 28] =====
+
+References
+Abebe, Girum, Margaret S McMillan, and Michel Seraﬁnelli. 2018. “Foreign direct investment and
+knowledge diﬀusion in poor locations: Evidence from Ethiopia.”
+Tech. rep., National Bureau of
+Economic Research.
+Aitken, Brian J and Ann E Harrison. 1999. “Do domestic ﬁrms beneﬁt from direct foreign investment?
+Evidence from Venezuela.” American economic review 89 (3):605–618.
+Antr`as, Pol and Davin Chor. 2013. “Organizing the global value chain.” Econometrica 81 (6):2127–2204.
+Atkin, David, Amit K Khandelwal, and Adam Osman. 2017. “Exporting and ﬁrm performance: Evi-
+dence from a randomized experiment.” The Quarterly Journal of Economics 132 (2):551–615.
+Bai, Jie, Maggie Chen, Jin Liu, and Daniel Yi Xu. 2020. “Search and Information Frictions on Global E-
+Commerce Platforms: Evidence from AliExpress.” Tech. rep., National Bureau of Economic Research.
+Balsvik, Ragnhild. 2011. “Is labor mobility a channel for spillovers from multinationals? Evidence from
+Norwegian manufacturing.” The review of economics and statistics 93 (1):285–297.
+Barwick, Panle Jia, Shengmao Cao, and Shanjun Li. 2020. “Local protectionism, market structure,
+and social welfare: China’s automobile market.” American Economics Journal: Economic Policy
+Forthcoming.
+Barwick, Panle Jia, Myrto Kalouptsidi, and Nahim Bin Zahur. 2019. “China’s Industrial Policy: an
+Empirical Evaluation.” Tech. rep., National Bureau of Economic Research.
+Berry, Steven, James Levinsohn, and Ariel Pakes. 1995. “Automobile prices in market equilibrium.”
+Econometrica: Journal of the Econometric Society :841–890.
+Berry, Steven T and Philip A Haile. 2014.
+“Identiﬁcation in diﬀerentiated products markets using
+market level data.” Econometrica 82 (5):1749–1797.
+Bilir, L Kamran and Eduardo Morales. 2016. “Innovation in the global ﬁrm.” Tech. rep., National
+Bureau of Economic Research.
+Blalock, Garrick and Paul J Gertler. 2008.
+“Welfare gains from foreign direct investment through
+technology transfer to local suppliers.” Journal of international Economics 74 (2):402–421.
+Bloom, Nicholas, Mark Schankerman, and John Van Reenen. 2013. “Identifying technology spillovers
+and product market rivalry.” Econometrica 81 (4):1347–1393.
+Boschma, Ron, Rikard Eriksson, and Urban Lindgren. 2009.
+“How does labour mobility aﬀect the
+performance of plants?
+The importance of relatedness and geographical proximity.”
+Journal of
+Economic Geography 9 (2):169–190.
+Buera, Francisco J and Ezra Oberﬁeld. 2016. “The global diﬀusion of ideas.” Tech. rep., National
+Bureau of Economic Research.
+Castillo, Victoria, Lucas Figal Garone, Alessandro Maﬃoli, Soﬁa Rojo, and Rodolfo Stucchi. 2020.
+“Knowledge Spillovers through Labour Mobility: An Employer–Employee Analysis.” The Journal of
+Development Studies 56 (3):469–488.
+25
+
+
+===== [PAGE 29] =====
+
+Chen, Yuan, C-Y Cynthia Lin Lawell, and Yunshi Wang. 2020. “The Chinese automobile industry and
+government policy.” Research in Transportation Economics :100849.
+Chen, Yuyu, Mitsuru Igami, Masayuki Sawada, and Mo Xiao. 2019. “Privatization and Productivity in
+China.” Working Paper.
+Eslava, Marcela, Ana Cec´ılia Fieler, and Daniel Yi Xu. 2015. “(Indirect) Input Linkages.” American
+Economic Review 105 (5):662–66.
+Fons-Rosen, Christian, Sebnem Kalemli-Ozcan, Bent E Sorensen, Carolina Villegas-Sanchez, and Vadym
+Volosovych. 2017. “Foreign investment and domestic productivity: Identifying knowledge spillovers
+and competition eﬀects.” Tech. rep., National Bureau of Economic Research.
+Fosfuri, Andrea, Massimo Motta, and Thomas Rønde. 2001. “Foreign direct investment and spillovers
+through workers’ mobility.” Journal of international economics 53 (1):205–222.
+Gallagher, Kelly Sims. 2003.
+“Foreign technology in China’s automobile industry: implications for
+energy, economic development, and environment.” China Environment Series) :1–18.
+Ge, Chunmian, Ke-Wei Huang, and Ivan Png. 2020.
+“Engineer/Scientist Careers: Patents, Online
+Proﬁles, and Misclassiﬁcation Bias.” Strategic Management Journal .
+Giorcelli, Michela. 2019. “The long-term eﬀects of management and technology transfers.” American
+Economic Review 109 (1):121–52.
+Giorcelli, Michela and Bo Li. 2021. “Technology Transfer and Early Industrial Development: Evidence
+from the Sino-Soviet Alliance.” Tech. rep., National Bureau of Economic Research.
+G¨org, Holger and Eric Strobl. 2005. “Spillovers from foreign ﬁrms through worker mobility: An empirical
+investigation.” Scandinavian Journal of Economics 107 (4):693–709.
+Gorodnichenko, Yuriy, Jan Svejnar, and Katherine Terrell. 2014.
+“When does FDI have positive
+spillovers?
+Evidence from 17 transition market economies.”
+Journal of Comparative Economics
+42 (4):954 – 969.
+Haddad, Mona and Ann Harrison. 1993. “Are there positive spillovers from direct foreign investment?:
+Evidence from panel data for Morocco.” Journal of Development Economics 42 (1):51 – 74.
+Hansman, Christopher, Jonas Hjort, Gianmarco Le´on-Ciliotta, and Matthieu Teachout. 2020. “Vertical
+integration, supplier behavior, and quality upgrading among exporters.” Journal of Political Economy
+128 (9):3570–3625.
+Harrison, Ann and Andr´es Rodr´ıguez-Clare. 2009. “Trade, foreign investment, and industrial policy for
+developing countries.” Handbook of Development Economics 5:4039–4214.
+Haskel, Jonathan E., Sonia C. Pereira, and Matthew J. Slaughter. 2007. “Does Inward Foreign Direct
+Investment Boost the Productivity of Domestic Firms?”
+The Review of Economics and Statistics
+89 (3):482–496.
+Havranek, Tomas and Zuzana Irsova. 2011. “Estimating vertical spillovers from FDI: Why results vary
+and what the true eﬀect is.”
+Journal of International Economics 85 (2):234 – 244.
+URL http:
+//www.sciencedirect.com/science/article/pii/S002219961100081X.
+26
+
+
+===== [PAGE 30] =====
+
+Holmes, Thomas J, Ellen R McGrattan, and Edward C Prescott. 2015. “Quid pro quo: technology
+capital transfers for market access in China.” The Review of Economic Studies 82 (3):1154–1193.
+Howell, Sabrina T. 2018. “Joint ventures and technology adoption: A Chinese industrial policy that
+backﬁred.” Research Policy 47 (8):1448 – 1462.
+Igami, Mitsuru and Kosuke Uetake. 2019. “Mergers, Innovation, and Entry-Exit Dynamics: Consolida-
+tion of the Hard Disk Drive Industry, 1996?2016.” The Review of Economic Studies .
+Jaﬀe, Adam B., Manuel Trajtenberg, and Rebecca Henderson. 1993. “Geographic Localization of Knowl-
+edge Spillovers as Evidenced by Patent Citations.” The Quarterly Journal of Economics 108 (3):577–
+598.
+Javorcik, Beata. 2004. “Does foreign direct investment increase the productivity of domestic ﬁrms? In
+search of spillovers through backward linkages.” American economic review 94 (3):605–627.
+Javorcik, Beata Smarzynska and Mariana Spatareanu. 2008. “To share or not to share: Does local par-
+ticipation matter for spillovers from foreign direct investment?” Journal of Development Economics
+85 (1):194 – 217.
+Jiang, Kun, Wolfgang Keller, Larry D Qiu, and William Ridley. 2018. “International joint ventures
+and internal vs. external technology transfer: Evidence from China.” Tech. rep., National Bureau of
+Economic Research.
+Kalouptsidi, Myrto. 2017. “Detection and impact of industrial subsidies: The case of Chinese shipbuild-
+ing.” The Review of Economic Studies 85 (2):1111–1158.
+Karabay, Bilgehan. 2010. “Foreign direct investment and host country policies: A rationale for using
+ownership restrictions.” Journal of Development Economics (93):218–225.
+Kee, Hiau Looi. 2015. “Local intermediate inputs and the shared supplier spillovers of foreign direct
+investment.” Journal of Development Economics 112 (C):56–71.
+Kee, Hiau Looi and Heiwai Tang. 2016. “Domestic Value Added in Exports: Theory and Firm Evidence
+from China.” American Economic Review 106 (6):1402–1436.
+Keller, Wolfgang. 2004.
+“International Technology Diﬀusion.”
+Journal of Economic Literature
+42 (3):752–782.
+Keller, Wolfgang and Stephen R Yeaple. 2009. “Multinational Enterprises, International Trade, and
+Productivity Growth: Firm-Level Evidence from the United States.” The Review of Economics and
+Statistics 91 (4):821–831. URL https://doi.org/10.1162/rest.91.4.821.
+Khandelwal, Amit. 2010. “The long and short (of) quality ladders.” The Review of Economic Studies
+77 (4):1450–1476.
+Kosova, Renata. 2010. “Do foreign ﬁrms crowd out domestic ﬁrms? Evidence from the Czech Republic.”
+The Review of Economics and Statistics 92 (4):861–881.
+Lane, Nathan. 2022.
+“Manufacturing revolutions: Industrial policy and industrialization in South
+Korea.” Available at SSRN 3890311 .
+Lee, David S and Thomas Lemieux. 2010. “Regression discontinuity designs in economics.” Journal of
+economic literature 48 (2):281–355.
+27
+
+
+===== [PAGE 31] =====
+
+Levitt, Steven D., John A. List, and Chad Syverson. 2013. “Toward an Understanding of Learning by
+Doing: Evidence from an Automobile Assembly Plant.” Journal of Political Economy 121 (4):643–681.
+Liu, Jianli. 2019. “History of China’s Foreign Capital Utilization Since 1949: Stage Characteristics,
+Positive Eﬀect and Main Experience.” Management World (11).
+Lu, Yi, Zhigang Tao, and Lianming Zhu. 2017. “Identifying FDI spillovers.” Journal of International
+Economics 107:75–90.
+Macchiavello, Rocco and Josepa Miquel-Florensa. 2019. “Buyer-driven upgrading in gvcs: The sustain-
+able quality program in Colombia.” CEPR Discussion Paper No. DP13935 .
+Maliranta, Mika, Pierre Mohnen, and Petri Rouvinen. 2009. “Is inter-ﬁrm labor mobility a channel of
+knowledge spillovers? Evidence from a linked employer–employee panel.” Industrial and Corporate
+Change 18 (6):1161–1191.
+McCaig, Brian, Nina Pavcnik, and Woan Foong Wong. 2020. “FDI inﬂows and domestic ﬁrms: Adjust-
+ments to new export opportunities.”
+Medina, Pamela. 2017.
+“Import competition, quality upgrading and exporting: Evidence from the
+peruvian apparel industry.” .
+Møen, Jarle. 2005. “Is mobility of technical personnel a source of R&D spillovers?” Journal of labor
+economics 23 (1):81–114.
+Poole, Jennifer P. 2013. “Knowledge transfers from multinational to domestic ﬁrms: Evidence from
+worker mobility.” Review of Economics and Statistics 95 (2):393–406.
+Stoyanov, Andrey and Nikolay Zubanov. 2012a. “Productivity spillovers across ﬁrms through worker
+mobility.” American Economic Journal: Applied Economics 4 (2):168–98.
+———. 2012b. “Productivity Spillovers across Firms through Worker Mobility.” American Economic
+Journal: Applied Economics 4 (2):168–98.
+UNCTAD. 2018. World investment report 2018: Investment and new industrial policies. UN.
+Verhoogen, Eric. 2020. “Firm-Level Upgrading in Developing Countries.” .
+Wollmann, Thomas G. 2018. “Trucks without bailouts: Equilibrium product characteristics for com-
+mercial vehicles.” American Economic Review 108 (6):1364–1406.
+World Bank, Bank. 2018.
+“Global investment competitiveness report 2017/2018: Foreign investor
+perspectives and policy implications.”
+28
+
+
+===== [PAGE 32] =====
+
+Figure 1: Joint Venture Network of the Chinese Auto Industry
+Notes: This ﬁgure is adapted from Figure 1 in Chen, Lawell, and Wang (2020). It describes the joint venture network of the Chinese auto
+market as of 2014. Orange boxes represent aﬃliated SOEs; blue boxes represent foreign partners in JVs; purple boxes represent private domestic
+automakers; red boxes represent nonaﬃliated SOEs. The dashed lines indicate groups of JVs that share the same aﬃliated domestic SOE.
+29
+
+
+===== [PAGE 33] =====
+
+Figure 2: Correlation between Vehicle Price and IQS Scores
+Panel A. Vehicle Price vs. IQS
+0
+10
+20
+30
+40
+Price (thousand yuan)
+50
+100
+150
+200
+250
+300
+Total IQS
+15
+16
+17
+18
+19
+Price (thousand yuan)
+50
+100
+150
+200
+250
+Total IQS
+Panel B. Vehicle Price vs. APEAL
+0
+100
+200
+300
+400
+Price (thousand yuan)
+600
+650
+700
+750
+800
+850
+Total $3($/
+140
+160
+180
+200
+Price (thousand yuan)
+650
+700
+750
+800
+Total $3($/
+Notes: The ﬁgures are binned scatter plots between price and the IQS score (Panel A) and between price and the APEAL score (Panel B) based on data
+from 2009 to 2014. The price data are only available only since 2009. The left ﬁgures control for vehicle size and horsepower/weight. The right ﬁgures
+further add year ﬁxed eﬀects, segment ﬁxed eﬀects, and ownership type ﬁxed eﬀects. A lower IQS indicates fewer defects and hence better quality, while
+a higher APEAL indicates better quality.
+30
+
+
+===== [PAGE 34] =====
+
+Figure 3: Descriptive Patterns of Quality Upgrades
+-500
+-400
+-300
+-200
+-100
+IQS
+2001
+2007
+2014
+Year
+JV
+Aff Domestic
+Non-Aff Domestic
+Notes: The vertical axis reports the IQS score, which is the total number of problems experienced per 100
+vehicles during the ﬁrst 90 days of ownership across nine performance dimensions. We show the average IQS
+score across all models of each ownership type. We multiply the IQS score with -1 so that higher values along
+the y-axis indicate higher quality (for example, -100 denotes a better quality than -300).
+31
+
+
+===== [PAGE 35] =====
+
+Figure 4: Leader–Follower Pattern of Relative Quality Strength
+!"#$
+%#&
+!'#(
+)#)
+!&#*
+!!#(
+!'#&
+!%#%
+!"#$!%&''&()*+ ,-.+%&+/
+01213($45# 6578
+!%&''&()*+ 9:;<
+45#-!+/3=%) >?<
++,-.,/
+0,1/2.32
++,-.,/
+0,1/2.32
++,-.,/ 0,1/2.32
++,-.,/
+0,1/2.32
+Notes: The bars show IQS quality scores for the engine and interior dimensions in 2014. The two
+models on the left are produced by JVs, and those on the right are indigenous brands produced
+by aﬃliated domestic automakers. A larger IQS score indicates more defects and lower quality.
+BMW has better engine performance; so does Brilliance. Toyota excels at interior design; so does
+FAW.
+Figure 5: Diﬀerential Relative Quality Strengths among Leaders
+BMW-Brilliance
+GM-SAIC
+Honda-GAC
+Hyundai-BAIC
+Nissan-DF
+Toyota-GAC
+VW-FAW
+Firm
+-2
+0
+2
+4
+Relative Strength (weakness)
+Driving Dynamics
+BMW-Brilliance
+GM-SAIC
+Honda-GAC
+Hyundai-BAIC
+Nissan-DF
+Toyota-GAC
+VW-FAW
+Firm
+-2
+-1
+0
+1
+Relative Strength (weakness)
+Engine
+BMW-Brilliance
+GM-SAIC
+Honda-GAC
+Hyundai-BAIC
+Nissan-DF
+Toyota-GAC
+VW-FAW
+Firm
+-3
+-2
+-1
+0
+1
+2
+Relative Strength (weakness)
+Fuel Efﬁciency
+Notes: This ﬁgure shows relative quality strengths (after model-year and quality-dimension-segment ﬁxed
+eﬀects are partialed out) across JVs along three vehicle performance dimensions measured in the APEAL,
+namely, driving dynamics, engine and fuel eﬃciency.
+Each circle represents a model produced by a given
+automaker. The sample includes vehicle models in all segments in 2014.
+32
+
+
+===== [PAGE 36] =====
+
+Figure 6: Eﬀects of Lifting Quid Pro Quo in 2007
+-350
+-300
+-250
+-200
+-150
+-100
+Average IQS Score
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+Year
+JV, observed
+Non-Aff. Domestic, observed
+Aff. Domestic, observed
+Aff. Domestic, remove policy
+-350
+-300
+-250
+-200
+-150
+-100
+Average IQS Score
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+Year
+JV, observed
+Aff. Domestic, observed
+Non-Aff. Domestic, remove policy
+Aff. Domestic, remove policy
+Notes: The solid lines plot the observed quality improvement in terms of the total IQS score for JV and
+domestic models. The dashed line shows the counterfactual quality dynamics of aﬃliated domestic models if
+the quid pro quo had been lifted in 2006. The ﬁrst panel assumes that knowledge spillover and learning that
+domestic aﬃliated ﬁrms experience in a given year are proportional to the diﬀerence between the JV model
+quality in that year and domestic model quality in 2007.
+The second panel assumes that learning occurs
+cumulatively each year. The beneﬁt that aﬃliated domestic automakers receive in a particular year embodies
+all past learning with no depreciation, where learning in a given year is proportional to the quality diﬀerence
+in that year. These two scenarios bound the eﬀect of quid pro quo.
+33
+
+
+===== [PAGE 37] =====
+
+Table 1: Summary Statistics: IQS and APEAL Scores
+Ownership
+JV
+Aﬃliated Domestic automakers
+Nonaﬃliated Domestic automakers
+Year
+2003
+2014
+2003
+2014
+2003
+2014
+Mean
+Std
+Mean
+Std
+Mean
+Std
+Mean
+Std
+Mean
+Std
+Mean
+Std
+Panel A: IQS scores
+IQS 1: Audio/entertainment/navigation
+19.7
+11.9
+5.2
+2.8
+34.9
+19.5
+4.2
+3.3
+16.1
+4.8
+4.3
+2.9
+IQS 2: The driving experience
+66.6
+31.0
+20.3
+7.0
+102.1
+30.1
+25.8
+7.7
+77.9
+31.2
+27.3
+6.2
+IQS 3: Engine
+38.0
+19.9
+18.6
+7.6
+74.8
+46.2
+21.5
+6.4
+44.4
+16.6
+25.2
+5.9
+IQS 4: Features/controls/displays
+25.8
+30.7
+9.8
+3.4
+39.1
+30.3
+12.3
+6.3
+36.5
+22.5
+12.6
+4.4
+IQS 5: HVAC problems
+34.5
+20.8
+8.9
+4.4
+60.2
+28.4
+11.5
+6.1
+37.0
+10.9
+11.9
+5.4
+IQS 6: Interior problems
+15.7
+10.1
+7.8
+3.6
+40.8
+25.1
+9.7
+3.4
+23.0
+17.8
+10.5
+4.9
+IQS 7: Seat problems
+31.3
+19.7
+4.5
+2.5
+54.3
+27.2
+5.1
+2.4
+41.0
+18.1
+5.3
+2.9
+IQS 8: Transmission
+20.6
+16.1
+7.1
+4.7
+44.1
+9.0
+12.8
+4.1
+26.4
+19.2
+16.5
+4.6
+IQS 9: Exterior problems
+26.0
+15.5
+12.8
+5.9
+57.6
+27.0
+20.5
+8.2
+46.2
+12.2
+18.9
+6.4
+IQS total
+278.1
+132.0
+94.9
+22.8
+507.8
+222.7
+123.4
+24.3
+348.5
+126.8
+132.6
+19.7
+Panel B: APEAL scores
+APEAL 1: Audio, entertainment, and navigation
+79.3
+5.4
+97.4
+19.3
+73.3
+5.1
+93.4
+15.8
+76.1
+4.6
+90.9
+15.0
+APEAL 2: Engine and transmission
+81.0
+10.3
+40.3
+1.3
+64.6
+14.7
+38.6
+0.8
+69.0
+13.8
+38.4
+0.9
+APEAL 3: Exterior
+97.8
+6.2
+57.6
+1.8
+92.3
+3.7
+55.6
+1.1
+94.3
+4.7
+55.2
+0.9
+APEAL 4: Heating, ventilation, and air conditioning
+89.9
+5.6
+64.6
+2.1
+82.6
+4.7
+62.3
+1.2
+88.9
+7.1
+61.9
+1.1
+APEAL 5: Visibility and driving safety
+32.0
+1.9
+72.2
+3.7
+30.6
+1.4
+69.5
+3.4
+31.0
+1.3
+69.1
+3.1
+APEAL 6: Driving dynamics
+64.1
+4.1
+64.5
+2.1
+59.1
+4.2
+62.2
+1.5
+60.5
+4.3
+61.8
+1.3
+APEAL 7: Fuel economy
+7.4
+0.5
+15.9
+0.4
+7.4
+0.6
+15.4
+0.3
+7.2
+0.4
+15.3
+0.4
+APEAL 8: Interior
+138.0
+7.8
+112.5
+3.5
+129.2
+5.3
+108.8
+2.0
+132.5
+6.2
+108.2
+1.8
+APEAL 9: Seats
+104.8
+10.0
+113.5
+5.5
+96.5
+6.2
+109.8
+4.0
+110.2
+15.8
+108.5
+2.0
+APEAL 10: Storage and space
+93.7
+7.0
+87.8
+4.5
+87.4
+6.5
+82.8
+4.7
+91.0
+8.7
+83.2
+3.8
+APEAL total
+788.0
+49.9
+726.3
+37.1
+722.9
+48.8
+698.4
+24.1
+760.7
+57.8
+692.3
+21.3
+Num of automakers
+15
+25
+3
+10
+3
+5
+Num of models
+27
+118
+4
+30
+4
+19
+Notes: The year 2003 is the ﬁrst year of the APEAL survey. The scores are at the model-by-year level, averaged over responses from approximately 100 car owners
+for each model-year. IQS scores measure the number of problems per 100 vehicles in the ﬁrst three months of ownership across nine dimensions. APEAL scores
+are user satisfaction ratings on ten vehicle performance dimensions. Nonaﬃliated domestic automakers include all private Chinese automakers and nonaﬃliated
+SOEs that are not part of any JVs.
+34
+
+
+===== [PAGE 38] =====
+
+Table 2: Relative Quality Strength among JVs
+(1)
+(2)
+(3)
+(4)
+(5)
+6
+LeaderScore
+-0.020***
+-0.016***
+-0.020***
+-0.017***
+-0.019***
+-0.019***
+(0.001)
+(0.001)
+(0.001)
+(0.001)
+(0.001)
+(0.001)
+× SameFirm
+0.312***
+0.238***
+0.302***
+0.256***
+0.301***
+0.284***
+(0.023)
+(0.018)
+(0.022)
+(0.018)
+(0.021)
+(0.019)
+Observations
+790,215
+790,215
+790,215
+790,215
+790,215
+775,222
+Partialling out:
+Firm FE
+✓
+✓
+Firm-year FE
+✓
+Model FE
+✓
+Model-year FE
+✓
+✓
+Dimension-year FE
+✓
+✓
+✓
+✓
+✓
+Dimension-Segment FE
+✓
+✓
+✓
+✓
+✓
+Dimension-Segment-Year FE
+✓
+Notes: We randomly assign each JV model to be either a follower or a leader (with a 50% chance each) and match each
+leader and follower into pairs. The dependent variable is the quality score of a follower model. The unit of observation is
+a model pair-year-quality dimension. Both leader and follower scores are residualized scores after the set of ﬁxed eﬀects
+speciﬁed under each column is partialed out.
+Standard errors are clustered at the follower ﬁrm-dimension and leader
+ﬁrm-dimension level. *** implies signiﬁcance at the 0.01 level, ** at 0.05, and * at 0.1.
+35
+
+
+===== [PAGE 39] =====
+
+Table 3: Knowledge Spillover from JVs to Domestic Firms
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+JVScore
+-0.001
+-0.008***
+-0.006***
+-0.009***
+-0.007***
+-0.001
+(0.001)
+(0.001)
+(0.001)
+(0.001)
+(0.001)
+(0.001)
+× SameGroup
+0.019
+-0.001
+0.004
+0.017
+0.006
+0.016
+(0.017)
+(0.017)
+(0.013)
+(0.018)
+(0.016)
+(0.010)
+× SameSeg
+0.043***
+0.029***
+0.040***
+0.033***
+-0.005***
+(0.008)
+(0.006)
+(0.008)
+(0.006)
+(0.001)
+× SameGroup × SameSeg
+0.108***
+0.090***
+0.116***
+0.112***
+0.087***
+(0.018)
+(0.017)
+(0.019)
+(0.019)
+(0.018)
+Observations
+738,948
+738,948
+738,948
+738,948
+738,948
+717,500
+Partialing out:
+Firm FE
+✓
+✓
+Firm-year FE
+✓
+Model FE
+✓
+Model-year FE
+✓
+✓
+Dimension-year FE
+✓
+✓
+✓
+✓
+✓
+Dimension-Segment FE
+✓
+✓
+✓
+✓
+✓
+Dimension-Segment-Year FE
+✓
+Notes: The dependent variable is the quality score of a domestic model. We consider all pairs of models produced by
+JVs and domestic automakers. The unit of observation is a pair-year-quality dimension. Both leader (JV) and follower
+(domestic) scores are residualized scores after various ﬁxed eﬀects are partialed out. SameGroup equals 1 if the two
+models belong to a pair of aﬃliated automakers. SameSeg equals 1 if the two models belong to the same vehicle segment.
+Standard errors are clustered at the follower ﬁrm-dimension and leader ﬁrm-dimension level. *** implies signiﬁcance at
+the 0.01 level, ** at 0.05, and * at 0.1.
+36
+
+
+===== [PAGE 40] =====
+
+Table 4: Results on Endogenous JV Formation
+(1)
+(2)
+(3)
+Founding Year
+All
+All
+JVs Formed After 2000
+JVScore
+-0.006***
+-0.010***
+0.001
+(0.002)
+(0.004)
+(0.002)
+× SameGroup
+0.097***
+(0.019)
+× SameGroup × JVs Formed Before 2000
+0.145***
+(0.027)
+× SameGroup × JVs Formed After 2000
+-0.014
+(0.026)
+× SameGroup × JVs Formed After 2000 and Age ≤3
+-0.232***
+(0.070)
+× SameGroup × JVs Formed After 2000 and Age ∈[4,5]
+-0.110
+(0.081)
+× SameGroup × JVs Formed After 2000 and Age ∈[6,10]
+-0.047
+(0.048)
+× SameGroup × JVs Formed After 2000 and Age > 10
+0.072***
+(0.030)
+Observations
+138,540
+138,540
+55,098
+Partialling out:
+Model-Year FE
+✓
+✓
+✓
+Segment-Dimension-Year FE
+✓
+✓
+✓
+Notes: The dependent variable is the quality score of a domestic model. We focus on pairs of models produced by JVs and domestic
+automakers in the same segment, which explains the smaller number of observations than in Table 3. The unit of observation is a
+pair-year-quality dimension. Column (1) replicates our main result in Column (6) of Table 3. Column (2) examines heterogeneous
+eﬀects between JVs formed before and after 2000. In Column (3), we restrict the sample to pairs that involve models produced by
+JVs formed after 2000 and estimate separate knowledge spillover eﬀects for groups with diﬀerent years of JV formation. Standard
+errors are clustered at the follower ﬁrm-dimension and leader ﬁrm-dimension level. *** implies signiﬁcance at the 0.01 level, ** at
+0.05, and * at 0.1.
+37
+
+
+===== [PAGE 41] =====
+
+Table 5: Spillover through Ownership and Geographical Networks
+JVScore interacted with
+(1)
+(2)
+× SameGroup
+0.097***
+(0.019)
+× DiﬀGroup
+-0.006***
+(0.002)
+× SameGroup × SameProv
+0.114***
+(0.028)
+× SameGroup × DiﬀProv
+0.080**
+(0.025)
+× DiﬀGroup × SameProv
+0.037
+(0.044)
+× DiﬀGroup × DiﬀProv
+-0.006***
+(0.002)
+Observations
+138,540
+138,540
+Partialing out:
+Model-Year FE
+✓
+✓
+Segment-Dimension-Year FE
+✓
+✓
+Notes: The dependent variable is the quality score of a domes-
+tic model. The sample consists of domestic–JV pairs in the same
+vehicle segment where spillover is concentrated. The unit of ob-
+servation is a pair-year-quality dimension. Both leader (JV) and
+follower (domestic) scores are residualized scores after model-year
+and dimension-segment-year ﬁxed eﬀects are partialed out. Inter-
+action terms are dummy variables indicating whether the two mod-
+els belong to the same aﬃliated group of automakers (SameGroup)
+or are located in the same province (SameProv).
+Standard er-
+rors are clustered at the follower ﬁrm-dimension and leader ﬁrm-
+dimension level. *** implies signiﬁcance at the 0.01 level, ** at
+0.05, and * at 0.1.
+38
+
+
+===== [PAGE 42] =====
+
+Table 6: Mechanism of Knowledge Spillover: Worker Flow
+(1)
+(2)
+(3)
+(4)
+JVScore
+-0.006***
+-0.005
+-0.006***
+-0.006
+(0.001)
+(0.003)
+(0.002)
+(0.005)
+× SameGroup
+0.103***
+0.038*
+0.027
+0.044**
+(0.022)
+(0.022)
+(0.025)
+(0.020)
+× JVDomFlow
+-0.001
+-0.003
+-0.011***
+(0.002)
+(0.003)
+(0.002)
+× SameGroup × JVDomFlow
+0.023***
+0.023***
+0.046***
+(0.006)
+(0.006)
+(0.008)
+× DomJVFlow
+0.006
+(0.004)
+× SameGroup × DomJVFlow
+0.000
+(0.005)
+× JVDomFlow × HighTechShare
+0.073***
+(0.016)
+× SameGroup × JVDomFlow × HighTechShare
+0.033
+(0.049)
+Observations
+138,540
+138,540
+138,540
+80,621
+Partialing out:
+Model-Year FE
+✓
+✓
+✓
+✓
+Dimension-Segment-Year FE
+✓
+✓
+✓
+✓
+Notes: The dependent variable is the quality score of a domestic model. The sample consists of domestic–JV pairs
+in the same vehicle segment. The unit of observation is a pair-year-quality dimension. Both leader (JV) and follower
+(domestic) scores are residualized scores after model-year and dimension-segment-year ﬁxed eﬀects are partialed
+out. SameGroup is deﬁned as in Table 3. JVDomFlow is a standardized measure of the number of workers who
+moved from a JV to a domestic automaker and vice versa for DomJVFlow. We identify six “HighTech” occupations
+directly related to the IQS quality measures. Those are feature designers, mechanical engineers, software engineers,
+procurement managers, and quality control and R&D professionals. HighTechShare is the z-score of the fraction of
+worker ﬂow in one of these six occupations. Column (4) drops pairs with 0 worker ﬂow (and hence an undeﬁned
+HighTechShare).
+Standard errors are clustered at follower ﬁrm-dimension and leader ﬁrm-dimension level.
+***
+implies signiﬁcance at the 0.01 level, ** at 0.05, and * at 0.1.
+39
+
+
+===== [PAGE 43] =====
+
+Table 7: Mechanism of Knowledge Spillover: Supplier Networks
+(1)
+(2)
+(3)
+(4)
+All
+All
+Since 2012
+Since 2012
+JVScore
+-0.005***
+-0.006***
+-0.004***
+-0.001
+(0.001)
+(0.001)
+(0.000)
+(0.001)
+× SameGroup
+0.098***
+0.084***
+0.060***
+0.033
+(0.021)
+(0.025)
+(0.020)
+(0.020)
+× SupplierOverlapRatio
+0.016***
+0.017***
+(0.001)
+(0.003)
+× SameGroup × SupplierOverlapRatio
+-0.004
+0.020
+(0.016)
+(0.027)
+Observations
+128,354
+128,354
+71,364
+71,364
+Partialling out:
+Model-Year FE
+✓
+✓
+✓
+✓
+Dimension-Segment-Year FE
+✓
+✓
+✓
+✓
+Notes: The dependent variable is the quality score of a domestic model. The sample consists of domestic–
+JV pairs in the same vehicle segment. The unit of observation is a pair-year-quality dimension. Columns
+(1) and (2) contain pairs from all years from 2001 to 2014.
+Columns (3) and (4) restrict the sample to
+model pairs from 2012 to 2014. Both leader (JV) and follower (domestic) scores are residualized scores after
+model-year and segment-dimension-year ﬁxed eﬀects are partialed out. SameGroup is deﬁned as in Table
+3. SupplierOverlapRatio is deﬁned as the number of common suppliers divided by the number of distinct
+suppliers reported by the pair (the smaller number of the two), standardized across all pairs of models.
+Standard errors are clustered at the follower ﬁrm-dimension and leader ﬁrm-dimension level. *** implies
+signiﬁcance at the 0.01 level, ** at 0.05, and * at 0.1.
+40
+
+
+===== [PAGE 44] =====
+
+Appendices. For Online Publication Only
+A
+Background of JV Formation in the Auto Industry
+At the onset of the Chinese economic reform in 1978, Chinese leader Deng Xiaoping gave permission to
+the automobile industry to bring in foreign investment to develop the industry. Seeking foreign partners,
+China’s First Ministry of Machinery, in charge of automobile production, invited major international
+automakers to visit China. GM was the ﬁrst to send a delegation to China in October 1978. During
+the meeting with government oﬃcials, GM CEO Thomas Murphy put forward the idea of establishing
+a joint venture.
+Albeit a foreign concept to the Chinese hosts, the idea of using joint ventures to
+incentivize foreign automakers to provide technology was quickly reported to Deng Xiaoping. Deng
+supported the idea, which then became a longstanding industrial policy for the nation.45
+The ﬁrst JV was set up in 1983 between American Motors Corporation (AMC, later acquired by
+Chrysler) and Beijing Jeep Corporation Ltd., after four years of negotiations with the involvement of the
+highest levels of Chinese government. According to the ﬁrst Chinese manager of the JV, the initiative
+to form this JV was approved by Deng Xiaoping and six vice premiers. The signing ceremony took
+place in the Great Hall of the People, signifying the critical role played by the central government.
+Present during the ceremony was the Vice Premier and Minister of the Ministry of Foreign Trade and
+Economic Cooperation, Chen Muhua, together with other high-level government oﬃcials. The ﬁrst
+model produced by the joint venture was the Jeep Cherokee, a popular model in the US market and
+chosen by Chen on her ﬁrst trip to visit AMC, instead of the obsolete BJ models initially agreed upon
+by both parties.46
+The second joint venture was formed in 1984 between Volkswagen (50% equity), Shanghai Tractor
+Corporation (25% equity), Bank of China Shanghai Trust & Consulting Company (15%), and China
+Automotive Industry Corporation (10%). China’s central government again played a major role in the
+JV formation. In hopes of securing a partnership with Daimler-Benz, the Minister of the First Ministry
+of Machinery (Zhou Zijian) led a delegation to visit Daimler-Benz’s headquarters in November 1978.
+When Zhou arrived in Germany, he was surprised that Volkswagen (an unknown brand to China at
+the time)—not Benz—was the most popular brand on the street. He decided to visit Volkswagen’s
+headquarters, some 500 km from the original destination. The surprise visit to Volkswagen led to the
+VW–Shanghai JV (later renamed VW–SAIC) six years later, again with a signing ceremony in the
+Great Hall of the People.47
+These discussions suggest that the establishment of early JVs was primarily determined by political
+and idiosyncratic factors, with heavy involvement from high-level government oﬃcials. There is no
+evidence of concerns regarding the relative technological strengths of domestic automakers, which did
+not exist prior to the wave of JV formations.
+45However, GM’s board of directors vetoed the proposal to invest in China in 1978. Two decades later, in 1997, GM
+entered the Chinese market via a joint venture with Shanghai Automotive Industry Corporation.
+46See http://finance.sina.com.cn/chanjing/sdbd/20130924/013316827769.shtml?from=wap.
+47See http://auto.sohu.com/20110118/n278942357.shtml.
+A-1
+
+
+===== [PAGE 45] =====
+
+B
+Consumer Survey on Brand Association
+We leverage an additional consumer survey to gauge consumers’ awareness of JV partnerships in China’s
+automobile industry. The purpose is to examine whether the observed knowledge spillover was driven by
+brand image association, either through consumer perception or ﬁrms’ strategic investment in speciﬁc
+quality dimensions. The survey (see below) was collected by a Chinese market research company and
+covers 200 visitors at car dealers in a large Northern city. The city has no local automakers, which helps
+avoid potential biases arising from better recognition of local JVs.
+The demographic makeup of the survey respondents closely resembles that of the nationally repre-
+sentative survey of vehicle owners described in section 2.2. 69% of the respondents are male. 21% are
+30 years old or below, 31% in the 30s, 28% in the 40s, and 20% above 50 years old. 18% are high-school
+graduates, and 36% have a Bachelor’s degree or above. 80% own or used to own a car.
+The survey questionnaire lists 132 pairs of domestic and foreign ﬁrms. 16 of them have formed JVs.48
+Respondents were asked to check JVs that they recognize. The rows and columns are randomized among
+the respondents to account for potential cognitive biases, e.g., consumers failing to recognize JVs that
+appear later in the table because they get tired.
+ 
+1. Gender漣    Male        Female    
+2.Age漣          <30,     30-40,     40-50      >50  
+3. Education漡 High school or below,     Junior college or diploma,     Bachelor or above 
+4. Do you or your family own or used to own a car:      Yes      No 
+If “yes,” please list all car models you have owned (now and past):  
+5. In the table below, each row is a domestic carmaker, and each column is a foreign carmaker. Please check any joint ventures that you 
+recognize. For example, if domestic carmaker X is a joint venture partner with foreign carmaker Y, please check the cell under row X and 
+column Y. If you think X has multiple joint venture partners, please check all the corresponding cells. If you believe X does not have any joint 
+venture partner, please leave the row blank. 
+澳
+濕濠濪澳
+濕濸瀁瀍澳
+濣濦濔澳
+濛瀂瀁濷濴澳
+濩濪澳
+濧瀂瀌瀂瀇濴澳
+濝濴濺瀈濴瀅澳
+濙瀂瀅濷澳
+濦瀈瀍瀈濾濼澳
+濡濼瀆瀆濴瀁澳
+濚濠澳
+濛瀌瀈瀁濷濴濼澳
+濕濸濼濽濼瀁濺澳濔瀈瀇瀂澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+濕濬濗澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+濖濻濴瀁濺濴瀁澳濔瀈瀇瀂澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+濚瀅濸濴瀇澳濪濴濿濿澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+濙濼瀅瀆瀇澳濔瀈瀇瀂澳濪瀂瀅濾瀆澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+濗瀂瀁濺濹濸瀁濺澳濔瀈瀇瀂澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+濚瀈濴瀁濺瀍濻瀂瀈澳濔瀈瀇瀂澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+濕瀅濼濿濿濼濴瀁濶濸澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+濚濸濸濿瀌澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+濖濻濸瀅瀌澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+濦濻濴瀁濺濻濴濼澳濔瀈瀇瀂澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+澳
+ 
+48The 16 JVs are Beijing-Benz, Beijing-Hyundai, Changan-PSA, Changan-Ford, Changan-Suzuki, FAW-Toyota, FAW-
+VW, Dongfeng-PSA, Dongfeng-Honda, Dongfeng-Nissan, Guangzhou-Honda, Guangzhou-Toyota, Brilliance-BMW, Chery-
+Jaguar, Shanghai-GM, Shanghai-VW.
+A-2
+
+
+===== [PAGE 46] =====
+
+C
+A Simple Model of Knowledge Spillover
+We write a simple learning model to guide the quantiﬁcation exercise in Section 6. We make a couple
+of assumptions. First, we take the linear speciﬁcation in Equation (2) literally and assume that the size
+of spillover among the aﬃliated pairs is proportional to the quality gap between the two. Second, for
+followers with multiple leaders, we use the average leader quality.
+For illustration purposes, we assume that domestic models (followers) beneﬁt from knowledge
+spillover from aﬃliated JVs (leaders) every year.
+This is not crucial to the quantiﬁcation exercise
+and we present alternative results that do not rely on this assumption. Formally, let qk
+t denote the
+observed quality of the follower in quality dimension k in year t. Let δk
+t = ¯δt + εk
+t denote the baseline
+quality of the follower in dimension k in the absence of knowledge spillover. It consists of a component ¯δt
+common to all quality dimensions and a dimension-speciﬁc component εk
+t . Let Qk
+t denote the observed
+quality of a leader in quality dimension k and year t. It can be similarly decomposed into ¯Qt and µk
+t ,
+where µk
+t measures quality-speciﬁc comparative (dis)advantage. Let ρ denote the intensity of spillover.
+We write:
+qk
+t
+=
+δk
+t + ρ(Qk
+t −δk
+t )
+(C.1)
+=
+(1 −ρ)¯δt + ρ ¯Qt
+|
+{z
+}
+follower model-year FE
++ρµk
+t + (1 −ρ)εk
+t
+(C.2)
+Let ξk denote the follower’s residualized quality scores in dimension k. It follows that:
+ξk
+t = ρµk
+t + (1 −ρ)εk
+t
+(C.3)
+This expression maps to our pairwise empirical framework. Intuitively, knowledge spillover trans-
+lates into similar quality strengths between the leader and the follower, ρµk
+t . The intrinsic relative
+quality strength of follower in the absence of spillover, εk
+t , shows up as a noise in the estimation. The
+identiﬁcation assumption is that the follower’s intrinsic quality strength εk
+t is independent from the
+leader’s quality strength µk
+t . We examine and rule out potential threats to this assumption, such as
+endogenous JV formation, overlapping consumer base, and direct technology transfer in Section 4.2.
+We impute the value of ρ using our reduced-form estimates, and use Equation (C.1) to back out the
+extent of knowledge spillover between each leader-follower pair in each year. For domestic models with
+multiple leaders, we calculate average spillover from the set of leaders. The reduction in quality of a
+follower when quid pro quo was lifted in 2007 is the sum of spillover between 2007 and year t.
+A-3
+
+
+===== [PAGE 47] =====
+
+D
+Eﬀects of Knowledge Spillover on Vehicle Sales and Proﬁts
+We estimate an equilibrium model of demand and supply in the tradition of Berry, Levinsohn, and
+Pakes (1995) to quantify the eﬀects of knowledge spillover on vehicle sales and ﬁrm proﬁts. Speciﬁcally,
+we extend the model in Barwick, Cao, and Li (2020) by allowing both demand and cost of production
+to depend on vehicle quality measured by IQS. The model would allow us to simulate counterfactual
+equilibrium outcomes (e.g., prices and sales) when we lift quid pro quo.
+D.1
+A Structural Model of the Automobile Market
+Our primary data covers provincial-level annual sales and vehicle attributes by model between 2009 and
+2014. We deﬁne a province-year as a market. In each market, each household chooses from Jmt models
+to maximize its utility. We deﬁne the indirect utility of household i buying product j in market m and
+year t as:
+¯uijmt = γqj,t−1 −αimtpjt +
+K
+X
+k=1
+Xjkt ˜βikmt + ξjmt + εijmt.
+Utility depends on past vehicle quality qj,t−1, price pjt, vehicle attributes Xjkt, unobserved demand
+shock ξjmt, and an idiosyncratic match value εijmt that follows the type I extreme value distribution.
+We measure quality using the IQS score, for which a higher score indicates lower quality. We assume
+that it takes one year for consumers to observe quality (hence the lagged qj,t−1). Past quality aﬀects
+brand reputation, which inﬂuences demand. Household i’s marginal utility from a dollar, αimt, is deﬁned
+as
+αimt = eα0+α1ln(yimt)+σpνimt,
+where yimt is the annual income of household i in province m in year t. Parameter α1 captures how the
+marginal utility from a dollar changes as the household gets richer. The second component σpνimt is a
+random shock representing idiosyncratic factors that inﬂuence price elasticity, such as inheritance and
+assets accumulated in the past. We assume that all households dislike higher prices, as the exponential
+form guarantees.
+Xjt is a vector of vehicle attributes, including the log of fuel cost, vehicle size, engine size, and a
+dummy for automatic transmission. It also includes brand ﬁxed eﬀects, segment by market ﬁxed eﬀects,
+and year ﬁxed eﬀects. We allow a random coeﬃcient on the constant term to capture heterogeneity
+in households’ outside options. The last element, ξjmt, captures all unobserved product attributes or
+transient demand shocks.
+On the supply side, we follow the literature and assume that all ﬁrms set prices at the national
+level to maximize proﬁts under Bertrand-Nash competition. The marginal cost of product j in year t
+A-4
+
+
+===== [PAGE 48] =====
+
+depends on vehicle quality, other vehicle attributes, and a random cost shock:
+mcjt = qjtφ + Wjtθ + ωjt,
+(D.4)
+Parameter φ measures the marginal cost of quality improvement, such as additional costs incurred
+in sourcing better parts and components. Firms also incur ﬁxed costs in quality improvement, such as
+in getting technology breakthroughs or access to exclusive, high-quality suppliers. We do not model the
+ﬁxed costs explicitly. The gains in variable proﬁts from quality improvement provide an upper bound
+on the ﬁxed cost.
+D.2
+Identiﬁcation and Estimation
+To identify households’ marginal utility from a dollar, we need to address both the endogeneity of prices
+and the fact that market shares need to be “instrumented” in a non-linear model (Berry and Haile,
+2014). To this end, we leverage three sets of instruments: the “BLP instruments”, consumption tax
+rates, and panel variations in household income. In addition, we identify the preference heterogeneity
+across diﬀerent income groups using a representative survey of new vehicle buyers conducted by Ford,
+which shows the fractions of households in diﬀerent income brackets among all new-car buyers, and
+among buyers in each vehicle segment. Our identiﬁcation strategy closely follows Barwick, Cao, and Li
+(2020), where we provide additional details on identiﬁcation and estimation.
+To identify preferences for quality γ, we assume that lagged vehicle quality qj,t−1 is uncorrelated
+with unobserved product attributes ξjmt after controlling for brand ﬁxed eﬀects and year ﬁxed eﬀects.
+We consider this assumption reasonable because past quality was decided before transient demand
+shocks are realized, conditioning on brand and year ﬁxed eﬀects. With these ﬁxed eﬀects, we identify
+consumers’ preferences for quality from two sources of variations: cross-sectional variations in quality
+between diﬀerent products of the same brand and the changes in quality of each product over time.
+D.3
+Results
+Table D.1 shows results from demand estimation. In column (1), where we do not control for brand
+ﬁxed eﬀects, the IQS coeﬃcient also picks up the eﬀects of persistent brand reputation correlated with
+car quality. When we control for brand ﬁxed eﬀects in column (2), we ﬁnd a smaller but still sizeable
+eﬀect of past car quality on demand. The estimate implies that the elasticity of demand to IQS is about
+-0.60, and an average car buyer is willing to pay around 100 yuan for one unit improvement in IQS (i.e.,
+one fewer defect).
+Coeﬃcients on all other main vehicle attributes are intuitively signed and statistically signiﬁcant. All
+else equal, consumers prefer more fuel-eﬃcient, larger, and more powerful vehicles, as well as vehicles
+with automatic transmission.
+Wealthier households are less price sensitive, and there is signiﬁcant
+heterogeneity in the access to the outside option among consumers.
+Table D.2 shows results from the supply side. Coeﬃcient estimates on all key vehicle attributes are
+intuitively signed. Improving IQS by one unit increases the marginal cost by around 38 yuan. Combined
+A-5
+
+
+===== [PAGE 49] =====
+
+with the demand-side estimates, our results imply that improving IQS by one unit on average increases
+variable proﬁt by around 62 yuan per car.
+With the model parameters estimated for both the demand and supply sides, we simulate equilibrium
+market outcomes allowing vehicle prices to adjust after lifting quid pro quo, under diﬀerent scenarios of
+learning and hence quality improvement. Table D.3 presents the impacts on sales and proﬁt by diﬀerent
+types of automakers. When we assume learning is static (that is, the beneﬁt that domestic aﬃliated
+ﬁrms experience in a given year is proportional to the gap between this year’s JV quality and domestic
+quality in 2007), we ﬁnd that lifting qud pro quo in 2007 would reduce sales of aﬃliated domestic models
+in 2014 by 0.9%. Sales of nonaﬃliated domestic and JV models would increase by less than 0.1% due
+to reduced competition. When we assume that cumulative learning, sales of aﬃliated domestic models
+would fall by 3.9%. As shown in Table D.3, impacts on ﬁrm proﬁts are similar given the small changes
+of vehicle prices.
+Overall, lifting quid pro quo in 2007 would have reduced sales of aﬃliated domestic models in 2014
+by between 0.9% and 3.9%, and sales of all domestic models by between 0.5% and 2.0%. Total variable
+proﬁts by domestic automakers would fall by between 330 and 1,120 million yuan ($50 - $165 million).
+Table D.1: Results from the Demand Model
+(1)
+(2)
+Est.
+S.E.
+Est.
+S.E
+Linear Parameters
+IQS (prior year)
+-0.70***
+0.04
+-0.39***
+0.05
+log(Fuel cost)
+-2.34***
+0.25
+-0.81***
+0.24
+log(Size)
+10.41***
+0.37
+19.92***
+0.48
+log(Displacement)
+1.32***
+0.19
+3.98***
+0.22
+Auto Transmission
+1.21***
+0.03
+1.50***
+0.04
+Nonlinear Parameters
+Price coeﬀα0
+-5.39***
+0.87
+-2.64***
+0.24
+Income parameter, α1
+-1.30***
+0.07
+0.76***
+0.05
+RC Constant, σ1
+7.68***
+0.51
+7.96***
+0.27
+RC price, σp
+0.22***
+0.06
+0.00
+0.03
+Fixed Eﬀects:
+Year FE
+✓
+✓
+Segment-market FE
+✓
+✓
+Firm Type FE
+✓
+Brand FE
+✓
+Notes:
+The table presents results from a random coeﬃcient
+multinomial logit model (`a la BLP). The linear parameters cap-
+ture the average preference across households while nonlinear
+parameters capture preference heterogeneity. We use three sets
+of IVs for identiﬁcation: the BLP instruments, consumption tax
+rates which varies by engine size, and panel variations in house-
+hold income. The ﬁrst-stage F-statistic is 713.2 for both columns.
+The standard errors are clustered at the ﬁrm level. * p < 0.1,
+** p<0.05, *** p<0.01.
+A-6
+
+
+===== [PAGE 50] =====
+
+Table D.2: Results from the Supply Side
+(1)
+(2)
+Est.
+S.E.
+Est.
+S.E
+IQS (Current)
+0.046***
+0.005
+0.037***
+0.005
+log (Fuel cost)
+-27.53***
+5.04
+-31.65***
+5.53
+log (Size)
+145.77***
+2.74
+168.89***
+2.70
+log (Displacement)
+86.48***
+3.73
+96.56***
+3.71
+Auto Transmission
+6.14***
+0.51
+7.74***
+0.49
+Fixed Eﬀects:
+Year FE
+✓
+✓
+Segment-market FE
+✓
+✓
+Firm Type FE
+✓
+Brand FE
+✓
+Note: The table presents parameter estimates for the marginal cost
+of production. The dependent variable is the marginal cost (’000
+yuan) of each model. The standard errors are clustered at the ﬁrm
+level. * p < 0.1, ** p<0.05, *** p<0.01.
+Table D.3: Equilibrium Impacts of Knowledge Spillover on Sales and Proﬁts
+Current
+CF, one-shot
+% change
+CF, cumulative
+% change
+Sales (milion), aﬀdomestic
+1.79
+1.77
+-0.86%
+1.74
+-3.90%
+Sales (milion), nonaﬀdomestic
+1.68
+1.68
+0.06%
+1.68
+0.20%
+Sales (milion), JV
+10.78
+10.79
+0.04%
+10.80
+0.15%
+Proﬁts (bil yuan), aﬀdomestic
+32.33
+32.00
+-1.02%
+31.21
+-3.49%
+Notes: This table shows the eﬀects of lifting quid pro quo in 2007 on car sales and proﬁts in 2014. “Aﬀ
+domestic” denote domestic automakers that form JVs with foreign automakers. Sales are measured in million
+units. Proﬁts are measured in billion yuan.
+A-7
+
+
+===== [PAGE 51] =====
+
+E
+Figures and Tables
+Figure E.1: Number of Models by Ownership Over Time
+0
+50
+100
+150
+Number of models
+2000
+2005
+2010
+2015
+Year
+JV
+Affiliated Domestic
+Non-Affiliated Domestic
+Notes: Thig ﬁgure shows the the number models of each ﬁrm type covered by the J.D. Power
+surveys in each year. Aﬃliated domestic ﬁrms are the domestic automakers that have joint ven-
+tures with foreign automakers. They are all SOEs. The number of models from these automakers
+indicates the indigenous brands, i.e., brands produced solely by the domestic automakers. Nonaf-
+ﬁliated domestic automakers are those automakers that do not have joint ventures.
+Figure E.2: Entry of Joint Ventures
+0
+10
+20
+30
+Number of JVs in the Chinese Auto Market
+1984
+1990
+1995
+2000
+2005
+2010
+2014
+Year
+Notes: The ﬁgure plots the number of JVs in the Chinese auto market over time. Signiﬁcant entries
+include: (1) 1984-1994: VW-Shanghai, VW-FAW, PSA-Dongfeng, Suzuki-Changan; (2) 1994-2000:
+GM-Shanghai, Honda-Guangzhou, Toyota-FAW, Suzuki-Changhe; (3) post 2000: Ford-Changan,
+Nissan-Dongfeng, Hyundai-Beijing, BMW-Brilliance.
+A-8
+
+
+===== [PAGE 52] =====
+
+Figure E.3: Growth of the Chinese Auto Industry by Ownership Type
+Panel A. Performance of JVs and Domestic automakers
+2
+4
+6
+8
+10
+12
+Quantity of new vehnicle sales (in millions)
+0
+500
+1000
+1500
+2000
+Value of new vehicle sales (in billion RMB)
+2009
+2010
+2011
+2012
+2013
+2014
+Year
+JV sales value
+Domestic sales value
+JV sales quantity
+Domestic sales quantity
+Panel B. Performance among Domestic automakers
+1
+1.2
+1.4
+1.6
+1.8
+Quantity of new vehnicle sales (in millions)
+60
+80
+100
+120
+140
+Value of new vehicle sales (in billion RMB)
+2009
+2010
+2011
+2012
+2013
+2014
+Year
+Aff. Domestic sales value
+Non-Aff. Domestic sales value
+Aff. Domestic sales quantity
+Non-Aff. Domestic sales quantity
+Notes: Sales value and quantity are calculated using the license registration database. The sample
+contains all models that cumulatively account for 95% of total passenger vehicle sales in China in
+each year. It does not include imported models, which account for around 3% of total sales.
+A-9
+
+
+===== [PAGE 53] =====
+
+Figure E.4: Geographical Distribution of Vehicle Production Plants in China
+Notes: This ﬁgures shows a map of vehicle production sites in China. Each circle represents a city. Colors of
+the circle indicate the ownership composition of the production plants located in a given city.
+Figure E.5: Results from Consumer Survey
+Notes: This ﬁgure reports the share of respondents in our consumer survey who correctly recognized various
+JVs. 200 visitors were surveyed at car dealer stores in a large city in Northern China. Respondents were asked
+to check the JVs they recognized out of 132 pairs of domestic and foreign automakers.
+A-10
+
+
+===== [PAGE 54] =====
+
+Table E.1: Joint Ventures in the Chinese Passenger Vehicle Market
+Joint Venture
+Foreign Partner
+Chinese Partner
+2014 Sales
+2014 Shares
+VW-FAW
+Volkswagen
+First Auto Works
+1668
+.113
+VW-Shanghai
+Volkswagen
+Shanghai Auto
+1633
+.111
+GM-Shanghai
+General Motors
+Shanghai Auto
+1510
+.102
+Hyundai-Beijing
+Hyundai
+Beijing Auto
+1067
+.072
+Nissan-Dongfeng
+Nissan
+Dongfeng Motors
+920
+.062
+Ford-Changan
+Ford
+Changan Auto
+853
+.058
+Citroen-Dongfeng
+PSA
+Dongfeng Motors
+658
+.045
+Toyota-FAW
+Toyota
+First Auto Works
+568
+.039
+Kia-Yueda-Dongfeng
+Kia Motors
+Dongfeng Motors
+562
+.038
+Honda-Guangzhou
+Honda
+Guangzhou Auto
+424
+.029
+Toyota-Guangzhou
+Toyota
+Guangzhou Auto
+333
+.023
+Honda-Dongfeng
+Honda
+Dongfeng Motors
+297
+.020
+BMW-Brilliance
+BMW
+Brilliance Auto
+259
+.018
+GM-Shanghai-Wuling
+General Motors
+Shanghai Auto
+154
+.010
+Mercedes-Beijing
+Daimler
+Beijing Auto
+147
+.010
+Suzuki-Changan
+Suzuki
+Changan Auto
+143
+.010
+Mazda-FAW
+Mazda
+First Auto Works
+94
+.006
+Suzuki-Changhe
+Suzuki
+Changhe Auto
+87
+.006
+Mitsubishi-Southeast
+Mitsubishi
+Southeast Auto
+69
+.005
+Fiat-Guangzhou
+Fiat
+Guangzhou Auto
+60
+.004
+Mitsubishi-Guangzhou
+Mitsubishi
+Guangzhou Auto
+49
+.003
+JMC
+Ford, Isuzu
+Jiangling Motors
+43
+.003
+Landrover-Chery
+Jaguar Land Rover
+Chery
+Inﬁnity-Dongfeng
+Nissan
+Dongfeng Motors
+Qoros
+Israel Corporation
+Chery
+Citroen-Changan
+Citroen
+Changan Auto
+Total
+11598
+0.79
+Notes: This table shows the sales quantity and market shares of JVs in 2014. Sales are denoted in thousand.
+Landrover-Chery, Inﬁnity-Dongfeng, Qoros, Ciroen-Changan had released models by 2014, but their sales was not
+captured by the License registrations data until 2015.
+A-11
+
+
+===== [PAGE 55] =====
+
+Table E.2: Location of Auto Assembly Plants in China
+City
+Province
+JV
+SOE
+Private
+Panel A. Northeastern Region
+Changchun
+Jilin
+Toyota-FAW, VW-FAW, Mazda-FAW
+FAW
+Jilin
+Jilin
+Daihatsu-FAW
+Shanyang
+Liaoning
+GM-Shanghai, BMW-Brilliance
+Brilliance
+Haerbin
+Heilongjiang
+Hafei
+Panel B. Northern Region
+Beijing
+Beijing
+Mercedes-Beijing, Hyundai-Beijing
+BAIC, BAIC-Foton, Changan
+Tianjin
+Tianjin
+Toyota-FAW
+FAW-Xiali
+Great Wall
+Boading
+Hebei
+Great Wall
+Erdos
+Neimenggu
+Huatai
+Panel C. Eastern Region
+Shanghai
+Shanghai
+VW-Shanghai, GM-Shanghai
+SAIC, Chery
+Geely
+Hangzhou
+Zhejiang
+Ford-Changan
+DF-Yulong, GAC-Gonow
+Zotye
+Ningbo
+Zhejiang
+VW-FAW
+Geely
+Taizhou
+Zhejiang
+Geely
+Jinhua
+Zhejiang
+Zotye
+Hefei
+Anhui
+JAC
+Wuhu
+Anhui
+Chery
+Dongying
+Shandong
+GAC-Gonow
+Weihai
+Shandong
+Huatai
+Jinan
+Shandong
+Geely
+Yantai
+Shandong
+GM-Shanghai
+Nanjing
+Jiangsu
+Ford-Changan, VW-SAIC
+SAIC, Changan
+Changzhou
+Jiangsu
+Zotye
+Yangzhou
+Jiangsu
+VW-Shanghai
+Yancheng
+Jiangsu
+Kia-Yueda-Dongfeng
+Suzhou
+Jiangsu
+Landrover-Chery
+Nanchang
+Jiangxi
+JMC
+Jiujiang
+Jiangxi
+Suzuki-Changhe
+Jingdezhen
+Jiangxi
+Suzuki-Changhe
+Panel D. Southern Region
+Guangzhou
+Guangdong
+Nissan-Dongfeng, Toyota-Guangzhou, Honda-Guangzhou, Citroen-Changan
+GAC
+Foshan
+Guangdong
+VW-FAW
+Shenzhen
+Guangdong
+BYD
+Liuzhou
+Guangxi
+GM-Shanghai-Wuling
+Dongfeng-Liuzhou
+Haikou
+Hainan
+Haima
+Panel E. Central Region
+Zhengzhou
+Henan
+Nissan-Dongfeng
+Haima
+Wuhan
+Hubei
+Honda-Dongfeng, Citroen-Dongfeng
+Dongfeng
+Xiangfan
+Hubei
+Nissan-Dongfeng
+Xiangyang
+Hubei
+Inﬁniti-Dongfeng
+Changsha
+Hunan
+Fiat-Guangzhou, Mitsubishi-Guangzhou
+BYD, Zotye
+Xiangtan
+Hunan
+Geely, Zotye
+Panel F. Southwestern Region
+Chongqing
+Chongqing
+Ford-Changan, Suzuki-Changan
+Changan
+Lifan
+Chengdu
+Sichuan
+Toyota-FAW, VW-FAW
+Geely
+Panel G. Northwestern Region
+Xian
+Shannxi
+BYD
+A-12
+
+
+===== [PAGE 56] =====
+
+Table E.3: Knowledge Spillover: Fixed Eﬀect Models
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+JVScore
+-0.001
+-0.007***
+-0.006***
+-0.007***
+-0.008***
+-0.002
+(0.001)
+(0.001)
+(0.001)
+(0.001)
+(0.002)
+(0.001)
+× SameGroup
+0.024
+0.004
+0.022
+0.017
+0.021
+0.033
+(0.018)
+(0.017)
+(0.019)
+(0.017)
+(0.024)
+(0.021)
+× SameSeg
+0.035***
+0.022***
+0.031***
+0.032***
+-0.008***
+(0.008)
+(0.005)
+(0.007)
+(0.006)
+(0.001)
+× SameGroup × SameSeg
+0.116***
+0.093***
+0.113***
+0.145***
+0.127***
+(0.024)
+(0.019)
+(0.022)
+(0.026)
+(0.022)
+Observations
+739,001
+739,001
+739,001
+739,001
+739,001
+738,695
+Partialling out:
+Firm FE
+✓
+✓
+Firm-year FE
+✓
+Model FE
+✓
+Model-Year FE
+✓
+✓
+Dimension-Year FE
+✓
+✓
+✓
+✓
+✓
+Dimension-Segment FE
+✓
+✓
+✓
+✓
+✓
+Dimension-Segment-Year FE
+✓
+Notes: This table replicates the speciﬁcations in Table 3 using one-step estimation with ﬁxed eﬀects.
+The JV and
+domestic scores are standardized IQS and APEAL scores without partialling out ﬁxed eﬀects. All ﬁrm, model, and
+segment ﬁxed eﬀects are deﬁned at the follower-leader pair level. Standard errors are clustered at FollowerFirm-Dimension
+and LeaderFirm-Dimension level. *** implies signiﬁcance at 0.01 level, ** 0.05, * 0.1.
+A-13
+
+
+===== [PAGE 57] =====
+
+Table E.4: Knowledge Spillover: Alternative Clustering of Standard Errors
+(1)
+(2)
+(3)
+(4)
+JVScore
+-0.001
+-0.001
+-0.001
+-0.001
+(0.001)
+(0.003)
+(0.001)
+(0.001)
+JVScoreXSameGroup
+0.016
+0.016
+0.016
+0.016
+(0.010)
+(0.022)
+(0.028)
+(0.015)
+JVScoreXSameSeg
+-0.005***
+-0.005
+-0.005***
+-0.005***
+(0.001)
+(0.006)
+(0.001)
+(0.001)
+JVScoreXSameSegSameGroup
+0.087***
+0.087***
+0.087*
+0.087**
+(0.018)
+(0.027)
+(0.051)
+(0.036)
+Observations
+717,500
+717,500
+717,500
+717,500
+Clusters:
+Domestic Firm - Dimension
+✓
+JV Firm - Dimension
+✓
+Domestic-JV Firm Pair - Dimension
+✓
+✓
+Domestic Firm - Year
+✓
+JV Firm - Year
+✓
+Domestic Firm
+✓
+JV Firm
+✓
+Notes: This table replicates Column (6) in Table 3 under four alternative clustering of the standard errors.
+Columns (1) replicates our baseline speciﬁcation, which clusters the standard error two-way at domestic ﬁrm-
+quality dimension and JV ﬁrm - quality dimension levels. Columns (2) clusters the standard error at domestic-
+JV ﬁrm pair-quality dimension level.
+Columns (3) clusters the standard error three-way at domestic-JV
+ﬁrm pair-quality dimension, domestic ﬁrm-quality dimension-year, and JV ﬁrm-quality dimension-year levels.
+Columns (4) clusters the standard error two-way at domestic ﬁrm and JV ﬁrm levels.
+A-14
+
+
+===== [PAGE 58] =====
+
+Table E.5: Knowledge Spillover by IQS and APEAL Scores
+(1)
+(2)
+(3)
+All
+IQS
+APEAL
+JVScore
+-0.001
+-0.000
+-0.001
+(0.001)
+(0.000)
+(0.002)
+× SameGroup
+0.016
+0.008
+0.025
+(0.010)
+(0.009)
+(0.018)
+× SameSeg
+-0.005***
+-0.006***
+-0.004**
+(0.001)
+(0.001)
+(0.002)
+× SameGroup × SameSeg
+0.087***
+0.103***
+0.072***
+(0.018)
+(0.026)
+(0.024)
+Observations
+717,500
+341,073
+376,427
+Partialling out:
+Model-Year FE
+✓
+✓
+✓
+Dimension-Segment-Year FE
+✓
+✓
+✓
+Notes: The dependent variable is the quality score of a domestic model. We
+consider all pairs of models produced by JVs and domestic automakers. The
+unit of observation is a model pair-year-quality dimension. Column (1) repli-
+cates the baseline speciﬁcation of Column (6) in Table 3. Columns (2) and (3)
+split IQS and APEAL scores into diﬀerent regression samples. Standard errors
+are clustered at follower ﬁrm-dimension and leader ﬁrm-dimension level. ***
+implies signiﬁcance at 0.01 level, ** 0.05, * 0.1.
+A-15
+
+
+===== [PAGE 59] =====
+
+Table E.6: Overlapping Customer Base
+Dep. variable: log(count of top two choices + 1)
+(1)
+(2)
+(3)
+SameGroup
+-0.034∗∗∗
+-0.003
+-0.009***
+(0.003)
+(0.003)
+(0.003)
+SameSegment
+0.082∗∗∗
+0.056∗∗∗
+(0.007)
+(0.007)
+SameGroup × SameSegment
+-0.021∗∗∗
+-0.017∗∗∗
+(0.007)
+(0.007)
+SameOwnershipType
+0.037∗∗∗
+0.025∗∗∗
+(0.001)
+(0.001)
+SameOwnershipType × SameSegment
+0.132∗∗∗
+0.130∗∗∗
+(0.003)
+(0.003)
+SameFirm
+0.051∗∗∗
+0.041∗∗∗
+(0.003)
+(0.003)
+Observations
+196,225
+196,225
+196,225
+R-squared
+0.015
+0.075
+0.087
+Attributes Controls
+✓
+Notes: The sample is constructed from the annual household vehicle ownership survey between 2009
+and 2015. Each observation is a pair of models in a year. The dependent variable is the log number
+of times that a pair is listed as the top two choices by households in the survey data.
+Attribute
+controls include diﬀerences in price, car size, and engine power. SameGroup and SameSeg are deﬁned
+in Table 3. SameOwnershipType takes value 1 if both models within a pair are JV models or both are
+domestic models. In Columns (2) and (3), the omitted group includes pairs not produced by aﬃliated
+automakers, not in the same segment, and not produced by ﬁrms of the same ownership type. ***
+implies signiﬁcance at the 0.01 level, ** at 0.05, and * at 0.1.
+A-16
+
+
+===== [PAGE 60] =====
+
+Table E.7: Heterogeneity by Brand Association
+(1)
+(2)
+JVScore
+-0.006***
+-0.006**
+(0.002)
+(0.002)
+× SameGroup
+0.114***
+0.130***
+(0.023)
+(0.036)
+× SameGroup × BrandAssociation
+-0.089
+(0.059)
+Observations
+138,540
+138,540
+Partialing out:
+Model-Year FE
+✓
+✓
+Segment-Dimension-Year FE
+✓
+✓
+Notes: The dependent variable is the quality score of a domestic model.
+The sample consists of domestic–JV pairs in the same vehicle segment.
+The unit of observation is a pair-year-quality dimension. Both leader
+(JV) and follower (domestic) scores are residualized scores after model-
+year and segment-dimension-year ﬁxed eﬀects are partialed out. Brand
+association is a standardized measure of the fraction of survey respon-
+dents who recognize the JV in the pair. We describe the survey in Ap-
+pendix B.
+A-17

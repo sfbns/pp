@@ -1,0 +1,112 @@
+[
+  {
+    "path": "agents/blp-professor.toml",
+    "sha256": "fb6eae3a0bc5e636b77cf47303acbb4b1b64d09bd82c11a67492ffbbf2ff1329",
+    "bytes": 2684
+  },
+  {
+    "path": "agents/blp-project-professor.toml",
+    "sha256": "aecb92e283e106768361014e3a1c13068a4ee1218c3fdc345d0a0594cea5428f",
+    "bytes": 1203
+  },
+  {
+    "path": "scripts/blp_core_checks.py",
+    "sha256": "9559b96d86cb7e5d8eecf7832c86d5743fb24015438020763d9aa15589bd5cff",
+    "bytes": 7320
+  },
+  {
+    "path": "scripts/dispatch_checkpoint.py",
+    "sha256": "88f8db9c88a6f29a5b56c7155845fb65849bf2e183acca867201280c96e2032b",
+    "bytes": 11188
+  },
+  {
+    "path": "scripts/runtime_guard.py",
+    "sha256": "5461d78ff954d9445f4895ed418deaa3c2a993118f9029953a22ac7bd48c4037",
+    "bytes": 24233
+  },
+  {
+    "path": "scripts/scaled_rank_checks.py",
+    "sha256": "7047555af904a4e2887a55a3cacebc52b9ff029669a90ac05a93a38989ec193a",
+    "bytes": 12667
+  },
+  {
+    "path": "scripts/verified_text_edit.py",
+    "sha256": "568fb5d541f1214bb0cb5f022ec07cfabadb1f1cda8ea2c3313882ecc26940af",
+    "bytes": 31849
+  },
+  {
+    "path": "skills/blp-model-building/references/文献模块来源账本.json",
+    "sha256": "cdd986fd5a5a9cf1fb83d4278449d30fc9cfeaa70f60c9a211ed0f3a51ab7c59",
+    "bytes": 63318
+  },
+  {
+    "path": "skills/blp-model-building/references/构造与组合协议.md",
+    "sha256": "f0efbee7c9ee1c5e31a5d62e9de375d74ee15f9cbf12b49af1df947e0d6a61c1",
+    "bytes": 18354
+  },
+  {
+    "path": "skills/blp-model-building/references/模块集成图.md",
+    "sha256": "b9adbfc9b9d2094daab6d8fba475bb5917c2e859c4c54af6da9055edb4751d38",
+    "bytes": 11415
+  },
+  {
+    "path": "skills/blp-model-building/SKILL.md",
+    "sha256": "aac6e8d0328300548ddf0e1c68ef6d5c49ebac3728d2d7b5e8c01b573738f3bc",
+    "bytes": 3064
+  },
+  {
+    "path": "skills/blp-project-professor/agents/openai.yaml",
+    "sha256": "121412815cc298eb55ad3d914aab38cfe4f5aca8c46650d79760b454fc9a6fc1",
+    "bytes": 458
+  },
+  {
+    "path": "skills/blp-project-professor/references/agent-contract.md",
+    "sha256": "da454d6021a1cf48dd6d0af75ea3594c8a80903619b035bc990874eecc9c472c",
+    "bytes": 7613
+  },
+  {
+    "path": "skills/blp-project-professor/references/constructive-model-design.md",
+    "sha256": "1665f9d3349916e2093aea66ff8ff53114253ca1f15a8b605086d396fafd94f3",
+    "bytes": 7478
+  },
+  {
+    "path": "skills/blp-project-professor/references/data-assets.md",
+    "sha256": "205f2fc088ba6e1b1fde0c4d843755d2578f49e05260d0cb56936c5b2833d73b",
+    "bytes": 1944
+  },
+  {
+    "path": "skills/blp-project-professor/references/five-paper-kernel.md",
+    "sha256": "35615344df4a665bc2da273cec4d91b0d47b64babcc9195ff1110098073bc1d7",
+    "bytes": 5117
+  },
+  {
+    "path": "skills/blp-project-professor/references/model-formula-ledger.md",
+    "sha256": "077616aa72d004dd77d117a893c6d737d2ca1363535068e45045790f2e530654",
+    "bytes": 3164
+  },
+  {
+    "path": "skills/blp-project-professor/references/operating-policy.json",
+    "sha256": "f74f53401ed0c7c54be344b4bdafe18c39b3636adbba7fc6a4a587501296afcc",
+    "bytes": 2863
+  },
+  {
+    "path": "skills/blp-project-professor/references/project-router.md",
+    "sha256": "e4560e8283a4f2b001dad7c890f95d8972ef427860782d1834b2b40350e9d074",
+    "bytes": 2242
+  },
+  {
+    "path": "skills/blp-project-professor/references/reading-boundary.md",
+    "sha256": "fb84013dfe4dcfce6e07fed4e1376eff7fda0961bb727c5a725ccb74c70868d4",
+    "bytes": 2137
+  },
+  {
+    "path": "skills/blp-project-professor/references/runtime-environment.json",
+    "sha256": "31d67994ff7bd299a4461820c4ef02eceda812d2e926782e697e77f0869ab73c",
+    "bytes": 4942
+  },
+  {
+    "path": "skills/blp-project-professor/SKILL.md",
+    "sha256": "08ab5731989da27ea7ad250412fba6df5828d24202f9c72785f573db3379f559",
+    "bytes": 5005
+  }
+]

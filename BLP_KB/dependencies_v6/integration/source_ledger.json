@@ -1,0 +1,957 @@
+{
+  "date": "2026-10-08",
+  "role": "literature_scout",
+  "question_received": "Audit input intent, source status, closest formal RCBLP future-cost and belief wedges, policy layers and Claude reference overclaims for integration; not a new broad literature review.",
+  "source_scope": "Six immutable local inputs; targeted original pages in existing package; official AEA and Chinese regulatory pages; relevant 45-paper bridge and AEJ indexes used only as routing/pattern evidence.",
+  "inputs": [
+    {
+      "path": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\05_思维导图_离线浏览.html",
+      "sha256": "323BEBC7CADA291002B996D72949BA0D7CC7CA2CA35F7A5B036D8576C98928D3",
+      "bytes": 14572,
+      "matches_input_manifest": true,
+      "source_scope": "user_project_plan_mirror",
+      "reading_status": "Read text only, no scripts or browser execution; matches the three-sheet Xmind planning structure.",
+      "source_modified": false
+    },
+    {
+      "path": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\BLP_品牌口碑建模与核验_20261007.zip",
+      "sha256": "B822054417AE584E85F3134918CF5741833BCF47298F1B3CA84FDF838E512005",
+      "bytes": 9559,
+      "matches_input_manifest": true,
+      "source_scope": "user_project_reputation_module",
+      "reading_status": "Read model_and_review_brief.md and verification_results.json; inspected archive inventory; did not run bundled code.",
+      "source_modified": false,
+      "archive_audit": {
+        "member_count": 3,
+        "uncompressed_bytes": 18907,
+        "unsafe_paths_or_symlinks": [],
+        "crc_bad_member": null,
+        "extracted": false,
+        "bundled_code_executed": false
+      }
+    },
+    {
+      "path": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\04_课题总览与模型路线.xmind",
+      "sha256": "3BE3979D81CC9A8B4D97096C952F5420A0AFA9EF276724BC70F460142D884D56",
+      "bytes": 8366,
+      "matches_input_manifest": true,
+      "source_scope": "user_project_plan",
+      "reading_status": "Read all three sheets and topic titles through content.xml; project intent, not independent evidence.",
+      "source_modified": false,
+      "archive_audit": {
+        "member_count": 4,
+        "uncompressed_bytes": 24482,
+        "unsafe_paths_or_symlinks": [],
+        "crc_bad_member": null,
+        "extracted": false,
+        "bundled_code_executed": false
+      }
+    },
+    {
+      "path": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\BLP模型需求讲解.pdf",
+      "sha256": "EB33AB2C181736F8E0A5FC76F2E6317D38D4A47B954B19E9B9496DB74EF59442",
+      "bytes": 679219,
+      "matches_input_manifest": true,
+      "source_scope": "user_project_derivation",
+      "reading_status": "All 22 PDF pages of text read; project exposition, not a published paper or independent formula audit; extraction artifacts not treated as original formula defects.",
+      "source_modified": false
+    },
+    {
+      "path": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\report.md",
+      "sha256": "82DF1414134364FD15312973FF672B1610A3C0BDFDBE02F157033FFD4216C9F8",
+      "bytes": 94069,
+      "matches_input_manifest": true,
+      "source_scope": "abstract_only_candidate_index",
+      "reading_status": "Read scope declaration and project-relevant sections; 182 English records and 52 Chinese records are abstract search results, not completed full-text readings.",
+      "source_modified": false
+    },
+    {
+      "path": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\BLP_local_readings_originals_checked_models_20261007.zip",
+      "sha256": "CD7FE87AC06479A85C2A8F4C250BCDCC52235782FF72BCD0B4A5A6FC128F6B11",
+      "bytes": 46537405,
+      "matches_input_manifest": true,
+      "source_scope": "prior_local_reading_and_correction_package",
+      "reading_status": "CRC and path audit; selected primary PDFs, completion records, and correction ledgers reopened, not all members reread.",
+      "source_modified": false,
+      "archive_audit": {
+        "member_count": 166,
+        "uncompressed_bytes": 59639233,
+        "unsafe_paths_or_symlinks": [],
+        "crc_bad_member": null,
+        "extracted": false,
+        "bundled_code_executed": false
+      }
+    }
+  ],
+  "papers": [
+    {
+      "id": "GRV2018",
+      "citation": "Grigolon, Laura, Mathias Reynaert, and Frank Verboven (2018). Consumer Valuation of Fuel Costs and Tax Policy: Evidence from the European Car Market. AEJ: Economic Policy 10(3):193–225.",
+      "official_url": "https://www.aeaweb.org/articles?id=10.1257/pol.20160078",
+      "local_original": "D:\\codex\\research-memory\\BLP_structural_models_memory_skills_configs_2026-08-24\\01_primary_enhanced_corpus\\source_pdfs\\04_5twrwep3.pdf",
+      "package_member": "02_five_BLP_recommendations/R01_GRV2018/original.pdf",
+      "prior_completion_record": "04_evidence_and_corrections/grv_completion_20261007.md",
+      "prior_completion_status": "2026-10-07 main PDF completed 33/33 pages; online appendix not read; preserve existing result.",
+      "current_reading_status": "Source-verified targeted reopen, not a new completed full-text reading.",
+      "anchors": [
+        {
+          "pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "journal_pages": [
+            198,
+            199,
+            200
+          ],
+          "object": "Equations (1)–(5): RCBLP utility, lifecycle fuel costs, gamma and mileage scale identification."
+        },
+        {
+          "pdf_pages": [
+            19,
+            22
+          ],
+          "journal_pages": [
+            211,
+            214
+          ],
+          "object": "Table 3 RCII gamma=0.91, SE=0.18; moderate, statistically insignificant undervaluation."
+        }
+      ],
+      "allowed_claim": "Formal aggregate random-coefficients BLP example of future-cost capitalization and mileage heterogeneity; gamma interpretation conditional on discount/horizon/mileage assumptions.",
+      "forbidden_upgrade": "Not an estimated consumer-prior/learning model; not proof that consumers universally exhibit myopia; main-text completion does not imply online-appendix completion.",
+      "package_path": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\BLP_local_readings_originals_checked_models_20261007.zip",
+      "sha256": "5D729774CBE07F5281ED09097CAF3F224BE24A2260417E766D8D361B5E8670DF",
+      "local_exists": true,
+      "local_sha256_matches_package": true
+    },
+    {
+      "id": "RS2021",
+      "citation": "Reynaert, Mathias, and James M. Sallee (2021). Who Benefits When Firms Game Corrective Policies? AEJ: Economic Policy 13(1):372–412.",
+      "official_url": "https://www.aeaweb.org/articles?id=10.1257/pol.20190019",
+      "local_original": "D:\\codex\\output\\reynaert_sallee_2021_source.pdf",
+      "package_member": "02_five_BLP_recommendations/R02_Reynaert_Sallee2021/original.pdf",
+      "prior_completion_record": "02_five_BLP_recommendations/R02_Reynaert_Sallee2021/reading_memory.md",
+      "prior_completion_status": "Existing 2026-08-22 record states 41/41 main-PDF pages read with page chunks and 14 formula-page images; online appendix only targeted, not complete 29-page reading.",
+      "current_reading_status": "Source-verified targeted reopen, not a new completed full-text reading.",
+      "anchors": [
+        {
+          "pdf_pages": [
+            18
+          ],
+          "journal_pages": [
+            389
+          ],
+          "object": "True attribute x, signal m, gaming g=x−m; perceived x_tilde=x−(1−alpha)g."
+        },
+        {
+          "pdf_pages": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "journal_pages": [
+            396,
+            397,
+            398,
+            399,
+            400,
+            401
+          ],
+          "object": "Structural demand/simulation setting; awareness not statistically identified; decision vs experience utility and price/choice-distortion decomposition."
+        }
+      ],
+      "allowed_claim": "Closest formal RCBLP true-versus-perceived-attribute wedge and experience-welfare benchmark; consumer awareness varied in calibrated counterfactual scenarios.",
+      "forbidden_upgrade": "Alpha is not an empirically identified Bayesian updating coefficient; no statistical statement about awareness from their data; a Chinese test-cycle relabel is not automatically firm gaming; calibrated effects are not a Chinese causal policy estimate.",
+      "package_path": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\BLP_local_readings_originals_checked_models_20261007.zip",
+      "sha256": "F478A23B703D83345EB2A90C7DB10961BFF7499C8332584E559FAF08A7E72A68",
+      "local_exists": true,
+      "local_sha256_matches_package": true
+    },
+    {
+      "id": "BLP1995",
+      "citation": "Berry, Steven, James Levinsohn, and Ariel Pakes (1995). Automobile Prices in Market Equilibrium. Econometrica 63(4):841–890.",
+      "official_url": "https://doi.org/10.2307/2171802",
+      "local_original": "D:\\codex\\blp.pdf",
+      "package_member": "03_BLP_foundation/BLP1995_original.pdf",
+      "prior_completion_status": "Existing foundational local source and corrected walkthrough; this task makes no new whole-paper reading claim.",
+      "current_reading_status": "Source-verified targeted reopen.",
+      "anchors": [
+        {
+          "pdf_pages": [
+            11,
+            12
+          ],
+          "journal_pages": [
+            850,
+            851
+          ],
+          "object": "Researcher-unobserved demand characteristics, price endogeneity; style/prestige/reputation/past experience as hard-to-measure examples."
+        }
+      ],
+      "allowed_claim": "Reputation can be part of consumers/producers-known but researcher-unobserved quality; if an observed score is included, residual xi is the remaining unobserved component.",
+      "forbidden_upgrade": "Original BLP does not itself assert energy-label equals true road consumption; observed reputation rating is not identical to residual xi; consumer uncertainty is a separate extension.",
+      "package_path": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\BLP_local_readings_originals_checked_models_20261007.zip",
+      "sha256": "A7F6E505C4CF2B2CE72BFEA5D700454571400E99F7AB9501F7AE9302CBE06D75",
+      "local_exists": true,
+      "local_sha256_matches_package": true
+    },
+    {
+      "id": "BKL2024",
+      "citation": "Barwick, Panle Jia, Hyuk-Soo Kwon, and Shanjun Li. Attribute-Based Subsidies and Market Power: An Application to Electric Vehicles. NBER WP32264, March 2024 local version.",
+      "official_url": "https://www.nber.org/papers/w32264",
+      "local_original": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R03_Barwick_Kwon_Li2024\\original.pdf",
+      "package_member": "02_five_BLP_recommendations/R03_Barwick_Kwon_Li2024/original.pdf",
+      "sha256": "c686cef999c93da89ee031f4f8aa2ea6d417aaac05ea481eb29cddb174d1c0ab",
+      "local_exists": true,
+      "prior_completion_status": "Historical 57-page translation/completeness record, not newly recertified full-text completion.",
+      "current_reading_status": "Independent round03 delegated targeted text and visual checks; not whole-paper reading.",
+      "anchors": [
+        {
+          "pdf_pages": [
+            1,
+            2,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "visually_checked_pages": [
+            20,
+            21,
+            23
+          ],
+          "object": "RC-BLP plus joint battery capacity/weight design; capacity excluded directly from demand is a maintained exclusion, not an engineering identity."
+        }
+      ],
+      "allowed_claim": "RC-BLP plus joint battery capacity/weight design; capacity excluded directly from demand is a maintained exclusion, not an engineering identity.",
+      "forbidden_upgrade": "Do not treat static design as identified dynamic innovation or transplant a later version formula without rechecking.",
+      "current_evidence": "D:\\codex\\output\\blp_skill_integration_20261008\\evaluations\\round03\\project_evidence\\source_subreview\\source_checks.json",
+      "current_evidence_sha256": "6f46939b33bffe618ffbbbda9f55f03fa253ea0c72dc2291480434ab6af9f529",
+      "source_identity_manifest": "D:\\codex\\output\\blp_skill_integration_20261008\\evaluations\\round03\\project_evidence\\source_subreview\\primary_open_manifest.json"
+    },
+    {
+      "id": "XLL2021",
+      "citation": "Xing, Jianwei, Benjamin Leard, and Shanjun Li (2021). What does an electric vehicle replace? JEEM 107:102432.",
+      "official_url": "https://doi.org/10.1016/j.jeem.2021.102432",
+      "local_original": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R04_Xing_Leard_Li2021\\original.pdf",
+      "package_member": "02_five_BLP_recommendations/R04_Xing_Leard_Li2021/original.pdf",
+      "sha256": "174d8650af63a6abc25f97195c7697d2b42793838fe84210220dd236ad06dcc7",
+      "local_exists": true,
+      "prior_completion_status": "Prior local record reports 33/33 pages; this audit only reopens selected pages.",
+      "current_reading_status": "Independent round03 delegated targeted text and visual checks; not whole-paper reading.",
+      "anchors": [
+        {
+          "pdf_pages": [
+            1,
+            8,
+            9,
+            20,
+            21
+          ],
+          "visually_checked_pages": [
+            8,
+            9,
+            21
+          ],
+          "object": "Conditional new-car buyer RC choice; same-type joint first/second choice integration."
+        }
+      ],
+      "allowed_claim": "Conditional new-car buyer RC choice; same-type joint first/second choice integration.",
+      "forbidden_upgrade": "No outside market scale or endogenous repricing identified by this specification; buyer measure is not unconditional population measure.",
+      "current_evidence": "D:\\codex\\output\\blp_skill_integration_20261008\\evaluations\\round03\\project_evidence\\source_subreview\\source_checks.json",
+      "current_evidence_sha256": "6f46939b33bffe618ffbbbda9f55f03fa253ea0c72dc2291480434ab6af9f529",
+      "source_identity_manifest": "D:\\codex\\output\\blp_skill_integration_20261008\\evaluations\\round03\\project_evidence\\source_subreview\\primary_open_manifest.json"
+    },
+    {
+      "id": "BKLZ2025",
+      "citation": "Barwick, Panle Jia, Hyuk-Soo Kwon, Shanjun Li, and Nahim B. Zahur. Drive Down the Cost: Learning by Doing and Government Policies in the Global EV Battery Industry. NBER WP33378, revised August 2025 local version.",
+      "official_url": "https://www.nber.org/papers/w33378",
+      "local_original": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R05_Barwick_et_al2025\\original.pdf",
+      "package_member": "02_five_BLP_recommendations/R05_Barwick_et_al2025/original.pdf",
+      "sha256": "a96d97d3af0c120087505b699b6c5ccdb11c8d5dbb924611a1dca3ee174b9a3f",
+      "local_exists": true,
+      "prior_completion_status": "Historical 72-page completion record, not newly recertified full-text completion.",
+      "current_reading_status": "Independent round03 delegated targeted text and visual checks; not whole-paper reading.",
+      "anchors": [
+        {
+          "pdf_pages": [
+            1,
+            2,
+            13,
+            14,
+            18,
+            19,
+            20
+          ],
+          "visually_checked_pages": [
+            13,
+            14,
+            20
+          ],
+          "object": "EV plus outside demand, downstream pricing, upstream bargaining and cumulative-production learning are distinct layers."
+        }
+      ],
+      "allowed_claim": "EV plus outside demand, downstream pricing, upstream bargaining and cumulative-production learning are distinct layers.",
+      "forbidden_upgrade": "Non-EV inside outside does not identify bilateral ICE/BEV diversion; production learning is not patent innovation.",
+      "current_evidence": "D:\\codex\\output\\blp_skill_integration_20261008\\evaluations\\round03\\project_evidence\\source_subreview\\source_checks.json",
+      "current_evidence_sha256": "6f46939b33bffe618ffbbbda9f55f03fa253ea0c72dc2291480434ab6af9f529",
+      "source_identity_manifest": "D:\\codex\\output\\blp_skill_integration_20261008\\evaluations\\round03\\project_evidence\\source_subreview\\primary_open_manifest.json"
+    },
+    {
+      "id": "GHvB2021_AUX",
+      "citation": "Gillingham, Houde and van Benthem (2021). Consumer Myopia in Vehicle Purchases: Evidence from a Natural Experiment. AEJ: Economic Policy 13(3):207–238. NBER WP25845, May2019, separately bound.",
+      "official_url": "https://www.aeaweb.org/articles?id=10.1257/pol.20200322",
+      "recommendation_scope": "Auxiliary non-BLP mechanism/valuation audit, NOT one of five BLP recommendations",
+      "reading_status": "Targeted original text and visual-page audit, not completed new whole-paper reading",
+      "sources": [
+        {
+          "source": "C:\\Users\\于舒奕\\Downloads\\gillingham-et-al-2021-consumer-myopia-in-vehicle-purchases-evidence-from-a-natural-experiment.pdf",
+          "copy": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\supplemental_sources\\GHvB2021\\GHvB2021_journal_original.pdf",
+          "bytes": 757766,
+          "sha256": "79e629c100da04566a33f88714caad4fb44f90c6f46a91cfcd7e5ee1b4d9a81d",
+          "reading_status": "Independent original target-page audit completed: 20 page images, 14 checks, both tables fully recalculated; NOT a new completed full-paper reading",
+          "recommendation_scope": "Auxiliary information/myopia mechanism and original-table audit; explicitly NOT one of five BLP recommendations",
+          "audit_path": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\ghvb_original_audit\\source_checks.json"
+        },
+        {
+          "source": "C:\\Users\\于舒奕\\Zotero\\storage\\AQEDI58V\\w25845.pdf",
+          "copy": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\supplemental_sources\\GHvB2021\\GHvB_NBER_w25845_original.pdf",
+          "bytes": 589757,
+          "sha256": "491c3259d71be766eca2ba42ec42e032662f31dae4e6bbeafc3b591b6dd9e60a",
+          "reading_status": "Independent original target-page audit completed: 20 page images, 14 checks, both tables fully recalculated; NOT a new completed full-paper reading",
+          "recommendation_scope": "Auxiliary information/myopia mechanism and original-table audit; explicitly NOT one of five BLP recommendations",
+          "audit_path": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\ghvb_original_audit\\source_checks.json"
+        }
+      ],
+      "audit_path": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\ghvb_original_audit\\source_checks.json",
+      "audit_sha256": "42ff72594cab49ae1b9ad8117c08046b89f72a2894e8683760aa8181548ac8b5",
+      "source_exact_scope": [
+        "Formal Table7 PDF23/printed229 and Table6 PDF18/printed224",
+        "Working paper D.1 PDF46–47/printed44–45",
+        "Working paper footnote26 PDF50/printed48 and TableD.1 PDF52/printed50",
+        "Working paper D.4 PDF55/printed53",
+        "Formal supply/quantity and behavioral-channel limitations at targeted pages"
+      ],
+      "derived_scope": [
+        "Loss=-signed change is a declared normalization",
+        "Local parallel inverse-demand shift reconstructs both 10-cell tables",
+        "P1=24206 is post-price, not a second pre-price",
+        "Printed footnote inconsistency is a derived suspected-typo diagnosis, not an author corrigendum"
+      ],
+      "unverified_claims": [
+        "Formal online appendices D.1/D.3/D.4 source-exact transcription",
+        "Author computational implementation or corrigendum",
+        "Separate psychological myopia, attention and beliefs",
+        "New full-paper reading completion"
+      ]
+    },
+    {
+      "id": "BH2024_AUX",
+      "citation": "Berry, Steven T., and Philip A. Haile (2024). Nonparametric Identification of Differentiated Products Demand Using Micro Data. Econometrica 92(4):1135–1162. DOI10.3982/ECTA20731.",
+      "official_url": "https://doi.org/10.3982/ECTA20731",
+      "official_url_basis": "DOI printed on actually read published first page; no new network-fetch assertion",
+      "local_original": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\supplemental_sources\\BH2024_SR1979\\BH2024_published_original.pdf",
+      "sha256": "5b133865571efd1d8e3ff833c878b2885b15e29006b3c98c94f9f102a158dfa8",
+      "local_exists": true,
+      "source_role": "Auxiliary identification foundation; not an additional five-BLP-recommendations item",
+      "version": "Published Econometrica Vol92 No4 July2024, 28 PDF pages, journal pp1135–1162",
+      "pdf_pages": 28,
+      "original_source": "C:\\Users\\于舒奕\\Downloads\\Nonparametric_Identification_of_Differentiated_Products_Demand_Using_Micro_Data.pdf",
+      "staged_copy": "D:\\codex\\output\\blp_skill_integration_20261008\\controller_records\\pending_round05\\new_originals\\BH2024_original.pdf",
+      "original_staged_auxiliary_byte_identical": true,
+      "prior_completion_status": "No full-paper completion claimed by this task; root target record not inherited",
+      "current_reading_status": "Targeted original text and page-image reading: PDF1,6,7,16,17,18 (journal1135,1140,1141,1150,1151,1152); not completed full text",
+      "reading_dossier": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\new_foundations_round05\\TARGET_READING_DOSSIER.md",
+      "reading_evidence": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\new_foundations_round05\\READING_LEDGER.json",
+      "anchors": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "journal_pages": [
+            1135
+          ],
+          "printed_pages": [
+            1135
+          ],
+          "object": "Published title, authors, journal version, date, page range and DOI",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "journal_pages": [
+            1140,
+            1141
+          ],
+          "printed_pages": [
+            1140,
+            1141
+          ],
+          "object": "Section2.1 equation(1) demand mapping and conditional demand fixing X_t and Xi_t; support; price-response object and limits for X interventions",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            6
+          ],
+          "journal_pages": [
+            1140
+          ],
+          "printed_pages": [
+            1140
+          ],
+          "object": "Footnote14: interpreting randomness matters for information interventions and cardinal-utility questions",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            7
+          ],
+          "journal_pages": [
+            1141
+          ],
+          "printed_pages": [
+            1141
+          ],
+          "object": "Section2.2: rich microdata and at least J consumer-observable dimensions in this theorem setting",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            16
+          ],
+          "journal_pages": [
+            1150
+          ],
+          "printed_pages": [
+            1150
+          ],
+          "object": "Theorem1 under Assumptions1–7 identifies conditional demand on C(x_t,xi_t); equation(27) and completeness discussion",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            16
+          ],
+          "journal_pages": [
+            1150
+          ],
+          "printed_pages": [
+            1150
+          ],
+          "object": "Published Assumption8 — Exogenous X_t: E[Xi_t|X_t]=0; conditional mean exogeneity, not independence",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            17
+          ],
+          "journal_pages": [
+            1151
+          ],
+          "printed_pages": [
+            1151
+          ],
+          "object": "Theorem2 under Assumptions1–8 identifies xi_t and demand on C; price-only excluded-IV gain is tied to the microdata structure",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            18
+          ],
+          "journal_pages": [
+            1152
+          ],
+          "printed_pages": [
+            1152
+          ],
+          "object": "Within-market variation does not require Z independent/mean-independent of Xi; Section5.2 cross-market variation remains essential",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        }
+      ],
+      "source_exact_scope": [
+        "Published version identity and the listed target-page statements/equations",
+        "Exact published Assumption8 number/formula on p1150",
+        "Theorem1 and Theorem2 statements with their full assumption ranges retained"
+      ],
+      "derived_scope": [
+        "[D] Current aggregate project still needs its own data/IV/support/rank and causal-identification argument",
+        "[D] Information-policy welfare requires a separate maintained interpretation of decision and experienced utility"
+      ],
+      "allowed_claim": "Verified targeted published-original foundation distinguishing conditional demand, full demand and rich-microdata identification. Exact Assumption8 E[Xi_t|X_t]=0 is now locally checked.",
+      "forbidden_upgrade": "Not full-paper/appendix completion; not proof of this aggregate project identification; not an unconditional independence assumption; not automatic identification of beliefs or welfare under information intervention.",
+      "unverified_claims": [
+        "Full Assumptions1–7 proof chain and supplemental appendix not audited in this task",
+        "Current aggregate China project satisfaction of any microdata theorem assumptions not established",
+        "Full-paper completion not claimed"
+      ],
+      "recommended_history_reconciliation": {
+        "existing_unresolved_id": "Berry_Haile2024",
+        "scope": "Only update current availability and exact published target assumptions after root actually imports; preserve prior lookup failures as historical",
+        "apply_performed": false
+      },
+      "recommendation_scope": "Auxiliary identification foundation; not an additional five-BLP-recommendations item",
+      "reading_status": "Targeted original text and page-image reading: PDF1,6,7,16,17,18 (journal1135,1140,1141,1150,1151,1152); not completed full text",
+      "audit_path": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\new_foundations_round05\\READING_LEDGER.json",
+      "audit_sha256": "f3d20df8585385d5e359d8b9276319f9fa4db33a3ae76eab09ee214dc99bd018",
+      "sources": [
+        {
+          "source": "C:\\Users\\于舒奕\\Downloads\\Nonparametric_Identification_of_Differentiated_Products_Demand_Using_Micro_Data.pdf",
+          "copy": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\supplemental_sources\\BH2024_SR1979\\BH2024_published_original.pdf",
+          "staged_copy": "D:\\codex\\output\\blp_skill_integration_20261008\\controller_records\\pending_round05\\new_originals\\BH2024_original.pdf",
+          "bytes": 413231,
+          "sha256": "5b133865571efd1d8e3ff833c878b2885b15e29006b3c98c94f9f102a158dfa8",
+          "reading_status": "Targeted original text and page-image reading: PDF1,6,7,16,17,18 (journal1135,1140,1141,1150,1151,1152); not completed full text",
+          "recommendation_scope": "Auxiliary identification foundation; not an additional five-BLP-recommendations item",
+          "audit_path": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\new_foundations_round05\\READING_LEDGER.json"
+        }
+      ]
+    },
+    {
+      "id": "SR1979_NBER319_AUX",
+      "citation": "Rosen, Harvey S., and Kenneth A. Small (February1979). Applied Welfare Economics with Discrete Choice Models. NBER Working Paper No.319.",
+      "official_url": null,
+      "official_record_identifier": "NBER Working Paper No.319; February1979; actually read original cover",
+      "local_original": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\supplemental_sources\\BH2024_SR1979\\SR1979_NBER319_original.pdf",
+      "sha256": "c0f2ff04ee8fa4c892e766fbc209875a2ad1a00ff1bf268cba498aebc745600b",
+      "local_exists": true,
+      "source_role": "Auxiliary welfare-method foundation; not an additional five-BLP-recommendations item",
+      "version": "February1979 NBER319 working paper, 45 PDF pages; not 1981 published typeset original",
+      "pdf_pages": 45,
+      "original_source": "D:\\codex\\output\\blp_driving_cycle_structural_research_20260824\\iteration5_welfare_nested_pricing_20260825\\00_input_audit\\small_rosen_nber_w0319.pdf",
+      "staged_copy": "D:\\codex\\output\\blp_skill_integration_20261008\\controller_records\\pending_round05\\new_originals\\SR1979_original.pdf",
+      "original_staged_auxiliary_byte_identical": true,
+      "prior_completion_status": "No full-paper completion claimed by this task; separate 1981-original unverified boundary retained",
+      "current_reading_status": "Targeted original text and page-image reading: PDF1,14–17,28,31–36 (cover and printed12–15,26,29–34); not completed full text",
+      "reading_dossier": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\new_foundations_round05\\TARGET_READING_DOSSIER.md",
+      "reading_evidence": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\new_foundations_round05\\READING_LEDGER.json",
+      "anchors": [
+        {
+          "pdf_pages": [
+            1
+          ],
+          "journal_pages": [],
+          "printed_pages": [],
+          "object": "Cover: Rosen then Small, Working Paper319, February1979; not the 1981 journal version",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "journal_pages": [],
+          "printed_pages": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "object": "Theorem1 and equation(3.5): expenditure at final prices holding initial utility minus initial expenditure; discrete switching and compensated demand",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            28
+          ],
+          "journal_pages": [],
+          "printed_pages": [
+            26
+          ],
+          "object": "Equations(4.3)–(4.4): expenditure/indirect-utility identity and negative quality derivative",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            31,
+            32
+          ],
+          "journal_pages": [],
+          "printed_pages": [
+            29,
+            30
+          ],
+          "object": "Equations(5.1)–(5.4), error-scale normalization, common characteristic groups, lambda/conditional-quantity Roy identity and simplifying income-effect conditions",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            33,
+            34
+          ],
+          "journal_pages": [],
+          "printed_pages": [
+            31,
+            32
+          ],
+          "object": "Equation(5.5) negative integral; compensated-income warning and constant-lambda/negligible-income-effect conditions; footnote21 lambda=-alpha_p/conditional_quantity",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            35
+          ],
+          "journal_pages": [],
+          "printed_pages": [
+            33
+          ],
+          "object": "Equation(5.7): negative Probit Phi integral; footnote22 equation(5.7a) includes common and relative utility changes",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            36
+          ],
+          "journal_pages": [],
+          "printed_pages": [
+            34
+          ],
+          "object": "Equation(5.8): binary logit probabilities; equation(5.9): negative logsum difference; footnote23 vector endpoints",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        },
+        {
+          "pdf_pages": [
+            34
+          ],
+          "journal_pages": [],
+          "printed_pages": [
+            32
+          ],
+          "object": "Equation(5.6) visibly printed positive; apparent sign inconsistency with(4.4)/(5.5)/(5.7)/(5.9), preserved with its surrounding definitions; current integration does not rely on(5.6), no confirmed typo diagnosis",
+          "evidence_label": "[O]",
+          "text_and_page_images_actually_read": true
+        }
+      ],
+      "source_exact_scope": [
+        "1979 cover/version and listed page-specific equations",
+        "Negative sign visibly present in(5.7) and(5.9)",
+        "Positive sign visibly printed in(5.6), kept with surrounding definitions and not relied on; no confirmed typo diagnosis"
+      ],
+      "derived_scope": [
+        "[D] Under explicit constant money-MU and common error-scale conditions, positive CS gain is the negative of the working-paper expenditure change",
+        "[D] Income effects require expenditure/CV/EV compensation equations; individual monetary conversion precedes aggregation",
+        "[D] Independent executable diagnostics are not original author code or project estimates"
+      ],
+      "allowed_claim": "Targeted original 1979 working-paper support for compensating-expenditure sign, probit/logit formulas and simplifying conditions. Positive-CS notation is explicitly a derived convention change.",
+      "forbidden_upgrade": "Not a verification of 1981 published pagination/formulas; not full-paper completion; no author corrigendum obtained; not general income-effect CV/EV from an unrestricted logsum/price-coefficient division; no automatic information-welfare interpretation.",
+      "unverified_claims": [
+        "1981 Econometrica typeset original remains unverified",
+        "Author correction of the printed(5.6) sign inconsistency not obtained",
+        "Remaining pages not read; full-paper completion not claimed",
+        "This source alone does not identify welfare under misinformation in the current project"
+      ],
+      "version_sign_boundary": {
+        "printed_page": 32,
+        "pdf_page": 34,
+        "equation": "(5.6)",
+        "observed": "Positive sign printed",
+        "comparison": "(4.4), (5.5), (5.7), (5.9) visibly negative",
+        "status": "Keep printed formula and surrounding definitions by version; current integration does not rely on this formula; no confirmed typo or official correction or 1981 reconciliation claimed"
+      },
+      "recommended_history_reconciliation": {
+        "existing_unresolved_id": "Small_Rosen1981",
+        "scope": "Keep unresolved 1981 original; add this separate 1979 working-paper row; preserve historical403/failed retrieval records",
+        "apply_performed": false
+      },
+      "recommendation_scope": "Auxiliary welfare-method foundation; not an additional five-BLP-recommendations item",
+      "reading_status": "Targeted original text and page-image reading: PDF1,14–17,28,31–36 (cover and printed12–15,26,29–34); not completed full text",
+      "audit_path": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\new_foundations_round05\\READING_LEDGER.json",
+      "audit_sha256": "f3d20df8585385d5e359d8b9276319f9fa4db33a3ae76eab09ee214dc99bd018",
+      "sources": [
+        {
+          "source": "D:\\codex\\output\\blp_driving_cycle_structural_research_20260824\\iteration5_welfare_nested_pricing_20260825\\00_input_audit\\small_rosen_nber_w0319.pdf",
+          "copy": "D:\\codex\\output\\blp_skill_integration_20261008\\inputs\\supplemental_sources\\BH2024_SR1979\\SR1979_NBER319_original.pdf",
+          "staged_copy": "D:\\codex\\output\\blp_skill_integration_20261008\\controller_records\\pending_round05\\new_originals\\SR1979_original.pdf",
+          "bytes": 577468,
+          "sha256": "c0f2ff04ee8fa4c892e766fbc209875a2ad1a00ff1bf268cba498aebc745600b",
+          "reading_status": "Targeted original text and page-image reading: PDF1,14–17,28,31–36 (cover and printed12–15,26,29–34); not completed full text",
+          "recommendation_scope": "Auxiliary welfare-method foundation; not an additional five-BLP-recommendations item",
+          "audit_path": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\new_foundations_round05\\READING_LEDGER.json"
+        }
+      ]
+    }
+  ],
+  "policies": [
+    {
+      "id": "GBT19233_2020",
+      "official_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=2CBFC784D82DE14831CB72365B961610",
+      "object": "轻型汽车燃料消耗量试验方法 / Measurement methods of fuel consumption for light-duty vehicles",
+      "publication_date": "2020-06-02",
+      "effective_date": "2021-01-01",
+      "verification_status": "Official metadata verified; not full standard text reading.",
+      "boundary": "Not by itself dealer display date or individual exposure.",
+      "project_sample_scope": "Project may use passenger cars as a subset; official standard is light-duty vehicles.",
+      "title_reverified_20261008": "Root web.open of official metadata returned full Chinese/English titles; not full standard text or compliance."
+    },
+    {
+      "id": "GB19578_2021",
+      "official_url": "https://www.miit.gov.cn/jgsj/zbys/gzdt/art/2021/art_6a1500ed8d9e45de920f427ec8c98796.html",
+      "object": "Passenger-car fuel-consumption limits",
+      "publication_date": "2021-02-20",
+      "effective_date": "2021-07-01",
+      "verification_status": "Official announcement/metadata verified.",
+      "boundary": "Performance limit distinct from test procedure, label display and credits."
+    },
+    {
+      "id": "EIDC_20210317",
+      "official_url": "https://www.miit-eidc.org.cn/art/2021/3/17/art_1657_696.html",
+      "object": "Implementation notice for revised passenger-car fuel-consumption limit",
+      "provisions": "New type approval from 2021-07-01; applicable previously approved products by 2023-01-01; transitional filing/credit conversion provisions.",
+      "verification_status": "Official notice body verified.",
+      "boundary": "Admission/filing/credit dates are not proof of consumer-facing display or exposure; do not confuse accounting conversion with physical observation."
+    },
+    {
+      "id": "EIDC_20221208",
+      "official_url": "https://www.miit-eidc.org.cn/art/2022/12/8/art_1657_751.html",
+      "object": "2023 full implementation reminder",
+      "provisions": "Full implementation of GB19578-2021 from 2023-01-01 for applicable products.",
+      "verification_status": "Official notice body verified.",
+      "boundary": "Does not document retail label switching.",
+      "reverification_20261008": {
+        "status": "direct_official_page_timeout_in_independent_review",
+        "evidence": "D:\\codex\\output\\blp_skill_integration_20261008\\evaluations\\round03\\project_evidence\\source_subreview\\source_checks.json",
+        "boundary": "Historical body verification retained as dated; 20210317 source independently supports 2023 application, not current successful refetch of this page."
+      }
+    },
+    {
+      "id": "GBT18386_1_2021",
+      "official_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=BD89DE8E07723D08E05397BE0A0A4FAD",
+      "object": "Electric-vehicle energy consumption and range test method, Part 1 light-duty vehicles",
+      "publication_date": "2021-03-09",
+      "effective_date": "2021-10-01",
+      "verification_status": "Official metadata verified, not full standard or later amendment reading.",
+      "boundary": "Dated version, not an assertion that no later amendment exists."
+    },
+    {
+      "id": "GBT19753_2021",
+      "official_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=0944C24D417D5EAD3CA659EDF1DB363F",
+      "object": "Light-duty hybrid energy-consumption test method",
+      "publication_date": "2021-03-09",
+      "effective_date": "2021-10-01",
+      "verification_status": "Official metadata verified; amendment indicated, full amendment not audited.",
+      "boundary": "Avoid evergreen use of old version; verify applicable effective amendment for each cohort."
+    },
+    {
+      "id": "EIDC_20210409",
+      "official_url": "https://www.miit-eidc.org.cn/art/2021/4/9/art_1657_701.html",
+      "object": "Implementation of four new-energy-vehicle national standards, EIDC 2021 No.197",
+      "provisions": "For product admission, firms may select original/newly issued standard according to replacement relation and provide reports; adds CLTC filing parameters for conforming products.",
+      "verification_status": "Official notice body verified.",
+      "boundary": "Four-standard provision not only a BEV rule; actual switching potentially selected; do not infer all groups share identical mandatory treatment or actual retail display.",
+      "reverification_20261008": {
+        "status": "official_page_timeout",
+        "observed_tool": "web.open returned Failed to fetch (400) Timeout fetching",
+        "boundary": "Historical source-audit body verification retained as dated evidence; no current independent successful refetch claimed. Actual implementation cohort/display not certified."
+      }
+    },
+    {
+      "id": "GB22757_1_2023",
+      "official_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=B7F411758F7776A9E1B3F8718A1734AE",
+      "object": "轻型汽车能源消耗量标识 第1部分：汽油和柴油汽车 / Energy consumption label for light-duty vehicles—Part 1: For gasoline and diesel vehicles",
+      "publication_date": "2023-09-08",
+      "effective_date": "2024-07-01",
+      "verification_status": "Official metadata verified; full label standard not read.",
+      "boundary": "Different policy layer from 2021 testing/admission; does not prove first display change occurred only in 2024.",
+      "project_sample_scope": "Passenger cars are the project subset, not the full official title/scope.",
+      "title_reverified_20261008": "Root web.open of official metadata returned full Chinese/English titles; not full standard text or compliance."
+    },
+    {
+      "id": "GB22757_2_2023",
+      "official_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=BE6A76B62B948C9D0637456841A58393",
+      "object": "轻型汽车能源消耗量标识 第2部分：可外接充电式混合动力电动汽车和纯电动汽车",
+      "publication_date": "2023-09-08",
+      "effective_date": "2024-07-01",
+      "verification_status": "Official metadata verified; full label standard not read.",
+      "boundary": "Need observed presentation and exposure timeline separate from formal standard date.",
+      "project_sample_scope": "Passenger cars are the project subset, not the full official title/scope.",
+      "title_reverified_20261008": "Root web.open of official metadata returned full Chinese/English titles; not full standard text or compliance."
+    },
+    {
+      "id": "MIIT_SAMR_2024_43",
+      "official_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/rzjgs/art/2024/art_bce22a9fa293428cb0ff4bbb1f4db4c9.html",
+      "object": "2024 light-vehicle energy-consumption label management notice",
+      "document_date": "2024-07-19",
+      "publication_date": "2024-07-23",
+      "verification_status": "Official notice body reopened via web tool 2026-10-08, clauses 3(4),4,5,7; targeted legal-text check, not observed consumer exposure.",
+      "provisions": "Activation date=filing date; filing within 15 working days of product announcement/CCC. Notice effective at publication; new approvals/CCC timely file and attach labels; previously approved/CCC before publication complete filings and replacement before 2024-09-01; changed records treated as new labels.",
+      "boundary": "Formal legal cohort/filing deadline is not actual retail display or consumer exposure. Light-commercial vehicles have a separate transition attachment not audited here."
+    }
+  ],
+  "claude_reference_findings": [
+    {
+      "path": "D:\\codex\\output\\blp_skill_integration_20261008\\backups\\claude_source_20261008\\skills\\blp-model-building\\references\\corpus_and_verification.md",
+      "line": 47,
+      "issue": "Asset presence automatically named fulltext-grounded corpus read.",
+      "correction": "PDF + page text + paper memory establishes fulltext-available/card-backed, not completed reading without per-paper completion proof.",
+      "status": "source-audited overclaim"
+    },
+    {
+      "path": "D:\\codex\\output\\blp_skill_integration_20261008\\backups\\claude_source_20261008\\skills\\blp-model-building\\references\\corpus_and_verification.md",
+      "line": 78,
+      "issue": "Heading claims all method-parent literature was double close-read locally.",
+      "correction": "Use per-paper status; distinguish source text available, pass1 card, targeted page-image checks and completed full-main-text records.",
+      "status": "source-audited overbroad completion heading"
+    },
+    {
+      "path": "D:\\codex\\output\\blp_skill_integration_20261008\\backups\\claude_source_20261008\\skills\\blp-model-building\\references\\extension_genealogy.md",
+      "line": 18,
+      "issue": "P6 attributes complete information / label equals truth to BLP1995.",
+      "correction": "Baseline does not explicitly distinguish labels, road measures and subjective beliefs; information-set equality is a proposed special case, not an original source assertion.",
+      "status": "original-source mismatch"
+    },
+    {
+      "path": "D:\\codex\\output\\blp_skill_integration_20261008\\backups\\claude_source_20261008\\skills\\blp-model-building\\references\\extension_genealogy.md",
+      "line": 24,
+      "issue": "P12 attributes default monetary logsum consumer surplus to original BLP1995.",
+      "correction": "Simple money logsum requires quasi-linear conditional utility and fixed money coefficient; original log(y−p) needs appropriate income-effect CV/EV treatment. Formal correction handed to BLP specialist.",
+      "status": "original-source / maintained-condition mismatch"
+    },
+    {
+      "path": "D:\\codex\\output\\blp_skill_integration_20261008\\backups\\claude_source_20261008\\skills\\blp-model-building\\references\\project_china_driving_cycle.md",
+      "lines": [
+        44,
+        45,
+        46,
+        47,
+        181
+      ],
+      "issue": "Risk of merging formal test/approval transition dates with displayed-label exposure, or describing optional transition as uniform exogenous shock.",
+      "correction": "Keep standard publication/effect, approval/filing, credit accounting, actual display and consumer exposure as distinct dated variables; actual display is necessary for treatment measurement but not automatically exogenous.",
+      "status": "official-source conditional correction"
+    },
+    {
+      "path": "D:\\codex\\output\\blp_skill_integration_20261008\\backups\\claude_source_20261008\\skills\\blp-model-building\\references\\project_china_driving_cycle.md",
+      "line": 7,
+      "issue": "Legacy sections and tables are retained despite newer precedence markers.",
+      "correction": "Keep deprecated/candidate markers attached to the retrieved old block, not only at document opening, so stale priorities do not silently re-enter analysis.",
+      "status": "retrieval-governance risk, not proof every old claim is wrong"
+    }
+  ],
+  "project_plan": {
+    "umbrella": "Official energy-measure relabeling, limited attention, and automobile technology choice",
+    "questions": [
+      "Adoption and WTP",
+      "Within/across-technology substitution and matching",
+      "Policy instruments, price feedback, experienced welfare, energy/emissions and distribution"
+    ],
+    "fixed_scope": [
+      "ICE/HEV/PHEV/BEV/outside unified choice set",
+      "same hardware dual-cycle comparison",
+      "realized information exposure distinct from certification",
+      "separate beliefs, updating, attention/future-cost capitalization, intrinsic taste and unobserved quality"
+    ],
+    "not_precommitted": [
+      "Label becomes more accurate",
+      "Myopia decreases",
+      "Electrification rises",
+      "All reputation variation is causal learning"
+    ]
+  },
+  "reputation_module": {
+    "status": "User project working module, not independently peer reviewed",
+    "observed_prior_record": "verification_results.json records 16/16 internal symbolic/synthetic checks passing",
+    "current_execution": "Bundled brand_reputation_checks.py not executed in this source-audit task",
+    "external_review": "Recorded as not_completed",
+    "claim_permissions": [
+      "Observed pre-purchase non-energy reputation can be a separate observable perceived-quality proxy",
+      "Mean rating, review count and uncertainty/exposure are distinct objects",
+      "Post-policy reviews can be endogenous mediators; lag/leave-one-out/cross-city/cross-platform are not automatic instruments"
+    ],
+    "forbidden_upgrades": [
+      "16 passing synthetic checks do not establish empirical identification, representativeness or external review",
+      "Rating total is not pure valence",
+      "Observed score is not residual researcher-unobserved xi",
+      "Zhao2013/Acemoglu2022 old anchors not newly verified this turn"
+    ]
+  },
+  "bridge_retrieval": {
+    "protocol": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\QUESTION_PROTOCOL.md",
+    "private_memory": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\literature_scout.md",
+    "relevant_card": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\cards\\batch_a\\p0074.md",
+    "matching_source_pack": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\source_packs\\p0074_what-you-don-t-know-may-be-good-for-you.source_pack.md",
+    "status": "Card and source pack opened only for measurement-selection packaging; original paper not reopened and not used as a formal BLP recommendation or consequential paper-specific claim.",
+    "aej_index_searches": [
+      "fuel",
+      "information"
+    ],
+    "aej_boundary": "Search hits are card-based candidates, not additional completed readings; no broad new reading or novelty claim."
+  },
+  "unresolved": [
+    "Actual city-month-configuration retail display and buyer exposure dates",
+    "Direct pre-purchase beliefs and relevance/trust/attention measures",
+    "Conditions-matched on-road truth benchmark and ownership/posting selection",
+    "Endogeneity of price, review valence/count, engineering changes and voluntary early switching",
+    "Full text of current applicable standard amendments",
+    "Original Zhao2013 and Acemoglu2022 review-learning anchors not reopened this task",
+    "No novelty/first claim until nearest measurement and rival literatures are fully audited"
+  ],
+  "execution_notes": [
+    {
+      "operation": "Targeted PyMuPDF original-page display via PowerShell stdin",
+      "initial_exit": 1,
+      "error": "UnicodeEncodeError: gbk codec cannot encode character at output; source read itself not a permission/evaluator failure.",
+      "corrected_command_change": "Set PYTHONIOENCODING=utf-8 and rerun same page selections",
+      "corrected_exit": 0,
+      "source_bytes_changed": false
+    }
+  ],
+  "confidence_and_limits": "High for input identity, declared scope, original key-page anchors and official date/body statements; conditional for transfer to Chinese consumer behavior; no new causal, parameter identification, independent review or full-corpus completion claim.",
+  "original_lookup_snapshot_before_new_local_discovery_20261008": [
+    {
+      "id": "Small_Rosen1981",
+      "citation": "Applied Welfare Economics with Discrete Choice Models. Econometrica 49(1):105–130, DOI10.2307/1911129.",
+      "official_metadata": "https://its.uci.edu/research_products/published-journal-article-applied-welfare-economics-with-discrete-choice-models/",
+      "lookup": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\targeted_zotero_Small_Rosen.json",
+      "status": "Targeted Zotero query zero matches; UCI metadata verified; JSTOR body not available; NBER1979 PDF403, alternate v5 not fetched.",
+      "boundary": "D20 is a given-assumptions mathematical derivation checked independently, not a verified transcription or page anchor from this paper."
+    },
+    {
+      "id": "Berry_Haile2024",
+      "citation": "Nonparametric Identification of Differentiated Products Demand Using Micro Data. Econometrica92(4):1135–1162, DOI10.3982/ECTA20731.",
+      "lookup": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\targeted_zotero_Berry_Haile.json",
+      "status": "Targeted query zero matches; published original unavailable locally; exact published assumption number unverified.",
+      "boundary": "Do not substitute author draft numbering or claim published Assumption8 verification."
+    }
+  ],
+  "current_original_boundaries_20261008": [
+    {
+      "id": "Berry_Haile2024",
+      "current_status": "Published original now located in Downloads and copied; target pages1,6,7,16,17,18 read by named source agent, not full text",
+      "exact_verified_scope": "Section2.1; Theorem1 under1–7; Assumption8 E[Xi|X]=0 on publishedp1150; Theorem2 under1–8 onp1151",
+      "not_earned": "Current aggregate-data identification, full supplemental assumptions, full-paper completion"
+    },
+    {
+      "id": "Small_Rosen1981",
+      "current_status": "1981 typeset original still not verified; February1979 NBERWP319 local original copied and target pages read",
+      "exact_verified_scope": "1979 working draft only: expenditure-envelope/quality derivative and signed compensated-expenditure logsum(5.9)",
+      "not_earned": "1981 source-exact numbering/pages, generic income-effect logsum welfare, author erratum for(5.6)"
+    }
+  ]
+}

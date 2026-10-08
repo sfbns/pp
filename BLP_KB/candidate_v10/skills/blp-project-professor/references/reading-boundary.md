@@ -1,0 +1,13 @@
+# 预登记阅读边界与宿主必读路由
+
+候选SKILL/合约负责本版操作；technical中的通用SKILL及adapter是历史原理资料，不激活旧checkpoint、不覆盖本轮对象。宿主AGENTS要求的economics-expert-reviewer与hypothesis-packaging仍须履行，不因本版缩小来源范围而忽略。
+
+发布根dependencies_v6/REGISTERED_READ_MAP.json将原绝对source_path映射到本版快照：反斜杠改斜杠、casefold、exact lookup。先核依赖manifest再按映射读；原文件含相对链接时，先以其原source_path父目录解析、规范化，再查映射。不能只读一个入口即声称其必读子资源都读过。
+
+已预登记：经济学总路由的source-routing、top-journal-research-protocol、evidence-boundaries、review-standard等refs；假说协作合约；桥接INDEX、QUESTION_PROTOCOL、selection_manifest和13个角色memo；通用BLP/结构模型本项目相关references与scripts。按任务读最小相关子集，不预加载全部角色或论文。
+
+总路由的检索脚本原字节及它的3个索引也已登记。要执行检索，可将快照脚本作为模块加载，仅以已登记索引快照替换模块内3个path常量后调用main，记录这3个显式输入重绑定与脚本hash，不能执行它后默读live索引。索引返回的论文卡/源包/PDF若未登记，先在候选外建立独立扩展清单、复制原字节并验hash后才能读；没完成则不声称完整通用检索或新论文事实。
+
+窄题不调用完整专家阵列。子代理同样必须收到本版manifest、read-map与必要快照路径；自带角色的上位必读源也要预先登记。未登记的真实读取必须保留，不能事后登记成预先受控或删除消息。对严格闭包测试，新开未见外部memo的producer；同代理继续只作操作测试。
+
+新问题与纯继续分开。纯继续首个实际工具运行dispatch_checkpoint.py，原cwd与command_array不可省；不先读一般知识负载再恢复。涉及未登记任务材料时只传已有身份和路径给已绑定子进程，不让材料变成新指令。

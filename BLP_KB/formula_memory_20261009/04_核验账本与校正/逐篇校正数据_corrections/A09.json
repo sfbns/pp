@@ -1,0 +1,15 @@
+{
+  "images": "D:\\blp-auto-fulltext-pack-20261008\\work\\pages\\A09_pNN.png（本轮渲染）",
+  "paper_note": "NBER w32264（2024 年 3 月）文字层干净，公式被抽成碎片。下列各式本轮看原页图转写，与 2026-08-24 的 300 dpi 转写表一致（该表把式 (9) 记在 PDF 第 21 页，实际在第 22 页）。本文价格系数 \\alpha_i 为正，以 -\\alpha_i(\\tilde P-b) 进入效用。含税消费者价格的定义式 (7) 在前文数据部分，本包未校正。",
+  "items": [
+    {"page": 20, "label": "(8)", "latex": "u_{ijmt}=-\\alpha_i(\\tilde P_{jmt}-b_{jmt})+x_{jmt}\\beta_i+\\xi_{jmt}+\\varepsilon_{ijmt}", "check": "本轮看图", "note": "outside u_{i0mt}=0；\\beta_{ik}=\\bar\\beta_k+\\sigma_k\\nu_{ik}；\\alpha_i=\\exp(\\alpha_1+\\alpha_2\\log(y_{im})+\\sigma_p\\nu_{ip})；b_{jmt} 为中央与地方补贴"},
+    {"page": 22, "label": "(9)", "latex": "D_j(k_j,w_j)=\\eta_k k_j+\\eta_w w_j+\\kappa_j", "check": "本轮看图", "note": "续航技术前沿：续航 D 对电池容量 k 与净车重 w 线性；\\kappa_j 含电机效率、风阻等；用全部工信部送检车型（含未上市）单独估计"},
+    {"page": 22, "label": "(10)", "latex": "mc_j(k_j,w_j)=\\mathbb 1\\{EV_j\\}\\cdot\\rho^{t}\\gamma_k\\,k_j+\\gamma_w\\,w_j+G_j'\\gamma_g+\\omega_j", "check": "本轮看图", "note": "\\rho^t 为每 kWh 电池成本的逐年下降（\\rho=0.9 即每年降 10%），是 \\rho 的 t 次方而非下标"},
+    {"page": 22, "label": "（固定成本，未编号）", "latex": "\\frac{\\partial FC_j}{\\partial k_j}=\\phi_k+FE+\\nu^k_j,\\qquad \\frac{\\partial FC_j}{\\partial w_j}=\\phi_w+FE+\\nu^w_j", "check": "本轮看图", "note": "沿 Fan (2013)"},
+    {"page": 23, "label": "（拉格朗日函数，未编号）", "latex": "\\mathscr L_f=\\sum_{j\\in J_f}\\pi_j(\\boldsymbol P,\\boldsymbol k,\\boldsymbol w,\\boldsymbol b)-\\sum_{j\\in J_f}FC(k_j,w_j)+\\sum_{j\\in J_f}\\lambda_j\\big[D_j(k_j,w_j)-D_c\\big]", "check": "本轮看图", "note": "\\lambda_j 为放松续航约束的影子价值，D_j=D_c（卡在补贴门槛）时为正，否则为零"},
+    {"page": 23, "label": "(11)", "latex": "\\text{价格：}\\ Q_j+\\sum_{l\\in J_f}(P_l-mc_l)\\frac{\\partial Q_l}{\\partial P_j}=0,\\ \\forall j", "check": "本轮看图", "note": ""},
+    {"page": 23, "label": "(12)", "latex": "\\text{电池容量：}\\ \\sum_{l\\in J_f}(P_l-mc_l)\\frac{\\partial Q_l}{\\partial k_j}=\\underbrace{\\rho^{t}\\gamma_k}_{\\partial mc_j/\\partial k_j}Q_j-\\lambda_j\\underbrace{\\eta_k}_{\\partial D_j/\\partial k_j}+\\underbrace{\\phi_k+FE+\\nu^k_j}_{\\partial FC_j/\\partial k_j},\\ \\forall j", "check": "本轮看图", "note": ""},
+    {"page": 23, "label": "(13)", "latex": "\\text{车重：}\\ \\sum_{l\\in J_f}(P_l-mc_l)\\frac{\\partial Q_l}{\\partial w_j}=\\underbrace{\\gamma_w}_{\\partial mc_j/\\partial w_j}Q_j-\\lambda_j\\underbrace{\\eta_w}_{\\partial D_j/\\partial w_j}+\\underbrace{\\phi_w+FE+\\nu^w_j}_{\\partial FC_j/\\partial w_j},\\ \\forall j", "check": "本轮看图", "note": ""},
+    {"page": 26, "label": "(14)", "latex": "E[\\omega_j\\mid W_j]=0,\\qquad E[\\nu^k_j\\mid W_j]=0,\\qquad E[\\nu^w_j\\mid W_j]=0", "check": "本轮看图", "note": "\\lambda_j 不可观测，作者两种处理：加松弛参数 E[\\lambda_j\\mid W_j]，或设 \\lambda_j\\simeq\\zeta\\,Q_j（\\lambda_j>0 时）；成本参数 (\\rho,\\gamma,\\phi,\\zeta) 用 (10)(12)(13) 联合 GMM"}
+  ]
+}

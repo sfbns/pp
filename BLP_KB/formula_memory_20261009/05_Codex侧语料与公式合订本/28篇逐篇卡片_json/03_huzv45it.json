@@ -1,0 +1,165 @@
+{
+  "rank": 3,
+  "item_key": "HUZV45IT",
+  "title": "Consumer Myopia in Vehicle Purchases: Evidence from a Natural Experiment",
+  "authors": [
+    "Kenneth T. Gillingham",
+    "Sébastien Houde",
+    "Arthur A. van Benthem"
+  ],
+  "creators": [
+    {
+      "name": "Kenneth T. Gillingham",
+      "type": "author"
+    },
+    {
+      "name": "Sébastien Houde",
+      "type": "author"
+    },
+    {
+      "name": "Arthur A. van Benthem",
+      "type": "author"
+    }
+  ],
+  "date": "2021-00-00 2021",
+  "journal": "American Economic Journal: Economic Policy",
+  "doi": "10.1257/pol.20200322",
+  "url": "https://doi.org/10.1257/pol.20200322",
+  "collections": [
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "BLP-adjacent structural policy model",
+  "apa_citation": {
+    "reference": "Gillingham, K. T., Houde, S., & Benthem, A. A. v. (2021). Consumer Myopia in Vehicle Purchases: Evidence from a Natural Experiment. American Economic Journal: Economic Policy. https://doi.org/10.1257/pol.20200322",
+    "parenthetical": "(Gillingham et al., 2021)",
+    "narrative": "Gillingham et al. (2021)"
+  },
+  "preferred_pdf_rel": "source_pdfs/03_huzv45it.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "AQEDI58V",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:w25845.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\AQEDI58V\\w25845.pdf",
+    "exists": true,
+    "size": 589757
+  },
+  "legacy_note_rel": "raw/notes/03_huzv45it.md",
+  "legacy_old_memory_rel": "raw/paper_memory/03_huzv45it.md",
+  "fulltext_json_rel": "raw/fulltext/03_huzv45it.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/03_huzv45it.fulltext.txt",
+  "llm_json_rel": "raw/ocr_llm/03_huzv45it.llm.json",
+  "llm_md_rel": "raw/ocr_llm/03_huzv45it.llm.md",
+  "note_sections": {
+    "1. One-paragraph thesis": "- 故事起点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n- BLP positioning: BLP-adjacent structural policy model\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.",
+    "2. Story ladder": "- 故事起点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n- 制度/市场切口：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n- 模型推进：We examine the short-run equilibrium effects of a restatement of fuel economy ratings that affected 1.6 million vehicles.\n- 结论落点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.",
+    "3. Model or identification core": "- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, bertrand, welfare, instrument\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别主要靠制度冲击或自然实验，把外生变化灌进结构模型。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "4. Data and measurement": "- Data section must be read together with the recovered fulltext headings and paper PDF.\n- Recovered section headings: headings not recovered",
+    "5. Findings and mechanisms": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.",
+    "6. Contribution construction": "- 故事起点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.",
+    "7. Literature review function": "- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+    "8. Writing structure map": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 The 2012 Fuel-Economy Rating Restatement\n- 3 Data\n- 4 The Equilibrium Effects of the Restatement\n- 5 Implications for the Valuation of Fuel Economy\n- 6 Conclusions\n- CONSUMER MYOPIA IN VEHICLE PURCHASES: EVIDENCE FROM A NATURAL EXPERIMENT\n- ABSTRACT\n- 4.1 Effects on Transaction Prices\n- 4.1.1 Robustness Checks\n- 4.1.2 Heterogeneous Effects on Transaction Prices\n- 4.2 Effects on Other Outcomes?",
+    "9. Reusable writing moves": "- 先用自然实验或制度冲击把识别抓牢，再让结构模型回答 reduced-form 无法覆盖的替代和福利问题。\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。",
+    "10. Memory update": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_huzv45it_consumer-myopia-in-vehicle-purchases-evidence-from-a-natural-experiment\ndescription: Fulltext memory for Consumer Myopia in Vehicle Purchases: Evidence from a Natural Experiment; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# Consumer Myopia in Vehicle Purchases: Evidence from a Natural Experiment",
+    "Citation": "- Key: `HUZV45IT`\n- DOI: `10.1257/pol.20200322`\n- Journal: American Economic Journal: Economic Policy\n- Year: 2021\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\HUZV45IT.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/HUZV45IT/HUZV45IT.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/HUZV45IT.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.",
+    "Story Logic": "- 故事起点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n- 制度/市场切口：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n- 模型推进：We examine the short-run equilibrium effects of a restatement of fuel economy ratings that affected 1.6 million vehicles.\n- 结论落点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.",
+    "BLP Model Memory": "- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, bertrand, welfare, instrument\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别主要靠制度冲击或自然实验，把外生变化灌进结构模型。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 The 2012 Fuel-Economy Rating Restatement\n- 3 Data\n- 4 The Equilibrium Effects of the Restatement\n- 5 Implications for the Valuation of Fuel Economy\n- 6 Conclusions\n- CONSUMER MYOPIA IN VEHICLE PURCHASES: EVIDENCE FROM A NATURAL EXPERIMENT\n- ABSTRACT\n- 4.1 Effects on Transaction Prices\n- 4.1.1 Robustness Checks\n- 4.1.2 Heterogeneous Effects on Transaction Prices\n- 4.2 Effects on Other Outcomes?",
+    "Reusable Writing Moves": "- 先用自然实验或制度冲击把识别抓牢，再让结构模型回答 reduced-form 无法覆盖的替代和福利问题。\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。",
+    "OCR Anchors": "- abstract: `ABSTRACT` (p.1) - ABSTRACT A central question in the analysis of fuel-economy policy is whether consumers are myopic with regards to future fuel costs. We provide the first evidence on consumer valuation of fuel economy from a natural experiment.\n- introduction: `1 Introduction` (p.2) - 1 Introduction The transportation sector is now the largest contributor of carbon dioxide emissions in the United States and emissions from petroleum constituted 45% of all energy-related carbon dioxide emissions in 2017.1 Fuel-economy regulations are the dominant policy to reduce carbon dioxide emissions from the transportation sector in the United States and many other countries, despite economists long arguing for a Pigouvian gasoline tax to internalize climate change (and other) externalities (Parry and Small 2005). Fuel-economy standards require automakers to meet average fuel-economy targets for new light-duty vehicles.\n- background: `2 The 2012 Fuel-Economy Rating Restatement` (p.5) - 2 The 2012 Fuel-Economy Rating Restatement The restatement was made public on November 2, 2012, when EPA stated in a press release that “in processing test data, Hyundai and Kia allegedly chose favorable results rather than average results from a large number of tests.”7 This was a result of a 2012 EPA audit of the model-year 2012 Hyundai Elantra, which revealed a large discrepancy between the test results and the self-reported fuel economy provided by Hyundai. Based on this finding, EPA expanded its investigation to other Hyundai and Kia vehicles, uncovering many more discrepancies, all of which overstated fuel economy.\n- data: `3 Data` (p.6) - 3 Data Our first dataset contains all dealer-reported new vehicle transactions in the United States from August 2011 to June 2014 from R.L. Polk.\n- results: `4 The Equilibrium Effects of the Restatement` (p.7) - 4 The Equilibrium Effects of the Restatement\n- counterfactual: `5 Implications for the Valuation of Fuel Economy` (p.12) - 5 Implications for the Valuation of Fuel Economy\n- conclusion: `6 Conclusions` (p.18) - 6 Conclusions This paper exploits an unexpected restatement in the EPA-rated fuel economy for thousands of vehicles. A highly desirable feature of this natural experiment is that the vehicles themselves are identical before and after the restatement, providing us with a clean source of variation in expected future fuel costs by consumers.",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- 故事起点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n- BLP positioning: BLP-adjacent structural policy model\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.\n\n- 故事起点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n- 制度/市场切口：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n- 模型推进：We examine the short-run equilibrium effects of a restatement of fuel economy ratings that affected 1.6 million vehicles.\n- 结论落点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n\n- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, bertrand, welfare, instrument\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别主要靠制度冲击或自然实验，把外生变化灌进结构模型。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。\n\n- Data section must be read together with the recovered fulltext headings and paper PDF.\n- Recovered section headings: headings not recovered\n\n- 故事起点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.\n\n- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+  "baseline_core_memory": "- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, bertrand, welfare, instrument\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别主要靠制度冲击或自然实验，把外生变化灌进结构模型。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。\n\n- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, bertrand, welfare, instrument\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别主要靠制度冲击或自然实验，把外生变化灌进结构模型。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+  "mechanism_memory": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.\n\n- 故事起点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n- 制度/市场切口：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.\n- 模型推进：We examine the short-run equilibrium effects of a restatement of fuel economy ratings that affected 1.6 million vehicles.\n- 结论落点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.",
+  "result_memory": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.\n\n- Results anchor: n the equilibrium prices of the affected models (just under $300). We then proceed by directly estimating the consumer valuation of fuel economy. Using our preferred set of valuation assumptions, our results indicate that consumers are indifferent between one dollar in future gasoline costs and 15-38 cents in the vehic\n- Conclusion anchor: -year, and using a discount rate of 4%. We thus find that consumers systematically undervalue fuel economy in vehicle purchases to a larger degree than reported by much of the recent literature. This conclusion is robust to a wide range of valuation assumptions, including vehicle supply elasticities, as we illustrate i",
+  "writing_style_memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 The 2012 Fuel-Economy Rating Restatement\n- 3 Data\n- 4 The Equilibrium Effects of the Restatement\n- 5 Implications for the Valuation of Fuel Economy\n- 6 Conclusions\n- CONSUMER MYOPIA IN VEHICLE PURCHASES: EVIDENCE FROM A NATURAL EXPERIMENT\n- ABSTRACT\n- 4.1 Effects on Transaction Prices\n- 4.1.1 Robustness Checks\n- 4.1.2 Heterogeneous Effects on Transaction Prices\n- 4.2 Effects on Other Outcomes?\n\n- 先用自然实验或制度冲击把识别抓牢，再让结构模型回答 reduced-form 无法覆盖的替代和福利问题。\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 The 2012 Fuel-Economy Rating Restatement\n- 3 Data\n- 4 The Equilibrium Effects of the Restatement\n- 5 Implications for the Valuation of Fuel Economy\n- 6 Conclusions\n- CONSUMER MYOPIA IN VEHICLE PURCHASES: EVIDENCE FROM A NATURAL EXPERIMENT\n- ABSTRACT\n- 4.1 Effects on Transaction Prices\n- 4.1.1 Robustness Checks\n- 4.1.2 Heterogeneous Effects on Transaction Prices\n- 4.2 Effects on Other Outcomes?\n\n- 先用自然实验或制度冲击把识别抓牢，再让结构模型回答 reduced-form 无法覆盖的替代和福利问题。\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "instrumental variable",
+    "equilibrium",
+    "markup",
+    "heterogeneity",
+    "fuel economy",
+    "differentiated product"
+  ],
+  "fulltext_headings": [
+    "NBER WORKING PAPER SERIES",
+    "CONSUMER MYOPIA IN VEHICLE PURCHASES: EVIDENCE FROM A NATURAL EXPERIMENT",
+    "NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 May 2019",
+    "Consumer Myopia in Vehicle Purchases: Evidence from a Natural Experiment",
+    "May 2019",
+    "ABSTRACT",
+    "Kenneth Gillingham",
+    "School of Forestry and Environmental Studies",
+    "Yale University",
+    "195 Prospect Street",
+    "New Haven, CT 06511",
+    "Department of Management, Technology,",
+    "Centre for Energy Policy and Economics",
+    "ETH Zurich",
+    "Zurichbergstrasse 18, 8092 Zurich",
+    "Arthur van Benthem",
+    "The Wharton School",
+    "University of Pennsylvania",
+    "1354 Steinberg Hall - Dietrich Hall",
+    "3620 Locust Walk",
+    "Philadelphia, PA 19104",
+    "1 Introduction",
+    "2 The 2012 Fuel-Economy Rating Restatement",
+    "3 Data"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 2,
+      "snippet": "yopia in Vehicle Purchases: Evidence from a Natural Experiment\ntext\nKenneth Gillingham, Sébastien Houde, and Arthur van Benthem\ntext\nNBER Working Paper No. 25845\ntext\nMay 2019\ntext\nJEL No. D12,L62,Q4\nABSTRACT\nA central question in the analysis of fuel-economy policy is whether consumers are myopic with regards to future fuel costs. We provide the first evidence on consumer valuation of fuel economy from a natural experiment. We examine the short-run equilibrium effects of an exogenous restatement of fuel-economy ratings that affected 1.6 million vehicles. Using the implied changes in willingness-to-pay, we find that consumers act myopically: consumers are indifferent between $1 in discounted fuel costs and 15-38 cents in the vehicle purchase price when discounting at 4%. This myopia persists under a wide range of assumptions.\ntext_list\nunordered\ntext\nKenneth Gillingham\ntext\nSchool of Forestry and Environmental Studies\ntext\nYale University\ntext\n195 Prospect Street\ntext\nNew Haven, CT 065"
+    },
+    "data": {
+      "page": 5,
+      "snippet": "estimates centered around one, implying that consumers fully value future fuel savings. Busse, Knittel, and Zettelmeyer (2013) also rely on gasoline price variation and use both new and used vehicle data, while Sallee, West, and Fan (2016) estimate their model with used vehicle auction data and use variation in odometer readings. Grigolon, Reynaert, and Verboven (2018) use temporal variation in gasoline prices combined with cross-sectional variation in engine technology to find a central-case valuation parameter of 0.91 in Europe. Taken together, these studies suggest modest undervaluation at most.6 In contrast, Leard, Linn, and Zhou (2018) use data from new vehicles in the United States and exploit the timing of adoption of fuel-saving technologies. They find a substantially lower valuation parameter of 0.54. Leard, Linn, and Springel (2019) focus on using cross-sectional variation in engine technologies and find even lower values; most of their estimates are below 0.30.\nWe bring a n"
+    },
+    "model": {
+      "page": 3,
+      "snippet": "by the U.S. Environmental Protection Agency (EPA), the two major automakers Hyundai and Kia acknowledged that they had overstated the fuel economy for 13 important vehicle models from the 2011- 2013 model-years by one to six miles-per-gallon. This overstatement—by far the largest in history—affected over 1.6 million vehicles sold, including several popular models such as the Hyundai Elantra and Kia Rio. Hyundai and Kia blamed a “procedural error” in the mileage testing and had to abruptly change the official fuel-economy ratings for these vehicles. Following the restatement, the automakers agreed to compensate buyers who had already purchased vehicles with misstated ratings, while new car buyers after the restatement did not receive compensation.4 The restatement was unexpected—even just prior to it, Hyundai and Kia often advertised the high fuel economy of their vehicles as a major selling feature.\n1From https://www.eia.gov/energyexplained/index.php?page=environment_where_ ghg_come_f"
+    },
+    "results": {
+      "page": 4,
+      "snippet": "n the equilibrium prices of the affected models (just under $300). We then proceed by directly estimating the consumer valuation of fuel economy. Using our preferred set of valuation assumptions, our results indicate that consumers are indifferent between one dollar in future gasoline costs and 15-38 cents in the vehicle purchase price (a ‘valuation parameter’ of 0.15-0.38) depending on the affected model-year, and using a discount rate of 4%. We thus find that consumers systematically undervalue fuel economy in vehicle purchases to a larger degree than reported by much of the recent literature. This conclusion is robust to a wide range of valuation assumptions, including vehicle supply elasticities, as we illustrate in a bounding exercise.\nPrevious studies estimating the consumer valuation of fuel economy use several different identification strategies, but most leverage changes in gasoline prices to test whether vehicle prices fully adjust with the changes in the expected discounted"
+    },
+    "conclusion": {
+      "page": 4,
+      "snippet": "-year, and using a discount rate of 4%. We thus find that consumers systematically undervalue fuel economy in vehicle purchases to a larger degree than reported by much of the recent literature. This conclusion is robust to a wide range of valuation assumptions, including vehicle supply elasticities, as we illustrate in a bounding exercise.\nPrevious studies estimating the consumer valuation of fuel economy use several different identification strategies, but most leverage changes in gasoline prices to test whether vehicle prices fully adjust with the changes in the expected discounted present value of future fuel costs. This basic approach was used as early as the 1980s, with Kahn (1986) finding that used car prices adjust only one third to one half the amount that would be expected based on the changes induced by shocks to gasoline costs and argues that used car buyers must be myopic.\n4From https://kiampginfo.com/\n5In focusing on the equilibrium effects of the restatement, our study r"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "故事起点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs.",
+      "故事起点：A central question in the analysis of fuel economy policy is whether consumers are myopic with regards to future fuel costs."
+    ],
+    "session": [
+      "Retrieve by key/title: HUZV45IT / Consumer Myopia in Vehicle Purchases: Evidence from a Natural Experiment",
+      "Use collections and journal handles: BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Gillingham et al., 2021) / Gillingham et al. (2021)"
+    ],
+    "agent": [
+      "BLP positioning: BLP-adjacent structural policy model",
+      "BLP positioning: BLP-adjacent structural policy model"
+    ],
+    "team": [
+      "先用自然实验或制度冲击把识别抓牢，再让结构模型回答 reduced-form 无法覆盖的替代和福利问题。",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

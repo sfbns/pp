@@ -1,0 +1,160 @@
+{
+  "rank": 1,
+  "item_key": "JDV2EEV6",
+  "title": "Better Lucky Than Rich? Welfare Analysis of Automobile Licence Allocations in Beijing and Shanghai",
+  "authors": [
+    "Shanjun Li"
+  ],
+  "creators": [
+    {
+      "name": "Shanjun Li",
+      "type": "author"
+    }
+  ],
+  "date": "2018-00-00 2018",
+  "journal": "The Review of Economic Studies",
+  "doi": "10.1093/restud/rdx067",
+  "url": "https://doi.org/10.1093/restud/rdx067",
+  "collections": [
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Li, S. (2018). Better Lucky Than Rich? Welfare Analysis of Automobile Licence Allocations in Beijing and Shanghai. The Review of Economic Studies. https://doi.org/10.1093/restud/rdx067",
+    "parenthetical": "(Li, 2018)",
+    "narrative": "Li (2018)"
+  },
+  "preferred_pdf_rel": "source_pdfs/01_jdv2eev6.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "44V8WY3B",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:restud%252Frdx067.pdf.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\44V8WY3B\\restud%252Frdx067.pdf.pdf",
+    "exists": true,
+    "size": 593141
+  },
+  "legacy_note_rel": "raw/notes/01_jdv2eev6.md",
+  "legacy_old_memory_rel": "raw/paper_memory/01_jdv2eev6.md",
+  "fulltext_json_rel": "raw/fulltext/01_jdv2eev6.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/01_jdv2eev6.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper asks how much welfare is lost when a city restricts car ownership with a lottery rather than a uniform-price auction.\n- Its answer is that Beijing's lottery design creates large misallocation costs, even though it lowers some externalities relative to pure market allocation.\n- The key takeaway is that \"fair\" allocation can be much more expensive than it looks once households differ in willingness to pay and usage intensity.",
+    "2. Story ladder": "- Real-world tension or puzzle: Beijing and Shanghai both ration car licenses, but they use very different allocation rules.\n- Why the puzzle matters now: when quantity controls are unavoidable, the allocation rule itself becomes a major policy lever.\n- What the literature already explains: car ownership regulation can reduce congestion and pollution, but not the welfare ranking of allocation mechanisms.\n- What is still missing or weakly identified: the welfare comparison between lottery and auction under realistic heterogeneity.\n- The paper's move: build a welfare counterfactual for the two systems using the same restricted market.\n- Main payoff: the allocation mechanism itself has first-order welfare consequences; quantity control is not enough.",
+    "3. Model or identification core": "- Research design type: structural welfare comparison / counterfactual policy analysis.\n- Structural model class or reduced-form design: demand-and-allocation framework with observed license rules and market outcomes.\n- Key equations or choice objects: household choice over vehicle ownership under a binding license constraint.\n- Endogeneity problem: observed ownership mixes reflect both preferences and policy rationing.\n- Identification strategy: recover demand/welfare objects from market behavior, then simulate alternative allocation rules.\n- What assumptions are doing the heavy lifting: stable preferences and counterfactual policy comparability.",
+    "4. Data and measurement": "- Unit of observation: households / car-market choices under city-level license regimes.\n- Market definition: Beijing versus Shanghai automobile ownership market.\n- Main dependent variable: welfare under alternative license allocation rules.\n- Core explanatory variables: license availability, household willingness to pay, and policy design.\n- Instruments / moments / shocks: not fully extracted from OCR; likely policy-rule variation rather than an external instrument.\n- Important sample restrictions: cities under rationing regimes; exact restriction details were not fully recoverable from OCR.",
+    "5. Findings and mechanisms": "- Baseline result: Beijing's lottery generates very large welfare loss; the paper states roughly 30 billion Yuan in 2012 alone.\n- Mechanism evidence: the lottery misallocates scarce licenses away from higher-value users.\n- Heterogeneity evidence: the welfare ranking depends on how much the license cap binds across households.\n- Welfare or counterfactual result: a uniform-price auction would have raised roughly 20 billion Yuan in the cited year.\n- Limits the authors admit: the externality-reducing aspect of rationing is real, so the question is not \"lottery versus no policy\" but \"lottery versus better allocation.\"",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: rationing, congestion, and license allocation work on Chinese auto policy.\n- What exact gap the authors claim: prior work underweights the welfare cost of the allocation rule itself.\n- How the introduction stages novelty: by contrasting two large Chinese cities with different rationing institutions.\n- Whether the contribution is data, method, theory, policy, or a combination: mainly policy plus structural welfare method.",
+    "7. Literature review function": "- Where the review sits: early in the introduction before the policy comparison.\n- How the review is organized: rationing policies, welfare consequences, and allocation mechanisms.\n- Which citations do positioning work: studies on vehicle restrictions and market design.\n- Which citations do method-validation work: structural welfare and discrete-choice papers.",
+    "8. Writing structure map": "- Introduction move sequence: puzzle -> policy context -> welfare gap -> mechanism -> quantitative result.\n- Section order: policy setting, model, data, estimation, welfare counterfactuals, conclusion.\n- Where the paper turns from setup to payoff: once the auction-versus-lottery counterfactual is introduced.\n- How tables/figures are used to move the argument: they likely anchor the policy comparison and welfare decomposition; OCR extraction was too noisy to map every table confidently.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"Two cities face the same constraint, but different allocation rules create different welfare outcomes.\"\n- Best transition pattern: move from externality control to misallocation cost.\n- Best contribution sentence pattern: \"We show that the rule used to allocate scarce licenses matters as much as the cap itself.\"\n- Best limitation or implication move: \"The policy is not whether to ration, but how to ration.\"",
+    "10. Memory update": "- Durable economics-writing principle: always separate the policy instrument from the allocation rule that implements it.\n- Durable structural-model principle: welfare comparisons become credible when the counterfactual keeps the same constraint but changes the assignment mechanism.\n- Reusable empirical design idea: compare institutions that solve the same scarcity problem with different market mechanisms.\n- Follow-up paper to pair with this one: a paper on congestion pricing versus lotteries in the same city."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_jdv2eev6_better-lucky-than-rich-welfare-analysis-of-automobile-licence-allocations-in-bei\ndescription: Fulltext BLP reading memory for Better Lucky Than Rich? Welfare Analysis of Automobile Licence Allocations in Beijing and Shanghai; includes story logic, BLP model shape, writing structure, and policy payoff.\ntype: reference\n---\n\n# Better Lucky Than Rich? Welfare Analysis of Automobile Licence Allocations in Beijing and Shanghai",
+    "Citation": "- Key: `JDV2EEV6`\n- DOI: `10.1093/restud/rdx067`\n- Journal: The Review of Economic Studies\n- Year: 2018\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\JDV2EEV6.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/JDV2EEV6/JDV2EEV6.llm.json`",
+    "Read Status": "- 本记忆基于全文 OCR 结果，不是只基于题录摘要。\n- OCR 引擎：MinerU 优先，DirectML 加速，关闭表格识别以避免已知编码错误；输出为 `llm.md` + `llm.json` + `chunks.jsonl`。",
+    "Story Question": "- 核心问题：Economists often favour market-based mechanisms over non-market based mechanisms to allocate scarce public resources on grounds of economic efficiency and revenue generation.",
+    "Story Logic": "- 从问题出发：Economists often favour market-based mechanisms over non-market based mechanisms to allocate scarce public resources on grounds of economic efficiency and revenue generation.\n- 把识别对象具体化：When the usage of the resources in question generates type-dependent negative externalities, the welfare comparison can become ambiguous.\n- 最后把结果落到政策/福利含义：When the usage of the resources in question generates type-dependent negative externalities, the welfare comparison can become ambiguous.",
+    "How BLP Enters": "- 分类判断：BLP-style differentiated-product demand\n- 触发证据：random coefficients, discrete choice, welfare, counterfactual, instrument\n- 读法提醒：这里的“BLP”既可能是严格的随机系数需求+供给均衡，也可能只是沿用差异化产品结构需求与福利反事实的传统。",
+    "Model Shape": "- Demand side: 需求侧明显是随机系数离散选择框架。 市场份额/替代关系是识别核心对象。\n- Heterogeneity: 文中通过异质偏好、车型属性、收入/里程/地区或消费者画像来刻画替代弹性。\n- Supply side: 如果只看到需求与反事实而没有价格设定/边际成本/伯特兰关键词，则供给侧可能较轻或被简化。\n- Identification / estimation: 识别中明确出现工具变量/外生冲击。\n- Counterfactual / welfare: 摘要直接说明会做福利/反事实模拟，因此模型的终点是政策比较而不仅是弹性估计。",
+    "Writing Structure": "- 从 OCR 章节树看，正文大体按照下面顺序展开：\n- Better Lucky Than Rich? Welfare Analysis of Automobile Licence Allocations in Beijing and Shanghai\n- SHANJUN LI Cornell University and NBER\n- First version received February 2015; Editorial decision July 2017; Accepted November 2017 (Eds.)\n- Key words: Allocation efficiency, Automobile externalities, Auction, Lottery.\n- JEL Codes: Q58, R48\n- 1. INTRODUCTION\n- The editor in charge of this paper was Jerome Adda.\n- REVIEW OF ECONOMIC STUDIES\n- SHANJUN LI LOTTERY VERSUS AUCTION IN LICENSE ALLOCATION\n- REVIEW OF ECONOMIC STUDIES\n- 2. ALLOCATION MECHANISMS AND EXTERNALITIES\n- SHANJUN LI LOTTERY VERSUS AUCTION IN LICENSE ALLOCATION\n- Welfare comparison of lottery and auction with externalities.\n- REVIEW OF ECONOMIC STUDIES\n- SHANJUN LI LOTTERY VERSUS AUCTION IN LICENSE ALLOCATION\n- 3. POLICY AND DATA DESCRIPTION\n- 3.1. Background\n- REVIEW OF ECONOMIC STUDIES\n- 3.2. Policy description\n- SHANJUN LI LOTTERY VERSUS AUCTION IN LICENSE ALLOCATION\n- 3.3. Data description\n- REVIEW OF ECONOMIC STUDIES\n- New vehicle monthly sales (in logarithm) in the four cities.\n- SHANJUN LI LOTTERY VERSUS AUCTION IN LICENSE ALLOCATION\n- REVIEW OF ECONOMIC STUDIES\n- 4. EMPIRICAL MODEL OF VEHICLE DEMAND\n- 4.1. Utility function specification\n- SHANJUN LI LOTTERY VERSUS AUCTION IN LICENSE ALLOCATION\n- REVIEW OF ECONOMIC STUDIES\n- 4.2. Choice probabilities and aggregate demand",
+    "Reusable Writing Moves": "- 把模型估计直接连到政策反事实，而不是只停留在弹性或系数。",
+    "OCR Section Anchors": "- introduction: `1. INTRODUCTION` (p.0)\n- estimation: `5. IDENTIFICATION AND ESTIMATION` (p.17)\n- counterfactual: `Welfare comparison of lottery and auction with externalities.` (p.5)\n- conclusion: `8. CONCLUSION` (p.36)",
+    "Memory Notes": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "theory_design_memory": "- The paper asks how much welfare is lost when a city restricts car ownership with a lottery rather than a uniform-price auction.\n- Its answer is that Beijing's lottery design creates large misallocation costs, even though it lowers some externalities relative to pure market allocation.\n- The key takeaway is that \"fair\" allocation can be much more expensive than it looks once households differ in willingness to pay and usage intensity.\n\n- Real-world tension or puzzle: Beijing and Shanghai both ration car licenses, but they use very different allocation rules.\n- Why the puzzle matters now: when quantity controls are unavoidable, the allocation rule itself becomes a major policy lever.\n- What the literature already explains: car ownership regulation can reduce congestion and pollution, but not the welfare ranking of allocation mechanisms.\n- What is still missing or weakly identified: the welfare comparison between lottery and auction under realistic heterogeneity.\n- The paper's move: build a welfare counterfactual for the two systems using the same restricted market.\n- Main payoff: the allocation mechanism itself has first-order welfare consequences; quantity control is not enough.\n\n- Research design type: structural welfare comparison / counterfactual policy analysis.\n- Structural model class or reduced-form design: demand-and-allocation framework with observed license rules and market outcomes.\n- Key equations or choice objects: household choice over vehicle ownership under a binding license constraint.\n- Endogeneity problem: observed ownership mixes reflect both preferences and policy rationing.\n- Identification strategy: recover demand/welfare objects from market behavior, then simulate alternative allocation rules.\n- What assumptions are doing the heavy lifting: stable preferences and counterfactual policy comparability.\n\n- Unit of observation: households / car-market choices under city-level license regimes.\n- Market definition: Beijing versus Shanghai automobile ownership market.\n- Main dependent variable: welfare under alternative license allocation rules.\n- Core explanatory variables: license availability, household willingness to pay, and policy design.\n- Instruments / moments / shocks: not fully extracted from OCR; likely policy-rule variation rather than an external instrument.\n- Important sample restrictions: cities under rationing regimes; exact restriction details were not fully recoverable from OCR.\n\n- Which papers are treated as the nearest neighbors: rationing, congestion, and license allocation work on Chinese auto policy.\n- What exact gap the authors claim: prior work underweights the welfare cost of the allocation rule itself.\n- How the introduction stages novelty: by contrasting two large Chinese cities with different rationing institutions.\n- Whether the contribution is data, method, theory, policy, or a combination: mainly policy plus structural welfare method.\n\n- Where the review sits: early in the introduction before the policy comparison.\n- How the review is organized: rationing policies, welfare consequences, and allocation mechanisms.\n- Which citations do positioning work: studies on vehicle restrictions and market design.\n- Which citations do method-validation work: structural welfare and discrete-choice papers.",
+  "baseline_core_memory": "- Research design type: structural welfare comparison / counterfactual policy analysis.\n- Structural model class or reduced-form design: demand-and-allocation framework with observed license rules and market outcomes.\n- Key equations or choice objects: household choice over vehicle ownership under a binding license constraint.\n- Endogeneity problem: observed ownership mixes reflect both preferences and policy rationing.\n- Identification strategy: recover demand/welfare objects from market behavior, then simulate alternative allocation rules.\n- What assumptions are doing the heavy lifting: stable preferences and counterfactual policy comparability.",
+  "mechanism_memory": "- Baseline result: Beijing's lottery generates very large welfare loss; the paper states roughly 30 billion Yuan in 2012 alone.\n- Mechanism evidence: the lottery misallocates scarce licenses away from higher-value users.\n- Heterogeneity evidence: the welfare ranking depends on how much the license cap binds across households.\n- Welfare or counterfactual result: a uniform-price auction would have raised roughly 20 billion Yuan in the cited year.\n- Limits the authors admit: the externality-reducing aspect of rationing is real, so the question is not \"lottery versus no policy\" but \"lottery versus better allocation.\"\n\n- 从问题出发：Economists often favour market-based mechanisms over non-market based mechanisms to allocate scarce public resources on grounds of economic efficiency and revenue generation.\n- 把识别对象具体化：When the usage of the resources in question generates type-dependent negative externalities, the welfare comparison can become ambiguous.\n- 最后把结果落到政策/福利含义：When the usage of the resources in question generates type-dependent negative externalities, the welfare comparison can become ambiguous.",
+  "result_memory": "- Baseline result: Beijing's lottery generates very large welfare loss; the paper states roughly 30 billion Yuan in 2012 alone.\n- Mechanism evidence: the lottery misallocates scarce licenses away from higher-value users.\n- Heterogeneity evidence: the welfare ranking depends on how much the license cap binds across households.\n- Welfare or counterfactual result: a uniform-price auction would have raised roughly 20 billion Yuan in the cited year.\n- Limits the authors admit: the externality-reducing aspect of rationing is real, so the question is not \"lottery versus no policy\" but \"lottery versus better allocation.\"\n\n- Results anchor: ssumption that the allocation\n- Conclusion anchor: in the black market in Beijing",
+  "writing_style_memory": "- Introduction move sequence: puzzle -> policy context -> welfare gap -> mechanism -> quantitative result.\n- Section order: policy setting, model, data, estimation, welfare counterfactuals, conclusion.\n- Where the paper turns from setup to payoff: once the auction-versus-lottery counterfactual is introduced.\n- How tables/figures are used to move the argument: they likely anchor the policy comparison and welfare decomposition; OCR extraction was too noisy to map every table confidently.\n\n- Best framing sentence pattern: \"Two cities face the same constraint, but different allocation rules create different welfare outcomes.\"\n- Best transition pattern: move from externality control to misallocation cost.\n- Best contribution sentence pattern: \"We show that the rule used to allocate scarce licenses matters as much as the cap itself.\"\n- Best limitation or implication move: \"The policy is not whether to ration, but how to ration.\"\n\n- Durable economics-writing principle: always separate the policy instrument from the allocation rule that implements it.\n- Durable structural-model principle: welfare comparisons become credible when the counterfactual keeps the same constraint but changes the assignment mechanism.\n- Reusable empirical design idea: compare institutions that solve the same scarcity problem with different market mechanisms.\n- Follow-up paper to pair with this one: a paper on congestion pricing versus lotteries in the same city.\n\n- 把模型估计直接连到政策反事实，而不是只停留在弹性或系数。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。",
+  "professional_vocab": [
+    "structural estimation",
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "policy analysis",
+    "identification strategy",
+    "gmm",
+    "equilibrium",
+    "outside option",
+    "market definition",
+    "heterogeneity",
+    "fuel economy",
+    "consumer demand"
+  ],
+  "fulltext_headings": [
+    "Advance access publication 17 November 2017",
+    "Welfare Analysis of Automobile",
+    "Licence Allocations in Beijing",
+    "SHANJUN LI",
+    "Cornell University and NBER",
+    "Economists often favour market-based mechanisms over non-market based mechanisms to allocate",
+    "JEL Codes: Q58, R48",
+    "1. INTRODUCTION",
+    "REVIEW OF ECONOMIC STUDIES",
+    "About 20,000 new licences are distributed each month through non-transferable lotteries during",
+    "Shanghai, the largest city in China, also has a vehicle licence quota system but its licence",
+    "The main objective of this study is to empirically quantify the welfare consequences of the",
+    "LOTTERY VERSUS AUCTION IN LICENSE ALLOCATION",
+    "Second, there is theoretical ambiguity a priori in welfare comparison between the two",
+    "Since licences are allocated through lotteries and trade is not allowed in Beijing, we do not",
+    "Second, as discussed further above, in the presence of type-dependent externalities that is",
+    "2. ALLOCATION MECHANISMS AND EXTERNALITIES",
+    "The purpose of this section is to offer an illustration on the welfare comparison between lottery",
+    "However, when the usage of resources generates market failures such as externalities, market-",
+    "We compare two allocation mechanisms: a non-transferable lottery where all agents can",
+    "We start with a simple case of allocation mechanisms with constant external costs from the",
+    "Line EC is the external cost for the agents with the corresponding WTP and it is constant in this",
+    "Figure 1",
+    "The middle panel in Figure 1 shows a case where the external costs are positively correlated"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 1,
+      "snippet": "ich led to wide discontent due to long delays. The FCC ﬁnally adopted auctions in\nThe editor in charge of this paper was Jerome Adda.\n1\nDownloaded from https://academic.oup.com/restud/advance-article-abstract/doi/10.1093/restud/rdx067/4638454\nby Insead user\non 05 March 2018"
+    },
+    "data": {
+      "page": 3,
+      "snippet": "sumers with\nhigh WTP tend to have high income. At the same time, high-income households on average\nbuy less fuel-efﬁcient vehicles and drive more than low-income households as household travel\nsurvey data from both China and U.S. show (see Table 1 and discussion in Section 2). Whether\nthe lottery or the auction system leads to higher social welfare depends critically on the level of\nconsumer heterogeneity in WTP and its relationship with automobile externalities. Therefore, the\nefﬁciency comparison and the magnitude of welfare impacts are ultimately empirical questions.\nSince licences are allocated through lotteries and trade is not allowed in Beijing, we do not\nobserve consumers’WTP. In Shanghai, licences are auctioned in a non-standard format where the\nbids may not reﬂect value and the equilibrium bidding function is difﬁcult to characterize as shown\nin an experimental study by Liao and Holt (2013). To recover consumers’WTP for a licence, we\nrecognize that consumer surplus from ownin"
+    },
+    "model": {
+      "page": 3,
+      "snippet": "hould inform WTP for a licence, the\nadditional cost that consumers have to bear to own a vehicle. To estimate consumer surplus from\nvehicle ownership, we estimate a random coefﬁcients discrete choice model of vehicle demand\nthat takes into account consumer preference heterogeneity and unobserved product attributes\ndeveloped by Berry et al. (1995) (henceforth BLP). Similar to Petrin (2002), our estimation\nstrategy employs both aggregate market-level data and information from household surveys to\nform moment conditions. From household surveys on new vehicle buyers, we obtain the share\nof buyers among different income groups. We use them to form (micro-) moment conditions and\nthey are critical in identifying consumer preference heterogeneity.\nAn important departure in our identiﬁcation strategy from the literature is that we do not rely\non the maintained exogeneity assumption that unobserved product attributes are uncorrelated\nwith observed product attributes. Taking advantage of the mult"
+    },
+    "results": {
+      "page": 12,
+      "snippet": "ssumption that the allocation\nmechanisms in Shanghai and Beijing are not likely to affect ﬁrms price-setting behavior or local\ndealer incentives. This assumption should not be a driving factor in our results given the small\nmarket shares of these two cities and the marketing environment for automobiles in China.22\nThe third data set is income distributions by city by year. Income is arguably the most important\ndeterminant in vehicle purchase decisions. China’s National Bureau of Statistics conducts a census\nevery 10 years but the income data at the household level are not publicly available. Instead, we\n20. MSRPs already include two types of taxes: consumption tax ranging from 1% for vehicles with small engines\nto 40% for large engines, and value-added tax of 17% of before-tax price. These high taxes partly contribute to the high\nvehicle prices in China relative to those in the U.S.\n21. This is obtained from a price regression with vehicle nameplate ﬁxed effects. The salient feature of"
+    },
+    "conclusion": {
+      "page": 30,
+      "snippet": "in the black market in Beijing\nwas about 200,000 Yuan in 2012 even though there is a large legal risk in such transactions. Truncating the maximum\nWTP to 200,000 Yuan do not qualitatively affect the conclusion on welfare comparison in as to be discussed in Section\n7.4.\nDownloaded from https://academic.oup.com/restud/advance-article-abstract/doi/10.1093/restud/rdx067/4638454\nby Insead user\non 05 March 2018"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper asks how much welfare is lost when a city restricts car ownership with a lottery rather than a uniform-price auction.",
+      "Which papers are treated as the nearest neighbors: rationing, congestion, and license allocation work on Chinese auto policy."
+    ],
+    "session": [
+      "Retrieve by key/title: JDV2EEV6 / Better Lucky Than Rich? Welfare Analysis of Automobile Licence Allocations in Beijing and Shanghai",
+      "Use collections and journal handles: Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Li, 2018) / Li (2018)"
+    ],
+    "agent": [
+      "Research design type: structural welfare comparison / counterfactual policy analysis.",
+      "Check how the paper modifies or simplifies canonical BLP before borrowing its structure."
+    ],
+    "team": [
+      "Best framing sentence pattern: \"Two cities face the same constraint, but different allocation rules create different welfare outcomes.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

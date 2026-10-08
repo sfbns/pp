@@ -1,0 +1,2141 @@
+[
+  {
+    "number": 1,
+    "title": "Incentive Complexity, Bounded Rationality, and Effort Provision",
+    "stage_id": "p0001",
+    "source_pdf": "D:\\codex\\aer\\abeler-et-al-2025-incentive-complexity-bounded-rationality-and-effort-provision.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "standard contract theory assumes workers see all incentives clearly -> real incentive systems are complex -> complexity creates opacity -> opacity changes effort, efficiency, and welfare",
+    "framework": "theoretical framework -> field experiments in the warehouse -> transparent benchmark comparison -> robustness and equilibrium welfare -> online experiments and mechanism tests",
+    "innovation_source": "the paper's innovation is to turn complexity from a nuisance into the main causal object and to link it to measurable cognitive heterogeneity in labor-contract response",
+    "reusable_move": "if a standard model assumes away an informational or cognitive friction, isolate that friction directly and make it the contribution rather than only a caveat",
+    "tags": [
+      "experiment",
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 2,
+    "title": "Drivers of Change: Employment Responses to the Lifting of the Saudi Female Driving Ban",
+    "stage_id": "p0002",
+    "source_pdf": "D:\\codex\\aer\\abou-daher-et-al-2025-drivers-of-change-employment-responses-to-the-lifting-of-the-saudi-female-driving-ban.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "landmark rights reform should improve labor outcomes -> de jure reform alone is hard to identify -> randomize de facto access -> find both economic gains and household backlash",
+    "framework": "institutional setting -> experimental design -> estimation strategy -> individual driving and employment responses -> intrahousehold responses -> heterogeneity",
+    "innovation_source": "the paper uses rationed postreform access to identify a major legal change and then broadens the outcome space beyond employment to include agency and household bargaining",
+    "reusable_move": "when a legal reform is universal, look for a rationed implementation margin that creates experimental or quasi-experimental access to the new right",
+    "tags": [
+      "experiment",
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "equilibrium_correction",
+      "implementation_gatekeeper"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 3,
+    "title": "From Retributive to Restorative: An Alternative Approach to Justice in Schools",
+    "stage_id": "p0003",
+    "source_pdf": "D:\\codex\\aer\\adukia-et-al-2025-from-retributive-to-restorative-an-alternative-approach-to-justice-in-schools.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "schools fear that less harsh discipline may reduce safety and learning -> evaluate a restorative alternative -> punitive outcomes fall while academic averages do not deteriorate -> justice reform looks less costly than critics assume",
+    "framework": "conceptual framework -> policy setting and rollout -> data and sample -> empirical strategy -> main results -> disruption mechanisms -> heterogeneity",
+    "innovation_source": "the innovation is to reframe school-discipline policy as an institutional justice design problem and to test both punishment and spillover-to-classroom concerns together",
+    "reusable_move": "when a reform is criticized on spillover grounds, put the feared spillover outcome directly next to the target outcome so the paper can adjudicate the full trade-off",
+    "tags": [
+      "diff-in-diff",
+      "implementation",
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 4,
+    "title": "Gender-Biased Technological Change: Milking Machines and the Exodus of Women from Farming",
+    "stage_id": "p0004",
+    "source_pdf": "D:\\codex\\aer\\ager-et-al-2026-gender-biased-technological-change-milking-machines-and-the-exodus-of-women-from-farming.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "automation is often studied as skill-biased or routine-biased -> here the key bias is gendered task replacement -> displacement from agriculture leads to upward movement elsewhere",
+    "framework": "historical background -> data construction -> research design -> short-run migration and employment effects -> longer-run education and earnings consequences",
+    "innovation_source": "the contribution is to identify a technology whose task incidence is distinctly gendered and to trace its long-run effects well beyond immediate displacement",
+    "reusable_move": "to make technology papers sharper, look for task-level incidence that maps cleanly onto a demographic group rather than only onto a skill bucket",
+    "tags": [
+      "experiment",
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 5,
+    "title": "Just a Few Seeds More: The Value of Network Data for Diffusion",
+    "stage_id": "p0005",
+    "source_pdf": "D:\\codex\\aer\\akbarpour-et-al-2025-just-a-few-seeds-more-the-value-of-network-data-for-diffusion.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "network science says better targeting should matter -> benchmark that value against a simpler policy margin -> find that more data often buys surprisingly little",
+    "framework": "model and main theorem -> network-class illustrations -> extensions to homophily and real networks -> policy interpretation of the value of data",
+    "innovation_source": "the innovation is to shift the question from how to target optimally to whether fine targeting is worth the information cost at all",
+    "reusable_move": "before optimizing a sophisticated policy object, compare it to a dumb but scalable substitute; the innovation may come from bounding the value of sophistication",
+    "tags": [
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 6,
+    "title": "Monetary Policy and Rational Asset Price Bubbles: Comment",
+    "stage_id": "p0006",
+    "source_pdf": "D:\\codex\\aer\\allen-et-al-2025-monetary-policy-and-rational-asset-price-bubbles-comment.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "prior result seems to imply policy impotence or perversity -> isolate the exact object of the claim -> show impact stabilization remains possible under aggressive action",
+    "framework": "revisit the original model -> build a closed-form alternative -> add monetary policy -> reinterpret the scope of the earlier paradox",
+    "innovation_source": "the paper's contribution is clarificatory rather than expansive: it disentangles different meanings of \"can policy dampen bubbles?\"",
+    "reusable_move": "in a comment-style paper, redefine the claim precisely and then show that the earlier result answered a narrower question than readers thought",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 7,
+    "title": "Consistent Evidence on Duration Dependence of Price Changes",
+    "stage_id": "p0007",
+    "source_pdf": "D:\\codex\\aer\\alvarez-et-al-2025-consistent-evidence-on-duration-dependence-of-price-changes.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "price-setting evidence depends on difficult hazard estimation -> build a cleaner estimator -> show the empirical picture of duration dependence and macro implications changes",
+    "framework": "related literature and model -> identification and censoring issues -> estimator development -> application to price spells -> macro interpretation",
+    "innovation_source": "the main innovation is methodological, but it is made consequential by linking estimation consistency directly to a substantive macro question",
+    "reusable_move": "a methods paper becomes stronger when the empirical application visibly overturns or sharpens an important substantive debate",
+    "tags": [
+      "distribution",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 8,
+    "title": "Spillovers in State Capacity Building: Evidence from the Digitization of Land Records in Pakistan",
+    "stage_id": "p0008",
+    "source_pdf": "D:\\codex\\aer\\aman-rana-minaudier-2026-spillovers-in-state-capacity-building-evidence-from-the-digitization-of-land-records-in.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "digitization is usually sold as state-capacity improvement -> reform indeed modernizes one domain -> bureaucratic reorganization spills over negatively to another -> state capacity is not modular",
+    "framework": "background and data -> effect on tax collection -> decomposition into tax base versus bureaucrat performance -> bureaucratic-organization mechanisms -> implications for state-capacity design",
+    "innovation_source": "the contribution is to show that technological state-building can have cross-task spillovers through bureaucratic organization, not just direct productivity effects",
+    "reusable_move": "when studying capacity reforms, always ask what complementary informal or multitask arrangements the reform destroys, not only what formal process it upgrades",
+    "tags": [
+      "diff-in-diff",
+      "implementation",
+      "spillover"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "equilibrium_correction",
+      "implementation_gatekeeper",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 9,
+    "title": "Labor Market Power, Self-Employment, and Development",
+    "stage_id": "p0009",
+    "source_pdf": "D:\\codex\\aer\\amodio-et-al-2025-labor-market-power-self-employment-and-development.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "self-employment is often treated as a symptom of underdevelopment -> reframe it as both symptom and countervailing force -> policy that reduces it may have ambiguous welfare consequences",
+    "framework": "data and descriptive facts -> estimation of labor market power -> structural model -> counterfactual industrial-policy experiments -> development interpretation",
+    "innovation_source": "the paper's innovation is to treat self-employment as an equilibrium outside option within an oligopsony framework rather than as a passive residual sector",
+    "reusable_move": "if a large informal or residual sector exists, ask whether it is also disciplining a formal market imperfection; that reversal often creates a publishable angle",
+    "tags": [
+      "experiment",
+      "diff-in-diff",
+      "implementation",
+      "spillover",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 10,
+    "title": "Borrowing and Spending in the Money: Debt Substitution and the Cash-Out Refinance Channel of Monetary Policy",
+    "stage_id": "p0010",
+    "source_pdf": "D:\\codex\\aer\\anenberg-et-al-2025-borrowing-and-spending-in-the-money-debt-substitution-and-the-cash-out-refinance-channel-of.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "conventional wisdom says in-the-money refinancing drives spending transmission -> rate shocks kill cash-outs -> substitution offsets much of the decline -> the refinance channel is weaker and less path dependent than advertised",
+    "framework": "data and stylized patterns -> conceptual framework -> rate-gap identification -> extensive and intensive borrowing responses -> substitution with other debt -> robustness",
+    "innovation_source": "the contribution is to reinterpret an iconic monetary-policy channel by moving from one borrowing product to the household balance sheet as the true object",
+    "reusable_move": "if a policy channel is inferred from one salient product margin, rebuild the analysis around the broader balance-sheet object before drawing macro conclusions",
+    "tags": [
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 11,
+    "title": "The End of Privilege: A Reexamination of the Net Foreign Asset Position of the United States",
+    "stage_id": "p0011",
+    "source_pdf": "D:\\codex\\aer\\atkeson-et-al-2025-the-end-of-privilege-a-reexamination-of-the-net-foreign-asset-position-of-the-united-states.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "the United States was thought to enjoy favorable valuation reappraisals -> post-2007 data show the opposite -> model-based accounting reveals a reversal of privilege rooted in corporate equity valuations",
+    "framework": "recent evolution of the current account and NFA -> model -> measurement strategy -> baseline decomposition -> counterfactuals and welfare interpretation",
+    "innovation_source": "the paper combines updated external-balance accounting with a model that embeds realistic asset valuations, allowing it to reinterpret a famous macrofinance fact",
+    "reusable_move": "revisit canonical country-level narratives when new balance-sheet composition changes the welfare meaning of familiar aggregates",
+    "tags": [
+      "implementation",
+      "spillover",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "hidden_margin",
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 12,
+    "title": "Robust Misspecified Models",
+    "stage_id": "p0012",
+    "source_pdf": "D:\\codex\\aer\\ba-2026-robust-misspecified-models.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "economists often assume false models lose out with enough data -> show that model competition with sticky switching allows false models to survive indefinitely -> clarify why entrenched simple models persist",
+    "framework": "motivating example -> general framework -> main robustness results -> applications to media bias and polarization and related settings",
+    "innovation_source": "the innovation is to formalize the persistence of misspecified models in a competitive-learning environment rather than treating misspecification as a static estimation flaw",
+    "reusable_move": "when a field puzzle concerns persistence of bad beliefs or bad models, write down the comparison process itself; persistence often comes from the switching environment, not just from the belief content",
+    "tags": [
+      "threshold",
+      "spillover",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 13,
+    "title": "Quid Pro Quo, Knowledge Spillovers, and Industrial Quality Upgrading: Evidence from the Chinese Auto Industry",
+    "stage_id": "p0013",
+    "source_pdf": "D:\\codex\\aer\\bai-et-al-2025-quid-pro-quo-knowledge-spillovers-and-industrial-quality-upgrading-evidence-from-the-chinese-auto.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "policy debate asks whether forced technology transfer ever works -> move from output quantity to multidimensional quality -> show affiliated domestic firms upgrade in the specific dimensions where partners excel",
+    "framework": "background on quid pro quo and industry evolution -> quality-upgrading evidence -> identification using within-product quality structure -> mechanisms through workers and suppliers",
+    "innovation_source": "the contribution is to study spillovers via rich product-quality dimensions rather than crude productivity proxies, making imitation and upgrading directly visible",
+    "reusable_move": "when spillovers are hard to detect in aggregate outcomes, move to the specific attributes where the source firm has comparative strength",
+    "tags": [
+      "experiment",
+      "implementation",
+      "spillover",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 14,
+    "title": "Increasing Degree Attainment among Low-Income Students: The Role of Intensive Advising and College Quality",
+    "stage_id": "p0014",
+    "source_pdf": "D:\\codex\\aer\\barr-castleman-2025-increasing-degree-attainment-among-low-income-students-the-role-of-intensive-advising-and-college.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "low-income students underattain degrees -> advising could matter through many channels -> RCT shows large gains -> quality of initial college match emerges as the main engine",
+    "framework": "program background -> experimental design and data -> strategy and main results -> heterogeneity and mechanism via college quality",
+    "innovation_source": "the paper's innovation is to connect advising effects to college quality and to use preadvising preferences to show the channel more directly",
+    "reusable_move": "if an intervention improves a long-run outcome, identify whether it changed the quality of the initial match or the productivity within the match; that distinction sharpens the contribution",
+    "tags": [
+      "experiment",
+      "distribution",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 15,
+    "title": "Similarity of Information and Collective Action",
+    "stage_id": "p0015",
+    "source_pdf": "D:\\codex\\aer\\basak-et-al-2026-similarity-of-information-and-collective-action.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "common intuition says shared information should aid coordination -> collective action also has free-riding -> theory shows the sign is state dependent -> explains mixed evidence in protests and group decision-making",
+    "framework": "baseline regime-change game -> information-similarity order -> equilibrium participation results -> welfare -> applications to protests, committees, and public goods",
+    "innovation_source": "the innovation is to formulate a general order of information similarity and show that the same informational change can flip sign across environments",
+    "reusable_move": "when literatures report opposing empirical patterns, search for a state variable that makes both patterns consistent inside one framework",
+    "tags": [
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 16,
+    "title": "Distinguishing Causes of Neighborhood Racial Change: A Nearest-Neighbor Design",
+    "stage_id": "p0016",
+    "source_pdf": "D:\\codex\\aer\\bayer-et-al-2025-distinguishing-causes-of-neighborhood-racial-change-a-nearest-neighbor-design.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "neighborhood racial change has many overlapping causes -> isolate the most local interpersonal margin -> show direct neighbor identity matters -> clarify how much can and cannot be attributed to that mechanism",
+    "framework": "conceptual framework -> nearest-neighbor research design -> data implementation -> main estimates -> interpretation relative to broader neighborhood-change narratives",
+    "innovation_source": "the contribution is the extremely local design that strips away much of the usual confounding in studies of racial neighborhood transition",
+    "reusable_move": "when a classic question suffers from too many bundled mechanisms, build a design that isolates the smallest feasible unit where one mechanism should operate",
+    "tags": [
+      "experiment",
+      "distribution",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "implementation_gatekeeper"
+    ],
+    "primary_theme": "implementation_gatekeeper"
+  },
+  {
+    "number": 17,
+    "title": "“Potential” and the Gender Promotion Gap",
+    "stage_id": "p0017",
+    "source_pdf": "D:\\codex\\aer\\benson-et-al-2026-potential-and-the-gender-promotion-gap.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "promotion gaps are often examined through observed performance -> firms say they promote on future potential -> data show potential ratings are biased and consequential -> subjective forecasting category becomes the wedge",
+    "framework": "background on nine-box evaluations -> setting and data -> promotion regressions -> validation against future performance -> robustness and implications",
+    "innovation_source": "the paper's innovation is to identify \"potential\" as a distinct evaluative object that mediates inequality above and beyond current performance",
+    "reusable_move": "if an organization explicitly uses a soft internal category, study that category directly instead of proxying it with standard outcomes",
+    "tags": [
+      "implementation",
+      "distribution",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 18,
+    "title": "Real Credit Cycles",
+    "stage_id": "p0018",
+    "source_pdf": "D:\\codex\\aer\\bordalo-et-al-2026-real-credit-cycles.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "financial instability is often attributed to large exogenous financial shocks -> build a model where beliefs create endogenous fragility -> match credit-cycle facts with smaller shocks",
+    "framework": "data diagnostics -> diagnostic-expectations mechanism -> quantitative model -> cycle implications and empirical fit",
+    "innovation_source": "the contribution is to make expectations distortions quantitatively central in a workhorse credit model rather than leaving them as an auxiliary behavioral add-on",
+    "reusable_move": "to revive a behavioral mechanism in macro, show it can match first-order aggregate facts with realistic parameter magnitudes",
+    "tags": [
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 19,
+    "title": "Nonlinear Pricing and Misallocation",
+    "stage_id": "p0019",
+    "source_pdf": "D:\\codex\\aer\\bornstein-peter-2025-nonlinear-pricing-and-misallocation.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "standard misallocation logic treats markup dispersion as the key signal -> introduce realistic nonlinear pricing -> the interpretation of observed markups flips -> new misallocation margin emerges",
+    "framework": "model environment -> efficient versus market allocation -> sources of distortion -> aggregate implications -> empirical prevalence and quantification in retail data",
+    "innovation_source": "the paper's innovation is to challenge a dominant diagnostic metric in macro IO by altering the pricing environment to match actual contracts",
+    "reusable_move": "if a literature relies on a simple diagnostic statistic, ask whether that statistic survives under a more realistic contract form; overturning the diagnostic can be the contribution",
+    "tags": [
+      "experiment",
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 20,
+    "title": "Changing Income Risk across the US Skill Distribution: Evidence from a Generalized Kalman Filter",
+    "stage_id": "p0020",
+    "source_pdf": "D:\\codex\\aer\\braxton-et-al-2025-changing-income-risk-across-the-us-skill-distribution-evidence-from-a-generalized-kalman-filter.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_01_001_020.md",
+    "story_ladder": "overall earnings volatility can hide very different underlying risks -> build a method to decompose them for every worker-period -> show persistent risk rises in high-skill, tech-exposed jobs",
+    "framework": "theoretical motivation -> econometric framework -> data -> time trends in risk -> heterogeneity by skill and occupation -> technology-adoption mechanism",
+    "innovation_source": "the contribution is dual: a tractable estimation framework for income dynamics and a new substantive account of rising risk among high-skill workers",
+    "reusable_move": "methods papers land better when the new tool answers a \"for whom and why\" question that older aggregate decompositions could not resolve",
+    "tags": [
+      "distribution",
+      "theory"
+    ],
+    "batch": "01_001_020",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 21,
+    "title": "Take the Goods and Run: Contracting Frictions and Market Power in Supply Chains",
+    "stage_id": "p0021",
+    "source_pdf": "D:\\codex\\aer\\brugués-2026-take-the-goods-and-run-contracting-frictions-and-market-power-in-supply-chains.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "weak enforcement is usually treated as purely harmful -> market power is also present in these environments -> the two distortions interact in a second-best way -> fixing only one friction can backfire",
+    "framework": "context and data -> motivating facts -> empirical dynamic contracting model -> estimation -> counterfactual institutional reforms",
+    "innovation_source": "the paper turns a standard development frictions question into a second-best interaction problem and measures the efficiency path of relationships over time rather than only their average level",
+    "reusable_move": "when two distortions plausibly offset each other, do not study either in isolation; the contribution can come from showing that unilateral reform is not the right benchmark",
+    "tags": [
+      "implementation",
+      "spillover",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 22,
+    "title": "The Debt-Inflation Channel of the German (Hyper)Inflation",
+    "stage_id": "p0022",
+    "source_pdf": "D:\\codex\\aer\\brunnermeier-et-al-2025-the-debt-inflation-channel-of-the-german-(hyper)inflation.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "inflation transmission is often discussed through price rigidities -> an extreme historical episode isolates the balance-sheet channel -> highly levered firms expand relative to others -> debt contracts are themselves a nominal rigidity",
+    "framework": "conceptual framework -> historical and firm-level data -> aggregate evidence -> cross-firm leverage design -> interpretation and external-validity discussion",
+    "innovation_source": "the contribution is to use a famous macro episode not to restudy its causes but to identify a specific transmission channel with firm-level heterogeneity",
+    "reusable_move": "when a historical event is canonical, reopen it with a sharper channel question and a newly digitized micro dataset rather than retelling the familiar aggregate narrative",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 23,
+    "title": "Gender Differences in Financial Advice",
+    "stage_id": "p0023",
+    "source_pdf": "D:\\codex\\aer\\bucher-koenen-et-al-2025-gender-differences-in-financial-advice.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "advice should help less sophisticated investors the most -> advisor incentives are not aligned with client welfare -> the vulnerable group becomes the more exploitable group -> advice can widen, not close, financial inequality",
+    "framework": "data construction -> evidence on gender gaps in recommendations and prices -> implementation behavior -> mechanism evidence from client and advisor beliefs",
+    "innovation_source": "the paper ties observed recommendations to beliefs about clients and to advisor-side heterogeneity, allowing a much cleaner mechanism story than administrative data alone would permit",
+    "reusable_move": "if a paper studies discrimination in a complex market, combine action data with elicited beliefs so the mechanism is not left as a vague residual",
+    "tags": [
+      "implementation",
+      "distribution",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "implementation_gatekeeper"
+    ],
+    "primary_theme": "implementation_gatekeeper"
+  },
+  {
+    "number": 24,
+    "title": "The Value of Clean Water: Experimental Evidence from Rural India",
+    "stage_id": "p0024",
+    "source_pdf": "D:\\codex\\aer\\burlig-et-al-2026-the-value-of-clean-water-experimental-evidence-from-rural-india.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "piped water is expensive and chlorine is unpopular -> test a different production and distribution bundle -> households reveal much higher valuation than the literature implied -> the welfare case for clean-water access strengthens",
+    "framework": "background -> experiment design -> demand and valuation results -> health outcomes -> cost-effectiveness and policy interpretation",
+    "innovation_source": "the paper directly experimentally recovers both willingness to pay and willingness to accept for clean water rather than inferring value from adoption of weaker products",
+    "reusable_move": "when earlier demand estimates seem too small, ask whether the literature has been estimating valuation for a bundled inconvenience rather than for the core good itself",
+    "tags": [
+      "experiment",
+      "implementation",
+      "spillover",
+      "policy-interaction"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 25,
+    "title": "When Product Markets Become Collective Traps: The Case of Social Media",
+    "stage_id": "p0025",
+    "source_pdf": "D:\\codex\\aer\\bursztyn-et-al-2025-when-product-markets-become-collective-traps-the-case-of-social-media.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "market demand and surplus are usually evaluated holding aggregate use fixed -> network goods change the value of opting out -> a popular product can become a collective trap -> standard welfare accounting breaks",
+    "framework": "conceptual framework -> measurement design -> social-media application -> heterogeneity in product-market valuation",
+    "innovation_source": "the paper reframes consumer welfare from an individual fixed-environment object into an equilibrium object that embeds the value of not participating",
+    "reusable_move": "if the good changes the quality of nonconsumption, the standard welfare object is probably wrong; redefine the object before arguing about magnitudes",
+    "tags": [
+      "policy-interaction",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 26,
+    "title": "Dynamics of the Long-Term Housing Yield: Evidence from Natural Experiments",
+    "stage_id": "p0026",
+    "source_pdf": "D:\\codex\\aer\\bäcker-peral-et-al-2026-dynamics-of-the-long-term-housing-yield-evidence-from-natural-experiments.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "housing valuations are central but long-run yield is hidden -> lease extensions create repeated pricing experiments -> a real-time series of the latent yield can be recovered -> the long-run discount environment has shifted sharply",
+    "framework": "conceptual object -> institutional setting and data -> estimator -> time-series results -> cross-market heterogeneity and interpretation",
+    "innovation_source": "the paper finds a specific transaction margin that prices a latent object of macro-finance interest and then turns it into a public measurement series",
+    "reusable_move": "if a core equilibrium object is unobservable, search for a niche institutional margin that prices just that component and build the paper around it",
+    "tags": [
+      "diff-in-diff",
+      "spillover",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "hidden_margin",
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 27,
+    "title": "Apart but Connected: Online Tutoring, Cognitive Outcomes, and Soft Skills",
+    "stage_id": "p0027",
+    "source_pdf": "D:\\codex\\aer\\carlana-la-ferrara-2025-apart-but-connected-online-tutoring-cognitive-outcomes-and-soft-skills.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "pandemic school closures generated severe inequality and isolation -> online tutoring looks like an imperfect substitute -> a randomized design shows meaningful academic gains and context-dependent soft-skill gains -> remote support is more powerful than expected",
+    "framework": "intervention and design -> academic effects -> mechanism and heterogeneity -> tutor-side effects",
+    "innovation_source": "the contribution is not just that tutoring works, but that a low-cost volunteer and fully online version can move both student outcomes and tutor attitudes",
+    "reusable_move": "in education papers, measure effects on the provider side as well as the recipient side when the intervention itself is relational",
+    "tags": [
+      "experiment",
+      "distribution",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "implementation_gatekeeper",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 28,
+    "title": "Competition under Incomplete Contracts and the Design of Procurement Policies",
+    "stage_id": "p0028",
+    "source_pdf": "D:\\codex\\aer\\carril-et-al-2026-competition-under-incomplete-contracts-and-the-design-of-procurement-policies.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "procurement reform often treats more competition as unambiguously good -> incomplete contracts mean award price is not the whole object -> cheaper winners can perform worse -> optimal procurement policy must internalize post-award execution",
+    "framework": "setting and institutional threshold -> reduced-form evidence on price and nonprice outcomes -> structural auction model -> counterfactual policy design",
+    "innovation_source": "the paper pairs a clean quasi-experiment with a model that makes the price-performance trade-off structurally explicit",
+    "reusable_move": "when a policy improves the visible metric, put the hidden but policy-relevant downstream metric right next to it; that contrast can carry the paper",
+    "tags": [
+      "threshold",
+      "implementation",
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "hidden_margin",
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 29,
+    "title": "First-Generation Elite: The Role of School Social Networks",
+    "stage_id": "p0029",
+    "source_pdf": "D:\\codex\\aer\\cattan-et-al-2025-first-generation-elite-the-role-of-school-social-networks.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "Norway has free tuition and centralized admissions yet still shows strong elite persistence -> missing ingredient is social capital -> peer exposure changes both learning and application behavior -> the design of grading and school mixing shapes mobility",
+    "framework": "institutional background -> peer-effect design -> GPA channel decomposition -> mediation through application behavior -> long-run earnings and mobility simulations",
+    "innovation_source": "the paper turns peer exposure into a social-capital mechanism for elite persistence and uses an exam lottery to identify the mediator rather than stopping at reduced-form peer effects",
+    "reusable_move": "when a treatment works through a contested mediator, look for an institutional lottery or rule that generates exogenous movement in the mediator itself",
+    "tags": [
+      "experiment",
+      "threshold",
+      "distribution",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 30,
+    "title": "Sequential Learning under Informational Ambiguity",
+    "stage_id": "p0030",
+    "source_pdf": "D:\\codex\\aer\\chen-2026-sequential-learning-under-informational-ambiguity.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "Bayesian social learning gives fragile cascade predictions -> real agents are also unsure how informative others are -> ambiguity is introduced -> cascades become the robust outcome rather than the exception",
+    "framework": "model -> equilibrium and learning concepts -> main results under bounded and unbounded signals -> comparison with alternative ambiguity preferences",
+    "innovation_source": "the paper recasts a classic learning result by moving uncertainty one layer up, from signals themselves to the data-generating process behind observed actions",
+    "reusable_move": "when a canonical theoretical result is known to be fragile, ask whether adding one realistic meta-uncertainty makes a qualitatively different outcome robust",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 31,
+    "title": "The Opportunity Atlas: Mapping the Childhood Roots of Social Mobility",
+    "stage_id": "p0031",
+    "source_pdf": "D:\\codex\\aer\\chetty-et-al-2026-the-opportunity-atlas-mapping-the-childhood-roots-of-social-mobility.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "place effects matter but existing evidence is too coarse for targeting -> build a tract-level outcome atlas -> show that standard proxies miss much of the variation -> create a policy and research tool grounded in actual long-run outcomes",
+    "framework": "data -> tract-level estimation methodology -> descriptive and targeting results -> evidence on causal content -> applications",
+    "innovation_source": "the contribution is equal parts measurement infrastructure and substantive economics: the dataset itself is the method, result, and policy object",
+    "reusable_move": "a data paper becomes a top-field paper when it is framed around a decision problem that existing measures cannot solve",
+    "tags": [
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 32,
+    "title": "Zero-Sum Thinking and the Roots of US Political Differences",
+    "stage_id": "p0032",
+    "source_pdf": "D:\\codex\\aer\\chinoy-et-al-2026-zero-sum-thinking-and-the-roots-of-us-political-differences.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "many US political preferences appear ideologically inconsistent -> a deeper mental model may reconcile them -> directly measure zero-sum thinking -> trace it to lived and inherited experience",
+    "framework": "survey design and measurement -> political correlates -> historical predictors -> broader interpretation of US politics",
+    "innovation_source": "the paper shifts from analyzing isolated policy attitudes to measuring a common underlying worldview and then connecting that worldview to historical lineage",
+    "reusable_move": "when preferences look contradictory on the surface, search for the latent worldview that jointly rationalizes them and make that hidden construct the centerpiece",
+    "tags": [
+      "experiment",
+      "spillover",
+      "distribution"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "hidden_margin",
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 33,
+    "title": "Tying with Network Effects",
+    "stage_id": "p0033",
+    "source_pdf": "D:\\codex\\aer\\choi-et-al-2026-tying-with-network-effects.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "standard leverage theories of tying are contested -> network effects create a new strategic force -> tying becomes a best response without special commitment assumptions -> antitrust concerns survive in a different form",
+    "framework": "illustrative example -> general model -> equilibrium analysis -> welfare implications",
+    "innovation_source": "the paper identifies a leverage mechanism specific to network industries and thereby reopens an antitrust question that simpler models had narrowed",
+    "reusable_move": "when an old debate seems settled, transplant it into a market environment with a qualitatively different force and ask whether the classic logic reappears",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 34,
+    "title": "Default Options and Retirement Saving Dynamics",
+    "stage_id": "p0034",
+    "source_pdf": "D:\\codex\\aer\\choukhmane-2025-default-options-and-retirement-saving-dynamics.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "defaults look powerful in behavioral finance -> most evidence is short-run -> a dynamic perspective shows attenuation and heterogeneity -> long-run policy evaluation differs from the immediate response",
+    "framework": "data and identification -> seven empirical facts -> dynamic model -> long-run policy implications",
+    "innovation_source": "the paper's innovation is to make the behavioral phenomenon dynamic and distributional rather than treating the enrollment response as the whole object of interest",
+    "reusable_move": "if a behavioral effect is famous because it is immediate, ask whether it survives when agents can later undo or compensate for it",
+    "tags": [
+      "implementation",
+      "distribution",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 35,
+    "title": "An Equilibrium Analysis of the Effects of Neighborhood-Based Interventions on Children",
+    "stage_id": "p0035",
+    "source_pdf": "D:\\codex\\aer\\chyn-daruich-2025-an-equilibrium-analysis-of-the-effects-of-neighborhood-based-interventions-on-children.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "reduced-form place studies identify local effects -> policy at scale changes equilibrium -> build a model where children, neighborhoods, and housing markets coevolve -> compare people-based and place-based interventions under general equilibrium",
+    "framework": "motivating facts -> model -> estimation -> baseline counterfactuals -> policy comparison across city environments",
+    "innovation_source": "the contribution is to place child-development neighborhood effects inside a citywide equilibrium system rather than treating neighborhoods as fixed containers",
+    "reusable_move": "when two policy families are usually compared narratively, put them inside one equilibrium model and let city constraints determine where each wins",
+    "tags": [
+      "implementation",
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 36,
+    "title": "Monetary Policy and the Labor Market: A Quasi-experiment in Sweden",
+    "stage_id": "p0036",
+    "source_pdf": "D:\\codex\\aer\\coglianese-et-al-2025-monetary-policy-and-the-labor-market-a-quasi-experiment-in-sweden.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "clean modern monetary case studies are rare -> the Swedish tightening looks unusually identifiable because it was driven by financial-stability concerns -> careful validation shows a large contraction -> the labor-market costs were both sizable and unequal",
+    "framework": "methodology and identification case -> institutional narrative -> aggregate effects -> firm and worker heterogeneity -> distributional interpretation",
+    "innovation_source": "the paper revives the case-study tradition but arms it with modern placebo logic and rich administrative microdata",
+    "reusable_move": "one unusually clean episode can support a strong paper if the identification section systematically disproves the obvious confounders instead of merely asserting them away",
+    "tags": [
+      "spillover",
+      "policy-interaction",
+      "distribution",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 37,
+    "title": "Sequential Cursed Equilibrium",
+    "stage_id": "p0037",
+    "source_pdf": "D:\\codex\\aer\\cohen-li-2026-sequential-cursed-equilibrium.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "cursed equilibrium works in simultaneous settings but misfires in extensive games -> identify the psychological asymmetry between hypothetical and observed information -> build a new solution concept around that asymmetry -> recover more plausible dynamic predictions",
+    "framework": "definitions and general results -> experimental evidence -> application to dynamic auctions -> discussion of limits and comparisons",
+    "innovation_source": "the key innovation is not more behavioral noise but a precise redefinition of where strategic inference fails",
+    "reusable_move": "strong behavioral theory papers often come from one carefully isolated cognitive asymmetry that can be formalized cleanly and shown to matter across multiple games",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 38,
+    "title": "Politics at Work",
+    "stage_id": "p0038",
+    "source_pdf": "D:\\codex\\aer\\colonnelli-et-al-2025-politics-at-work.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "politics is usually studied in explicitly political arenas -> partisan identity can also spill into private employment relationships -> rich microdata reveal strong assortative matching -> politics becomes an economic sorting force",
+    "framework": "institutional context -> data construction -> assortative-matching measurement -> mechanism tests -> experimental evidence",
+    "innovation_source": "the paper treats partisanship as a labor-market characteristic and combines multiple empirical lenses to separate network overlap from direct discrimination",
+    "reusable_move": "if an identity variable matters outside its obvious domain, the paper gets sharper when it shows both matching patterns and within-firm consequences",
+    "tags": [
+      "experiment",
+      "implementation",
+      "distribution",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 39,
+    "title": "Black Lives: The High Cost of Segregation",
+    "stage_id": "p0039",
+    "source_pdf": "D:\\codex\\aer\\cox-et-al-2026-black-lives-the-high-cost-of-segregation (2).pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "segregation is often discussed as a residential or distributional fact -> its most severe cost may be violent mortality -> a historical spatial design links segregation to homicide through the fiscal state",
+    "framework": "data -> methodology -> homicide and crime results -> local-finance channel -> interpretation",
+    "innovation_source": "the contribution is to connect segregation to an especially high-stakes outcome and to show that public-finance depletion is part of the causal chain",
+    "reusable_move": "a paper can gain force by tracing a broad structural institution to a concrete life-and-death outcome through a measurable fiscal mechanism",
+    "tags": [
+      "distribution",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 40,
+    "title": "Why Is Workplace Sexual Harassment Underreported? The Value of Outside Options amid the Threat of Retaliation",
+    "stage_id": "p0040",
+    "source_pdf": "D:\\codex\\aer\\dahl-knepper-2026-why-is-workplace-sexual-harassment-underreported-the-value-of-outside-options-amid-the-threat-of.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_02_021_040.md",
+    "story_ladder": "formal charges are not the same as true prevalence -> economic vulnerability changes the reporting decision -> shocks to outside options reveal the hidden reporting margin -> labor-market conditions shape measured harassment",
+    "framework": "reported versus unreported harassment -> institutional background -> data -> shock-based selectivity tests -> interpretation and policy implications",
+    "innovation_source": "the paper infers hidden underreporting from selection patterns in formal complaints and from divergence between formal and anonymous behavior",
+    "reusable_move": "when the true outcome is unobserved, study the reporting technology itself and look for shocks that move reporting incentives without mechanically changing the underlying event",
+    "tags": [
+      "implementation",
+      "policy-interaction",
+      "distribution",
+      "theory"
+    ],
+    "batch": "02_021_040",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 41,
+    "title": "Negative Control Falsification Tests for Instrumental Variable Designs",
+    "stage_id": "p0041",
+    "source_pdf": "D:\\codex\\aer\\danieli-et-al-2026-negative-control-falsification-tests-for-instrumental-variable-designs.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "placebo tests are widespread and treated as routine credibility checks -> the logic behind them is underspecified -> formalization shows many common rejections need not imply invalid IVs -> implementation guidance matters",
+    "framework": "survey of current practice -> formal framework for negative controls in IV settings -> implementation guidance -> practical implications",
+    "innovation_source": "the paper converts a loose empirical ritual into a formal design object with explicit assumptions and consequences",
+    "reusable_move": "when an empirical practice is widespread but conceptually sloppy, the contribution can come from clarifying the object and showing current applications answer the wrong question",
+    "tags": [
+      "implementation",
+      "spillover",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "equilibrium_correction",
+      "implementation_gatekeeper"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 42,
+    "title": "The Trade-Off between Flexibility and Robustness in Instrumental Variables Analysis",
+    "stage_id": "p0042",
+    "source_pdf": "D:\\codex\\aer\\deaner-2025-the-trade-off-between-flexibility-and-robustness-in-instrumental-variables-analysis.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "flexibility is usually discussed as a precision-versus-bias trade-off -> in IV there is another cost -> misspecification sensitivity rises with flexibility even in huge samples -> model choice is also a robustness choice",
+    "framework": "model and motivation -> theoretical results -> implications for empirical practice -> calibrated illustration",
+    "innovation_source": "the paper reframes functional-form choice in IV as a robustness design decision rather than only a convenience or sample-size issue",
+    "reusable_move": "if a methodological choice is usually defended by realism, ask what hidden robustness cost realism imposes under approximate identification",
+    "tags": [
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 43,
+    "title": "Test-Optional Admissions",
+    "stage_id": "p0043",
+    "source_pdf": "D:\\codex\\aer\\dessein-et-al-2025-test-optional-admissions.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "more information should improve selection -> colleges increasingly go test optional anyway -> social pressure makes information itself costly -> withholding scores becomes an institutional response rather than an information failure",
+    "framework": "puzzle and motivation -> admissions model under social pressure -> test-optional regime and imputation rules -> extensions and implications",
+    "innovation_source": "the contribution comes from treating admissions policy as a strategic information-management problem rather than a pure prediction problem",
+    "reusable_move": "when institutions voluntarily discard information, look for external accountability or audience-pressure forces that make information politically expensive",
+    "tags": [
+      "implementation",
+      "distribution",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 44,
+    "title": "Firm Responses and Wage Effects of Foreign Demand Shocks with Fixed Labor Costs and Monopsony",
+    "stage_id": "p0044",
+    "source_pdf": "D:\\codex\\aer\\dhyne-et-al-2025-firm-responses-and-wage-effects-of-foreign-demand-shocks-with-fixed-labor-costs-and-monopsony.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "trade shocks affect firms directly and through networks -> firm responses reveal cost structure -> fixed labor costs and some monopsony matter -> aggregate wage incidence of tariffs is larger than benchmark models suggest",
+    "framework": "data and motivating facts -> model and comparative statics -> identification strategy -> partial-equilibrium firm responses -> aggregate counterfactuals",
+    "innovation_source": "the paper infers fixed versus variable labor cost structure from firm response elasticities and then uses that structure to revise aggregate wage incidence",
+    "reusable_move": "micro response elasticities can be used not just as reduced-form facts but as diagnostics for hidden primitives that matter in general equilibrium",
+    "tags": [
+      "implementation",
+      "spillover",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "hidden_margin",
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 45,
+    "title": "Keep Your Enemies Closer: Strategic Platform Adjustments during US and French Elections",
+    "stage_id": "p0045",
+    "source_pdf": "D:\\codex\\aer\\di-tella-et-al-2025-keep-your-enemies-closer-strategic-platform-adjustments-during-us-and-french-elections.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "median-voter convergence is foundational but hard to test directly -> campaign texts provide direct platform evidence -> quasirandom rival identity shifts reveal strategic moderation -> politicians visibly follow each other",
+    "framework": "data and text measures -> reduced-form round-to-round convergence -> rival-identity RDD -> interpretation",
+    "innovation_source": "the paper brings direct text-based evidence to a classic political-economy mechanism that is usually tested only indirectly",
+    "reusable_move": "when a canonical theorem concerns latent strategy, build a new behavioral measure that observes the strategy itself rather than one noisy downstream outcome",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 46,
+    "title": "Allocation Mechanisms with Mixture-Averse Preferences",
+    "stage_id": "p0046",
+    "source_pdf": "D:\\codex\\aer\\dillenberger-segal-2025-allocation-mechanisms-with-mixture-averse-preferences.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "many allocation mechanisms rely heavily on randomization -> that logic changes when people dislike mixtures -> efficiency sharply restricts lottery complexity -> standard mechanisms fail more often than expected",
+    "framework": "baseline economy -> efficiency characterization -> identical-preference case -> implications for mechanism design and welfare",
+    "innovation_source": "the paper turns a preference departure into a stark structural prediction about the shape of efficient allocations",
+    "reusable_move": "when a preference modification is proposed, ask whether it yields a surprisingly simple characterization of efficient outcomes; that sharp prediction can carry the theory",
+    "tags": [
+      "experiment",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 47,
+    "title": "Monopsony and Employer Misoptimization Explain Why Wages Bunch at Round Numbers",
+    "stage_id": "p0047",
+    "source_pdf": "D:\\codex\\aer\\dube-et-al-2025-monopsony-and-employer-misoptimization-explain-why-wages-bunch-at-round-numbers.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "round-number bunching resembles familiar product-market pricing patterns -> test whether workers exhibit similar left-digit bias -> null evidence rejects the standard explanation -> the distortion lies on the employer side",
+    "framework": "descriptive bunching fact -> experiments on labor supply around round numbers -> administrative replication -> employer-side explanation",
+    "innovation_source": "the contribution comes from experimentally falsifying the obvious behavioral story and relocating the bias to firms rather than workers",
+    "reusable_move": "when a stylized fact resembles a known phenomenon in another market, directly test the borrowed mechanism instead of assuming it transports",
+    "tags": [
+      "experiment",
+      "threshold",
+      "implementation",
+      "spillover",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "equilibrium_correction",
+      "implementation_gatekeeper",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 48,
+    "title": "The Negligible Effect of Free Contraception on Fertility: Experimental Evidence from Burkina Faso",
+    "stage_id": "p0048",
+    "source_pdf": "D:\\codex\\aer\\dupas-et-al-2025-the-negligible-effect-of-free-contraception-on-fertility-experimental-evidence-from-burkina-faso.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "subsidized family planning is often treated as a central lever for fertility reduction -> test the claim directly in a high-fertility environment -> strong null rejects even modest effects -> the policy logic needs rethinking",
+    "framework": "context and intervention -> experimental design -> fertility results -> complementary demand-friction interventions -> interpretation",
+    "innovation_source": "the paper uses a high-powered trial to challenge one of the field's most cited policy assumptions, making the null itself the main contribution",
+    "reusable_move": "a null result becomes field-shifting when the design is strong enough to reject the canonical policy magnitude, not merely fail to reject zero",
+    "tags": [
+      "experiment",
+      "distribution"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 49,
+    "title": "Gender Differences in Economics Seminars",
+    "stage_id": "p0049",
+    "source_pdf": "D:\\codex\\aer\\dupas-et-al-2026-gender-differences-in-economics-seminars.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "academic seminars are central to professional evaluation -> unequal treatment there can affect careers -> large-scale measurement reveals not just more questions for women but more disruptive and negative interruptions",
+    "framework": "data and measurement -> interruption differentials -> tone and type analysis -> audience-composition channels -> interpretation",
+    "innovation_source": "the paper turns a widely discussed professional friction into a measurable empirical object using both algorithmic and human coding",
+    "reusable_move": "if a professional norm is often discussed anecdotally, combine scalable machine measurement with interpretable human coding to make the invisible visible",
+    "tags": [
+      "new-measurement",
+      "distribution",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "hidden_margin",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 50,
+    "title": "Optimal Taxation and Market Power",
+    "stage_id": "p0050",
+    "source_pdf": "D:\\codex\\aer\\eeckhout-et-al-2026-optimal-taxation-and-market-power.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "competition policy is the first-best response to market power -> taxation still matters when first-best tools are incomplete -> integrating oligopoly into optimal tax theory changes both qualitative and quantitative prescriptions",
+    "framework": "model -> analytical tax formulas -> robustness and policy discussion -> quantitative calibration",
+    "innovation_source": "the paper connects modern market-power concerns to canonical optimal-tax theory and decomposes the new tax logic into interpretable pieces",
+    "reusable_move": "when extending a classic normative framework, give the reader a decomposition that names each new force separately; this makes the extension usable rather than merely more complex",
+    "tags": [
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 51,
+    "title": "Financial Frictions: Micro versus Macro Volatility",
+    "stage_id": "p0051",
+    "source_pdf": "D:\\codex\\aer\\faccini-et-al-2026-financial-frictions-micro-versus-macro-volatility.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "financial-frictions research focuses heavily on corporate spreads -> household credit spreads also move cyclically and matter for consumption -> integrating them into HANK changes both business-cycle and welfare conclusions",
+    "framework": "empirical household evidence -> model with banks and households -> calibration -> aggregate and distributional implications",
+    "innovation_source": "the paper shifts financial-frictions analysis from a firm-centered to a household-and-bank-spread-centered perspective",
+    "reusable_move": "if a macro friction has mostly been studied on the firm side, ask whether the household-facing margin is equally cyclical and more distributionally important",
+    "tags": [
+      "distribution",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 52,
+    "title": "The Price of War",
+    "stage_id": "p0052",
+    "source_pdf": "D:\\codex\\aer\\federle-et-al-2026-the-price-of-war.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "the human cost of war is obvious, but the macro toll across countries is less systematically measured -> a long historical panel reveals large local and spillover effects -> trade and borders propagate the damage",
+    "framework": "data and descriptive facts -> event-study dynamics -> causality discussion and restricted samples -> conclusion",
+    "innovation_source": "the paper creates a macroeconomic map of war costs that includes noncombatant spillovers rather than focusing only on the war site",
+    "reusable_move": "when studying a dramatic event, widen the unit of impact beyond the obvious directly hit location to the exposure network around it",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 53,
+    "title": "A Theory of Supply Function Choice and Aggregate Supply",
+    "stage_id": "p0053",
+    "source_pdf": "D:\\codex\\aer\\flynn-et-al-2026-a-theory-of-supply-function-choice-and-aggregate-supply.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "modern aggregate-supply theory implicitly assumes a restrictive firm strategy set -> allow richer supply choices -> the slope of aggregate supply becomes endogenous to the uncertainty environment -> long-run macro episodes look more interpretable",
+    "framework": "model of supply-function choice -> equilibrium characterization -> implications for aggregate supply -> quantitative mapping to historical episodes",
+    "innovation_source": "the paper revises a foundational macro object by changing the primitive strategic object firms choose",
+    "reusable_move": "if a macro relation is treated as primitive, ask whether it is an equilibrium consequence of a deeper strategic choice that the literature has fixed by assumption",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 54,
+    "title": "Cursed Sequential Equilibrium",
+    "stage_id": "p0054",
+    "source_pdf": "D:\\codex\\aer\\fong-et-al-2025-cursed-sequential-equilibrium.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "cursed equilibrium is influential in static settings -> dynamic games need a sequential version -> extending cursedness changes canonical dynamic predictions -> experimental patterns support the new concept",
+    "framework": "definition and properties of CSE -> applications to canonical games -> experimental relevance and comparison with other concepts",
+    "innovation_source": "the contribution is to turn a well-known behavioral equilibrium idea into a dynamic solution concept with economically meaningful applications",
+    "reusable_move": "to extend a canonical behavioral concept, show not only formal existence but also what breaks in classic applications once the extension is taken seriously",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 55,
+    "title": "Monetary Cooperation during Global Inflation Surges",
+    "stage_id": "p0055",
+    "source_pdf": "D:\\codex\\aer\\fornaro-romei-2026-monetary-cooperation-during-global-inflation-surges.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "inflation is usually treated as something each central bank fights alone -> under global tradable scarcity some inflation helps reallocate supply -> spillovers mean each country underprovides that adjustment -> cooperation can reduce global contraction",
+    "framework": "model and intuition -> cooperative versus noncooperative policy -> extensions to different scarcity origins -> discussion",
+    "innovation_source": "the paper reframes inflation during global bottlenecks as partly a coordination problem rather than only a domestic stabilization problem",
+    "reusable_move": "when a macro policy cost is local but part of the benefit is external, look for an underappreciated coordination failure even in domains usually framed as domestic policy",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 56,
+    "title": "Anatomy of the Phillips Curve: Micro Evidence and Macro Implications",
+    "stage_id": "p0056",
+    "source_pdf": "D:\\codex\\aer\\gagliardone-et-al-2025-anatomy-of-the-phillips-curve-micro-evidence-and-macro-implications.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "aggregate Phillips-curve estimates are small -> either pricing is inert or the wrong activity measure is being used -> micro evidence shows firms respond strongly to marginal cost -> the wedge lies between output and marginal cost, not between cost and price",
+    "framework": "bottom-up estimation strategy -> micro pass-through results -> aggregation and reconciliation with macro evidence -> implications",
+    "innovation_source": "the paper decomposes a famous macro puzzle into micro primitives and shows which link in the chain is actually weak",
+    "reusable_move": "when a macro relation looks puzzling, break it into primitive elasticities and identify which component is truly small before theorizing broadly",
+    "tags": [
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 57,
+    "title": "Place-Based Redistribution",
+    "stage_id": "p0057",
+    "source_pdf": "D:\\codex\\aer\\gaubert-et-al-2025-place-based-redistribution.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "redistribution is usually discussed as place-blind -> migration and local markets mean taxation changes community composition -> optimal policy depends on why people sort where they do -> spatial redistribution has a rigorous tax basis",
+    "framework": "model -> characterization of optimal location-specific taxes -> calibration and policy magnitudes -> sensitivity to migration responses",
+    "innovation_source": "the paper imports Mirrleesian-style redistribution logic into a spatial equilibrium environment where place itself carries informational and general-equilibrium content",
+    "reusable_move": "if a standard policy principle is spatially blind, ask whether location proxies for hidden traits strongly enough to overturn the blindness norm",
+    "tags": [
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 58,
+    "title": "Equal Pay for Similar Work",
+    "stage_id": "p0058",
+    "source_pdf": "D:\\codex\\aer\\gentile-passaro-et-al-2026-equal-pay-for-similar-work.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "equal-pay rules seem straightforwardly fairness-improving -> firms can change job composition and assignment -> segregation becomes the adjustment margin -> intended equity policy can worsen group gaps",
+    "framework": "model of EPSW policies -> equilibrium predictions -> empirical evaluation in Chile -> interpretation",
+    "innovation_source": "the paper shows how a policy aimed at within-firm equity can backfire through endogenous task sorting and segregation",
+    "reusable_move": "when policy regulates an outcome within categories, always ask whether agents can endogenously redraw the categories instead",
+    "tags": [
+      "implementation",
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 59,
+    "title": "Temporary Layoffs, Loss-of-Recall, and Cyclical Unemployment Dynamics",
+    "stage_id": "p0059",
+    "source_pdf": "D:\\codex\\aer\\gertler-et-al-2026-temporary-layoffs-loss-of-recall-and-cyclical-unemployment-dynamics.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "recalls make temporary layoffs look like a stabilizer -> data show many layoffs convert into nonrecall unemployment -> a model with loss-of-recall fits both historical and pandemic patterns -> policy that preserves recall margins matters a lot",
+    "framework": "measurement of temporary-layoff flows -> structural model -> pre- and post-pandemic fit -> policy counterfactuals",
+    "innovation_source": "the contribution is to elevate loss-of-recall from a background detail to a central cyclical mechanism",
+    "reusable_move": "when an institutional category is treated as benign, inspect the transition out of that category; the hidden failure margin may drive the aggregate result",
+    "tags": [
+      "implementation",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 60,
+    "title": "Diffusion of Reproductive Health Behavior through International Migration: Effects on Origin-Country Fertility",
+    "stage_id": "p0060",
+    "source_pdf": "D:\\codex\\aer\\godlonton-theoharides-2025-diffusion-of-reproductive-health-behavior-through-international-migration-effects-on-origin.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_03_041_060.md",
+    "story_ladder": "migration moves labor and income, but it may also move norms -> destination-country policy variation creates differential exposure across origin provinces -> fertility falls where migrant exposure to liberal policies is stronger -> migration becomes a channel of behavioral diffusion",
+    "framework": "institutional background -> data construction -> shift-share policy-exposure design -> fertility results -> contraceptive mechanism analysis",
+    "innovation_source": "the paper identifies the content of transmitted norms by tying migration networks to specific policy changes in destination countries rather than only to migrant flows",
+    "reusable_move": "when studying norm transmission, interact migration exposure with policy content abroad so the diffusion channel has interpretable substance rather than generic contact",
+    "tags": [
+      "distribution",
+      "theory"
+    ],
+    "batch": "03_041_060",
+    "themes": [
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 61,
+    "title": "A Preferred-Habitat Model of Term Premia, Exchange Rates, and Monetary Policy Spillovers",
+    "stage_id": "p0061",
+    "source_pdf": "D:\\codex\\aer\\gourinchas-et-al-2025-a-preferred-habitat-model-of-term-premia-exchange-rates-and-monetary-policy-spillovers.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "standard open-economy models imply strong insulation under floating rates -> empirical bond, FX, and QE evidence contradicts that -> segmented clienteles and limited arbitrage restore the missing spillovers",
+    "framework": "model -> equilibrium implications without and with demand risk -> estimation and fit -> policy transmission",
+    "innovation_source": "the paper creates a unified asset-pricing explanation for multiple international-finance anomalies and policy spillovers",
+    "reusable_move": "if several anomalies live in adjacent markets, build one mechanism that explains their coexistence rather than treating them as separate puzzles",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "hidden_margin",
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 62,
+    "title": "Do Credit Conditions Move House Prices?",
+    "stage_id": "p0062",
+    "source_pdf": "D:\\codex\\aer\\greenwald-guren-2025-do-credit-conditions-move-house-prices.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "existing studies reach opposite conclusions about credit and housing -> the hidden difference is the degree of market segmentation -> estimating that margin reconciles the debate",
+    "framework": "supply-demand intuition -> empirical estimation using credit instruments -> flexible housing model -> quantitative decomposition",
+    "innovation_source": "the contribution is to identify the sufficient statistic that nests the literature's polar cases and calibrates the relevant middle ground",
+    "reusable_move": "when a literature is split by polar modeling assumptions, identify the one elasticity or margin that spans the spectrum and measure it directly",
+    "tags": [
+      "implementation",
+      "distribution",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 63,
+    "title": "Work from Home and the Office Real Estate Apocalypse",
+    "stage_id": "p0063",
+    "source_pdf": "D:\\codex\\aer\\gupta-et-al-2026-work-from-home-and-the-office-real-estate-apocalypse.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "remote work visibly empties offices -> the real question is what that means for asset values, banks, and city finances -> lease data plus valuation modeling reveal large, persistent destruction",
+    "framework": "office-market evidence -> valuation model -> city and national calibrations -> implications for financial and fiscal fragility",
+    "innovation_source": "the paper turns a social shift in work organization into a quantified asset-pricing and urban-finance shock",
+    "reusable_move": "when a new social practice changes demand for a long-lived asset, combine current cash-flow evidence with a transition valuation model rather than waiting for transactions alone",
+    "tags": [
+      "threshold",
+      "implementation",
+      "spillover",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 64,
+    "title": "A Long and a Short Leg Make for a Wobbly Equilibrium",
+    "stage_id": "p0064",
+    "source_pdf": "D:\\codex\\aer\\gârleanu-et-al-2026-a-long-and-a-short-leg-make-for-a-wobbly-equilibrium.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "short sellers should attack larger mispricing -> in practice activity can collapse abruptly -> the missing piece is the lending market and equilibrium feedback in borrow fees",
+    "framework": "model -> equilibrium multiplicity condition -> empirical patterns in short activity -> interpretation",
+    "innovation_source": "the paper transforms stock lending from a background friction into the central state variable generating instability in short-selling",
+    "reusable_move": "if a market behavior looks unstable, inspect the complementary market that enables the behavior; instability may live there rather than in the visible market itself",
+    "tags": [
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 65,
+    "title": "The Value of Software",
+    "stage_id": "p0065",
+    "source_pdf": "D:\\codex\\aer\\gómez-cram-lawrence-2025-the-value-of-software.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "software became a dominant asset in the digital economy -> if markets were fully rational this revaluation should be quick -> long-lived anomalies suggest investors learn far more slowly than standard models imply",
+    "framework": "rise of software in equity markets -> forecast and return anomalies -> gradual-learning interpretation -> implications",
+    "innovation_source": "the paper prices a modern intangible asset by treating its rise as a long information-processing failure rather than an immediate repricing event",
+    "reusable_move": "when a new technology rises gradually, ask whether the main puzzle is not the technology itself but the market's speed of learning about it",
+    "tags": [
+      "implementation",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 66,
+    "title": "Supply, Demand, Institutions, and Firms: A Theory of Labor Market Sorting and the Wage Distribution",
+    "stage_id": "p0066",
+    "source_pdf": "D:\\codex\\aer\\haanwinckel-2025-supply-demand-institutions-and-firms-a-theory-of-labor-market-sorting-and-the-wage-distribution.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "labor economics often treats supply-demand and firm heterogeneity as separate traditions -> wage inequality reflects both simultaneously -> a unified model changes which shocks look important",
+    "framework": "unified theory -> estimation on Brazilian data -> decomposition of wage-distribution changes -> interaction effects",
+    "innovation_source": "the paper merges two literatures that usually talk past each other and shows their interaction is quantitatively first order",
+    "reusable_move": "if two literatures explain the same outcome with different primitives, the idea is often to make them interact rather than choose one winner",
+    "tags": [
+      "implementation",
+      "spillover",
+      "policy-interaction",
+      "distribution",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 67,
+    "title": "Consumer Credit and the Incidence of Tariffs: Evidence from the Auto Industry",
+    "stage_id": "p0067",
+    "source_pdf": "D:\\codex\\aer\\hankins-et-al-2026-consumer-credit-and-the-incidence-of-tariffs-evidence-from-the-auto-industry.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "tariff incidence is usually measured in product prices -> many purchases are financed -> vertically linked lenders create another pass-through channel -> total consumer burden is larger and more unequal",
+    "framework": "institutional background on captive finance -> empirical design -> heterogeneous incidence -> interpretation",
+    "innovation_source": "the paper identifies consumer credit as a hidden tariff-incidence margin in durable-goods markets",
+    "reusable_move": "when a product is commonly financed, incidence analysis that ignores credit terms is probably incomplete",
+    "tags": [
+      "distribution",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 68,
+    "title": "Market-Wide Predictable Price Pressure",
+    "stage_id": "p0068",
+    "source_pdf": "D:\\codex\\aer\\hartzmark-solomon-2025-market-wide-predictable-price-pressure.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "standard finance assumes aggregate markets absorb uninformed flows without moving price -> scheduled cash distributions provide advance-known flow shocks -> prices still move when the trades happen -> market-level price pressure is real",
+    "framework": "predictable flow construction -> return forecasting evidence -> cross-market and mechanism variation -> interpretation",
+    "innovation_source": "the paper demonstrates that price pressure is not a small-stock anomaly but a market-wide force in the most liquid assets",
+    "reusable_move": "the cleanest test of flow-driven price impact uses trades whose timing and size are known in advance, stripping away private-information stories",
+    "tags": [
+      "policy-interaction",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 69,
+    "title": "Power Flows: Transmission Lines, Allocative Efficiency, and Corporate Profits",
+    "stage_id": "p0069",
+    "source_pdf": "D:\\codex\\aer\\hausman-2025-power-flows-transmission-lines-allocative-efficiency-and-corporate-profits.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "transmission is usually discussed as an efficiency and decarbonization issue -> incomplete integration also creates concentrated corporate winners from the status quo -> political economy becomes central to why reform is slow",
+    "framework": "background and data -> inefficiency calculations -> sources of spatial constraints -> firm-level winners and losers",
+    "innovation_source": "the paper integrates allocative efficiency with political economy by quantifying both aggregate gains and incumbent losses",
+    "reusable_move": "if a reform is obviously efficient yet blocked, quantify the concentrated private losses of incumbents alongside the diffuse social gains",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 70,
+    "title": "The Long-Term Effects of Income for At-Risk Infants: Evidence from Supplemental Security Income",
+    "stage_id": "p0070",
+    "source_pdf": "D:\\codex\\aer\\hawkins-et-al-2025-the-long-term-effects-of-income-for-at-risk-infants-evidence-from-supplemental-security-income.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "early-life cash transfers often show long-run benefits -> this program provides a much larger and more targeted intervention -> strong first stage still yields null outcome effects -> not all disadvantaged early-life conditions are equally remediable through cash",
+    "framework": "policy background -> data linkage -> first-stage transfer effects -> short-run health outcomes -> long-run educational and labor outcomes",
+    "innovation_source": "the paper uses an unusually rich administrative linkage to test a powerful early-income intervention on an especially vulnerable infant population",
+    "reusable_move": "if prior evidence suggests a broad positive effect of a policy class, test its limits in the most extreme or policy-relevant margin rather than assuming monotonic gains",
+    "tags": [
+      "threshold",
+      "spillover",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 71,
+    "title": "Downward Rigidity in the Wage for New Hires",
+    "stage_id": "p0071",
+    "source_pdf": "D:\\codex\\aer\\hazell-taska-2025-downward-rigidity-in-the-wage-for-new-hires.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "wage rigidity matters for macro but evidence on new hires is limited -> vacancy-posted wages offer a direct measure -> job-level evidence reveals asymmetric rigidity",
+    "framework": "data and measure of new-hire wages -> frequency and direction of wage changes -> cyclical responsiveness -> interpretation",
+    "innovation_source": "the paper finds the right micro object for new-hire wages and shows that aggregation had hidden the relevant rigidity",
+    "reusable_move": "if a macro debate lacks clean evidence, search for the exact micro object the theory refers to instead of using a broad average as a proxy",
+    "tags": [
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 72,
+    "title": "Across-Country Wage Compression in Multinationals",
+    "stage_id": "p0072",
+    "source_pdf": "D:\\codex\\aer\\hjort-et-al-2026-across-country-wage-compression-in-multinationals.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "wages are usually treated as locally determined -> multinationals may instead coordinate compensation globally -> headquarters shocks show up in foreign workers' pay -> internal norms matter across borders",
+    "framework": "multinational structure and data -> headquarters-shock identification -> foreign wage transmission -> interpretation of wage anchoring",
+    "innovation_source": "the paper identifies a firm-internal wage-setting channel that compresses cross-country wage differences beyond local-market fundamentals",
+    "reusable_move": "if a firm spans many markets, look for headquarters-origin shocks to test whether decisions are truly local or centrally anchored",
+    "tags": [
+      "diff-in-diff",
+      "implementation",
+      "distribution"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 73,
+    "title": "Strategic Voting in Two-Party Legislative Elections",
+    "stage_id": "p0073",
+    "source_pdf": "D:\\codex\\aer\\hughes-2025-strategic-voting-in-two-party-legislative-elections.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "multidistrict elections aggregate preferences differently than single-district contests -> strategic voting across dimensions changes what policies survive -> legislative competition can improve aggregation properties",
+    "framework": "model -> strategic voting characterization -> candidate behavior -> policy properties and comparisons",
+    "innovation_source": "the paper shows how legislative structure can discipline multidimensional policy choice through strategic voter attention",
+    "reusable_move": "when political aggregation seems messy, ask whether the institutional setting changes which dimension voters strategically emphasize",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 74,
+    "title": "What You Don’t Know May Be Good for You",
+    "stage_id": "p0074",
+    "source_pdf": "D:\\codex\\aer\\hörner-samuelson-2026-what-you-don-t-know-may-be-good-for-you.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "transparency is usually treated as beneficial -> experts respond strategically to public performance data -> risky clients get avoided -> information can worsen matching even while helping clients screen",
+    "framework": "model of experts and clients -> equilibrium with and without public information -> welfare comparison",
+    "innovation_source": "the contribution is to expose the reputational selection effect that can reverse the standard case for report cards",
+    "reusable_move": "when evaluating transparency, always ask how the measured side of the market changes its selection behavior in response",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 75,
+    "title": "Robustness Measures for Welfare Analysis",
+    "stage_id": "p0075",
+    "source_pdf": "D:\\codex\\aer\\kang-vasserman-2025-robustness-measures-for-welfare-analysis.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "welfare analysis routinely leans on demand assumptions -> debates about realism are often qualitative -> robustness measures convert that debate into a quantitative margin",
+    "framework": "welfare problem under functional-form uncertainty -> robustness metrics -> computation and applications",
+    "innovation_source": "the paper builds a portable diagnostic that can travel with welfare estimates instead of replacing them",
+    "reusable_move": "when a result depends on a hard-to-defend assumption, do not only vary assumptions; quantify how far reality must move before the conclusion breaks",
+    "tags": [
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 76,
+    "title": "Intermediated Asymmetric Information, Compensation, and Career Prospects",
+    "stage_id": "p0076",
+    "source_pdf": "D:\\codex\\aer\\kaniel-orlov-2025-intermediated-asymmetric-information-compensation-and-career-prospects.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "intermediaries appear to add value by identifying talent -> that same informational edge allows them to exploit agents -> dynamic churning and compensation reflect the race between reputation formation and information rent extraction",
+    "framework": "model of agents, intermediary, and outside market -> equilibrium compensation dynamics -> churn and career implications",
+    "innovation_source": "the paper treats career paths as shaped by informational intermediation rather than only by search or matching frictions",
+    "reusable_move": "if an intermediary solves an information problem, ask how that advantage can also be used to extract rents from the very agents it helps place",
+    "tags": [
+      "implementation",
+      "spillover",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 77,
+    "title": "Moonshot: Public R&D and Growth",
+    "stage_id": "p0077",
+    "source_pdf": "D:\\codex\\aer\\kantor-whalley-2025-moonshot-public-r-d-and-growth.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "the moonshot is the iconic example of transformative public R&D -> credible evidence has been lacking -> new identification shows real but modest growth effects -> symbolism exceeds aggregate measured payoff",
+    "framework": "historical context and data -> identification strategy -> local and national effects -> mechanism and interpretation",
+    "innovation_source": "the paper reevaluates a legendary policy using modern causal tools, producing a disciplined estimate rather than a celebratory narrative",
+    "reusable_move": "high-profile historical programs are ideal for contribution when the mythology is strong but the causal evidence is weak",
+    "tags": [
+      "spillover"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 78,
+    "title": "Racial Disparities in Housing Returns",
+    "stage_id": "p0078",
+    "source_pdf": "D:\\codex\\aer\\kermani-wong-2026-racial-disparities-in-housing-returns.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "low minority housing returns are often attributed to lower appreciation -> the bigger force is distress -> homeownership as a wealth-building tool fails through a financial-fragility channel",
+    "framework": "return measurement -> distress decomposition -> determinants of distress -> policy implications",
+    "innovation_source": "the paper shifts the explanation for racial return gaps from price appreciation to realized exit conditions under financial stress",
+    "reusable_move": "when a return gap exists, decompose entry, holding, and exit margins before concluding that the asset itself appreciates differently",
+    "tags": [
+      "implementation",
+      "spillover",
+      "policy-interaction",
+      "distribution",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "equilibrium_correction",
+      "implementation_gatekeeper"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 79,
+    "title": "Abundance from Abroad: Migrant Income and Long-Run Economic Development",
+    "stage_id": "p0079",
+    "source_pdf": "D:\\codex\\aer\\khanna-et-al-2026-abundance-from-abroad-migrant-income-and-long-run-economic-development.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "migration is often studied as remittance support -> bigger question is whether foreign earnings prospects rewire local development trajectories -> crisis-driven shocks show large long-run domestic spillovers",
+    "framework": "identification using exchange-rate shocks -> long-run reduced-form effects -> structural decomposition of mechanisms",
+    "innovation_source": "the paper treats migrant income as a development shock to the origin economy, not just a household transfer",
+    "reusable_move": "if an international shock enters households directly, ask whether its main long-run effect is actually on the domestic economy through endogenous local adjustment",
+    "tags": [
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 80,
+    "title": "Micro versus Macro Labor Supply Elasticities: The Role of Dynamic Returns to Effort",
+    "stage_id": "p0080",
+    "source_pdf": "D:\\codex\\aer\\kleven-et-al-2025-micro-versus-macro-labor-supply-elasticities-the-role-of-dynamic-returns-to-effort.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_04_061_080.md",
+    "story_ladder": "micro and macro labor-supply elasticities often conflict -> top careers feature dynamic returns and discrete pay adjustments -> job-switch-based evidence closes part of the gap",
+    "framework": "model of dynamic compensation -> descriptive life-cycle evidence -> tax-reform quasi-experiment focused on switchers -> macro interpretation",
+    "innovation_source": "the paper transforms job switching from a nuisance into the key empirical window on long-run labor-supply behavior",
+    "reusable_move": "when short-run quasi-experimental estimates seem too small for macro use, look for the career margin through which incentives translate with delay",
+    "tags": [
+      "distribution",
+      "theory"
+    ],
+    "batch": "04_061_080",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 81,
+    "title": "Innovative Ideas and Gender (In)Equality",
+    "stage_id": "p0081",
+    "source_pdf": "D:\\codex\\aer\\koffi-2025-innovative-ideas-and-gender-(in)equality.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "historical examples of women losing credit motivate a modern question -> ordinary citation counts are inadequate because relevance is endogenous -> text similarity creates a counterfactual citation benchmark -> omission rates reveal who gets underrecognized",
+    "framework": "data construction -> similarity and omission measure -> empirical gap estimates -> heterogeneity -> discussion of discrimination and policy implications",
+    "innovation_source": "the paper turns a soft and usually anecdotal concept, idea omission, into a measurable empirical object",
+    "reusable_move": "if recognition is hard to observe directly, construct a counterfactual benchmark for who should have been acknowledged and study deviations from that benchmark",
+    "tags": [
+      "distribution",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "hidden_margin",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 82,
+    "title": "Imperfect Competition and Rents in Labor and Product Markets: The Case of the Construction Industry",
+    "stage_id": "p0082",
+    "source_pdf": "D:\\codex\\aer\\kroft-et-al-2025-imperfect-competition-and-rents-in-labor-and-product-markets-the-case-of-the-construction-industry.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "existing work measures labor or product power separately -> firms often exercise both at once -> procurement data reveal both margins -> the interaction changes welfare and incidence",
+    "framework": "joint model -> implications of double market power -> data and identification -> quantification of rents and incidence",
+    "innovation_source": "the paper fuses monopsony and markup literatures inside one institution where rich bidding data help identify both objects",
+    "reusable_move": "when two literatures explain the same outcome with different primitives, estimate them jointly instead of choosing one winner",
+    "tags": [
+      "implementation",
+      "spillover",
+      "policy-interaction",
+      "distribution",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 83,
+    "title": "Employers and Unemployment Insurance Take-Up",
+    "stage_id": "p0083",
+    "source_pdf": "D:\\codex\\aer\\lachowska-et-al-2025-employers-and-unemployment-insurance-take-up.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "employers matter in labor markets beyond wages -> UI agencies actively involve employers in take-up decisions -> organizational behavior becomes a major determinant of program access and progressivity",
+    "framework": "institutional background -> claim and appeal rates -> employer-effects decomposition -> wage-gradient interpretation -> policy implications",
+    "innovation_source": "the contribution is to treat the employer as a gatekeeper to social insurance rather than a background institution",
+    "reusable_move": "when program take-up is incomplete, decompose access into individual frictions and organizational gatekeeping effects",
+    "tags": [
+      "implementation",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "implementation_gatekeeper",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 84,
+    "title": "Direct and Indirect Effects of Investment Tax Incentives",
+    "stage_id": "p0084",
+    "source_pdf": "D:\\codex\\aer\\lerche-2025-direct-and-indirect-effects-of-investment-tax-incentives.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "standard policy evaluation asks whether treated firms invest more -> the broader question is whether local production systems expand or are merely reshuffled -> spillover mapping changes the policy assessment",
+    "framework": "policy background -> direct effects -> geographic and industry spillovers -> decomposition of channels",
+    "innovation_source": "the paper identifies positive and negative general-equilibrium spillovers in one design rather than stopping at firm-level treatment effects",
+    "reusable_move": "if a place-based or firm-targeted policy likely changes local equilibrium, trace effects through supplier, demand, and competitor networks before judging it",
+    "tags": [
+      "threshold",
+      "diff-in-diff",
+      "spillover",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 85,
+    "title": "Underbidding for Oil and Gas Tracts",
+    "stage_id": "p0085",
+    "source_pdf": "D:\\codex\\aer\\martin-et-al-2025-underbidding-for-oil-and-gas-tracts.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "common-values theory imposes sharp equilibrium restrictions when ex post value is observable -> those restrictions can be tested directly -> the data point toward underbidding",
+    "framework": "framework -> falsifiable implications -> data -> participation test -> underbidding evidence",
+    "innovation_source": "the paper uses equilibrium tests as a first-pass diagnostic before imposing stronger structural assumptions",
+    "reusable_move": "if theory yields observable inequalities or independence implications, test those first instead of jumping straight to a full structural model",
+    "tags": [
+      "spillover",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 86,
+    "title": "A Goldilocks Theory of Fiscal Deficits",
+    "stage_id": "p0086",
+    "source_pdf": "D:\\codex\\aer\\mian-et-al-2025-a-goldilocks-theory-of-fiscal-deficits.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "the textbook view says larger deficits eventually explode debt -> low rates and the ZLB complicate that simple monotonic story -> fiscal space is state dependent and nonmonotone",
+    "framework": "model -> fiscal space outside the ZLB -> fiscal space near the ZLB -> calibration and comparative statics",
+    "innovation_source": "the paper reframes deficit debates around a narrow and parameterized Goldilocks region rather than a binary pro- or anti-deficit stance",
+    "reusable_move": "when policy debates are binary, look for the latent state variable that turns the answer into a region rather than a slogan",
+    "tags": [
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 87,
+    "title": "Raising the Stakes: Physician Facility Investments and Provider Agency",
+    "stage_id": "p0087",
+    "source_pdf": "D:\\codex\\aer\\munnich-et-al-2026-raising-the-stakes-physician-facility-investments-and-provider-agency.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "principal-agent problems in medicine are usually framed as overprovision of procedures -> the location of treatment is another important margin -> ownership creates a sharp incentive change that reveals the preexisting distortion",
+    "framework": "market background -> ownership and regulatory setting -> data -> empirical strategy -> spending and behavior effects",
+    "innovation_source": "the paper uses entrepreneurial investment as a lens to measure provider agency in treatment-setting choice",
+    "reusable_move": "when agents choose both what to do and where to do it, exploit shocks to the location incentive to reveal hidden agency distortions",
+    "tags": [
+      "diff-in-diff",
+      "implementation",
+      "spillover",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "equilibrium_correction",
+      "implementation_gatekeeper"
+    ],
+    "primary_theme": "implementation_gatekeeper"
+  },
+  {
+    "number": 88,
+    "title": "Treatment Effects in Market Equilibrium",
+    "stage_id": "p0088",
+    "source_pdf": "D:\\codex\\aer\\munro-et-al-2025-treatment-effects-in-market-equilibrium.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "standard experiments assume limited interference -> many policy settings are markets where interference is the point -> market equilibrium must enter the treatment-effect object itself",
+    "framework": "model and estimands -> estimation and inference -> heterogeneous treatment effects and targeting -> application logic",
+    "innovation_source": "the paper builds a bridge between experimental design and equilibrium policy evaluation",
+    "reusable_move": "if treatment changes prices or allocation rules, redesign the experiment to recover the market elasticities needed for policy interpretation",
+    "tags": [
+      "experiment",
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 89,
+    "title": "International Trade Responses to Labor Market Regulations",
+    "stage_id": "p0089",
+    "source_pdf": "D:\\codex\\aer\\muñoz-2025-international-trade-responses-to-labor-market-regulations.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "trade models often separate domestic labor regulation from international competitiveness -> posted-worker markets place them side by side -> regulatory reforms become trade shocks",
+    "framework": "institutional setting -> measurement of service trade and labor costs -> gravity model -> reform-based interpretation",
+    "innovation_source": "the paper turns labor-market regulation into a first-order determinant of cross-border trade in services",
+    "reusable_move": "if a policy directly changes delivered marginal cost in a traded activity, treat it as a trade policy whether or not it is labeled that way",
+    "tags": [
+      "implementation",
+      "distribution",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 90,
+    "title": "Managers and Public Hospital Performance",
+    "stage_id": "p0090",
+    "source_pdf": "D:\\codex\\aer\\muñoz-otero-2025-managers-and-public-hospital-performance.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "public-service performance is often attributed to budgets or workers at the front line -> top management may be a binding constraint -> a recruitment reform provides causal leverage",
+    "framework": "setting and reform -> reduced-form impact on mortality -> evidence that managers matter -> quality-composition channel",
+    "innovation_source": "the paper ties an administrative reform to a clean manager-quality margin rather than treating management as a vague residual",
+    "reusable_move": "when an institution changes who gets hired, use it to separate management quality from general reform effects",
+    "tags": [
+      "diff-in-diff",
+      "implementation",
+      "distribution"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "implementation_gatekeeper",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "implementation_gatekeeper"
+  },
+  {
+    "number": 91,
+    "title": "Making Bricks from Straw: Resources and Productivity in Health Care",
+    "stage_id": "p0091",
+    "source_pdf": "D:\\codex\\aer\\okeke-2026-making-bricks-from-straw-resources-and-productivity-in-health-care.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "weak public-service performance is often blamed on effort or governance -> unrestricted money reveals what workers do when the resource margin is loosened -> behavior points to capital scarcity as a major constraint",
+    "framework": "context and experiment -> rollout and survey data -> productivity effects -> spending and motivation mechanisms",
+    "innovation_source": "the paper opens the black box of grant use with unusually rich expenditure and text data",
+    "reusable_move": "if an organization looks dysfunctional, give it flexible resources and study how it self-identifies its bottlenecks",
+    "tags": [
+      "experiment",
+      "diff-in-diff",
+      "implementation"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 92,
+    "title": "Risk Preferences and Field Behavior: The Relevance of Higher-Order Risk Preferences",
+    "stage_id": "p0092",
+    "source_pdf": "D:\\codex\\aer\\schneider-sutter-2026-risk-preferences-and-field-behavior-the-relevance-of-higher-order-risk-preferences.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "the literature often fails to link laboratory risk aversion to field behavior -> perhaps it measures the wrong preference object -> higher-order preferences recover the missing predictive power",
+    "framework": "experimental design -> methods for measuring higher-order preferences -> determinants -> links to field behavior",
+    "innovation_source": "the paper operationalizes higher-order risk preferences at scale and shows their empirical relevance outside the lab",
+    "reusable_move": "when a classic trait seems weak, measure the higher-order version that the theoretical mechanism actually requires",
+    "tags": [
+      "implementation",
+      "distribution",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 93,
+    "title": "Is Air Pollution Regulation Too Lenient? Evidence from US Offset Markets",
+    "stage_id": "p0093",
+    "source_pdf": "D:\\codex\\aer\\shapiro-walker-2025-is-air-pollution-regulation-too-lenient-evidence-from-us-offset-markets.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "cost-benefit debates usually struggle on the cost side -> offset markets reveal actual willingness to pay for abatement -> matching those prices to benefits gives a policy-stringency test",
+    "framework": "history and design of offset markets -> data -> descriptive price patterns -> efficiency comparison -> implications and extensions",
+    "innovation_source": "the paper turns a decentralized environmental market into a sufficient statistic for regulatory stringency",
+    "reusable_move": "if a policy creates a shadow market for compliance, use its prices to infer marginal costs instead of relying only on engineering estimates",
+    "tags": [
+      "new-measurement",
+      "implementation",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 94,
+    "title": "Monotonicity among Judges: Evidence from Judicial Panels and Consequences for Judge IV Designs",
+    "stage_id": "p0094",
+    "source_pdf": "D:\\codex\\aer\\sigstad-2026-monotonicity-among-judges-evidence-from-judicial-panels-and-consequences-for-judge-iv-designs.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "monotonicity is central but usually unobservable -> panel decisions make it observable -> direct evidence replaces speculation and clarifies how much the practical bias matters",
+    "framework": "theory of judge monotonicity -> data and settings -> measurement of violations -> consequences for IV -> checks on panel-specific effects",
+    "innovation_source": "the paper measures a key identification assumption directly rather than asking indirect proxy tests to do impossible work",
+    "reusable_move": "search for institutional settings where an abstract identifying assumption becomes literally observable",
+    "tags": [
+      "experiment",
+      "implementation",
+      "distribution",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "implementation_gatekeeper",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "benchmark_reversal"
+  },
+  {
+    "number": 95,
+    "title": "A Model of Populism as a Conspiracy Theory",
+    "stage_id": "p0095",
+    "source_pdf": "D:\\codex\\aer\\szeidl-szucs-2025-a-model-of-populism-as-a-conspiracy-theory.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "populism combines anti-elite rhetoric, conspiratorial framing, and reduced accountability -> a model of alternative reality formation can explain that package coherently",
+    "framework": "model setup -> equilibrium logic -> implications for accountability and policy choice -> discussion of observed populist behavior",
+    "innovation_source": "the paper models political strategy as the manipulation of voters' interpretive frame rather than just policy promises",
+    "reusable_move": "when a political phenomenon looks irrational, ask whether actors are first changing how evidence is interpreted rather than changing the evidence itself",
+    "tags": [
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 96,
+    "title": "Immigration, Innovation, and Growth",
+    "stage_id": "p0096",
+    "source_pdf": "D:\\codex\\aer\\terry-et-al-2026-immigration-innovation-and-growth.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "immigration debates stay stuck because migrants self-select into growing places -> a new instrument isolates exogenous local shocks -> dynamic innovation effects change the welfare calculus",
+    "framework": "data -> instrument construction -> reduced-form innovation and wage effects -> wage-inequality results -> structural interpretation",
+    "innovation_source": "the paper pairs a new immigration instrument with a growth framework that accumulates medium-run gains",
+    "reusable_move": "when a policy or shock likely changes innovation, do not stop at short-run labor-market outcomes; trace the dynamic margin too",
+    "tags": [
+      "experiment",
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 97,
+    "title": "Evaluating the Impact of Urban Transit Infrastructure: Evidence from Bogotá’s TransMilenio",
+    "stage_id": "p0097",
+    "source_pdf": "D:\\codex\\aer\\tsivanidis-2026-evaluating-the-impact-of-urban-transit-infrastructure-evidence-from-bogotá-s-transmilenio.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "transit projects are often evaluated by engineering time savings -> cities are spatial equilibria -> the true gains and their distribution depend on reallocation and land-use responses",
+    "framework": "background and data -> quantitative city model -> reduced-form elasticities and sufficient statistics -> welfare and distributional counterfactuals",
+    "innovation_source": "the paper bridges a sufficient-statistics approach and a richer structural urban model in one application",
+    "reusable_move": "compare the naive engineering object to the equilibrium welfare object to show exactly what the standard metric misses",
+    "tags": [
+      "diff-in-diff",
+      "spillover",
+      "distribution",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 98,
+    "title": "Market Power and Capital Constraints",
+    "stage_id": "p0098",
+    "source_pdf": "D:\\codex\\aer\\wittwer-allen-2026-market-power-and-capital-constraints.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "intermediary-asset-pricing papers emphasize capital constraints while market-microstructure papers emphasize market power -> real-world auctions involve both -> their interaction changes prices and liquidity",
+    "framework": "model -> quantification and identification of shadow costs -> policy interpretation",
+    "innovation_source": "the paper unifies two usually separate financial frictions inside a tractable auction environment",
+    "reusable_move": "when two literatures hold different frictions fixed, the best contribution may be to let both vary in the same institution",
+    "tags": [
+      "new-measurement",
+      "spillover",
+      "policy-interaction",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "hidden_margin",
+      "equilibrium_correction"
+    ],
+    "primary_theme": "equilibrium_correction"
+  },
+  {
+    "number": 99,
+    "title": "Nested Bundling",
+    "stage_id": "p0099",
+    "source_pdf": "D:\\codex\\aer\\yang-2025-nested-bundling.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "firms commonly sell nested plans but theory gives little clean guidance -> a simple partial order recovers when that common practice is actually optimal",
+    "framework": "model -> main results and converse -> proof sketch -> discussion and examples",
+    "innovation_source": "the paper translates an intractable multidimensional mechanism-design problem into a tractable order-and-algorithm characterization",
+    "reusable_move": "if a business practice is ubiquitous but theory is messy, search for the monotone order that rationalizes the practice",
+    "tags": [
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "hidden_margin"
+    ],
+    "primary_theme": "hidden_margin"
+  },
+  {
+    "number": 100,
+    "title": "Games on Multiplex Networks",
+    "stage_id": "p0100",
+    "source_pdf": "D:\\codex\\aer\\zenou-zhou-2026-games-on-multiplex-networks.pdf",
+    "digest_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\digests\\batch_05_081_100.md",
+    "story_ladder": "real social systems are multilayer but most network games are not -> adding layers changes both equilibrium and targeting -> multilayer complexity is therefore not decorative but substantive",
+    "framework": "model and applications -> equilibrium characterization -> policy implications and simulations -> extensions",
+    "innovation_source": "the paper provides a tractable framework for multiplex network games that remains usable for policy analysis",
+    "reusable_move": "when agents split scarce attention or resources across contexts, treat those contexts as interacting layers rather than collapsing them into one average network",
+    "tags": [
+      "spillover",
+      "policy-interaction",
+      "distribution",
+      "theory"
+    ],
+    "batch": "05_081_100",
+    "themes": [
+      "equilibrium_correction",
+      "benchmark_reversal"
+    ],
+    "primary_theme": "equilibrium_correction"
+  }
+]

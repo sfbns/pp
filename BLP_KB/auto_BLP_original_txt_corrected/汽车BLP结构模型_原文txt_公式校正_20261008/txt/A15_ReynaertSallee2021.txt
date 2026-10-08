@@ -1,0 +1,1918 @@
+==============================================================================
+【文献】Reynaert & Sallee (2021). Who Benefits When Firms Game Corrective Policies? AEJ: Economic Policy 13(1): 372-412.
+【编号】A15　【简称】ReynaertSallee2021　【分组】标签与信念
+【原文 PDF】D:\codex\output\blp_bundle_20261007\package\02_five_BLP_recommendations\R02_Reynaert_Sallee2021\original.pdf
+【页数】41 页　【页码换算】印刷（期刊）页码 = PDF 页码 + 371
+【文本来源】PyMuPDF 抽取 PDF 文字层（按版面块排序）
+【公式校正】1 条，按页附在对应页末（以「公式校正」标出），LaTeX 书写，均已对照原页图
+【校正说明】AEJ: Economic Policy 期刊版，期刊页 = PDF 页 + 371。本文是理论加量化模拟，不是完整的 BLP 估计。本包只校正信念设定这一组最常被引用的式子；第 25–30 页的决策与体验福利式未校正。
+【核对页图】D:\blp-auto-fulltext-pack-20261008\work\pages\A15_p18*.png（本轮渲染与放大）；本包 核对页图\ 文件夹内有副本
+【备注】理论加量化模拟，非完整 BLP 估计
+【使用提醒】正文是机器抽取的原文，不是译文；公式区以页末校正或原 PDF 为准。页标记中的 PDF 页码可直接用于在原 PDF 中翻页定位。
+==============================================================================
+
+===== [PDF 第 1 页｜印刷第 372 页] =====
+American Economic Journal: Economic Policy 2021, 13(1): 372–412
+https://doi.org/10.1257/pol.20190019
+
+
+     Who Benefits When Firms Game Corrective Policies?†
+
+                  By Mathias Reynaert and James M. Sallee*
+
+
+            Firms sometimes comply with ­externality-correcting policies by gam-
+             ing the measure that determines policy. This harms buyers by erod-
+             ing information, but it benefits them when cost savings are passed
+             through into prices. We develop a model that highlights this tension
+           and use it to analyze gaming of automobile carbon emission ratings
+               in the EU. We document startling increases in gaming using novel
+              data. We then analyze the effects of gaming in calibrated simulations.
+           Over a wide range of parameters, we find that pass-through substan-
+                 tially outweighs information distortions; on net, buyers benefit from
+            gaming, even when they are fooled by it.     H23, L51, L62, Q53,                                             (JEL            Q54,               Q58)
+
+         ometimes firms comply with a regulation by gaming the measure targeted by
+          policy rather than by changing their true behavior as intended. This relates to  S
+      Goodhart’s Law, which posits that “when a measure becomes a target, it ceases to
+      be a good measure.”1 We study how gaming of this sort can impact buyers who rely
+     on manipulable measures for making choices in a market. Gaming erodes buyer
+      information and induces mistakes. But when the gaming is done in reaction to a
+       regulatory constraint, sellers lower their costs by gaming, which benefits buyers via
+       pass-through. The impact of gaming on buyer surplus is thus ambiguous, even when
+       the gaming completely fools buyers, and the net effect depends critically on whether
+       or not gaming is done in response to a policy.
+         This paper explores the impact of gaming on buyer surplus both theoretically and
+       empirically for the case of automobile fuel consumption ratings. We do three things
+       in this paper. First, we use a novel dataset to measure ­on-road fuel consumption
+      and document gaming of fuel consumption ratings, which escalates dramatically
+
+
+
+             * Reynaert: Toulouse School of Economics, University of Toulouse Capitole, 1 Esplanade de l’Université,
+       31080 Toulouse Cedex 06, France                                        Sallee: Department of Agricultural and                                             (email: mathias.reynaert@tse-fr.eu);        Resource Economics, University of California, Berkeley, 207 Giannini Hall, Berkeley, CA 94720-3310, and NBER
+                                Matthew Notowidigdo was coeditor for this article. We thank the three anonymous         (email: sallee@berkeley.edu).         referees as well as seminar participants at Arizona State University, ENSAE-CREST, Fundação Getúlio Vargas,
+         the NTA Annual Conference on Taxation, the NBER Summer Institute, the Stanford Institute for Theoretical
+        Economics         the Norwegian School of Economics, Resources for the Future, Texas A&M, the Toulouse                   (SITE),        School of Economics, UC Davis, Yale University, CEPR Applied IO conference Jerusalem, ETH Zurich, University
+         of Antwerp, Erasmus Universtity Rotterdam, Heidelberg University, and IIOC Boston          Alex                                                                                               (discussant     MacKay)          for helpful comments. Special thanks to Meredith Fowlie for introducing us to the term Goodhart’s Law in this pol-
+         icy context. Sallee thanks support from the USDA National Institute of Food and Agriculture. Reynaert and Sallee
+        thank support from the France-Berkeley Fund. Reynaert acknowledges funding from ANR under grant ANR-17-
+       EURE-0010                d’Avenir                      (Investissements         program).            † Go to https://doi.org/10.1257/pol.20190019 to visit the article page for additional materials and author
+         disclosure             or to comment in the online discussion forum.                    statement(s)
+             1 Goodhart’s original concern was monetary policy (Goodhart 1981).
+                                                    372
+
+===== [PDF 第 2 页｜印刷第 373 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       373
+
+following the introduction of regulations that target this rating. Second, we develop
+a theoretical model that derives the impact of gaming on buyer surplus in a setting
+where sellers game ­energy efficiency ratings, which buyers use to evaluate products.
+Third, we conduct analysis using structural estimates of the automobile demand
+system to quantify the effects on buyer surplus identified by our theory in calibrated
+simulations.
+  Our empirical analysis considers the introduction of stringent corrective policy
+in the EU automobile market. Prior to 2007, there were no policies in Europe that
+hinged directly on fuel consumption ratings, but since then both ­EU standards and
+­nation-specific tax schemes have created policy incentives that reward lower lab-
+oratory fuel consumption test ratings. To measure gaming, we compare the lab-
+oratory ratings, which form the basis of policy, with direct measures of ­on-road
+fuel consumption that we construct from a dataset that tracks fuel consumption and
+kilometers traveled for a panel of more than 250,000 drivers over 12 years in the
+Netherlands. Using these data, we estimate the percentage difference between the
+laboratory test and ­on-road performance, which we call the performance gap, for
+each vehicle vintage and model.
+  We document a sharp rise in the performance gap coincident with policy change.
+Vehicles produced before 2007 show a small, and relatively stable, performance
+gap. Vehicles produced after that exhibit a large and rising performance gap, so
+that 2014 model year vehicles have performance gaps in excess of 50 percent on
+average. These results are robust to a number of specification checks and various
+controls and are similar for all automakers. The rise in the performance gap implies
+that around 65 percent of the gains in fuel economy since the introduction of policy,
+as measured by laboratory tests, are false. Using conventional estimates of lifetime
+distance traveled and a social cost of carbon of $40 per ton of carbon, the difference
+between apparent and actual emissions reductions amounts to $1.2 billion annually
+from 2010 to 2014 when extrapolated to all of Europe. We interpret the rise in the
+performance gap as evidence of gaming in response to policy incentives, in the spirit
+of Goodhart’s Law, and then turn our attention to our central question—who benefits
+when firms game corrective policy?—both theoretically and in welfare simulations.
+  Our theoretical model considers a monopolist who sells a good to a representative
+buyer. The good has some attribute that is desirable to buyers, but it also creates a
+negative externality that motivates corrective policy. The attribute closely matches
+the role of fuel economy ratings in the automobile market.2 The attribute is not
+directly observable, however, so buyer demand and government regulation are based
+on a measure provided by the seller. The seller can change the measure either by
+changing the true attribute or by gaming, both of which are costly.
+   In our model, we allow that some fraction of gaming is undetected by buyers. In
+the absence of policy, this means that gaming lowers buyer surplus for two ­reasons.
+First, gaming causes buyers to ­misoptimize         the wrong quantity of the                                      (choose                        good),
+
+    2 In the automobile market, fuel economy is a characteristic valued by buyers, and it is directly linked to an
+externality                    In terms of the model, fuel economy ratings, which are isomorphic to carbon emis-          (carbon emissions).sions ratings, are the true attribute. But true ­on-road fuel economy is observed by neither car buyers nor the regula-
+tor. Instead, regulations and ­consumer-facing fuel economy labels are based on laboratory tests. Firms can improve
+a test result either by increasing a vehicle’s true fuel economy or by gaming the test.
+
+===== [PDF 第 3 页｜印刷第 374 页] =====
+374               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+which leads to a loss in buyer surplus that we call choice distortion.3 Second, gam-
+ing causes the seller to raise price because buyers perceive an improvement in the
+product. This price effect further reduces buyer surplus.
+   Corrective policy disrupts this logic by flipping the sign of price effects.
+Regulation raises the cost of production. Gaming allows the seller to lower its
+costs, and this benefits buyers through lower prices in the same way that a reduc-
+tion in a tax would. When this price effect dominates choice distortions from faulty
+information, buyers benefit from the seller’s gaming, even when they are fooled
+by  it. We believe that our identification of these two competing effects, which
+­highlights how the impact of gaming hinges on the existence of policy, is unique to
+the literature on gaming.
+  Throughout the paper, we focus on buyer surplus as a notion of the private sur-
+plus of consumers who consider buying the good. This is narrower than consumer
+surplus, which would encompass the externality. We focus on incidence and thus on
+buyer surplus, but gaming will also impact the level of the externality. The ultimate
+effect of gaming on the environment will turn on the degree of sophistication of
+the policymaker, who may increasingly tighten policy to achieve real gains, and of
+the buyers, who may expand the overall size of the market when they mistakenly
+perceive lower costs of ownership. By definition, in terms of overall social welfare,
+gaming of an optimal policy is harmful     at least not          Rather, our point                                         (or             helpful).is that buyer surplus may rise from gaming in a variety of circumstances, not that
+gaming is good for society, except in cases where the regulation is too stringent.
+   Next, we set out to quantify the price effect and choice distortions in our empir-
+ical setting. We demonstrate that the price effects and choice distortions identified
+by our theory have direct empirical analogs in a discrete choice setting. We then
+estimate a demand model of the European car market that provides estimates of con-
+sumer preferences and the marginal costs of products. Given these preferences and
+costs, we calibrate the incidence of gaming for a range of alternative assumptions
+regarding consumer awareness, policy stringency, and the degree of gaming.
+  We find robust results that align with our theoretical predictions. When there is
+no corrective policy and when consumers are fooled by gaming, we find that lower-
+ing perceived fuel costs through gaming leads to modest losses in buyer surplus. A
+significant majority of these losses come through the price effect. As a result, firm
+profits rise with gaming, and this comes at the expense of lower buyer surplus.
+  As suggested by the theory, the welfare effects of gaming change when we intro-
+duce a corrective policy. We model a mandated decrease in average fuel consump-
+tion ratings that firms comply with via shifting their sales mix toward more efficient
+models. When firms comply honestly, private consumer surplus falls substantially
+as consumers are forced into less desirable products. When we allow firms to relax
+this regulatory constraint by gaming to meet the standard, we find beneficial price
+effects for buyers that consistently dominate choice distortions so that the net impact
+of gaming is to raise buyer surplus. Gaming with or without a policy induces a
+
+
+    3 The choice distortion that we identify is conceptually identical to the consumer surplus loss due to cognitive
+frictions or information limitations in several prior papers, including Leggett         Allcott         Sallee                                                                       (2002);       (2013);       (2014);and Dubois, Griffith, and O’Connell                                   (2018).
+
+===== [PDF 第 4 页｜印刷第 375 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       375
+
+­similar-sized choice distortion, but we find that this is an order of magnitude smaller
+than the price effect for a significant range of parameter choices. These results pro-
+vide empirical validation for our theoretical prediction: gaming benefits consumers
+in the presence of stringent policy, even when buyers are fooled. We also show that a
+corrective policy roughly triples the private benefit to a single firm that games when
+all others are honest, which implies that policy amplifies competitive pressures that
+incentivize gaming.
+  Our paper makes several contributions. First, a large literature evaluates the effi-
+ciency and market implications of fuel economy standards.4 We show that gaming
+in response to standards is important, though our focus is on establishing the inci-
+dence of gaming, not on providing a policy evaluation of the EU fuel economy
+standard. For such an evaluation, see Reynaert             which shows that the                                            (forthcoming),standard has induced firms to abate emissions with a mixture of technology adop-
+tion and gaming.
+  Second, we bridge separate literatures on the effects of gaming on market out-
+comes and the incidence of ­externality-correcting policies. The gaming literature
+has considered what we call the choice distortion, and the policy evaluation liter-
+ature has considered what we call price effects. We combine these in our theory
+model and then determine which one dominates in our empirical analysis.
+  A theoretical literature on gaming has considered how gaming can impact market
+outcomes in a variety of models     Gabaix and Laibson 2006; Heidhues, Ko˝szegi,                                     (e.g.,and Murooka 2017; Frankel and Kartik        but to the best of our knowledge,                                      2019),only Rhodes and Wilson       and Drugov and ­Troya-Martinez        consider                       (2018)                              (2019)gaming in the context of regulatory enforcement. In contrast to Rhodes and Wilson
+      we consider gaming in response to ­externality-correcting ­policy when(2018),strong enforcement is lacking. In contrast to Drugov and ­Troya-Martinez      we                                                                    (2019),include endogenous prices for the good. Empirically, there are a number of papers
+that show how market measures can be manipulated so as to create market distor-
+tions, including test scores       et al.       mortgage markets            2011;                      (Dee      2019),                  (­Ben-DavidJiang, Nelson, and Vytlacil        or corporate earnings                           2014),                   (Roychowdhury 2006).None of these weighs the competing effects of ­information-based losses and posi-
+tive price effects on buyer surplus, which is our focus.
+  On the other hand, many papers have analyzed the incidence of externality-
+correcting policies, showing, for example, how the costs of complying with environ-
+mental regulations are passed through into product prices                 energy                                                     (Jacobsen 2013),prices       and Reguant        or labor earnings          We study the      (Fabra             2014),                 (Walker 2013).flip side of this coin, which is how cost savings from regulatory avoidance can pass
+through to buyers of a regulated good. We add to that literature by integrating the
+welfare implications of information erosion into incidence analysis.
+
+
+
+
+                                        Austin and Dinan                                                            Bento et al.                                                                             Anderson and Sallee   4 Key studies include Goldberg (1998);                                                           (2005);                                                                               (2009);        Klier and Linn        Jacobsen        Gillingham         Parry, Evans, and Oates        Whitefoot,(2011);               (2012);          (2013);            (2013);                        (2014);Fowlie, and Skerlos       and Durrmeyer and Samano        Recent articles have critiqued efficiency of stan-                   (2017);                            (2018).dards due to interactions with the used car market          and van Benthem         safety          2013;                                                (Jacobsen                  2015),       (JacobsenBento, Gillingham, and Roth       unintended consequences of attribute basing    and Sallee 2018; Whitefoot                           2017),                                                  (Itoand Skerlos      and heterogeneity in vehicle lifetimes            et al.           2012),                                   (Jacobsen      2020).
+
+===== [PDF 第 5 页｜印刷第 376 页] =====
+376               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+   Third, our analysis is also relevant to the specific issue of emissions testing ­reliability,
+which has become a major policy topic in the wake of the Volkswagen emissions test-
+ing scandal. Our ­reduced-form estimates of the degree of gaming are consistent with a
+growing set of media accounts, with analysis performed by the International Council
+on Clean Transportation        which has documented a ­similar gap in a number of                     (ICCT),European countries        et al. 2014, Tietge et al.      and with ­quasi-experimental              (Mock                      2015),evidence on fuel ­consumption gaming in Japan           We add further evi-                                          (Tanaka 2017).5dence of gaming to that body of work and also introduce the first analysis of how
+emissions test gaming impacts the private welfare of car buyers.
+   Finally, recent research has documented a failure of energy efficiency programs
+to realize ex ante expected savings in appliances        Fuchs, and Gertler                                                (Davis,                 2014)and buildings         Greenstone, and Wolfram 2018; Levinson     We provide             (Fowlie,                                       2016).related evidence of a lack of efficacy in ­energy efficiency policies for automobiles,
+which have delivered only a fraction of expected savings because of gaming.
+  The paper is structured as follows. We begin with our reduced-form analysis of
+the performance gap in Section I. In Section II, we describe our theoretical model,
+which delineates choice distortions and price effects. Section III estimates a struc-
+tural model of the automobile market and uses the estimates to calculate changes
+in consumer surplus due to choice distortions and price effects from gaming in our
+calibrated simulations. Section IV concludes.
+
+                        I.  Automakers Game EU Fuel Consumption Ratings
+
+   In this section, we discuss Goodhart’s Law in the EU automobile market.
+We document a sharp decrease in the correlation between official and ­on-road
+fuel ­consumption ratings that coincides with those ratings becoming subject to
+­regulation. We start by describing policy changes in the EU automobile market and
+detailing how carmakers report official fuel consumption ratings. We then describe
+data from a large sample of drivers in the Netherlands that we use to construct
+­estimates of ­on-road consumption. Finally, we quantify the gap between official
+ratings and ­on-road consumption and relate that pattern to the rollout of policy.
+
+         A. European Fuel Economy Regulations Are Relatively New
+
+   Prior to 2007, automobiles in Europe were not subject to explicit regulation
+based on their carbon emissions. Since then, automobiles have become subject to
+both an ­EU-wide regulation and ­nation-specific tax and subsidy schemes that are
+explicitly tied to carbon emissions. The ­EU-wide regulation mandates that auto-
+makers sell vehicles that have a ­sales-weighted average carbon emission rate below
+a certain level. A vehicle’s carbon emission rate is measured as a linear transfor-
+mation    convert       of fuel consumption, which itself is just the inverse of        (to          units)
+
+    5 The ICCT reports include analysis of the Netherlands based on the same data that we use here. Our results are
+broadly similar, but our analysis contributes by providing an independent academic analysis and through a number
+of methodological improvements, including the calculation of standard errors, the introduction of time of driving
+fixed effects and other controls, a variance decomposition, an empirical Bayes correction, and extrapolation to the
+entire European market through matching.
+
+===== [PDF 第 6 页｜印刷第 377 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       377
+
+fuel economy. Thus, while the EU policy is described as regulating carbon, it is
+directly ­analogous to the US Corporate Average Fuel Economy standards, which are
+described as ­regulating fuel economy.
+   Prior to 2007, there was no legally binding fuel economy regulation in Europe.
+The standard was announced in 2007, passed into law in its final form in 2009, and
+phased in over several subsequent years. The first year of enforcement was 2012,
+with a ­ramp-up in the standard taking place from 2012 to 2015. Fully ­phased in,
+the regulation is quite aggressive by historical and international standards. Fines
+for ­noncompliance are stiff. When the standard was announced, no automaker was
+complying with the standard. If automakers had left their fleets unchanged, they
+would have faced an average fine of 1,250 euros per vehicle.6
+   In addition to the EU standard, all member states have separate tax schemes for
+new vehicles. During the rollout of the ­EU-wide regulation, many member states
+adjusted their national policies so that tax schemes were based explicitly on carbon
+emission rates. France introduced a feebate, which taxes ­heavily polluting cars and
+subsidizes cleaner models, in 2008. In 2009, Germany switched its annual road
+taxes so that they depend on carbon emissions rates rather than engine cylinders.
+In 2008, Spain introduced registration taxes that depend on emissions ratings. The
+Netherlands did the same in 2010. Gerlagh et al.        present a detailed overview                                           (2018)of the move toward carbon taxation in EU member states after 2007.
+
+                B. How Are Fuel Economy Ratings Measured?
+
+  Carbon emissions ratings for all of these policies are based on a laboratory test
+called the New European Driving Cycle          This test procedure, which is                                (NEDC).conducted by ­third-party facilities that are funded by the automakers, measures fuel
+consumption in liters per 100 kilometers        A test vehicle is put onto a                                   (L/100km).chassis dynamometer    treadmill for      and a professional driver “drives” the                      (a               cars),car through a specified series of speeds and accelerations. Emissions are captured
+directly from the tail pipe and used to determine gaseous outputs, which are used to
+determine fuel consumption. Two different test cycles are run to simulate city and
+highway driving. A coast down test is also performed to measure aerodynamics.
+  The NEDC is not only the basis of CO​2​ regulation but also ­consumer-facing
+labels and emissions limits on local air pollutants, such as NO​X​, PM, and CO. The
+test procedure captures local pollutants and measures their quantities to determine
+vehicle compliance with emissions limits. In terms of consumer information, the
+NEDC rating is the rating that automakers are required to use in consumer advertis-
+ing, and it is the rating that appears on mandatory energy efficiency labels for new
+vehicles. As such, the NEDC was used as a regulatory and market instrument for
+roughly a decade before the rollout of carbon regulation.
+  We are interested in how automakers might game this test. Tests are performed
+in ­third-party facilities, but these are funded by the automakers and may not have
+incentive to maintain test integrity. According to media and industry accounts, the
+
+
+
+   6 We describe the EU standard in more detail in online Appendix B.
+
+===== [PDF 第 7 页｜印刷第 378 页] =====
+378               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+European test procedure offers the tester considerable “flexibility” in test ­procedures.7
+For example, automakers are not expressly prohibited from submitting test vehicles
+that have been modified. Firms remove optional equipment, thereby changing the
+weight of the vehicle to improve performance. They also tape down seams in the
+vehicle, remove side mirrors and roof racks, and ­overinflate tires to improve results
+of the coast down test. Alternatively, automakers may install technologies that per-
+form particularly well on the test cycle, or they could even calibrate an engine to
+perform in a particularly efficient way during the highly specific test cycle’s series
+of speeds and accelerations.8 To detect gaming, we compare laboratory test ratings
+with a direct measure of ­on-road fuel consumption, which we describe next.
+
+                    C. ­On-Road Fuel Consumption Data
+
+  We obtained data from Travelcard NV        a company providing fuel services                                       (2015),in the Netherlands. These panel data contain information on 66 million fuel station
+visits from drivers using a Travelcard NV card between January 2004 and May
+2015. Most of the individuals in this sample drive a vehicle provided to them by
+their employer, who also pays directly for fuel. This implies that we have a selected
+sample, though the provision of a company car is quite common in the Netherlands
+due to tax advantages and the high cost of personal vehicle ownership. Nearly half of
+new vehicles sold in the Netherlands are registered as company cars        Currie,                                                                        (Scott,and Tivendale             2012).  When visiting a fuel station, Travelcard NV users swipe a smart card to pay for
+fuel. When a driver swipes her card, we observe the driver’s license plate and the
+date, time, and location of the fuel station visit. We also observe the exact amount
+and the type of fuel purchased and a ­self-reported odometer reading at the time of
+fueling. Regarding the latter, drivers are asked to enter their current odometer read-
+ing into the fuel pump’s keypad during the transaction. Transactions are linked to an
+account, which is a unique combination of a driver with a particular vehicle, which
+corresponds to a unique license plate. Unfortunately, if the same individual drives
+one vehicle for some time and then switches to another vehicle, we have no way of
+linking those data and must treat them as separate accounts. We refer to this panel
+variable as a driver, which should be understood as a unique combination of a driver
+with a particular vehicle.
+   Travelcard NV provides us with a second dataset that matches each license plate
+with the vehicle brand, model name, weight, fuel type, and the official fuel con-
+sumption rating of the vehicle. These characteristics allow us to match the Dutch
+data with a panel on European car sales and prices from ­1998 to 2011 obtained from
+JATO ANALYTICS       and used in Grigolon, Reynaert, and Verboven                  (2012)                                           (2018)and Reynaert          We match each vehicle to sales volume, list price,              (forthcoming).and a broader set of characteristics, including length, width, and several engine
+
+
+    7 For example, see “Europe’s Auto Makers Keep Test Firms Close” in the March 21, 2016 Wall Street Journal:
+https://www.wsj.com/articles/europes-auto-makers-keep-test-firms-close-1443648097           December  8,                                                                                  (accessed
+2020).    8 These “flexibilities” differ significantly from analogous tests in the United States, where the law is much more
+explicit about the details of the test vehicle and test procedures.
+
+===== [PDF 第 8 页｜印刷第 379 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       379
+
+­characteristics. We define a vehicle as the unique combination of brand                                                               (Volkswagen),model name         fuel type        and official fuel consumption. We define the             (Golf),           (Diesel),release year for a vehicle as the first time we observe a unique combination of these
+variables in the data between 1998 and 2014. We observe vehicles at the engine level,
+and in the empirical analysis we will be able to control for vehicle models as the com-
+bination of brand and model name. Odometer readings are ­self-reported, and many
+individual entries are unreliable. In online Appendix A, we detail steps we take to
+purge unreliable entries. Our final sample includes 24 million transactions. These data
+include over 2,500 unique vehicles driven by 266,000 different drivers.
+  Table F.1, in the online Appendix, gives summary statistics for the raw data. The
+average vehicle in our sample has a fuel consumption of 6.65         and a weight                                            L/100kmof 1,354 kilograms. Somewhat less than half of the vehicles           have diesel                                                    (46 percent)engines. We observe an average of 107 drivers per car, with a maximum of 3,228
+drivers. For each of these drivers, we observe an average of 134 visits to the pump,
+with a maximum of 1,135. Driver mean total consumption is 6,015 liters of fuel
+purchased corresponding to 111,726 km traveled. Finally, the average fuel station
+visit involves 45 liters of fuel purchased, corresponding to an odometer increase of
+671 km with a standard deviation of 192 km.
+  Our sample is drawn from company cars. We compare these to the overall market
+in online Appendix Table F.2. Vehicles in the Travelcard data are cheaper, lighter,
+more fuel efficient, and more likely to be a diesel than the average new vehicle in
+the Netherlands. One explanation of the difference is that our data contain almost no
+luxury vehicles or sports cars. Also, company cars are driven more than the average
+household car, which likely explains the higher share of diesels in our sample.
+   Nevertheless, the models in our final sample are the models that account for
+76 percent of all sales in the Netherlands. Moreover, the Dutch car market is very
+similar to the entire EU market; it features a mix of French, German, and foreign
+brands that is very similar to the EU average. Thus, our data provide estimates of
+­on-road performance that cover the broader market fairly well. However, we wish
+to stress that we have no way of directly assessing whether drivers of company cars
+drive their vehicles differently, and thereby exhibit a different performance gap, than
+the average Dutch driver. Fortunately, we are focused on changes in the performance
+gap over time, so as long as differences between company car drivers and other
+­drivers are stable over time, this will not be a major concern for our conclusions.
+
+          D. ­On-Road Fuel Consumption and the Performance Gap
+
+  We construct a measure of ­on-road fuel consumption ​r​ nij​for each pump visit ​n​of
+driver ​i​in car ​j​as the ratio of the liters purchased and the change in reported odom-
+eter between the visit and the previous visit:
+              ​liters​n​                                                          ​r​ nij​                    = (1)                                                                                          ​ _____________________ ​odometer​n​ − ​odometer​n−1​ ​ × 100 .​
+This measure of ­on-road fuel consumption, in units of            will vary between                                          L/100km,pump visits of a driver for three reasons. First, variable driving conditions such as
+outside temperature, route choice, driving style, and congestion will differ across
+
+===== [PDF 第 9 页｜印刷第 380 页] =====
+380               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+observations. Second, the driver may over- or understate the odometer reading. We
+are not aware of any incentive for the drivers to deliberately misreport distance
+traveled, but from the data, it is obvious that there are many mistakes. Third, there
+might be variability due to stockpiling effects. If the consumer does not always fill
+the tank of the vehicle completely, there will be variation in  ​r​ nij​. If a driver visits the
+fuel station with an empty tank and fills half of it, we will observe a very low fuel
+consumption for visit ​n​and a higher fuel consumption for the next visit if she refills
+the tank completely.
+   Next, we construct the percentage gap between ­on-road and tested fuel consump-
+tion as
+                                                                                       ​d​ nij​         ​ ​r​ nij​ − ​li​ j​ _ ​ ,​(2)                           =              ​li​ j​ 
+in which the official rating  ​li​ j​ is constant for each car ​j​ and the ­on-road rating varies
+across observations. We call this the performance gap. We are interested in estimat-
+ing the mean and variance of  ​d​ j​, defined as the average ​d​ nij​across ​n​and ​i​for a given
+vehicle type  ​j​. In particular, we are interested in the mean and variance of  ​d​ j​ across
+vehicle types from the same vintage          We now discuss this perfor-                                       (release year).mance gap by presenting its evolution over time by estimating a fixed effects model
+and by analyzing heterogeneity in the gaps over time.
+
+                E. The Mean Performance Gap Rises over Time
+
+   Figure 1 plots the mean official rating   ​li​ j​, the mean ­on-road rating  ​r​ nij​, and the
+­percentage gap  ​d​ nij​ for each release year. Between 1998 and 2006, we see that
+both official fuel consumption and ­on-road consumption vary between 6.1 and
+7.5         The percentage gap fluctuates between 12 percent and 20 percent   L/100km.and shows evidence of a slight upward trend after 2004. From 2006 onward, we see
+a spectacular drop in official consumption from 6.2 to less than 4           This                                                    L/100km.translates to a rise from the already high value of 38 miles per gallon        in 2004                                                       (mpg)to a truly remarkable 59 mpg in 2014. Official fuel consumption decreases by almost
+50 percent over the sample period.
+  The ­on-road ratings follow a trend similar to the official ratings up until 2008.
+After 2008, the ­on-road fuel consumption decreases much more slowly than the offi-
+cial rating, going from 6.5 to 5.9        As a result, the percentage gap between                         L/100km.the official and ­on-road ratings increases dramatically: from around 12 percent at the
+beginning of the sample to almost 55 percent by 2014. This divergence is remark-
+able in magnitude, and it coincides exactly with the new ­EU-wide fuel consumption
+regulation, which was announced in 2007, finalized in 2009, and ­phased in over
+the remainder of the sample, as well as the ­phase-in of national policies described
+above.
+  The divergence in test ratings and ­on-road performance is not isolated to a par-
+ticular automaker. Figure 2 plots the estimated mean gap ​d​ nij​for three sets of model
+years       middle, and      separately for each automaker. All automakers show       (early,               late)a substantial increase in the gap over time, and all show an economically import-
+ant gap in the later years. The performance gap is a global phenomenon: the three
+
+===== [PDF 第 10 页｜印刷第 381 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       381
+
+
+
+             8                                                                  60
+
+
+
+                                                                                50
+             7
+                                                                                40     Percent
+             6
+            L/100km                                                                    30                                                                                                                                                                                                                                                                                                                                                                 difference
+             5
+
+                                                                                20
+
+
+             4
+                                                                                    10
+
+               98  99  00  01  02  03  04  05  06  07  08  09  10  11  12  13  14
+                                      Release year
+
+                                                           Official ratings                On-road ratings
+
+                                              Percent difference
+
+
+                 Figure 1. On-Road and Official Fuel Consumption per Release Year
+
+
+
+                Audi                                                                    1998–2006
+         BMW                                                                    2007–2009
+                                                                                         2010–2014
+               Citroën
+
+                Ford
+
+               Opel
+
+            Peugeot
+
+             Renault
+
+               Toyota
+
+         Volkswagen
+
+                Volvo
+
+                   0         10         20         30         40         50
+                                         Percent difference
+
+               Figure 2. Gap between ­On-Road and Official Fuel Consumption per Firm
+
+Note: Figure shows estimated coefficients and standard errors from regressing the performance gap on three sets
+of model release years       middle, and      per automaker; the data are restricted to the ten brands with most                          (early,               late)observations.
+
+
+largest gaps are for a European firm           a Japanese firm         and an                                     (Renault),                 (Toyota),American firm               (Ford).9
+
+   9 We also show in online Appendix Figures G.4 and G.5 that the increase in gaps is similar across weight
+quartiles.
+
+===== [PDF 第 11 页｜印刷第 382 页] =====
+382               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+             F. The Trend in the Performance Gap Is Robust to Controls
+
+  To account for various potential confounders, we next estimate the perfor-
+mance gap through a series of regressions on our microdata that take the following
+form:
+
+                                        ​d​ nij​                =  ​RELEASE ​j​ + ​FUEL ​j​ + ​MODEL ​j​ + f​(​DIST​ i​)​ 
+                                + f​(​YEAR ​n​, ​MONTH ​n​, ​AGE​ j​)​ + ​ϵ​nij​,​
+where ​RELEASE ​j​are release year           dummies, ​FUEL ​j​is a dummy for die-                                           (i.e., vintage)                                                                        is a third-order polyno-sel engines, ​MODEL ​j​are model dummy variables, ​f​(DIS​T​ i​)​
+mial in the distance per year driven by each driver  ​i​, and                                                                           ​f​(​YEAR ​n​, ​MONTH ​n​, ​AGE ​j​)​
+are time and age controls explained in more detail below.
+  We interpret the release year dummy coefficients as average measures of the per-
+formance gap for each vintage. These are our coefficients of interest. The omitted
+category is vehicles present in the first year of our data, which implies that they were
+released in 1998 or before. Our identification challenge is to separate the release
+year coefficients from other changes in the fleet over time. Table 1 and Figure 3
+show the coefficients of the release dummies for five different specifications that
+introduce different controls.10
+  Column 1 in Table 1 shows results from a regression of the ­percentage gap  ​d​ nij​
+on release year dummies without any controls. The ​R​ 2​for this model is 0 .28, which
+suggests that release years explain a considerable amount of variation given that
+the unit of observation is an individual fuel transaction.11 The regression shows a
+clear upward trend in the release year dummies. Our interpretation of this time trend
+in the performance gap is that the accuracy of official fuel consumption ratings
+declines over time due to the introduction of European fuel economy regulations.
+  We next estimate a series of alternative specifications that aim to control for other
+factors that might bias the release year coefficients. The specification in column 2
+adds our preferred controls, including model fixed effects, time of driving      the                                                                                                  (i.e.,year and month in which a fuel transaction is            fixed effects, and a poly-                                           observed)nomial in annual mileage for each driver. If some vehicle types have a bigger gap
+than others, then our time trend could reflect compositional changes. We add a fuel
+type dummy for diesel            and dummies for each model to control for                        (versus gas)
+
+
+    10 Ideally, one would like to leverage variation in the regulatory incentives across vehicles or firms to aid causal
+identification, but the features of the policy preclude several approaches. First, the regulation was announced in
+2007 and was made fully binding in 2015, which means that there is not a sudden surprise policy shock to examine.
+Second, the regulation binds for the fleet-wide average for an automaker, so automakers have common incentives to
+improve all vehicles. Moreover, the program lacks the nonlinear notches used for identification in related contexts
+    and Sallee 2018, Sallee and Slemrod 2012, Tanaka        Third, the regulation was explicitly designed with(Ito                                                 2017).a ­weight-based standard to reduce variation in compliance burdens across automakers, which sharply reduces the
+­cross-firm variation in policy impacts. Moreover, the policy allows for “joint compliance” between automakers,
+which further limits ­cross-firm variation. As a result, no firms were already in compliance, and all firms had to make
+similar improvements.
+    11 The estimate for release year 2006 is considerably less precise than other years. The Travelcard data contain a
+larger number of observations from new model releases that year, which might explain the imprecision. Regardless
+of the cause, the anomaly is eliminated once other controls are added.
+
+===== [PDF 第 12 页｜印刷第 383 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       383
+
+
+          Table 1—Release Year Fixed Effects from Regression of Performance Gap on
+                                       Controls
+
+                                            All       Controls    MbY      Age      Long
+                                              (1)          (2)          (3)          (4)         (5)
+         Constant                       11.69      13.52                                7.80
+                                            (0.66)      (0.65)                                (0.61)
+        1999                             2.00        0.53         0.52                   2.45
+                                            (1.45)      (0.88)       (0.88)                   (1.29)
+        2000                             0.32        0.75         0.75                   0.38
+                                            (0.88)      (0.72)       (0.72)                   (0.88)
+        2001                            2.329                                          2.70                                             −0.18      −0.18
+                                            (0.98)      (0.95)       (0.95)                   (1.02)
+        2002                             1.77        1.27         1.28                   1.48
+                                            (1.56)      (1.07)       (1.07)                   (1.48)
+        2003                             2.46        1.31         1.31                   1.49
+                                            (1.32)      (0.80)       (0.80)                   (1.46)
+        2004                             3.30        2.57         2.57                   1.24
+                                            (1.41)      (0.78)       (0.78)                   (1.33)
+        2005                             4.71        4.20         4.20                   3.60
+                                            (1.43)      (0.967)      (0.97)                   (1.25)
+        2006                           10.59        3.84         3.83       0.28        7.57
+                                            (5.09)      (1.09)       (1.09)      (1.03)      (4.52)
+        2007                             7.38        8.46         8.44       4.40        6.02
+                                            (1.39)      (1.04)       (1.04)      (1.07)      (1.21)
+        2008                             9.53        8.86         8.83       4.27        6.21
+                                            (1.37)      (1.00)       (1.00)      (1.08)      (1.20)
+        2009                           18.50      13.74       13.72       8.72      13.65
+                                            (2.24)      (1.41)       (1.41)      (1.72)      (1.89)
+        2010                           22.57      17.93       17.91      12.47      18.17
+                                            (2.10)      (1.44)       (1.44)      (1.54)      (2.11)
+        2011                           23.43      18.34       18.33      12.34      18.29
+                                            (1.57)      (1.13)       (1.13)      (1.39)      (1.24)
+        2012                           35.16      28.62       28.65      22.09      29.55
+                                            (2.95)      (2.09)       (2.09)      (2.31)      (2.94)
+        2013                           41.24      35.86       35.93      28.87      38.58
+                                            (1.89)      (1.66)       (1.65)      (1.96)      (1.80)
+        2014                           42.68      40.72       40.71      33.68      46.25
+                                            (2.47)      (3.50)       (3.50)      (3.66)      (3.84)
+         Year  month fixed effects                   Yes        +         Year by month fixed effects                              Yes       Yes
+         Fuel type                                  Yes        Yes       Yes
+        Model fixed effects                          Yes        Yes       Yes
+         Distance                                  Yes        Yes       Yes                  (3 orders)
+         Observations                   23.98      23.98       23.98      23.98        0.24                                         (​ × ​10​ 6​)                    ​R​ 2​                             0.281      0.400       0.401      0.401       0.35
+
+         Notes: Table reports coefficients from a regression of the performance gap     on release year                                                                                                                                                                                   (​d​ nij​)          fixed effects. The unit of observation is an individual refueling transaction. Standard errors are
+          clustered by car type in parentheses. Columns vary as follows: 1 contains all data; 2 all the data
+         with distance, year and month, fuel type, and vehicle model fixed effects; 3 adds month by year
+          fixed effects to 2; 4 adds vehicle age and constrains release fixed effects to be constant prior to
+         2006; 5 dependent variable is long difference between first and last observation for each driver
+          instead of differences between visits.
+
+===== [PDF 第 13 页｜印刷第 384 页] =====
+384               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+
+
+             60
+                      No controls
+                          Month by year
+                          Long differences
+                               Controls
+             40
+                        Age
+                                   difference
+
+
+             20                         Percent
+
+
+
+              0
+
+                 99  00   01  02  03  04  05  06  07  08  09  10   11   12  13  14
+                                         Release year
+
+
+                  Figure 3. Release Year Coefficients from Fixed Effect Regressions
+
+Notes: Figure plots coefficients from a regression of the performance gap     on release year fixed effects.                                                                                                                                                                       (​d​ nij​)Coefficients correspond to the five regressions in Table 1.
+
+
+compositional changes. In our parlance, a model is more aggregate than a vehicle  ​j​.
+For example, a Toyota Camry is a model, whereas a 2010 Toyota Camry with 2.0L
+engine is a vehicle type. Inclusion of model fixed effects isolates variation between
+engines that differ over vintages of a model.12 Year and month of driving dummies
+control for driving conditions that change seasonally or over time. These time con-
+trols account for changes in driving behavior, sample selection, and other factors
+such as fuel prices that vary over the sample period. We can separate out release
+year and time effects because we see the same vehicle driven over multiple years.
+For example, we observe both 2008 and 2009 vehicles being driven in 2010, and
+so we can estimate vintage effects       versus      while controlling for time of                             (2008      2009)driving         Finally, we control for the distance that each driver covers per year       (2010).with a third-order polynomial as a way of capturing differences in driving patterns
+across individuals. As shown in column 2 of Table 1, adding these controls has very
+little impact on the release year coefficients.
+  Column 3 shows results from a specification that includes month by year                                                                                                       (i.e.,month of       dummies rather than year and month           dummies. This        sample)                                                 (i.e., season)controls more flexibly for time effects. Again, the trend in the release year fixed
+effects is unaffected by the introduction of these richer time of driving controls. The
+point estimates are almost identical to those in the second column.
+  Our specifications above identify release year effects controlling for time period
+shocks, but an additional concern arises if fuel consumption changes with the age
+of a vehicle. In that case, we face a version of the well-known ­age-cohort-time
+identification problem        e.g., Card and Lemieux       Emissions of local air                        (see,                        2001).
+
+
+    12 Note that every engine type is given a unique fuel consumption rating. These engine types are sold until there
+is a redesign that comes with a new fuel consumption rating. The redesign does not happen yearly, so that we do not
+have the same strict “model-year” definition as in the United States.
+
+===== [PDF 第 14 页｜印刷第 385 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       385
+
+pollution are known to degrade substantially with vehicle age, but fuel economy is
+typically assumed to be stable. Even so, there could be a form of selection through
+which older vehicles are driven in different patterns or styles on average, which will
+­manifest as an age effect in our ­on-road performance data. Regardless, we would
+like to be able to control for age effects, but age fixed effects are perfectly collinear
+with release year and time fixed effects. We cannot separately identify all effects
+without some additional restriction. One approach is to assume that release year
+effects are completely flat prior to 2006 so that a single release year dummy for that
+period is included. A full set of age effects can be estimated based on that period,
+and age and time effects can both be included while still identifying the remaining
+release year effects. Column 4 of Table 1 reports results from a specification that
+does that. Results are qualitatively similar, though the magnitude of our estimated
+performance gap does change somewhat, falling from 41 percent to 34 percent as
+compared to column 3, which has the same time period controls. As discussed below,
+we provide alternative approaches of addressing age effects in the online Appendix,
+which yield qualitatively similar results to the results reported here.
+   Finally, column 5 reports results from a regression where we use long differ-
+ences to construct the fuel performance gap instead of differences between fuel sta-
+tion visits. Odometer readings are ­self-reported, and errors in the readings result in
+positive measures of the gaps. Resulting attenuation could be responsible for some
+of the estimated performance gap prior to the increase in gaming, and correlation
+between reporting errors and release years could bias our findings about the trend
+over release years. The analysis with long differences is more robust to individual
+reporting errors. The drawback is that it does not allow us to control for time of
+driving effects in the regressions. This regression shows that our findings are robust:
+we get nearly identical estimates when we use long differences, taken between the
+last and first fuel station visit for each driver.13
+   In online Appendix Table F.5, we report the coefficients for all control variables
+in the specifications reported here. In addition, we report several additional specifi-
+cations. We estimate the release year fixed effects separately for gasoline and diesel
+engines.14 We also introduce three additional methods of controlling for age. First,
+we define age as the year a license plate              of vehicle and          is first                                    (combination                driver)observed in our dataset, which differs from the release year. This controls for the
+length of time a driver has had the vehicle. In this way, we can include a full set of
+release, age, and time fixed effects because there is variation in age within release
+year and time, based on when a driver obtained a vehicle. Second, we define age in
+terms of odometer instead of calendar years and introduce the level of the odometer
+
+
+
+
+    13 Note that the measurement error in the data is an additional reason, on top of sample selection, that makes it
+difficult to interpret the level of the gap in the beginning of the sample.
+     14 If more recent vintages are more fuel efficient, consumers may respond by driving less carefully or using
+temperature controls or other equipment more often. In this case, reduced average fuel consumption rates will lead
+to an increasing gap. One might expect the same mechanism to create a significant difference in the gap between
+gasoline and diesel-powered vehicles, as diesel vehicles are about 30 percent more energy efficient. If the rebound
+effect were a major driver of the performance gap, we would expect to see a bigger gap among diesels that grows
+more quickly. We find no such pattern.
+
+===== [PDF 第 15 页｜印刷第 386 页] =====
+386               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+as a control.15 Third, we keep only observations of ​d​ nij​ that take place in the release
+year of the vehicle so that we are capturing fuel consumption gaps only among
+the newest cars. This eliminates concern about age as a confounder, but it does
+not allow us to control for time period effects. As a final robustness check, we add
+almost 20,000 fixed effects that control for the location of the fuel station for each
+transaction. Figure G.1 plots the release year coefficients for all specifications not
+included in Table 1. In every specification, we find a qualitatively similar trend in the
+performance gap by release year, with a sharp increase in the middle of the sample
+that ends with a large gap on the order of 30 to 50 percent by 2014.
+   Finally, in online Appendix Table F.6 and Figure G.2, we show the parallel results
+that measure the performance gap in levels       per 100             rather than                                                     (liters         kilometers)percentages. These regressions clearly confirm the upward trend in the gap.
+   In sum, we conclude that the increase over time in the performance gap is robust
+to changes in fuel prices or congestion over time, to composition of the fleet, to
+rebound effects, to aging or selection over time, and to bias from stockpiling or
+reporting errors.
+
+       G. Heterogeneity in the Performance Gap Does Not Rise over Time
+
+  The welfare effects of gaming that we explore in the remainder of the paper
+potentially depend on whether there is significant heterogeneity in gaming within a
+release year across vehicle types.
+  To study potential heterogeneity in gaming at the vehicle level, we need vehi-
+cle-level estimates of the performance gap. In obtaining these estimates, we want
+to take into account the underlying data quality for each vehicle, controlling for the
+large variance in reported odometer readings, and the variation in the number of driv-
+ers and visits observed for different types of cars. Therefore, we follow the teacher
+value added literature, specifically Chetty, Friedman, and Rockoff       and Kane                                                          (2014)
+and Staiger         to estimate ­on-road fuel consumption  ​r​ j​using precision weights           (2008),
+and an empirical Bayes correction. We construct a ­precision-weighted mean of   ​r​ j​
+and shrink it according to the reliability of the observations for   ​j​. Because of the
+measurement error in  ​r​ nij​, it is optimal, from a prediction standpoint, to use a biased
+but more precise estimate of each vehicle gap.16 The empirical Bayes procedure and
+accompanying variance decomposition is discussed in the online Appendix.17
+   Figure 4 plots the quartiles of the estimated Bayes corrected gaps for all release
+years as well as the standard deviation of the estimated fixed effects. Again, we see a
+clear increase in the estimated gap over time, but perhaps surprisingly, this increase
+
+
+
+    15 Note that the age dummies have surprising negative magnitudes in this regression. These can only be due to
+compositional changes within model groups because we find age trends to be flat within engine versions.
+    16 Note that this approach does not allow us to control for selection issues where drivers with different perfor-
+mance gaps select into different types of vehicles. Correlations between driving style and vehicle selection could
+influence our results, but again we emphasize our focus on changes in the performance gap over time, which mit-
+igates these concerns.
+    17 The empirical results are reported in online Appendix Table F.4. Table F.4 also includes estimates of an alter-
+native two-stage approach. The first stage is a regression of the gap on 266,000 driver by vehicle fixed effects and
+year and month controls. The second stage regresses the driver by vehicle effects on release year dummies, resulting
+in the same strong upward trend.
+
+===== [PDF 第 16 页｜印刷第 387 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       387
+
+
+
+             60                  Quartile 1          Median
+
+                                         Quartile 3        SD
+
+
+
+             40
+                                       difference
+
+
+             20                           Percent
+
+
+
+
+              0
+
+                 98  99  00  01  02  03  04  05  06  07  08  09  10  11  12  13  14
+                                         Release year
+
+
+                       Figure 4. Distribution of Vehicle-Level Fixed Effects
+
+
+
+in the gap is not associated with a large change in the dispersion of the gap. If firms
+intensively game only some of their models, we would expect a rise in average
+gaming to correspond to a greater interquartile spread or larger standard deviation
+across model types within a vintage. Figure 4 shows, however, that these measures
+of dispersion did not rise over time. Instead, the data suggest that we should think
+about gaming in the EU market as an ­industry-wide shift rather than a shift among
+select vehicles. This pattern is consistent with the underlying economics of gaming.
+Because the regulation is based on fleet averages, automakers have an incentive to
+game all of their vehicles, not just those with high consumption ratings. Moreover,
+to the extent that gaming consists largely of modifying test vehicles, the costs of
+gaming are largely a fixed cost, and it is plausible that techniques developed to game
+the test vehicle for one model line can be used for most other models.
+
+                  H. Summary of ­Reduced-Form Evidence
+
+  We conclude from this empirical section that there is very strong evidence of
+­substantial gaming of fuel consumption ratings. Depending on our estimation
+method, the performance gap between ­on-road consumption and official test ratings
+varies between 10 percent to 15 percent before regulation. By 2012, this gap had
+increased to 30 percent, and all specifications estimate a mean gap of more than
+45 percent in 2014. We have not found a single robustness check where this spectac-
+ular increase in the gap does not occur. Our findings regarding the time path of the
+performance gap are consistent with analysis performed by the International Council
+on Clean Transportation         et al. 2014, Tietge et al.          Relative to those                   (Mock                        2015).18
+
+    18 The ICCT reports results from various sources, including the data from Travelcard NV we obtained. The other
+sources include consumer ­self-reports uploaded to websites and consumer car testing magazines. The data from
+
+===== [PDF 第 17 页｜印刷第 388 页] =====
+388               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+reports, we demonstrate robustness to the inclusion of various controls       nota-                                                              (mostbly time period fixed         include standard errors, develop an empirical Bayes                        effects),correction for sampling error, and calculate the ­distribution of the ­vehicle-level per-
+formance gap. Regarding the latter, this yields the striking and perhaps surprising
+finding that the gap is increasing for all vehicles and brands in the sample, so that the
+distribution of the gap is shifting, but the shape is relatively constant.
+  We see the decrease in the correlation between official and ­on-road ratings at
+a time when stakes on official ratings increase as a manifestation of Goodhart’s
+Law—once policy incentives were loaded onto the fuel economy test results, those
+test results became a less reliable measure of actual fuel economy performance. In
+the remainder of the paper, we interpret this time trend as evidence that automak-
+ers gamed official ratings in response to new regulations. We recognize that this
+evidence is suggestive, but we cannot think of any plausible alternative explana-
+tion.19 While the EU commission has released an external evaluation of the emis-
+sion standard, the official ratings are still the basis for the evaluation of the program
+and external communications about the program’s impact.20 Analysts who perform
+­cost-benefit analyses of the regulation may significantly ­misevaluate the program if
+they calculate savings based on official ratings.
+  We now turn our attention to our main economic question—who benefits from
+this gaming? Carmakers game the official rating to avoid stringent regulation, low-
+ering compliance costs of the carmakers. Buyers will benefit from gaming to the
+extent these cost savings are passed through. But these official ratings are also used
+by buyers when deciding what vehicle to buy. We explore these competing forces
+first with a model and then with a calibrated market simulation.
+
+                                          II.  A Model of Gaming
+
+  The goal of our model is to describe the impact of gaming on buyer welfare,
+­taking into account how prices will depend on gaming, the presence of a policy, and
+the degree to which buyers are fooled by the gaming.
+
+                               A. Setup
+
+  We model the market for a good that has a mutable attribute  ​x​ that generates
+private value to buyers and also creates a social externality. In the automobile
+example,  ​x​ is the vehicle’s fuel consumption rating. The full cost of the good is
+denoted  ​f           where ​p​ is the ­up-front purchase price and    is a coefficient        =  p + β x​,                                                                  ​β​that translates fuel consumption ratings into dollars. Note that  ​x​ is a bad. For a
+vehicle, ​x​ is the             rating, and    is the price of fuel per liter, inclusive of              L /100km                   ​β​
+
+
+Travelcard are by far the most extensive in terms of number of vehicles and drivers included, but it is reassuring that
+all data in the ICCT reports point to very similar results.
+                 shows ­quasi-experimental evidence on fuel consumption gaming in Japan. The Japanese stan-    19 Tanaka (2017)dard specifies discrete notches rather than a ­sales-weighted average as in our case, allowing for a comparison in
+gaps below and above a notch. Similarly, the first paper to show manipulation of fuel economy ratings in response
+to incentives uses tax notches to identify manipulation       and Slemrod                                                       (Sallee             2012).    20 See for example http://ec.europa.eu/clima/policies/transport/vehicles/cars, read on September 13, 2016.
+
+===== [PDF 第 18 页｜印刷第 389 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       389
+
+any taxes   times the number of present discounted lifetime kilometers driven  ​k​:                        ​τ​,                  This tax-inclusive interpretation allows us to later compare the​β  =  ​( ​p​ f​ + τ)​ × k​.effects of a fuel tax versus a regulation without complicating notation.
+  We suppose that the good is sold by a monopoly seller. For simplicity, we assume
+that all attributes of a good are fixed other than ​x​ and ​p​; this can be interpreted as a
+­short-run assumption.
+  Buyers do not observe ​x​ directly but instead receive a message ​m​ from the seller
+     the official fuel consumption rating that appears on       Gaming occurs(i.e.,                                                            labels).when the seller sends a message ​m​that differs from ​x​, where gaming ​g​is defined as
+the difference between the true attribute and the message            Under full                                                                                   (​g  =  x − m​).information, buyer demand ​D​for the product depends on its various attributes                                                                           (heldfixed and thus suppressed in         and lifetime cost, which depends on ​x​ and ​p​:                             notation)                    Buyers, however, observe ​m​ not  ​x​, so they use the observed​D​( f )​  =  D​(p + β x)​.signal to form beliefs, labeled  where         We assume risk neutrality.                                                                                                                           ​x ̃ ​,                                ​f ̃ ​  =  p + β ​x ̃ ​.  Buyer beliefs  are assumed to be a weighted average of the truth and the signal:                                                          ​x ̃ ​
+                                                                         ​x ̃ ​t​  =  αx + ​(1 − α)​(x − g)​  =  x − ​(1 − α)​g.​
+
+This is a tractable form of beliefs that encompasses a variety of possibilities.
+When          1​, buyers can see through gaming completely. When           0​, buyers are         ​α  =                                                                        ​α  = completely fooled. For intermediate cases,          represents the extent to which                                            ​(1 − α)​the buyer is fooled by gaming.21 The key for our purpose is that we want to allow the
+possibility that firms might fool buyers, at least to some degree. This specification
+is appealing in part because, for all of our results, we will be able to see how effects
+differ when buyers are not fooled just by setting          1​. When buyers are not fooled                                                                ​α  = at all, firms may nevertheless still choose to game in response to the policy incen-
+tives we describe below.
+  Changing  ​x​ or  ​g​ incurs a cost. We assume that these costs are separable and
+that changing  ​x​ determines marginal cost, while changing  ​g​ incurs a fixed cost.
+These assumptions about cost, which are convenient but not essential, are made in
+line with the market we study. Gaming is reported to be achieved largely through
+manipulation of the test vehicle, while real fuel consumption improvements require
+marginal costs.
+  We write the marginal cost of production for a product as     which is decreas-                                                                                             ​c​(x)​,
+ing    is a     and convex            0​,        The cost of gaming is denoted      (​x​    bad)                    (​c′  <      ​c″  >  0​).                                              ​h​(g)​,which is increasing and convex        0,        The cost of gaming can include                                                 (​h′  >    h″  >  0​).both real resource costs      engineering costs to game the     and the risk of                             (e.g.,                                     test)regulatory penalty.
+   Policy intervention is motivated by a negative externality associated with   ​x​,
+which we assume is linear and equal to    The regulator observes  ​m​, so policy                                                                 ​ϕx​.must be based on  ​m​. In line with our empirical application, we focus on a fuel
+economy regulation that requires that the             attribute be below a ­threshold                                          (reported)              We  will  use     to  denote  the  shadow  price  of  the​σ​: ​m  =  x − g  ≤  σ​.                          ​λ​
+
+    21 Below, we discuss in detail the information about fuel consumption and gaming available to buyers in our
+empirical setting; see Section IIIA.
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+（未编号，信念设定）  g=x-m,\qquad \tilde x_t=\alpha x+(1-\alpha)(x-g)=x-(1-\alpha)g
+    核对方式：本轮看图（放大核对）；说明：x 为真实油耗（坏属性），m 为卖方发出的信息即官方标称值，g 为博弈（gaming）量。\alpha=1 时买方完全识破，\alpha=0 时完全被骗。原页式中写作 \tilde x_t（带下标 t），正文称 \tilde x，下标疑为排印残留。其前：\beta=(p_f+\tau)\times k，全信息需求 D(f)=D(p+\beta x)，感知 \tilde f=p+\beta\tilde x；成本 c(x) 满足 c'<0,c''>0，博弈成本 h(g) 满足 h'>0,h''>0；规制 m=x-g\le\sigma
+----- 【公式校正结束】 -----
+
+===== [PDF 第 19 页｜印刷第 390 页] =====
+390               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+­regulation per unit;  i.e., the constraint on the firm’s profit function is written
+              We later compare this to a tax on fuel, which can be modeled​λ × ​(σ − x + g)​ × D​.as just a shift in   which is ­tax inclusive.                                ​β​,
+
+                       B. Summary of Seller Behavior
+
+  The monopoly seller chooses  ​p​,  ​x​, and ​g​ to maximize profits given the demand
+system, the degree of buyer sophistication, and policy interventions. The firm’s
+Lagrangian is
+(3)     ​  =  ​(p − c​(x)​ + λ​(σ − x + g)​)​D​(p + β x − ​(1 − α)​β g)​ − h​(g)​.​
+
+What values will the seller choose? Price will be chosen according to the standard
+optimal markup formula for a monopolist that equates marginal revenue and mar-
+ginal cost per unit sold       the ­profit-maximizing ​x​and                      (given                                                    ​g​).  The choice of ​x​ depends directly on policy. Absent policy           the seller                                                                                    (​λ  =  0​),will choose ​x​ so that            which is privately efficient.22 The seller low-                               ​− c′​(x)​  =  β​,ers  ​x​ until the marginal cost of doing so equals the marginal value of increased
+energy efficiency to the buyer. The seller makes this privately efficient investment
+because any improvement in energy efficiency that is cost effective allows them to
+raise prices.
+  When there is a binding policy, the seller will choose ​x​to solve                                                                                             ​− c′​(x)​  =  β + λ​.This is the standard “internalization” of the externality suggested by the Pigouvian
+tradition. If there were perfect compliance and there was no distortion to quantities
+sold due to market power, then the ­first-best solution would be obtained by setting                                                                                                                       ​σ​so that          ​λ  =  ϕ​.  The seller’s choice of gaming will depend on the cost function       Specifically,                                                                                               ​h​(g)​.
+the  seller’s  choice  will  satisfy                                        This                                                      ​h′​(g)​  =  λD − ​(p − c + λ)​(1 − α)​βD′​.equates the marginal cost of gaming to the marginal benefit, which includes a
+­regulatory benefit      and a benefit from shifting out demand, which is equal to                      (​λD​)the markup             times the shift in demand due to gaming            ​(p − c + λ)​                                             ​(1 − α)​βD′​.   In sum, firms have two benefits from gaming. If consumers are fooled     least                                                                                   (at        then gaming increases demand. Even if consumers are completely awarepartly),of gaming, if there is a policy, firms may game in order to minimize compliance
+costs.23
+
+                       C. Note on Model Assumptions
+
+  We model a ­single-product setting for tractability and clarity. The main drawback
+to this is that it does not directly represent compliance that occurs through mix
+shifting—that is, shifting sales toward high-efficiency models in order to meet a
+
+
+
+                                                                         Substituting in the optimal markup from    22 The ­first-order condition for ​x​ is ​0  =  − c′​(x)​D + ​( p − c​(x)​)​βD′​.
+the ­first-order condition for price                         yields the result.                                           ( ​p − c​(x)​  =  − D / D′​ )    23 The performance gap in early years of our sample is consistent with gaming to fool consumers, but it is also
+possible that the test is simply not well calibrated to measure typical driving patterns in the Netherlands.
+
+===== [PDF 第 20 页｜印刷第 391 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       391
+
+fleet-wide average rating—which is the focus of our simulations. The impact of mix
+shifting will manifest as a set of price wedges for vehicles that operates similarly to
+the cost wedge modeled here.
+  Our model assumes that consumers properly value fuel economy  ​x​, even if they
+are unaware of gaming  A literature on the energy efficiency gap debates whether                                          ​α​.consumers might undervalue fuel economy. If they do, then the regulation fixes an
+“internality” and improves private buyer surplus. In this scenario, gaming will not
+have a beneficial price effect. We demonstrate this in our simulation results below.
+  We model a representative buyer, but if buyers differ in their    additional stra-                                                                                                                     ​α​,tegic considerations might come into play. For example, if relatively naïve buyers
+are also more price sensitive, then gaming could draw more price-sensitive buyers
+into the market, which might put downward pressure on prices, thereby benefiting
+inframarginal, sophisticated buyers. On the other hand, with buyer heterogeneity of
+this sort and multiple products, a seller might use gaming to differentiate products to
+screen buyer types and achieve second-degree price discrimination.
+   In addition, we assume that the costs of gaming are strictly fixed costs, but it is
+possible that they scale with sales, either because of production costs or regulatory
+risk     because legal penalties scale with        In such a model, the same key      (i.e.,                                       sales).forces that we identify will still be at work, but the formula would presumably be
+different.
+   Finally, regulatory penalties might depend on whether an individual firm games
+significantly more than the rest of industry, as a regulator may find it impractical to
+levy punitive damages on the whole industry simultaneously. For example, in the
+Volkswagen diesel case in the United States, regulators forced quick removal of
+­noncompliant vehicles from the market. Had the problem affected a majority of new
+vehicles, it is not plausible to imagine the same penalty. We suspect that part of the
+evolution of gaming was enabled by firms feeling insulated from penalty by their
+competitors’ behavior, but this interaction is not present in our monopoly model.
+
+              D. Absent Policy, Gaming Lowers Buyer Surplus
+
+  Our main interest is in establishing how gaming affects buyer welfare in this
+setting. We show how the firm alters its choice of ​p​ and ​x​ for any given level of  ​g​,
+which allows us to then characterize buyer surplus. The optimal degree of gaming
+will depend on the regulatory punishment function, so this exercise can be thought
+of as examining how shifts in the punishment function that alter the equilibrium ​g​
+will influence buyer surplus.
+   In our analysis, we focus on buyer surplus rather than full social welfare because
+we believe it is the incidence of gaming about which there is an interesting theo-
+retical question. If the policy is set optimally, gaming obviously lowers total social
+welfare once buyer surplus, seller surplus, and the externality are taken into account.
+This is true by definition. Accordingly, we use the term “buyer surplus” to denote
+the private benefits, abstracting from the externality, rather than the more encom-
+passing term of consumer surplus.
+  Our first proposition shows that when there are no corrective policies, an increase
+in gaming hurts buyers.     proofs are in online Appendix                        (All                            D.)
+
+===== [PDF 第 21 页｜印刷第 392 页] =====
+392               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+PROPOSITION 1: In the absence of a binding policy          buyer surplus falls                                                                        (​λ  =  0​),with the level of gaming. Specifically,
+
+      _ ​ dBS            ​                ​     ​       0 .​                      dg ​  ≈  − ​ ρ​(1 − α)​βD  ​ ​ +  ​ ​(1 − α)​ 2​ ​β​ 2​D′g  ​ ≤ 
+                                          price effect           choice distortion
+
+  The effect of gaming on buyer surplus has two components. The first is a price
+effect. Gaming lowers perceived fuel costs of the product, which shifts out demand
+by the perceived reduction in full price, equal to            The seller responds                                                         ​− ​(1 − α)​β​.24to this demand shift by raising prices. How much prices rise depends on the
+­pass-through rate, which we denote    The pass-through rate is typically used to                                                        ​ρ​.25describe how the burden of a tax is shared between buyers and sellers. An increase
+in gaming affects a shift in perceived demand that functions exactly like a tax to
+buyers, hence the analogy. This price effect is unambiguously bad for buyer surplus
+because the shift out in demand was a mistake—the buyer still has to pay the true
+operating cost of the vehicle, which is unchanged, but the seller has taken advantage
+of the mistake to raise prices.
+  The second effect on buyers of gaming is what we call the choice distortion.
+The buyer misperceives the true full cost  ​f​ of the product due to gaming and thus
+purchases too much of the good given its true ownership cost. This misoptimi-
+zation creates deadweight loss that is directly analogous to a Harberger triangle.
+Its width is the difference in demand, at the final price, induced by the gaming:
+                                                 Its height is the perceived gap in fuel cost​D​( p + βx − ​(1 − α)​βg)​ − D​(p + β x)​.induced by gaming:          The term that appears in Proposition 1 is the deriv-                          ​(1 − α )​β g​.ative of this distortionary triangle. It is zero when ​g       0​; it is rising with the square                                        = of the distortionary wedge; and it is larger when demand is more elastic.
+  Both the price effect and the choice distortion unambiguously hurt buyers who
+are fooled by gaming. The perceived improvement in the product causes sellers
+to raise prices, and the buyers buy too much of the good. When buyers are fully
+sophisticated         gaming causes no change in buyer surplus; both terms go                  (​α  =  1​),to zero. Both effects are larger when the degree of misperception           is larger.                                                                   ​(1 − α)​The price effect scales with the level of demand. The choice distortion scales with
+the slope of demand.
+
+             E. With a Regulation, Gaming Can Raise Buyer Surplus
+
+  Now suppose that there is a binding regulation          Proposition 2 shows that                                                                 (​λ  >  0​).the regulation                 flips the sign of the price effect, so that buyers may in               (potentially)fact benefit from gaming, even when they are fooled by it.
+
+
+
+    24 Note that gaming does not affect the choice of ​x​, which satisfies ​− c′​(x)​  =  β​.                                                       where                                                                                          is the elasticity of demand ​D​, supply ​S​,    25 For a monopoly seller, ​ρ  =  ​(1 + ​(​ϵ​D​ − 1)​ / ​ϵ​S​ + 1 / ​ϵ​ms​)​ −1​,                                                                                                                       ​ϵ​and the inverse of the marginal surplus curve ​ms​. Under another form of competition, the price effect will have the
+same formula, but the ­pass-through rate will have a different functional form      and Fabinger                                                               (Weyl             2013).
+
+===== [PDF 第 22 页｜印刷第 393 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       393
+
+PROPOSITION 2: In the presence of a binding standard         a change in                                                                                 (​λ  >  0​),gaming affects buyer surplus as follows:
+
+      _ ​ dBS       ​                  ​    ​.​                      dg ​  ≈  ​ ​(− ρ​(c′ − αβ)​ − β)​D  ​ ​ + ​ ​(1 − α)​ 2​ ​β​ 2​D′g  ​ 
+                                             price effect                choice distortion
+
+As in the case with no regulation, the effect of gaming on buyer surplus includes a
+price effect and a choice distortion. The choice distortion formula is not affected by
+the policy; it is the same as in Proposition 1 and is unambiguously negative                                                                       (lowersbuyer      surplus).  The price effect, however, is significantly altered by the ­externality-correcting
+regulation and may be positive. Gaming causes three effects that determine the full
+price            First, the seller will use an increase in ​g​to reduce ​x​under a binding       ( ​p + βx​).standard        ​dx     dg​ because         when the standard        This raises            (i.e.,   =                   ​σ  =  x − g​                   binds).the true full cost of ownership by     per unit sold. Second, true cost of produc-                                           ​− β​tion falls by amount     Some of this cost savings—equal to         be passed                                        ​c ′ ​(x)​.                                        ​ρc′​—willthrough to buyers via a reduction in ​p​. Third, buyers will perceive a change in oper-
+ating cost. This shifts in demand, and the seller will adjust ​p​accordingly in reaction
+to the perceived operating cost increase. Specifically, with ​dx      dg​, the buyer will                                                 = perceive an operating cost change of             0​, of which      will be finally borne                                          ​αβ  >              ​ραβ​by buyers.
+  The sign of the full price effect is ambiguous. The term                  is posi-                                                                   ​− ρ​(c′ − αβ)​tive    raises buyer          but it may or may not be larger than the rise in true      (it              surplus),costs        to    which lowers buyer surplus. When the price effect is positive      (equal      ​β​),                      it may be larger than the negative choice distortion, so that gam-(buyers gain),ing benefits buyers. Intuitively, the benefit to buyers of gaming comes because
+the seller experiences a cost reduction when they avoid the costly regulation. By
+definition of a binding standard, the standard forces ​x​ to move away from the pri-
+vately efficient level, so gaming provides a private welfare gain by allowing the
+seller to move back toward that level. Even if buyers are unaware of the firm’s
+gaming, they will enjoy some of the cost savings due to standard pass-through
+forces.
+   Several key comparative statics that we return to in our simulation analysis are
+apparent from Proposition 2. Empirically, we are particularly interested in establish-
+ing conditions under which buyers are likely to benefit from gaming. Factors that
+influence this outcome include the following:
+
+     More sophisticated           buyers gain more    lose     from gaming.    (i)                    (higher ​α​)                   (or      less)
+
+       Tighter standards        negative    imply larger buyer gains     smaller   (ii)                 (more                        ​c′ ​)                            (or            from price effects.       losses)
+
+     More gaming           implies smaller gains    larger  (iii)               (higher ​g​)                       (or       losses).
+
+  On the first point, more sophisticated buyers experience smaller choice distor-
+tions, and they will also get more favorable price effects.
+
+===== [PDF 第 23 页｜印刷第 394 页] =====
+394               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+  On the second point, for a given amount of gaming, price effects get more posi-
+tive            to        under a tighter standard because gaming creates a larger    (favorable   buyers)cost savings. By assumption of the convexity of  ​c​, a tighter standard will push the
+marginal cost   to be larger              Gaming, which effectively relaxes the                               ​c ′​          (more negative).standard, therefore has a larger cost savings and subsequently a larger buyer price
+effect. For a sufficiently tight standard, the price effect will always be positive. This
+is true even if buyers are fully unaware of gaming.
+  On the third point, for a given standard, the shadow price of the regulation is fall-
+ing as gaming increases by concavity of the profit function. In contrast, the choice
+distortion is rising in gaming because the total choice distortion is a function of the
+square of ​g​.
+  To recap, under a binding standard, gaming induces a price effect of ambiguous
+sign and a choice distortion that lowers buyer surplus. When choice distortions are
+sufficiently small, positive price effects can dominate so that increases in gaming
+raise buyer surplus, even when the buyers are fooled by the gaming. In the final part
+of the paper, we conduct calibrated simulations of the European vehicle market to
+show that it is indeed likely that car buyers experienced net benefits from gaming,
+even if they were completely fooled by it.
+
+                  F. With a Fuel Tax, Gaming Lowers Buyer Surplus
+
+  A large literature compares the efficiency of fuel economy regulations to taxes on
+fuel     a review, see Anderson and Sallee       Because   is tax inclusive, if the     (for                                2016).              ​β​planner uses a fuel tax instead of a fuel economy regulation to address the externali-
+ties related to ​x​, the impact of gaming on buyer surplus is identical to the expression
+in Proposition 1—changing the tax just shifts   Gaming does not help the buyer                                                                                             ​β​.avoid the fuel tax   so it provides them no benefits.                                          ​τ​,  Normally, the statutory incidence of a tax is irrelevant to its ultimate economic
+incidence; i.e., it does not matter if a retail sales tax is levied on buyers or sellers.
+But this irrelevance need not hold when there are opportunities for avoiding or
+evading the tax          2008, Kopczuk et al.      Our result here is a mani-              (Slemrod                     2016).festation of this same result. In our model, a regulation   creates a shadow price                                                                                  ​σ​                                  ​λ​that corrects the externality associated with ​x​. A tax  does exactly the same thing.                                                                                            ​τ​If there were no evasion, the two policies would be identical whenever        but                                                                                                                            ​τ  =  λ​,gaming offers an opportunity to avoid a regulation but not a fuel tax, which breaks
+the symmetry and provides an enforcement rationale for preferring the tax over a
+regulation.
+
+              G. The Environmental Consequences of Gaming
+
+   Theoretically, we are focused on the question of the incidence of gaming, but it
+is worth returning now to a discussion of the externality. The environmental impact
+of gaming depends upon the degree to which the planner adjusts policy to account
+for gaming as well as the magnitude of what we call the mechanical and market size
+effects. For a given standard, gaming has a mechanical effect on pollution—­gaming
+substitutes one for one for emissions reductions. Less obvious is the potential ­market
+
+===== [PDF 第 24 页｜印刷第 395 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       395
+
+size effect. If buyers are fooled by gaming, then gaming may lower the perceived
+price, and the total market size will increase, which also increases pollution.26
+  This market size effect means that on net, the introduction of a policy could
+increase pollution. For example, let  ​x​ b​ be the equilibrium attribute absent policy.
+A planner introduces a binding standard                 ​x​ b​. Suppose that the firm complies                                                             ​σ  < exclusively through gaming. If buyers are partially naïve, they will perceive an
+improvement in the product. The net effect will be a perceived price reduction com-
+pared to the baseline, which leads to larger total demand than in the ­pre-policy base-
+line. Because the true attribute is unchanged from the baseline, the market expansion
+implies an unambiguous total increase in pollution caused by the policy. The final
+impact on emissions depends on general equilibrium factors that are hard to predict.
+In a mature automobile market, an increase in new sales may lead primarily to a
+reduction in use of old vehicles. Vehicle retirement, however, might involve old cars
+being exported to ­lower-income markets.
+  Moreover, it is highly concerning for international climate negotiations that are
+structured like the Paris Accord, under which there may be considerable pressure for
+individual nations to deliver carbon reductions “on paper” that they do not actually
+wish to enforce. If lax enforcement leads to inflating energy efficiency statistics that
+partially fool buyers into perceiving cheaper durable goods, then this could act to
+raise total emissions.
+  Suppose instead that a regulator really does wish to lower emissions and is aware
+of gaming. If both the planner and buyers are aware of the degree of gaming, then
+the planner can simply ratchet down the standard to achieve the true desired level of
+emissions, accounting for gaming. In this case, gaming will still occur, but there is
+no choice distortion, and the only inefficiency comes from resources spent to game,
+embodied in     To the extent that these are real resource costs, this is a social                    ​h​(g)​.
+waste, but much of    may represent regulatory risk.                         ​h​(g)​
+  More interesting then is the case when the planner is aware of gaming but buyers
+have less than perfect sophistication          In this case, the regulator can ratchet                                               (​α  <  1​).down the standard in order to achieve the desired level of pollution. But following
+the logic of Goodhart’s Law, where tighter standards induce more gaming, tighter
+policies will induce a larger choice distortion. The choice distortion raises the social
+marginal cost of abating pollution, which will lead the regulator to attenuate the
+­second-best policy away from the Pigouvian benchmark, under which the standard
+is tightened until   equals marginal damages per unit of ​x​.                         ​λ​
+
+                           III.  Calibration of the Incidence of Gaming
+
+  To quantify the effects of gaming, we estimate a discrete choice model for new
+vehicles in order to obtain the taste parameters of consumers. We show that there is
+a direct analog to the choice distortion and price effects identified by our theory that
+can be decomposed from the standard ­log-sum welfare formula for discrete choice
+models. Given this decomposition and the estimated taste parameters, we calibrate
+
+
+    26 Note that in the presence of market power, pollution increases due to an expansion of the market may not be
+welfare decreasing, in the spirit of Buchanan                                           (1969).
+
+===== [PDF 第 25 页｜印刷第 396 页] =====
+396               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+outcomes under various assumptions about consumer awareness, policy stringency,
+and the degree of gaming. This allows us to show comparative statics that illus-
+trate how the incidence of gaming depends on key parameters. We use parameters
+informed by the actual market context, but we stress that we show results for a range
+of parameters to illustrate how the incidence of gaming depends on these values.
+  Our theory describes a monopolist, but our simulation is broader and considers
+a ­multifirm, ­multiproduct setting. The main insights regarding the price effects are
+similar in either case, but with multiple products the choice distortion comes both
+from switches between products and from changes in the overall size of the market,
+that is, from the outside good. The final step of our simulation relates to competition
+and gaming. We show that regulation increases pressure on firms to game in this
+setting.
+
+                     A. Setup and Parameter Choice
+
+  Buyer Preferences.—We begin by modeling a consumer making a discrete choice
+about which vehicle to buy. Each consumer ​i​chooses the vehicle that maximizes her
+indirect utility, which we write as
+
+                                                           ​u​ ij​                    =  ​Δ​j​ ​γ​i​ − η ​p​ j​ + ​β​i​(​κ​j​ × ​x​ j​)​ + ​ξ​j​ + ​ε​ij​ ,​
+where     is a vector of vehicle characteristics;  ​p​ j​ is price divided by income; and           ​Δ​j​         is the operating cost of the vehicle for driver  ​i​, measured as fuel ­consumption​κ​j​ × ​x​ j​­transformed into euros per kilometer using fuel prices      Utility from the outside                                                                                                ​κ​j​.27
+good     buying a new            is normalized to zero,  ​u​ i0​      We ­estimate a      (not               vehicle)                      =  ​ε​i0​.random coefficient logit model and assume that   and    are ­independently nor-                                                                                                   ​β​i​          ​γ​i​mally distributed. We estimate the mean and standard deviation of   and    All                                                                                                                                          ​β​i​            ​γ​i​.remaining consumer heterogeneity is contained in the additive idiosyncratic error
+term     The   term represents the value of product attributes unobserved by           ​ε​ij​.28             ​ξ​j​the researcher but observed by firms and consumers. Following Berry, Levinsohn,
+and Pakes      we integrate out   to construct choice probabilities. After invert-          (1995),                                     ​ε​ij​ing the choice probabilities to obtain   we use a generalized method of moments                                                                                                        ​ξ​j​,estimator to estimate the vector of taste parameters.
+  Our dataset, a panel containing sales, prices, and characteristics for all new vehi-
+cle sales in seven European countries between ­1998 and 2011, allows us to estimate
+a rich demand model with flexible cross-price elasticities. We only use data from
+before 2008 to estimate demand so that our estimates come from a period in which
+the ­performance gap was stable. We thus assume variation in  ​x​ j​is informative about
+
+
+                                                                            captures the willingness to pay for    27 Notice there is a slight change of notation relative to the theory: here ​β​fuel costs, while in the theory   captures both the willingness to pay for fuel cost as well as the rescaling of fuel                                              ​β​consumption into money. In the demand estimation, we rescale fuel costs using observed fuel prices                                                                                                                                                                                                                                            ​κ​j​.   28 We estimate the model with aggregated country-level market shares and have no information on ­individual
+household incomes. Our model therefore does not allow us to study the distributional impacts of gaming. Related,
+we only estimate diagonal elements in the preference variance ­covariance matrix and assume that there is no correla-
+tion between preferences for different attributes. We thus do not capture any correlation between price ­elasticities,
+fuel economy valuation, or awareness of gaming    which means that strategic behavior based on heterogeneity                                                                          (​α​),in those parameters is absent from our simulations.
+
+===== [PDF 第 26 页｜印刷第 397 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       397
+
+actual fuel cost differences. Note that we assume that consumers have on average a
+correct belief about future fuel costs before gaming is introduced.29 Estimated taste
+parameters and standard errors are reported in online Appendix Table F.7. Price and
+fuel costs have the expected negative effect on utility. The mean of the estimated
+own price elasticities is         in line with the previous literature. We find that                      −5.45,cross-price elasticities are higher for vehicles with similar fuel consumption and that
+the outside good is a stronger substitute for low fuel consumption vehicles. In the
+online Appendix, we detail the estimation, and we summarize substitution patterns
+in Table F.8.
+
+   Profits.—In the empirical analysis, we consider the impact of gaming with and
+without policy. The Lagrangian that the firm faces is equivalent to the one defined
+in     but firms optimize profits, taking the products in their portfolio as given.   (3),Firms thus maximize profits by choosing price     the vehicles they           tak-                                                 (for                 produce),ing ­levels of ​x​as given:
+
+                                                           subject to        ​max​ p​               ​ ​ ∑ j∈F​ ​[​(​p​ j​ − ​c​ j​)​ ​q​ j​(p, g)​]​                                                                                                 j∈F​ ​q​ j​ ⋅ ​(​x​ j​ − ​g​ j​)​/ ​ ∑ ​ ∑                               j∈F​ ​q​ j​  =  σ​,
+in which F is the set of products a firm produces and ​q​ j​is quantity demanded, which
+depends on the full vectors of prices and gaming. Marginal costs  ​c​ j​are not observed
+in the data. Because we estimate demand in a period where there is no regulation,
+we are able to back out marginal costs from the unconstrained first-order conditions.
+Given these marginal costs and estimated preferences, we solve for new equilibrium
+prices with different levels of ​g​and   as we explain now.30                                                     ​σ​  The policy, as stated in the constraint, is a requirement for each firm to decrease
+its ­sales-weighted emissions and mimics the EU policy.31 When there is a binding
+policy, selling polluting products makes it harder for the firm to comply. Firms thus
+must adjust their price schedules or make costly adjustments to vehicle fuel con-
+sumption in order to reach the target. When we introduce gaming, these changes will
+be lowered because gaming makes the constraint less binding   lowers the policy                                                                                  (itwedge   Gaming also affects demand and optimal prices directly when consumers            ​λ​).are at least partly fooled because demand shifts out in response to perceived higher
+quality.
+
+   Policy Target and Compliance.—We model the policy as a requirement for each
+firm to decrease its ­sales-weighted emissions by 5 percent. This 5 percent is a lim-
+ited decrease, but it mimics a situation in which firms can potentially comply with-
+out changing characteristics of vehicles. We model honest compliance in two ways.
+First, we consider sales mixing: firms comply by changing prices to tilt demand
+
+
+     29 If there were undervaluation of fuel costs, gaming could mitigate internality costs as described in Allcott
+and Wozny       and as modeled in Allcott and Taubinsky          (2014)                                       (2015).    30 Note that prices and estimated marginal costs vary across markets because we assume each consumer to shop
+in her own country. In the simulation, we will use a single market: the Netherlands in 2007.
+   31 We use the actual formula used by the EU in its emission standard so that the policy is based on vehicle
+weight. For each firm, we compute a sales-weighted average emission rate, with emissions for heavier         cars                                                                                                             (lighter)receiving a bonus           in the weighted sum. Specifically, the emissions rating of each vehicle ​j​in the weighted                  (penalty)sum receives a penalty of                        where weight is measured in kilograms.                                ​0.046 × ​(​weight​  j​ − 1,370)​,
+
+===== [PDF 第 27 页｜印刷第 398 页] =====
+398               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+toward efficient vehicles so as to raise their fleet average until compliant. This com-
+pliance channel raises median prices by €1,860, a substantial amount. To justify a
+policy with these compliance costs, the social cost of carbon would need to be €286
+per ton, which exceeds conventional estimates.
+  Second, we consider the addition of fuel-saving technologies that raise mar-
+ginal costs. In this version, we do not solve a compliance optimization problem but
+instead simply add technologies to all models for a firm until they achieve com-
+pliance. Technology increases marginal costs, which raises prices in equilibrium.
+We take the marginal cost of fuel consumption improvements from a regulatory
+document based on engineering estimates conducted by the EU in studying the
+policy           Fraga, and Verbeek       Technology costs from this study are      (Smokers,                   2011).lower than private net present benefits from fuel savings. This is typical of engi-
+neering estimates of energy efficiency, which has given rise to a contentious debate
+around what is known as the energy efficiency gap      and Stavins 1994, Allcott                                                      (Jaffeand Greenstone               2012).  We use the engineering costs in three scenarios inspired by interpretations of the
+energy efficiency gap. In the first scenario, we take the engineering cost function
+at face value, even though the marginal costs changes needed to obtain a 5 ­percent
+improvement are very low. In this case, the policy will be welfare enhancing: fuel
+consumption improvements are cheaper than buyer willingness to pay for these
+improvements. This is consistent with an interpretation of the energy efficiency gap
+that says there is an additional market failure and the policy corrects this failure.
+We stress that in contrast to our model, gaming will not improve buyer welfare in
+this case because the regulation is raising private buyer surplus. Many argue that
+the energy efficiency gap is an artifact of hidden costs and optimistic engineering
+estimates. In our second scenario, we shift up the intercept of the cost function
+until marginal improvements in fuel consumption are equal to buyer willingness to
+pay for the improvements. In this scenario, there is thus no scope for the policy to
+increase private surplus. In our third scenario, rather than shifting the intercept, we
+pick the point on the cost curve that equates marginal cost and marginal private ben-
+efits and assume that additional improvements must move up the curve from there.
+  We model separate scenarios that feature these two compliance strategies, which
+is consistent with our goal of exploring the quantitative significance of the channels
+impacting the incidence of gaming identified in our theory. A full welfare accounting
+would account for the optimal mix of those strategies as well as attend to changes
+in fixed costs and vehicle redesign that we cannot identify in our model.32 In terms
+of establishing how gaming affects buyers, as long as compliance strategies raise
+the net private cost of vehicles, either directly or through implicit price wedges, the
+basic insights of our model will follow, though the quantitative values will generally
+depend on what compliance options are available to firms. As we show below, if the
+regulation is privately beneficial because of another market failure, then our results
+change qualitatively.
+
+
+
+                                                                                              Leard, Linn,    32 For research indicating the importance of attribute changes, see Klier and Linn (2012);and Springel        See Reynaert                for a comparison of the welfare effects of different abatement             (2019).              (forthcoming)strategies.
+
+===== [PDF 第 28 页｜印刷第 399 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       399
+
+   Level of Gaming.—We model 5 percent gaming as a way to describe what the
+effects are of gaming when it completely offsets the policy. When we introduce
+gaming, firms that game can meet the policy requirement without a sales shift. In
+our simulations, we also show what happens to buyer welfare when gaming is lower
+or higher than the policy target. Consistent with media coverage of the EU case, our
+procedure assumes that gaming is a fixed cost: it does not shift the marginal costs of
+the products. Buyers will perceive fuel costs as lower so that demand shifts out and
+prices increase. The market equilibrium will thus change to the extent that consumer
+demand, and hence prices and quantities, shifts in response to gaming. Our proce-
+dure estimates the equilibrium prices and market shares for different levels of gam-
+ing, but it does not attempt to describe the optimal amount of gaming     would                                                                               (thisrequire information on the costs of          Rather, our goal is to use our demand                                gaming).system estimates to determine whether or not the price effects from gaming could
+plausibly dominate the choice distortion, leading to increases in consumer welfare
+even when consumers are naïve, and how to show how results hinge on the existence
+of a ­policy. This quantifies the main insights from our theory.
+
+  Consumer Awareness.—A crucial parameter is consumer awareness   When                                                                                                                                     ​α​.consumers are fully aware of gaming, our model collapses to a simple setting where
+regulatory avoidance benefits both buyers and sellers. In our empirical setting, it
+is unlikely that car buyers were aware of the full extent of gaming, but it is also
+unlikely that buyers did not update their beliefs over time.
+  We are not aware of any direct evidence relating to buyer knowledge of test
+gaming. There is, however, a substantial literature on fuel economy valuation that
+demonstrates that buyers respond to fuel price changes in ways that are consistent
+with them being attentive to test ratings and to the value of fuel savings.33 That lit-
+erature suggests that buyers pay attention to government test ratings, but it does not
+necessarily imply that buyers are aware of gaming or are able to correctly deflate
+government ratings in the presence of rapid declines in test accuracy.
+  Might consumers have been informed by the media? A news search suggests
+that the first reports about gaming appeared in the fall of 2013 in Germany. In other
+countries, we find that the first newspaper articles appear only in 2014, by which
+time we estimate a fuel consumption gap in excess of 40 percent.34 In 2015, there is
+a major news episode related to the Volkswagen crisis. This suggests that there was
+not ­EU-wide media coverage of the performance gap until 2015.
+  One other source of information is websites where consumers upload information
+about their experienced fuel consumption. Several such websites exist during this
+time period. We note, however, that our empirical results demonstrate that there is
+significant heterogeneity across trips and drivers in experienced fuel ­consumption
+
+
+
+                           Busse, Knittel, and Zettelmeyer 2013; Allcott and Wozny 2014; Sallee, West, and Fan    33 A recent literature (see2016; Grigolon, Reynaert, and Verboven      has shown that buyers do take fuel consumption ratings into account                                  2018)when purchasing a vehicle. In a field experiment, Allcott and Knittel      show that treating buyers with detailed                                                            (2019)information about fuel consumption has no impact on their choice.
+    34 In particular, we perform a Google news search with the words “ ICCT ” and “gap” in German, English, and
+Dutch. The ICCT reports were discussed in the German media in 2013 and 2014, but we find no references in other
+languages except for two automobile websites in English. Other word combinations gave no additional results.
+
+===== [PDF 第 29 页｜印刷第 400 页] =====
+400               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+due to driving conditions. This makes it difficult for consumers to distinguish legit-
+imate variation from gaming without a large sample. Thus, we conclude that con-
+sumers might have had some information, but the available information was far
+from perfect.
+  We have tried to directly estimate consumer awareness of gaming with our data
+but did not find statistically meaningful results. The challenge is that our estimate
+of ­on-road consumption is a function of gaming and selection, and the lack of
+­heterogeneity in gaming across models within a year   shown in Figure  makes it                                                    (as                4)difficult to isolate meaningful variation between vehicles that can be used to explain
+market shares.35
+   In what follows, we show how the price effect and choice distortion vary when
+consumers range from completely naïve to fully sophisticated    ranges from 0                                                                                   (​α​to  We argue that in the long term, buyers will update their beliefs, but in the short   1).term, consumers may be distorted in their choices by gaming.
+
+  Buyer Surplus.—To compute buyer welfare when consumers are affected by
+gaming            1​, in terms of our      we follow Dubois, Griffith, and O’Connell          (​α  <                   theory),      who describe the welfare effects of persuasive advertising. As described in(2018),Section II, gaming changes prices as firms will exploit higher demand from lower
+perceived fuel costs. We label the equilibrium price without gaming ​p​ j​ 0​and the prices
+with gaming as   ​p​ j​ 1​. The misperception of gamed fuel costs also distorts ­consumer
+choice. To separate the two effects, we make a distinction between ­decision    the                                                                                     (atmoment of         and experience utility    the moment of          When           purchase)                         (at                 utilization).36there is gaming, a naïve consumer will perceive fuel costs, following her belief,
+as              in which  ​g​ j​ is the increase in gaming. The consumer will make her            ​x ̃ ​j​  =  ​x​ j​ − ​g​ j​,choice based on  and will perceive her decision as yielding a utility of                                                                  ​x ̃ ​j​
+                                            ​V ̃ ​ij​(g, ​p​ 1​)​  =  ​Δ​j​ ​γ​i​ − η ​p​ j​ 1​ + ​β​i​ ​x ̃ ​j​ + ​ξ​j​ + ​ε​ij​ .​
+
+After purchasing the vehicle, true fuel costs are revealed, and the consumer has
+experience utility:
+                                          ​V​ ij​(g, ​p​ 1​)​  =  ​Δ​j​ ​γ​i​ − η ​p​ j​ 1​ + ​β​i​ ​x​ j​ + ​ξ​j​ + ​ε​ij​.​
+
+
+
+
+    35 In particular, we did the following. We regressed our vehicle-level gap estimates on a set of explanatory
+variables and predicted gaps for vehicles in the choice set for which we have no ­on-road estimates. We then tested
+if differences in gaps explain differences in market shares by introducing the estimated gaps in our discrete choice
+framework. This resulted in very noisy estimates with a wide confidence interval for the effect of the gap on sales.
+In a second stage, we tried to control for selection, using the assumption that gaming is absent prior to 2007. This
+allows us to decompose the gaps post-2007 into gaps from driver selection and gaming. When we introduce this
+measure in the discrete choice framework, we find no statistically                 meaningful estimates. One key                                                                 (or economically)limitation is that our sales data end in 2011, which excludes the period of greatest interest. A related exercise that
+tests for changes in pricing due to gaming similarly yielded only noisy results. We thus cannot make any statistical
+statement about consumer awareness of gaming based on our data.
+                                                                           and Sallee                                                                             who    36 This is conceptually the same as the choice distortion described in Allcott (2013)                                                                                                (2014),study misperception of fuel costs, but our approach here is more general because we allow firms to change prices in
+response to gaming. Leggett        also models a similar distortion in a discrete choice setting.                         (2002)
+
+===== [PDF 第 30 页｜印刷第 401 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       401
+
+The difference between decision and experience utility is the optimization error,
+which in this case is the value of the additional fuel costs for the consumer
+                Buyer surplus with gaming can then be written as​β​i​(​x​ j​ − ​x ̃ ​j​)​  =   ​β​i​ ​g​ j​.
+                                                ​W ̃ ​i​(g, ​p​ 1​)​  =  ​E ​ε​[​V ̃ ​ij​]​ − ​E ​ε​[β​g​ j​]​
+                                       ​=  ​W​ i​(g, ​p​ 1​)​ − ​∑ j​  ​[​s​ ij​ β​g​ j​]​,​
+where  ​s​ ij​are the choice probabilities obtained from maximizing the decision utility.
+We compute        by applying the ­log-sum formula of Small and Rosen                        ​W​ i​(g, ​p​ 1​)​                                                  (1981).We can then decompose the change from the equilibrium with honesty        to the                                                                                                                           ​(0, ​p​ 0​)​
+equilibrium with gaming        into a price effect and choice distortion:                                             ​(g, ​p​ 1​)​
+
+                ​        ​           ​W​ i​(0, ​p​ 0​)​ − ​W ̃ ​i​(g, ​p​ 1​)​  =  ​ ​W​ i​(0, ​p​ 1​)​ − ​W ̃ ​i​(g, ​p​ 1​)​ ​ + ​W​ i​(0, ​p​ 0​)​ − ​W​ i​(0, ​p​ 1​)​ ​ ​.​
+                                               choice distortion                     price effect
+When there is no policy, the reference prices ​p​ 0​ are the observed prices in the mar-
+ket. When we introduce gaming without policy, prices  ​p​ 1​ will be higher than  ​p​ 0​
+because of market power. When we introduce the policy, the reference prices  ​p​ 0​
+become the prices obtained from honest compliance to the policy. These prices will
+differ from the ­no-policy reference prices because of the tax wedge that the policy
+introduces       When we introduce gaming, the prices ​p​ 1​ will change for two               (​λ  >  0​).reasons: gaming lowers the tax wedge, and firms with market power increase prices
+when gaming. In contrast, the choice distortion will be similar with and without
+policy as it is not a function of the tax wedge.
+  Note that consumer choice is distorted by gaming even when all products are
+gamed an identical amount. Intuitively, a uniform reduction in fuel costs is akin
+to a reduction in the coefficient on fuel costs in the utility function. Thus, when all
+firms game and perceived fuel costs drop, consumers will, to some degree, reorder
+their favored products because they effectively put more weight on other vehicle
+characteristics.37
+
+  Procedure.—In all simulations, we start with a base market, which is the observed
+market in the Netherlands in 2007. That is, we use several markets over several years
+to estimate the demand system, but we need to choose one particular market as our
+baseline from which to calculate changes. We compute consumer surplus from this
+observed market and our parameter estimates. To simulate gaming, we first lower
+the perceived fuel cost of the products made by firms that game. Second, with these
+new fuel costs, we solve for demand and prices using the ­first-order conditions for
+profit maximization. Third, we compute changes in welfare relative to the reference
+
+
+
+
+    37 Note that we limit ourselves to reporting changes in consumer welfare from purchasing a new vehicle. We do
+not consider effects on the secondhand market or on the amount that consumers drive. Consumers could potentially
+react to gaming by changing the amount they choose to drive in the purchased vehicle, a potential effect that we
+also abstract from.
+
+===== [PDF 第 31 页｜印刷第 402 页] =====
+402               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+
+ Panel A. No policy                                Panel B. 5% policy
+
+      0                                            250
+
+                                                   200
+    −5
+                                                    150euros
+in −10
+                                                    100
+   −15                                             50Change
+   −20                                  ChoicePrice effectdistortion       0
+                                          Buyer surplus
+   −25 0   0.1  0.2  0.3  0.4  0.5  0.6  0.7  0.8  0.9  1   −50 0   0.1  0.2  0.3  0.4  0.5  0.6  0.7  0.8  0.9  1
+              Consumer awareness                       Consumer awareness
+
+                       Figure 5. Consumer Awareness and Incidence of Gaming
+
+Notes: Figure plots buyer surplus, choice distortion, and price effect in euros when consumers range from unaware
+          to aware          In panel A, we model 5 percent gaming and no policy; in panel B, we model 5 percent(​α  =  0​)            (​α  =  1​).gaming with a 5 percent policy.
+
+
+
+market with prices  ​p​ 0​. The obtained changes in welfare are the changes in yearly
+utility, profits, and emissions from new vehicle sales.
+
+                          B. Incidence of Gaming
+
+   In this section, we simulate the effect of gaming on buyer surplus and pollution.
+We start from a base scenario in which we impose a policy of 5 percent, with honest
+compliance coming from mix shifting, and gaming equal to 5 percent. We focus first
+on the role of consumer awareness of gaming before discussing policy stringency,
+alternative compliance, and the level of gaming.
+
+  Awareness.—In Figure 5, we plot buyer welfare changes from 5 percent gaming
+when there is no binding policy and when there is a 5 percent policy for various val-
+ues of consumer awareness of gaming  When there is no policy, both the choice                                                                       ​α​.distortion and the price effect are negative: gaming hurts buyers. Both the choice
+distortion and the price effect go to 0 when consumer awareness   increases from ​0​                                                                                       ​α​to  ​1​. When we introduce the policy, the choice distortion remains very similar and
+again goes to zero when consumer awareness increases. The price effect, however,
+switches sign and becomes positive and an order of magnitude larger than the choice
+distortion. This causes overall buyer surplus to increase with gaming. The intuition
+for the switch in the price effect is that cost avoidance of regulatory compliance is
+passed through from seller to buyer. Notice that this positive price effect is very sim-
+ilar regardless of consumer awareness; pass-through occurs whether or not consum-
+ers are fooled. The negative effects from gaming via choice distortion increase when
+consumers are fooled, but even when consumers are fully unaware of the gaming,
+the price effect strongly dominates.
+
+===== [PDF 第 32 页｜印刷第 403 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       403
+
+
+                     Table 2—Effects of 5 Percent Gaming: Sales Mixing
+
+Scenario:                                      I                        II                       III              IV
+Policy:                    0%           5%           5%           5%
+
+Buyer surplus   per              (€    household)Total buyer surplus                                   215.03             193.08             629.40                             −24.05
+                             [−24.21, −15.32]    [214.08, 245.51]     [192.01, 223.23]     [628.58, 725.13]
+Choice distortion                             −17.07            −16.70           −30.68            −8.81
+                             [−17.17, −13.34]   [−16.81, −13.07]   [−30.82, −24.84]    [−8.85,−7.25]
+Price effect                                          231.73             223.76             638.20                              −6.98
+                                                  [ −7.09, 0.69]      [231.21, 262.82]     [223.18, 253.65]     [636.86, 734.80]
+Pollution          ( percent change)Sales                                3.05                4.61                4.55               0.51
+                                      [3.05, 3.54]           [4.60, 5.31]           [4.54, 5.26]          [0.51, 0.58]
+Emissions                           0.44                6.27                6.64               5.68
+                                      [0.44, 0.49]           [6.72, 6.32]           [6.63, 6.72]          [5.68, 5.701]
+Notes: Table gives changes in buyer surplus and pollution from gaming for unsophisticated consumers                                                                                                               (​α =  0​).Bootstrapped 95 percent confidence interval reported between brackets. Scenario   5 percent gaming when no pol-                                                                                           (I)icy is in place;    5 percent gaming when a 5 percent policy is in place;     uniformly distributed 0–10 percent                  (II)                                                                (III)gaming when a 5 percent policy is in place;     5 percent gaming when a 5 percent policy is in place and when                                        (IV)outside good share is 10 percent instead of 61 percent.
+
+
+  Main Result.—Having established how results depend on  we now explore our                                                                                                             ​α​,main results assuming that consumers are unaware         which is meant to be                                                                  (​α  =  0​),a ­worst-case scenario for buyers and thus conservative against our findings of buyer
+gains. Table 2 shows the effect of gaming on buyer surplus and pollution when
+consumers are unaware         Column I is the no-policy case. We show how                                        (​α​  =  0).gaming changes buyer surplus, decomposed into both a choice distortion and a price
+effect, both of which are negative when there is no policy. Column II shows the case
+where there is a policy and compliance comes from mix shifting. As predicted by
+theory, the sign of the price effect flips, and the price effect is estimated to be an
+order of magnitude larger than the choice distortion. On net, gaming increases buyer
+surplus when there is a policy.
+  Table 2 also shows the effect of gaming on pollution. The first line shows the
+­percentage point change in total sales, which captures how the size of the market
+changes as a result of gaming. The second line shows the percentage change in
+average fuel consumption, which captures to what extent buyers substitute toward
+more polluting vehicles as a result of gaming. When there is no policy                                                            (column I),we see that gaming increases the market size by 3 percent and that consumers buy
+vehicles that are slightly more polluting           When a policy is in place                                       (0.44 percent).             these effects increase considerably to a 4.6 percent increase in mar-(column II),ket size and a 6.3 percent increase in average fuel consumption. This is because
+the reference point is honest compliance with the policy with a target of 5 percent
+reduction in average fuel consumption. Not only does gaming undo the target                                                                                (themechanical         but consumers also buy more vehicles and shift toward more              effect),polluting vehicles when they are fooled by the gaming     market size                                                       (the              effect).   Proposition 2 in our theory showed that it was possible that consumers benefit
+from gaming, even when they are fooled by it. Our simulation results suggest that
+this is indeed the case in the European auto market. In line with Proposition 1, we
+
+===== [PDF 第 33 页｜印刷第 404 页] =====
+404               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+
+              Table 3—Effects of 5 Percent Gaming: Fuel Efficiency Improvements
+
+Scenario:               V                VI                 VII                VIII
+Policy:                  0%            5%            5%           5%
+
+Buyer surplus   per              (€    household)   Total buyer surplus                                                     72.74             126.09                          −24.05            −375.29                                                                                            149.97                          [−24.21,−15.32]    [−376.46, −324.96]     [72.17, 230.62]     [125.56,            ]
+   Choice distortion                          −17.07             −16.90            −16.78            −15.59
+                          [−17.17, −13.34]     [−17.02, −13.21]     [−16.85, −13.14]   [−15.65, −12.26]
+   Price effect                                                            89.51             141.66                           −6.98            −358.39                                                                                            167.80                             [−7.09, 0.69]     [−359.05, −310.03]     [89.37, 244.79]     [141.46,            ]
+Pollution          ( percent change)   Sales                          3.05                 0.24                3.82                4.28
+                                  [3.05, 3.54]            [0.24, 0.27]            [3.78, 4.95]           [4.27, 5.05]
+   Emissions                      0.44                 5.26                5.70                5.40
+                                  [0.44, 0.49]            [5.26, 5.26]            [5.69, 6.28]           [5.40, 5.43]
+Notes: Table gives changes in buyer surplus and pollution from gaming for unsophisticated consumers                                                                                                                                      (​α  =  0​).Bootstrapped 95 percent confidence interval reported between brackets. Scenario    5 percent gaming when no                                                                    (V)policy is in place      Firms respond to policy by increasing fuel efficiency when     technology is low cost,                  (=I).                                                        (VI)     technology cost function is flat, and       technology cost function is convex.(VII)                                    (VIII)
+
+
+find that consumers unambiguously lose from gaming when there is no policy. But
+this result is overturned with the introduction of a policy. Consumers no longer
+benefit from honesty. Moreover, when choice distortions are significant, emissions
+actually rise in response to the policy, due to a combination of weak enforcement
+and significant shifts in the market due to choice distortions. We believe this raises
+an important concern for policies, like current international climate negotiations,
+that rely on voluntary ­on-paper emissions pledges rather than effective and credible
+measurement.
+
+  Compliance Mechanisms.—In Table 3, we change the compliance mechanism
+from sales mixing to technological change that increases marginal costs. There are
+three different scenarios consistent with our discussion above. In column VI, we
+show the case where compliance costs are lower than consumer willingness to pay
+for fuel consumption. In this case, the policy is understood to solve a market failure
+related to the provision of energy efficiency      consumer               and                                                     (e.g.,           undervaluation),the policy raises private buyer surplus. As a result, gaming hurts consumers in this
+scenario, not only because of the choice distortion but also because buyers miss out
+on the positive price effects of the policy     price effect of gaming is thus nega-                                           (the    Columns VII and VIII show the case where compliance costs are high enoughtive).so that the policy does not increase buyer surplus. In both columns, we find price
+effects to be larger than choice distortions, and the more convex compliance costs
+in VIII increase the price effect. These results are qualitatively similar to the results
+based on mix shifting, though they are somewhat muted.
+
+   Stringency of Policy and Level of Gaming.—In Table 4, we vary the stringency
+of the policy from 3 percent to 5 percent to 10 percent while keeping the degree of
+gaming constant at 5 percent. In all cases, the price effect is positive and larger than
+
+===== [PDF 第 34 页｜印刷第 405 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       405
+
+
+                   Table 4—Effects of 5 Percent Gaming: Policy Stringency
+
+Scenario:                       IX           X               XI                XII
+Policy:                   0%           3%           5%            10%
+
+Buyer surplus   per              (€    household)Total buyer surplus                                     16.18             215.03             614.59                            −24.05
+                            [−24.21, −15.32]      [16.02, 31.32]      [214.08, 245.51]     [613.22, 697.70]
+Choice distortion                            −17.07            −17.75           −16.70           −13.46
+                            [−17.17, −13.34]    [−17.88, −13.86]   [−16.81, −13.07]   [−13.49, −10.57]
+Price effect                                           33.93             231.73             628.05                             −6.98
+                               [−7.09, 0.69]        [33.78, 48.29]      [231.21, 262.82]     [626.91, 712.60]
+Pollution          ( percent change)Sales                               3.05                 3.12                4.61               8.29
+                                     [3.05, 3.54]           [3.10, 3.62]           [4.60, 5.31]           [8.28, 9.40]
+Emissions                          0.44                 6.25                6.72               5.84
+                                     [0.44, 0.49]           [6.25, 6.30]           [6.27, 6.32]           [5.83, 5.90]
+Notes: Table gives changes in buyer surplus and pollution from gaming for unsophisticated consumers                                                                                                                                      (​α  =  0​).Bootstrapped 95 percent confidence interval reported between brackets. Scenario     5 percent gaming when no                                                                          (IX)policy is in place;          and       increase the policy stringency from 0 percent to 10 percent while keeping                  (X), (XI),     (XII)gaming constant at 5 percent.       that       and                          (Note     IX = I     XI = II.)
+
+
+
+the choice distortion. The price effect is only marginally larger than the choice dis-
+tortion for the 3 percent target, but the price effect outweighs the choice distortion
+by hundreds of euros when the standard becomes more stringent. This is in line with
+the theory; the price effect is increasing with the stringency of the regulation. This is
+relevant for assessing the EU standard, which is arguably the most demanding fuel
+consumption standard in the world.
+   Figure 6 shows buyer surplus and its decomposition when we increase the level
+of gaming from 0 percent to 10 percent in response to a 5 percent policy. The choice
+distortion hurts consumers more and more as we increase gaming. The price effect is
+a parabola because of two ­offsetting effects. The curve is steepest with the first units
+of gaming as these soften the burden of the policy the most. With the following units
+of gaming, up until 5 percent, more and more of the policy is avoided, but this gives
+smaller incremental increases. At the same time, higher gaming increases prices
+because of market power. This effect becomes dominant once the policy is fully
+avoided, and thus the price effect decreases once more gaming is done than required
+to comply with the policy. The combination of the decreasing choice distortion and
+parabolic price effect gives an overall buyer surplus that is also parabolic. Note that
+gaming has positive effects on buyer surplus until 9 percent, almost twice the level
+required to comply with policy.
+   In online Appendix Table F.10, we also show results when the policy is a fuel
+tax instead of a standard.38 This confirms that gaming with a fuel tax is harmful to
+buyers, consistent with our discussion in Section IIF. The table shows results from
+fuel taxes that were found to produce the same change in fuel consumption as the
+
+
+   38 We also show results for a flat emission standard that is not attribute based. This flat standard is less demand-
+ing for most firms, and so the price effects are smaller but still larger than the choice distortion.
+
+===== [PDF 第 35 页｜印刷第 406 页] =====
+406               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+
+             250
+
+
+
+             200
+
+
+
+              150
+                   euros  100
+        in
+
+              50                       Change
+
+               0
+
+            −50          ChoicePrice effectdistortion
+                               Buyer surplus
+            −100                 0      1      2      3      4      5      6      7      8      9     10
+
+                                           Percent gaming
+
+
+                                    Figure 6. Level of Gaming
+
+Note: Figure plots buyer surplus, choice distortion, and price effect in euros when gaming ranges from 0 percent to
+10 percent in response to a 5 percent policy.
+
+
+
+standards. We find that gaming decreases buyer surplus in very similar magnitudes
+to our base specification when firms game in the absence of a policy. Buyers will
+not benefit from gaming in response to a fuel tax because gaming will distort their
+choice; the price effect will lead them to pay higher, not lower, prices for the vehicle;
+and gaming does nothing to help them avoid the fuel tax.
+
+  Heterogeneity in Gaming and the Outside Good.—The choice distortion drives
+the negative effects of gaming on buyer surplus and pollution. Because fuel con-
+sumption ratings are shaded by the gaming, buyers purchase the wrong amount
+and the wrong type of vehicle. In Table 2, columns ­I–II and Table 4, ­IX–XII, we
+see large increases in sales          3.1 percent and 8 percent       and limited                        (between                          points)increases in average fuel consumption per vehicle           0.4 and 1.7 percent                                             (betweenon top of the mechanical 5        Gaming thus leads to considerable changes                            percent).in the size of the market and in the type of products purchased. The size of these
+two effects, however, depends partly on two underlying assumptions in our simu-
+lations: the lack of heterogeneity in gaming and the amount of substitution to the
+outside good.
+   In column III of Table 2, we relax the assumption of homogeneous 5 percent
+gaming on all products and instead draw gaming from the uniform distribution ​
+          so that mean gaming is 5 percent as in the main scenario. Now gaming[0%, 10%]​
+not only reduces the importance of fuel consumption to choice relative to other
+
+===== [PDF 第 36 页｜印刷第 407 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       407
+
+attributes but also scrambles the ranking of preferred products more directly by
+­providing a bigger improvement to some products than to others. This has two
+implications relative to the homogeneous 5 percent gaming in column II. First,
+we see that the choice distortion almost doubles from €17 to €31. Because gam-
+ing is ­heterogeneous, buyers buy the wrong type of cars more often and end up
+further from their preferred vehicle. Nevertheless, despite the doubling of the
+choice distortion, the price effect  still dominates, and buyers are estimated to
+gain on net. Second, the environmental damage due to gaming is larger, and aver-
+age emissions now increase by 1.6 percent. This is because consumers substitute
+more toward high-quality and high-pollution vehicles that were gamed relatively
+more.
+   In column IV, we change the size of the outside good in our estimation and in
+our simulations. The estimated demand parameters do not change significantly
+because we include market fixed effects, but the results of the simulation do change
+­noticeably. In column II, we obtained numbers from a model in which we assume
+that 1 out of 7 households is potentially interested in purchasing a new car each year
+such that the outside good share is 61 percent. This assumption determines the price
+­elasticity of the industry. When we lower the price elasticity of industry by decreas-
+ing the outside good share to 10 percent, we find significant changes. First, the
+positive price effects increase significantly because buyers do not stop purchasing
+polluting vehicles even at much higher prices. The price changes needed for firms to
+comply thus increase, and the benefits of avoiding the regulation are larger. Second,
+the choice distortion shrinks. Because the price elasticity of industry is much lower
+in this scenario, gaming changes the market size by less. This is also important for
+pollution. The size of the market increases by 0.5 percent instead of 4.5 ­percentage
+points, though buyers still substitute to more polluting vehicles on average. In sum,
+the positive price effect increases and the choice distortion decreases when the
+­outside good share shrinks.
+
+                        C. Competition and Gaming
+
+  So far, we have assumed that the whole industry games, in line with the empirical
+evidence shown in Section IE. Here, we study what happens if not all firms game.
+From the point of view of a single firm, gaming confers a competitive advantage.
+This is much the same intuition as for the monopolist; the residual demand curve
+faced by the firm can be shifted out by gaming. Conversely, when other firms are
+gaming, an honest firm would be at a competitive disadvantage.
+   In Table 5, we compute market outcomes with asymmetry in gaming. In the left
+panel, only one firm games, while all other firms remain honest. In the right panel,
+labeled “Not gaming along,” all but one firm games. We simulate these asymmetric
+cases separately for each firm and present the average outcomes over these cases.
+In all scenarios, we find results that are qualitatively similar to our ­industry-wide
+symmetric gaming case in that gaming hurts buyers when there is no policy, while
+buyers benefit from gaming under the policy. Buyer surplus and pollution effects are
+much smaller when only one of the carmakers games. Effects are almost equal to
+symmetric gaming when all but one firm games.
+
+===== [PDF 第 37 页｜印刷第 408 页] =====
+408               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+
+                     Table 5—Market Changes from Asymmetric Gaming
+
+                                                  Gaming alone           Not gaming along
+
+                                         No policy     Policy     No policy     Policy
+
+Consumer surplus   per                 (€    household)Total                                                                 15.79                     189.94                                                   −3.83                  −24.31Choice distortion                                                   −3.17      −3.24       −17.23     −16.79Price effect                                                           19.20                     206.7                                                   −0.66                   −7.08
+Changes in pollution
+Total sales                                                   0.27        0.42           2.81         4.24          (percentage points)Emissions per vehicle                                        0.04        0.62           0.41         5.45                      (percent)
+Changes in profits
+                                                          20.41       37.94Gamer/non-gamer (percent)                                                    −9.86     −15.83
+Notes: Columns 1 and 3 give changes in market equilibrium when one firm games. We present the average of let-
+ting each firm game     run a separate simulation per      Changes in profits are the average for the firms that                (we                                firm).game     for the        Columns 2 and 4 give changes in market equilibrium when all but one firm games. We      (not        industry).run a separate simulation for each firm not gaming along when all others game. Changes in profits are the average
+for the firms that do not game along.
+
+
+  Table 5 also reports how profit changes with gaming. In the left panel, we give
+the gains in profits for the single firm that games               in the right panel,                                                    (the gamer);we ­present the losses in profits for the single firm that does not game along                                                                                (the          The average gain from gaming unilaterally is large: a 20 percent­non-gamer).increase in profits, even in the absence of policy. But the profitability from gaming
+rises still further, to 38 percent, with policy. This shows that firms have a very strong
+incentive to unilaterally deviate from honesty, and this incentive rises with policy.
+The profit losses from not “gaming along” are also large. Being the sole honest firm
+leads to a 10 ­percent decrease in profits without policy and a 16 percent decrease
+with policy. Thus, if competitors start to game, it is very costly not to follow along,
+and this incentive is enhanced by the policy.
+  We conclude that the policy thus clearly increases the incentive to game in a
+­multifirm context: the unilateral profits from deviating from honesty increase, and
+the costs from not deviating when others do increase.39 This is related to an existing
+literature that asks whether competition induces gaming     Becker and Milbourn                                                                  (e.g.,2011, Bennett et al.        but we add to that the suggestion that corrective policy                   2013),amplifies these competitive effects.
+
+                                         IV.  Conclusion
+
+  This paper does three things. First,  it documents a remarkable and growing
+divergence between official and ­on-road fuel consumption rates, which we call
+the performance gap, in a ­reduced-form empirical analysis using novel data. This
+­performance gap is coincident with the introduction of strict standards based on the
+
+
+
+    39 Note that this setting is not necessarily a prisoner’s dilemma. The total industry profit from the price equilib-
+rium with gaming relative to the price equilibrium with honesty will depend on the total legal and regulatory costs
+of gaming relative to the total costs of compliance. The evidence presented here shows that honesty becomes harder
+to support when the policy is in place.
+
+===== [PDF 第 38 页｜印刷第 409 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       409
+
+official ratings, and we interpret this pattern as evidence of Goodhart’s Law, whereby
+­policy-induced stakes lead to the strategic manipulation of a measure. Combined
+with the ­still-growing Volkswagen scandal regarding local air pollution, the perfor-
+mance gap in carbon emissions points to a veritable crisis in the administration of
+environmental regulations for automobiles. Moreover, combined with other find-
+ings that call into question the efficacy of other energy efficiency policies                                                                         (Davis,Fuchs, and Gertler 2014; Fowlie, Greenstone, and Wolfram 2018; Levinson                                                                      2016),we believe our findings point to a serious challenge for the future of climate nego-
+tiations, which are now built upon ­bottom-up pledges based on unreliable ex ante
+estimates of program conservation.
+  Second, we develop a  theoretical framework  in  order  to ask how such
+­policy-induced gaming of ­energy efficiency ratings will impact buyers. The model
+points out how the existence of an ­externality-correcting policy fundamentally alters
+the incidence of gaming on buyers. Absent policy, gaming hurts consumers through
+both the price effect and choice distortion channels. But when gaming is done to
+avoid a regulation, consistent with Goodhart’s Law, then buyers can benefit via pass-
+through of cost savings. We show that beneficial price effects can dominate so that
+private buyer surplus rises with gaming.
+   Third, we conduct a structural analysis and calibrated welfare simulation in order
+to quantify the price effects and choice distortions identified by theory. For a wide
+range of parameter values, we find that price effects do indeed dominate so that the
+theoretical result that consumers might benefit from gaming is not just a curious
+possibility, but in fact appears to be a likely probability.
+  Our analysis emphasizes private buyer surplus, abstracting from the externality.
+Assuming that the policies are optimally designed and the externality benefits accrue
+to buyers, the buyers would be better off when the seller complies honestly, once the
+externality is taken into account. But in our empirical context, neither condition is
+likely to hold. Analysis of the fuel economy standards in the United States typically
+finds that the standards do not pass a ­cost-benefit test unless buyers, contrary to recent
+empirical evidence, have large biases in their valuation of fuel economy. Moreover,
+the climate benefits of reduced emissions largely accrue to future generations and to
+people other than European car buyers. However, ­co-benefits from local air pollution
+in Europe could be substantial given the large fraction of diesel vehicles, which might
+improve the ­cost-benefit analysis of the ­fuel consumption standards there.
+  We anticipate that the same concerns we highlight here are present in a vari-
+ety of regulatory settings, and we expect that both our theoretical and empirical
+approach can be applied elsewhere. Critical to our setup is that the measure which
+can be gamed is used by the regulator and is instrumental to consumer choice. For
+example, in education, test scores of current students might be gamed to satisfy pol-
+icy ­mandates that affect resource transfers. The test scores also affect the demand
+for admission from future waves of students. Consumers           can benefit                                                             (students)from gaming when gaming frees up resources at a school that would otherwise
+be expended to satisfy policy and obtain transfers. Or in finance, capital require-
+ments can be used to minimize an individual bank’s role in creating systemic risk.
+Customers can ­privately benefit if a bank is able to rebalance its portfolio more
+profitably after gaming the regulated measures.
+
+===== [PDF 第 39 页｜印刷第 410 页] =====
+410               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+
+                        REFERENCES
+
+Allcott, Hunt. 2013. “The Welfare Effects of Misperceived Product Costs: Data and Calibrations from
+   the Automobile Market.” American Economic Journal: Economic Policy 5    30–66.                                                                                   (3):Allcott, Hunt, and Michael Greenstone. 2012. “Is There an Energy Efficiency Gap?” Journal of
+   ­Economic Perspectives 26    3–28.                                (1):Allcott, Hunt, and Christopher Knittel. 2019. “Are Consumers Poorly Informed about Fuel Economy?
+   Evidence from Two Experiments.” American Economic Journal: Economic Policy 11    1–37.                                                                                               (1):Allcott, Hunt, and Dmitry Taubinsky. 2015. “Evaluating Behaviorally Motivated Policy: Experimental
+   Evidence from the Lightbulb Market.” American Economic Review 105    2501–38.                                                                                (8):Allcott, Hunt, and Nathan Wozny. 2014. “Gasoline Prices, Fuel Economy, and the Energy Paradox.”
+   Review of Economics and Statistics 96    779–95.                                             (5):Anderson, Soren T., and James M. Sallee. 2011. “Using Loopholes to Reveal the Marginal Cost
+   of ­Regulation: The Case of Fuel-Economy Standards.” American Economic Review 101                                                                                                        (4):   ­1375–1409.
+Anderson, Soren T., and James M. Sallee. 2016. “Designing Policies to Make Cars Greener.” Annual
+   Review of Resource Economics 8: 157–80.
+Austin, David, and Terry Dinan. 2005. “Clearing the Air: The Costs and Consequences of Higher
+  CAFE Standards and Increased Gasoline Taxes.” Journal of Environmental Economics and
+   Management 50    562–82.                     (3):Becker, Bo, and Todd Milbourn. 2011. “How Did Increased Competition Affect Credit Ratings?”
+   ­Journal of Financial Economics 101    493–514.                                           (3):Ben-David, Itzhak. 2011. “Financial Constraints and Inflated Home Prices during the Real Estate
+   Boom.” American Economic Journal: Applied Economics 3    55–87.                                                                    (3):Bennett,  Victor  Manuel, Lamar  Pierce,  Jason  A.  Snyder, and  Michael W.  Toffel.  2013.
+   “Customer-Driven Misconduct: How Competition Corrupts Business Practices.” Management
+   ­Science 59    1725–42.                (8):Bento, Antonio, Kenneth Gillingham, and Kevin Roth. 2017. “The Effect of Fuel Economy Standards
+   on Vehicle Weight Dispersion and Accident Fatalities.” NBER Working Paper 23340.
+Bento, Antonio M., Lawrence H. Goulder, Mark R. Jacobsen, and Roger H. von Haefen. 2009.
+    “­Distributional and Efficiency Impacts of Increased US Gasoline Taxes.” American Economic
+   Review 99    667–99.               (3):Berry, Steven, James Levinsohn, and Ariel Pakes. 1995. “Automobile Prices in Market Equilibrium.”
+   Econometrica 63    841–90.                      (4):Buchanan, James M. 1969. “External Diseconomies, Corrective Taxes, and Market Structure.”
+   ­American Economic Review 59    174–77.                                     (1):Busse, Meghan R., Christopher R. Knittel, and Florian Zettelmeyer. 2013. “Are Consumers Myopic?
+   Evidence from New and Used Car Purchases.” American Economic Review 103    220–56.                                                                                         (1):Card, David, and Thomas Lemieux. 2001. “Can Falling Supply Explain the Rising Return to College
+   for Younger Men? A Cohort-Based Analysis.” Quarterly Journal of Economics 116    705–46.                                                                                            (2):Chetty, Raj, John N. Friedman, and Johan E. Rockoff. 2014. “Measuring the Impacts of ­Teachers
+    I: Evaluating Bias in Teacher Value-Added Estimates.” American Economic Review 104                                                                                                        (9):   ­2593–2632.
+Davis, Lucas W., Alan Fuchs, and Paul Gertler. 2014. “Cash for Coolers: Evaluating a Large-Scale
+   Appliance Replacement Program in Mexico.” American Economic Journal: Economic Policy
+   6    207–38.      (4):Dee, Thomas S., Will Dobbie, Brian A. Jacob, and Jonah Rockoff. 2019. “The Causes and Conse-
+   quences of Test Score Manipulation: Evidence from the New York Regents Examinations.” Ameri-
+   can Economic Journal: Applied Economics 11    382–423.                                                      (3):Drugov, Mikhail, and Marta Troya-Martinez. 2019. “Vague Lies and Lax Standards of Proof: On the
+  Law and Economics of Advice.” Journal of Economics and Management Strategy 28    298–315.                                                                                             (2):Dubois, Pierre, Rachel Griffith, and Martin O’Connell. 2018. “The Effects of Banning Advertising in
+   Junk Food Markets.” Review of Economic Studies 85    396–436.                                                            (1):Durrmeyer, Isis, and Mario Samano. 2018. “To Rebate or Not to Rebate: Fuel Economy Standards
+    ­versus Feebates.” Economic Journal 128      3076–3116.                                           (616):Fabra, Natalia, and Mar Reguant. 2014. “Pass-Through of Emissions Costs in Electricity Markets.”
+   American Economic Review 104    2872–99.                                       (9):
+
+===== [PDF 第 40 页｜印刷第 411 页] =====
+VOL. 13 NO. 1      REYNAERT AND SALLEE: WHO BENEFITS WHEN FIRMS GAME POLICY?       411
+
+
+Fowlie, Meredith, Michael Greenstone, and Catherine Wolfram. 2018. “Do Energy Efficiency
+   ­Investments Deliver? Evidence from the Weatherization Assistance Program.” Quarterly Journal
+   of Economics 133    1597–1644.                       (3):Frankel, Alex, and Navin Kartik. 2019. “Muddled Information.” Journal of Political Economy
+   127    1739–76.        (4):Gabaix, Xavier, and David Laibson. 2006. “Shrouded Attributes, Consumer Myopia, and Information
+   Suppression in Competitive Markets.” Quarterly Journal of Economics 121    505–40.                                                                                    (2):Gerlagh, Reyer, Inge Van Den Bijgaart, Hans Nijland, and Thomas Michielsen. 2018. “Fiscal Policy
+   and CO2 Emissions of New Passenger Cars in the EU.” Environmental and Resource Economics
+   69    103–34.       (1):Gillingham, Kenneth. 2013. “The Economics of Fuel Economy Standards versus Feebates.” https://
+   www.ourenergypolicy.org/wp-content/uploads/2013/07/Gillingham-CAFE-Standards-vs-
+   Feebates-Apr-20131.pdf.
+Goldberg, Pinelopi Koujianou. 1998. “The Effects of the Corporate Average Fuel Efficiency Standards
+   in the U.S.” Journal of Industrial Economics 46    1–33.                                                       (1):Goodhart, Charles A.E. 1981. Problems of Monetary Management: The U.K. Experience. Macmillion
+   Education UK.
+Grigolon, Laura, Mathias Reynaert, and Frank Verboven. 2018. “Consumer Valuation of Fuel Costs
+   and Tax Policy: Evidence from the European Car Market.” American Economic Journal: Economic
+   Policy 10    193–225.              (3):Heidhues, Paul, Botond Ko˝ szegi, and Takeshi Murooka. 2017. “Inferior Products and Profitable
+   Deception.” Review of Economic Studies 84    323–56.                                                   (1):Ito, Koichiro, and James M. Sallee. 2018. “The Economics of Attribute-Based Regulation: Theory and
+   Evidence from Fuel-Economy Standards.” Review of Economics and Statistics 100: 319–36.
+Jacobsen, Mark R. 2013. “Fuel Economy and Safety: The Influences of Vehicle Class and Driver
+   Behavior.” American Economic Journal: Applied Economics 5    1–26.                                                                       (3):Jacobsen, Mark R., and Arthur A. van Benthem. 2015. “Vehicle Scrappage and Gasoline Policy.”
+   American Economic Review 105    1312–38.                                       (3):Jacobsen, Mark  R., Christopher R.  Knittel, James M.  Sallee, and Arthur A. van Benthem.
+   2020. “The Use of Regression Statistics to Analyze Imperfect Pricing Policies.” Journal of ­Political
+   Economy 128    1826-76.                   (5):Jaffe, Adam B., and Robert N. Stavins. 1994. “The Energy-Efficiency Gap—What Does It Mean?”
+   Energy Policy 22     804–10.                     (10):JATO ANALYTICS. 2012. “Data on Vehicle Sales, Prices and Characteristics for EU Countries
+   1998–2011.”
+Jiang, Wei, Ashlyn Aiko Nelson, and Edward Vytlacil. 2014. “Liar’s Loan? Effects of Origination
+   Channel and Information Falsification on Mortgage Delinquency.” Review of Economics and
+    ­Statistics 96    1–18.                 (1):Kane, Thomas  J., and Douglas O.  Staiger. 2008.  “Estimating Teacher  Impacts on  Student
+   Achievement: An Experimental Evaluation.” NBER Working Paper 14607.
+Klier, Thomas, and Joshua Linn. 2012. “New-Vehicle Characteristics and the Cost of the Corporate
+   Average Fuel Economy Standard.” RAND Journal of Economics 43    186–213.                                                                            (1):Kopczuk, Wojciech, Justin Marion, Erich Muehlegger, and Joel Slemrod. 2016. “Does ­Tax-Collection
+   Invariance Hold? Evasion and the Pass-Through of State Diesel Taxes.” American Economic
+    ­Journal: Economic Policy 8    1–36.                                  (2):Langer, Ashley, and Shaun McRae. 2015. “Step on It: Evidence on the Variation in On-Road Fuel
+   Economy.” https://nature.berkeley.edu/~sallee/annualreview_150202.pdf.
+Leard, Benjamin, Joshua Linn, and Katalin Springel. 2019. “Pass-Through and Welfare Effects of
+   Regulations that Affect Product Attributes.” Resources for the Future Discussion Paper 19-07.
+Leggett, Christopher G. 2002. “Environmental Valuation with Imperfect Information—The Case of
+   the Random Utility Model.” Environmental and Resource Economics 23: 343–55.
+Levinson, Arik. 2016. “How Much Energy Do Building Energy Codes Save? Evidence from California
+   Houses.” American Economic Review 106     2867–94.                                              (10):Mock, Peter, Norbert Ligterink, Udo Lambrecht, Jörg Kühlwein, and Iddo Riemersma. 2014.
+   From Laboratory to Road—A 2014 Update of Official and “Real-World” Fuel Consumption and
+  CO2 Values for Passenger Vehicles in Europe. Washington, DC: International Council on Clean
+   ­Transportation                (ICCT).Parry, Ian W.H., David Evans, and Wallace E. Oates. 2014. “Are Energy Efficiency Standards
+    ­Justified?” Journal of Environmental Economics and Management 67    104–25.                                                                              (2):
+
+===== [PDF 第 41 页｜印刷第 412 页] =====
+412               AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY      FEBRUARY 2021
+
+
+Reynaert, Mathias. Forthcoming “Abatement Strategies and the Cost of Environmental Regulation:
+   ­Emission Standards on the European Car Market.” Review of Economic Studies.
+Reynaert, Mathias, and James M. Sallee. 2021. “Replication data for: Who Benefits When Firms Game
+   Corrective Policies?” American Economic Association             Inter-university Consortium for                                                              [publisher],    Political and Social Research             https://doi.org/10.3886/E115161V1.                                      [distributor].Reynaert, Mathias, and Frank Verboven. 2014. “Improving the Performance of Random Coefficients
+  Demand Models: The Role of Optimal Instruments.” Journal of Econometrics 179    83–98.                                                                                            (1):Rhodes, Andrew, and Chris M. Wilson. 2018. “False Advertising.” RAND Journal of Economics
+   49    348–69.       (2):Roychowdhury, Sugata. 2006. “Earnings Management through Real Activities Manipulation.” Journal
+   of Accounting and Economics 42    335–70.                                       (3):Sallee, James M. 2014. “Rational Inattention and Energy Efficiency.” Journal of Law and Economics
+   57    781–820.       (3):Sallee, James M., and Joel Slemrod. 2012. “Car Notches: Strategic Automaker Responses to Fuel
+  Economy Policy.” Journal of Public Economics 96         981–99.                                                  (11–12):Sallee, James M., Sarah E. West, and Wei Fan. 2016. “Do Consumers Recognize the Value of Fuel
+  Economy? Evidence from Used Car Prices and Gasoline Price Fluctuations.” Journal of Public
+   Economics 135: 61–73.
+Scott, R.A., G.V. Currie, and K.J. Tivendale. 2012. Company Cars and Fringe Benefit Tax—­
+   Understanding the Impacts on Strategic Transport Targets      Transport Agency Research                                                   (NZ   Report      Wellington: NZ Transport Agency.          474).Slemrod, Joel. 2008. “Does It Matter Who Writes the Check to the Government? The Economics of
+   Tax Remittance.” National Tax Journal 61    251–75.                                                 (2):Small, Kenneth A., and Harvey S. Rosen. 1981. “Applied Welfare Economics with Discrete Choice
+   Models.” Econometrica 49    105–30.                                 (1):Smokers, Richard,  Filipe Fraga, and Maarten Verbeek. 2011. Support  for  the  Revision  of
+   ­Regulation      No          on CO2 Emissions from Cars       Framework Contract             (EC)     443/2009                         (TNO                         The Hague, Netherlands: TNO.   ENV.C.3./FRA/2009/0043).Tanaka, Shinsuke. 2017. “Mind the Gap! Tax Incentives and Incentives for Manipulating Fuel
+    ­Efficiency in the Automobile Industry.” Unpublished.
+Tietge, Uwe, Nikiforos Zacharof, Peter Mock, Vicente Franco, John German, Anup Bandivadekar,
+   Norbert Ligterink, and Udo Lambrecht. 2015. From Laboratory to Road—A 2015 Update of
+    ­Official and “Real-World” Fuel Consumption and CO2 Values for Passenger Cars in Europe.
+   Washington, DC: International Council on Clean Transportation                                                          (ICCT).Travelcard NV. 2015. “Data on Fuel Station Visits Travelcard Holders 2004–2015.”
+Walker, W. Reed. 2013. “The Transitional Costs of Sectoral Reallocation: Evidence from the Clean Air
+   Act and the Workforce.” Quarterly Journal of Economics 128    1787–1835.                                                                      (4):Weyl, E. Glen, and Michael Fabinger. 2013. “Pass-Through as an Economic Tool: Principles of
+   ­Incidence under Imperfect Competition.” Journal of Political Economy 121    528–83.                                                                                    (3):Whitefoot, Kate S., Meredith L. Fowlie, and Steven J. Skerlos. 2017. “Compliance by Design: ­Influence
+   of Acceleration Trade-offs on CO2 Emissions and Costs of Fuel Economy and Greenhouse Gas
+   Regulations.” Environmental Science and Technology 51     10307–15.                                                            (18):Whitefoot, Katie S., and Steven J. Skerlos. 2012. “Design Incentives to Increase Vehicle Size Created
+   from the U.S. Footprint-Based Fuel Economy Standards.” Energy Policy 41: 402–11.

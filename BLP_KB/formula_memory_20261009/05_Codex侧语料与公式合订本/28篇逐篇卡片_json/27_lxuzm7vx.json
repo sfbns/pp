@@ -1,0 +1,172 @@
+{
+  "rank": 27,
+  "item_key": "LXUZM7VX",
+  "title": "What does an electric vehicle replace?",
+  "authors": [
+    "Jianwei Xing",
+    "Benjamin Leard",
+    "Shanjun Li"
+  ],
+  "creators": [
+    {
+      "name": "Jianwei Xing",
+      "type": "author"
+    },
+    {
+      "name": "Benjamin Leard",
+      "type": "author"
+    },
+    {
+      "name": "Shanjun Li",
+      "type": "author"
+    }
+  ],
+  "date": "2021-00-00 2021",
+  "journal": "Journal of Environmental Economics and Management",
+  "doi": "10.1016/j.jeem.2021.102432",
+  "url": "https://doi.org/10.1016/j.jeem.2021.102432",
+  "collections": [
+    "20papers_import",
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Xing, J., Leard, B., & Li, S. (2021). What does an electric vehicle replace?. Journal of Environmental Economics and Management. https://doi.org/10.1016/j.jeem.2021.102432",
+    "parenthetical": "(Xing et al., 2021)",
+    "narrative": "Xing et al. (2021)"
+  },
+  "preferred_pdf_rel": "source_pdfs/27_lxuzm7vx.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "QG8UXMS9",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:j.jeem.2021.102432.pdf.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\QG8UXMS9\\j.jeem.2021.102432.pdf.pdf",
+    "exists": true,
+    "size": 2435899
+  },
+  "legacy_note_rel": "raw/notes/27_lxuzm7vx.md",
+  "legacy_old_memory_rel": "raw/paper_memory/27_lxuzm7vx.md",
+  "fulltext_json_rel": "raw/fulltext/27_lxuzm7vx.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/27_lxuzm7vx.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper asks what vehicles EVs actually replace, because emissions benefits depend on the substitute, not just on the new EV sale.\n- Its answer is that replacement is non-random and EVs often displace gasoline cars with above-average fuel economy.\n- The payoff is a more realistic emissions accounting and a better basis for subsidy design.",
+    "2. Story ladder": "- Real-world tension or puzzle: an EV policy can look good on adoption counts while still replacing relatively efficient gasoline cars.\n- Why the puzzle matters now: emissions policy needs counterfactual replacement, not just sales growth.\n- What the literature already explains: many studies estimate EV adoption, but fewer infer the full substitution matrix.\n- What is still missing or weakly identified: the mapping from an EV purchase to the gasoline car it replaces.\n- The paper's move: estimate a random-coefficients demand model with second-choice data and counterfactual removal of EVs.\n- Main payoff: emissions benefits are smaller than naive replacement assumptions would imply.",
+    "3. Model or identification core": "- Research design type: structural demand estimation with counterfactual simulation.\n- Structural model class or reduced-form design: random-coefficients discrete choice model.\n- Key equations or choice objects: vehicle demand, substitution patterns, and cross-price elasticities.\n- Endogeneity problem: substitution is not random, and simple replacement assumptions are too coarse.\n- Identification strategy: combine household survey data, vehicle characteristics, registrations, and second-choice information.\n- What assumptions are doing the heavy lifting: the demand system and the interpretation of reported second choices.",
+    "4. Data and measurement": "- Unit of observation: household vehicle choice / market share information.\n- Market definition: US new-vehicle market with EV alternatives.\n- Main dependent variable: vehicle choice and implied replacement pattern.\n- Core explanatory variables: vehicle price, characteristics, EV availability, and fuel economy.\n- Instruments / moments / shocks: the counterfactual is built from the estimated demand system rather than a quasi-experimental shock.\n- Important sample restrictions: some EV models lack substitute-choice data, and the paper notes this limitation.",
+    "5. Findings and mechanisms": "- Baseline result: EVs replace gasoline cars with higher-than-average fuel economy.\n- Mechanism evidence: second-choice data show that many EV buyers were also considering hybrids or plug-in hybrids.\n- Heterogeneity evidence: the replacement pattern differs across EV models and consumer groups.\n- Welfare or counterfactual result: ignoring non-random replacement overstates emissions benefits; the paper also compares the current uniform subsidy with alternatives that induce more incremental EV purchases.\n- Limits the authors admit: some EV models are missing substitute-choice data, so exact replacement shares are not equally precise everywhere.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: EV emissions studies and vehicle-demand papers.\n- What exact gap the authors claim: prior work often imposed a substitute rather than estimating it.\n- How the introduction stages novelty: first the emissions-accounting problem, then the substitution problem, then the model.\n- Whether the contribution is data, method, theory, policy, or a combination: method plus policy evaluation.",
+    "7. Literature review function": "- Where the review sits: introduction and method motivation.\n- How the review is organized: by what previous studies assume about replacement.\n- Which citations do positioning work: papers that assign one EV model to one gasoline substitute are presented as too strong.\n- Which citations do method-validation work: vehicle-demand and emissions-accounting papers justify the structural approach.",
+    "8. Writing structure map": "- Introduction move sequence: emissions puzzle -> replacement assumption problem -> data and model -> policy implication.\n- Section order: intro -> stylized model -> data -> demand estimation -> counterfactuals -> conclusion.\n- Where the paper turns from setup to payoff: once it shows that replacement patterns are non-random.\n- How tables/figures are used to move the argument: second-choice tables and counterfactual emissions tables do the core work.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"The relevant counterfactual is not whether an EV is purchased, but what it displaces.\"\n- Best transition pattern: \"We next estimate the replacement pattern rather than impose one.\"\n- Best contribution sentence pattern: \"A better emissions calculation starts with a better demand model.\"\n- Best limitation or implication move: always say what part of the replacement matrix is data-driven and what part is assumed.",
+    "10. Memory update": "- Durable economics-writing principle: when a policy effect depends on the substitute, estimate the substitute.\n- Durable structural-model principle: cross-price elasticities are the bridge from demand to emissions accounting.\n- Reusable empirical design idea: second-choice data can upgrade a standard demand model into a policy-evaluation tool.\n- Follow-up paper to pair with this one: any EV emissions paper that needs a realistic replacement baseline."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_lxuzm7vx_what-does-an-electric-vehicle-replace\ndescription: Fulltext memory for What does an electric vehicle replace?; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# What does an electric vehicle replace?",
+    "Citation": "- Key: `LXUZM7VX`\n- DOI: `10.1016/j.jeem.2021.102432`\n- Journal: Journal of Environmental Economics and Management\n- Year: 2021\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\LXUZM7VX.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/LXUZM7VX/LXUZM7VX.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/LXUZM7VX.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- The emissions reductions from the adoption of a new transportation technology depend on the emissions from the new technology relative to those from the displaced technology.",
+    "Story Logic": "- 故事起点：In this study, we fill this gap by focusing on the second factor and illustrate the critical role this channel plays in determining the environmental benefits of EVs.1 More specifically, we examine what EV buyers would have purchased had EVs been unavailable.\n- 制度/市场切口：We do so by estimating a random coefficients discrete choice model of new vehicle demand and simulating counterfactual sales with EVs no longer subsidized or removed from the new vehicle market.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：We do so by estimating a random coefficients discrete choice model of new vehicle demand and simulating counterfactual sales with EVs no longer subsidized or removed from the new vehicle market.",
+    "BLP Model Memory": "- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, discrete choice, marginal cost, welfare, counterfactual, instrument\n- Demand side: 需求侧基本可以判定为随机系数离散选择，是最接近经典 BLP 的主干写法。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1. Introduction\n- Journal of Environmental Economics and Management 107 (2021) 102432\n- 2. Data description\n- 4.2. Identification\n- 6. Counterfactual analysis\n- 7. Discussion\n- What does an electric vehicle replace?\n- a r t i c l e i n f o\n- a b s t r a c t\n- Contents lists available at ScienceDirect\n- ELSEVIER\n- Journal of Environmental Economics and Management",
+    "Reusable Writing Moves": "- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。",
+    "OCR Anchors": "- introduction: `1. Introduction` (p.0) - 1. Introduction The diffusion of plug-in hybrid and fully electric vehicles (EVs), coupled with cleaner electricity generation, offers a promising pathway to reduce air pollution from on-road vehicles and to strengthen energy security.\n- background: `Journal of Environmental Economics and Management 107 (2021) 102432` (p.0) - Journal of Environmental Economics and Management 107 (2021) 102432\n- data: `2. Data description` (p.2) - 2. Data description We use three data sets to estimate the model of vehicle demand.\n- estimation: `4.2. Identification` (p.8) - 4.2. Identification Consumer utility is composed of three parts: mean utility, observed heterogeneity, and unobserved heterogeneity.\n- counterfactual: `6. Counterfactual analysis` (p.13) - 6. Counterfactual analysis In this section, we conduct simulations to examine the counterfactual vehicle fleet where we remove all EV models from the choice sets and where the EV subsidy were removed.\n- conclusion: `7. Discussion` (p.18) - 7. Discussion The results from our analysis come with several caveats.",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- The paper asks what vehicles EVs actually replace, because emissions benefits depend on the substitute, not just on the new EV sale.\n- Its answer is that replacement is non-random and EVs often displace gasoline cars with above-average fuel economy.\n- The payoff is a more realistic emissions accounting and a better basis for subsidy design.\n\n- Real-world tension or puzzle: an EV policy can look good on adoption counts while still replacing relatively efficient gasoline cars.\n- Why the puzzle matters now: emissions policy needs counterfactual replacement, not just sales growth.\n- What the literature already explains: many studies estimate EV adoption, but fewer infer the full substitution matrix.\n- What is still missing or weakly identified: the mapping from an EV purchase to the gasoline car it replaces.\n- The paper's move: estimate a random-coefficients demand model with second-choice data and counterfactual removal of EVs.\n- Main payoff: emissions benefits are smaller than naive replacement assumptions would imply.\n\n- Research design type: structural demand estimation with counterfactual simulation.\n- Structural model class or reduced-form design: random-coefficients discrete choice model.\n- Key equations or choice objects: vehicle demand, substitution patterns, and cross-price elasticities.\n- Endogeneity problem: substitution is not random, and simple replacement assumptions are too coarse.\n- Identification strategy: combine household survey data, vehicle characteristics, registrations, and second-choice information.\n- What assumptions are doing the heavy lifting: the demand system and the interpretation of reported second choices.\n\n- Unit of observation: household vehicle choice / market share information.\n- Market definition: US new-vehicle market with EV alternatives.\n- Main dependent variable: vehicle choice and implied replacement pattern.\n- Core explanatory variables: vehicle price, characteristics, EV availability, and fuel economy.\n- Instruments / moments / shocks: the counterfactual is built from the estimated demand system rather than a quasi-experimental shock.\n- Important sample restrictions: some EV models lack substitute-choice data, and the paper notes this limitation.\n\n- Which papers are treated as the nearest neighbors: EV emissions studies and vehicle-demand papers.\n- What exact gap the authors claim: prior work often imposed a substitute rather than estimating it.\n- How the introduction stages novelty: first the emissions-accounting problem, then the substitution problem, then the model.\n- Whether the contribution is data, method, theory, policy, or a combination: method plus policy evaluation.\n\n- Where the review sits: introduction and method motivation.\n- How the review is organized: by what previous studies assume about replacement.\n- Which citations do positioning work: papers that assign one EV model to one gasoline substitute are presented as too strong.\n- Which citations do method-validation work: vehicle-demand and emissions-accounting papers justify the structural approach.",
+  "baseline_core_memory": "- Research design type: structural demand estimation with counterfactual simulation.\n- Structural model class or reduced-form design: random-coefficients discrete choice model.\n- Key equations or choice objects: vehicle demand, substitution patterns, and cross-price elasticities.\n- Endogeneity problem: substitution is not random, and simple replacement assumptions are too coarse.\n- Identification strategy: combine household survey data, vehicle characteristics, registrations, and second-choice information.\n- What assumptions are doing the heavy lifting: the demand system and the interpretation of reported second choices.\n\n- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, discrete choice, marginal cost, welfare, counterfactual, instrument\n- Demand side: 需求侧基本可以判定为随机系数离散选择，是最接近经典 BLP 的主干写法。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+  "mechanism_memory": "- Baseline result: EVs replace gasoline cars with higher-than-average fuel economy.\n- Mechanism evidence: second-choice data show that many EV buyers were also considering hybrids or plug-in hybrids.\n- Heterogeneity evidence: the replacement pattern differs across EV models and consumer groups.\n- Welfare or counterfactual result: ignoring non-random replacement overstates emissions benefits; the paper also compares the current uniform subsidy with alternatives that induce more incremental EV purchases.\n- Limits the authors admit: some EV models are missing substitute-choice data, so exact replacement shares are not equally precise everywhere.\n\n- 故事起点：In this study, we fill this gap by focusing on the second factor and illustrate the critical role this channel plays in determining the environmental benefits of EVs.1 More specifically, we examine what EV buyers would have purchased had EVs been unavailable.\n- 制度/市场切口：We do so by estimating a random coefficients discrete choice model of new vehicle demand and simulating counterfactual sales with EVs no longer subsidized or removed from the new vehicle market.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：We do so by estimating a random coefficients discrete choice model of new vehicle demand and simulating counterfactual sales with EVs no longer subsidized or removed from the new vehicle market.",
+  "result_memory": "- Baseline result: EVs replace gasoline cars with higher-than-average fuel economy.\n- Mechanism evidence: second-choice data show that many EV buyers were also considering hybrids or plug-in hybrids.\n- Heterogeneity evidence: the replacement pattern differs across EV models and consumer groups.\n- Welfare or counterfactual result: ignoring non-random replacement overstates emissions benefits; the paper also compares the current uniform subsidy with alternatives that induce more incremental EV purchases.\n- Limits the authors admit: some EV models are missing substitute-choice data, so exact replacement shares are not equally precise everywhere.\n\n- Results anchor: e. We do so by estimating a random",
+  "writing_style_memory": "- Introduction move sequence: emissions puzzle -> replacement assumption problem -> data and model -> policy implication.\n- Section order: intro -> stylized model -> data -> demand estimation -> counterfactuals -> conclusion.\n- Where the paper turns from setup to payoff: once it shows that replacement patterns are non-random.\n- How tables/figures are used to move the argument: second-choice tables and counterfactual emissions tables do the core work.\n\n- Best framing sentence pattern: \"The relevant counterfactual is not whether an EV is purchased, but what it displaces.\"\n- Best transition pattern: \"We next estimate the replacement pattern rather than impose one.\"\n- Best contribution sentence pattern: \"A better emissions calculation starts with a better demand model.\"\n- Best limitation or implication move: always say what part of the replacement matrix is data-driven and what part is assumed.\n\n- Durable economics-writing principle: when a policy effect depends on the substitute, estimate the substitute.\n- Durable structural-model principle: cross-price elasticities are the bridge from demand to emissions accounting.\n- Reusable empirical design idea: second-choice data can upgrade a standard demand model into a policy-evaluation tool.\n- Follow-up paper to pair with this one: any EV emissions paper that needs a realistic replacement baseline.\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- 1. Introduction\n- Journal of Environmental Economics and Management 107 (2021) 102432\n- 2. Data description\n- 4.2. Identification\n- 6. Counterfactual analysis\n- 7. Discussion\n- What does an electric vehicle replace?\n- a r t i c l e i n f o\n- a b s t r a c t\n- Contents lists available at ScienceDirect\n- ELSEVIER\n- Journal of Environmental Economics and Management\n\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "random coefficients",
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "instrumental variable",
+    "gmm",
+    "equilibrium",
+    "substitution",
+    "outside option",
+    "marginal cost",
+    "two-sided market",
+    "network effects",
+    "market definition",
+    "heterogeneity",
+    "fuel economy",
+    "charging infrastructure",
+    "differentiated product"
+  ],
+  "fulltext_headings": [
+    "Journal of Environmental Economics and Management 107 (2021) 102432",
+    "Contents lists available at ScienceDirect",
+    "Journal of Environmental Economics and Management",
+    "Article history:",
+    "Received 30 December 2019",
+    "Revised 28 November 2020",
+    "Accepted 11 February 2021",
+    "Available online 17 March 2021",
+    "L91",
+    "Q48",
+    "Q51",
+    "Keywords:",
+    "Electric vehicles",
+    "Substitution",
+    "Demand estimation",
+    "Second choice data",
+    "The emissions reductions from the adoption of a new transportation technology depend on",
+    "1. Introduction",
+    "2. Data description",
+    "Table 1",
+    "Variables",
+    "All Years",
+    "Mean",
+    "Household size"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 1,
+      "snippet": "dy designs, we ﬁnd that a subsidy designed to provide greater incentives\nto low-income households would have been more cost effective and less regressive.\n© 2021 Elsevier Inc. All rights reserved.\n1. Introduction\nThe diffusion of plug-in hybrid and fully electric vehicles (EVs), coupled with cleaner electricity generation, offers a promising\npathway to reduce air pollution from on-road vehicles and to strengthen energy security. In contrast to conventional gasoline\nvehicles with internal combustion engines, EVs use electricity stored in rechargeable batteries to power the motor. When oper-\nated in all-electric mode, EVs consume no gasoline and produce zero tailpipe emissions. But the stored electricity is generated\nfrom other sources such as power plants, which produce air pollution. Therefore, the environmental impacts of EVs depend on\nseveral critical factors. First, emissions created from operating EVs depend on the fuel source of electricity generation. Second,\nemissions diverted f"
+    },
+    "data": {
+      "page": 1,
+      "snippet": "December 2019\nRevised 28 November 2020\nAccepted 11 February 2021\nAvailable online 17 March 2021\nJEL classiﬁcation:\nL91\nQ48\nQ51\nKeywords:\nElectric vehicles\nSubstitution\nDemand estimation\nSecond choice data\na b s t r a c t\nThe emissions reductions from the adoption of a new transportation technology depend on\nthe emissions from the new technology relative to those from the displaced technology. We\nevaluate the emissions reductions from electric vehicles (EVs) by identifying which vehicles\nwould have been purchased had EVs not been available. We do so by estimating a random\ncoeﬃcients discrete choice model of new vehicle demand and simulating counterfactual sales\nwith EVs no longer subsidized or removed from the new vehicle market. Our results sug-\ngest that vehicles that EVs replace are relatively fuel-eﬃcient: EVs replace gasoline vehicles\nwith an average fuel economy of 4.2 mpg above the ﬂeet-wide average and 12 percent of\nthem replace hybrid vehicles. This implies that ignoring the no"
+    },
+    "model": {
+      "page": 1,
+      "snippet": "te the emissions reductions from electric vehicles (EVs) by identifying which vehicles\nwould have been purchased had EVs not been available. We do so by estimating a random\ncoeﬃcients discrete choice model of new vehicle demand and simulating counterfactual sales\nwith EVs no longer subsidized or removed from the new vehicle market. Our results sug-\ngest that vehicles that EVs replace are relatively fuel-eﬃcient: EVs replace gasoline vehicles\nwith an average fuel economy of 4.2 mpg above the ﬂeet-wide average and 12 percent of\nthem replace hybrid vehicles. This implies that ignoring the non-random replacement of gaso-\nline vehicles would result in overestimating emissions beneﬁts of EVs by 39 percent. Federal\nincome tax credits resulted in a 29 percent increase in EV sales, but 70 percent of the credits\nwere obtained by households that would have bought an EV without the credits. By simulat-\ning alternative subsidy designs, we ﬁnd that a subsidy designed to provide greater incentives\nto"
+    },
+    "results": {
+      "page": 1,
+      "snippet": "e. We do so by estimating a random\ncoeﬃcients discrete choice model of new vehicle demand and simulating counterfactual sales\nwith EVs no longer subsidized or removed from the new vehicle market. Our results sug-\ngest that vehicles that EVs replace are relatively fuel-eﬃcient: EVs replace gasoline vehicles\nwith an average fuel economy of 4.2 mpg above the ﬂeet-wide average and 12 percent of\nthem replace hybrid vehicles. This implies that ignoring the non-random replacement of gaso-\nline vehicles would result in overestimating emissions beneﬁts of EVs by 39 percent. Federal\nincome tax credits resulted in a 29 percent increase in EV sales, but 70 percent of the credits\nwere obtained by households that would have bought an EV without the credits. By simulat-\ning alternative subsidy designs, we ﬁnd that a subsidy designed to provide greater incentives\nto low-income households would have been more cost effective and less regressive.\n© 2021 Elsevier Inc. All rights reserved.\n1. Introduction"
+    },
+    "conclusion": null
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper asks what vehicles EVs actually replace, because emissions benefits depend on the substitute, not just on the new EV sale.",
+      "Which papers are treated as the nearest neighbors: EV emissions studies and vehicle-demand papers."
+    ],
+    "session": [
+      "Retrieve by key/title: LXUZM7VX / What does an electric vehicle replace?",
+      "Use collections and journal handles: 20papers_import, Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Xing et al., 2021) / Xing et al. (2021)"
+    ],
+    "agent": [
+      "Research design type: structural demand estimation with counterfactual simulation.",
+      "BLP positioning: canonical BLP demand-supply"
+    ],
+    "team": [
+      "Best framing sentence pattern: \"The relevant counterfactual is not whether an EV is purchased, but what it displaces.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

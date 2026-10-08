@@ -1,0 +1,158 @@
+{
+  "rank": 28,
+  "item_key": "3XDZXLTP",
+  "title": "Winners and Losers: the Distributional Effects of the French Feebate on the Automobile Market",
+  "authors": [
+    "Isis Durrmeyer"
+  ],
+  "creators": [
+    {
+      "name": "Isis Durrmeyer",
+      "type": "author"
+    }
+  ],
+  "date": "2022-00-00 2022",
+  "journal": "The Economic Journal",
+  "doi": "10.1093/ej/ueab084",
+  "url": "https://doi.org/10.1093/ej/ueab084",
+  "collections": [
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Durrmeyer, I. (2022). Winners and Losers: the Distributional Effects of the French Feebate on the Automobile Market. The Economic Journal. https://doi.org/10.1093/ej/ueab084",
+    "parenthetical": "(Durrmeyer, 2022)",
+    "narrative": "Durrmeyer (2022)"
+  },
+  "preferred_pdf_rel": "source_pdfs/28_3xdzxltp.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "ZZXH8ERF",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:wp_tse_950.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\ZZXH8ERF\\wp_tse_950.pdf",
+    "exists": true,
+    "size": 1033767
+  },
+  "legacy_note_rel": "raw/notes/28_3xdzxltp.md",
+  "legacy_old_memory_rel": "raw/paper_memory/28_3xdzxltp.md",
+  "fulltext_json_rel": "raw/fulltext/28_3xdzxltp.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/28_3xdzxltp.fulltext.txt",
+  "llm_json_rel": "raw/ocr_llm/28_3xdzxltp.llm.json",
+  "llm_md_rel": "raw/ocr_llm/28_3xdzxltp.llm.md",
+  "note_sections": {
+    "1. One-paragraph thesis": "- 从问题出发：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.\n- BLP-related structural paper\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.",
+    "2. Story ladder": "- 从问题出发：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.\n- 把识别对象具体化：I estimate a structural model of demand and supply that features heterogeneity in consumer preferences to go beyond the average policy effects and analyse distributional aspects.\n- 用结构模型推进：I estimate a structural model of demand and supply that features heterogeneity in consumer preferences to go beyond the average policy effects and analyse distributional aspects.\n- 最后把结果落到政策/福利含义：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.",
+    "3. Model or identification core": "- Structural classification: BLP-related structural paper\n- Model anchor: The paper uses a differentiated-product or adjacent structural framework.\n- Read this section as the place where the endogenous object, identification move, and counterfactual payoff are tied together.",
+    "4. Data and measurement": "- Data section must be read together with the recovered fulltext headings and paper PDF.\n- Recovered section headings: headings not recovered",
+    "5. Findings and mechanisms": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.",
+    "6. Contribution construction": "- 从问题出发：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.",
+    "7. Literature review function": "- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+    "8. Writing structure map": "- Recovered section order:\n- headings not recovered",
+    "9. Reusable writing moves": "- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。",
+    "10. Memory update": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_3xdzxltp_winners-and-losers-the-distributional-effects-of-the-french-feebate-on-the-autom\ndescription: Fulltext BLP reading memory for Winners and Losers: the Distributional Effects of the French Feebate on the Automobile Market; includes story logic, BLP model shape, writing structure, and policy payoff.\ntype: reference\n---\n\n# Winners and Losers: the Distributional Effects of the French Feebate on the Automobile Market",
+    "Citation": "- Key: `3XDZXLTP`\n- DOI: `10.1093/ej/ueab084`\n- Journal: The Economic Journal\n- Year: 2022\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\3XDZXLTP.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/3XDZXLTP/3XDZXLTP.llm.json`",
+    "Read Status": "- 本记忆基于全文 OCR 结果，不是只基于题录摘要。\n- OCR 引擎：MinerU 优先，DirectML 加速，关闭表格识别以避免已知编码错误；输出为 `llm.md` + `llm.json` + `chunks.jsonl`。",
+    "Story Question": "- 核心问题：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.",
+    "Story Logic": "- 从问题出发：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.\n- 把识别对象具体化：I estimate a structural model of demand and supply that features heterogeneity in consumer preferences to go beyond the average policy effects and analyse distributional aspects.\n- 用结构模型推进：I estimate a structural model of demand and supply that features heterogeneity in consumer preferences to go beyond the average policy effects and analyse distributional aspects.\n- 最后把结果落到政策/福利含义：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.",
+    "How BLP Enters": "- 分类判断：BLP-style differentiated-product demand\n- 触发证据：random coefficients, discrete choice, marginal cost, welfare, counterfactual, instrument\n- 读法提醒：这里的“BLP”既可能是严格的随机系数需求+供给均衡，也可能只是沿用差异化产品结构需求与福利反事实的传统。",
+    "Model Shape": "- Demand side: 需求侧明显是随机系数离散选择框架。 市场份额/替代关系是识别核心对象。\n- Heterogeneity: 摘要直接强调偏好异质性，说明异质性是模型解释政策分布效应的关键。\n- Supply side: 文中显式处理供给侧，通常是 Nash-Bertrand 定价、边际成本恢复与均衡反事实。\n- Identification / estimation: 识别中明确出现工具变量/外生冲击。\n- Counterfactual / welfare: 摘要直接说明会做福利/反事实模拟，因此模型的终点是政策比较而不仅是弹性估计。",
+    "Writing Structure": "- 从 OCR 章节树看，正文大体按照下面顺序展开：\n- October 2021\n- “Winners and Losers: The Distributional Effects of the French Feebate on the Automobile Market”\n- Isis Durrmeyer\n- Toulouse School of Economics\n- Winners and Losers: The Distributional Effects of the French Feebate on the Automobile Market\n- Short title: Winners & losers from the French feebate\n- Isis Durrmeyer\n- October 19, 2021\n- Abstract\n- JEL codes: L51, Q51, D12\n- Keywords: policy evaluation, structural model, distributional effects\n- 1 Introduction\n- 1The World Health Organization estimates that ambient air pollution caused 4.2 million premature deaths worldwide in 2016.\n- Switzerland.\n- 2 Institutional details and data\n- 2.1 The feebate policy\n- 2.2 Data\n- 2.3 Assumptions on emissions\n- 4See https://19january2017snapshot.epa.gov/climatechange/social-cost-carbon_.html, last accessed: 1 July 2021.\n- 6See Opendatasoft for the municipality surface area data.\n- 2.4 Descriptive evidence\n- 3 Model\n- 3.1 Demand\n- 3.2 Supply\n- 3.3 Market equilibrium under the feebate regulation\n- The market shares under the feebate policy are:\n- The optimal prices satisfy:\n- 3.4 Estimation\n- 3.5 Discussion\n- 4 Estimation results",
+    "Reusable Writing Moves": "- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。",
+    "OCR Section Anchors": "",
+    "Memory Notes": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "theory_design_memory": "- 从问题出发：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.\n- BLP-related structural paper\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.\n\n- 从问题出发：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.\n- 把识别对象具体化：I estimate a structural model of demand and supply that features heterogeneity in consumer preferences to go beyond the average policy effects and analyse distributional aspects.\n- 用结构模型推进：I estimate a structural model of demand and supply that features heterogeneity in consumer preferences to go beyond the average policy effects and analyse distributional aspects.\n- 最后把结果落到政策/福利含义：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.\n\n- Structural classification: BLP-related structural paper\n- Model anchor: The paper uses a differentiated-product or adjacent structural framework.\n- Read this section as the place where the endogenous object, identification move, and counterfactual payoff are tied together.\n\n- Data section must be read together with the recovered fulltext headings and paper PDF.\n- Recovered section headings: headings not recovered\n\n- 从问题出发：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.\n\n- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+  "baseline_core_memory": "- Structural classification: BLP-related structural paper\n- Model anchor: The paper uses a differentiated-product or adjacent structural framework.\n- Read this section as the place where the endogenous object, identification move, and counterfactual payoff are tied together.",
+  "mechanism_memory": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.\n\n- 从问题出发：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.\n- 把识别对象具体化：I estimate a structural model of demand and supply that features heterogeneity in consumer preferences to go beyond the average policy effects and analyse distributional aspects.\n- 用结构模型推进：I estimate a structural model of demand and supply that features heterogeneity in consumer preferences to go beyond the average policy effects and analyse distributional aspects.\n- 最后把结果落到政策/福利含义：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.",
+  "result_memory": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.\n\n- Results anchor: the data and provides some descriptive evidence. In Section 3, I describe the structural model of the market equilibrium and the estimation method. Section 4 presents the model specification and the estimation results. In Section 5, I analyse the aggregate and distributional effects of the feebate policy and evaluate t\n- Conclusion anchor: In this paper, I quantify both the direct and indirect effects of the feebate policy and find that it increases global welfare. Consumers are worse off when they are taxed to subsidise the policy cost, but their loss is more than offset by an increase in the profits of French manufacturers. With a uniform tax rate, the",
+  "writing_style_memory": "- Recovered section order:\n- headings not recovered\n\n- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。\n\n- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。",
+  "professional_vocab": [
+    "random coefficients",
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "equilibrium",
+    "substitution",
+    "outside option",
+    "marginal cost",
+    "heterogeneity",
+    "fuel economy",
+    "differentiated product"
+  ],
+  "fulltext_headings": [
+    "October 2021",
+    "Isis Durrmeyer",
+    "SE",
+    "Toulouse School of Economics",
+    "Winners and Losers: The Distributional Effects of the French Feebate on the Automobile Market",
+    "Short title: Winners & losers from the French feebate",
+    "October 19, 2021",
+    "Abstract",
+    "JEL codes: L51, Q51, D12",
+    "Keywords: policy evaluation, structural model, distributional effects",
+    "1 Introduction",
+    "The externalities of",
+    "He does not rely on the level of car",
+    "2 Institutional details and data",
+    "2.1 The feebate policy",
+    "Table 1: Feebate scheme in 2008",
+    "2.2 Data",
+    "2.3 Assumptions on emissions",
+    "To understand how the feebate, which is based on",
+    "I use the uniform value of",
+    "2.4 Descriptive evidence",
+    "3 Model",
+    "3.1 Demand",
+    "I consider"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 2,
+      "snippet": "Winners and Losers: The Distributional Effects of the French Feebate on the Automobile Market\nShort title: Winners & losers from the French feebate\nIsis Durrmeyer\nOctober 19, 2021\nAbstract\nI quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008. I estimate a structural model of demand and supply that features heterogeneity in consumer preferences to go beyond the average policy effects and analyse distributional aspects. The policy reduces average carbon emissions by 1.6% at the cost of additional emissions of local pollutants. The regulation favours middle-income individuals but has redistributive effects when combined with a tax that is proportional to income. Moreover, local pollutant emissions increase least in poor and rural areas, suggesting another redistribution channel.\nJEL codes: L51, Q51, D12\nKeywords: policy evaluation, structural model, distributional effects\n1 Intr"
+    },
+    "data": {
+      "page": 2,
+      "snippet": "and ANR-17-EUR-0010 (Investissements d’Avenir program). I would like to thank Pierre-Louis Debar and Julien Mollet from the Comit´e des Constructeurs Fran¸cais d’Automobiles for providing me with the data.\n1"
+    },
+    "model": {
+      "page": 2,
+      "snippet": "yer\nOctober 19, 2021\nAbstract\nI quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008. I estimate a structural model of demand and supply that features heterogeneity in consumer preferences to go beyond the average policy effects and analyse distributional aspects. The policy reduces average carbon emissions by 1.6% at the cost of additional emissions of local pollutants. The regulation favours middle-income individuals but has redistributive effects when combined with a tax that is proportional to income. Moreover, local pollutant emissions increase least in poor and rural areas, suggesting another redistribution channel.\nJEL codes: L51, Q51, D12\nKeywords: policy evaluation, structural model, distributional effects\n1 Introduction\nPolicy evaluation tends to focus on the average or overall impact, often neglecting the importance of distributional effects. For instance, the long-lasting “yellow vests"
+    },
+    "results": {
+      "page": 7,
+      "snippet": "the data and provides some descriptive evidence. In Section 3, I describe the structural model of the market equilibrium and the estimation method. Section 4 presents the model specification and the estimation results. In Section 5, I analyse the aggregate and distributional effects of the feebate policy and evaluate the performance of the feebate scheme. Finally, Section 6 concludes.\n2 Institutional details and data\n2.1 The feebate policy\nThe environmental feebate policy was announced at the end of November 2007 and was applied on January 1st, 2008. This policy was one of several measures taken by the government following the Grenelle Environnement roundtables addressing environmental issues. The main objective of this policy was to reduce\n\\mathrm { C O _ { 2 } }\nemissions related to automobiles. The policy was announced as permanent and was supposed to be neutral for the state budget. Its actual cost reached e294 million in 2008 and e626 million in 2009, according to the official fi"
+    },
+    "conclusion": {
+      "page": 35,
+      "snippet": "6 Conclusion\nIn this paper, I quantify both the direct and indirect effects of the feebate policy and find that it increases global welfare. Consumers are worse off when they are taxed to subsidise the policy cost, but their loss is more than offset by an increase in the profits of French manufacturers. With a uniform tax rate, the feebate appears to favour the middle-income class, while it is progressive with a tax that is proportional to income. The policy decreases average\n\\mathrm { C O _ { 2 } }\nemissions by 2.2\n\\mathrm { g / }\nkm but increases average emissions of\n\\mathrm { N O } _ { \\mathrm { X } }\nand PM, the most hazardous air pollutants. Emissions of local pollutants increase most where they are initially lowest, namely, in rich and dense municipalities, achieving more redistributio"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "从问题出发：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008.",
+      "从问题出发：Abstract I quantify the welfare and environmental gains and losses from a policy establishing an environmental tax/subsidy for new cars in France in 2008."
+    ],
+    "session": [
+      "Retrieve by key/title: 3XDZXLTP / Winners and Losers: the Distributional Effects of the French Feebate on the Automobile Market",
+      "Use collections and journal handles: BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Durrmeyer, 2022) / Durrmeyer (2022)"
+    ],
+    "agent": [
+      "Structural classification: BLP-related structural paper",
+      "Check how the paper modifies or simplifies canonical BLP before borrowing its structure."
+    ],
+    "team": [
+      "典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

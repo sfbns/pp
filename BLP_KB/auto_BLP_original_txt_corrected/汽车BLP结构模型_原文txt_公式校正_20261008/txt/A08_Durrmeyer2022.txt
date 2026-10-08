@@ -1,0 +1,1907 @@
+==============================================================================
+【文献】Durrmeyer (2022). Winners and Losers: The Distributional Effects of the French Feebate on the Automobile Market. Economic Journal 132(644): 1414-1448.
+【编号】A08　【简称】Durrmeyer2022　【分组】需求侧
+【原文 PDF】C:\Users\于舒奕\Downloads\Winners_and_Losers__the_Distributional_Effects_of_the_French_Feebate_on_the_Automobile_Market.pdf
+【页数】35 页　【页码换算】印刷（期刊）页码 = PDF 页码 + 1413
+【文本来源】PyMuPDF 抽取 PDF 文字层（按版面块排序）
+【公式校正】本篇未逐式校正。正文公式为机器抽取，常有错位、缺字或乱码，引用公式请以原 PDF 为准
+【使用提醒】正文是机器抽取的原文，不是译文；公式区以页末校正或原 PDF 为准。页标记中的 PDF 页码可直接用于在原 PDF 中翻页定位。
+==============================================================================
+
+===== [PDF 第 1 页｜印刷第 1414 页] =====
+The Economic Journal, 132 (May), 1414–1448 https://doi.org/10.1093/ej/ueab084 C⃝2021 Royal Economic Society. Published by Oxford University Press. All
+rights reserved. For permissions please contact journals.permissions@oup.com.
+Advance Access Publication Date: 21 October 2021
+
+
+ WINNERS AND LOSERS: THE DISTRIBUTIONAL EFFECTS
+
+    OF THE FRENCH FEEBATE ON THE AUTOMOBILE
+                  MARKET∗
+
+                                              Isis Durrmeyer
+
+
+       I quantify the welfare and environmental gains and losses from a policy establishing an environmental
+     tax/subsidy for new cars in France in 2008. I estimate a structural model of demand and supply that features
+     heterogeneity in consumer preferences to go beyond the average policy effects and analyse distributional
+      aspects. The policy reduces average carbon emissions by 1.6% at the cost of additional emissions of local
+      pollutants. The regulation favours middle-income individuals but has redistributive effects when combined
+     with a tax that is proportional to income. Moreover, local pollutant emissions increase least in poor and rural
+      areas, suggesting another redistribution channel.
+
+
+Policy evaluation tends to focus on the average or overall impact, often neglecting the importance
+of distributional effects. For instance, the long-lasting ‘yellow vests’ protests in France, which
+began in October 2018 and destabilised the government, illustrate the crucial role of distributional
+effects for public policy acceptance. The movement started after an increase in the diesel tax, a
+measure with a low expected impact on the overall population that severely penalised suburban
+and rural households that rely heavily on cars for work and social activities. Another example is
+the strong reaction of the Chilean population to a small subway fare price increase in October 2019
+in the capital city Santiago. Understanding a policy’s distributional effects is especially relevant
+when it favours some individuals at the expense of others. This the case with the 2008 French
+environmental feebate (‘bonus/malus’). This environmental policy introduces a combination of
+purchase taxes and subsidies for new cars based on their carbon dioxide (CO2) emission levels.
+The purchase of low-emission vehicles is encouraged through a rebate (‘bonus’) that reaches up
+to €1,000, while the purchase of high-emission cars is discouraged through a tax (‘malus’) of up
+to €2,600.
+  This paper evaluates the 2008 French feebate policy and analyses its distributional effects.
+There are two types of gains and losses for French households from the feebate policy: a direct
+effect through the amount spent by individuals and the characteristics of their car purchases
+and an indirect effect from the air quality. By targeting CO2 emissions, the feebate policy
+
+  ∗Corresponding author: Isis Durrmeyer, Toulouse School of Economics, University of Toulouse Capitole, 1 Esplanade
+de l’Universit´e, 31080 Toulouse, France. Email: isis.durrmeyer@tse-fr.eu
+
+  This paper was received on 2 November 2018 and accepted on 9 October 2021. The Editor was Nezih Guner.
+
+  The data and codes for this paper are available on the Journal repository. They were checked for their ability to
+reproduce the results presented in the paper. The replication package for this paper is available at the following address:
+https://doi.org/10.5281/zenodo.5536313.
+
+   I would like to thank Estelle Cantillon, Rob Clark, Allan Collard-Wexler, Xavier D’Haultfœuille, Pierre Dubois,
+Philippe F´evrier, Gautam Gowrisankaran, Nezih Guner, Nina Leheyda, Laurent Linnemer, Nicolas Martinez, Andrea
+Pozzi, Mathias Reynaert, Alex Sanz Fernandez, Philipp Schmidt-Dengler, Monika Schnitzer, Giulia Tani, Andre Trindade
+and Frank Verboven for their helpful comments and suggestions. I would also like to thank the participants of various
+seminars and conferences. I acknowledge ﬁnancial support from the Deutsche Forschungsgemeinschaft through SFB-
+TR 15, the Agence Nationale de Recherche under grants ANR-CAREGUL and ANR-17-EUR-0010 (Investissements
+d’Avenir program). I would like to thank Pierre-Louis Debar and Julien Mollet from the Comit´e des Constructeurs
+Franc¸ais d’Automobiles for providing me with the data.
+
+                                                                  [ 1414 ]
+
+===== [PDF 第 2 页｜印刷第 1415 页] =====
+2022]          winners and losers from the french feebate           1415
+
+favours diesel cars, which, relative to gasoline cars, are associated with higher emissions of
+nitrogen oxide (NOX) and particulate matter (PM). These are the most hazardous air pollu-
+tants and directly affect the respiratory system.1 The increase in emissions of these pollutants
+caused by the feebate policy is a hidden cost that my policy evaluation takes into account.
+NOX, PM and other local pollutants downgrade the air quality near their origin, so the question
+of where they are emitted is relevant. This is, however, not the case of CO2 emissions that
+generate global pollution. The policy effect on the emissions of local pollutants is heteroge-
+neous across regions and constitutes another source of redistribution across individuals, which I
+quantify.
+   I use a structural model for the demand and supply of new automobiles to simulate the
+market equilibrium (car prices and market shares of the different car models) without the feebate
+regulation. My model predicts which car models individuals would have purchased and their
+prices, absent of the feebate policy in 2008, allowing me to identify the causal effect of the
+feebate regulation from the comparison between the market equilibria with and without the
+policy. I specify and estimate a demand model that incorporates a high level of heterogeneity
+in preferences for car attributes and price sensitivities. I leverage granular data on car sales
+at the local level to identify the heterogeneity parameters: I exploit the correlation between
+car purchases’ characteristics and consumers’ demographic characteristics across municipalities.
+Standard models fail to characterise the winners and losers because they do not specify preference
+heterogeneity as a function of individual characteristics. In contrast, I link gains or losses from
+the feebate to households’ demographic characteristics. On the supply side, I model the pricing
+strategies of car manufacturers when they are subject to the feebate regulation and estimate the
+marginal costs of all the cars proposed on the market.
+   Finally, I investigate the performance of the actual feebate scheme in redistributing beneﬁts
+across individuals and car manufacturers and limiting the diesel car share and emissions of local
+pollutants. I measure the potential gains associated with alternative feebate schemes that reach the
+same CO2 emissions reduction at the same budget cost as the 2008 feebate scheme. Among the
+set of possible feebate schemes that achieve these two objectives, I identify those that maximise
+each of the following outcomes: consumer surplus, national manufacturers’ proﬁts, reduction
+of emissions of local pollutants and diesel car share reduction. I consider different weights for
+each municipality’s outcome in the global objective: weights that are simply proportional to the
+population size; weights that are proportional to the population size and inversely proportional
+to income; a Rawlsian weighting scheme that puts all weight on the most disadvantaged mu-
+nicipality and a weighting system that takes into account only the difference between the best
+and the worst outcomes. I focus on three classes of feebate schemes: one that taxes and sub-
+sidises equally gasoline and diesel cars and two that penalise diesel cars (with different levels of
+penalisation).
+  The identiﬁcation of the policy effect relies on the assumption that the feebate has a price
+effect. I do not model and estimate any potential side effects that the regulation could generate.
+The introduction of taxes and rebates based on CO2 emissions may transmit some information on
+how society values the environment. It is also plausible that this new policy makes environmental
+friendliness a more salient car characteristic. D’Haultfœuille et al. (2016) provide evidence of a
+shift in preferences towards low-emission cars in 2008, suggesting a potential additional policy
+
+
+   1 The World Health Organization estimates that ambient air pollution caused 4.2 million premature deaths worldwide
+in 2016.
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 3 页｜印刷第 1416 页] =====
+1416                    the economic journal                    [may
+
+effect on top of the pecuniary incentives. Because there is no direct evidence that the feebate
+policy is responsible for the shift in preferences except for the time coincidence, I prefer to focus
+my analysis on the pure pecuniary incentive effect of the policy.
+   I adopt a structural approach rather than a reduced-form approach because most of the outcomes
+of interest, such as consumer surplus and car manufacturer proﬁts, are not directly observable but
+can be expressed as functions of the model parameters. My model ﬂexibly represents consumers’
+car choice and converts the policy’s impact into monetary terms. Finally, with such a structural
+approach, it is possible to quantify the impacts of hypothetical feebates used to evaluate the
+performance of the 2008 feebate.
+   I ﬁnd that the policy increases annual welfare by €115 million to €119 million. This overall
+welfare effect balances the consumer surplus, car manufacturer proﬁts with the budget cost of the
+policy for the government and the value of emissions generated or avoided. In addition to CO2,
+NOX and PM emissions, I account for carbon monoxide (CO) and hydrocarbon (HC) emissions.
+I ﬁnd that the French households overall gain from the policy, but if the policy cost is ﬁnanced
+by taxing them, their overall surplus decreases by €39 million. The budget cost of the policy
+reaches €210 million that necessitates an average household tax of €23.9 million to be ﬁnanced.
+French car manufacturers considerably beneﬁt from the feebate policy, with an increase of €158
+million in their proﬁts. Average CO2 emissions from car purchases decreased by 1.6%, but overall
+annual new car emissions increased. Once converted in monetary terms, the change in annual
+CO2 emissions generates a loss of €0.49 million. This cost can turn into a beneﬁt when taking
+into account that extra new car sales are old car replacements. Lastly, average emissions of NOX
+and PM increase, while those of CO and HC decrease. Overall, the annual cost of local pollutant
+emissions increases under all assumptions on the origin of extra new car sales, reducing welfare
+by €0.015 million to €1.31 million.
+  Beyond the overall policy effect, I ﬁnd heterogeneous impacts across households and car
+manufacturers. On the consumer side, the distributional consequences depend on the tax system
+used to ﬁnance the feebate budget cost. Under a uniform tax (identical for all individuals),
+the feebate scheme favours middle-income individuals. In contrast, if the tax is proportional to
+income, the feebate achieves some redistribution from the richest to the poorest households. The
+2008 feebate performance is high in terms of maximising consumer surplus, with potential gains
+below 0.5%. Consumer surplus inequalities could potentially be further reduced by more than
+10%. However, this reduction would come at the cost of a decrease in total consumer surplus. On
+the car manufacturer side, the feebate heavily stimulates French manufacturers at the expense of
+most German manufacturers and some Asian and American manufacturers. There is little room
+to improve French car manufacturers’ proﬁts; the current feebate scheme achieves more than
+99.5% of the maximum proﬁts obtainable with alternative feebates, depending on the weights
+assigned to each car manufacturer and the feebate class.
+ A side effect of the feebate policy is that it pushes individuals to buy cars that, on average,
+emit 0.5% more NOX emissions and 0.3% more PM emissions indicating potential consequences
+for local air quality. Emissions increase the most in municipalities where they are initially the
+lowest, implying another type of redistribution in favour of high-emissions municipalities. The
+municipalities where NOX and PM emissions increase most are rich and dense municipalities,
+where the diesel car share is initially moderate. However, these municipalities are associated
+with larger decreases in the average emissions of CO and HC, reﬂecting the trade-off between
+pollutants. The municipalities where emissions increase most are also those where pollution is
+typically a critical issue. I ﬁnd that NOX emissions increase most in municipalities where nitrogen
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 4 页｜印刷第 1417 页] =====
+2022]          winners and losers from the french feebate           1417
+
+dioxides in the ambient air are the highest. My assessment of the feebate performance indicates
+that local pollutants’ rise could be lower under alternative feebate schemes. I ﬁnd that moderate
+increases in NOX and PM emissions are possible, especially with diesel-penalising feebates.
+However, this comes at the cost of higher CO and HC emissions, indicating that it is impossible
+to improve emissions rates for all pollutants simultaneously.
+  This paper complements two other studies on the effects of the French feebate policy. The ﬁrst
+study, by D’Haultfœuille et al. (2014), quantiﬁes the short- and long-term impacts of the feebate
+on CO2 emissions. A second study, by D’Haultfœuille et al. (2016), disentangles the sources of
+CO2 emissions reduction in the automobile market over the period 2003–2008 and quantiﬁes the
+role of the feebate policy. These two papers focus on aggregate outcomes only and do not consider
+the heterogeneity in the feebate’s impacts or its distributional consequences; nor do they consider
+its collateral effects on the emissions of local air pollutants. The two papers estimate the full
+policy impact, including its side effect, while my analysis is bound to the pecuniary effect of the
+policy. D’Haultfœuille et al. (2016) rely, as I do here, on a structural model of demand and supply
+to describe the car market. In contrast, D’Haultfœuille et al. (2014) identify the feebate’s effects
+on car market shares directly, without relying on an equilibrium model for the automobile market.
+The identiﬁcation strategy relies on comparing market shares between 2007 and 2008, controlling
+for differences in observables. The paper by D’Haultfœuille et al. (2014) also investigates the
+feebate’s effect on total CO2 emissions through the car replacement rate and car production, which
+my analysis neglects. However, the authors cannot balance the environmental policy effects with
+local pollution and the welfare gains and losses from households and car manufacturers, which I
+can do.
+  Other related papers evaluate the impacts of hypothetical and actual environmental policies
+on the automobile market using structural models. Goldberg (1998) is the ﬁrst to model and
+analyse the effects of fuel economy standards in the United States. Huse (2012) examines the
+effect of an asymmetric regulation in the Swedish car market: the ‘green car rebate’, which is
+awarded under different standards depending on whether the car uses fossil fuel or renewable
+energy. Adamou et al. (2014) evaluate the welfare effects of a hypothetical feebate policy
+in the German automobile market. Durrmeyer and Samano (2018) compare the efﬁciency of
+hypothetical feebate-type policies with fuel economy standards. These studies focus on aggregate
+effects and do not investigate the distributional consequences of the regulations or their impacts
+on air quality.
+  The externalities of CO2-based regulation on local pollution have been theoretically inves-
+tigated by Ambec and Coria (2013) and empirically by Linn (2019). The latter compares the
+effects of hypothetical fuel taxes and vehicle taxes on the level of NOX. Linn does not rely on
+the level of car NOX emissions as I do here, and the only heterogeneity in NOX emissions comes
+from the fuel type in his model.
+  The ﬁrst papers studying the distributional consequences of automobile market regulations
+focus on gas and carbon taxes. Bento et al. (2009) study the distributional effects of an increase
+in the gas tax using a model that represents car purchases and car usage, while West (2004)
+investigates alternative regulations to gas taxes such as vehicle subsidies. A few papers evaluate
+whether other types of environmental regulations on the automobile market are progressive or
+regressive. For instance, Jacobsen (2013) estimates the welfare effects of an increase in fuel
+economy standards by income class. My paper is close to three recent articles that focus on the
+distributional aspects of different environmental regulations. Davis and Knittel (2019) quantify
+the distributional effects of fuel economy standards in the United States and ﬁnd that the standards
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 5 页｜印刷第 1418 页] =====
+1418                    the economic journal                    [may
+
+are mildly progressive. Their study differs from mine because they do not rely on an equilibrium
+model for the car market. Instead, they calculate the implicit subsidy or tax implied by the standard
+for all cars purchased and use this to measure consumers’ gains or losses. Holland et al. (2019)
+investigate the distributional effects of the introduction of electric vehicles and the consequences
+of the displacement of emissions from the road to power plants. Finally, Levinson (2019) provides
+theoretical and empirical evidence that fuel economy standards are more regressive than fuel taxes
+using household transportation survey data. This study, like Davis and Knittel (2019), does not
+use a demand and supply model and assumes that agents do not reoptimise their vehicle choice
+under different tax schemes.
+  Several recent papers quantify the distributional effects of environmental regulation in contexts
+other than the automobile market: Bento et al. (2015) use a hedonic regression approach on hous-
+ing prices to study the distribution of gains and costs related to the Clean Air Act Amendments;
+Borenstein and Davis (2016) evaluate the effects of tax credits on clean energy in the United
+States; Reguant (2019) analyses the distributional consequences of alternative subsidy schemes
+for renewable electricity generation; Feger et al. (2020) focus on the distribution of the gains and
+losses associated with subsidies for solar panels in Switzerland.
+  This paper evaluates the performance of the 2008 feebate setup by comparing its outcomes
+to those of optimal schemes associated with given objective functions and outcomes. This study
+contributes to the literature on optimal environmental regulation in line with the recent papers
+by Holland et al. (2016) and Allcott and Kessler (2019). The former computes the optimal
+electric vehicle purchase taxes or subsidies when they can be geographically differentiated. The
+latter paper derives the optimal targeting of individuals in an energy conservation information
+programme.
+  From a methodological point of view, this paper uses a combination of aggregate and individual
+data to estimate demand and supply. Unlike Petrin (2002) and Berry et al. (2004), I do not
+observe individual car purchases with direct links between individual choices and demographic
+characteristics. Instead, I exploit the correlation between the average characteristics of cars
+purchased and the average demographic characteristics of the local municipality. The way I use
+local-level data and the estimation method closely follow Nurski and Verboven (2016).
+  The remainder of the paper proceeds as follows. The next section presents the feebate policy,
+describes the data and provides some descriptive evidence. In Section 2, I describe the structural
+model of the market equilibrium and the estimation method. Section 3 presents the model
+speciﬁcation and the estimation results. In Section 4, I analyse the aggregate and distributional
+effects of the feebate policy and evaluate the performance of the feebate scheme. Finally, Section 5
+concludes.
+
+
+1. Institutional Details and Data
+
+1.1. The Feebate Policy
+
+The environmental feebate policy was announced at the end of November 2007 and was applied
+on 1 January 2008. This policy was one of several measures taken by the government following
+the Grenelle Environnement roundtables addressing environmental issues. The main objective
+of this policy was to reduce CO2 emissions related to automobiles. The policy was announced
+as permanent and was supposed to be neutral for the state budget. Its actual cost reached €294
+million in 2008 and €626 million in 2009, according to the ofﬁcial ﬁgures provided in the report
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 6 页｜印刷第 1419 页] =====
+2022]          winners and losers from the french feebate           1419
+
+                            Table 1. Feebate Scheme in 2008.
+
+              Class of                 Emissions             Feebate             Percentage of
+              emissions                   (in g/km)                 (in €)             2007 prices
+
+        A                       [61–100]            −1,000              8.0%
+         B                      [101–120]           −700               4.6%
+        C+                    [121–130]           −200               1.1%
+        C−                    [131–140]              0                 0.0%
+        D                      [141–160]              0                 0.0%
+         E+                     [161–165]           +200            −0.93%
+         E−                     [166–200]           +750            −3.1%
+           F                      [200–250]           +1,600           −4.2%
+        G              > 250             +2,600           −5.2%
+
+              Notes: The feebate is positive for a fee and negative for a rebate.
+
+
+of the CGDD (Commissariat G´en´eral au D´eveloppement Durable) (2013), the former French
+ministry of ecology. The report notes that two factors were not well accounted for in the model
+prediction: an increase in fuel prices and the high popularity of low-emission cars. The feebate
+scheme includes rebates and taxes associated with nine classes of CO2 emissions (see Table 1).
+The amounts of the rebates and taxes were supposed to remain constant, whereas the thresholds
+were to be reduced by ﬁve grams per kilometre (g/km hereafter) each year from 2010 onwards to
+take into account technical progress. I focus only on the feebate effects for the year 2008 because
+car manufacturers were not able to react to the policy by modifying their car characteristics and
+car assortment between November 2007 and 2008 but rather reacted to the policy by changing
+their car prices, a change that is possible to model credibly. The quantiﬁcation of the welfare
+effects after 2008 is more challenging because it requires a model with endogenous product
+characteristics (see Klier and Linn, 2012).
+  As Table 1 shows, the amounts of the rebates and fees represent a non-negligible percentage of
+the purchase prices and reach 8% of the gross price for class A. They are also rather heterogeneous
+across classes, indicating that the feebate scheme affected the market equilibrium in a non-
+symmetric way.
+
+
+1.2. Data
+
+In this analysis, I combine two main datasets. The ﬁrst one was obtained from the French
+Syndicate of Car Manufacturers (‘Comit´e des Constructeurs Franc¸ais d’Automobiles’) (CCFA,
+2003–2008) and contains information about new car characteristics and sales from 2003 to 2008
+at the municipality level. This database is constructed from the records of all registrations of
+new cars purchased by French households. I observe the main car characteristics (horsepower,
+weight, cylinder, type of fuel, and body style), including the level of CO2 emissions (from
+driving cycle tests) and the catalogue price. The level of CO2 emissions from tests is likely to
+underestimate true CO2 emissions, as pointed out by Reynaert and Sallee (2021). However, this
+is not problematic for estimates of the changes in CO2 emissions in percentage terms as long as
+the bias reﬂects a constant factor proportional to the true emissions and is uniform across cars
+and car manufacturers, an assumption adopted by Reynaert and Sallee (2021).
+   I constructed the second dataset that contains the demographic characteristics of the house-
+holds for 31,588 of the 36,569 municipalities in France; these data were obtained from several
+publicly available datasets provided by the French National Survey Institute (Institut National de
+
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 7 页｜印刷第 1420 页] =====
+1420                    the economic journal                    [may
+
+la statistique et des ´etudes ´economiques) (see INSEE, 2003–2008).2 The dataset combines in-
+formation on the median income level and the number of households for each year between
+2003 and 2008 with data from the 2008 census on household size and socio-professional
+activities.
+
+
+1.3. Assumptions on Emissions
+
+1.3.1. Emissions of local pollutants
+Because the CCFA data do not provide information on emissions of local pollutants for each
+car model, I estimate these emissions from observable car characteristics using a reduced-form
+equation. To do so, I rely on two datasets from the French Environment and Energy Management
+Agency (ADEME, 2012–2015) and the UK Vehicle Certiﬁcation Agency (2000–2018) that
+provide information on the emissions levels of all car models. Details on the data, the reduced-
+form model and the results are provided in Online Appendix A. I ﬁnd that the predicted emissions
+are in line with the observed emissions for 2008 in the UK data. NOX and PM are much higher
+for diesel engines than for gasoline engines. In contrast, emissions of CO and HC are lower
+for diesel engines than for gasoline engines. This pattern is consistent with differences in the
+emissions technology of the different engines and the observed emissions in the ADEME and UK
+data.3 I also estimate the same reduced-form equation for CO2 emissions and use the comparison
+between the observed and predicted values to test the external validity of the prediction model. I
+ﬁnd a high correlation coefﬁcient of 0.88 between true CO2 emissions and predicted emissions
+across car models, indicating that the prediction model is able to capture the heterogeneity in
+emissions of different car models.
+  To understand how the feebate, which is based on CO2 emissions, may affect the emissions
+of other pollutants, I analyse the correlations between the different pollutants (see Table A.4 in
+Online Appendix A.2). CO2 emissions are positively correlated with those of CO (0.17) and HC
+(0.26) and negatively correlated with those of NOX (−0.23) and PM (−0.18). The high negative
+correlations between CO2 and NOX and PM emissions are, however, almost entirely driven by
+the differences between diesel and gasoline cars given that the correlation between CO2 and NOX
+becomes positive within fuel types, while the within-fuel-type correlation between CO2 and PM
+is almost zero. The effect of the feebate on NOX and PM emissions, therefore, depends crucially
+on whether individuals mostly substitute towards lower CO2-emitting cars within the same fuel
+type or switch fuels.
+  The demand model includes an outside option, which is the choice not to buy a new car.
+Given that the feebate policy is likely to modify the fraction of households choosing the outside
+option, it is important to estimate the level of emissions generated by the outside option. The
+main assumptions and the estimates are presented in Online Appendix A.3. Because the outside
+option includes a fraction of non-drivers, the emissions from the outside option are lower than
+those of an average new car in 2008 for CO2 and NOX. This is not the case for PM, CO and HC.
+The emissions from the outside option are 60% higher than those from new cars in 2008. This
+
+   2 Some municipalities are dropped from my sample because some of their statistics are missing; these are very small
+municipalities. Note that the three largest cities (Paris, Marseille and Lyon) are split into smaller units, ‘arrondissement’.
+   3 The exception is PM, for which I predict higher emissions for diesel than gasoline cars in 2008, whereas, in 2012–
+2015, the average PM emissions are higher for gasoline than diesel cars. This ranking difference is explained by a change
+in emissions standards between the two periods. Indeed, between Euro 4 and Euro 5 standards, diesel cars’ maximum
+PM emissions level was divided by ﬁve.
+
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 8 页｜印刷第 1421 页] =====
+2022]          winners and losers from the french feebate           1421
+
+indicates that, by stimulating sales and replacement of old polluting vehicles with new vehicles
+associated with low emission levels, the feebate is likely to affect total emission non-uniformly
+across pollutants.
+
+
+1.3.2. Cost of emissions
+To perform a cost–beneﬁt analysis of the feebate regulation, I need estimates of the social costs
+of CO2 emissions and air pollutant emissions. For CO2 emissions, I use the uniform value of €40
+per ton, which is close to the value estimated by the US Environmental Protection Agency.4 It
+also corresponds to the lowest value suggested by the European Commission (see DG-MOVE,
+2014). For the cost of air pollution, I include only the damage cost estimates for NOX, PM and
+HC, following the literature (there is not enough evidence of a causal direct adverse effect of CO
+on health); I use the estimates for France provided in the report of the DG-MOVE (2014) which
+are displayed in the ﬁrst row of Table A.8 in Online Appendix C. The air pollution cost of PM
+depends on the density of the municipality: it costs almost twice as much in suburban areas as in
+rural areas and more than six times more in urban areas.
+  The annual car emissions are computed assuming gasoline cars are driven 10,000 kilometres,
+while diesel cars are driven 17,000 kilometres.5 Combined with the pollution cost estimates, I
+estimate the annual average local air pollution cost per car to be €38 in 2008, and the average
+annual carbon cost of a car to be €95. For a diesel car, the average local pollution cost is between
+€50 (in rural areas) and €77 (in urban areas), and the CO2 cost is €111. In contrast, the average
+local pollution cost for a gasoline car is between €5 and €9, and its CO2 emissions cost is €74. The
+difference between diesel and gasoline comes from two factors. First, diesel cars are assumed
+to be driven 7,000 more kilometres, mechanically inﬂating the annual emissions and their costs.
+Second, diesel cars emit more NOX and PM, the costliest pollutants.
+  An emissions increase may be more costly in areas where emissions are initially high than in
+areas where they are low. To approximate such heterogeneity in emissions costs, I estimate an
+emission cost for each pollutant and municipality based on the pollution levels of the municipality.
+More precisely, I suppose a municipality emissions cost is a simple function of the emissions
+level of the municipality and calibrate this function such that the average national emissions
+cost is equal to the uniform value suggested by the report of the DG-MOVE (2014). I consider
+four different functions: linear, quadratic, discontinuous-uniform and discontinuous-linear. For
+the discontinuous functions, the cost is null for emissions below the median emissions level and
+uniform or linear above this median level. I consider three proxies for the initial emissions levels of
+the municipalities. The ﬁrst is the municipality’s average new car emissions in 2008 in the absence
+of the feebate. The second proxy is local estimates of annual average air emissions concentrations.
+I rely on emissions concentrations of nitrogen dioxide (NO2), atmospheric particles with a
+diameter of 10 micrometres or less (PM10) and benzene (as a proxy for HC) estimated using
+data from air pollution measurement stations in France. The data (from ATMO, 2010–2019, and
+EEA, 2012–2018), model and results for the prediction of the air emissions concentrations are
+presented in Online Appendix B. The third proxy is simply the population density, measured
+by the number of households divided by the municipality surface area, reﬂecting that pollution
+
+
+   4 See https://19january2017snapshot.epa.gov/climatechange/social-cost-carbon .html (last accessed: 1 July 2021).
+   5 These ﬁgures represent the average kilometres driven by diesel and gasoline cars in France in 2007 (see
+D’Haultfœuille et al., 2014).
+
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 9 页｜印刷第 1422 页] =====
+1422                    the economic journal                    [may
+
+constitutes a critical issue in the most densely populated areas.6 I provide the details on the
+calibration and statistics about the distribution of estimated costs across municipalities in Online
+Appendix C.
+
+
+1.4. Descriptive Evidence
+
+I correlate car purchase characteristics with demographic characteristics across French munic-
+ipalities through descriptive regressions. The estimated parameters provide information about
+correlations and are not interpreted as causal effects. I regress the average car price (gross of
+feebate in 2008), rebate, diesel car share, CO2 emissions and emissions of local pollutants on
+income, income squared, the share of households according to different sizes within the munici-
+pality, the share of households reporting different professional activities within the municipality,
+and municipality size (rural, with less than 20,000 inhabitants; urban, with between 20,000 and
+200,000 inhabitants; and very urban, with more than 200,000 inhabitants). I also include year in-
+teracted with the county (‘departement’) ﬁxed effects to ﬂexibly control for the general evolution
+of car purchases over time.7 The percentage of households in each category is multiplied by 10,
+so the parameters are interpreted as the effects of a 10% increase in the percentage of households
+in the category.
+
+1.4.1.  Heterogeneity of purchases
+The ﬁrst three columns of Table 2 show that the demographic characteristics are signiﬁcantly
+correlated with the average price, the average rebate and the fuel type of the cars purchased.
+Not surprisingly, I observe that higher incomes and high socio-professional categories (en-
+trepreneurs and executives) are associated with higher prices, lower rebates and lower shares
+of diesel cars. Individuals living in rural areas tend to buy more diesel cars and receive more
+rebates, but they also tend to spend more. Finally, cars are slightly cheaper in 2005–2007 than
+in 2003, while the average price paid decreases considerably in 2008 (−€1,720). This price
+change in 2008 may be the consequence of both demand and supply effects. Consumers likely
+choose more fuel-efﬁcient cars to obtain rebates, which are also cheaper cars. On the supply
+side, car manufacturers probably decrease the gross prices of polluting vehicles in response
+to the feebate. Finally, there is an increasing trend in the diesel car share, with a structural
+break in 2008 (+5.5% in 2008 versus an average trend of 2.1% over 2003–2007). In addition
+to providing evidence on the heterogeneity of purchase patterns, the signiﬁcant correlations
+support the identiﬁcation strategy for the heterogeneity parameters, which leverages the co-
+variance between the demographic characteristics and the car purchase characteristics across
+municipalities.
+
+1.4.2. Heterogeneity of emissions
+The correlations between the average emissions of cars purchased and the demographic char-
+acteristics across municipalities reveal interesting patterns. First, the patterns for NOX and PM
+emissions are closely related and share many similarities with the correlations between demo-
+graphics and the share of diesel cars. Second, the signs of the correlations between demographic
+
+   6 See Opendatasoft (2016) for the municipality surface area data.
+   7 The county unit is the second smallest level of aggregation after the municipality, with 96 different counties in
+mainland France.
+
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 10 页｜印刷第 1423 页] =====
+2022]          winners and losers from the french feebate           1423
+
+   Table 2. Regression of the Average Characteristics of Car Purchases on the Demographic
+                             Characteristics of the Municipality.
+
+                            Price     Rebate   %Diesel    CO2    NOX    PM     CO     HC
+Income                    6.29∗∗  −1.81    −1.35        3.26∗∗     2.6∗    −0.638      5.93∗∗     3.96∗∗
+                            (1.16)     (1.54)      (0.853)     (0.432)     (1.32)      (0.691)     (2.04)     (0.482)
+Income2              −0.287   −0.554†   −1.52∗∗     0.006   −3.28∗∗   −1.1∗∗       2.32∗∗  −0.154
+                           (0.256)    (0.283)    (0.185)     (0.1)       (0.297)     (0.15)      (0.429)    (0.11)
+%Couple                   3.15∗∗  −0.161      3.7∗∗    −0.171∗∗    5.43∗∗     2.5∗∗    −8.24∗∗  −1.55∗∗
+                           (0.154)    (0.241)    (0.101)     (0.054)    (0.158)     (0.09)      (0.26)     (0.055)
+%Family                   1.42∗∗     0.783∗∗    2.81∗∗   −0.359∗∗    4.25∗∗     1.97∗∗   −6.37∗∗  −1.12∗∗
+                           (0.108)    (0.156)    (0.078)     (0.042)    (0.122)    (0.063)     (0.188)    (0.044)
+%Farmer                   3.09∗∗  −0.08       5.32∗∗   −0.094      8.18∗∗     3.47∗∗   −13∗∗    −2.1∗∗
+                           (0.295)    (0.541)    (0.198)     (0.111)    (0.309)     (0.18)      (0.511)    (0.1)
+%Entrepreneur             9.37∗∗  −4.21∗∗     1.82∗∗      3.02∗∗     2.63∗∗     1.93∗∗   −7.7∗∗   −1.17∗∗
+                           (0.459)    (0.588)    (0.331)     (0.183)    (0.482)    (0.259)     (0.791)    (0.172)
+%Executive                3.69∗∗  −1.02∗∗     0.762∗∗    0.775∗∗    0.898∗∗    0.089    −3.39∗∗  −0.524∗∗
+                           (0.281)    (0.376)    (0.184)     (0.097)    (0.285)     (0.16)      (0.46)     (0.111)
+%Intermediate         −0.305     0.996∗∗    2.06∗∗   −0.679∗∗    2.72∗∗     1.63∗∗   −6.1∗∗   −1.21∗∗
+                           (0.226)    (0.345)    (0.139)     (0.08)      (0.222)    (0.128)     (0.358)    (0.074)
+%Employee               0.072   −0.367   −0.105      0.206∗  −0.24       0.567∗∗  −1.66∗∗  −0.179∗
+                           (0.243)    (0.346)    (0.175)     (0.098)    (0.256)    (0.142)     (0.417)    (0.091)
+%Manual labourer          1.12∗∗    0.52       2.73∗∗   −0.585∗∗    4.17∗∗     1.65∗∗   −7.27∗∗  −1.11∗∗
+                           (0.209)    (0.347)    (0.159)     (0.085)    (0.238)    (0.126)     (0.382)    (0.082)
+%Other                   0.861∗∗   0.08       0.465∗∗    0.175∗     0.914∗∗    0.291∗   −2.45∗∗  −0.162∗
+                           (0.203)    (0.276)    (0.147)     (0.07)      (0.237)    (0.121)     (0.367)    (0.08)
+Urban                 −2.15∗∗  −0.902∗∗  −4.35∗∗      0.524∗∗  −6.63∗∗   −2.5∗∗       9.35∗∗     1.66∗∗
+                           (0.165)    (0.237)    (0.116)     (0.057)    (0.186)    (0.102)     (0.295)    (0.06)
+Very urban             −3.26∗∗  −0.501†   −5.4∗∗       0.431∗∗  −8.33∗∗   −4.03∗∗     12.7∗∗      2.18∗∗
+                           (0.205)    (0.301)    (0.135)     (0.069)    (0.213)    (0.116)     (0.347)    (0.07)
+2004                      0.392∗               0.469∗∗  −0.839∗∗  −0.563∗∗    4.81∗∗   −5.2∗∗   −0.011
+                           (0.189)               (0.139)     (0.074)    (0.185)    (0.126)     (0.356)    (0.11)
+2005                  −1.38∗∗               0.154    −2.1∗∗   −26.1∗∗   −13.42∗∗  −16.2∗∗  −13.3∗∗
+                           (0.178)               (0.127)     (0.067)    (0.186)     (0.11)      (0.322)    (0.086)
+2006                  −4.6∗∗                 3.09∗∗   −6.19∗∗  −16.9∗∗   −16.22∗∗  −17.5∗∗  −15.2∗∗
+                            (0.21)                (0.146)     (0.077)    (0.226)    (0.128)     (0.371)    (0.092)
+2007                  −1.55∗∗                4.55∗∗   −5.95∗∗  −15.4∗∗   −32.18∗∗  −25.5∗∗  −15.7∗∗
+                           (0.218)               (0.145)     (0.078)    (0.223)    (0.124)     (0.369)    (0.096)
+2008                 −17.2∗∗                10.1∗∗   −15.7∗∗    −7.85∗∗  −35.58∗∗  −47.9∗∗  −17.6∗∗
+                           (0.212)               (0.152)     (0.083)    (0.222)    (0.129)     (0.377)    (0.104)
+Intercept                175.7∗∗     27.2∗∗     40.8∗∗    146.4∗∗    120.6∗∗     88.6∗∗     351.1∗∗     55.7∗∗
+                            (1.57)     (2.22)      (1.26)      (0.624)     (1.88)      (0.979)     (3.01)     (0.669)
+R2                       0.262     0.208      0.518      0.562      0.576      0.781      0.515     0.776
+
+Notes: The units are: €100 for the average price, €10 for the rebate, and €10,000 for the income. ‘%’ is the percentage
+of households in each category. The units for household sizes and professional activities are 10%. %Diesel is the share
+of diesel cars (in %). CO2 emissions are in g/km; CO, NOX and HC emissions are in mg/km, and PM emissions are in
+mg/10 km. The reference categories are singles, retired and rural cities. All speciﬁcations include year × county ﬁxed
+effects and are estimated using 180,045 observations, except the regression with the rebate as the dependent variable,
+which includes only county ﬁxed effects and uses 30,848 observations from 2008. The reported year ﬁxed effects are the
+averages of the year × county ﬁxed effects, weighted by the number of households. The regressions are weighted by the
+number of households. Signiﬁcance levels: †: 10%, ∗: 5%, ∗∗: 1%.
+
+
+characteristics and HC and CO emissions are identical most of the time and are in line with
+the correlations between demographic characteristics and CO2 emissions. This is not surprising
+given the positive correlation between CO2 and CO and HC emissions. These results suggest that
+it is crucial to know whether car buyers are willing to switch fuel to take advantage of rebates
+and avoid taxes to determine the feebate’s impact on local pollutant emissions. High incomes
+and urban areas are associated with high CO2, CO and HC emissions but low NOX and PM
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 11 页｜印刷第 1424 页] =====
+1424                    the economic journal                    [may
+
+emissions. High socio-professional categories tend to buy cars with high CO2, NOX and PM
+emissions. There is a negative time trend for CO2 emissions, with notable reductions in 2006 and
+2008 (this is consistent with the ﬁndings of D’Haultfœuille et al., 2016, who analyse the different
+sources of the decrease in CO2 emissions from 2003 to 2008 and observe a sharp reduction
+in average CO2 emissions in 2006 as a reaction to the introduction of car energy labels). The
+time trends in emissions of local pollutants are heterogeneous across pollutants. Average NOX
+emissions increase between 2007 and 2008, suggesting an effect of the feebate policy. PM emis-
+sions decrease between 2007 and 2008 but by much less than the annual decrease between 2004
+and 2007, indicating a possible feebate impact. In contrast, CO and HC emissions consistently
+decrease between 2003 and 2008, with more signiﬁcant declines in 2008 than in the previous
+years. All these correlations indicate that the year of the feebate introduction is peculiar, revealing
+that the feebate probably affects all emissions.
+
+1.4.3. Reaction of car manufacturers
+To obtain a sense of whether and how car manufacturers have reacted to the feebate regulation
+instituted in 2008, I ﬁrst provide a simple regression of the net prices on the amount of the
+rebate/fee and use the car characteristics, car models and year ﬁxed effects as controls. This
+regression is not weighted by car market shares to eliminate the demand effect. The coefﬁcient of
+the rebate reﬂects the percentage of the rebate or fee that is passed through to the ﬁnal price paid
+by consumers. I ﬁnd that approximately 58% of the rebate or fee is passed through to the ﬁnal
+price, which indicates a probable reaction of car manufacturers. The regression also indicates
+that in 2008, the average price of cars decreases more than in previous years: the average price
+decreases by €137 in 2008, compared to only €88 in 2007. This stronger reduction in price may
+be the consequence of strategic interactions between car manufacturers: the feebate modiﬁes the
+entire price equilibrium, including the prices of cars not directly affected. The structural model
+below describes the manufacturers’ optimal pricing strategies and the optimal responses to the
+feebate.
+  To check for signs of policy anticipation by French car manufacturers in the data, I use a
+difference-in-differences approach to compare the CO2 emissions of French manufacturers with
+those of other car manufacturers after the policy’s introduction. If the design of the feebate policy
+were the consequence of lobbying, we could expect French lobbyists to be more active than
+lobbyists for foreign car manufacturers. I regress the CO2 emissions of all cars (not weighted
+by their market shares) on year dummies, a dummy for French car manufacturers and an in-
+teraction term between the French dummy and the year 2008. The results suggest no sign of
+anticipation by French manufacturers, and this is robust across speciﬁcations. The details of the
+regressions investigating the supply-side reactions are provided in Tables A.9 and A.10 in Online
+Appendix D.1.
+
+
+2. Model
+
+In this section, I present a model of demand and supply for new automobiles both under and in
+the absence of the feebate regulation. The model allows for heterogeneous preferences related
+to demographic characteristics. The demand is represented by a random coefﬁcients logit model
+that is similar to the model used in Nurski and Verboven (2016). The supply model formalises
+the pricing strategies of car manufacturers, which are multi-product ﬁrms that compete with one
+other as in the standard model of Berry et al. (1995).
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 12 页｜印刷第 1425 页] =====
+2022]          winners and losers from the french feebate           1425
+
+2.1. Demand
+
+I consider nm potential buyers from municipality m choosing either to purchase one of the J
+cars offered or not to buy a car (this is the outside option denoted by 0). Consumers do not
+have preferences for the cars themselves but for car attributes. Each consumer, denoted by i,
+maximises their utility, which is a linear function of the car characteristics and the price. The
+index j stands for the car. I omit the year index to keep the number of indexes small.
+
+                                   uimj = xjβm + αm p j + ξ j + ϵimj.
+
+Observed and unobserved car characteristics are represented by xj and ξ j, respectively, and p j is
+the price. ϵimj is an individual and car-speciﬁc preference term, which is assumed to be identically
+and independently distributed according to an extreme value. βm and αm are the parameters for
+preferences for car attributes and price sensitivity, respectively. These parameters are common
+to all individuals within a municipality. I further assume that these parameters are deterministic
+functions of demographic characteristics:
+                  βm = ¯β +  Xd′m  and  αm = ¯α + dmσ p,
+where dm is the vector of demographic characteristics of the consumers in municipality m.  X
+is the matrix of heterogeneity parameters that link individual preference for car attributes to the
+vector of demographic characteristics. σ p is, similarly, the vector of heterogeneity parameters for
+price sensitivity. The mean utility of the outside option is normalised to 0 so that uim0 = ϵim0.
+The utility function can be expressed as the sum of the mean utility (δ j), a deviation from this
+mean related to the demographic characteristics of the municipality (μmj) and an individual error
+term:
+
+                                       uimj = δ j + μmj + ϵimj.
+
+Because of the distribution of ϵimj, the probability that consumer i from municipality m chooses
+car j, which is also equal to the market share of car j in the municipality, is expressed as:
+
+                                      exp δ j + μmj
+                                  simj = smj =          J                          .
+                                1 +   k=1 exp (δk + μmk)
+The market share of car j at the national level is:
+
+                                      exp δ j + μmj
+                            s j =   φm          J                     ,
+                           m    1 +   k=1 exp (δk + μmk)
+
+                                                                                                                         .where φm is the percentage of consumers in each municipality: φm =   nm                                                                                m nm
+
+
+2.2. Supply
+
+I assume that the car market is an oligopolistic market with F ﬁrms selling differentiated cars. Car
+manufacturers have market power and set their prices, taking into account demand and the prices
+of competitors.8 I assume that car manufacturers set their prices nationally, so there is no price
+discrimination across municipalities. This assumption is consistent with the use of catalogue
+
+   8 I abstract here from modelling the vertical relations between car manufacturers and dealers and assume perfect
+integration, such that the manufacturers set the ﬁnal prices paid by the consumers.
+
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 13 页｜印刷第 1426 页] =====
+1426                    the economic journal                    [may
+
+prices as optimal prices as I do not observe transaction prices.9 The proﬁt of manufacturer  f
+selling the set of cars F is:
+
+                   π f =        nmsmj(p) × p j −c j  ,
+                                   j∈F m
+
+where c j is the marginal cost. smj(p) is the market share of product  j that depends on the prices
+of all the cars, which are represented by the vector p. The optimal price p j is derived from proﬁt
+maximisation such that:
+                φm  smj(p) +    (pk −ck)∂smk (p) = 0,  ∀j ∈F.                 (1)
+                                      ∂p j               m               k∈F
+
+
+2.3. Market Equilibrium under the Feebate Regulation
+
+The feebate regulation modiﬁes consumers’ optimal choices and ﬁrms’ pricing strategies. Let
+λ j be the rebate or fee associated with the level of CO2 emissions of car model  j. I adopt the
+convention that λ j is positive for a fee and negative for a rebate. For this analysis, ˜p denotes the
+vector of the prices set by car manufacturers under the feebate regulation. Consumer i’s utility is
+modiﬁed as follows:
+
+                                      ˜uimj = xjβm + αm( ˜p j + λ j) + ξ j + ϵimj.
+
+The market shares under the feebate policy are:
+                                      exp   ˜δ j + ˜μmj
+                                                        ˜s j =   φm          J                      ,
+                           m    1 +   k=1 exp  ˜δk + ˜μmk
+where  ˜δ j = xj ¯β + ¯α( ˜p j + λ j) + ξ j and ˜μmj = xj  Xd′m + ( ˜p j + λ j)dmσ p. Car manufacturers
+set their prices taking into account the potential rebates and taxes that consumers are subject to.
+The proﬁt function of ﬁrm  f is now:
+
+                                   ˜π f =    nm      ˜smj(˜p + λ) ×   ˜p j −c j   .
+                           m     j∈F
+
+The optimal prices satisfy:
+
+             φm   ˜smj(˜p + λ) +     ( ˜pk −ck)∂˜smk (˜p + λ) = 0,  ∀j ∈F.             (2)
+                                                    ∂˜p j            m                   k∈F
+Let  ˜pnj =  ˜p j + λ j denote the price net of rebate or fee and ˜pn the vector of net prices. I can
+rewrite the previous equation as:
+
+              φm   ˜smj(˜pn) +     ( ˜pnk −λk −ck)∂˜smk (˜pn) = 0,  ∀j ∈F.
+                                                       ∂˜pnj            m                k∈F
+
+The effect of the feebate on pricing strategies is identical to a marginal cost increase (for a fee)
+or reduction (for a rebate). Because of market power and strategic interactions, not all of the fee
+
+   9 I could apply the methodology developed by D’Haultfœuille et al. (2019) to allow for unobserved price discrimination
+across municipalities, but the computation cost would be very high given a large number of municipalities.
+
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 14 页｜印刷第 1427 页] =====
+2022]          winners and losers from the french feebate           1427
+
+or rebate is passed through to the consumer; instead, car manufacturers adapt their margins. Car
+manufacturers are able to extract part of the rebate by increasing the prices of cars with rebates.
+In the case of a fee, car manufacturers lower their price and decrease their margins to avoid large
+reductions in sales.
+
+
+2.4. Estimation
+
+I estimate the parameters of utility using the generalised method of moments. I use the standard
+aggregate demand and supply moments, as in Berry et al. (1995), complemented with micro-
+moments in the spirit of Petrin (2002) and Berry et al. (2004). The micro-moments leverage the
+information on car sales at the municipality level and ensure the identiﬁcation of the heterogeneity
+parameters. Speciﬁcally, I use the covariance between the characteristics of car purchases and
+the demographic characteristics across municipalities, as in Nurski and Verboven (2016). I do
+not directly use sales at the municipality level for two related reasons. First, there are many null
+market shares, which the logit model cannot rationalise given the assumption that the error term
+is extreme value distributed. Second, sales at the local level fail to generate precise estimates
+of the market shares because there are only a few sales in each municipality: the maximum
+number of car sales is 433 and the average number of sales is 19. The estimates of the local
+market shares are too sensitive to the presence of outliers and are not reliable for estimating the
+demand model. I instead rely on annual national aggregate market shares and use local sales in the
+micro-moments.
+  Once I estimate the demand parameters, I can back out the marginal costs for all car models and
+each year by inverting the system of ﬁrst-order equations associated to ﬁrms’ proﬁt maximisation
+problem given by equation (1) without the feebate policy and equation (2) under the feebate
+policy.
+
+
+2.4.1. Aggregate moments
+The aggregate moment conditions are based on the interaction of unobserved product character-
+istics ξ j with the instruments zj. The vector ξ is unobserved, but it is such that the theoretical
+market shares are equal to the observed market shares:
+
+                                             sobsj = s j(ξ, θ).
+
+θ represents the vector of the parameters ( ¯β, ¯α,  X, σ p). To invert the market share equation and
+recover the vector of the unobserved product characteristics ξ, I use the contraction mapping
+suggested by Berry et al. (1995). The price p j is endogenous because it is likely to be correlated
+with the unobserved product characteristics ξ j. The ﬁrms have market power, and their pricing
+decisions depend on demand, including its unobserved component. The instruments that I use
+are functions of other products’ characteristics, such as those used in Berry et al. (1995) (more
+details are provided in the next section). The moment conditions are E(ξ jzj) = 0, and the sample
+analogues are given by:
+
+
+                                                               J
+                                    1
+                                  gd(θ) =       ξ j(θ)zj.
+                                         J
+                                                  j=1
+
+
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 15 页｜印刷第 1428 页] =====
+1428                    the economic journal                    [may
+
+In addition to the moment conditions from the demand side, I construct moment conditions using
+the supply side, starting from the speciﬁcation of the marginal cost equation:
+
+                                  ln c j = xsjγ + ω j
+                                  ln p j −m j(θ) = xsjγ + ω j,
+where m j(θ) is the margin of car j obtained from the price optimality condition, xsj represents the
+observable cost shifters, and ω j represents the unobservable cost shocks. The moment conditions
+are based on the independence between the cost shocks and the instruments Zs: E(ω jzsj) = 0. I
+use the sample analogue:
+
+                                                               J
+                                    1
+                                 gs(θ, γ ) =    ω j(θ, γ )zsj.
+                                         J
+                                                 j=1
+
+2.4.2. Micro-moments
+The micro-moments exploit the information on demographic characteristics and product market
+shares of products at the municipality level. The micro-moments match (i) the predicted average
+demographic characteristics of the car purchasers and (ii) the covariances between the demo-
+graphic characteristics and the product characteristics with their empirical counterparts. The sets
+of micro-moments are crucial for identifying the observed heterogeneity, as noted in Berry et al.
+(2004), Petrin (2002) and Nurski and Verboven (2016). For this analysis s j, smj, ¯d and ¯x denote the
+observed aggregate market share, municipality market share, mean demographic characteristics
+and mean product characteristics, respectively, while s j(θ), smj(θ), ¯d(θ) and ¯x(θ) are the predicted
+values for a given parameter θ. The third set of moments are:
+
+    ⎧
+                                        m φmsmjdm                       −   m φmsmj(θ)dm    ⎨ gmicro,(i)(θ) = 1J     Jj=1                                                        s j                                                                           s j(θ)
+                                                                      ′.(xj−¯x)                                                                             φmsmj(θ)(dm−¯d(θ))                                                                                                              ′.(xj−¯x(θ))                                         m φmsmj(dm−¯d)                                                                                                                              .                             −   m    ⎩ Gmicro,(ii)(θ) = 1J     Jj=1                                                                 s j                                                                                                       s j(θ)
+
+Given that I exactly match the aggregate market shares, s j(θ) = s j and ¯x(θ) = ¯x, the moments
+can be written as:⎧
+        ⎨                 1     J     m φmdm(smj−smj(θ))                      gmicro,(i)(θ) = J    j=1            s j
+        ⎩                   1     J     m φm[smj(dm−¯d)−smj(θ)(dm−¯d(θ))] ′.(xj−¯x)                     Gmicro,(ii)(θ) = J    j=1                          s j                         .
+
+
+2.5. Discussion
+
+The model is static and abstracts from the dynamic aspects related to the car purchase decision.
+Because a car is a durable good that is used for several years and can be sold on a second-hand car
+market, consumer anticipation of future car prices and characteristics and second-hand car market
+characteristics play a role in the purchase decisions. The dynamic aspects related to the existence
+of the secondary market have been studied by Chen et al. (2013) and Gavazza et al. (2014).
+The ﬁrst paper focuses on the allocative effects of the second-hand car market, while the second
+focuses on the competition of car manufacturers with themselves through the secondary market.
+Abstracting from modelling the dynamics and the second-hand car market may lead to bias in
+price elasticity and markup estimates, as shown by Chen et al. (2008). However, these dynamic
+
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 16 页｜印刷第 1429 页] =====
+2022]          winners and losers from the french feebate           1429
+
+models cannot account for the heterogeneity in car characteristics and CO2 emissions. The cars
+are treated as a homogeneous product with a single dimension of heterogeneity, the vintage.
+Such a dynamic model would not be relevant for the analysis of the feebate policy, the effect
+of which is precisely to induce substitution from high CO2-emitting cars to low CO2-emitting
+cars.
+  In not modelling the decision as dynamic and abstracting from the second-hand car market,
+I am not able to investigate three aspects of the feebate policy. First, I cannot investigate the
+policy’s impact on the purchase decision through a change in consumers’ expectations. The
+policy may change households’ expectations about future fuel efﬁciency technology as they
+anticipate car manufacturers will develop fuel-efﬁcient cars at lower costs. As a consequence,
+some individuals, in particular those most sensitive to fuel costs, may prefer to wait before buying
+a new car. Second, my analysis neglects the effects of the policy on the second-hand car market.
+Given that new car prices are modiﬁed by the feebate introduction, resale prices are likely to
+be modiﬁed in 2008 and in the years after, implying some additional welfare and distributional
+effects that my analysis does not take into account. The third effect that I do not evaluate is the
+impact of the policy on emissions through a change in cars’ lifetimes. The policy is likely to
+increase the lifetimes of cars with taxes that become more expensive and decrease those of rebated
+cars that are cheaper. This constitutes an adverse effect of the policy because polluting cars end up
+less frequently renewed. This is the Gruenspecht (1982) effect, and it reduces the environmental
+beneﬁt of a policy (see Jacobsen and Van Benthem, 2015, for the effects of Corporate Average
+Fuel Economy (CAFE) standards and Bento et al., 2009, for an analysis of an increase in gasoline
+taxes).
+
+
+3. Estimation Results
+
+3.1. Model Speciﬁcation
+
+I estimate the model with heterogeneity relying on the three sets of moments derived in the
+previous section. I also estimate a simple logit model without heterogeneity in preferences using
+moments from demand and supply only. The observed product characteristics introduced in the
+utility function are the price (net of the feebate in 2008), fuel cost, horsepower, cylinder capacity,
+weight (as a proxy for car size), and type of car body (coupe, wagon or sedan). I use data obtained
+from the French National Survey Institute on the average fuel prices for each year to compute the
+average cost of driving 100 kilometres. I do not observe cars’ fuel consumption levels directly,
+but I can infer them using the engineering formula that links a car’s CO2 emissions to the fuel
+consumption.10 I also include year ﬁxed effects to capture symmetric shocks to the automobile
+market and brand ﬁxed effects to control for unobserved heterogeneity of cars at the brand level.
+I allow for heterogeneity in terms of price sensitivity, fuel cost, weight and cylinder capacity. I
+assume that price sensitivity is a linear function of income, while I allow fuel cost sensitivity
+to depend on income and municipality size. I consider that the valuation for car weight can
+be different in rural (less than 20,000 inhabitants) and urban (more than 20,000 inhabitants)
+areas. Finally, I allow the valuation of cylinder capacity to depend on household size. Household
+size is represented by the percentage of households in each of these two categories: households
+
+   10 The fuel consumption (in l/km) ψ j of car j is related to the CO2 emissions (in g/km) through the following formula:
+CO2 j = ψ j × k f ( j), where k f ( j) reﬂects the quantity of CO2 emissions in a litre of fuel and is equal to 2,287 g/l for
+gasoline cars and 2,686 g/l for diesel cars.
+
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 17 页｜印刷第 1430 页] =====
+1430                    the economic journal                    [may
+
+with children and households without children. Finally, I consider the following variables as
+cost shifters: horsepower, fuel consumption (in litres for 100 kilometres), weight and cylinder
+capacity. I also introduce brand ﬁxed effects in the cost function.
+  The estimation method relies on instruments, making the standard assumption that product
+characteristics other than price are exogenous and using these product characteristics as in-
+struments. I construct additional instruments that are functions of the characteristics of other
+products. The characteristics of competing products are correlated with the price through strate-
+gic interactions across ﬁrms: if a car has close substitutes,  it has lower market power and,
+therefore, a lower price. I also use functions of the characteristics of other cars of the same
+brand. The argument is similar: if the brand offers many close substitutes to a car, then the
+manufacturer has high market power and is able to set a high price. More precisely, I use three
+sets of instruments: the sums of the characteristics of all the other brands’ cars, the sums of
+the characteristics of other cars of the same brand and the sums of the characteristics of the
+other brands’ cars in the same segment. I consider eight segments: mini, small family, large
+family, executive, small minivan, large minivan, sports and all road. I use the same instru-
+ments to construct the demand and supply moments but do not use instruments to form the
+micro-moments.
+   I estimate the model using a sample of municipalities to reduce the computation cost associated
+with the calculation of aggregate market shares. The market share inversion uses the contraction
+mapping proposed by Berry et al. (1995), which involves the computation of the aggregate
+market shares many times. I randomly draw 3,000 municipalities (approximately 10% of all
+municipalities) with a weight that is proportional to the number of households.11 For the data to
+be consistent with the model, I use aggregate market shares, which are computed by summing the
+sales over the municipalities sampled. Because the feebate policy was announced at the end of
+November 2007, there was room for arbitrage: households could bring forward or postpone their
+car purchases by a couple of months to escape the fees or obtain rebates. This could introduce
+non-stationarity in the car sales of December 2007 and January 2008 and bias the parameter
+estimates. To limit this effect, I exclude the car registrations from December and January for
+each year to compute the annual market shares. While my model is estimated on aggregate sales
+calculated over ten months and a sample of 3,000 municipalities, the welfare analysis covers the
+full year and the full sample of municipalities.
+   It is necessary to aggregate different versions of products to obtain exploitable variations in
+market shares across products and to obtain a choice set of a reasonable size. I deﬁne a product (car
+model) as a brand, model name, body style, and class of CO2 emissions. I do not use the fuel type
+to directly deﬁne car models, but it is highly correlated with the class of CO2 emissions, so cars
+with different fuel types are generally in two different classes of CO2 emissions and are therefore
+considered to be two different car models. For each car model, I assign the characteristics of the
+most frequently purchased version of the car model. I ﬁnally obtain 5,028 different car models
+for the six years covered by my dataset. To compute the market shares of the products and an
+outside option, I assume the potential market is one-fourth of the total number of households. For
+the estimation, I use one-fourth of the total number of households from the sample of selected
+municipalities multiplied by a factor of 10/12 to account for the fact that annual market shares
+are calculated from car sales over ten months.
+
+
+   11 The sample is representative of the full population as Table A.11 in Online Appendix D.1 suggests.
+
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 18 页｜印刷第 1431 页] =====
+2022]          winners and losers from the french feebate           1431
+
+                               Table 3. Estimation Results.
+
+                                        Model without heterogeneity       Model with heterogeneity
+
+                                                Parameter        SE          Parameter        SE
+
+Utility parameters
+Price (€10,000)                                −1.56∗∗           0.013         −0.675∗∗         0.074
+Horsepower                                         0.296∗∗         0.018            0.29∗∗           0.018
+Fuel cost (€/100 km)                           −0.386∗∗         0.015         −0.797∗∗         0.022
+Weight (100 kg)                                     0.305∗∗         0.015            0.349∗∗         0.015
+Cylinder capacity (1,000 cm3)                       0.005           0.011            0.292∗∗         0.012
+Convertible                                 −0.103           0.088        −0.079           0.085
+Wagon                                       −0.866∗∗         0.063         −0.852∗∗         0.062
+Intercept                                     −9.05∗∗           0.236         −8.51∗∗           0.233
+Income × fuel cost                                                                    0.227∗∗          0.01
+Income × price                                                              −0.509∗∗         0.039
+Urban × fuel cost                                                                     0.035∗∗         0.005
+Urban × weight                                                             −0.034∗∗         0.003
+%Without children × cylinder                                                 −0.537∗∗         0.015
+
+Notes: Price and income are in constant 2008 euro; horsepower is the ﬁscal horsepower. ‘Urban’ is a dummy for
+municipalities with more than 20,000 inhabitants, and ‘%Without children’ is the frequency of households without
+children in the municipality. Both models are estimated using 5,028 car models and include brand and year dummies in
+the utility and the marginal cost functions. Signiﬁcance levels: †: 10%, ∗: 5%, ∗∗: 1%.
+
+
+3.2. Parameter Estimates
+
+Table 3 displays the estimated parameters for the models both with and without heterogeneity
+in consumer preferences. Price and fuel cost have signiﬁcant negative coefﬁcients. The esti-
+mates of the model with heterogeneity are in line with those of the simple model. Given that
+the parameters of heterogeneity are signiﬁcant, I use the model with heterogeneity as the main
+speciﬁcation. Weight, horsepower and cylinder capacity are characteristics that consumers ap-
+preciate. On average, individuals prefer sedans or convertibles to cars with a wagon body. I
+ﬁnd, surprisingly, that price sensitivity increases with income. Crawford et al. (2019) also ﬁnd
+such a surprising income effect for demand for cable TV. However, sensitivity to the fuel cost
+decreases with income, as expected. This sensitivity is also lower in urban municipalities than in
+rural areas, but the heterogeneity parameter is small relative to the average fuel cost sensitivity
+parameter. I ﬁnd that consumers living in urban municipalities place less value on car weight,
+reﬂecting heterogeneity in car usage across municipalities according to population density. I
+also observe that households without children value cylinder capacity less than other house-
+hold types. From the demand parameters and using the full sample of municipalities, I compute
+the car margins and ﬁnd signiﬁcant market power in the car market: the average markup rate
+is 41.7% in 2008. I provide in Online Appendix D.2 some additional estimation results and
+present the robustness checks to investigate potential issues related to using the year 2008 in the
+estimation.
+
+
+4. Analysis of the Policy Effects
+
+4.1. Aggregate Effects of the Feebate
+
+4.1.1. Nature of the counterfactual
+The impact of the feebate policy on the car market is inferred from the difference between the
+market equilibrium under the feebate and the market equilibrium in the absence of the feebate. For
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 19 页｜印刷第 1432 页] =====
+1432                    the economic journal                    [may
+
+consistency, both situations are simulated using the demand parameters, car marginal costs and
+the full sample of municipalities. The marginal costs are obtained from the system of equations
+associated with price optimality in (2), assuming the observed prices in 2008 are optimal for the
+full sample of municipalities under the feebate. This implies that my model perfectly predicts
+the observed prices but does not necessarily perfectly predict the market shares at the national
+level. Alternatively, I could rely on the vector of marginal costs obtained by assuming price
+optimality for the sample of 3,000 municipalities. This alternative approach beneﬁts from being
+consistent with the estimation approach that relies on the price optimality condition for the same
+sample. Yet, it seems more appropriate to recover the marginal costs using the full sample of
+municipalities because it exploits more information. I estimate the marginal costs using the two
+approaches and ﬁnd that they are almost identical: the average absolute difference is only 0.43%,
+and for 97.5% of the car models, the cost difference is below 2%. As Table A.15 in Online
+Appendix D.3 reveals, the aggregate outcomes (car sales, proﬁts and budget costs) are very close
+using the two alternative cost vectors. This table also shows that they are consistent with the
+observed outcomes, conﬁrming that my model is relevant for describing the car market at the
+national level.
+  Gains and losses for consumers are measured through the variation in their surplus, which is
+the expected utility of their best car choice. So the average variation in consumer surplus due to
+the feebate is the difference in expected utilities with and without the feebate. Given that the only
+source of heterogeneity within each municipality is the individual and product-speciﬁc preference
+shock ϵik, individual surpluses are identical in the same municipality. Given the distributional
+assumption on this preference shock (see Small and Rosen, 1981), the expression for the average
+surplus variation for municipality m is:
+
+                       ln 1 +   k=1J  exp  ˜δk + ˜μmk  −ln 1 +   k=1J  exp (δk + μmk)
+       csm = −tm +                                                                               ,
+                                  −αm
+
+where δk and μmk represent the mean utility and the municipality-speciﬁc portion of the utility
+in the absence of the feebate policy, respectively, while ˜δk and ˜μmk are those under the feebate
+policy. αm is the price sensitivity of municipality m and is negative. tm is the tax introduced to
+ﬁnance the cost of the feebate. I ﬁrst consider a uniform, per consumer tax t to subsidise the
+deﬁcit. t is such that:
+
+                                 n × t = b.
+
+n is the total number of potential buyers (one-fourth of the total number of French households),
+and b is the deﬁcit. I obtain t = €29.3. I also examine a tax that is proportional to the income to
+offset the deﬁcit. I solve for the tax rate τ such that the total tax revenue is equal to the deﬁcit:
+
+                                          (τ × im)nm = b,
+                              m
+
+where im and nm are the median income and the number of potential car buyers of the municipality
+m. I obtain τ = 10,000,15.7  implying municipality taxes between €11.6 and €79.7 with a median of
+€27.9, which is slightly below the uniform tax. Ultimately, the type of tax used to subsidise the
+deﬁcit generated by the feebate policy does not affect the total consumer surplus or the total
+welfare effect. This result occurs because I specify a linear utility function that rules out any
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 20 页｜印刷第 1433 页] =====
+2022]          winners and losers from the french feebate           1433
+
+              Table 4. Welfare and Environmental Effects of the Feebate Policy.
+
+                                                 No               Variation
+                                               Feebate           feebate               (in %)
+
+               Total sales (1,000 units)             1,223            1,200                1.91
+             Share of diesel (%)                  70.97            70.53               0.62
+              Proﬁts French (M€)                4,322            4,164                3.78
+              Proﬁts all (M€)                    7,645            7,488                2.1
+            Consumer surplus (M€)             8,551            8,379                2.05
+
+             Average emissions
+          CO2 (g/km)                       138.56           140.82           −1.6
+         NOX (mg/km)                    147.44           146.71               0.50
+        PM (mg/10 km)                    68.94            68.71               0.33
+         CO (mg/km)                      243.40           243.85           −0.18
+         HC (mg/km)                       32.13            32.19           −0.18
+
+             Note: ‘M€’ stands for millions of euros.
+
+
+income effect. However, the type of tax used has important consequences for the distribution of
+gains and losses across municipalities.
+
+
+4.1.2. Feebate pass-through
+Before the analysis of the welfare and environmental effects of the feebate scheme, I investigate
+how car prices are modiﬁed in response to the policy. I ﬁnd that prices are not so different without
+the feebate, indicating a high pass-through of fees and rebates. I ﬁnd an average pass-through of
+101.9% for cars subject to either a fee or a rebate. In addition, only 5% of car models have a pass-
+through below 100%. This suggests that the feebate is overshifted to the car price, which contrasts
+with the 60% pass-through I estimate using the reduced-form approach.12 Such an overshifting
+of the feebate is nevertheless consistent with the theoretical framework developed by Anderson
+et al. (2001). Bonnet and R´equillart (2013) and Grifﬁth et al. (2018) also ﬁnd an overshifting
+of taxes in the context of grocery items (soda drinks and margarine products, respectively). The
+reason for tax overshifting is that the fees soften competition among car manufacturers for cars
+subject to taxes and increase competition for cars affected by rebates. The average posted price
+increase due to the feebate policy is modest and is equal to only €13.5. Even the maximum posted
+price increase reaches the modest value of €82. Table A.16 in Online Appendix D.3 presents the
+absolute values of the pass-through and the pass-through rates (in percentage of the fee or rebate)
+by CO2 emissions class.
+
+
+4.1.3.  Effects on households and car manufacturers
+As Table 4 shows, the feebate stimulates the car market, with an increase in the sales of new cars
+by approximately 23,000 units. My model does not specify the exact form of the outside option,
+so I cannot distinguish whether these extra new sales are due to a substitution from a purchase on
+the second-hand market, early replacement of an old car or new car owners. The origin of new
+car sales is not relevant for the estimates of welfare effects of the policy on households and car
+manufacturers but has important consequences for the environmental impacts of the policy.
+
+   12 The reduced-form pass-through estimates could be biased for several reasons: the reduced-form equation may be
+misspeciﬁed, there may be within-car model unobservable characteristics that are correlated to the amount of rebate or
+fee, or the inference may be invalid because car prices are not independent, which violates the independent and identically
+distributed (i.i.d.) assumption.
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 21 页｜印刷第 1434 页] =====
+1434                    the economic journal                    [may
+
+  Using the estimates for marginal costs, I am able to compute the manufacturers’ margins for
+each car and the additional proﬁts generated by the feebate. The feebate increases overall industry
+proﬁts by 2.1%, but French manufacturers’ proﬁts increase by almost twice as much (3.8%). The
+net proﬁt increase for French manufacturers (+€157.5 million) is greater than the total industry
+net proﬁt increase (+€156.9 million). This suggests that some manufacturers experience losses
+because of the policy. I precisely identify the winners and losers across car manufacturers in
+Section 4.2. I further decompose the rise in manufacturer proﬁts to disentangle the gains from
+extra sales (the extensive margin) from the gains from increased margins (the intensive margin).
+I ﬁnd that €8.85 million can be attributed to the rise of carmakers’ margins while €148.1 million
+are attributable to extra sales. The extensive margin is, therefore, the most important margin
+and accounts for 94% of the proﬁt increase. The proﬁt decomposition is very similar for French
+manufacturers.
+  Total consumer surplus increases because of the feebate policy, with a net gain of €172 million
+(which corresponds to a rise of 2.1%). However, this increase is lower than the cost of the feebate,
+which reaches €211.6 million. These ﬁgures imply that there is a negative variation of €39 million
+in total consumer surplus when the deﬁcit is offset by a tax on individuals. The diesel car share
+increases by 0.44 percentage points because of the feebate. This seems relatively small, but it is
+similar in magnitude to the annual trend in the diesel share increase (I estimate the diesel share to
+increase by 0.94 percentage points per year).13 My estimate of the feebate’s effect on the diesel
+share is comparable to almost half of a year’s worth of a jump in this share.
+
+
+4.1.4. Effects on emissions
+The change in average emissions reﬂects the modiﬁcation of the composition of the car ﬂeet
+caused by the feebate policy. The variation in total emissions is also affected by the increase
+in total car sales and substitution towards diesel cars, which are assumed to be driven 7,000
+kilometres more than gasoline cars annually. The main objective of the feebate is to reduce CO2
+emissions, and indeed the feebate is responsible for a decrease of 2.2 g/km in the average CO2
+emissions of new cars. This corresponds to a reduction of 1.6% in average emissions. This ﬁgure
+might appear small, but it is 34% higher than the annual trend in average CO2 emissions observed
+over the period 2003–2007 (−1.64 g/km annually).14 This is consistent with the price effect of
+the feebate estimated by D’Haultfœuille et al. (2016) but lower than the 4% reduction in average
+CO2 emissions estimated by D’Haultfœuille et al. (2014). The difference stems from the fact that
+I evaluate the pecuniary impact while they assess the total policy effect, including the potential
+informational and behavioural channels.
+  This decrease in average CO2 emissions is accompanied by modest declines in average emis-
+sions of CO and HC (−0.18% for both pollutants). In contrast, the average emissions of PM and
+NOX, the most hazardous local pollutants, increase because of the feebate: average NOX emis-
+sions increase by 0.5%, while average PM emissions increase by 0.33%. These ﬁgures conﬁrm
+the trade-off between global and local air pollution and that the feebate policy sacriﬁces local
+air quality to reduce CO2 emissions. The effects of the feebate on local pollutant emissions are
+quite signiﬁcant once the ﬁgures are converted into annual emissions. All annual emissions of
+local pollutants increase between 2.04% and 2.47%, primarily driven by the increase in new car
+
+
+   13 This trend is estimated by regressing a dummy for diesel car purchases on an intercept and a time trend over the
+period 2003–2007.
+   14 This is estimated by regressing CO2 emissions on a time trend using car sales over the period 2003–2007.
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 22 页｜印刷第 1435 页] =====
+2022]          winners and losers from the french feebate           1435
+
+                    Table 5. Effects of the Feebate on Annual Emissions.
+
+                Emissions                   Emissions                  Range of           Range of
+             new cars                   outside option                     net effect              net cost
+                    (in tons)                         (in tons)                           (in tons)                (in M€)
+
+                                        (1)             (2)           (3)
+
+CO2             12,284        −40,520      −51,177       0      [−38,894, 12,284]     [−1.56, 0.491]
+NOX             72          −46        −58         0             [14, 72]            [0.185, 0.945]
+PM                 3.3           −3.8         −4.8         0          [−1.5, 3.3]        [−0.160, 0.344]
+CO              80          −71        −90         0          [−9.8, 80]              0
+HC              11          −14        −17         0          [−6.2, 11]       [−0.0104, 0.0187]
+
+All local pollutants                                                                                    [0.015, 1.31]
+
+Notes: Variation of annual emissions (in tons) and cost of emissions (in millions of euros) caused by the feebate. Column
+(1): benchmark; column (2): ‘optimistic’; column (3): ‘pessimistic’.
+
+
+
+sales. I also ﬁnd an increase in annual CO2 emissions even though average emissions decrease. I
+estimate that the feebate generates 12,284 extra tons of CO2 emissions annually, corresponding
+to an increase of less than 0.5%.
+  The increase in emissions of new cars is compensated by a decrease in emissions from the
+outside good, provided that a share of the extra car sales are early car replacements. I consider
+three scenarios for the origin of the extra new car sales. In the ﬁrst and benchmark scenario,
+I consider the proportions of old car owners and non-motorised households within the share
+of households choosing the outside option to be identical both in the presence and absence of
+the feebate. The second scenario is optimistic and assumes that all extra car sales from the
+feebate are for replacements of old cars. It implies that the share of non-motorised households
+who choose the outside option remains constant both under and in the absence of the feebate
+policy. The third scenario makes a pessimistic assumption and considers all extra feebate-induced
+car sales constitute new drivers or households that acquire additional vehicles and drive more.
+The distribution of the households according to their car ownership status (new car owner,
+old car owner or no car) under the different scenarios is presented in Table A.17 in Online
+Appendix D.3.
+  Under the benchmark and optimistic scenarios, I ﬁnd that the feebate policy decreases emis-
+sions of the outside option by 0.38% and 0.48%, respectively. These ﬁgures, although small,
+imply large amounts of emissions avoided from the outside option because the number of house-
+holds choosing the outside option is large. Table 5 shows that under the benchmark scenario,
+40,500 tons of CO2 are avoided, which more than compensates for the extra 12,000 tons from
+new cars. Under the second scenario, which considers all extra new car sales to be early re-
+placements, emissions from the outside option decrease by 51,200 tons. This is because the
+average CO2 emissions from an average old car are much higher than the new car emissions in
+2008. The emissions of PM and HC avoided from households choosing the outside option are
+greater than the extra emissions from new cars under the two scenarios. For the emissions of CO,
+compensation between avoided and new emissions occurs only under the optimistic scenario.
+For NOX emissions, however, the increase in new car emissions is not compensated by emissions
+savings from the households choosing the outside option. This results from the combination of
+two effects: (i) the average emissions of NOX from the outside option are lower than the average
+car emissions in 2008, and (ii) the average NOX emissions of new cars are greater under the
+
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 23 页｜印刷第 1436 页] =====
+1436                    the economic journal                    [may
+
+feebate than in its absence. The lower bounds of the net feebate effects indicate that the feebate
+potentially generates a net reduction of all types of emissions except for NOX.
+   I use these bounds and the estimates of the social costs of emissions suggested by the report
+of the DG-MOVE (2014) to convert the policy’s environmental effects into monetary terms. The
+increases in emissions of CO2 and NOX are the costliest for society. The cost of the net increase in
+NOX emissions is between €185,000 and €945,000. The effect of the feebate on the emissions of
+PM is estimated to be between a cost of €344,000 and a beneﬁt of €160,000. Under the optimistic
+scenario, the gains from the reduction in CO2 emissions reach €1.56 million. Even though there
+is a net decrease in the emissions of PM and HC under the benchmark and optimistic scenarios,
+once they are converted to monetary terms, they do not compensate the cost from the increase in
+NOX emissions. The total policy cost in terms of emissions of local pollutants is between €15,000
+and €1.31 million.
+   I evaluate the robustness of the net cost from local pollutant emissions to the use of the
+heterogeneous social costs of emissions calibrated in Online Appendix C. I rely on the benchmark
+assumption for the origin of extra new car sales. The results are presented in Table A.18 in Online
+Appendix D.3. The net feebate cost related to local pollutant emissions is estimated to be between
+€0.095 and €0.324 million, depending on the speciﬁcation, indicating that my benchmark estimate
+of €0.284 million is rather conservative. The overall welfare policy effect is not very sensitive to
+the estimates of the social cost of local pollutants. The lowest cost is obtained when the emissions
+cost is a quadratic function of the population density. In this speciﬁcation, the total costs of NO
+X and PM emissions are much lower than in the benchmark case, reﬂecting that the feebate
+raises emissions where population densities are lowest. In contrast, I estimate a higher policy
+cost when the social costs are discontinuous functions of average car emissions. Under these two
+discontinuous cost scenarios, the decrease in the emissions from the outside option generates
+lower gains than in the scenarios with uniform social costs.
+
+
+4.1.5. Feebate balance
+I determine the net annual feebate value by balancing beneﬁts with costs, including the budget
+cost and social costs of emissions. I provide here the ﬁrst evaluation of the feebate policy that
+accounts for both emissions of global and local pollutants (D’Haultfœuille et al., 2014, only
+evaluate the social cost of CO2 emissions in their short- and long-run analysis of the policy). The
+gains for car manufacturers (€157 million) and households (€172 million) have to be balanced
+with the budget cost and the cost of the extra emissions. As the previous results suggest, there
+is a net environmental loss only under the assumption that the new car sales are new drivers
+(pessimistic scenario). This pessimistic scenario still implies a large positive balance for the
+feebate policy, with a net welfare gain of €115.6 million. This gain reaches €119 million under
+the optimistic scenario, while it is estimated to be €118.3 million for the benchmark scenario.
+These results are provided in Table 6.
+   I implicitly assumed away any shadow cost of public funds. A shadow cost of public funds of
+1.56 would be necessary to obtain budget neutrality, implying that the government needs to pay
+€1.56 to spend one euro under the feebate policy. This value seems higher than typical estimates
+from the literature (for instance, Ballard et al., 1985, estimate a shadow cost lower than 1.39 for
+consumer sales tax). The feebate policy is welfare improving under reasonable values for the
+shadow cost of public funds. The main reason for this net positive gain is the signiﬁcant increase
+in carmarkers’ proﬁts, which as previously noted, is mainly driven by the stimulation of new
+
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 24 页｜印刷第 1437 页] =====
+2022]          winners and losers from the french feebate           1437
+
+                   Table 6. Cost–Beneﬁt Analysis of the Feebate Policy.
+
+                                          Benchmark              Optimistic               Pessimistic
+
+Cost of the policy (−)                             211.6                  211.6                  211.6
+  Consumer surplus                               172.1                  172.1                  172.1
+  Proﬁts                                         156.9                  156.9                  156.9
+  Cost CO2 new cars (−)                            0.491                  0.491                  0.491
+  Cost local pollution new cars (−)                    1.31                    1.31                    1.31
+  Cost CO2 outside option (−)                  −1.62               −2.05                  0
+  Cost local pollution outside (−)                −1.02               −1.29                  0
+
+  Welfare                                        118.3                  119.0                  115.6
+
+Notes: In millions of euros. ‘(−)’ means the value has to be subtracted to obtain the balance.
+
+
+car sales. The welfare analysis provided here is partial and neglects any policy effect outside the
+car market and also neglects dynamic effects. Perhaps individuals who buy a car reduce their
+expenses on other goods, which I do not account for in this partial analysis. The feebate stimulates
+the car market by generating some car replacements, as my benchmark scenario assumes. Car
+sales may decrease in the future, but this is not accounted for in my analysis and contributes to
+this positive balance.
+
+
+4.2. Distributional Effects
+
+4.2.1. Heterogeneity across individuals
+I ﬁrst analyse the heterogeneity of the effects of the feebate across consumers, which is the direct
+consequence of preference heterogeneity. Intuitively, we expect an individual to gain from the
+feebate if the cars that this consumer likes become cheaper. I investigate in Online Appendix D.4
+the partial effect of each demographic characteristic on the variations of consumer surplus, both
+in level and percentage. I ﬁnd that the income has two effects that work in opposite directions.
+On the one hand, richer individuals are more sensitive to the price, leaving them more reactive
+to the policy. On the other hand, they do not value the car’s fuel efﬁciency, so they do not gain
+by substituting to fuel-efﬁcient cars. This is why the variation of the consumer surplus from
+the feebate is the largest for middle-income individuals. Given the form of the surplus function,
+the different parameters of heterogeneity interact so the net effect of the feebate on individuals
+remain an empirical question that I investigate below.
+  When the deﬁcit is subsidised by a uniform tax, the analysis in levels is identical because
+the variation in the average individual surplus is shifted by the amount of the tax (€29.3).
+Under this scenario, all the income categories experience welfare losses except the top two
+income deciles. The maximum average loss is €10.5, the ﬁgure for the lowest income decile.
+On average, consumers lose €5.5, which represents an average of only 1.4% of their surplus.
+The results from analysing the variations of surplus in percentage terms are different from the
+scenario without tax because the losses in relative terms are higher for individuals with low
+baseline surplus, i.e., those in the middle-income category. It might also seem surprising that
+the average variation in consumer surplus for the two highest income deciles is positive in
+levels while they are negative in percentage terms. But it comes from the signiﬁcant remaining
+heterogeneity within these two income deciles: 36% of individuals in the ninth income decile
+(38% for the tenth decile) have negative surplus variations, while 64% (62% for the tenth
+decile) increase their surplus. Because the winners gain, on average, more than the losers,
+
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 25 页｜印刷第 1438 页] =====
+1438                    the economic journal                    [may
+
+the feebate has a small but positive effect on average. When analysing the surplus variation
+in relative terms, the average rise in consumer surplus for the winners is smaller than the
+average decrease of the losers implying an average negative effect of the feebate in percentage
+terms.
+  When the deﬁcit is offset by a tax that is proportional to the income, the distributional effects
+are quite different as the top income class is associated with larger welfare gains and higher taxes.
+At the same time, low-income individuals pay lower taxes. The low-income category becomes the
+biggest winner because the individuals only lose €2.3 on average. In absolute terms, the effects
+on the surplus are relatively homogeneous between the second and the ninth income deciles
+(between −€5.36 and −€4.04), while the average surplus of the tenth income decile decreases
+by €13.1. On average, the highest income class pays a tax of €43.5, which is more than twice
+the average tax for the ﬁrst income decile (€21.1). In relative terms, the heterogeneity is less
+pronounced as the average loss for the highest income decile represents only a small percentage
+of the surplus of the individuals in this decile.
+  Next, I investigate heterogeneity in the effects of the feebate policy across different municipality
+sizes. The welfare gains in level terms appear relatively homogeneous, with variations from €19.3
+for cities with between 100,000 and 200,000 inhabitants to €26.9 for rural municipalities (under
+the no tax scenario). In relative terms, the results are different given that the cities with 100,000–
+200,000 inhabitants have the highest relative gains. This is the consequence of the relatively low
+utility of car ownership, in contrast with small municipalities associated with high utility from
+holding a car. When the tax is proportional to income, there is signiﬁcant redistribution from the
+largest municipalities to the smallest ones. The average individual surplus losses in cities of more
+than 200,000 inhabitants are between −€10 and −€7.4, representing variations in their surplus
+of −1.6% and −2%, respectively.
+   I provide additional results on the heterogeneity of the feebate effects across individuals in
+Online Appendix D.4. First, I illustrate the relationship between the variation in individual surplus
+and income in Figure 2 using local polynomial regressions. Under the uniform tax scenario, the
+curve is bell-shaped. Under a proportional tax, the consumer surplus variation is ﬂat up to
+€25,000 (a value close to the ninth income decile) and decreases slowly for the surplus variation
+in percentage and more rapidly for variation in level terms. It suggests that my analysis by
+income decile hides heterogeneity at the extreme top of the income distribution and reveals that
+the feebate hurts very high-income individuals. Second, I use an alternative method to analyse
+the role of income that relies on computing the variation in consumer surplus associated with
+each income decile of the national income distribution (Table A.20 in Online Appendix D.4).
+The results conﬁrm that the losses are highest for low-income individuals and reveal higher
+welfare losses at the top of the income distribution, implying even more redistribution than my
+benchmark estimates suggest. Finally, I investigate the role of other demographics (household
+size and socio-professional activity) to characterise the winners and losers in Table A.21 in Online
+Appendix D.4. In the demand model, consumer preferences vary by income, type of area (rural
+or urban) and household size (with or without children). The effect of the policy can nevertheless
+be heterogeneous along with other demographic characteristics because these are correlated with
+income, type of area and household size. The results reveal that the feebate generates higher gains,
+in relative terms, for low and medium socio-professional categories and hurts more families with
+children.
+
+
+
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 26 页｜印刷第 1439 页] =====
+2022]          winners and losers from the french feebate           1439
+
+
+
+
+
+                              Fig. 1. Proﬁt Variations by Car Manufacturer.
+ Notes: ‘     ’ represents proﬁt variations in millions of euros, and ‘ %   ’ represents proﬁt variations in
+                            percentages of the proﬁts without the feebate.
+
+4.2.2. Heterogeneity across car manufacturers
+Figure 1 displays the proﬁt variation for each car manufacturer. Although the feebate policy
+increases industry proﬁts by 2.1%, the gains are heterogeneous across manufacturers, and some
+are worse off because of the feebate regulation. As previously noted, the increase in French
+manufacturers’ proﬁts is greater than the increase in proﬁts for the sector overall. The distribution
+of gains and losses at the car manufacturer level indicates that there are winners and losers. French
+manufacturers and the Fiat Group (Italian) are the big winners, while the big losers are German
+manufacturers, except Volkswagen, which is barely affected (its proﬁts increased by only 0.15%).
+There is more heterogeneity among Asian car manufacturers: most of them (Toyota, Nissan,
+Suzuki, Honda, Mitsubishi, Subaru, Ssangyong) lose, but some improve their situation (Hyundai
+and Mazda). Among American car manufacturers, Ford and General Motors (GM) are better off,
+while Chrysler is severely harmed.
+  The two French manufacturers gain the most: the PSA Group’s proﬁts increase by €97.5
+million, while the gains for the Renault Group amount to €60 million. The third-largest winner
+from the feebate policy is Fiat, with €20 million additional proﬁts. Fiat’s proﬁts increase the most
+in relative terms (6.3%). The increase in earnings in relative terms is smaller for PSA (4.1%)
+and Renault (3.3%). Daimler (Mercedes) suffers the most in absolute terms (−€13.5 million,
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 27 页｜印刷第 1440 页] =====
+1440                    the economic journal                    [may
+
+which corresponds to a reduction in its proﬁts of 6.1%). Porsche is the manufacturer with the
+most signiﬁcant proﬁt reduction in relative terms (−32.1%). Chrysler, Mitsubishi, Ssangyong
+and Lada are signiﬁcantly harmed by the feebate policy, with proﬁt reductions of 18.5%, 11.2%,
+20.6% and 24.9%, respectively.
+
+
+4.2.3. Heterogeneity in the emissions of local pollutants
+I analyse the heterogeneity of the feebate’s effects on the emissions of local pollutants. I do not
+analyse the distributional impacts on CO2 emissions as these emissions do not directly affect
+the air quality of individuals but rather have a global impact on the environment. Figure A.3 in
+Online Appendix D.4 displays the distributions of the variations in average emissions for the four
+different air pollutants. Even though the feebate increases the emissions of NO X and PM and
+decreases the emissions of HC and CO, the magnitudes are heterogeneous across municipalities.
+HC and CO emissions increase in some municipalities because of the feebate policy, but the
+increases are all lower than 0.24%.
+   I investigate in more detail how the heterogeneity in the feebate’s effect on emissions relates
+to the demographic characteristics of municipalities. I ﬁrst examine the average variation in
+emissions by income decile. As Table 7 shows, there are clear relations between the variations
+in emissions and income deciles. Variations in both NOX and PM increase with income, while
+variations in CO and HC emissions decrease. Emissions of CO even increase in the lowest income
+decile while reducing in the other income deciles. The feebate appears to be progressive for NOX
+and PM but regressive for CO and HC. Provided that NOX and PM are more harmful and costly
+than HC and CO for individuals, I can conclude that the feebate induces redistribution from rich
+to poor municipalities. The largest variations in NOX and PM by income decile are 1.3% and
+0.8%, respectively. These ﬁgures are far below the maximum variation levels, indicating that
+some heterogeneity remains within the highest income deciles.
+  Next, I compute the average variation in emissions levels by municipality size. A clear pattern
+emerges once again: the most signiﬁcant decreases in CO and HC emissions and the largest
+increases in NOX and PM emissions occur in urban areas. In the Paris area, the feebate causes
+a rise of 1.1 mg/km in average emissions of NOX, while in cities with fewer than 20,000
+inhabitants, the increase is lower than 0.41 mg/km. Similarly, the increase in PM emissions is
+around 0.3% in municipalities with fewer than 20,000 inhabitants, but the rise is almost twice
+as large in the Paris area (+0.58%). Given that the levels of NOX and PM emissions constitute
+a critical issue in large cities, the feebate’s unintended effect on these emissions raises serious
+concerns.
+   Finally, I turn to the heterogeneity in the variation of emissions according to the initial
+emissions levels. In the previous section, I ﬁnd that the total cost of local pollutants increases
+by at most 14% when using heterogeneous social costs that increase with average initial car
+emissions or average air emissions concentrations (see Table A.18 in Online Appendix D.3).
+This low value indicates that the emissions do not increase too much where they are initially
+high. But it may nevertheless hide some differences across pollutants and municipalities that
+I investigate here. In the left panel of Figure 2, I plot the variations in average emissions in
+percentage terms as a function of the initial emissions levels (i.e., average emissions of car
+purchases in the absence of the feebate) using local polynomial regressions. These graphs re-
+veal that emissions of all the four pollutants increase most where they are initially the low-
+est. This is because the feebate causes an increase in average emissions of NOX and PM in
+
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 28 页｜印刷第 1441 页] =====
+2022]          winners and losers from the french feebate           1441
+
+                                                                                                                         and
+          %
+                                                                                 HC                                                                           −0.018 −0.1 −0.12 −0.15 −0.17 −0.19 −0.2 −0.23 −0.3 −0.54            −0.11 −0.14 −0.14 −0.15 −0.21 −0.2 −0.24 −0.24 −0.36  −0.2           variations                 HC                                                                                              and
+                                                                                 CO                                        lev.                                                                           −0.006 −0.033 −0.039 −0.048 −0.054 −0.061 −0.066 −0.077 −0.1 −0.2              −0.035 −0.046 −0.046 −0.048 −0.071 −0.065 −0.078 −0.081 −0.13   −0.069                                                                                                                                                                                                                                                                                                                                                                                                         represents                             Density.                                                                                                                               NOX,
+                                                                                                                      ‘%’ of
+          %          0.023 −0.074 −0.098 −0.13 −0.15 −0.17 −0.2 −0.24 −0.32 −0.57          −0.1 −0.14 −0.14 −0.13 −0.2 −0.18 −0.22 −0.22 −0.36   −0.19     while
+                 CO                                                                                                                                                        (€), emissions                                    Population                                        lev.          0.044                                                                               for           and                                        −0.18 −0.24 −0.31 −0.37 −0.44 −0.49 −0.61 −0.82 −1.7            −0.25 −0.34 −0.33 −0.33 −0.5 −0.45 −0.56 −0.59 −1.1   −0.51     terms                                                           emissions                                                                                                                                                               level mg/km
+          %                                                    0.19 0.24 0.26 0.29 0.31 0.33 0.36 0.4 0.48 0.81          0.29 0.31 0.31 0.3 0.35 0.33 0.36 0.38 0.58  0.37  in                      Decile                 PM                                                                                                                                                                                                                                                         surplus,                                                                                                                                                                                                                                                                                                                                                                                                         variations                      Income                 lev.        0.14 0.17 0.19 0.2 0.21 0.23 0.24 0.27 0.31 0.43        0.2 0.22 0.21 0.21 0.23 0.22 0.24 0.25 0.33  0.24       by                                                                                                                                                                                                                                                                                     consumer
+                                                                                                                         for                                                                                                                                                                                                                                                                                                                                                                                                         represents
+          %                                                    0.23 0.31 0.34 0.38 0.42 0.46 0.5 0.57 0.7 1.3          0.39 0.41 0.41 0.4 0.49 0.45 0.51 0.54 0.95  0.53         euro                                                                                                                                                                                                                                            ‘lev.’ in                                 Variation       NOX
+                                                                                                                         are
+                                        lev.        0.37 0.48 0.52 0.57 0.61 0.67 0.72 0.81 0.96 1.5          0.59 0.61 0.61 0.59 0.69 0.65 0.71 0.75 1.1  0.72                                                                                                                                                                                                          terms                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        abbreviation                                 Emissions                                                                                                                                                                             level
+          %                                                               −0.54 −1.42 −1.27 −1.57 −1.57 −1.61 −1.45 −0.85 −0.93 −1.84            −0.39 −0.63 −0.7 −0.98 −1.9 −1.72 −2.4 −2.04 −1.64   −1.31   The                         tax                         Average                                                                                                                                                                                                                                           decile. in                                         Prop.                                                                                                                                                                                                                                                                                                                                                                                                                    Variations                                                                                                               −2.4 −4.25 −7.81 −6.79 −8.71 −7.38 −10   −5.46           and                 lev.          −2.28 −5.1 −5.05 −5.31 −5.36 −5.26 −4.47 −4.04 −4.67 −13.1            −1.61 −1.81                                                                                                                                                                                                                                            income
+                                                                                                                      the          %                                                         of reference.
+                                        a                                              surplus                         tax                  −1.56 −2.33 −1.92 −2.04 −1.87 −1.73 −1.37 −0.58 −0.4 −0.35            −0.66 −0.84 −0.98 −1.31 −2.31 −2.2 −2.77 −2.19 −0.82   −1.41                                 Variation                                                                                 as                                                                                                                                                                                                     value
+                                         Unif.                                                                                          the                                                                                        0.63 1.1                                                    consumer          lev.                     −9.02 −8.13 −7.22 −5.99 −3.82 −1.44                       −2.86 −2.42 −3.36 −5.91 −9.53 −9.04 −9.99 −7.77 −3.77   −5.46                         Surplus                                   −10.5 −10.3                                                                                                                                                                                 feebateof                                                                                                                                                                                                                                                                                                                           provides
+
+          %                                                                                                                                                                                                                                                                                           absence                                                    2.21 2.83 2.85 2.87 2.86 2.83 2.69 2.49 2.45 2.71          2.26 2.59 2.63 2.82 3.01 2.98 3.14 2.94 2.55  2.68     panel
+                         tax                                                                                              the                             Consumer                                                                                                                                                             ﬁrst in                 No
+                                                                                                                      the
+                                        lev.        18.8 19 20.3 21.1 22.1 23.3 25.5 27.8 29.9 30.4          26.4 26.9 25.9 23.4 19.7 20.2 19.3 21.5 25.5  23.8  of value                         Average                                                                                                        the
+       7.                                                                                                                                                                                                         column                                                                                                                                                                                                          using
+                  Table                                           14,800 15,767 16,489 17,149 17,767 18,538 19,588 21,009 23,339 50,695       density                                                           million                       second terms, PM.for
+                                                                     decile                                                                                The   km
+                                                                                                                                               area                              relative                                                                     Income d1 d2 d3 d4 d5 d6 d7 d8 d9 d10          Population   <2,000 2,000–4,999 5,000–9,999  10,000–19,999  20,000–49,999  50,000–99,999  100,000–199,999 200,000–2 Paris    Average      Notes: in mg/10
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 29 页｜印刷第 1442 页] =====
+1442                    the economic journal                    [may
+
+
+
+
+
+       (a)                                (b)
+
+
+            Fig. 2. Emissions Variation in Percentage Terms as a Function of Emissions Levels.
+   Notes: Second-order local polynomial regressions. Average car emissions are in mg/km except PM
+emissions are in mg/10 km. Concentrations of NO2, PM10 and C6H6 are in μg/m3. Concentrations of CO
+                                              are in mg/m3.
+
+
+urban and wealthy municipalities, which initially have low average emissions of NOX and PM.
+Similarly, the feebate decreases the emissions of CO and HC where they are initially higher,
+again in urban and wealthy municipalities. These municipalities typically have a lower share of
+diesel cars, explaining this pattern. The feebate, therefore, achieves some redistribution regard-
+ing emissions of local pollutants from the high-emissions municipalities to the low-emissions
+municipalities.
+   I obtain rather different results for the heterogeneity across air emissions concentration levels.
+A city’s air emissions concentration relates to many factors on top of car ﬂeet composition:
+trafﬁc intensity, manufacturing activities and probably weather conditions that are more or less
+favourable to the dispersion of air particles. I obtain negative correlations between air emissions
+concentrations and average car emissions across municipalities (between −0.30 and −0.05
+depending on the pollutant). The second panel of Figure 2 suggests that all emissions increase
+most where they are medium or high, indicating a negative indirect effect of the feebate policy
+on air quality. It is particularly the case of NOX emissions, which increase the most where NO2
+emissions are highest, i.e., in dense and rich municipalities and the Paris area. I ﬁnd slightly
+less heterogeneity in the variation in PM, CO and HC emissions, but the emissions tend to rise
+most where air concentrations are medium or high. In Online Appendix D.4, I provide the same
+graphs with variations in emissions in levels (Figure A.4 in the Online Appendix). I also show
+the detailed ﬁgures for the average change in emissions by emission deciles (Table A.22 in
+the Online Appendix) and analyse where diesel shares increase most (Figure A.5 in the Online
+Appendix).
+
+
+4.3. Performance of the Feebate Scheme
+
+I assess the performance of the actual feebate scheme in terms of redistribution across households
+and the limitation of emissions of local pollutants and the diesel car share. I investigate alternative
+feebate schemes that achieve the same average CO2 emissions at the same budget as that of the
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 30 页｜印刷第 1443 页] =====
+2022]          winners and losers from the french feebate           1443
+
+current policy. Given that there is an inﬁnite number of possible thresholds, fees and rebates that
+generate these two outcomes, I restrict my attention to linear feebate schemes with differentiated
+slopes. These linear feebate schemes are deﬁned by three parameters: the pivot point, the rebate
+slope and the fee slope. This restriction is necessary because I have two outcomes to match:
+average CO2 emissions and the pecuniary cost of the policy. Therefore, for a given pivot point,
+the marginal tax and rebate rates are pinned down by matching these two outcomes to those of the
+current feebate. I consider three classes of feebate schemes that differ in their applicability. The
+ﬁrst feebate class applies uniformly to all cars. The second penalises diesel cars by preventing
+them from receiving rebates. The third disadvantages diesel cars by dividing their rebates by two
+while doubling their taxes. Formally, the feebate schemes of the three classes are given by:
+
+             λ(1)j = r × (e j −¯e)1(e j ≤¯e) + t × (e j −¯e)1(e j ≥¯e)
+             λ(2)j = r × (e j −¯e)1(e j ≤¯e)1(fuel = gasoline) + t × (e j −¯e)1(e j ≥¯e)
+             λ(3)j =  r2 × (e j −¯e)1(e j ≤¯e) + r2 × (e j −¯e)1(e j ≤¯e)1(fuel = gasoline)
+         + t × (e j −¯e)1(e j ≥¯e) + t × (e j −¯e)1(e j ≥¯e)1(fuel = diesel),
+
+where λ j represents the rebate (fee) associated with car model j, e j represents the CO2 emissions
+of the car, and  ¯e is the pivot point that separates the positive from the negative feebates; r
+(respectively t) is the marginal rebate (tax) rate for each unit of CO2 emissions below (above)
+the pivot point.
+   I compare the current feebate scheme to the optimal schemes for several different outcomes
+and several different objective functions. I use consumer surplus, national manufacturers’ proﬁts,
+emissions of local pollutants and diesel car share as outcomes. I consider four objective functions
+that put different weights for each municipality’s outcome in the global objective: weights that
+are simply proportional to the population size; weights that are proportional to the population size
+and favour municipalities with low initial outcomes; a Rawlsian weighting scheme that puts all
+weight on the most disadvantaged municipality; and a weighting system that takes into account
+only the difference between the best and the worst outcomes as a measure of inequality. The
+different outcomes, objectives and corresponding formalised objective functions are summarised
+in Table A.23 of Online Appendix D.5.
+  In practice, I solve for the optimal feebate scheme associated with a given objective function
+and outcome by performing a grid search. For each value of the pivot point, I solve for the slope
+parameters r and t such that average CO2 emissions and the budget are the same as under the
+actual feebate. Then, I select the optimal one for the deﬁned objective function and outcome
+among all these feebate schemes associated with the same CO2 emissions and budget outcomes.
+I jointly solve the feebate’s slope parameters and the new market equilibrium (optimal prices
+and market shares). I provide details on the strategy developed to reduce the computation time
+in Online Appendix D.5.
+  Table 8 displays the potential gains from replacing the 2008 feebate scheme with an optimal
+alternative feebate (optimal for a deﬁned outcome and objective function). I provide in parentheses
+the parameters of this optimal feebate: the pivot point (in g/km), the tax rate and the rebate
+rate (both in € per g/km). For the consumer surplus outcome, the ﬁrst three columns suggest
+that the actual feebate performs very well for consumer surplus maximisation. The best linear
+feebates with diesel penalisation have lower performance than the actual feebate to maximise
+the simple weighted average surplus. The uniform feebates provide positive but negligible gains,
+below 0.1%, relative to the existing feebate scheme. In contrast, inequalities across individuals
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 31 页｜印刷第 1444 页] =====
+1444                    the economic journal                    [may
+
+   Table 8. Potential Gains from Optimal Linear Feebates (in % of the Optimal Outcomes).
+
+Objective       Feebate          Simple        Weighted      Weighted       Min          Range
+outcome       scheme           average        average 1       average 2         or max       max–min
+
+CS               (1)                0.035          0.023                          0.397           10.67
+                                (146/19/21)     (144/17/24)                     (121/8/180)      (217/833/2)
+                  (2)             −0.312        −0.505                         0.264           11.75
+                                (159/33/37)     (158/32/39)                    (136/12/114)     (216/885/8)
+                  (3)             −0.006        −0.074                         0.442           10.91
+                                (147/12/32)     (145/11/35)                     (123/5/181)      (217/506/4)
+
+Fr. Proﬁts        (1)                0.499          0.241                          0.281           12.13
+                                        (119/8/268)                             (147/20/20)     (89/8/24,165)
+                  (2)             −0.241        −0.707                     −0.665          11.76
+                                (112/7/1,270)    (188/124/15)                    (205/321/10)   (105/13/26,829)
+                  (3)                0.262        −0.084                          0.08            12.78
+                                (119/5/329)     (160/20/18)                     (160/20/18)     (89/5/48,455)
+
+NOX             (1)                 2.63            2.65            3.19           0.696           24.57
+                                                 (115/7/512)                     (114/7/601)     (89/8/24,165)
+                  (2)                 4.42            4.39            5.44             1.1           −3.16
+                                (148/20/61)    (112/7/1,270)   (111/7/1,773)    (147/20/64)     (130/10/162)
+                  (3)                 4.28            4.22            5.15            1.11            22.29
+                                                         (113/4/904)                              (89/5/48,455)
+
+PM              (1)                 3.47            3.54            3.66           0.884           34.69
+                                                         (115/7/512)                              (89/8/24,165)
+                  (2)                 5.56            5.65            5.86            1.05          −5.12
+                                                         (111/7/1,773)                             (152/24/50)
+                  (3)                 5.19            5.21            5.39            1.29            31.61
+                                                         (113/4/904)                              (89/5/48,455)
+
+CO              (1)                0.795          0.982          0.811          11.49           26.32
+                                                                  (89/8/24,165)
+                  (2)              −2.12         −1.91         −1.66         −2.21         −3.42
+                                               (108/13/6,659)                    (139/14/97)     (137/13/108)
+                  (3)             −0.082         0.165          0.035          10.29           24.55
+                                                 (104/6/2,944)                             (89/5/48,455)
+
+HC              (1)                0.855           1            0.856          10.39           29.99
+                                                                  (89/8/24,165)
+                  (2)                0.211          0.254          0.089           17.5            58.34
+                                                               (105/13/26,829)
+                  (3)                0.133          0.332          0.208           9.24            26.96
+                                (107/6/2,450)   (89/5/48,455)   (107/6/2,450)             (89/5/48,455)
+
+%Diesel         (1)                 2.99            2.99                          0.788           25.71
+                                        (115/7/512)                             (114/7/601)     (89/8/24,165)
+                  (2)                 5.25            5.09                            1.25          −2.86
+                                (150/22/55)     (148/20/61)                     (147/20/64)     (130/10/162)
+                  (3)                 4.95            4.84                            1.26            23.37
+                                        (113/4/904)                             (113/4/904)     (89/5/48,455)
+
+Notes: Weights are inversely proportional to income for consumer surplus, inversely proportional to market share for
+manufacturers’ proﬁts, proportional to average emissions for the pollutants and proportional to the diesel share for
+the diesel share reduction objective. ‘Min or max’ represents the minimum surplus and manufacturer proﬁts and the
+maximum average emissions levels and diesel share. Values in parentheses are the parameters of the optimal feebate
+scheme and are, in order: pivot point/tax rate/rebate rate. The grid search was conducted over 129 pivot points between
+89 and 217 g/km for the feebate schemes (1) and (3) and over 112 pivot points between 105 and 216 g/km for the feebate
+scheme (2); with an increment of 1 g/km.
+
+
+
+could be reduced: the current feebate scheme achieves between 88.3 and 89.3% of the best
+potential redistribution outcome, depending on the feebate scheme class. The optimal feebates
+for inequality reduction have the highest pivot points, impose high taxes (between €506 and €885
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 32 页｜印刷第 1445 页] =====
+2022]          winners and losers from the french feebate           1445
+
+per g/km) on few car models and provide low rebates for almost all cars (the rebate rates are
+between €2 and €8 per g/km).
+  There is also little room to increase French proﬁts: they could be improved by at most 0.5%
+with a uniform feebate. Such a feebate scheme has a very low pivot point, giving few but
+signiﬁcant rebates and taxing almost all car models. The potential gains are even lower when
+the objective is to improve the weighted average proﬁts (the weights are inversely proportional
+to the manufacturers’ market shares, giving Renault more importance than PSA). There are
+signiﬁcant potential gains from reducing the proﬁt difference between Renault and PSA using
+the feebates with the lowest pivot points, very high rebates for two car models and taxes on all
+other models. These are clearly very different from the feebate schemes that improve the French
+car manufacturers’ proﬁts, indicating that the reduction of inequalities comes at the expense of
+overall proﬁt losses.
+  The average emissions of NOX and PM could be further limited. The potential gains are equal to
+2.6% for the average NOX emissions and 3.5% for PM emissions using uniform feebate schemes.
+Still, these gains are multiplied by 1.5 to 1.6 with diesel-penalising feebate schemes. The different
+emissions weights do not qualitatively change the results, and the emissions concentration weights
+imply slightly larger potential NOX and PM emission reductions than the average car emissions
+weights. The emissions are most limited using feebates with relatively low pivot points (111 to
+115 g/km), taxing approximately 98% of the car models. There is one exception for the second
+class of feebate scheme, which achieves the largest limitation of NOX emissions with a pivot
+point equal to 148 and relatively homogeneous tax and rebate rates (€20 g/km for the tax rate
+and €61 g/km for the rebate rate). The potential gains in limiting the simple weighted average
+emissions of CO and HC are much more modest. They are below 1% for both pollutants and
+the two types of weights under uniform feebates. The gains are even smaller or disappear with
+diesel-penalising feebates. Diesel-penalising feebate schemes indeed discourage the purchase of
+diesel cars, which have low CO and HC emissions.
+   If the objective is to reduce emissions in the municipalities where they are highest, the potential
+gains are heterogeneous across feebate schemes and pollutants. The potential gains are the most
+extensive for HC emissions under feebates that provide zero rebates to diesel cars (17.5%). Such
+improvements are also relatively signiﬁcant for CO emissions under uniform feebates (11.5%)
+but are very small for NOX and PM emissions (at most 1.1% and 1.3%, respectively). There
+are potential gains in terms of inequality reduction for all pollutants. For instance, the current
+feebate achieves 42% of the maximum decrease in the difference between the lowest and highest
+levels of HC emissions. The performance is better for NOX and PM emissions, for which the
+current feebate scheme achieves approximately 75% and 65% of the potential optimal inequality
+reductions, respectively. The feebate schemes that decrease inequalities are the same for most
+pollutants: the pivot points are minimum (89 or 105 g/km), the tax rates are low (€8 or €13), and
+the rebate rates are very high. Such a feebate scheme is, in contrast, never optimal for improving
+consumer surplus, indicating that the reduction in emissions inequality would come at the cost
+of a decrease in consumer surplus.
+  Unsurprisingly, the results for the share of diesel closely follow those for the reduction of
+NOX and PM emissions. Some feebate schemes can reduce the percentage of diesel cars, with
+potential improvements between 3 and 5% of the optimal outcome. As expected, the gains are
+more signiﬁcant with diesel-penalising feebate schemes, particularly those that grant no rebates
+to diesel cars. These particular feebate parameters are not too different from the actual parameters
+(a pivot point of 148 to 150 g/km versus a neutral zone between 130 and 160 g/km for the actual
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 33 页｜印刷第 1446 页] =====
+1446                    the economic journal                    [may
+
+feebate), except that the actual feebate does not discriminate by fuel type. In summary, the optimal
+feebates are heterogeneous across outcomes and objectives, revealing that a regulator would have
+arbitrage between the different objectives and outcomes to select the optimal regulation.
+
+
+5. Conclusion
+
+In this paper, I quantify both the direct and indirect effects of the feebate policy and ﬁnd that it
+increases global welfare. Consumers are worse off when they are taxed to subsidise the policy
+cost, but their loss is more than offset by an increase in the proﬁts of French manufacturers. With
+a uniform tax rate, the feebate appears to favour the middle-income class, while it is progressive
+with a tax that is proportional to income. The policy decreases average CO2 emissions by
+2.2 g/km but increases average emissions of NOX and PM, the most hazardous air pollutants.
+Emissions of local pollutants increase most where they are initially lowest, namely, in rich and
+dense municipalities, achieving more redistribution from rich to modest individuals. These rich
+and urban municipalities are those where air emissions concentrations are highest, revealing a
+pervasive effect of the feebate. Finally, the implemented feebate scheme achieves almost all of
+the maximum potential consumer surplus and French car manufacturer proﬁts. The inequalities
+across individuals and French car manufacturers could be reduced, but this would come at the
+cost of global welfare losses. Alternative feebate schemes could further limit NOX and PM
+emissions, especially using diesel-penalising ones. However, such diesel-penalising feebates
+would increase emissions of CO and HC and decrease consumer surplus, indicating trade-offs
+across pollutants and objectives. An optimal feebate scheme design would require specifying
+the regulator’s objective and the weights associated with each outcome, which I leave for future
+research.
+
+
+University of Toulouse Capitole, France
+
+Additional Supporting Information may be found in the online version of this article:
+
+Online Appendix
+Replication Package
+
+
+References
+Adamou, A., Clerides, S. and Zachariadis, T. (2014). ‘Welfare implications of car feebates: A simulation analysis’,
+    ECONOMIC JOURNAL, vol. 124(578), pp. F420–43.
+ADEME. (2012–2015). ‘´Emissions de CO2 et de polluants des v´ehicules commercialis´es en France’, data.gouv.fr, https://
+     www.data.gouv.fr/fr/datasets/emissions-de-co2-et-de-polluants-des-vehicules-commercialises-en-france (last ac-
+     cessed: 1 July 2021).
+Allcott, H. and Kessler, J.B. (2019). ‘The welfare effects of nudges: A case study of energy use social comparisons’,
+    American Economic Journal: Applied Economics, vol. 11(1), pp. 236–76.
+Ambec, S. and Coria, J. (2013). ‘Prices vs quantities with multiple pollutants’, Journal of Environmental Economics and
+    Management, vol. 66(1), pp. 123–40.
+Anderson, S.P., De Palma, A. and Kreider, B. (2001). ‘Tax incidence in differentiated product oligopoly’, Journal of
+     Public Economics, vol. 81(2), pp. 173–92.
+ATMO. (2010–2019). ‘Les donn´ees open data des AASQA’, ATMO France, https://atmo-france.org/les-donnees (last
+     accessed: 1 July 2021).
+Ballard, C.L., Shoven, J.B. and Whalley, J. (1985). ‘General equilibrium computations of the marginal welfare costs of
+     taxes in the United States’, The American Economic Review, vol. 75(1), pp. 128–38.
+Bento, A., Freedman, M. and Lang, C. (2015). ‘Who beneﬁts from environmental regulation? Evidence from the Clean
+     Air Act Amendments’, Review of Economics and Statistics, vol. 97(3), pp. 610–22.
+
+                                                                          C⃝The Author(s) 2022.
+
+===== [PDF 第 34 页｜印刷第 1447 页] =====
+2022]          winners and losers from the french feebate           1447
+
+Bento, A., Goulder, L., Jacobsen, M. and Von Haefen, R. (2009). ‘Distributional and efﬁciency impacts of increased US
+     gasoline taxes’, The American Economic Review, vol. 99(3), pp. 667–99.
+Berry, S., Levinsohn, J. and Pakes, A. (1995). ‘Automobile prices in market equilibrium’, Econometrica, vol. 63, pp.
+    841–90.
+Berry, S., Levinsohn, J. and Pakes, A. (2004). ‘Differentiated products demand systems from a combination of micro and
+    macro data: The new car market’, Journal of Political Economy, vol. 112(1), pp. 68–105.
+Bonnet, C. and R´equillart, V. (2013). ‘Tax incidence with strategic ﬁrms in the soft drink market’, Journal of Public
+    Economics, vol. 106, pp. 77–88.
+Borenstein, S. and Davis, L. (2016). ‘The distributional effects of US clean energy tax credits’, Tax Policy and the
+    Economy, vol. 30(1), pp. 191–234.
+CCFA. (2003–2008). ‘Fichier d’immatriculations de voitures neuves’, Comit´e des Constructeurs Franc¸ais d’Automobiles,
+     https://ccfa.fr/immatriculations-commandes/ (last accessed: 15 December 2021).
+CGDD. (2013). ´Evaluation ´economique du dispositif d’´ecopastille sur la p´eriode 2008–2012, vol. 84, Paris: La D´efense
+   CGDD.
+Chen, J., Esteban, S. and Shum, M. (2008). ‘Demand and supply estimation biases due to omission of durability’, Journal
+     of Econometrics, vol. 147(2), pp. 247–57.
+Chen, J., Esteban, S. and Shum, M. (2013). ‘When do secondary markets harm ﬁrms?’, American Economic Review, vol.
+     103(7), pp. 2911–34.
+Crawford, G.S., Shcherbakov, O. and Shum, M. (2019). ‘Quality overprovision in cable television markets’, American
+    Economic Review, vol. 109(3), pp. 956–95.
+Davis, L.W. and Knittel, C.R. (2019). ‘Are fuel economy standards regressive?’, Journal of the Association of Environ-
+    mental and Resource Economists, vol. 6(S1), pp. S37–63.
+DG-MOVE. (2014). ‘Update of the handbook on external costs of transport’, Report for the European Commission,
+   DG-MOVE.
+D’Haultfœuille, X., Durrmeyer, I. and F´evrier, P. (2016). ‘Disentangling sources of vehicle emissions reduction in France:
+    2003–2008’, International Journal of Industrial Organization, vol. 47, pp. 186–229.
+D’Haultfœuille, X., Durrmeyer, I. and F´evrier, P. (2019). ‘Automobile prices in market equilibrium with unobserved
+     price discrimination’, The Review of Economic Studies, vol. 86(5), pp. 1973–98.
+D’Haultfœuille, X., Givord, P. and Boutin, X. (2014). ‘The environmental effect of green taxation: The case of the French
+     bonus/malus’, ECONOMIC JOURNAL, vol. 124(578), pp. F444–80.
+Durrmeyer, I. and Samano, M. (2018). ‘To rebate or not to rebate: Fuel economy standards versus feebates’, ECONOMIC
+     JOURNAL, vol. 128(616), pp. 3076–116.
+EEA. (2012–2018). ‘Air quality time series’, European Environment Agency, https://www.eea.europa.eu/data-and-map
+     s/data/aqereporting-8 (last accessed: 1 July 2021).
+Feger, F., Pavanini, N. and Radulescu, D. (2020). ‘Welfare and redistribution in residential electricity markets with solar
+     power’, Ms., Tilburg University.
+Gavazza, A., Lizzeri, A. and Roketskiy, N. (2014). ‘A quantitative analysis of the used-car market’, American Economic
+     Review, vol. 104(11), pp. 3668–700.
+Goldberg, P. (1998). ‘The effects of the corporate average fuel efﬁciency standards in the US’, The Journal of Industrial
+    Economics, vol. 46(1), pp. 1–33.
+Grifﬁth, R., Nesheim, L. and O’Connell, M. (2018). ‘Income effects and the welfare consequences of tax in differentiated
+     product oligopoly’, Quantitative Economics, vol. 9(1), pp. 305–41.
+Gruenspecht, H.K. (1982). ‘Differentiated regulation: The case of auto emissions standards’, The American Economic
+     Review, vol. 72(2), pp. 328–31.
+Holland, S., Mansur, E., Muller, N. and Yates, A. (2016). ‘Are there environmental beneﬁts from driving electric vehicles?
+    The importance of local factors’, American Economic Review, vol. 106(12), pp. 3700–29.
+Holland, S.P., Mansur, E.T., Muller, N.Z. and Yates, A.J. (2019). ‘Distributional effects of air pollution from electric
+     vehicle adoption’, Journal of the Association of Environmental and Resource Economists, vol. 6(S1), pp. S65–94.
+Huse, C. (2012). ‘Fast and furious (and dirty): How asymmetric regulation may hinder environmental policy’, Working
+     paper.
+INSEE. (2003–2008). ‘Bases de donn´ees de niveau communal’, Institut National de la statistique et des ´etudes
+     ´economiques, https://www.insee.fr/fr/statistiques?debut=0&geo=TOUTES COMMUNE-1 (last accessed: 1 July
+     2021).
+Jacobsen, M. (2013). ‘Evaluating US fuel economy standards in a model with producer and household heterogeneity’,
+    American Economic Journal: Economic Policy, vol. 5(2), pp. 148–87.
+Jacobsen, M. and Van Benthem, A. (2015). ‘Vehicle scrappage and gasoline policy’, American Economic Review, vol.
+     105(3), pp. 1312–38.
+Klier, T. and Linn, J. (2012). ‘New-vehicle characteristics and the cost of the corporate average fuel economy standard’,
+    The RAND Journal of Economics, vol. 43(1), pp. 186–213.
+Levinson, A. (2019). ‘Energy efﬁciency standards are more regressive than energy taxes: Theory and evidence’, Journal
+     of the Association of Environmental and Resource Economists, vol. 6(S1), pp. S7–36.
+Linn, J. (2019). ‘Interactions between climate and local air pollution policies: The case of European passenger cars’,
+     Journal of the Association of Environmental and Resource Economists, vol. 6(4), pp. 709–40.
+
+
+C⃝The Author(s) 2022.
+
+===== [PDF 第 35 页｜印刷第 1448 页] =====
+1448                    the economic journal                    [may
+
+Nurski, L. and Verboven, F. (2016). ‘Exclusive dealing as a barrier to entry? Evidence from automobiles’, The Review of
+    Economic Studies, vol. 83(3), pp. 1156–88.
+Opendatasoft.  (2016). ‘Correspondance  entre  les codes postaux  et codes INSEE des communes  Franc¸aises’,
+     data.gouv.fr,  https://www.data.gouv.fr/fr/datasets/correspondance-entre-les-codes-postaux-et-codes-insee-des-c
+    ommunes-francaises/#  (last accessed: 1 July 2021).
+Petrin, A. (2002). ‘Quantifying the beneﬁts of new products: The case of the minivan’, Journal of Political Economy,
+     vol. 110(4), pp. 705–29.
+Reguant, M. (2019). ‘The efﬁciency and sectoral distributional impacts of large-scale renewable energy policies’, Journal
+     of the Association of Environmental and Resource Economists, vol. 6(S1), pp. S129–68.
+Reynaert, M. and Sallee, J.M. (2021). ‘Who beneﬁts when ﬁrms game corrective policies?’, American Economic Journal:
+    Economic Policy, vol. 13(1), pp. 372–412.
+Small, K.A. and Rosen, H.S. (1981). ‘Applied welfare economics with discrete choice models’, Econometrica, vol. 49,
+    105–30.
+UK Vehicle Certiﬁcation Agency. (2000–2018). ‘Car fuel data, CO2 and vehicle tax tools’, https://carfueldata.vehicle-
+     certification-agency.gov.uk/downloads/archive.aspx (last accessed: 1 July 2021).
+West, S. (2004). ‘Distributional effects of alternative vehicle pollution control policies’, Journal of Public Economics,
+     vol. 88(3), pp. 735–57.
+
+
+
+
+
+                                                                          C⃝The Author(s) 2022.

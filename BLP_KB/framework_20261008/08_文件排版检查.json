@@ -1,0 +1,34 @@
+{
+  "01_完整研究框架与逐式推导.pdf": {
+    "pages": 34,
+    "text_chars": 48136,
+    "last_page_chars": 723,
+    "out_of_page_words": 0
+  },
+  "02_详细思维导图_打印版.pdf": {
+    "pages": 8,
+    "text_chars": 4011,
+    "last_page_chars": 472,
+    "out_of_page_words": 0
+  },
+  "latex": {
+    "Overfull": 0,
+    "Missing character": 0,
+    "Undefined control": 0,
+    "LaTeX Warning": 0
+  },
+  "equation_tags": 107,
+  "mindmap": {
+    "tabs": 4,
+    "nodes": 149,
+    "xml_structure_validated": true,
+    "desktop_xmind_tested": false,
+    "browser_render_checked": true
+  },
+  "mathematical_checks": {
+    "executed": 50,
+    "passed": 50,
+    "empirical_identification_validated": false,
+    "independent_external_review_completed": false
+  }
+}

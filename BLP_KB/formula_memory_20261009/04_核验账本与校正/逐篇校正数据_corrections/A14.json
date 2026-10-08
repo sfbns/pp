@@ -1,0 +1,9 @@
+{
+  "images": "D:\\blp-auto-fulltext-pack-20261008\\work\\pages\\A14_pNN.png（本轮渲染）",
+  "paper_note": "AEJ: Economic Policy 期刊版，期刊页 = PDF 页 + 206。正文只给 (1)(2) 两个编号式；把价格变化换算成支付意愿的边界式在期刊版放在在线附录 D.3，本地没有该附录。",
+  "items": [
+    {"page": 7, "label": "(1)", "latex": "Price_{jrt}=\\beta\\,\\mathbf 1(\\text{Post Restatement})_t\\times\\mathbf 1(\\text{Affected Model})_j+\\rho_{t\\times Class_j}+\\mu_{t\\times Make_j}+\\eta_r\\times\\mathbf 1(\\text{Post Restatement})_t+\\eta_r+\\omega_j+\\epsilon_{jrt}", "check": "本轮看图", "note": "Price 取对数或水平；j 为 VIN10，r 为 DMA，t 为年月；重标在 2012 年 11 月。表 2 第 (6) 列水平值 −294（91）"},
+    {"page": 16, "label": "(2)", "latex": "Price_{jrt}=\\gamma\\,\\Delta G_{jt}+\\rho_{t\\times Class_j}+\\mu_{t\\times Make_j}+\\eta_r\\times\\mathbf 1(\\text{Post Restatement})_t+\\eta_r+\\omega_j+\\epsilon_{jrt}", "check": "本轮看图", "note": "\\Delta G_{jt} 为重标引起的贴现生命周期燃油成本变化（非受影响车型与重标前为 0）。销量不调整时 \\gamma=-1 为完全估值；表 6（PDF 第 18 页）4% 贴现率下 2011–2012 年款 −0.39、2013 年款 −0.16"},
+    {"page": 23, "label": "（表 7 的换算，派生）", "latex": "\\Delta WTP=\\Delta P-P_0\\,\\frac{\\Delta Q/Q}{\\eta_D},\\qquad \\Delta P=-294,\\ P_0=24{,}500", "check": "派生 [D]", "note": "期刊正文未印此式（原式在本地没有的在线附录 D.3）。该式由表 7 六个格子反推，能复现 498/600、335/355、90/−12（表中报的是 -\\Delta WTP）；它与 NBER 工作论文版脚注 26 的 \\Delta P+\\Delta P\\times\\Delta Q/\\eta_D 不同，后者见 A14b"}
+  ]
+}

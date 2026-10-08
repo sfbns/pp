@@ -1,0 +1,15 @@
+{
+  "command": "pandoc Markdown to standalone offline MathML HTML",
+  "inputs": [
+    "D:\\codex\\output\\blp_bundle_20261007\\package\\00_认知还是偏好_直接回答.md",
+    "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R01_GRV2018\\model_formula_checked.md",
+    "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R02_Reynaert_Sallee2021\\model_formula_checked.md",
+    "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R03_Barwick_Kwon_Li2024\\model_formula_checked.md",
+    "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R04_Xing_Leard_Li2021\\model_formula_checked.md",
+    "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R05_Barwick_et_al2025\\model_formula_checked.md"
+  ],
+  "exit_status": 0,
+  "stdout": null,
+  "stderr": null,
+  "html_math_elements": 13
+}

@@ -1,0 +1,158 @@
+{
+  "source_copies": 139,
+  "source_copies_hash_equal": true,
+  "source_files_still_unchanged": true,
+  "payload_files_in_manifest": 164,
+  "pdf_files": 27,
+  "unique_pdf_hashes": 25,
+  "all_pdfs_opened": true,
+  "pdfs": [
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P01_w33378.pdf",
+      "pages": 72,
+      "sha256": "A96D97D3AF0C120087505B699B6C5CCDB11C8D5DBB924611A1DCA3EE174B9A3F"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P02_w32264.pdf",
+      "pages": 57,
+      "sha256": "C686CEF999C93DA89EE031F4F8AA2EA6D417AAAC05EA481EB29CDDB174D1C0AB"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P03_EE2025_775.pdf",
+      "pages": 14,
+      "sha256": "FA9ABE8D49307CC1FE75D30E04D2FABC7B5B423F1A6F081A6673C122AFEC9153"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P04_WP2304.pdf",
+      "pages": 73,
+      "sha256": "368403B6D2DC015037AFA4825F24603D95B30BC3732A23B9FE5D40901CB025D2"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P05_IndPolSlides.pdf",
+      "pages": 28,
+      "sha256": "84AF7ADF17F7D13138B97E3F2E3689AC98CB2E3A9805C55082B16E7FCCE31845"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P06_w34763.pdf",
+      "pages": 69,
+      "sha256": "89F86F99070E2D892AE740E1C414BBA189628042ED71C707528DE804F7258BF2"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P07_TRP_S0967070X22002074.pdf",
+      "pages": 12,
+      "sha256": "B1811E90623BCCEB45837595C3ECB39072E3CEFA6F58CAB04A41BFD7B678EFA2"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P08_w33032.pdf",
+      "pages": 107,
+      "sha256": "8D32A3B9895653508794632686A2FFC1D3DBCF24FEE6529C21D439A139E963E8"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P09_Gavazza2014.pdf",
+      "pages": 45,
+      "sha256": "DB120C22848055A8239F96C7193F07118B231CDB32834989DCB5449250224A61"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P10_Kaneko2024_JIE.pdf",
+      "pages": 48,
+      "sha256": "26A01D42001B6B4DDD2991201B2A1ED12BD1F624C928264090374286568DC21A"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P11_Roberson2024_ERL.pdf",
+      "pages": 13,
+      "sha256": "AE09B841DDC52062552A0545328A8DAED2C09422629A40DF1DD2B062FF15F172"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P12_EARE_872.pdf",
+      "pages": 62,
+      "sha256": "358365C3BE9EBFFF8E7E9A3E831C01C9ADB3C51C0CBC404B1D05AB138C7D2325"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P13_ResaleValueGuarantee.pdf",
+      "pages": 15,
+      "sha256": "EDD212648C9A57F4A2A7FF98443F0BDA6EF0928A7F923EA1918ECB6F80422123"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P14_TRA_S0965856426001679.pdf",
+      "pages": 16,
+      "sha256": "DB5F6998F028A5DDC28C815D09AC93D470D85BDD8F4149F0D7FFC495C742B1B0"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P15_Gillingham2021_Myopia.pdf",
+      "pages": 32,
+      "sha256": "79E629C100DA04566A33F88714CAAD4FB44F90C6F46A91CFCD7E5EE1B4D9A81D"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P16_w23340.pdf",
+      "pages": 40,
+      "sha256": "A66909D8F2C1F1F8DDD93C9167A7240A55672A69E7D49A66C5796496E97A609C"
+    },
+    {
+      "path": "01_existing_fuel_batch/original_pdfs/P18_w27644.pdf",
+      "pages": 60,
+      "sha256": "0CC883D8CA18C9BD15258C5BC8C8EEF004C7FD95FC2DB3294A66BC396B643E92"
+    },
+    {
+      "path": "02_five_BLP_recommendations/R01_GRV2018/original.pdf",
+      "pages": 33,
+      "sha256": "5D729774CBE07F5281ED09097CAF3F224BE24A2260417E766D8D361B5E8670DF"
+    },
+    {
+      "path": "02_five_BLP_recommendations/R02_Reynaert_Sallee2021/original.pdf",
+      "pages": 41,
+      "sha256": "F478A23B703D83345EB2A90C7DB10961BFF7499C8332584E559FAF08A7E72A68"
+    },
+    {
+      "path": "02_five_BLP_recommendations/R03_Barwick_Kwon_Li2024/original.pdf",
+      "pages": 57,
+      "sha256": "C686CEF999C93DA89EE031F4F8AA2EA6D417AAAC05EA481EB29CDDB174D1C0AB"
+    },
+    {
+      "path": "02_five_BLP_recommendations/R04_Xing_Leard_Li2021/original.pdf",
+      "pages": 33,
+      "sha256": "174D8650AF63A6ABC25F97195C7697D2B42793838FE84210220DD236AD06DCC7"
+    },
+    {
+      "path": "02_five_BLP_recommendations/R05_Barwick_et_al2025/original.pdf",
+      "pages": 72,
+      "sha256": "A96D97D3AF0C120087505B699B6C5CCDB11C8D5DBB924611A1DCA3EE174B9A3F"
+    },
+    {
+      "path": "03_BLP_foundation/BLP1995_original.pdf",
+      "pages": 58,
+      "sha256": "A7F6E505C4CF2B2CE72BFEA5D700454571400E99F7AB9501F7AE9302CBE06D75"
+    },
+    {
+      "path": "05_previous_20261002_recommendations_not_all_fully_read/original_pdfs/AleChilet_2026_REStud.pdf",
+      "pages": 37,
+      "sha256": "5550F66623312152E19B55B224FE2E504AA106390CE246CD87261A011ABF51D0"
+    },
+    {
+      "path": "05_previous_20261002_recommendations_not_all_fully_read/original_pdfs/Grieco_2023_author_version.pdf",
+      "pages": 67,
+      "sha256": "D34B2ACB0047FF3C87CB809782FA5D39BC5B47F04AA8F9B313EF3E9DCC7EC60E"
+    },
+    {
+      "path": "05_previous_20261002_recommendations_not_all_fully_read/original_pdfs/Hong_September2026_WP.pdf",
+      "pages": 73,
+      "sha256": "754DA49AF92ED60C2D75887F217BA3BBA02391054C14CA54E87C8947A18486C9"
+    },
+    {
+      "path": "05_previous_20261002_recommendations_not_all_fully_read/original_pdfs/Petrin_working_paper.pdf",
+      "pages": 52,
+      "sha256": "711A535E98487F90C2301BADB2A24B03152BD6F07729D2E0DD0A71D92CCF9F88"
+    }
+  ],
+  "exact_five_recommendations": [
+    "R01_GRV2018",
+    "R02_Reynaert_Sallee2021",
+    "R03_Barwick_Kwon_Li2024",
+    "R04_Xing_Leard_Li2021",
+    "R05_Barwick_et_al2025"
+  ],
+  "new_reading_proofs": [
+    "grv_completion_20261007.md",
+    "xing_completion_20261007.md"
+  ],
+  "full_translation_all_formulas_certified": false
+}

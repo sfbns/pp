@@ -1,0 +1,169 @@
+{
+  "rank": 16,
+  "item_key": "NY37LT4P",
+  "title": "Market Entry, Fighting Brands, and Tacit Collusion: Evidence from the French Mobile Telecommunications Market",
+  "authors": [
+    "Marc Bourreau",
+    "Yutec Sun",
+    "Frank Verboven"
+  ],
+  "creators": [
+    {
+      "name": "Marc Bourreau",
+      "type": "author"
+    },
+    {
+      "name": "Yutec Sun",
+      "type": "author"
+    },
+    {
+      "name": "Frank Verboven",
+      "type": "author"
+    }
+  ],
+  "date": "2021-00-00 2021",
+  "journal": "American Economic Review",
+  "doi": "10.1257/aer.20190540",
+  "url": "https://doi.org/10.1257/aer.20190540",
+  "collections": [
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Bourreau, M., Sun, Y., & Verboven, F. (2021). Market Entry, Fighting Brands, and Tacit Collusion: Evidence from the French Mobile Telecommunications Market. American Economic Review. https://doi.org/10.1257/aer.20190540",
+    "parenthetical": "(Bourreau et al., 2021)",
+    "narrative": "Bourreau et al. (2021)"
+  },
+  "preferred_pdf_rel": "source_pdfs/16_ny37lt4p.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "SB29TUVH",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:eb9e32f1-84f6-4117-9968-a6dc14aca15c.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\SB29TUVH\\eb9e32f1-84f6-4117-9968-a6dc14aca15c.pdf",
+    "exists": true,
+    "size": 867951
+  },
+  "legacy_note_rel": "raw/notes/16_ny37lt4p.md",
+  "legacy_old_memory_rel": "raw/paper_memory/16_ny37lt4p.md",
+  "fulltext_json_rel": "raw/fulltext/16_ny37lt4p.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/16_ny37lt4p.fulltext.txt",
+  "llm_json_rel": "raw/ocr_llm/16_ny37lt4p.llm.json",
+  "llm_md_rel": "raw/ocr_llm/16_ny37lt4p.llm.md",
+  "note_sections": {
+    "1. One-paragraph thesis": "- 故事起点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n- BLP positioning: canonical BLP demand-supply\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.",
+    "2. Story ladder": "- 故事起点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n- 制度/市场切口：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.",
+    "3. Model or identification core": "- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧并非完全缺席，作者至少把进入、定价或市场结构响应嵌进均衡框架。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 论文明确把模型用于税收、补贴、禁令、标签或进入政策的反事实分析。",
+    "4. Data and measurement": "- Data section must be read together with the recovered fulltext headings and paper PDF.\n- Recovered section headings: headings not recovered",
+    "5. Findings and mechanisms": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.",
+    "6. Contribution construction": "- 故事起点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.",
+    "7. Literature review function": "- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+    "8. Writing structure map": "- 这篇文章的正文结构大体按下面的顺序推进：\n- Introduction\n- Background / Data\n- Model\n- Estimation\n- Results\n- Counterfactual / Welfare\n- Conclusion",
+    "9. Reusable writing moves": "- 典型 BLP 写法是先提出现实政策问题，再说明为什么需要结构模型，最后把替代关系转成福利与政策比较。",
+    "10. Memory update": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_ny37lt4p_market-entry-fighting-brands-and-tacit-collusion-evidence-from-the-french-mobile-telecommu\ndescription: Fulltext memory for Market Entry, Fighting Brands, and Tacit Collusion: Evidence from the French Mobile Telecommunications Market; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# Market Entry, Fighting Brands, and Tacit Collusion: Evidence from the French Mobile Telecommunications Market",
+    "Citation": "- Key: `NY37LT4P`\n- DOI: `10.1257/aer.20190540`\n- Journal: American Economic Review\n- Year: 2021\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\NY37LT4P.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/NY37LT4P/NY37LT4P.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/NY37LT4P.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.",
+    "Story Logic": "- 故事起点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n- 制度/市场切口：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.",
+    "BLP Model Memory": "- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧并非完全缺席，作者至少把进入、定价或市场结构响应嵌进均衡框架。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 论文明确把模型用于税收、补贴、禁令、标签或进入政策的反事实分析。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- Introduction\n- Background / Data\n- Model\n- Estimation\n- Results\n- Counterfactual / Welfare\n- Conclusion",
+    "Reusable Writing Moves": "- 典型 BLP 写法是先提出现实政策问题，再说明为什么需要结构模型，最后把替代关系转成福利与政策比较。",
+    "OCR Anchors": "- 当前还没有稳定识别到标准 section heading，需要回到 OCR JSON 做人工定位。",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- 故事起点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n- BLP positioning: canonical BLP demand-supply\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.\n\n- 故事起点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n- 制度/市场切口：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n\n- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧并非完全缺席，作者至少把进入、定价或市场结构响应嵌进均衡框架。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 论文明确把模型用于税收、补贴、禁令、标签或进入政策的反事实分析。\n\n- Data section must be read together with the recovered fulltext headings and paper PDF.\n- Recovered section headings: headings not recovered\n\n- 故事起点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.\n\n- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+  "baseline_core_memory": "- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧并非完全缺席，作者至少把进入、定价或市场结构响应嵌进均衡框架。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 论文明确把模型用于税收、补贴、禁令、标签或进入政策的反事实分析。\n\n- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧并非完全缺席，作者至少把进入、定价或市场结构响应嵌进均衡框架。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 论文明确把模型用于税收、补贴、禁令、标签或进入政策的反事实分析。",
+  "mechanism_memory": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.\n\n- 故事起点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n- 制度/市场切口：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.",
+  "result_memory": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.\n\n- Results anchor: The rest of the paper is organized as follows. In Section I, we present the data and in Section II the model of demand and oligopoly price setting. Section III reports the empirical results. In Section IV, we analyze the profit incentives to expand product lines both in the absence and the presence of entry. In Section\n- Conclusion anchor: is: incumbents may be able to tacitly collude on restricting product variety in an uncontested market, and a new market entry may lead to a breakdown of such semi-collusion. We hasten to add that our conclusion does not necessarily imply illegal conduct, as our evidence is only indirect (relating to incentives). Nevert",
+  "writing_style_memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- Introduction\n- Background / Data\n- Model\n- Estimation\n- Results\n- Counterfactual / Welfare\n- Conclusion\n\n- 典型 BLP 写法是先提出现实政策问题，再说明为什么需要结构模型，最后把替代关系转成福利与政策比较。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- Introduction\n- Background / Data\n- Model\n- Estimation\n- Results\n- Counterfactual / Welfare\n- Conclusion\n\n- 典型 BLP 写法是先提出现实政策问题，再说明为什么需要结构模型，最后把替代关系转成福利与政策比较。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "random coefficients",
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "instrumental variable",
+    "gmm",
+    "equilibrium",
+    "substitution",
+    "markup",
+    "marginal cost",
+    "network effects",
+    "heterogeneity",
+    "consumer demand",
+    "differentiated product"
+  ],
+  "fulltext_headings": [
+    "THE AMERICAN ECONOMIC REVIEW",
+    "NOVEMBER 2021",
+    "BOURREAU, SUN, AND VERBOVEN: ENTRY AND FIGHTING BRANDS",
+    "Our model assumes that each consumer i receives indirect utility",
+    "The outside good is denoted by",
+    "To derive the aggregate market share, we follow the convention of decomposing",
+    "In the following section, we express the market share",
+    "Let",
+    "Note that we normalize",
+    "Conditional on the wholesale prices",
+    "Likewise,",
+    "To characterize the wholesale prices w, we first define the derivatives",
+    "The first-stage wholesale prices can then be determined by the following first-order condition for",
+    "In this case, the set of products",
+    "In the online Appendix, we provide further details on the computation of the pass-through rates",
+    "We employ a more parsimonious specification to account for consumer heterogeneity",
+    "For the heterogeneous tastes",
+    "The vector of optimal instruments takes the form",
+    "The range of fixed costs satisfying both restrictions is then given by",
+    "Each firm",
+    "Condition (14) holds if and only",
+    "Formally, from (15) we have",
+    "Obviously, if the gross payoff from collusion is larger than the gross punishment profit",
+    "To summarize, if for all incumbents"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 1,
+      "snippet": "Evidence from the French Mobile Telecommunications Market†\nBy Marc Bourreau, Yutec Sun, and Frank Verboven*\nWe study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents. Using an empirical oligopoly model, we find that the incumbents’ fighting brand strategies are difficult to rationalize as unilateral best responses. Instead, their strategies are consistent with a breakdown of tacit semi-collusion: before entry, the incumbents could successfully coordinate on restricting product variety to avoid cannibalization; after entry, this outcome became harder to sustain because of increased business stealing incentives. Consumers gained considerably from the added variety and, to a lesser extent, from the incumbents’ price responses. (JEL L13, L21, L96, M31)\nIn many concentrated markets, new entrants challenge incumbent firms by offering a relatively low quality brand at a competitive price. Instead of mere"
+    },
+    "data": {
+      "page": 3,
+      "snippet": "To address these questions, we construct a dataset on the French mobile telecom industry for 2011–2014. In the first step, we estimate a differentiated products demand model and consider an oligopoly setting where the network service providers compete in both the wholesale and retail markets. In the second step, we use the empirical model to examine the fighting brand theory. We compute the counterfactual profits under alternative product line and entry decisions to assess whether and to what extent the incumbents had a strategic incentive for launching their subsidiary brands in response to the entry of Free Mobile. In the final step, we compute the impact of entry on consumers and total welfare and decompose it into three different sources: (i) a variety effect that stems from the availability of the entrant’s new differentiated"
+    },
+    "model": {
+      "page": 1,
+      "snippet": "n, and Frank Verboven*\nWe study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents. Using an empirical oligopoly model, we find that the incumbents’ fighting brand strategies are difficult to rationalize as unilateral best responses. Instead, their strategies are consistent with a breakdown of tacit semi-collusion: before entry, the incumbents could successfully coordinate on restricting product variety to avoid cannibalization; after entry, this outcome became harder to sustain because of increased business stealing incentives. Consumers gained considerably from the added variety and, to a lesser extent, from the incumbents’ price responses. (JEL L13, L21, L96, M31)\nIn many concentrated markets, new entrants challenge incumbent firms by offering a relatively low quality brand at a competitive price. Instead of merely lowering the price of their existing products, the incumbents often respond by intr"
+    },
+    "results": {
+      "page": 6,
+      "snippet": "The rest of the paper is organized as follows. In Section I, we present the data and in Section II the model of demand and oligopoly price setting. Section III reports the empirical results. In Section IV, we analyze the profit incentives to expand product lines both in the absence and the presence of entry. In Section V, we measure the consumer and total welfare effects of entry and decompose them by various sources. Finally, we conclude in Section VI.\nI. French Mobile Market and Data\nWe first present relevant industry background on Free Mobile’s entry in the French mobile telecom market. Next, we discuss the dataset on the demand and tariff characteristics for mobile services and additional data on network coverage for the period 2011–2014. Finally, we provide a preliminary description of the evolution of the market during the considered period.\nA. Industry Background\nBefore the arrival of the new entrant Free Mobile in 2012, there were three large incumbent MNOs: O"
+    },
+    "conclusion": {
+      "page": 3,
+      "snippet": "is: incumbents may be able to tacitly collude on restricting product variety in an uncontested market, and a new market entry may lead to a breakdown of such semi-collusion. We hasten to add that our conclusion does not necessarily imply illegal conduct, as our evidence is only indirect (relating to incentives). Nevertheless, the possible existence of product-line collusion is consistent with the earlier conclusions of the French competition authority on anticompetitive agreements in the mobile telecom market. On December 1, 2005, the competition authority decided to impose a fine of €534 million to the three incumbent operators for engaging in two kinds of anticompetitive behavior: (i)  sharing strategic information on new subscriptions and cancellations; (ii) an agreement from 2000 to 2002 to stabilize market shares based on jointly defined targets, through a coordination of their commercial and marketing strategies.4\nVOL. 111 NO. 11\nBOURREAU, SUN, AND VERBOVEN: ENTRY AND FIGHTING BR"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "故事起点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents.",
+      "故事起点：We study a major new entry in the French mobile telecommunications market, followed by the introduction of fighting brands by the three incumbents."
+    ],
+    "session": [
+      "Retrieve by key/title: NY37LT4P / Market Entry, Fighting Brands, and Tacit Collusion: Evidence from the French Mobile Telecommunications Market",
+      "Use collections and journal handles: BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Bourreau et al., 2021) / Bourreau et al. (2021)"
+    ],
+    "agent": [
+      "BLP positioning: canonical BLP demand-supply",
+      "BLP positioning: canonical BLP demand-supply"
+    ],
+    "team": [
+      "典型 BLP 写法是先提出现实政策问题，再说明为什么需要结构模型，最后把替代关系转成福利与政策比较。",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

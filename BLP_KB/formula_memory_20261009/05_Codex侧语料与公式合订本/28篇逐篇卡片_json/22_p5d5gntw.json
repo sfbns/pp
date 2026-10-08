@@ -1,0 +1,170 @@
+{
+  "rank": 22,
+  "item_key": "P5D5GNTW",
+  "title": "The Evolution of Market Power in the U.S. Automobile Industry",
+  "authors": [
+    "Paul L E Grieco",
+    "Charles Murry",
+    "Ali Yurukoglu"
+  ],
+  "creators": [
+    {
+      "name": "Paul L E Grieco",
+      "type": "author"
+    },
+    {
+      "name": "Charles Murry",
+      "type": "author"
+    },
+    {
+      "name": "Ali Yurukoglu",
+      "type": "author"
+    }
+  ],
+  "date": "2024-00-00 2024",
+  "journal": "The Quarterly Journal of Economics",
+  "doi": "10.1093/qje/qjad047",
+  "url": "https://doi.org/10.1093/qje/qjad047",
+  "collections": [
+    "A_������ҵ��������ҵ",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Grieco, P. L. E., Murry, C., & Yurukoglu, A. (2024). The Evolution of Market Power in the U.S. Automobile Industry. The Quarterly Journal of Economics. https://doi.org/10.1093/qje/qjad047",
+    "parenthetical": "(Grieco et al., 2024)",
+    "narrative": "Grieco et al. (2024)"
+  },
+  "preferred_pdf_rel": "source_pdfs/22_p5d5gntw.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "S6CXSV5W",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:CarMarkupsMarch2023.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\S6CXSV5W\\CarMarkupsMarch2023.pdf",
+    "exists": true,
+    "size": 518589
+  },
+  "legacy_note_rel": "raw/notes/22_p5d5gntw.md",
+  "legacy_old_memory_rel": "raw/paper_memory/22_p5d5gntw.md",
+  "fulltext_json_rel": "raw/fulltext/22_p5d5gntw.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/22_p5d5gntw.fulltext.txt",
+  "llm_json_rel": "raw/ocr_llm/22_p5d5gntw.llm.json",
+  "llm_md_rel": "raw/ocr_llm/22_p5d5gntw.llm.md",
+  "note_sections": {
+    "1. One-paragraph thesis": "- 故事起点：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.\n- BLP positioning: canonical BLP demand-supply\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.",
+    "2. Story ladder": "- 故事起点：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.\n- 制度/市场切口：This work complements a recent academic and policy literature analyzing long-term trends in market power and sales concentration from a macroeconomic perspective (De Loecker et al., 2020; Autor et al., 2020) with an industry-specific approach.\n- 模型推进：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.\n- 结论落点：Abstract We construct measures of industry performance and welfare in the U.S.",
+    "3. Model or identification core": "- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 需求侧是结构化离散选择/差异化产品需求系统，重点是恢复替代关系与价格弹性。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "4. Data and measurement": "- Data section must be read together with the recovered fulltext headings and paper PDF.\n- Recovered section headings: headings not recovered",
+    "5. Findings and mechanisms": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.",
+    "6. Contribution construction": "- 故事起点：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.",
+    "7. Literature review function": "- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+    "8. Writing structure map": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 Data\n- 4 Model\n- 5 Estimation and Results\n- 7 Conclusion\n- The Evolution of Market Power in the US Automobile Industry∗ *\n- March 9, 2023\n- Abstract\n- 2.1 Automobile Market Data\n- 2.2 Price Instrument\n- 2.3 Consumer Choices and Demographics\n- 2.4 Second Choices",
+    "9. Reusable writing moves": "- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。",
+    "10. Memory update": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_p5d5gntw_the-evolution-of-market-power-in-the-us-automobile-industry\ndescription: Fulltext memory for The Evolution of Market Power in the U.S. Automobile Industry; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# The Evolution of Market Power in the U.S. Automobile Industry",
+    "Citation": "- Key: `P5D5GNTW`\n- DOI: `10.1093/qje/qjad047`\n- Journal: The Quarterly Journal of Economics\n- Year: 2024\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\P5D5GNTW.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/P5D5GNTW/P5D5GNTW.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/P5D5GNTW.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.",
+    "Story Logic": "- 故事起点：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.\n- 制度/市场切口：This work complements a recent academic and policy literature analyzing long-term trends in market power and sales concentration from a macroeconomic perspective (De Loecker et al., 2020; Autor et al., 2020) with an industry-specific approach.\n- 模型推进：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.\n- 结论落点：Abstract We construct measures of industry performance and welfare in the U.S.",
+    "BLP Model Memory": "- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 需求侧是结构化离散选择/差异化产品需求系统，重点是恢复替代关系与价格弹性。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 Data\n- 4 Model\n- 5 Estimation and Results\n- 7 Conclusion\n- The Evolution of Market Power in the US Automobile Industry∗ *\n- March 9, 2023\n- Abstract\n- 2.1 Automobile Market Data\n- 2.2 Price Instrument\n- 2.3 Consumer Choices and Demographics\n- 2.4 Second Choices",
+    "Reusable Writing Moves": "- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。",
+    "OCR Anchors": "- abstract: `Abstract` (p.0) - Abstract We construct measures of industry performance and welfare in the U.S. automobile market from 1980 to 2018.\n- introduction: `1 Introduction` (p.0) - 1 Introduction From 1980 to 2018, the U.S. automobile industry experienced numerous technological and regulatory changes and its market structure changed dramatically.\n- data: `2 Data` (p.3) - 2 Data We compiled a data set covering 1980 through 2018 consisting of automobile characteristics and market shares, individual consumer choices and demographic information, and consumer survey responses regarding alternate “second choice” products. This section describes the data sources and presents basic descriptive information.\n- model: `4 Model` (p.8) - 4 Model Our framework is a differentiated product demand and oligopoly pricing model following Berry et al. (1995), which is standard in the industrial organization literature.\n- estimation: `5 Estimation and Results` (p.11) - 5 Estimation and Results We estimate the model using GMM, closely following the procedures outlined by Petrin (2002) and Berry et al. (2004).\n- conclusion: `7 Conclusion` (p.26) - 7 Conclusion Antitrust policy has come under scrutiny in the U.S. in recent years.",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- 故事起点：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.\n- BLP positioning: canonical BLP demand-supply\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.\n\n- 故事起点：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.\n- 制度/市场切口：This work complements a recent academic and policy literature analyzing long-term trends in market power and sales concentration from a macroeconomic perspective (De Loecker et al., 2020; Autor et al., 2020) with an industry-specific approach.\n- 模型推进：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.\n- 结论落点：Abstract We construct measures of industry performance and welfare in the U.S.\n\n- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 需求侧是结构化离散选择/差异化产品需求系统，重点是恢复替代关系与价格弹性。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。\n\n- Data section must be read together with the recovered fulltext headings and paper PDF.\n- Recovered section headings: headings not recovered\n\n- 故事起点：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.\n\n- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+  "baseline_core_memory": "- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 需求侧是结构化离散选择/差异化产品需求系统，重点是恢复替代关系与价格弹性。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。\n\n- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 需求侧是结构化离散选择/差异化产品需求系统，重点是恢复替代关系与价格弹性。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+  "mechanism_memory": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.\n\n- 故事起点：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.\n- 制度/市场切口：This work complements a recent academic and policy literature analyzing long-term trends in market power and sales concentration from a macroeconomic perspective (De Loecker et al., 2020; Autor et al., 2020) with an industry-specific approach.\n- 模型推进：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.\n- 结论落点：Abstract We construct measures of industry performance and welfare in the U.S.",
+  "result_memory": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.\n\n- Results anchor: A number of caveats are warranted for this analysis. First, our main results assume static Nash-Bertrand pricing each year and rule out changes in conduct, for example via the ability to tacitly collude. However, for robustness, we present a number of alternative assumptions on conduct, all of which indicate declining\n- Conclusion anchor: XVI) and simulate a world where neither the unobservable product quality increases nor do marginal costs fall. This combination almost entirely eliminates the measured increase in consumer surplus.",
+  "writing_style_memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 Data\n- 4 Model\n- 5 Estimation and Results\n- 7 Conclusion\n- The Evolution of Market Power in the US Automobile Industry∗ *\n- March 9, 2023\n- Abstract\n- 2.1 Automobile Market Data\n- 2.2 Price Instrument\n- 2.3 Consumer Choices and Demographics\n- 2.4 Second Choices\n\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 Data\n- 4 Model\n- 5 Estimation and Results\n- 7 Conclusion\n- The Evolution of Market Power in the US Automobile Industry∗ *\n- March 9, 2023\n- Abstract\n- 2.1 Automobile Market Data\n- 2.2 Price Instrument\n- 2.3 Consumer Choices and Demographics\n- 2.4 Second Choices\n\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "random coefficients",
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "instrumental variable",
+    "gmm",
+    "equilibrium",
+    "substitution",
+    "outside option",
+    "markup",
+    "marginal cost",
+    "heterogeneity",
+    "fuel economy",
+    "differentiated product"
+  ],
+  "fulltext_headings": [
+    "March 9, 2023",
+    "Abstract",
+    "JEL Codes: L11, L62, D43",
+    "1 Introduction",
+    "We find that median markups as defined by the Lerner index",
+    "2 Data",
+    "2.1 Automobile Market Data",
+    "2.2 Price Instrument",
+    "2.3 Consumer Choices and Demographics",
+    "2.4 Second Choices",
+    "3 Empirical Description of the New Car Industry, 1980-2018",
+    "3.1 Prices and Market Structure",
+    "3.2 Physical Characteristics of Vehicles",
+    "4 Model",
+    "4.1 Consumers",
+    "Consumer i makes a discrete choice among the",
+    "Utility is a linear index of a vector of vehicle attributes",
+    "Utility of the no-purchase option is",
+    "Our baseline specification holds the parameters underlying the distributions of",
+    "4.2 Firms",
+    "5 Estimation and Results",
+    "5.1 Parameter Estimates",
+    "5.2 Decomposition of Time Effects",
+    "5.3 Model Fit"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 1,
+      "snippet": "The Evolution of Market Power in the US Automobile Industry∗ *\nPaul L. E. Grieco† Charles Murry‡ Ali Yurukoglu§\nMarch 9, 2023\nAbstract\nWe construct measures of industry performance and welfare in the U.S. automobile market from 1980 to 2018. We estimate a demand model using product level data on market shares, prices, and attributes, and consumer level data on demographics, purchases, and stated second choices. We estimate marginal costs assuming Nash-Bertrand pricing. We relate trends in consumer welfare and markups to trends in market structure and the composition of products. Although real prices rose, we find that markups decreased substantially, and the fraction of total surplus accruing to consumers increased. Consumer welfare increased over time due to improved product quality and improved production technology.\nJEL Codes: L11, L62, D43\n1 Introduction\nFrom 1980 to 2018, the U.S. automobile industry experie"
+    },
+    "data": {
+      "page": 1,
+      "snippet": "Murry‡ Ali Yurukoglu§\nMarch 9, 2023\nAbstract\nWe construct measures of industry performance and welfare in the U.S. automobile market from 1980 to 2018. We estimate a demand model using product level data on market shares, prices, and attributes, and consumer level data on demographics, purchases, and stated second choices. We estimate marginal costs assuming Nash-Bertrand pricing. We relate trends in consumer welfare and markups to trends in market structure and the composition of products. Although real prices rose, we find that markups decreased substantially, and the fraction of total surplus accruing to consumers increased. Consumer welfare increased over time due to improved product quality and improved production technology.\nJEL Codes: L11, L62, D43\n1 Introduction\nFrom 1980 to 2018, the U.S. automobile industry experienced numerous technological and regulatory changes and its market structure changed dramatically. The goal of this paper is to examine whether these changes led to"
+    },
+    "model": {
+      "page": 1,
+      "snippet": "Paul L. E. Grieco† Charles Murry‡ Ali Yurukoglu§\nMarch 9, 2023\nAbstract\nWe construct measures of industry performance and welfare in the U.S. automobile market from 1980 to 2018. We estimate a demand model using product level data on market shares, prices, and attributes, and consumer level data on demographics, purchases, and stated second choices. We estimate marginal costs assuming Nash-Bertrand pricing. We relate trends in consumer welfare and markups to trends in market structure and the composition of products. Although real prices rose, we find that markups decreased substantially, and the fraction of total surplus accruing to consumers increased. Consumer welfare increased over time due to improved product quality and improved production technology.\nJEL Codes: L11, L62, D43\n1 Introduction\nFrom 1980 to 2018, the U.S. automobile industry experienced numerous technological and regulatory changes and its market structure changed dramatically. The goal of this paper is to examine wh"
+    },
+    "results": {
+      "page": 3,
+      "snippet": "A number of caveats are warranted for this analysis. First, our main results assume static Nash-Bertrand pricing each year and rule out changes in conduct, for example via the ability to tacitly collude. However, for robustness, we present a number of alternative assumptions on conduct, all of which indicate declining markups. Second, we do not model the complementary dealer, parts, or financing markets where the behavior of margins or product market efficiency over time may be different than for the automobile manufacturers.\nBy studying long-run trends in market power and market efficiency using the workhorse toolbox of supply and demand estimation, we provide an alternative perspective on the analysis of the recent literature on the rise in aggregate markups based on production-side modeling and accounting data on revenues and costs, for example De Loecke"
+    },
+    "conclusion": {
+      "page": 27,
+      "snippet": "XVI) and simulate a world where neither the unobservable product quality increases nor do marginal costs fall. This combination almost entirely eliminates the measured increase in consumer surplus.\n7 Conclusion\nAntitrust policy has come under scrutiny in the U.S. in recent years. Critics argue that weak antitrust enforcement from the 1980’s onward has led to an increasingly tight grip of large firms over product markets to the detriment of consumers. In this paper, we focus on the new automobile market over nearly forty years. Employing a supply and demand industry oligopoly model with detailed microdata, we find that concentration has decreased, markups have decreased (in contrast to findings in studies estimating markups using production data), and consumer welfare has increased. The fraction of efficient surplus accruing to consumers has also increased.\nWe attribute the increase in consumer surplus primarily to increasing product quality and decreasing marginal costs. Specifically,"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "故事起点：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices.",
+      "故事起点：We estimate a demand model using product-level data on market shares, prices, and attributes, and consumer-level data on demographics, purchases, and stated second choices."
+    ],
+    "session": [
+      "Retrieve by key/title: P5D5GNTW / The Evolution of Market Power in the U.S. Automobile Industry",
+      "Use collections and journal handles: A_������ҵ��������ҵ, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Grieco et al., 2024) / Grieco et al. (2024)"
+    ],
+    "agent": [
+      "BLP positioning: canonical BLP demand-supply",
+      "BLP positioning: canonical BLP demand-supply"
+    ],
+    "team": [
+      "在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

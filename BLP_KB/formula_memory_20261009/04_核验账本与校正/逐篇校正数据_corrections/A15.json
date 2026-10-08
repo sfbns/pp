@@ -1,0 +1,7 @@
+{
+  "images": "D:\\blp-auto-fulltext-pack-20261008\\work\\pages\\A15_p18*.png（本轮渲染与放大）",
+  "paper_note": "AEJ: Economic Policy 期刊版，期刊页 = PDF 页 + 371。本文是理论加量化模拟，不是完整的 BLP 估计。本包只校正信念设定这一组最常被引用的式子；第 25–30 页的决策与体验福利式未校正。",
+  "items": [
+    {"page": 18, "label": "（未编号，信念设定）", "latex": "g=x-m,\\qquad \\tilde x_t=\\alpha x+(1-\\alpha)(x-g)=x-(1-\\alpha)g", "check": "本轮看图（放大核对）", "note": "x 为真实油耗（坏属性），m 为卖方发出的信息即官方标称值，g 为博弈（gaming）量。\\alpha=1 时买方完全识破，\\alpha=0 时完全被骗。原页式中写作 \\tilde x_t（带下标 t），正文称 \\tilde x，下标疑为排印残留。其前：\\beta=(p_f+\\tau)\\times k，全信息需求 D(f)=D(p+\\beta x)，感知 \\tilde f=p+\\beta\\tilde x；成本 c(x) 满足 c'<0,c''>0，博弈成本 h(g) 满足 h'>0,h''>0；规制 m=x-g\\le\\sigma"}
+  ]
+}

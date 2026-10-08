@@ -1,0 +1,164 @@
+{
+  "rank": 6,
+  "item_key": "EPWJ8S9T",
+  "title": "Consumer response to energy label policies: Evidence from the Brazilian energy label program",
+  "authors": [
+    "Cristian Huse",
+    "Claudio Lucinda",
+    "Andre Ribeiro Cardoso"
+  ],
+  "creators": [
+    {
+      "name": "Cristian Huse",
+      "type": "author"
+    },
+    {
+      "name": "Claudio Lucinda",
+      "type": "author"
+    },
+    {
+      "name": "Andre Ribeiro Cardoso",
+      "type": "author"
+    }
+  ],
+  "date": "2020-00-00 2020",
+  "journal": "Energy Policy",
+  "doi": "10.1016/j.enpol.2019.111207",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S030142151930789X",
+  "collections": [
+    "BLP_1995_Citing_Literature_2026-03-21",
+    "Green Demand Applications"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Huse, C., Lucinda, C., & Cardoso, A. R. (2020). Consumer response to energy label policies: Evidence from the Brazilian energy label program. Energy Policy. https://doi.org/10.1016/j.enpol.2019.111207",
+    "parenthetical": "(Huse et al., 2020)",
+    "narrative": "Huse et al. (2020)"
+  },
+  "preferred_pdf_rel": "source_pdfs/06_epwj8s9t.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "R84TZMYF",
+    "link_mode": 0,
+    "content_type": "application/pdf",
+    "path": "storage:Huse 等 - 2020 - Consumer response to energy label policies Evidence from the Brazilian energy label program.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\R84TZMYF\\Huse 等 - 2020 - Consumer response to energy label policies Evidence from the Brazilian energy label program.pdf",
+    "exists": true,
+    "size": 1167379
+  },
+  "legacy_note_rel": "raw/notes/06_epwj8s9t.md",
+  "legacy_old_memory_rel": "raw/paper_memory/06_epwj8s9t.md",
+  "fulltext_json_rel": "raw/fulltext/06_epwj8s9t.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/06_epwj8s9t.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper evaluates a mandatory energy-label policy in the Brazilian refrigerator market.\n- Its result is that labels modestly raise valuation for efficiency, but do not fully close the efficiency gap.\n- The main lesson is that information policy can move demand, yet equilibrium sorting across products may remain weak.",
+    "2. Story ladder": "- Real-world tension or puzzle: energy labels are supposed to help consumers reward efficient products.\n- Why the puzzle matters now: if labels barely change choices, disclosure policy may be too weak to deliver energy savings.\n- What the literature already explains: labels can affect attention, valuation, and product selection.\n- What is still missing or weakly identified: market-level evidence on how a real labeling mandate changes demand.\n- The paper's move: study the Brazilian refrigerator label program.\n- Main payoff: labels help, but not enough to eliminate the gap or trigger large switching.",
+    "3. Model or identification core": "- Research design type: policy evaluation / demand response analysis.\n- Structural model class or reduced-form design: market-demand analysis around a labeling intervention.\n- Key equations or choice objects: consumer valuation of product energy efficiency and other refrigerator attributes.\n- Endogeneity problem: label adoption is policy-driven, but product portfolios and demand responses are endogenous.\n- Identification strategy: exploit the policy change to compare consumer response before and after labeling.\n- What assumptions are doing the heavy lifting: comparability of demand environments and stable product characteristics apart from the policy.",
+    "4. Data and measurement": "- Unit of observation: refrigerator products and market choices.\n- Market definition: Brazilian refrigerator market.\n- Main dependent variable: valuation and choice response to efficiency labels.\n- Core explanatory variables: label presence, energy efficiency, and product characteristics.\n- Instruments / moments / shocks: the label mandate itself is the key policy shock.\n- Important sample restrictions: refrigerator market only; OCR extraction was noisy in some spots, so exact sample design may need verification against the PDF if used in a formal writeup.",
+    "5. Findings and mechanisms": "- Baseline result: mandatory labels modestly increase mean valuation for efficient products.\n- Mechanism evidence: information improves product evaluation, but does not create dramatic switching.\n- Heterogeneity evidence: the distribution of valuations does not become equalized across products.\n- Welfare or counterfactual result: the policy cannot eliminate the energy-efficiency gap on its own.\n- Limits the authors admit: the effect size is modest, so labels are not a full substitute for stronger policy.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: energy-labeling and appliance-demand papers.\n- What exact gap the authors claim: prior studies often discuss labels conceptually but lack this market-specific evidence.\n- How the introduction stages novelty: by focusing on a mandatory national labeling program in a real product market.\n- Whether the contribution is data, method, theory, policy, or a combination: mainly policy evaluation with demand evidence.",
+    "7. Literature review function": "- Where the review sits: early introduction before the empirical design.\n- How the review is organized: energy labels, consumer information, and appliance efficiency.\n- Which citations do positioning work: energy-label and information-policy papers.\n- Which citations do method-validation work: product-demand and appliance-market empirical studies.",
+    "8. Writing structure map": "- Introduction move sequence: puzzle -> policy -> market setting -> identification -> result.\n- Section order: background, empirical design, data, results, robustness, conclusion.\n- Where the paper turns from setup to payoff: once the valuation shift is shown to be modest.\n- How tables/figures are used to move the argument: tables likely show pre/post valuation and distributional shifts; OCR was partly noisy, so this is a cautious inference.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"Information policy can improve decisions without fully solving the allocation problem.\"\n- Best transition pattern: move from consumer attention to market sorting.\n- Best contribution sentence pattern: \"We show that mandatory labels shift valuation, but only modestly.\"\n- Best limitation or implication move: \"Labels are useful, but they are not a complete efficiency policy.\"",
+    "10. Memory update": "- Durable economics-writing principle: policy evaluation should report both mean effects and the remaining gap.\n- Durable structural-model principle: information changes demand only if it materially changes valuation or attention.\n- Reusable empirical design idea: evaluate mandates by looking at product-market response, not just survey opinions.\n- Follow-up paper to pair with this one: another appliance-label or disclosure-policy paper with explicit counterfactual welfare calculations."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_epwj8s9t_consumer-response-to-energy-label-policies-evidence-from-the-brazilian-energy-la\ndescription: Fulltext BLP reading memory for Consumer response to energy label policies: Evidence from the Brazilian energy label program; includes story logic, BLP model shape, writing structure, and policy payoff.\ntype: reference\n---\n\n# Consumer response to energy label policies: Evidence from the Brazilian energy label program",
+    "Citation": "- Key: `EPWJ8S9T`\n- DOI: `10.1016/j.enpol.2019.111207`\n- Journal: Energy Policy\n- Year: 2020\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\EPWJ8S9T.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/EPWJ8S9T/EPWJ8S9T.llm.json`",
+    "Read Status": "- 本记忆基于全文 OCR 结果，不是只基于题录摘要。\n- OCR 引擎：MinerU 优先，DirectML 加速，关闭表格识别以避免已知编码错误；输出为 `llm.md` + `llm.json` + `chunks.jsonl`。",
+    "Story Question": "- 核心问题：Energy Policy xxx (xxxx) xxx Contents lists available at ScienceDirect Energy Policy journal homepage: www.elsevier.com/locate/enpol Consumer response to energy label policies: Evidence from the Brazilian energy label program✩ Cristian Husea, Claudio Lucindab,∗, Andre Ribeiro Cardosoc A R T I C L E I N F O",
+    "Story Logic": "- 从问题出发：Energy Policy xxx (xxxx) xxx Contents lists available at ScienceDirect Energy Policy journal homepage: www.elsevier.com/locate/enpol Consumer response to energy label policies: Evidence from the Brazilian energy label program✩ Cristian Husea, Claudio Lucindab,∗, Andre Ribeiro Cardosoc A R T I C L E I N F O\n- 最后把结果落到政策/福利含义：Energy Policy xxx (xxxx) xxx Contents lists available at ScienceDirect Energy Policy journal homepage: www.elsevier.com/locate/enpol Consumer response to energy label policies: Evidence from the Brazilian energy label program✩ Cristian Husea, Claudio Lucindab,∗, Andre Ribeiro Cardosoc A R T I C L E I N F O",
+    "How BLP Enters": "- 分类判断：BLP-style differentiated-product demand\n- 触发证据：random coefficients, discrete choice, welfare, counterfactual, instrument\n- 读法提醒：这里的“BLP”既可能是严格的随机系数需求+供给均衡，也可能只是沿用差异化产品结构需求与福利反事实的传统。",
+    "Model Shape": "- Demand side: 需求侧明显是随机系数离散选择框架。 市场份额/替代关系是识别核心对象。\n- Heterogeneity: 文中通过异质偏好、车型属性、收入/里程/地区或消费者画像来刻画替代弹性。\n- Supply side: 如果只看到需求与反事实而没有价格设定/边际成本/伯特兰关键词，则供给侧可能较轻或被简化。\n- Identification / estimation: 识别中明确出现工具变量/外生冲击。\n- Counterfactual / welfare: 模型最终用于反事实比较：税收、补贴、禁令、配额、标签政策、进入冲击或福利分配。",
+    "Writing Structure": "- 从 OCR 章节树看，正文大体按照下面顺序展开：\n- Consumer response to energy label policies: Evidence from the Brazilian energy label program✩\n- Cristian Huse a, Claudio Lucinda b,∗, Andre Ribeiro Cardoso\n- A R T I C L E I N F O\n- A B S T R A C T\n- 1. Introduction\n- Please cite this article as: Cristian Huse, Energy Policy, https://doi.org/10.1016/j.enpol.2019.111207\n- Energy Policy xxx (xxxx) xxx\n- Contents lists available at ScienceDirect\n- Energy Policy\n- ENERGY POLICY\n- URLs: http://cristianhuse.webs.com (C. Huse), http://www.claudiolucinda.net (C. Lucinda).\n- 2. Institutional background\n- Energy Policy xxx (xxxx) xxx\n- 2.1. The Brazilian energy label program (PBE)\n- Energy Policy xxx (xxxx) xxx\n- Panel A. Energy Consumption\n- Energy Policy xxx (xxxx) xxx\n- 3. Data\n- 4. Empirical strategy\n- Energy Policy xxx (xxxx) xxx\n- 20 See http://www.uc.pt/org/inescc/P3E/p3e_padroes_comportamentos_ ReinaldoSouza for details.\n- We compute the (expected) present discounted value of operating cost of appliance ?? at time period ?? for household ?? is\n- Energy Policy xxx (xxxx) xxx\n- 5. Results\n- 5.1. Demand estimation\n- Energy Policy xxx (xxxx) xxx\n- 31 This is similar to EIA (2013) and Houde (2018), who assume a lifetime of 19 and 18 years, respectively.\n- Energy Policy xxx (xxxx) xxx\n- Panel A. Density Estimates\n- 5.2. Overall policy effects",
+    "Reusable Writing Moves": "- 在模型前先铺设数据与制度背景，让后面的结构设定看起来是被场景逼出来的。",
+    "OCR Section Anchors": "- introduction: `1. Introduction` (p.0)\n- background: `2. Institutional background` (p.1)\n- data: `3. Data` (p.4)\n- estimation: `4. Empirical strategy` (p.4)\n- results: `5. Results` (p.6)",
+    "Memory Notes": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "theory_design_memory": "- The paper evaluates a mandatory energy-label policy in the Brazilian refrigerator market.\n- Its result is that labels modestly raise valuation for efficiency, but do not fully close the efficiency gap.\n- The main lesson is that information policy can move demand, yet equilibrium sorting across products may remain weak.\n\n- Real-world tension or puzzle: energy labels are supposed to help consumers reward efficient products.\n- Why the puzzle matters now: if labels barely change choices, disclosure policy may be too weak to deliver energy savings.\n- What the literature already explains: labels can affect attention, valuation, and product selection.\n- What is still missing or weakly identified: market-level evidence on how a real labeling mandate changes demand.\n- The paper's move: study the Brazilian refrigerator label program.\n- Main payoff: labels help, but not enough to eliminate the gap or trigger large switching.\n\n- Research design type: policy evaluation / demand response analysis.\n- Structural model class or reduced-form design: market-demand analysis around a labeling intervention.\n- Key equations or choice objects: consumer valuation of product energy efficiency and other refrigerator attributes.\n- Endogeneity problem: label adoption is policy-driven, but product portfolios and demand responses are endogenous.\n- Identification strategy: exploit the policy change to compare consumer response before and after labeling.\n- What assumptions are doing the heavy lifting: comparability of demand environments and stable product characteristics apart from the policy.\n\n- Unit of observation: refrigerator products and market choices.\n- Market definition: Brazilian refrigerator market.\n- Main dependent variable: valuation and choice response to efficiency labels.\n- Core explanatory variables: label presence, energy efficiency, and product characteristics.\n- Instruments / moments / shocks: the label mandate itself is the key policy shock.\n- Important sample restrictions: refrigerator market only; OCR extraction was noisy in some spots, so exact sample design may need verification against the PDF if used in a formal writeup.\n\n- Which papers are treated as the nearest neighbors: energy-labeling and appliance-demand papers.\n- What exact gap the authors claim: prior studies often discuss labels conceptually but lack this market-specific evidence.\n- How the introduction stages novelty: by focusing on a mandatory national labeling program in a real product market.\n- Whether the contribution is data, method, theory, policy, or a combination: mainly policy evaluation with demand evidence.\n\n- Where the review sits: early introduction before the empirical design.\n- How the review is organized: energy labels, consumer information, and appliance efficiency.\n- Which citations do positioning work: energy-label and information-policy papers.\n- Which citations do method-validation work: product-demand and appliance-market empirical studies.",
+  "baseline_core_memory": "- Research design type: policy evaluation / demand response analysis.\n- Structural model class or reduced-form design: market-demand analysis around a labeling intervention.\n- Key equations or choice objects: consumer valuation of product energy efficiency and other refrigerator attributes.\n- Endogeneity problem: label adoption is policy-driven, but product portfolios and demand responses are endogenous.\n- Identification strategy: exploit the policy change to compare consumer response before and after labeling.\n- What assumptions are doing the heavy lifting: comparability of demand environments and stable product characteristics apart from the policy.",
+  "mechanism_memory": "- Baseline result: mandatory labels modestly increase mean valuation for efficient products.\n- Mechanism evidence: information improves product evaluation, but does not create dramatic switching.\n- Heterogeneity evidence: the distribution of valuations does not become equalized across products.\n- Welfare or counterfactual result: the policy cannot eliminate the energy-efficiency gap on its own.\n- Limits the authors admit: the effect size is modest, so labels are not a full substitute for stronger policy.\n\n- 从问题出发：Energy Policy xxx (xxxx) xxx Contents lists available at ScienceDirect Energy Policy journal homepage: www.elsevier.com/locate/enpol Consumer response to energy label policies: Evidence from the Brazilian energy label program✩ Cristian Husea, Claudio Lucindab,∗, Andre Ribeiro Cardosoc A R T I C L E I N F O\n- 最后把结果落到政策/福利含义：Energy Policy xxx (xxxx) xxx Contents lists available at ScienceDirect Energy Policy journal homepage: www.elsevier.com/locate/enpol Consumer response to energy label policies: Evidence from the Brazilian energy label program✩ Cristian Husea, Claudio Lucindab,∗, Andre Ribeiro Cardosoc A R T I C L E I N F O",
+  "result_memory": "- Baseline result: mandatory labels modestly increase mean valuation for efficient products.\n- Mechanism evidence: information improves product evaluation, but does not create dramatic switching.\n- Heterogeneity evidence: the distribution of valuations does not become equalized across products.\n- Welfare or counterfactual result: the policy cannot eliminate the energy-efficiency gap on its own.\n- Limits the authors admit: the effect size is modest, so labels are not a full substitute for stronger policy.\n\n- Results anchor: on of energy costs by",
+  "writing_style_memory": "- Introduction move sequence: puzzle -> policy -> market setting -> identification -> result.\n- Section order: background, empirical design, data, results, robustness, conclusion.\n- Where the paper turns from setup to payoff: once the valuation shift is shown to be modest.\n- How tables/figures are used to move the argument: tables likely show pre/post valuation and distributional shifts; OCR was partly noisy, so this is a cautious inference.\n\n- Best framing sentence pattern: \"Information policy can improve decisions without fully solving the allocation problem.\"\n- Best transition pattern: move from consumer attention to market sorting.\n- Best contribution sentence pattern: \"We show that mandatory labels shift valuation, but only modestly.\"\n- Best limitation or implication move: \"Labels are useful, but they are not a complete efficiency policy.\"\n\n- Durable economics-writing principle: policy evaluation should report both mean effects and the remaining gap.\n- Durable structural-model principle: information changes demand only if it materially changes valuation or attention.\n- Reusable empirical design idea: evaluate mandates by looking at product-market response, not just survey opinions.\n- Follow-up paper to pair with this one: another appliance-label or disclosure-policy paper with explicit counterfactual welfare calculations.\n\n- 在模型前先铺设数据与制度背景，让后面的结构设定看起来是被场景逼出来的。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。",
+  "professional_vocab": [
+    "random coefficients",
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "equilibrium",
+    "market definition",
+    "heterogeneity",
+    "fuel economy",
+    "differentiated product"
+  ],
+  "fulltext_headings": [
+    "Energy Policy xxx (xxxx) xxx",
+    "Contents lists available at ScienceDirect",
+    "Energy Policy",
+    "Consumer response to energy label policies: Evidence from the Brazilian",
+    "A R T I C L E",
+    "I N F O",
+    "JEL classification:",
+    "D12",
+    "D83",
+    "L15",
+    "L68",
+    "Q40",
+    "Q48",
+    "Keywords:",
+    "Energy demand",
+    "Energy efficiency",
+    "Energy efficiency gap",
+    "Energy label",
+    "Information programs",
+    "Refrigerators",
+    "A B S T R A C T",
+    "1. Introduction",
+    "Information programs have been introduced in several countries in",
+    "Energy labels provide detailed and reliable (third party certified)"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 1,
+      "snippet": "switching and heterogeneity in responses. All in all, while the PBE program aimed to both reduce energy\nconsumption and increase energy efficiency, we can only claim robust evidence of the latter.\n1. Introduction\nInformation programs have been introduced in several countries in\nthe past three decades to help mitigate both informational and be-\nhavioral issues arising upon the purchase of energy-intensive products,\nchief among them the energy efficiency gap (EEG).1 These programs,\nwhich have been termed the ‘‘third wave’’ of pollution control (Tieten-\nberg, 1998), and of which energy labels are a leading particular case,\nare one way to mitigate the consequences of asymmetric information\n✩A previous version of this paper circulated under the title ‘‘The Impact of Information and Incentives on the Energy Paradox: Evidence from Micro Data’’. We\nthank the Instituto Brasileiro de Economia at Fundacao Getulio Vargas for making data available as well as Itaiguara Bezerra, Andre Braz, and Angel"
+    },
+    "data": {
+      "page": 1,
+      "snippet": "nformation programs\nRefrigerators\nA B S T R A C T\nThe PBE program made the adoption of energy labels mandatory in the Brazilian refrigerator market. In this\npaper, we examine the effects of PBE using data from a nationally representative sample of households and\na structural model of appliance choice. We document a modest increase in the valuation of energy costs by\nBrazilian consumers. However, the program is unable to eliminate the energy efficiency gap, in that consumers\nundervalue energy costs both pre-and post-PBE. Moreover, our policy simulation documents little product\nswitching and heterogeneity in responses. All in all, while the PBE program aimed to both reduce energy\nconsumption and increase energy efficiency, we can only claim robust evidence of the latter.\n1. Introduction\nInformation programs have been introduced in several countries in\nthe past three decades to help mitigate both informational and be-\nhavioral issues arising upon the purchase of energy-intensive products,"
+    },
+    "model": {
+      "page": 1,
+      "snippet": "doption of energy labels mandatory in the Brazilian refrigerator market. In this\npaper, we examine the effects of PBE using data from a nationally representative sample of households and\na structural model of appliance choice. We document a modest increase in the valuation of energy costs by\nBrazilian consumers. However, the program is unable to eliminate the energy efficiency gap, in that consumers\nundervalue energy costs both pre-and post-PBE. Moreover, our policy simulation documents little product\nswitching and heterogeneity in responses. All in all, while the PBE program aimed to both reduce energy\nconsumption and increase energy efficiency, we can only claim robust evidence of the latter.\n1. Introduction\nInformation programs have been introduced in several countries in\nthe past three decades to help mitigate both informational and be-\nhavioral issues arising upon the purchase of energy-intensive products,\nchief among them the energy efficiency gap (EEG).1 These programs,\nwhich ha"
+    },
+    "results": {
+      "page": 1,
+      "snippet": "on of energy costs by\nBrazilian consumers. However, the program is unable to eliminate the energy efficiency gap, in that consumers\nundervalue energy costs both pre-and post-PBE. Moreover, our policy simulation documents little product\nswitching and heterogeneity in responses. All in all, while the PBE program aimed to both reduce energy\nconsumption and increase energy efficiency, we can only claim robust evidence of the latter.\n1. Introduction\nInformation programs have been introduced in several countries in\nthe past three decades to help mitigate both informational and be-\nhavioral issues arising upon the purchase of energy-intensive products,\nchief among them the energy efficiency gap (EEG).1 These programs,\nwhich have been termed the ‘‘third wave’’ of pollution control (Tieten-\nberg, 1998), and of which energy labels are a leading particular case,\nare one way to mitigate the consequences of asymmetric information\n✩A previous version of this paper circulated under the title ‘‘The Im"
+    },
+    "conclusion": null
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper evaluates a mandatory energy-label policy in the Brazilian refrigerator market.",
+      "Which papers are treated as the nearest neighbors: energy-labeling and appliance-demand papers."
+    ],
+    "session": [
+      "Retrieve by key/title: EPWJ8S9T / Consumer response to energy label policies: Evidence from the Brazilian energy label program",
+      "Use collections and journal handles: BLP_1995_Citing_Literature_2026-03-21, Green Demand Applications",
+      "Preferred in-text citation handle: (Huse et al., 2020) / Huse et al. (2020)"
+    ],
+    "agent": [
+      "Research design type: policy evaluation / demand response analysis.",
+      "Check how the paper modifies or simplifies canonical BLP before borrowing its structure."
+    ],
+    "team": [
+      "Best framing sentence pattern: \"Information policy can improve decisions without fully solving the allocation problem.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

@@ -1,0 +1,3277 @@
+--- PAGE 1 ---
+Journal of Environmental Economics and Management 107 (2021) 102432
+Contents lists available at ScienceDirect
+Journal of Environmental Economics and Management
+journal homepage: www.elsevier.com/locate/jeem
+What does an electric vehicle replace?
+Jianwei Xing a, Benjamin Leard b, Shanjun Li c,∗
+a National School of Development, Peking University, China
+b Department of Agricultural and Resource Economics, University of Tennessee, USA
+c Dyson School of Applied Economics and Management, Cornell University, NBER, RFF, USA
+a r t i c l e
+i n f o
+Article history:
+Received 30 December 2019
+Revised 28 November 2020
+Accepted 11 February 2021
+Available online 17 March 2021
+JEL classiﬁcation:
+L91
+Q48
+Q51
+Keywords:
+Electric vehicles
+Substitution
+Demand estimation
+Second choice data
+a b s t r a c t
+The emissions reductions from the adoption of a new transportation technology depend on
+the emissions from the new technology relative to those from the displaced technology. We
+evaluate the emissions reductions from electric vehicles (EVs) by identifying which vehicles
+would have been purchased had EVs not been available. We do so by estimating a random
+coeﬃcients discrete choice model of new vehicle demand and simulating counterfactual sales
+with EVs no longer subsidized or removed from the new vehicle market. Our results sug-
+gest that vehicles that EVs replace are relatively fuel-eﬃcient: EVs replace gasoline vehicles
+with an average fuel economy of 4.2 mpg above the ﬂeet-wide average and 12 percent of
+them replace hybrid vehicles. This implies that ignoring the non-random replacement of gaso-
+line vehicles would result in overestimating emissions beneﬁts of EVs by 39 percent. Federal
+income tax credits resulted in a 29 percent increase in EV sales, but 70 percent of the credits
+were obtained by households that would have bought an EV without the credits. By simulat-
+ing alternative subsidy designs, we ﬁnd that a subsidy designed to provide greater incentives
+to low-income households would have been more cost effective and less regressive.
+© 2021 Elsevier Inc. All rights reserved.
+1. Introduction
+The diffusion of plug-in hybrid and fully electric vehicles (EVs), coupled with cleaner electricity generation, offers a promising
+pathway to reduce air pollution from on-road vehicles and to strengthen energy security. In contrast to conventional gasoline
+vehicles with internal combustion engines, EVs use electricity stored in rechargeable batteries to power the motor. When oper-
+ated in all-electric mode, EVs consume no gasoline and produce zero tailpipe emissions. But the stored electricity is generated
+from other sources such as power plants, which produce air pollution. Therefore, the environmental impacts of EVs depend on
+several critical factors. First, emissions created from operating EVs depend on the fuel source of electricity generation. Second,
+emissions diverted from EVs depend on the difference in emissions intensity between EVs and the vehicles that EVs replace.
+Third, some other factors also affect the emission impacts of EVs, such as their effect on total vehicles in operation and the total
+vehicle miles traveled. While prior literature has focused on the ﬁrst factor (Archsmith et al., 2015; Holland et al., 2016, 2019),
+few analyses explore the others factors. In this study, we ﬁll this gap by focusing on the second factor and illustrate the critical
+role this channel plays in determining the environmental beneﬁts of EVs.1 More speciﬁcally, we examine what EV buyers would
+∗Corresponding author.
+E-mail addresses: jerryxing@nsd.pku.edu.cn (J. Xing), bleard@utk.edu (B. Leard), sl2448@cornell.edu (S. Li).
+1 Below in Section 7, we also discuss in more detail how the other two channels would affect our results.
+https://doi.org/10.1016/j.jeem.2021.102432
+0095-0696/© 2021 Elsevier Inc. All rights reserved.
+
+--- PAGE 2 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+have purchased had EVs been unavailable. This counterfactual serves as the proper baseline to evaluate the emissions impacts
+of EV diffusion.
+An EV is a vehicle that is capable of running on electricity along at least part of the miles that the vehicle is driven. These
+vehicles include both plug-in hybrids (e.g. Chevrolet Volt) and fully electric vehicles (e.g. Tesla Model S) but exclude conventional
+hybrid vehicles (e.g. Toyota Prius). Since the introduction of the ﬁrst mass-market models into the United States in late 2010,
+EV sales have grown rapidly to about two percent of the new vehicle market.2 To encourage adoption, the federal government
+provides a federal income tax credit to new EV buyers based on each vehicle’s battery capacity and the gross vehicle weight
+rating, with the amount ranging from $2500 to $7500. Several states have established additional state-level incentives to further
+promote EV adoption, including tax exemptions and rebates for EVs and non-monetary incentives such as high-occupancy
+vehicle (HOV) lane access, toll reduction, and free parking.3
+A potential concern associated with subsidy policies is that they may create “non-additional” emissions reductions: some
+EV buyers would have purchased EVs even if there was no subsidy.4 Since early adopters may place a higher value for new
+technology and the environment, it is likely that some buyers have received a windfall gain without changing their behavior.
+Moreover, even if the tax credits increased EV sales, the emissions impact may be small if EVs replace vehicles with low
+emissions ratings. The effect that EVs have on emissions depends on how clean EVs are relative to the vehicles they are replacing.
+Many EV buyers could have bought a low-emission gasoline vehicle had EVs or EV incentives not been available. This could arise
+from consumer preference heterogeneity and sorting: consumers that value fuel eﬃciency or environmentally friendly vehicles
+buy vehicles that are fuel-eﬃcient or deemed environmentally friendly, such as the Toyota Prius or the Toyota Prius Plug-In. For
+these buyers, opting to buy the EV yields small or even negative emissions beneﬁts.
+To understand these issues, we use a stylized model to derive a simple expression relating vehicle substitution patterns –
+represented by cross-price elasticities of demand – to emissions changes. Our model shows that the greater the substitution a
+non-EV has with an EV, the greater the impact the vehicle’s emissions have on the emissions effect of the EV. We then estimate
+a random coeﬃcient discrete choice model of vehicle demand by using a rich household survey of US new vehicle buyers and
+market-level sales data from 2010 to 2014. The estimation takes advantage of the second-choice information from household
+survey data, which greatly improves the precision of the random coeﬃcient estimates and the resulting substitution patterns.
+With the model, we simulate counterfactual market outcomes by removing the EVs from the market to examine how consumers
+substitute between EVs and non-EVs. We then conduct other counterfactual exercises to examine the cost-effectiveness of the
+income tax credits policy in terms of reducing on-road emissions and compare these results with alternative policy designs.
+Our approach builds on the methodology used by Holland et al. (2016) and Holland et al. (2019) to estimate EV replacement
+vehicles. Their approach assigns a replacement vehicle based on stated preference second choice survey data.5 Instead of using
+survey data solely to assign a substitute model for each EV, we estimate a vehicle demand model incorporating both aggregate
+sales data and second choice survey data. The estimated own- and cross-price elasticities can directly reﬂect the substitution
+patterns between EVs and vehicles of other fuel types. The recovered consumer preference parameters allow us to run simu-
+lations to quantify the difference in emissions between the observed EV sales and the simulated replaced vehicles, as well as
+the impact of the subsidy programs on increasing EV sales. Our structural approach also allows us to compute how much EV
+subsidies lead to additional EV purchases, which allows us to evaluate the cost-effectiveness of the subsidies.
+With our estimated demand model, we run counterfactual simulations, which reveal three key ﬁndings. First, electric vehicles
+appear to be replacing relatively fuel-eﬃcient vehicles, as households that generally prefer EVs also prefer conventional gasoline
+vehicles with better fuel economy. This implies that calculations of emissions beneﬁts should account for the non-random
+replacement of conventional gasoline vehicles. Ignoring this non-random replacement overestimates emissions beneﬁts by 27
+percent. Second, the availability of and support for EVs has not led to a signiﬁcant reduction in market share for hybrid vehicles.
+Hybrids had been supported by the federal government in the 2000s and have seen a decline in market share since 2014, a time
+when EVs had started to gain signiﬁcant market share. But our results suggest that EVs have had a limited impact on hybrid
+sales. Instead, the elimination of the federal subsidy for hybrids has caused a signiﬁcant reduction in hybrid sales. Third, the
+cost-effectiveness of the subsidy program is limited by the fact that about 70 percent of consumers would have purchased EVs
+without the subsidy. We ﬁnd that this result is sensitive to the price elasticity of demand, where more elastic demand implies
+a greater number of additional EV purchases. By comparing the current uniform subsidy with an alternative policy design that
+removes the subsidy for high-income households and provides additional subsidies to low-income households, our analysis
+shows that better targeting could potentially increase the cost-effectiveness of the subsidy programs in terms of EV demand
+and environmental beneﬁts. Our simulation results contribute to the literature on the diffusion of low-emission technologies
+2 See Appendix Table A.1 for the average annual market share.
+3 In addition, federal, state, and local governments also provide funding to support charging station deployment.
+4 Additionality is a key issue for many other subsidy policies such as carbon offset programs (Bento et al., 2015) and subsidy programs for alternative-fuel
+vehicles (Beresteanu and Li, 2011; Huse, 2014).
+5 Holland et al. (2016) create a composite substitute gasoline vehicle for each EV by taking the weighted average of emissions of the top gasoline substitute
+vehicles reported in the survey. But they do not have substitute choice data for certain EV models including the Honda Fit EV, Fiat 500 EV, and BYD e6. In
+addition, the approach in Holland et al. (2016) assumes that sales of a speciﬁc EV model replace the same gasoline vehicle, which might be strong. For example,
+because of heterogeneous consumer preferences, some Nissan LEAFs replace a Toyota Prius, while other Nissan LEAFs might replace a Ford Fusion. We deﬁne
+theoretically the emissions of a composite vehicle that accurately represent the emissions of all vehicles that replace an EV. This deﬁnition is a weighted average
+of the emissions of all vehicles that are substitutes for an EV, where the weights are proportional to each vehicle’s cross-price elasticity of demand with respect
+to the EV’s effective price.
+2
+
+--- PAGE 3 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+and the cost-effectiveness of subsidy programs promoting these technologies (Allcott et al., 2015; Boomhower and Davis, 2014;
+Langer and Lemoine, 2018; Sallee, 2011).6
+Our study adds to the literature on the demand for electric vehicles and the EV market. Li et al. (2017) employ data on EV
+sales and charging stations at the city level to quantify the interplay between the availability of charging infrastructure and the
+installed base of EVs. Our structural approach allows us to address several key issues surrounding EV demand that reduced-
+form methods are unable to quantify, including the identiﬁcation of vehicles that are being replaced by EVs and the welfare
+effects of EV policies. Springel (2020) estimates a structural model of consumer vehicle choice and charging station entry in the
+Norwegian EV market and compares the effectiveness of direct purchasing price subsidies with charging station subsidies. Li
+(2016) examines the issues of compatibility in charging technology and ﬁnds that mandating compatibility in charging standards
+would increase the sales of EVs. Muehlegger and Rapson (2020) use the EV subsidy receipts data and vehicle transaction prices
+to estimate the pass-through rate of the EV incentive program in California and ﬁnd that 80 to 92 percent of the subsidies were
+passed through to consumers and that a decrease of 10 percent in EV prices increases EV demand by 31–37 percent. In contrast
+to these papers, our study focuses on identifying the vehicles that EVs replace.
+We organize the rest of the paper as follows. Section 2 brieﬂy describes the data used in the empirical analysis. In Section
+3, we develop a simple analytical model to show emissions impacts of vehicle substitution depend on key vehicle demand
+parameters to help guide our empirical analysis. Section 4 presents the empirical model and estimation strategy. Section 5
+presents the estimation results of the substitution. In Section 6, we present the counterfactual simulations to evaluate the
+environmental beneﬁts of the introduction of EVs and the impact of the EV subsidy. We also conduct simulations to examine the
+impact of EVs on hybrid vehicle sales and whether an income-dependent subsidy design could improve the cost-effectiveness
+of the subsidy. Section 8 concludes.
+2. Data description
+We use three data sets to estimate the model of vehicle demand. The primary data source is household-level survey data
+from the US New Vehicle Customer Study by MaritzCX Research. It is a monthly survey of households that purchased or leased
+new vehicles. The data provide detailed information of demographic characteristics of households that purchased each vehicle,
+and the alternative vehicles they considered while making the purchase decisions. We use survey data for ﬁve model-years:
+model year (MY) 2010 through MY 2014, where each model year is deﬁned as September of the previous calendar year to
+August of the current calendar year. (For example, MY 2011 is deﬁned as September 2010–August 2011.) For computational
+purposes, we draw a sample of 11,628 transactions from the data after removing observations with missing observed consumer
+attributes or information on the purchased and seriously considered models, and end up having 1,509, 1,860, 2,287, 2,899,
+and 3073 transactions for MY 2010-MY 2014, respectively.7 As the market share of EVs is tiny, so that would include enough
+EV observations to have suﬃcient variation in consumer demographic attributes for EV buyers to identify the preference for
+EVs among different demographics, we use non-random sampling by including all EV observations from the survey sample and
+randomly drawing observations for the other fuel types. To adjust for non-random sampling, we then follow Manski and Lerman
+(1977) to include a weighted exogenous sample maximum likelihood by re-weighting each observation in the likelihood. The
+weight is deﬁned by the actual market share in the population divided by the within-sample market share.
+Table 1 summarizes the demographic information for the households that made those purchase transactions. The average
+household income for the survey respondents in the sample is $140,448, which is higher than the average household income of
+$117,795 for married couples in the United States.8 This feature of the data is caused by oversampling consumers who purchased
+EVs and hybrid vehicles. The average household size is 2.66 people, and 63.9 percent of the heads of household have earned
+a college degree. Of the respondents, 66.1 percent of the respondents are from an urban or suburban area, with an average
+commuting of 25.6 min and average gasoline price of $3.48 during the survey time. About 50 percent of the sampled households
+selected a light truck, and the average price of the vehicles that the sampled households purchased is $33,451. The average
+fuel economy of the purchased vehicles is 34.8 mpg.9 Appendix Table A.3 provides further descriptive statistics for new vehicle
+buyers by fuel type. EV buyers have a much higher income and a larger percentage of them graduated with a college degree.
+The household survey data also include alternative vehicle choices that consumers considered while purchasing vehicles,
+providing a valuable source for identifying unobserved preference heterogeneity. Table 2 summarizes the top alternative vehi-
+cle choices reported by survey respondents for EV models. The data reﬂect that EV buyers have a strong preference for alternative
+fuel technologies, since most of them still consider PHEVs or hybrid vehicles as their second choices. This strong correlation of
+the fuel economy between the purchased vehicle and the alternative choices greatly facilitates estimating the random coeﬃ-
+cients for vehicle fuel economy. For luxury EV models, such as Tesla Model S, customers might also consider luxury gasoline
+6 See Appendix A for a detailed review of this literature.
+7 This sample is the maximum number of households that we can draw without running into memory constraints. It takes 10 h to estimate the model with
+parallel processing. The estimation time rises proportionally with the sample size, i.e., doubling the sample size doubles the computation time.
+8 Data source: IRS Statistics of Income, 2014.
+9 This average is signiﬁcantly higher than the average fuel economy of all purchased vehicles during the sample period because of the oversampling of EV and
+hybrid buyers.
+3
+
+--- PAGE 4 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Table 1
+Household and vehicle summary statistics.
+Variables
+2010
+2011
+2012
+2013
+2014
+All Years
+Mean
+S.D.
+Mean
+S.D.
+Mean
+S.D.
+Mean
+S.D.
+Mean
+S.D.
+Mean
+S.D.
+Household income (1000$)
+146.78
+107.92
+160.10
+134.60
+130.65
+104.49
+136.78
+115.16
+136.21
+107.96
+140.45
+114.16
+Household size
+2.62
+1.21
+2.67
+1.20
+2.71
+1.23
+2.66
+1.21
+2.65
+1.21
+2.66
+1.21
+With a college degree
+0.62
+0.49
+0.62
+0.49
+0.63
+0.48
+0.65
+0.48
+0.65
+0.48
+0.64
+0.48
+Living in an urban area
+0.65
+0.48
+0.64
+0.48
+0.66
+0.47
+0.66
+0.47
+0.68
+0.47
+0.66
+0.47
+Average commuting time (min.)
+25.78
+5.81
+25.57
+5.84
+25.48
+5.78
+25.72
+5.75
+25.52
+5.67
+25.60
+5.76
+Average gasoline price ($)
+2.75
+0.16
+3.42
+0.42
+3.65
+0.27
+3.67
+0.22
+3.57
+0.23
+3.48
+0.40
+Average vehicle price (1000$)
+31.17
+11.39
+32.00
+11.49
+33.16
+11.28
+34.19
+12.84
+34.98
+14.00
+33.46
+12.54
+Average mpg of the vehicle
+23.38
+5.57
+28.51
+18.65
+36.80
+27.87
+39.78
+27.05
+38.06
+25.56
+34.81
+24.50
+Purchasing a light truck
+0.49
+0.50
+0.49
+0.50
+0.41
+0.49
+0.36
+0.48
+0.41
+0.49
+0.42
+0.49
+Household observations
+1509
+1860
+2287
+2899
+3073
+11,628
+Horsepower/weight (hp/lb)
+0.06
+0.02
+0.06
+0.02
+0.06
+0.02
+0.07
+0.02
+0.06
+0.02
+0.42
+0.49
+Wheelbase∗width (in2)
+8399
+1165
+8339
+1173
+8313
+1193
+8289
+1167
+8314
+1172
+8330
+1173
+% of ICE models
+92.92
+91.58
+89.71
+88.44
+88.24
+90.12
+% of hybrid models
+7.08
+7.67
+8.85
+8.62
+8.28
+8.11
+% of EV models
+0.00
+0.74
+1.43
+2.95
+3.49
+1.77
+Vehicle choice set size
+424
+404
+418
+441
+459
+2146
+Notes: The household-level data represent a sample (11,628 observations) drawn from the MaritzCX household survey data. Data of vehicle attributes are obtained from Wards
+Automotive. Household income is converted to 2014 dollars using the BLS calculator. Household size is the number of individuals living in the respondent’s household. Gasoline
+prices are quarterly average national prices from the EIA. Average mpg of the vehicle represents the average miles per gallon of the vehicles bought by the household sample.
+Horsepower/weight measures a vehicle’s acceleration, and wheelbase∗width measures a vehicle’s footprint. ICE (internal combustion engine) models include gasoline, diesel, and FFV
+models.
+4
+
+--- PAGE 5 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Table 2
+Summary of second choices for EV buyers.
+Make
+Model
+Fuel type
+Top 1 s choice
+Top 2 s choice
+Honda
+Accord Plug In Hybrid
+PHEV
+Tesla Model S
+Toyota Prius
+Ford
+C-Max Energi
+PHEV
+Toyota Prius
+Chevrolet Volt
+Ford
+Fusion Plug In Hybrid
+PHEV
+Chevrolet Volt
+Toyota Prius Plug In
+Toyota
+Prius Plug-in
+PHEV
+Chevrolet Volt
+Nissan LEAF
+Chevrolet
+Volt
+PHEV
+Toyota Prius
+Nissan LEAF
+Fiat
+500 Electric
+BEV
+Nissan LEAF
+Mini Cooper
+Mercedes-Benz
+B Class Electric
+BEV
+Nissan LEAF
+Ford Fusion Hybrid
+Ford
+Focus Electric
+BEV
+Nissan LEAF
+Chevrolet Volt
+Nissan
+LEAF
+BEV
+Chevrolet Volt
+Toyota Prius
+Tesla
+Model S
+BEV
+Nissan LEAF
+Audi A7
+Toyota
+RAV4 EV
+BEV
+Nissan LEAF
+Tesla Model S
+Chevrolet
+Spark Electric
+BEV
+Nissan LEAF
+Chevrolet Volt
+Smart
+fortwo electric
+BEV
+Nissan LEAF
+Chevrolet Volt
+Mitsubishi
+i-MiEV
+BEV
+Nissan LEAF
+Ford Focus Electric
+BMW
+i3
+BEV
+Nissan LEAF
+Tesla Model S
+Notes: The data summary is based on the sample of 2014 EV buyers from the MaritzCX household survey data.
+The table summarizes the most popular alternative vehicle choices for the households that purchased different EV
+models. Top 1 s choice indicates the most frequently reported alternative choices among the buyers of a speciﬁc EV
+model. Top 2 s choice reports the second most reported alternative choices for each EV model.
+models such as Audi A7 as their alternative choices. The proximity in price, size, and some other observed vehicle attributes
+would help in identifying consumer heterogenous preference for those attributes.
+Fig. 1 summarizes consumers’ second choices by fuel type based on the survey data and reﬂects the heterogeneous preference
+of fuel type among different groups of consumers. Among gasoline buyers, 96.9 percent would consider another gasoline vehicle
+as a second choice, 2.9% percent would consider a hybrid vehicle model as an alternative, and only about 0.2 percent would
+consider either BEVs or PHEVs as substitutes. Gasoline vehicle buyers, who are the majority of new vehicle purchasers, are
+generally less interested in the EV technology. Hybrid vehicle buyers demonstrate a stronger preference of fuel economy, and
+39.7 percent of them would consider another hybrid vehicle as an alternative choice. However, only 3 percent would consider
+EVs as second choices. Those consumers who purchase hybrid vehicles enjoy vehicles that save fuel cost but do not favor the
+plug-in feature of EVs. Both PHEV and BEV buyers show a strong interest into EVs: many of them are considering another
+EV as their second choices. However, 34.5 percent of PHEV buyers consider a hybrid vehicle as an alternative, and only 16.5
+percent consider a BEV model. PHEV buyers are more willing to adopt the EV technology but are less interested in all-electric
+vehicles, probably because of the limited range of BEVs. BEV buyers are most into the EV technology, and 41.3 percent of them
+pick another BEV model as their second choice, 25.3 percent consider PHEVs, and only 18.6 percent consider another gasoline
+vehicle as substitute. BEV adopters are those who care most about the feature of electriﬁcation and those who are most into
+the newest technologies. The general pattern of this ﬁgure reveals the strong correlation between alternative choices and the
+purchased vehicles and reﬂects the critical role that the substitution pattern plays in reﬂecting the heterogenous preference of
+consumers.
+We merge vehicle characteristics data from Wards Automotive, which provide detailed attributes of each vehicle model in
+each model year, including horsepower, size, curb weight, wheelbase, and fuel economy.10 The data set is further complemented
+by aggregate vehicle sales data, which provide market-level information on new vehicle demand, obtained from registration
+data compiled by IHS Automotive. The IHS data record the quarterly number of registrations for each new vehicle model, broken
+down by fuel type, which are aggregated to model-year level to construct the market share for each new vehicle model in each
+model year. All the above data sets are matched at the model year-make-model-fuel type level, for example, 2014 Ford Focus
+gasoline, and the vehicle attributes are assigned using the base model. The total number of vehicle models that are deﬁned in
+the model-year choice sets are 424, 404, 418, 441, and 459 for MY 2010 - MY 2014, respectively. Table 1 summarizes the basic
+attributes of those vehicle choices and the composition of the choice sets by fuel type.
+We assign average vehicle prices based on respondent-reported transaction price information in the MaritzCX survey data.
+Respondents are asked to report the sales or lease prices of their vehicles, within a few months after purchase. These values
+reﬂect the price that households paid on average for each vehicle and may be different from the traditionally used MSRPs
+because of negotiations or temporary promotions. These prices exclude any credits received from trade-ins and include sales
+taxes. We compute market by model by fuel type prices as the unweighted average transaction price for all purchases and leases
+in the raw survey data. We do not adjust these prices for tax credits or rebates because we do not observe whether households
+claimed these incentives. Since many of the household observations lease plug-in electric or fully electric vehicles, credits or
+rebates for these vehicles go to the leasing company, which then likely passes through the incentive as a lower purchase price.
+10 The Wards Automotive data have a ﬁne level of vehicle identiﬁcation detail. We merge base model year by make, model and fuel type to the MaritzCX
+survey data, where the base model is deﬁned as the trim with the lowest MSRP among all trims by make, model, and fuel type identiﬁcation within the same
+model year.
+5
+
+--- PAGE 6 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Fig. 1. Consumer second choices by fuel type.
+We collect data of monthly average gasoline prices by region from the Energy Information Administration (EIA).11 We convert
+all prices, including average transaction prices and fuel costs, to real 2014 dollars using the Bureau of Labor Statistics (BLS)
+Consumer Price Index.
+We obtain detailed information on locations and open dates of all charging stations from the Department of Energy’s Alter-
+native Fuels Data Center (AFDC). By matching the zip code of each charging station with the zip codes reported in the survey
+data, we assign the total number of charging stations available in the city to each observed survey respondent.
+3. Theory of substitution
+To motivate our empirical analysis, we lay out a stylized model of vehicle substitution to illustrate how substitution between
+vehicles from a policy or non-policy change affects emissions. Consider a new vehicle market where there are J unique
+models for sale, where each model is indexed by j. Model j has lifetime emissions equal to ej and has aggregate demand
+qj = qj(p1, p2, … , pJ), where pj represents the sales price net of subsidies for vehicle j. Total lifetime emissions of vehicles
+sold are
+E =
+J∑
+j=1
+ejqj(p1, p2, … , pJ).
+(1)
+Without loss of generality, we assume that j = 1 is an EV and j = 2, 3., … , J are gasoline or hybrid models. We assume that
+the EV’s price is subsidized by an amount s, so that the EV’s price is p1 = p0
+1 −s, where p0
+1 is the EV’s price without a subsidy.
+Differentiating total lifetime emissions with respect to the EV subsidy yields
+dE
+ds = −e1
+dq1
+dp1
+−
+J∑
+j=2
+ej
+dqj
+dp1
+.
+(2)
+Normalizing the change in the subsidy by the EV’s price (so that dE
+ds′ = dE
+ds p1) and deﬁning the own-price and cross-price elasticity
+of demand with respect to the EV price as 𝜖1 = dq1
+dp1
+p1
+q1 and 𝜖j =
+dqj
+dp1
+p1
+qj , respectively, we can express equation (2) as
+11 EIA reports monthly gasoline prices by region, deﬁned by the Petroleum Administration for Defense Districts (PADDs). We assign gasoline prices to each
+sampled household based on its PADD region and the month of vehicle purchase.
+6
+
+--- PAGE 7 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+dE
+ds′ = −e1q1𝜖1 −
+J∑
+j=2
+ejqj𝜖j.
+(3)
+Equation (3) reveals that the effect of the subsidy on lifetime emissions is proportional to the own-price elasticity of demand
+for the EV and the cross-price elasticity of demands for all other vehicles. The cross-price elasticities 𝜖j represent the substitution
+pattern between the EV and the non-EV models. The larger the value of this derivative, the greater the substitution and the
+more of an impact the non-EV model has on the emissions impact of the subsidy. Consider the simple example where 𝜖j = 0
+for j = 3, 4, … , J. Then equation (3) becomes
+dE
+ds′ = −e1q1𝜖1 −e2q2𝜖2.
+(4)
+If the demand responses offset one another so that there is no change in total new vehicle sales, then the change in emissions
+depends on the relative difference between the lifetime emissions of the EV and the non-EV j = 2:
+dE
+ds′ = (e2 −e1)q1𝜖1.
+(5)
+This simpliﬁed equation is conceptually the same approach taken by prior studies to quantify the emissions impacts of EVs.
+3.1. Deﬁning a composite substitute
+This approach above is an accurate representation of the full impact if (1) the only substitution that takes place is between the
+EV and a single vehicle, (2) the single vehicle is the correct substitute, or (3) the j = 2 model’s emissions accurately reﬂect the
+emissions of all the vehicles that are substitutes for the EV. In most cases, an EV will have more than one vehicle as a substitute.
+Here we derive a simple formula deﬁning the emissions of a composite vehicle that satisﬁes the third condition when more
+than one vehicle substitute for the EV. We begin by assuming that a change in the subsidy does not change total vehicle sales:
+−dq1
+dp1 = ∑J
+j=2
+dqj
+dp1 . Denote the emissions of the composite vehicle by ec. We want to ﬁnd an ec that solves dE
+ds′ = (ec −e1)q1𝜖1.
+Substituting this expression into equation (3) yields
+dE
+ds′ = −e1q1𝜖1 −
+J∑
+j=2
+ejqj𝜖j = (ec −e1)q1𝜖1.
+(6)
+Making cancellations and isolating ec yields
+ec = −
+J∑
+j=2
+ej
+qj𝜖j
+q1𝜖1
+.
+(7)
+Emissions for the composite vehicle equal to the product of emissions and the ratio of the cross-price elasticity of demand
+are scaled by sales of vehicle j, and the own-price elasticity of demand is scaled by sales of the EV. In our empirical demand
+model, we are able to identify composite vehicle emissions based on estimated own-price and cross-price demand elasticities.
+Equation (7) can be further simpliﬁed to
+ec = −
+J∑
+j=2
+ej
+dqj
+dq1
+.
+(8)
+This general expression can be used to accurately evaluate hypothetical settings where electric vehicles are added or removed
+from the market. This expression suggests that evaluating the impact of EV subsidy on reducing emissions depends on the
+estimation of the substitution pattern between EVs and all the other vehicle models in the market.
+3.2. Additionality
+In this section, we derive an equation that shows how the non-additionality of a subsidy is affected by demand parameters.
+We deﬁne non-additionality as the proportion of EVs that would have been bought without the subsidy to the total EV sales
+with the subsidy. A higher ratio implies more non-additional purchases and more subsidy dollars going to households that
+would have bought an EV without the subsidy. The proportion is equal to
+N =
+q1(p0
+1)
+q1(p1).
+(9)
+Differentiating N with respect to s′ and substituting the price elasticity of demand for the EV yields
+7
+
+--- PAGE 8 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+dN
+ds′ =
+q1(p0
+1)
+q1(p1)𝜖1
+(10)
+Evaluating equation (10) at the price where the subsidy is equal to zero (p0
+1 = p1) yields
+dN
+ds′ = 𝜖1
+(11)
+This equation shows that non-additional purchases are proportional to the EV own-price elasticity of demand. More elas-
+tic demand (more negative 𝜖1) implies relatively fewer non-additional purchases and a greater number of purchases that are
+created by the subsidy. In contrast to the results we derived for the emissions impacts of the subsidy, the additionality of the
+subsidy depends on the own-price elasticity of demand only.
+4. Empirical model and estimation
+In this section, we discuss our empirical model and estimation strategy. We estimate vehicle demand preference parameters
+using a random coeﬃcient discrete choice model in the spirit of Berry et al. (1995, 2004), Petrin (2002), and Train and Winston
+(2007). Our model most closely follows the structure of Train and Winston (2007), as we exploit household demographics and
+second choice data to identify the model parameters.
+4.1. Vehicle demand
+The household survey data are not representative of the entire population since they include only buyers of new vehicles.
+Therefore, we model new vehicle preferences conditional on the decision of buying a new vehicle. Our approach will not be
+able to capture the substitution between the new vehicle models and the outside option: buying a used car, continuing using
+the household’s old vehicle, or relying on public transportation. Instead, our model represents how consumers choose among
+new vehicles and how changes in new vehicle attributes or the selection of new vehicles available for purchase affects new
+vehicle sales. Two factors suggest that our model could reasonably capture the substitution that consumers make when deciding
+between an EV and another vehicle option. First, EVs represent a new segment of the light-duty vehicle market, where few
+used vehicle options represent plausible substitutes. Second, EVs are generally expensive options relative to most new or used
+vehicles. If consumers substitute among similarly priced vehicles, the EV substitutes are likely to be expensive new vehicles.
+We deﬁne household i’s utility from purchasing vehicle model j as:
+uij =
+K
+∑
+k=1
+xjk𝛽k −𝛼1lnpj + 𝜉j
+⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟
+𝛿j
++ 𝛼2
+lnpj
+Yi
++
+∑
+kr
+xjkzir𝛽o
+kr +
+∑
+k
+xjkvik𝛽u
+k
+⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟
+𝜇ij
++ 𝜀ij,
+(12)
+where 𝛿j is the mean utility of vehicle model j which is constant across consumers in the same market. xjk stands for the kth
+vehicle attribute for model j. We include horsepower, weight, gallons per mile,12 and some vehicle segment dummy variables
+as the observed vehicle attributes. Price pj is the average transaction price observed from the survey data, which is constant for
+the same model by fuel type for all households buying a vehicle in the same market.13
+The second component, 𝜇ij, captures heterogeneous utility driven by both observed and unobserved consumer characteris-
+tics. Yi is household i’s income in the corresponding year, and we assume consumer price sensitivity to be inversely related to
+income. One would expect 𝛼2 to be negative, as higher-income households would be less sensitive to a price increase because
+of the diminishing marginal utility of money. zir denotes consumer i’s other demographic variables-including family size, edu-
+cation level, whether living in an urban area, the average gasoline price, and the number of charging stations in the area-which
+are interacted with certain vehicle attributes to capture variation in consumer preference due to observed heterogeneity.
+The unobserved consumer taste vik is assumed to have a standard normal distribution. The coeﬃcient 𝛽u
+k can be interpreted
+as the standard deviation in the unobserved preference for the vehicle attribute k conditional on the consumer’s observed
+attributes. Let 𝜃= {𝛽o
+kr, 𝛽u
+k }, denoting the “nonlinear” parameters, and it is understood that the vector 𝛿= {𝛿1, … , 𝛿j} is
+estimated conditional on a given 𝜃1. The last component, 𝜀ij, is the idiosyncratic preference of household i for vehicle model
+12 For EVs, the gallons/mile measurement is deﬁned as the inverse of miles/gallon gasoline equivalent, which is a metric deﬁned by EPA to measure the energy
+eﬃciency of EVs.
+13 Averaging household-level transaction prices by vehicle alleviates recall bias at the household level and may better reﬂect actual price differences between
+different vehicle models. However, our construction of average transaction price may still introduce selection bias as transaction prices are reported by con-
+sumers who purchased that model. As a robustness check, we re-estimate the demand using MSRPs and the results are presented in Appendix Table A.4. The
+price coeﬃcient and elasticity estimates are similar to our benchmark model that uses average transaction price.
+8
+
+--- PAGE 9 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+j, and it is assumed to have an i.i.d. type one extreme value distribution.
+A useful feature of the MaritzCX data is that they include vehicle models that consumers seriously considered other than the
+purchased model. This allows for a ranking of both the ﬁrst and second vehicle choices.14 We exploit the second choice data as a
+source of variation to identify unobserved heterogeneous preferences conditional on observed household characteristics.15 For
+example, if the second choices of an EV model include only EV models, this would suggest that EV buyers have a very strong
+preference for this particular fuel type. If, on the other hand, the second choices include many non-EV counterparts of the EV
+models within the same make, this would suggest a less strong preference for EV type, but preference for the same make is an
+important factor. Similarly, the comparison between the chosen model and the second choice in other dimensions of vehicle
+attributes such as vehicle size or fuel economy can also inform us about consumer preference heterogeneity for these vehicle
+attributes.
+To use the second choice information, we form the likelihood function based on the joint probability of household i choosing
+j as the ﬁrst choice and considering h as the second choice:
+Pijh = ∫
+exp[𝛿j(𝜃) + 𝜇ij(𝜃)]
+∑
+g
+exp[𝛿g(𝜃) + 𝜇ig(𝜃)] ·
+exp[𝛿h(𝜃) + 𝜇ih(𝜃)]
+∑
+g≠j
+exp[𝛿g(𝜃) + 𝜇ig(𝜃)]f(v)dv.
+(13)
+The probability of observing household i choosing model j is conditional on the household’s vi vector, and the probability is
+calculated by integrating over the distribution of v. Instead of constructing moments exploiting the exogeneity assumption that
+unobserved product attributes are uncorrelated with observed attributes, we use the maximum likelihood estimation (MLE)
+method with a nested contraction mapping to estimate 𝜃and 𝛿(Train and Winston, 2007; Langer, 2012; Goolsbee and Petrin,
+2004; Whitefoot et al., 2013). Let lnRi = lnPijh, denoting the individual log-likelihood of household i choosing the observed
+purchased model j and considering the observed alternative choice h. The log-likelihood function of the entire sample for a
+single market is therefore:
+lnL =
+N
+∑
+i=1
+lnRi.
+(14)
+The nonlinear parameters 𝜃are estimated by maximizing the likelihood function.16 Given the larger number of mean utilities
+𝛿, we follow the two-step procedure in Berry et al. (1995), which shows that under certain regularity conditions, for each
+𝜃, there exists a unique 𝛿that matches the predicted market shares with observed ones. The market demand is the sum of
+individual consumers’ demand, and the predicted market share is calculated by calculating Pij with parameters 𝜃= {𝛽o
+kr, 𝛽u
+k }
+and 𝛿= 𝛿1, … , 𝛿j and averaging over the N consumers in the survey sample. Following this strategy, we back out the mean
+utility vector 𝛿for any given 𝜃using the contraction mapping technique:
+𝛿t
+j (𝜃, S) = 𝛿t−1
+j
+(𝜃, S) + ln(Sj) −ln(̂Sj(𝜃, 𝛿t−1(𝜃, S))).
+(15)
+We iterate this equation until the difference between 𝛿t
+j and 𝛿t−1
+j
+is smaller than a pre-speciﬁed inner loop tolerance. We set a
+strict tolerance to be 10E-15 to reduce the likelihood of achieving a local optimum. Once 𝜃and 𝛿are estimated using the MLE
+method, we then recover the parameters in mean utility:
+𝛿j = −𝛼1lnpj +
+K
+∑
+k=1
+xjk𝛽k + 𝜉j,
+where 𝜉j denotes the unobserved vehicle attributes of model j. To control for the correlation of price with the unobserved
+product attributes, following Train and Winston (2007), we use BLP-style instruments that measure the sum of distance and
+squared distance in attribute space between own product and other products in the same ﬁrm and from other ﬁrms.
+4.2. Identiﬁcation
+Consumer utility is composed of three parts: mean utility, observed heterogeneity, and unobserved heterogeneity. The linear
+parameters in the mean utility 𝛽and 𝛼1 are identiﬁed through the variation in market shares corresponding to variation in price
+and other observed vehicle attributes. Because of the potential correlation between price and the unobserved vehicle attributes
+𝜉j, functions of attributes of other competing products that capture the intensity of competition are used as instruments to
+14 We use survey response data from multiple questions to assign a second choice. The ﬁrst question is “When shopping for your new vehicle, did you
+consider any other cars or trucks?” Respondents answering yes to this question were then asked to provide make, model, model year, fuel type, and other
+vehicle information for the model that they most seriously considered but did not purchase. Those second choices represent the alternative vehicle models that
+consumers considered when making their actual purchase decisions.
+15 Another beneﬁt of incorporating second choice data is that they increase the eﬃciency of the estimation (Beresteanu and Zincenko, 2018).
+16 In Appendix B, we lay out more details of the likelihood function and the gradient for estimation.
+9
+
+--- PAGE 10 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+provide exogenous variation in prices. The maintained exogeneity assumption is that unobserved product attributes are not
+correlated with observed product attributes.
+The nonlinear parameters 𝛽o
+kr and 𝛼2 in the observed individual heterogeneity component are identiﬁed from the correlation
+between household demographics and vehicle attributes. For example, if we observe that households with a high level of edu-
+cation disproportionately purchased more electric vehicles, we would expect a positive coeﬃcient for the interaction between
+household education level and the EV dummy. If higher-income groups tend to be less sensitive to vehicle prices and dispropor-
+tionately buy more expensive vehicle models, we would expect a negative sign for 𝛼2, which captures the impact of income on
+consumers’ price sensitivity.
+The unobserved consumer heterogeneity parameters 𝛽u
+k are primarily identiﬁed by the correlation between ﬁrst and second
+choice vehicle attributes. For example, if consumers who purchase high fuel-economy vehicles tend to state that they would
+have purchased a high fuel-economy vehicle if their ﬁrst choice was not available, we would expect a large coeﬃcient for the
+parameter associated with fuel costs (i.e., the standard deviation of the preference for the fuel cost). Berry et al. (2004) note
+that having micro-level second-choice data helps the estimation of random coeﬃcients when they have observations for only
+one market year, and Train and Winston (2007) also mention that including alternative choice data signiﬁcantly improves the
+precision of the random coeﬃcient estimates. In contrast to these studies, however, the unobserved heterogeneity parameters
+in our model are also identiﬁed by changes in choice sets over time. We leverage the feature of our sample, which includes
+periods where few electric vehicles were available (2010 and 2011), followed by periods of availability (2012–2014) and an
+expansion of available options (see Appendix Table A.1). The variation in the choice sets over time provides an additional source
+of identiﬁcation for the random coeﬃcients.
+5. Estimation results
+We ﬁrst report parameter estimates for the random-coeﬃcient model and then use the estimates to calculate price elastici-
+ties to show implied substitution patterns.
+5.1. Parameter estimates
+Table 3 reports the estimation results of the demand model. The mean utility 𝛿represents the average preference consumers
+have for each vehicle model and is estimated by equating the predicted market shares to the observed market shares. The mean
+preference coeﬃcients for price and each observed vehicle attribute are recovered from instrumental variables (IV) estimation
+with the instruments accounting for the endogeneity of price. Both ordinary least squares (OLS) and IV results are reported in
+panel (a) of Table 3 and reﬂect the preferences for vehicle attributes that are generally expected. Consumers have a negative
+preference for price and the price coeﬃcient in the IV speciﬁcation is more negative, suggesting OLS underestimates the price
+sensitivity. Consumers have a positive preference for acceleration, measured by the ratio of horsepower to weight, and also pre-
+fer heavier vehicles. The coeﬃcient for gallons/mile is positive but statistically insigniﬁcant as the operating cost of the vehicle
+($/mile) has been controlled in the consumer heterogeneity component. The sign for AFV dummy is negative, suggesting con-
+sumers in general prefer conventional vehicles probably because of risk aversion, range anxiety concerns and lack of awareness
+of AFVs and EVs. Conditional on other vehicle attributes, consumers do not have a signiﬁcantly different preference for pickup
+trucks relative to passenger cars. The positive signs for MY 2011-MY 2014 dummies suggest that consumers prefer vehicles in
+later model years relative to MY 2010, controlling for other vehicle attributes. This is consistent with broad sales patterns during
+this time period, when total sales had been recovering from the recession.
+Turning to the consumer heterogeneity parameters, the interaction terms of consumer demographics with vehicle attributes
+are estimated precisely with intuitive signs. The coeﬃcient of log(price) divided by income captures the extent to which a
+consumer’s price sensitivity varies with income. The negative sign of the estimate suggests that households with lower income
+react more negatively to a vehicle’s price than households with higher income. The elasticities implied from the price preference
+are further discussed below. Households of a larger family size prefer larger vehicles that are heavier. Compared with households
+that live in suburban and rural areas, households that live in urban areas are less likely to adopt pickups, probably because
+of less towing utility and limited parking space, but are more interested in EVs because of both more frequent city driving
+needs and better refueling infrastructure provided in urban areas. The interaction of the household-speciﬁc gasoline price with
+gallons/mile, which measures the operating cost per mile of the vehicle, has a negative sign, suggesting that consumers have
+a negative preference for fuel costs. The estimation results also suggest that consumers who have more education and live in
+cities with more charging stations are more likely to adopt EVs.
+We include four random coeﬃcients, which represent unobserved consumer preferences for fuel economy (gallons/mile),
+acceleration (horsepower/weight), light trucks, and AFVs. Based on the standard normal distribution of the random taste vari-
+able vik, the coeﬃcient 𝛽u
+k can be interpreted as the standard deviation in the unobserved preference for the vehicle attribute k.
+To reduce simulation noise and bias, following Train and Winston (2007), we use 150 Halton draws to approximate the distri-
+10
+
+--- PAGE 11 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Table 3
+Demand estimation results.
+Panel (a): Mean Utility Parameters
+(1) OLS
+(2) IV
+Coeﬃcient
+S.E.
+Coeﬃcient
+S.E.
+Constant
+−2.4560
+0.1028
+−2.4728
+0.1113
+log(price)
+−1.3497
+0.2572
+−1.7375
+0.8164
+horsepower/weight
+1.9525
+0.3211
+2.2664
+0.6870
+Weight
+1.3393
+0.2505
+1.2943
+0.2606
+gallons/mile
+0.1805
+0.1283
+0.1327
+0.1529
+AFV dummy
+−3.6229
+0.5823
+−3.6632
+0.5942
+EV dummy
+−2.9321
+0.2652
+−2.8913
+0.2791
+pickup dummy
+0.4192
+0.2863
+0.7285
+0.6828
+model year 11 dummy
+0.2743
+0.1143
+0.2763
+0.1144
+model year 12 dummy
+0.3127
+0.1075
+0.3321
+0.1153
+model year 13 dummy
+0.0559
+0.1063
+0.0687
+0.1098
+model year 14 dummy
+0.1741
+0.0920
+0.1768
+0.0929
+Panel (b): Heterogeneous Utility Parameters
+(1) 2nd Choice
+(2) No 2nd choice
+Coeﬃcient
+S.E.
+Coeﬃcient
+S.E.
+Observed Heterogeneity
+log(price)/income
+−9.0659
+0.4839
+−15.9223
+0.8972
+family size∗vehicle weight
+0.0892
+0.0207
+0.2207
+0.0315
+urban∗pickups
+−0.6678
+0.0561
+−0.7232
+0.0705
+urban∗EV
+0.2305
+0.0482
+0.3636
+0.0583
+gasoline price∗gallons/mile
+−0.3078
+0.0234
+−0.6481
+0.0410
+education∗EV
+0.8309
+0.0808
+1.1437
+0.0939
+stations∗EV
+0.6728
+0.1022
+0.7469
+0.1190
+Random coeﬃcients
+gallons/mile
+1.9291
+0.0565
+1.5953
+0.9018
+horsepower/weight
+1.0865
+0.0396
+0.1136
+0.2129
+light trucks
+0.2823
+0.0254
+0.7164
+0.1099
+AFVs
+0.9493
+0.0886
+0.4692
+0.3074
+Average own-price elasticity
+−2.67
+Average own-price elasticity of EVs
+−2.76
+Average elasticity of EVs (income < $100,000)
+−3.13
+Notes: The number of households is 11,628. The value of the simulated log-likelihood at convergence is −144,129.4
+based on 150 Halton draws per household. The instrumental variables used to estimate the linear parameters are
+the difference and squared difference in characteristics (fuel economy, horsepower, and weight) with other vehicles
+sold by the same manufacturer and the squared difference in characteristics of vehicles sold by other manufactur-
+ers. For EVs, the gallons/mile measurement is deﬁned as the inverse of miles/gallon gasoline equivalent, which is a
+metric deﬁned by EPA to measure the energy eﬃciency of EVs. Speciﬁcation (1) includes consumers’ second choices
+in the likelihood function while speciﬁcation (2) only incorporates consumers’ purchased choices in constructing the
+likelihood.
+bution for the unobserved consumer taste v.17 All four coeﬃcients are statistically signiﬁcant, indicating that consumers have
+heterogenous preferences for those vehicle attributes conditional on the observed consumer characteristics. Those precisely
+estimated random coeﬃcient parameters help alleviate the well-known problem of independence of irrelevant alternatives
+experienced in traditional logit models and play a critical role in deﬁning the substitution patterns.
+To illustrate the importance of estimating the model parameters with the second-choice data, we re-estimate the ﬁrst-stage
+parameters (the observed and unobserved interaction terms) without these data. Recall that we estimate the model parameters
+with ﬁve years of data where for each household observation we observe a second choice. The unobserved heterogeneity is
+identiﬁed from both changes in choice sets and vehicle attributes over time and the correlation between ﬁrst- and second-
+choice vehicle attributes. Therefore, removing the second-choice data allows us to test the importance of including these data
+relative to exploiting panel variation that is traditionally used to identify unobserved heterogeneity (Berry et al., 1995). Our
+model also has household demographics interacted with vehicle characteristics, and we include these as well to isolate the
+impact of using the second choice data. Petrin (2002) ﬁnds that including household demographic by vehicle characteristics
+17 Halton draws are standard normal draws from Halton sequences. Halton sequences (Halton, 1960) are designed to induce a negative correlation over
+observations. Since each subsequence ﬁlls in the gaps of the previous subsequences, the Halton draws ﬁll-in the unit interval more evenly and densely, and
+provide better coverage and are more eﬃcient than random draws for simulation. See Section 9.3.3 of Train (2009) for a more detailed discussion of Halton
+draw. The demand results are similar when the number of Halton draws is increased to 200.
+11
+
+--- PAGE 12 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+interactions is crucial for obtaining precise estimates of the unobserved heterogeneity terms. Therefore, we keep them in the
+model for each set of estimates.
+The ﬁrst-stage parameter estimates without the second-choice data are shown in panel (b) of Table 3 under “(2) No 2nd
+Choice.” Overall, the signs and magnitudes of the observed heterogeneity terms are consistent with the estimated parameters
+with the second-choice data included. These terms also maintain a high level of statistical signiﬁcance, suggesting that incor-
+porating the second-choice data is not necessary for precise estimation of observed heterogeneity. This is intuitive because the
+observed heterogeneity terms are identiﬁed from correlations between observed household demographics and vehicle charac-
+teristics, which are not dependent on the second-choice data.
+Comparing the estimates of the standard deviations of preference parameters reveals striking differences between the two
+models. Without the second-choice data, all but one of the standard deviations becomes insigniﬁcant, and the magnitudes are
+much different from the parameters estimated with the second-choice data. This reveals that we are unable to obtain precise
+measures of unobserved heterogeneity without including the second-choice data, even with panel variation from ﬁve years
+of rapidly changing vehicle attributes and choice sets. To the best of our knowledge, this is the ﬁrst illustration of the value of
+exploiting repeated choice data to identify unobserved heterogeneity parameters relative to the value of using panel variation to
+identify these parameters. The lesson from this comparison is clear: the second-choice data greatly improve the statistical pre-
+cision of the unobserved heterogeneity parameters relative to a model estimated using the standard panel variation approach.18
+5.2. Elasticities and substitution patterns
+The demand system implies sensible price elasticities. All of the implied own-price elasticities are greater than one, ranging
+from −3.97 to −2.37 with the average being −2.67 and the standard deviation being 0.21. The sales-weighted average elasticity
+among all 2146 products in ﬁve model years is −2.75. The magnitude of the own-price elasticities is close to the one obtained
+by Durrmeyer and Samano (2017) and slightly smaller than those obtained by Berry et al. (1995), Petrin (2002), Beresteanu and
+Li (2011), and Li (2012), since our demand estimation is based on consumers who purchase new vehicles (excluding outside
+option). Our estimate is close to that of Train and Winston (2007), who also estimate the demand focusing on new vehicle
+buyers and ﬁnd an average own-price elasticity of −2.32. Appendix Fig. A.2 plots the own-price elasticities against price and
+demonstrates that more expensive models tend to have less elastic demand.
+Our own-price elasticity of demand estimate for EVs is −2.76. This estimate is smaller in magnitude than the estimate from
+Muehlegger and Rapson (2020) who report an own-price elasticity estimate being −3.2 to −3.4. Our estimate differs from theirs
+for a few reasons. First, our estimate applies to all new vehicle buyers, which contrasts with Muehlegger and Rapson (2020)
+which is estimated from vehicles bought by low and middle income households. Conditioning on buyers having income less
+than $100,000, our conditional own-price elasticity of demand for EVs becomes −3.13, which is more comparable to theirs.19
+Table 4 shows the cross-price elasticities for a selected group of models. One obvious pattern is that the demand for less
+expensive models tends to be more price sensitive. More expensive models such as Tesla Model S have lower own-price elas-
+ticities in magnitude. Compared with other conventional gasoline vehicles, electric vehicles such as the Nissan LEAF and the
+Chevrolet Volt have larger cross-price elasticities with hybrid vehicles such as Toyota Prius. Battery electric vehicles such as the
+Nissan LEAF and the Tesla Model S do not have large cross-price elasticities with plug-in hybrid vehicles such as the Chevrolet
+Volt. BEVs can only run on electricity and many of them have limited range. PHEVs, on the other hand, rely on gasoline mode to
+boost the range, since the electric range is only around 30–40 miles. These two different kinds of plug-in vehicles are likely to
+attract consumers with different driving needs as consumers with more frequent long-distance travels are more likely to adopt
+PHEVs. Therefore, it makes sense that no strong substitution exists between PHEVs and BEVs, especially when there were only
+a few models during the early deployment stage. Ford F-150, the only pickup truck in the selected sample, does not have much
+substitution with the other small and mid-size sedans, and it has almost zero substitution with EV models. The substitution
+pattern indicates that consumers who purchase EVs generally favor mid-size sedans that are relatively fuel-eﬃcient rather than
+large vehicles.
+Table 5 summarizes the elasticity estimates by fuel type. Across different fuel types, the sale-weighted own-price elasticities
+are similar since all fuel types include vehicle models with a large price range. Each cell in the matrix represents the average sales
+change of a vehicle model in that fuel type from a price change of a vehicle model of other fuel types. For example, a 10 percent
+increase in the price of hybrid vehicle model will increase the sales of a BEV model by 0.37 percent on average, and a 10 percent
+increase in the price of another BEV model will increase the sales of a BEV model by 0.13 percent. Both BEVs and PHEVs have a
+larger cross-price elasticity with respect to hybrid vehicle models relative to the cross-price elasticity with respect to gasoline,
+diesel, and ﬂexible-fuel vehicle (FFV) models, suggesting that EV buyers prefer vehicles with better fuel economy. Because of
+the large selection of model choices, gasoline vehicles are a major substitute for vehicles of all fuel types. Since our data mostly
+cover the ﬁrst few years after the introduction of EVs, the within-segment substitution for BEVs and PHEVs is relatively small,
+considering that we do not have enough between-segment variation to identify a strong substitution between EV models.
+18 In Appendix Table A.8, we also provide the results of key counterfactual analysis based on the demand estimates without using the second choice data.
+19 The income eligibility requirement in Muehlegger and Rapson (2020) is that a households must have an income less than 400 percent of the federal poverty
+line. A household income of $100,000 is roughly 400 percent above the 2014 poverty line for a family of four.
+12
+
+--- PAGE 13 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Table 4
+A sample of own- and cross-price elasticities.
+Products
+Nissan
+Chevrolet
+Honda
+Ford
+Nissan
+Tesla
+Chevrolet
+Toyota
+Honda
+Ford
+Price
+Sentra
+Cruze
+Civic
+Focus
+Leaf
+Model S
+Volt
+Prius
+Accord
+F-150
+in 2014
+Nissan Sentra (gas)
+−3.01
+0.06
+0.06
+0.06
+0.05
+0.03
+0.04
+0.05
+0.05
+0.02
+13,351
+Chevrolet Cruze (gas)
+0.07
+−2.95
+0.07
+0.07
+0.06
+0.04
+0.05
+0.06
+0.06
+0.02
+19,243
+Honda Civic (gas)
+0.12
+0.11
+−2.91
+0.11
+0.10
+0.07
+0.08
+0.09
+0.09
+0.03
+20,106
+Ford Focus (gas)
+0.07
+0.06
+0.06
+−2.97
+0.05
+0.04
+0.05
+0.05
+0.05
+0.02
+20,026
+Nissan LEAF (BEV)
+0.01
+0.01
+0.01
+0.01
+−2.83
+0.02
+0.03
+0.03
+0.01
+0.00
+29,799
+Tesla Model S (BEV)
+0.00
+0.00
+0.00
+0.00
+0.01
+−2.37
+0.01
+0.01
+0.00
+0.00
+74,935
+Chevrolet Volt (PHEV)
+0.01
+0.01
+0.01
+0.00
+0.02
+0.01
+−2.66
+0.01
+0.00
+0.00
+35,203
+Toyota Prius (HEV)
+0.04
+0.04
+0.03
+0.03
+0.10
+0.07
+0.09
+−2.68
+0.03
+0.01
+24,027
+Honda Accord (HEV)
+0.12
+0.12
+0.12
+0.12
+0.10
+0.09
+0.10
+0.10
+−2.67
+0.04
+24,436
+Ford F-150 (gas)
+0.02
+0.02
+0.02
+0.02
+0.02
+0.02
+0.02
+0.02
+0.02
+−2.53
+29,806
+Notes: The table reports a sample of own- and cross-price elasticities which are calculated based on the parameter estimates reported in Table 3 with the IV speciﬁcation of the mean utility
+parameters and second choice speciﬁcation of the heterogeneous utility parameters. The elasticity estimates are calculated with the same individual weights and Halton draws used in the demand
+estimation. More details are provided in Appendix C. The last column in the table gives the average transaction price in 2014 for those selected vehicle models. The sales-weighted average elasticity
+among all 2146 products in ﬁve model years is −2.75.
+13
+
+--- PAGE 14 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Table 5
+Own and cross-price elasticity of demand estimates by fuel type.
+BEV
+PHEV
+Hybrid
+Gasoline
+Diesel
+FFV
+BEV
+0.013
+0.018
+0.015
+0.004
+0.003
+0.002
+PHEV
+0.012
+0.011
+0.009
+0.002
+0.002
+0.002
+Hybrid
+0.037
+0.036
+0.029
+0.009
+0.007
+0.006
+Gasoline
+0.028
+0.027
+0.028
+0.029
+0.026
+0.027
+Diesel
+0.003
+0.004
+0.004
+0.006
+0.007
+0.007
+FFV
+0.012
+0.012
+0.013
+0.021
+0.024
+0.024
+Own Price Elasticity
+−2.751
+−2.649
+−2.705
+−2.761
+−2.606
+−2.680
+Notes: The table summarizes the sales-weighted average own- and cross-price elasticity estimates by fuel type. The
+elasticity estimates are based on the parameter estimates reported in Table 3. BEV stands for battery electric vehicle,
+which represents vehicles that operate only with electricity, including a Tesla Model S. PHEV stands for plug-in
+hybrid vehicle, which represents vehicles that are able to operate with either electricity or gasoline, including a
+Honda Accord plug-in hybrid. FFV stands for ﬂex-fuel vehicle, which represents vehicles that are able to operate
+on E85 fuel. On average, a 1 percent increase in a BEV model will increase the sales of other BEV models by 0.013
+percent.
+6. Counterfactual analysis
+In this section, we conduct simulations to examine the counterfactual vehicle ﬂeet where we remove all EV models from the
+choice sets and where the EV subsidy were removed. The magnitude of the resulting sales changes of the other fuel types could
+suggest what types of vehicles were replaced by EVs. The estimated substitution patterns are then translated into emissions
+reductions to assess the environmental beneﬁts of EVs and EV subsidies.
+6.1. The environmental beneﬁts of EVs
+The introduction of EVs could lead consumers who would originally choose gasoline or hybrid vehicles to purchase EVs, and
+the substitution pattern critically determines the environmental beneﬁts of promoting EVs. To examine the substitution pattern
+of EVs with other fuel types, we conduct a counterfactual exercise where all EVs are removed from the choice set. The resulting
+changes in sales of other fuel types will reveal what types of vehicles EVs replace. Since we do not allow consumers to choose
+an outside option, as the demand estimation is conditional on buying a new vehicle, consumers who purchased EVs would
+switch to another non-EV model. In 2014, 109,449 EVs were sold in the US vehicle market. The simulation results suggest that
+78.7 percent of EVs replaced conventional gasoline vehicles, 12 percent of EVs replaced hybrid vehicles, 2.4 percent replaced
+diesel vehicles, and the remaining 6.9 percent replaced FFVs (see Fig. 2 and Table A.5). The average fuel economy of the vehicles
+that were replaced by EVs is 28.9 mpg. This number can be interpreted as the fuel economy level of the composite substitute
+of EVs, as deﬁned in Section 3. Among gasoline vehicles replaced by EVs, 74 percent of them have fuel economy above 25
+mpg. The vehicle models that were replaced by EVs most are: Honda Accord, Toyota Prius, Toyota Camry, Honda Civic, Toyota
+Corolla, Nissan Altima, and Chevrolet Cruze. This substitution pattern suggests that EVs mainly attracted consumers who were
+originally choosing mid-size and fuel-eﬃcient gasoline or hybrid vehicles, rather than gas-guzzlers such as large SUVs or trucks.
+This substitution pattern can also be explained by the dominance of car models in the EV category. All the EV models in our
+sample belong to the car segment and none are large SUVs or pickup trucks.20 Appendix Fig. A.1 shows that BEV and PHEV
+buyers are much more likely to consider alternative vehicle choices within the car segment rather than the light trucks segment
+that includes SUVs and pickups, compared with gasoline vehicle buyers.
+To evaluate the environmental impact of the introduction of EVs, we evaluate the total gasoline saved and CO2 emissions
+reductions from EVs by comparing the gasoline consumption of the actual vehicle ﬂeet with the counterfactual ﬂeet without
+EVs. In order to compute the emission impacts of EVs, we require an estimate of lifetime vehicle miles traveled (VMT) for
+every vehicle. Following Linn (2020), we obtain vehicle odemeter data from 2017 National Household Travel Survey (NHTS) and
+estimate the lifetime VMT for each vehicle segment and fuel type.21 Appendix Section C provides a more detailed explanation
+of the procedure with the exact estimates reported in Appendix Table A.6. Our simulation results show that the existence of
+EVs helps save lifetime gasoline consumption of 0.40 billion gallons, resulting in a CO2 emissions reduction up to 7.84 millions
+pounds, assuming a lifetime VMT for each vehicle segment and fuel type. If we do not estimate the substitution pattern but
+assume each EV replaces a conventional gasoline vehicle with fuel economy of 23 mpg and an average lifetime VMT,22 the total
+lifetime gasoline saved would become 0.65 billion gallons, with an emissions reduction of 12.8 billion pounds of CO2. Simply
+assuming EVs replace a gasoline vehicle of an average mpg and VMT would overestimate the environmental beneﬁts of EVs by
+20 By the end of 2018, 15 out of the 16 BEV models on the US market are cars and 24 out of the 29 PHEV models are cars.
+21 The VMT predictions show that EVs tend to have relatively low lifetime VMT, which is consistent with Davis (2019), who ﬁnds that EVs are driven less than
+their gasoline counterparts.
+22 According to our VMT prediction in Appendix Section C, the average lifetime VMT of gasoline vehicles is 165,584.
+14
+
+--- PAGE 15 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Fig. 2. Sales impacts of removing EVs.
+39 percent. The overestimated portion would be larger if EVs replace a greater number of fuel-eﬃcient vehicles such as hybrid
+vehicles.
+If EVs were removed from the market, consumers who value the EV technology will suffer a welfare loss. We ﬁnd that the
+removal of EVs from the choice set leads to a total consumer welfare loss of $670.3 million in 2014.23 Panel (b) of Table A.5
+summaries the impact of the removal of EVs on consumer surplus by income quintile. The results reveal a greater impact on
+wealthier households, since they are more interested in the EV technology and thus beneﬁt more from the introduction of EVs.
+6.2. Impacts of income tax credits
+The federal government has adopted several policies to support the EV industry including providing federal income tax cred-
+its for EV purchases, R& D support for battery development, and funding for expanding charging infrastructure. Congressional
+Budget Oﬃce (CBO) estimates that the total budgetary cost for those policies will be about $7.5 billion through 2017. The tax
+credits for EV buyers account for about one-fourth of the budgetary cost and are likely to have the greatest impact on vehicle
+sales. Under the tax credits policy, EVs purchased in or after 2010 are eligible for a federal income tax credit up to $7500. Most
+popular EV models on the market are eligible for the full amount. The credit will expire once 200,000 qualiﬁed EVs have been
+sold by each manufacturer. In 2014, the federal government spent $725.7 million on income tax credits for EV buyers. To exam-
+ine the effectiveness of the income tax credit policy in terms of stimulating EV sales, we use our parameter estimates to simulate
+the counterfactual sales of EVs that would arise in the absence of the tax credits to EV buyers in 2014. The counterfactual sales
+could help us identify the percentage of “non-additional” EV sales and also evaluate the environmental beneﬁts of the policy.
+The resulting sales increase in gasoline and hybrid vehicles could help us evaluate the environmental beneﬁts of the “additional”
+EV sales. The short-run beneﬁts could be small if the additional sales simply come from people who were considering buying
+other fuel-eﬃcient vehicles.
+23 The average welfare loss per household is estimated as the change in consumer surplus as shown by Small and Rosen (1981). Total welfare loss is calculated
+as average consumer surplus loss multiplied by the market size of new vehicles.
+15
+
+--- PAGE 16 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Table 6
+Sales and incidence impacts of removing EV subsidies.
+Panel (a): Sales Impact
+Fuel types
+Sales change
+Percentage change
+EV
+−31,501
+−28.8%
+BEV
+−18,861
+−32.6%
+PHEV
+−12,640
+−24.5%
+Other fuel types
+Sales change
+Percentage Change
+Percentage of EV sales reduction
+Average MPG
+Gasoline
+24,867
+0.23%
+78.9%
+27.2
+Hybrid
+3728
+0.92%
+11.8%
+45.0
+Diesel
+741
+0.17%
+2.4%
+27.5
+FFV
+2165
+0.15%
+6.9%
+22.0
+All non-EVs
+31,501
+0.24%
+100%
+28.9
+Panel (b): Private Consumer Surplus Impact
+Income quintile
+(1)
+(2)
+(3)
+(4)
+(5)
+Average consumer surplus loss per household ($)
+−9.38
+−10.81
+−12.30
+−13.93
+−16.75
+Total consumer surplus loss (million $)
+−165.2
+Notes: The table summarizes the market and consumer welfare impact of removing the federal-level income tax
+credit for EVs in the year of 2014. In panel (a), the percentage of EV sales reduction represents the percentage of the
+original EV purchasers that switch to a speciﬁc non-EV fuel type if the federal subsidy were removed. Average mpg
+represents the average miles per gallon of the vehicles that experience sales increase due to the removal of federal
+EV subsidy. In panel (b), the average consumer surplus loss per household is calculated as the change in consumer
+surplus as shown by Small and Rosen (1981) for the year 2014. Total consumer surplus loss is calculated as average
+consumer surplus loss multiplied by the market size of new vehicles.
+The simulation results of the federal EV subsidy are summarized in Table 6. Our estimates imply that removing the federal
+income tax credits reduces EV sales by 28.8 percent in 2014, with BEVs experiencing a sales reduction of 32.6 percent and PHEV
+sales falling by 24.5 percent. The results suggest that about 70 percent of the EV buyers would still purchase EVs without income
+tax credits. Since the EV subsidy lowers the effective price of purchasing EVs, consumers would enjoy a welfare increase due to
+the subsidy, especially for those who purchase EVs. Our estimation results suggest that the EV subsidy program leads to a total
+increase in consumer surplus of $165.2 million. The average increase of consumer surplus per household due to policy may not
+be large, since most households do not purchase EVs. Panel (b) of Table 6 summarizes the incidence of the federal EV subsidy.
+The distribution impacts imply that the EV subsidy program is regressive, as higher-income households beneﬁt more from the
+subsidy because they are more likely to purchase EVs and thus claim the subsidy.
+If there were no federal EV subsidy, 78.9 percent of the “additional” EV buyers would switch to gasoline vehicles with an aver-
+age fuel economy of 27.2 mpg, and 11.8 percent would switch to hybrid vehicles with an average fuel economy of 45 mpg, with
+the remaining switching to diesel and ﬂex-fuel vehicles.24 Using the miles per gallon gasoline equivalent (MPGe) introduced
+by the US Environmental Protection Agency (EPA), we can then translate those substitution patterns to energy consumption
+reduction from the increased sales of EVs.25 By inducing consumers to switch to more fuel-eﬃcient EVs, the income tax credit
+policy leads to a reduction in lifetime gasoline consumption of 0.1 billion gallons and CO2 emissions reduction of 2.02 billion
+pounds, which is equivalent to reducing 14,309 gasoline vehicles of an average fuel economy of 23 mpg. If we assume each EV
+replaced an conventional gasoline vehicle with a fuel economy of 23 mpg and an average life VMT, the gasoline consumption
+saved would become 0.15 billion gallons and the CO2 emissions would become 2.95 billion pounds, equivalent to removing
+20,863 gasoline cars from the road. Not taking account of the actual substitution pattern would overestimate the environmental
+beneﬁts of the EV subsidy by 32 percent (Fig. 3).
+Appendix Table A.7 summarizes the environmental beneﬁts of EV income tax credits by evaluating the external cost savings
+from emissions reduction of various pollutants. In 2014, the EV subsidy results in total environmental beneﬁts of $50.9 million
+from a more fuel-eﬃcient vehicle ﬂeet, by taking account of the reduction of CO2, VOC, NOx, PM2.5, and SO2.
+The environmental beneﬁts and increase in consumer welfare are much lower than the total spending of $725.7 million, since
+the majority of the subsidies are non-additional and the additional portion mainly induces consumers who would purchase fuel-
+eﬃcient vehicles anyway to switch. The current subsidy policy offers equal tax credit amounts to all buyers of the same electric
+model. Alternatively, more credits could be given to lower-income households, with no tax credits given to the highest-income
+households. This policy design would mimic the policy reform of California’s CVRP, which intends to direct the incentives toward
+households that are likely to value the rebates the most. The subsidy could also target ﬁrst-time buyers, who may not have a good
+24 In Appendix Section F, we examine substitution patterns between EVs and hybrid vehicles to assess whether EV subsidies are “crowding out” hybrid sales.
+We ﬁnd that EV subsidies have had a tiny impact on hybrid sales. We also ﬁnd that the removal of the federal hybrid subsidy has had a much larger impact on
+reducing hybrid sales.
+25 The MPGe metric was introduced in November 2010 by EPA. The ratings are based on EPA’s formula, in which 33.7 kW-hour of electricity is equivalent to
+1 gallon of gasoline.
+16
+
+--- PAGE 17 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Fig. 3. Environmental beneﬁts and substitution.
+sense of vehicle fuel consumption but are more sensitive to upfront costs. Please note that there are several caveats regarding
+our analysis of the environmental impacts of the EV subsidy. We will discuss how those issues potentially change our results in
+detail in Section 7.
+6.3. Alternative subsidy designs
+As with other energy subsidy programs, the cost-effectiveness of EV incentives could be undermined if the subsidies are
+poorly-targeted and are mainly taken up by wealthier consumers who would buy EVs without subsidies. To further investigate
+the “additionality” of the current federal income tax credits for EVs and whether better targeting could improve the effectiveness
+of the program in terms of boosting EV demand, we conduct two policy simulations to compare the current uniform subsidy
+with alternative subsidy designs that incorporate an income-dependent structure.
+Through CVRP program, California has been providing state-level subsidies to EV buyers since 2010. The standard rebate
+amounts are $2500 for BEVs and $1500 for PHEVs. On March 29, 2016, CVRP started to implement income eligibility require-
+ments such that households with income levels above certain thresholds are no longer eligible for the EV rebate, while lower-
+income households can claim an additional rebate of $2000 on top of the standard rate. The income caps for high-income house-
+holds are set at $150,000 for single ﬁlers and $300,000 for joint ﬁlers. The households whose income levels are less than or equal
+to 300 percent of the federal poverty level are categorized as the lower-income consumers. The motivation for switching from a
+uniform subsidy to an income-dependent subsidy is to make EVs more accessible to a larger number of drivers, especially those
+in lower-income households and communities that are more affected by air pollution. Since higher-income households are less
+sensitive to prices and have a stronger preference for newest technologies, they are more likely to adopt EVs without the sub-
+sidy. Therefore, providing more generous subsidies to lower-income households that are more price-sensitive could potentially
+reduce the policy cost of increasing EV sales.
+The current federal-level EV subsidy is not designed to favor low-income households. To investigate whether an income-
+dependent structure could be more effective in terms of inducing additional EV sales, we conduct two counterfactual exercises
+that compare the current federal EV subsidy with alternative subsidy policies that mimic the design of CVRP. We remove the
+subsidy for households with income levels above the deﬁned thresholds in both alternative policies, and we provide lower-
+income households with an additional subsidy of $2000 in alternative policy 1 and $4000 in alternative policy 2. The income cap
+17
+
+--- PAGE 18 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Table 7
+Comparison of current subsidy with alternative designs.
+Panel (a): Sales and Environmental Impact
+Current subsidy
+Alternative 1
+Alternative 2
+Total spending (billion $)
+0.73
+0.64
+0.66
+Total EV sales
+109,853
+109,152
+111,085
+Total BEV sales
+57,791
+57,554
+58,900
+Total PHEV sales
+52,062
+51,598
+52,185
+Average spending per EV ($)
+6630
+5870
+5970
+Total CO2 reduction (mil. metric tons)
+0.92
+0.89
+0.96
+Cost of CO2 reduction ($/metric ton)
+795
+725
+693
+Panel (b): Private Consumer Surplus Impact
+Welfare change per household ($)
+Income Quintile
+Current subsidy
+Alternative subsidy 1
+Alternative subsidy 2
+1
+9.38
+11.73
+14.73
+2
+10.81
+11.07
+11.40
+3
+12.30
+12.30
+12.30
+4
+13.93
+13.29
+13.29
+5
+16.75
+8.99
+8.99
+Consumer surplus change
+165.2 million
+154.4 million
+163.9 million
+Notes: The current subsidy policy provides uniform tax credits to all EV buyers. Both alternatives 1 and 2 set an income cap
+such that the highest income group is not eligible to claim the subsidy. Further, Alternatives 1 and 2 provide an additional
+$2000 and $4,000, respectively, to lower-income households, compared with the current policy. In panel (b), the income
+groups are deﬁned the same way as for the income eligibility implemented in the CVRP in California. The consumer surlpus
+change per household is calculated as the change in consumer surplus as shown by Small and Rosen (1981) for the year
+2014.
+and low-income groups are deﬁned the same way as in the CVRP.26
+The simulation results are summarized in Table 7. Under the current uniform subsidy, the government spent $0.73 billion in
+2014 in subsidizing EVs, and a total number of 109,850 EVs were sold in the market, leading to an average spending of $6630 per
+EV. With the removal of the subsidy to the high-income group and increased subsidy of $2000 to low-income households, EV
+sales would decrease by 701, a 0.6 percent decrease. However, the total subsidy spending decreases from $0.73 billion to $0.64
+billion, a 12.3 percent decrease. As a result, the income-dependent subsidy reduces the average spending per EV from $6630 to
+$5,870, which is equivalent to a saving of $760 (11.4 percent) per EV. The alternative subsidy is more cost eﬃcient because it
+better targets low-income households that are more price sensitive. This result is consistent with the predictions of our stylized
+model of additionality, in that a subsidy targeting more price-sensitive buyers will result in more additional sales (equation
+(11)).
+In the second alternative policy design, an additional subsidy of $4000 is provided to low-income households, and high-
+income groups whose incomes are above the thresholds are still not eligible for the subsidy. The total EV sales under alternative
+policy 2 increase by 1232 (1.12 percent) compared with the existing policy. Even though an additional subsidy of $4000 is given
+to low-income households, the total spending is $0.66 billion, which is 9.6 percent lower than the total spending of the current
+subsidy. The average spending per EV is $5970 for alternative 2, leading to a saving of $660 (10 percent) per subsidized EV. The
+savings are still mainly from the removal of the subsidies given to households with higher income, which would purchase EVs
+in the absence of the subsidy. By inducing additional EV sales, all the subsidy designs result in a reduction of CO2 emissions by
+replacing vehicles that are less fuel-eﬃcient with EVs.
+The current subsidy policy reduces the total CO2 emissions from the new vehicle ﬂeet by 0.92 metric tons, and alternative
+policies 1 and 2 achieve a total CO2 emissions reduction of 0.89 and 0.96, respectively. The average cost of CO2 reduction is
+then estimated to be $795, $725, and $693, respectively. Both of the alternative policies are less costly than the existing policy
+in terms of reducing emissions. Although alternative policy 2 has a higher average subsidy cost per EV than alternative 1, it
+achieves a lower cost per CO2 reduction by inducing more sales of BEVs, which are more fuel-eﬃcient. By providing more
+generous subsidies to low-income households, small and mid-size BEVs become more affordable to those consumers who prefer
+smaller vehicles. The BEV models that experience the highest sales increases in alternative 2 are Nissan LEAF, Smart ForTwo EV,
+and Fiat 500e. Beresteanu and Li (2011) estimate the cost of CO2 reduction to be $177 per ton from the income tax credits for
+hybrid vehicles. Our estimates of the cost of CO2 reduction of EV subsides are larger, since the federal subsidy for EVs is more
+than twice the amount of the hybrid subsidy. Our estimates also suggest that subsidizing EVs is a relatively costly way to achieve
+the emissions reduction goals.
+Panel (b) of Table 7 compares the distributional impacts of the three subsidy designs. The current uniform subsidy is regres-
+sive, since it beneﬁts higher-income households more, as they are more likely to purchase EVs and claim the subsidy. Both
+26 The income cap is $150,000 for single ﬁlers and $300,000 for joint ﬁlers. Low-income households are deﬁned as those with income less than or equal to
+300 percent of the 2018 federal poverty level. For households with one to eight persons, the combined household income must be less than $36,420, $49,380.
+$62,340, $75,300, $88,260, $101,220, $114,180, and $127,140 respectively (https://cleanvehiclerebate.org/eng/income-eligibility).
+18
+
+--- PAGE 19 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Table 8
+Subsidy impacts with alternative data and parameter assumptions.
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+actual market
+elasticity = −2
+elasticity = −4
+10% lower price
+25% lower price
+50% lower price
+EV sales increase
+28.8%
+22.0%
+42.4%
+27.4%
+34.6%
+57.0%
+BEV sales increase
+32.6%
+24.5%
+50.3%
+31.2%
+39.4%
+65.1%
+PHEV sales increase
+24.5%
+19.2%
+33.5%
+23.1%
+29.1%
+47.8%
+Average MPG replaced
+28.9
+28.8
+29.3
+28.9
+28.9
+28.8
+Gasoline saved (billion gal.)
+0.10
+0.09
+0.19
+0.12
+0.16
+0.26
+CO2 saved (billion lb.)
+2.02
+1.94
+3.66
+2.41
+3.04
+5.05
+Equivalent gasoline cars reduced
+14,309
+13,720
+25,871
+17,014
+21,524
+35,729
+Notes: The table summarizes the market and environmental impacts of removing the federal-level income tax credit for EVs in the year of 2014 for
+alternative parameter and data assumptions. Sales increases are the increases of EV sales due to subsidy. Average MPG replaced is the average MPG
+of the vehicles replaced by the additional EVs. Gasoline and CO2 savings are lifetime reductions achieved by the EV subsidy. Column (1) is based on
+the 2014 market condition and the actual parameters estimated, as summarized in Table 6 and Fig. 3. Column (2) and column (3) reset the own-price
+elasticity as −2 and −4, respectively, while holding the market conditions as in 2014. Columns (4)–(6) keep the estimated demand parameters while
+lowering all the EV prices by 10%, 25%, and 50%, respectively.
+alternative policies are less regressive than the existing policy, since they eliminate the subsidy for households whose income
+levels are above the threshold. Alternative policy 2 beneﬁts the bottom income group the most, as it gives the most generous
+subsidy to low-income households. In summary, compared with the current uniform subsidy, the income-dependent subsidy
+designs are more effective in stimulating EV demand and reducing emissions, and they could also be better justiﬁed on distri-
+butional grounds.
+6.4. Alternative data and parameter assumptions
+Our ﬁndings of the effectiveness of the federal EV subsidy is based on the conditions of the 2014 new vehicles market.
+Therefore, much of the EV subsidy may not be additional as the consumers who bought EVs during our sample period are mostly
+early adopters who favor the new technology and are less price sensitive. But the recent years have witnessed a considerable
+expansion of the EV market, including the introduction of more affordable EV models with relatively long range such as Tesla
+Model 3. As the technology improves, the prices of EVs will drop and the available EV models will increase. The subsidy is then
+expected to produce more additional EV sales as it covers a larger portion of the upfront cost, and more average households
+who are more price responsive would be attracted to purchase EVs. However, we think evaluating the subsidy impact during
+the early years of EV industry is informative as most subsidy polices are implemented during the early deployment stage of
+newest technologies when the adoption cost is high and early adopters are less price sensitive. To subsidize hybrid vehicles,
+the federal government provided income tax credits of up to $3400 for hybrid vehicles starting December 31, 2005. But all the
+hybrid vehicles purchased after December 31, 2010, were no longer eligible for this credit. The federal EV tax credits will also
+phase out once a automaker reaches the 200,000 unit sales threshold, and the subsidies have already started to phase out for
+Tesla buyers beginning 2019. Therefore, designing more effective subsidy policies to promote a new technology and speed up
+its diffusion process is thus critical and policy relevant.
+To determine how the changes of the recent and future EV industry affect our results, we simulate different market outcomes
+without the EV subsidy for various parameter and data assumptions. Table 8 summaries the sales and environmental impacts
+of the EV subsidy for the different hypothetical scenarios. Columns (1) and (2) set the own price elasticity to −2 and −4, respec-
+tively, to isolate the impacts of price sensitivity of the market base on the subsidy effects. The simulation results show that as
+more average households join the EV market and consumers become more price responsive, the EV subsidy has a larger impact
+by inducing more additional EV sales.27 Columns (4) to (6) keep the estimated demand parameters but vary the EV prices to
+reﬂect the price decrease of EVs due to falling battery prices. Results reveal that the “additionality” of the subsidy increases as
+the EV prices fall. If the EV prices were 50% lower than the actual prices in 2014, the federal EV income tax credits could increase
+the EV sales by 57%. Therefore, the EV subsidy would be more effective in increasing EV sales when consumers are more price
+sensitive and falling input prices makes EVs less expensive. However, the average MPG of the vehicles replaced by the additional
+EVs is not largely impacted by the consumer sensitivity or EV prices, as EVs mostly replace vehicles belonging to the car segment
+and with relatively high fuel economy. As more electric SUV models are introduced in the vehicles market, we may expect EVs
+to replace more light trucks that are less fuel eﬃcient.
+7. Discussion
+The results from our analysis come with several caveats. First, the estimates of the environmental beneﬁts are relatively
+crude, as they do not incorporate spatial heterogeneity of the upstream emissions from electricity generation. As Holland et
+al. (2016) show, great spatial heterogeneity exists regarding the environmental beneﬁts promoting EVs, and in some locations
+27 This result is consistent with our stylized model of additionality (equation(11)).
+19
+
+--- PAGE 20 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+where electricity generation relies much on fossil fuels, EVs should be taxed rather than being subsidized. The focus of our study
+is to demonstrate that the substitution pattern is also an important factor in determining the environmental beneﬁts, which
+matters even if we focus on a speciﬁc location where the grid fuel mix is ﬁxed. Nevertheless, different markets might reﬂect dif-
+ferent substitution patterns, which leads to different environmental beneﬁts of promoting EVs. Therefore, incorporating spatial
+heterogeneity and estimating location-speciﬁc substitution patterns would help us determine the location-speciﬁc environ-
+mental beneﬁts of EVs, but it would require more detailed and representative location-speciﬁc sales and consumer survey data.
+However, our analysis provides empirical evidence of EV substitution at the national level and will provide guidance for the
+federal government to evaluate the effectiveness of federal EV subsidies. The ﬁndings of the paper would be policy-relevant
+since most markets worldwide subsidize EVs at the national level.
+Second, when estimating the environmental beneﬁts of replacing gasoline vehicles with EVs, we assume that vehicle miles
+traveled do not change in response to the EV subsidy. In fact, when consumers switch to fuel-eﬃcient vehicles with a lower
+marginal cost of driving, they might drive more, resulting in a rebound effect that undermines some environmental beneﬁts of
+EVs. On the other hand, when consumers switch to smaller and lower-performance vehicles, the marginal beneﬁts of driving
+per mile could be reduced. Thus, the rebound effect could be weakened by shrinking vehicle size and the net response of miles
+could be zero or negative (Anderson and Sallee, 2016; West et al., 2017). Moreover, because of the limited range of EVs and
+the inconvenience of charging in some locations, it is less likely that consumers would increase miles traveled once adopting
+EVs.28 What is required to make this assessment is a joint model of VMT and vehicle portfolio choice, where households make
+simultaneous decisions on how many vehicles to own, which vehicles to own, and how much to drive each vehicle.29
+Third, our demand estimation is conditional on consumers choosing a new vehicle without considering the outside option,
+which includes used car markets or public transportation. An alternative, more general formulation would be to model the
+choice between purchasing a new or used vehicle, or the even broader decision to purchase a vehicle or not make a vehicle pur-
+chase at all. These alternative models would allow for a richer set of substitutions resulting from changes in the characteristics of
+EVs. EVs entering the market could increase total new vehicle sales, as some households may decide to buy an additional vehicle
+(while continuing to drive their other vehicles). This might increase ﬂeet-wide emissions assuming no changes in vehicle miles
+traveled.30 Estimating this effect would require variation in the introduction of EVs that is exogenous of macroeconomic trends,
+such as increasing income during our sample period. To the best of our knowledge, this has not been addressed in the literature.
+Recent estimates for the substitution between new and used vehicles suggests that used vehicles are a weak substitute for new
+vehicles (Leard, 2020). Therefore we would expect few used vehicle buyers substituting to purchasing a new EV in response
+to the EV subsidy. Moreover, considering that EV adopters favor the newest technologies and have a disproportionately high
+leasing rate (44 percent, Appendix Table A.3) and most of the EV survey respondents report another new vehicle as their sec-
+ond choice, we believe that it is reasonable to assume that they would still choose a new vehicle even if the subsidy were to
+be removed. Thus, also given that EVs only take up a small market share of total vehicle sales, ignoring the outside option is
+unlikely to have a signiﬁcant impact on our results.31
+Fourth, in both the demand estimation and the counterfactual simulations, we assume a full pass-through of the EV subsidy.
+If this assumption is violated, we would underestimate the true costs of consumers in acquiring EVs and we would overestimate
+the effects of the EV subsidy. Evidence from other existing studies of related programs suggest that full pass-through is a reason-
+able assumption for alternative fuel vehicle subsidies. Muehlegger and Rapson (2020) ﬁnd a 100 percent pass-through estimate
+of the EV subsidy using transaction data in California. Gulati et al. (2017) ﬁnd the pass-through of hybrid vehicle subsidies are
+close to 80–90 percent, if accounting for quality upgrading. Sallee (2011) estimates the incidence of tax incentives for Toyota
+Prius and ﬁnd both federal and state incentives were fully captured by consumers. One explanation provided in his paper is that
+Toyota believed future demand for hybrids would be diminished if they had charged market clearing prices for the Prius in early
+years, and the automaker set the prices low because they wanted the hybrid vehicle technology to be viewed as an affordable
+and mainstream technology. In our research setting, the early deployment years of EVs share many of the same market features
+as the hybrid vehicle market. Since manufacturers mostly need to fulﬁll a minimum requirement of EVs because of increasingly
+stringent CAFE and Zero Emission Vehicle (ZEV) regulations,32 it is not surprising that they fully pass the subsidy to consumers,
+especially during the initial rollout years of EVs, which our sample period covers. Another common feature of alternative fuel
+vehicle subsidies is that they are directly provided to consumers through the forms of tax rebates and income tax credits, which
+28 Recent empirical evidence suggests that EVs are generally driven less than a comparable gasoline vehicle (Davis, 2019).
+29 Prior structural demand models tend to include an assumption that VMT is decided separately for each vehicle owned by a household (Bento et al., 2009;
+Jacobsen, 2013a). These models could be extended to model the joint VMT decision to allow for the VMT substitution effect that we mention.
+30 The direction of the bias from omitting the outside option is uncertain. In this study, we assume the subsidy makes consumers switch from another new
+vehicle to an EV. However, in reality, consumers might switch from a used vehicle (more polluting than a new vehicle) or public transportation (less polluting
+than a new vehicle) to an EV due to subsidy. Therefore, the subsidy beneﬁts might be under- or over-estimated, which depends on the exact substitution with
+the outside option.
+31 Previous studies also ﬁnd a small extensive-margin response to price changes in other similar subsidy programs.Beresteanu and Li (2011) estimate the
+impact of income tax credits for hybrid vehicles and ﬁnd that the increase in total vehicles sales due to subsidy is only 0.26% of total new vehicle sales and only
+1.1% of the hybrid vehicle sales are additional vehicle purchases due to the subsidy.
+32 The Zero Emission Vehicle (ZEV) program is adopted in California and nine other states, which require automakers to produce a number of ZEVs and plug-in
+hybrids each year, based on the total number of cars sold.
+20
+
+--- PAGE 21 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+might have different incidence implications than production subsidies to manufacturers (Sallee, 2011).
+Fifth, one limitation of our model is that it reﬂects short run changes in consumer behavior but does not capture broader
+long run adjustments. We model the change in vehicle sales as a result of changes in choice sets and changes in vehicle charac-
+teristics. We do not model adjustments made by manufacturers in response to these changes, and our model does not include a
+characterization of the electric vehicle charging station network. Prior work has found that manufacturers respond to changes
+in subsidies by adjusting vehicle prices, and the vehicle charging station network increases in size in response to subsidies
+(Beresteanu and Li, 2011; Li et al., 2017). If EVs were removed from the choice set, closer substitutes to EVs such as hybrid vehi-
+cles and other fuel-eﬃcient gasoline models would be priced higher due to less competition they face. Thus, in the counterfactual
+scenario where EVs had not been introduced, more consumers would switch to less-fuel-eﬃcient gasoline models than what we
+predicted. Therefore, by assuming away the price effects on substitutes, we would underestimate the effects of EVs since we do
+not quantify the additional beneﬁts from lowering the prices of other competitive fuel-eﬃcient substitutes. However, this effect
+may not be large given that other policy constraint such as CAFE may depress the prices of fuel-eﬃcient vehicle models (Jacob-
+sen, 2013b), and that, EV sales and the number of EV models were limited during our sample period. The response of the vehicle
+charging station network is likely to make the EV subsidy look more cost effective through its feedback effect on the demand for
+EVs. Furthermore, EV subsidies are one instrument to use to internalize the charging station network externality, which prior
+work has found to be a relevant barrier for EV adoption (Li et al., 2017; Zhou and Li, 2018; Springel, 2020). These incentives also
+could appear more cost effective based on the social beneﬁt from internalizing technological innovation spillover externalities.
+While the literature does not have any direct evidence on the magnitude of this effect, work has shown that this beneﬁt could be
+large based on evidence from other related technologies such as solar power (Linn and McConnell, 2019). Despite these draw-
+backs, our work accurately reﬂects relevant substitution patterns between EVs and conventional gasoline vehicles, which are a
+key input in a model that incorporates these broader adjustments.
+Another possibly relevant feature absent from our model are interactions with other overlapping regulations. Subsidizing
+electric vehicles raises the demand for relatively fuel eﬃcient vehicles. Given that federal CAFE and GHG standards for light-
+duty vehicles are likely binding during our time period, the federal EV subsidy effectively relaxes the CAFE and GHG constraints
+faced by vehicle manufacturers. As a result, manufacturers are able to sell more relatively fuel ineﬃcient vehicles. Therefore,
+the short run effect of the subsidy on average ﬂeet-wide fuel economy and GHG emissions could be small or even zero if the
+standards are strictly binding for all manufacturers. This result, however, assumes that the CAFE and GHG standards are set in
+isolation of setting the EV subsidy. In fact, policy makers could set more stringent CAFE and GHG standards in response to a
+more generous federal subsidy, which would maintain the emissions beneﬁts from the EV subsidy. We leave analyzing these
+possible responses for future work.
+Finally, our simulations are of counterfactuals for the model year 2014. Several features of the electric power sector and the
+EV market have changed since 2014 that likely have an impact on the outcomes that we document. Here we discuss how our
+results could be different with using more recent data. First, the electric power sector has become less GHG emissions intensive
+over time. This increases the GHG emissions reductions from the replacement of gasoline vehicles with EVs, as discussed in
+Holland et al. (2019). Therefore, the current replacement of gasoline vehicles with EVs should yield greater emissions reductions
+than what we ﬁnd in our simulation results. Second, the Tesla Model 3 entered the new vehicles market in 2018 and has since
+been the highest selling EV. This is partly due to the fact that the Tesla Model 3 has been marketed as a relatively affordable EV.
+Given its lower purchase price, the federal subsidy is likely to have had a larger impact on increasing sales of this vehicle, as
+more mainstream new vehicle buyers become marginal to buying affordable options like the Model 3. We document this effect
+in our simulations in Section 6.4 where we ﬁnd reducing purchase prices of EVs increases the fraction of additional EV buyers.
+This effect is likely to persist or grow over time as battery prices are expected to continue falling, translating into lower EV
+prices. Third, substitution patterns between EVs and non-EVs may be different based on the composition of the choices offered
+to consumers. The new vehicle market now has more EV models for consumers to choose from, including an SUV (the Tesla
+Model X). Our simulations are based on a time period where only EV models that were available were sedans. The expansion
+of EVs into SUV and light truck segments could alter the substitution patterns that we have documented. As EVs become more
+affordable and enter more segments over time, we expect to see the replacement gasoline vehicle reﬂect characteristics of a
+more “average” vehicle.
+8. Conclusions
+Promoting electric vehicles is considered an effective way to increase ﬂeet fuel economy and reduce emissions from on-road
+transportation. The environmental beneﬁts of subsidizing EVs critically hinge on the fuel eﬃciency of the substitute vehicles.
+Encouraging consumers who would otherwise purchase another fuel-eﬃcient vehicle to switch to EVs would not lead to signif-
+icant emissions reductions.
+The paper provides a theoretical and empirical analysis on how substitution patterns between vehicles of different fuel
+types affect the emissions impacts of electric vehicle policies. The styled theoretical model shows that the emissions impacts
+crucially depend on own-price and cross-price elasticities of demand, where the emissions of non-EVs with a larger cross-
+price elasticity have a bigger impact on the emissions impacts of EVs. To characterize the price elasticities and the substitution
+pattern, we estimate a ﬂexible discrete choice model of new vehicle demand that incorporate rich consumer heterogeneity.
+A key differentiating feature of our demand model is that we identify random preference heterogeneity by using the second-
+choice information from household survey data, which greatly improve the precision of estimated preference heterogeneity and
+21
+
+--- PAGE 22 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+implied substitution patterns. Our simulation results suggest that 79 percent of EVs replace gasoline vehicles with an average
+fuel economy of 27.2 mpg, and 12 percent of EVs replace hybrid vehicles with an average fuel economy of 45 mpg. If we had
+simply assumed that each EV replaces an average gasoline vehicle of 23 mpg, we would have overestimated the environmental
+beneﬁts of EVs by 39 percent.
+Our estimates imply that in 2014, the federal income tax credit for EVs led to a 28.8% increase in EV sales, the majority
+of which replaced vehicles that are relatively fuel-eﬃcient. The increased EV sales translate to $73.8 million of environmental
+beneﬁts due to reduced emissions of major air pollutants. The cost-effectiveness of the policy is hindered by the fact that about
+70 percent of consumers would purchase EVs in the absence of the subsidy, and the subsidy mainly attracted consumers who
+would otherwise have purchased fuel-eﬃcient gasoline or hybrid vehicles. By comparing the current uniform subsidy with
+alternative policy designs that limit eligibility and provide additional subsidies to low-income households, we ﬁnd the income-
+dependent subsidies could potentially increase the cost-effectiveness of the subsidy program and are less regressive. Policies
+intended to promote EV technology and reduce emissions would be more effective by better targeting marginal buyers and
+encouraging consumers who would otherwise purchase gas-guzzlers such as large SUVs to adopt EVs.
+Appendices
+A. Industry and Policy Background
+There are currently two types of EVs for sale in the United States: battery electric vehicles (BEVs) which run exclusively
+on high-capacity batteries (e.g., Nissan LEAF), and plug-in hybrid vehicles (PHEVs) which use batteries to power an electric
+motor and use another fuel (gasoline) to power a combustion engine (e.g., Chevrolet Volt). The deployment of both types of
+EVs currently faces signiﬁcant ﬁnancial barriers: EVs are substantially more expensive than their conventional gasoline vehicle
+counterparts.33 A key reason behind the cost differential is the cost of the battery. Battery market analysts predict that as battery
+technology improves, the cost should come down.
+Governments have recently provided generous monetary and non-monetary incentives for EVs.34 The US federal government
+provides income tax credits for new qualiﬁed EVs in the range of $2500 and $7500 based on each vehicle’s battery capacity and
+the gross vehicle weight rating. Several states add state-level incentives to further promote EV adoption. For example, through
+the California Clean Vehicle Rebate Project (CVRP), California residents can receive a rebate of $ 2500 for purchasing or leasing
+a BEV and $1500 for a PHEV, and the rebate amount increases to $4500 and $3,500, respectively, for lower-income consumers.
+There are at least two challenges that could undermine the effectiveness of the subsidy policy. First, the uniform subsidy to
+EV buyers may not always result in additional EV sales in the sense that many of the buyers who claim the subsidy may still
+purchase EVs even if there were no subsidy policy. Since early adopters of EVs are those who favor the newest technology, have
+the strongest environmental awareness, and usually have higher income, it is more likely that the effect of a uniform subsidy
+policy, such as the current federal EV income tax credit, on boosting additional EV sales is limited.35
+The second challenge has to do with the type of vehicles that are replaced by electric vehicles. A potential eﬃciency loss
+could arise if the subsidy does not induce people to switch from a gas guzzler to an EV, but from another fuel-eﬃcient gasoline
+vehicle, or another hybrid vehicle to an EV, making little net gain of environmental beneﬁts. Holland et al. (2016) evaluate the
+heterogenous environmental beneﬁts of EVs by comparing the externalities of EVs with their gasoline counterparts. However,
+the relative environmental beneﬁts would be smaller if a higher fuel-eﬃcient vehicle such as a hybrid vehicle is compared.
+At the national average fuel mix, BEVs and PHEVs do not have an advantage over hybrid vehicles in emissions reduction, and
+PHEVs even generate more emissions than hybrid vehicles (Appendix Table A.2). With the expiration of the tax credits for hybrid
+vehicles, the income tax credits for EVs are likely to encourage consumers who would otherwise purchase hybrid vehicles to
+purchase EVs. Appendix Table A.1 shows that as the market share of EVs increases in most recent years, the market share of
+hybrids starts to decline. Chandra et al. (2010) ﬁnd that the rebate programs in Canada primarily subsidize people who would
+have bought hybrid vehicles or fuel-eﬃcient cars in any case and may not be the most effective way to encourage people to
+switch away from fuel-ineﬃcient vehicles like large SUVs or luxury sport passenger cars, at least in the short or medium run.
+One of the justiﬁcations for EV subsidies is to reduce the emissions from the transportation sector by replacing fuel-ineﬃcient
+vehicles with EVs. When life-cycle emissions are accounted for, however, substantial heterogeneity in environmental beneﬁts
+could exist. For example, EVs may not have an advantage over conventional vehicles in locations where the electricity is gener-
+ated through fossil fuels. Thus, even if the EV subsidy results in additional EV purchases, the reduction of overall emissions would
+be limited. By incorporating spatial heterogeneity of damages and pollution export across jurisdictions, Holland et al. (2016) ﬁnd
+33 For example, the manufacturer’s suggested retail price (MSRP) for the 2014 Honda Accord Hybrid is $29,945, while the 2014 Honda Accord Plug-In Hybrid
+is listed at $40,570, which is over a $10,000 difference.
+34 Several cities in China such as Beijing implement a license restriction policy for the registration of new vehicles and some PEV models are exempt from this
+restriction.
+35 The CVRP used to offer incentives of $1500 for PHEVs and $2500 for BEVs, but the majority of the rebates went to high-income households. To direct the
+rebates toward households that value the rebates most, CVRP has been redesigned such that lower-income households will be able to claim a larger rebate.
+Households with income less than 300 percent of the federal poverty level will be able to get $3000 for PHEVs and $4000 for BEVs, and households with gross
+annual income above certain thresholds -$250,000 for single ﬁlers, $340,000 for head-of-household ﬁlers, and $500,000 for joint ﬁlers-are no longer eligible for
+the rebates.
+22
+
+--- PAGE 23 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+considerable heterogeneity in environmental beneﬁts of EV adoption depending on the location and argue for regionally differ-
+entiated EV policy. They ﬁnd that the environmental beneﬁts of EVs are the largest in California because of large damages from
+gasoline vehicles and a relatively clean electric grid, but the beneﬁts are negative in places such as North Dakota where the
+conditions are reversed.
+B. Additional Literature Review
+Our analysis contributes to the literature on the diffusion of vehicles with advanced fuel technologies (e.g., hybrid vehicles)
+and alternative fuels (e.g., FFVs). Kahn (2007), Kahn and Vaughn (2009), and Sexton and Sexton (2014) examine the role of
+consumer environmental awareness and signaling in the market for conventional hybrid vehicles. Heutel and Muehlegger (2015)
+study the effect of consumer learning in hybrid vehicle adoption, focusing on different diffusion paths of Honda Insight and
+Toyota Prius. Several recent studies have examined the impacts of government programs at both the federal and state levels
+in promoting the adoption of hybrid vehicles, including Diamond (2009), Beresteanu and Li (2011), Gallagher and Muehlegger
+(2007), and Sallee (2011). These studies consistently ﬁnd that better environmental awareness, higher gasoline prices, and more
+generous incentives are associated with higher adoption of “green” vehicles. We add to this literature by estimating substitution
+patterns among gasoline-powered vehicles, hybrids, and EVs. To the best of our knowledge, our results are the ﬁrst to provide
+cross-price elasticities among these vehicle types, which will allow researchers and policy-makers to determine how subsidy
+designs alter the sales mix of different power types.
+Our analysis relates to the literature that studies the cost-effectiveness of energy subsidy programs. Allcott et al. (2015)
+ﬁnd that some energy eﬃciency subsidies are poorly-targeted and are primarily taken up by consumers who are wealthier and
+more informed about energy costs. They conclude that restricting subsidy eligibility could increase the welfare gains from those
+subsidies. Boomhower and Davis (2014) ﬁnd that half of all participants would have adopted the energy-eﬃcient technology
+even with no subsidy. Ito (2015) shows that most of the treatment effects of incentives come from consumers who are closer to
+the target level of consumption, and the treatment effect is not signiﬁcantly different from zero for consumers who are far from
+the target level. Fowlie et al. (2015) ﬁnd evidence that high non-monetary costs contribute to the low participation of energy
+eﬃciency investment for households and there are demographic differences between households that chose to participate on
+their own and those that were encouraged to participate in the program by encouragement intervention. Langer and Lemoine
+(2018) investigate the eﬃcient subsidy schedule for durable goods in a dynamic setting and show that an eﬃcient subsidy often
+increases over time and that consumers’ rational expectations of future subsidies and technological progress could substantially
+increase public spending. By empirically estimating a national vehicle demand model in a static setting and obtaining consumer
+preference parameters, we are able to run counterfactual simulations to examine the cost-effectiveness of the current EV subsidy
+design and compare it with other possible designs.
+C. Prediction of Lifetime Vehicle Miles Traveled
+To compute the emissions effects of EVs and the EV federal tax credit, we require an estimate of lifetime vehicle miles
+traveled (VMT) for every vehicle in our 2014 sample. We adopt the methodology in Linn (2020) to assign lifetime VMT. For this
+methodology, we obtained vehicle odometer data from the 2017 National Household Travel Survey (NHTS) and ﬁt odometer
+models based on vehicle age, segment, and fuel type. For each vehicle segment (s) - car, van, SUV, and pick up truck - we
+estimated the following odometer model:
+oj = fs(aj) + Xj𝛽+ 𝜀ij
+where j indexes the vehicle, fs(aj) is a 4th order polynomial function of the vehicle’s age aj, Xj is a vector vehicle fuel typeswith
+coeﬃcient vector 𝛽, and 𝜀ij is an error term. We follow Linn (2020) and estimate lifetime VMT using the predicted odometer
+reading at age 25.
+The estimates of lifetime VMT appear in Appendix Table A.6. The estimates conform with expectations and are broadly
+consistent with results from Linn (2020). Pickup trucks and SUVs tend to have higher lifetime VMT than cars. EVs tend to have
+relatively low lifetime VMT, which is consistent with Davis (2019).
+D. Deﬁning the Simulated Log-Likelihood and Gradient
+The utility of household i purchasing vehicle model j is deﬁned as:
+uij =
+K
+∑
+k=1
+xjk𝛽k −𝛼1lnPj + 𝜉j
+⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟
+𝛿j
++ 𝛼2
+lnPj
+Yi
++
+∑
+kr
+xjkzir𝛽o
+kr +
+∑
+k
+xjkvik𝛽u
+k
+⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟
+𝜇ij
++ 𝜀ij,
+where 𝛿j is the mean utility of vehicle model j, which is constant across consumers, and 𝜇ij is the individual-speciﬁc utility
+component related to observed and unobserved consumer demographics. Let 𝜃= {𝛽o
+kr, 𝛽u
+k } be the non-linear parameters that
+are estimated from the ﬁrst stage. The last component, 𝜀ij, is the idiosyncratic preference of household i for vehicle model j and
+23
+
+--- PAGE 24 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+is assumed to have an i.i.d. type 1 extreme value distribution. The probability of household i purchasing j and considering h as
+the second choice is:
+Pijh = ∫
+exp[𝛿j(𝜃) + 𝜇ij(𝜃)]
+1 + ∑
+gexp[𝛿g(𝜃) + 𝜇ig(𝜃)] ·
+exp[𝛿h(𝜃) + 𝜇ih(𝜃)]
+∑
+g≠jexp[𝛿g(𝜃) + 𝜇ig(𝜃)]f(v)dv.
+Note that the choice set of the second choice excludes the purchased product j. Since the random taste vik is not observed, the
+probability above is calculated by integrating over the distribution of the unobserved taste v. This high-dimensional integration
+is estimated via simulation where R denotes the number of simulation draws and the subscript r denotes a speciﬁc random draw
+r:
+Pijh = 1
+R
+R
+∑
+1
+exp[𝛿j(𝜃) + 𝜇ijr(𝜃)]
+1 + ∑
+g
+exp[𝛿g(𝜃) + 𝜇igr(𝜃)] ·
+exp[𝛿h(𝜃) + 𝜇ihr(𝜃)]
+∑
+g≠j
+exp[𝛿g(𝜃) + 𝜇igr(𝜃)]
+= 1
+R
+R
+∑
+1
+Ajr
+Br
+· Ahr
+B−j
+r
+= 1
+R
+R
+∑
+1
+Pijr · P−j
+ihr,
+where B−j
+r = Br −exp[𝛿j(𝜃) + 𝜇ijr(𝜃)], which denotes the choice set for the second choice conditional on choosing j as the ﬁrst
+good, and P−j
+ihr is the probability of choosing h from a choice set that excludes j conditional on a set of random draws r.
+Let lnRi = lnPijh = lnPij + lnP−j
+ih = ln( 1
+R
+∑R
+1 Pijr) + ln( 1
+R
+∑R
+1 P−j
+ihr), the individual log-likelihood of household i choosing the
+observed purchased model j and considering the observed second choice h. The log-likelihood function of the entire sample
+for a single market is therefore:
+lnL =
+N
+∑
+i=1
+lnRi.
+The derivative of the individual log-likelihood function with respect to 𝜃k is
+𝜕lnPijh
+𝜕𝜃k
+=
+1
+Pijh
+· 1
+R
+R
+∑
+r=1
+[
+Ajr
+Br
+(
+Ahr
+C−j
+r
+)′
++
+( Ajr
+Br
+)′ (
+Ahr
+C−j
+r
+)]
+=
+1
+Pijh
+· 1
+R
+R
+∑
+r=1
+⎧
+⎪
+⎨
+⎪⎩
+Ajr
+Br
+Ahr
+[ 𝜕𝛿h(𝜃)
+𝜕𝜃k
++ 𝜕𝜇ihr(𝜃)
+𝜕𝜃k
+]
+C−j
+r −Ahr
+∑
+g≠jAgr
+[ 𝜕𝛿g(𝜃)
+𝜕𝜃k
++ 𝜕𝜇igr(𝜃)
+𝜕𝜃k
+]
+(
+C−j
+r
+)2
++
+Ajr
+[ 𝜕𝛿j(𝜃)
+𝜕𝜃k
++ 𝜕𝜇ijr(𝜃)
+𝜕𝜃k
+]
+Br −Ajr
+∑
+gAgr
+[ 𝜕𝛿g(𝜃)
+𝜕𝜃k
++ 𝜕𝜇igr(𝜃)
+𝜕𝜃k
+]
+(
+Br
+)2
+Ahr
+C−j
+r
+⎫
+⎪
+⎬
+⎪⎭
+=
+1
+Pijh
+· 1
+R
+R
+∑
+1
+{
+Ajr
+Br
+Ahr
+C−j
+r
+[𝜕𝛿h(𝜃)
+𝜕𝜃k
++ 𝜕𝜇ihr(𝜃)
+𝜕𝜃k
+]
+−
+Ajr
+Br
+Ahr
+C−j
+r
+∑
+g≠j
+Agr
+C−j
+r
+[𝜕𝛿g(𝜃)
+𝜕𝜃k
++ 𝜕𝜇igr(𝜃)
+𝜕𝜃k
+]
++
+Ajr
+Br
+Ahr
+C−j
+r
+[𝜕𝛿j(𝜃)
+𝜕𝜃k
++ 𝜕𝜇ijr(𝜃)
+𝜕𝜃k
+]
+−
+Ajr
+Br
+Ahr
+C−j
+r
+∑
+g
+Agr
+Br
+[𝜕𝛿g(𝜃)
+𝜕𝜃k
++ 𝜕𝜇igr(𝜃)
+𝜕𝜃k
+]}
+=
+1
+Pijh
+· 1
+R
+R
+∑
+1
+{
+Pijhr
+[
+𝜕𝛿h(𝜃)
+𝜕𝜃k
++ 𝜕𝜇ihr(𝜃)
+𝜕𝜃k
+−
+∑
+g≠j
+P−j
+igr
+𝜕𝛿g(𝜃)
+𝜕𝜃k
+−
+∑
+g≠j
+P−j
+igr
+𝜕𝜇igr(𝜃)
+𝜕𝜃k
+]
++ Pijhr
+[
+𝜕𝛿j(𝜃)
+𝜕𝜃k
++ 𝜕𝜇ijr(𝜃)
+𝜕𝜃k
+−
+∑
+g
+Pigr
+𝜕𝛿g(𝜃)
+𝜕𝜃k
+−
+∑
+g
+Pigr
+𝜕𝜇igr(𝜃)
+𝜕𝜃k
+]}
+,
+where Pigr =
+Agr
+Br , which is the probability of i choosing g as ﬁrst choice conditional on a random draw r. P−j
+igr =
+Agr
+B−j
+r
+, which is the
+probability of i choosing g as a second choice from the choice set that excludes the ﬁrst choice j conditional on a random draw r.
+24
+
+--- PAGE 25 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+𝛿j(𝜃) is estimated via contraction mapping and does not have an analytical solution. To estimate 𝜕𝛿j(𝜃)
+𝜕𝜃k , we use implicit function
+theorem:
+𝜕𝛿j(𝜃)
+𝜕𝜃k
+= −
+(
+𝜕̂Sj
+𝜕𝛿j
+)−1 𝜕̂Sj
+𝜕𝜃k
+,
+where ̂Sj is the predicted market share for model j, and
+𝜕̂Sj
+𝜕𝛿j
+= 1
+N
+N
+∑
+i=1
+𝜕Pij
+𝜕𝛿j
+= 1
+N
+N
+∑
+i=1
+Pij(1 −Pij) = 1
+N
+N
+∑
+i=1
+Pij −1
+N
+N
+∑
+i=1
+P2
+ij
+𝜕̂Sj
+𝜕𝜃k
+= 1
+N
+N
+∑
+i=1
+𝜕Pij
+𝜕𝜃k
+= 1
+N
+N
+∑
+i=1
+Pij
+𝜕uij
+𝜕𝜃k
+−1
+N
+N
+∑
+i=1
+Pij
+∑
+g
+Pig
+𝜕uig
+𝜕𝜃k
+.
+𝜕𝛿h(𝜃)
+𝜕𝜃k
+is estimated by the same method. The score matrix is then:
+𝜕lnR
+𝜕𝜃
+=
+⎡
+⎢
+⎢
+⎢
+⎢
+⎢
+⎢
+⎢
+⎢⎣
+𝜕lnP1jh
+𝜕𝜃1
+𝜕lnP1jh
+𝜕𝜃2
+…
+𝜕lnP1jh
+𝜕𝜃k
+𝜕lnP2jh
+𝜕𝜃1
+𝜕lnP2jh
+𝜕𝜃2
+…
+𝜕lnP2jh
+𝜕𝜃k
+…
+…
+…
+…
+𝜕lnPNjh
+𝜕𝜃1
+𝜕lnPNjh
+𝜕𝜃2
+…
+𝜕lnPNjh
+𝜕𝜃k
+⎤
+⎥
+⎥
+⎥
+⎥
+⎥
+⎥
+⎥
+⎥⎦
+⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟
+N×k
+.
+Then, averaging the above matrix across households using the sample weight for each household gives the gradient of the
+likelihood function, which is the average of the scores across individuals:
+𝜕lnL
+𝜕𝜃=
+[ N
+∑
+i=1
+wi · 𝜕lnPijh
+𝜕𝜃1
+N
+∑
+i=1
+wi · 𝜕lnPijh
+𝜕𝜃2
+…
+N
+∑
+i=1
+wi · 𝜕lnPijh
+𝜕𝜃k
+]
+⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟
+1×k
+,
+where wi is the sample weight for household i.
+E. Derivation of Own- and Cross-Price Elasticities of Demand
+The predicted market share for model j is the average of individual probabilities of purchasing vehicle model j:
+sj = 1
+N
+N
+∑
+i=1
+Pij = 1
+N
+N
+∑
+i=1
+exp(uij)
+1 + ∑
+gexp(uij).
+The partial derivative of individual probability of purchasing j with respect to the price of j is:
+𝜕Pij
+𝜕pj
+=
+exp(uij) 𝜕uij
+𝜕pj (1 + ∑
+gexp(uij)) −exp(uij)exp(uij) 𝜕uij
+𝜕pj
+(1 + ∑
+gexp(uij))2
+=
+exp(uij)
+1 + ∑J
+j=1 exp(uij)
+𝜕uij
+𝜕pj
+−
+(
+exp(uij)
+1 + ∑J
+j=1 exp(uij)
+)2 𝜕uij
+𝜕pj
+= (Pij −P2
+ij)𝜕uij
+𝜕pj
+.
+The own-price elasticity of product j is:
+25
+
+--- PAGE 26 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+𝜕lnsj
+𝜕lnpj
+=
+pj
+sj
+· 1
+N
+N
+∑
+i=1
+(Pij −P2
+ij)𝜕uij
+𝜕pj
+.
+The partial derivative of individual probability of purchasing j with respect to the price of model k is:
+𝜕Pij
+𝜕pk
+=
+0 −exp(uij)exp(uik) 𝜕uik
+𝜕pk
+(1 + ∑J
+j=1 exp(uij))2
+= −PijPik
+𝜕uik
+𝜕pk
+.
+The cross-price elasticity of product j with respect to price of product k is thus:
+𝜕lnsj
+𝜕lnpk
+= pk
+sj
+· 1
+N
+N
+∑
+i=1
+−PijPik
+𝜕uik
+𝜕pk
+.
+F. The Effect of Electric Vehicles on Hybrid Sales
+One possible concern with promoting electric vehicles is that the policy may have reduced demand for alternative clean
+vehicles such as hybrids. Before the introduction of electric vehicles, hybrid technology was anticipated to provide a pathway to
+dramatically reducing emissions from light duty vehicles. Since we have shown that hybrids are relatively close substitutes for
+electric vehicles, the introduction of electric vehicles has reduced hybrid market share and may explain why the market share
+of hybrids has not continued to grow as it did during the 2000s.
+To quantify the impact of electric vehicles on hybrid sales, we conduct several counterfactual exercises. In scenario 1, we
+remove all the EV models from the choice sets, and then predict the counterfactual market shares of the remaining fuel types
+for MY 2010-MY 2014. In scenario 2, we remove the federal income tax credits for EVs, which vary across EV models, and then
+predict the market shares of all fuel types. In panel (a) of Appendix Figure A.3, we plot the observed and simulated market shares
+of hybrid vehicles. The dashed lines represent out-of-sample shares that we obtained from Wards Automotive. The observed
+market share of hybrids grew substantially from 2000 to 2010, then eventually leveled off by 2015, around the time that EVs
+began to gain a non-trivial market share. As shown in the ﬁgure, the simulated market share for hybrids within our sample
+shows little difference from the observed hybrid market share. We conclude, therefore, that the introduction of EVs has had
+only a small impact on the sales of hybrids during our sample period.
+The federal government provided income tax credits of up to $3400 for hybrid vehicles purchased after December 31, 2005.
+All the hybrid vehicles purchased after December 31, 2010, were not eligible for this credit. The termination of federal support
+for hybrid vehicles could have discouraged the sales of hybrid vehicles. To investigate this impact, we conduct simulations to
+estimate the counterfactual sales of hybrids if the federal government had continued subsidizing hybrid vehicles.
+We assume that all the hybrid vehicle models that were once subsidized by the government continue being subsidized with
+the original subsidy amounts. We run three counterfactual scenarios (panel (b) of Appendix Figure A.3). In scenario 1, we assume
+the government continues subsidizing hybrid vehicles during MY 2010-MY 2014 while also maintaining its subsidy for EVs. In
+scenario 2, the government continues subsidizing hybrids during MY 2010-MY 2014 but does not provide any subsidy for EVs.
+In scenario 3, the government continues subsidizing hybrids, but EVs were removed from the market. As implied by the results,
+the removal of the subsidy for hybrids played a larger role in reducing the sales of hybrid vehicles, than did the competition from
+EVs. Beresteanu and Li (2011) ﬁnd that the federal income tax credit program for hybrids contributes to 20 percent of the total
+sales of hybrid vehicles. This suggests that although the introduction of EVs has slightly reduced the market share of hybrids,
+the elimination of the income tax credit is the major factor in the decline of hybrid vehicle sales in recent years.
+26
+
+--- PAGE 27 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+G. Additional Tables and Figures
+Table A.1
+Sales Shares and Available Models of Hybrids and EVs, 2000–2017.
+Hybrid
+EV
+No. of hybrid
+No. of EV
+Years
+Share
+Share
+Models Offered
+models offered
+2000
+0.05
+0.00
+2
+0
+2001
+0.12
+0.00
+2
+0
+2002
+0.21
+0.00
+3
+0
+2003
+0.29
+0.00
+3
+0
+2004
+0.49
+0.00
+4
+0
+2005
+1.23
+0.00
+8
+0
+2006
+1.52
+0.00
+10
+0
+2007
+2.15
+0.00
+15
+0
+2008
+2.37
+0.00
+17
+0
+2009
+2.77
+0.00
+21
+0
+2010
+2.37
+0.00
+30
+2
+2011
+2.09
+0.14
+33
+4
+2012
+3.01
+0.37
+44
+11
+2013
+3.19
+0.63
+50
+17
+2014
+2.75
+0.72
+50
+22
+2015
+2.21
+0.66
+51
+28
+2016
+1.99
+0.90
+52
+33
+2017
+2.13
+1.14
+45
+41
+Notes: The statistics presented are derived from Wards Automotive new vehi-
+cle sales data, which provide annual estimates of sales by make, model, and
+fuel type. Shares are deﬁned as annual sales of the vehicle type divided by total
+annual sales. To compute statistics for EVs, we deﬁne EV models that are iden-
+tiﬁed in the Wards data as either plug-in electric or battery electric vehicles.
+Table A.2
+Vehicle emissions per 100 miles (National average grid mix).
+Vehicle Fuel Type
+GHG Emissions
+Gasoline
+87 lb. CO2
+Hybrid Electric
+57 lb. CO2
+Plug-in Hybrid Electric
+62 lb. CO2
+All electric
+54 lb. CO2
+Notes: The data are from the AFDC, https://www.afdc.
+energy.gov/vehicles/electric_emissions_sources.html
+(accessed on October 15, 2018). The emissions from
+electric vehicles are calculated based on the national
+average fuel sources used in electricity generation in the
+United States.
+27
+
+--- PAGE 28 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Table A.3
+Summary Statistics of Household Data by Fuel Type.
+EV Buyers
+Non-EV Buyers
+Mean
+S.D.
+Mean
+S.D.
+Household income (1000$)
+180.98
+134.73
+131.94
+107.44
+With a college degree
+0.81
+0.40
+0.60
+0.49
+Charging stations
+0.87
+1.76
+0.29
+0.93
+Living in an urban area
+0.78
+0.41
+0.64
+0.48
+Average gasoline price ($)
+3.73
+0.25
+3.43
+0.40
+Average vehicle price (1000$)
+32.58
+13.28
+32.37
+12.03
+Leasing the vehicle
+0.44
+0.50
+0.15
+0.36
+Observations
+2018
+9610
+Notes: The data represent the 11,628 observations drawn from the MaritzCX household
+survey data. Household income is converted to 2014 dollars using the BLS calculator.
+With a college degree indicates whether the purchaser of the vehicle has obtained a
+college degree. The number of charging stations is the cumulative sum of the charging
+stations that have been built in the survey respondent’s neighborhood (zip code) by the
+purchase date of the vehicle. The charging stations data are collected from the AFDC.
+Gasoline prices are monthly average regional prices from the EIA. Average vehicle price
+is the average transaction price in year when the vehicle was purchased.
+Table A.4
+Alternative Demand Estimation Results Using MSRPs.
+Panel (a): Mean Utility Parameters
+(1) OLS
+(2) IV
+Coeﬃcient
+S.E.
+Coeﬃcient
+S.E.
+constant
+−2.8051
+0.1593
+−2.8044
+0.1609
+log(price)
+−1.7856
+0.2656
+−1.8039
+0.9059
+horsepower/weight
+0.702
+0.1988
+0.6991
+0.2413
+weight
+1.8545
+0.3467
+1.8717
+0.8669
+gallons/mile
+0.0663
+0.1256
+0.0636
+0.172
+AFV dummy
+−2.5029
+0.514
+−2.5007
+0.5278
+EV dummy
+−2.7065
+0.2725
+−2.7047
+0.2889
+pickup dummy
+1.0978
+0.3253
+1.113
+0.7834
+model year 11 dummy
+1.5352
+0.1641
+1.5436
+0.4298
+model year 12 dummy
+1.4235
+0.1626
+1.4318
+0.4264
+model year 13 dummy
+1.1515
+0.1645
+1.1598
+0.421
+model year 14 dummy
+0.0916
+0.0894
+0.0912
+0.0907
+Panel (b): Heterogeneous Utility Parameters
+Coeﬃcient
+S.E.
+Observed Heterogeneity
+log(price)/income
+−7.9676
+0.4324
+family size∗vehicle weight
+0.1035
+0.0204
+urban∗pickups
+−0.6276
+0.0561
+urban∗EV
+0.2019
+0.0482
+gasoline price∗gallons/mile
+−0.2957
+0.0233
+education∗EV
+0.6836
+0.0811
+stations∗EV
+0.6773
+0.1032
+Random coeﬃcients
+gallons/mile
+1.9174
+0.0562
+horsepower/weight
+1.11
+0.0393
+light trucks
+0.2654
+0.0268
+AFVs
+0.9341
+0.0892
+Average own-price elasticity
+−2.61
+Average own-price elasticity of EVs
+−2.51
+Average elasticity of EVs (income < $100,000)
+−2.99
+Note: the number of observations are 11628. The value of the simulated log-likelihood at
+convergence is −144,184.6 based on 150 Halton draws per household. The table provides
+alternative demand estimates that use market suggested retail prices (MSRPs) instead of
+transaction prices to construct the price variables. The speciﬁcations of the estimation are
+the same as Table 3.
+28
+
+--- PAGE 29 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Table A.5
+Sales and Incidence Impacts of Removing EVs.
+Panel (a): Sales Impact
+Fuel types
+Sales change
+Percentage
+Average MPG
+Gasoline
+86,114
+78.7%
+27.2
+Hybrid
+13,167
+12.0%
+45.1
+Diesel
+2594
+2.4%
+27.4
+FFV
+7574
+6.9%
+22.0
+All non-EVs
+109,449
+100%
+28.9
+Among gasoline vehicles
+Sales change
+Percentage
+low mpg (<19)
+1972
+2.3%
+medium mpg (⩾19 & < 25)
+20,409
+23.7%
+high mpg (⩾25)
+63,733
+74.0%
+Panel (b): Private Consumer Surplus Impact
+Income quintile
+(1)
+(2)
+(3)
+(4)
+(5)
+Average consumer surplus loss per household ($)
+−33.41
+−42.38
+−50.35
+−58.8
+−73.51
+Total consumer surplus loss (million $)
+−670.3
+Notes: The table summarizes the sales impact of removing all EVs from the choice set in MY 2014 on other
+vehicles of different fuel types and its welfare impact on consumers. The percentage column in panel (a)
+reports the percentage of the total sales increase from non-EV models that each fuel type contributes to.
+Average mpg represents the average miles per gallon of the vehicles that experience sales increases as a
+result of the removal of EVs. In panel (b), the average consumer surplus loss per household is calculated
+as the change in consumer surplus as shown by Small and Rosen (1981) for the year 2014. Total consumer
+surplus loss is calculated as average consumer surplus loss multiplied by the market size of new vehicles.
+Consumer surplus calculation does not include welfare impacts of emissions.
+Table A.6
+Predicted Lifetime Vehicle Miles Traveled.
+Segment
+Gasoline
+Diesel
+Hybrid
+Plug-in Hybrid
+All Electric
+Lifetime VMT
+Car
+0
+0
+0
+0
+1
+136,328
+Car
+0
+0
+0
+1
+0
+145,589
+Car
+0
+0
+1
+0
+0
+155,611
+Car
+0
+1
+0
+0
+0
+178,898
+Car
+1
+0
+0
+0
+0
+147,962
+Pick Up Truck
+0
+0
+1
+0
+0
+151,179
+Pick Up Truck
+0
+1
+0
+0
+0
+191,380
+Pick Up Truck
+1
+0
+0
+0
+0
+173,794
+SUV
+0
+0
+0
+0
+1
+156,777
+SUV
+0
+0
+0
+1
+0
+167,199
+SUV
+0
+0
+1
+0
+0
+176,789
+SUV
+0
+1
+0
+0
+0
+187,306
+SUV
+1
+0
+0
+0
+0
+177,850
+Van
+0
+0
+0
+0
+1
+164,323
+Van
+0
+0
+0
+1
+0
+163,531
+Van
+0
+0
+1
+0
+0
+151,910
+Van
+0
+1
+0
+0
+0
+180,489
+Van
+1
+0
+0
+0
+0
+162,732
+Notes: The table summarizes the predicted segment-fuel-type-speciﬁc lifetime vehicle miles traveled estimated using
+odometer data following Linn (2020). The detailed procedures are explained in Appendix Section C.
+29
+
+--- PAGE 30 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Table A.7
+Environmental Beneﬁts of EV Subsidy.
+Pollutants
+Reduction (tons)
+Damage ($/ton)
+Damage reduction (million $)
+CO2
+912,019.30
+36.0
+32.8
+VOC
+2549.7
+1482.0
+3.8
+NOx
+1710.0
+6042.0
+10.3
+PM2.5
+10.2
+330,600.0
+3.4
+SO2
+17.4
+35,340.0
+0.6
+All
+50.9
+Notes: The table summarizes the environmental beneﬁts of the federal-level income tax credit
+for EVs, with a total spending of $725.7 million in 2014. The environmental estimates are
+based on the external cost savings from emissions reduction of various pollutants due to less
+petroleum consumption. The emissions rates and associated damage values are obtained from
+EPA (2008).
+Table A.8
+Simulation Results with Parameters Estimated without Second Choice Data.
+Panel (a): Sales Impact of Removing EVs
+Fuel types
+Sales change
+Percentage
+Average MPG
+Gasoline
+87,340
+79.8%
+28.1
+Hybrid
+14,009
+12.8%
+46.0
+Diesel
+2846
+2.6%
+31.8
+FFV
+5254
+4.8%
+23.1
+All non-EVs
+109,449
+100%
+30.3
+Among gasoline vehicles
+Sales change
+Percentage
+low mpg (<19)
+678
+0.7%
+medium mpg (⩾19 & < 25)
+13,767
+15.8%
+high mpg (⩾25)
+72,895
+83.5%
+Panel (b): Sales Impact of Removing EV Subsidy
+Fuel types
+Sales change
+Percentage change
+EV
+−27,653
+−25.3%
+BEV
+−16,518
+−28.6%
+PHEV
+−11,136
+−21.6%
+Other fuel types
+Sales change
+Percentage Change
+Percentage of EV sales reduction
+Average MPG
+Gasoline
+22,245
+0.21%
+80.4%
+28.2
+Hybrid
+3379
+0.83%
+12.2%
+46.0
+Diesel
+706
+0.14%
+2.6%
+31.8
+FFV
+1323
+0.15%
+4.8%
+23.2
+All non-EVs
+27,653
+0.22%
+100%
+30.2
+Notes: The table summarizes the sales impact of removing all EVs from the choice set in MY 2014 and the
+sales impact of removing the federal EV tax credits in 2014. The simulations are conducted with the esti-
+mated parameters without using the second choice data, which are reported in Table 3.
+30
+
+--- PAGE 31 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Fig. A.1 Consumer Second Choices by Vehicle Segment.
+Fig. A.2 Own-price Elasticity Estimates.
+31
+
+--- PAGE 32 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+Fig. A.3 The Effect of Electric Vehicles on Hybrid Sales.
+32
+
+--- PAGE 33 ---
+J. Xing, B. Leard and S. Li
+Journal of Environmental Economics and Management 107 (2021) 102432
+References
+Allcott, Hunt, Knittel, Christopher, Taubinsky, Dmitry, 2015. Tagging and targeting of energy eﬃciency subsidies. Am. Econ. Rev.Pap. Proc. 105 (5), 187–191.
+Anderson, Soren, Sallee, James, 2016. Designing policies to make cars greener: a review of the literature. Ann. Rev. Resour. Econ. 8, 157–180.
+Archsmith, James, Kendall, Alissa, Rapson, David, 2015. From cradle to junkyard: assessing the life cycle greenhouse gas beneﬁts of electric vehicles. Res.
+Transport. Econ. 52, 72–90.
+Bento, A., Goulder, L., Jacobsen, M., von Haefen, R., 2009. Distributional and eﬃciency impacts of increased U.S. gasoline taxes. Am. Econ. Rev. 99 (3), 667–699.
+Bento, Antonio, Kanbur, Ravi, Leard, Benjamin, 2015. Designing eﬃcient markets for carbon offsets with ditributional constraints. J. Environ. Econ. Manag. 70,
+51–71.
+Beresteanu, Arie, Li, Shanjun, 2011. Gasoline prices, government support, and the demand for hybrid vehicles. Int. Econ. Rev. 52 (1), 161–182.
+Beresteanu, Ariel, Zincenko, Federico, 2018. Eﬃciency gains in rank-ordered multinomial logit models. Oxf. Bull. Econ. Stat. 80 (1), 122–134.
+Berry, Steven, James, Levinsohn, Pakes, Ariel, 1995. Automobile prices in market equilibrium. Econometrica 63 (4), 841–890.
+Berry, Steven, James, Levinsohn, Pakes, Ariel, 2004. Differentiated products demand systems from a combination of micro and macro data: the new vehicle
+market. J. Polit. Econ. 112 (1), 68–104.
+Boomhower, Judson, Davis, Lucas W., 2014. A credible approach for measuring inframarginal participation in energy eﬃciency programs. J. Publ. Econ. 113,
+67–79.
+Chandra, Ambarish, Gulati, Sumeet, Kandlikar, Milind, 2010. Green drivers of free riders? An analysis of tax rebates for hybrid vehicles. J. Environ. Econ. Manag.
+60, 78–93.
+Congressional Budget Oﬃce (CBO), 2012. Effects of Federal Tax Credits for the Purchase of Electric Vehicles.
+Davis, Lucas, 2019. How much are electric vehicles driven? Appl. Econ. Lett. 26 (18), 1497–1502.
+Diamond, David, 2009. The impact of government incentives for hybrid-electric vehicles: evidence from US states. Energy Pol. 37 (3), 972–983.
+Durrmeyer, Isis, Samano, Mario, 2017. To Rebate or Not to Rebate: Fuel Economy Standards vs. Feebates,. Forthcoming in Economic Journal.
+EPA, 2008. Average Annual Emissions and Fuel Consumption for Gasoline-Fueled Passenger Cars and Light Trucks.
+Fowlie, Meredith, Greenstore, Michael, Wolfram, Catherine, 2015. Are the non-monetary costs of energy eﬃciency investments large? Understanding low
+take-up pf a free energy eﬃciency program. Am. Econ. Rev. 105 (5), 201–204.
+Gallagher, K., Muehlegger, E., 2007. Giving Green to Get Green? the Effect of Incentives and Ideology on Hybrid Vehicle Adoption. Working Paper.
+Goolsbee, A., Petrin, A., 2004. The consumer gains from direct broadcast satellites and the competition with cable TV. Econometrica 72 (2), 351–381.
+Gulati, Sumeet, McAusland, Carol, James, Sallee, 2017. Tax incidence with endogenous quality and costly bargining: theory and evidence from hybrid vehicle
+sales. J. Publ. Econ. (155), 93–107.
+Halton, J.H., 1960. On the eﬃciency of evaluating certain quasi-random sequences of points in evaluating multi-dimensional integrals. Numer. Math. 2, 84–90.
+Heutel, Garth, Muehlegger, Erich, 2015. Consumer learning and hybrid vehicle adoption. Environ. Resour. Econ. 62 (1), 125–161.
+Holland, Stephen, Mansur, Erin, Muller, Nicholas, Yates, Andrew, 2016. Are there environmental beneﬁts from driving electric vehicles? The importance of local
+factors. Am. Econ. Rev. 106 (12), 3700–3729.
+Holland, Stephen, Mansur, Erin, Muller, Nicholas, Yates, Andrew, 2019. Distributional effects of air pollution from electric vehicle adoption. J. Assoc. Environ.
+Resour. Econ. 6 (S1), 65–94.
+Huse, Cristian, 2014. The market impact and the cost of environmental policy: evidence from the Swedish green car rebate. Econ. J. 124, F393–F419.
+Ito, Koichiro, 2015. Asymmetric incentives in subsidies: evidence from a large-scale electricity rebate program. Am. Econ. J. Econ. Pol. 7 (3), 209–237.
+Jacobsen, Mark, 2013a. Fuel economy and safety: the inﬂuences of vehicle class and driver behavior. Am. Econ. J. Appl. Econ. 5 (3), 1–26.
+Jacobsen, Mark R., 2013b. Evaluating U.S. Fuel economy standards in a model with producer and household heterogeneity. Am. Econ. J. Econ. Pol. 5 (2), 148–187.
+Kahn, Matthew, 2007. Do greens drive Hummers or hybrids? Environmental ideology as a determinant of consumer choice. J. Environ. Econ. Manag. 54 (2),
+129–145.
+Kahn, Matthew, Vaughn, Ryan, 2009. Green market geography: the spatial clustering of hybrid vehicles and LEED registered buildings. B E J. Econ. Anal. Pol. 9
+(2), 1935 1682.
+Langer, Ashley, 2012. (Dis)Incentives for Demographic Price Discrimination in the New Vehicle Market. Working Paper.
+Langer, Ashley, Lemoine, Derek, 2018. Designing Dynamic Subsidies to Spur Adoption of New Technologies. working paper.
+Leard, Benjamin, 2020. Estimating Consumer Substitution between New and Used Passenger Vehicles. Resources for the Future Working Paper.
+Li, Jing, 2016. Compatibility and Investment in the U.S. Electric Vehicle Market.
+Li, Shanjun, 2012. Traﬃc safety and vehicle choice: quantifying the effects of the ‘arms race’ on American roads. J. Appl. Econom. 27, 34–62.
+Li, Shanjun, Tong, Lang, Xing, Jianwei, Zhou, Yiyi, 2017. The market for electric vehicles: indirect network effects and policy impacts. J. Assoc. Environ. Resour.
+Econ. 4 (1), 89–133.
+Linn, Joshua, 2020. Reducing the Costs of Federal Fuel Economy and Greenhouse Gas Standards by Accurately Estimating Lifetime Vehicle Miles Traveled.
+Resources for the Future Issue Brief 20-10.
+Linn, Joshua, McConnell, Virginia, 2019. The role of state policies under federal light-duty vehicle greenhouse gas emissions standards. Energy Pol. 126, 507–517.
+Manski, Charles F., Lerman, Setven R., 1977. The estimation of choice probabilities from choice based samples. Econometrica 45 (8), 1977–1988.
+Muehlegger, Erich, Rapson, David S., 2020. Subsidizing Low- and Middle-Income Adoption of Electric Vehicles: Quasi-Experimental Evidence from California.
+Working Paper.
+Petrin, Amil, 2002. Quantifying the beneﬁt of new products: the case of minivan. J. Polit. Econ. 110 (4), 705–729.
+Sallee, James, 2011. The surprising incidence of tax credits for the Toyota Prius. Am. Econ. J. Econ. Pol. 3, 189–219.
+Sexton, Steven, Sexton, Alison, 2014. Conspicuous conservation: the Prius halo and willingness to pay for environmental bona ﬁdes. J. Environ. Econ. Manag. 67,
+303–317.
+Small, K., Rosen, H., 1981. Applied welfare Economics with discrete choice models. Econometrica 49 (1), 59–80.
+Springel, Katalin, 2020. Network Externality and Subsidy Structure in Two-Sided Market: Evidence from Electric Vechile Incentives.
+Train, Kenneth, 2009. Discrete Choice Models with Simulation. Cambridge University Press.
+Train, Kenneth E., Winston, Clifford, 2007. Vehicle choice behavior and the declining market share of U.S. Automakers. Int. Econ. Rev. 48, 1469–1496.
+West, Jeremy, Hoekstra, Mark, Meer, Jonathan, Puller, Steve, 2017. Vehicle miles (not) traveled: fuel economy requirements, vehicle characteristics, and house-
+hold driving. J. Publ. Econ. 145, 65–81.
+Whitefoot, Kate, Meredith, Fowlie, Skerlos, Steven J., 2013. Compliance by Design: Industry Response to Energy Eﬃciency Standards. Working Paper.
+Zhou, Yiyi, Li, Shanjun, 2018. Dynamics of technology adoption and critical mass in the market for electric vehicles. J. Ind. Econ. 2, 423–480.
+33

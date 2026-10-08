@@ -1,0 +1,14 @@
+{
+  "images": "D:\\blp-auto-fulltext-pack-20261008\\work\\pages\\A02_pNN.png（本轮渲染）",
+  "paper_note": "本地为 52 页工作论文版（正式刊 JPE 110(4): 705–729），印刷页码 = PDF 页 − 2。PDF 文字层整页是坏字体，本包正文是 RapidOCR 识别结果，希腊字母常被误识（如 \\xi 被识成 o，\\theta 被识成 0）。下列各式本轮看原页图转写，与 2026-10-08 文献包的看图转写一致。",
+  "items": [
+    {"page": 12, "label": "（效用，印刷 p.10）", "latex": "u_{ij}=\\alpha_i\\ln(y_i-p_j)+X_j\\beta+\\sum_k\\gamma_k\\nu_{ik}x_{jk}+\\xi_j+\\epsilon_{ij}", "check": "本轮看图", "note": ""},
+    {"page": 12, "label": "（收入组价格系数）", "latex": "\\alpha_i=\\begin{cases}\\alpha_0 & y_i\\le\\bar y_1\\\\ \\alpha_1 & \\bar y_1\\le y_i<\\bar y_2\\\\ \\alpha_2 & y_i\\ge\\bar y_2\\end{cases},\\qquad \\gamma_{ik}=\\gamma_k\\nu_{ik}", "check": "本轮看图", "note": "\\bar y_1,\\bar y_2 把美国人口按收入三等分。第 7.1 节（PDF 第 17 页）把这三个参数记作 (\\alpha_1,\\alpha_2,\\alpha_3)，低收入组写作 y_i<\\bar y_1，原文前后记号不一"},
+    {"page": 13, "label": "（家庭规模交互，印刷 p.11）", "latex": "\\gamma_{i,mi}=\\gamma_{mi}\\ln(fs_i)\\,\\nu_{if},\\qquad \\gamma_{i,sw}=\\gamma_{sw}\\ln(fs_i)\\,\\nu_{if}", "check": "本轮看图", "note": "mi 为厢式旅行车（minivan），sw 为旅行车；\\nu_{if} 为对家庭用车的共同特异口味"},
+    {"page": 13, "label": "（选择概率与份额）", "latex": "Pr(j\\mid X,i)=\\frac{e^{\\alpha_i\\ln(y_i-p_j)+X_j\\beta+\\sum_k\\gamma_k\\nu_{ik}x_{jk}+\\xi_j}}{\\sum_l e^{\\alpha_i\\ln(y_i-p_l)+X_l\\beta+\\sum_k\\gamma_k\\nu_{ik}x_{lk}+\\xi_l}},\\qquad s_j=\\int_i Pr(j\\mid X,i)\\,P(di)=\\int_i\\frac{e^{\\delta_j+\\mu_{ij}}}{\\sum_l e^{\\delta_l+\\mu_{il}}}P(di)", "check": "本轮看图", "note": "(y_i,fs_i) 联合分布取自 CEX；未观测口味用 K 个独立、在 95% 处截断的 \\chi^2(3)"},
+    {"page": 14, "label": "(5.1)", "latex": "\\ln(mc_j)=W_j\\tau+\\omega_j", "check": "本轮看图", "note": "其后 \\Pi_f=M\\sum_{j\\in J_f}(p_j-mc_j)\\,s_j(p,X;\\theta)，q_j(p,X;\\theta)=M\\,s_j(p,X;\\theta)，多产品 Bertrand-Nash"},
+    {"page": 17, "label": "（微观矩一，印刷 p.15）", "latex": "E\\big[\\{i\\text{ 购新车}\\}\\mid\\{y_i<\\bar y_1\\}\\big],\\quad E\\big[\\{i\\text{ 购新车}\\}\\mid\\{\\bar y_1\\le y_i<\\bar y_2\\}\\big],\\quad E\\big[\\{i\\text{ 购新车}\\}\\mid\\{y_i\\ge\\bar y_2\\}\\big]", "check": "本轮看图", "note": "按收入组的购车概率，识别收入效应参数"},
+    {"page": 18, "label": "（微观矩二，印刷 p.16）", "latex": "E\\big[fs_i\\mid\\{i\\text{ 购 minivan}\\}\\big],\\ E\\big[fs_i\\mid\\{i\\text{ 购 station wagon}\\}\\big],\\ E\\big[fs_i\\mid\\{i\\text{ 购 SUV}\\}\\big],\\ E\\big[fs_i\\mid\\{i\\text{ 购 full-size van}\\}\\big]", "check": "本轮看图", "note": "另有四个矩：四类家庭用车买家户主年龄在 30 至 60 岁的概率。共 11 个微观矩"},
+    {"page": 18, "label": "（BLP 矩）", "latex": "s_j(\\delta(\\theta),\\theta)-\\mathbf s_j=0,\\ j=0,1,\\dots,J;\\qquad E[\\xi_j(\\theta_0)\\mid(X,W)]=E[\\omega_j(\\theta_0)\\mid(X,W)]=0", "check": "本轮看图", "note": ""}
+  ]
+}

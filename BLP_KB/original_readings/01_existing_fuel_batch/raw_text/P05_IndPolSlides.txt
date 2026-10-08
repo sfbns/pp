@@ -1,0 +1,398 @@
+
+
+===== [PAGE 1] =====
+
+Industrial Policies and Innovation: Evidence from the
+Global Automobile Industry
+Panle Jia Barwick
+Hyuk-soo Kwon
+Shanjun Li
+UW-Madison & NBER
+U Chicago Harris
+Cornell & NBER
+Yucheng Wang
+Nahim Bin Zahur
+Cornell →U Sydney
+Queen’s
+ASSA 2025
+Industrial Policy
+Jan, 2025
+1 / 17
+
+
+===== [PAGE 2] =====
+
+Introduction
+Research question: how industrial policies (IPs) aimed at promoting electric
+vehicles (EVs), affect green innovation in the automobile sector.
+▶IP: (1) State action (2) Shift the composition of economic activity (targeting
+specific industry)
+We construct a unique database of global IPs and patents for the automobile
+industry.
+Key takeaway:
+▶Green transition global automobile industry.
+▶More EV IPs are associated with ↑in the number of EV patents.
+▶Firms with more EV experience innovate more rapidly, −→path dependence.
+2 / 17
+
+
+===== [PAGE 3] =====
+
+Introduction
+Research question: how industrial policies (IPs) aimed at promoting electric
+vehicles (EVs), affect green innovation in the automobile sector.
+▶IP: (1) State action (2) Shift the composition of economic activity (targeting
+specific industry)
+We construct a unique database of global IPs and patents for the automobile
+industry.
+Key takeaway:
+▶Green transition global automobile industry.
+▶More EV IPs are associated with ↑in the number of EV patents.
+▶Firms with more EV experience innovate more rapidly, −→path dependence.
+2 / 17
+
+
+===== [PAGE 4] =====
+
+Introduction
+Research question: how industrial policies (IPs) aimed at promoting electric
+vehicles (EVs), affect green innovation in the automobile sector.
+▶IP: (1) State action (2) Shift the composition of economic activity (targeting
+specific industry)
+We construct a unique database of global IPs and patents for the automobile
+industry.
+Key takeaway:
+▶Green transition global automobile industry.
+▶More EV IPs are associated with ↑in the number of EV patents.
+▶Firms with more EV experience innovate more rapidly, −→path dependence.
+2 / 17
+
+
+===== [PAGE 5] =====
+
+1
+Introduction
+2
+Data
+3
+Descriptive Patterns
+4
+Empirical Analysis: Impact of Industrial Policies on Innovation
+5
+Takeaways
+3 / 17
+
+
+===== [PAGE 6] =====
+
+Measuring IP 1: Using Global Trade Alert Database
+Natural Language Processing techniques to identify IPs (Juh´asz et al. 2023)
+1. Manually label a training dataset to either IP or non-IP.
+2. Train a supervised ML model and apply it to the entire dataset.
+3,385 unique automobile IPs.
+Classify IPs into three fuel types based on the six-digit Harmonized System
+(HS) code of Affected Products:
+1. EV: related to electric vehicles, e.g., “electrical”, “lithium,” and “batteries.”
+2. GV: related to internal combustion engine vehicles.
+3. General: related to both, e.g., brakes, safety airbags, and wheels.
+4 / 17
+
+
+===== [PAGE 7] =====
+
+Measuring IP 1: Using Global Trade Alert Database
+Natural Language Processing techniques to identify IPs (Juh´asz et al. 2023)
+1. Manually label a training dataset to either IP or non-IP.
+2. Train a supervised ML model and apply it to the entire dataset.
+3,385 unique automobile IPs.
+Classify IPs into three fuel types based on the six-digit Harmonized System
+(HS) code of Affected Products:
+1. EV: related to electric vehicles, e.g., “electrical”, “lithium,” and “batteries.”
+2. GV: related to internal combustion engine vehicles.
+3. General: related to both, e.g., brakes, safety airbags, and wheels.
+4 / 17
+
+
+===== [PAGE 8] =====
+
+Measuring IP 1: Using Global Trade Alert Database
+Natural Language Processing techniques to identify IPs (Juh´asz et al. 2023)
+1. Manually label a training dataset to either IP or non-IP.
+2. Train a supervised ML model and apply it to the entire dataset.
+3,385 unique automobile IPs.
+Classify IPs into three fuel types based on the six-digit Harmonized System
+(HS) code of Affected Products:
+1. EV: related to electric vehicles, e.g., “electrical”, “lithium,” and “batteries.”
+2. GV: related to internal combustion engine vehicles.
+3. General: related to both, e.g., brakes, safety airbags, and wheels.
+4 / 17
+
+
+===== [PAGE 9] =====
+
+Measuring IP 2: Using Country-by-Model EV Subsidy
+Compile a database of model-level EV subsidies and supply chain data for 13
+countries from 2013 to 2020 (account for 95% of global EV sales).
+▶E.g. Subsidy for Tesla Model 3 in the US in 2018 vs in China in 2020.
+Calculating the total subsidy exposure to firm-level (92 automakers and 45
+battery cell suppliers):
+ln TotalSubsidyit = ln
+ X
+m
+Salesimgt · Subsidyimgt
+
+,
+▶Firm i, model m, sales in country g, year t
+5 / 17
+
+
+===== [PAGE 10] =====
+
+Measuring IP 2: Using Country-by-Model EV Subsidy
+Compile a database of model-level EV subsidies and supply chain data for 13
+countries from 2013 to 2020 (account for 95% of global EV sales).
+▶E.g. Subsidy for Tesla Model 3 in the US in 2018 vs in China in 2020.
+Calculating the total subsidy exposure to firm-level (92 automakers and 45
+battery cell suppliers):
+ln TotalSubsidyit = ln
+ X
+m
+Salesimgt · Subsidyimgt
+
+,
+▶Firm i, model m, sales in country g, year t
+5 / 17
+
+
+===== [PAGE 11] =====
+
+Measuring Patents: PATSTAT Database
+Patent data from the European Patent Office (EPO)’s PATSTAT database.
+Classify fuel type of each patent filing record to EV/GV/Both based on
+International Patent Codes (IPC).
+Aggregate count of patent to country-level data and firm-level data (Aghion
+et al., 2016).
+6 / 17
+
+
+===== [PAGE 12] =====
+
+Measuring Patents: PATSTAT Database
+Patent data from the European Patent Office (EPO)’s PATSTAT database.
+Classify fuel type of each patent filing record to EV/GV/Both based on
+International Patent Codes (IPC).
+Aggregate count of patent to country-level data and firm-level data (Aghion
+et al., 2016).
+6 / 17
+
+
+===== [PAGE 13] =====
+
+Measuring Patents: PATSTAT Database
+Patent data from the European Patent Office (EPO)’s PATSTAT database.
+Classify fuel type of each patent filing record to EV/GV/Both based on
+International Patent Codes (IPC).
+Aggregate count of patent to country-level data and firm-level data (Aghion
+et al., 2016).
+6 / 17
+
+
+===== [PAGE 14] =====
+
+1
+Introduction
+2
+Data
+3
+Descriptive Patterns
+4
+Empirical Analysis: Impact of Industrial Policies on Innovation
+5
+Takeaways
+7 / 17
+
+
+===== [PAGE 15] =====
+
+The Number of New IPs in the Automobile Sector
+IPs targeting EVs have surged from almost non-existent in 2008 to 50% of
+IPs by 2022.
+8 / 17
+
+
+===== [PAGE 16] =====
+
+Top 20 Countries in Automobile-Related Industrial Policies
+9 / 17
+
+
+===== [PAGE 17] =====
+
+Global Trend of Newly Granted Inventions: 1980-2018
+EV-specific inventions have rapidly increased, surpassing GV inventions by
+2020
+10 / 17
+
+
+===== [PAGE 18] =====
+
+1
+Introduction
+2
+Data
+3
+Descriptive Patterns
+4
+Empirical Analysis: Impact of Industrial Policies on Innovation
+5
+Takeaways
+11 / 17
+
+
+===== [PAGE 19] =====
+
+Regression Analysis and Robustness
+County-IPC-level analysis:
+ln(Yclt) = α1 IPc,k,t−1 + α2 ln(Cum. Patentc,l,t−1)
++XcltΓ + τc + τl + τt + uclt,
+▶Yclt count of new EV patent, IPc,k,t−1 cumulative of EV IP
+▶Poisson pseudo maximum likelihood (PPML) with a rich set of fixed effects
+▶Alternative IP or patents measures.
+▶Placebo:
+1. Effects of EV IP on GV Patents.
+2. Effects of GV IP on EV Patents.
+12 / 17
+
+
+===== [PAGE 20] =====
+
+Regression Analysis and Robustness
+County-IPC-level analysis:
+ln(Yclt) = α1 IPc,k,t−1 + α2 ln(Cum. Patentc,l,t−1)
++XcltΓ + τc + τl + τt + uclt,
+▶Yclt count of new EV patent, IPc,k,t−1 cumulative of EV IP
+▶Poisson pseudo maximum likelihood (PPML) with a rich set of fixed effects
+▶Alternative IP or patents measures.
+▶Placebo:
+1. Effects of EV IP on GV Patents.
+2. Effects of GV IP on EV Patents.
+12 / 17
+
+
+===== [PAGE 21] =====
+
+Regression Analysis and Robustness
+County-IPC-level analysis:
+ln(Yclt) = α1 IPc,k,t−1 + α2 ln(Cum. Patentc,l,t−1)
++XcltΓ + τc + τl + τt + uclt,
+▶Yclt count of new EV patent, IPc,k,t−1 cumulative of EV IP
+▶Poisson pseudo maximum likelihood (PPML) with a rich set of fixed effects
+▶Alternative IP or patents measures.
+▶Placebo:
+1. Effects of EV IP on GV Patents.
+2. Effects of GV IP on EV Patents.
+12 / 17
+
+
+===== [PAGE 22] =====
+
+Patents Applied against Cumulative EV IPs: Country-Level
+A one-standard-deviation ↑in five-year cumulative EV-targeted IPs is
+associated with a 4% ↑in new EV patent applications
+13 / 17
+
+
+===== [PAGE 23] =====
+
+Regression Analysis and Robustness
+Firm level results
+ln(PATit) = a1 ln TotalSubsidyi,t−1 + a2 ln(Stockev
+c,t−1) + a3 ln(Stockgv
+c,t−1)
++τi + τt + εit
+▶Using demand-model-simulated sales and incentives as (IO-style) IV
+▶Identification: “shift-share” variations,
+1. Simulated sales: pre-determine sales and dealership network, brand loyalty,
+home bias, etc. =⇒“Share”
+2. Model-level subsidy: government policies, typically attribute-based =⇒“Shift”
+14 / 17
+
+
+===== [PAGE 24] =====
+
+EV Patents Applied against EV Subsidy Received:
+Firm-Level
+A 10% ↑in EV financial incentives received leads to a similar 4% ↑in EV
+innovations
+15 / 17
+
+
+===== [PAGE 25] =====
+
+Economics of Scale and Path Dependency
+Innovate more in EV technologies if:
+(1) having more EV patents accumulation/stock;
+Country-level Analysis
+(1)
+Lag 5-year Cum. EV IP
+0.045**
+(0.022)
+Lag log(1+Cum. granted P)
+0.436***
+(0.037)
+Environmental Policy Stringency
+0.063*
+(0.033)
+16 / 17
+
+
+===== [PAGE 26] =====
+
+Economics of Scale and Path Dependency
+Innovate more in EV technologies if:
+(1) having more EV patents accumulation/stock;
+(2) having less GV patents stock.
+Country-level Analysis
+(1)
+Lag 5-year Cum. EV IP
+0.045**
+(0.022)
+Lag log(1+Cum. granted P)
+0.436***
+(0.037)
+Environmental Policy Stringency
+0.063*
+(0.033)
+Firm-level Analysis
+(1)
+Lag ln(1+Total Subsidies)
+0.040***
+(0.008)
+[0.014]
+Lag Knowledge stock, EV
+0.525***
+(0.100)
+Lag Knowledge stock, GV
+-0.322***
+(0.101)
+16 / 17
+
+
+===== [PAGE 27] =====
+
+Takeaways
+We quantitatively study EV-targeted industrial policies and EV technology
+innovation in the global automobile market.
+We construct a unique database of global IPs and patents.
+Key findings:
+▶Increasing global trend towards greater usage of EV IPs and more EV patents.
+▶More EV IPs are associated with ↑in the number of EV patents.
+▶Firms with more EV experience innovate more rapidly, −→path dependence.
+17 / 17
+
+
+===== [PAGE 28] =====
+
+THANKS!
+yuchengwangecon@gmail.com
+17 / 17

@@ -1,0 +1,164 @@
+{
+  "rank": 8,
+  "item_key": "M5CH8LSF",
+  "title": "Effectiveness of China's plug-in electric vehicle subsidy",
+  "authors": [
+    "Tamara L. Sheldon",
+    "Rubal Dua"
+  ],
+  "creators": [
+    {
+      "name": "Tamara L. Sheldon",
+      "type": "author"
+    },
+    {
+      "name": "Rubal Dua",
+      "type": "author"
+    }
+  ],
+  "date": "2020-00-00 2020",
+  "journal": "Energy Economics",
+  "doi": "10.1016/j.eneco.2020.104773",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S0140988320301134",
+  "collections": [
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "BLP-style differentiated-product demand",
+  "apa_citation": {
+    "reference": "Sheldon, T. L., & Dua, R. (2020). Effectiveness of China's plug-in electric vehicle subsidy. Energy Economics. https://doi.org/10.1016/j.eneco.2020.104773",
+    "parenthetical": "(Sheldon & Dua, 2020)",
+    "narrative": "Sheldon and Dua (2020)"
+  },
+  "preferred_pdf_rel": "source_pdfs/08_m5ch8lsf.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "NAIJ5BQN",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:j.eneco.2020.104773.pdf.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\NAIJ5BQN\\j.eneco.2020.104773.pdf.pdf",
+    "exists": true,
+    "size": 818306
+  },
+  "legacy_note_rel": "raw/notes/08_m5ch8lsf.md",
+  "legacy_old_memory_rel": "raw/paper_memory/08_m5ch8lsf.md",
+  "fulltext_json_rel": "raw/fulltext/08_m5ch8lsf.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/08_m5ch8lsf.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper asks whether China's plug-in electric vehicle subsidy actually improved energy and fuel outcomes.\n- It finds that subsidies did improve fleet fuel economy and reduced gasoline use, but the cost per liter saved was high.\n- The policy lesson is that subsidy design and targeting matter more than headline generosity.",
+    "2. Story ladder": "- Real-world tension or puzzle: China used large subsidies to accelerate electric-vehicle adoption.\n- Why the puzzle matters now: expensive subsidies are only justified if they produce large and durable fuel savings.\n- What the literature already explains: EV incentives can move adoption, but cost-effectiveness is often unclear.\n- What is still missing or weakly identified: a welfare-relevant evaluation of the subsidy's actual fuel-saving payoff.\n- The paper's move: estimate how the subsidy changed fleet composition and fuel use.\n- Main payoff: the policy worked, but not efficiently enough to justify unqualified scaling.",
+    "3. Model or identification core": "- Research design type: policy effectiveness evaluation with counterfactual targeting.\n- Structural model class or reduced-form design: market outcome analysis of EV adoption and fleet fuel economy.\n- Key equations or choice objects: vehicle choice, subsidy response, and implied fuel consumption.\n- Endogeneity problem: subsidy receipt, income, and vehicle choice are jointly determined.\n- Identification strategy: compare subsidy exposure across consumer groups and policy regimes.\n- What assumptions are doing the heavy lifting: that observed changes can be attributed to subsidy design rather than unrelated market shocks.",
+    "4. Data and measurement": "- Unit of observation: vehicle sales / consumers in the Chinese plug-in EV market.\n- Market definition: China's plug-in electric vehicle market.\n- Main dependent variable: fleet fuel economy and gasoline consumption.\n- Core explanatory variables: subsidy generosity, consumer income, and vehicle attributes.\n- Instruments / moments / shocks: not fully extracted from OCR; the policy schedule and income targeting are the main design variation.\n- Important sample restrictions: plug-in EVs in China; exact years and segmentation are not fully recoverable from OCR.",
+    "5. Findings and mechanisms": "- Baseline result: subsidies improved fleet fuel economy by about 2%.\n- Mechanism evidence: gasoline use fell by about 6.66 billion liters.\n- Heterogeneity evidence: subsidies are more cost-effective when reduced for high-income consumers and increased for low-income consumers.\n- Welfare or counterfactual result: the paper reports a cost of roughly 1.90 USD per liter saved.\n- Limits the authors admit: a blunt subsidy cut would reduce market share sharply, about 21% if halved without offsetting measures.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: EV subsidy, adoption, and policy-targeting studies.\n- What exact gap the authors claim: prior work often reports adoption effects but not cost-effectiveness and targeting.\n- How the introduction stages novelty: by tying subsidy policy to fleet fuel economy and gasoline savings.\n- Whether the contribution is data, method, theory, policy, or a combination: policy evaluation plus targeting advice.",
+    "7. Literature review function": "- Where the review sits: in the introduction and policy motivation sections.\n- How the review is organized: EV adoption, subsidy policy, and policy efficiency.\n- Which citations do positioning work: EV incentive and transport policy papers.\n- Which citations do method-validation work: policy evaluation and discrete-choice studies in auto markets.",
+    "8. Writing structure map": "- Introduction move sequence: policy ambition -> cost-effectiveness puzzle -> evaluation design -> headline result.\n- Section order: background, empirical strategy, data, results, counterfactuals, conclusion.\n- Where the paper turns from setup to payoff: when it converts adoption effects into fuel-saving and cost numbers.\n- How tables/figures are used to move the argument: tables likely report fuel economy, gasoline savings, and subgroup targeting; OCR supports the headline figures clearly.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"An incentive can be effective and still be too expensive.\"\n- Best transition pattern: move from adoption to real resource savings.\n- Best contribution sentence pattern: \"We evaluate the subsidy on both environmental and fiscal grounds.\"\n- Best limitation or implication move: \"Targeting matters more than blanket generosity.\"",
+    "10. Memory update": "- Durable economics-writing principle: policy effectiveness and policy cost-effectiveness are different claims.\n- Durable structural-model principle: subsidy design should be evaluated through the consumer groups it actually changes.\n- Reusable empirical design idea: pair adoption effects with physical outcome metrics like fuel use.\n- Follow-up paper to pair with this one: a targeted EV incentive study with explicit income-based heterogeneity."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_m5ch8lsf_effectiveness-of-chinas-plug-in-electric-vehicle-subsidy\ndescription: Fulltext memory for Effectiveness of China's plug-in electric vehicle subsidy; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# Effectiveness of China's plug-in electric vehicle subsidy",
+    "Citation": "- Key: `M5CH8LSF`\n- DOI: `10.1016/j.eneco.2020.104773`\n- Journal: Energy Economics\n- Year: 2020\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\M5CH8LSF.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/M5CH8LSF/M5CH8LSF.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/M5CH8LSF.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- In this paper, we explore the impact and cost-effectiveness of the Chinese PEV subsidy program.",
+    "Story Logic": "- 故事起点：In this paper, we explore the impact and cost-effectiveness of the Chinese PEV subsidy program.\n- 制度/市场切口：Subsidies for promoting plug-in electric vehicle (PEV) adoption are a key component of China's overall plan for reducing local air pollution and greenhouse gas emissions from the light-duty vehicle sector.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：Subsidies for promoting plug-in electric vehicle (PEV) adoption are a key component of China's overall plan for reducing local air pollution and greenhouse gas emissions from the light-duty vehicle sector.",
+    "BLP Model Memory": "- BLP positioning: BLP-style differentiated-product demand\n- Evidence hits: random coefficients, mixed logit, discrete choice, welfare, counterfactual, instrument\n- Demand side: 需求侧是结构化离散选择/差异化产品需求系统，重点是恢复替代关系与价格弹性。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- INTRODUCTION\n- Journal Pre-proof\n- DATA\n- RESULTS & DISCUSSION\n- Counterfactual Simulation Analysis\n- CONCLUSION\n- PII: S0140-9883(20)30113-4\n- Reference: ENEECO 104773\n- To appear in: Energy Economics\n- Received date: 11 November 2019\n- Revised date: 12 March 2020\n- Accepted date: 23 April 2020",
+    "Reusable Writing Moves": "- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。",
+    "OCR Anchors": "- abstract: `ABSTRACT` (p.1) - ABSTRACT Subsidies for promoting plug-in electric vehicle (PEV) adoption are a key component of China‟s overall plan for reducing local air pollution and greenhouse gas emissions from the light-duty vehicle sector. In this paper, we explore the impact and cost-effectiveness of the Chinese PEV subsidy program.\n- introduction: `INTRODUCTION` (p.2) - INTRODUCTION China, the world‟s largest emitter of carbon dioxide in terms of total emissions, has announced ambitious climate goals in recent years. These include reducing carbon intensity of GDP by 40-45 percent of 2005 levels by 2020 and by 60-65 percent of 2005 levels by 2030 (Xu et al., 2017).\n- background: `Journal Pre-proof` (p.2) - Journal Pre-proof 2 China would have declined by 21% had the subsidy been halved without any countervailing measures. Indeed, recent media reports suggest a drop in PEV sales over the past four months since the subsidy cuts were implemented (Moss, 2019; Shane, 2019; Shepherd, 2019a, b).\n- data: `DATA` (p.3) - DATA The primary data set, purchased from J.D. Power and Associates1, is a survey of Chinese consumers who purchased a new model year 2017 vehicle (specifically, who purchased a new vehicle between October 2016 and September 2017).\n- results: `RESULTS & DISCUSSION` (p.6) - RESULTS & DISCUSSION\n- counterfactual: `Counterfactual Simulation Analysis` (p.7) - Counterfactual Simulation Analysis Table 4 compares the predicted counterfactual fleet if PEVs were unavailable for purchase in China to the current fleet with existing subsidies in China. Without PEVs, fleet fuel economy would be 12.38 km/L, roughly 2% lower than the current 12.62 km/L, with more of the improvement coming from high income consumers, who are more likely to purchase PEVs.\n- conclusion: `CONCLUSION` (p.10) - CONCLUSION Despite China‟s ambitious goal to have five million NEVs on the road by 2020, there is uncertainty over the future of the subsidy program. This paper seeks to shed light on the effectiveness of these subsidies with the intent of informing policy makers in the face of future program uncertainty.",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- The paper asks whether China's plug-in electric vehicle subsidy actually improved energy and fuel outcomes.\n- It finds that subsidies did improve fleet fuel economy and reduced gasoline use, but the cost per liter saved was high.\n- The policy lesson is that subsidy design and targeting matter more than headline generosity.\n\n- Real-world tension or puzzle: China used large subsidies to accelerate electric-vehicle adoption.\n- Why the puzzle matters now: expensive subsidies are only justified if they produce large and durable fuel savings.\n- What the literature already explains: EV incentives can move adoption, but cost-effectiveness is often unclear.\n- What is still missing or weakly identified: a welfare-relevant evaluation of the subsidy's actual fuel-saving payoff.\n- The paper's move: estimate how the subsidy changed fleet composition and fuel use.\n- Main payoff: the policy worked, but not efficiently enough to justify unqualified scaling.\n\n- Research design type: policy effectiveness evaluation with counterfactual targeting.\n- Structural model class or reduced-form design: market outcome analysis of EV adoption and fleet fuel economy.\n- Key equations or choice objects: vehicle choice, subsidy response, and implied fuel consumption.\n- Endogeneity problem: subsidy receipt, income, and vehicle choice are jointly determined.\n- Identification strategy: compare subsidy exposure across consumer groups and policy regimes.\n- What assumptions are doing the heavy lifting: that observed changes can be attributed to subsidy design rather than unrelated market shocks.\n\n- Unit of observation: vehicle sales / consumers in the Chinese plug-in EV market.\n- Market definition: China's plug-in electric vehicle market.\n- Main dependent variable: fleet fuel economy and gasoline consumption.\n- Core explanatory variables: subsidy generosity, consumer income, and vehicle attributes.\n- Instruments / moments / shocks: not fully extracted from OCR; the policy schedule and income targeting are the main design variation.\n- Important sample restrictions: plug-in EVs in China; exact years and segmentation are not fully recoverable from OCR.\n\n- Which papers are treated as the nearest neighbors: EV subsidy, adoption, and policy-targeting studies.\n- What exact gap the authors claim: prior work often reports adoption effects but not cost-effectiveness and targeting.\n- How the introduction stages novelty: by tying subsidy policy to fleet fuel economy and gasoline savings.\n- Whether the contribution is data, method, theory, policy, or a combination: policy evaluation plus targeting advice.\n\n- Where the review sits: in the introduction and policy motivation sections.\n- How the review is organized: EV adoption, subsidy policy, and policy efficiency.\n- Which citations do positioning work: EV incentive and transport policy papers.\n- Which citations do method-validation work: policy evaluation and discrete-choice studies in auto markets.",
+  "baseline_core_memory": "- Research design type: policy effectiveness evaluation with counterfactual targeting.\n- Structural model class or reduced-form design: market outcome analysis of EV adoption and fleet fuel economy.\n- Key equations or choice objects: vehicle choice, subsidy response, and implied fuel consumption.\n- Endogeneity problem: subsidy receipt, income, and vehicle choice are jointly determined.\n- Identification strategy: compare subsidy exposure across consumer groups and policy regimes.\n- What assumptions are doing the heavy lifting: that observed changes can be attributed to subsidy design rather than unrelated market shocks.\n\n- BLP positioning: BLP-style differentiated-product demand\n- Evidence hits: random coefficients, mixed logit, discrete choice, welfare, counterfactual, instrument\n- Demand side: 需求侧是结构化离散选择/差异化产品需求系统，重点是恢复替代关系与价格弹性。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+  "mechanism_memory": "- Baseline result: subsidies improved fleet fuel economy by about 2%.\n- Mechanism evidence: gasoline use fell by about 6.66 billion liters.\n- Heterogeneity evidence: subsidies are more cost-effective when reduced for high-income consumers and increased for low-income consumers.\n- Welfare or counterfactual result: the paper reports a cost of roughly 1.90 USD per liter saved.\n- Limits the authors admit: a blunt subsidy cut would reduce market share sharply, about 21% if halved without offsetting measures.\n\n- 故事起点：In this paper, we explore the impact and cost-effectiveness of the Chinese PEV subsidy program.\n- 制度/市场切口：Subsidies for promoting plug-in electric vehicle (PEV) adoption are a key component of China's overall plan for reducing local air pollution and greenhouse gas emissions from the light-duty vehicle sector.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：Subsidies for promoting plug-in electric vehicle (PEV) adoption are a key component of China's overall plan for reducing local air pollution and greenhouse gas emissions from the light-duty vehicle sector.",
+  "result_memory": "- Baseline result: subsidies improved fleet fuel economy by about 2%.\n- Mechanism evidence: gasoline use fell by about 6.66 billion liters.\n- Heterogeneity evidence: subsidies are more cost-effective when reduced for high-income consumers and increased for low-income consumers.\n- Welfare or counterfactual result: the paper reports a cost of roughly 1.90 USD per liter saved.\n- Limits the authors admit: a blunt subsidy cut would reduce market share sharply, about 21% if halved without offsetting measures.\n\n- Results anchor: ated using a large random sample of individual level, model\n- Conclusion anchor: Despite China‟s ambitious goal to have five million NEVs on the road by 2020, there is",
+  "writing_style_memory": "- Introduction move sequence: policy ambition -> cost-effectiveness puzzle -> evaluation design -> headline result.\n- Section order: background, empirical strategy, data, results, counterfactuals, conclusion.\n- Where the paper turns from setup to payoff: when it converts adoption effects into fuel-saving and cost numbers.\n- How tables/figures are used to move the argument: tables likely report fuel economy, gasoline savings, and subgroup targeting; OCR supports the headline figures clearly.\n\n- Best framing sentence pattern: \"An incentive can be effective and still be too expensive.\"\n- Best transition pattern: move from adoption to real resource savings.\n- Best contribution sentence pattern: \"We evaluate the subsidy on both environmental and fiscal grounds.\"\n- Best limitation or implication move: \"Targeting matters more than blanket generosity.\"\n\n- Durable economics-writing principle: policy effectiveness and policy cost-effectiveness are different claims.\n- Durable structural-model principle: subsidy design should be evaluated through the consumer groups it actually changes.\n- Reusable empirical design idea: pair adoption effects with physical outcome metrics like fuel use.\n- Follow-up paper to pair with this one: a targeted EV incentive study with explicit income-based heterogeneity.\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- INTRODUCTION\n- Journal Pre-proof\n- DATA\n- RESULTS & DISCUSSION\n- Counterfactual Simulation Analysis\n- CONCLUSION\n- PII: S0140-9883(20)30113-4\n- Reference: ENEECO 104773\n- To appear in: Energy Economics\n- Received date: 11 November 2019\n- Revised date: 12 March 2020\n- Accepted date: 23 April 2020\n\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "random coefficients",
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "instrumental variable",
+    "gmm",
+    "equilibrium",
+    "outside option",
+    "market definition",
+    "heterogeneity",
+    "fuel economy",
+    "differentiated product"
+  ],
+  "fulltext_headings": [
+    "Journal Pre-proof",
+    "Effectiveness of China's plug-in electric vehicle subsidy",
+    "PII:",
+    "S0140-9883(20)30113-4",
+    "DOI:",
+    "Reference:",
+    "ENEECO 104773",
+    "To appear in:",
+    "Energy Economics",
+    "Received date:",
+    "11 November 2019",
+    "Revised date:",
+    "12 March 2020",
+    "Accepted date:",
+    "23 April 2020",
+    "Energy",
+    "Economics",
+    "This is a PDF file of an article that has undergone enhancements after acceptance, such",
+    "ABSTRACT",
+    "INTRODUCTION",
+    "Studies have shown that various government policies, including but not limited to subsidies,",
+    "DATA",
+    "Consumer characteristics used in the analysis include income and annual vehicle kilometers traveled",
+    "To account for consumer heterogenity, the study aims to estimate separate choice models for low"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 2,
+      "snippet": "t of Economics, University of South Carolina, 1014 Greene St., Columbia, SC \n29208, USA \nbKing Abdullah Petroleum Studies and Research Center (KAPSARC), P.O. Box 88550, Riyadh \n11672, Saudi Arabia \n \nABSTRACT \nSubsidies for promoting plug-in electric vehicle (PEV) adoption are a key component of China‟s overall \nplan for reducing local air pollution and greenhouse gas emissions from the light-duty vehicle sector. In \nthis paper, we explore the impact and cost-effectiveness of the Chinese PEV subsidy program. In \nparticular, a vehicle choice model is estimated using a large random sample of individual level, model \nyear 2017 Chinese new vehicle purchases. The choice model is then used to predict PEV market share \nunder alternative policies. Simulation results suggest that the 2.5% PEV market share of Chinese new \nvehicle sales in 2017 resulted in China‟s new vehicle fleet fuel economy improving by roughly 2%, \nreducing total gasoline consumption by 6.66 billion liters. However, the curr"
+    },
+    "data": {
+      "page": 4,
+      "snippet": "the same reduced budget, had \nzero PEV subsidies been given to high-income consumers and higher subsidies been given to low-income \nconsumers, the PEV market share would have declined by only 8%. \n \nDATA \nThe primary data set, purchased from J.D. Power and Associates1, is a survey of Chinese \nconsumers who purchased a new model year 2017 vehicle (specifically, who purchased a new vehicle \nbetween October 2016 and September 2017). The data include 23,993 individuals across China who were \nrandomly selected using a street intercept recruitment approach to participate in the survey (additional \ndetails are provided in the Appendix). Vehicle specific variables include the make, model and segment of \nthe new vehicle as well as the vehicle‟s price, fuel consumption, transmission type, engine size, and drive \nsystem. Three additional vehicle characteristics, curb weight, fuel tank capacity and electric range, were \ntaken from the websites Chinaautoweb, Chinamobil, BitAuto and wattev2buy.com."
+    },
+    "model": {
+      "page": 2,
+      "snippet": "tion and greenhouse gas emissions from the light-duty vehicle sector. In \nthis paper, we explore the impact and cost-effectiveness of the Chinese PEV subsidy program. In \nparticular, a vehicle choice model is estimated using a large random sample of individual level, model \nyear 2017 Chinese new vehicle purchases. The choice model is then used to predict PEV market share \nunder alternative policies. Simulation results suggest that the 2.5% PEV market share of Chinese new \nvehicle sales in 2017 resulted in China‟s new vehicle fleet fuel economy improving by roughly 2%, \nreducing total gasoline consumption by 6.66 billion liters. However, the current PEV subsidy in China is \nexpensive, costing $1.90 per additional liter of gasoline saved. This is due to a large number of non-\nadditional PEV buyers, particularly high income consumers, who would have purchased the PEV \nregardless of the subsidy. Eliminating the subsidy for high income consumers and increasing it for low \nincome consumers c"
+    },
+    "results": {
+      "page": 2,
+      "snippet": "ated using a large random sample of individual level, model \nyear 2017 Chinese new vehicle purchases. The choice model is then used to predict PEV market share \nunder alternative policies. Simulation results suggest that the 2.5% PEV market share of Chinese new \nvehicle sales in 2017 resulted in China‟s new vehicle fleet fuel economy improving by roughly 2%, \nreducing total gasoline consumption by 6.66 billion liters. However, the current PEV subsidy in China is \nexpensive, costing $1.90 per additional liter of gasoline saved. This is due to a large number of non-\nadditional PEV buyers, particularly high income consumers, who would have purchased the PEV \nregardless of the subsidy. Eliminating the subsidy for high income consumers and increasing it for low \nincome consumers could result in a substantially lower cost per additional PEV ($13,758 versus $24,506). \nThis would allow for greater PEV adoption (3.11% versus 2.47% market share) for the same budget. In \nterms of the impact of th"
+    },
+    "conclusion": {
+      "page": 11,
+      "snippet": "Journal Pre-proof\n \n10 \nCONCLUSION \n \nDespite China‟s ambitious goal to have five million NEVs on the road by 2020, there is \nuncertainty over the future of the subsidy program. This paper seeks to shed light on the effectiveness of \nthese subsidies with the intent of informing policy makers in the face of future program uncertainty. \nUsing a large random sample of individual level, model year 2017 Chinese new vehicle purchases, a \nvehicle choice model is estimated. To capture consumer heterogeneity, the choice model is estimated \nseparately for low and high income consumers. The choice model is then used to predict PEV market \nshare under various subsidy scenarios. \nFindings suggest that PEVs have improved China‟s new vehicle fleet fuel economy by roughly \n2%, reducing total gasoline consumption by roughly 6.66"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper asks whether China's plug-in electric vehicle subsidy actually improved energy and fuel outcomes.",
+      "Which papers are treated as the nearest neighbors: EV subsidy, adoption, and policy-targeting studies."
+    ],
+    "session": [
+      "Retrieve by key/title: M5CH8LSF / Effectiveness of China's plug-in electric vehicle subsidy",
+      "Use collections and journal handles: Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Sheldon & Dua, 2020) / Sheldon and Dua (2020)"
+    ],
+    "agent": [
+      "Research design type: policy effectiveness evaluation with counterfactual targeting.",
+      "BLP positioning: BLP-style differentiated-product demand"
+    ],
+    "team": [
+      "Best framing sentence pattern: \"An incentive can be effective and still be too expensive.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

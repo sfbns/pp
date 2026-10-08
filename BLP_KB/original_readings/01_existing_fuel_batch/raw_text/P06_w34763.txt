@@ -1,0 +1,5569 @@
+
+
+===== [PAGE 1] =====
+
+NBER WORKING PAPER SERIES
+DRIVING INNOVATION:
+THE POLICY TOOLS POWERING ELECTRIC VEHICLE TECHNOLOGICAL INVENTIONS
+Jingni Zhang
+David Popp
+Working Paper 34763
+http://www.nber.org/papers/w34763
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+January 2026
+The authors thank Peter Wilcoxen and 2025 APPAM Fall Research Conference panelists for 
+helpful comments. A previous version was presented at Syracuse University and 2025 APPAM Fall 
+Research Conference. The views expressed herein are those of the authors and do not necessarily 
+reflect the views of the National Bureau of Economic Research.
+NBER working papers are circulated for discussion and comment purposes. They have not been 
+peer-reviewed or been subject to the review by the NBER Board of Directors that accompanies 
+official NBER publications.
+© 2026 by Jingni Zhang and David Popp. All rights reserved. Short sections of text, not to exceed 
+two paragraphs, may be quoted without explicit permission provided that full credit, including © 
+notice, is given to the source.
+
+
+===== [PAGE 2] =====
+
+Driving Innovation: The Policy Tools Powering Electric Vehicle Technological Inventions
+Jingni Zhang and David Popp
+NBER Working Paper No. 34763
+January 2026
+JEL No. O31, O38, Q55
+ABSTRACT
+Electric vehicles (EVs) are crucial for cutting transportation emissions, yet the policy drivers of EV 
+innovation remain underexplored. This study analyzes firm-level panel data on EV and battery 
+patents, covering more than 4,000 firms across 19 countries from 2010 to 2021, to assess how 
+these policy tools and their interactions in different time horizons influence innovative activity. We 
+test the effects of individual policy instruments that either raise demand for EVs or support the 
+development of EV technologies.  Stringent fuel-economy standards, financial incentives, 
+adoption targets, and public R&D investments each significantly increase patenting in EV and 
+battery technologies. Moreover, long-term EV targets amplify the innovative impact of public 
+R&D and standards while diminishing the marginal effect of short-term price signals. The results 
+suggest that governments can accelerate clean automotive innovation by combining long-term 
+adoption commitments with sustained R&D investment or strong performance standards, and by 
+managing these instruments as a coordinated policy portfolio rather than as separate tools. The 
+study contributes cross-country, firm-level evidence that links policy design to the direction of 
+clean technology innovation.
+Jingni Zhang
+Syracuse University
+The Maxwell School
+Department of Public Administration
+and International Affairs
+jzhan354@syr.edu
+David Popp
+Syracuse University
+The Maxwell School
+Department of Public Administration
+and NBER
+dcpopp@syr.edu
+
+
+===== [PAGE 3] =====
+
+1 
+ 
+1. Introduction 
+The global effort to decarbonize transportation has positioned electric vehicles (EVs) as a 
+central focus of climate policy. Public policy remains critical for accelerating innovation in EV 
+technologies. A growing body of evidence shows that environmental regulations and targeted 
+incentives can redirect inventive activity toward cleaner technologies, with particularly strong 
+effects observed in the conventional automotive sector (Popp, 2019; Aghion et al., 2016). 
+Governments now employ a mix of instruments to accelerate vehicle electrification. This mix 
+includes both demand-pull policies designed to increase consumer demand for EVs, such as 
+performance standards, EV sales targets, consumer purchase incentives, fuel and carbon taxes, as 
+well as technology-push policies that promote innovation through public investments in research 
+and development (R&D). These tools aim to address two persistent market failures: unpriced 
+environmental externalities that depress demand for low-carbon innovations, and knowledge 
+spillovers that weaken private R&D incentives (Aldieri et al., 2019; Bushnell et al., 2022).  If 
+they wish to tackle both market failures, policymakers need to coordinate both types of policies 
+rather than rely on any single instrument (Jaffe et al., 2005; Popp, 2019). 
+EVs now sit at the intersection of several policy and technology domains. They depend on 
+advances in batteries, power electronics, vehicle platforms, and charging networks, and they 
+respond to policies that target both energy use and industrial development. Policymakers in many 
+countries have built increasingly elaborate portfolios that combine both demand-pull and 
+technology-push types. Yet the effectiveness of policy still rests on a patchwork of evidence. 
+Much of what we know about induced innovation comes from stationary renewables or 
+efficiency improvements in internal combustion engine (ICE) vehicles. These early studies show 
+that higher fuel prices increased patenting in fuel-efficient and hybrid powertrains, suggesting 
+that both price signals (Aghion et al., 2016; Crabb and Johnson, 2010) and fuel-economy 
+standards vehicles (Knittel, 2011; Klier and Linn, 2016) can shift R&D toward lower-emission 
+technologies in traditional Internal-Combustion-Engine (ICE) vehicles. More recently, 
+Rozendaal and Vollebergh (2025) find that more stringent emission standards and regulatory 
+mandates strongly induce innovation in zero-emission and fuel-efficient technologies, whereas 
+increases in fuel taxes exert a comparatively modest effect. Luetkehaus (2025) shows that the 
+quality of policies included in demand-pull policy mixes matters but does not test the effect of 
+any specific policy. 
+Despite this recent work, the unique characteristics of the electric vehicle industry leave 
+several questions unexplored. First, many governments combine short-term policy instruments 
+such as subsidies or standards with long-term policy goals. For example, in 2017, Norway set a 
+target for 100 percent of new vehicle sales to be zero-emission by 2025. These long-term goals 
+may provide firms with predictability and certainty about future EV markets. Our paper 
+contributes to the literature by showing how long-term EV adoption commitments change the 
+way firms react to short term instruments and how policymakers can use the combination of 
+
+
+===== [PAGE 4] =====
+
+2 
+ 
+short-term and long-term policies when designing portfolios that support large scale 
+electrification. 
+Second, we provide EV specific evidence on how policies affect firm level innovation for 
+both electric vehicles themselves and battery/charging technologies.  This enables us to see how 
+policy affects innovation across the EV supply chain.  It also enables us to include many new 
+entrants into the EV innovation space, unlike existing work focusing on legacy automotive 
+manufacturers (e.g., Rozendaal and Vollebergh, 2025; Luetkehaus, 2025). Third, the paper links 
+policy effects to firm capabilities and knowledge bases. By tracking internal knowledge stocks 
+and external knowledge spillovers in EV, battery, and broader adjacent technologies, we identify 
+which types of knowledge are beneficial and where path dependence in conventional 
+technologies may slow the redirection of inventive effort. Together, these contributions inform 
+the design of coherent EV policy packages that accelerate low carbon innovation while 
+recognizing differences across firms and countries.  
+ 
+2. Background 
+EVs sit at the intersection of a fast-improving battery industry and a mature, globally 
+integrated car industry. From a small base in the early 2010s, sales grew quickly. In 2021, EV 
+sales worldwide reached 6.6 million, equal to nine percent of new-car sales, and the on-road 
+stock reached about 16.5 million (IEA, 2022). Patent data show that EV-related inventions make 
+up a growing share of low-carbon end-use technologies, and automakers and battery suppliers 
+lead these filings (EPO-IEA, 2021). EVs differ from modular energy-supply technologies such as 
+solar photovoltaics (PV) and wind. PV and wind concentrate learning in manufacturing lines and 
+standardized components. EV progress relies on co-development across the vehicle, the battery, 
+and the charging system. Engineers integrate batteries, power electronics, software, thermal 
+management, and safety systems into a single product and connect it to charging networks and 
+the grid (National Academies of Sciences, 2021). Global firms coordinate EV production through 
+platforms and supplier networks. They design vehicle architectures, battery packs, and software 
+stacks for multiple regions, then localize to meet each market’s rules. Rules in one large market 
+can redirect product plans worldwide because firms share platforms and plan for compliance 
+across regions (Sturgeon and Van Biesebroeck, 2011; Dechezleprêtre et al., 2015). 
+While EV innovation couples fast learning from real-world use with long product cycles, 
+governments need a policy mix that combines near-term policies with a clear long-term 
+direction. In the near term, governments can shift buyers’ preferences towards EVs and 
+accelerate production. Many examples illustrate how these short-term policies play a role in 
+stimulating EV adoption3. Norway exempted EVs from value-added and registration taxes and 
+added toll relief and other benefits, which lifted early adoption of EVs. France implemented a 
+ 
+3 These examples are in IEA’s Global EV Outlook 2021. 
+
+
+===== [PAGE 5] =====
+
+3 
+ 
+bonus-malus system that rewards low-emission cars and penalizes high-emission models. The 
+United States offered a federal income tax credit of up to $7,500, and several states adopted zero-
+emission vehicle (ZEV) mandates that created a more predictable market for manufacturers. 
+China combined national purchase subsidies with license-plate access in large cities and then 
+established a New Energy Vehicle credit scheme that ties compliance to EV and plug-in hybrid 
+sales. The Netherlands and Sweden linked registration and company-car taxes to vehicle CO₂ 
+ratings, which stimulated fleet uptake. Public procurement and fleet targets in the United 
+Kingdom and Germany, along with programs in Japan and South Korea, seeded early volumes 
+and built a pipeline of used EVs (IEA, 2021). Fuel-economy and CO₂ standards push firms to 
+improve powertrains and shift portfolios toward electric options, and higher fuel prices raise the 
+private value of efficiency and support demand for cleaner vehicles (Aghion et al., 2016; 
+Johnstone et al., 2010; Sierzchula et al., 2014).  
+For durable EV development, governments also need to set clear multi-year goals that 
+reduce uncertainty and guide capital planning. In 2017, Norway set a target for 100 percent of 
+new vehicle sales to be zero-emission by 2025. In 2019, Canada set targets for zero-emission 
+light-duty vehicle sales: 10 percent by 2025, 30 percent by 2030, and 100 percent by 2040.  
+China’s New Energy Automobile Industry Plan calls for 20 percent ZEV sales by 2025, and the 
+China Society of Automotive Engineers points to more than 50 percent by 2035. Across Europe, 
+binding CO₂ performance standards for cars and vans in 2025 and 2030, combined with national 
+phase-out dates in countries such as Denmark and the Netherlands, give firms a clear trajectory. 
+Near-term instruments generate demand and incremental cost declines. Long-term commitments 
+set desired future direction and coordinate investment across automakers, suppliers, utilities, and 
+charging providers. Together, they align firm strategy with societal goals and convert early 
+incentives into durable market transformation. 
+ 
+3. Literature Review 
+Research on climate and energy innovation highlights two broad levers that shape inventive 
+effort. Governments pull demand with pricing, regulation, and deployment programs that enlarge 
+markets for clean solutions, and they push technology with public R&D and demonstration that 
+reduce risk and expand the search frontier (Jaffe et al., 2005; Popp, 2019). Knowledge spillovers 
+connect these levers because ideas flow across firms, regions, and technologies, raising social 
+returns above private returns (Popp, 2016; Myers and Lanahan, 2022). Demand signals such as 
+standards, carbon and fuel prices, and targeted deployment support redirecting invention toward 
+cleaner trajectories and influence entry and diffusion (Mowery and Rosenberg, 1979; Nemet, 
+2009; Johnstone et al., 2010; Aghion et al., 2016). Public R&D, subsidies, and mission-oriented 
+programs build capabilities and generate sizable spillovers that sustain innovation beyond the 
+initial interventions (Veugelers, 2012; Czarnitzki and Lopes-Bento, 2013; Gross and Sampat, 
+2023; Myers and Lanahan, 2022). A coherent policy mix that balances these instruments and sets 
+
+
+===== [PAGE 6] =====
+
+4 
+ 
+credible long-term targets produces the most durable responses at home and through 
+international knowledge diffusion (Rogge and Reichardt, 2016; Schmidt and Sewerin, 2019; 
+Dechezleprêtre and Glachant, 2014; Gugler et al., 2024). 
+3.1. Demand-pull policies 
+Demand-pull policies increase the expected market size for clean technologies (Mowery and 
+Rosenberg, 1979; Nemet, 2009). When governments create credible demand through targets and 
+instruments, inventive activity shifts toward cleaner energy options (Nemet, 2009; Johnstone et 
+al., 2010). Past studies show that policy design matters for technological innovation in renewable 
+energy. In solar photovoltaics, feed-in tariffs and renewable certificate schemes raise patenting 
+(Johnstone et al., 2010; Palage et al., 2019). In wind, quantity obligations and tradable green 
+certificates increase innovation (Dechezleprêtre and Glachant, 2014). As these show that 
+demand-pull policies spur innovation in stationary renewables, our study tests whether analogous 
+signals in the transportation sector similarly shift inventive effort toward electrification. 
+For automobiles, regulatory instruments such as fuel-economy and tailpipe-CO₂ standards set 
+binding performance thresholds and compel firms to either adopt fuel-saving technologies or 
+change vehicle attributes. In the ICE car market, tighter standards increased the rate of adopting 
+efficiency technologies and shifted choices along the performance frontier as producers seek for 
+more efficient solutions in horsepower, torque, and size (Knittel, 2011; Klier and Linn, 2016). 
+Recent evidence also shows that standards can redirect inventive effort from traditional ICE 
+vehicles toward zero-emission platforms (Rozendaal and Vollebergh, 2025). Existing studies 
+reveal how standards shift inventive effort from ICE components to zero-emission parts but 
+seldom analyze EV innovation as an integrated system. Therefore, we focus on EV innovation 
+and show how regulatory demand shapes invention across the EV supply chain, including 
+drivetrains, battery packs and battery-management systems, and charging technologies. 
+Prices and financial incentives change what buyers value and expect to use, and firms redirect 
+inventive effort toward technologies that match those preferences. In the auto sector, higher 
+expected oil and gasoline prices raise the share of energy-efficient automotive patents (Crabb and 
+Johnson, 2010). In addition, tax-inclusive fuel prices even shift innovation toward cleaner auto 
+technologies, such as electric and hybrid drivetrains, from traditional auto technologies (Aghion 
+et al., 2016). Existing studies provide little insight into the link between fuel prices and pure EV 
+innovation. Fuel prices hold a direct connection to ICE vehicle design choices but have a weaker 
+conceptual tie to the technological processes that guide EV and battery innovation. Beyond fuel 
+prices, many countries deploy purchase-side incentives that expand the near-term market for 
+EVs, including tax credits, rebates, and preferential financing. The energy-innovation literature 
+classifies these tools as demand-pull instruments that raise consumers’ willingness to adopt 
+targeted technologies (Popp, 2019). Drawing on prior research, our study examines the EV-
+specific demand channel by testing whether higher fuel prices and stronger consumer purchase 
+
+
+===== [PAGE 7] =====
+
+5 
+ 
+incentives redirect market demand toward EVs and consequently steer firms’ inventive efforts 
+toward EV technologies. 
+ 
+3.2. Technology-push policies 
+Technology-push policies fund upstream research, development, and demonstration to 
+overcome knowledge-market failures that depress private R&D below the social optimum. Two 
+market failures matter most: unpriced environmental damages and the public-good nature of 
+knowledge that creates spillovers and underinvestment in discovery (Jaffe et al., 2005). Public 
+R&D is fundamental in early, uncertain technological stages and when entrenched installed bases 
+tilt incentives toward incumbent technologies. Clean-energy study exemplifies these conditions, 
+which makes early stage support a central lever for redirecting inventive effort (Veugelers, 2012). 
+In the EV domain, these frictions show up across the whole supply chain, such as battery 
+chemistry and manufacturing, power electronics, electric drive systems, and charging 
+infrastructure.  
+Large public R&D programs and grants both show that technology-push policy can change 
+the level, direction, and geography of innovation (Gross and Sampat, 2023; Myers and Lanahan, 
+2022). At the firm level, R&D subsidies increase inventive activity and R&D employment 
+without full crowd-out, generating sizable effects across recipient firms (Czarnitzki and Lopes-
+Bento, 2013). These results support the core premise of technology-push policy, showing that 
+well-designed public R&D can seed discovery, amplify knowledge spillovers, and strengthen 
+private innovation capacity. Most empirical work documenting the power of technology push 
+focuses on broad clean-energy domains or specific renewables, such as wind and solar, rather 
+than on EV technologies as a coherent innovation system. Therefore, we include public R&D in 
+transport energy efficiency as a technology-push policy variable to capture its influence on EV 
+innovation. 
+ 
+3.3. Policy horizons  
+Most governments use a broad portfolio of policy instruments to promote electric 
+vehicles. In addition to using both demand-pull or technology-push instruments, policies also 
+differ on the time horizons specified.  Governments combine policy tools designed to 
+immediately increase EV sales with long-term policy goals to improve predictability and 
+credibility (Rogge and Reichardt, 2016).  Long-term, quantified adoption targets shape firms’ 
+expectations about the future market for new technologies. For EVs, these targets typically 
+specify either the share of new-vehicle sales or the size of the on-road stock to be reached by a 
+given year. Within EV research, Luetkehaus (2025) includes long-term deployment targets as 
+part of an index to capture the quality of demand-pull policies in a country.  However, no prior 
+work separately tests the effectiveness of both long-term and short-term EV policies, either 
+
+
+===== [PAGE 8] =====
+
+6 
+ 
+separately or in combination.  In this paper, we construct EV adoption targets using announced 
+sales, realized deployment, and the remaining time to the target year. Treating targets as a distinct 
+policy variable, rather than embedding them in a single demand index, allows us to show both 
+how long‑run commitments influence on EV and battery patenting across a broad set of firms 
+and to test whether long term commitments also improve the effectiveness of short-term demand-
+push and technology-pull policies. 
+ 
+3.4. Knowledge spillovers 
+In addition to policy, the innovation eco-system in which a firm operates influences 
+innovation. Spillovers across different actors along the production chain raise the social return to 
+clean inventions as ideas travel across firms, technologies, and borders. EV innovation draws on 
+multiple fields including battery materials, cells, power electronics, and software to downstream 
+vehicle integration and charging networks. These links shape both the direction and intensity of 
+invention at each stage, so tracking knowledge spillovers along the value chain helps explain 
+who innovates, and what knowledge influences innovation. In the traditional auto industry, firm-
+level evidence shows that exposure to nearby clean knowledge and a firm’s own clean innovation 
+experience both increase clean patenting, while exposure to dirty knowledge reduces it. These 
+trends suggest path dependency shaped by external and internal spillovers affects the direction of 
+research (Aghion et al., 2016). For the EV industry, battery innovation grows outside the auto 
+sector but flows into carmakers through new supplier relationships. For example, Dugoua and 
+Dumas (2024) find that BEV invention accelerated when electronics-based battery firms joined 
+automakers’ networks. As such, in this paper we distinguish between potential spillovers from 
+multiple types of knowledge potentially relevant to EV innovation, including technologies 
+related to vehicles, batteries, and charging systems. 
+ 
+4. Hypotheses 
+4.1. The effects of the policy horizons 
+H1. Demand-pull policy interactions and EV-domain innovation. Evidence shows that near-
+term instruments steer automotive invention: higher fuel prices raise clean-tech patenting (Crabb 
+and Johnson, 2010; Aghion et al., 2016), tighter fuel-economy and CO₂ standards increase 
+adoption and shift choices toward efficiency (Klier and Linn, 2016), binding standards redirect 
+effort toward zero-emission platforms (Rozendaal and Vollebergh, 2025), and many jurisdictions 
+use purchase incentives that expand EV demand (Luetkehaus, 2025). This leaves two gaps we 
+address for EVs specifically: most prior work centers on the broader auto sector or efficiency 
+within ICEs, and EV adoption targets often appear inside composite indices based on 
+registrations rather than as numeric policy variables, so we ask whether fuel prices, performance 
+standards, financial incentives, and explicit sales or stock targets direct EV patenting.  
+
+
+===== [PAGE 9] =====
+
+7 
+ 
+H1a. Higher fuel prices, tighter performance standards, more generous financial incentives, 
+and more stringent EV adoption targets increase firm-level patenting in EV relevant 
+technologies. 
+In addition, EV and battery R&D involve long development cycles and sunk costs, so firms 
+react most when they believe that current signals will persist. Numeric EV adoption targets 
+reduce policy uncertainty and commit governments to future market creation, which changes the 
+expected payoff from investing in EV-oriented innovation in response to fuel prices, standards, 
+and purchase incentives. Therefore, we further test whether long-run targets amplify or substitute 
+for short-run instruments like standards and fuel prices. 
+H1b. Long-run EV adoption targets act as complementarity for near-term signals. The 
+marginal effect of tighter standards on EV and battery patenting rises where targets are more 
+stringent, and the marginal effect of higher fuel prices also falls where targets are more stringent. 
+H2. Technology-push policy interactions and EV-domain innovation. Public R&D addresses 
+environmental and knowledge-market failures and lowers the cost and risk of discovery (Jaffe et 
+al., 2005). Cross-country evidence links R&D support to higher patenting, and work in 
+renewables shows that R&D often interacts with deployment support, with stronger innovation 
+effects when feed-in tariffs operate than under certificate schemes (Costantini et al., 2017; Palage 
+et al., 2019). EV-specific research has not established whether EV-focused public R&D changes 
+firms’ near-term responses to prices, standards, and purchase incentives, which motivates the 
+interaction tests below. 
+H2a. Greater public R&D in energy and transport increases patenting in EV-relevant battery 
+technologies. 
+H2b. Long-run EV adoption targets strengthen the impact of public R&D. The marginal 
+effect of EV-relevant public R&D on EV and battery patenting increases when long-term targets 
+are more stringent. 
+ 
+4.2. The role of knowledge spillovers 
+We distinguish between internal knowledge stocks and external knowledge spillovers. 
+Internal stocks reflect a firm’s accumulated inventive experience, which shapes path dependence 
+and the cost of redirecting search. External spillovers arise when firms draw on knowledge that 
+originates in other firms, sectors, or countries through markets, supply chains, and imitation. 
+Prior work shows that deeper internal clean capabilities and closer technological proximity to 
+clean fields correlate with more green patenting at the firm and country level, and that domestic 
+demand conditions influence invention more strongly than foreign demand, even though foreign 
+demand still shapes innovation through diffusion across borders (Aghion et al., 2016; Verdolini 
+and Galeotti, 2011; Dechezleprêtre and Glachant, 2014). 
+
+
+===== [PAGE 10] =====
+
+8 
+ 
+For EVs, general battery knowledge plays a central enabling role. Firms that master battery 
+chemistry, cell design, and power electronics can integrate packs more effectively into vehicles, 
+manage performance, and improve efficiency. They also benefit when suppliers or foreign 
+innovators expand external stocks of battery knowledge, since these advances enter vehicles 
+through components and collaboration. At the same time, strong experience in traditional 
+automotive engineering or in general electricity technologies may lock firms into incumbent 
+design trajectories and pull effort away from EV-specific search. Existing research links 
+knowledge accumulation and spillovers to green invention but rarely maps EV-specific channels, 
+so this paper investigates the following hypothesis: 
+H3. Larger internal stocks of EV and battery knowledge increase firm-level EV patenting, 
+because they provide complementary capabilities for EV design and integration, whereas larger 
+internal stocks in adjacent fields such as traditional automobiles and general electricity decrease 
+EV patenting, as they reinforce path dependence on incumbent technologies. 
+H4. Larger external knowledge flows from traditional automotive or general electricity 
+sectors decrease firm-level EV patenting, because these types of knowledge reinforce firms’ 
+focus on incumbent design trajectories and divert effort away from EV-specific innovation.  
+ 
+5. Data and Methods 
+5.1. Patents 
+This study uses firm-level patent counts as the measure of inventive output. Patent counts are 
+a well-established proxy for innovation activity, capturing tangible outputs of R&D and 
+reflecting both the pace and direction of technological change (Popp, 2002; Aghion et al., 2016; 
+Noailly and Smeets, 2015; Rozendaal and Vollebergh, 2025; Dugoua and Gerarden, 2025). The 
+study relies on the European Patent Office’s PATSTAT database (Spring 2024 edition). Because 
+firms must file separate applications in each country where they seek intellectual protection, a 
+single invention can generate multiple filings. To avoid counting the same invention more than 
+once, this study groups all applications that trace back to a shared first-filed priority application 
+into a single patent family. To ensure patents represent innovations above a minimum quality 
+threshold, we restrict the sample to patent families that contain at least one granted patent. This 
+procedure preserves the uniqueness of each innovation at the firm level and enables accurate 
+construction of country-and-year weights.  
+Patent families are assigned to six EV-related technology categories using the Cooperative 
+Patent Classification (CPC) system (detailed definitions and CPC code mappings are provided in 
+Appendix A). This classification helps identify specific technological areas and enables precise 
+patent searches. We divide relevant patents into two categories: vehicle technologies and battery 
+technologies. Vehicle technologies include inventions for pure battery EVs, hybrid vehicles that 
+combine ICE with electric traction, and general alternative fuel vehicles that use hydrogen or 
+
+
+===== [PAGE 11] =====
+
+9 
+ 
+biofuels. Battery technologies include EV batteries, innovations in battery manufacturing 
+processes, battery management systems, ancillary components, and charging infrastructure such 
+as connectors and charging stations. A patent may fall into both categories when its CPC code 
+covers both vehicle and battery technologies. 
+ 
+5.2. Policies  
+This study examines policy instruments across a sample of nineteen advanced economies 
+over the period 2009-2021. The selected countries are Austria, Australia, Belgium, Canada, 
+Switzerland, China, Denmark, Finland, France, Germany, Japan, South Korea, the Netherlands, 
+Norway, Poland, Spain, Sweden, the United Kingdom, and the United States. These 19 countries 
+represent major auto-producing and innovating economies with significant EV policy activity, 
+providing substantial innovation output and diverse policy environments. Focusing on advanced 
+economies with reliable data ensures comparability and captures the policy variation needed to 
+identify effects.  
+The paper uses national-level policy metrics and firm-year patent outcomes. It constructs 
+firm-specific policy exposure indices to translate country-level policy signals into each firm’s 
+innovative environment. Firms in the EV sector operate globally and decide where to invest and 
+protect inventions based on market potential and regulatory conditions, not solely on domestic 
+policies. Firm-specific exposure thus provides a more realistic measure of the policy 
+environment faced by globally active firms. It reduces measurement error compared with 
+assigning all firms the same national policy index. Following Aghion et al. (2016), Grégoire-
+Zawilski and Popp (2024), and Rozendaal and Vollebergh (2025), the weight assigned to firm 𝑖𝑖’s 
+patent activity in country 𝑐𝑐 is defined as: 
+ 
+where 𝑤𝑤𝑐𝑐𝑐𝑐
+𝑃𝑃 is the in-sample patent share of firm 𝑖𝑖 in country 𝑐𝑐; 𝐺𝐺𝐺𝐺𝐺𝐺𝑐𝑐 denotes the real gross 
+domestic product of country 𝑐𝑐 in 2020 USD to reflect market size. 𝑤𝑤𝑐𝑐𝑐𝑐 is the resulting policy-
+exposure weight, capturing firm 𝑖𝑖’s patent applications filed in country 𝑐𝑐, raised to the power of 
+0.35. 𝐺𝐺𝐺𝐺𝐺𝐺0.35 reflects that policy salience scales less than linearly with market size. This follows 
+recent clean-innovation studies that combine firm patent shares with concave market-size 
+weights and specifically use an exponent near one-third4, consistent with the empirical elasticity 
+of patenting with respect to market size (Dechezleprêtre et al., 2021; Grégoire-Zawilski and 
+Popp, 2024; Rozendaal and Vollebergh, 2025). We apply these weights to each policy series and 
+then sum across countries to obtain the firm-level exposure in year 𝑡𝑡: 
+ 
+4 The results stay similar when we do robustness checks using an exponent of 1, in Appendix 9.6 and 9.7. 
+𝑤𝑤𝑐𝑐𝑐𝑐=
+𝑤𝑤𝑐𝑐𝑐𝑐
+𝑃𝑃𝐺𝐺𝐺𝐺𝐺𝐺𝑐𝑐
+0.35
+∑𝑤𝑤𝑐𝑐′𝑖𝑖
+𝑃𝑃𝐺𝐺𝐺𝐺𝐺𝐺𝑐𝑐′
+0.35
+𝑐𝑐′
+
+
+===== [PAGE 12] =====
+
+10 
+ 
+𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃 𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝑖𝑖𝑖𝑖
+𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝= ෍𝑤𝑤𝑐𝑐𝑐𝑐
+𝑐𝑐
+𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑐𝑐𝑐𝑐 
+We adopt the in-sample weighting scheme because it captures the most complete and 
+contemporaneous information on where firms actively innovate during the study period. While 
+many previous studies use pre-sample weights that rely solely on historical patenting before 
+study period, in-sample weights reflect each firm’s current patenting distribution across 
+countries, aligning policy exposure with the markets where firms actually seek protection and 
+commercialization opportunities. Noailly and Smeets (2015) use in-sample weights, weighting 
+country prices and market sizes by each firm’s observed patent-designation shares for renewable 
+energy technologies. This improves the accuracy of measured policy exposure for firms that 
+expand into new policy environments or shift their innovation portfolios during the 2010-2021 
+period. The tradeoff is that using in-sample data may introduce potential endogeneity if firms 
+choose their patenting locations in response to policy changes. However, the gain in 
+completeness outweighs this concern, since in-sample weights capture dynamic patterns of 
+international patenting that pre-sample schemes cannot observe. This approach allows the model 
+to reflect evolving firm strategies, new entrants, and changing market engagement, providing a 
+more realistic mapping between policy conditions and innovation behavior. Of particular 
+importance for this study is the emergence of new EV firms in China whose first patents appear 
+during our sample period. Robustness checks using alternative pre-sample weighting schemes 
+confirm that the main results are not sensitive to this choice, suggesting that potential 
+endogeneity is limited. 
+We measure end-use gasoline prices with the International Energy Agency (IEA) End-Use 
+Prices Database. For each country and year, we use the annual average retail price of motor 
+gasoline, tax inclusive, expressed in US dollars per liter and converted to 2020 dollars for 
+comparability. 
+We compile fuel-economy and greenhouse-gas standards by country and year. For China, 
+Japan, South Korea, the United States, and all European Union member states, we use 
+TransportPolicy.net and the International Council on Clean Transportation (ICCT) database. We 
+use the Canada Motor Vehicle Fuel Consumption Standards Regulations from the Justice Laws 
+website for Canada. Jurisdictions report standards in different units, so we convert every limit to 
+grams of CO2 per kilometer using the ICCT conversion tool. Lower values represent tighter 
+standards. For country 𝑐𝑐 and year 𝑡𝑡: 
+𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑐𝑐𝑐𝑐= max
+𝑐𝑐𝑐𝑐𝑐𝑐,𝑡𝑡𝑡𝑡𝑡𝑡(𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆) − 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑐𝑐𝑐𝑐 
+where max (𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆) is the least stringent standard (e.g. most emissions allowed) across all 
+countries (C) and years (T). This construction benchmarks the scale to the least stringent global 
+standard and assigns higher values to countries with stricter limits. The transformation provides a 
+more intuitive interpretation of standards: while raw standards fall as policies tighten, 
+
+
+===== [PAGE 13] =====
+
+11 
+ 
+𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑐𝑐𝑐𝑐 rises, so a positive coefficient on stringency reads as greater innovation 
+under stricter standards.  
+We collect financial incentive information from governmental sources (details in Appendix 
+B). We record purchase incentives that reduce the up-front cost of an EV, such as value-added tax 
+exemptions and direct purchase rebates, and convert their face value to 2020 US dollars. In 
+addition, use-phase benefits capture financial relief during ownership and operation. For each 
+country-year, we compute an index as the sum of four binary indicators: lower emissions or 
+circulation taxes for EVs, lower annual road taxes, toll exemptions or discounts, and reduced 
+registration fees. Set each indicator to 0.25 when the benefit applies at the national level in that 
+year and to 0 otherwise. Together, these measures capture both one-time and recurring financial 
+support for EV adoption. 
+The above policies provide immediate incentives to increase EV demand. To capture long-
+term policy goals, we create a measure of long-term EV target stringency using official EV 
+adoption targets and actual EV sales data (more information in Appendix C). Unlike fuel 
+economy standards, which target efficiency improvement and CO2 emission in general and do 
+not require usage of EVs to be met, this target variable specially focuses on EVs. Given different 
+policy paces and EV market demands in each country, we construct a target stringency index that 
+combines each country’s stated cumulative EV target and actual cumulative EV sales. For 
+country 𝑐𝑐 in year 𝑡𝑡, let 𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝑐𝑐𝑐𝑐 denote the announced target for a future year 𝑇𝑇, let 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑐𝑐𝑐𝑐 denote 
+cumulative EV sales through year 𝑡𝑡, and let 𝑌𝑌𝑌𝑌𝑌𝑌𝑌𝑌𝑌𝑌 𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝑐𝑐𝑐𝑐= 𝑇𝑇−𝑡𝑡. Using IEA sales data, 
+compute: 
+𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑐𝑐𝑐𝑐= 𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝑐𝑐𝑐𝑐−𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑐𝑐𝑐𝑐
+𝑌𝑌𝑌𝑌𝑌𝑌𝑌𝑌𝑌𝑌 𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝑐𝑐𝑐𝑐
+ 
+The index expresses the annual increases in EV sales needed to meet the target given the 
+remaining years available to meet the target. Larger values indicate more demanding 
+commitments either because the gap is large or because the time to the target year is short. Values 
+decline as countries accumulate EV sales. 
+Two coding choices keep the measure comparable across countries and over time. First, in 
+years with no national target, we set 𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑐𝑐𝑐𝑐= 0 to reflect the absence of 
+commitment. Second, when governments revise targets, we update 𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝑐𝑐𝑐𝑐 and 𝑇𝑇 in the year of 
+the new announcement so the index demonstrates the policy in force at each date. 
+We apply firm-specific weights to gasoline prices, standard stringency, the 
+financial-incentive measures, and target stringency to obtain firm-level policy exposures. We 
+then relate these exposures to firm-year patenting outcomes in EV technologies. 
+ 
+
+
+===== [PAGE 14] =====
+
+12 
+ 
+5.3. Knowledge stocks 
+We measure each firm’s internal and external knowledge stocks in four mutually exclusive 
+technology fields: EV/Hybrid, Batteries and Charging, General Automobile, and General 
+Electricity. We use granted-patent family data from 1995 to 2021 and assign patent families to 
+fields with a concordance of CPC classes described in Appendix D. Following prior work on 
+dynamic knowledge accumulation (Aghion et al., 2016; Grégoire-Zawilski and Popp, 2024; 
+Rozendaal and Vollebergh, 2025), we construct two stocks. 
+For firm 𝑖𝑖, technology field 𝑗𝑗, and year 𝑡𝑡, let 𝑃𝑃𝑖𝑖𝑖𝑖𝑖𝑖 be the number of granted patent families 
+that firm 𝑖𝑖 ϐiled in field 𝑗𝑗 during year 𝑡𝑡. We set the annual depreciation rate to 𝛿𝛿 = 0.15 (15 
+percent per year). The internal stock accumulates new patents: 
+ 
+External knowledge captures ideas created by others that remain relevant to field 𝑗𝑗. For each 
+country 𝑐𝑐, define 𝑃𝑃𝑐𝑐𝑐𝑐𝑐𝑐 as the total number of granted patent families in field 𝑗𝑗 in country 𝑐𝑐 during 
+year 𝑡𝑡 for all assignees, and define 𝑃𝑃𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖 as the number granted to firm 𝑖𝑖 in that country, field, and 
+year. We subtract 𝑃𝑃𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖 to avoid counting the firm’s own patents as an outside source. The 
+country‐level external stock for firm 𝑖𝑖 as:  
+𝐾𝐾𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖
+𝑒𝑒𝑒𝑒𝑒𝑒= (1 −𝛿𝛿)𝐾𝐾𝑖𝑖𝑖𝑖𝑖𝑖−1
+𝑖𝑖𝑖𝑖𝑖𝑖
++ 𝑃𝑃𝑐𝑐𝑐𝑐𝑐𝑐− 𝑃𝑃𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖 
+Firms operate and learn across several national markets, so we aggregate country-level 
+external stocks with a time-invariant inventor share 𝑤𝑤𝑖𝑖𝑖𝑖
+𝐾𝐾. We compute 𝑤𝑤𝑖𝑖𝑖𝑖
+𝐾𝐾 from the distribution of 
+firm 𝑖𝑖’s inventors across all countries over 1995 to 2021. These shares can include countries 
+outside the 19 economies used in the policy analysis because inventor teams may work and learn 
+there. This weight represents where each firm’s inventors do their work.  For example, a weight 
+of 0.5 for the U.S signals that half of a firm’s inventors have US addresses. The firm-level 
+external stock equals: 
+ 
+The knowledge weights trace where the firm does research and absorbs ideas. These weights 
+differ from the time-varying policy weights 𝑤𝑤𝑐𝑐𝑐𝑐 used to form the policy exposure indices, which 
+reflect where the firm seeks patent protection and intends to market their products. 
+We measure public R&D inputs with national spending on energy efficiency in the 
+transportation sector. EV-specific R&D figures do not exist in a consistent cross-country panel, 
+so the transportation energy-efficiency line in the IEA Technology RD&D Budgets Database 
+provides the best available proxy. Because the IEA database does not report China, we add the 
+transportation R&D budget from China’s National Bureau of Statistics. To map R&D to firms, 
+𝐾𝐾𝑖𝑖𝑖𝑖𝑖𝑖
+𝑖𝑖𝑖𝑖𝑖𝑖= (1 −𝛿𝛿)𝐾𝐾𝑖𝑖𝑖𝑖𝑖𝑖−1
+𝑖𝑖𝑖𝑖𝑖𝑖
++ 𝑃𝑃𝑖𝑖𝑖𝑖𝑖𝑖 
+𝐾𝐾𝑖𝑖𝑖𝑖𝑖𝑖
+𝑒𝑒𝑒𝑒𝑒𝑒= ∑𝑤𝑤𝑖𝑖𝑖𝑖
+𝐾𝐾 𝐾𝐾𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖
+𝑒𝑒𝑒𝑒𝑒𝑒
+
+
+===== [PAGE 15] =====
+
+13 
+ 
+we use the knowledge weights 𝑤𝑤𝑖𝑖𝑖𝑖
+𝐾𝐾 rather than policy weights 𝑤𝑤𝑐𝑐𝑐𝑐, since inventors typically must 
+reside in the country where R&D support is provided. 
+Table 1 shows descriptive statistics for policy variables, knowledge stocks, and the main 
+outcome, patents. Policy variables and GDP are at the country level, and patents, internal, and 
+external knowledge stocks are at the firm level. 
+Table 1  
+Summary statistics. 
+ 
+Observations 
+Mean 
+Std. Dev. 
+Min 
+Max 
+End-Use Gasoline Price 
+228 
+1.74 
+0.48 
+0.68 
+2.89 
+Standard Stringency 
+228 
+90.18 
+25.12 
+0 
+118.90 
+Transport Energy-Efficiency R&D 
+228 
+229.96 
+582.82 
+0 
+3,680.24 
+Financial Incentives 
+228 
+22,446.07 
+81881.52 
+0 
+485,426 
+Use Benefit 
+228 
+0.63 
+0.24 
+0.25 
+1 
+Target Stringency 
+228 
+122,125.10 
+249607.70 
+0 
+1,955,000 
+GDP 
+228 
+3,041.21 
+4721.59 
+252.49 
+2,1826.23 
+Patent 
+26,361 
+4.60 
+28.38 
+0 
+1,057 
+Int. knowledge stocks - EVs 
+26,361 
+22.31 
+178.08 
+0 
+6,334.26 
+Int. knowledge stocks - batteries 
+26,361 
+13.41 
+91.45 
+0 
+3,875.07 
+Int. knowledge stocks - general 
+auto 
+26,361 
+27.27 
+191.38 
+0 
+5,463.52 
+Int. knowledge stocks - general 
+electricity 
+26,361 
+11.47 
+ 
+69.07 
+0 
+2,519.87 
+Ext. knowledge stocks - EVs 
+26,361 
+10,592.60 
+8,923.45 
+0.025 
+38,815.47 
+Ext. knowledge stocks - batteries 
+26,361 
+8,469.57 
+8,323.11 
+0 
+33,615.63 
+Ext. knowledge stocks - general 
+auto 
+26,361 
+11,822.04 
+6,254.00 
+0 
+22,781.96 
+Ext. knowledge stocks - general 
+electricity 
+26,361 
+9,040.89 
+7,268.79 
+0 
+29,783.45 
+ 
+As shown in Figure 1, the volume of EV-related patents rose gradually until about 2009 and 
+then accelerated sharply in the following decade. Inventive output reached a peak of roughly 
+9,000 patents in 2013, followed by a second peak of around 14,000 patents in 2018. This pattern 
+reflects an incubation phase in the early 2000s, followed by rapid growth coinciding with the 
+introduction of more stringent policies and market incentives supporting EVs. The sample period 
+begins in 2010 to coincide with the onset of rapid acceleration in EV patenting, allowing the 
+analysis to capture the most salient phase of this emerging technology’s rise. Toward the end of 
+the sample period, the number of patents appears to drop off, potentially for two reasons. First, 
+there may be truncation bias since patent applications take time to be examined and granted; 
+many late-period filings remain under review and thus are not yet counted in the data. Second, 
+the global COVID-19 pandemic likely dampened inventive activity temporarily, contributing to 
+
+
+===== [PAGE 16] =====
+
+14 
+ 
+the recent dip in patent counts. Appendix F provides additional details on patents by technology 
+and lists the top 20 patenting firms. 
+Figure 2 shows steady tightening of standards across major markets from 2009 to 2020, with 
+clear differences in timing and levels. The EU and Japan start the period with the highest 
+stringency and remain at the front through most years. China raises stringency in a step around 
+the mid-2010s and reaches near-front-runner levels by 2020. The United States and Canada 
+climb gradually from a low base and approach the 90-100 range by the end of the period. South 
+Korea holds flat for much of the decade and then increases late. The pattern points to 
+convergence toward stricter targets, but it also shows that jurisdictions tighten in bursts rather 
+than through smooth annual increments. 
+Figure 3 highlights two broad messages regarding gasoline prices. First, prices move 
+together across countries over time, with a clear peak around 2012-2013, a sharp drop in 2015, a 
+partial recovery through 2018, and another softening by 2020. Second, large and persistent cross-
+country gaps remain. High-tax European markets such as Norway, the Netherlands, the United 
+Kingdom, and Germany stay at the top of the price distribution, while the United States sits at 
+the bottom throughout, and China remains relatively low. These patterns suggest that global oil 
+dynamics drive common swings, while national tax and policy regimes create differences in 
+prices that persist over the decade. 
+Figure 4 shows target stringency rising slowly through the early 2010s and then jumping 
+towards the end of the sample period. France stands out with the largest surge, peaking around 
+2019 before a small pullback. Germany and China also post sharp late-period increases. The 
+United States and Canada climb at a steadier pace, while Japan, Norway, the Netherlands, and 
+South Korea change little until a modest uptick near the end. Overall, countries tighten in waves 
+rather than through smooth annual steps. This figure excludes other countries where their target 
+stringency stayed broadly stable over this period. 
+
+
+===== [PAGE 17] =====
+
+15 
+ 
+Fig. 1. Number of EV patents over time. 
+ 
+Notes: Based on authors’ calculations for patents from selected CPC classes. 
+ 
+Fig. 2. Fuel-economy standard stringency over time by country/region (2009-2020). 
+ 
+Notes: Authors calculate stringency index using raw fuel-economy standards. See data sources in Method 
+section. 
+
+
+===== [PAGE 18] =====
+
+16 
+ 
+Fig. 3. End-use gasoline price over time in selected countries (2009-2020). 
+ 
+Notes: This figure shows the end-use gasoline price pattern, in 2020 US dollars, by country. This figure 
+only shows the countries with different price patterns, and countries with similar patterns are omitted in 
+this figure for readability. Source: International Energy Agency. 
+ 
+Fig. 4. Target stringency over time in selected countries (2009-2020). 
+ 
+Notes: This figure shows the target stringency pattern by country based on authors’ calculations. 
+Countries with relatively small stringency numbers or being less representative are omitted in this figure 
+for readability. Source: see Appendix C. 
+
+
+===== [PAGE 19] =====
+
+17 
+ 
+6. Empirical Strategy 
+6.1. Main model 
+We use a Poisson specification to count patents to assess how policy measures and 
+knowledge stocks influence innovation. The innovative outcome is EV-related patents filed by 
+firm 𝑖𝑖 in year 𝑡𝑡. Firms’ pre-sample mean patent output serves as a control for unobserved, time-
+invariant heterogeneity in baseline inventive capacity, alongside year fixed effects. We include 
+each firm’s average EV patents before 2010 as a covariate for two reasons. The pre-sample mean 
+captures unobserved differences in baseline innovativeness, accounting for the fact that some 
+firms are consistently more innovative than others. More importantly, our specification includes 
+lagged knowledge stocks, meaning that simple firm fixed effects violate strict exogeneity. Using 
+the pre-sample mean absorbs heterogeneity without violating strict exogeneity (Blundell, 
+Griffith, and Van Reenen, 1995; Noailly and Smeets, 2015). We lag policy and knowledge 
+variables by one year to respect timing and limit simultaneity5, and we include year effects to 
+absorb shocks and global trends such as general advances in battery technology or global 
+economic cycles. The baseline specification can be described as: 
+𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑖𝑖𝑖𝑖= exp (𝛽𝛽0  + 𝛽𝛽1𝑙𝑙𝑙𝑙𝐺𝐺𝐺𝐺𝑖𝑖𝑖𝑖−1 + 𝛽𝛽2𝑙𝑙𝑙𝑙𝑆𝑆𝑆𝑆𝑖𝑖𝑖𝑖−1 + 𝛽𝛽3𝑙𝑙𝑙𝑙𝑅𝑅𝑅𝑅𝑖𝑖𝑖𝑖−1  + 𝛽𝛽4𝑇𝑇𝑇𝑇𝑖𝑖𝑖𝑖−1 + 𝛽𝛽5𝐹𝐹𝐹𝐹𝑖𝑖𝑖𝑖−1 
++ 𝛽𝛽6𝑈𝑈𝑈𝑈𝑖𝑖𝑖𝑖−1 + 𝛽𝛽7𝑙𝑙𝑙𝑙𝐼𝐼𝐼𝐼𝐼𝐼𝑖𝑖𝑖𝑖−1 + 𝛽𝛽8𝑙𝑙𝑙𝑙𝐼𝐼𝐼𝐼𝐼𝐼𝑖𝑖𝑖𝑖−1 + 𝛽𝛽9𝑙𝑙𝑙𝑙𝐼𝐼𝐼𝐼𝐼𝐼𝑖𝑖𝑖𝑖−1 + 𝛽𝛽10𝑙𝑙𝑙𝑙𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝑖𝑖𝑖𝑖−1 
++ 𝛽𝛽11𝑙𝑙𝑙𝑙𝐸𝐸𝐸𝐸𝐸𝐸𝑖𝑖𝑖𝑖−1 + 𝛽𝛽12𝑙𝑙𝑙𝑙𝐸𝐸𝐸𝐸𝐸𝐸𝑖𝑖𝑖𝑖−1 + 𝛽𝛽13𝑙𝑙𝑙𝑙𝐸𝐸𝐸𝐸𝐸𝐸𝑖𝑖𝑖𝑖−1 + 𝛽𝛽14𝑙𝑙𝑙𝑙𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝑖𝑖𝑖𝑖−1 
++ 𝛽𝛽15𝑙𝑙𝑙𝑙𝑋𝑋𝑖𝑖𝑖𝑖−1 + 𝛽𝛽16𝑎𝑎𝑎𝑎𝑎𝑎𝑝𝑝𝑝𝑝𝑝𝑝+ 𝛽𝛽17𝑧𝑧𝑧𝑧𝑧𝑧𝑧𝑧𝑝𝑝𝑝𝑝𝑝𝑝+ 𝛾𝛾𝑦𝑦+ 𝜀𝜀𝑖𝑖𝑖𝑖) 
+𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑖𝑖𝑖𝑖 represents the number of granted patent applications by firm 𝑖𝑖 in year 𝑡𝑡. The 
+coefficients of interest are the policy variables and knowledge stocks. 𝐺𝐺𝐺𝐺 stands for gasoline 
+prices in unit USD/liter in 2020 US dollar; 𝑆𝑆𝑆𝑆 is fuel consumption standard stringency; 𝑅𝑅𝑅𝑅 
+captures R&D investment in energy efficient in the transportation sector in 2020 US dollar; 𝑇𝑇𝑇𝑇  
+captures EV target stringency; 𝐹𝐹𝐹𝐹 measures purchase-side financial incentives; 𝑈𝑈𝑈𝑈 measures use-
+phase benefits. The model also includes a set of variables to capture both internal and external 
+knowledge stocks. 𝐼𝐼𝐼𝐼𝐼𝐼, 𝐼𝐼𝐼𝐼𝐼𝐼, 𝐼𝐼𝐼𝐼𝐼𝐼, and 𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼 are firms’ internal knowledge stocks on electric 
+vehicles, batteries/charging, general automobiles, and general electricity respectively. 𝐸𝐸𝐸𝐸𝐸𝐸, 
+𝐸𝐸𝐸𝐸𝐸𝐸, 𝐸𝐸𝐸𝐸𝐸𝐸, and E𝐺𝐺𝐺𝐺𝐺𝐺 are firms’ external knowledge stocks in the same technology fields. 𝑋𝑋 is 
+GDP in 2020 US dollars. 𝑎𝑎𝑎𝑎𝑎𝑎𝑝𝑝𝑝𝑝𝑝𝑝 is the firm’s average annual patenting across all technologies 
+before 2010. 𝑧𝑧𝑧𝑧𝑧𝑧𝑧𝑧𝑝𝑝𝑝𝑝𝑝𝑝 is a binary indicator equal to 1 if the firm recorded no patent fillings before 
+2010.  
+To study how instruments work together, the interaction model augments the baseline with 
+pairwise terms that capture complementarity or substitution across demand-pull and technology-
+push levers. We interact EV target stringency with three policy channels that theory and prior 
+ 
+5 Two-year lag models reveal similar results; see Appendix 8. 
+
+
+===== [PAGE 20] =====
+
+18 
+ 
+evidence suggest can jointly shape inventive effort: public R&D support, fuel prices, and 
+performance standards. 
+𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑖𝑖𝑖𝑖= exp (𝛽𝛽0  + 𝛽𝛽1𝑙𝑙𝑙𝑙𝐺𝐺𝐺𝐺𝑖𝑖𝑖𝑖−1 + 𝛽𝛽2𝑙𝑙𝑙𝑙𝑆𝑆𝑆𝑆𝑖𝑖𝑖𝑖−1 + 𝛽𝛽3𝑙𝑙𝑙𝑙𝑅𝑅𝑅𝑅𝑖𝑖𝑖𝑖−1  + 𝛽𝛽4𝑇𝑇𝑇𝑇𝑖𝑖𝑖𝑖−1 + 𝛽𝛽5𝐹𝐹𝐹𝐹𝑖𝑖𝑖𝑖−1 
++ 𝛽𝛽6𝑈𝑈𝑈𝑈𝑖𝑖𝑖𝑖−1 + 𝛽𝛽7𝑙𝑙𝑙𝑙𝑇𝑇𝑇𝑇𝑖𝑖𝑖𝑖−1 × 𝑙𝑙𝑛𝑛𝑅𝑅𝑅𝑅𝑖𝑖𝑖𝑖−1 + 𝛽𝛽8𝑙𝑙𝑙𝑙𝑇𝑇𝑇𝑇𝑖𝑖𝑖𝑖−1 × 𝑙𝑙𝑛𝑛𝐺𝐺𝐺𝐺𝑖𝑖𝑖𝑖−1 
++ 𝛽𝛽9𝑙𝑙𝑙𝑙𝑇𝑇𝑇𝑇𝑖𝑖𝑖𝑖−1 × 𝑙𝑙𝑛𝑛𝑆𝑆𝑆𝑆𝑖𝑖𝑖𝑖−1 + 𝛽𝛽10𝑙𝑙𝑙𝑙𝐼𝐼𝐼𝐼𝐼𝐼𝑖𝑖𝑖𝑖−1 + 𝛽𝛽11𝑙𝑙𝑙𝑙𝐼𝐼𝐼𝐼𝐼𝐼𝑖𝑖𝑖𝑖−1 + 𝛽𝛽12𝑙𝑙𝑙𝑙𝐼𝐼𝐼𝐼𝐼𝐼𝑖𝑖𝑖𝑖−1 
++ 𝛽𝛽13𝑙𝑙𝑙𝑙𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝑖𝑖𝑖𝑖−1 + 𝛽𝛽14𝑙𝑙𝑙𝑙𝐸𝐸𝐸𝐸𝐸𝐸𝑖𝑖𝑖𝑖−1 + 𝛽𝛽15𝑙𝑙𝑙𝑙𝐸𝐸𝐸𝐸𝐸𝐸𝑖𝑖𝑖𝑖−1 + 𝛽𝛽16𝑙𝑙𝑙𝑙𝐸𝐸𝐸𝐸𝐸𝐸𝑖𝑖𝑖𝑖−1 
++ 𝛽𝛽17𝑙𝑙𝑙𝑙𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝑖𝑖𝑖𝑖−1 + 𝛽𝛽18𝑙𝑙𝑙𝑙𝑋𝑋𝑖𝑖𝑖𝑖−1 + 𝛽𝛽19𝑎𝑎𝑎𝑎𝑎𝑎𝑝𝑝𝑝𝑝𝑝𝑝+ 𝛽𝛽20𝑧𝑧𝑧𝑧𝑧𝑧𝑧𝑧𝑝𝑝𝑝𝑝𝑝𝑝+ 𝛾𝛾𝑦𝑦+ 𝜀𝜀𝑖𝑖𝑖𝑖) 
+ 
+6.2. By technology models 
+Policies may act differently on downstream vehicle invention and upstream battery 
+invention. To examine this, two parallel models apply the full specification model with 
+alternative dependent variables. The vehicle model uses the count of EV vehicle patents. The 
+battery model uses the count of battery, energy storage, and charging patents. Both models keep 
+the same covariates, lags, and target interactions as the aggregate specification, including pre-
+sample means and year fixed effects. This design traces policy effects along the EV value chain 
+and limits bias from changes in the mix of patented technologies. 
+ 
+7. Results 
+7.1. Main model 
+Our sample comprises 4,227 firms spanning the period from 2010 to 2021. Table 2 reports 
+how demand-pull and technology-push policies, together with knowledge stocks, relate to firm-
+level EV patenting. In the baseline specification without policy interactions (column 1), fuel-
+economy standard stringency, public transport energy-efficiency R&D, and financial incentives 
+are positively associated with innovation: a 10 percent increase in standard stringency 
+correspond to about 4.2 percent more patents. R&D and financial incentives each associate with 
+0.8 percent more patents. Target stringency is also positive, and results become robust when 
+dropping financial incentives and use-benefits (column 2), suggesting that the effects of target on 
+EV innovation may redirect through incentives. 
+Knowledge stocks shape who responds. Deeper internal stocks in EVs and in batteries 
+strongly reinforce EV patenting. A 10 percent increase in internal EV knowledge relates to about 
+5.4 percent more EV patents, and a 10 percent increase in internal battery knowledge relates to 
+about 4.8 percent more. This finding aligns with the concept of innovation path dependence: 
+accumulated expertise and learning-by-doing foster further advances along the same 
+technological trajectory. In contrast, broad internal stocks in general electricity associate with  
+
+
+===== [PAGE 21] =====
+
+19 
+ 
+Table 2 
+Main models regression results: all firms. 
+ 
+(1) 
+(2) 
+(3) 
+End-Use Gasoline Price 
+0.364 
+0.985 
+3.995** 
+ 
+(1.128) 
+(1.048) 
+(1.489) 
+Standard Stringency 
+0.419*** 
+0.308** 
+-0.338 
+ 
+(0.097) 
+(0.096) 
+(0.178) 
+Transport Energy-Efficiency R&D 
+0.076* 
+0.084** 
+-0.171* 
+ 
+(0.031) 
+(0.031) 
+(0.067) 
+Target Stringency 
+0.076 
+0.188* 
+0.005 
+ 
+(0.045) 
+(0.076) 
+(0.098) 
+Financial Incentives 
+0.130*** 
+ 
+0.122*** 
+ 
+(0.034) 
+ 
+(0.031) 
+Use Benefits 
+0.102 
+ 
+0.225 
+ 
+(0.528) 
+ 
+(0.536) 
+Transport Energy-Efficiency R&D × Target 
+Stringency 
+ 
+ 
+0.020*** 
+ 
+ 
+(0.005) 
+End-Use Gasoline Price × Target Stringency 
+ 
+ 
+-0.277* 
+ 
+ 
+(0.110) 
+Standard Stringency × Target Stringency 
+ 
+ 
+0.052** 
+ 
+ 
+(0.017) 
+Int. knowledge stocks - EVs 
+0.543*** 
+0.545*** 
+0.548*** 
+ 
+(0.040) 
+(0.040) 
+(0.040) 
+Int. knowledge stocks - batteries 
+0.475*** 
+0.486*** 
+0.477*** 
+ 
+(0.036) 
+(0.036) 
+(0.035) 
+Int. knowledge stocks - general auto 
+-0.053 
+-0.052 
+-0.056 
+ 
+(0.030) 
+(0.030) 
+(0.030) 
+Int. knowledge stocks - general electricity 
+-0.054* 
+-0.058* 
+-0.051* 
+ 
+(0.024) 
+(0.025) 
+(0.023) 
+Ext. knowledge stocks - EVs 
+-0.139 
+-0.103 
+-0.108 
+ 
+(0.088) 
+(0.089) 
+(0.082) 
+Ext. knowledge stocks - batteries 
+0.570** 
+0.588*** 
+0.488** 
+ 
+(0.173) 
+(0.168) 
+(0.170) 
+Ext. knowledge stocks - general auto 
+-0.213* 
+-0.293*** 
+-0.213* 
+ 
+(0.094) 
+(0.083) 
+(0.094) 
+Ext. knowledge stocks - general electricity 
+-0.245 
+-0.226 
+-0.196 
+ 
+(0.209) 
+(0.207) 
+(0.197) 
+Observations 
+22998 
+22998 
+22998 
+Numbers of firms 
+4227 
+4227 
+4227 
+Log-likelihood 
+-68814 
+-69200 
+-68337 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits. Column 1 shows all individual policies and knowledge stocks’ influences; column 
+2 excludes the influence of financial incentives and use benefits; column 3 includes the policy interaction 
+terms between target stringency and other three policies. 
+ 
+
+
+===== [PAGE 22] =====
+
+20 
+ 
+less EV patenting, which suggests capability lock-in around legacy platforms that diverts 
+attention from transformative EV lines. This outcome may reflect the challenges firms face in 
+absorbing external knowledge or the fact that external innovations are often not immediately 
+applicable across different organizations, especially given differences in firms’ technological 
+focus and geographic context. 
+Table 3 shows clear and differentiated interactions with target stringency. Both R&D by 
+target and standard stringency by target interactions are positive and statistically significant 
+across specifications, indicating complementarity between stringent targets and two short-term 
+policies. In contrast, the gasoline price by target is negative, which means target stringency 
+reduces the marginal influence of fuel prices. After introducing these interactions, the direct 
+effects of standards and R&D shrink or turn negative, so the evidence favors complementarity 
+over large standalone impacts. Model fit improves as the interaction set expands, which indicates 
+that firms respond to the policy mix rather than to isolated instruments. 
+The marginal-effect calculations in Table 4 reveal how policy interactions shape EV 
+innovation at different levels of EV adoption target stringency. At the 25th percentile, the EV 
+adoption target stringency is zero, representing countries that had yet to implement explicit 
+adoption targets. In such cases, the marginal effect of fuel-economy standard stringency is 
+significantly negative, suggesting that when governments tighten fuel-economy standards 
+without an accompanying adoption target, firms tend to comply by improving ICE vehicles 
+rather than innovating in EV technologies. This substitution effect highlights that standards alone 
+may redirect innovation toward incremental efficiency gains in conventional vehicles instead of 
+inducing technological shifts.  
+The complementarity between R&D investment and target stringency is particularly 
+pronounced. As target stringency rises, the elasticity of EV patenting with respect to transport 
+energy-efficiency R&D increases monotonically: from a small and statistically weak effect at the 
+25th percentile to 0.344 at the 75th, 0.479 at the 90th, and 0.808 at the maximum. This pattern 
+implies that a 10 percent increase in public R&D investment corresponds to roughly 3.0-8.0 
+percent more EV patents in high-target environments. Similarly, the marginal effect of standard 
+stringency shifts from negative to strongly positive as targets tighten, indicating that standards 
+become more effective when aligned with clear adoption goals.  
+These results highlight the importance of aligning short-term and long-term policy 
+instruments for effective EV innovation. Short-term measures, such as fuel-economy standards 
+and public R&D programs, generate immediate incentives that shape firms’ current innovation 
+decisions. However, their impact depends strongly on the presence of credible long-term 
+commitments. When ambitious EV adoption targets signal durable market growth, short-term 
+instruments become more effective in mobilizing firms to invest in high-risk technologies and 
+new product architectures. The results show that stringent, long-term targets amplify the 
+innovation benefits of short-term technology-push and demand-pull policies. Coordinated policy 
+
+
+===== [PAGE 23] =====
+
+21 
+ 
+packages that integrate near-term regulatory and fiscal tools with long-term strategic targets 
+appear most successful in accelerating EV-related technological change. 
+ 
+Table 3  
+Main models regression results with interaction terms. 
+ 
+(1) 
+(2) 
+(3) 
+End-Use Gasoline Price 
+0.854 
+1.989 
+3.995** 
+ 
+(1.123) 
+(1.237) 
+(1.489) 
+Standard Stringency 
+0.231* 
+0.147 
+-0.338 
+ 
+(0.096) 
+(0.113) 
+(0.178) 
+Transport Energy-Efficiency R&D 
+-0.196** 
+-0.184* 
+-0.171* 
+ 
+(0.073) 
+(0.073) 
+(0.067) 
+Target Stringency 
+-0.057 
+0.027 
+0.005 
+ 
+(0.056) 
+(0.107) 
+(0.098) 
+Financial Incentives 
+0.124*** 
+0.124*** 
+0.122*** 
+ 
+(0.032) 
+(0.032) 
+(0.031) 
+Use Benefits 
+0.164 
+0.197 
+0.225 
+ 
+(0.530) 
+(0.534) 
+(0.536) 
+Transport Energy-Efficiency R&D × 
+Target Stringency 
+0.023*** 
+0.022*** 
+0.020*** 
+(0.006) 
+(0.006) 
+(0.005) 
+End-Use Gasoline Price × Target 
+Stringency 
+ 
+-0.088 
+-0.277* 
+ 
+(0.091) 
+(0.110) 
+Standard Stringency × Target 
+Stringency 
+ 
+ 
+0.052** 
+ 
+ 
+(0.017) 
+Observations 
+22998 
+22998 
+22998 
+Log-likelihood 
+-68447 
+-68429 
+-68337 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits. Column 1 shows the policy interaction between transport energy-efficiency R&D 
+investment and target stringency; column 2 adds policy interaction between end-use gasoline price and 
+target stringency; column 3 adds the policy interaction between standard stringency and target stringency. 
+Internal and external knowledge stocks are not shown in this table, as their magnitudes and statistical 
+significance are similar to those in the main results (Table 2). 
+ 
+ 
+ 
+
+
+===== [PAGE 24] =====
+
+22 
+ 
+Table 4 
+Marginal effects at different levels of target stringency. 
+ 
+(1) 
+(2) 
+(3) 
+ 
+End-Use 
+Gasoline Price 
+Transport Energy-
+Efficiency R&D 
+Standard 
+Stringency 
+At 25th percentile 
+8.820 
+-0.415 
+-0.870* 
+ 
+(4.828) 
+(0.278) 
+(0.443) 
+At 50th percentile 
+4.818 
+0.188 
+0.900 
+ 
+(4.605) 
+(0.129) 
+(0.488) 
+At 75th percentile 
+3.626 
+0.344* 
+1.351* 
+ 
+(5.278) 
+(0.138) 
+(0.584) 
+At 90th percentile 
+2.572 
+0.479** 
+1.737* 
+ 
+(5.904) 
+(0.149) 
+(0.687) 
+At maximum 
+-0.111 
+0.808*** 
+2.677** 
+ 
+(7.608) 
+(0.195) 
+(1.020) 
+Observations 
+22998 
+22998 
+22998 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All variables in the log 
+form. Marginal effects are calculated at different percentiles of EV adoption target stringency to illustrate 
+interaction effects between target stringency and each policy variable. 
+ 
+7.2. Results by technology models 
+Separate regressions for vehicle and for battery or charging patents assess whether the same 
+policy levers and capabilities matter across technologies. Policy effects look similar in both 
+models; observed differences arise mainly from precision rather than coefficient magnitude. Firm 
+capabilities carry substantial weight in both domains, and the most valuable knowledge is 
+technology-specific rather than generic. Fuel-economy standard stringency enters positively and 
+significantly in both technologies throughout Table 5, mirroring the full specification. Target 
+stringency keeps a positive sign in both technologies but loses precision. The interaction terms 
+follow the full-sample pattern, showing complementarity between target stringency and R&D, as 
+well as between target stringency and standard stringency, while the influence of gasoline prices 
+declines as targets become more stringent. 
+Within-firm capabilities shape vehicle-technology patenting. A deeper internal EV experience 
+translates into greater output in vehicle technologies. A 10 percent increase in internal EV 
+knowledge translates to roughly a 6.0 percent increase in vehicle-technology patents. Battery 
+expertise spans the firm and supports integration work, with a 10 percent increase in internal 
+battery knowledge resulting in approximately 4.3 percent more vehicle-technology patents. 
+Broad internal knowledge in conventional auto links to lower EV-vehicle patenting, with 0.8 
+percent fewer patents per 10 percent increase, which signals legacy lock-in. Broad internal 
+electricity knowledge shows little independent effect. 
+
+
+===== [PAGE 25] =====
+
+23 
+ 
+Battery innovation responds to both push and pull policies. In the baseline battery model, a 
+10 percent rise in fuel-economy standard stringency relates to about 4.3 percent more patents, 
+and a similar increase in transport energy-efficiency R&D relates to about 0.8 percent more. 
+Targets also yield 1.9 percent more patents per 10 percent increase even excluding financial 
+incentives. These results fit an intuitive story: targets create predictable demand for improved 
+storage, while R&D and incentives reduce technical and adoption risk. These findings indicate 
+that demand-pull and technology-push instruments operate through distinct but reinforcing 
+channels, jointly enabling technological progress and expansion across the battery supply chain. 
+Cross-technology learning is clear. A 10 percent increase in internal EV knowledge relates to 
+roughly 5.5 percent more battery patents, and a similar increase in internal battery knowledge 
+relates to about 4.7 percent more. Internal general electricity knowledge links to fewer battery 
+patents by about 0.5 percent. These findings show that domain-specific capabilities matter most. 
+EV platform learning and battery know-how help teams locate bottlenecks and turn 
+improvements into patentable designs, while generic electrical expertise does not substitute for 
+EV-specific battery expertise. External battery knowledge also supports patenting, which is 
+consistent with the diffusion of ideas among firms at the battery frontier.  
+Some policy coefficients for vehicle technologies do not reach conventional significance, and 
+the most likely reason is limited precision. The vehicle sample comprises 13,780 observations 
+from 2,196 firms, while the battery sample comprises 21,671 observations from 3,934 firms. The 
+smaller vehicle sample raises standard errors, so several coefficient estimates align with the 
+battery results yet fall short in statistical tests. The interaction terms follow the full-sample 
+pattern: standards and targets reinforce one another, R&D becomes more effective when targets 
+are stronger, and higher fuel prices weaken the effect of targets. A coordinated policy mix that 
+pairs performance standards with clear targets, R&D, and well-aimed incentives, combined with 
+firm investment in EV- and battery-specific knowledge, encourages innovation in both vehicle 
+systems and batteries. 
+ 
+ 
+ 
+
+
+===== [PAGE 26] =====
+
+24 
+ 
+Table 5  
+Regression results by technology fields. 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ 
+Vehicle 
+Vehicle 
+Vehicle 
+Battery 
+Battery 
+Battery 
+End-Use Gasoline Price 
+0.382 
+0.968 
+4.062* 
+0.299 
+0.930 
+4.030** 
+ 
+(1.306) 
+(1.222) 
+(1.723) 
+(1.141) 
+(1.061) 
+(1.517) 
+Standard Stringency 
+0.473*** 
+0.355** 
+-0.370 
+0.426*** 
+0.314** 
+-0.363* 
+ 
+(0.121) 
+(0.121) 
+(0.221) 
+(0.099) 
+(0.097) 
+(0.180) 
+Transport Energy-Efficiency 
+R&D 
+0.057 
+0.069 
+-0.198* 
+0.076* 
+0.084** 
+-0.174* 
+(0.038) 
+(0.038) 
+(0.084) 
+(0.032) 
+(0.031) 
+(0.068) 
+Target Stringency 
+0.084 
+0.191 
+-0.019 
+0.078 
+0.193* 
+0.001 
+ 
+(0.061) 
+(0.098) 
+(0.121) 
+(0.046) 
+(0.079) 
+(0.102) 
+Financial Incentives 
+0.121** 
+ 
+0.111** 
+0.131*** 
+ 
+0.123*** 
+ 
+(0.041) 
+ 
+(0.038) 
+(0.034) 
+ 
+(0.032) 
+Use Benefits 
+-0.200 
+ 
+-0.094 
+0.104 
+ 
+0.233 
+ 
+(0.625) 
+ 
+(0.635) 
+(0.552) 
+ 
+(0.559) 
+Transport Energy-Efficiency 
+R&D × Target Stringency 
+ 
+ 
+0.021*** 
+ 
+ 
+0.021*** 
+ 
+ 
+(0.006) 
+ 
+ 
+(0.005) 
+End-Use Gasoline Price × 
+Target Stringency 
+ 
+ 
+-0.276* 
+ 
+ 
+-0.286* 
+ 
+ 
+(0.130) 
+ 
+ 
+(0.112) 
+Standard Stringency × Target 
+Stringency 
+ 
+ 
+0.058** 
+ 
+ 
+0.054** 
+ 
+ 
+(0.020) 
+ 
+ 
+(0.017) 
+Int. knowledge stocks - EVs 
+0.591*** 
+0.595*** 
+0.597*** 
+0.545*** 
+0.547*** 
+0.549*** 
+ 
+(0.050) 
+(0.050) 
+(0.050) 
+(0.040) 
+(0.040) 
+(0.040) 
+Int. knowledge stocks - 
+batteries 
+0.428*** 
+0.439*** 
+0.431*** 
+0.469*** 
+0.480*** 
+0.472*** 
+(0.044) 
+(0.043) 
+(0.043) 
+(0.036) 
+(0.036) 
+(0.035) 
+Int. knowledge stocks - general 
+auto 
+-0.081* 
+-0.083* 
+-0.085** 
+-0.054 
+-0.054 
+-0.058 
+(0.033) 
+(0.033) 
+(0.032) 
+(0.031) 
+(0.031) 
+(0.030) 
+Int. knowledge stocks - general 
+electricity 
+-0.036 
+-0.038 
+-0.033 
+-0.054* 
+-0.058* 
+-0.051* 
+(0.029) 
+(0.029) 
+(0.028) 
+(0.024) 
+(0.025) 
+(0.023) 
+Ext. knowledge stocks - EVs 
+-0.146 
+-0.133 
+-0.111 
+-0.143 
+-0.108 
+-0.110 
+(0.100) 
+(0.098) 
+(0.093) 
+(0.089) 
+(0.089) 
+(0.082) 
+Ext. knowledge stocks - 
+batteries 
+0.531* 
+0.520** 
+0.442* 
+0.578*** 
+0.597*** 
+0.500** 
+(0.209) 
+(0.201) 
+(0.204) 
+(0.176) 
+(0.170) 
+(0.172) 
+Ext. knowledge stocks - 
+general auto 
+-0.215* 
+-0.272** 
+-0.225* 
+-0.207* 
+-0.288*** 
+-0.208* 
+(0.109) 
+(0.095) 
+(0.107) 
+(0.095) 
+(0.084) 
+(0.094) 
+Ext. knowledge stocks - 
+general electricity 
+-0.199 
+-0.157 
+-0.137 
+-0.262 
+-0.244 
+-0.224 
+(0.267) 
+(0.262) 
+(0.254) 
+(0.213) 
+(0.210) 
+(0.200) 
+Observations 
+13780 
+13780 
+13780 
+21671 
+21671 
+21671 
+Number of firms 
+2196 
+2196 
+2196 
+3934 
+3934 
+3934 
+Log-likelihood 
+-50000 
+-50245 
+-49603 
+-67307 
+-67690 
+-66827 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits.  
+
+
+===== [PAGE 27] =====
+
+25 
+ 
+ 
+7.3. Robustness checks 
+The main specification constructs in-sample weights from each firm’s patenting distribution 
+during 2010-2021. Governments may adopt stronger policies in markets where EV activities are 
+already expanding, which can blur whether observed innovation responses stem from the policies 
+themselves or from firms reallocating their patenting portfolios toward more active policy 
+environments. To address this concern, we implement robustness checks that replace in-sample 
+weights with a set of pre-sample assignments. 
+This alternative scheme anchors each firm’s policy exposure to its geographic and 
+technological footprint before 2010, when the main study window begins. The advantage is that 
+pre-sample weights reduce simultaneity bias between policy changes and patenting locations, 
+since the weights are determined before the estimation period. The trade-off is that the approach 
+sacrifices completeness: it cannot reflect new entrants that began patenting after 2010 or firms 
+that expanded into new policy jurisdictions as EV markets globalized. New entrants have no pre-
+2010 patents, so we identify three options. First, we assign a weight of 1 to the headquarters 
+country and 0 elsewhere to construct the home-country weights. This assigns exposure fully 
+based on home market. Second, we replace the home country indicator with the average pre-
+2010 country shares of incumbents that share the same headquarters country. Third, we consider 
+technological variation by computing pre-sample shares separately for vehicles and for batteries.  
+Table 6 reports the results using the third method to derive weights for new entrants: pre-
+sample by technology average weights. Results for the other two weighting schemes are in 
+Appendix I and tell a similar story. In this model, R&D investment and target stringency remain 
+positive and statistically significant for EV patenting, while financial incentive policy retains its 
+positive signs but loses precision. This pattern suggests that the main relationships are not 
+artifacts of the in-sample construction and that endogeneity in weighting does not drive the core 
+results. The lost precision comes from how the weights map country policies to each firm’s 
+exposure. In-sample weights update this presence to reflect current markets, allowing them to 
+track how current policies influence innovation. Pre-sample weights lock exposure to earlier 
+market shares, which can lag the firm’s shift into fast-growing EV markets. That lag reduces 
+power for instruments that move quickly, such as targets and incentives. The persistent and 
+significant effect of standard stringency under both schemes shows that the key finding is robust. 
+In-sample weights do not create spurious correlation; they sharpen sensitivity to certain policy 
+effects. 
+Under pre-sample by technology weights (in Table 7), the by-technology estimates mirror 
+the main results in both sign and relative size. Vehicle-technology coefficients retain the same 
+directions as in Table 5, with interaction terms showing similar prominence. Battery-technology 
+coefficients also match the main patterns, with policy and interaction effects preserving their 
+positive directions and comparable magnitudes. Knowledge-stock coefficients align as well,  
+
+
+===== [PAGE 28] =====
+
+26 
+ 
+TABLE 6  
+Main regression results using pre-sample by technology average weights. 
+ 
+(1) 
+(2) 
+(3) 
+End-Use Gasoline Price 
+1.072 
+1.078 
+0.218 
+ 
+(0.800) 
+(0.852) 
+(1.227) 
+Standard Stringency 
+0.302* 
+0.255* 
+0.065 
+ 
+(0.129) 
+(0.124) 
+(0.168) 
+Transport Energy-Efficiency R&D 
+0.083* 
+0.106*** 
+-0.196** 
+ 
+(0.033) 
+(0.029) 
+(0.062) 
+Target Stringency 
+0.030 
+0.048 
+-0.287** 
+ 
+(0.023) 
+(0.035) 
+(0.088) 
+Financial Incentives 
+0.042 
+ 
+0.037 
+ 
+(0.030) 
+ 
+(0.029) 
+Use Benefits 
+-0.842 
+ 
+-0.698 
+ 
+(0.506) 
+ 
+(0.493) 
+Transport Energy-Efficiency R&D × Target 
+Stringency 
+ 
+ 
+0.024*** 
+ 
+ 
+(0.004) 
+End-Use Gasoline Price × Target Stringency 
+ 
+ 
+0.102 
+ 
+ 
+(0.106) 
+Standard Stringency × Target Stringency 
+ 
+ 
+0.027 
+ 
+ 
+(0.020) 
+Int. knowledge stocks - EVs 
+0.542*** 
+0.543*** 
+0.543*** 
+ 
+(0.039) 
+(0.039) 
+(0.039) 
+Int. knowledge stocks - batteries 
+0.473*** 
+0.485*** 
+0.474*** 
+ 
+(0.037) 
+(0.036) 
+(0.036) 
+Int. knowledge stocks - general auto 
+-0.043 
+-0.050 
+-0.046 
+ 
+(0.027) 
+(0.029) 
+(0.027) 
+Int. knowledge stocks - general electricity 
+-0.049 
+-0.050* 
+-0.046 
+ 
+(0.025) 
+(0.025) 
+(0.024) 
+Ext. knowledge stocks - EVs 
+-0.069 
+-0.069 
+-0.060 
+ 
+(0.087) 
+(0.091) 
+(0.082) 
+Ext. knowledge stocks - batteries 
+0.670*** 
+0.593*** 
+0.595*** 
+ 
+(0.168) 
+(0.169) 
+(0.160) 
+Ext. knowledge stocks - general auto 
+-0.361*** 
+-0.341*** 
+-0.356*** 
+ 
+(0.081) 
+(0.073) 
+(0.080) 
+Ext. knowledge stocks - general electricity 
+-0.232 
+-0.198 
+-0.169 
+ 
+(0.202) 
+(0.210) 
+(0.184) 
+Observations 
+22998 
+22998 
+22998 
+Number of firms 
+4227 
+4227 
+4227 
+Log-likelihood 
+-69462 
+-69653 
+-69006 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits. Column 1 shows all individual policies and knowledge stocks’ influences; column 
+2 excludes the influence of financial incentives and use benefits; column 3 includes the policy interaction 
+terms between target stringency and other three policies. 
+ 
+
+
+===== [PAGE 29] =====
+
+27 
+ 
+Table 7  
+By technology regression results using pre-sample by technology average weights. 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ 
+Vehicle 
+Vehicle 
+Vehicle 
+Battery 
+Battery 
+Battery 
+End-Use Gasoline Price 
+0.161 
+-0.061 
+2.575 
+0.099 
+-0.093 
+2.462 
+ 
+(0.690) 
+(0.694) 
+(1.540) 
+(0.564) 
+(0.529) 
+(1.280) 
+Standard Stringency 
+0.614** 
+0.509** 
+-0.064 
+0.484** 
+0.410** 
+-0.137 
+ 
+(0.212) 
+(0.188) 
+(0.229) 
+(0.148) 
+(0.134) 
+(0.182) 
+Transport Energy-Efficiency 
+R&D 
+0.074 
+0.099** 
+-0.180* 
+0.093** 
+0.112*** 
+-0.152* 
+ 
+(0.038) 
+(0.035) 
+(0.078) 
+(0.032) 
+(0.029) 
+(0.064) 
+Target Stringency 
+0.010 
+0.036 
+-0.214 
+0.008 
+0.032 
+-0.191* 
+ 
+(0.026) 
+(0.040) 
+(0.113) 
+(0.019) 
+(0.029) 
+(0.090) 
+Financial Incentives 
+0.069* 
+ 
+0.064* 
+0.067* 
+ 
+0.062* 
+ 
+(0.034) 
+ 
+(0.032) 
+(0.029) 
+ 
+(0.027) 
+Use Benefits 
+-0.944 
+ 
+-0.840 
+-0.667 
+ 
+-0.573 
+ 
+(0.528) 
+ 
+(0.518) 
+(0.462) 
+ 
+(0.454) 
+Transport Energy-Efficiency 
+R&D × Target Stringency 
+ 
+ 
+0.021*** 
+ 
+ 
+0.020*** 
+ 
+ 
+(0.005) 
+ 
+ 
+(0.005) 
+End-Use Gasoline Price × 
+Target Stringency 
+ 
+ 
+-0.178 
+ 
+ 
+-0.184 
+ 
+ 
+(0.154) 
+ 
+ 
+(0.127) 
+Standard Stringency × Target 
+Stringency 
+ 
+ 
+0.070** 
+ 
+ 
+0.066** 
+ 
+ 
+(0.027) 
+ 
+ 
+(0.021) 
+Int. knowledge stocks - EVs 
+0.592*** 
+0.596*** 
+0.593*** 
+0.543*** 
+0.548*** 
+0.545*** 
+ 
+(0.048) 
+(0.049) 
+(0.049) 
+(0.039) 
+(0.039) 
+(0.039) 
+Int. knowledge stocks - 
+batteries 
+0.424*** 
+0.437*** 
+0.427*** 
+0.470*** 
+0.481*** 
+0.473*** 
+(0.043) 
+(0.042) 
+(0.043) 
+(0.037) 
+(0.036) 
+(0.036) 
+Int. knowledge stocks - general 
+auto 
+-0.079* 
+-0.080* 
+-0.080** 
+-0.049 
+-0.051 
+-0.051 
+(0.030) 
+(0.032) 
+(0.030) 
+(0.029) 
+(0.030) 
+(0.028) 
+Int. knowledge stocks - general 
+electricity 
+-0.031 
+-0.032 
+-0.030 
+-0.052* 
+-0.054* 
+-0.051* 
+(0.029) 
+(0.029) 
+(0.028) 
+(0.025) 
+(0.025) 
+(0.024) 
+Ext. knowledge stocks - EVs 
+-0.103 
+-0.074 
+-0.096 
+-0.071 
+-0.043 
+-0.061 
+ 
+(0.093) 
+(0.093) 
+(0.089) 
+(0.086) 
+(0.086) 
+(0.081) 
+Ext. knowledge stocks - 
+batteries 
+0.597** 
+0.570** 
+0.516* 
+0.647*** 
+0.633*** 
+0.582** 
+(0.217) 
+(0.210) 
+(0.210) 
+(0.190) 
+(0.180) 
+(0.182) 
+Ext. knowledge stocks - 
+general auto 
+-0.316*** 
+-0.326*** 
+-0.332*** 
+-0.328*** 
+-0.345*** 
+-0.339*** 
+(0.088) 
+(0.079) 
+(0.087) 
+(0.079) 
+(0.070) 
+(0.079) 
+Ext. knowledge stocks - 
+general electricity 
+-0.186 
+-0.210 
+-0.097 
+-0.263 
+-0.285 
+-0.206 
+(0.262) 
+(0.268) 
+(0.252) 
+(0.222) 
+(0.224) 
+(0.208) 
+Observations 
+13780 
+13780 
+13780 
+21671 
+21671 
+21671 
+Number of firms 
+2196 
+2196 
+2196 
+3934 
+3934 
+3934 
+Log-likelihood 
+-50427 
+-50687 
+-50005 
+-68020 
+-68259 
+-67519 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits.  
+
+
+===== [PAGE 30] =====
+
+28 
+ 
+including positive intra-firm spillovers from EV and battery know-how and weaker or negative 
+links for broad general-auto and general-electricity stocks. 
+To further test the sensitivity, we also estimate an in-sample specification that excludes 
+Chinese firms to test whether results rely on China’s large patent volume and intense policies (in 
+Appendix I.1). China accounts for the largest share of firms in the dataset, and many are new 
+entrants that patent almost exclusively in the domestic market, where policies are unusually 
+strong. This could amplify estimates of policy effects by overrepresenting one national context. 
+Dropping Chinese firms verifies that the estimated coefficients capture broad cross-country 
+regularities rather than China’s distinct policy regime or industrial structure. Across all 
+robustness checks, the direction and relative magnitudes of policy effects remain consistent with 
+the main estimates, reinforcing the conclusion that the results are stable to alternative weighting 
+constructions and sample definitions. 
+ 
+8. Discussion 
+Our findings, focused on EV innovation, confirm some general patterns from past 
+innovation studies while revealing distinct dynamics unique to the EV sector. In line with 
+induced innovation theory, performance standards emerge as a strong driver of EV-related 
+patenting, steering inventors toward zero-emission vehicle technologies much as prior work 
+found in conventional automotive innovation (Klier and Linn, 2016; Rozendaal and Vollebergh, 
+2025). In contrast, we do not find a robust effect of gasoline prices on EV patenting, which 
+marks a notable divergence from earlier studies in other contexts that showed higher energy 
+prices spur energy-efficient innovation (Popp, 2002; Aghion et al., 2016). One explanation is that 
+by the 2010s, EV-specific policy mandates (such as adoption targets) combined with rapid 
+declines in battery costs had reduced the marginal importance of fuel prices for firms’ innovation 
+decisions. In other words, clear regulatory signals and technological progress in EVs may have 
+diminished the role of gasoline prices as an incentive for inventors, whereas in previous 
+technology domains lacking such focused policies, price signals played a larger role. This 
+underscores that the EV sector responds differently: targeted electrification policies and 
+improvements can overshadow general market price effects that were more influential in other 
+energy technology innovations. 
+Our results also show that long-term EV adoption targets and financial purchase incentives 
+are each positively associated with increased EV patenting. Long-term deployment targets shape 
+expectations about future market size and encourage firms to invest in EV technology. At the 
+same time, consumer incentives such as subsidies and tax credits expand early markets and 
+reduce adoption risk, thereby increasing the expected returns to EV-oriented R&D and patents, 
+consistent with demand-pull theory (Ziegler et al., 2021).  
+
+
+===== [PAGE 31] =====
+
+29 
+ 
+On the technology-push side, we find that public R&D investment in energy-efficient 
+transportation significantly boosts EV patenting, consistent with prior evidence across various 
+energy technologies that public research support increases innovative output (Popp, 2016). In our 
+EV-focused setting, public R&D funding appears to finance foundational work and generate 
+knowledge spillovers that firms can build on, thereby accelerating upstream invention in areas 
+like advanced batteries. This result reinforces the view that technology-push and demand-pull 
+policies work together: R&D support is especially impactful when there is a clear market signal 
+for EVs, a pattern consistent with classic accounts of innovation policy (Nemet, 2009). We also 
+observe that firms’ internal knowledge stocks strongly condition innovative outcomes. 
+Companies with deeper prior expertise in EV and battery technologies produce significantly 
+more new EV patents, reflecting an absorptive capacity effect (Cohen and Levinthal, 1990), in 
+which accumulated know-how makes firms more productive innovators. By contrast, firms 
+heavily invested in conventional ICE knowledge tend to generate fewer EV patents, suggesting a 
+degree of technological lock-in and incumbent inertia (Penna and Geels, 2015). These findings 
+echo prior studies on path-dependent innovation trajectories. Still, our firm-level evidence in the 
+EV context highlights how strong in-house capabilities in clean technologies can amplify 
+responses to external policy signals. In contrast, legacy knowledge can impede redirection 
+toward electrification. 
+A central contribution of this paper is to demonstrate that aligning long-horizon market-
+shaping goals with short-term policies strengthens their overall effectiveness. We find a 
+significant positive interaction between EV adoption target stringency and public R&D 
+investment: in environments with ambitious EV targets, the elasticity of EV patenting with 
+respect to public R&D more than doubles compared to cases with weak or no targets. In practical 
+terms, as countries set more stringent long-term EV targets, each dollar of public R&D yields a 
+greater increase in EV innovation than it would under low-target scenarios. This 
+complementarity suggests that well-defined long-term targets enhance the payoff of R&D 
+support by lowering market uncertainty and strengthening expected demand for new EV 
+technologies. Firms are more willing to pursue high-risk, high-reward innovations when they 
+know that future markets are secured by policy commitments, which is exactly when public 
+R&D funding can have an outsized impact. Notably, this interaction reflects the specific needs of 
+the EV sector. For example, much of the dramatic improvement in battery technology has 
+resulted from advances in research (Ziegler et al., 2021), and the presence of long-term EV 
+deployment goals makes those research investments even more valuable. 
+A similar interplay emerges between long-run targets and near-term regulatory standards. 
+Fuel economy standards on their own push firms toward more EV inventive activities. We find 
+that stricter EV targets amplify the marginal impact of these standards. When policymakers set 
+ambitious EV adoption targets, tightening performance standards produces a larger increase in 
+EV patenting than the same tightening under weak targets. Strong targets clarify the destination, 
+and standards create immediate pressure to invest and comply. Working together, they expand 
+
+
+===== [PAGE 32] =====
+
+30 
+ 
+and accelerate inventive activity in electrification. When policymakers do not announce an EV 
+target, stronger fuel economy standards can channel effort into more efficient ICE technologies 
+rather than EV technologies, which weakens the link between standards and electrification. Our 
+results show that coordinating long-term targets with short-term standards delivers the highest 
+inventive output when both are ambitious, because targets shape expectations while standards 
+convert those expectations into near-term deployment. This evidence provides empirical support 
+for the arguments of Rogge and Riechardt (2016), who posit that coherent, long-horizon policy 
+packages provide greater impetus for innovation than isolated measures. In practical terms for 
+the EV sector, EV sales targets set the horizon for change, and performance standards apply 
+immediate pressure. When policymakers design them in concert, they steer technological search 
+toward electrification more effectively than either tool alone. 
+Overall, these results highlight how the EV sector differs from earlier contexts by 
+demonstrating the importance of an integrated policy strategy. Past innovation literature often 
+emphasized single instruments, but our study shows that for EV technology, the interplay of 
+multiple policies and firm capabilities is crucial. In summary, EV targets are potent drivers of 
+invention, and their impact is amplified by complementary technology-push support. At the same 
+time, firms with the right knowledge base are best positioned to capitalize on these policy 
+signals, whereas those locked into older technologies are less responsive. These insights show 
+that accelerating clean innovation in the auto industry is most likely when policies include a 
+long-term commitment, supportive short-term incentives, and attention to firms’ starting 
+capabilities, a combination not empirically demonstrated in previous studies on other 
+technologies to the extent shown here for EVs. 
+ 
+9. Conclusions and Policy Implications 
+Our evidence shifts the policy debate from “which instrument works” to “which instruments 
+work together in different time frames.” Therefore, for policy makers wishing to promote further 
+EV innovation, a practical policy package can build on three key pillars. First, set quantified, 
+time-bound EV targets with credible compliance pathways and regular interim checkpoints, since 
+targets shape expectations and convert upstream R&D into marketable inventions. Second, fund 
+targeted public R&D that prioritizes upstream battery invention, power electronics, and charging 
+that stimulate EV innovation. Third, use performance standards as near-term bridges. Standards 
+exert the strongest inventive pressure when targets are moderate, but this instrument should 
+gradually adjust as targets become binding and technology costs decline. Sequencing these three 
+pillars on a transparent regulatory calendar, with clear milestones and periodic review, turns 
+predictable commitments into sustained EV innovation and adoption.  
+The lessons learned from the rapid development of electric vehicles over the past decade 
+provide lessons applicable to other complex emerging technologies.  Clear long-term EV targets 
+improve the effectiveness of public R&D and performance standards.  Similar targets could be 
+
+
+===== [PAGE 33] =====
+
+31 
+ 
+applied to encourage innovation on grid management and energy storage to both fortify and 
+reduce emissions from electricity systems needed to support large EV fleets. The same logic 
+applies to other complex, capital intensive technologies such as heavy duty zero emission 
+vehicles and building decarbonization, where credible long term deployment goals can 
+encourage private investment and increase the payoff from short horizon subsidies and standards. 
+ 
+ 
+
+
+===== [PAGE 34] =====
+
+32 
+ 
+References 
+Aghion, P., Dechezleprêtre, A., Hemous, D., Martin, R., & Van Reenen, J. (2016). Carbon taxes, 
+path dependency, and directed technical change: Evidence from the auto industry. Journal 
+of Political Economy, 124(1), 1-51. 
+Aldieri, L., Carlucci, F., Vinci, C. P., & Yigitcanlar, T. (2019). Environmental innovation, 
+knowledge spillovers and policy implications: A systematic review of the economic 
+effects literature. Journal of Cleaner Production, 239, 118051. 
+Blundell, R., Griffith, R., & Reenen, J. V. (1995). Dynamic count data models of technological 
+innovation. The economic journal, 105(429), 333-344. 
+Bushnell, J. B., Muehlegger, E., & Rapson, D. S. (2022). Energy prices and electric vehicle 
+adoption (No. w29842). National Bureau of Economic Research. 
+Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning 
+and innovation. Administrative science quarterly, 35(1), 128-152. 
+Costantini, V., Crespi, F., & Palma, A. (2017). Characterizing the policy mix and its impact on 
+eco-innovation: A patent analysis of energy-efficient technologies. Research 
+policy, 46(4), 799-819. 
+Crabb, J. M., & Johnson, D. K. (2010). Fueling innovation: the impact of oil prices and CAFE 
+standards on energy-efficient automotive technology. The Energy Journal, 31(1), 199-
+216. 
+Czarnitzki, D., & Lopes-Bento, C. (2013). Value for money? New microeconometric evidence on 
+public R&D grants in Flanders. Research policy, 42(1), 76-89. 
+Dechezleprêtre, A., & Glachant, M. (2014). Does foreign environmental policy influence 
+domestic innovation? Evidence from the wind industry. Environmental and Resource 
+Economics, 58, 391-413. 
+Dechezleprêtre, A., Hémous, D., Olsen, M., & Zanella, C. (2021). Induced automation: evidence 
+from firm-level patent data. University of Zurich, Department of Economics, Working 
+Paper, (384). 
+Dechezleprêtre, A., Neumayer, E., & Perkins, R. (2015). Environmental regulation and the cross-
+border diffusion of new technology: Evidence from automobile patents. Research 
+Policy, 44(1), 244-257. 
+Dugoua, E., & Dumas, M. (2024). Coordination dynamics between fuel cell and battery 
+technologies in the transition to clean cars. Proceedings of the National Academy of 
+Sciences, 121(27), e2318605121. 
+
+
+===== [PAGE 35] =====
+
+33 
+ 
+Dugoua, E., & Gerarden, T. D. (2025). Induced innovation, inventors, and the energy 
+transition. American Economic Review: Insights, 7(1), 90-106. 
+European Patent Office and International Energy Agency (EPO-IEA). (2021). Patents and the 
+Energy Transition: Global Trends in Clean Energy Technology Innovation. 
+Gregoire-Zawilski, M., & Popp, D. (2024). Do technology standards induce innovation in 
+environmental technologies when coordination is important?. Research Policy, 53(1), 
+104888. 
+Gross, D. P., & Sampat, B. N. (2023). America, jump-started: World War II R&D and the takeoff 
+of the US innovation system. American Economic Review, 113(12), 3323-3356. 
+Gugler, K., Szücs, F., & Wiedenhofer, T. (2024). Environmental policies and directed 
+technological change. Journal of Environmental Economics and Management, 124, 
+102916. 
+Luetkehaus, H. (2025). Looking under the hood—How incumbent characteristics reduce the 
+innovation impact of trajectory-changing demand-pull policy mixes for battery electric 
+vehicles. Research Policy, 54(5), 105212. 
+International Energy Agency (IEA). (2021). Global EV Outlook 2021: Accelerating Ambitions 
+Despite the Pandemic. Paris: IEA. 
+International Energy Agency (IEA). (2022). Global EV Outlook 2022: Securing Supplies for an 
+Electric Future. Paris: IEA. 
+Jaffe, A. B., Newell, R. G., & Stavins, R. N. (2005). A tale of two market failures: Technology 
+and environmental policy. Ecological economics, 54(2-3), 164-174. 
+Johnstone, N., Haščič, I., & Popp, D. (2010). Renewable energy policies and technological 
+innovation: evidence based on patent counts. Environmental and resource economics, 45, 
+133-155. 
+Knittel, C. R. (2011). Automobiles on steroids: Product attribute trade-offs and technological 
+progress in the automobile sector. American Economic Review, 101(7), 3368-3399. 
+Klier, T., & Linn, J. (2016). The effect of vehicle fuel economy standards on technology 
+adoption. Journal of Public Economics, 133, 41-63. 
+Mowery, D., & Rosenberg, N. (1979). The influence of market demand upon innovation: a 
+critical review of some recent empirical studies. Research policy, 8(2), 102-153. 
+Myers, K. R., & Lanahan, L. (2022). Estimating spillovers from publicly funded R&D: Evidence 
+from the US Department of Energy. American Economic Review, 112(7), 2393-2423. 
+
+
+===== [PAGE 36] =====
+
+34 
+ 
+National Academies of Sciences, Engineering, and Medicine. (2021). Assessment of technologies 
+for improving light-duty vehicle fuel economy—2025–2035. The National Academies 
+Press. 
+Nemet, G. F. (2009). Demand-pull, technology-push, and government-led incentives for non-
+incremental technical change. Research policy, 38(5), 700-709. 
+Noailly, J., & Smeets, R. (2015). Directing technical change from fossil-fuel to renewable energy 
+innovation: An application using firm-level patent data. Journal of Environmental 
+Economics and Management, 72, 15-37. 
+Popp, D. (2002). Induced innovation and energy prices. American economic review, 92(1), 160-
+180. 
+Popp, D. (2016). Economic analysis of scientific publications and implications for energy 
+research and development. Nature Energy, 1(4), 1-8. 
+Popp, D. (2019). Environmental policy and innovation: a decade of research. 
+Palage, K., Lundmark, R., & Söderholm, P. (2019). The innovation effects of renewable energy 
+policies and their interaction: the case of solar photovoltaics. Environmental Economics 
+and Policy Studies, 21(2), 217-254. 
+Schmidt, T. S., & Sewerin, S. (2019). Measuring the temporal dynamics of policy mixes–An 
+empirical analysis of renewable energy policy mixes’ balance and design features in nine 
+countries. Research Policy, 48(10), 103557. 
+Sturgeon, T. J., & Van Biesebroeck, J. (2011). Global value chains in the automotive industry: an 
+enhanced role for developing countries?. International journal of technological learning, 
+innovation and development, 4(1-3), 181-205. 
+Rogge, K. S., & Reichardt, K. (2016). Policy mixes for sustainability transitions: An extended 
+concept and framework for analysis. Research policy, 45(8), 1620-1635. 
+Rozendaal, R., & Vollebergh, H. (2025). Policy-induced innovation in clean technologies: 
+Evidence from the car market. Journal of the Association of Environmental and Resource 
+Economists, 12(3), 565-598. 
+Verdolini, E., & Galeotti, M. (2011). At home and abroad: An empirical analysis of innovation 
+and diffusion in energy technologies. Journal of environmental economics and 
+management, 61(2), 119-134. 
+Veugelers, R. (2012). Which policy instruments to induce clean innovating?. Research 
+policy, 41(10), 1770-1778. 
+Ziegler, M. S., Song, J., & Trancik, J. E. (2021). Determinants of lithium-ion battery technology 
+cost decline. Energy & Environmental Science, 14(12), 6074-6098. 
+
+
+===== [PAGE 37] =====
+
+35 
+ 
+Online Appendix 
+Appendix A. CPC Classification for Patent Choices (Main Dependent Variable) 
+We use the Cooperative Patent Classification (CPC) to identify EV‑related inventions. The 
+European Patent Office and the United States Patent and Trademark Office developed the CPC, 
+which organizes technologies hierarchically. Section symbols indicate broad fields. For example, 
+B denotes Performing Operations; Transporting, and Y denotes Emerging Cross‑Sectional 
+Technologies. Class numbers and subclass letters then locate specific technology groups, such as 
+B60 for Vehicles in General and B60L for Propulsion of Electrically Propelled Vehicles. Within 
+these groups, finer subgroups allow us to isolate EV‑relevant technologies. We assign these 
+inventions to six specific domains and then aggregate them into two broad domains related to 
+upstream and downstream EV technologies: vehicle and battery. The vehicle domain covers pure 
+battery‑electric drivetrains, hybrid drivetrains, and other alternative‑fuel vehicle architectures. 
+The battery domain covers electrochemical cells and materials, battery packs and management 
+systems, and charging and power‑conversion technologies. If a patent lists codes from both 
+domains, we assign one vehicle label and one battery label, since many EV inventions link a 
+vehicle platform with a battery or a charger. 
+We considered estimating the by-technology model at the level of six technological fields to 
+sharpen the mapping between policies and the specific part of the EV system a firm advances. 
+That approach reduces statistical power for two reasons. First, enforcing mutual exclusivity 
+across technology fields splits a firm’s portfolio into smaller bins. For example, if we assign a 
+patent in the hybrid-vehicle field, we do not re-assign it in the pure EV field, even the technology 
+may belong to both fields. This increases zero counts at the firm-year level and produces sparse 
+firm-country panels. Second, the policy series correlate across countries, and the same firm-level 
+weights enter multiple categories, which raises multicollinearity and inflates standard errors. As a 
+result, coefficient signs often align with the broader two-domain results but the precision 
+deteriorates. We therefore choose to only include vehicle versus battery technology in the results. 
+ 
+Table A.1 
+CPC classification and definitions by categories. 
+CPC Code  
+Definitions  
+ 
+Pure EV  
+B60L 15 
+Methods, circuits, or devices for controlling the traction-motor speed of 
+electrically-propelled vehicles 
+B60L 50/60 
+Electric propulsion with power supplied within the vehicle using power 
+supplied by batteries  
+
+
+===== [PAGE 38] =====
+
+36 
+ 
+B60L 50/64; B60L 
+50/66 
+Electric propulsion with power supplied within the vehicle using 
+propulsion power supplied by batteries or fuel cells: Constructional details 
+of batteries specially adapted for electric vehicles; Arrangements of 
+batteries 
+Y02T 10/64; Y02T 
+10/70 
+Road transport of goods or passengers Other road transportation 
+technologies with climate change mitigation effect: Electric machine 
+technologies in electromobility, e.g. batteries    
+Y02T 10/72 
+Road transport of goods or passengers Other road transportation 
+technologies with climate change mitigation effect: Electric energy 
+management in electromobility 
+B60Y 2200/91 
+Indexing scheme relating to aspects cross-cutting vehicle technology: 
+Electric vehicles 
+ 
+Hybrid Vehicles  
+B60L 50/15  
+Electric propulsion with power supplied within the vehicle using 
+propulsion power supplied by engine-driven generators, e.g. generators 
+driven by combustion engines with additional electric power supply  
+B60L 50/61; B60L 
+50/62 
+Electric propulsion with power supplied within the vehicle using power 
+supplied by batteries by batteries charged by engine-driven generators, e.g. 
+series hybrid electric vehicles charged by low-power generators primarily 
+intended to support the batteries, e.g. range extenders 
+Y02T 10/62 
+Road transport of goods or passengers Other road transportation 
+technologies with climate change mitigation effect: Hybrid vehicles 
+Y10S 903 
+Technical subjects covered by former USPC cross-reference art collections 
+[XRACs] and digests: Hybrid electric vehicles, HEVS 
+B60W 20 
+Control systems specially adapted for hybrid vehicles 
+B60K 6 
+Arrangement or mounting of plural diverse prime-movers for mutual or 
+common propulsion, e.g. hybrid propulsion systems comprising electric 
+motors and internal combustion engines 
+B60Y 2200/92 
+Indexing scheme relating to aspects cross-cutting vehicle technology: 
+Hybrid vehicles 
+General Alternative Fuel Vehicles 
+B60L 3/0046 
+Electric devices on electrically-propelled vehicles for safety purposes; 
+Monitoring operating variables, e.g. speed, deceleration or energy 
+consumption relating to electric energy storage systems, e.g. batteries or 
+capacitors 
+B60L 50/50  
+Electric propulsion with power supplied within the vehicle using 
+propulsion power supplied by batteries or fuel cells 
+
+
+===== [PAGE 39] =====
+
+37 
+ 
+B60L 50/72; B60L 
+50/75  
+Electric propulsion with power supplied within the vehicle: Constructional 
+details of fuel cells specially adapted for electric vehicles using propulsion 
+power supplied by both fuel cells and batteries  
+B60L 58/40 
+Methods or circuit arrangements for monitoring or controlling batteries or 
+fuel cells, specially adapted for electric vehicles for controlling a 
+combination of batteries and fuel cells  
+B60K 1 
+Arrangement or mounting of electrical propulsion units in vehicles 
+Y02T 90/16 
+Information or communication technologies improving the operation of 
+electric vehicles 
+ 
+Battery Invention  
+B60L 58/16 
+Methods or circuit arrangements for monitoring or controlling batteries or 
+fuel cells, specially adapted for electric vehicles responding to battery 
+ageing, e.g. to the number of charging cycles or the state of health [SoH] 
+B60L 58/10 
+Methods or circuit arrangements for monitoring or controlling batteries or 
+fuel cells, specially adapted for electric vehicles for monitoring or 
+controlling batteries 
+B60W 10/24; B60W 
+10/26 
+Conjoint control of vehicle sub-units of different type or different function 
+including control of energy storage means for electrical energy, e.g. 
+batteries or capacitors 
+B60Y 2400/11; B60Y 
+2400/112 
+Indexing scheme relating to aspects cross-cutting vehicle technology: 
+Electric energy storages; Batteries 
+Y02T 10/70  
+Road transport of goods or passengers Other road transportation 
+technologies with climate change mitigation effect: Energy storage 
+systems for electromobility, e.g. batteries   
+General Battery Innovation 
+H01M 6 
+Processes or means, e.g. batteries, for the direct conversion of chemical 
+energy into electrical energy: Primary cells 
+H01M 10 
+Processes or means, e.g. batteries, for the direct conversion of chemical 
+energy into electrical energy: Secondary cells 
+ 
+Charging Infrastructure  
+B60L 53 
+Methods of charging batteries, specially adapted for electric vehicles; 
+Charging stations or on-board charging equipment therefor; Exchange of 
+energy storage elements in electric vehicles 
+B60L 58/12; B60L 
+58/13; B60L 58/14; 
+B60L 58/15 
+Methods or circuit arrangements for monitoring or controlling batteries or 
+fuel cells, specially adapted for electric vehicles for monitoring or 
+controlling batteries responding to state of charge [SoC]: Maintaining the 
+
+
+===== [PAGE 40] =====
+
+38 
+ 
+SoC within a determined range; Preventing excessive discharging; 
+Preventing overcharging 
+B60L 58/16 
+Methods or circuit arrangements for monitoring or controlling batteries or 
+fuel cells, specially adapted for electric vehicles for monitoring or 
+controlling batteries responding to battery ageing, e.g. to the number of 
+charging cycles or the state of health [SoH]  
+B60L 58/18; B60L 
+58/19; B60L 58/20; 
+B60L 58/21; B60L 
+58/22 
+Methods or circuit arrangements for monitoring or controlling batteries or 
+fuel cells, specially adapted for electric vehicles for monitoring or 
+controlling batteries of two or more battery modules: Switching between 
+serial connection and parallel connection of battery modules; having 
+different nominal voltages; having the same nominal voltage; Balancing 
+the charge of battery modules  
+H02J 2310/40; H02J 
+2310/48 
+The network for supplying or distributing electric power characterised by 
+its spatial reach or by the load: The network being an on-board power 
+network for electric vehicles or hybrid vehicles 
+Y02T 90/10; Y02T 
+90/12 
+Enabling technologies or technologies with a potential or indirect 
+contribution to GHG emissions mitigation: Technologies relating to 
+charging of electric vehicles;  Electric charging stations 
+Y02T 10/7072; Y02T 
+10/92 
+Road transport of goods or passengers Other road transportation 
+technologies with climate change mitigation effect: Electromobility 
+specific charging systems or methods for batteries, ultracapacitors, 
+supercapacitors or double-layer capacitors 
+Y04S 10/126 
+Systems supporting electrical power generation, transmission or 
+distribution: the energy generation units being or involving electric 
+vehicles [EV] or hybrid vehicles [HEV], i.e. power aggregation of EV or 
+HEV, vehicle to grid arrangements [V2G]  
+ 
+ 
+ 
+
+
+===== [PAGE 41] =====
+
+39 
+ 
+Appendix B. Financial Incentives Sources and Operationalization 
+Table B.1  
+Financial incentive sources by country/region. 
+Country or Region 
+Data Source 
+European Union 
+European Automobile Manufacturers’ Association 
+- 
+Electric Cars: Tax Benefits and Incentives Report 
+The United States 
+Department of Energy, Alternative Fuels Data Center 
+Canada 
+Transports Canada 
+China 
+Finance Ministry’s Announcements  
+South Korea 
+Ministry of Environment Transportation and Environment 
+Division 
+- 
+EV Distribution and Charging Infrastructure 
+Construction Project Subsidy Processing Guidelines 
+Japan 
+Ministry of Economy, Trade and Industry’s Announcements 
+ 
+Table B.1 lists the primary sources we used to code national financial incentives for electric 
+vehicles in the European Union, the United States, Canada, China, South Korea, and Japan. We 
+extract the level and timing of each instrument directly from these official compilations and 
+announcements to build consistent country-year series. 
+Many acquisition subsidies vary by vehicle characteristics such as driving range or battery 
+capacity. To standardize the series across countries, we evaluate each incentive for a 
+representative EV with a driving range up to 300 miles. This establishes a uniform reference 
+point consistent with most incentive structures and reduces potential cross-country discrepancies. 
+We express all monetary amounts in 2020 U.S. dollars for comparability over time. 
+For use‑phase benefits, we track four national policy instruments: emission‑based taxes, 
+annual road taxes, tolls or congestion charges, and registration taxes We set an indicator to 1 if 
+EVs receive a nationally applicable discount, reduced rate, or full exemption on that instrument 
+in that year; otherwise, we set it to 0. Then, we develop a usage-benefit index, and the presence 
+of each instrument adds 0.25 to the index. We do not scale the index by the size of the relief, 
+which improves cross‑country comparability. 
+Table 2.2.  
+Operationalization of financial incentives 
+Incentive Type 
+Measurement 
+Unit 
+Acquisition Incentives 
+VAT reduction 
+2020 dollars 
+Purchase discount/credit 
+Use Benefits 
+Emission tax benefit 
+0.25 each and add up to 1 
+Road tax benefit 
+
+
+===== [PAGE 42] =====
+
+40 
+ 
+Toll benefit 
+Registration tax benefit 
+ 
+
+
+===== [PAGE 43] =====
+
+41 
+ 
+Appendix C. Target Resources with Actual Target Announcement 
+The following table summarizes national-level EV adoption targets announced by each country during the study period. These 
+targets typically specify a quantitative goal to be achieved by a specific year. Because the United States did not establish a federal EV 
+adoption target within the examined period, California’s state-level target is used as a representative proxy, given the state’s leadership 
+in EV policy and its significant influence on national market trends and regulatory standards. From each policy document, we extract 
+two key elements: (1) the year in which the target was first announced, and (2) the actual EV adoption number of the target. 
+Country 
+Year 
+Target 
+Source 
+Austria 
+2010 
+250,000 EVs by 2020 
+Energie-Strategie Österreich (Energy 
+Strategy Austria) 
+ 
+2012 
+250,000 EVs by 2020 
+Implementation Plan - Electromobility 
+in and from Austria 
+ 
+2019 
+250,000 EVs by 2020; all new cars zero-emission by 
+2030 
+National Energy & Climate Plan 
+(NECP) 
+Australia 
+ 
+No target at governmental/national level 
+ 
+Belgium 
+2016 
+Around 76,000 EVs by 2020 
+The consolidated Belgian NPF 
+submitted to the European Commission 
+Canada 
+2009 
+500,000 EVs by 2018 
+Electric Vehicle Technology Roadmap 
+for Canada 
+ 
+2019 
+10 % of new LDV sales ZEV by 2025; 30 % by 2030; 
+100 % by 2040 
+Government of Canada invests in zero-
+emission vehicles 
+Switzerland 
+2018 
+≥ 15 % plug‑in share in new‑car registrations by 2022 
+Gemeinsame Roadmap zur Förderung 
+der Elektromobilität 
+China 
+2009 
+Reach production capacity of 500,000 battery, plug-in 
+hybrid, and hybrid electric vehicles (new energy 
+vehicle) 
+Auto Industry Adjustment and 
+revitalization Plan 
+ 
+2012 
+Annual production and sale of 500,000 plug-in electric 
+vehicles by 2015 and 2 million by 2020 
+Energy-Saving and New Energy 
+Vehicles Industry Development Plan 
+Denmark 
+2013 
+200,000 electric cars by 2020 
+The European Union Climate 
+Commission 
+ 
+2018 
+Around 1 million electric cars on the road by 2030 
+The Danish Government Anncounment 
+
+
+===== [PAGE 44] =====
+
+42 
+ 
+Finland 
+2016 
+≥ 250 000 electric cars 
+National Energy and Climate Strategy of 
+Finland for 2030 
+ 
+2017 
+Around 20,000 electric vehicles in 2020 
+National Alternative‑Fuels Infrastructure 
+(AFI) Plan 
+France 
+2009 
+2 million EVs by 2020 
+Plan national pour le d´eveloppement 
+des v´ehicules ´electriques et hybrides 
+rechargeables 
+Germany 
+2009 
+One million electric vehicles on road by 2020 
+National Development Plan 
+for Electric Mobility (2009)  
+ 
+2013 
+One million electric vehicles on road by 2020 and six 
+million by 2030 
+Sixth National Communication under 
+the United Nations Framework 
+Convention on Climate Change 
+Japan 
+(The targets are set 
+for all “new” 
+vehicles: majority 
+of this type are 
+FCEV and 
+hydrogen, but EVs 
+and hybrid vehicles 
+are also affected) 
+2010 
+set goals for popularization of such vehicles in 2020 and 
+2030, and defined five types of “next-generation 
+vehicles”: hybrid electric vehicles that combine a 
+gasoline or other fuel engine with an electric motor; 
+plug-in hybrid electric vehicles that can be charged 
+externally; battery electric vehicles; fuel-cell electric 
+vehicles that generate power from hydrogen and oxygen 
+in the air; and clean diesel vehicles 
+• aim to increase the share of new 
+automobiles accounted for by next-generation 
+automobiles to between 50 % and 70 
+% by 2030 
+Next-Generation Vehicle Strategy 2010 
+ 
+2014 
+aim to increase the share of new 
+automobiles accounted for by next-generation 
+automobiles to between 50 % and 70 
+% by 2030 
+2014 Automobile Industry Strategy 
+ 
+2018 
+aim to increase the share of new 
+automobiles accounted for by next-generation 
+automobiles to between 50 % and 70 
+% by 2030 
+METI’s Long-term Strategy as Growth 
+Strategy 
+
+
+===== [PAGE 45] =====
+
+43 
+ 
+South Korea 
+2010 
+Plan to produce 1.2 million green cars by 2015 (reach 
+21% share of domestic vehicle market) 
+• aims to start mass producing plugged-in hybrid 
+vehicles in 2012 
+Green Car Promotion Strategy 2010 
+(also called Green Car Roadmap) 
+ 
+2010 
+200,000 EVs in 2020 
+Green Car Industry Stimulation Plan 
+(2010) 
+Netherlands 
+2009 
+200,000 EVs in 2020 
+National Action Plan 
+ 
+2013 
+200,000 EVs in 2020; 1 million by 2025 
+Energy Agreement for Sustainable 
+Growth 
+ 
+2017 
+100 % of new passenger cars sold must be 
+zero‑emission by 2030 
+Confidence in the Future 2017-2021 
+Coalition Agreement 
+Norway 
+2009 
+200,000 EVs in 2020 
+Battery‑electric + plug‑in‑hybrid cars to reach 10 % of 
+the passenger‑car fleet 
+Action Plan for the Electrification of 
+Road Transport 
+ 
+2013 
+50,000 ZEVs on the road by 2018 
+Storting (Parliament) resolution 
+ 
+2017 
+All new private cars, city buses and light vans sold to be 
+zero‑emission by 2025 
+National Transport Plan 2018‑2029 
+Poland 
+2016 
+1 million EVs on the road by 2025 
+Ministry of Energy announcement 
+ 
+2018 
+≥ 10 % EV share by 2022 
+Act on Electromobility & Alternative 
+Fuels 
+ 
+2019 
+50,000 EVs by end‑2020; 600,000 EV/HEV by 2030; 
+1 million by 2025 
+Strategy for Sustainable Transport 
+Development 2030 
+Spain 
+2008 
+1 million EVs on the road by 2014 
+Energy‑saving plan presented to 
+Parliament 
+ 
+2010 
+70,000 EVs registered by 2012; 250,000 EVs circulating 
+by 2014 
+Estrategia Integral para el Impulso del 
+Vehículo Eléctrico 2010‑2014 
+ 
+2014 
+Around 150,000 EVs in circulation by 2020 
+Estrategia de Impulso del Vehículo con 
+Energías Alternativas (VEA) 2014‑2020 
+Sweden 
+2009 
+fossil‑fuel‑independent vehicle fleet by 2030 
+Government communication on climate 
+& energy policy 
+ 
+2018 
+142,211 battery‑electric & plug‑in hybrid cars in use 
+by 2020 
+Supplement to Sweden’s National Policy 
+Framework (NPF) for the EU 
+
+
+===== [PAGE 46] =====
+
+44 
+ 
+ 
+2019 
+no new petrol‑ or diesel‑driven cars will be sold 
+after 2030 
+Statement of Government Policy to the 
+Riksdag 
+The United 
+Kingdom 
+2011 
+Government expects: hundreds of thousands of plug‑in 
+vehicles on the road by 2020 
+Making the Connection The Plug-In 
+Vehicle Infrastructure Strategy 
+ 
+2018 
+50%-70% new car sales as ultra low emission by 2030 
+All new cars and vans to be effectively zero emission by 
+2040 
+The Road to Zero Next steps towards 
+cleaner road transport and delivering our 
+Industrial Strategy 
+The United States 
+2009 
+Manufacturers had to earn ZEV credits equal to 11 % of 
+their California light‑duty sales for model‑year 2009 
+Zero‑Emission‑Vehicle (ZEV) regulation 
+ 
+2012 
+1.5 million ZEVs on California roads by 2025 
+Executive Order B‑16‑12 
+ 
+2014 
+≥ 1 million ZEVs & near‑ZEVs by 2023 
+Charge Ahead California” Act 
+ 
+2018 
+5 million ZEVs on the road by 2030 
+Executive Order B‑48‑18 
+ 
+2020 
+100 % of new passenger‑car and light‑truck sales to be 
+zero‑emission by 2035 
+Executive Order N‑79‑20 
+ 
+ 
+ 
+
+
+===== [PAGE 47] =====
+
+45 
+ 
+Appendix D. Broad CPC Classification for Knowledge Stocks Construction 
+We construct a broader firm‑level knowledge stock than the patents used in the main 
+regressions because EV invention builds on capabilities that span adjacent technological fields. 
+We track four categories that capture the main sources of spillovers into EV innovation: general 
+alternative‑fuel vehicles, batteries and charging, general automobile, and general electricity. The 
+alternative‑fuel category covers technologies such as fuel‑cell, hybrid, and other non‑petroleum 
+drivetrains that share power‑management architectures with EVs. The batteries and charging 
+category includes cell chemistry, pack design, battery‑management systems, thermal 
+management, power electronics for charging, and communication protocols that govern fast and 
+bidirectional charging. The general automobile category captures system-integration know-how, 
+including vehicle bodies, chassis, braking and steering systems, safety, manufacturing processes, 
+and platform engineering. The general electricity category covers electrical machines, control 
+systems, and power-conversion technologies that underpin traction motors, inverters, converters, 
+and grid interfaces. These four groups mirror the way firms generate EV patents: teams integrate 
+a vehicle platform, an electrified powertrain, and a battery system while drawing on prior 
+experience with other alternative-fuel designs and with generic electrical engineering. 
+ 
+CPC Code 
+Categories & Definitions 
+ 
+EV or Hybrid Vehicles (General Alternative Fuel Vehicles) 
+B60L 15 
+Methods, circuits, or devices for controlling the traction-motor 
+speed of electrically-propelled vehicles 
+B60L 50 
+Electric propulsion with power supplied within the vehicle 
+ 
+ 
+B60K 1 
+Arrangement or mounting of electrical propulsion units in vehicles 
+B60K 6 
+Arrangement or mounting of plural diverse prime-movers for 
+mutual or common propulsion, e.g. hybrid propulsion systems 
+comprising electric motors and internal combustion engines 
+B60W 20 
+Control systems specially adapted for hybrid vehicles 
+B60Y 2200/91 
+Indexing scheme relating to aspects cross-cutting vehicle 
+technology: Electric vehicles 
+B60Y 2200/92 
+Indexing scheme relating to aspects cross-cutting vehicle 
+technology: Hybrid vehicles 
+Y02T 10 
+Road transport of goods or passengers 
+Y02T 90 
+Climate Change Mitigation Technologies related to Transportation: 
+Enabling technologies or technologies with a potential or indirect 
+contribution to GHG emissions mitigation 
+Y10S 903 
+Technical subjects covered by former USPC cross-reference art 
+collections [XRACs] and digests: Hybrid electric vehicles, HEVS 
+ 
+Batteries / Charging  
+B60L 3/0046 
+Electric devices on electrically-propelled vehicles for safety 
+purposes; Monitoring operating variables, e.g. speed, deceleration 
+
+
+===== [PAGE 48] =====
+
+46 
+ 
+or energy consumption relating to electric energy storage systems, 
+e.g. batteries or capacitors 
+B60L 53 
+Methods of charging batteries, specially adapted for electric 
+vehicles; Charging stations or on-board charging equipment 
+therefor; Exchange of energy storage elements in electric vehicles 
+B60L 55 
+Arrangements for supplying energy stored within a vehicle to a 
+power network, i.e. vehicle-to-grid [V2G] arrangements 
+B60L 58 
+Methods or circuit arrangements for monitoring or controlling 
+batteries or fuel cells, specially adapted for electric vehicles 
+B60W 10/24; 
+B60W 10/26 
+Conjoint control of vehicle sub-units of different type or different 
+function including control of energy storage means for electrical 
+energy, e.g. batteries or capacitors 
+B60S 5/06 
+Supplying batteries to, or removing batteries from, 
+vehicles (exchanging batteries for electric propulsion of vehicles 
+B60Y 2400/10; 
+B60Y 2400/11; 
+B60Y 2400/14; 
+B60Y 2400/16 
+Special features of vehicle units: energy storage (e.g. hydrogen fuel; 
+electric energy; batteries) 
+H01M 
+Processes or Means, e.g. Batteries, for the Direct Conversion of 
+Chemical Energy into Electrical Energy 
+H02J 2310 
+The network for supplying or distributing electric power 
+characterised by its spatial reach or by the load 
+Y02T 90 
+Enabling technologies or technologies with a potential or indirect 
+contribution to GHG emissions mitigation 
+Y04S 10/126 
+Systems supporting electrical power generation, transmission or 
+distribution: the energy generation units being or involving electric 
+vehicles [EV] or hybrid vehicles [HEV], i.e. power aggregation of 
+EV or HEV, vehicle to grid arrangements [V2G]  
+Y04S 30 
+Systems supporting specific end-user applications in the sector of 
+transportation 
+ 
+General Automobiles 
+B60B 
+Vehicle Wheels; Castors; and Axles 
+B60L 7 
+Electrodynamic brake systems for vehicles in general 
+B60K 5 
+Arrangement or mounting of internal-combustion or jet-propulsion 
+units 
+B60K 7 
+Disposition of motor in, or adjacent to, traction wheel 
+B60K 8 
+Arrangement or mounting of propulsion units not provided for in 
+one of the preceding main groups 
+B60K 11 
+Arrangement in connection with cooling of propulsion units 
+B60K 13 
+Arrangement in connection with combustion air intake or gas 
+exhaust of propulsion units 
+B60K 15 
+Arrangement in connection with fuel supply of combustion engines 
+B60K 17 
+Arrangement or mounting of transmissions in vehicles 
+B60K 20 
+Arrangement or mounting of change-speed gearing control devices 
+in vehicles 
+
+
+===== [PAGE 49] =====
+
+47 
+ 
+B60K 23 
+Arrangement or mounting of control devices for vehicle 
+transmissions, or parts thereof, not otherwise provided for 
+B60K 26 
+Arrangements or mounting of propulsion unit control devices in 
+vehicles 
+B60R 
+Vehicle Fitting or Parts 
+B60W 10 
+Conjoint control of vehicle sub-units of different type or different 
+function (for propulsion of purely electrically-propelled vehicles 
+with power supplied within the vehicle) 
+B60W 60 
+Drive control systems specially adapted for autonomous road 
+vehicles 
+F01 
+Machines or Engines in General; Engine Plants in Gneral; Steam 
+Engines 
+F02B 
+Internal-combustion Piston Engines; Combustion Engines in 
+General 
+F02D 
+Controlling Combustion Engines 
+F02F 
+Cylinders, Pistons or Casings, for Combustion Engines; 
+Arrangements of Sealings in Combustion Engines 
+F02M 
+Supplying Combustion Engines in General with Combustible 
+Mixtures or Constituents Thereof 
+F02N 
+Starting of Combustion Engines; Starting Aids for Such Engines 
+F02P 
+Ignition, Other than Compression Ignition, for Interal-Combustion 
+Engines; Testing of Ignition Timing in Compression-ignition 
+Engines 
+ 
+General Electricity 
+H01B 9 
+Power Cables 
+H01B 12 
+Superconductive or hyperconductive conductors, cables, or 
+transmission lines 
+H01G 
+Capacitors 
+H01R 
+Electrically-Conductive Connections; Structural Associations of a 
+Plurality of Mutually-Insulated Electrical Connecting Elements; 
+Coupling Devices; Current Collectors 
+H02J 7 
+Circuit Arrangements of Systems for Supplying or Distributing 
+Electric Power; Systems for Storing Electric Energy: Circuit 
+arrangements for charging or depolarising batteries or for supplying 
+loads from batteries 
+Y02E 40 
+Technologies for an efficient electrical power generation, 
+transmission or distribution  
+Y04S 20 
+Management or operation of end-user stationary applications or the 
+last stages of power distribution; Controlling, monitoring or 
+operating thereof 
+Y10S 310 
+Electrical generator or motor structure 
+Y10S 320 
+Electricity: battery or capacitor charging or discharging 
+Y10S 323 
+Electricity: power supply or regulation systems 
+Y10S 439 
+Electrical connectors 
+
+
+===== [PAGE 50] =====
+
+48 
+ 
+Appendix E. List of Merging Firms 
+Patent assignee names in the European Patent Office database exhibit considerable 
+variation in spelling, translation, and corporate structure. To ensure consistency, we reviewed 
+each raw assignee string and standardized alternative translations, typographical variants, and 
+regional name formats into a single English-language identifier. Where assignees represent 
+business groups with multiple subsidiaries, we mapped each subsidiary name back to its ultimate 
+corporate parent as of the filing date. In cases where independent firms were acquired or merged 
+before or during the 2010-2021 window, we assigned all related patents to the post-acquisition 
+parent name. This is based on the information on firms’ official websites and annual reports. The 
+mapping table below lists the canonical firm names in the left column alongside their raw 
+variants in the right column. 
+Parent Firm 
+Merged Firm 
+AAM (American Axle & 
+Manufacturing) 
+AAM Driveline Systems 
+Metaldyne Company 
+AESC Group 
+Envision AESC Energy 
+Envision AESC Japan Ltd. 
+Albermarle Corporation  
+Chemetall 
+Rockwood Lithium 
+AGC 
+Asahi Glass Company 
+Aichi Electric Group 
+Aichi Automotive Company 
+Aichi Emerson Electric Company 
+Aichi Kikai Kogyo 
+Aisin Co., Ltd. 
+Aisin AW company 
+Aisin Fukui Corporation 
+Aisin Keikinzoku Company 
+Aisin Seiki Company  
+Arkema 
+Atofina (Chemicals; Research) 
+Elf Atochem (renamed to Arkema in 2000) 
+Polytec Pt 
+Asahi Kasei 
+Asahi Chemical Company 
+AUO Corporation 
+Behr-Hella Thermocontrol 
+BAIC Group 
+Beiqi Foton Motor Company 
+Blue Park Smart Energy (Beijing) Technology Company 
+Blue Valley Smart Energy Technology Company 
+Baoneng Group 
+Qoros Automotive Company 
+BMW 
+Rolls-Royce 
+Bombardier 
+BRP (-Rotax&Company; Powertrain&Company) 
+Borg Warner 
+Akasol (AG, Engineering) 
+Borgvarner Torktransfer Systems 
+Drivetek 
+Haldex Traction 
+Remy International/Technologies 
+
+
+===== [PAGE 51] =====
+
+49 
+ 
+Sevcon 
+Bridgestone 
+Asahi Carbon 
+Brrokfield 
+Graftech 
+Burelle 
+Cie Plastic Omnium SE 
+Compagnie Plastic Omnium 
+Inergy Automotive Systems Research 
+Faurecia Bloc Avant 
+Faurecia Industries 
+HBPO 
+Ingergy Automative Systems Research 
+Plastic Omnium Advanced Innovation 
+Caterpillar Inc 
+Caterpillar (Commercial; Global Mining Equipment; 
+Paving Products; Underground Mining) 
+CNH Industrial 
+Steyr-Daimler-Puch 
+Continental AG 
+Continental Automotive Technologies GMBH 
+Continental Powertrain 
+Continental Teves 
+Contitech 
+Corning Inc. 
+Samsung Corning Precision Materials Company 
+Daihen Corporation 
+Kyuhen Company 
+Delta Electronics 
+Cyntec 
+Eltek 
+Denka 
+Denki Kagaku Kogyo (Former name, changed in 2015) 
+Denso Corporation 
+Asmo Company 
+Blue Nexus Corporation 
+Denso Automotive; Electronics; Thermal Systems 
+Fujitsu Ten 
+Hamanako Denso Company 
+Kyosan Denki Company 
+Mirise Technologies Corporation 
+Dow Inc 
+Dow Chemical 
+Dow Corning Corporation 
+Dow Global Technologies 
+Dowa Holdings 
+Dowa Eco-system Co., Ltd. 
+Dowa Electronics Materials Company 
+Dowa Mining Company 
+Eaton Corporation 
+Eaton Cummins Automated Transmission Technologies 
+Eaton Intelligent Power 
+Eaton Power Quality Corporation 
+ENEOS Holdings 
+JX Metals Company 
+JX Nippon Mining & Metals Corporation 
+JX Nippon Oil & Energy Corporation 
+Envision Energy 
+Envision Dynamic Technology Company 
+Envision Intelligent Innovation Dynamics Technology 
+Ltd. 
+
+
+===== [PAGE 52] =====
+
+50 
+ 
+Envision Power Technology Company 
+Enovix Corporation 
+Routejade 
+Evonik 
+Degussa 
+Evonik (Industries; Litraion; Operations) 
+Geely 
+Shanghai Volvo Car R&D Company 
+Volvo 
+Lotus Cars 
+Smart Automobile 
+Hanon Systems 
+Halla Climate Control Corporation (changed name in 
+2015) 
+Halla Cisteon Climate Control Corporation (changed 
+name in 2015) 
+Hanwha Corporation 
+Hanwha Aerospace Company 
+Hanwha Global Asset Corporation 
+Hanwha L&C Corporation 
+Hanwha Polydreamer Company 
+Hanwha Solutions Corporation 
+Hanwha Advanced Materials Company 
+Hanwha Energy Company 
+Hanwha Q Cells & Advanced Materials Corporation 
+Hanwha TechM Company 
+Hanwha Techwin Company 
+Hanwha Systems Company 
+Hanwha Defense Company 
+Hanwha Land Systems Company 
+Haohua Chemical 
+Science&Technology 
+Sinochem Lantian Company 
+Honda 
+Asian Honda Motor Company 
+Ingersoll Rand 
+Thermo King 
+Trane 
+Integer Holdings 
+Greatbatch 
+JMV Se&Co. Kg 
+Voith Turbo 
+Johnson & Johnson 
+Biosense Webster 
+Cilag International 
+Depuy Synthes Products 
+Ethicon 
+JTEKT Corporation 
+Koyo Bearing North America 
+Kawasaki Heavy Ind 
+Kawasaki Iron Mining 
+Kawasaki Jukogyo Kabushiki Kaisha 
+Kawasaki Plant Systems 
+Kawasaki Steel Corporation 
+Kawasaki Trading Company 
+Kawasaki Shipbuilding Corporation 
+Kawasaki Robotics 
+LG Corporation 
+LG Cable 
+LG Chern Ltd. 
+LG CNS Company 
+
+
+===== [PAGE 53] =====
+
+51 
+ 
+LG Hitachi 
+LG Household &Health Care 
+LG Information & Communications 
+LG Magna E-Powertrain Co., Ltd. 
+LG Metals Corporation 
+LG N-Sys 
+LG Precision Company 
+LG Siltron 
+LG Telecom 
+LG Twin Towers 
+LG Uplus Corporation 
+LG-Caltex Gas Company 
+LG-Nortel Company 
+LG Chem 
+LG New Energy Co., Ltd. 
+LG Energy Solutions Ltd. 
+Linde 
+Praxair Technology 
+Lotte Energy Materials Corporation Iljin Materials Company 
+Iljin Steel Corporation 
+Iljin LED Company 
+LX Semicon 
+Silicon Works Company 
+Lyondellbasell 
+Basell Polyolefine 
+Mahle Group 
+Behr & Company 
+Marelli Holdings 
+Calsonic Kansei Coporation 
+Mercedes-Benz Group 
+Daimler (Truck; Benz; Chrysler) 
+Meritor 
+Arvinmeritor Emissions Tech 
+Arvinmeritor Light Vehicles Systems 
+Arvinmeritor Technology 
+Microchip Tech 
+Atmel Automotive 
+Atmel Corporation 
+Mitsuba Corporation 
+Tatsumi 
+Montana Tech Components 
+Varta Microbattery 
+Murata Manufacturing Company 
+Primatec 
+Nikola Corporation 
+Romeo Power 
+Romeo Systems Technology 
+Nippon Denko Co., Ltd. 
+Chuo Denki Kogyo 
+Niterra Co., Ltd. 
+NGK Spark Plug Company 
+Nissan 
+Autech (Company; Japan) 
+Occidental Petroleum 
+Kerr-Mcgee Chemical Corporation (2006) 
+Onsemi 
+Fairchild Semiconductor Corporation (in 2016) 
+Panasonic 
+Sanyo Component 
+Sanyo Electric Company 
+Raytheon Technologies 
+Corporation 
+Goodrich Actuation Systems 
+Goodrich Aerospace Services Private Limited 
+Goodrich Corporation 
+Goodrich Lighting Systems 
+
+
+===== [PAGE 54] =====
+
+52 
+ 
+Hamilton Sundstrand 
+Otis Elevator Company 
+Rockwell Collins (Control Technologies) 
+ROHR 
+Rosemount 
+Simmonds Precision Products 
+RESONAC 
+Showa Denko (Materials; Packaging Company) 
+Sany Group 
+Putzmeister Engineering/Moertelmaschinen 
+Schaffler AG 
+Vitesco Technologies 
+SERES Group 
+SF Motors 
+Solvay 
+CYTEC Industires 
+Stanley Black&Decker 
+Black&Decker 
+MTD Products 
+Stellantis 
+Automobiles Citroen 
+Automobiles Peugeot 
+Chrysler (Corporation; Group) 
+FCA (Fiat Chrysler Automobiles) 
+FIAT Auto 
+FPT Industrial 
+Opel Elsenach 
+Peugeot Citroen Automobiles 
+PSA Automobiles 
+STIHL International 
+Andreas Stihl & Company 
+FA. Andreas Stihl 
+Sumitomo Electric 
+Nissin Electric Company 
+TATA Group 
+Jaguar 
+Jaguar Land Rover 
+Land Rover 
+Marcopolo 
+TE Connectivity 
+Tyco Electronics 
+Teijin 
+Nanogram Corporation 
+TDK Corporation 
+Densei Lambda 
+EPCOS 
+Hutchinson 
+Tenneco 
+Federal Mogul Corporation (in 2018) 
+Textron 
+BB Buggies 
+Bell (Communications research; Helicopter) 
+Thales 
+Diehl Aerospace 
+Gemalto 
+Thannhuber AG 
+Einhell 
+Toyota 
+Daihatsu Motor Company 
+Tuthill Corporation 
+Eagle-Picher (Industries; Technologies; Energy Products 
+Coporation) 
+UACJ Corporation 
+Furukawa-Sky Aluminum Corporation 
+Volkswagen 
+Audi 
+
+
+===== [PAGE 55] =====
+
+53 
+ 
+Automobili Lamborghini 
+Bentley Motors 
+Porsche 
+Yuasa Corporation 
+Blue Energy 
+ZF Friedrichshafen AG 
+Fichtel & Sachs 
+ 
+ 
+ 
+
+
+===== [PAGE 56] =====
+
+54 
+ 
+Appendix F. Descriptive Results on Patents and Policies 
+This section documents descriptive evidence on EV innovation and policy. We plot the 
+evolution of patenting by technology and identify the firms that contribute most to innovation 
+during 2010-2021. 
+In addition to the overall patenting growth figure, we also plot the number of patents by 
+technology. Battery inventions dominate throughout 1995-2021. Battery counts rise from roughly 
+1,000 per year in the late 1990s to more than 6,000 by 2011 and exceed 10,000 in 2016-2018. 
+Vehicle patents start from a few hundred per year, accelerate after 2009, reach around 1,600 in 
+2011-2012, and peak near 2,400-2,500 in 2019. The ratio of battery to vehicle patents stays 
+above three to one for most of the period and reaches about five to one at the 2017 peak. We start 
+our analytical sample in 2010 to coincide with the sharp upswing in activity. 
+Fig. F.1. Number of Patents by Technology over Time 
+ 
+ 
+The top 20 firms mix two kinds of actors: global car manufacturers and specialized 
+component suppliers. Toyota leads the global ranking. These top firms show strong 
+representation from Japan and Korea, with notable contributions from the United States, 
+Germany, and China. The prominence of dedicated battery firms indicates that upstream policy 
+instruments that affect materials, cell manufacturing, and battery management may influence a 
+large share of EV innovation. 
+ 
+ 
+
+
+===== [PAGE 57] =====
+
+55 
+ 
+Fig. F.2. Top 20 Firms’ Patents from 2010 to 2021 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+===== [PAGE 58] =====
+
+56 
+ 
+Appendix G. Four Schemes on Weighting Construction 
+Below we formalize the four weighting schemes that translate national policy series into 
+firm‑level exposure. We define the study window as 2010-2021 and treat all earlier years as the 
+pre‑sample. We compile firm-country patenting from patent families and publication authorities, 
+map publication authorities into the set of policy countries, and drop jurisdictions outside the 
+policy sample. We classify firms as incumbents when they file at least one pre‑sample patent in a 
+sample country and as new entrants otherwise. We then compute country weights and apply GDP 
+scaling that reflects market size. For firm 𝑖𝑖 and country 𝑐𝑐, the exposure weight takes the form: 
+ 
+Pre-sample weights with a home‑country indicator: We anchor exposure at the firm’s 
+headquarters country. For incumbents who have patents during the pre-sample period, we 
+calculate 𝑤𝑤𝑐𝑐𝑐𝑐
+𝑃𝑃  based on  
+𝑤𝑤𝑐𝑐𝑐𝑐
+𝑃𝑃=
+#(𝑝𝑝𝑝𝑝𝑝𝑝−𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑜𝑜𝑜𝑜 𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓 𝑖𝑖 𝑖𝑖𝑖𝑖 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 𝑐𝑐)
+#(𝑝𝑝𝑝𝑝𝑝𝑝−𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑜𝑜𝑜𝑜 𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓 𝑖𝑖 𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎 𝑎𝑎𝑎𝑎𝑎𝑎 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐) 
+For new entrants, we set 𝑤𝑤𝑐𝑐𝑐𝑐
+𝑃𝑃 = 1 for the headquarter country and set 𝑤𝑤𝑐𝑐𝑐𝑐
+𝑃𝑃 =0 for every other 
+country. This scheme assigns all policy exposure to the home market and ignores the firm’s filing 
+footprint outside the headquarter country before 2010. 
+Pre‑sample average weights. We recover the geographic footprint that precedes the study 
+window. For every incumbent, we count pre‑sample patent families by publication authority and 
+compute country shares same as in pre-sample weights. New entrants have no pre‑sample filings 
+in sample countries, so we impute their vector of shares with the headquarter‑specific average of 
+incumbent firms. We take all incumbents that share the entrant’s headquarter country, average 
+their 𝑤𝑤𝑐𝑐𝑐𝑐
+𝑃𝑃  across countries and assign that average number to new entrants. This scheme locks 
+exposure to the firm’s historical footprint and prevents contemporaneous policy changes from 
+influencing the weights. 
+Pre-sample by-technology weights. With the concerns that different technologies may 
+experience different policy exposures, we repeat the pre‑sample calculation within technology 
+buckets: vehicle and battery technologies. This scheme preserves the advantages of the 
+pre‑sample approach while allowing the geographic mapping of policies to follow the technology 
+in which the firm built its early know‑how. 
+In-sample weights. We construct the main weights from the firm’s patenting distribution 
+during 2010-2021. These weights track where the firm seeks protection during the study window. 
+The scheme increases power to detect policy effects that move innovation quickly because it 
+aligns the mapping with current markets. The scheme can also reflect portfolio shifts that 
+𝑤𝑤𝑐𝑐𝑐𝑐=
+𝑤𝑤𝑐𝑐𝑐𝑐
+𝑃𝑃𝐺𝐺𝐺𝐺𝐺𝐺𝑐𝑐
+0.35
+∑𝑤𝑤𝑐𝑐′𝑖𝑖
+𝑃𝑃𝐺𝐺𝐺𝐺𝐺𝐺𝑐𝑐′
+0.35
+𝑐𝑐′
+
+
+===== [PAGE 59] =====
+
+57 
+ 
+respond to policy changes, although it raises endogeneity concerns that the pre‑sample schemes 
+address. 
+ 
+ 
+ 
+ 
+ 
+
+
+===== [PAGE 60] =====
+
+58 
+ 
+Appendix H. Two-year Lag Models 
+To allow time for policy measures to influence firms’ innovation decisions, we also estimate 
+models that lag the policy variables by two years. This specification links patent counts in year t 
+to fuel economy standards, financial incentives and other policy indicators in year t – 2. The two-
+year lag captures the fact that firms need time to adjust their industrial strategies, carry out 
+research projects, and file patent applications after a policy change. 
+The results for the two-year lag remain very close to those in the one-year lag specification 
+and confirm the robustness of our main findings. Fuel economy standards and financial 
+incentives continue to show positive and statistically significant associations with patenting, and 
+their estimated effects become somewhat larger relative to the one-year lag models. The signs 
+and significance of the interaction terms and knowledge stock variables also stay broadly stable, 
+which suggests that the dynamic pattern of innovation response is consistent across lag lengths. 
+At the same time, the two-year lag requires a longer overlap between policy and patent data and 
+therefore reduces the estimation sample by about 1,100 firms and roughly 3,500 firm-year 
+observations. For this reason, we present the two-year lag results in the appendix and focus on 
+the one-year lag specification in the main text, while using the longer lag as a robustness check 
+on the timing of policy effects. 
+ 
+ 
+ 
+
+
+===== [PAGE 61] =====
+
+59 
+ 
+Table H.1  
+Main Regression Results with Two-year Lags. 
+ 
+(1) 
+(2) 
+(3) 
+End-Use Gasoline Price 
+-0.297 
+0.575 
+2.141 
+ 
+(1.231) 
+(1.093) 
+(1.355) 
+Standard Stringency 
+0.682*** 
+0.518*** 
+0.044 
+ 
+(0.144) 
+(0.133) 
+(0.198) 
+Energy Efficiency - Transportation R&D  
+0.078* 
+0.098** 
+-0.146* 
+ 
+(0.034) 
+(0.034) 
+(0.061) 
+Target Stringency 
+0.035 
+0.163* 
+-0.094 
+ 
+(0.041) 
+(0.079) 
+(0.107) 
+Financial Incentives  
+0.175*** 
+ 
+0.166*** 
+ 
+(0.041) 
+ 
+(0.038) 
+Use Benefits 
+-0.350 
+ 
+-0.269 
+ 
+(0.572) 
+ 
+(0.583) 
+Transport Energy-Efficiency R&D  
+Target Stringency 
+ 
+ 
+0.019*** 
+ 
+ 
+(0.005) 
+End-Use Gasoline Price  Target 
+Stringency 
+ 
+ 
+-0.173 
+ 
+ 
+(0.118) 
+Standard Stringency  Target Stringency 
+ 
+ 
+0.046* 
+ 
+ 
+(0.022) 
+Int. knowledge stocks - EVs 
+0.542*** 
+0.547*** 
+0.547*** 
+ 
+(0.045) 
+(0.045) 
+(0.045) 
+Int. knowledge stocks - batteries 
+0.429*** 
+0.448*** 
+0.431*** 
+ 
+(0.042) 
+(0.043) 
+(0.041) 
+Int. knowledge stocks - general auto 
+-0.048 
+-0.051 
+-0.051 
+ 
+(0.035) 
+(0.036) 
+(0.035) 
+Int. knowledge stocks - general electricity 
+-0.042 
+-0.048 
+-0.040 
+ 
+(0.028) 
+(0.029) 
+(0.027) 
+Ext. knowledge stocks - EVs 
+-0.220* 
+-0.187 
+-0.188 
+ 
+(0.103) 
+(0.103) 
+(0.098) 
+Ext. knowledge stocks - batteries 
+0.713*** 
+0.705*** 
+0.631*** 
+ 
+(0.176) 
+(0.170) 
+(0.176) 
+Ext. knowledge stocks - general auto 
+-0.270* 
+-0.359*** 
+-0.277* 
+ 
+(0.110) 
+(0.095) 
+(0.110) 
+Ext. knowledge stocks - general electricity 
+-0.282 
+-0.244 
+-0.217 
+ 
+(0.205) 
+(0.202) 
+(0.198) 
+Observations 
+19514 
+19514 
+19514 
+Number of firms 
+3101 
+3101 
+3101 
+Log-likelihood 
+-66083 
+-66761 
+-65725 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits.  
+ 
+
+
+===== [PAGE 62] =====
+
+60 
+ 
+Table H.2 
+By Technology Regression Results with Two-year Lags. 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ 
+Vehicle 
+Vehicle 
+Vehicle 
+Battery 
+Battery 
+Battery 
+End-Use Gasoline Price 
+-0.341 
+0.354 
+2.220 
+-0.428 
+0.463 
+2.201 
+ 
+(1.463) 
+(1.323) 
+(1.587) 
+(1.245) 
+(1.116) 
+(1.383) 
+Standard Stringency 
+0.744*** 
+0.574*** 
+0.036 
+0.700*** 
+0.536*** 
+0.007 
+ 
+(0.172) 
+(0.169) 
+(0.247) 
+(0.146) 
+(0.138) 
+(0.200) 
+Energy Efficiency - 
+Transportation R&D 
+0.054 
+0.079 
+-0.171* 
+0.076* 
+0.096** 
+-0.150* 
+(0.042) 
+(0.043) 
+(0.077) 
+(0.034) 
+(0.034) 
+(0.062) 
+Target Stringency 
+0.051 
+0.199 
+-0.095 
+0.038 
+0.167* 
+-0.098 
+ 
+(0.058) 
+(0.115) 
+(0.133) 
+(0.042) 
+(0.083) 
+(0.111) 
+Financial Incentives 
+0.180*** 
+ 
+0.167*** 
+0.172*** 
+ 
+0.161*** 
+ 
+(0.053) 
+ 
+(0.049) 
+(0.042) 
+ 
+(0.039) 
+Use Benefits 
+-0.770 
+ 
+-0.707 
+-0.454 
+ 
+-0.365 
+ 
+(0.714) 
+ 
+(0.728) 
+(0.605) 
+ 
+(0.614) 
+Transport Energy-Efficiency 
+R&D  Target Stringency 
+ 
+ 
+0.019*** 
+ 
+ 
+0.019*** 
+ 
+ 
+(0.005) 
+ 
+ 
+(0.005) 
+End-Use Gasoline Price  
+Target Stringency 
+ 
+ 
+-0.177 
+ 
+ 
+-0.188 
+ 
+ 
+(0.139) 
+ 
+ 
+(0.120) 
+Standard Stringency  Target 
+Stringency 
+ 
+ 
+0.050 
+ 
+ 
+0.051* 
+ 
+ 
+(0.026) 
+ 
+ 
+(0.022) 
+Int. knowledge stocks - EVs 
+0.554*** 
+0.562*** 
+0.560*** 
+0.545*** 
+0.549*** 
+0.549*** 
+ 
+(0.055) 
+(0.055) 
+(0.055) 
+(0.045) 
+(0.045) 
+(0.045) 
+Int. knowledge stocks - 
+batteries 
+0.404*** 
+0.424*** 
+0.405*** 
+0.420*** 
+0.439*** 
+0.422*** 
+(0.051) 
+(0.051) 
+(0.050) 
+(0.042) 
+(0.043) 
+(0.041) 
+Int. knowledge stocks - 
+general auto 
+-0.060 
+-0.066 
+-0.063 
+-0.050 
+-0.053 
+-0.053 
+(0.038) 
+(0.038) 
+(0.038) 
+(0.036) 
+(0.036) 
+(0.036) 
+Int. knowledge stocks - 
+general electricity 
+-0.036 
+-0.040 
+-0.034 
+-0.043 
+-0.049 
+-0.041 
+(0.033) 
+(0.034) 
+(0.033) 
+(0.028) 
+(0.029) 
+(0.027) 
+Ext. knowledge stocks - EVs 
+-0.214 
+-0.216 
+-0.177 
+-0.218* 
+-0.191 
+-0.183 
+ 
+(0.116) 
+(0.114) 
+(0.111) 
+(0.104) 
+(0.103) 
+(0.099) 
+Ext. knowledge stocks - 
+batteries 
+0.679** 
+0.639** 
+0.589** 
+0.737*** 
+0.719*** 
+0.658*** 
+(0.212) 
+(0.205) 
+(0.212) 
+(0.178) 
+(0.173) 
+(0.178) 
+Ext. knowledge stocks - 
+general auto 
+-0.279* 
+-0.336** 
+-0.296* 
+-0.269* 
+-0.351*** 
+-0.278* 
+(0.129) 
+(0.111) 
+(0.128) 
+(0.112) 
+(0.097) 
+(0.112) 
+Ext. knowledge stocks - 
+general electricity 
+-0.247 
+-0.181 
+-0.168 
+-0.319 
+-0.275 
+-0.265 
+(0.263) 
+(0.259) 
+(0.257) 
+(0.209) 
+(0.207) 
+(0.202) 
+Observations 
+11625 
+11625 
+11625 
+18173 
+18173 
+18173 
+Number of firms 
+1685 
+1685 
+1685 
+2872 
+2872 
+2872 
+Log-likelihood 
+-49354 
+-49873 
+-49061 
+-64430 
+-65060 
+-64063 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits.  
+
+
+===== [PAGE 63] =====
+
+61 
+ 
+Appendix I. Additional Robustness Checks 
+Table I.1 
+Main Regression Results Using Pre-Sample Weights with Home Country Indicator. 
+ 
+(1) 
+(2) 
+(3) 
+End-Use Gasoline Price 
+-0.306 
+-0.587 
+-0.120 
+ 
+(0.531) 
+(0.316) 
+(0.851) 
+Standard Stringency 
+0.271** 
+0.226** 
+0.048 
+ 
+(0.091) 
+(0.083) 
+(0.124) 
+Transport Energy-Efficiency R&D 
+0.075* 
+0.102*** 
+-0.166** 
+ 
+(0.035) 
+(0.030) 
+(0.057) 
+Target Stringency 
+0.036** 
+0.046** 
+-0.201* 
+ 
+(0.012) 
+(0.015) 
+(0.081) 
+Financial Incentives 
+0.059* 
+ 
+0.054* 
+ 
+(0.024) 
+ 
+(0.024) 
+Use Benefits 
+-0.443 
+ 
+-0.241 
+ 
+(0.447) 
+ 
+(0.447) 
+Transport Energy-Efficiency R&D × Target 
+Stringency 
+ 
+ 
+0.021*** 
+ 
+ 
+(0.004) 
+End-Use Gasoline Price × Target Stringency 
+ 
+ 
+0.040 
+ 
+ 
+ 
+(0.082) 
+Standard Stringency × Target Stringency 
+ 
+ 
+0.020 
+ 
+ 
+ 
+(0.015) 
+Int. knowledge stocks - EVs 
+0.545*** 
+0.550*** 
+0.546*** 
+ 
+(0.039) 
+(0.039) 
+(0.039) 
+Int. knowledge stocks - batteries 
+0.476*** 
+0.491*** 
+0.477*** 
+ 
+(0.037) 
+(0.036) 
+(0.036) 
+Int. knowledge stocks - general auto 
+-0.044 
+-0.050 
+-0.049 
+ 
+(0.028) 
+(0.029) 
+(0.028) 
+Int. knowledge stocks - general electricity 
+-0.052* 
+-0.054* 
+-0.049 
+ 
+(0.025) 
+(0.025) 
+(0.025) 
+Ext. knowledge stocks - EVs 
+-0.077 
+-0.058 
+-0.064 
+ 
+(0.088) 
+(0.089) 
+(0.084) 
+Ext. knowledge stocks - batteries 
+0.624*** 
+0.629*** 
+0.523** 
+ 
+(0.185) 
+(0.180) 
+(0.181) 
+Ext. knowledge stocks - general auto 
+-0.282** 
+-0.316*** 
+-0.279** 
+ 
+(0.089) 
+(0.069) 
+(0.091) 
+Ext. knowledge stocks - general electricity 
+-0.284 
+-0.302 
+-0.189 
+ 
+(0.214) 
+(0.220) 
+(0.199) 
+Observations 
+22998 
+22998 
+22998 
+Numbers of firms 
+4227 
+4227 
+4227 
+Log-likelihood 
+-69521 
+-69826 
+-69092 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits.  
+ 
+
+
+===== [PAGE 64] =====
+
+62 
+ 
+Table I.2: 
+By Technology Regression Results Using Pre-Sample Average Weights. 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ 
+Vehicle 
+Vehicle 
+Vehicle 
+Battery 
+Battery 
+Battery 
+End-Use Gasoline Price 
+-0.200 
+-0.555 
+-0.619 
+-0.347 
+-0.631 
+-0.128 
+ 
+(0.646) 
+(0.411) 
+(1.070) 
+(0.543) 
+(0.323) 
+(0.871) 
+Standard Stringency 
+0.332** 
+0.282* 
+0.136 
+0.273** 
+0.227** 
+0.035 
+ 
+(0.125) 
+(0.114) 
+(0.154) 
+(0.094) 
+(0.085) 
+(0.125) 
+Transport Energy-
+Efficiency R&D 
+0.060 
+0.090* 
+-0.214** 
+0.073* 
+0.101*** 
+-0.169** 
+ 
+(0.043) 
+(0.037) 
+(0.076) 
+(0.036) 
+(0.031) 
+(0.058) 
+Target Stringency 
+0.036* 
+0.046* 
+-0.272** 
+0.036** 
+0.046** 
+-0.206* 
+ 
+(0.015) 
+(0.021) 
+(0.099) 
+(0.012) 
+(0.016) 
+(0.083) 
+Financial Incentives 
+0.051 
+ 
+0.045 
+0.059* 
+ 
+0.054* 
+ 
+(0.028) 
+ 
+(0.028) 
+(0.025) 
+ 
+(0.025) 
+Use Benefits 
+-0.566 
+ 
+-0.302 
+-0.452 
+ 
+-0.245 
+ 
+(0.567) 
+ 
+(0.565) 
+(0.454) 
+ 
+(0.455) 
+Transport Energy-Efficiency R&D × 
+Target Stringency 
+ 
+0.024*** 
+ 
+ 
+0.021*** 
+ 
+(0.005) 
+ 
+ 
+(0.004) 
+End-Use Gasoline Price 
+× Target Stringency 
+ 
+ 
+0.108 
+ 
+ 
+0.037 
+ 
+ 
+(0.101) 
+ 
+ 
+(0.084) 
+Standard Stringency × 
+Target Stringency 
+ 
+ 
+0.019 
+ 
+ 
+0.022 
+ 
+ 
+(0.018) 
+ 
+ 
+(0.015) 
+Int. knowledge stocks - 
+EVs 
+0.598*** 
+0.602*** 
+0.597*** 
+0.547*** 
+0.551*** 
+0.548*** 
+(0.049) 
+(0.049) 
+(0.048) 
+(0.039) 
+(0.039) 
+(0.039) 
+Int. knowledge stocks - 
+batteries 
+0.428*** 
+0.442*** 
+0.428*** 
+0.471*** 
+0.486*** 
+0.472*** 
+(0.044) 
+(0.043) 
+(0.043) 
+(0.037) 
+(0.037) 
+(0.036) 
+Int. knowledge stocks - 
+general auto 
+-0.075* 
+-0.082** 
+-0.080** 
+-0.045 
+-0.051 
+-0.050 
+(0.030) 
+(0.031) 
+(0.030) 
+(0.028) 
+(0.029) 
+(0.028) 
+Int. knowledge stocks - 
+general electricity 
+-0.031 
+-0.032 
+-0.028 
+-0.053* 
+-0.055* 
+-0.050* 
+(0.029) 
+(0.030) 
+(0.029) 
+(0.025) 
+(0.025) 
+(0.025) 
+Ext. knowledge stocks - 
+EVs 
+-0.102 
+-0.092 
+-0.097 
+-0.082 
+-0.063 
+-0.067 
+(0.097) 
+(0.099) 
+(0.092) 
+(0.089) 
+(0.089) 
+(0.084) 
+Ext. knowledge stocks - 
+batteries 
+0.577** 
+0.559** 
+0.445* 
+0.638*** 
+0.642*** 
+0.540** 
+(0.217) 
+(0.209) 
+(0.214) 
+(0.188) 
+(0.182) 
+(0.183) 
+Ext. knowledge stocks - 
+general auto 
+-0.288** 
+-0.299*** 
+-0.290** 
+-0.280** 
+-0.313*** 
+-0.277** 
+(0.099) 
+(0.078) 
+(0.100) 
+(0.089) 
+(0.070) 
+(0.091) 
+Ext. knowledge stocks - 
+general electricity 
+-0.209 
+-0.223 
+-0.068 
+-0.306 
+-0.324 
+-0.219 
+(0.257) 
+(0.264) 
+(0.248) 
+(0.217) 
+(0.223) 
+(0.202) 
+Observations 
+13780 
+13780 
+13780 
+21671 
+21671 
+21671 
+Number of firms 
+2196 
+2196 
+2196 
+3934 
+3934 
+3934 
+Log-likelihood 
+-50550 
+-50761 
+-50146 
+-68019 
+-68318 
+-67594 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits. 
+ 
+
+
+===== [PAGE 65] =====
+
+63 
+ 
+Table I.3  
+Main Regression Results Using Pre-Sample Average Weights. 
+ 
+(1) 
+(2) 
+(3) 
+End-Use Gasoline Price 
+1.072 
+1.078 
+0.218 
+ 
+(0.800) 
+(0.852) 
+(1.227) 
+Standard Stringency 
+0.302* 
+0.255* 
+0.065 
+ 
+(0.129) 
+(0.124) 
+(0.168) 
+Transport Energy-Efficiency R&D 
+0.083* 
+0.106*** 
+-0.196** 
+ 
+(0.033) 
+(0.029) 
+(0.062) 
+Target Stringency 
+0.030 
+0.048 
+-0.287** 
+ 
+(0.023) 
+(0.035) 
+(0.088) 
+Financial Incentives 
+0.042 
+ 
+0.037 
+ 
+(0.030) 
+ 
+(0.029) 
+Use Benefits 
+-0.842 
+ 
+-0.698 
+ 
+(0.506) 
+ 
+(0.493) 
+Transport Energy-Efficiency R&D × Target 
+Stringency 
+ 
+ 
+0.024*** 
+ 
+ 
+(0.004) 
+End-Use Gasoline Price × Target Stringency 
+ 
+ 
+0.102 
+ 
+ 
+ 
+(0.106) 
+Standard Stringency × Target Stringency 
+ 
+ 
+0.027 
+ 
+ 
+ 
+(0.020) 
+Int. knowledge stocks - EVs 
+0.542*** 
+0.543*** 
+0.543*** 
+ 
+(0.039) 
+(0.039) 
+(0.039) 
+Int. knowledge stocks - batteries 
+0.473*** 
+0.485*** 
+0.474*** 
+ 
+(0.037) 
+(0.036) 
+(0.036) 
+Int. knowledge stocks - general auto 
+-0.043 
+-0.050 
+-0.046 
+ 
+(0.027) 
+(0.029) 
+(0.027) 
+Int. knowledge stocks - general electricity 
+-0.049 
+-0.050* 
+-0.046 
+ 
+(0.025) 
+(0.025) 
+(0.024) 
+Ext. knowledge stocks - EVs 
+-0.069 
+-0.069 
+-0.060 
+ 
+(0.087) 
+(0.091) 
+(0.082) 
+Ext. knowledge stocks - batteries 
+0.670*** 
+0.593*** 
+0.595*** 
+ 
+(0.168) 
+(0.169) 
+(0.160) 
+Ext. knowledge stocks - general auto 
+-0.361*** 
+-0.341*** 
+-0.356*** 
+ 
+(0.081) 
+(0.073) 
+(0.080) 
+Ext. knowledge stocks - general electricity 
+-0.232 
+-0.198 
+-0.169 
+ 
+(0.202) 
+(0.210) 
+(0.184) 
+Observations 
+22998 
+22998 
+22998 
+Log-likelihood 
+-69462 
+-69653 
+-69006 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits.  
+ 
+
+
+===== [PAGE 66] =====
+
+64 
+ 
+Table I.4 
+By Technology Regression Results Using Pre-Sample Average Weights. 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ 
+Vehicle 
+Vehicle 
+Vehicle 
+Battery 
+Battery 
+Battery 
+End-Use Gasoline Price 
+1.725 
+1.744 
+0.608 
+1.031 
+1.021 
+0.175 
+ 
+(0.989) 
+(0.981) 
+(1.460) 
+(0.790) 
+(0.857) 
+(1.244) 
+Standard Stringency 
+0.362* 
+0.298 
+0.100 
+0.302* 
+0.255* 
+0.057 
+ 
+(0.171) 
+(0.164) 
+(0.210) 
+(0.132) 
+(0.126) 
+(0.171) 
+Transport Energy-Efficiency 
+R&D 
+0.051 
+0.087* 
+-0.244** 
+0.082* 
+0.106*** 
+-0.202** 
+ 
+(0.041) 
+(0.036) 
+(0.080) 
+(0.033) 
+(0.030) 
+(0.063) 
+Target Stringency 
+0.038 
+0.061 
+-0.305** 
+0.031 
+0.048 
+-0.293** 
+ 
+(0.032) 
+(0.052) 
+(0.107) 
+(0.024) 
+(0.036) 
+(0.091) 
+Financial Incentives 
+0.039 
+ 
+0.034 
+0.041 
+ 
+0.036 
+ 
+(0.037) 
+ 
+(0.036) 
+(0.031) 
+ 
+(0.030) 
+Use Benefits 
+-1.288* 
+ 
+-1.169* 
+-0.872 
+ 
+-0.717 
+ 
+(0.597) 
+ 
+(0.575) 
+(0.511) 
+ 
+(0.500) 
+Transport Energy-Efficiency 
+R&D × Target Stringency 
+ 
+ 
+0.025*** 
+ 
+ 
+0.024*** 
+ 
+ 
+(0.006) 
+ 
+ 
+(0.005) 
+End-Use Gasoline Price × 
+Target Stringency 
+ 
+ 
+0.126 
+ 
+ 
+0.104 
+ 
+ 
+(0.125) 
+ 
+ 
+(0.109) 
+Standard Stringency × Target 
+Stringency 
+ 
+ 
+0.026 
+ 
+ 
+0.028 
+ 
+ 
+(0.025) 
+ 
+ 
+(0.021) 
+Int. knowledge stocks - EVs 
+0.596*** 
+0.589*** 
+0.598*** 
+0.544*** 
+0.544*** 
+0.545*** 
+ 
+(0.050) 
+(0.049) 
+(0.050) 
+(0.039) 
+(0.039) 
+(0.040) 
+Int. knowledge stocks - batteries 
+0.415*** 
+0.433*** 
+0.416*** 
+0.468*** 
+0.480*** 
+0.469*** 
+ 
+(0.044) 
+(0.042) 
+(0.043) 
+(0.037) 
+(0.036) 
+(0.036) 
+Int. knowledge stocks - general 
+auto 
+-0.072* 
+-0.080** 
+-0.076** 
+-0.043 
+-0.051 
+-0.047 
+(0.029) 
+(0.030) 
+(0.029) 
+(0.028) 
+(0.029) 
+(0.027) 
+Int. knowledge stocks - general 
+electricity 
+-0.025 
+-0.027 
+-0.023 
+-0.049* 
+-0.050* 
+-0.047 
+(0.029) 
+(0.029) 
+(0.028) 
+(0.025) 
+(0.025) 
+(0.024) 
+Ext. knowledge stocks - EVs 
+-0.106 
+-0.120 
+-0.097 
+-0.072 
+-0.072 
+-0.062 
+ 
+(0.092) 
+(0.100) 
+(0.088) 
+(0.087) 
+(0.091) 
+(0.082) 
+Ext. knowledge stocks - batteries 
+0.637** 
+0.501* 
+0.544** 
+0.681*** 
+0.600*** 
+0.609*** 
+ 
+(0.196) 
+(0.198) 
+(0.189) 
+(0.169) 
+(0.171) 
+(0.162) 
+Ext. knowledge stocks - general 
+auto 
+-0.373*** 
+-0.324*** 
+-0.373*** 
+-0.359*** 
+-0.338*** -0.354*** 
+(0.092) 
+(0.082) 
+(0.091) 
+(0.081) 
+(0.073) 
+(0.080) 
+Ext. knowledge stocks - general 
+electricity 
+-0.134 
+-0.064 
+-0.043 
+-0.248 
+-0.211 
+-0.193 
+(0.244) 
+(0.257) 
+(0.229) 
+(0.204) 
+(0.213) 
+(0.186) 
+Observations 
+13340 
+13340 
+13340 
+21084 
+21084 
+21084 
+Log-likelihood 
+-50210 
+-50476 
+-49830 
+-67967 
+-68162 
+-67508 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits.  
+
+
+===== [PAGE 67] =====
+
+65 
+ 
+Table I.5  
+Main Regression Results Using In-Sample Weights without Chinese Firms. 
+ 
+(1) 
+(2) 
+(3) 
+End-Use Gasoline Price 
+-0.538 
+0.126 
+0.107 
+ 
+(1.195) 
+(1.088) 
+(1.257) 
+Standard Stringency 
+0.400** 
+0.301** 
+0.308 
+ 
+(0.123) 
+(0.105) 
+(0.160) 
+Transport Energy-Efficiency R&D 
+-0.047 
+-0.051 
+-0.125 
+ 
+(0.037) 
+(0.037) 
+(0.072) 
+Target Stringency 
+0.010 
+0.050 
+0.011 
+ 
+(0.028) 
+(0.033) 
+(0.094) 
+Financial Incentives 
+0.087** 
+ 
+0.087** 
+ 
+(0.028) 
+ 
+(0.030) 
+Use Benefits 
+0.388 
+ 
+0.412 
+ 
+(0.532) 
+ 
+(0.534) 
+Transport Energy-Efficiency R&D × Target 
+Stringency 
+ 
+ 
+0.007 
+ 
+ 
+(0.005) 
+End-Use Gasoline Price × Target Stringency 
+ 
+ 
+-0.030 
+ 
+ 
+ 
+(0.115) 
+Standard Stringency × Target Stringency 
+ 
+ 
+-0.003 
+ 
+ 
+ 
+(0.024) 
+Int. knowledge stocks - EVs 
+0.630*** 
+0.634*** 
+0.633*** 
+ 
+(0.050) 
+(0.050) 
+(0.050) 
+Int. knowledge stocks - batteries 
+0.378*** 
+0.384*** 
+0.378*** 
+ 
+(0.040) 
+(0.040) 
+(0.040) 
+Int. knowledge stocks - general auto 
+-0.096** 
+-0.095** 
+-0.098** 
+ 
+(0.036) 
+(0.035) 
+(0.035) 
+Int. knowledge stocks - general electricity 
+0.005 
+0.003 
+0.006 
+ 
+(0.027) 
+(0.027) 
+(0.027) 
+Ext. knowledge stocks - EVs 
+-0.281** 
+-0.230** 
+-0.265** 
+ 
+(0.089) 
+(0.087) 
+(0.087) 
+Ext. knowledge stocks - batteries 
+0.335 
+0.350 
+0.323 
+ 
+(0.212) 
+(0.189) 
+(0.217) 
+Ext. knowledge stocks - general auto 
+0.284* 
+0.232 
+0.265* 
+ 
+(0.126) 
+(0.124) 
+(0.125) 
+Ext. knowledge stocks - general electricity 
+-0.306 
+-0.321 
+-0.291 
+ 
+(0.241) 
+(0.229) 
+(0.246) 
+Observations 
+17098 
+17098 
+17098 
+Numbers of firms 
+2535 
+2535 
+2535 
+Log-likelihood 
+-44852 
+-45040 
+-44815 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits.  
+ 
+
+
+===== [PAGE 68] =====
+
+66 
+ 
+Table I.6  
+Main Regression Results Using In-Sample Weights with an exponent of 1 on GDP. 
+ 
+(1) 
+(2) 
+(3) 
+End-Use Gasoline Price 
+0.554 
+1.340 
+0.864 
+ 
+(1.283) 
+(1.092) 
+(1.472) 
+Standard Stringency 
+0.266*** 
+0.147 
+0.099 
+ 
+(0.079) 
+(0.081) 
+(0.173) 
+Transport Energy-Efficiency R&D 
+0.079* 
+0.090** 
+-0.208** 
+ 
+(0.031) 
+(0.030) 
+(0.074) 
+Target Stringency 
+0.070* 
+0.182** 
+-0.070 
+ 
+(0.031) 
+(0.064) 
+(0.100) 
+Financial Incentives 
+0.130*** 
+ 
+0.123*** 
+ 
+(0.034) 
+ 
+(0.033) 
+Use Benefits 
+0.101 
+ 
+0.127 
+ 
+(0.617) 
+ 
+(0.621) 
+End-Use Gasoline Price × Target Stringency 
+ 
+ 
+0.024*** 
+ 
+ 
+(0.006) 
+Transport Energy-Efficiency R&D × Target 
+Stringency 
+ 
+ 
+-0.012 
+ 
+ 
+(0.117) 
+Standard Stringency × Target Stringency 
+ 
+ 
+0.004 
+ 
+ 
+ 
+(0.017) 
+Int. knowledge stocks - EVs 
+0.540*** 
+0.543*** 
+0.545*** 
+ 
+(0.040) 
+(0.039) 
+(0.039) 
+Int. knowledge stocks - batteries 
+0.472*** 
+0.483*** 
+0.473*** 
+ 
+(0.036) 
+(0.036) 
+(0.035) 
+Int. knowledge stocks - general auto 
+-0.048 
+-0.047 
+-0.052 
+ 
+(0.029) 
+(0.029) 
+(0.029) 
+Int. knowledge stocks - general electricity 
+-0.050* 
+-0.054* 
+-0.050* 
+ 
+(0.025) 
+(0.025) 
+(0.024) 
+Ext. knowledge stocks - EVs 
+-0.140 
+-0.098 
+-0.113 
+ 
+(0.090) 
+(0.087) 
+(0.085) 
+Ext. knowledge stocks - batteries 
+0.569** 
+0.586*** 
+0.494** 
+ 
+(0.174) 
+(0.172) 
+(0.169) 
+Ext. knowledge stocks - general auto 
+-0.214* 
+-0.299*** 
+-0.215* 
+ 
+(0.093) 
+(0.077) 
+(0.091) 
+Ext. knowledge stocks - general electricity 
+-0.216 
+-0.196 
+-0.162 
+ 
+(0.212) 
+(0.211) 
+(0.200) 
+Observations 
+22998 
+22998 
+22998 
+Numbers of firms 
+4227 
+4227 
+4227 
+Log-likelihood 
+-68930 
+-69328 
+-68498 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits.  
+ 
+ 
+
+
+===== [PAGE 69] =====
+
+67 
+ 
+Table I.7 
+By Technology Regression Results Using In-Sample Weights with an exponent of 1 on GDP. 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ 
+Vehicle 
+Vehicle 
+Vehicle 
+Battery 
+Battery 
+Battery 
+End-Use Gasoline Price 
+0.533 
+1.183 
+0.914 
+0.489 
+1.312 
+0.919 
+ 
+(1.494) 
+(1.284) 
+(1.674) 
+(1.302) 
+(1.107) 
+(1.500) 
+Standard Stringency 
+0.301** 
+0.178 
+0.113 
+0.273*** 
+0.152 
+0.078 
+ 
+(0.100) 
+(0.103) 
+(0.230) 
+(0.080) 
+(0.082) 
+(0.178) 
+Transport Energy-Efficiency 
+R&D 
+0.064 
+0.075* 
+-0.234* 
+0.079* 
+0.090** 
+-0.210** 
+(0.038) 
+(0.038) 
+(0.093) 
+(0.031) 
+(0.031) 
+(0.076) 
+Target Stringency 
+0.079 
+0.193* 
+-0.074 
+0.071* 
+0.187** 
+-0.071 
+ 
+(0.043) 
+(0.087) 
+(0.125) 
+(0.032) 
+(0.067) 
+(0.105) 
+Financial Incentives 
+0.126** 
+ 
+0.117** 
+0.131*** 
+ 
+0.124*** 
+ 
+(0.042) 
+ 
+(0.040) 
+(0.035) 
+ 
+(0.034) 
+Use Benefits 
+-0.165 
+ 
+-0.179 
+0.136 
+ 
+0.167 
+ 
+(0.706) 
+ 
+(0.711) 
+(0.653) 
+ 
+(0.655) 
+Transport Energy-Efficiency 
+R&D × Target Stringency 
+ 
+ 
+0.024*** 
+ 
+ 
+0.024*** 
+ 
+ 
+(0.007) 
+ 
+ 
+(0.006) 
+End-Use Gasoline Price × 
+Target Stringency 
+ 
+ 
+-0.015 
+ 
+ 
+-0.025 
+ 
+ 
+(0.138) 
+ 
+ 
+(0.120) 
+Standard Stringency × Target 
+Stringency 
+ 
+ 
+0.006 
+ 
+ 
+0.007 
+ 
+ 
+(0.021) 
+ 
+ 
+(0.017) 
+Int. knowledge stocks - EVs 
+0.589*** 
+0.593*** 
+0.596*** 
+0.542*** 
+0.544*** 
+0.547*** 
+ 
+(0.050) 
+(0.049) 
+(0.049) 
+(0.040) 
+(0.039) 
+(0.039) 
+Int. knowledge stocks - 
+batteries 
+0.425*** 
+0.434*** 
+0.426*** 
+0.467*** 
+0.477*** 
+0.468*** 
+(0.044) 
+(0.043) 
+(0.043) 
+(0.036) 
+(0.036) 
+(0.035) 
+Int. knowledge stocks - general 
+auto 
+-0.077* 
+-0.078* 
+-0.082** 
+-0.049 
+-0.048 
+-0.053 
+(0.032) 
+(0.031) 
+(0.031) 
+(0.030) 
+(0.029) 
+(0.029) 
+Int. knowledge stocks - general 
+electricity 
+-0.033 
+-0.034 
+-0.032 
+-0.051* 
+-0.055* 
+-0.050* 
+(0.029) 
+(0.029) 
+(0.028) 
+(0.025) 
+(0.025) 
+(0.024) 
+Ext. knowledge stocks - EVs 
+-0.146 
+-0.125 
+-0.115 
+-0.146 
+-0.103 
+-0.117 
+ 
+(0.103) 
+(0.097) 
+(0.097) 
+(0.090) 
+(0.087) 
+(0.086) 
+Ext. knowledge stocks - 
+batteries 
+0.523* 
+0.521* 
+0.435* 
+0.574** 
+0.592*** 
+0.503** 
+(0.208) 
+(0.206) 
+(0.203) 
+(0.176) 
+(0.174) 
+(0.171) 
+Ext. knowledge stocks - 
+general auto 
+-0.210 
+-0.277** 
+-0.221* 
+-0.207* 
+-0.294*** 
+-0.209* 
+(0.109) 
+(0.090) 
+(0.106) 
+(0.094) 
+(0.078) 
+(0.092) 
+Ext. knowledge stocks - 
+general electricity 
+-0.170 
+-0.132 
+-0.095 
+-0.229 
+-0.208 
+-0.184 
+(0.271) 
+(0.268) 
+(0.261) 
+(0.216) 
+(0.214) 
+(0.203) 
+Observations 
+13780 
+13780 
+13780 
+21671 
+21671 
+21671 
+Number of firms 
+2196 
+2196 
+2196 
+3934 
+3934 
+3934 
+Log-likelihood 
+-50112 
+-50366 
+-49730 
+-67419 
+-67814 
+-66989 
+Notes: Standard errors in parentheses: *** p < 0.001, ** p < 0.01, * p < 0.05. All models include year 
+fixed effects and pre-sample controls. Standard errors clustered by firm. Every variable in the log form 
+except for use benefits.  

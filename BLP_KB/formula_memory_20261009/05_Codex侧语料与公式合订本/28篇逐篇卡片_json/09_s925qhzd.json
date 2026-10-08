@@ -1,0 +1,164 @@
+{
+  "rank": 9,
+  "item_key": "S925QHZD",
+  "title": "Equilibrium Effects of Food Labeling Policies",
+  "authors": [
+    "Nano Barahona",
+    "Cristóbal Otero",
+    "Sebastián Otero"
+  ],
+  "creators": [
+    {
+      "name": "Nano Barahona",
+      "type": "author"
+    },
+    {
+      "name": "Cristóbal Otero",
+      "type": "author"
+    },
+    {
+      "name": "Sebastián Otero",
+      "type": "author"
+    }
+  ],
+  "date": "2023-00-00 2023",
+  "journal": "Econometrica",
+  "doi": "10.3982/ecta19603",
+  "url": "https://doi.org/10.3982/ecta19603",
+  "collections": [
+    "20papers_import",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Barahona, N., Otero, C., & Otero, S. (2023). Equilibrium Effects of Food Labeling Policies. Econometrica. https://doi.org/10.3982/ecta19603",
+    "parenthetical": "(Barahona et al., 2023)",
+    "narrative": "Barahona et al. (2023)"
+  },
+  "preferred_pdf_rel": "source_pdfs/09_s925qhzd.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "CRPNZ4MH",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:Barahona 等 - 2023 - Equilibrium Effects of Food Labeling Policies.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\CRPNZ4MH\\Barahona 等 - 2023 - Equilibrium Effects of Food Labeling Policies.pdf",
+    "exists": true,
+    "size": 540453
+  },
+  "legacy_note_rel": "raw/notes/09_s925qhzd.md",
+  "legacy_old_memory_rel": "raw/paper_memory/09_s925qhzd.md",
+  "fulltext_json_rel": "raw/fulltext/09_s925qhzd.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/09_s925qhzd.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- 这份本地文件是主文的补充材料，不是完整主文，因此我把它当作“主模型的稳健性与细化机制”来读。\n- 从补充材料能稳定看出的主旨是：食品标签政策不仅影响需求，还会改变产品重配方、价格、markup 和均衡福利。",
+    "2. Story ladder": "- 现实问题是，营养标签的目标不是只让消费者“少买一点”，而是让市场在均衡中变得更健康。\n- 如果厂商会重配方，单看销量会低估政策影响；如果只看标签可见性，也会漏掉 equilibrium effects。\n- 这份补充材料反复围绕“calorie / sugar concentration、reformulation、markups、welfare”做稳健性检查，说明主文的故事重点是均衡而不是简单需求冲击。",
+    "3. Model or identification core": "- 主模型是结构化需求-供给框架，消费者效用含有产品营养属性，厂商面对重配方和价格调整。\n- 补充材料里尤其强调 taste invariant / reformulation robustness，说明作者担心标签改变了“味道”而不只是显性属性。\n- 识别的核心不是单一政策哑变量，而是把标签政策放进需求、供给和重配方同时决定的系统里。",
+    "4. Data and measurement": "- 研究对象是 ready-to-eat cereals，补充材料中多次提到 pre- and post-legislation 的产品分布。\n- 关键测量包括 calories、sugar concentration、markups、product counts，以及不同营养分组的需求变化。\n- 该文件主要提供附录图表和稳健性，而不是完整主文的数据叙事。",
+    "5. Findings and mechanisms": "- 补充材料显示，低/高卡路里产品的需求变化并不简单地按“越不健康越受打击”排序。\n- 结论侧重于：重配方和消费者响应共同决定了均衡结果，单看销量会失真。\n- 这类结论的价值在于，把标签政策写成“均衡重组”而不是“需求缩放”。",
+    "6. Contribution construction": "- 最近邻文献是 food labeling、nutrition warning、以及结构需求/供给估计文献。\n- 作者的贡献不是再讲一次标签有没效果，而是把“政策 -> 厂商重配方 -> 均衡福利”写完整。",
+    "7. Literature review function": "- 补充材料本身几乎不承担综述功能，更多是在为主文的模型假设和稳健性提供证据。\n- 从写作角度看，主文应该是先有标签政策背景，再转入均衡建模，最后用附录压住识别争议。",
+    "8. Writing structure map": "- 这类文章最关键的结构是：主文讲核心故事，补充材料专门处理 taste、样本和参数敏感性。\n- 对你最有用的写法是把“均衡结果”放在正文，把“为什么不是别的机制”留给附录。",
+    "9. Reusable writing moves": "- 这篇文章适合学的写法是：把政策评估写成“需求、供给、重配方、福利”的链条，而不是单一回归表。\n- 另一点是：用补充材料系统处理稳健性，别让正文变成参数争论。",
+    "10. Memory update": "- Durable economics-writing principle: 标签政策应按均衡系统来写，不能只看平均销量。\n- Durable empirical idea: 当厂商会重配方时，营养政策的效果必须同时看 demand 和 supply。\n- Uncertainty note: this local file is the supplement only, so a few main-paper details are inferred from the appendix structure."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_s925qhzd_equilibrium-effects-of-food-labeling-policies\ndescription: Fulltext memory for Equilibrium Effects of Food Labeling Policies; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# Equilibrium Effects of Food Labeling Policies",
+    "Citation": "- Key: `S925QHZD`\n- DOI: `10.3982/ecta19603`\n- Journal: Econometrica\n- Year: 2023\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\S925QHZD.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/S925QHZD/S925QHZD.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/S925QHZD.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- We study a regulation in Chile that mandates warning labels on products whose sugar or caloric concentration exceeds certain thresholds.",
+    "Story Logic": "- 故事起点：We study a regulation in Chile that mandates warning labels on products whose sugar or caloric concentration exceeds certain thresholds.\n- 制度/市场切口：We study a regulation in Chile that mandates warning labels on products whose sugar or caloric concentration exceeds certain thresholds.\n- 模型推进：We develop and estimate an equilibrium model of demand for food and firms' pricing and nutritional choices.\n- 结论落点：We find that food labels increase consumer welfare by 1.8% of total expenditure, and that these effects are enhanced by firms' responses.",
+    "BLP Model Memory": "- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, nested logit, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- Introduction\n- Background / Data\n- Model\n- Estimation\n- Results\n- Counterfactual / Welfare\n- Conclusion",
+    "Reusable Writing Moves": "- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。",
+    "OCR Anchors": "- 当前还没有稳定识别到标准 section heading，需要回到 OCR JSON 做人工定位。",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- 这份本地文件是主文的补充材料，不是完整主文，因此我把它当作“主模型的稳健性与细化机制”来读。\n- 从补充材料能稳定看出的主旨是：食品标签政策不仅影响需求，还会改变产品重配方、价格、markup 和均衡福利。\n\n- 现实问题是，营养标签的目标不是只让消费者“少买一点”，而是让市场在均衡中变得更健康。\n- 如果厂商会重配方，单看销量会低估政策影响；如果只看标签可见性，也会漏掉 equilibrium effects。\n- 这份补充材料反复围绕“calorie / sugar concentration、reformulation、markups、welfare”做稳健性检查，说明主文的故事重点是均衡而不是简单需求冲击。\n\n- 主模型是结构化需求-供给框架，消费者效用含有产品营养属性，厂商面对重配方和价格调整。\n- 补充材料里尤其强调 taste invariant / reformulation robustness，说明作者担心标签改变了“味道”而不只是显性属性。\n- 识别的核心不是单一政策哑变量，而是把标签政策放进需求、供给和重配方同时决定的系统里。\n\n- 研究对象是 ready-to-eat cereals，补充材料中多次提到 pre- and post-legislation 的产品分布。\n- 关键测量包括 calories、sugar concentration、markups、product counts，以及不同营养分组的需求变化。\n- 该文件主要提供附录图表和稳健性，而不是完整主文的数据叙事。\n\n- 最近邻文献是 food labeling、nutrition warning、以及结构需求/供给估计文献。\n- 作者的贡献不是再讲一次标签有没效果，而是把“政策 -> 厂商重配方 -> 均衡福利”写完整。\n\n- 补充材料本身几乎不承担综述功能，更多是在为主文的模型假设和稳健性提供证据。\n- 从写作角度看，主文应该是先有标签政策背景，再转入均衡建模，最后用附录压住识别争议。",
+  "baseline_core_memory": "- 主模型是结构化需求-供给框架，消费者效用含有产品营养属性，厂商面对重配方和价格调整。\n- 补充材料里尤其强调 taste invariant / reformulation robustness，说明作者担心标签改变了“味道”而不只是显性属性。\n- 识别的核心不是单一政策哑变量，而是把标签政策放进需求、供给和重配方同时决定的系统里。\n\n- BLP positioning: canonical BLP demand-supply\n- Evidence hits: random coefficients, nested logit, marginal cost, markup, welfare, counterfactual, instrument, gmm\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧是显式的：通常包含多产品定价、边际成本恢复、markup 变化和均衡反事实。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+  "mechanism_memory": "- 补充材料显示，低/高卡路里产品的需求变化并不简单地按“越不健康越受打击”排序。\n- 结论侧重于：重配方和消费者响应共同决定了均衡结果，单看销量会失真。\n- 这类结论的价值在于，把标签政策写成“均衡重组”而不是“需求缩放”。\n\n- 故事起点：We study a regulation in Chile that mandates warning labels on products whose sugar or caloric concentration exceeds certain thresholds.\n- 制度/市场切口：We study a regulation in Chile that mandates warning labels on products whose sugar or caloric concentration exceeds certain thresholds.\n- 模型推进：We develop and estimate an equilibrium model of demand for food and firms' pricing and nutritional choices.\n- 结论落点：We find that food labels increase consumer welfare by 1.8% of total expenditure, and that these effects are enhanced by firms' responses.",
+  "result_memory": "- 补充材料显示，低/高卡路里产品的需求变化并不简单地按“越不健康越受打击”排序。\n- 结论侧重于：重配方和消费者响应共同决定了均衡结果，单看销量会失真。\n- 这类结论的价值在于，把标签政策写成“均衡重组”而不是“需求缩放”。\n\n- Results anchor: om the demand and supply models presented in",
+  "writing_style_memory": "- 这类文章最关键的结构是：主文讲核心故事，补充材料专门处理 taste、样本和参数敏感性。\n- 对你最有用的写法是把“均衡结果”放在正文，把“为什么不是别的机制”留给附录。\n\n- 这篇文章适合学的写法是：把政策评估写成“需求、供给、重配方、福利”的链条，而不是单一回归表。\n- 另一点是：用补充材料系统处理稳健性，别让正文变成参数争论。\n\n- Durable economics-writing principle: 标签政策应按均衡系统来写，不能只看平均销量。\n- Durable empirical idea: 当厂商会重配方时，营养政策的效果必须同时看 demand 和 supply。\n- Uncertainty note: this local file is the supplement only, so a few main-paper details are inferred from the appendix structure.\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- Introduction\n- Background / Data\n- Model\n- Estimation\n- Results\n- Counterfactual / Welfare\n- Conclusion\n\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "random coefficients",
+    "counterfactual",
+    "welfare",
+    "gmm",
+    "equilibrium",
+    "substitution",
+    "outside option",
+    "markup",
+    "marginal cost",
+    "heterogeneity",
+    "consumer demand"
+  ],
+  "fulltext_headings": [
+    "Econometrica Supplementary Material",
+    "NANO BARAHONA",
+    "Department of Economics, University of California, Berkeley",
+    "Haas School of Business, University of California, Berkeley",
+    "APPENDIX A: ADDITIONAL FIGURES AND TABLES",
+    "EQUILIBRIUM EFFECTS OF FOOD LABELING POLICIES",
+    "Elasticities",
+    "Plain",
+    "Sugary",
+    "Chocolate",
+    "Oatmeal",
+    "Granola",
+    "Subcategory: Plain",
+    "Quadritos, Quaker",
+    "Subcategory: Sugary",
+    "Subcategory: Chocolate",
+    "Mono Balls, Costa",
+    "Subcategory: Oatmeal",
+    "Avena Instantanea, Quaker",
+    "Avena Instantanea, Vivo",
+    "Avena Tradicional, Quaker",
+    "Subcategory: Granola",
+    "Granola Berries, Vivo",
+    "Outside option"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 14,
+      "snippet": "e taste of products.\nThis assumption simpliﬁes the ﬁrm’s problem of choosing wjt in the absence of regulation,\nwhich we use to estimate νj from the ﬁrst-order conditions. This assumption is driven\nby industry participants’ descriptions of how reformulation was accomplished, which we\ndescribe below. We also assume that reformulation changes marginal cost and do not\nmodel it as a ﬁxed cost. This is consistent with how reformulation operated in the cereal\nmarket, where the techniques used were already developed in other countries and widely\nused in the diabetic food industry.\nThere are two potential ways ﬁrms may reformulate their products. In one way, ﬁrms\nmay choose to sacriﬁce taste for healthiness by removing some of the critical nutrients\nfrom their products. In the other way, ﬁrms may choose to replace critical nutrients with"
+    },
+    "data": {
+      "page": 3,
+      "snippet": "in sugar and calories as a function of the average prior belief\nabout their nutritional content. In Panel (a), we focus on sugar content. Products in yellow diamonds are\nproducts that bunched in the data and crossed the sugar policy threshold. Products in blue circles are products\nthat did not bunch and received a “high-in-sugar” label. In Panel (b), we focus on caloric content. Products in\nyellow diamonds are products that bunched in the data and crossed the calorie policy threshold. Products in\nblue circles are products that did not bunch and received a “high-in-calorie” label."
+    },
+    "model": {
+      "page": 7,
+      "snippet": "EQUILIBRIUM EFFECTS OF FOOD LABELING POLICIES\n7\nAPPENDIX C: DEMAND MODEL DISCUSSION\nC.1. Stockpiling\nWe assume static demand. However, cereal is a storable product, which can lead to\ndynamic incentives that can bias our estimates. Hendel and Nevo (2006a) showed that\nignoring such dynamics can lead to overestimates of own-price elasticities. We implement\nseveral tests for stockpiling behavior proposed by Hendel and Nevo (2006b). We ﬁnd\nevidence in favor of stockpiling; however, the effects are much smaller than in Hendel\nand Nevo (2006b).\nThroughout our analysis, we focus on within-consumer predictions and patterns of\nstockpiling behavior. We construct a data set in which each observation is a cereal pur-\nchase made by a given household. For each observation, we calculate the number of days\nthat passed since the last time the household purchased cereal as"
+    },
+    "results": {
+      "page": 2,
+      "snippet": "om the demand and supply models presented in\nSections 4 and 5. We then run our main counterfactuals and calculate the changes in consumer welfare under\nthe different parameters. We show that our main results are qualitatively similar when we assume lower values\nof ρ."
+    },
+    "conclusion": null
+  },
+  "stop_hook": {
+    "memdir": [
+      "这份本地文件是主文的补充材料，不是完整主文，因此我把它当作“主模型的稳健性与细化机制”来读。",
+      "最近邻文献是 food labeling、nutrition warning、以及结构需求/供给估计文献。"
+    ],
+    "session": [
+      "Retrieve by key/title: S925QHZD / Equilibrium Effects of Food Labeling Policies",
+      "Use collections and journal handles: 20papers_import, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Barahona et al., 2023) / Barahona et al. (2023)"
+    ],
+    "agent": [
+      "主模型是结构化需求-供给框架，消费者效用含有产品营养属性，厂商面对重配方和价格调整。",
+      "BLP positioning: canonical BLP demand-supply"
+    ],
+    "team": [
+      "这篇文章适合学的写法是：把政策评估写成“需求、供给、重配方、福利”的链条，而不是单一回归表。",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

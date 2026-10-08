@@ -1,0 +1,3136 @@
+
+
+===== [PAGE 1] =====
+
+THE JOURNAL OF INDUSTRIAL ECONOMICS
+0022-1821
+Volume LXXIII
+March 2025
+No. 1
+DEMAND ESTIMATION WITH FLEXIBLE INCOME
+EFFECT: AN APPLICATION TO PASS-THROUGH
+AND MERGER ANALYSIS*
+SHUHEI KANEKO†
+YUTA TOYAMA‡
+This article proposes a semiparametric discrete choice model that incor-
+porates a nonparametric specification for income effects. The model
+allows for the flexible estimation of demand curvature, which has signif-
+icant implications for pricing and policy analysis in oligopolistic mar-
+kets. Our estimation algorithm adopts a method of sieve approxima-
+tion with shape restrictions in a nested fixed-point algorithm. Apply-
+ing this framework to the Japanese automobile market, we conduct a
+pass-through analysis of feebates and merger simulations. Our model
+predicts a higher pass-through rate and more significant merger effects
+than parametric demand models, highlighting the importance of flexi-
+bly estimating demand curvature.
+I. INTRODUCTION
+ESTIMATION OF A CONSUMER DEMAND MODEL is a vital part of empirical research
+in industrial organization and related fields. Price elasticity and the substitu-
+tion patterns implied by the demand model are key factors firms must consider
+*We are grateful to Komei Fujita and Naoki Wakamori for generously sharing Japanese auto-
+mobile data with us, and to Tatsuya Abe for his superb help in constructing tax and subsidy
+data as well as rental price information. For their useful comments and feedback, we would
+like to express our thanks to Vivek Bhattacharya, Phil Haile, Joel Horowitz, Tadao Hoshino,
+Hiro Kasahara, Toru Kitagawa, Gaston Illanes, Rob Porter, Mar Reguant, Kosuke Uetake, and
+seminar participants at Northwestern University, Waseda University, Hitotsubashi University,
+the Sapporo Workshop on Industrial Economics 2019, the Asia-Pacific Industrial Organiza-
+tion Conference 2021, the Asian Meeting of the Econometric Society in China 2022, and the
+2022 Australasian Meeting of the Econometric Society. Our appreciation goes to the co-editor,
+Panle Barwick, and two anonymous referees for their comments and suggestions that significantly
+improved the paper. We acknowledge the financial support from a Waseda University Grant for
+Special Research Projects (2021C-421, 2022C-585, and 2024C-676) and JSPS KAKENHI Grant
+Number 22K13398. The previous version was circulated and presented under the title “Flexible
+Demand Estimation with Nonparametric Income Effect: An Application to Pass-through and
+Merger Analysis.” All remaining errors are our own.
+†Authors’ affiliations: Department of Economics, University of California, Santa Barbara,
+Santa Barbara, California, U.S.A.
+e-mail: shuhei@ucsb.edu
+‡Graduate School of Economics, Waseda University, Shinjuku City, Tokyo, Japan.
+e-mail: yuta.toyama@gmail.com
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial License, which permits
+use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial
+purposes.
+186
+
+
+===== [PAGE 2] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+187
+when making pricing decisions in oligopolistic markets. Consumer demand
+is also essential for evaluating the welfare consequences of a firm’s strate-
+gic behavior and policy changes. Therefore, accurate measurement of con-
+sumer demand is critical for various applications, including merger analysis
+(Nevo [2000a]), pass-through analysis of cost shocks and taxes (Weyl and
+Fabinger [2013]), and the introduction of new products (Petrin [2002]).
+Given the practical importance of demand models, a vast body of liter-
+ature in empirical industrial organization has proposed econometric meth-
+ods for estimating consumer demand for differentiated products (Berry and
+Haile [2021]; Gandhi and Nevo [2021]). The majority of existing frameworks
+rely on parametric specifications because a fully flexible model for differenti-
+ated product demand involves a significant number of parameters.1 However,
+this approach could be problematic because parametric specifications often
+impose strong restrictions on the shape of the demand curve, which can influ-
+ence the implications of supply and demand analysis.
+To address this concern, this article proposes a semiparametric framework
+for discrete choice demand that flexibly accommodates income effects. We
+demonstrate that a flexible specification for the income effect is crucial for
+accurately estimating the curvature of the demand function. Applying the pro-
+posed framework to data from the Japanese automobile industry, we conduct
+merger simulations and pass-through analysis for a feebate policy (i.e., a sub-
+sidy for eco-friendly cars). These simulations highlight the practical value of
+our demand framework in policy-relevant applications.
+Following prior research, such as McFadden [1974], Berry [1994], and
+Berry et al. [1995] (henceforth referred to as BLP), we employ a random
+utility framework to model the demand for differentiated products. How-
+ever, our approach distinguishes itself from prior research by incorporating
+income effects in a nonparametric manner. Previous studies have often used
+a quasi-linear specification of random utility without considering income
+effects, or incorporating them based on parametric assumptions. We demon-
+strate that allowing for greater flexibility in the functional form of the income
+effect term is critical for accurately estimating demand curvature and price
+elasticity patterns. Furthermore, our framework permits the estimation of
+welfare changes in the presence of income effects (McFadden [1999]; Dagsvik
+and Karlström [2005]).
+Our demand model employs a semiparametric framework that includes
+both a parametric component for utility derived from product characteristics
+and a nonparametric function to capture the income effect. To estimate this
+model, we combine a method of sieve approximation from the semiparametric
+1 Consider a log-log specification for the demand system with J products. The number of
+parameters required to estimate the own- and cross-price elasticity matrices is on the order of
+J2. Consequently, to alleviate the estimation burden, researchers must impose constraints on the
+demand system. Further details can be found in Berry [1994].
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 3] =====
+
+188
+SHUHEI KANEKO AND YUTA TOYAMA
+econometrics literature (Chen [2007]) and the nested fixed point algorithm
+proposed by BLP. We first approximate the nonparametric function of the
+income effect using a sieve, that is, a linear combination of known basis
+functions. We select Bernstein polynomials as the basis function due to
+their shape-preserving properties (explained in greater detail below). After
+implementing the sieve approximation, our model closely aligns with the
+standard parametric framework of BLP. We then use a nested fixed point
+algorithm to implement sieve GMM estimation.
+A novel aspect of our estimation method is the exploitation of a shape
+restriction on the nonparametric function representing the income effect.
+Non- and semiparametric estimation methods are associated with the impre-
+cision of estimators as a cost of flexibility. This issue becomes particularly
+critical in the presence of endogeneity, a major challenge encountered in
+demand estimation.2 To mitigate this problem, recent econometrics literature
+has suggested that researchers should employ shape restrictions in such esti-
+mations.3 As demonstrated in Section II(i), the income effect term is assumed
+to be weakly increasing, a presumption based on the utility maximization
+behavior of consumers. We integrate this monotonicity constraint into our
+semiparametric estimation approach. Monte Carlo experiments, detailed
+in Section IV, illustrate that incorporating a shape restriction significantly
+reduces the variance of the estimated nonparametric function in our demand
+model.4
+We apply our semiparametric framework to the Japanese automobile mar-
+ket. Our data include product- and market-level information on sales, prices,
+and characteristics from 2006 to 2013. Our estimation results reveal signif-
+icant nonlinearity in the shape of the income effect. We then use the esti-
+mated model to conduct two counterfactual simulations: a pass-through anal-
+ysis and a merger simulation, where the curvature of demand plays a crucial
+role. We compare the simulation results obtained from our demand model
+with those derived from parametric logit models with and without consumer
+heterogeneity.
+In our first counterfactual analysis, we evaluate the effects of the Japanese
+government’s subsidy for eco-friendly cars introduced in 2009. This evaluation
+involves a pass-through analysis specifically focused on a subsidy. Theoreti-
+cally, Weyl and Fabinger [2013] demonstrated that the curvature of demand
+2 In a semiparametric setting, endogeneity results in an ill-posed inverse problem, leading to
+imprecise estimation of the nonparametric components. For further details, see Horowitz [2014].
+3 Chetverikov and Wilhelm [2017] demonstrate that imposing a shape restriction can improve
+estimation performance in the context of a nonparametric instrumental variable model.
+4 Prior studies, such as Blundell et al. [2017] and Chetverikov and Wilhelm [2017], have demon-
+strated that imposing shape restrictions can enhance estimation performance in non- or semipara-
+metric models that are linearly separable in the error term. Our simulation analysis suggests that
+this insight is also applicable to non-separable models.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 4] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+189
+determines the degree of pass-through to final prices. Our semiparametric
+model predicts much higher pass-through rates compared to a quasi-linear
+logit model (without consumer heterogeneity), which imposes a priori restric-
+tions on the pass-through rate. Compared to a parametric random coefficient
+logit model, the semiparametric model shows more significant heterogeneity
+in the pass-through rates across products.
+In our second counterfactual analysis, we conduct a merger simula-
+tion using our demand model. The merger simulation is one of the most
+policy-relevant applications of demand estimation, and thus is suited to
+demonstrating the value of our semiparametric model. As discussed in
+Farrell and Shapiro [2010], the price effects of a merger can be considered as,
+in the first order, the pass-through of the increase in the opportunity costs,
+known as the upward pricing pressure (UPP). We find that our semiparamet-
+ric model predicts the largest price effects of a merger among three demand
+specifications. This result is driven by both the pass-through rate and the
+UPP implied from our semiparametric model.
+The remainder of this article is organized as follows. First, we review
+the related literature to clarify the intended contributions of our work. In
+Section II, we introduce a demand model for differentiated products incorpo-
+rating a nonparametric specification for income effect. Section III discusses
+the estimation method using aggregate (market-level) data. In Section IV, we
+conduct Monte Carlo experiments to evaluate our framework’s performance.
+The framework is subsequently applied to data from the Japanese automobile
+market, with the demand model estimated in Section V. Using this estimated
+model, two counterfactual simulations involving pass-through and merger
+analyses are presented in Section VI. The robustness of our empirical findings
+is examined in Section VII. Finally, Section VIII provides the conclusions of
+our study.
+I(i). Related Literature
+This article contributes to three distinct strands of literature. Firstly, it relates
+to the literature on non- and semiparametric estimation of consumer demand
+models. While many previous works (e.g., Blundell et al. [2012, 2017]) have
+focused on the demand for homogenous goods, more recent studies have
+instead explored the demand for differentiated products within the discrete
+choice framework (e.g., Bhattacharya [2015]; Tebaldi et al. [2019]). These
+studies have primarily investigated nonparametric identification, and esti-
+mated demand and welfare based on individual-level data. In contrast, our
+work addresses scenarios where only aggregate data, such as market-level
+data, are available. This approach aligns with that taken by BLP and
+subsequent studies.
+Griffith et al. [2018] represents the study most closely related to ours.
+Their demand model integrates a flexible and parametric form of the income
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 5] =====
+
+190
+SHUHEI KANEKO AND YUTA TOYAMA
+effect within a discrete-choice framework. Using this model, the authors
+estimated the demand for margarine in the UK and evaluated the impact of
+a tax on saturated fat content. Our paper complements the work of Griffith
+et al. [2018] in both methodology and application. Methodologically, we
+estimate the income effect term nonparametrically with shape restrictions
+through a sieve approximation, demonstrating that shape restrictions can sig-
+nificantly enhance the precision of estimating the income effect. Furthermore,
+our analysis focuses on scenarios where only aggregate data (i.e., market-level
+data) are available, thus contrasting with the individual-level choice data
+used by Griffith et al. [2018].5 Additionally, we address price endogeneity
+through the use of instrumental variables (IVs). Our application investigates
+automobile demand, highlighting the pivotal role of the income effect in
+purchasing decisions. We further explore the implications of a flexible income
+effect in both pass-through analysis and merger simulation.
+Other papers related to our work include Compiani [2021], Wang [2022],
+Birchall et al. [2023], and Miravete et al. [2023]. The former two papers con-
+sidered a non- and semiparametric modelling of consumer demand. Com-
+piani [2021] introduced a fully nonparametric estimation approach for differ-
+entiated product demand models. While accommodating a broad range of
+demand models, Compiani [2021]’s method uncovered challenges concern-
+ing its direct application to scenarios with a large number of products.6 Our
+framework addresses such scenarios by targeting a one-dimensional nonpara-
+metric object that captures the income effect. In comparison, Wang [2022]
+presented a semiparametric model for differentiated products within a BLP
+framework, estimating the distribution of random coefficients nonparametri-
+cally. Our work diverges by relaxing the functional form assumption on the
+income effect and estimating it nonparametrically.
+The latter two papers considered a parametric modelling for flexible estima-
+tion of consumer demand. Birchall et al. [2023], building upon Björnerstedt
+and Verboven [2016], employed a Box-Cox specification in the discrete choice
+model to relax the unit demand assumption, thereby enabling a flexible
+estimation of demand curvature. They applied this framework to estimating
+the demand for ready-to-eat cereals. Our methodology complements Birchall
+et al. [2023] by offering a flexible specification for cases of unit demand,
+suitable for such durable goods as appliances and automobiles. Finally, a
+recent paper by Miravete et al. [2023] considered a unit-demand case and
+adopted a first-order approximation of the Box-Cox transformation for the
+income effect function. Our model shows greater flexibility by adopting a
+5 Herriges and Kling [1999] and Morey et al. [2003] also incorporated the nonlinear income
+effect in a parametric manner to estimate discrete choice models using individual-level data.
+6 Berry and Haile [2014] and Compiani [2021] focused on the identification and estimation of
+the inverse of mean utility, modeled as a function of vectors of prices and market share, resulting
+in a 2J dimensional function, where J represents the number of products.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 6] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+191
+non-parametric specification for the income effect function. Our framework
+also explicitly considers the budget constraint and utility maximization, thus
+allowing for the welfare analysis.
+Second, our article contributes to the empirical literature on pass-through
+effects, as illustrated by such studies as Nakamura and Zerom [2010], Gold-
+berg and Hellerstein [2013], Fabra and Reguant [2014], and Hollenbeck and
+Uetake [2021]. We enrich this body of work by highlighting the significance of
+flexibly estimating demand curvature in assessing the pass-through of taxes
+and subsidies via supply-side simulations. Our empirical results resonate
+with the theoretical insights of Weyl and Fabinger [2013], which underscored
+the critical role of demand curvature in determining the pass-through rate.
+Unlike the simple logit model, which is constrained by the limitation that the
+pass-through rate cannot exceed unity, our demand model accommodates
+pass-through rates that can exceed one.
+Third, our article enriches the extensive literature on the empirical analysis
+of horizontal mergers. Since the seminal work of Nevo [2000a], numerous
+empirical studies have employed simulation analyses in differentiated prod-
+uct markets to assess merger effects on prices and social welfare.7 Accurate
+estimation of the demand model is pivotal for precisely forecasting the price
+effects of a merger, as oligopolistic firms base their pricing strategies on
+the underlying demand structure. Although the logit model and its variant,
+the random coefficient logit model, have been frequently used in these analy-
+ses, their inherent restrictive curvature properties may inaccurately influence
+the simulation of merger effects (see, e.g., Crooke et al. [1999]). Addressing this
+limitation, our work illustrates how our demand model’s flexible estimation
+of demand curvature provides a robust alternative for antitrust analyses.
+II. DEMAND MODEL
+II(i). Utility Maximization Problem
+This section introduces a model for differentiated product demand that incor-
+porates a nonparametric income effect. We begin with a utility maximization
+problem that includes both continuous and discrete choices, following
+McFadden [1981]. Consumers face a discrete choice among differentiated
+goods and a continuous choice concerning the consumption of all others. As
+we later assume, this continuous choice problem can be conceptualized as the
+consumption of a numeraire.
+Let U(m, j) denote the direct utility function, where m is a dm-dimensional
+vector representing the consumption of continuous choice goods. The index
+7 See, e.g., Peters [2006] on airline, Fan [2013] on newspaper, Houde [2012] gas station,
+Gowrisankaran et al. [2015] hospital, Miller and Weinberg [2017] beer, Ohashi and Toyama [2017]
+automobile, and Björnerstedt and Verboven [2016] on pharmaceutical mergers.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 7] =====
+
+192
+SHUHEI KANEKO AND YUTA TOYAMA
+j ∈J ≡{0, 1, … , J} corresponds to an alternative in the discrete choice deci-
+sion, with J products available in the market. Specifically, the index j = 0
+indicates that the consumer opts not to purchase any of the discrete choice
+goods, a choice referred to as the outside goods.
+The utility maximization problem is given by the following:
+max
+(m,j)∈Rdm
++ ×J
+U(m, j)
+(1)
+s.t.
+Pm
+′m + pj ≤yi,
+where Pm is a dm dimensional vector of prices of continuous choice goods, pj
+is the price of alternative j, and yi is income.
+Conditional on choice j in the discrete choice, we define the conditional
+indirect utility function as follows:
+(2)
+V(Pm, y −pj, j) ≡max
+m∈Rdm
++
+U(m, j) s.t. Pm
+′m ≤yi −pj.
+Note that we define p0 = 0 as choosing the outside good incurs no costs.
+The right-hand side of Equation (2) represents a standard utility maxi-
+mization problem. Hence, the conditional indirect utility function V(Pm, y −
+pj, j) exhibits the following standard properties: (1) homogeneous of degree 0
+regarding both Pm and (y −pj), (2) increasing in (y −pj), (3) non-decreasing
+in Pm, and (4) quasi-convex in both (yi −pj) and Pm. We employ some of these
+properties for deriving shape restrictions for estimation.
+To derive a specification of the conditional indirect utility function suitable
+for estimation, we introduce the following assumption about the direct utility
+function:
+(3)
+U(m, j) = v(j) + u(m).
+This assumption suggests that the utility derived from differentiated goods is
+independent from that of all other goods. Although this may initially appear
+as restrictive, most discrete-choice demand models implicitly rely on this
+assumption.8
+The conditional indirect utility function can now be expressed as:
+(4)
+V(Pm, y −pj, j) = v(j) + ̃V(Pm, y −pj).
+8 This approach excludes the discrete-continuous choice model described by Dubin and
+McFadden [1984], where the choice of an appliance (i.e., a discrete decision) influences the util-
+ity derived from electricity consumption (i.e., a continuous decision). Newey [2007] explored the
+nonparametric identification of a discrete-continuous choice model when individual choice data
+are available. Extending our framework to accommodate such scenarios presents a promising
+avenue for future research.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 8] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+193
+The function ̃V(Pm, y −pj) satisfies the four properties implied by the utility
+maximization problem. In practice, however, the prices of all other goods,
+denoted as Pm, are not always observable. To deal with this issue, we assume
+that the continuous good is a numeraire, with its price represented by
+Pm. This price is thus treated as a price index. Consequently, we obtain
+̃V(Pm, y −pj) = u
+( y−pj
+Pm
+)
+, implying that the utility from a numeraire depends
+on the disposal income y −pj after choosing alternative j. Hereafter, both
+income y and the price of discrete choice goods pj are deflated by the price
+index Pm.
+We now define the income effect term by f (y −pj) ≡̃V(Pm, y −pj), albeit
+with a slight abuse of notation. The function f (y −pj) plays a pivotal role in
+our empirical framework. Importantly, the income effect term f (y −pj) is a
+weakly-increasing function, imposed in the estimation.
+II(ii). Conditional Indirect Utility Function
+Turning to the utility generated by consuming a discrete choice good v(j) in
+Equation (3), we follow the standard specification found in the literature. We
+introduce an index i, representing a consumer, and denote the utility from a
+discrete choice good j as vij.
+vij = 𝛽′Xj + 𝜉j + 𝜀ij for j = 1, … , J
+(5)
+vi0 = 𝜀i0
+(6)
+Xj is a vector of observable characteristics of product j, and 𝜉j represents its
+unobservable characteristics. 𝜀ij is an independent and identically distributed
+(IID) idiosyncratic shock that follows the type I extreme-value distribution.
+We now present the conditional indirect utility function of consumer i when
+choosing j:
+(7)
+Vij =
+{
+f (yi −pj) + 𝛽′Xj + 𝜉j + 𝜀ij
+for j = 1, … , J
+f (yi) + 𝜀i0
+for j = 0
+.
+The specification for the indirect utility function follows standard conven-
+tions, with the exception of the income-effect term f (y −p). While we refrain
+from imposing any parametric functional form on this function, we assume
+that it is a weakly increasing function, as implied by utility maximization in
+Equation (2).
+Our specifications can now be compared with those in previous stud-
+ies. A major and commonly-seen specification is the quasi-linear form,
+exemplified by Vij = 𝛼(yi −pj) + 𝛽′Xj + 𝜉j + 𝜀ij. In this model, the demand
+function is independent of the income level yi because the income term
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 9] =====
+
+194
+SHUHEI KANEKO AND YUTA TOYAMA
+is canceled out when comparing two alternatives.9 BLP introduces Vij =
+𝛼ln(yi −pj) + 𝛽′Xj + 𝜉j + 𝜀ij, incorporating a parametric form for the income
+effect.10 Unlike these models, our approach refrains from imposing any
+parametric assumption on f (⋅), other than it being an increasing function. We
+discuss the benefits of such a flexible specification in Section II(iv), explor-
+ing its implications across various contexts in the industrial organization
+literature and applied microeconomics.
+II(iii). Individual Choice Probability and Market Share
+This subsection considers the discrete choice decision based on the condi-
+tional indirect utility function obtained above. We then derive the market
+share equation, which provides the basis for later estimation. Hereafter, we
+add the index t denoting the market, which is defined by geography, time, or
+both. The conditional indirect utility function is now denoted by Vijt.
+When considering the discrete choice decision, we need to incorporate the
+budget constraint in the original utility maximization problem (1). The budget
+constraint implies that consumer i with income yit cannot buy goods whose
+price pjt is higher than their income. Prior studies have mostly ignored this
+budget constraint, possibly due to its having no impact under the common
+utility specification, such as a quasi-linear form. Recent papers (e.g., Xiao
+et al. [2017]; Pesendorfer et al. [2023]) have discussed the bias associated with
+the omitted budget constraint. The budget constraint implies that each con-
+sumer i has a different choice set according to their income. Specifically, we
+define the choice set of consumers i as:
+(8)
+Jit = {0} ∪{j ∈{1, … , Jt} ∶yit −pjt ≥0} ,
+where Jt is the total number of products available in market t.
+Given the conditional indirect utility Vijt, a consumer i chooses the alterna-
+tive that provides the highest utility from the choice set Jit. The discrete choice
+problem is given as follows:
+(9)
+max
+j∈Jit
+Vijt.
+The choice probability for consumer i selecting alternative j is derived as
+(10)
+sijt(yit) =
+1{yit ≥pjt} ⋅exp(f (yit −pjt) + 𝛽′Xjt + 𝜉jt
+)
+exp(f (yit)) + ∑Jt
+k=1 1{yit ≥pkt} ⋅exp(f (yit −pkt) + 𝛽′Xkt + 𝜉jt
+).
+9 Another prevalent specification is Vij = 𝛼i(yi −pj) + 𝛽′Xj + 𝜉j + 𝜀ij, 𝛼i = g(zi), where zi rep-
+resents consumer i’s characteristics, such as income, age, and household size. See Nevo [2001].
+10 Practically, the term 𝛼log(yi −pj) can be approximated by 𝛼
+yi pj as a first-order Taylor expan-
+sion, according to Berry et al. [1999].
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 10] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+195
+Note that the indicator function 1{yit ≥pjt} accounts for the budget
+constraint.
+The market share of each product sjt is now derived by aggregating the
+individual choice probability across consumers. In the current specification,
+consumer heterogeneity comes from individual income yit.11 Let yit follow the
+distribution of income Gt(yit). The market share is given by
+(11)
+sjt = ∫sijt(yit)dGt(yit).
+Market demand qjt is calculated by multiplying the market share sjt by the
+market size Nt, that is, qjt = Nt × sjt.
+II(iv). Model Implications
+This subsection addresses the practical significance of the flexible income
+effect. We first illustrate its impact on price elasticity, before examining how
+the shape of the demand function is related to the pass-through analysis and
+merger simulations.
+II(iv)(a). Price Elasticity
+To underscore the innovation of our demand specification, we begin by
+examining the price elasticity in a multinomial logit model characterized by
+quasi-linear utility without consumer heterogeneity (i.e., f (y −p) = 𝛼(y −p)
+where 𝛼> 0 is a scalar parameter). Omitting index t for notational simplicity,
+the own- and cross-price elasticity 𝜂jk is given as follows:
+(12)
+𝜂jk =
+𝜕qj
+𝜕pk
+pk
+qj
+=
+{
+−𝛼pj(1 −sj)
+if k = j
+𝛼pksk
+if k ≠j
+Price elasticity under the quasi-linear specification has been shown to be rela-
+tively restrictive, as highlighted by Nevo [2000b]. More specifically, the abso-
+lute value of the own-price elasticity, |𝜂jj|, grows with its own price pj, implying
+that more luxurious goods exhibit higher own-price elasticity.
+In our demand specification, the price elasticity is given as follows:
+(13)
+𝜂jk =
+𝜕qj
+𝜕pk
+pk
+qj
+=
+⎧
+⎪
+⎨
+⎪⎩
+−
+pj
+sj ∫f ′(yi −pj)sij(1 −sij)dG(yi)
+if k = j
+pk
+sj ∫f ′(yi −pk)sijsikdG(yi)
+if k ≠j
+11 The model can also incorporate random coefficients on product characteristics, for example,
+uijt = f (yit −pjt) + 𝛽′
+i Xjt + 𝜉jt + 𝜀ijt, where 𝛽i ∼N(𝛽, Σ). This specification allows for a richer sub-
+stitution pattern across products. See Section III(ii) for details.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 11] =====
+
+196
+SHUHEI KANEKO AND YUTA TOYAMA
+Price elasticity is now influenced by the income effect term f (y −p). More
+precisely, the curvature of the demand curve, as indicated by its second-order
+derivative, is determined by the shape of f (y −p), which can be flexibly
+estimated using a nonparametric approach. Consequently, our methodology
+avoids imposing any predetermined restrictions on how own-price elasticity
+varies with price.
+It is worth discussing how our approach relates to the random coefficient
+logit model, which is commonly used in practice. Nevo [2000b] observed that,
+by introducing heterogeneity in consumers’ price sensitivity (i.e., marginal
+utility from income), it is possible to flexibly estimate price elasticity, even
+when prices are linearly incorporated into the utility function. This means
+that, if consumers purchasing less expensive products are highly sensitive to
+price changes, the own-price elasticity for these products could be significant.
+Therefore, incorporating a random coefficient can effectively address com-
+mon issues related to both cross- and own-price elasticity. In our demand
+model, price sensitivity, denoted by f ′(yi −pj), varies among consumers based
+on their income levels. Moreover, in our model, price sensitivity f ′(yi −pj) also
+varies with the price level itself, providing additional flexibility in estimating
+own-price elasticity.12
+II(iv)(b). Pass-Through Analysis
+The pass-through analysis evaluates the extent to which prices adjust
+in response to changes in production costs or taxes (subsidies). The role of
+demand curvature as a determinant of the pass-through rate has been empha-
+sized in some theoretical studies. Most notably, Weyl and Fabinger [2013]
+demonstrated that, in symmetric oligopoly or monopoly markets, the
+pass-through rate is less than one if and only if the demand curve is
+log-concave, that is d2 log q(p)
+dp2
+< 0. The demand curve becomes log-concave in
+a multinomial logit model with a quasi-linear specification.
+However, even without adopting a quasi-linear specification, imposing a
+functional form on the income effect can inherently restrict the demand cur-
+vature and, consequently, the pass-through rate. This limitation underscores
+the significance of our flexible demand framework for analyzing the impact of
+cost shocks and tax policy on pass-through rates.13 In our empirical applica-
+tion in Section V and VI, we illustrate the significance of the flexible income
+effect by analyzing the pass-through of a subsidy on eco-friendly cars.
+12 While our discussion primarily focuses on own-price elasticity, it is worth noting that the
+income effect term f (y −p) also influences cross-price elasticity. This term introduces consumer
+heterogeneity in terms of price sensitivity into the demand model, where price-sensitive customers
+are more inclined to purchase cheaper products. Such heterogeneity fosters distinct substitution
+patterns according to the product’s price.
+13 Griffith et al. [2018] offered in-depth discussions on the critical role of flexible income effect
+specifications in pass-through analysis.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 12] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+197
+II(iv)(c). Merger Analysis
+Merger analysis holds critical importance for antitrust practice, primarily
+aiming to predict the potential price increases resulting from the merger of
+two competing firms. One method involves calculating UPP, determined by
+the diversion ratio of competing products and their markup, as discussed
+by Farrell and Shapiro [2010] and Jaffe and Weyl [2013]. This calculation
+provides an indication of the merger’s possible impact on prices. A more
+detailed method is merger simulation, where a demand and supply model of
+the market is constructed and estimated. This approach involves performing
+a counterfactual simulation to determine the market equilibrium when the
+merging firms jointly maximize profits.
+The shape of the demand function is crucial for estimating the merger effect
+in both approaches. In the approach proposed by Farrell and Shapiro [2010]
+and Jaffe and Weyl [2013], the impact of a merger is essentially viewed as
+a form of cost pass-through in the first order. This is because the merged
+entity considers the opportunity cost associated with the profit loss from its
+partner.14 The price effect of the merger hinges on the pass-through of this
+increased opportunity cost into the final price. Therefore, the relevance of
+demand curvature in pass-through analysis is equally applicable here. Fur-
+thermore, in merger simulations, Crooke et al. [1999] showed that consumer
+demand with identical elasticities, but differing curvatures, can result in vastly
+different simulated merger outcomes.
+III. ESTIMATION METHOD
+This section presents the estimation method for our semiparametric model,
+which includes the nonparametric function f (y −p) and the linear parameter
+𝛽in the utility function. To estimate these model components, we employ a
+sieve approximation for the nonparametric function and incorporate it into
+the nested fixed-point (NFP) algorithm, as proposed by BLP. Additionally,
+we apply a shape restriction to the nonparametric component with the aim of
+enhancing the precision of the parameter estimation.
+III(i). Sieve Approximation with Shape Restriction
+We first introduce the sieve approximation method as proposed by
+Chen [2007] and Blundell et al. [2007]. This method involves approximating a
+14 Consider a merger between two single-product firms. After the merger, the new first-order
+condition for Firm 1’s pricing is p1 +
+( 𝜕q1
+𝜕p1
+)−1
+q1 = c1 +
+(
+−𝜕q2
+𝜕q1
+)−1
+(p2 −c2). Here, the left-hand
+side represents the marginal revenue from Firm 1’s product, while the second term on the
+right-hand side accounts for the profit loss of Firm 2’s product due to diversion from Firm 2
+to 1, regarded as the opportunity cost for Firm 1 to increase its output. See Section VI(iii) for
+details.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 13] =====
+
+198
+SHUHEI KANEKO AND YUTA TOYAMA
+nonparametric function through a linear combination of known basis func-
+tions. Among various candidates for these functions, we opt for the Bernstein
+polynomial due to its convenience in incorporating shape restrictions. More
+specifically, we approximate the function f (⋅) by the K-th order Bernstein
+polynomial BK(x):
+(14)
+f (x) ≈BK(x) =
+K
+∑
+k=0
+𝜋kbK
+k (x) ≡𝜓K(x)′Π
+where
+(15)
+bK
+k (x) =
+(
+K
+k
+)
+xk(1 −x)K−k,
+𝜓K(x) = (bK
+0 (x), bK
+1 (x), … , bK
+K(x))′, and Π = (𝜋0, 𝜋1, … , 𝜋K)′. The nonpara-
+metric function f (⋅) is now approximated by a linear function of the basis
+function 𝜓K(x) and coefficients Π. Note that the range of x is normalized to
+[0, 1].15
+One advantage of selecting the Bernstein polynomial as a basis function
+is the ease of incorporating shape restrictions into the nonparametric func-
+tion. As highlighted in Section II(i), the nonparametric income-effect term
+f (y −p) is weakly increasing. To incorporate this shape restriction within our
+estimation, we impose constraints on the coefficients Π. With the Bernstein
+polynomial approximation, the derivative of the function is expressed as:
+B′
+K(x) = K
+K−1
+∑
+k=0
+(𝜋k+1 −𝜋k
+) bK−1
+k
+(x)
+Thus, the monotonicity restriction (i.e., B′
+K(x) ≥0) can be imposed by 𝜋k ≤
+𝜋k+1 for all k.16
+Lastly, we need to normalize the function by setting 𝜋0 = 0, so that we have
+f (0) = 0. This normalization is needed because we cannot identify the level
+15 We standardize the variable yit −pjt that appears in the function f (⋅) as follows. Given the
+price data {pjt}j∈{1, … ,Jt},t∈{1, … ,T} and the simulated draws of income {yit}i∈{1, … ,ns},t∈{1, … ,T},
+we define zmax = maxi,j,t{yit −pjt} and zmin = mini,j,t{yit −pjt|yit −pjt > 0}. Once done, we define
+the standardized variable by zijt ≡
+yit−pjt
+zmax−zmin , so that the variable zijt ranges in [0, 1] if yit −pjt is
+positive.
+16 This restriction of the coefficients is a sufficient, but not necessary, condition for the function
+f (⋅) to be weakly increasing. Alternatively, the shape restriction could be imposed by adding the
+constraint that the derivative of f (x) is positive on a grid of points. In Online Appendix D, we
+attempt this alternate approach to estimate the demand model in our automobile application. The
+estimation results with the point-wise restriction are quite similar to that using the restriction on
+the sieve coefficients. However, this alternate approach requires significantly longer computation
+times. See Online Appendix D for details.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 14] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+199
+of the income effect term f (⋅). If f (⋅) in Equation (10) is replaced with ̃f (⋅) =
+f (⋅) + C, the constant term C will be canceled out.
+III(ii). Sieve GMM Estimation with Nested Fixed-Point Algorithm
+We incorporate the sieve approximation into the BLP’s NFP algorithm to
+estimate the model parameters. With sieve approximation, the model can be
+written as:
+(16)
+sjt = ∫
+1{yit ≥pjt} ⋅exp(𝜓K(yit −pjt)′Π + 𝛽′Xjt + 𝜉jt
+)
+exp(𝜓K(yit)′Π) +
+∑Jt
+k=11{yit ≥pjt} ⋅exp(𝜓K(yit −pjt)′Π + 𝛽′Xkt + 𝜉jt
+) dGt(yit).
+Unobserved product characteristics 𝜉jt represent an econometric error term
+in the model. The parameters we estimate are summarized by (𝛽, Π).
+As is typical in estimating consumer demand models, our model is subject
+to an endogeneity problem. This concern arises from the correlation between
+the product price pjt and the unobserved product characteristics 𝜉jt, which
+is an econometric error term. Although econometricians lack data on unob-
+served product characteristics 𝜉jt, oligopolistic firms may have better access
+to such information. Consequently, firms may set their product prices by con-
+sidering product characteristics that are unobservable for econometricians.
+Such price setting behavior leads to the endogeneity problem associated with
+product prices.
+We address this issue by using IVs. We impose the following conditional
+mean restrictions:
+(17)
+E [𝜉jt|Zjt
+] = 0 for all j = 1, 2, … Jt, and t = 1, 2, … T,
+where Zjt is a vector of exogenous variables in the utility function (Xjt) and
+additional instruments (Wjt). Additional instruments Wjt are specified in our
+empirical application at a later point.
+In the estimation, we adopt a sieve generalized method of moments
+(GMM) estimator (Chen [2007]), which uses the following unconditional
+moment restrictions:17
+(18)
+E [𝜉jt(𝜃)pb(Xjt, Wjt)] = 0, b = 1, … , B,
+where 𝜃≡(𝛽, Π) denotes a set of model parameters and {pb(Xjt, Wjt)}
+b=1, … ,B
+is a sequence of known functions that can approximate any real-valued
+square-integrable functions of Xjt and Wjt as B →∞.
+17 The sieve GMM estimation is considered to be a sieve minimum distance estimation in which
+the conditional expectation is estimated using a series estimator with an identity weighting matrix
+(see, e.g., Chen [2007]).
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 15] =====
+
+200
+SHUHEI KANEKO AND YUTA TOYAMA
+The sieve GMM criterion function is given as follows:18
+(19)
+𝜉(𝛽, Π)′ ̃P( ̃P′ ̃P)−̃P′𝜉(𝛽, Π),
+where 𝜉is a vector that stacks unobserved demand shock 𝜉jt for j = 1, … , Jt
+and t = 1, … , T. The matrix ̃P = [P, P ⊗X] denotes a matrix of instruments.
+We follow Chetverikov et al. [2018] for our choice of matrix ̃P. We first con-
+sider a linear span of additional instruments Wjt by a known basis function
+and denote it as p(Wjt) = (p1(Wjt), … , pB(Wjt))′. The matrix P is then defined
+as P = (p(W11), … , p(WJT,T))′. We also include the tensor product of the
+columns of two matrices P and X = (X11, … , XJT,T)′, denoted by P ⊗X.
+In implementing the estimation method introduced above, we must obtain
+the econometric error term 𝜉jt given the parameter (𝛽, Π). Since this term
+nonlinearly enters the demand function (16), we use the NFP algorithm to
+calculate 𝜉jt. We define the mean utility as 𝛿jt = 𝛽′Xjt + 𝜉jt, which is the com-
+mon component of the utility of product j in market t. BLP have shown that
+there exists a unique vector of 𝛿t = {𝛿1,t, … , 𝛿Jt,t}, such that the observed
+market share {sjt}j=1, … ,Jt is equal to the model’s predicted market share. The
+vector of mean utility 𝛿t can be obtained through a contraction mapping
+algorithm.
+We calculate the value of the objective function given a candidate parame-
+ter value of Π as follows: (1) calculate the vector of mean utility 𝛿by applying
+a contraction-mapping algorithm;19 (2) run a linear regression of 𝛿on X to
+obtain ̂𝛽and the residual 𝜉jt; and (3) calculate the value of the objective func-
+tion (19).
+We then run a numerical optimization to minimize the objective function.
+Note that the parameter 𝛽appearing in the mean utility function can be
+obtained by employing a linear GMM.20 Thus, we need only run a nonlinear
+optimization routine over Π. This property circumvents the computational
+costs and allows us to incorporate a rich set of covariates and fixed effects in
+the mean utility component 𝛿jt.
+18 Some of the sieve estimation methods for non- and semiparametric models with endogeneity
+propose a penalization term on the higher derivative of the nonparametric function to alleviate
+the ill-posed inverse problem (see, e.g., Chen [2007]). However, in practice, this penalization term
+is not necessarily used in implementation, as discussed in Chetverikov and Wilhelm [2017]. Our
+approach aligns with this practice for several reasons. First, penalization requires choosing a tun-
+ing parameter that governs the strength of penalization. Second, and perhaps more importantly,
+our approach incorporates a monotonicity restriction on a nonparametric function, which has
+a similar effect to penalization. In their empirical application, Chetverikov and Wilhelm [2017]
+demonstrated that the penalization term does not affect the result once a shape restriction has
+been imposed in the estimation. See appendix B.3 in Chetverikov and Wilhelm [2017] for further
+discussion.
+19 We set the tolerance level of the algorithm at 1E-12.
+20 This estimation trick is called “concentration out.” See, for example, Nevo [2001].
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 16] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+201
+To calculate the confidence interval of the linear parameter 𝛽and the non-
+parametric function f (y −p), we use a generalized residual bootstrap pro-
+posed by Chen and Pouzo [2015] (specifically Theorem 5.2 of their paper).
+III(ii)(a). Adding Random Coefficients
+While our baseline specification does not incorporate random coefficients on
+product characteristics xjt, adding them to our framework would be both
+feasible and straightforward. Specifically, in our estimation method, we can
+include random coefficient parameters (i.e., standard deviation of random
+coefficients) into the set of nonlinear parameters along with sieve coefficients
+Π. To estimate these parameters, we need additional moment conditions to aid
+identification. Insights from Gandhi and Houde [2019] can be applied, which
+proposed the use of differentiation instruments. The differentiation IVs are
+based on the proximity of products in terms of product characteristics.
+IV. MONTE CARLO SIMULATION
+Before applying our demand model to real-world data, we conduct Monte
+Carlo experiments to assess the efficacy of our methodology. These experi-
+ments are designed to demonstrate how well it can recover the income effect
+term, denoted by f (y −p), and the linear coefficients, represented by 𝛽in the
+utility function. Furthermore, we explore the importance of imposing shape
+restrictions for accurately estimating the non-parametric component.
+We further explore a tradeoff inherent to our flexible approach by con-
+trasting our nonparametric estimation method against a parametric method,
+where the income effect function is a linear one f (y −p) = 𝛼(y −p) with
+parameter 𝛼. While our semiparametric approach may be less efficient than
+the parametric method if the latter precisely captures the true data-generating
+process (DGP), it notably offers robustness against model misspecification
+due to its nonparametric nature.
+IV(i). Data Generating Process
+We consider a market t where the total number of products is Jt. We set Jt =
+100 in our simulations for all market t and T = 10. We consider the following
+utility specification:
+(20)
+Vijt =
+{
+𝛽0 + 𝛽1xjt + 𝜉jt + f (yit −pjt) + 𝜀ijt
+for j = 1, … , J
+f (yit) + 𝜀i0t.
+for j = 0
+,
+where 𝜀ijt follows an IID type I extreme-value distribution. The observed
+product characteristic xjt follows the uniform distribution U(0, 1). The unob-
+served product characteristic 𝜉jt is assumed to follow the normal distribution
+with mean 0 and standard deviation 0.1 (i.e., 𝜉jt ∼N(0, 0.12).
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 17] =====
+
+202
+SHUHEI KANEKO AND YUTA TOYAMA
+The product price pjt is given by:
+(21)
+pjt = 0.2 + 0.3xjt + wjt + 𝜉jt,
+where we include the term 𝜉jt in the product price to consider the correlation
+between the price and the unobservable product characteristics.21 We add the
+cost shifter wjt following the uniform distribution U(0, 1), which serves as an
+instrument for the product price.
+The market share of each product sjt is given by Equation (11). To compute
+sjt in the simulation, we use a numerical integration with a quasi-randomly
+drawn 1,000 units from the Halton sequence. The income is drawn from the
+log-normal distribution, i.e., yjt ∼LN(0, 0.252). Under the DGP, the variable
+y −p has the support of approximately from −1.5 to 2.5.
+The model primitives we estimate are 𝛽0, 𝛽1, and f (y −p). We set 𝛽0 = −5
+and 𝛽1 = 3, and consider the three different specifications for the income effect
+term f (⋅) as follows:
+DGP 1 f (a) = sinh−1(a),
+DGP 2 f (a) = ln(2) + ln(|a −1| + 1)sgn(a −1),
+DGP 3 f (a) = a.
+Note that DGP2 exhibits less smoothness compared to the other two
+functions because it is not differentiable at a = 1. Furthermore, this function
+demonstrates convexity when a ∈[0, 1] and concavity for a ≥1. Conse-
+quently, after standardizing positive y −p within the range of [0, 1], the
+second-order derivative of the income function changes its sign at approx-
+imately the 40th percentile point. For more details on the standardization
+process, see Footnote 15. It is also crucial to recognize that DGP3 represents
+the scenario where the parametric model precisely captures the true income
+function. Thus, in this case, we anticipate that parametric estimation will be
+more efficient than our proposed nonparametric approach.
+IV(ii). Implementation
+We apply both non- and parametric methodologies to datasets generated by
+each DGP. To nonparametrically estimate the income effect term f (⋅), we
+use the sieve approximation method detailed in Section III(i), employing Kth
+order Bernstein polynomials. We set several values of K (i.e., K = 3, 4, and
+5) to assess the impact of different orders on our results. For the parametric
+approach, we adopt the specification:
+f (y −p) = 𝛼(y −p),
+21 For simplicity, We assume that the price is competitively determined by the marginal costs in
+our DGP. We do not incorporate Bertrand competition into the supply side in our Monte Carlo
+experiments.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 18] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+203
+where 𝛼represents the parameter to be estimated. This specification aligns
+with the one used in DGP 3.
+The cost shifter wjt is used to construct an instrument for the price. More
+specifically, we set p(wjt) = (1, wjt, … , wK−1
+jt
+)′ as the basis function. Thus,
+each row of the matrix P ⊗X comprises all products of the forms: p(wjt)′xjt =
+(xjt, wjtxjt, … , wK−1
+jt
+xjt) for all j = 1, 2, … , Jt, and t = 1, 2, … , T. We then
+apply sieve GMM estimation along with the NFP algorithm.22 In a paramet-
+ric method, we set the dimension of the instrumental function to one (i.e.,
+p(wjt) = (1, wjt)).
+To measure the estimation precision for the nonparametric income effect
+term, we compute the mean integrated squared error (MISE) by MISE =
+1
+NS
+∑NS
+r=1
+(
+∫1
+0
+(
+f (z) −̂fr(z)
+)2
+dz
+)
+, where z is the standardized value of y −p
+ranging from 0 to 1 and ̂f r(z) = ̂𝛼rz for parametric estimation.23 The subscript
+r denotes the index for a simulation. The total number of simulations NS is set
+to 100. Regarding the linear parameters (𝛽0, 𝛽1), we calculate the mean bias
+and root mean square error (RMSE) given by Bias(𝛽j) =
+1
+NS
+∑NS
+r=1 ̂𝛽
+r
+j −𝛽j and
+RMSE(𝛽j) =
+1
+NS
+∑NS
+r=1 ( ̂𝛽
+r
+j −𝛽j)2.
+IV(iii). Simulation Results
+Simulation results for DGP1-3 are reported in Tables I–III, respectively. Each
+table reports the MISE of the nonparametric function f (y −p) and the bias
+and RMSE of linear parameters (𝛽0, 𝛽1).
+The first observation is that simulations incorporating shape restrictions
+significantly outperform those without such restrictions. Across all DGPs, the
+MISE of the nonparametric function f (y −p) is considerably reduced when a
+shape restriction is applied to the income effect term. Similarly, the RMSE of
+the linear parameters (𝛽0, 𝛽1) also shows improvement with shape restriction.
+The impact of shape restriction is visually evident in Figures 1–3, which dis-
+play the 95% confidence intervals (CI) for estimations both with and without
+shape restrictions. Without shape restriction, the estimate is imprecise near the
+support’s endpoint, whereas the confidence band remains tighter under shape
+restriction. Our findings align with those of Chetverikov and Wilhelm [2017],
+who found significant performance enhancements from applying a mono-
+tonicity restriction in a semiparametric partially linear model with endogene-
+ity. Our simulations further extend their conclusion to scenarios where the
+model is non-separable.
+22 We set the tolerance level of the NFP algorithm as 1E-12 and employ the constrained mini-
+mization procedure in the Knitro solver.
+23 The integral inside the parentheses are computed using Monte Carlo integration.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 19] =====
+
+204
+SHUHEI KANEKO AND YUTA TOYAMA
+TABLE I
+RESULTS OF MONTE CARLO SIMULATIONS UNDER DGP 1
+(i) MISE of f (y −p)
+Without SR
+With SR
+Parametric
+K = 3
+0.0268
+0.0025
+0.0099
+K = 4
+0.0142
+0.0050
+K = 5
+0.1075
+0.0069
+(ii) Estimation of 𝛽0
+Without SR
+With SR
+Parametric
+Bias
+RMSE
+Bias
+RMSE
+Bias
+RMSE
+K = 3
+0.0058
+0.1032
+−0.0043
+0.0249
+0.0074
+0.0097
+K = 4
+−0.0072
+0.0838
+0.0078
+0.0405
+K = 5
+0.0143
+0.1557
+−0.0024
+0.0482
+(iii) Estimation of 𝛽1
+Without SR
+With SR
+Parameric
+Bias
+RMSE
+Bias
+RMSE
+Bias
+RMSE
+K = 3
+0.0018
+0.0122
+0.0002
+0.0109
+0.0026
+0.0107
+K = 4
+0.0026
+0.0123
+0.0005
+0.0110
+K = 5
+0.0009
+0.0123
+0.0000
+0.0128
+Note: SR is an abbreviation of shape restriction.
+TABLE II
+RESULTS OF MONTE CARLO SIMULATIONS UNDER DGP 2
+(i) MISE of f (y −p)
+Without SR
+With SR
+Parametric
+K = 3
+0.0289
+0.0039
+0.0018
+K = 4
+0.0192
+0.0046
+K = 5
+0.0526
+0.0049
+(ii) Estimation of 𝛽0
+Without SR
+With SR
+Parametric
+Bias
+RMSE
+Bias
+RMSE
+Bias
+RMSE
+K = 3
+−0.0375
+0.1053
+−0.0184
+0.0315
+−0.0253
+0.0091
+K = 4
+−0.0070
+0.1033
+−0.0219
+0.0390
+K = 5
+0.0238
+0.1198
+−0.0185
+0.0440
+(iii) Estimation of 𝛽1
+Without SR
+With SR
+Parameric
+Bias
+RMSE
+Bias
+RMSE
+Bias
+RMSE
+K = 3
+−0.0012
+0.0114
+−0.0009
+0.0111
+−0.0011
+0.0108
+K = 4
+−0.0009
+0.0124
+−0.0003
+0.0113
+K = 5
+0.0015
+0.0121
+−0.0005
+0.0123
+Note: SR is an abbreviation of shape restriction.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 20] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+205
+TABLE III
+RESULTS OF MONTE CARLO SIMULATIONS UNDER DGP 3
+(i) MISE of f (y −p)
+Without SR
+With SR
+Parametric
+K = 3
+0.0356
+0.0044
+0.0002
+K = 4
+0.0207
+0.0065
+K = 5
+0.0615
+0.0066
+(ii) Estimation of 𝛽0
+Without SR
+With SR
+Parametric
+Bias
+RMSE
+Bias
+RMSE
+Bias
+RMSE
+K = 3
+−0.0123
+0.1140
+0.0038
+0.0376
+0.0010
+0.0105
+K = 4
+0.0098
+0.0981
+−0.0050
+0.0496
+K = 5
+0.0085
+0.1249
+−0.0036
+0.0519
+(iii) Estimation of 𝛽1
+Without SR
+With SR
+Parameric
+Bias
+RMSE
+Bias
+RMSE
+Bias
+RMSE
+K = 3
+0.0010
+0.0116
+−0.0002
+0.0121
+−0.0017
+0.0114
+K = 4
+0.0010
+0.0107
+0.0013
+0.0108
+K = 5
+0.0004
+0.0138
+0.0006
+0.0112
+Note: SR is an abbreviation of shape restriction.
+Figure 1
+The Role of Shape Restriction Under DGP 1
+Notes: [Colour figure can be viewed at wileyonlinelibrary.com]
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 21] =====
+
+206
+SHUHEI KANEKO AND YUTA TOYAMA
+Figure 2
+The Role of Shape Restriction Under DGP 2
+Notes: [Colour figure can be viewed at wileyonlinelibrary.com]
+Figure 3
+The Role of Shape Restriction Under DGP 3
+Notes: [Colour figure can be viewed at wileyonlinelibrary.com]
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 22] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+207
+Figure 4
+Nonparametric and Parametric Estimation Under DGP 1
+Notes: [Colour figure can be viewed at wileyonlinelibrary.com]
+We now evaluate the performance of our nonparametric approach against
+the parametric model, which assumes f (y −p) = 𝛼(y −p). Figure 4–6 shows
+the comparison of parametric and nonparametric approaches in each DGPs.
+In DGP1, the MISE is significantly lower for the nonparametric estimation
+with shape restriction compared to the parametric method. The left panel of
+Figure 4 illustrates that our nonparametric method accurately estimates the
+shape of the income effect function, whereas the parametric estimation incurs
+bias from model misspecification. Intriguingly, and as indicated in Table II,
+the MISE for f (y −p) in DGP2 is higher using the nonparametric approach
+than the parametric model. This is because, as demonstrated in Figure 5, the
+misspecification bias is minimal, given that the shape of f (y −p) in DGP2
+closely resembles a linear function. Furthermore, the 95% CI in the nonpara-
+metric method is broader than that in the parametric method, as depicted in
+the right panel of Figure 5. Finally, in DGP3 (Figure 6), where the paramet-
+ric model aligns correctly with the true data-generating process, the MISE is
+significantly lower in the parametric approach than in the nonparametric one.
+These results illustrate the inherent tradeoff of our nonparametric
+approach. On the one hand, it excels in accurately estimating the shape
+of the income effect function, even when deviating from linearity. This capa-
+bility is particularly valuable in empirical contexts where the precise form of
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 23] =====
+
+208
+SHUHEI KANEKO AND YUTA TOYAMA
+Figure 5
+Nonparametric and Parametric Estimation Under DGP 2
+Notes: [Colour figure can be viewed at wileyonlinelibrary.com]
+the income effect function is unknown. However, a common drawback of
+nonparametric estimation is the broader CI associated with the estimated
+function, reflecting the cost of its flexibility.
+V. EMPIRICAL APPLICATION: AUTOMOBILE DEMAND
+We now apply our semiparametric demand model to the Japanese auto-
+mobile market to demonstrate the practical relevance of our framework.
+In Section V(i), we briefly explain the data and institutional background.
+Preliminary results, estimated using the linear logit model by Berry [1994],
+are presented in Section V(ii), where we also discuss the limitations of this
+approach. To address these limitations, we introduce the semiparametric
+specification of the demand model in Section V(iii). The estimation results
+of the semiparametric model are discussed in Section V(iv). Building on
+these results, we conduct counterfactual simulations detailed in Section VI,
+evaluating the implications of a feebate policy for eco-friendly cars in Japan
+and the potential impact of a hypothetical merger between two leading
+manufacturers: Toyota and Honda.
+V(i). Data
+Two types of datasets are constructed. The first contains information on the
+Japanese automobile market between 2006 and 2013, including product-level
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 24] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+209
+Figure 6
+Nonparametric and Parametric Estimation Under DGP 3
+Notes: [Colour figure can be viewed at wileyonlinelibrary.com]
+information on sales, prices, and product characteristics for each year. Sec-
+ond, we construct the income distribution of Japanese households as a source
+of consumer heterogeneity in the demand model (see Online Appendix B for
+details).
+To construct the former dataset on the Japanese automobile market,
+we combine the catalog information of car models and the registration
+of newly-purchased cars.24 The dataset is an unbalanced panel at the
+model-and-year level.
+We define the share of each car model in each year (sjt) as the fraction of the
+total number of new car registrations (see Footnote 24) over the total number
+of households in Japan, sourced from annual reports of Population, demo-
+graphics, and the number of households based on the Basic Resident Register
+24 The catalog information is obtained from the website CarView!, which provides the spec-
+ifications of car models and their list prices. Registrations of standard and compact cars are
+obtained from the Annual Report of New Car Registrations (Shinsha Touroku Daisu Nempou)
+issued by the Japan Automobile Dealers Association. Registrations for minicars are obtained
+from a report published by the Japan Mini Vehicle Association (see https://www.zenkeijikyo.or.jp
+/statistics/tushokaku; in Japanese. Accessed on January 6, 2023.). Finally, we source information
+on registrations for 20 top-selling imported cars from a report published by the Japan Automo-
+bile Importers Association (see http://www.jaia-jp.org/english-transition/. Accessed on January 6,
+2023).
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 25] =====
+
+210
+SHUHEI KANEKO AND YUTA TOYAMA
+conducted by the Ministry of Internal Affairs and Communications.25 The
+share of households not purchasing any automobile is defined as s0t = 1 −
+∑
+j∈Jtsjt, where Jt represents the set of car models available in market t (i.e.,
+year t).
+The observable product characteristics (Xjt) include (1) the ratio of horse-
+power to the weight of the car (HP/WT), (2) car size (Size), (3) fuel efficiency
+(miles per gallon [MPG]), and (4) a dummy variable that indicates whether
+the model has an automatic/continuously variable transmission system
+(AT/CVT).26 We also use dummy variables for mini, foreign, and hybrid
+cars.27
+The data also include the list price pjt offered by manufacturers. We con-
+struct an effective price pe
+jt that reflects the tax and subsidy. The effective price
+pe
+jt is defined as follows:
+(22)
+pe
+jt = (1 + 𝜌jt)pjt + Tjt −ESjt,
+where 𝜌jt is the rate of the ad-valorem tax, including consumption tax (5%
+during the sample period), Tjt is the specific tax, and ESjt is a subsidy for
+eco-friendly cars. All prices and taxes are deflated by the 2015 Consumer Price
+Index (CPI).
+A notable feature of the Japanese automobile market that plays an impor-
+tant role in the analysis is the presence of various tax and subsidy policies.
+The Japanese government introduced a feebate policy named Eco-car Subsidy
+(ES) program in 2009 as part of the economic stimulus measures in the wake
+of the Great Recession. Table IV provides an overview of the policy.28 The
+program has two phases. The first phase of the ES program was effective from
+April 2009 to September 2010.29 In this phase, cash rebates of JPY 100,000
+(approximately USD 1,000) and JPY 50,000 (approximately USD 500) were
+offered to normal cars and minicars that exceeded the 2010 fuel efficiency
+standard by 15%, respectively.30 The second phase began in December 2011
+and continued until January 2013. In the second phase, the eligibility to receive
+25 See
+https://www.soumu.go.jp/main_sosiki/jichi_gyousei/daityo/jinkou_jinkoudoutai-setaisuu
+.html for details (In Japanese. Accessed on January 6, 2023).
+26 Given that the fuel efficiency is measured in kilometers per liter, we convert it to miles per
+gallon using mpg = (fuelefficiency∕1.60934) × 3.78541.
+27 A minicar is a category of automobile with a length of 3.4 m or less, a width of 1.48 m or
+less, and a height of 2.0 m or less, as well as a displacement level of 660 cc or less.
+28 The details of the tax policy are relegated to Online Appendix C.
+29 In the first phase, consumers had the option to apply for the ES program with a higher
+amount of subsidy conditional on scrapping their existing vehicle if it was older than 13 years.
+See Kitano [2022] for details.
+30 We use an exchange rate of 100 JPY/USD throughout the paper.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 26] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+211
+TABLE IV
+DETAILS OF THE ECO-CAR SUBSIDY
+Phase 1
+Phase 2
+Period
+April 2009 to September 2010
+December 2011 to January 2013
+Subsidy to normal cars
+JPY 100,000
+JPY 100,000
+Subsidy to minicars
+JPY 50,000
+JPY 70,000
+Requirement
+exceeding the 2010 fuel efficiency
+standard by 15%
+exceeding the 2015 fuel efficiency
+standard
+TABLE V
+DESCRIPTIVE STATISTICS OF JAPANESE AUTOMOBILE MARKET DATA
+(1) 2006–2008
+(2) 2009–2013
+Mean
+SD
+Min
+Max
+Mean
+SD
+Min
+Max
+log(
+sjt
+s0t )
+−8.446
+1.563 −13.766
+−5.347
+−8.860
+1.782 −15.435
+−5.052
+pe
+jt (JPY 1 Million)
+2.731
+1.966
+0.780
+12.870
+2.772
+1.973
+0.771
+13.946
+Total Tax (JPY 1 Million)
+0.186
+0.113
+0.030
+0.682
+0.144
+0.120
+0.008
+0.707
+ES (JPY 1 Million)
+0.000
+0.000
+0.000
+0.000
+0.019
+0.039
+0.000
+0.104
+HP/WT
+0.099
+0.033
+0.047
+0.276
+0.099
+0.036
+0.045
+0.318
+MPG
+34.595
+10.600
+12.937
+83.501
+37.142
+11.974
+15.524
+83.266
+Car size
+7.485
+0.676
+6.115
+8.855
+7.520
+0.673
+6.115
+8.825
+AT/CVT
+0.978
+0.148
+0.000
+1.000
+0.987
+0.115
+0.000
+1.000
+Minicar dummy
+0.202
+0.402
+0.000
+1.000
+0.198
+0.399
+0.000
+1.000
+Hybrid car dummy
+0.008
+0.090
+0.000
+1.000
+0.042
+0.201
+0.000
+1.000
+Observations
+495
+827
+Notes: sjt and s0t represent the market share of product j and outside good in market t. pe
+jt indicates the effective
+price that consumers face. “Total Tax” denotes the sum of automobile acquisition tax, automobile weight tax,
+and automobile tax. “ES” is an abbreviation of “eco-car subsidy”. All the price and tax variables are deflated by
+the 2015 CPI. Product attribute variables include the ratio of horsepower to car weight (HP/WT), millage per
+gallon (MPG), car size (Size), dummy variables indicating whether the model has an automatic or continuously
+variable transmission (AT/CVT Dummy), and minicar and hybrid car (minicar and hybrid car dummy).
+a cash rebate was made stricter than in the first. JPY 100,000 and JPY 70,000
+were subsidized to normal cars and minicars exceeding the 2015 fuel efficiency
+standard, which is equivalent to 125% of the 2010 standard.
+Table V presents the descriptive statistics of our dataset. During the
+sample period, there was a substantial decrease (approximately 24%) in
+the total tax burden. The average ES subsidy amounted to JPY 19,000
+between 2009 and 2013. In terms of automobile characteristics, we observe
+an improvement in the average MPG (fuel efficiency), while no significant
+changes are detected in other characteristics. Although a slight increase
+in effective prices can be noted following the subsidy’s introduction, this
+change is primarily attributable to variations in product characteristics.
+Table A1 in Online Appendix A shows a regression analysis of effective
+prices on the subsidy amount and taxes, along with product characteristics.
+This analysis shows that both the subsidy and taxes influenced prices as
+anticipated: the former led to lower prices, while the latter resulted in higher
+prices.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 27] =====
+
+212
+SHUHEI KANEKO AND YUTA TOYAMA
+V(ii). Preliminary Results from a Linear Logit Model
+As a benchmark, we first estimate the parametric version of the demand
+model. Specifically, we estimate the quasi-linear specification given by
+f (y −p) = 𝛼(y −p), where 𝛼is a parameter to be estimated. Given that the
+income term y is canceled out, the model is reduced to the linear logit model
+of Berry [1994] as follows:31
+ln
+( sjt
+s0t
+)
+= 𝛼pe
+jt + 𝛽′Xjt + 𝜃f (j) + 𝜃t + 𝜉jt,
+(23)
+where sjt is the market share of the automobile j at year t, s0t is the market share
+of outside option (i.e., not purchasing any car) at year t, pe
+jt is the effective price
+of the automobile j at year t, and the vector Xjt includes HP/WT, MPG, car
+size, AC/CVT dummy, minicar dummy, and hybrid car dummy. Furthermore,
+the firm fixed effects (𝜃f (j)) and year (market) fixed effects (𝜃t) are controlled.
+𝜉jt stands for the econometric error term.
+We estimate this model using ordinary least squares (OLS) and two-stage
+least squares (2SLS), wherein the set of IVs are employed to handle the endo-
+geneity of effective price pe
+jt. We construct the instruments based on tax and
+subsidy policy by following Konishi and Zhao [2017] and Kitano [2022].32
+Specifically, our instruments are defined by (1) the sum of the tax amount
+of other products produced by the firm ∑
+k∈Jf ,k≠j(Tax)kt and (2) the sum of
+the tax amount of competitors’ products ∑
+k∉Jf (Tax)kt. Note that Taxjt rep-
+resents the sum of automobile weight tax and automobile tax of car model j
+in year t. Importantly, the automobile acquisition tax, which depends on the
+automobile price and is thus endogenous, is not included in the variable Taxjt.
+We now turn to the validity of our chosen instruments. The relevance of the
+instruments is supported by the fact that automobile manufacturers account
+for the tax rate when setting prices. We further argue for the relevance based
+on the first-stage regression in Table VI. Concerning the independence of the
+instruments, the tax rate should be uncorrelated with the unobserved char-
+acteristics 𝜉jt. However, a potential challenge arises if automobile manufac-
+turers strategically respond to changes in the tax rate, possibly by introducing
+more eco-friendly cars eligible for tax reductions. This strategic behavior could
+31 More precisely, we also omit the budget constraint in order to derive Berry [1994]’s linear
+logit model. Even if the quasi-linear specification is assumed in our model, the presence of the
+budget constraint is a source of consumer heterogeneity. Thus, the budget constraint does not
+allow us to use a linear regression model, as in Berry [1994].
+32 We also use differentiation instruments proposed by Gandhi and Houde [2019] to assess its
+performance. Moreover, we attempted to use traditional BLP instruments for car characteristics,
+though the first-stage regression of a parametric IV logit model was substantially weaker than
+differentiation IV. The result of using traditional BLP IV is not reported. This finding is consistent
+with results obtained by Konishi and Zhao [2017] (see appendix D in their article).
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 28] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+213
+TABLE VI
+ESTIMATION RESULTS OF LINEAR LOGIT MODEL
+(1)
+(2)
+(3)
+(4)
+OLS
+IV
+IV
+IV
+Effective Price (pe
+jt)
+−0.402
+−0.646
+−0.929
+−0.703
+(0.030)
+(0.119)
+(0.153)
+(0.105)
+HP/WT
+5.898
+13.598
+22.550
+15.424
+(1.578)
+(3.830)
+(4.853)
+(3.429)
+MPG
+0.105
+0.100
+0.093
+0.098
+(0.006)
+(0.007)
+(0.007)
+(0.007)
+Car size
+1.686
+1.976
+2.314
+2.045
+(0.115)
+(0.163)
+(0.189)
+(0.148)
+AT/CVT
+0.257
+0.437
+0.647
+0.480
+(0.385)
+(0.385)
+(0.399)
+(0.385)
+Differentiation IV on car attribute
+No
+Yes
+No
+Yes
+Tax-based IV
+No
+No
+Yes
+Yes
+Kleibergen–Paap F-statistics
+NA
+21.650
+18.290
+16.316
+Hansen J-statistics
+NA
+25.702
+2.614
+30.986
+Observations
+1,322
+1,322
+1,322
+1,322
+Notes: All regression includes year fixed effects, firm fixed effects, minicar dummy and hybrid car dummy. The
+robust standard error is reported in parentheses.
+compromise our instruments’ validity, particularly if firms anticipate unob-
+served demand shocks (𝜉jt) in the timing of product introduction.
+To address this potential issue, we follow Eizenberg [2014]. Our key iden-
+tification assumption is that firms do not observe the demand shock 𝜉jt prior
+to product introduction. This assumption implies that product selection is
+influenced by observable automobile characteristics rather than the unob-
+served demand shock. We can mitigate the above concern by controlling for
+these observable characteristics that may impact product introduction. In our
+analysis, car types (e.g., mini, foreign, and hybrid cars) are related to the eligi-
+bility for tax reductions and ESs. Consequently, our utility function includes
+dummy variables for these car types in addition to standard product charac-
+teristics.33
+Table VI shows the estimation results of Equation (23). Column (1) reports
+the results of OLS estimation, where the price is treated as an exogenous
+attribute. The results of the IV estimation are then summarized in columns
+(2)–(4). Estimated coefficients have the expected signs. By comparing the
+results of OLS and IV estimation, the price coefficient seems to be underesti-
+mated in the former (i.e., the OLS estimate is biased toward zero). Regarding
+the validity of the instruments, the result shown in column (3) suggests that
+the tax-based instrument has a high value of Kleibergen-Paap F statistics in
+33 While the assumption of exogenous product characteristics may appear strong, it is, in fact,
+the conventional approach in the estimation of differentiated product demand. Given our empha-
+sis on demand estimation and its implications for short-run pricing decisions, we employ this
+assumption to simplify the analysis. See, for example, Barwick et al. [2024] for an analysis that
+considers endogenous product attributes.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 29] =====
+
+214
+SHUHEI KANEKO AND YUTA TOYAMA
+the first stage with notably low J statistics. Based on the above results, we use
+a tax-based instrument to estimate the semiparametric demand model. We
+also use column (3) as a parameter of the linear logit model in the simulation
+analysis reported in Section VI.
+While the estimation of the linear logit model is useful as a preliminary
+analysis, the model has several issues in practice. First, as discussed in
+Section II(iv), the quasi-linear assumption imposes a strict restriction on the
+pattern of price elasticity. The relationship between the own-price elasticity
+and price is linear under a simple logit model (we revisit this point when esti-
+mating the price elasticity in a semiparametric demand model). In addition,
+since the demand curve is always log-concave in price under a simple logit
+model, the pass-through rate is bounded by 1 (Weyl and Fabinger 2013).
+Such property may imply an underestimation of the pass-through rate of the
+subsidy.
+V(iii). Semiparametric Demand Specification
+We now take the semiparametric approach introduced in Section II to over-
+come the potential issues of the simple logit model. The following specification
+is considered for the conditional indirect utility:
+Vijt = f (yit −pe
+jt) + 𝛽′Xjt + 𝜃f (j) + 𝜃t + 𝜉jt + 𝜀ijt, (∀j ∈{1, … , Jt})
+(24)
+Vi0t = f (yit) + 𝜀i0t
+(25)
+where f (⋅) is a weakly-increasing continuous function, yit stands for the real
+income for individual i at year t, and 𝜀ijt is idiosyncratic shock following
+Type-I extreme value distribution. The definition of all the other components
+is the same as in Equation (23). We employ the tax-based IV defined in the
+previous section (i.e., w1,kt ≡∑
+k∈Jf ,k≠j(Tax)kt, and w2,kt ≡∑
+k∉Jf (Tax)kt) to
+estimate f (⋅) and 𝛽in the model. Specifically, the matrix of IVs defined in
+equation (19) is based on p(w) = (1, w1,kt, w2,kt, w2
+1,kt, w2
+2,kt, w3
+1,kt, w3
+2,kt), and
+the tensor products of p(w) and Xjt.
+The income effect term f (y −p) is approximated by the following specifica-
+tion:
+f (y −p) =
+−1
+∑K
+k=1 𝜋kbK
+k (y −p)
+,
+where bK
+k (x) is a Bernstein polynomial defined in (15). We set K = 4 in estima-
+tion.34 Regarding the shape restriction, we impose the monotonicity restric-
+tion on a Bernstein polynomial by 𝜋k ≤𝜋k+1 for k = 1, … , K −1, so that the
+income effect term f (y −p) is a weakly-increasing function.
+34 Figure A1 in Online Appendix A reports the results of a robustness analysis concerning the
+choice of K. The results indicate that the estimated own-price elasticities remain similar across the
+choice of K = 3, 4, and 5. Although a data-driven method for determining K would be preferable,
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 30] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+215
+The approximation uses the inverse of a Bernstein polynomial, which differs
+from the regular Bernstein polynomial used in Monte Carlo simulations. This
+approach ensures that limx→0f (x) = −∞, a restriction that, although seem-
+ingly unnecessary, is essential for maintaining the continuity of the demand
+model in relation to prices. Such continuity is pivotal for accurately simulat-
+ing a pricing equilibrium in numerical analyses. We elaborate on the rationale
+behind this choice below.
+Recall that the individual choice probability sijt(⋅), defined in Equation (10).
+Due to the budget constraint in the utility maximization problem (i.e.,
+1 {pjt ≤yit
+}), this choice probability can be discontinuous in terms of the
+price at pjt = yit. Specifically, the choice probability sijt is positive as long as
+pjt < yit, but becomes zero (sijt = 0) when pjt > yit. Given that we approximate
+aggregate demand by simulating a finite number of consumers, the aggregate
+demand function has a range of discontinuous points. While such disconti-
+nuity is not detrimental to estimation where prices are fixed as a covariate, it
+makes the supply-side analysis (i.e., solving the Bertrand pricing equilibrium)
+numerically challenging.35
+This issue can be avoided by imposing a restriction whereby limp→yf (y −
+p) = −∞. Under this restriction, the individual choice probability sijt(⋅) con-
+verges to zero as the price approaches the income level. This property ensures
+the continuity of the demand function. In Online Appendix E, we graphically
+demonstrate this point using a numerical example.
+The aggregate demand is determined by integrating the individual choice
+probability with income distribution. We assume the income distribution
+to be the log-normal distribution with mean 𝜇t and standard deviation 𝜎t:
+LN(𝜇t, 𝜎2
+t ). We estimate these two parameters (𝜇t, 𝜎t) for each year using data
+from the Comprehensive Survey of Living Conditions. See Online Appendix B
+for the details. To numerically compute the integral, we use quasi-random
+sampling. We draw 1,000 consumers from the estimated distribution by a
+Halton sequence.
+V(iv). Estimation Results of Semiparametric Model
+Figure 7 and Table VII report estimates of the income-effect term f (y −p) and
+linear parameters 𝛽, respectively. Figure 7 shows that the income effect term
+current theoretical guidance on selecting the order of sieve polynomials (K in our context) for gen-
+eral nonparametric models with endogeneity is limited, as noted by Chen and Qiu [2016]. Chen
+et al. [2023] recently introduced a data-driven approach to determine the sieve dimension, con-
+sidering models with conditional moment restrictions of the form E[Y −h0(X)|W] = 0, where
+Y is the dependent variable, X is an endogenous variable, W is a set of instruments, and h0(⋅) is
+the nonparametric function to be estimated. However, our model falls outside the scope of the
+models addressed in their analysis.
+35 In the past, we adopted a discontinuous demand model in our simulation analysis and found
+that the numerical computations were unstable, leading to unreliable results.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 31] =====
+
+216
+SHUHEI KANEKO AND YUTA TOYAMA
+Figure 7
+Estimation of f (yit −pjt)
+Notes: The figure the reports point estimate and 95% confidence band based on 200 times boot-
+strap sampling. The range of y −p plotted is JPY 0.5 to 10 Million. [Colour figure can be viewed
+at wileyonlinelibrary.com]
+TABLE VII
+ESTIMATION OF LINEAR PARAMETERS
+Estimate
+95% CI
+Constant
+−25.147
+[−27.587, −21.078]
+HP/WT
+21.315
+[10.744, 33.838]
+MPG
+0.077
+[0.042, 0.098]
+Car size
+2.508
+[1.877, 3.324]
+AT/CVT
+0.269
+[−0.676, 1.531]
+Observations
+1,322
+Notes: The point estimate of selected linear parameters and 95% confidence interval are reported. The confi-
+dence interval is constructed using 200 bootstrap samples. See Theorem 5.2 of Chen and Pouzo [2015] for the
+details. Minicar dummy, hybrid car dummy, year fixed effects, and firm fixed effects are also included but not
+reported.
+f (yit −pjt) is nonlinear and concave. The marginal utility from the disposable
+income after purchasing an automobile is higher for low-income households.
+Table VII reports the estimation results of linear parameters in Equation (24).
+The point estimates are comparable with the simple logit model, except for the
+HP/WT, for which the coefficient is approximately 1.5 times larger when we
+employ the semiparametric estimation (see column (3) of Table VI). How-
+ever, the CIs of linear parameters in the semiparametric models are broader
+than those in the linear logit model. This result suggests that flexible estima-
+tion of the income effect affects the precision of other parameter estimates,
+demonstrating a trade-off that must be considered when choosing the estima-
+tion method.
+Based on the estimated demand function, we calculate the own-price
+elasticity. Figure 8 plots the estimated own-price elasticity and the effective
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 32] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+217
+Figure 8
+Estimated Own-Price Elasticity
+Notes: [Colour figure can be viewed at wileyonlinelibrary.com]
+price of automobiles for each product. We compare the own-price elasticity
+based on our semiparametric model (blue circle) with that from a simple
+logit model (black line). As discussed in Section V(ii), the simple logit model
+implies a linear relationship between elasticity and price (see Equation (12)
+in Section II(iv)). However, our semiparametric model reveals a nonlinear
+relationship where the estimated elasticity is relatively constant in the range
+of JPY 2 to 10 million. Consequently, the elasticity estimated by simple logit
+suffers from underestimation for inexpensive cars (e.g., minicars) and from
+overestimation for luxury cars.
+In addition to the linear logit model, we estimate the following parametric
+specification with consumer heterogeneity.
+Vijt = 𝛼
+yi
+pe
+jt + 𝛽′Xjt + 𝜃f (j) + 𝜃t + 𝜉jt + 𝜀ijt,
+(26)
+Vi0t = 𝜀i0t,
+(27)
+The price coefficient is inversely proportional to the income level yit,
+and is thus heterogeneous across consumers. Note that this specification
+is the same as Berry et al. [1995] and Berry et al. [1999], and is con-
+sidered a first-order approximation of the parametric income effect of
+f (yit −pjt) = 𝛼log(yit −pjt).36
+36 While we could incorporate random coefficients on product characteristics Xjt in this para-
+metric model, we decided not to do so for several reasons. First, when we attempted to estimate
+the specification with random coefficients on product characteristics by exploiting the differ-
+entiation instruments (Gandhi and Houde [2019]), the estimated parameters for the standard
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 33] =====
+
+218
+SHUHEI KANEKO AND YUTA TOYAMA
+Figure 9
+Relationship between Own-price Elasticity and Demand Curvature
+Notes: [Colour figure can be viewed at wileyonlinelibrary.com]
+The estimated price elasticity in a parametric BLP model (red diamond)
+is also plotted in Figure 8. The overall pattern departs from the simple logit
+model and is close to the one from the semiparametric model. However, given
+the price level, the estimated own-price elasticity is more heterogeneous in the
+semiparametric model than the parametric BLP model.
+To further examine the difference across specifications, we plot the relation-
+ship between the own-price elasticity (i.e., the first derivative) and the demand
+curvature (i.e., the second derivative) in Figure 9. Following Mrázová and
+Peter Neary [2017] and Miravete et al. [2023], we calculate the curvature of
+demand 𝜌j for product j by
+𝜌j =
+qj ⋅
+𝜕2qj
+𝜕p2
+j
+(
+𝜕qj
+𝜕pj
+)2 .
+Figure 9 shows that the curvature estimates in the linear logit model (green
+diamond) are bounded by, and concentrated at, one. On the other hand,
+deviation of random coefficients were imprecise and close to zero. This could have been due to
+the limited number of markets in our application (i.e., T = 8), which made it difficult to estimate
+random coefficient parameters. Secondly, the baseline specification of the semiparametric model
+does not incorporate random coefficients. Our objective is to contrast the baseline model with
+the parametric specification of the income effect term, thereby highlighting the advantages of the
+nonparametric approach.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 34] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+219
+the other two models (i.e., parametric income effect in red square and semi-
+parametric model in blue circle) exhibit the heterogeneity in the curvature
+estimates. In particular, our semiparametric model shows the most signifi-
+cant heterogeneity in the curvature estimates. This is because the curvature
+of our semiparametric model depends on the second-order derivative of
+the income effect function f ′′(y −p), which we flexibly estimate via a sieve
+method.37
+VI. POLICY SIMULATIONS: PASS-THROUGH AND MERGER ANALYSIS
+In this section, we conduct two counterfactual simulations using our esti-
+mated semiparametric model. The first analyzes the ES program-particularly
+the pass-through of the subsidy and its welfare impacts. As discussed in
+Section II(iv), our demand model can flexibly capture the curvature of the
+demand function, which has key implications for the pass-through. Second,
+we conduct a merger simulation between two automobile manufacturers. In
+both simulations, we compare the results from different demand specifica-
+tions, namely (1) semiparametric model, (2) parametric random coefficient
+model, and (3) linear logit model. Below, we introduce a supply model in
+Section VI(i) to estimate the marginal costs of car models and simulate coun-
+terfactual equilibria. We then discuss results from counterfactual simulations
+in Sections VI(ii) and VI(iii).
+VI(i). Supply Model
+We consider a model of Bertrand competition with differentiated products,
+as in BLP and Nevo [2001]. Automobile manufacturers are multiproduct
+oligopolists that compete in prices. The profit for manufacturer f in year t is
+given as follows:
+(28)
+𝜋ft =
+∑
+j∈Jft
+(pjt −mcjt)qjt
+(pe
+t
+) ,
+where mcjt is the marginal cost of car model j in year t. We assume a constant
+marginal cost. The variable pe
+t is a vector of effective prices in market t and
+defined as pe
+t = {pe
+jt}j∈Jt. Note that we distinguish between the price charged
+37 More precisely, the second-order derivative of the demand is given by
+𝜕2sj
+𝜕p2
+j
+= ∫
+{
+sij(1 −sij)(1 −2sij)[f ′(y −pj)]2 + sij(1 −sij)f ′′(yi −pj)
+}
+dG(yi).
+The second-order derivative term f ′′(yi −pj) is equal to zero in a parametric random coefficient
+model.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 35] =====
+
+220
+SHUHEI KANEKO AND YUTA TOYAMA
+by a firm (i.e., pjt) and the effective price (i.e., pe
+jt) that reflects the tax and
+subsidy. It should be remembered that the effective price is given by pe
+jt = (1 +
+𝜌jt)pjt + Tjt −ESjt in Equation (22). Lastly, Jft denotes the set of car models
+produced by manufacturer f in year t.
+The first-order condition (FOC) of the profit maximization problem is as
+follows:
+(29)
+𝜕𝜋ft
+𝜕pjt
+= qjt
+(pe
+t
+) + (1 + 𝜌jt)
+∑
+l∈Jft
+(plt −mclt)𝜕qlt
+𝜕pe
+jt
+= 0, ∀j ∈Jft.
+By stacking the FOCs across all products, we obtain the equilibrium condi-
+tions for year t in the following matrix notation:
+(30)
+̃qt(pe
+t) −Dt(pe
+t)(pt −mct) = 0,
+where ̃qt = (
+q1,t
+1+𝜌1t , … ,
+qJt,t
+1+𝜌Jt,t )′, pt = (p1,t, … , pJt,t)′, and mct = (mc1,t, … ,
+mcJt,t)′. The matrix Dt is a Jt × Jt matrix defined as Dt(pe
+t) = Ωt ⊙S(pe
+t). Here
+the operator ⊙denotes the element-by-element multiplication of matrices.
+Ωt, meanwhile, denotes the ownership structure of car models sold in market
+t. More specifically, the (i, j) element of the matrix Ωt takes a value of 1 if
+product i and j are sold by the same manufacturer, and 0 otherwise. Finally,
+the (i, j) element of matrix S(pe
+t) is defined as −
+𝜕qjt(pe
+t )
+𝜕pe
+it .
+To use this supply model for simulations, we must first estimate the model
+primitives, namely the demand function and marginal costs. The demand
+function is estimated in Section V. We use the equilibrium conditions to esti-
+mate the vector of marginal cost mct. Specifically, given that the matrix S(pe
+t)
+can be calculated from the demand estimates, we can invert Equation (30) to
+back out the marginal costs mct.
+Given the estimated model primitives, we conduct a simulation analysis by
+numerically solving Equation (30) for a vector of equilibrium prices. To do so,
+we use the algorithm proposed by Morrow and Skerlos [2011].38
+VI(ii). Simulation 1: Pass-through Analysis of Feebate Policy
+In this subsection, we conduct a pass-through analysis of eco-car subsidies,
+simulating the market equilibrium when the subsidy for eligible automobile
+models is removed (i.e., ESjt = 0 for all j in Equation (22)). We then calcu-
+late how much of the subsidy can be attributed to consumers and produc-
+ers. Note that our simulation aims to highlight the practical value of our
+38 The algorithm of Morrow and Skerlos [2011] is used in pyBLP package provided by Conlon
+and Gortmaker [2020]
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 36] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+221
+TABLE VIII
+PRICE CHANGE DUE TO ECOCAR SUBSIDY
+Mean
+SD
+p25
+Median
+p75
+A: PTRjt
+Semi-parametric model
+1.194
+0.080
+1.140
+1.174
+1.252
+Parametric income effect
+1.196
+0.046
+1.166
+1.194
+1.229
+Linear logit
+0.991
+0.009
+0.980
+0.993
+0.999
+B: Percentage Change in Effective Price
+Semi-parametric model
+−5.968%
+2.434%
+3.997%
+5.701%
+7.532%
+Parametric income effect
+−5.940%
+2.287%
+4.068%
+5.832%
+7.232%
+Linear logit
+−4.928%
+1,788%
+3.500%
+4.852%
+5.932%
+Notes: PTRjt = (pe′
+jt −pe
+jt)∕ESjt. Percentage change in effective price due to ecocar subsidy is defined as 100 ∗
+(pe′
+jt −pe
+jt)∕pe′
+jt . p25 and p75 represent the 25th and 75th percentiles, respectively.
+demand framework in the pass-through analysis rather than fully evaluating
+the Japanese feebate policy.39
+First, we report the pass-through rate in Table VIII. We define the
+pass-through rate (PTRjt) as the ratio of changes in effective price that
+consumers face to the amount of ES:
+PTRjt =
+pe′
+jt −pe
+jt
+ESjt
+,
+where pe′
+jt indicates the simulated price in the counterfactual case without ES.
+The table shows the results based on three different demand specifications:
+(1) semiparametric model, (2) parametric income effect, and (3) linear logit.
+We find that the average pass-through rate under our semiparametric model
+and parametric random coefficient model are similar (1.194 and 1.196), while
+the rate implied by a linear logit model is 0.991. In addition, the pass-through
+rate under a linear logit model is bounded by 1. This result is consistent with
+Weyl and Fabinger [2013]’s notion that log-concave demand always predicts
+an incomplete pass-through (i.e., the pass-through rate is below 1).
+To examine the difference between our semiparametric model and para-
+metric random coefficient specification, Figure 10 shows the relationship
+between the pass-through rate and the effective price for three different
+demand specifications. While the average pass-through rates across baseline
+39 We abstract away several institutional features in our analysis. First, the actual policy began
+in the middle of the year (i.e., in April), but our data is annual, so we cannot fully account for this
+point. Thus, we assume that the first phase of the ES policy was implemented from April 2009 to
+September 2010, and that the second ran from December 2011 to January 2013 (see Konishi and
+Zhao [2017], who analyzed the policy using quarterly data). Second, in the policy’s first phase,
+consumers could apply for the ES program with a higher amount of subsidy if they scrapped an
+existing vehicle older than 13 years. To analyze the scrap subsidy, we must incorporate consumer
+heterogeneity for the age of the owned vehicle. For an evaluation of the feebate policy with full
+consideration of the scrap subsidy, see Kitano [2022].
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 37] =====
+
+222
+SHUHEI KANEKO AND YUTA TOYAMA
+Figure 10
+Pass-Through Rate of the Eco-Car Subsidy
+Notes: The car models whose effective price is less than JPY 8 million are plotted. [Colour figure
+can be viewed at wileyonlinelibrary.com]
+and parametric models are similar, the baseline specification shows more
+significant heterogeneity in the pass-through rate. Specifically, it predicts a
+higher pass-through rate for cheaper products and a lower rate for more
+expensive products. Such heterogeneity in our semiparametric model is
+consistent with the pattern in the curvature estimates discussed in Figure 9.
+We now quantify the policy impact on social welfare. We calculate the
+changes in producer surplus (PSt), tax revenues (TRt), and consumer surplus
+measured by compensation variation (CV).40 For a simple logit and a para-
+metric random coefficient model, we use Small and Rosen [1981] to calculate
+the consumer surplus.41 For the semiparametric specification, we compute
+the compensating variation following Dagsvik and Karlström [2005].42
+Table IX reports the results under three demand specifications. Regardless of
+the specification, the ES policy improves the total welfare. In particular, the
+increase in consumer surplus exceeds the fiscal expenditure of the subsidy.
+40 The producer surplus is PSt = ∑
+f ∈F
+∑
+j∈Jft(pjt −mcjt)qjt(pe
+t) and the tax revenue is given
+by TRt = ∑
+f ∈F
+∑
+j∈Jft(pjt𝜌jt + Tjt −ESjt)qjt(pe
+t). Note that F denotes the set of automobile
+manufacturers.
+41 For a parametric random coefficient model, we use the log-sum formula of Small and
+Rosen [1981] to each consumer with different income level yit. We then aggregate individual con-
+sumer surplus to calculate the aggregate consumer surplus.
+42 See Online Appendix H for further details on how CV is calculated. We aggregate the indi-
+vidual CV across different consumers in Table IX.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 38] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+223
+TABLE IX
+WELFARE IMPACT OF ECOCAR SUBSIDY
+2009
+2010
+2012
+Average
+(i) Semi-parametric model
+Consumer surplus
+302.2
+406.4
+571.7
+426.8
+Profit
+97.9
+129.5
+174.5
+134.0
+Tax revenue
+−143.4
+−197.4
+−274.4
+−205.1
+Total welfare
+256.7
+338.6
+471.8
+355.7
+(ii) Parametric income effect
+Consumer surplus
+179.6
+250.2
+344.1
+258.0
+Profit
+101.8
+136.6
+187.1
+141.8
+Tax revenue
+−136.7
+−188.3
+−261.2
+−195.4
+Total welfare
+144.7
+198.5
+269.9
+204.4
+(iii) Linear logit
+Consumer surplus
+153.0
+211.5
+293.7
+219.4
+Profit
+138.9
+191.7
+263.7
+198.1
+Tax revenue
+−144.2
+−198.1
+−277.5
+−206.6
+Total welfare
+147.7
+205.1
+279.9
+210.9
+Notes: The unit is JPY 1 Billion. The average of 2009, 2010, and 2012 is reported in the final column.
+TABLE X
+THE DISTRIBUTION OF CV BY YEAR (ECOCAR SUBSIDY)
+Mean
+SD
+p10
+p25
+Median
+p75
+p90
+(i) Semi-parametric model
+2009
+5,715
+11,705
+0
+0
+6
+3,280
+26,511
+2010
+7,616
+15,822
+0
+0
+14
+4,202
+34,570
+2012
+10,554
+20,189
+0
+0
+28
+8,024
+50,137
+(ii) Parametric income effect
+2009
+3,397
+7,302
+0
+8
+229
+2,525
+11,375
+2010
+4,689
+10,390
+0
+13
+301
+3,280
+15,390
+2012
+6,351
+12,442
+1
+27
+605
+5,667
+22,124
+(iii) Linear logit
+2009
+2,893
+NA
+NA
+NA
+NA
+NA
+NA
+2010
+3,963
+NA
+NA
+NA
+NA
+NA
+NA
+2012
+5,423
+NA
+NA
+NA
+NA
+NA
+NA
+Notes: The unit is JPY. p10, p25, p75, and p90 represent the 10th, 25th, 75th, and 90th percentile points respec-
+tively. Under a linear Logit specification, there is no heterogeneity in CV.
+This improvement is likely due to the subsidy mitigating the pre-existing
+distortion caused by market power (Buchanan [1969]); Fowlie et al. [2016]).
+Table X reports the distribution of compensating valuation. The linear logit
+model in Panel (iii) removes consumer heterogeneity, and thus predicts the
+uniform impacts on consumer surplus. However, the other two models incor-
+porate the consumer heterogeneity into the model and thus predict the het-
+erogenous impacts of the policy change. Overall, we find a large standard
+deviation in Panels (i) and (ii), which implies significant heterogeneity in pol-
+icy effects among consumers. The CV implied by the simple logit model in
+Panel (iii) is between the median and the 75th percentile of the distribution
+under our model with a nonparametric income effect.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 39] =====
+
+224
+SHUHEI KANEKO AND YUTA TOYAMA
+Figure 11
+Distribution of CV in 2012
+Notes: The common logarithm scale is applied to the x-axis. To avoid missing observations, we
+add 1 to the estimated CVs. [Colour figure can be viewed at wileyonlinelibrary.com]
+To highlight the difference between Panels (i) and (ii), Figure 11 shows
+the CV distribution in a parametric income effect and semiparametric mod-
+els. The distribution of CV under a parametric income effect specification
+is right-skewed, but bimodal under a semiparametric model. Indeed, the
+semiparametric model implies that the policy has heterogenous implications
+on consumers. This result suggests the importance of flexibly incorporating
+the income effect when analyzing the distributional effects of the policy on
+consumers.
+VI(iii). Simulation 2: Merger Simulation
+We conduct a simulation analysis of a hypothetical merger between Toyota
+and Honda. As in the pass-through analysis in Section VI(ii), we compare
+the price effects of a merger under three demand specifications. To evalu-
+ate a merger’s impact, we solve the counterfactual outcome by solving the
+equilibrium conditions under an alternative ownership structure. Specifi-
+cally, we set the ownership matrix Ωt such that the car models produced
+by Toyota and Honda are owned by the same firm. The hypothetically
+merged firm chooses prices to maximize the joint profit. Note that we use
+the estimated marginal costs and do not consider potential efficiency gains
+from the merger. Here, we focus on the anti-competitive effects, which are of
+primary interest in the antitrust practice and are determined by the demand
+structure.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 40] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+225
+TABLE XI
+DESCRIPTIVE STATISTICS OF MERGER SIMULATION
+Mean
+SD
+p25
+Median
+p75
+A: Observed Effective Price (Unit: JPY 1 million)
+(1) Toyota
+2.76
+2.01
+1.76
+2.18
+2.98
+(2) Honda
+2.51
+1.27
+1.46
+2.33
+2.98
+B: Effective Price Change in % (Semi-parametric)
+(1) Toyota
+2.68%
+0.60%
+2.38%
+2.74%
+3.08%
+(2) Honda
+7.30%
+0.86%
+6.78%
+7.46%
+7.93%
+C: Effective Price Change in % (Parametric income effect)
+(1) Toyota
+1.87%
+0.33%
+1.74%
+1.94%
+2.10%
+(2) Honda
+5.32%
+0.51%
+4.99%
+5.51%
+5.71%
+D: Effective Price Change in % (Linear Logit)
+(1) Toyota
+0.59%
+0.25%
+0.42%
+0.57%
+0.74%
+(2) Honda
+1.37%
+0.62%
+0.91%
+1.23%
+1.82%
+Note: p25 and p75 represent the 25th and 75th percentiles.
+Table XI presents the simulation results. In Panel (D), the price effects of
+a merger are the smallest in a linear logit model. While the product prices
+increase by 2.7% for Toyota and 7.3% for Honda under a semiparametric
+specification, a simple logit demand predicts increases of 0.6% for Toyota and
+1.4% for Honda.
+We now investigate the underlying mechanism that drives the difference
+in the predicted merger effects. As discussed in Farrell and Shapiro [2010],
+the price effects of a merger can be considered to be, in the first order, the
+pass-through of the increase in the opportunity costs. After the merger, the
+merged firm takes into account the opportunity cost of losing the partner’s
+profits. This measure is referred to as the upward pricing pressure (UPP),
+defined in greater detail below. The price effect of a merger is determined
+by the extent to which the increase in opportunity cost is reflected in the
+final price. Therefore, the key to understanding the merger effect is the
+pass-through rate and the UPP implied from each demand specification.
+As seen in the pass-through analysis, the estimated pass-through rate is
+much higher in the semiparametric and parametric random coefficient mod-
+els than in the simple logit model. This is largely due to the difference in the
+estimated curvature of the demand curve.
+To investigate the difference in the UPP and how it relates to the differential
+merger effect, we compute the UPP following Farrell and Shapiro [2010] and
+Miller et al. [2016]. For ease of explanation, let us consider a merger between
+two firms, A and B. Firm A’s products are denoted by {1, … , JA}, while those
+of firm B are denoted by {JA + 1, … , JA + JB}. Then, the UPP for firm A is
+defined as follows:43
+43 For the full derivation of the above equation, see Online Appendix F.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 41] =====
+
+226
+SHUHEI KANEKO AND YUTA TOYAMA
+TABLE XII
+DESCRIPTIVE STATISTICS OF UPP
+Mean
+SD
+p25
+Median
+p75
+Semi-parametric model
+(1) Toyota
+4.96
+1.32
+3.99
+4.77
+5.89
+(2) Honda
+13.05
+5.32
+8.30
+12.71
+16.40
+Parametric income effect
+(1) Toyota
+3.48
+1.14
+2.67
+3.24
+4.16
+(2) Honda
+9.82
+4.44
+6.01
+9.43
+12.55
+Linear logit
+(1) Toyota
+1.21
+0.15
+1.15
+1.18
+1.38
+(2) Honda
+2.61
+0.28
+2.52
+2.72
+2.88
+Notes: p25 and p75 represent the 25th and 75th percentiles. Unit is JPY 10 thousand.
+TABLE XIII
+WELFARE IMPACT OF MERGER
+Semi-parametric model
+Parametric income effect
+Linear logit
+Consumer Surplus
+−240.1
+−108.9
+−33.8
+Profit
+35.9
+21.9
+1.6
+Tax Revenue
+−11.8
+−12.9
+−2.2
+Total Welfare
+−216.0
+−99.9
+−34.4
+Note: The average welfare impact from 2006 to 2013 is reported, as measured in billion JPY.
+(31)
+⎡
+⎢
+⎢
+⎢⎣
+UPP1
+⋮
+UPPJA
+⎤
+⎥
+⎥
+⎥⎦
+= −
+⎡
+⎢
+⎢
+⎢
+⎢⎣
+𝜕q1
+𝜕p1
+· · ·
+𝜕qJA
+𝜕p1
+⋮
+⋱
+⋮
+𝜕q1
+𝜕pJA
+· · ·
+𝜕qJA
+𝜕pJA
+⎤
+⎥
+⎥
+⎥
+⎥⎦
+−1 ⎡
+⎢
+⎢
+⎢
+⎢⎣
+𝜕qJA+1
+𝜕p1
+· · ·
+𝜕qJA+JB
+𝜕p1
+⋮
+⋱
+⋮
+𝜕qJA+1
+𝜕pJA
+· · ·
+𝜕qJA+JB
+𝜕pJA
+⎤
+⎥
+⎥
+⎥
+⎥⎦
+⎡
+⎢
+⎢
+⎢⎣
+pJA+1 −mcJA+1
+⋮
+pJA+JB −mcJA+JB
+⎤
+⎥
+⎥
+⎥⎦
+.
+The first two terms in the right-hand side is a matrix of diversion ratios from
+firm A to firm B. The product of the diversion ratios and the markup of firm
+B captures an opportunity cost created by the merger. We compute the UPP
+evaluated at the price without the merger.
+Table XII reports the descriptive statistics of the UPP across different
+demand specifications. The linear logit model implies the lowest UPP among
+three specifications. Combined with the lower pass-through rate, the linear
+logit model predicts the smallest merger effects. Comparing the semipara-
+metric and parametric BLP models, the UPP under the former is greater
+than that under the latter. While both models are, on average, similar in the
+pass-through rate (as discussed in Section VI(ii)), the difference in the UPP
+leads to the differential merger effects.
+Finally, Table XIII shows the welfare effects of the merger. Our semipara-
+metric model predicts that the merger will result in a larger loss of consumer
+surplus and total welfare, which reflects the larger price effects in the semi-
+parametric specification.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 42] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+227
+TABLE XIV
+PRICE CHANGE DUE TO ECOCAR SUBSIDY (ORIGINAL MODEL VERSUS RENTAL PRICE)
+Mean
+SD
+p25
+Median
+p75
+A: PTRjt
+Semi-parametric model (Original)
+1.194
+0.080
+1.140
+1.174
+1.252
+Semi-parametric model (Rental Price)
+1.194
+0.074
+1.141
+1.181
+1.239
+B: Percentage Change in Effective Price
+Semi-parametric model (Original)
+−5.97%
+2.43%
+−4.00%
+−5.70%
+−7.53%
+Semi-parametric model (Rental Price)
+−5.97%
+2.47%
+−3.97%
+−5.72%
+−7.30%
+Notes: p25 and p75 represent the 25th and 75th percentiles. See Online Appendix G for how to derive PTR in
+the model using rental price.
+VII. DISCUSSION AND ROBUSTNESS IN EMPIRICAL APPLICATION
+This section discusses the robustness of our empirical application. We first
+examine the use of rental (rather than purchase) prices of automobiles in
+our empirical application in Section VII(i). We then discuss the implications
+of omitting the budget constraint in our demand model in Section VII(ii).
+Throughout the robustness analysis, we focus on the simulated pass-through
+rate as the outcome measure, as this is the key statistic in our empirical appli-
+cations on feebate policy and merger simulations.
+VII(i). Rental Price
+Contrary to many discrete choice demand models, our model explicitly
+considers the presence of budget constraints. In our empirical application,
+we use the annual household income and the effective automobile prices
+after considering tax and subsidy. However, given that people tend to finance
+vehicle purchases either with auto loans or savings, our specification of
+budget constraints may not reflect the actual budget constraint faced by
+consumers.
+To mitigate this concern, we construct the rental price of automobiles and
+use it in our estimation and simulation analysis. Some previous papers (e.g.,
+Bento et al. [2009]) have used rental prices (rather than purchase prices) in
+their demand models to address the concern mentioned above. We follow
+Abe [2023] to construct the rental price of automobiles, the details of which
+are presented in Online Appendix G. After constructing the rental price, we
+re-run the estimation and simulation analysis to assess the robustness against
+the choice of price measure.
+Table XIV shows the comparison of the results of the pass-through analysis
+in Section VI(ii). Regardless of whether using the original definition of price
+(i.e., effective price) or the rental price, the estimated pass-through rates are
+quite similar. These results suggest that our demand model is robust to the
+choice of price measure (i.e., the purchase price or the rental price).
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 43] =====
+
+228
+SHUHEI KANEKO AND YUTA TOYAMA
+VII(ii). Role of Budget Constraint
+This subsection addresses the implications of a budget constraint for the
+pass-through analysis. In the empirical application, we approximate the
+income effect term f (y −p) by the inverse of Bernstein polynomial function,
+given by f (y −p) =
+−1
+∑K
+k=1 𝜋kbK
+k (y−p) where limx→0f (x) = −∞. As discussed in
+Section V(iii), this specification yields the continuous demand function,
+which is vital for supply-side analysis. However, one might view this as an
+unnecessary restriction that could affect the implications of empirical analy-
+sis.44 To address this concern, we conduct the pass-through analysis under an
+alternative specification of the demand model where the budget constraint is
+omitted.
+We consider the following demand model without the budget constraint:
+(32)
+sjt = ∫sijt(yit)dGt(yit),
+where
+(33)
+sijt(yit) =
+exp(f (yit −pjt) + 𝛽′Xjt + 𝜉jt
+)
+exp(f (yit)) + ∑Jt
+k=1 exp(f (yit −pkt) + 𝛽′Xkt + 𝜉jt
+).
+In contrast to the baseline specification of Equation (10), the individual
+choice probability does not incorporate the budget constraint 1{yit > pjt},
+implying that the individual choice probability sijt can be non-zero even when
+pjt < yit (i.e., the budget constraint for a consumer with income level yit is vio-
+lated) and thus be continuous at pjt = yit. Regarding the income effect term
+f (y −p), we adopt the approximation by a Bernstein polynomial f (yit −pjt) =
+∑K
+k=0 𝜋kbK
+k (yit −pjt) ≡𝜓K(yit −pjt)′Π. We set K = 4 as in the baseline specifi-
+cation. We also normalize the support of yit −pjt to [0, 1].45
+Both advantages and disadvantages exist for this specification. The advan-
+tage is that the demand model becomes a continuous function of price, as
+it does not incorporate the budget constraint (see Online Appendix E for
+details). Therefore, unlike the baseline specification, the inverse of the Bern-
+stein polynomial is unnecessary to maintain the continuity of the demand
+44 We conduct a Monte Carlo experiment using the inverse of the Bernstein polynomial rather
+than the regular Bernstein polynomial as we did in Section IV. Since the inverse is restricted to
+satisfy limy−p→0f (y −p) = −∞, we could not recover the true functional form with normaliza-
+tion of f (y −p) = 0 (see DGP1-3 introduced in Section IV.) The detailed result is available upon
+request.
+45 Footnote 15 explains the normalization of the support when we consider the presence of
+budget constraints. Without the budget constraint where yit −pjt can take a negative value as an
+argument of the function f (⋅), we construct zmin by zmin = mini,j,t{yit −pjt} and use it to construct
+the standardized variable.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 44] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+229
+TABLE XV
+PRICE CHANGE DUE TO ECOCAR SUBSIDY (ORIGINAL MODEL VERSUS NO BUDGET
+CONSTRAINT)
+Mean
+SD
+p25
+Median
+p75
+A: PTRjt
+Semi-parametric model (Original)
+1.194
+0.080
+1.140
+1.174
+1.252
+Semi-parametric model (No budget consraint)
+1.105
+0.081
+1.041
+1.075
+1.157
+B: Percentage Change in Effective Price
+Semi-parametric model (Original)
+−5.97%
+2.43%
+−4.00%
+−5.70%
+−7.53%
+Semi-parametric model (No budget constraint)
+−5.36%
+1.69%
+−4.05%
+−5.17%
+−6.15%
+Notes: See note in Table VIII.
+function. However, the disadvantage is that the model may not align with
+underlying utility maximization behavior, as consumers might violate the bud-
+get constraint. In the presence of income effects, we must account for the
+budget constraint to properly define consumer welfare. As a result, under
+this specification, conducting a coherent welfare analysis (i.e., calculating con-
+sumer welfare) becomes challenging.
+Table XV presents the simulated pass-through rates under two specifi-
+cations: the baseline model and the model without a budget constraint.
+Although the baseline model predicts, on average, a slightly higher
+pass-through rate, the overall pattern remains quite similar. Notably,
+regardless of the specification chosen, the model consistently predicts
+the over-pass-through of the subsidy.
+We conclude the discussion by highlighting the trade-offs associated with
+the choice of approximation methods. In the baseline specification of empir-
+ical analysis, we choose to impose the budget constraint, thus adopting the
+inverse of the Bernstein polynomial. We do this to conduct a comprehen-
+sive demand and supply analysis, including counterfactual simulations and
+the measurement of consumer welfare. On the other hand, if one’s interest
+lies in recovering the demand function with minimal assumptions, using reg-
+ular Bernstein polynomials without imposing the budget constraint might be
+a preferable approach. However, we should be aware that such a model may
+not align with the underlying principle of utility maximization, and it does
+not allow us to measure consumer welfare. Additionally, omitting the bud-
+get constraint may lead to biased demand estimates (see, e.g., Pesendorfer
+et al. [2023]).
+VIII. CONCLUSION
+This article proposes a new empirical framework for a differentiated product
+demand model with a nonparametric income effect. The proposed model is a
+semiparametric model with endogeneity. We estimate the model by combining
+the NFP algorithm proposed by BLP and a sieve approximation with shape
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 45] =====
+
+230
+SHUHEI KANEKO AND YUTA TOYAMA
+restriction. Our Monte Carlo simulations suggest significant gains in estimat-
+ing the nonparametric term of the income effect by incorporating the shape
+restriction. We also apply our empirical framework to Japanese automobile
+data, demonstrating the importance of a flexible income effect specification.
+In our application of the pass-through analysis and the merger simulation, our
+demand model offers qualitatively and quantitatively different results than the
+parametric models.
+REFERENCES
+Abe, T. 2023. Welfare Effects of Fuel Tax and Feebate Policies in the Japanese New Car
+Market. ISER Discussion Paper 1183.
+Barwick, P. J., Kwon, H.-S. and Li, S., 2024, Attribute-Based Subsidies and Market
+Power: An Application to Electric Vehicles. Technical report (Cambridge, MA:
+National Bureau of Economic Research).
+Bento, A. M., Goulder, L. H., Jacobsen, M. R. and Von Haefen, R. H., 2009, ‘Distri-
+butional and Efficiency Impacts of Increased us Gasoline Taxes,’ American Economic
+Review, 99(3), pp. 667–699.
+Berry, S. T., 1994, ‘Estimating Discrete-Choice Models of Product Differentiation,’ The
+Rand Journal of Economics, 25(2), pp. 242–262.
+Berry, S. T. and Haile, P. A., 2014, ‘Identification in Differentiated Products Markets
+Using Market Level Data,’ Econometrica, 82(5), pp. 1749–1797.
+Berry, S. T. and Haile, P. A., 2021, ‘Foundations of Demand Estimation,’ Handbook of
+Industrial Organization, vol. 4, pp. 1–62 (Amsterdam, The Netherlands: Elsevier).
+Berry, S. T., Levinsohn, J. and Pakes, A., 1995, ‘Automobile Prices in Market Equ ilib-
+rium,’ Econometrica, 63(4), pp. 841–890.
+Berry, S. T., Levinsohn, J. and Pakes, A., 1999, ‘Voluntary Export Restraints on Auto-
+mobiles: Evaluating a Trade Policy,’ American Economic Review, 89, pp. 400–430.
+Bhattacharya, D., 2015, ‘Nonparametric Welfare Analysis for Discrete Choice,’ Econo-
+metrica, 83(2), pp. 617–649.
+Birchall, Cameron, Debashrita Mohapatra, and Frank Verboven 2023. Estimating Sub-
+stitution Patterns and Demand Curvature in Discrete-Choice Models of Product Dif-
+ferentiation. Working Paper.
+Björnerstedt, J. and Verboven, F., 2016, ‘Does Merger Simulation Work? Evidence from
+the Swedish Analgesics Market,’ American Economic Journal: Applied Economics,
+8(3), pp. 125–164.
+Blundell, R., Chen, X. and Kristensen, D., 2007, ‘Semi-Nonparametric Iv Estimation of
+Shape-Invariant Engel Curves,’ Econometrica, 75(6), pp. 1613–1669.
+Blundell, R., Horowitz, J. and Parey, M., 2017, ‘Nonparametric Estimation of a Non-
+separable Demand Function under the Slutsky Inequality Restriction,’ Review of Eco-
+nomics and Statistics, 99(2), pp. 291–304.
+Blundell, R., Horowitz, J. L. and Parey, M., 2012, ‘Measuring the Price Responsive-
+ness of Gasoline Demand: Economic Shape Restrictions and Nonparametric Demand
+Estimation,’ Quantitative Economics, 3(1), pp. 29–51.
+Buchanan, J. M., 1969, ‘External Diseconomies, Corrective Taxes, and Market Struc-
+ture,’ The American Economic Review, 59(1), pp. 174–177.
+Chen, X., 2007, ‘Large Sample Sieve Estimation of Semi-Nonparametric Models,’ Hand-
+book of Econometrics, 6, pp. 5549–5632.
+Chen, X., Christensen, T. and Kankanala, S., 2023, ‘Adaptive Estimation and Uniform
+Confidence Bands for Nonparametric Structural Functions and Elasticities,’ Review
+of Economic Studies forthcoming.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 46] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+231
+Chen, X. and Pouzo, D., 2015, ‘Sieve Wald and Qlr Inferences on Semi/Nonparametric
+Conditional Moment Models,’ Econometrica, 83(3), pp. 1013–1079.
+Chen, X. and Qiu, Y. J. J., 2016, ‘Methods for Nonparametric and Semiparametric
+Regressions with Endogeneity: A Gentle Guide,’ Annual Review of Economics, 8, pp.
+259–290.
+Chetverikov, D., Kim, D. and Wilhelm, D., 2018, ‘Nonparametric Instrumental-Variable
+Estimation,’ The Stata Journal, 18(4), pp. 937–950.
+Chetverikov, D. and Wilhelm, D., 2017, ‘Nonparametric Instrumental Variable Estima-
+tion under Monotonicity,’ Econometrica, 85(4), pp. 1303–1320.
+Compiani, G., 2022, ‘Market Counterfactuals and the Specification of Multi-Product
+Demand: A Nonparametric Approach,’ Quantitative Economics, 13(2), pp. 545–591.
+Conlon, C. and Gortmaker, J., 2020, ‘Best Practices for Differentiated Products Demand
+Estimation with PyBLp,’ The Rand Journal of Economics, 51(4), pp. 1108–1161.
+Crooke, P., Froeb, L., Tschantz, S. and Werden, G. J., 1999, ‘Effects of Assumed Demand
+Form on Simulated Postmerger Equilibria,’ Review of Industrial Organization, 15(3),
+pp. 205–217.
+Dagsvik, J. K. and Karlström, A., 2005, ‘Compensating Variation and Hicksian Choice
+Probabilities in Random Utility Models that Are Nonlinear in Income,’ The Review
+of Economic Studies, 72(1), pp. 57–76.
+Dubin, J. A. and McFadden, D. L., 1984, ‘An Econometric Analysis of Residential Elec-
+tric Appliance Holdings and Consumption,’ Econometrica, 52(2), pp. 345–362.
+Eizenberg, A., 2014, ‘Upstream Innovation and Product Variety in the us Home PC Mar-
+ket,’ Review of Economic Studies, 81(3), pp. 1003–1045.
+Fabra, N. and Reguant, M., 2014, ‘Pass-Through of Emissions Costs in Electricity Mar-
+kets,’ American Economic Review, 104(9), pp. 2872–2899.
+Fan, Y., 2013, ‘Ownership Consolidation and Product Characteristics: A Study of the us
+Daily Newspaper Market,’ American Economic Review, 103(5), pp. 1598–1628.
+Farrell, J. and Shapiro C. 2010. Antitrust Evaluation of Horizontal Mergers: An Eco-
+nomic Alternative to Market Definition. Available at SSRN 1313782.
+Fowlie, M., Reguant, M. and Ryan, S. P., 2016, ‘Market-Based Emissions Regulation
+and Industry Dynamics,’ Journal of Political Economy, 124(1), pp. 249–302.
+Gandhi, A. and Houde, J.-F., 2019, Measuring Substitution Patterns in Differentiated
+Products Industries. Technical report (Cambridge, MA: National Bureau of Economic
+Research).
+Gandhi, A. and Nevo, A., 2021, ‘Empirical Models of Demand and Supply in Differ-
+entiated Products Industries,’ Handbook of Industrial Organization, vol. 4, pp. 63–139
+(Amsterdam, The Netherlands: Elsevier).
+Goldberg, P. and Hellerstein, R., 2013, ‘A Structural Approach to Identifying the Sources
+of Local Currency Price Stability,’ Review of Economic Studies, 80(1), pp. 175–210.
+Gowrisankaran, G., Nevo, A. and Town, R., 2015, ‘Mergers when Prices Are Negoti-
+ated: Evidence from the Hospital Industry,’ American Economic Review, 105(1), pp.
+172–203.
+Griffith, R., Nesheim, L. and O’Connell, M., 2018, ‘Income Effects and the Welfare Con-
+sequences of Tax in Differentiated Product Oligopoly,’ Quantitative Economics, 9(1),
+pp. 305–341.
+Herriges, J. A. and Kling, C. L., 1999, ‘Nonlinear Income Effects in Random Utility
+Models,’ Review of Economics and Statistics, 81(1), pp. 62–72.
+Hollenbeck, B. and Uetake, K., 2021, ‘Taxation and Market Power in the Legal Mari-
+juana Industry,’ The Rand Journal of Economics, 52(3), pp. 559–595.
+Horowitz, J. L., 2014, ‘Ill-Posed Inverse Problems in Economics,’ Annual Review of Eco-
+nomics, 6(1), pp. 21–51.
+Houde, J.-F., 2012, ‘Spatial Differentiation and Vertical Mergers in Retail Markets for
+Gasoline,’ American Economic Review, 102(5), pp. 2147–2182.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 47] =====
+
+232
+SHUHEI KANEKO AND YUTA TOYAMA
+Jaffe, S. and Glen Weyl, E., 2013, ‘The First-Order Approach to Merger Analysis,’ Amer-
+ican Economic Journal: Microeconomics, 5(4), pp. 188–218.
+Kitano, T., 2022, ‘Environmental Policy as a de Facto Industrial Policy: Evidence from
+the Japanese Car Market,’ Review of Industrial Organization, 60(4), pp. 511–548.
+Konishi, Y. and Zhao, M., 2017, ‘Can Green Car Taxes Restore Efficiency? Evidence
+from the Japanese New Car Market,’ Journal of the Association of Environmental and
+Resource Economists, 4(1), pp. 51–87.
+McFadden, D., 1974, ‘Conditional Logit Analysis of Qualitative Choice Behavior,’ in
+Zarembka, P. (ed.), Frontiers in Econometrics (Cambridge, MA: Academic Press).
+McFadden, D., 1981, ‘Econometric Models of Probabilistic Choice,’ in Manski, C. F.,
+McFadden, D., et al. (eds.), Structural Analysis of Discrete Data with Econometric
+Applications, pp. 198–272 (MIT Press Cambridge, MA).
+McFadden, D., 1999, ‘Computing Willingness-to-Pay in Random Utility Models,’ in
+Moore, J. C. (ed.), Trade, Theory, and Econometrics: Essays in Honour of John S. Chip-
+man, vol. 15, p. 253 (London, UK: Psychology Press).
+Miller, N. H., Remer, M., Ryan, C. and Sheu, G., 2016, ‘Pass-Through and the Prediction
+of Merger Price Effects,’ The Journal of Industrial Economics, 64(4), pp. 683–709.
+Miller, N. H. and Weinberg, M. C., 2017, ‘Understanding the Price Effects of the Miller-
+coors Joint Venture,’ Econometrica, 85(6), pp. 1763–1791.
+Miravete, E. J., Seim, K. and Thurk, J., 2023, Elasticity and Curvature of Discrete Choice
+Demand Models (London, UK: Centre for Economic Policy Research).
+Morey, E. R., Sharma, V. R. and Karlstrom, A., 2003, ‘A Simple Method of Incorpo-
+rating Income Effects Into Logit and Nested-Logit Models: Theory and Application,’
+American Journal of Agricultural Economics, 85(1), pp. 248–253.
+Morrow, W. R. and Skerlos, S. J., 2011, ‘Fixed-Point Approaches to Comput-
+ing Bertrand-Nash Equilibrium Prices under Mixed-Logit Demand,’ Operations
+Research, 59(2), pp. 328–345.
+Mrázová, M. and Peter Neary, J., 2017, ‘Not So Demanding: Demand Structure and
+Firm Behavior,’ American Economic Review, 107(12), pp. 3835–3874.
+Nakamura, E. and Zerom, D., 2010, ‘Accounting for Incomplete Pass-Through,’ The
+Review of Economic Studies, 77(3), pp. 1192–1230.
+Nevo, A., 2000a, ‘Mergers with Differentiated Products: The Case of the Ready-to-Eat
+Cereal Industry,’ The Rand Journal of Economics, 31(3), pp. 395–421.
+Nevo, A., 2000b, ‘A practitioner’s Guide to Estimation of Random-Coefficients Logit
+Models of Demand,’ Journal of Economics & Management Strategy, 9(4), pp. 513–548.
+Nevo, A., 2001, ‘Measuring Market Power in the Ready-to-Eat Cereal Industry,’ Econo-
+metrica, 69(2), pp. 307–342.
+Newey, W. K., 2007, ‘Nonparametric continuous/discrete choice models,’ International
+Economic Review, 48(4), pp. 1429–1439.
+Ohashi, H. and Toyama, Y., 2017, ‘The Effects of Domestic Merger on Exports: A Case
+Study of the 1998 Korean Automobile Industry,’ Journal of International Economics,
+107, pp. 147–164.
+Pesendorfer, M., Schiraldi, P. and Silva-Junior, D., 2023, ‘Omitted Budget Constraint
+Bias in Discrete-Choice Demand Models,’ International Journal of Industrial Organi-
+zation, 86, 102889.
+Peters, C., 2006, ‘Evaluating the Performance of Merger Simulation: Evidence from the
+us Airline Industry,’ Journal of Law and Economics, 49(2), pp. 627.
+Petrin, A., 2002, ‘Quantifying the Benefits of New Products: The Case of the Minivan,’
+Journal of Political Economy, 110(4), pp. 705–729.
+Small, K. A. and Rosen, H. S., 1981, ‘Applied Welfare Economics with Discrete Choice
+Models,’ Econometrica, 49(1), pp. 105–130.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== [PAGE 48] =====
+
+DEMAND ESTIMATION WITH FLEXIBLE INCOME EFFECT
+233
+Tebaldi, P., Torgovitsky, A. and Yang, H., 2019, Nonparametric Estimates of Demand
+in The California Health Insurance Exchange. Technical report (Cambridge, MA:
+National Bureau of Economic Research).
+Wang, A., 2022, ‘Sieve BLP: A Semi-Nonparametric Model of Demand for Differenti-
+ated Products,’ Journal of Econometrics, 235(2), pp. 325–351.
+Weyl, E. G. and Fabinger, M., 2013, ‘Pass-Through as an Economic Tool: Principles
+of Incidence under Imperfect Competition,’ Journal of Political Economy, 121(3), pp.
+528–583.
+Xiao, J., Zhou, X. and Wei-Min, H., 2017, ‘Welfare Analysis of the Vehicle Quota System
+in China,’ International Economic Review, 58(2), pp. 617–650.
+SUPPORTING INFORMATION
+Additional supporting information maybe found in the online version of this article at http://
+wileyonlinelibrary.com/journal/joie or via the Journal’s website, http://www.jindec.org.
+Data S1: Online Appendix.
+© 2024 The Author(s). The Journal of Industrial Economics published by The Editorial Board of The Journal of Industrial
+Economics and John Wiley & Sons Ltd.
+ 14676451, 2025, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/joie.12406 by Readcube-Labtiva, Wiley Online Library on [16/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

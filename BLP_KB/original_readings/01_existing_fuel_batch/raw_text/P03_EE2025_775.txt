@@ -1,0 +1,1982 @@
+
+
+===== [PAGE 1] =====
+
+How do fuel economy standards affect product structure and technology 
+changes? Evidence from China’s firm-level data
+Jingwen Xia , Zibin Zhang *
+Center for Research of Private Economy, Department of Economics, Zhejiang University, China
+A R T I C L E  I N F O
+JEL:
+C21
+O33
+Q48 
+Keywords:
+Corporate average fuel consumption
+Fuel economy standards
+Technology changes
+Passenger vehicles
+A B S T R A C T
+China’s national Corporate Average Fuel Consumption (CAFC) level has decreased significantly after imple­
+menting the tightened Phase IV (2016–2020) fuel economy standard. To investigate the causal effects of this 
+tightened standard, we specify a difference-in-differences (DID) model to estimate the effects of this standard on 
+China’s traditional internal combustion engine vehicle (ICEV) manufacturers by employing firm-level data from 
+2013 to 2020. We find that this tightened standard does have a significant causal effect on inducing these 
+manufacturers to reduce their CAFC by incorporating more pure electric vehicles into their product portfolios 
+and reducing average fuel consumption in their traditional ICEVs by adopting currently available fuel-efficiency 
+technologies. However, this tightened standard has not induced these manufacturers to implement innovation 
+activities in fuel efficiency. This paper not only provides new empirical evidence to the growing literature on the 
+impacts of fuel economy standards in developing countries but also sheds light on mechanisms of the impact of 
+fuel economy standards.
+1. Introduction
+Over the last two decades, the production and sales volumes of 
+passenger vehicles in China have grown considerably, along with the 
+increase in Chinese households’ incomes. Production volumes of pas­
+senger vehicles in China rose from 1.26 million units in 2001 to 21.41 
+million units in 2021, while sales volumes increased from 1.27 million to 
+21.48 million units (CATARC and CAAM, 2002 and 2022). However, the 
+rapid growth in China’s passenger vehicle market also draws concerns 
+about fuel consumption and carbon dioxide (CO2) emissions from the 
+large volumes of passenger vehicles on roads (IEA, 2014).
+China has imposed fuel consumption standards for passenger vehi­
+cles to reduce fuel consumption and CO2 emissions since 2005. Phase I 
+(2005–2007) and Phase II (2008–2011) standards specified in the 
+standard GB 19578–2004 are mandatory weight-based stepwise stan­
+dards, requiring each weight category of passenger vehicles to meet the 
+corresponding fuel consumption limit (AQSIQ and SAC, 2004). To give 
+automakers more flexibility to meet fuel consumption standards, Phase 
+III (2012–2015) standard (GB 27999–2011) introduces the Corporate 
+Average Fuel Consumption (CAFC) scheme, setting a national CAFC 
+target of 7 L/100 km by 2015 for passenger vehicles (AQSIQ and SAC, 
+2011). Phase IV (2016–2020) standard (GB 27999–2014) set a more 
+stringent national CAFC target of 5 L/100 km by 2020 (AQSIQ and SAC, 
+2014), while Phase V (2021–2025) standard (GB 27999–2019), the 
+current standard, set an ambitious national CAFC target of 4 L/100 km 
+by 2025 (SMAR and SAC, 2019).
+China’s national CAFC level decreased significantly after imple­
+menting the tightened Phase IV (2016–2020) fuel consumption standard 
+(hereafter, the tightened standard). As shown in Fig. 1, although there is 
+a downward trend under the Phase III (2012–2015) standard, the na­
+tional CAFC only declined 5.12 % from 7.42 L/100 km in 2012 to 7.04 
+L/100 km in 2015. However, under the tightened standard, the national 
+CAFC declined 20.31 % from 7.04 L/100 km in 2015 to 5.61 L/100 km 
+in 2020, even though the average curb weight of passenger vehicles 
+increased by 9.03 % from 1385 kg to 1510 kg during the same period.
+Although a significant downtrend in the national CAFC is coupled 
+with the tightened standard, a formal causal analysis is required to 
+attribute the decrease in the national CAFC to the tightened standard. 
+Moreover, if the tightened standard does induce China’s automakers to 
+reduce their CAFC, it is crucial to investigate how it affects automakers’ 
+product structure and technology changes, which will help us evaluate 
+the benefits and costs of the tightened standard.
+This paper analyzes how the tightened standard affects product 
+structure and technology changes in China’s traditional internal 
+* Corresponding author at: Department of Economics, Zhejiang University, 866 Yuhangtang Rd., Hangzhou 310058, China.
+E-mail addresses: Jwxia@zju.edu.cn (J. Xia), Zbzhang@zju.edu.cn (Z. Zhang). 
+Contents lists available at ScienceDirect
+Energy Economics
+journal homepage: www.elsevier.com/locate/eneeco
+https://doi.org/10.1016/j.eneco.2025.108254
+Received 25 February 2024; Received in revised form 17 January 2025; Accepted 18 January 2025  
+Energy Economics 143 (2025) 108254 
+Available online 1 February 2025 
+0140-9883/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+===== [PAGE 2] =====
+
+combustion engine vehicle (ICEV) manufacturers (hereafter, manufac­
+turers). Employing firm-level data from 2013 to 2020, we specify a 
+difference-in-differences (DID) model to estimate the causal effects of 
+the tightened standard on manufacturers’ compliance behaviors. Given 
+that different manufacturers may experience varying treatment in­
+tensities in compliance with the tightened standard, depending on how 
+close they are to achieving the tightened standard, we identify a 
+continuous treatment variable to measure the stringency of the tight­
+ened standard and empirically investigate whether it has induced 
+manufacturers to relax the standard by incorporating new energy ve­
+hicles (NEVs)1 into their product portfolios. Moreover, we explore how 
+the tightened standard affects the manufacturers’ product structure in 
+NEVs and technology changes.
+We find that the tightened standard does have a significant causal 
+effect in inducing manufacturers to reduce their CAFC. On average, 
+manufacturers reduce their CAFC by 0.818 L/100 km when facing 10 % 
+stricter regulations on fuel consumption rates (FCRs). This reduction is 
+mainly achieved by introducing pure electric vehicles (PEVs) into their 
+product portfolios and reducing average fuel consumption in traditional 
+ICEVs2 by adopting currently available fuel-efficiency technologies. 
+However, the tightened standard does not induce manufacturers to 
+implement innovation activities in fuel efficiency.
+This paper contributes to the existing literature in three aspects. 
+First, it provides new empirical evidence to the growing literature on the 
+impacts of fuel economy standards in developing countries, particularly 
+China. Most of the previous studies on the impacts of fuel economy 
+standards focus on two developed countries like the United States 
+(Dowlatabadi et al., 1996; Kleit, 2004; Austin and Dinan, 2005; Jacob­
+sen, 2013; Davis and Knittel, 2019; Greene et al., 2020; Leard et al., 
+2023) and Japan (Kaneko, 2019; Konishi and Managi, 2020) that have 
+long histories with fuel economy standards. However, fuel economy 
+regulations have only recently been introduced to developing countries 
+such as China and India (Anderson and Sallee, 2016), resulting in rela­
+tively limited studies on their effects in these regions. Recently, several 
+studies have emerged investigating the effects of fuel economy regula­
+tions in China. Oliver et al. (2009) assess the impacts of China’s 
+mandatory Phase I (2005–2007) and Phase II (2008–2011) standards on 
+fuel economy improvements, technological changes, market composi­
+tion shifts, and overall fuel savings. Hao et al. (2016) evaluate the 
+impact of China’s stepwise fuel economy targets on automakers’ light­
+weighting strategies, while Wu et al. (2024) address the effect of China’s 
+stepwise weight-based fuel economy targets on bunching effects in 
+weight distribution. Wu et al. (2021) estimate the trade-offs between 
+fuel consumption and vehicle attributes in China. However, these 
+studies either only address the impacts of China’s mandatory Phase I and 
+Phase II standards or do not use causal analysis to explore the effects of 
+China’s flexible CAFC standards on automakers’ behaviors. To our 
+knowledge, this paper is the first to employ a DID design to investigate 
+the causal effects of the flexible CAFC standards on automakers’ be­
+haviors in China. Since China’s CAFC standards provide automakers 
+with more options to achieve their targets, this paper adds new empir­
+ical evidence on the impacts of China’s CAFC standards and sheds light 
+on the impacts of similar standards in other developing countries.
+Second, this paper adds empirical evidence of how fuel economy 
+regulations induce technology changes in fuel efficiency by employing 
+data from both vehicle attributes and fuel-efficiency patents. Previous 
+studies use either patent counts (Berry et al., 1996; Crabb and Johnson, 
+2010) or vehicle attributes (Knittel, 2011; Klier and Linn, 2012; Klier 
+and Linn, 2016; Kiso, 2019) to measure technology changes primarily 
+induced by the US Corporate Average Fuel Economy (CAFE) standards, 
+but results are not consistent in these studies probably due to different 
+measurements in technology changes on fuel efficiency. Our study ad­
+dresses this issue by distinguishing between technology adoption and 
+technology innovation to document the effects of China’s CAFC stan­
+dards on technology changes. We find that tightening China’s CAFC 
+standards can induce technology adoption rather than technology 
+innovation under the same sample framework and model design. This 
+finding highlights the importance of distinguishing technology adoption 
+and technology innovation when investigating induced technology 
+changes by fuel economy regulations.
+Third, this paper sheds light on empirical evidence of how auto­
+makers in China use several compliance strategies to relax regulatory 
+constraints and reduce their overall compliance costs when facing 
+tightening CAFC standards. Literature has theoretically shown that 
+constrained automakers equate the marginal cost of improving fuel 
+economy among different compliance methods (Anderson and Sallee, 
+2011). Although China’s CAFC standards provide automakers with 
+flexible methods to achieve their CAFC targets for their passenger 
+vehicle fleet, there is still a lack of empirical studies on how China’s 
+automakers reduce their compliance costs through different compliance 
+strategies. Our study fills this gap by providing evidence that auto­
+makers in China incorporated more PEVs into their product portfolios to 
+relax regulatory constraints. Furthermore, the results of our event study 
+also imply that automakers in China have incentives to buy credits from 
+markets to offset their CAFC debts under the dual-credit policy associ­
+ated with China’s CAFC standards,3 which may further reduce their 
+overall compliance costs.
+The rest of the paper is organized as follows. Section 2 briefly reviews 
+fuel economy regulations for passenger vehicles in China. Section 3
+develops the DID model for our empirical analysis. The data are pre­
+sented in section 4. Section 5 reports the baseline results and discusses 
+the validity of the design and robustness. Section 6 further explores the 
+mechanisms of the impact of the tightened standard. Finally, section 7
+concludes.
+2. An overview of fuel economy regulations for passenger 
+vehicles in China
+China has established five phases of fuel consumption standards for 
+Fig. 1. Average fuel consumption and curb weight for new passenger vehicles 
+in China (2012−2022). 
+Notes: Data are obtained from the Ministry of Industry and Information Tech­
+nology of China.
+1 NEVs in China mainly include pure electric vehicles, plug-in hybrid vehi­
+cles, fuel-cell vehicles, and the others.
+2 To simplify our notations, we use the ICEVs to represent the traditional 
+ICEVs hereafter.
+3 The dual-credit policy associated with China’s CAFC standards will be 
+discussed in detail in Section 2.
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+2 
+
+
+===== [PAGE 3] =====
+
+passenger vehicles since 2004. Fig. 2 presents FCR limits and FCR tar­
+gets4 for passenger vehicles under these five phases. These five phases 
+are all weight-based with tightening FCRs, notably from Phase III to 
+Phase IV. The first four phases are stepwise weight-based FCRs. In 
+contrast, linear weight-based FCRs are applied for Phase V to reduce the 
+manipulation behavior in vehicle weight from automakers (Wu et al., 
+2024).
+In 2004, China introduced its first fuel economy regulation for pas­
+senger vehicles specified in the national standard GB 19578–2004 
+(AQSIQ and SAC, 2004). The standard divides passenger vehicles into 16 
+weight classes and establishes two-phase FCR limits for each weight- 
+class passenger vehicle. Phases I and II FCR limits applied to the new- 
+certificated passenger vehicles in July 2005 and January 2008, respec­
+tively. However, current in-production passenger vehicles would be 
+regulated by these two-phase FCR limits one year later than the new- 
+certificated ones. To eliminate outdated ICEV models with high fuel 
+consumption, Phases I and II FCR limits are mandatory, requiring each 
+new ICEV model to meet the corresponding FCR limit based on its curb 
+weight; otherwise, the ICEV model will not be allowed to sell on the 
+market.
+China issued Phase III fuel consumption standard effective from 2012 
+to 2015 in 2011, introducing the CAFC scheme specified in the standard 
+GB 27999–2011 (AQSIQ and SAC, 2011). Phase III standard proposed an 
+average FCR target of 7 L/100 km for newly produced passenger vehi­
+cles by 2015. Similar to the US CAFE standard, China’s CAFC standard 
+employs each automaker instead of each vehicle model as an evaluated 
+unit for fuel consumption, requiring just a vehicle fleet from an auto­
+maker to meet its CAFC target instead of each passenger vehicle model 
+within the automaker to meet the corresponding target for each model. 
+Hence, the CAFC scheme gives automakers more flexibility in achieving 
+FCR targets. According to the CAFC scheme, the targeted CAFC (TCAFC) 
+for each manufacturer is calculated as follows: 
+TCAFC =
+∑n
+i=1 Ti × Vi
+/∑n
+i=1Vi,
+(1) 
+where Ti is the FCR target for the ith vehicle model and Vi is the pro­
+duction volume for the ith vehicle model in a given year.
+The tightened Phase IV fuel consumption standard (2016–2020) 
+specified in the standard GB 27999–2014 was issued in 2014 (AQSIQ 
+and SAC, 2014). There are several revisions to this tightened standard 
+compared to the Phase III standard. First, as shown in Fig. 2, the FCR 
+target for each curb weight has become tightening significantly. For 
+example, the tightened standard proposes to reduce the FCR target by 
+25.86 % from 5.8 L/100 km to 4.3 L/100 km for passenger vehicles with 
+curb weight between 865 kg and 980 kg, by 36.52 % from 11.5 L/100 
+km to 7.3 L/100 km for curb weight greater than 2510 kg. Second, 
+weight classes in the tightened standard are reduced to 14, merging the 
+least three curb weight classes in the Phase III standard into one class. 
+Third, to promote the development of NEVs in China, NEVs are first 
+incorporated into CAFC calculations with several preferential treat­
+ments. Fourth, to further assist the development of the NEVs, a dual- 
+credit policy establishes rules of CAFC-credit and NEV-credit and re­
+quires some positive NEV credits based on the manufacturers’ produc­
+tion of ICEVs since April 2018 (MIIT et al., 2017).
+The tightened standard provides several preferential treatments to 
+automakers with NEV production when calculating the CAFC. First, 
+energy consumption other than gasoline or diesel from the NEVs will not 
+be counted in the total fuel consumption for the automaker with NEV 
+production during 2016–2020. Hence, the PEVs consume zero fuel in 
+this framework. Second, increasing NEV production has a higher effect 
+on reducing CAFC by increasing the value of the denominator in the 
+following calculating formula for CAFC evaluated for each manufac­
+turer: 
+CAFC =
+∑
+n
+i=1
+FCi × Vi
+/ ∑
+n
+i=1
+Vi × Wi,
+(2) 
+where FCi is the fuel consumption for the ith vehicle model, Vi is the 
+production volume for the ith vehicle model in a given year, and Wi is 
+the corresponding weights for the ith vehicle model in a given year. The 
+production of ICEVs is assigned a weight of one, whereas the production 
+of NEVs is typically assigned a weight higher than one based on the types 
+of NEVs and periods, as shown in Table 1. Consequently, introducing 
+some NEVs into the manufacturers’ production structure may signifi­
+cantly reduce their CAFC even if the average fuel consumption from 
+ICEVs has not significantly reduced.
+To further promote development in the NEVs and set management 
+rules for credits in the CAFC and NEVs, the dual-credit policy introduced 
+in 2017 provides more options to manufacturers in meeting the tight­
+ened standard (MIIT et al., 2017). Under the dual-credit policy, when 
+the manufacturers’ actual CAFCs are less (greater) than the targeted 
+CAFCs, they obtain CAFC credits (debts), calculating as the total pro­
+duction volume of passenger vehicles times the differences between the 
+actual CAFCs and the targeted CAFCs. Automakers with NEV production 
+can earn corresponding NEV credits based on the types and production 
+volumes of NEVs. The dual-credit policy gives manufacturers the 
+following two methods to offset their CAFC debts within a year: (1) 
+Fig. 2. Fuel consumption rate limits and targets for passenger vehicles in 
+China. 
+Notes: The solid line in each phase is for regular passenger vehicles, while the 
+dashed line is for special-structure passenger vehicles with third-row or 
+above seats.
+Table 1 
+Production weights for NEVs in calculating CAFC during the Phase IV standard.
+Period
+PEVs, PHVs, and FCVs
+The other NEVs with comprehensive  
+FCRs not greater than 2.8 L/100 km
+2016–2017
+5
+3.5
+2018–2019
+3
+2.5
+2020
+2
+1.5
+4 There are two types of FCR for China’s passenger vehicles: the mandatory 
+FCR limits in the standard GB 19578 and the FCR targets in the standard GB 
+27999. The FCR limits in the standard GB 19578, first introduced in 2004 and 
+then revised in 2014 and 2021, require each new ICEV model to meet the 
+corresponding limit based on its curb weight; otherwise, the ICEV model cannot 
+sell on the market. However, the FCR targets in the standard GB 27999, first 
+introduced in 2011 and then revised in 2014 and 2019, are used as benchmarks 
+in calculating the targeted CAFC for an automaker, which means that not every 
+ICEV model needs to meet its corresponding target.
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+3 
+
+
+===== [PAGE 4] =====
+
+discounted CAFC credits carried forward from prior years either through 
+themselves or affiliated companies, and (2) NEV credits earned in the 
+year either through producing NEVs or buying NEV credits from the 
+market. Furthermore, manufacturers with ICEV production greater than 
+30,000 units must have some NEV credits in proportion to their ICEV 
+production volumes (i.e., 10 % for 2019 and 12 % for 2020) since 2019. 
+Thus, the dual-credit policy helps create a market for NEV credits 
+because large-scale manufacturers without NEV production must buy 
+NEV credits from the market to fulfill the requirement for NEV credits. In 
+addition, manufacturers who fail to offset their CAFC debts could also 
+buy NEV credits from the market to offset their CAFC debts. Therefore, 
+the dual-credit policy allows manufacturers to meet their CAFCs by 
+producing NEVs or buying NEV credits from the market. However, the 
+dual-credit policy has the potential to impede manufacturers’ efforts in 
+reducing their CAFC from ICEVs, considering that manufacturers may 
+rely on NEV credits bought from the market instead of reductions in 
+their CAFC from ICEVs to offset their CAFC debts.
+Several enforcement arrangements may provide incentives for the 
+manufacturers to achieve the tightened standard. Although there is no 
+direct financial penalty, the manufacturers who fail to offset their CAFC 
+debts for a given year could be listed as dishonest companies, forced to 
+suspend announcements for ICEV new models that exceed the FCRs 
+specified in the tightened standard, or forced to suspend production for 
+existing ICEV models with higher FCRs (MIIT et al., 2017), all of which 
+may impose significant costs to manufacturers. Moreover, perceiving 
+that currently implementing FCR targets for different curb weight cat­
+egories may become mandatory FCR limits shortly,5 manufacturers have 
+incentives to try to meet the FCR targets listed in the tightened standard; 
+otherwise, non-compliance ICEV model will be prohibited from selling 
+on the market in the future.
+Although the above enforcement arrangements may induce manu­
+facturers to comply with the tightened standard, unlike the mandatory 
+Phases I and II FCR limits, the tightened standard under the CAFC 
+scheme is essentially a flexible standard that gives manufacturers flex­
+ibility in deciding on whether to and how to achieve their CAFC targets 
+according to their own discretion. Since the CAFC scheme employs each 
+manufacturer instead of each vehicle model as an evaluated unit for fuel 
+consumption, each passenger vehicle model within a manufacturer does 
+not need to meet the corresponding target for each model. Moreover, 
+even if each manufacturer will be evaluated yearly by its CAFC target 
+based on its vehicle fleet, it could still make its own decisions on whether 
+to and how to achieve its CAFC target by evaluating compliance and 
+violation costs. If the manufacturer perceives that the compliance costs 
+are much higher than the violation costs, it has incentives to violate the 
+standard and just bear the violation costs; otherwise, it has incentives to 
+comply with the standard. When the manufacturer decides to achieve its 
+CAFC target, it could also make its own decisions on how to comply with 
+the CAFC target by comparing compliance costs among several methods, 
+such as reducing its own CAFC, incorporating NEVs into its vehicle fleet, 
+and buying CAFC and NEV credits from the market.
+3. Model
+To identify the causal effects of the tightened standard on manu­
+facturers’ compliance behaviors, we specify the following difference-in- 
+differences (DID) model: 
+Yit = δTreat intensityi × Postt + γi + τt + εit,
+(3) 
+where Yit is the outcome of interest for manufacturer i at year t. 
+Treat_intensityi is a continuous variable representing the treatment in­
+tensity of the tightened standard faced by manufacturer i. Postt is a 
+dummy variable that equals one from 2016 onwards when the tightened 
+standard started to be effective. γi is the fixed effects for manufacturers, 
+τt is the fixed effects for years, and εit is the error term.6 Our primary 
+interest parameter δ captures the average changes in outcomes for 
+manufacturers faced with higher treatment intensity from the tightened 
+standard relative to those faced with lower treatment intensity.
+Our identification strategy primarily relies on cross-sectional varia­
+tion in the stringency of the tightened standard. Although the tightened 
+standard affects the entire passenger vehicle industry in China, different 
+manufacturers may experience varying treatment intensities in compli­
+ance with the tightened standard, depending on how close they are to 
+achieving the tightened standard. Following Klier and Linn (2016), we 
+define the treatment intensity as the average logarithm differences of a 
+manufacturer’s pre-treatment CAFC from 2013 to 2015, pre-treatment 
+years before the tightened standard, to this manufacturer’s corre­
+sponding counterfactual targeted CAFC from 2013 to 2015 under the 
+tightened standard. Specifically, the treatment intensity for the manu­
+facturer i (Treat_intensityi) is measured as follows: 
+Treat intensityi =1
+3
+∑
+2015
+t=2013
+[ln(CAFCit)
+−ln(counterfactual targeted CAFCit) ],
+(4) 
+where the manufacturer’s counterfactual targeted CAFC from 2013 to 
+2015 under the tightened standard is proxied by the FCR target in 2020 
+corresponding to this manufacturer’s yearly production weighted 
+average curb weight of passenger vehicles from 2013 to 2015. Hence, if 
+a manufacturer has a higher pre-treatment CAFC (i.e., low fuel econ­
+omy) relative to the counterfactual targeted CAFC under the tightened 
+standard, it has a higher value for the variable Treat_intensity and faces 
+more stringent regulation from the tightened standard.
+To address the concern that our baseline results might be driven by 
+our treatment specification, we specify an alternative discrete treatment 
+indicator to test for the robustness of our baseline results. We use the 
+manufacturers’ compliance status between 2013 and 2015 for the Phase 
+III fuel consumption standard, a standard prior to the tightened stan­
+dard, to define our discrete specification (Treat_dummy), where 
+Treat_dummy for a manufacturer equals one if this manufacturer had 
+not met its CAFC targets based on the Phase III fuel consumption stan­
+dard at least one year before 2016, otherwise zero. If a manufacturer 
+cannot meet the less stringent Phase III standard before implementing 
+the tightened standard, it has a high probability of being affected by the 
+more stringent Phase IV standard.
+We consider three dependent variables for our baseline regression: 
+CAFC, the proportion of NEVs, and CAFC excluding NEVs. Changes in 
+manufacturers’ CAFC reflect the overall effect of the tightened standard. 
+Furthermore, changes in the proportion of NEVs and CAFC excluding 
+NEVs reveal two channels for manufacturers to reduce their CAFC.7 To 
+comply with the tightened standard, manufacturers could reduce their 
+CAFC by incorporating more NEVs into their product portfolios or 
+5 Implementing FCR targets in the standard GB 27999 could become the 
+mandatory FCR limits in the next revised version of the standard GB 19578. For 
+example, the FCR targets in the standard GB 27999–2011 had become the FCR 
+limits in the standard GB 19578–2014.
+6 Unavailable data on firms’ attributes prevents us from further including 
+firm-level control variables in our specifications.
+7 The dual-credit policy introduced in 2017 provides another channel to meet 
+the tightened standard by purchasing CAFC credits or NEV credits from the 
+market. If we had credit purchase data of CAFC and NEVs for each manufac­
+turer, we could use these data as another dependent variable in our baseline 
+regression to investigate the heterogeneous reliance on credit purchases for 
+each manufacturer under different stringencies from the tightened standard, 
+which would help shed light on how much manufacturers rely on credit trading 
+relative to introducing NEVs or improving the fuel efficiency of ICEVs within 
+their fleet. However, the credit purchase data for each manufacturer are not 
+publicly available, preventing us from conducting this further analysis. We 
+thank one anonymous referee help us realize this further possible channel.
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+4 
+
+
+===== [PAGE 5] =====
+
+reducing average FCRs from their ICEVs (i.e., CAFC excluding NEVs). 
+Depending on the relative costs for compliance, manufacturers will 
+primarily choose which channel to comply with the tightened standard.
+Furthermore, to investigate how the tightened standard affects 
+product structure in NEVs and technology changes for manufacturers, 
+we employ detailed dependent variables on the product structure of 
+NEVs, technology adoption, and fuel-efficiency innovation to estimate 
+the treatment effects of the tightened standard.
+To avoid arbitrary bias caused by adding a positive constant to all 
+observations to make the log transformation feasible for zeros (Bell´ego 
+et al., 2022), we do not apply natural logarithm transformations for 
+response variables with zero values. However, we apply natural loga­
+rithm transformations for variables measuring attributes of newly 
+released ICEV models that do not contain zero values.
+4. Data
+We assemble the primary firm-level data set for the years 2013 to 
+2020 from several sources. The CAFC and NEVs production8 are from 
+the multiple years of the annual announcement of the CAFC for China’s 
+passenger vehicles (2013–2015) and annual announcement of the 
+credits of CAFC and NEVs for China’s passenger vehicles (2016–2020) in 
+the website of Ministry of Industry and Information Technology (MIIT) 
+of China.9 We obtain the production volume of different types of NEVs 
+for each manufacturer between 2013 and 201910 from multiple years of 
+the Energy-Saving and New Energy Vehicles Yearbook.11 Detailed at­
+tributes for each ICEV model are from Chinacar’s automotive 
+announcement inquiry system.12 Filed patents on fuel-efficiency tech­
+nologies for each manufacturer are from the patent search and analysis 
+system of the China National Intellectual Property Administration.13
+We clear our data set in several steps. First, we consider only do­
+mestic manufacturers in China by removing observations for importers 
+of passenger vehicles and NEV automakers who exclusively produced 
+NEVs before 2016. Second, to obtain attributes for new passenger 
+vehicle models, we use key terms such as “passenger vehicle” and “car” 
+to identify a catalog of passenger vehicles in the automotive 
+announcement inquiry system. Third, we delete observations that only 
+appear before or after 2016 since we want to capture the impacts of the 
+tightened standard on existing domestic manufacturers. Finally, we have 
+a sample with 664 observations from 90 manufacturers for analysis. 
+Table 2 summarizes the main variables.
+5. Results
+This section presents empirical evidence of the tightened standard on 
+manufacturers’ compliance behaviors. After summarizing the baseline 
+DID results, we test the validity of our DID design and do a robustness 
+check for our main findings.
+5.1. Baseline difference-in-differences results
+Table 3 reports estimates of the baseline results of the tightened 
+standard for the dependent variables of the CAFC, proportion of NEVs, 
+and CAFC excluding NEVs. Column 1 shows results for the CAFC, col­
+umn 2 shows results for the proportion of NEVs, and column 3 shows 
+results for the CAFC excluding NEVs. Column 1 indicates that the 
+tightened standard does have a significant causal effect in inducing 
+manufacturers to reduce their CAFC. Manufacturers reduce their CAFC 
+by 0.818 L/100 km on average when facing 10 % more stringent regu­
+lations under the tightened standard.
+The results in column 1 of Table 3 not only give us the overall effect 
+of the tightened standard but also help us explore the underlying eco­
+nomic decisions for complying with the tightened standard. Given that 
+the tightened standard is flexible, manufacturers will decide whether to 
+comply by evaluating compliance and violation costs. If the compliance 
+costs are much lower than the violation costs, the rational manufacturers 
+have incentives to comply with the standard. However, if the compli­
+ance costs are much higher than the violation costs, the rational man­
+ufacturers have incentives to violate the standard and just bear the 
+violation costs. Therefore, whether manufacturers would reduce their 
+CAFC depends on the relative costs between compliance and violation, 
+which is an empirical issue to be tested. The results in column 1 of 
+Table 3 imply that enforcement arrangements associated with the 
+tightened standard have imposed higher violation costs on manufac­
+turers and provided them incentives to reduce their CAFC.
+Columns 2 and 3 in Table 3 capture two channels driving manufac­
+turers to reduce their CAFC. Specifically, columns 2 and 3 show that, in 
+response to a 10 % increase in regulatory strictness from the tightened 
+standard, manufacturers increase the proportion of NEVs in their total 
+passenger vehicles by 2.849 percentage points and reduce their CAFC 
+excluding NEVs by 0.568 L/100 km. Therefore, the tightened standard 
+not only induces manufacturers to reduce average fuel consumption 
+from their ICEVs but also induces them to incorporate more NEVs into 
+their product portfolios to relax the strictness of the tightened standard. 
+Although the treatment effect on the proportion of NEVs seems small at 
+first glance, incorporating some NEVs into the manufacturers’ product 
+portfolios significantly relaxes the stringency of the tightened standard, 
+given that the treatment effect on the CAFC excluding NEVs is only 
+69.367 % ((−5.677)/(−8.184)*100 %) of the one on the CAFC including 
+NEVs.
+The results in columns 2 and 3 of Table 3 reveal the underlying 
+economic decisions to meet the tightened standard. When manufac­
+turers have incentives to reduce their CAFC, they will consider mini­
+mizing total compliance costs for the two currently available methods. 
+The results in columns 2 and 3 imply that using only ICEVs to meet the 
+tightened standard may lead to higher compliance costs, and incorpo­
+rating NEVs into the manufacturers’ product portfolios can help reduce 
+their total compliance costs.
+5.2. Validity of difference-in-differences design
+The identification for our DID design requires a parallel trends 
+assumption that absent the tightened standard, trends for our interested 
+outcomes would have been the same for the manufacturers who faced 
+more stringent regulations as those who faced less stringent regulations. 
+However, we can only validate this assumption during the period before 
+the tightened standard by employing an event study approach. Specif­
+ically, we estimate the DID model in eq. (3) with both leads and lags by 
+replacing the term Treat_intensityi × Postt with a full set of year 
+dummies interacted with Treat_intensityi. The coefficients of interacted 
+8 NEV production data include relatively small net imported NEVs, which 
+cannot be separated from domestic production.
+9 https://wap.miit.gov.cn/zwgk/zcwj/wjfb/gg/
+10 Since the Energy-Saving and New Energy Vehicles Yearbook does not 
+contain different types of NEV production data for 2020, we only have those 
+data from 2013 to 2019, resulting in one year less observations for the variable 
+of CAFC excluding NEVs. In addition, the production volume for different types 
+of NEVs in the Yearbooks refers to domestic production. Therefore, there may 
+exist a slight difference between the total sum of different types of NEV do­
+mestic production from the Yearbook and the production data of NEVs from the 
+website of MIIT.
+11 http://www.gev.org.cn/product2.html.
+12 http://www.chinacar.com.cn/search.html
+13 https://pss-system.cponline.cnipa.gov.cn/conventionalSearch
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+5 
+
+
+===== [PAGE 6] =====
+
+terms are normalized to zeros in 2015, the year before the tightened 
+standard became effective. Thus, these estimated coefficients of inter­
+acted terms measure changes between the manufacturers who faced 
+more stringent regulations and those who faced less stringent regula­
+tions relative to changes in 2015.
+Fig. 3 presents the estimated coefficients and corresponding 90 % 
+confidence intervals on leads and lags. Fig. 3 shows no significant pre- 
+trend for all three response variables before 2016, which do not differ 
+systematically with treatment intensity, validating our research design. 
+However, the estimated coefficients in the models of CAFC and CAFC 
+excluding NEVs fall sharply immediately after implementing the tight­
+ened standard and remain significantly negative at the 5 % level during 
+the whole post-treatment period, while the estimated coefficients in the 
+model of the proportion of NEVs increase continuously during the post- 
+treatment period. Therefore, divergences in outcomes relative to the 
+treatment intensity after implementation of the tightened standard 
+suggest that the significant treatment effects can be attributed to the 
+tightened standard.
+Fig. 3 also reveals the potential influences of the dual-credit policy on 
+the treatment effects of the tightened standard. Panels A and C show a 
+downtrend for treatment effects in both CAFC and CAFC excluding 
+NEVs, between 2016 and 2018. However, this downtrend was termi­
+nated after implementing the dual-credit policy in April 2018. Similarly, 
+panel B shows an uptrend for treatment effects in the proportion of 
+NEVs, which seems to have been terminated after 2018. Therefore, the 
+results in Fig. 3 present evidence that the dual-credit policy has slightly 
+reduced the treatment effects of the tightened standard since it provides 
+more options for manufacturers to meet the standard.14 As mentioned in 
+section 2, under the scheme of the dual-credit policy, manufacturers can 
+offset their CAFC debts through discounted CAFC credits carried for­
+ward from prior years either from themselves or affiliated companies, as 
+well as NEV credits earned in the year either by producing NEVs or 
+buying NEV credits from the market. Thus, to offset CAFC debts, man­
+ufacturers will compare compliance costs for different options. If the 
+costs of buying credits from the market are relatively lower than the 
+costs of reducing fuel consumption in their ICEVs, these manufacturers 
+will make less effort to reduce fuel consumption in their ICEVs.
+Although Fig. 3 validates our research design by showing no signif­
+icant pre-trend for all our three response variables, recent literature has 
+highlighted that pretesting for pre-trends may have low power and could 
+introduce selection bias when conditioning the analysis on passing the 
+pretest (Roth, 2022). To check for this possibility, following Rambachan 
+and Roth (2023), we conduct sensitivity analyses to test for violations of 
+the parallel trends assumption by allowing for deviations from linearity 
+up to a parameter M under the smoothness restrictions, where we select 
+the values of M from zero (linear pre-trends) to the standard error of the 
+coefficient of interest. The results of sensitivity analyses are presented in 
+the Appendix Fig. A1. As shown in Fig. A1, treatment effects for 2016, 
+Table 2 
+Summary statistics.
+Variables
+Unit
+Obs.
+Mean
+SD
+Min
+Max
+Main interested outcomes
+​
+​
+​
+​
+​
+​
+CAFC
+L/100 km
+664
+6.769
+1.923
+0
+12.350
+Proportion of NEVs in total production
+%
+664
+5.215
+15.352
+0
+100
+CAFC excluding NEVs
+L/100 km
+588
+7.406
+1.356
+0
+12.350
+Treatment variables
+​
+​
+​
+​
+​
+​
+Treat_intensity
+L/100 km
+664
+0.383
+0.095
+0.220
+0.650
+Treat_dummy
+N/A
+664
+0.358
+0.480
+0
+1
+Proportion of different NEVs in total production
+​
+​
+​
+​
+​
+​
+PEVS
+%
+588
+4.015
+12.989
+0
+100
+PHVs
+%
+588
+0.411
+2.239
+0
+28.894
+FCVs
+%
+588
+5.31e-5
+8.99e-4
+0
+0.020
+Attributes of newly released ICEV models
+​
+​
+​
+​
+​
+​
+Curb weight
+kg
+552
+1513.799
+264.767
+870.000
+2473.333
+Engine power
+kW
+552
+111.116
+27.434
+45.000
+225.600
+Engine displacement
+L
+552
+1.710
+0.337
+0.996
+3.956
+Footprint
+m2
+552
+4.222
+0.359
+3.095
+6.457
+Specific power
+kW/L
+552
+65.465
+12.242
+26.432
+98.874
+Lightweight index
+g2*10−5
+m3*W
+552
+2.651
+0.664
+1.588
+6.539
+Fuel-efficiency patents
+​
+​
+​
+​
+​
+​
+ICEVs
+unit
+664
+0.795
+3.323
+0
+56
+PEVs
+unit
+664
+4.072
+11.124
+0
+115
+Hybrids
+unit
+664
+0.620
+2.505
+0
+27
+FCVs
+unit
+664
+0.453
+1.931
+0
+30
+Lightweighting
+unit
+664
+2.514
+6.883
+0
+54
+Table 3 
+Baseline results of treatment effects of the tightened standard.
+Variables
+CAFC
+Proportion of 
+NEVs
+CAFC excluding 
+NEVs
+(1)
+(2)
+(3)
+Treat_intensity × Post
+−8.184***
+28.490*
+−5.677***
+​
+(2.022)
+(15.855)
+(1.212)
+Firm FE
+Yes
+Yes
+Yes
+Year FE
+Yes
+Yes
+Yes
+R-squared
+0.670
+0.463
+0.760
+Observations
+664
+664
+588
+Notes: Treat_intensity is measured as the average logarithm differences between 
+a firm’s pre-treatment CAFC from 2013 to 2015 to this firm’s corresponding 
+counterfactual targeted CAFC from 2013 to 2015 under the tightened standard. 
+Post equals one if after 2015 and zero otherwise. Clustered standard errors at the 
+firm level are reported in parentheses. Asterisks *** and * denote statistical 
+significance at the 1 % and 10 %, respectively.
+14 Aggregated credit trading data show that manufacturers began to purchase 
+CAFC credits and NEV credits to offset their CAFC debts. During the trading 
+years from 2018 to 2021, there are 7.4050 million CAFC credits that were 
+traded to help partially offset 19.7729 million CAFC debts generated in the 
+period 2017 to 2020 (MIIT, 2021 and 2022). In addition, during the same 
+trading years, manufacturers also purchased 9.9500 million NEV credits to help 
+offset CAFC debts generated in the period 2017 to 2020 as well as 1.9208 
+million NEV debts generated in the period 2019 to 2020 (MIIT, 2021 and 2022).
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+6 
+
+
+===== [PAGE 7] =====
+
+the first year in the post-period, are robust to linear pre-trends and non- 
+linear pre-trends for some values of M.
+5.3. Robustness check
+Table 4 presents the results of our robustness check. Results of the 
+discrete treatment specification show that the signs and significant 
+levels for estimated coefficients are consistent with the ones in the 
+baseline results, although the magnitudes of those estimated coefficients 
+cannot be directly compared to the ones in the baseline results. Conse­
+quently, results in Table 4 provide further evidence that the tightened 
+standard does have effects on inducing manufacturers to reduce their 
+CAFC by incorporating more NEVs into their product portfolios and 
+reducing average fuel consumption in their ICEVs.
+6. Mechanisms of the impact
+In this section, we explore mechanisms of the impact of the tightened 
+standard by considering its detailed effects on the product structure of 
+NEVs and technology changes. Meanwhile, the effects of the induced 
+technology changes are investigated by distinguishing between tech­
+nology adoption and technology innovation.
+6.1. The impacts of the tightened standard on the product structure of 
+NEVs
+The preceding baseline results suggest that the tightened standard 
+has induced manufacturers to incorporate more NEVs into their product 
+portfolios to reduce CAFC. However, it is unclear what type of NEVs has 
+been stimulated most by the tightened standard. To explore this point, 
+we re-estimate specification in eq. (3) by employing output proportions 
+Fig. 3. Event study estimates of the effects of the tightened standard. 
+Note: Each graph plots the estimated coefficients and corresponding 90 % 
+confidence intervals on leads and lags. The coefficient for the year 2015 is 
+normalized to zero.
+Table 4 
+Results of the robustness check.
+Variables
+CAFC
+Proportion of NEVs
+CAFC excluding NEVs
+(1)
+(2)
+(3)
+Treat_dummy × Post
+−1.316***
+7.771**
+−0.859***
+​
+(0.426)
+(3.731)
+(0.262)
+Firm FE
+YES
+YES
+YES
+Year FE
+YES
+YES
+YES
+​
+​
+​
+​
+R-squared
+0.658
+0.470
+0.745
+Observations
+664
+664
+588
+Notes: Treat_dummy equals one if a manufacturer had not met its CAFC target 
+based on the Phase III fuel consumption standard for at least one year before 
+2016, otherwise zero. Post equals one if after 2015 and zero otherwise. Clustered 
+standard errors at the firm level are reported in parentheses. Asterisks *** and ** 
+denote statistical significance at the 1 %, and 5 %, respectively.
+Table 5 
+Estimated results of the tightened standard on product structure of NEVs.
+Variables
+Proportion of 
+PEVs
+Proportion of 
+PHVs
+Proportion of 
+FCVs
+(1)
+(2)
+(3)
+Treat_intensity ×
+Post
+22.026
+−2.843
+−1.274e-4
+​
+(13.255)
+(1.877)
+(1.358e-4)
+Firm FE
+Yes
+Yes
+Yes
+Year FE
+Yes
+Yes
+Yes
+R-squared
+0.470
+0.674
+0.298
+Observations
+588
+588
+588
+Notes: Treat_intensity is measured as the average logarithm differences between 
+a firm’s pre-treatment CAFC from 2013 to 2015 to this firm’s corresponding 
+counterfactual targeted CAFC from 2013 to 2015 under the tightened standard. 
+Post equals one if after 2015 and zero otherwise. Clustered standard errors at the 
+firm level are reported in parentheses.
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+7 
+
+
+===== [PAGE 8] =====
+
+of different types of NEVs relative to the total output of passenger ve­
+hicles for each manufacturer in each year as dependent variables.
+Table 5 reports the estimated impacts of the tightened standard on 
+PEVs, plug-in hybrid vehicles (PHVs), and fuel-cell vehicles (FCVs). 
+Although it seems that there is no significant treatment effect for all 
+three dependent variables by the two-tailed test at the 10 % level, the 
+treatment effect for PEVs is significantly positive by the one-tailed test at 
+the 10 % level,15 with a magnitude similar to the one for the proportion 
+of NEVs in the baseline results. Therefore, the results in Table 5 provide 
+some evidence that PEVs have been stimulated most by the tightened 
+standard, but PHVs or FCVs have not been induced very much by the 
+tightened standard.
+Several preferential policies toward PEVs in China may explain why 
+manufacturers primarily relied on PEVs instead of the other NEVs to 
+meet the tightened standard when they intended to introduce NEVs into 
+their product portfolios. To promote market penetration of NEVs, 
+particularly for PEVs, China launched the NEVs subsidy program in 
+2009 (MOF and MOST, 2009), which has greatly encouraged the market 
+for PEVs (Hao et al., 2014). In addition, PEVs are not regulated by the 
+plate or driving restrictions for ICEVs in several of China’s largest cities, 
+such as Beijing, Shanghai, Guangzhou, and Hangzhou, resulting in a 
+growing demand for PEVs (Ma et al., 2017). Consequently, these pref­
+erential policies toward PEVs have also been reflected in the manufac­
+turers’ NEV production structure. As shown in Fig. 4, the production 
+volumes of the PEVs increased by over 62-fold from 11,133 units to 
+709,102 units between 2013 and 2019, accounting for the most signif­
+icant proportion of the manufacturers’ NEV production structure.16
+To investigate how the tightened standard affects different types of 
+PEVs further, we classify PEVs into four categories based on the 
+wheelbase length17 and then re-estimate specification in eq. (3). Results 
+in Table 6 show that only the treatment effect for luxury PEVs is sig­
+nificant at the 10 % level with a relatively large magnitude.18 Market 
+factors may explain why manufacturers primarily relied on luxury PEVs 
+to substitute ICEVs in meeting the tightened standard. First, since the 
+market share of medium and large vehicles in China only grew slightly 
+from 2012 to 2021 (Zhang et al., 2023), it is a rational choice for 
+manufacturers to reduce their efforts in these two market segments if 
+they consider incorporating PEVs into their product portfolios to meet 
+the tightened standard. Second, manufacturers need to introduce more 
+luxurious PEVs to meet rising consumer preferences for larger and 
+heavier PEVs when facing intense competition in China’s PEV market 
+(He and Hao, 2023).
+6.2. The impacts of the tightened standard on technology adoption
+Although replacing ICEVs with PEVs may be one solution to meet the 
+tightened standard, it is not feasible for manufacturers to discontinue 
+production in ICEVs in the short run due to higher switching costs 
+(Greene, 1991). In this sense, reducing FCRs or improving fuel economy 
+in ICEVs remains an indispensable way to help manufacturers achieve 
+the tightened standard.
+Adopting fuel-efficiency technologies can help manufacturers reduce 
+FCRs in their ICEVs and meet consumer preference changes for pas­
+senger vehicles. While downsizing ICEV attributes such as reduction in 
+curb weight or horsepower can help meet fuel economy standards 
+(Bleviss, 1988; Knittel, 2011), it is not a rational choice for 
+Fig. 4. NEV production from China’s traditional ICEV manufacturers. 
+Data sources: Multiple years of the Energy-Saving and New Energy Vehicles 
+Yearbook. 
+Note: The data only include NEV production from China’s traditional ICEV 
+manufacturers in our selected sample but do not equal the total production of 
+NEVs in China.
+Table 6 
+Estimated results of the tightened standard on different levels of PEVs.
+Variables
+Proportion of 
+mini & small 
+PEVs
+Proportion 
+of medium 
+PEVs
+Proportion 
+of large 
+PEVs
+Proportion 
+of luxury 
+PEVs
+(1)
+(2)
+(3)
+(4)
+Treat_intensity 
+× Post
+9.546
+2.871
+−3.037
+12.647*
+​
+(7.101)
+(2.950)
+(5.703)
+(6.968)
+Firm FE
+YES
+YES
+YES
+YES
+Year FE
+YES
+YES
+YES
+YES
+R-squared
+0.446
+0.292
+0.313
+0.347
+Observations
+588
+588
+588
+588
+Notes: PEVs are divided into four classes based on the wheelbase length, with the 
+shortest length for the mini & small PEVs and the longest for the luxury PEVs. 
+Treat_intensity is measured as the average logarithm differences between a 
+firm’s pre-treatment CAFC from 2013 to 2015 to this firm’s corresponding 
+counterfactual targeted CAFC from 2013 to 2015 under the tightened standard. 
+Post equals one if after 2015 and zero otherwise. Clustered standard errors at the 
+firm level are reported in parentheses. The asterisk * denotes statistical signifi­
+cance at the 10 %.
+15 The p-value of the one-tailed test for the estimated treatment effect for PEVs 
+is 0.05005.
+16 Please note that the data in Figure 4 only include NEV production from the 
+manufacturers in our selected sample but do not equal the total production of 
+NEVs in China.
+17 According to the German automotive classifications, passenger vehicles can 
+be classified into six classes (i.e., A00, A0, A, B, C, and D classes) based on the 
+wheelbase length. Similar to the German automotive classifications for the 
+ICEVs, we use mini & small PEVs to represent A00, A0, and A-class PEVs with 
+wheelbase length less than or equal to 2.45 m, medium PEVs to represent B- 
+class PEVs with wheelbase length greater than 2.45 m and less than or equal to 
+2.60 m, large PEVs to represent C-class PEVs with wheelbase length greater 
+than 2.60 m and less than or equal to 2.80 m, and luxury PEVs to represent D- 
+class PEVs with wheelbase length greater than 2.80 m.
+18 The treatment effect for mini & small PEVs is not statistically significant at 
+the 10 % level but with a relatively large magnitude. This relatively large 
+magnitude of the treatment effect for mini & small PEVs could be explained by 
+China’s subsidy scheme and NEV credits for the PEVs, since mini & small PEVs 
+may bring relatively more economic incentives to manufacturers due to the 
+lower costs for smaller installed batteries (Du and Ouyang, 2017).
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+8 
+
+
+===== [PAGE 9] =====
+
+manufacturers to downsize vehicle attributes, given that rising market 
+preference for new models with continuous growth in vehicle mass, 
+horsepower, engine displacement, and footprint in China’s passenger 
+vehicle market (Zhang et al., 2023). However, adopting fuel-efficiency 
+technologies, including advanced engines, transmissions, vehicle tech­
+nology, and thermal management (Yang et al., 2018), not only helps 
+improve the fuel economy in ICEVs but also helps meet a rising trend for 
+vehicles with these fuel-efficiency technologies. Taylor (2008) reviews 
+current critical scientific advances and future advances in technologies 
+to reduce the energy requirements for internal combustion engines. 
+Studies have shown that compared with baseline technologies without 
+any other advanced ones, vehicle fuel consumption in China could be 
+reduced by 31 % by adopting the most efficient commercialized tech­
+nologies, be further reduced by 20 % by additionally applying the new 
+emerging technologies, and be reduced cumulatively to 73 % by further 
+application of underdevelopment technologies (Yang et al., 2018). 
+However, adopting advanced technologies to meet the tightened stan­
+dard will inevitably lead to incremental costs for manufacturers (Yang 
+et al., 2015).
+To address whether the tightened standard could induce manufac­
+turers to adopt fuel-efficiency technologies, we use attributes of newly 
+released ICEV models to re-estimate specification in eq. (3) by 
+employing these attributes as dependent variables. Since each manu­
+facturer may release several new ICEV models each year, we average 
+each attribute for different new models from a manufacturer in a given 
+year to represent the corresponding attribute of new models for this 
+manufacturer in the year.19
+We not only consider attributes of curb weight, engine power, engine 
+displacement, and footprint but also consider two measurements rela­
+tive to these attributes to represent adopting rates of advanced fuel- 
+efficiency technologies. First, we use specific power or engine power 
+per liter (i.e., engine power relative to engine displacement), a 
+commonly used measurement in the automotive industry, as an indi­
+cator to measure an engine’s efficiency and performance, with a higher 
+power per liter ratio generally representing a more powerful and effi­
+cient engine (Heywood, 2019). Second, given a lightweight trend in the 
+automotive industry, we use a lightweight index to measure the manu­
+facturers’ lightweight level. In contrast to simply reducing vehicles’ 
+weight but sacrificing technical performance and safety, lightweighting 
+aims to create structures with the minimum weight while ensuring 
+fundamental requirements of technical performance and safety 
+(Czerwinski, 2021).
+Following CSAE (2019), we measure the lightweight index Lv for an 
+ICEV as follows: 
+Lv = M
+V × M
+P × Q
+A,
+(5) 
+where M is the vehicle’s curb weight, V is the vehicle’s nominal volume, 
+P is the maximum engine power installed in the vehicle, Q is the vehi­
+cle’s FCR per 100 km, and A is the vehicle’s footprint area. A smaller 
+value of the lightweight index in a vehicle model represents a higher 
+level of lightweighting, while a larger value of this index denotes a lower 
+level of lightweighting.
+Table 7 reports the estimated impacts of the tightened standard on 
+the manufacturers’ technology adoption. Results indicate that estimated 
+coefficients for Treat_intensity × Post are not significantly different from 
+zero at the 10 % level for logarithms of vehicle attributes in curb weight, 
+engine power, engine displacement, and footprint. However, estimated 
+coefficients for this interaction term are both significant at the 1 % level 
+for logarithms of specific power and lightweight index. These results 
+imply that when facing the tightened standard, manufacturers adopt 
+fuel-efficiency technologies such as efficient engines and lightweighting 
+instead of downsizing vehicle attributes to reduce their CAFC from 
+ICEVs.
+To investigate which type of ICEVs has been stimulated most to 
+adopt fuel-efficiency technologies, we also estimate the treatment ef­
+fects of the tightened standard on specific power and lightweight index 
+for different levels of ICEVs by dividing ICEVs into four categories: mini 
+& small, medium, large, and luxury based on the wheelbase length.20
+Results in Table 8 show that manufacturers adopt fuel-efficiency tech­
+nologies more in their medium and large ICEVs under regulations by the 
+tightened standard.
+Consumer preference for passenger vehicles could explain why 
+manufacturers have incentives to adopt fuel-efficiency technologies, 
+particularly in their medium and large ICEVs, instead of downsizing 
+vehicle attributes to meet the tightened standard. Recently, along with 
+increasing income for Chinese consumers, there has been a trend toward 
+larger, heavier, and more functionally powerful vehicles (Zhang et al., 
+2023). As a result, it is a rational choice for manufacturers not to 
+downsize vehicle attributes to meet the tightened standard. However, it 
+could help manufacturers not only reduce their CAFC from ICEVs but 
+also increase their profits by raising the penetration rates of fuel- 
+efficiency technologies in their medium and large ICEVs,21 as con­
+sumers are willing to pay a premium for vehicles adopting fuel- 
+efficiency technologies when these technologies are cost-effective.
+Improving specific power is related to technologies for efficient en­
+gines. Several commercialized prevalent technologies for efficient en­
+gines have already been adopted in China’s ICEVs. These technologies 
+include gasoline direct injection (GDI), turbocharging, variable valve 
+timing (VVT), variable valve lift (VVL), cooled exhaust gas recirculation 
+(EGR) for naturally aspirated engines, Atkinson cycle, reinforced starter, 
+and friction reduction (Yang et al., 2018). Knittel (2011) briefly in­
+troduces technological progress in engine technology.
+Lightweighting strategies include combining lightweight design with 
+numerically optimized structures and advanced lightweight materials 
+(Kaluza et al., 2018). In addition to design, the prevalent lightweighting 
+strategy is the application of new materials (Czerwinski, 2021). As 
+materials that have the potential to substitute for conventional engi­
+neering materials (e.g., steel and cast iron), lightweight materials for 
+automobiles include alloys (e.g., aluminum, magnesium, and titanium 
+alloys), high strength steel (HSS) family (e.g., conventional HSSs and 
+advanced HSSs), composites (e.g., carbon fiber reinforced plastics), and 
+advanced materials (e.g., mechanical meta-materials) (Zhang and Xu, 
+2022).
+Although these fuel-efficiency technologies have a higher potential 
+to reduce fuel consumption and CO2 emissions, adopting these tech­
+nologies will inevitably increase production costs for manufacturers, 
+which will finally be reflected in the increased vehicle prices. Based on a 
+detailed analysis of the efficiency technologies employed to increase fuel 
+economy by more than 60 % from 2016 through 2030 for US light-duty 
+vehicles, Lutsey et al. (2017) estimate that vehicle prices would increase 
+by about 5 % by 2030. Nevertheless, adopting these efficiency tech­
+nologies directly translates into substantial consumer fuel savings that 
+are two to three times the technology costs, resulting in cost-effective 
+19 Averaging each attribute by sales or production weights is more accurate in 
+representing the corresponding attribute of new models from this manufacturer. 
+However, we cannot do a weighted average by sales or production since we do 
+not have the data on sales or production for each newly released model.
+20 Based on the German automotive classifications, we use mini & small ICEVs 
+to denote A00, A0, and A-class ICEVs with wheelbase length less than or equal 
+to 2.45 m, medium ICEVs to denote B-class ICEVs with wheelbase length 
+greater than 2.45 m and less than or equal to 2.60 m, large ICEVs to denote C- 
+class ICEVs with wheelbase length greater than 2.60 m and less than or equal to 
+2.80 m, and luxury ICEVs to denote D-class ICEVs with wheelbase length 
+greater than 2.80 m.
+21 Considering the already high penetration rates in this category, there may 
+be limited potential to increase penetration rates of fuel-efficiency technologies 
+for luxury ICEVs.
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+9 
+
+
+===== [PAGE 10] =====
+
+fuel savings and emission-reduction benefits.
+However, given that FCRs were weight-based stepwise rates in the 
+tightened standard, manufacturers may manipulate the weights of their 
+ICEVs to take advantage of the relatively looser rates for heavier vehicles 
+(Wu et al., 2024), which may impede the implementation of lightweight 
+technology (Hao et al., 2016). To investigate whether the tightened 
+standard has induced manufacturers to manipulate the weights of their 
+ICEVs, we reconstruct our sample and test bunching effects around the 
+lower weight limits within each weight class. Specifically, we divide 
+each weight class in the middle22 specified in the tightened standard into 
+ten bins equally in width and then add up the number of newly released 
+ICEV models from all weight classes at the manufacturer, bin, and year 
+level. We use the proportions of newly released ICEV models in these ten 
+bins as our new dependent variables and re-estimate specification in eq. 
+(3). As shown in the appendix Table A1, the tightened standard seems to 
+have caused newly released ICEV models to bunch around the lower 
+weight limit (Bin 1), implying that weight-based stepwise setting on the 
+tightened standard may also slow down the trend of lightweighting.
+6.3. The impacts of the tightened standard on fuel-efficiency innovation
+To explore whether the tightened standard can induce manufacturers 
+to implement innovation in fuel-efficiency technologies, we use yearly 
+patent application data in fuel-efficiency technologies for each manu­
+facturer as dependent variables in eq. (3). Following Aghion et al. 
+(2016), we classify the patents in fuel-efficiency technologies into 
+ICEVs, PEVs, hybrids,23 and FEVs based on the patents’ International 
+Patent Classification (IPC).24 In addition, we add patents of lightweight 
+technologies using keywords relative to lightweighting or weight 
+Table 7 
+Estimated results of the tightened standard on technology adoption.
+Variables
+ln(curb weight)
+ln(engine power)
+ln(engine displacement)
+ln(footprint)
+ln(specific power)
+ln(lightweight 
+index)
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Treat_intensity × Post
+−0.154
+0.153
+−0.204
+0.050
+0.351***
+−0.797***
+​
+(0.128)
+(0.196)
+(0.190)
+(0.059)
+(0.117)
+(0.182)
+Firm FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Year FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+R-squared
+0.731
+0.684
+0.623
+0.712
+0.734
+0.773
+Observations
+548
+548
+548
+548
+548
+548
+Notes: Treat_intensity is measured as the average logarithm differences between a firm’s pre-treatment CAFC from 2013 to 2015 to this firm’s corresponding coun­
+terfactual targeted CAFC from 2013 to 2015 under the tightened standard. Post equals one if after 2015 and zero otherwise. Clustered standard errors at the firm level 
+are reported in parentheses. The asterisk *** denotes statistical significance at the 1 %.
+Table 8 
+Estimated results of the tightened standard on technology adoption for different levels of ICEVs.
+Variables
+ln(specific power)
+ln(lightweight index)
+Mini & small
+Medium
+Large
+Luxury
+Mini & small
+Medium
+Large
+Luxury
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+Treat_intensity × Post
+−0.926
+1.512***
+0.410**
+0.108
+−0.710
+−1.221***
+−0.628***
+−0.093
+​
+(1.107)
+(0.490)
+(0.156)
+(0.254)
+(2.293)
+(0.157)
+(0.216)
+(0.348)
+Firm FE
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+Year FE
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+R-squared
+0.870
+0.727
+0.706
+0.689
+0.692
+0.784
+0.757
+0.759
+Observations
+34
+181
+461
+298
+34
+181
+461
+298
+Notes: ICEVs are divided into four classes based on the wheelbase length, with the shortest length for the mini and small ICEVs and the longest for the luxury ICEVs. 
+Treat_intensity is measured as the average logarithm differences between a firm’s pre-treatment CAFC from 2013 to 2015 to this firm’s corresponding counterfactual 
+targeted CAFC from 2013 to 2015 under the tightened standard. Post equals one if after 2015 and zero otherwise. Clustered standard errors at the firm level are 
+reported in parentheses. Asterisks *** and ** denote statistical significance at the 1 % and 5 %, respectively.
+Table 9 
+Estimated results of the tightened standard on fuel-efficiency innovation.
+Variables
+Patents 
+for 
+ICEVs
+Patents 
+for PEVs
+Patents 
+for 
+hybrids
+Patents 
+for 
+FCVs
+Patents for 
+lightweighting
+(1)
+(2)
+(3)
+(4)
+(5)
+Treat_intensity 
+× Post
+−1.443
+−16.253
+−3.559
+−0.713
+−6.397**
+​
+(1.856)
+(10.601)
+(2.189)
+(1.491)
+(2.949)
+Firm FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Year FE
+Yes
+Yes
+Yes
+Yes
+Yes
+R-squared
+0.513
+0.701
+0.488
+0.404
+0.712
+Observations
+664
+664
+664
+664
+664
+Notes: Treat_intensity is measured as the average logarithm differences between 
+a firm’s pre-treatment CAFC from 2013 to 2015 to this firm’s corresponding 
+counterfactual targeted CAFC from 2013 to 2015 under the tightened standard. 
+Post equals one if after 2015 and zero otherwise. Clustered standard errors at the 
+firm level are reported in parentheses. The asterisk ** denotes statistical sig­
+nificance at the 5 %.
+22 Although the tightened standard has 14 weight classes, we only use 12 
+weight classes in the middle to construct our sample because the lowest weight 
+class has no lower bound and the highest weight class has no upper bound, 
+preventing us from dividing these two weight classes into ten bins equally in 
+width.
+23 Hybrids include plug-in and regular hybrid vehicles, so patents for hybrids 
+also include patents for these two types of vehicles.
+24 Aghion et al. (2016) classify patents for PEVs, hybrids, and FCVs as clean 
+patents in terms of using more renewable energy in the most plausible long-run 
+scenarios. Given that these NEVs will also reduce net fuel consumption, we 
+classify patents for those NEVs as the fuel-efficiency patents.
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+10 
+
+
+===== [PAGE 11] =====
+
+reduction in the patent application documents to identify IPC codes of 
+lightweight technologies. Details of IPC classes for different fuel- 
+efficiency technologies are listed in the appendix Table A2.
+Table 9 presents the estimated effects of the tightened standard on 
+patent applications for different fuel-efficiency technologies. Results 
+show no significant estimated coefficient for Treat_intensity × Post at 
+the conventional significant level for almost all fuel-efficiency patents, 
+except for a significantly negative coefficient for the treatment effect in 
+the lightweight patents at the 5 % level. Thus, we do not find strong 
+supporting evidence of induced innovation from the tightened standard 
+based on patent application data.
+There are two possible explanations why the impacts of the tightened 
+standard on technology innovation have not been reflected in fuel- 
+efficiency patent counts. First, even if patents may represent innova­
+tion activities to some degree, the treatment effects on patent counts 
+may not be captured within several years after the tightened standard 
+due to the time lag between innovation activities and patents.25 Second, 
+as noted by Kiso (2019), although patents are an essential part of 
+innovation, it is better to use product characteristics (e.g., vehicle at­
+tributes) instead of patent counts to measure induced technological 
+changes since fuel-efficiency patents themselves cannot reduce fuel 
+consumption and those patents must be commercialized and adopted in 
+marketed products.
+However, at first glance, it seems difficult to understand the negative 
+estimated coefficients of the interaction term with relatively large 
+magnitudes in absolute values for patents in PEVs, hybrids, and light­
+weighting. Section 2 mentions that PEVs are promoted by China with 
+several preferential policies. Meanwhile, studies indicate that hybrid 
+technology has the potential to play an essential role in the transition 
+from ICEVs to NEVs (Zhao et al., 2016), and lightweighting is critical to 
+further reducing fuel consumption from passenger vehicles (Czerwinski, 
+2021). All of these factors help provide incentives to the manufacturers 
+with higher innovating abilities to invest in fuel-efficiency technologies 
+for PEVs, hybrids, and lightweighting, which will increase their long-run 
+competitiveness. Furthermore, there is a high possibility that the man­
+ufacturers facing more (less) stringent regulations under the tightened 
+standard have lower (higher) innovating abilities.26 Facing more strin­
+gent regulations under the tightened standard, these manufacturers 
+need to allocate more resources to meet the tightened standard typically 
+by adopting current commercially available fuel-efficiency technologies 
+in the short run. Accordingly, negative signs of treatment effects are 
+observed for all fuel-efficiency patents, particularly for PEVs, hybrids, 
+and lightweighting.
+7. Conclusions
+This paper uses firm-level data from 2013 to 2020 to explore how 
+China’s ICEV manufacturers would respond to the more stringent Phase 
+IV (2016–2020) fuel consumption standard. Relying on the variation in 
+the stringency of the tightened standard across manufacturers, we 
+investigate the causal effects of the tightened standard on manufac­
+turers’ compliance behaviors using a difference-in-differences design. 
+Our estimated DID results show that the tightened standard significantly 
+induced manufacturers to reduce their CAFC. Manufacturers reduced 
+their CAFC on average by 0.818 L/100 km when facing 10 % stricter 
+regulations under the tightened standard. These CAFC reductions were 
+achieved by introducing NEVs into manufacturers’ product portfolios 
+and reducing average FCRs in ICEVs. Further analysis indicates that the 
+tightened standard stimulated manufacturers to incorporate more PEVs 
+instead of the other NEVs into their product portfolios and induced them 
+to adopt more fuel-efficiency technologies to reduce average FCRs for 
+their ICEVs. However, we do not find evidence that the tightened 
+standard induced manufacturers to participate in fuel-efficiency 
+innovation.
+Our findings have at least two policy implications. First, total social 
+costs need to be evaluated for China’s CAFC regulations in favor of PEVs. 
+Our results indicate that China’s CAFC regulations induced manufac­
+turers to use more PEVs to relax the strictness of the tightened standard. 
+However, relatively lower electricity costs for PEVs could lead to a 
+rebound effect on energy consumption. Moreover, given the high fossil 
+energy consumption and greenhouse gas (GHG) emissions from the 
+battery, vehicle life cycle GHG emissions and fossil energy consumption 
+from PEVs may be higher than those from ICEVs (Yan and Sun, 2021). 
+Considering that coal is still an overwhelming power source in China, 
+the benefit of mitigating CO2 emissions from PEVs cannot be guaranteed 
+either (Wu et al., 2012). Second, policymakers should evaluate the ef­
+fects of China’s fuel economy regulations on the induced technical 
+change in fuel efficiency. Our results show that the tightened standard in 
+China induced manufacturers to adopt current commercially available 
+fuel-efficiency technologies to reduce their CAFC, but did not induce 
+them to implement innovation activities in fuel efficiency that are crit­
+ical to fulfill even stricter future fuel economy standards. Therefore, 
+policymakers should consider designing optimal fuel economy standards 
+that will help promote long-run innovations in fuel efficiency.
+Funding
+Zibin Zhang wishes to acknowledge financial support provided by 
+the National Natural Science Foundation of China (grant number: 
+72273129) and the Hengyi Foundation of Zhejiang University.
+CRediT authorship contribution statement
+Jingwen Xia: Writing – original draft, Methodology, Formal anal­
+ysis, Data curation, Conceptualization. Zibin Zhang: Writing – review & 
+editing, Validation, Supervision, Methodology, Funding acquisition, 
+Conceptualization.
+Declaration of competing interest
+No potential conflict of interest was reported by the author(s).
+25 We thank one anonymous referee for helping us realize this point. In this study, we measure innovation activities using filed patents instead of granted patents. 
+The time lag between innovation activities and filed patents is much less than the one between innovation activities and granted patents, which will help address this 
+concern.
+26 This could be evidenced by much lower average patent applications for fuel efficiency on ICEVs to the manufacturers under more stringent regulations before the 
+tightened standard. Our sample data show that the manufacturers under more stringent regulations (i.e., with Treat_intensity that is greater or equal to the median 
+value of this variable), on average, only have 0.341 patent applications related to fuel efficiency on ICEVs between 2013 and 2015. However, this number increases to 
+1.049 for the manufacturers under less stringent regulations (i.e., with Treat_intensity that is less than the median value of this variable) during the same period.
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+11 
+
+
+===== [PAGE 12] =====
+
+Appendix
+Panel A. CAFC
+Panel B. Proportion of NEVs
+Panel C. CAFC excluding NEVs
+Fig. A1. Sensitivity analyses for treatment effects in 2016 to non-linear pre-trends. 
+Notes: Following Rambachan and Roth (2023), we construct 90 % confidence intervals that allow for deviations from linearity up to a parameter M under the 
+smoothness restrictions by choosing M from zero (linear pre-trends) to one standard error of the coefficient of interest.
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+12 
+
+
+===== [PAGE 13] =====
+
+Table A1 
+Estimated results of the tightened standard on the ten bins of newly released ICEV models.
+Bin 1
+Bin 2
+Bin 3
+Bin 4
+Bin 5
+Bin 6
+Bin 7
+Bin 8
+Bin 9
+Bin 10
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+Treat_intensity × Post
+38.162**
+16.613
+−31.170**
+−1.715
+−6.514
+−1.504
+−15.479
+9.266
+2.504
+14.531
+​
+(17.561)
+(11.345)
+(14.148)
+(12.312)
+(9.779)
+(11.252)
+(9.970)
+(8.253)
+(14.337)
+(9.614)
+Firm FE
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+Year FE
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+R-squared
+0.391
+0.232
+0.249
+0.255
+0.267
+0.275
+0.256
+0.204
+0.240
+0.336
+Observations
+664
+664
+664
+664
+664
+664
+664
+664
+664
+664
+Notes: Bin 1 to Bin 10 refer to the proportions of newly released ICEV models for ten bins by dividing each middle-weight class specified in the tightened standard 
+equally in width. Treat_intensity is the continuous treatment intensity measured as the average logarithm differences of a firm’s pre-treatment CAFC from 2013 to 2015 
+to this firm’s corresponding counterfactual targeted CAFC from 2013 to 2015 under the tightened standard. Post equals one if after 2015 and zero otherwise. Clustered 
+standard errors at the firm level are reported in parentheses. The asterisk ** denotes statistical significance at the 5 %.
+Table A2 
+IPC classes for different types of fuel-efficiency technologies.
+Description
+IPC Code
+ICEVs:
+​
+Fuel injection apparatus
+F02M39–71
+Idling devices for carburetors preventing flow of idling fuel
+F02M3/02–05
+Apparatus for adding secondary air to fuel-air mixture
+F02M23
+Engine-pertinent apparatus for adding nonfuel substances or small quantities of secondary fuel to 
+combustion-air, main fuel, or fuel-air mixture
+F02M25
+Electrical control of the supply of combustible mixture or its constituents
+F02D41
+Methods of operating engines involving adding non-fuel substances or antiknock agents to combustion 
+air, fuel, or fuel-air mixtures of engines, the substances including nonairborne oxygen
+F02B47/06
+PEVs:
+​
+Electric propulsion with power supplied within the vehicle
+B60L 11
+Electric devices on electrically propelled vehicles for safety purposes; monitoring operating variables, 
+e.g., speed, deceleration, power consumption
+B60L 3
+Methods, circuits, or devices for controlling the traction-motor speed of electrically propelled vehicles
+B60L 15
+Arrangement or mounting of electrical propulsion units
+B60K 1
+Conjoint control of vehicle subunits of different types or different functions/including control of 
+electric propulsion units, e.g., motors or generators/including control of energy storage means/for 
+electrical energy, e.g., batteries or capacitors
+B60W 10/08, 24, 26
+Hybrids:
+​
+Arrangement or mounting of plural diverse prime movers for mutual or common propulsion, e.g., 
+hybrid propulsion systems comprising electric motors and internal combustion engines
+B60K 6
+Control systems specially adapted for hybrid vehicles, i.e., vehicles having two or more prime movers 
+of more than one type, e.g., electrical and internal combustion motors, all used for propulsion of the 
+vehicle
+B60W 20
+Dynamic electric regenerative braking
+B60L 7/1
+Braking by supplying regenerated power to the prime mover of vehicles comprising engine-driven 
+generators
+B60L 7/20
+FCVs:
+​
+Conjoint control of vehicle subunits of different types or different functions, including control of fuel 
+cells
+B60W 10/28
+Electric propulsion with power supplied within the vehicle - using power supplied from primary cells, 
+secondary cells, or fuel cells
+B60L 11/18
+Fuel cells; manufacture thereof
+H01M 8
+Lightweighting:
+​
+Use keywords relative to lightweight or weight reduction in the patent application documents to 
+identify each IPC code for lightweight technologies.
+Numerous IPC codes are related to lightweighting, e.g., B60R21, B60N2, 
+B62D1/21/25/35, F02D9, F02M35, G06F17/30/119.
+Notes: IPC codes of fuel-efficiency technologies for ICEVs, PEVs, hybrids, and FCVs are from Aghion et al. (2016).
+Appendix. Supplementary data
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.eneco.2025.108254.
+References
+Administration of Quality Supervision, Inspection and Quarantine of China (AQSIQ) and 
+Standardization Administration of China (SAC), 2004. Limits of Fuel Consumption 
+for Passenger Cars (GB 19578–2004) (in Chinese). Standards Press of China, Beijing. 
+Administration of Quality Supervision, Inspection and Quarantine of China (AQSIQ) and 
+Standardization Administration of China (SAC), 2011. Fuel Consumption Evaluation 
+Methods and Targets for Passenger Cars (GB 27999–2011) (in Chinese). Standards 
+Press of China, Beijing. 
+Administration of Quality Supervision, Inspection and Quarantine of China (AQSIQ) and 
+Standardization Administration of China (SAC), 2014. Fuel Consumption Evaluation 
+Methods and Targets for Passenger Cars (GB 27999–2014) (in Chinese). Standards 
+Press of China, Beijing. 
+Aghion, P., Dechezleprˆetre, A., H´emous, D., Martin, R., Reenen, J.V., 2016. Carbon taxes, 
+path dependency, and directed technical change: evidence from the auto industry. 
+J. Polit. Econ. 124 (1), 1–51.
+Anderson, S.T., Sallee, J.M., 2011. Using loopholes to reveal the marginal cost of 
+regulation: the case of fuel-economy standards. Am. Econ. Rev. 101 (4), 1375–1409.
+Anderson, S.T., Sallee, J.M., 2016. Designing policies to make cars greener. Ann. Rev. 
+Resour. Econ. 8, 157–180.
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+13 
+
+
+===== [PAGE 14] =====
+
+Austin, D., Dinan, T., 2005. Clearing the air: the costs and consequences of higher CAFE 
+standards and increased gasoline taxes. J. Environ. Econ. Manag. 50 (3), 562–582.
+Bell´ego, C., Benatia, D., Pape, L., 2022. Dealing with Logs and ZEROS in Regression 
+Models. Working Paper. Available at https://arxiv.org/abs/2203.11820.
+Berry, S., Kortum, S., Pakes, A., 1996. Environmental change and hedonic cost functions 
+for automobiles. Proc. Natl. Acad. Sci. 93 (23), 12731–12738.
+Bleviss, D., 1988. The New Oil Crisis and Fuel Economy Technologies. Quorum Books, 
+New York. 
+China Automotive Technology and Research Center (CATARC) and China Association of 
+Automobile Manufacturers (CAAM), 2002. China Automotive Industry Yearbook 
+2002 (in Chinese). China Automotive Industry Yearbook Journal Press, Tianjin. 
+China Automotive Technology and Research Center (CATARC) and China Association of 
+Automobile Manufacturers (CAAM), 2022. China Automotive Industry Yearbook 
+2022 (in Chinese). China Automotive Media (Tianjin) Co., Ltd, Tianjin. 
+China Society of Automotive Engineers (CSAE), 2019. Calculating Method of Vehicle 
+Lightweight Index for Passenger Vehicle (T/CSAE 115–2019) (in Chinese). CSAE, 
+Beijing. 
+Crabb, J.M., Johnson, D.K.N., 2010. Fueling innovation: the impact of oil prices and 
+CAFE standards on energy-efficient automotive technology. Energy J. 31 (1), 
+199–216.
+Czerwinski, F., 2021. Current trends in automotive Lightweighting strategies and 
+materials. Materials 14 (21), 6631.
+Davis, L.W., Knittel, C.R., 2019. Are fuel economy standards regressive? J. Assoc. 
+Environ. Resour. Econ. 6 (S1), S37–S63.
+Dowlatabadi, H., Lave, L.B., Russell, A.G., 1996. A free lunch at higher CAFE? A review 
+of economic, environmental and social benefits. Energy Policy 24 (3), 253–264.
+Du, J., Ouyang, D., 2017. Progress of Chinese electric vehicles industrialization in 2015: 
+a review. Appl. Energy 188, 529–546.
+Greene, D.L., 1991. Short-run pricing strategies to increase corporate average fuel 
+economy. Econ. Inq. 29 (1), 101–114.
+Greene, D.L., Greenwald, J.M., Ciez, R.E., 2020. US fuel economy and greenhouse gas 
+standards: what have they achieved and what have we learned? Energy Policy 146, 
+111783.
+Hao, H., Ou, X., Du, J., Wang, H., Ouyang, M., 2014. China’s electric vehicle subsidy 
+scheme: rationale and impacts. Energy Policy 73, 722–732.
+Hao, H., Wang, S., Liu, Z., Zhao, F., 2016. The impact of stepped fuel economy targets on 
+automaker’s light-weighting strategy: the China case. Energy 94, 755–765.
+He, W., Hao, X., 2023. Competition and welfare effects of introducing new products into 
+the new energy vehicle market: empirical evidence from Tesla’s entry into the 
+Chinese market. Transp. Res. A 174, 103730.
+Heywood, J.B., 2019. Internal Combustion Engine Fundamentals, 2nd edition. Mcgraw- 
+Hill, New York. 
+International Energy Agency (IEA), 2014. CO2 Emissions from Fuel Combustion 
+Highlights, 2014 edition. International Energy Agency, Paris. 
+Jacobsen, M.R., 2013. Evaluating US fuel economy standards in a model with producer 
+and household heterogeneity. Am. Econ. J. Econ. Policy 5 (2), 148–187.
+Kaluza, A., Frohlich, T., Kleeman, S., Walk, W., Herrmann, C., Krinke, S., 2018. 
+Conceptual development of hybrid structures towards eco-efficient vehicle 
+lightweighting. In: Benetto, E., Gericke, K., Guiton, M. (Eds.), Designing Sustainable 
+Technologies, Products and Policies: From Science to Innovation. Switzerland, 
+Springer, Cham, pp. 181–191.
+Kaneko, M., 2019. A lifecycle analysis of the corporate average fuel economy standards 
+in Japan. Energies 12 (4), 677.
+Kiso, T., 2019. Environmental policy and induced technological change: evidence from 
+automobile fuel economy regulations. Environ. Resour. Econ. 74 (2), 785–810.
+Kleit, A.N., 2004. Impacts of long-range increases in the fuel economy (CAFE) standard. 
+Econ. Inq. 42 (2), 279–294.
+Klier, T., Linn, J., 2012. New-vehicle characteristics and the cost of the corporate average 
+fuel economy standard. RAND J. Econ. 43 (1), 186–213.
+Klier, T., Linn, J., 2016. The effect of vehicle fuel economy standards on technology 
+adoption. J. Public Econ. 133, 41–63.
+Knittel, C.R., 2011. Automobiles on steroids: product attribute trade-offs and 
+technological progress in the automobile sector. Am. Econ. Rev. 101 (7), 3368–3399.
+Konishi, Y., Managi, S., 2020. Do regulatory loopholes distort technical change? 
+Evidence from new vehicle launches under the Japanese fuel economy regulation. 
+J. Environ. Econ. Manag. 104, 102377.
+Leard, B., Linn, J., Zhou, Y.C., 2023. How much do consumers value fuel economy and 
+performance? Evidence from technology adoption. Rev. Econ. Stat. 105 (1), 
+158–174.
+Lutsey, N., Meszler, D., Isenstadt, A., German, J., Miller, J., 2017. Efficiency Technology 
+and Cost Assessment for US 2025–2030 Light-Duty Vehicles. International Council 
+on Clean Transportation (ICCT), White Paper. Available at https://theicct.org/sites 
+/default/files/publications/US-LDV-tech-potential_ICCT_white-paper_22032017.pdf
+.
+Ma, S.C., Fan, Y., Feng, L.Y., 2017. An evaluation of government incentives for new 
+energy vehicles in China focusing on vehicle purchasing restrictions. Energy Policy 
+110, 609–618.
+Ministry of Finance of China (MOF) and Ministry of Science and Technology of China 
+(MOST), 2009. Notice on Carrying out Pilot Work of Energy Conservation and New 
+Energy Vehicle Demonstration and Promotion (in Chinese). Available at htt 
+ps://www.mof.gov.cn/gkml/caizhengwengao/2009niancaizhengbuwengao/caizh 
+engwengao2009dierqi/200904/t20090413_132178.htm.
+Ministry of Industry and Information Technology of China (MIIT), 2021. Dual-Credits 
+Policy Implementation Annual Report 2021 (In Chinese). Available at https://www. 
+miit-eidc.org.cn/art/2021/5/27/art_1644_2969.html.
+Ministry of Industry and Information Technology of China (MIIT), 2022. Dual-Credits 
+Policy Implementation Annual Report 2022 (In Chinese). Available at https://www. 
+miit-eidc.org.cn/art/2022/6/6/art_1739_6032.html.
+Ministry of Industry and Information Technology of China (MIIT), Ministry of Finance of 
+China (MOF), Ministry of Commerce of China (MOC), General Administration of 
+Customs of China (GACC), Administration of Quality Supervision, Inspection and 
+Quarantine of China (AQSIQ), 2017. Parallel Management Regulation for Corporate 
+Average Fuel Consumption and New Energy Vehicle Credits for Passenger Vehicles 
+(In Chinese). Available at https://www.miit.gov.cn/jgsj/zbys/qcgy/art/2020/ar 
+t_f09be90b302f4875928ac1c05a5c3bbc.html.
+Oliver, H.H., Gallagher, K.S., Tian, D., Zhang, J., 2009. China’s fuel economy standards 
+for passenger vehicles: rationale, policy process, and impacts. Energy Policy 37 (11), 
+4720–4729.
+Rambachan, A., Roth, J., 2023. A more credible approach to parallel trends. Rev. Econ. 
+Stud. 90, 2555–2591.
+Roth, J., 2022. Pretest with caution: event-study estimates after testing for parallel 
+trends. AER: Insights 4 (3), 305–322.
+State Administration for Market Regulation of China (SAMR) and Standardization 
+Administration of China (SAC), 2019. Fuel Consumption Evaluation Methods and 
+Targets for Passenger Cars (GB 27999–2019) (in Chinese). Standards Press of China, 
+Beijing. 
+Taylor, A.M.K.P., 2008. Science review of internal combustion engines. Energy Policy 36 
+(12), 4657–4667.
+Wu, Y., Yang, Z., Lin, B., Liu, H., Wang, R., Zhou, B., Hao, J., 2012. Energy consumption 
+and CO2 emission impacts of vehicle electrification in three developed regions of 
+China. Energy Policy 48, 537–550.
+Wu, J., Posen, I.D., Maclean, H.L., 2021. Trade-offs between vehicle fuel economy and 
+performance: evidence from heterogeneous firms in China. Energy Policy 156, 
+112445.
+Wu, J., Zhang, T., Liao, H., 2024. Fuel economy standards: regulatory loopholes and 
+Firms’ heterogeneous responses. J. Environ. Econ. Manag. 123, 10294.
+Yan, X., Sun, S., 2021. Impact of electric vehicle development on China’s energy 
+consumption and greenhouse gas emissions. Clean Techn. Environ. Policy 23, 
+2909–2925.
+Yang, X., Wang, J., Zhang, B., Lu, Q., He, H., 2015. Fuel-saving technologies’ potentials 
+for Chinese passenger cars: development of cost curves of 2020-2025 fuel efficiency 
+technologies for Chinese passenger cars. In: 2015 IEEE Vehicle Power and Propulsion 
+Conference (VPPC), Montreal, QC, Canada, pp. 1–7. Available at https://ieeexplore. 
+ieee.org/document/7352953.
+Yang, A.Z., Xiao, G., Cui, H., Isenstadt, A., 2018. Fuel-Efficiency Technology Trend 
+Assessment for LDVs in China: Summary of Working Paper Series. ICCT Working 
+Paper 2018–20. Available at https://theicct.org/sites/default/files/publications/ 
+pv_tech_trend_summary_20180917.pdf.
+Zhang, W., Xu, J., 2022. Advanced lightweight materials for automobiles: a review. 
+Mater. Des. 221, 110994.
+Zhang, Y., He, H., Chen, Z., 2023. Trends of new passenger cars in China: air pollution 
+and CO2 emissions and technologies, 2012-2021. In: ICCT Report. Available at https: 
+//theicct.org/wp-content/uploads/2023/03/china-pv-trends_final-v2.pdf.
+Zhao, F., Hao, H., Liu, Z., 2016. Technology strategy to meet China’s 5 L/100 km fuel 
+consumption target for passenger vehicles in 2020. Clean Techn. Environ. Policy 18 
+(1), 7–15.
+J. Xia and Z. Zhang                                                                                                                                                                                                                            
+Energy Economics 143 (2025) 108254 
+14 

@@ -1,0 +1,33 @@
+{
+  "images": "D:\\codex\\output\\blp_driving_cycle_structural_research_20260824\\audit_pages\\blp_pdf_pNN.png（PDF 页 NN）",
+  "paper_note": "JSTOR 文字层是扫描 OCR，公式块几乎全部识别失败。下列各式按原页图转写；第 9、10、14、27、28 页本轮重新看图核对，其余页沿用 2026-08-25 与 2026-10-07 两轮看图核验（同一批原页图）。",
+  "items": [
+    {"page": 7, "label": "(2.1)", "latex": "A_j(x,p,\\xi;\\theta)=\\{\\zeta:\\ U(\\zeta,p_j,x_j,\\xi_j;\\theta)\\ \\ge\\ U(\\zeta,p_r,x_r,\\xi_r;\\theta),\\ r=0,\\dots,J\\}", "check": "既有看图核验", "note": "r=0 为 outside good"},
+    {"page": 7, "label": "(2.2)", "latex": "s_j(x,p,\\xi;\\theta)=\\int_{\\zeta\\in A_j}P_0(d\\zeta)", "check": "既有看图核验", "note": "市场需求量为 M s_j"},
+    {"page": 7, "label": "(2.3)", "latex": "U(\\zeta_i,p_j,x_j,\\xi_j;\\theta)=x_j\\beta-\\alpha p_j+\\xi_j+\\epsilon_{ij}\\equiv\\delta_j+\\epsilon_{ij}", "check": "既有看图核验", "note": ""},
+    {"page": 7, "label": "(2.4)", "latex": "s_j=\\int_{\\epsilon}\\prod_{q\\ne j}P(\\delta_j-\\delta_q+\\epsilon)\\,P(d\\epsilon)", "check": "既有看图核验", "note": "logit 下替代只取决于份额，见原文 p.847"},
+    {"page": 9, "label": "(2.5)", "latex": "U(\\zeta_i,p_j,x_j,\\xi_j;\\theta)=x_j\\bar\\beta-\\alpha p_j+\\xi_j+\\sum_k\\sigma_k x_{jk}\\nu_{ik}+\\epsilon_{ij}", "check": "本轮看图", "note": "其后 \\delta_j=x_j\\bar\\beta-\\alpha p_j+\\xi_j，\\mu_{ij}=\\sum_k\\sigma_k x_{jk}\\nu_{ik}+\\epsilon_{ij}"},
+    {"page": 9, "label": "(2.6)", "latex": "U(\\zeta_i,p_j,x_j,\\xi_j;\\theta)=(y_i-p_j)^{\\alpha}\\,G(x_j,\\xi_j,\\nu_i)\\,e^{\\epsilon(i,j)}", "check": "本轮看图", "note": "文字层未识别出式号"},
+    {"page": 10, "label": "(2.7a)", "latex": "u_{ij}=\\alpha\\log(y_i-p_j)+x_j\\bar\\beta+\\xi_j+\\sum_k\\sigma_k x_{jk}\\nu_{ik}+\\epsilon_{ij},\\quad j=1,\\dots,J", "check": "本轮看图", "note": ""},
+    {"page": 10, "label": "(2.7b)", "latex": "u_{i0}=\\alpha\\log(y_i)+\\xi_0+\\sigma_0\\nu_{i0}+\\epsilon_{i0}", "check": "本轮看图", "note": "其后 \\nu_i=(y_i,\\nu_{i1},\\dots,\\nu_{iK})"},
+    {"page": 14, "label": "(3.1)", "latex": "\\ln(mc_j)=w_j\\gamma+\\omega_j", "check": "本轮看图", "note": ""},
+    {"page": 14, "label": "(3.2)", "latex": "\\Pi_f=\\sum_{j\\in\\mathcal F_f}(p_j-mc_j)\\,M\\,s_j(p,x,\\xi;\\theta)", "check": "本轮看图", "note": ""},
+    {"page": 14, "label": "(3.3)", "latex": "s_j(p,x,\\xi;\\theta)+\\sum_{r\\in\\mathcal F_f}(p_r-mc_r)\\,\\frac{\\partial s_r(p,x,\\xi;\\theta)}{\\partial p_j}=0", "check": "本轮看图", "note": ""},
+    {"page": 14, "label": "(3.4)", "latex": "\\Delta_{jr}=\\begin{cases}-\\dfrac{\\partial s_r}{\\partial p_j}, & r\\text{ 与 }j\\text{ 同厂}\\\\[4pt] 0, & \\text{否则}\\end{cases}", "check": "本轮看图", "note": "行 = j 的价格 FOC，列 = r；若代码存 J_{jr}=\\partial s_j/\\partial p_r，则 \\Delta=-(H\\odot J^{\\top})"},
+    {"page": 15, "label": "（未编号）", "latex": "s(p,x,\\xi;\\theta)-\\Delta(p,x,\\xi;\\theta)\\,[p-mc]=0\\ \\Rightarrow\\ p=mc+\\Delta(p,x,\\xi;\\theta)^{-1}s(p,x,\\xi;\\theta)", "check": "既有看图核验", "note": ""},
+    {"page": 15, "label": "(3.5)", "latex": "b(p,x,\\xi;\\theta)\\equiv\\Delta(p,x,\\xi;\\theta)^{-1}s(p,x,\\xi;\\theta)", "check": "既有看图核验", "note": ""},
+    {"page": 15, "label": "(3.6)", "latex": "\\ln\\big(p-b(p,x,\\xi;\\theta)\\big)=w\\gamma+\\omega", "check": "既有看图核验", "note": ""},
+    {"page": 15, "label": "(4.1)", "latex": "E[\\xi_j(\\theta_0)\\mid z]=E[\\omega_j(\\theta_0)\\mid z]=0,\\qquad z_j=[x_j,w_j],\\ z=[z_1,\\dots,z_J]", "check": "既有看图核验", "note": "价格与数量不进条件集"},
+    {"page": 22, "label": "(5.8)", "latex": "\\Big\\{\\,z_{jk},\\ \\sum_{r\\ne j,\\ r\\in\\mathcal F_f}z_{rk},\\ \\sum_{r\\notin\\mathcal F_f}z_{rk}\\,\\Big\\}", "check": "既有看图核验", "note": "对每个特征 k 取自身、同厂其他产品之和、对手产品之和，即 BLP 工具的原型"},
+    {"page": 25, "label": "(6.2)–(6.5)", "latex": "s_j=\\frac{e^{\\delta_j}}{1+\\sum_{q}e^{\\delta_q}},\\qquad \\ln s_j-\\ln s_0=\\delta_j,\\qquad \\xi_j=\\ln s^n_j-\\ln s^n_0-x_j\\beta+\\alpha p_j", "check": "既有看图核验", "note": "logit 特例；此处只核了公式内容，未逐个对应式号"},
+    {"page": 26, "label": "(6.6)", "latex": "f_j(\\nu_i,\\delta,p,x,\\theta)=\\frac{\\exp(\\delta_j+\\mu_{ij})}{1+\\sum_r\\exp(\\delta_r+\\mu_{ir})}", "check": "既有看图核验", "note": ""},
+    {"page": 26, "label": "(6.7)", "latex": "s_j=\\int f_j\\big(\\nu_i,\\delta(x,p,\\xi),p,x,\\theta\\big)\\,P_0(d\\nu)", "check": "既有看图核验", "note": ""},
+    {"page": 26, "label": "(6.8)", "latex": "T(s,\\theta,P)[\\delta]_j=\\delta_j+\\ln(s_j)-\\ln\\big[s_j(p,x,\\delta,P;\\theta)\\big]", "check": "既有看图核验", "note": "收缩映射；反演后 \\xi_j(\\theta,s,P)=\\delta_j(\\theta,s,P)-x_j\\beta（完整规格价格在非线性部分，不出现 +\\alpha p_j）"},
+    {"page": 26, "label": "(6.9a)", "latex": "\\frac{\\partial s_j}{\\partial p_j}=\\int f_j(1-f_j)\\left[\\frac{\\partial\\mu_{ij}}{\\partial p_j}\\right]P_0(d\\nu)", "check": "既有看图核验", "note": ""},
+    {"page": 26, "label": "(6.9b)", "latex": "\\frac{\\partial s_j}{\\partial p_q}=-\\int f_j\\,f_q\\left[\\frac{\\partial\\mu_{iq}}{\\partial p_q}\\right]P_0(d\\nu),\\quad q\\ne j", "check": "既有看图核验（2026-10-07 重开原页）", "note": "原页有前置负号；原页印作 f_j(\\nu,\\xi,\\dots) 与 [\\partial\\mu_{ij}/\\partial p_q]，两处为原文笔误，应为 \\delta 与 \\partial\\mu_{iq}/\\partial p_q"},
+    {"page": 27, "label": "(6.10)", "latex": "s_j(p,x,\\xi,\\theta,P_{ns})\\equiv\\frac{1}{ns}\\sum_{i=1}^{ns}f_j(\\nu_i,\\delta,p,x,\\theta)", "check": "本轮看图", "note": ""},
+    {"page": 27, "label": "(6.11)", "latex": "s_j(\\theta,P_0)=\\int\\left[\\frac{f_j(\\nu,\\theta)}{h(\\nu,\\theta)}\\,p_0(\\nu)\\,h(\\nu,\\theta)\\right]d\\nu\\equiv\\int f_{hj}(\\nu,\\theta)\\,P_{hj}(d\\nu,\\theta)\\equiv s_j(\\theta,P_{hj})", "check": "本轮看图", "note": "P_{hj}(d\\nu,\\theta)\\equiv h(\\nu,\\theta)d\\nu，f_{hj}(\\nu,\\theta)\\equiv[f_j(\\nu,\\theta)p_0(\\nu)]/h(\\nu,\\theta)"},
+    {"page": 27, "label": "(6.12)", "latex": "P^{*}_{hj}(d\\nu,\\theta)=\\big[f_j(\\nu,\\theta)\\,p_0(\\nu)\\,d\\nu\\big]\\big/s_j(\\theta,P_0)", "check": "本轮看图", "note": ""},
+    {"page": 28, "label": "(6.13)", "latex": "s_j\\big[\\theta,P^{*}_{h}(\\theta')_{ns}\\big]=\\sum_{i=1}^{ns}\\frac{\\bar s(\\theta',P_0)}{\\bar f(\\nu_i,\\theta')}\\,f_j(\\nu_i,\\theta)\\quad\\text{（求和只对被接受的抽样）}", "check": "本轮看图", "note": "原页即如此印刷，缺归一因子。原文写明求和对被接受的 \\nu 进行，若 ns 指被接受的抽样数，无偏式为 \\frac{1}{ns}\\sum_{i=1}^{ns}\\frac{\\bar s(\\theta',P_0)}{\\bar f(\\nu_i,\\theta')}f_j(\\nu_i,\\theta)；若改为固定提议抽样数 N，则为 \\frac{1}{N}\\sum_{\\text{accepted}}f_j(\\nu_i,\\theta)/\\bar f(\\nu_i,\\theta')。两种计数不可混用"}
+  ]
+}

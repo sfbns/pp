@@ -1,0 +1,166 @@
+{
+  "rank": 13,
+  "item_key": "6Q55KN3G",
+  "title": "How Much Do Consumers Value Fuel Economy and Performance? Evidence from Technology Adoption",
+  "authors": [
+    "Benjamin Leard",
+    "Joshua Linn",
+    "Yichen Christy Zhou"
+  ],
+  "creators": [
+    {
+      "name": "Benjamin Leard",
+      "type": "author"
+    },
+    {
+      "name": "Joshua Linn",
+      "type": "author"
+    },
+    {
+      "name": "Yichen Christy Zhou",
+      "type": "author"
+    }
+  ],
+  "date": "2023-00-00 2023",
+  "journal": "The Review of Economics and Statistics",
+  "doi": "10.1162/rest_a_01045",
+  "url": "https://doi.org/10.1162/rest_a_01045",
+  "collections": [
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "BLP-adjacent structural policy model",
+  "apa_citation": {
+    "reference": "Leard, B., Linn, J., & Zhou, Y. C. (2023). How Much Do Consumers Value Fuel Economy and Performance? Evidence from Technology Adoption. The Review of Economics and Statistics. https://doi.org/10.1162/rest_a_01045",
+    "parenthetical": "(Leard et al., 2023)",
+    "narrative": "Leard et al. (2023)"
+  },
+  "preferred_pdf_rel": "source_pdfs/13_6q55kn3g.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "9TNZPQCW",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:RFF-Rpt-WTP_FuelEconomy26Performance.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\9TNZPQCW\\RFF-Rpt-WTP_FuelEconomy26Performance.pdf",
+    "exists": true,
+    "size": 785870
+  },
+  "legacy_note_rel": "raw/notes/13_6q55kn3g.md",
+  "legacy_old_memory_rel": "raw/paper_memory/13_6q55kn3g.md",
+  "fulltext_json_rel": "raw/fulltext/13_6q55kn3g.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/13_6q55kn3g.fulltext.txt",
+  "llm_json_rel": "raw/ocr_llm/13_6q55kn3g.llm.json",
+  "llm_md_rel": "raw/ocr_llm/13_6q55kn3g.llm.md",
+  "note_sections": {
+    "1. One-paragraph thesis": "- 从问题出发：Abstract During historical periods in which U.S.\n- BLP-related structural paper\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.",
+    "2. Story ladder": "- 从问题出发：Abstract During historical periods in which U.S.\n- 把识别对象具体化：fuel economy standards were unchanging, automakers increased performance but not fuel economy, contrasting with recent periods of tightening standards and rising fuel economy.\n- 最后把结果落到政策/福利含义：This paper evaluates the welfare consequences of automakers forgoing performance increases to raise fuel economy as standards have tightened since 2012.",
+    "3. Model or identification core": "- Structural classification: BLP-related structural paper\n- Model anchor: The paper uses a differentiated-product or adjacent structural framework.\n- Read this section as the place where the endogenous object, identification move, and counterfactual payoff are tied together.",
+    "4. Data and measurement": "- Data section must be read together with the recovered fulltext headings and paper PDF.\n- Recovered section headings: headings not recovered",
+    "5. Findings and mechanisms": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.",
+    "6. Contribution construction": "- 从问题出发：Abstract During historical periods in which U.S.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.",
+    "7. Literature review function": "- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+    "8. Writing structure map": "- Recovered section order:\n- headings not recovered",
+    "9. Reusable writing moves": "- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。",
+    "10. Memory update": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_6q55kn3g_how-much-do-consumers-value-fuel-economy-and-performance-evidence-from-technolog\ndescription: Fulltext BLP reading memory for How Much Do Consumers Value Fuel Economy and Performance? Evidence from Technology Adoption; includes story logic, BLP model shape, writing structure, and policy payoff.\ntype: reference\n---\n\n# How Much Do Consumers Value Fuel Economy and Performance? Evidence from Technology Adoption",
+    "Citation": "- Key: `6Q55KN3G`\n- DOI: `10.1162/rest_a_01045`\n- Journal: The Review of Economics and Statistics\n- Year: 2023\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\6Q55KN3G.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/6Q55KN3G/6Q55KN3G.llm.json`",
+    "Read Status": "- 本记忆基于全文 OCR 结果，不是只基于题录摘要。\n- OCR 引擎：MinerU 优先，DirectML 加速，关闭表格识别以避免已知编码错误；输出为 `llm.md` + `llm.json` + `chunks.jsonl`。",
+    "Story Question": "- 核心问题：Abstract During historical periods in which U.S.",
+    "Story Logic": "- 从问题出发：Abstract During historical periods in which U.S.\n- 把识别对象具体化：fuel economy standards were unchanging, automakers increased performance but not fuel economy, contrasting with recent periods of tightening standards and rising fuel economy.\n- 最后把结果落到政策/福利含义：This paper evaluates the welfare consequences of automakers forgoing performance increases to raise fuel economy as standards have tightened since 2012.",
+    "How BLP Enters": "- 分类判断：BLP-adjacent structural policy model\n- 触发证据：bertrand, marginal cost, welfare, counterfactual, instrument\n- 读法提醒：这里的“BLP”既可能是严格的随机系数需求+供给均衡，也可能只是沿用差异化产品结构需求与福利反事实的传统。",
+    "Model Shape": "- Demand side: 需求侧至少是结构化产品选择模型，但是否是标准随机系数 BLP 需要结合模型节再核。 市场份额/替代关系是识别核心对象。\n- Heterogeneity: 文中通过异质偏好、车型属性、收入/里程/地区或消费者画像来刻画替代弹性。\n- Supply side: 文中显式处理供给侧，通常是 Nash-Bertrand 定价、边际成本恢复与均衡反事实。\n- Identification / estimation: 识别中明确出现工具变量/外生冲击。\n- Counterfactual / welfare: 摘要直接说明会做福利/反事实模拟，因此模型的终点是政策比较而不仅是弹性估计。",
+    "Writing Structure": "- 从 OCR 章节树看，正文大体按照下面顺序展开：\n- How Much Do Consumers Value Fuel Economy and Performance?\n- Evidence from Technology Adoption\n- Benjamin Leard, Joshua Linn, and Yichen Christy Zhou\n- RFF REPORT\n- JUNE 2017\n- RESOURCES FOR THE FUTURE\n- How Much Do Consumers Value Fuel Economy and Performance? Evidence from Technology Adoption\n- Benjamin Leard∗ Resources for the Future\n- Joshua Linn Resources for the Future\n- Yichen Christy Zhou Resources for the Future and Clemson University\n- June 2017\n- Abstract\n- 1 Introduction\n- 2 Data and Summary Statistics\n- 2.1 Data\n- 2.2 Summary statistics\n- 3 Empirical Strategy\n- 3.1 Empirical framework\n- 3.2 Price regression\n- 3.3 Quantity regression\n- 4 Estimation Results\n- 4.1 Baseline estimates of willingness to pay for fuel cost savings and performance\n- 4.2 Do consumers undervalue fuel cost savings?\n- 4.3 Addressing potential sources of bias\n- 5 Implications\n- 5.1 Comparing consumer valuation of fuel economy and performance\n- 5.2 How do tighter standards affect private consumer welfare?\n- 5.3 Tighter standards and consumer acceptance\n- 6 Conclusion\n- References",
+    "Reusable Writing Moves": "- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。",
+    "OCR Section Anchors": "",
+    "Memory Notes": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "theory_design_memory": "- 从问题出发：Abstract During historical periods in which U.S.\n- BLP-related structural paper\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.\n\n- 从问题出发：Abstract During historical periods in which U.S.\n- 把识别对象具体化：fuel economy standards were unchanging, automakers increased performance but not fuel economy, contrasting with recent periods of tightening standards and rising fuel economy.\n- 最后把结果落到政策/福利含义：This paper evaluates the welfare consequences of automakers forgoing performance increases to raise fuel economy as standards have tightened since 2012.\n\n- Structural classification: BLP-related structural paper\n- Model anchor: The paper uses a differentiated-product or adjacent structural framework.\n- Read this section as the place where the endogenous object, identification move, and counterfactual payoff are tied together.\n\n- Data section must be read together with the recovered fulltext headings and paper PDF.\n- Recovered section headings: headings not recovered\n\n- 从问题出发：Abstract During historical periods in which U.S.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.\n\n- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+  "baseline_core_memory": "- Structural classification: BLP-related structural paper\n- Model anchor: The paper uses a differentiated-product or adjacent structural framework.\n- Read this section as the place where the endogenous object, identification move, and counterfactual payoff are tied together.",
+  "mechanism_memory": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.\n\n- 从问题出发：Abstract During historical periods in which U.S.\n- 把识别对象具体化：fuel economy standards were unchanging, automakers increased performance but not fuel economy, contrasting with recent periods of tightening standards and rising fuel economy.\n- 最后把结果落到政策/福利含义：This paper evaluates the welfare consequences of automakers forgoing performance increases to raise fuel economy as standards have tightened since 2012.",
+  "result_memory": "- Results anchor not recovered; inspect the fulltext JSON/TXT for the estimation or results section.\n- Conclusion anchor not recovered in this pass.\n\n- Results anchor: ation would be consistent with the energy efficiency gap because it would imply that manufacturers have insufficient incentive to adopt fuel-saving technology. Earlier studies yielded a wide range of results, from approximately zero valuation to substantial overvaluation (see literature reviews by Helfand and Wolverton\n- Conclusion anchor: n EPA 2012), and estimated trade-offs between fuel economy and performance, we find that tighter standards reduce consumer welfare by 0.4 percent per vehicle sold. This implication contrasts with the conclusion that one would obtain by following the conventional approach that considers only the estimated undervaluation",
+  "writing_style_memory": "- Recovered section order:\n- headings not recovered\n\n- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。\n\n- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。",
+  "professional_vocab": [
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "instrumental variable",
+    "equilibrium",
+    "substitution",
+    "marginal cost",
+    "heterogeneity",
+    "fuel economy",
+    "consumer demand"
+  ],
+  "fulltext_headings": [
+    "Evidence from Technology Adoption",
+    "Benjamin Leard, Joshua Linn, and Yichen Christy Zhou",
+    "JUNE 2017",
+    "RFF REPORT",
+    "RESOURCES FORTHE FUTURE",
+    "Joshua Linn Resources for the Future",
+    "Yichen Christy Zhou Resources for the Future and Clemson University",
+    "June 2017",
+    "Abstract",
+    "1 Introduction",
+    "2 Data and Summary Statistics",
+    "2.1 Data",
+    "2.2 Summary statistics",
+    "3 Empirical Strategy",
+    "3.1 Empirical framework",
+    "3.2 Price regression",
+    "3.3 Quantity regression",
+    "4 Estimation Results",
+    "4.1 Baseline estimates of willingness to pay for fuel cost savings and performance",
+    "T ,",
+    "4.3 Addressing potential sources of bias",
+    "5 Implications",
+    "5.1 Comparing consumer valuation of fuel economy and performance",
+    "5.3 Tighter standards and consumer acceptance"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 2,
+      "snippet": "formance? Evidence from Technology Adoption\nBenjamin Leard∗ Resources for the Future\nJoshua Linn Resources for the Future\nYichen Christy Zhou Resources for the Future and Clemson University\nJune 2017\nAbstract\nDuring historical periods in which US fuel economy standards were unchanging, automakers increased performance but not fuel economy, contrasting with recent periods of tightening standards and rising fuel economy. This paper evaluates the welfare consequences of automakers forgoing performance increases to raise fuel economy as standards have tightened since 2012. Using a unique data set and a novel approach to account for fuel economy and performance endogeneity, we find undervaluation of fuel cost savings and high valuation of performance. Welfare costs of forgone performance approximately equal expected fuel savings benefits, suggesting approximately zero net private consumer benefit from tightened standards.\nKey words: passenger vehicles, fuel economy standards, technology ado"
+    },
+    "data": {
+      "page": 2,
+      "snippet": "ndards and rising fuel economy. This paper evaluates the welfare consequences of automakers forgoing performance increases to raise fuel economy as standards have tightened since 2012. Using a unique data set and a novel approach to account for fuel economy and performance endogeneity, we find undervaluation of fuel cost savings and high valuation of performance. Welfare costs of forgone performance approximately equal expected fuel savings benefits, suggesting approximately zero net private consumer benefit from tightened standards.\nKey words: passenger vehicles, fuel economy standards, technology adoption, consumer welfare JEL classification numbers: D12, L11, L62, Q41\n∗Benjamin Leard (leard@rff.org) is a fellow at Resources for the Future (RFF). Joshua Linn (linn@rff.org) is a senior fellow at RFF. Christy Zhou (yichen2@clemson.edu) is a post-doctoral fellow at RFF and an assistant professor at Clemson University. We thank Ashley Vissing, seminar participants at the University of Ma"
+    },
+    "model": {
+      "page": 6,
+      "snippet": "tification number (VIN), which we use to assign extensive vehicle characteristics such as fuel economy, horsepower, torque, and weight. To compare our results with the recent literature, we adapt the empirical framework of Busse et al. (2013) to estimate average WTP for fuel economy and performance across all consumers in the market. We adopt two strategies to account for the endogeneity. First, we include vehicle fixed effects, defining vehicles at a highly disaggregated level, to control for cross-sectional correlations among fuel economy, performance, and unobserved vehicle attributes such as technology packages and safety features. Second, we use instrumental variables (IVs) constructed from EPA microdata on fuel-saving technology adoption. The instruments are indicators for the adoption of specific technologies in individual vehicle trims, and they are strong predictors of fuel economy and performance, reducing concerns about weak instruments bias. We report evidence supporting th"
+    },
+    "results": {
+      "page": 3,
+      "snippet": "ation would be consistent with the energy efficiency gap because it would imply that manufacturers have insufficient incentive to adopt fuel-saving technology. Earlier studies yielded a wide range of results, from approximately zero valuation to substantial overvaluation (see literature reviews by Helfand and Wolverton 2009 and Greene 2010), but recent studies by Busse et al. (2013) and Allcott and Wozny (2014) have found full or nearly full valuation, implying that there is not an energy efficiency gap and that standards are unlikely to increase private consumer welfare.\nEconomists and policy makers have focused on the energy efficiency gap under the presumption that if there is a gap, tighter standards would raise private consumer welfare. We argue that this inference is incorrect because it ignores the effects of tighter standards on other vehicle attributes, particularly vehicle performance. Klier and Linn (2016) and Reynaert (2015) document that tighter standards cause manufacture"
+    },
+    "conclusion": {
+      "page": 7,
+      "snippet": "n EPA 2012), and estimated trade-offs between fuel economy and performance, we find that tighter standards reduce consumer welfare by 0.4 percent per vehicle sold. This implication contrasts with the conclusion that one would obtain by following the conventional approach that considers only the estimated undervaluation and ignores performance changes. In that case, one would estimate that tighter standards raise consumer welfare by 0.6 percent per vehicle. These results therefore demonstrate the importance of including forgone performance in analyzing the welfare effects of the standards.\nThe third implication regards the effect of fuel economy or greenhouse gas standards on consumer demand for new vehicles. A particularly contentious aspect of the existing standards is whether they reduce aggregate consumer demand for new vehicles, which the marketing literature refers to as consumer acceptance of new vehicles. This possibility is a manifestation of vintage differentiated regulation ("
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "从问题出发：Abstract During historical periods in which U.S.",
+      "从问题出发：Abstract During historical periods in which U.S."
+    ],
+    "session": [
+      "Retrieve by key/title: 6Q55KN3G / How Much Do Consumers Value Fuel Economy and Performance? Evidence from Technology Adoption",
+      "Use collections and journal handles: BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Leard et al., 2023) / Leard et al. (2023)"
+    ],
+    "agent": [
+      "Structural classification: BLP-related structural paper",
+      "Check how the paper modifies or simplifies canonical BLP before borrowing its structure."
+    ],
+    "team": [
+      "典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

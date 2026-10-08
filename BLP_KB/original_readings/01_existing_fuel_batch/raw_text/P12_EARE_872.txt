@@ -1,0 +1,4238 @@
+
+
+===== [PAGE 1] =====
+
+Vol.:(0123456789)
+Environmental and Resource Economics (2024) 87:1783–1844
+https://doi.org/10.1007/s10640-024-00872-z
+1 3
+Climate, Technology and Value: Insights from the First 
+Decade with Mass‑Consumption of Electric Vehicles
+Gøril L. Andreassen1 · Jo Thori Lind2
+Accepted: 17 April 2024 / Published online: 28 May 2024 
+© The Author(s) 2024
+Abstract
+Adoption of low-carbon technology is key to mitigating climate change. A possible 
+unwanted consequence of fast technological progress is that products get outdated before 
+their technical lifetime is over. We investigate whether the market value of electric vehi-
+cles, characterized by rapid technological progress, declines faster over their lifetime than 
+gasoline vehicles, which represent a mature technology. We use novel data from Norway, 
+the market with the highest market shares for electric vehicles in the world. The data are 
+from the largest web platform for secondhand vehicles over the period 2011–2021. Prices 
+of electric vehicles decline faster than gasoline vehicles. This seems to be driven by the 
+electric vehicles with below median driving range. We hypothesize that the large price 
+drop is mainly due to the fast technological improvement of electric vehicles.
+Keywords  Electric vehicles · Energy transition · Low-carbon technologies · Secondhand 
+market · Technological progress
+JEL  D12 · L60 · L62 · O33 · Q55
+We would like to thank Knut Einar Rosendahl, Maria Nareklishvili, Askill Harkjerr Halse and Svenn 
+Jensen, as well as seminar participants at School of Economics and Business, NMBU, the Institute of 
+Transport Economics and at the TRIPOP workshop for valuable comments. We are grateful to finn.no, 
+Kjell Magne Aalbergsjø in The Norwegian Road Federation (OFV) and Erik Lorentzen and colleagues 
+in the Norwegian Electric Vehicle Association for supplying data and sharing information. Please see 
+disclosure statement online.
+ *	 Gøril L. Andreassen 
+	
+goril.louise.andreassen@nmbu.no
+	
+Jo Thori Lind 
+	
+j.t.lind@econ.uio.no
+1	
+School of Economics and Business, Norwegian University of Life Sciences (NMBU), PB 5003, 
+1432   Ås, Norway
+2	
+Department of Economics, University of Oslo, Blindern, PB 1095 , 0317  Oslo, Norway
+
+
+===== [PAGE 2] =====
+
+1784
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+1  Introduction
+Widespread deployment and continued progress of low-carbon technologies are crucial to 
+reduce greenhouse gas emissions (Barrett 2009; Stock 2020; Pathak et al. 2022; Dhakal 
+et al. 2022). The adoption of low-carbon small-scale technologies, such as electric vehi-
+cles and solar power, has accelerated the last decade. These technologies have improved 
+fast, both regarding performance and costs (e.g. Pathak et al. 2022). Better and cheaper 
+low-carbon technologies enable more consumers to take part in the energy transition—but 
+also make existing goods obsolete faster than before. We investigate how the market values 
+technology throughout the lifetime when the technology is rapidly improving.
+In this paper, we specifically investigate the case of electric vehicles. For electric vehi-
+cles, the most important improvement the last decade is the increased driving range, which 
+is due to better and cheaper batteries. This has also allowed production of larger models 
+catering to a larger range of consumers. Gasoline vehicles, on the other hand, is a mature 
+technology. We find the price path of a car over its lifetime by looking at cars of the same 
+model year, make and fuel sold secondhand at different ages. To study the effect of particu-
+larly rapid technological progress on market prices, we compare the price path for ten-year-
+old electric vehicles and gasoline vehicles.
+Improved technology performance and cost reduction are often necessary to increase 
+technology adoption for low-carbon technologies. But for durable goods technological pro-
+gress can be a paradox. As the resale value may be lower if the newest technology available 
+is much better and cheaper than the used technology, this increases the total cost of own-
+ership. How much better the newest technology has to be compared to the used technol-
+ogy to lower the resale value is an empirical question. We investigate this specifically for 
+electric compared to gasoline vehicles, using driving range as a proxy for technological 
+improvement. The valuation of used technology is relevant for other durable, low-carbon, 
+small-scale technologies as well, such as solar power. The potentially reduced resale value 
+for low-carbon technologies with large technological progress need to be factored in when 
+estimating the cost of climate policies.
+The Norwegian market is the most mature electric vehicle market in the world (IEA 
+2022), so this is a good test bed for the future of the market for electric cars worldwide. 
+The market share for battery electric vehicles has been above 10% of new car purchases 
+since 2014 and was 82% in 2023 (OFV 2024).1 We use a novel data set from the largest 
+web platform for secondhand vehicles in Norway, finn.no, accounting for close to 90% of 
+the market, over the years 2011-June 2021. At this platform, the electric vehicle share of 
+the market for vehicles that are 10 years or younger has been above 1% since 2013 and is 
+23% as of June 2021. The time period 2011–2021 covers the years where electric vehicles 
+have been an important part of the Norwegian market.
+The technology shift in the Norwegian car market is a prediction of what may happen in 
+other countries if batteries continue to fall in price and policies promoting electric vehicles 
+and charging infrastructure continue. Other important car markets are less than 10 years 
+behind Norway in the electric vehicle adoption.
+We find that used electric vehicles decline faster in price than used gasoline vehicles. 
+This finding is robust to various specifications. The difference in the price fall seems to be 
+driven by electric vehicles with driving range below 200 km (close to the median range 
+1  As of June 2021, where our analysis ends, the market share was 57%.
+
+
+===== [PAGE 3] =====
+
+1785
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+in our sample). The price pattern of electric cars with the highest driving ranges are more 
+similar to those of gasoline cars.
+To understand the difference in the price decline between the two technologies, we first 
+develop a theoretical framework based on the model of Stolyarov (2002) of the resale pat-
+tern of durable goods. As electric cars are based on less mature technologies than cars 
+based on combustion engines, technological progress is faster. This reduces the utility of 
+used cars relative to that of a new car, and hence leads to reduced demand and increased 
+supply of secondhand cars. To maintain equilibrium in the market of used cars when the 
+technology is improving, the price of used cars has to decrease. Hence the price of electric 
+vehicles drops faster compared to gasoline vehicles.
+This paper contributes thematically to three different strands of the literature, namely, 
+technological development, durable goods and the car market. In growth theory there is a 
+literature on how technological progress evolves endogenously as resources are spent on R 
+&D (e.g. Aghion and Howitt 1998). This can also be extended to the interaction between 
+technological change and environmental policy (e.g. Acemoglu et al. 2012). In this paper, 
+however, we take the technological process as exogenously given. Indeed, our work relates 
+more closely to the work on vintage capital where technological progress only affects the 
+economy through new capital—and where every vintage of capital is marked by the period 
+in which it was produced (Solow et al. 1966). As technology is embedded in the car, this 
+leads to questions of optimal replacement of capital (Rust 1987). In the case of rapid tech-
+nological change, as is the case for electric vehicles, there is also a question of how expec-
+tations about future technological improvements affect the choice between adopting tech-
+nology today or waiting for improved technology (Rosenberg 1976; Balcer and Lippman 
+1984). De Groote and Verboven (2019) a case resembling our case, household’s investment 
+decision in solar power, where both quality is increasing and prices decreasing over time.
+Cars are one of the prime examples of durable goods. Waldman (2003) reviews much of 
+the early literature on durable goods, including theories of optimal durability of goods, the 
+effects of a secondhand market on the new goods market, and information problems in the 
+secondhand market. A study that in many ways is close to ours is the one by Fudenberg and 
+Tirole (1998). They consider a monopolist selling goods in two periods with improvements 
+in quality between the two periods. Their focus, however, is on the behavior of the monop-
+olist selling the new good and taking the secondhand market for given whereas we focus on 
+the secondhand market. In a seminal contribution close to our theoretical approach, Stol-
+yarov (2002) develops a model of the resale pattern of durable goods. Goods are purchased 
+new at a fixed price and the quality of the product deteriorates over time. He studies more 
+complex deterioration patterns and markets with many vintages. To focus on the effect of 
+different types of technology, we only include old and new varieties.
+There is a vast literature on the demand for cars. One starting point is Akerlof’s (1970) 
+seminal theoretical study, which in itself is not very relevant to our study. This study was 
+followed up by Bond (1982, 1983), who studied the demand for used pickup trucks empiri-
+cally. To see whether bad cars are driving out good ones from the secondhand market, he 
+investigates whether secondhand trucks require more maintenance than otherwise similar 
+trucks bought new. He does not find any difference between first- and secondhand bought 
+trucks. This is one of the first empirical studies of car price behavior.
+The newer empirical literature on the demand for automobiles is heavily inspired by the 
+study by Berry et al. (1995). In their study, however, they only consider the static demand 
+
+
+===== [PAGE 4] =====
+
+1786
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+for new cars. A number of extensions have been suggested in the literature.2 Our empirical 
+approach is most closely related to the approach followed by Purohit (1992). He estimates 
+the effect of changes such as major styling changes, downsizing and changes in horse-
+power, in new cars on the price of used cars and finds that enhanced features of new cars 
+increases the obsolescence effect of used cars. The changes he studies, however, are minor 
+compared to the technological changes electric vehicles have experienced the last decade.
+Our paper is also closely related to the literature on the evolution of the price of used 
+durable goods, particularly cars, over time.3 Wykoff (1970) studies the declining price of 
+selected car models to study the shape of the depreciation function. A number of other 
+studies has corroborated the declining price pattern of both secondhand and new cars 
+over time (Porter and Sattler 1999; Esteban and Shum 2007; Copeland et al. 2011). But 
+as should be obvious from the date of these studies, they only study cars with combustion 
+engines.
+Schloter (2022) investigates the depreciation rate of electric vehicles compared to gaso-
+line vehicles, and finds that electric vehicles depreciate faster than gasoline vehicles. He 
+draws on web scraped data on prices of nine car makes from multiple countries collected in 
+2020 and 2021. In comparison we cover the whole used car market on finn.no (which again 
+covers around 90% of the used car market in Norway), while Schloter (2022) ends up only 
+looking at electric vehicles in Norway. Moreover, as we have the whole used car market 
+for ten years in a country that is far ahead on the electric vehicle transition, it gives a more 
+complete picture of the evolution of the market for electric cars although we are limited to 
+a single country. Reassuringly, Schloter (2022) finds the same pattern of prices of electric 
+vehicles decline faster than the price than gasoline vehicles that we find. We also have data 
+on the range of the vehicle models and find that the fast price decline of electric vehicles 
+seem to be driven by vehicles with below median range.
+Also related to our study, Sallee et al. (2016) use used car prices in their analysis, but 
+investigate whether consumers recognize the value of fuel economy. Also Strittmatter and 
+Lechner (2020) use similar data, investigating whether there is sorting in the secondhand 
+car market based on environmental quality.
+Finally, there is an emerging literature on the demand for electric and “green” cars.4 
+Muehlegger and Rapson (2022) study the effect of a subsidy of electric vehicles in Califor-
+nia and find a quite high price elasticity where low- and middle-income households benefit 
+2  Schiraldi (2011) introduce a dynamic element to this class of models. In his model, consumers decide 
+whether to sell or replace their car in every period, and the supply of new cars is constant over time. 
+Gavazza et al. (2014) provide a model of the household’s decision about which cars to buy, hold, and sell in 
+the secondhand market in a framework based on Stolyarov (2002). Gillingham et al. (2022) develop a com-
+putationally tractable dynamic equilibrium model of the car market with heterogeneous consumers.
+3  There is also a literature on technological progress and improvement of durable goods focusing on other 
+goods than cars. Gowrisankaran and Rysman (2012) provides a general model of such markets, while there 
+are specific studies on e.g. computer CPUs (Gordon 2009) and computer games (Ishihara and Ching 2019).
+4  Glerum et al. (2014) provides a forecast of future demand for electric vehicles using stated preference 
+survey data. Survey data has also been studied in more sophisticated modelling frameworks (Liu and Cirillo 
+2017), and there are studies of specific characteristics such as battery capacity (Danielis et al. 2019). Arch-
+smith et al. (2022) document that the demand for electric vehicles in the US is closely related to environ-
+mental preferences, and Holland et al. (2021) build a quantitative model to analyze how different policies 
+affect the transition to electric cars. Brückmann et al. (2021) survey whether fear of not being able to resell 
+an electric vehicle reduces demand for electric vehicles, finding that consumers expect a higher resale value 
+for electric vehicles than conventional cars.
+
+
+===== [PAGE 5] =====
+
+1787
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+the most from the subsidy. There is also a literature on provision of incentives to replace 
+polluting cars with newer varieties.5
+Our first contribution is to present empirical results that indicate that the price paths of 
+goods that have a large technological improvement each year is different than for goods 
+that do not have large technological improvements from year to year. Second, we contrib-
+ute to the state of knowledge on the electric vehicle market. Investigating the price path of 
+electric vehicles during the lifetime with information from the most mature electric vehicle 
+market in the world has not been done before and is relevant since this is a technology that 
+probably will be phased into the car market globally the coming decade. Third, we inform 
+the estimation of the cost of climate policy since valuation of the used low-carbon technol-
+ogy is part of the cost.
+The structure of the rest of the paper is as follows. First, we give background informa-
+tion about the car market in Sect. 2. In Sect. 3 we present our theoretical framework that 
+we use to make a hypothesis about the cause of the findings. Further, we present the data, 
+descriptive statistics and the empirical strategy in Sect. 4. In Sect. 5 we present and discuss 
+the results and in Sect. 6 we conclude.
+2  Background on the Car Market
+An extraordinary technology shift is expected to happen in the car market. Both the EU 
+and California aim to only sell zero emission passenger cars from 2035 and on wards. A 
+car lasts for 15–20 years. For the car fleet to transition to zero emission vehicles, the market 
+share for zero emission vehicles among the new cars sold need to increase first. A large 
+part of this shift has already happened in the Norwegian car market over the last decade. 
+The share of different types of vehicles sold in Norway from 2011 to 2021 can be seen in 
+Fig. 1a. From having 96% market share in 2011, gasoline and diesel vehicles have plum-
+meted to a 10% market share. Electric vehicles have increased from a 1.5% market share in 
+2011 to 57% by June 2021.6
+The high sale volumes of new electric vehicles extends into the secondhand vehicle 
+market, but naturally there is some delay. The fuel share of the secondhand vehicle mar-
+ket in Norway in 2011–2021 can be seen in Fig. 1b, where we for each year show the fuel 
+share of all cars that are below 10 years old that are advertised on the web platform finn.
+no.7 The share of electric vehicles hits 1% in 2014, and reached 23% by June 2021. The left 
+part of the graph for new vehicles (Fig. 1a) from 2011 to 2017 looks similar to the right 
+part of the graph for used vehicles from 2014 to June 2021 (Fig. 1b).
+The sale shares of electric vehicles in the USA, Korea and Canada in 2021 are equal 
+to the sale shares of new electric vehicles in Norway about ten years ago (IEA 2022).8 
+5  Adda and Cooper (2000) present a theoretical model with simulations to study the effect of a subsidy 
+program in France. Li et al. (2020) and Mian and Sufi (2012) provide an analysis of the Cash-for-Clunkers 
+program whereas Guan (2021) analyze the CARS program, both in the US. Chen et al. (2021) examine the 
+effect of a subsidy program to fuel-efficient cars in China, while Springel (2021) investigates whether subsi-
+dies to electric vehicles or charging stations are most important.
+6  Note that we do not include plug-in hybrids in the electric vehicle category. When we refer to electric 
+vehicles, this is battery electric vehicles. For battery electric and plug-in hybrids the sale share in 2021 
+(until June) is 80%.
+7  We use the term fuel also about electric vehicles, all though strictly speaking electricity is not a fuel.
+8  Note again that this is battery electric vehicles, excluding plug-in hybrids.
+
+
+===== [PAGE 6] =====
+
+1788
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Globally the sale share of electric vehicles in 2021 is equal to the sale shares in Norway in 
+2013, while China and Europe are ahead of the USA and have sale shares for electric vehi-
+cles in 2021 equal to the sale shares in Norway in 2013–2014 (IEA 2022). The Netherlands 
+have sale shares for electric vehicles in 2021 that are equal to the Norwegian sale shares 
+in 2017 (IEA 2022) while Iceland has sale shares for electric vehicles in 2021 that match 
+the Norwegian 2018 numbers (The Norwegian Electric Vehicle Association 2022b). Thus, 
+these markets are less than 10 years behind Norway in the electric vehicle roll-out.
+Driving range has increased considerably since the market of electric vehicles started to 
+grow in the beginning of the 2010s. In addition, comfort of electric vehicles has increased 
+and the variety of vehicle models available has expanded. In Fig. 2 we see the number of 
+Fig. 1   Sale shares by technology for new and second hand cars in the Norwegian market 2011–2021. Data 
+for 2021 covers January–June
+Fig. 2   Number of available electric vehicle models for sale. Data for 2021 is as by June 2021. Large vehi-
+cles are defined as station wagon, SUV, pickup and multipurpose vehicles. Small vehicles are sedan, hatch-
+back, coupe and cabriolet. These are models that are imported by the car manufacturers official seller net-
+work. Imported models from other actors are not included here
+
+
+===== [PAGE 7] =====
+
+1789
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+electric vehicle models available in the Norwegian market until June 2021. The black line 
+is the total number of electric vehicle models available, while the dotted line is the number 
+of large electric vehicle models available. We see that around 50 electric vehicle models 
+are available in the Norwegian car market. As a comparison there are 153 different models 
+available in 2020 for gasoline vehicles. Thus, the electric vehicle market is maturing, but it 
+is not fully mature yet.
+3  Theoretical Framework
+There are several explanations for why prices of cars decline over time. One obvious expla-
+nation is depreciation. Our study encompasses this effect, but the main focus is on the 
+effect of technological progress. Gasoline vehicles is a mature technology where we expect 
+technological progress to be slower than for electric cars. To fix ideas on the effect of these 
+two factors, we present a simple version of Stolyarov’s (2002) model tailored to the sec-
+ondhand market for cars. This is a dynamic model with an infinite time-horizon for the 
+consumers. We focus on the steady state of the model, i.e. the situation where the number 
+of buyers and sellers of new and used cars is constant over time.
+A car has a characteristic x we refer to as its quality. The market consists of a continuum 
+of consumers each described by a parameter h which indicates their valuation of cars. The 
+parameter h follows a distribution over some interval Ω ⊆ℝ+ with cumulative distribution 
+function F. We assume no holes and no mass points. A consumer with characteristic h has 
+an instantaneous utility over cars of quality x and consumption c given by
+where consumption is the income not spent on car purchases. For simplicity and without 
+loss of generality, utility from other consumption is disregarded in what follows. Consum-
+ers have a common discount factor 훽∈(0, 1).
+Cars last for two periods. In the first period, they provide a quality xn . The second 
+period, they deteriorate and provide quality xu = 휇xn with 휇∈(0, 1) . After two periods, the 
+car provides no further benefit.
+3.1  The Market for Cars Without Technological Progress
+Consider first the market for cars that do not have technological progress. This can be 
+seen as conventional cars. The technology in this market is mature, and a new car has 
+the same utility characteristic xn every period. New cars are sold at some exogenously 
+given price pn . This could correspond to a small country that acts as a price taker in the 
+global market for cars or a competitive car industry with constant returns to scale. Used 
+cars are traded in the secondhand market at a price pu.
+Assume initially that everybody needs a car. Consumers in the market have three 
+options. They can each period buy a new car and sell it after one period, they can buy 
+a new car and drive it for two periods, or they can every period buy a used car. Let 
+UN , UK , and UO denote the utility of these options. Notice that the K group has no 
+impact on the market for secondhand cars except from being an outside option. The 
+main reason for keeping a car throughout it’s lifetime rather than either always buying 
+new or secondhand cars may be transaction costs. To avoid having to model transaction 
+costs explicitly, we assume that consumers can commit to a two period strategy. Then 
+(1)
+U = xh + c,
+
+
+===== [PAGE 8] =====
+
+1790
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+consumers with moderately strong preference for new cars will chose the intermediate 
+strategy, which acts as a mixing strategy.
+We have
+The utilities as function of h are illustrated in Fig. 3.
+Consumers, differentiated though their index h, then choose the option N, K, or O 
+that suits their preferences the best. We solve the model by letting consumers make a 
+plan for two periods. The outcome is, however, dynamically consistent so no consumer 
+would like to change her mind in the second period. Whenever the price of secondhand 
+cars is below the price of new cars ( pu < pn ), consumer with h = 0 prefers O over K 
+and K over N. As the slope of the utility functions is steeper for the latter two, however, 
+consumers with high valuation of car quality (high h) chooses option N, consumers with 
+intermediate h chooses option K, and low valuation consumers choose option O. Spe-
+cifically, there are levels h and ̄h so consumers with h < h chooses O, consumers with 
+h < h < ̄h chooses K, and consumers with h > ̄h chooses N. The parameters are defined 
+by indifference, so
+yielding
+Equilibrium in the market for secondhand cars requires that pu is chosen so the number 
+of sellers and buyers of secondhand cars, i.e. the groups N and O, are equal. Using the 
+assumption that the quality of cars deteriorate by a factor 휇 so xu = 휇xn , this yields the 
+equilibrium condition
+Implicit differentiation of this expression yields
+Hence, as we should expect, if the quality of a car retained after a period increases, the 
+price of secondhand cars also increases. It could also be the case that some parameters of 
+the model are unknown to the consumer. Particularly the quality of a used car may be chal-
+lenging to observe, as explored e.g. in the famous market for lemons (Akerlof 1970). This 
+(2)
+UN = xnh −pn + 훽(xnh −pn + pu)
+(3)
+UK = xnh −pn + 훽xuh
+(4)
+UO = xuh −pu + 훽(xuh −pu)
+xuh −pu + 𝛽(xuh −pu) = xnh −pn + 𝛽xuh
+xn̄h −pn + 𝛽(xn̄h −pn + pu) = xn̄h −pn + 𝛽xūh
+h = pn −(1 + 𝛽)pu
+xn −xu
+̄h = pn −pu
+xn −xu
+.
+(5)
+F
+(pn −(1 + 훽)pu
+(1 −휇)xn
+)
+= 1 −F
+( pn −pu
+(1 −휇)xn
+)
+(6)
+𝜕pu
+𝜕𝜇=
+f(
+h)
+h + f
+(̄h
+)̄h
+(1 + 𝛽)f(h) + f(̄h)xn > 0.
+
+
+===== [PAGE 9] =====
+
+1791
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+would imply that a risk averse consumer achieves lower ex ante utility from a secondhand 
+vehicle, and this could be modelled as a higher quality degradation factor 휇.
+For the case of electric cars, there is a worry that the battery capacity is declining over 
+time. Usually, batteries will lose one to two percent of their capacity each year (Nichols 
+2022), but this depends on how the car is used and charged. There may also be a popular 
+belief that battery degradation is stronger than it actually is. In the model, we can model 
+battery degradation as 휇 being lower for electric cars than for gasoline cars, and hence hav-
+ing a price that declines faster. With risk averse consumers, this would also be the case if 
+there is higher uncertainty about the degradation of electric vehicles than gasoline vehicles.
+So far in the analysis, we have assumed that all consumers need a car, hence implicitly 
+that the utility of not owning a car is sufficiently low. In many settings, other means of 
+transportation can be a suitable alternative. To include this in the model, we can introduce 
+an outside opportunity of not owning a car yielding a utility level U . A full analysis of this 
+case can be found in Appendix A.1. This change to the model does not change any quali-
+tative insights from the model, so to maintain simplicity we disregard the presence of an 
+outside opportunity for the rest of the paper.
+The solution studied above is a steady state where the price of secondhand cars remains 
+stable. This is a reasonable description of a mature market. However, at the first introduc-
+tion of cars to the market, there were of course no secondhand car initially. Subsequently 
+the economy converged to an economy where the three groups N, K, and O obtained stable 
+sizes and hence that prices stabilized. We do not think that this dynamic is particularly 
+enlightening to study formally.
+Fig. 3   Utility of various car ownership strategies by h 
+
+
+===== [PAGE 10] =====
+
+1792
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+3.2  The Market for Cars with Technological Progress
+Consider now a market for cars with technological progress, i.e. that the utility of a new 
+car is increasing over time. This market can for example be the case of electric cars. The 
+technological progress can be the general comfort of driving the car, but maybe more 
+relevant is the car’s driving range and battery capacity. We use this extension to study 
+the market for electric cars and compare the market for secondhand electric and conven-
+tional cars. For analytical tractability, we disregard interaction between the two markets.
+To account for technological progress, we assume that the utility characteristic xn of 
+a new car increases by a rate 𝛾> 1 every period. Seen from a specific period where new 
+cars have quality xn , next period’s new cars have quality 훾xn whereas new cars last 
+period were sold with quality xn
+훾 . We still maintain the assumption of a constant price pn 
+of new cars and study how the price of secondhand cars depend on the rate of techno-
+logical progress 훾.
+This implies two changes for the consumers’ choice of car ownership option. Con-
+sumers always buying new cars (N) face an improved car technology next period, 
+increasing their willingness to sell their used car on the secondhand market. Consumers 
+always buying used cars (O) face an obsolete used car in every period, reducing their 
+utility of the strategy. The new utilities of the three options become
+This yields the cut offs
+and the equilibrium condition becomes
+An increase in the rate of technological progress initially reduces the utility of the 
+O option and increases the utility of the N option as illustrated in Fig. 4. The utility 
+profile of options N and O shifts to UN′ and UO′ . This leads to reductions in both h and 
+̄h to levels h′ and ̄h′ . The first effect leads to reduced demand for secondhand cars, the 
+second effect to increased supply. To maintain equilibrium, the price of used cars has to 
+decrease. Specifically, we show in Appendix A.2 that
+(7)
+⎧
+⎪
+⎪
+⎨
+⎪
+⎪⎩
+UN = xnh −pn + 훽[훾xnh −pn + pu]
+UK = xnh −pn + 훽휇xnh
+UO = 휇
+훾xnh −pu + 훽(휇xnh −pu).
+h = pn −(1 + 𝛽)pu
+(
+1 −𝜇
+𝛾
+)
+xn
+̄h =
+pn −pu
+(𝛾−𝜇)xn
+(8)
+F
+⎛
+⎜
+⎜
+⎜⎝
+pn −(1 + 훽)pu
+
+1 −휇
+훾
+
+xn
+⎞
+⎟
+⎟
+⎟⎠
+= 1 −F
+ pn −pu
+(훾−휇)xn
+
+
+
+===== [PAGE 11] =====
+
+1793
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+To see how the speed of technological progress 훾 affects the size of the secondhand market, 
+we can study d̄h
+d𝛾 . As shown in Appendix A.2, the total effect of increased technological pro-
+gress on the cut-off for always purchasing a new car can be written as
+As (1 + 𝛽)𝛾̄h > 𝜇
+𝛾h , we get d̄h
+d𝛾< 0.
+The increase in 훾 increases the utility of new cars and hence tends to reduce ̄h as more 
+consumers enter into the N segment. This is the effect illustrated in Fig. 4. To maintain 
+equilibrium, the fraction of consumers who always buy used cars (U) increase equiva-
+lently, whereas the fraction of consumers who buy new cars and stick with them (K) 
+declines. This is partially offset by a reduction in pu as it increases the relative price of 
+a new car. This effect, however, is a consequence of the first effect and hence cannot 
+dominate.
+This finding is intuitive because the utility of owning a new car increases with techno-
+logical progress and therefore more people than without technological progress decide to 
+not stick with the car they bought for two periods, but rather decide to buy a new car each 
+period. These are the consumers with quite high values of h, the utility weight on the car’s 
+quality.
+(9)
+dpu
+d𝛾= −x0
+f(h)h 𝜇
+𝛾+ f(̄h)̄h
+f(h)(1 + 𝛽)(𝛾) + f(̄h)
+< 0
+d̄h
+d𝛾= −
+f(h)
+(𝛾−𝜇) ×
+(1 + 𝛽)𝛾̄h −𝜇
+𝛾h
+f(h)(1 + 𝛽)𝛾+ f(̄h)
+Fig. 4   The effect of technologi-
+cal progress on the utility of car 
+ownership strategies. The dashed 
+lines indicate the shift in utility 
+resulting from an increase in the 
+rate of technological progress 훾 . 
+Subsequent price effects are not 
+shown
+UO
+UK
+UN
+h
+U
+UO'
+UN'
+h
+h
+h'
+h'
+
+
+===== [PAGE 12] =====
+
+1794
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+With the price decline for used cars, consumers who in the market without technologi-
+cal progress would buy a new car in the first period and stick with it for the next, decide to 
+rather buy used cars in both periods. These are the consumers with quite low levels of h. 
+The model therefore predicts larger turnover and a larger secondhand market for cars when 
+there is large technological progress.
+3.3  Multiple Vehicle Technologies in the Same Market
+The market we study empirically consists of cars using different fuel types, where our main 
+focus is the difference between electric and gasoline cars. In the model above, we model 
+these as cars where technological progress is still ongoing (immature technologies) and 
+models where technological progress to a larger extent has stagnated (mature technolo-
+gies). Hence, the consumer has a choice not only between a new and a secondhand car, but 
+also between models where technological progress differs. We do not present a full model 
+of this case but discuss how the preceding framework can be used to understand it.
+If the models with technological progress maintain a constant rate of technological 
+improvement, they will eventually completely fill the market at the expense of cars without 
+technological progress. A complete model would have to take this into account, modelling 
+the technological progress as a transition towards a steady state with mature technology 
+that remains at a constant level. We limit ourselves to an informal discussion.
+To model that there are consumers preferring both types of cars, we extend the model to 
+the utility function of driving a car with immature technology to
+where 휖 , the net utility of the immature technology compared to the mature technology, has 
+a distribution in the population. In general, 휖 can take on any real value indicating either a 
+preference in the direction of mature or immature technologies. This term can be related to 
+technology specific preferences, characteristics such as noise or emission level as well as 
+social image associated with the technology. The utility of driving a car with mature tech-
+nology remains the same. The prices of new cars of both types are given exogenously. We 
+now find six choice sets for consumers. Consumers can purchase a new car every period 
+and sell it in the secondhand market at the end of the period (N), purchase a used car in the 
+secondhand market every period (O), or purchase a new car every second period and keep 
+it for two periods (K). In all three cases, the consumer can buy a car with mature (m) or 
+immature ( 
+¬m ) technology.
+As above, an interesting experiment is to study the effect of increased technologi-
+cal progress 훾 on the various prices. As for the case with only immature technologies, 
+an increase in 훾 makes it more attractive to purchase an 
+¬m type car, moving consumers 
+from K ¬m to N ¬m . Second, the increase in 훾 makes new 
+¬m cars more attractive than new 
+m cars, moving some consumers from Nm to N ¬m . Both effects increases the supply of 
+secondhand 
+¬m cars. The second effect also reduces the supply of secondhand m cars. To 
+maintain equilibrium in the markets for secondhand cars, we need increased demand of 
+secondhand 
+¬m cars. Hence, the price of secondhand 
+¬m cars goes down.
+We should also see an increase in the price of secondhand m cars as their supply is 
+reduced. Hence as long as electric cars undergo more rapid technological progress than 
+gasoline cars, we expect the price of secondhand electric cars to decrease relative the 
+price of secondhand gasoline cars.
+U = xh + c + 휖,
+
+
+===== [PAGE 13] =====
+
+1795
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+4  Data, Descriptive Statistics and Empirical Strategy
+4.1  Data
+In our analysis we use a novel data set from the largest web platform for secondhand vehi-
+cles in Norway, finn.no, which accounts for close to 90% of the secondhand car market. 
+This is the first time the data is used for this kind of analysis. Finn.no provided us with the 
+data.
+The data cover the period January 2011 to June 20 2021. We start our analysis in 2011 
+because the Nissan Leaf was introduced to the Norwegian market at the end of this year.9 
+Nissan Leaf being the first modern electric five-seat vehicle to be produced for the mass 
+market from a major manufacturer, this corresponds to the start of the mass market for 
+electric cars in Norway.
+We analyze passenger vehicles sold as new in 2011 or later. This means that we only 
+have vehicles that are 10 years or younger in our analysis. The total number of observations 
+in the data is 5.5 million, yielding on average 500,000 ads for secondhand vehicles on finn.
+no each year. Around 2.9 million cars are older than 10 years and around 1.2 of the 2.6 
+million that are left have been advertized with less than 3 month in between, and we define 
+them as duplicates and only use the newest ad. Then the total number of observations is 1.4 
+million. The vehicles that are gasoline or electric vehicles and 10 years or younger are in 
+total around 545,000 observations. The number and shares of vehicles of the different fuels 
+can be seen in Appendix Table 6.
+In addition to the data from the online platform, we have list prices for new vehicles 
+from The Norwegian Road Federation (OFV). The Norwegian Road Federation is a mem-
+bership organization for car importers, transport companies and other actors within trans-
+portation, and have a role as producer of statistics about the car sale in Norway. They also 
+gather price information from the car importers and delivers the official list prices to the 
+tax authorities that use them to calculate wealth tax. The data from The Norwegian Road 
+Federation also categorizes the vehicles into different body style categories.10
+Further, we have information about the driving range of the electric vehicles, collected 
+from the Norwegian Electric Vehicle Association’s website that informs about the different 
+electric vehicle models (The Norwegian Electric Vehicle Association 2022a).11 We also 
+have access to a survey of Norwegian electric vehicle owners conducted by the Norwegian 
+Electric Vehicle Association. There is around 15,000 respondents in the survey.12 Addi-
+tional details about the data and the variables can be found in Appendix B.
+Notice that information on some variables is incomplete. From the platform data, we 
+have the ask prices, but not the price the vehicle is actually sold for as there can be hag-
+gling over the prices. However, measurement error in the outcome variable is generally 
+9  Nissan Leaf was first sold to the Japanese and American market in the end of 2010.
+10  The vehicle body is the main supporting structure of the car (such as windows, doors, engine cover, roof 
+and luggage cover) and defines the shape and the size of the car. The body style can be used to classify the 
+car market into different segments or size classes. However, in Europe there is no official definition of size 
+classes based on objective criteria. See Appendix B.2.3 for more details on this issue.
+11  The standard for measuring driving range is WLTP and if NEDC is the only number available, we 
+reduce the driving range by a factor of 0.65 (Power 2020). This is an important number and we do robust-
+ness check with a factor of 0.75, based on The Renault Group (2020).
+12  2021: 15,464 respondents, 2020: 14,170 respondents, 2019: 16,216 respondents.
+
+
+===== [PAGE 14] =====
+
+1796
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+unproblematic as long as this is not a systematic measurement error. Further, we don’t 
+know whether a transaction has actually taken place, but for most it probably has. Except 
+for rather unlikely events, e.g., seller changes their mind and suddenly wanting to keep the 
+car, a transaction is by far the most likely reason for the ad being removed.
+Each ad is one observation each month. The average time to sell a car on finn.no is less 
+than a month (The Norwegian Electric Vehicle Association 2021a). We remove duplicate 
+data entries based on a combination of the chassis number, dealer type, effect, engine vol-
+ume, fuel, main color, make, model, municipality of the seller, transmission wheel drive, 
+year model, the year the vehicle is first registered and number of seats. If the same car is 
+advertized with 3 months or less interval, it is defined as a duplicate. This means that if the 
+same car is advertized two months in a row, only one of the ads is part of the analysis. We 
+use the ad that is newest in the analysis, because the price of the newest ad is probably the 
+closest to the deal price.
+If the car is advertised with the same price more than three times, even if it is advertized 
+with some time interval it is likely that the car is not sold at all. Therefore, observations 
+that are duplicates and the price is the same for three ads are taken out of the analysis. Note 
+that we have already taken out the observation of the analysis if a car is advertized with 
+less than 3 months in between each ad, no matter if the price is the same or not.
+Most cars come in different trims, which are different versions for each models with 
+different equipment level. We do not have consistent data on trim levels of the model that 
+is advertised. As the price of the new vehicle can vary a lot depending on trim, but also 
+e.g. battery capacity, engine size and body style, the price of the new vehicle can have a 
+large interval. We take this into account in one empirical specification by removing models 
+where the relative difference between the maximum and the minimum price of one model 
+exceeds 1.5. This does not change the result much.
+4.2  Descriptive Statistics
+In the analysis we compare electric vehicles and gasoline vehicles. Cars of both fuel types 
+are maximum 10 years old. There are roughly 367,000 gasoline vehicles and 179,000 
+electric vehicles in the sample, which means that the share of electric vehicles in the sam-
+ple is around 1/3 and gasoline vehicles around 2/3 (see Table 1). Among the gasoline 
+vehicles, about 2/3 are small and 1/3 is large, while for electric vehicles there are fewer 
+large vehicles available (11% of the sample), which is natural when we recall that the 
+supply of large electric vehicles has been limited up until recently.13 In 2011 there are 
+32 times more gasoline vehicles as electric vehicles. By 2016, this number is reduced 
+to 4, while there are more electric vehicles than gasoline vehicles sold used in 2021 (see 
+Table 7 in Appendix C).
+Electric vehicles in the sample are younger than the gasoline vehicles. Average age is 
+2.7 for electric vehicles, while for gasoline vehicles the average age is 3.5, see more details 
+in Table 8. The number of secondhand vehicles that are from 2011 or later that are adver-
+tised on finn.no every year can be seen in Table 7 in the Appendix. 56% of the electric 
+vehicle sample has range below 200 km and only 16% 400 km or above (Table 2). The 
+13  Small cars are defined as sedan, hatchback, coupe and cabriolet, while large cars are defined as station 
+wagon, SUV, pickup and multipurpose vehicles. We have done this categorization.
+
+
+===== [PAGE 15] =====
+
+1797
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+mean driving range each year is lower for the used vehicles than the new vehicles, which 
+underlines the fast technological development, see Appendix Table 9.
+The market for gasoline vehicles are more varied than the market for electric vehicles, 
+which is natural when we recall that there are fewer electric models available than gasoline 
+models. The secondhand electric vehicle market is dominated by Nissan Leaf with about 
+1/5 of the market. In Appendix Table 11 we see the top ten models in the secondhand mar-
+ket for electric and gasoline vehicles.
+4.3  Empirical Strategy
+A car i is sold new (time t = 0 ) at price Pi0 which we treat as exogenous. We assume that 
+the resale value follows a process so that at time t it is
+where Ai is a car specific characteristic to be detailed below. We assume that secondhand 
+vehicle prices decay exponentially with an annual rate 1 −Bi . The parameter 휇 is the pass-
+through of the new price, and 휖it is the stochastic error term.
+In order to find the annual percentage drop in prices, we take the logarithm of equa-
+tion (10) which leads us to the following equation where lower case letters denote logs of 
+variables:
+(10)
+Pit = AiBt
+iP휇
+i0e휖it,
+(11)
+pit = ai + 훽it + 휇pi0 + 휖it
+Table 1   Number of vehicles 
+based on size
+Small: Sedan, coupe, cabriolet and hatchback
+Large: SUV, station wagon, multipurpose vehicle and pickup
+Gasoline
+Electric
+Gasoline (%)
+Electric (%)
+Total
+366 586
+178 866
+67
+33
+Small
+249 307
+155 278
+68
+87
+Large
+112 077
+20 131
+31
+11
+Not categorized 
+into size 
+classes
+5202
+3457
+1
+2
+Table 2   The electric vehicle 
+sample
+Number
+Share 
+(%)
+Mean age
+Range below 200 km
+100 124
+56.0
+3.36
+Range [200–300 km)
+18 989
+10.6
+1.45
+Range [300–400 km)
+30 618
+17.1
+2.32
+Range [400–500 km)
+18 231
+10.2
+1.09
+Range equal to or over 500 km
+10 369
+5.8
+1.64
+Range missing
+535
+0.3
+3.65
+
+
+===== [PAGE 16] =====
+
+1798
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+The key parameter of interest is 훽i , the annual percentage decline in prices.14 As we only 
+observe each vehicle at one point in time (when it is sold in the secondhand market), the 
+specific 훽i for each car is not observable. Instead we exploit that vehicles are sold at differ-
+ent ages in the secondhand market and estimate a fuel-specific 훽f . The rate is potentially 
+specific within other categories than the fuel, such as the make, the driving range of the 
+electric car, the price category of the new vehicle, the size and the vintage.
+The variable ai measures the technological level of cars of make i. Technological 
+level and technological progress are difficult to measure directly. Rather we include 
+a composite measure of several characteristics, including range for electric vehicles, 
+mileage, make reputation, fuel and size. First, by including a fuel specific coefficient 
+( 훾f ) on log mileage, mit , at the time the vehicle is sold in the secondhand market. Sec-
+ond, we add fixed effects for make ( 휃m ), size (measured by body style or weight, 휁s ) 
+and fuel times year ( 훼t×f).15 As the market for electric vehicles are changing each year, 
+it makes sense to have a different control for each fuel each year. For instance is the 
+supply of fast charging stations increasing each year and we control for that with fuel 
+times year fixed effects.
+We also control for type of dealer by adding dealer fixed effects ( 휔d ). There are three dif-
+ferent dealer categories: private seller, professional importer of that specific brand and pro-
+fessional car sellers, and there might be selection into what cars are sold from which type of 
+seller.16 Cars that are similar in age, fuel, make, model and mileage, but are sold by different 
+types of dealers, might be different and we control for this. There is a statistically significant 
+difference between the price fall of the different sellers, as shown in Table 22 in Appendix D, 
+so we believe it is useful to control for the dealer type.
+A vehicle i of make m with fuel type f and size category s sold in year t from a dealer of 
+type d that was new in year n gets a price
+The standard errors are clustered on the make (m).
+We assume a linear annual percentage fall in prices in the main specification, but we also 
+investigate the price fall with a squared age term. In addition we investigate the secondhand 
+prices non-parametrically in Fig. 10.
+If price at time n, pi,n , is unknown for some reason, we introduce a dummy for missing 
+variables. This implies simply following the price path downward without information of the 
+initial price. We check whether the results are the same without the dummies (and therefore 
+without the observations without new vehicle price) in Table 26.
+We could also use the price on the same car model as new at the same time as when the 
+used car is sold, rather than when the used car was new. However, the correlation coefficient 
+between the price when the car was new and the price of the new car when the car was sold is 
+above 0.9. Therefore we use the price when the used car is new.
+(12)
+pi,t = 훽f t + 훼t×f + 휃m + 휁s + 휔d + 휇pi,n + 훾f mi,t + 휖i,t
+14  As long as 훽i is small, we have 훽i ≈ln(1 + 훽i) or 훽i = ln(Bi) ≈Bi −1.
+15  One challenge is that some car makes only make gasoline cars and some only make electric cars. How-
+ever, as make fixed effects are additive and the price decline 훽f is not make×fuel specific, this does not pose 
+a threat to identification.
+16  The share of vehicles based on seller can be seen in Appendix Table 10.
+
+
+===== [PAGE 17] =====
+
+1799
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+5  Results
+In this section we first estimate the effect age has on secondhand prices, both year-by-
+year price decline and average annual decline. Then we look at range on electric vehicles 
+interacted with age. These are our main findings. In addition we have estimated quantiles 
+instead of the mean for used vehicle prices. Further we have investigated different size cat-
+egories, new vehicle price percentiles and vintage effects. We also compare electric vehi-
+cles with diesel and other fuels, before we turn to other factors affecting the price path. At 
+the end of the chapter we discuss robustness.
+5.1  The Price Fall of Electric Vehicles Compared to Gasoline Vehicles
+In Fig. 5 we show the results from a regression with age dummies interacted with the fuel 
+type. We control for mileage interacted with fuel, new vehicle price, a dummy on those 
+with missing on mileage and new vehicle price, year × fuel fixed effects and dealer fixed 
+effects. We see that the overall picture is that while the price of secondhand gasoline cars 
+drops by about 60% after 10 years, the price fall for electric cars is even stronger at about 
+85%.
+In Table 3, we show that this holds across a range of specifications. Here, different ver-
+sions of regression equation (12) are shown. Gasoline vehicles is the baseline, and we 
+see that the annual price drop for gasoline vehicles is approximately 10–11%. The price 
+on electric vehicles fall between 4.7 and 6.4 p.p. more than gasoline vehicles, which is 
+16–17% annually. The difference between gasoline and electric vehicles is statistically 
+Fig. 5   The price path for gasoline and electric vehicles. The grey areas are 95% confidence intervals. The 
+standard errors are clustered on make. There are 62 clusters. The regression includes year times fuel fixed 
+effects and dealer fixed effects, and we control for mileage, vehicle price when new and whether the new 
+vehicle price or mileage is missing
+
+
+===== [PAGE 18] =====
+
+1800
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+significantly at least on a 5% level in all specifications, giving a clear indication that elec-
+tric cars fall more quickly in price than gasoline cars.
+In column (1) we control for year × fuel fixed effects, which absorb influences of all 
+omitted variables that differ from one year to the next for each fuel type but are constant 
+over all vehicles of the same fuel type in each year. This can for instance be development of 
+fast charging stations or other year specific events for electric vehicles or for gasoline vehi-
+cles. In addition, we control for dealer fixed effects in all specifications, except in column 
+(5), where we show the results without dealer fixed effects.
+In column (2) we add body style fixed effects to year × fuel fixed effects.17 The 
+difference between gasoline and electric vehicles does not change much compared to 
+column (1).
+In column (3) we add make fixed effects to the year × fuel fixed effects. The dummy 
+variables for the makes absorb the influences of all omitted variables that differ from make 
+to make, but are constant over time. The difference between gasoline and electric vehicles 
+reduces by 1.3  percentage points compared to column (1), indicating that the price fall var-
+ies between different makes and when only looking at the price fall within each make, the 
+price fall on electric vehicles is lower (but slightly higher for gasoline vehicles). However, 
+the difference in price fall between electric and gasoline vehicles is still statistical signifi-
+cant. We investigate the price fall for specific makes further in Appendix Fig. 14 and in 
+Appendix Sect. D.1.
+In column (4), we take out the models that have a large variation in new vehicle prices 
+between the different variants of the model. This reduces the sample from around 550,000 
+to around 340,000. It could be that the models that vary a lot in prices as new also have 
+other characteristics that influence the price decline, so this is not our main specification, 
+but a robustness test. We see that the coefficients do not change a lot and that the difference 
+is still statistically significant.
+In column (5), we show the results without controlling for dealer fixed effects. The dif-
+ference between electric and gasoline vehicles stay in the same magnitude and remain sta-
+tistically significant.
+We see that mileage is not an important factor for the price of used gasoline vehicles, 
+and even less important for electric vehicles, when age is taken into account. Each percent-
+age increase in mileage is associated with a price fall of around 0.07% for gasoline vehi-
+cles. This might be due to age and mileage being closely correlated (see Appendix Fig. 9). 
+For electric vehicles mileage is not statistically significant in any of the specifications in 
+Table 3, but in other specifications shown in the Appendix.18 However, the magnitude of 
+the effect is small.
+Finally, the price decline appears to increase over time. The price fall curve depicted 
+in Fig.  5 seems to be concave and in Table  12 in Appendix D we investigate whether 
+the concavity is statistically significant by adding an age squared term. The concavity is 
+18  Specifically this is Table  12 where age is squared, Table  13 without the electric vehicles with range 
+below 200 km, Table 14 with quantile regression, Table 16 where we investigate vintage effects, Table 17 in 
+the highest price category, Table 18 when we only look at those cars that are new in 2017–2021, Table 19 
+when we only look at those cars sold in 2018–2021, Table 20 when we look at the cars aged 0–3 years and 
+Table 23 where we control for the new vehicle price the year the vehicle was sold, not the year the vehicle 
+was new.
+17  There are eight different body style categories: sedan, hatchback, coupe, cabriolet, station wagon, SUV, 
+pickup and multipurpose vehicles, defined by The Norwegian Road Federation (OFV), see Appendix B.2.3.
+
+
+===== [PAGE 19] =====
+
+1801
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+statistically significant for both technologies, and electric vehicles are statistically signifi-
+cant more concave than gasoline vehicles.
+5.2  Range and Age
+One factor that has increased significantly over the 10 years we look into, is driving range. 
+Range can be seen as a proxy for technological development. We investigate whether the 
+price decline is different for different ranges. Figure 6 shows a version of Eq. (12) where 
+the coefficient on age is modelled as a fourth grade polynomial interacted with range. The 
+figure shows clearly that it is vehicles with range below 200 km that have the largest price 
+decline. The secondhand prices on vehicles with range over approximately 200 km decline 
+at the same level as gasoline vehicles (around 10% annually, see Table 3). However, over 
+half of the electric vehicle sample is vehicles with range below 200 km. The vehicles with 
+range from 200 km and upwards have mean age of 1.74 years, median of 1 year and the 
+highest age is 8 years. We therefore do not have a sample where those with the longer range 
+than 200 km have been in the car market for many years. This is therefore an important 
+question for further investigation when the electric vehicle market has developed further.
+In Fig. 7 we see that when we take out the electric vehicles with range below 200 km 
+of the analysis, the difference in price decline between gasoline and electric vehicles is 
+no longer present. In Appendix Table 13 we have the same sample, and the electric vehi-
+cles actually decline less in price than gasoline vehicles. However, the comparison between 
+electric and gasoline vehicles might not be of same-sized cars, as electric vehicles with 
+range below 200 km are small cars, while for gasoline vehicles the sample is all sizes.
+5.3  Additional Findings
+Our main study is on the marginal effect of age on prices by fuel type. It is also interesting 
+to look at the whole distribution of prices conditional on age. To do so, we show condi-
+tional quantile regression on the 10th, 25th, 50th, 75th and 90th percentile in Appendix 
+Table 14. The estimates show that the distribution of prices for gasoline cars conditional 
+on age shifts downward with age. But as the coefficients at all percentiles are fairly sim-
+ilar, it seems the distribution of prices remain similar. For electric cars, the conditional 
+distribution shifts downward and more strongly than for gasoline cars. Moreover, we see 
+that the coefficients on age are numerically larger for the lower percentiles than the higher 
+percentiles. This indicates that the distribution of prices is widening in age. As each of 
+the reported estimates have non-overlapping confidence intervals at conventional levels of 
+confidence, we can also reject statistically that the distribution remains unchanged. Notice 
+that price and range are also highly correlated, but as gasoline cars don’t have a meaningful 
+range this is not included in these regressions.
+We compare different size categories based on either body style or weight in Appendix 
+Table 15. Large electric vehicles do not have a statistically significant larger price fall than 
+gasoline vehicles. Depending on how size is defined, it might seem that large electric vehi-
+cles have a smaller price decline than large gasoline vehicles. However, this is uncertain as 
+an electric vehicle with the same size as a gasoline vehicle weigh more due to the batteries, 
+but it is uncertain exactly how much more.
+We investigate whether there are vintage effects. With vintage effects we mean that 
+there are different price decline pattern for the vehicles that are new in the first part of the 
+
+
+===== [PAGE 20] =====
+
+1802
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Table 3   Comparing gasoline and electric vehicles
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make, in parentheses. There are 62 clusters in all but specification (4), where there are 44 clusters.
+Gasoline vehicles are the baseline. Year fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on those observations that have missing mileage and those that have missing new car price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+(5)
+Age
+− 0.105***
+− 0.103***
+− 0.109***
+− 0.112***
+− 0.111***
+(0.00462)
+(0.00433)
+(0.00404)
+(0.00546)
+(0.00444)
+Electric × Age
+− 0.0638***
+− 0.0632***
+− 0.0468**
+− 0.0567***
+− 0.0584***
+(0.0188)
+(0.0193)
+(0.0198)
+(0.0171)
+(0.0194)
+Ln new price
+1.068***
+1.046***
+0.998***
+1.088***
+1.062***
+(0.0242)
+(0.0302)
+(0.0305)
+(0.0290)
+(0.0238)
+Ln mileage × Gasoline
+− 0.0770***
+− 0.0776***
+− 0.0757***
+− 0.0608***
+− 0.0775***
+(0.00773)
+(0.00657)
+(0.00761)
+(0.00542)
+(0.00772)
+Ln mileage × Electric
+0.0170
+0.0190
+− 0.00448
+0.0123
+0.00939
+(0.0121)
+(0.0124)
+(0.00855)
+(0.0145)
+(0.0120)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Y
+N
+Body style fixed effects
+N
+Y
+N
+N
+N
+Make fixed effects
+N
+N
+Y
+N
+N
+Taken out those with large variation in new vehicle price 
+and those without new vehicle price
+N
+N
+N
+Y
+N
+Observations
+545,452
+545,452
+545,452
+336,220
+545,452
+R2
+0.859
+0.861
+0.879
+0.902
+0.857
+
+
+===== [PAGE 21] =====
+
+1803
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+period (2011–2015) than the vehicles that are new in the second part (2016–2021). The 
+results are shown in Table 16. The price decline of electric vehicles compared to gasoline 
+vehicles in the first period is around 1 percentage point higher than in the second period 
+(column 1), and within each make the difference between vintages is 1.5 percentage points.
+We split the sample into different subgroups in order to investigate whether and how 
+the price decline difference between the two technologies are present in different sub-
+groups. We compare vehicles in different price categories when they were new in Appen-
+dix Table 17.19 For the vehicles that are priced when new equal to or above the median 
+or equal to or above the 75th percentile the electric vehicles decline less in price than the 
+gasoline vehicles. For vehicles that are below the median in new vehicle price the electric 
+vehicles decline more than gasoline vehicles. This can be due to range, but also other fac-
+tors. We see in Table 9 that there is a large difference in range for the cars that are above 
+and below the median.
+We also group the sample into different time periods based on when they were new 
+(Appendix Table 18), when they were sold (Appendix Table 19) and different age groups 
+(Appendix Table 20). The difference in price fall between gasoline and electric vehicles is 
+Fig. 6   The price decline for electric cars with different driving range. This is the regression in Eq. (12) 
+with a fourth grade polynomial of range interacted with age. Range is WLTP standard. If NEDC is the only 
+available range, we reduce the range by a factor of 0.65 (Power 2020). The grey areas are 95% confidence 
+intervals. We start the graph where the sample range start: 76 km range. There are 28 observations with 
+663 km range. The rest of the sample has a maximum of 564 km. Therefore the graph ends at 564 km. We 
+do a robustness check for the factor converting between NEDC and WLTP and increase it to 0.75. This can 
+be seen in Figure 11
+19  We have calculated the statistics for new vehicle price weighted by the vehicles of all fuel types that are 
+advertized on finn.no. The statistics is not differentiated by fuel.
+
+
+===== [PAGE 22] =====
+
+1804
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+statistically significant for all subgroups, except for those new in 2014–2016 and those sold in 
+2018–2021.
+5.4  Diesel and Other Fuels
+We compare electric vehicles with gasoline vehicles which is a mature technology. Diesel 
+vehicles could also be included in the analysis, but the price path of diesel vehicles will not 
+just represent vehicle technology that are mature, but a vehicle technology that policymakers 
+want to phase out, to a larger degree than gasoline vehicles. Diesel cars had a large advantage 
+from the Norwegian car tax system in 2007 to 2011, and the diesel share of the new car mar-
+ket was above 70% during this period. From 2012 the car tax system was changed in order to 
+reduce the diesel share. Because other things than being a mature technology is important for 
+the price path of diesel vehicles, they are not in the main analysis.
+We present the results for diesel vehicles and the other fuels in Table 21 in Appendix D. 
+This shows that electric vehicles fall more in price than all other fuel types, including diesel 
+vehicles. However, the difference in price drop between diesel and electric vehicles is only 
+statistically significant in some specifications.
+Fig. 7   The price path for electric vehicles with range from 200 km and upwards and gasoline vehicles. The 
+range is measured with WLTP standard. If NEDC is the only available range, we reduce the range by a fac-
+tor of 0.65 (Power 2020). The grey areas are 95% confidence intervals. The standard errors are clustered on 
+make. There are 59 clusters. The curve for electric vehicles stop at 8 years because there are no older elec-
+tric vehicles with range from 200 km and more. The regression includes year times fuel fixed effects and 
+dealer fixed effects, and we control for mileage, vehicle price when new and whether the new vehicle price 
+or mileage is missing
+
+
+===== [PAGE 23] =====
+
+1805
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+5.5  Other Factors Affecting the Price Path
+5.5.1  Battery Degradation
+Degraded batteries or a worry of degraded batteries may be a reason for the price fall on 
+electric vehicles. Degradation of batteries was a concern when the modern electric vehi-
+cles market had just started, but anecdotal evidence in the media and correspondence with 
+experts in the sector point in the direction that rapid degradation, rendering batteries use-
+less, is not a large problem (Kelleher Environmental 2019).20 However, this is a question 
+that warrants further investigation.
+The warranty that are given by the car manufacturers can give some indication of the 
+life length of batteries. Nissan has a warranty of 8 years for the vehicles sold in 2016 
+and onward,21 guaranteeing the batteries are 75% of its original state. From 2014 Tesla 
+has a warranty that the battery maintain 70% of its original state for 8 years or a kilo-
+meter stand of 160,000–240,000 km depending on the model. Hyundai Ioniq guarantees 
+8 years/200,000  km. This indicates that the car sellers are confident about the battery 
+lifetime.
+Even though the batteries last long, a 25–30% degradation of the batteries might be 
+enough to reduce the price of the vehicle, especially if the range is already quite low. 
+Whether this is the case cannot be found with the data from finn.no. To investigate the bat-
+tery question further, we have looked into a survey among Norwegian electric vehicle own-
+ers conducted by the Norwegian Electric Vehicle Association.22 For the years 2019–2021 
+they were asked whether the battery capacity in their car has become considerably lower 
+since it was new.23 Notice that the survey does not provide a clear definition of the term 
+“considerably lower”. Still it gives an indication of the state of the battery. Respondents 
+answer on a 1–5 Likert scale range, and the higher the score the better experience do the 
+consumer have with the battery.
+In Fig. 8 we see the share of respondents who experience that the battery capacity is 
+considerably lower since the car was new (answering 1 or 2 on the survey question). When 
+the car is between 0 and 3 years the share is around or below 10%. Between 4 and 6 years 
+the share is lower than 30%. Between 7 and 8 years-old the share is between 20 and 45%. 
+The 9 year-olds have shares between 50 and 60% and 10 year-olds down to 37%. However, 
+the sample size is low for the 9 and 10 year-olds (below 100 for each year).
+The mean score for 5 year-old electric vehicles is 3.4 in 2021, 3.5 in 2020 and 3.8 in 
+2019, which means that the mean score has gone down from 2019 to 2021. This can be 
+seen in Fig. 13 in Appendix D. The mean score for 8 year-old electric vehicles is 3.3 in 
+2021 and 2.9 in 2019 and 2020, which means that the mean score has gone up from 2019 
+to 2021. For nine year old cars the score is lower with 2.5 in 2021 and 2.8 in 2020, but 
+again: the sample size is low.
+20  Email correspondence with researchers at NTNU and SINTEF and phone conversation with a represent-
+ative from a car recycle company (Bilgjenvinning AS), which has 45% of the car recycling market.
+21  5 years for the Leafs between 2011 and 2015.
+22  We have not looked into whether those that answer the survey are representative of electric vehicle own-
+ers in Norway.
+23  They were also asked the question in 2018, but in that round of the survey they don’t report the year the 
+car was new so we do not know the age of the car.
+
+
+===== [PAGE 24] =====
+
+1806
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+From this information we cannot exclude the possibility that some of the price fall for 
+electric vehicles is due to some degradation of the batteries, but the information does not 
+indicate that degradation of the batteries drives the whole price fall on electric vehicles. 
+However, we can not be conclusive on this matter. Another important point is that cars with 
+short range has to be charged more often than cars with longer range. Therefore, as charg-
+ing reduces the quality of the battery, the cars with short range might have more degraded 
+batteries and as the battery technology improves, battery degradation might also reduce.
+5.5.2  Maintenance Cost
+Gasoline vehicles typically have higher maintenance cost when they are older. Besides the 
+battery degradation, this is not the case for electric vehicles, though.24 Therefore, without 
+technological change and battery degradation, electric vehicles should have a higher price 
+on the secondhand car than gasoline vehicles if the two technologies are otherwise equal.
+5.5.3  Supply Side Constraints
+There have been—and still are—supply side constrains on electric vehicles, both that the 
+models that fit the preferences of different consumers are not available and that there are 
+waiting lists on popular electric vehicles. The number of individuals on the waiting list that 
+actually end up buying the car when given the possibility is not public information. The 
+waiting lists might also be part of a marketing strategy, as simply raising the price on the 
+car would seem to be a more straightforward approach. We don’t know if and how the sup-
+ply side constrains affect the secondhand car market, but we can assume that it had a posi-
+tive effect on the price in the secondhand electric car market. Hyundai Kona, for instance, 
+has been advertised with higher price on finn.no than the price on the new vehicle, but we 
+do not know whether the vehicle is sold for this price. If waiting lists have influenced the 
+used car market, the effect is probably that the price fall on electric vehicles is lower than 
+without the waiting lists. This means that without supply side constraints the price fall on 
+electric vehicles would probably be higher, especially on large electric vehicles.
+5.6  Robustness
+We check whether the main results hold under other specifications than in Table 3. The 
+difference in price fall between gasoline and electric vehicles is statistically significant in 
+all robustness checks, except with absolute values instead of log values when we include 
+make fixed effects. We use all variables available, such as transmission, wheel drive and 
+main color. In addition, instead of using the price when the vehicle was new as control, we 
+use the new car price the year the vehicle was sold used. Especially for electric vehicles the 
+price of new vehicles might change in a non-linear way because of new models entering 
+the market and reducing prices on existing models (The Norwegian Electric Vehicle Asso-
+ciation 2021b). The price fall difference when we do not control for dealer fixed effects 
+and at the same time control for new vehicle price when the vehicle was sold is very high 
+(Table 23, column 5), indicating that the private sale of electric vehicles and gasoline vehi-
+cles is different. We also test whether the main results hold when we drop the observations 
+that are 0 years old when they are sold on finn.no. We also take out the dummies on those 
+24  See for instance Green Cars (2021).
+
+
+===== [PAGE 25] =====
+
+1807
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+that miss the control variables new vehicle price and mileage (which result in a smaller 
+sample). In addition we do the regression with absolute values, instead of log values. We 
+also show the results when clustering the standard errors differently, both with make × 
+fuel and make × the year the vehicle is new. The standard errors are as expected some-
+what smaller with more clusters, but the statistical significance stay at the same level. The 
+robustness checks are reassuring for the main result. See more details in Appendix E.
+6  Conclusion
+In this article we have investigated whether the price of electric vehicles decline faster than 
+the price of gasoline vehicles. We have found empirical evidence that they do, but only 
+those with range below 200 km. Our hypothesis is that the faster price fall on electric vehi-
+cles compared to gasoline vehicles is mostly due to faster technological development. As 
+the adoption of electric vehicles is increasing, this is relevant information for more con-
+sumers in more markets. The valuation of electric vehicles that are ten years or younger 
+in 2021 is a snapshot that might change as the improvements of the technology of electric 
+vehicles flattens out. Comparing the results of this analysis with an analysis that is done 
+2–10 years later will be interesting. It will especially be interesting to see how the price 
+path of the electric vehicles with longer range than 200 km develops. As the electric vehi-
+cles with range from 200 km and upwards is still young, we need to wait some more years 
+to get the full picture of the price path of electric vehicles with longer range. In addition, it 
+would be interesting to investigate which factors influence the vehicle price and the price 
+fall, for instance using causal forest approaches. Further, the price path of other technolo-
+gies with rapid improvements would be interesting to investigate, for instance solar power 
+and smart mobile phones.
+Our findings do not directly answer whether buying an electric vehicle is an economic sen-
+sible choice. Even if electric vehicles with less range than 200 km have fallen more in price 
+the last decade than gasoline vehicles, there are other factors than value loss that influence the 
+Fig. 8   Reported battery degradation by vehicle age. The figure shows the fraction of respondents who 
+report that they experience that the battery has degraded (score 1 or 2 out of 5) since the car was new
+
+
+===== [PAGE 26] =====
+
+1808
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+total cost of ownership of a vehicle. Electric vehicles have lower maintenance cost and lower 
+fuel cost compared to vehicles with internal combustion engine. The batteries can be reused 
+for other purposes and the car can be recycled (Kelleher Environmental 2019). In addition, 
+electric vehicles are subsidized in many countries, making new technology cheaper for con-
+sumers (IEA 2021).
+The maturity of a technology might depend on the adoption rates in combination with other 
+factors (Pathak et al. 2022, p. TS-128-129). Therefore the findings of our paper should not be 
+used as an argument for delaying the deployment of new low-carbon technologies. Rather, the 
+findings may be used to inform about the cost of implementing climate policies. The value 
+of the secondhand products matters for the total cost of ownership of the good, which again 
+matters for the cost of climate policy. The Norwegian government, for instance, has a goal that 
+“the purchase of zero-emission cars should be more economically favourable than the pur-
+chase of conventional cars” (Meld. St. 33:2016–2017). When comparing whether it is favour-
+able to buy an electric vehicle compared to a gasoline vehicle, it is important to take into 
+account also the difference in the value of the used car, not just the price of the new car. This 
+point can be transferred to other low-carbon technologies with fast technological progress. At 
+the same time, many actors are working on finding new business models for batteries that are 
+no longer in use in a car (see for instance Evyon 2022). This indicates that even if products 
+with fast technological development deteriorates faster, they are not without value.
+Appendix
+The Effect of Technological Progress
+Opting Out of Car Ownership
+In the main analysis we assume that all consumers need a car, hence implicitly that the utility 
+of not owning a car is sufficiently low. In many settings, other means of transportation can be a 
+suitable alternative. To include this in the model, we can introduce an outside opportunity of 
+not owning a car yielding a utility level U . This alternative is most relevant for consumers 
+with a low car preference parameter h. Hence this alternative is chosen for consumers with 
+UO < U . This yields a new cut-off level h
+∼ defined by
+As the number in the N and O groups still have to be equally sized in equilibrium, this 
+yields a new equilibrium condition
+This change to the model does not change any qualitative insights from the model, so to 
+maintain simplicity we disregard the presence of an outside opportunity for the rest of the 
+paper.
+xu h
+∼−pu + 훽(xu h
+∼−pu) = U ⇒h
+∼=
+U
+(1 + 훽)xu
++ pu
+xu
+F
+(pn −(1 + 훽)pu
+(1 −휇)xn
+)
+−F
+(
+U
+(1 + 훽)xu
++ pu
+xu
+)
+= 1 −F
+( pn −pu
+(1 −휇)xn
+)
+
+
+===== [PAGE 27] =====
+
+1809
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Proof of Theoretical Results
+To see the effect of technological progress on the market, we can differentiate equation (8) 
+to get
+where the left hand side are the demand effects and the right hand side the supply effects. 
+Solving, we find
+Moreover, we have
+Using equation (8), we find
+As (1 + 𝛽)𝛾̄h > 𝜇
+𝛾h , we then get d̄h
+d𝛾< 0.
+Data
+In this Appendix, we present details of the data we use in our analysis.
+Variables from finn.no
+The data from finn.no forms the basis of our analysis. It includes a hashed vehicle id num-
+ber, chassis number, the listed secondhand price of the vehicle the seller wants, the year the 
+vehicle is first registered, year model, fuel type, mileage, make and model, number of seats, 
+(13)
+f(h)
+⎡
+⎢
+⎢
+⎢⎣
+−
+1 + 𝛽
+
+1 −𝜇
+𝛾
+
+xn
+dp1 −
+[pn −(1 + 𝛽)pu] 𝜇xn
+(𝛾)2
+
+1 −𝜇
+𝛾
+
+xn
+2
+d𝛾
+⎤
+⎥
+⎥
+⎥⎦
+= −f(̄h)
+
+−
+1
+(𝛾−𝜇)xn
+dp1 −(pn −pu)xn
+(𝛾−𝜇)xn
+2 d𝛾
+
+(14)
+dp1
+d𝛾= −x0
+f(h)h
+𝜇
+(1+𝛾)2
+1−𝜇
+𝛾
++ f(̄h)̄h
+1
+(𝛾−𝜇)
+f(h) 1+𝛽
+1−𝜇
+𝛾
++ f(̄h)
+1
+𝛾−𝜇
+(15)
+= −x0
+f(h)h 𝜇
+𝛾+ f(̄h)̄h
+f(h)(1 + 𝛽)(𝛾) + f(̄h)
+< 0
+d̄h
+d𝛾= −(pn −pu)xn
+(𝛾−𝜇)2x2
+n
+−
+1
+(𝛾−𝜇)xn
+dpu
+d𝛾
+d̄h
+d𝛾= −
+1
+(𝛾−𝜇)
+(
+̄h −
+f(h)h 𝜇
+𝛾+ f(̄h)̄h
+f(h)(1 + 𝛽)𝛾+ f(̄h)
+)
+= −
+f(h)
+(𝛾−𝜇) ×
+(1 + 𝛽)𝛾̄h −𝜇
+𝛾h
+f(h)(1 + 𝛽)𝛾+ f(̄h)
+
+
+===== [PAGE 28] =====
+
+1810
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+municipality of the seller, dealer type, engine effect, engine volume, transmission, wheel 
+drive, main color, as well as the month and year of an ad on finn.no.
+We will now go through the variables that we use in the analysis.
+Vehicle Id Number
+Each vehicle has an id number which is unique and encrypted to keep the data anonymous. 
+We combine this variable with the chassis number, dealer type, effect, engine volume, fuel, 
+main color, make, model, municipality of the seller, transmission wheel drive, year model, 
+the year the vehicle is first registered and number of seats to check whether a vehicle has 
+been advertised for more than a month (and therefore becomes a duplicate observation) 
+and to a lower price.
+Vehicle Age
+To find the age of a vehicle, we can use two variables to tell us the year the vehicle was 
+new: The year model and the year the vehicle was first registered. The year model in itself 
+is an imprecise term. Some manufacturers start selling year model t early in year t −1 , and 
+some maintain the year on the model until they change the model.
+However, year of first registration can also be wrong. Although our data ends in 2021, 
+there are observations with year of first registration date after 2021. There are also numer-
+ous observations with year of first registration before 1940. Although some of these may be 
+antique cars, some are clear mistakes. There are for instance multiple Nissan Leaf presum-
+ably registered before 1940, which is unreasonable as the model entered the market after 
+2010.
+Our solution is to use the lowest of the year of first registration and the model year 
+whenever both are present. Moreover, we assume that vehicles first registered before 1940 
+is a mistake, and in this case we use the year model unless the year of first registration and 
+year model is the same year, we keep the year of first registration.
+As we have data on the year the vehicle is advertised on finn.no, we find the age of the 
+vehicle by subtracting the year the vehicle is advertised with the year the vehicle is new.
+Fuel Type
+The data from finn.no has data on fuel type. However, there may be mistakes by the seller, 
+for instance claiming that a vehicle is a gasoline vehicle when it is a hybrid gasoline vehi-
+cle or stating that it is an electric vehicle when it is a hybrid or plug-in hybrid. When there 
+is only one observation of a vehicle model one year that is electric, the electric model is not 
+listed by OFV, and we do not recognize the model name as an electric vehicle (there are 
+so few electric vehicle models that it is possible to know most of them), we take them out 
+of the analysis, because it is likely that they are erroneously classified as electric vehicles. 
+This is the case of 41 observations.
+Gasoline vehicles that are not found on the OFV list are treated differently, see more 
+elaboration on this in Sect. B.2.1.
+The finn data do not distinguish between plug-in hybrid and hybrid. To distinguish 
+between the two, we also use data from OFV. If a vehicle is listed as gasoline-hybrid in 
+the finn data and plug-in gasoline hybrid or a gasoline vehicle in the OFV data, we code 
+it as a plug-in gasoline hybrid. If a vehicle is listed as hybrid in the finn data and hybrid 
+
+
+===== [PAGE 29] =====
+
+1811
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+and plug-in hybrid in the OFV data, we do not change it. As most of our analyses compare 
+electric and gasoline vehicles this coding scheme has a minor impact on our results. In 
+Table 21, however, we compare all fuel types.
+The Price of the Secondhand Vehicle
+We only have the price the seller lists on the finn platform, not the price the vehicle is actu-
+ally sold at. There can be cases where the buyer and the seller agree on a lower price than 
+the listed one.
+Moreover, the price is without re-registration fee which varies through the period of 
+investigation and for different vehicles, depending on age and fuel.
+Mileage
+We use mileage as a control variable because this is a variable that probably affect the price 
+of the vehicle. Finn has rounded the number to the nearest thousand in order to anonymize 
+the data. Observations where mileage is missing are controlled for with a dummy variable. 
+See Table 5 to see the number of missing on mileage.
+Number of Seats
+This variable is used to distinguish between passenger vehicles and utility vehicles with the 
+same model name.
+Municipality of the Seller
+We use the municipality of the seller as one of the variables to detect duplicates.
+Variables from OFV
+The Norwegian Road Federation (OFV) data are merged into the finn data set by fuel, 
+model, make and the year the vehicle is new. The variables from OFV that we use are the 
+price on the new vehicle and body style category.
+The data from OFV are combined with the data from finn.no matching on the following 
+variables: make, model, fuel and the year the vehicle is new.
+Price on the New Vehicle
+Norwegian Road Federation (OFV) collects prices on new vehicles from all importers that 
+are formally linked to the producer. The price list of June every year is used to find the 
+price on the new vehicle. When not found in the June list, we use the November list or 
+the December list. If not found on either June, November or December list, the vehicle is 
+marked as missing price on the new vehicle (see below for more information on the reason 
+for the vehicle missing on the price list). See Table 5 to see the number of missing on new 
+vehicle price.
+
+
+===== [PAGE 30] =====
+
+1812
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+There are many different equipment levels within the same model and the information 
+from finn.no does not tell us which equipment level each vehicle has. Some equipment lev-
+els within a model are a lot more expensive than the others. Therefore, we take the median 
+price of the make, model, fuel and year. For robustness check we take out those models 
+where the ratio between the maximum price and the minimum price is above 1.5. This can 
+be seen in Table 3, column 4.
+Body style category should also be one of the variables that the median price is based 
+on, but since finn.no do not have this variable, we can not merge on this variable. Some 
+models are more than one type of category. For instance Ford Focus can be bought as 
+a hatchback or station wagon. Mercedes-Benz A-class is either sedan or hatchback. Mer-
+cedes-Benz C-class is either sedan or station wagon. Then the median price is the median 
+of all the models in the two types of vehicles body style categories.
+Notice that the new prices we use are listed new prices. Actual prices of new cars could 
+be lower due to e.g. haggling, rebates or campaigns.
+Those observations with make or model “others” or “N/A” and fuel “N/A” when the 
+model can be both electric and conventional vehicle are not merged and therefore lack the 
+price on the new vehicle.
+Some observations on finn.no are not found on the OFV list of new vehicle prices. 
+There are four main explanations: (1) privately imported new vehicles from the factory, 
+i.e. not through the importer that is related to the producer, (2) models from earlier years, 
+(3) import of used vehicles, and (4) mistakes in the OFV list or at finn.no, for instance the 
+advertiser is not aware that the vehicle is a hybrid and list it as a gasoline vehicle.
+An example of explanation (1) is Fiat 500 Plug-in Hybrid which was produced for 
+the American market. Fiat decided not to sell these vehicles in Europe, but some were 
+imported through channels that were not related to the producer’s importer network.
+The price on the new vehicle in category (2) is difficult to know. We can find the price 
+on the model in earlier years, but the price probably changes from year to year.
+For category (1), the price on finn.no is strictly speaking the price of the new vehicle in 
+the Norwegian market if the car is 0 years-old. All vehicles that are not part of the OFV list 
+get a dummy and the dummy is controlled for in the regression in Table 3. We also have 
+the same specifications as in Table 3 without a dummy on those missing new vehicle price 
+and that can be seen in Table 26.
+OFV Listed Fuel Type
+In the beginning of the period of investigation there were some models that were flexible 
+fuel vehicles (cars that are able to use both gasoline and ethanol). OFV have them on their 
+list, but as the market for these vehicles never took off in Norway, finn.no do not distin-
+guish between gasoline vehicles and flexible fuel vehicles. We define all flexible fuel vehi-
+cles in OFV data as gasoline vehicles.
+Size Categories
+There is no clear definition of different size categories. The EU Commission lists differ-
+ent segments in the car market, but also state that “the exact market definition was left 
+open”(Commission of the European Communities 1999, p.2).
+
+
+===== [PAGE 31] =====
+
+1813
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+In the USA the Environmental Protection Agency (EPA) has different size classes based 
+on body style combined with passenger and cargo volume (fueleconomy.gov; n.d.). In con-
+trast, the National Highway Traffic Safety Administration (NHTSA) in the USA categorize 
+by class and weight (National Highway Traffic Safety Administration; n.d.). A third option 
+in the USA is by The Insurance Institute for Highway Safety (IIHS) and The Highway Loss 
+Data Institute (HLDS) which both are organizations funded by auto insurers and insurance 
+associations. They use a combination of weight and length times width (IIHS and HLDI 
+2020).
+Body style   Most models have different variants. Some models are in two different body 
+style categories. For instance, Volkswagen Golf can be both a hatchback or a station wagon. 
+However, for electric vehicles the different variants of a model are mostly in the same body 
+style categories. For gasoline there are several models that can be both a hatchback and a 
+station wagon. We categorize them based on which body style categories there are most 
+model variants of.
+We use the body style categories that The Norwegian Road Federation (OFV) catego-
+rize different models into.25 We have translated their definition.
+“Cabriolet are cars with roofs that can be opened or removed, either by folding it into 
+the body style, or being completely removed. Roadsters should have body style category 
+cabriolet.
+Hatchbacks are cars with a large tailgate/rear door that include the rear window. The 
+rear edge of the rear window ends where the body ends, without any horizontal surface/
+trunk lid. The hedge on the hatchback may have different inclination. The trunk is rela-
+tively small compared to the total volume of the car. The station wagon has larger volume, 
+while the body shape may otherwise be quite similar.
+Coupes are cars that have prioritized appearance at the expense of space and practi-
+cal considerations. They are characterized by what most people will perceive as "elegant 
+lines". Often, the coupes are lower with a flatter rear window than ordinary hatchbacks and 
+sedans, which the space, especially from the front seats and backwards, suffers underneath. 
+The tailgate is hinged under the rear window. Coupes can have 2 and 4 doors.
+Pickups are cars with an open loading plane behind a cab. The cab can contain several 
+rows of seats.
+Sedan are cars with preferably 4 doors and separate trunk and marked trunk lid that are 
+hinged under/behind the rear window.
+Station wagon are cars with full height backwards to the tailgate. The tailgate can be 
+somewhat sloping and the trunk is open towards the cabin. They are characterized by large 
+trunk in relation to the total volume of the car.
+Multipurpose car are cars that are designed for maximum interior space utilization and 
+flexibility. The body style shape is similar to that of the station wagon or hatchback, but the 
+multipurpose cars are usually higher than these, albeit with normal ground clearance. They 
+have a minimum of 5 seats in addition to luggage space.”
+25  Personal email communication with Kjell Magne Aalbergsjø¸ in OFV, 11.02.22.
+
+
+===== [PAGE 32] =====
+
+1814
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+SUV is not defined by OFV.
+Weight  Weight can be used as a proxy for size. We take the median of the different trims of 
+the same model. As electric vehicles are heavier than gasoline vehicles due to the batteries, 
+we use the gasoline vehicles as the basis to find the cutoff between large and small vehicles. 
+We use the 75th percentile of the weight for all gasoline vehicles in the sample as the cutoff. 
+This is 1382.5 kg. How much more an electric vehicle weigh due to the batteries is difficult 
+to know, but the tax authorities use 15% extra weight for plug-in hybrids from 1st of January 
+Table 4   Observations not part of the analysis
+Number of 
+observa-
+tions
+Ads on finn.no 2011- June 20th 2021
+5,546,617
+Advertized more than one time with less than 3 months in between
+1,187,042
+Older than 2011
+2,903,240
+Price over 2 mill NOK
+9330
+Price under 10 000 NOK
+1746
+Age -1 or less
+5732
+Age missing
+45
+Advertised more than three times without changing the price
+7494
+Utility vehicles
+2275
+Missing information, such as model name
+2231
+Wrong fuel (see Sect. B.1.3 for explanation)
+42
+Think
+116
+Buddy
+20
+Hydrogen vehicles
+80
+Gas vehicles
+171
+Total number of observations (all fuels, except hydrogen and gas)
+1,427,053
+Total number of observations, electric and gasoline
+545,452
+Table 5   Number of observations 
+with some of the variables 
+missing
+Number of 
+observa-
+tions
+Total
+545,452
+Missing new vehicle price
+8659
+Missing body style
+8659
+Missing mileage
+21,400
+Missing range (and electric vehicle)
+535
+
+
+===== [PAGE 33] =====
+
+1815
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+2022 and before that they used 23% (The Norwegian Tax Administration; n.d.). We there-
+fore add 10%, 20% and 30% to the electric vehicle weight when distinguishing between large 
+and small vehicles based on weight in Table 15.
+Variables from other Sources
+Range
+Range is taken from the webpage of the Norwegian Electric Vehicle Association (The Nor-
+wegian Electric Vehicle Association 2022a). When the same model the same year has dif-
+ferent range alternatives, we construct the median of the range. The range we use is the 
+WLTP, which is the new standard. If the old standard, NEDC, is the only available, we 
+reduce the driving range by a factor of 0.65 (Power 2020). Some models are for sale with 
+different year models with different range at the same time and therefore we do not know 
+for sure the range of the car the year the vehicle is new. We use the median range of the 
+year model the year the vehicle is new.
+Sample Selection
+Vehicles that are new in 2011 or after is part of the analysis. We therefore do not include 
+the observations for vehicles that are new earlier than 2011. See Tables 4 and 5  for an 
+overview of the number of observations that are not part of the analysis.
+In order to not let outliers influence the result, we analyze vehicles with a secondhand 
+price range between 10 000 NOK and 2 million NOK, see Table 4 for the number of obser-
+vations. In addition, we take out Think and Buddy cars as these can not be characterized 
+as modern vehicles. Observations where the recorded vehicle age is negative at the time of 
+transaction are also removed.
+Descriptive Data
+See Tables 6, 7, 8, 9, 10 and 11, Fig. 9
+
+
+===== [PAGE 34] =====
+
+1816
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Table 6   Number of vehicles 
+based on fuel
+Number of vehicles
+Share (%)
+Gasoline vehicles
+366,586
+25.7
+Electric vehicles
+178,866
+12.5
+Hybrid vehicles
+80,276
+5.6
+Plug-in hybrid vehicles
+82,676
+5.8
+Diesel vehicles
+718,649
+50.4
+Total
+1,427,053
+Table 7   Number of vehicles 
+that are new in 2011 or later 
+advertised each year
+Year sold
+Gasoline
+Electric
+Number of vehicles
+2011
+1752
+55
+2012
+6316
+217
+2013
+13,067
+1068
+2014
+21,178
+2241
+2015
+28,693
+5040
+2016
+37,510
+8979
+2017
+50,050
+17,242
+2018
+54,201
+30,077
+2019
+62,131
+39,553
+2020
+61,338
+43,300
+2021
+30,350
+31,094
+Table 8   Number of vehicles 
+based on how old they are when 
+they are for sale
+Age
+Number of vehicles
+Electric
+Gasoline
+0
+25,605
+25,727
+1
+37,174
+52,811
+2
+30,559
+57,074
+3
+30,242
+72,089
+4
+22,743
+54,427
+5
+14,873
+36,822
+6
+9401
+26,582
+7
+4751
+19,566
+8
+2313
+12,783
+9
+929
+6697
+10
+276
+2008
+Mean age
+2.65
+3.45
+Mean age for vehicles that are 5 
+years or younger
+2.20
+2.62
+
+
+===== [PAGE 35] =====
+
+1817
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Table 9   The mean range in the year the vehicles are new and sold in the secondhand market. The median 
+refers to the price of the vehicle as new
+We have calculated the statistics for new vehicle price weighted by the vehicles that are on finn.no.
+The 50th percentile is 362,000 NOK.
+In 2011 and 2012 there are no electric vehicles with price as new equal to or over the median.
+Over median includes those equal to the median
+Year
+Mean range new
+Mean range sold
+Mean range sold over 
+the median
+Mean range 
+sold below the 
+median
+2011
+114
+108
+–
+108
+2012
+122
+115
+–
+115
+2013
+176
+134
+300
+121
+2014
+169
+161
+300
+124
+2015
+165
+175
+304
+129
+2016
+199
+175
+323
+133
+2017
+261
+187
+346
+149
+2018
+289
+201
+383
+173
+2019
+384
+241
+430
+195
+2020
+396
+275
+484
+211
+2021
+403
+296
+444
+234
+For all years
+240
+416
+190
+Table 10   Share of vehicles based 
+on seller
+Share of vehicles
+Electric (%)
+Gasoline (%)
+Private seller
+41.5
+21.4
+Professional seller of the same make
+25.4
+58.7
+Other professional seller
+33.1
+19.9
+Table 11   Top 10 secondhand models
+Electric secondhand
+Gasoline secondhand
+Model
+Share (%)
+Model
+Share (%)
+1
+Nissan Leaf (Hatchback)
+23
+VW Golf (Hatchback)
+7
+2
+VW E-golf (Hatchback)
+15
+VW Polo (Hatchback)
+3
+3
+Tesla Model S (Hatchback)
+11
+Ford Focus (Hatchback/Station wagon)
+3
+4
+BMW i3 (Hatchback)
+9
+Ford Fiesta (Hatchback)
+3
+5
+Kia E-soul (Hatchback)
+6
+Audi A3 (Hatchback)
+3
+6
+VW E-up! (Hatchback)
+4
+Mercedes A-klasse (Hatchback/Sedan)
+2
+7
+Tesla Model X (SUV)
+3
+Toyota Avensis (Sedan/Station wagon)
+2
+8
+Renault Zoe (Hatchback)
+3
+Skoda Octavia (Station wagon)
+2
+9
+Hyundai Ioniq (Hatchback)
+3
+Toyota Yaris (Hatchback)
+2
+10
+Hyundai Kona (SUV)
+2
+Audi A1 (Hatchback)
+2
+
+
+===== [PAGE 36] =====
+
+1818
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+More Detailed Results
+The relationship between vehicle age and secondhand price is illustrated in Fig. 10. As 
+expected, the price is declining in age. We also see that this decline is clearly stronger for 
+electric vehicles than for gasoline cars (Tables 12, 13, 14, 15, 16, 17, 18, 19, 20 and 21, 
+Figs. 11, 12 and  13).
+Fig. 9   Binned scatterplot of the relationship between mileage and age
+Fig. 10   Secondhand vehicle prices by age and fuel type. Each point represent an equal number of observa-
+tions. Results control for mileage, the log price of the new car and dummies for missing variables. The 
+y-axis is on a logarithmic scale
+
+
+===== [PAGE 37] =====
+
+1819
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Table 12   Table 3 with age squared
+Dependent variable is log of the secondhand price.
+Standard errors clustered on make, in parentheses. There are 62 clusters in all but in (4) where there are 44 clusters.
+Gasoline vehicles are the baseline. Year fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on those observations that have missing mileage and those that have missing new car price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+(5)
+Age
+− 0.0339***
+− 0.0316***
+− 0.0408***
+− 0.0352***
+− 0.0400***
+(0.00673)
+(0.00669)
+(0.00659)
+(0.00840)
+(0.00650)
+Age squared
+− 0.00774***
+− 0.00780***
+− 0.00742***
+− 0.00831***
+− 0.00775***
+(0.000537)
+(0.000550)
+(0.000544)
+(0.000649)
+(0.000559)
+Electric × age
+− 0.0240
+− 0.0216
+0.00289
+0.00373
+− 0.0126
+(0.0221)
+(0.0215)
+(0.0170)
+(0.0211)
+(0.0220)
+Electric × age squared
+− 0.00587**
+− 0.00610***
+− 0.00706***
+− 0.00839***
+− 0.00666***
+(0.00223)
+(0.00222)
+(0.00164)
+(0.00177)
+(0.00220)
+Ln new price
+1.080***
+1.058***
+1.013***
+1.106***
+1.074***
+(0.0245)
+(0.0300)
+(0.0317)
+(0.0309)
+(0.0243)
+Ln mileage × gasoline
+− 0.100***
+− 0.102***
+− 0.0983***
+− 0.0869***
+− 0.101***
+(0.00700)
+(0.00586)
+(0.00683)
+(0.00450)
+(0.00698)
+Ln mileage × electric
+− 0.0201
+− 0.0189
+− 0.0443***
+− 0.0340**
+− 0.0292**
+(0.0137)
+(0.0138)
+(0.00649)
+(0.0135)
+(0.0136)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Y
+N
+Body style fixed effects
+N
+Y
+N
+N
+N
+Make fixed effects
+N
+N
+Y
+N
+N
+Taken out those with large variation in new 
+vehicle price
+and those without new vehicle price
+N
+N
+N
+Y
+N
+Observations
+545,452
+545,452
+545,452
+336,220
+545,452
+R2
+0.865
+0.866
+0.884
+0.911
+0.862
+
+
+===== [PAGE 38] =====
+
+1820
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Table 13   Table 3 without the electric vehicles with range below 200 km
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make, in parentheses. There are 59 clusters in all but specification (4), where 
+there are 44 clusters.
+Gasoline vehicles are the baseline. Year fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on those observations that have missing mileage and those that have missing new car 
+price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+(5)
+Age
+− 0.105***
+− 0.104***
+− 0.107***
+− 0.111***
+− 0.112***
+(0.00465)
+(0.00436)
+(0.00345)
+(0.00551)
+(0.00441)
+Electric × age
+0.0291***
+0.0413***
+0.0342***
+0.0354***
+0.0365***
+(0.00756)
+(0.00839)
+(0.00585)
+(0.00793)
+(0.00765)
+Ln new price
+1.058***
+1.009***
+1.039***
+1.087***
+1.052***
+(0.0209)
+(0.0256)
+(0.0238)
+(0.0225)
+(0.0219)
+Ln mileage × gasoline
+− 0.0741***
+− 0.0743***
+− 0.0753***
+− 0.0606***
+− 0.0748***
+(0.00752)
+(0.00603)
+(0.00689)
+(0.00541)
+(0.00754)
+Ln mileage × electric
+− 0.0390***
+− 0.0412***
+− 0.0361***
+− 0.0262***
+− 0.0472***
+(0.00987)
+(0.0100)
+(0.00773)
+(0.00587)
+(0.00906)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Y
+Dealer category fixed effects
+Y
+Y
+Y
+Y
+N
+Body style category fixed effects
+N
+Y
+N
+N
+N
+Make fixed effects
+N
+N
+Y
+N
+N
+Taken out those with large vari-
+ation in new vehicle price
+and those without new vehicle 
+price
+N
+N
+N
+Y
+N
+Observations
+444,793
+444,793
+444,793
+239,401
+444,793
+R2
+0.871
+0.875
+0.884
+0.918
+0.868
+
+
+===== [PAGE 39] =====
+
+1821
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Table 14   Quantile regression
+Dependent variable is ln of the secondhand price.
+Standard errors are robust, in parentheses.
+Gasoline vehicles are the baseline. Year fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on those observations that have missing new vehicle price and mileage.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+(5)
+10th percentile 25th percentile Median
+75th percentile 90th percentile
+Age
+− 0.118***
+− 0.111***
+− 0.104***
+− 0.0950***
+− 0.0936***
+(0.000456)
+(0.000355)
+(0.000297)
+(0.000318)
+(0.000428)
+Electric × age
+− 0.0760***
+− 0.0634***
+− 0.0433*** − 0.0262***
+− 0.0163***
+(0.000822)
+(0.000634)
+(0.000580)
+(0.000517)
+(0.000610)
+Ln new price
+1.018***
+1.038***
+1.065***
+1.095***
+1.116***
+(0.00117)
+(0.000945)
+(0.000790)
+(0.000805)
+(0.00108)
+Ln mileage × gasoline
+− 0.0726***
+− 0.0688***
+− 0.0636*** − 0.0641***
+− 0.0650***
+(0.000823)
+(0.000635)
+(0.000520)
+(0.000563)
+(0.000850)
+Ln mileage × electric
+0.0205***
+0.0130***
+0.00260***
+− 0.0100***
+− 0.0214***
+(0.00103)
+(0.000785)
+(0.000661)
+(0.000674)
+(0.000809)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Y
+Dealer category fixed 
+effects
+Y
+Y
+Y
+Y
+Y
+Observations
+545,452
+545,452
+545,452
+545,452
+545,452
+
+
+===== [PAGE 40] =====
+
+1822
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Table 15   Different size categories based on either body style or weight
+The cutoff between small and large vehicles based on weight is the 75th percentile for weight for gasoline 
+vehicles. See Appendix B.2.3 for more information. Weight added means how much more weight is added 
+to the electric vehicles to be in the same category as gasoline vehicles. Due to battery weight, electric vehi-
+cles have added 20% to the cutoff in column 2, 10% added in column 3 and 30% added in column 4.
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make, in parentheses. There are 62 clusters.
+Small gasoline vehicles are the baseline. Year fixed effects are based on the year the vehicle is sold/adver-
+tised.
+Large vehicles are defined as station wagon, SUV, pick-up and multi-purpose cars.
+Small vehicles are sedan, hatchback, coupe and cabriolet.
+We use a dummy on those observations that have missing new vehicle price, body style and mileage.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+Body style
+Weight 20% added
+Weight 10% added
+Weight 30% added
+Age
+− 0.107***
+− 0.111***
+− 0.110***
+− 0.111***
+(0.00444)
+(0.00422)
+(0.00407)
+(0.00422)
+Electric × age
+− 0.0578***
+− 0.0568***
+− 0.0592***
+− 0.0572***
+(0.0192)
+(0.0170)
+(0.0206)
+(0.0168)
+Large vehicles × age
+0.00450
+0.00890
+0.00832
+0.00889
+(0.00381)
+(0.00484)
+(0.00493)
+(0.00483)
+Electric × large vehicles × age
+0.0181
+0.0525***
+0.0127
+0.0562***
+(0.0168)
+(0.0129)
+(0.0231)
+(0.0136)
+Ln new price
+1.065***
+1.037***
+1.061***
+1.037***
+(0.0252)
+(0.0248)
+(0.0227)
+(0.0262)
+Ln mileage × gasoline
+− 0.0771***
+− 0.0734***
+− 0.0740***
+− 0.0734***
+(0.00669)
+(0.00729)
+(0.00725)
+(0.00727)
+Ln mileage × electric
+0.00867
+− 0.00483
+0.00675
+− 0.00458
+(0.0108)
+(0.00934)
+(0.00956)
+(0.0100)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Y
+Body style fixed effects
+Y
+Y
+Y
+Y
+Observations
+545,452
+545,452
+545,452
+545,452
+R2
+0.871
+0.872
+0.870
+0.872
+
+
+===== [PAGE 41] =====
+
+1823
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Table 16   Investigating vintage 
+effects
+Baseline is gasoline vehicles from 2016 to 2021. Early refers to the 
+vehicles from 2011 to 2015.
+Only the vehicles that are 5 years or younger are included to make it 
+comparable between time periods.
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make, in parentheses. There are 61 clus-
+ters.
+Year fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on the observations that have missing mileage and 
+those that have missing new car price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+Without make 
+fixed effects
+With make fixed effects
+Age
+− 0.0694***
+− 0.0749***
+(0.00471)
+(0.00509)
+Electric × age
+− 0.0445***
+− 0.0295***
+(0.0130)
+(0.0105)
+Early × age
+− 0.0265***
+− 0.0230***
+(0.00587)
+(0.00558)
+Early × electric × age
+− 0.0363**
+− 0.0382***
+(0.0142)
+(0.0126)
+Ln new price
+1.062***
+1.011***
+(0.0202)
+(0.0299)
+Ln mileage × gasoline
+− 0.0785***
+− 0.0784***
+(0.00629)
+(0.00602)
+Ln mileage × electric
+− 0.0224**
+− 0.0371***
+(0.0105)
+(0.00490)
+Year × fuel fixed effects
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Make fixed effects
+N
+Y
+Observations
+460,146
+460,146
+R2
+0.857
+0.876
+
+
+===== [PAGE 42] =====
+
+1824
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Table 17   Different price categories
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make × fuel, in parentheses.
+There are 39 clusters in (1), 54 clusters in (2), 50 clusters in (3) and 44 clusters in (4).
+Gasoline vehicles are the baseline. Year times fuel fixed effects are based on the year the vehicle is sold/
+advertised.
+p25, p50 and p75 refers to the statistics of the new vehicle price for the vehicles of all fuel types that are 
+advertised on finn.no.
+The 75th percentile is 461 275 NOK, the 50th percentile is 359 900 NOK and the 25th percentile is 275 600 
+NOK.
+73% of the electric vehicles that are over the median is Tesla.
+79% of the electric vehicles that are over the 75th percentile is Tesla.
+Those that have missing new vehicle price is not part of this analysis (6921 observations).
+We use a dummy on those observations that have missing mileage.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+Over
+Over
+Below
+Below
+p75
+p50
+p50
+p25
+Age
+− 0.103***
+− 0.1000***
+− 0.108***
+− 0.104***
+(0.0126)
+(0.00956)
+(0.00470)
+(0.00592)
+Electric × age
+0.0406***
+0.0245**
+− 0.0636***
+− 0.0767***
+(0.0138)
+(0.0107)
+(0.0182)
+(0.0171)
+Ln new price
+1.000***
+0.961***
+1.116***
+1.197***
+(0.0407)
+(0.0408)
+(0.0311)
+(0.0483)
+Ln mileage × gasoline
+− 0.0835***
+− 0.0709***
+− 0.0786***
+− 0.0891***
+(0.0105)
+(0.00895)
+(0.00734)
+(0.00457)
+Ln mileage × electric
+− 0.0625***
+− 0.0476***
+0.000393
+− 0.0165
+(0.00742)
+(0.00888)
+(0.0121)
+(0.0124)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Y
+Observations
+80,045
+142,580
+394,213
+249,364
+R2
+0.781
+0.812
+0.817
+0.812
+
+
+===== [PAGE 43] =====
+
+1825
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Table 18   The cars grouped into when they where new
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make, in parentheses.
+There are 54 clusters in (1), 53 clusters in (2) and 50 clusters in (3).
+Gasoline vehicles are the baseline.
+Year fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on those observations that have missing mileage and those that have missing new car 
+price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+New in 2011–2013
+New in 2014–2016
+New in 2017–2021
+Age
+− 0.127***
+− 0.0814***
+− 0.0585***
+(0.00765)
+(0.00825)
+(0.00827)
+Electric × age
+− 0.212***
+− 0.0392
+− 0.0308*
+(0.0780)
+(0.0382)
+(0.0163)
+Ln new price
+1.078***
+1.107***
+1.039***
+(0.0368)
+(0.0322)
+(0.0261)
+Ln mileage × gasoline
+− 0.105***
+− 0.0905***
+− 0.0800***
+(0.00598)
+(0.00958)
+(0.00970)
+Ln mileage × electric
+0.00542
+− 0.0200
+− 0.0402***
+(0.0637)
+(0.0187)
+(0.00385)
+Year× fuel fixed effects
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Observations
+183,165
+213,809
+148,478
+R2
+0.847
+0.840
+0.861
+
+
+===== [PAGE 44] =====
+
+1826
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Table 19   Comparing 0–3-year-old used vehicles sold in different time periods
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make, in parentheses.
+There are 45 clusters in (1), 54 clusters in (2) and 53 clusters in (3).
+Gasoline vehicles are the baseline.
+Year × fuel fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on those observations that have missing mileage and those that have missing new car 
+price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+Sold in 2011–2013
+Sold in 2014–2017
+Sold in 2018-2021
+Age
+− 0.0839***
+− 0.0801***
+− 0.0688***
+(0.00914)
+(0.00619)
+(0.00689)
+Electric × age
+− 0.105***
+− 0.0742***
+− 0.0251
+(0.0226)
+(0.0241)
+(0.0134)
+Ln new price
+0.980***
+1.063***
+1.038***
+(0.0226)
+(0.0311)
+(0.0195)
+Ln mileage × gasoline
+− 0.0403***
+− 0.0666***
+− 0.0847***
+(0.00323)
+(0.00696)
+(0.00935)
+Ln mileage × electric
+− 0.0114
+0.00312
+− 0.0393***
+(0.0128)
+(0.0217)
+(0.00540)
+Year × fuel fixed effects
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Observations
+22,475
+129,214
+179,592
+R2
+0.825
+0.854
+0.858
+
+
+===== [PAGE 45] =====
+
+1827
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Table 20   Comparing different 
+age groups
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make, in parentheses.
+There are 61 clusters in (1), 54 clusters in (2) and 53 clusters in (3).
+Gasoline vehicles are the baseline.
+Year × fuel fixed effects are based on the year the vehicle is sold/
+advertised.
+We use a dummy on those observations that have missing mileage and 
+those that have missing new car price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+Age 0–3
+Age 4–6
+Age 7–10
+Age
+− 0.0766***
+− 0.112***
+− 0.145***
+(0.00438)
+(0.00584)
+(0.00883)
+Electric × age
+− 0.0341**
+− 0.0697***
+− 0.204***
+(0.0138)
+(0.0258)
+(0.0540)
+Ln new price
+1.046***
+1.117***
+1.179***
+(0.0136)
+(0.0397)
+(0.0454)
+Ln mileage × gasoline
+− 0.0700***
+− 0.153***
+− 0.292***
+(0.00616)
+(0.0118)
+(0.0173)
+Ln mileage × electric
+− 0.0258***
+− 0.0102
+− 0.0718
+(0.00685)
+(0.0490)
+(0.0992)
+Year × fuel fixed effects
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Observations
+331,281
+164,848
+49,323
+R2
+0.857
+0.814
+0.813
+
+
+===== [PAGE 46] =====
+
+1828
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Table 21   Table 3 with all fuels and electric vehicles as the baseline
+(1)
+(2)
+(3)
+(4)
+(5)
+Age
+− 0.166***
+− 0.165***
+− 0.156***
+− 0.168***
+− 0.168***
+(0.0188)
+(0.0191)
+(0.0198)
+(0.0170)
+(0.0197)
+Gasoline × age
+0.0630***
+0.0629***
+0.0497**
+0.0567***
+0.0571***
+(0.0188)
+(0.0191)
+(0.0195)
+(0.0171)
+(0.0196)
+Hybrid × age
+0.0843***
+0.0861***
+0.0714***
+0.0864***
+0.0796***
+(0.0196)
+(0.0201)
+(0.0206)
+(0.0188)
+(0.0200)
+Diesel × age
+0.0305*
+0.0296
+0.0210
+0.0400**
+0.0273
+(0.0175)
+(0.0178)
+(0.0190)
+(0.0150)
+(0.0183)
+Plug-in hybrid × age
+0.0767***
+0.0755***
+0.0580***
+0.0832***
+0.0720***
+(0.0200)
+(0.0184)
+(0.0216)
+(0.0170)
+(0.0209)
+Ln new price
+1.091***
+1.056***
+1.025***
+1.092***
+1.082***
+(0.0246)
+(0.0270)
+(0.0378)
+(0.0320)
+(0.0247)
+Ln mileage × electric
+0.0142
+0.0180
+− 0.00352
+0.0117
+0.00670
+(0.0120)
+(0.0125)
+(0.00915)
+(0.0145)
+(0.0119)
+Ln mileage × gasoline
+− 0.0779***
+− 0.0772***
+− 0.0780***
+− 0.0610***
+− 0.0786***
+(0.00832)
+(0.00746)
+(0.00845)
+(0.00559)
+(0.00829)
+Ln mileage × hybrid
+− 0.109***
+− 0.112***
+− 0.107***
+− 0.108***
+− 0.111***
+(0.0147)
+(0.0144)
+(0.0144)
+(0.0157)
+(0.0145)
+Ln mileage × diesel
+− 0.0973***
+− 0.0934***
+− 0.0989***
+− 0.0735***
+− 0.105***
+(0.0126)
+(0.0122)
+(0.0133)
+(0.00919)
+(0.0129)
+Ln mileage × plug− in hybrid
+− 0.0608***
+− 0.0598***
+− 0.0524***
+− 0.0608***
+− 0.0629***
+(0.0103)
+(0.0120)
+(0.00849)
+(0.0108)
+(0.0103)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Y
+Dealer category fixed effects
+Y
+Y
+Y
+Y
+N
+Body style fixed effects
+N
+Y
+N
+N
+N
+Make fixed effects
+N
+N
+Y
+N
+N
+
+
+===== [PAGE 47] =====
+
+1829
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Dependent variable is ln of the secondhand price.
+Standard errors are clustered on make, in parentheses.
+There are 66 clusters in all specifications except in (4) where there are 49 clusters.
+Year fixed effects are based on the year the vehicle is sold/advertised.
+Electric vehicles are the baseline.
+We use a dummy on those observations that have missing mileage and those that have missing new car price.
+Hydrogen and gas vehicles are not part of this as there are few observations.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+Table 21   (continued)
+(1)
+(2)
+(3)
+(4)
+(5)
+Taken out those with large variation in new vehicle price 
+and those without new vehicle price
+N
+N
+N
+Y
+N
+Observations
+1,427,053
+1,427,053
+1,427,053
+768,179
+1,427,053
+R2
+0.847
+0.851
+0.860
+0.895
+0.844
+
+
+===== [PAGE 48] =====
+
+1830
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Fig. 11   The price decline for electric cars with different driving range, using 0.75 instead of 0.65 as con-
+verting rate between the range standard NEDC and WLTP
+Fig. 12   The price path of electric vs gasoline vehicles, both with price of the new vehicle over the median. 
+The grey area is the 95% confidence interval. The standard errors are clustered on make × fuel
+
+
+===== [PAGE 49] =====
+
+1831
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Makes
+There is a large difference in the average price fall between the different makes, which 
+can be seen in Fig. 14. This can be due to different vintage or age of the cars, since elec-
+tric Nissan entered the market in 2011, while electric Jaguar entered the market in 2018, 
+but there can also be other reasons. There is a pattern where makes with large price fall 
+Fig. 13   Mean of the answers to the question about whether the battery has degraded since the car was new. 
+The higher the better experience of the battery from 1 to 5
+Fig. 14   The average price fall for electric vehicles of different makes. The red lines mark the average price 
+fall for electric vehicles ( −0.173) and the average price fall for gasoline vehicles ( −0.106), based on the 
+result in column 1 in Table 3. The grey line mark 0
+
+
+===== [PAGE 50] =====
+
+1832
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+have small cars with four seats (Smart, Fiat, Mitsubishi, Peugeot, Citroën).26 Further, 
+the majority of Ford’s and Renault’s models cannot fast charge, and the price fall of 
+these cars is also above average of electric vehicles.27
+The majority of the used cars sold from Tesla, Opel, Jaguar, Audi and Polestar have 
+range above 400 km, and these makes have less than 10% price fall. Polestar has a price 
+increase. Hyundai, which has a price fall in the same magnitude as Opel, has a model 
+with range above 400  km (Hyundai Kona with range 449  km), but the sample also 
+include Hyundai Ioniq which has 180 km28-311 km.
+We also make this plot controlling for the new vehicle price when the car was sold, 
+instead of when the car was new, in Appendix Fig. 15. This changes the estimate for 
+some of the makes, for instance Tesla.
+We compare the price path of some specific models and makes. The most sold sec-
+ondhand electric model, Nissan Leaf, compared to the most sold secondhand gasoline 
+model, Volkswagen Golf, (see Table 11) can be seen in Fig. 16.
+In Fig. 17 we compare gasoline vehicles where the new car price more than the median 
+price of new vehicles with Tesla in the same price range. We see that Tesla fall less in price 
+than gasoline vehicles.
+Fig. 15   Price fall for different makes controlling for the price of the new model when the car was sold, not 
+when the car was new. The red lines mark the average price fall for electric vehicles ( −0.173) and the average 
+price fall for gasoline vehicles ( −0.106), based on the result in column 1 in Table3. The grey line mark 0
+26  The exception is BMW which has a price fall close to the average for gasoline vehicles.
+27  Mercedes-Benz B-class can also not fast charge, but the price fall of this make is close to the average of 
+electric vehicles. Toyota have not until recently supplied full electric vehicles and the Toyotas that is part of 
+this sample is 147 RAV4 that was new during the years 2012–2015.
+28  The range is converted from NEDC range, see the Appendix B.3.1 for explanation.
+
+
+===== [PAGE 51] =====
+
+1833
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Fig. 16   Price path of the most sold used electric vehicle Nissan Leaf, compared to the most sold used gaso-
+line vehicle, Volkswagen Golf. The grey area is the 95% confidence interval. The standard errors are robust
+Fig. 17   The price path of Tesla vs gasoline vehicles. The grey area is the 95% confidence interval. Here we 
+compare the Teslas and gasoline vehicles that both have new vehicle price over the median. The standard 
+errors are robust
+
+
+===== [PAGE 52] =====
+
+1834
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Robustness
+See Tables 22, 23, 24, 25, 26, 27, 28 and 29, Fig. 18.
+Table 22   Robustness check 1: 
+controlling for many variables
+Dependent variable is ln of the secondhand price.
+Gasoline vehicles are the baseline.
+Among dealer categories are the make’s professional car sellers base-
+line.
+Year fixed effects are based on the year the vehicle is sold/advertised.
+Standard errors clustered on make, in parentheses.
+There are 62 clusters.
+We use a dummy on those observations that have missing mileage and 
+those that have missing new car price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+Age
+− 0.110***
+(0.00288)
+Electric × age
+− 0.0413**
+(0.0179)
+Ln new price
+0.158***
+(0.0394)
+Ln mileage × gasoline
+− 0.0747***
+(0.00467)
+Ln mileage × electric
+− 0.0326***
+(0.00513)
+Dealer category: private seller
+− 0.103***
+(0.00780)
+Dealer category: professional car seller (not the make’s 
+own)
+− 0.0509***
+(0.00955)
+Engine effect
+0.00000891
+(0.0000207)
+Number of seats
+− 0.000133
+(0.000690)
+Year × fuel fixed effects
+Y
+Body style fixed effects
+Y
+Make fixed effects
+Y
+Model fixed effects
+Y
+Transmission fixed effects
+Y
+Wheel drive fixed effects
+Y
+Color fixed effects
+Y
+Observations
+545,452
+R2
+0.926
+
+
+===== [PAGE 53] =====
+
+1835
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Table 23   Robustness check 2: Table 3 with new vehicle price the year the vehicle is sold, not the year the 
+vehicle is new
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make, in parentheses. There are 62 clusters in all but in (4) where there are 44 
+clusters.
+Gasoline vehicles are the baseline. Year fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on those observations that have missing mileage and those that have missing new car 
+price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+(5)
+Age
+− 0.134***
+− 0.132***
+− 0.137***
+− 0.144***
+− 0.155***
+(0.00505)
+(0.00478)
+(0.00477)
+(0.00632)
+(0.00955)
+Electric × age
+− 0.0466*** − 0.0464*** − 0.0331*** − 0.0367*** − 0.139***
+(0.0121)
+(0.0126)
+(0.0107)
+(0.0125)
+(0.0349)
+Ln new price when sold
+1.059***
+1.016***
+0.903***
+1.068***
+0.0211***
+(0.0166)
+(0.0219)
+(0.0222)
+(0.0175)
+(0.00771)
+Ln mileage × gasoline
+− 0.0651*** − 0.0627*** − 0.0631*** − 0.0387*** − 0.0197
+(0.00788)
+(0.00682)
+(0.00818)
+(0.00666)
+(0.0168)
+Ln mileage × electric
+− 0.0332*** − 0.0263*** − 0.0351*** − 0.0305*** 0.154
+(0.00613)
+(0.00632)
+(0.00496)
+(0.00621)
+(0.107)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Y
+N
+Body style fixed effects
+N
+Y
+N
+N
+N
+Make fixed effects
+N
+N
+Y
+N
+N
+Taken out those with large vari-
+ation in new vehicle price and 
+those without new vehicle price
+N
+N
+N
+Y
+N
+Observations
+545 452
+545,452
+545,452
+336,220
+545,452
+R2
+0.791
+0.793
+0.823
+0.817
+0.364
+
+
+===== [PAGE 54] =====
+
+1836
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Table 24   Robustness check 3: Table 3 with new vehicle price and fuel interacted
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make, in parentheses. There are 62 clusters in all but specification (4), where there are 44 clusters.
+Gasoline vehicles are the baseline. Year fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on those observations that have missing mileage and those that have missing new car price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+(5)
+Age
+− 0.105***
+− 0.103***
+− 0.108***
+− 0.112***
+− 0.110***
+(0.00467)
+(0.00441)
+(0.00404)
+(0.00544)
+(0.00445)
+Electric × age
+− 0.0550**
+− 0.0550**
+− 0.0512**
+− 0.0565***
+− 0.0554***
+(0.0209)
+(0.0219)
+(0.0198)
+(0.0188)
+(0.0172)
+Ln new price × gasoline
+1.065***
+1.039***
+1.022***
+1.087***
+1.062***
+(0.0245)
+(0.0272)
+(0.0289)
+(0.0265)
+(0.0253)
+Ln new price × electric
+1.089***
+1.058***
+0.893***
+1.090***
+1.066***
+(0.0337)
+(0.0445)
+(0.0485)
+(0.0760)
+(0.0323)
+Ln mileage × gasoline
+− 0.0744***
+− 0.0751***
+− 0.0747***
+− 0.0608***
+− 0.0766***
+(0.00741)
+(0.00620)
+(0.00708)
+(0.00542)
+(0.00752)
+Ln mileage × electric
+0.00734
+0.0106
+− 0.00611
+0.0122
+0.00573
+(0.0105)
+(0.0112)
+(0.00845)
+(0.0134)
+(0.0102)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Y
+N
+Body style fixed effects
+N
+Y
+N
+N
+N
+Make fixed effects
+N
+N
+Y
+N
+N
+Taken out those with large variation in new vehicle price 
+and those without new vehicle price
+N
+N
+N
+Y
+N
+Observations
+452 743
+452,743
+452,743
+283,785
+452,743
+R2
+0.867
+0.868
+0.882
+0.899
+0.862
+
+
+===== [PAGE 55] =====
+
+1837
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Table 25   Robustness check 4: Table 3 without those with age=0
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make, in parentheses. There are 62 clusters in all but in (4) where there are 44 clusters.
+Gasoline vehicles are the baseline. Year fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on those observations that have missing mileage and those that have missing new car price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+(5)
+Age
+− 0.104***
+− 0.102***
+− 0.108***
+− 0.111***
+− 0.111***
+(0.00473)
+(0.00433)
+(0.00417)
+(0.00555)
+(0.00458)
+Electric × age
+− 0.0693***
+− 0.0690***
+− 0.0509**
+− 0.0621***
+− 0.0638***
+(0.0192)
+(0.0197)
+(0.0207)
+(0.0171)
+(0.0199)
+Ln new price
+1.077***
+1.054***
+1.003***
+1.101***
+1.071***
+(0.0256)
+(0.0313)
+(0.0331)
+(0.0318)
+(0.0255)
+Ln mileage × gasoline
+− 0.0978***
+− 0.0994***
+− 0.0953***
+− 0.0807***
+− 0.0982***
+(0.00838)
+(0.00695)
+(0.00806)
+(0.00555)
+(0.00843)
+Ln mileage × electric
+0.00815
+0.0104
+− 0.0192**
+− 0.000644
+− 0.00100
+(0.0143)
+(0.0147)
+(0.00880)
+(0.0162)
+(0.0142)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Y
+N
+Body style fixed effects
+N
+Y
+N
+N
+N
+Make fixed effects
+N
+N
+Y
+N
+N
+Taken out those with large variation in new vehicle price 
+and those without new vehicle price
+N
+N
+N
+Y
+N
+Observations
+494,120
+494,120
+494,120
+299,668
+494,120
+R2
+0.853
+0.855
+0.875
+0.897
+0.850
+
+
+===== [PAGE 56] =====
+
+1838
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Table 26   Robustness check 5: Table 3 without dummy on those that have missing new vehicle price and mileage, meaning that the sample is smaller
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make, in parentheses. There are 44 clusters in all but column 4, where there are 43 clusters.
+The sample is smaller by 23,861 observations.
+Gasoline vehicles are the baseline. Year fixed effects are based on the year the vehicle is sold/advertised.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+(5)
+Age
+− 0.109***
+− 0.107***
+− 0.111***
+− 0.112***
+− 0.116***
+(0.00457)
+(0.00421)
+(0.00403)
+(0.00547)
+(0.00441)
+Electric × age
+− 0.0545***
+− 0.0540**
+− 0.0426**
+− 0.0579***
+− 0.0488**
+(0.0197)
+(0.0203)
+(0.0204)
+(0.0173)
+(0.0204)
+Ln new price
+1.071***
+1.044***
+1.015***
+1.090***
+1.064***
+(0.0232)
+(0.0292)
+(0.0277)
+(0.0298)
+(0.0230)
+Ln mileage × gasoline
+− 0.0709***
+− 0.0716***
+− 0.0720***
+− 0.0615***
+− 0.0714***
+(0.00738)
+(0.00594)
+(0.00726)
+(0.00547)
+(0.00734)
+Ln mileage × electric
+0.0107
+0.0133
+− 0.00473
+0.0132
+0.00284
+(0.0113)
+(0.0118)
+(0.00927)
+(0.0145)
+(0.0113)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Y
+N
+Body style fixed effects
+N
+Y
+N
+N
+N
+Make fixed effects
+N
+N
+Y
+N
+N
+Taken out those with large variation in new vehicle price 
+and those without new vehicle price
+N
+N
+N
+Y
+N
+Observations
+515,705
+515,705
+515,705
+318,478
+515,705
+R2
+0.882
+0.883
+0.890
+0.900
+0.879
+
+
+===== [PAGE 57] =====
+
+1839
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Table 27   Robustness check 6: Table 3 with absolute values instead of ln values
+Dependent variable is log of the secondhand price.
+Standard errors clustered on make, in parentheses. There are 62 clusters in all but in (4) where there are 44 clusters.
+Gasoline vehicles are the baseline. Year fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on those observations that have missing mileage and those that have missing new car price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+(5)
+Age
+− 22873.2***
+− 21477.6***
+− 25096.0***
+− 22383.1***
+− 22986.3***
+(3829.1)
+(3518.7)
+(3397.9)
+(3342.8)
+(3716.2)
+Electric × age
+− 11624.2**
+− 11498.8***
+− 2585.1
+− 7842.4*
+− 11515.0**
+(4659.1)
+(4113.2)
+(4397.0)
+(4038.9)
+(4638.1)
+New car price
+0.728***
+0.703***
+0.613***
+0.715***
+0.729***
+(0.0414)
+(0.0407)
+(0.0217)
+(0.0453)
+(0.0410)
+Mileage × gasoline
+− 0.745***
+− 0.784***
+− 0.659***
+− 0.643***
+− 0.744***
+(0.135)
+(0.111)
+(0.109)
+(0.0984)
+(0.138)
+Mileage × electric
+− 0.0817
+− 0.0427
+− 0.568***
+− 0.198
+− 0.0929
+(0.133)
+(0.130)
+(0.165)
+(0.149)
+(0.134)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Y
+N
+Body style fixed effects
+N
+Y
+N
+N
+N
+Make fixed effects
+N
+N
+Y
+N
+N
+Taken out those with large variation in new vehicle 
+price and those without new vehicle price
+N
+N
+N
+Y
+N
+Observations
+545,452
+545,452
+545,452
+336,220
+545,452
+R2
+0.786
+0.790
+0.835
+0.869
+0.786
+
+
+===== [PAGE 58] =====
+
+1840
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Table 28   Robustness check 7: Table 3 with clusters based on make × fuel
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make × fuel, in parentheses.
+There are 90 clusters in all but specification (4), where there are 68 clusters.
+Gasoline vehicles are the baseline. Year fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on those observations that have missing mileage and those that have missing new car price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+(5)
+Age
+− 0.105***
+− 0.103***
+− 0.109***
+− 0.112***
+− 0.111***
+(0.00452)
+(0.00421)
+(0.00371)
+(0.00536)
+(0.00441)
+Electric × age
+− 0.0638***
+− 0.0632***
+− 0.0468**
+− 0.0567***
+− 0.0584***
+(0.0195)
+(0.0199)
+(0.0194)
+(0.0182)
+(0.0202)
+Ln new price
+1.068***
+1.046***
+0.998***
+1.088***
+1.062***
+(0.0232)
+(0.0287)
+(0.0268)
+(0.0267)
+(0.0229)
+Ln mileage × gasoline
+− 0.0770***
+− 0.0776***
+− 0.0757***
+− 0.0608***
+− 0.0775***
+(0.00780)
+(0.00668)
+(0.00717)
+(0.00545)
+(0.00779)
+Ln mileage × electric
+0.0170
+0.0190
+− 0.00448
+0.0123
+0.00939
+(0.0126)
+(0.0129)
+(0.00798)
+(0.0145)
+(0.0127)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Y
+N
+Body style fixed effects
+N
+Y
+N
+N
+N
+Make fixed effects
+N
+N
+Y
+N
+N
+Taken out those with large variation in new vehicle price 
+and those without new vehicle price
+N
+N
+N
+Y
+N
+Observations
+545,452
+545,452
+545,452
+336,220
+545,452
+R2
+0.859
+0.861
+0.879
+0.902
+0.857
+
+
+===== [PAGE 59] =====
+
+1841
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Table 29   Robustness check 8: Table 3 with clusters based on make × year the vehicle is new
+Dependent variable is ln of the secondhand price.
+Standard errors clustered on make × the year the vehicle is new, in parentheses.
+There are 482 clusters in all but specification (4), where there are 332 clusters.
+Gasoline vehicles are the baseline. Year fixed effects are based on the year the vehicle is sold/advertised.
+We use a dummy on those observations that have missing mileage and those that have missing new car price.
+* p < 0.10 , ** p < 0.05 , *** p < 0.01
+(1)
+(2)
+(3)
+(4)
+(5)
+Age
+− 0.105***
+− 0.103***
+− 0.109***
+− 0.112***
+− 0.111***
+(0.00333)
+(0.00321)
+(0.00295)
+(0.00396)
+(0.00337)
+Electric × age
+− 0.0638***
+− 0.0632***
+− 0.0468***
+− 0.0567***
+− 0.0584***
+(0.0120)
+(0.0122)
+(0.0111)
+(0.0122)
+(0.0121)
+Ln new price
+1.068***
+1.046***
+0.998***
+1.088***
+1.062***
+(0.0163)
+(0.0228)
+(0.0167)
+(0.0217)
+(0.0163)
+Ln mileage × gasoline
+− 0.0770***
+− 0.0776***
+− 0.0757***
+− 0.0608***
+− 0.0775***
+(0.00389)
+(0.00356)
+(0.00360)
+(0.00364)
+(0.00390)
+Ln mileage × electric
+0.0170
+0.0190
+− 0.00448
+0.0123
+0.00939
+(0.0115)
+(0.0114)
+(0.00698)
+(0.0117)
+(0.0114)
+Year × fuel fixed effects
+Y
+Y
+Y
+Y
+Y
+Dealer fixed effects
+Y
+Y
+Y
+Y
+N
+Body style fixed effects
+N
+Y
+N
+N
+N
+Make fixed effects
+N
+N
+Y
+N
+N
+Taken out those with large variation in new vehicle price 
+and those without new vehicle price
+N
+N
+N
+Y
+N
+Observations
+545,452
+545,452
+545,452
+336,220
+545,452
+R2
+0.859
+0.861
+0.879
+0.902
+0.857
+
+
+===== [PAGE 60] =====
+
+1842
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Funding  Open access funding provided by Norwegian University of Life Sciences
+Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, 
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long 
+as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Com-
+mons licence, and indicate if changes were made. The images or other third party material in this article 
+are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly 
+from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+References
+Acemoglu D, Aghion P, Bursztyn L, Hemous D (2012) The environment and directed technical change. Am 
+Econ Rev 102(1):131–66
+Adda J, Cooper R (2000) Balladurette and juppette: a discrete analysis of scrapping subsidies. J Polit Econ 
+108(4):778–806
+Aghion P, Howitt PW (1998) Endogenous growth theory. MIT press, Cambridge
+Akerlof GA (1970) The market for “lemons’’: quality uncertainty and the market mechanism. Q J Econ 
+84(3):488–500
+Archsmith J, Muehlegger E, Rapson DS (2022) Future paths of electric vehicle adoption in the United 
+States: predictable determinants. Obstac Oppor Environ Energy Policy Econ 3(1):71–110
+Balcer Y, Lippman SA (1984) Technological expectations and adoption of improved technology. J Econ 
+Theory 34(2):292–318
+Barrett S (2009) The coming global climate-technology revolution. J Econ Perspect 23(2):53–75
+Berry S, Levinsohn J, Pakes A (1995) Automobile prices in market equilibrium. Econometrica 63:841–890
+Bond EW (1982) A direct test of the “Lemons’’ model: the market for used pickup trucks. Am Econ Rev 
+72(4):836–840
+Bond EW (1983) Trade in used equipment with heterogeneous firms. J Polit Econ 91(4):688–705
+Brückmann G, Wicki M, Bernauer T (2021) Is resale anxiety an obstacle to electric vehicle adoption? 
+results from a survey experiment in Switzerland. Environ Res Lett 16(12):124027
+Chen C-W, Hu W-M, Knittel CR (2021) Subsidizing fuel-efficient cars: Evidence from China’s automobile 
+industry. Am Econ J Econ Pol 13(4):152–84
+Commission of the European Communities (1999) Case No COMP/M.1406 - HYUNDAI / KIA
+Fig. 18   Binned scatter plot of the data with prices in absolute values
+
+
+===== [PAGE 61] =====
+
+1843
+Climate, Technology and Value: Insights from the First Decade…
+1 3
+Copeland A, Dunn W, Hall G (2011) Inventories and the automobile market. Rand J Econ 42(1):121–149
+Danielis R, Scorrano M, Giansoldati M, Rotaris L (2019) A meta-analysis of the importance of the driving 
+range in consumers’ preference studies for battery electric vehicles
+De Groote O, Verboven F (2019) Subsidies and time discounting in new technology adoption: evidence 
+from solar photovoltaic systems. Am Econ Rev 109(6):2137–72
+Dhakal S, Minx J, Toth FL, A A-A, Meza M F, Hubacek K, Jonckheere I, Kim Y-G, Nemet G, Pachauri S, 
+Tan X, Wiedmann T, (2022) Emissions trends and drivers. Cambridge University Press, Cambridge, 
+New York, NY
+Esteban S, Shum M (2007) Durable-goods oligopoly with secondary markets: the case of automobiles. 
+Rand J Econ 38(2):332–354
+Evyon (2022) Planet-friendly battery energy storage systems. https://​www.​evyon.​com/
+Fudenberg D, Tirole J (1998) Upgrades, tradeins, and buybacks. RAND J Econ 29:235–258
+fueleconomy.gov (n.d.) Frequently Asked Questions. https://​www.​fuele​conomy.​gov/​feg/​info.​shtml#​sizec​
+lasses
+Gavazza A, Lizzeri A, Roketskiy N (2014) A quantitative analysis of the used-car market. Am Econ Rev 
+104(11):3668–3700
+Gillingham K, Iskhakov F, Munk-Nielsen A, Rust JP, Schjerning B (2022) Equilibrium trade in automo-
+biles. J Polit Econ 130(10):2534–2593
+Glerum A, Stankovikj L, Thémans M, Bierlaire M (2014) Forecasting the demand for electric vehicles: 
+accounting for attitudes and perceptions. Transp Sci 48(4):483–499
+Gordon BR (2009) A dynamic model of consumer replacement cycles in the PC processor industry. Mark 
+Sci 28(5):846–867
+Gowrisankaran G, Rysman M (2012) Dynamics of consumer demand for new durable goods. J Polit Econ 
+120(6):1173–1219
+Green Cars (2021) Cost to maintain an electric car. https://​www.​green​cars.​com/​post/​what-​does-​it-​cost-​to-​
+maint​ain-​an-​elect​ric-​car
+Guan J (2021) Automobile replacement and government subsidy: an analysis of the CARS program, Avail-
+able at SSRN 3873076
+Holland SP, Mansur ET, Yates AJ (2021) The electric vehicle transition and the economics of banning gaso-
+line vehicles. Am Econ J Econ Pol 13(3):316–44
+IEA (2021) Global EV Outlook 2021, Technical report. https://​www.​iea.​org/​repor​ts/​global-​ev-​outlo​ok-​2021
+IEA (2022) Global EV Outlook 2022, Technical report. https://​www.​iea.​org/​repor​ts/​global-​ev-​outlo​ok-​2022
+IIHS and HLDI (2020) HLDI automobile size and class definitions. https://​www.​iihs.​org/​media/​b19c7​e8c-​
+54ea-​4a35-​a3bb-​3a05f​a2a5c​16/​g5MZTA/​Ratin​gs/​Proto​cols/​curre​nt/​hdi-​auto-​size-​class.​pdf
+Ishihara M, Ching AT (2019) Dynamic demand for new and used durable goods without physical deprecia-
+tion: the case of Japanese video games. Mark Sci 38(3):392–416
+Power JD (2020) Electric Vehicle Range Testing: Understanding NEDC vs. WLTP vs. EPA. https://​www.​
+jdpow​er.​com/​Cars/​Shopp​ing-​Guides/​elect​ric-​vehic​le-​range-​testi​ng-​under​stand​ing-​nedc-​vs-​wltp-​vs-​epa
+Kelleher Environmental (2019). Research study on reuse and recycling of batteries employed in electric 
+vehicles: The technical, environmental, economic, energy and cost implications of reusing and recy-
+cling ev batteries, Technical report
+Li S, Liu Y, Wei C (2020) The cost of greening stimulus: A dynamic discrete choice analysis of vehicle 
+scrappage programs
+Liu Y, Cirillo C (2017) A generalized dynamic discrete choice model for green vehicle adoption. Trans Res 
+Procedia 23:868–886
+Meld. St. 33 (2016-2017) National Transport Plan 2018–2029. Report to the Storting (white paper) English 
+Summary, Technical report
+Mian A, Sufi A (2012) The effects of fiscal stimulus: evidence from the 2009 cash for clunkers program. Q 
+J Econ 127(3):1107–1142
+Muehlegger E, Rapson DS (2022) Subsidizing low-and middle-income adoption of electric vehicles: 
+Quasi-experimental evidence from California. J Public Econ 216:104752
+National Highway Traffic Safety Administration (n.d.). Frequently Asked Questions. https://​www.​nhtsa.​
+gov/​ratin​gs
+Nichols D (2022) Battery degradation and how to prevent it. https://​www.​green​cars.​com/​green​cars-​101/​
+batte​ry-​degra​dation-​and-​how-​to-​preve​nt-​it
+OFV (2024) Bilsalget i desember og hele 2023. Accessed February 26 2024. https://​ofv.​no/​bilsa​lget/​
+bilsa​lget-i-​desem​ber-​2023
+Pathak M, Slade R, Shukla P, Skea J, Pichs-Madruga R, Ürge Vorsatz D (2022) Technical summary. 
+Cambridge University Press, Cambridge, New York, NY
+Porter R H, Sattler P (1999) Patterns of trade in the market for used durables: Theory and evidence
+
+
+===== [PAGE 62] =====
+
+1844
+	
+G. L. Andreassen, J. T. Lind 
+1 3
+Purohit D (1992) Exploring the relationship between the markets for new and used durable goods: the 
+case of automobiles. Mark Sci 11(2):154–167
+Rosenberg N (1976) On technological expectations. Econ J 86(343):523–535
+Rust J (1987) Optimal replacement of GMC bus engines: an empirical model of Harold Zurcher. Econo-
+metrica 55:999–1033
+Sallee JM, West SE, Fan W (2016) Do consumers recognize the value of fuel economy? Evidence from 
+used car prices and gasoline price fluctuations. J Public Econ 135:61–73
+Schiraldi P (2011) Automobile replacement: a dynamic structural approach. Rand J Econ 42(2):266–291
+Schloter L (2022) Empirical analysis of the depreciation of electric vehicles compared to gasoline vehi-
+cles. Transp Policy 126:268–279
+Solow RM, Tobin J, von Weizsäcker CC, Yaari M (1966) Neoclassical growth with fixed factor propor-
+tions. Rev Econ Stud 33(2):79–115
+Springel K (2021) Network externality and subsidy structure in two-sided markets: evidence from elec-
+tric vehicle incentives. Am Econ J Econ Policy 13(4):393–432
+Stock JH (2020) Climate change, climate policy, and economic growth. NBER Macroecon Annu 
+34(1):399–419
+Stolyarov D (2002) Turnover of used durables in a stationary equilibrium: are older goods traded more? 
+J Polit Econ 110(6):1390–1413
+Strittmatter A, Lechner M (2020) Sorting in the used-car market after the Volkswagen emission scandal. 
+J Environ Econ Manag 101:102305
+The Norwegian Electric Vehicle Association (2021a) Bruktbil-bonanza: Nå topper elbilene blant to år 
+gamle biler. https://​elbil.​no/​na-​topper-​elbil​ene-​blant-​to-​ar-​gamle-​biler/
+The Norwegian Electric Vehicle Association (2021b) Prisene presses: Nå kan du gjøre et elbil-kupp. 
+https://​elbil.​no/​prise​ne-​press​es-​na-​kan-​du-​gjore-​et-​elbil-​kupp/
+The Norwegian Electric Vehicle Association (2022a) The electric vehicle selector. https://​elbil​velge​ren.​
+elbil.​no/
+The Norwegian Electric Vehicle Association (2022b) Nybilsalget 2021: Nå selges det flere elbiler enn 
+dieselbiler i Europa. https://​elbil.​no/​na-​selges-​det-​flere-​elbil​er-​enn-​diese​lbiler-​i-​europa/
+The Norwegian Tax Administration (n.d.) Calculating the one-off registration tax for plug-in hybrids. 
+https://​www.​skatt​eetat​en.​no/​en/​person/​duties/​cars-​and-​other-​vehic​les/​impor​ting/​which-​duties-​do-​you-​
+have-​to-​pay/​one-​off-​regis​trati​on-​tax/​what-​is-​the-​one-​off-​regis​trati​on-​tax/​calcu​lating-​the-​one-​off-​regis​
+trati​on-​tax-​for-​plug-​in-​hybri​ds/
+The Renault Group (2020) The wltp: a standard that car drivers can understand. https://​www.​renau​ltgro​up.​
+com/​en/​news-​on-​air/​news/​the-​wltp-a-​stand​ard-​that-​car-​drive​rs-​can-​under​stand/
+Waldman M (2003) Durable goods theory for real world markets. J Econ Perspect 17(1):131–154
+Wykoff F C (1970) The average price fall for electric. The Rev Econ Stat pp 168–172
+Publisher’s Note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.

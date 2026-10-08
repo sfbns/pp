@@ -1,0 +1,2265 @@
+==============================================================================
+【文献】Li, Tong, Xing & Zhou (2017). The Market for Electric Vehicles: Indirect Network Effects and Policy Design. JAERE 4(1): 89-133.
+【编号】A13　【简称】LiTongXingZhou2017　【分组】网络效应
+【原文 PDF】D:\codex\research-memory\pdfs\blp_1995_citing_2026-03-21\Li_Tong_Xing_Zhou_2017_Market_for_Electric_Vehicles_mirror.pdf
+【页数】45 页　【页码换算】印刷（期刊）页码 = PDF 页码 + 88
+【文本来源】PyMuPDF 抽取 PDF 文字层（按版面块排序）
+【公式校正】本篇未逐式校正。正文公式为机器抽取，常有错位、缺字或乱码，引用公式请以原 PDF 为准
+【使用提醒】正文是机器抽取的原文，不是译文；公式区以页末校正或原 PDF 为准。页标记中的 PDF 页码可直接用于在原 PDF 中翻页定位。
+==============================================================================
+
+===== [PDF 第 1 页｜印刷第 89 页] =====
+The Market for Electric Vehicles:
+Indirect Network Effects and Policy Design
+
+
+Shanjun Li, Lang Tong, Jianwei Xing, Yiyi Zhou
+
+
+
+Abstract: The market for plug-in electric vehicles (EVs) exhibits indirect network
+effects due to the interdependence between EV adoption and charging station invest-
+ment. Through a stylized model, we demonstrate that indirect network effects on
+both sides of the market lead to feedback loops that could alter the diffusion process
+of the new technology. Based on quarterly EV sales and charging station deployment
+in 353 metro areas from 2011 to 2013, our empirical analysis ﬁnds indirect network
+effects on both sides of the market, with those on the EV demand side being stron-
+ger. The federal income tax credit of up to $7,500 for EV buyers contributed to
+about 40% of EV sales during 2011–13, with feedback loops explaining 40% of that
+increase. A policy of equal-sized spending but subsidizing charging station deploy-
+ment could have been more than twice as effective in promoting EV adoption.
+
+JEL Codes: L62, Q48, Q58
+
+Keywords: Electric vehicles, Indirect network effects, Policy design
+
+
+
+THE ELECTRIFICATION of the transportation sector through the diffusion of plug-
+in electric vehicles (EVs), coupled with cleaner electricity generation, is considered a
+promising pathway to reduce air pollution from on-road vehicles and to strengthen
+
+
+
+Shanjun Li (corresponding author) is an associate professor at Cornell University in the School
+of Applied Economics and Management (SL2448@cornell.edu). Lang Tong is Irwin and Joan
+Jacobs Professor at Cornell University in the School of Electric and Computer Engineering
+(ltong@ece.cornell.edu). Jianwei Xing is a PhD student at Cornell University, Dyson School
+of Applied Economics and Management, (jx82@cornell.edu). Yiyi Zhou is an assistant pro-
+fessor at Stony Brook University in the Department of Economics and College of Business
+(yiyi.zhou@stonybrook.edu). We thank seminar participants at the University of Michigan,
+2015 International Industrial Organization Conference, 3rd Northeast Workshop on Energy
+and Environmental Policy, and 2015 National Tax Association conference for helpful com-
+ments. We are grateful to the editor Dan Phaneuf and two anonymous reviewers for their de-
+tailed and constructive comments and suggestions. Shanjun Li and Lang Tong acknowledge the
+support of the National Science Foundation under grant CNS-1248079.
+
+Received August 8, 2015; Accepted May 18, 2016; Published online January 24, 2017.
+
+JAERE, volume 4, number 1. © 2017 by The Association of Environmental and Resource Economists.
+All rights reserved. 2333-5955/2017/0401-0003$10.00     http://dx.doi.org/10.1086/689702
+
+                                                                            89
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 2 页｜印刷第 90 页] =====
+90    Journal of the Association of Environmental and Resource Economists   March 2017
+
+energy security. The US transportation sector contributes to nearly 30% of US total
+greenhouse gas emissions, over half of carbon monoxide and nitrogen oxides emis-
+sions, and about a quarter of hydrocarbons emissions in recent years. It also accounts
+for about three-quarters of US petroleum consumption. Different from conventional
+gasoline vehicles with internal combustion engines, plug-in electric vehicles (EVs) use
+electricity stored in rechargeable batteries to power the motor, and the electricity
+comes from external power sources. When operated in all-electric mode, EVs con-
+sume no gasoline and produce zero tailpipe emissions. But emissions shift from on-
+road vehicles to electricity generation, which uses a domestic fuel source. The environ-
+mental beneﬁt critically depends on the fuel source of electricity generation.1
+   Since the introduction of the mass-market models into the United States in late
+2010, monthly sales of EVs have increased from 345 in December 2010 to 13,388
+in December 2015.2 Despite the rapid growth, the market share of electric cars is still
+small: the total EV sales only made up 0.82% of the new vehicle market in 2015. In
+the 2011 State of the Union address, President Obama set up a goal of having 1 mil-
+lion EVs on the road by 2015. Based on the actual market penetration, the goal was
+met less than halfway.3
+  As a new technology, EVs face several signiﬁcant barriers to wider adoption, in-
+cluding the high purchase cost, limited driving range, the lack of charging infrastruc-
+ture, and long charging time. Although EV owners can charge their vehicles overnight
+at home, given the limited driving range, consumers may still worry about running out
+of electricity before reaching their destination. This issue of range anxiety could lead to
+reluctance to adopt EVs especially when public charging stations are scarce. At the
+same time, private investors have less incentive to build charging stations if the size
+of the EV ﬂeet and the market potential are small. The interdependence between the
+two sides of the market (EVs and charging stations) can be characterized as indirect net-
+work effects (or the chicken-and-egg problem): the beneﬁt of adoption/investment on
+one side of the market increases with the network size of the other side of the market.
+  The objective of this study is to empirically quantify the importance of indirect net-
+work effects on both sides of the EV market and examine their policy implications.
+This is important for at least two reasons. First, while industry practitioners and pol-
+
+
+
+    1. Holland, Mansur, and Muller (2015) ﬁnd considerable heterogeneity in environmental
+beneﬁts of EV adoption depending on the location and argue for regionally differentiated EV
+policy.
+    2. From 1996 to 1998, GM introduced over 1,000 ﬁrst-generation EVs (EV1) in California,
+mostly made available through leases. In 2003, GM crushed their EVs upon the expiration of
+the leases.
+    3. Similar national goals exist in many other countries: the Chinese government set up a goal
+of half a million EVs on the road by 2015 and 5 million by 2020. The German government
+developed an initiative to reach 1 million EVs by 2020.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 3 页｜印刷第 91 页] =====
+                                   The Market for Electric Vehicles    Li et al.   91
+
+icy makers often use the chicken-and-egg metaphor to characterize the challenge faced
+by this technology, we are not aware of any empirical analysis on this issue. Examining
+the presence and the magnitude of indirect network effects is important in under-
+standing the development of the EV market. If indirect network effects exist on both
+sides of the market, feedback loops arise. The feedback loops could exacerbate shocks,
+whether positive or negative, on either side of the market (e.g., gasoline price changes or
+government interventions) and alter the diffusion path. Ignoring feedback loops could
+lead to underestimation of the impacts of policy and nonpolicy shocks in this market.
+   Second, indirect network effects could have important policy implications. As we
+describe below, policy makers in the United States and other countries are employing
+a variety of policies to support the EV market. When promoting consumer adoption
+of this technology, they can subsidize EV buyers or charging station investors or a
+combination of the two. Both our theoretical and empirical analyses show that the na-
+ture of indirect network effects largely determines the effectiveness of different poli-
+cies. Therefore, understanding indirect network effects could help develop more effec-
+tive policies to promote EV adoption.
+   Taking advantage of a rich data set of quarterly new EV sales by model and de-
+tailed information on public charging stations in 353 Metropolitan Statistical Areas
+(MSAs) from 2011 to 2013, we quantify indirect network effects on both sides of
+the market by estimating two equations: a demand equation for EVs that quantiﬁes
+the effect of the availability of public charging stations on EV sales, and a charging
+station equation that quantiﬁes the effect of the EV stock on the deployment of charg-
+ing stations. Recognizing the endogeneity issue due to simultaneity in both equations,
+we employ an instrumental variable strategy to identify indirect network effects. To
+estimate the network effects of charging stations on EV adoption, we use a Bartik
+(1991)–style instrument for the endogenous number of electric charging stations,
+which interacts national charging station deployment shock with local market condi-
+tions: number of grocery stores and supermarkets. To estimate the network effects of
+EV stock on charging station deployment, we use current and historic gasoline prices
+to instrument for the endogenous cumulative EV sales. Across various speciﬁcations,
+our analysis ﬁnds statistically and economically signiﬁcant indirect network effects on
+both sides of the market. The estimates from our preferred speciﬁcations show that a
+10% increase in the number of public charging stations would increase EV sales by
+about 8%, while a 10% growth in EV stock would lead to a 6% increase in charging
+station deployment.
+  With the parameter estimates, we examine the effectiveness of the federal income
+tax credit program which provides new EV buyers a federal income tax credit of up to
+$7,500.4 Our simulations show that the $924.2 million subsidy program contributed
+
+
+    4. Throughout our analysis, we treat the tax credit as a full-amount rebate due to the lack of
+household-level data in our analysis. EV buyers are more afﬂuent than average vehicle buyers,
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 4 页｜印刷第 92 页] =====
+92    Journal of the Association of Environmental and Resource Economists   March 2017
+
+to 40.4% of the total EV sales during this period. Importantly, our analysis shows that
+feedback loops resulting from indirect network effects in the market accounted for
+40% of that sales increase, a signiﬁcant portion. Our simulations further show that
+if the $924.2 million tax incentives were used to build charging stations instead of sub-
+sidizing EV purchase, the increase in EV sales would have been twice as large. The
+better cost effectiveness of the subsidy on charging stations relative to the income
+tax credit for EV buyers is due to (1) strong indirect network effects on EV demand
+and (2) low price sensitivity of early adopters.
+   This study directly contributes to the following three strands of literature. First,
+our study adds to the emerging literature on consumer demand for electric vehicles.
+The Congressional Budget Ofﬁce (CBO 2012) estimates the effect of income tax cred-
+its for EV buyers based on previous research on the effects of similar tax credits on
+traditional hybrid vehicles and ﬁnds that the tax credit could contribute to nearly
+30% of future EV sales. DeShazo, Sheldon, and Carson (2014) use a statewide survey
+of new car buyers in California to estimate price elasticities and willingness to pay for
+different vehicles and then simulate the effect of different rebate designs. They esti-
+mate that the current rebate policy in California that offers all income classes the same
+rebate of $2,500 for battery electric vehicles (BEVs) and $1,500 for plug-in hybrid
+vehicles (PHEVs) leads to a 7% increase in EV sales. Using market-level sales data,
+our study offers a ﬁrst analysis to quantify the role of indirect network effects in
+the market and their implications on government subsidies.
+   Second, our study ﬁts into the rich literature on indirect network effects. Previous
+work on indirect network effects dates back to early theoretical studies such as Rohlfs
+(1974), Farrell and Saloner (1985), and Katz and Shapiro (1985). Our paper is also
+related to the emerging literature on two-sided markets that exhibit indirect network
+effects.5 Theoretical work includes Caillaud and Jullien (2003), Armstrong (2006),
+Hagiu (2006), Rochet and Tirole (2006), and Weyl (2010), and empirical work in-
+cludes the PDA and compatible software market by Nair, Chintagunta, and Dube
+(2004), the market of CD titles and CD players by Gandal, Kende, and Rob (2000),
+the Yellow Pages industry by Rysman (2004), and the video game industry by Clements
+and Ohashi (2005), Corts and Lederman (2009), Lee (2013), and Zhou (2014). In this
+
+
+
+and their tax liability is likely to be over $7,500. According to the California Plug-in Electric Ve-
+hicle Owner Survey (2014), among buyers of conventional new vehicles, 15% of households have
+annual household income over $150,000 while among EV buyers, that share is 54% (https://
+energycenter.org/clean-vehicle-rebate-project/vehicle-owner-survey/feb-2014-survey).
+    5. Although exhibiting indirect networks, the EV market differs from the canonical two-sided
+markets in that there is no well-deﬁned platform for buyers and sellers to interact. The automak-
+ers sell EVs to consumers directly. Public charging stations serve as a backup to home charging
+(e.g., a complementary good). The automakers do not charge charging stations loyalty fees or
+membership fees, as is often the case in a two-sided market.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 5 页｜印刷第 93 页] =====
+                                   The Market for Electric Vehicles    Li et al.   93
+
+strand of literature, our study is closest to Corts (2010) in topic which extends the lit-
+erature to the automobile market and studies the effect of the installed base of ﬂexible-
+fuel vehicles (FFV) on the deployment of E85 fueling stations. Corts (2010) only fo-
+cuses on indirect network effects on one side of the market and does not look at that
+the effect of E85 fueling stations on FFV adoption.
+   Third, our analysis contributes to the rich literature on the diffusion of vehicles
+with advance fuel technologies (e.g., hybrid vehicles) and alternative fuels (e.g., FFVs).
+Kahn (2007), Kahn and Vaughn (2009), and Sexton and Sexton (2014) examine the
+role of consumer environmental awareness and signaling in the market for traditional
+hybrid vehicles. Heutel and Muehlegger (2012) study the effect of consumer learning
+in hybrid vehicle adoption, focusing on the different diffusion paths of Honda Insight
+and Toyota Prius. Several recent studies have examined the impacts of government
+programs both at the federal and state levels in promoting the adoption of hybrid ve-
+hicles, including Beresteanu and Li (2011), Gallagher and Muehlegger (2011), and
+Sallee (2011). Both hybrid vehicles and EVs represent important steps in fuel econ-
+omy technology. Environmental preference, consumer learning, and government pol-
+icies are likely to be all relevant in the EV market. Our paper focuses on the key dif-
+ference between these two technologies: indirect network effects in the EV market.
+Huse (2014) examines the impact of government subsidy in Sweden on consumer
+adoption of FFVs and the environmental impacts when consumers subsequently
+choose to use gasoline instead of ethanol due to low gasoline prices. Based on natural-
+istic driving data, Langer and McRae (2014) show that a larger network of E85 fueling
+stations would reduce the time cost of fueling and hence increase the adoption of
+FFVs.
+   Section 1 brieﬂy describes the industry and policy background of the study and the
+data. Section 2 presents a simple model of indirect network effects and uses simula-
+tions to show how feedback loops amplify shocks. Section 3 lays out the empirical
+model. Section 4 presents the estimation results. In section 5, we present the policy
+simulations and compare the existing income tax credit policy with an alternative pol-
+icy. Section 6 concludes.
+
+
+1. INDUSTRY AND POLICY BACKGROUND AND DATA
+In this section, we ﬁrst present industry background, focusing on important barriers to
+EV adoption and then discuss current government policies. Next we present the data
+used in the empirical analysis.
+
+
+1.1. Industry Background
+Tesla Motors played a signiﬁcant role in the comeback of electric vehicles by introduc-
+ing Tesla Roadster, an all-electric sports car, in 2006 and beginning general produc-
+tion in March 2008. However, the model had a price tag of over $120,000, out of the
+price range for average buyers. Nissan Leaf ($33,000) and Chevrolet Volt ($41,000)
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 6 页｜印刷第 94 页] =====
+94    Journal of the Association of Environmental and Resource Economists   March 2017
+
+were introduced into the US market in December 2010, marking the beginning of the
+mass market for EVs.
+   There are currently two types of EVs: battery electric vehicles (BEVs) which run
+exclusively on high-capacity batteries (e.g., Nissan Leaf ), and plug-in hybrid vehicles
+(PHEVs) which use batteries to power an electric motor and use another fuel (gaso-
+line) to power a combustion engine (e.g., Chevrolet Volt). As depicted in ﬁgure 1,
+quarterly EV sales increased from less than 2,000 in the ﬁrst quarter of 2011 to nearly
+30,000 in the last quarter of 2013, while the number of public charging stations has
+increased from about 800 to over 6,000. Nevertheless, the EV market is still very
+small: EV sales only made up 0.82% (or 113,889) of the total new vehicle sales in
+the United States in 2015, and there are only about 12,500 public charging stations
+as of March 2016, compared to over 120,000 gasoline stations.
+   There are several commonly cited barriers to EV adoption. First, EVs are more
+expensive than their conventional gasoline vehicle counterparts. The manufacturer’s
+suggested retail prices (MSRP) for the 2015 model of Nissan Leaf and Chevrolet Volt
+are $29,010 and $34,345, respectively, while the average price for a comparable con-
+ventional vehicle (e.g., Nissan Sentra, Chevrolet Cruze, Ford Focus, and Honda Civic)
+is between $16,000 and $18,000. A major reason behind the cost differential is the
+
+
+
+
+
+   Figure 1. National quarterly EV sales and public charging stations. The quarterly EV sales
+plotted include both BEV and PHEV sales. Source: Authors’ calculations using Hybridcars
+.com monthly sales dashboard data and electric charging station location data by Alternative
+Fuel Data Center of the Department of Energy.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 7 页｜印刷第 95 页] =====
+                                   The Market for Electric Vehicles    Li et al.   95
+
+cost of the battery. As battery technology improves, the cost should come down. In
+addition, lower operating costs of EVs can signiﬁcantly offset the high initial purchase
+costs.6 A recent study by EPRI (2013) compares the lifetime costs (including pur-
+chase cost less incentives, maintenance, and operation) of vehicles of different fuel
+types and ﬁnds that under reasonable assumptions, higher capital costs are well bal-
+anced by savings in operation costs: EVs are typically within 10% of comparable hy-
+brid and conventional gasoline vehicles.
+  The second notable barrier to EV adoption is the limited driving range. BEVs have
+a shorter range per charge than conventional vehicles have per tank of gas, contributing
+to consumer anxiety of running out of electricity before reaching a charging station.
+Nissan Leaf, the most popular BEV in the United States, has an EPA-rated range
+of 84 miles on a fully charged battery in 2015. Chevrolet Volt has an all-electric range
+of 38 miles, beyond which it will operate under gasoline mode. This range is sufﬁcient
+for daily household vehicle trips but may not be enough for longer distance travels.
+  The third barrier, closely related to the second, is the lack of charging infrastruc-
+ture. A large network of charging stations can reduce range anxiety and allow PHEVs
+to operate more under the all-electric mode to save gasoline.7 There are two types of
+public charging stations: 240 volt AC charging (level 2 charging) and 500 volt DC
+high-current charging (DC fast charging), with the former being the dominant type.
+The installation of charging stations involves a variety of costs, including charging sta-
+tion hardware, other materials, labor, and permits. A typical level 2 charging station
+for public use has three to four charging units and costs about $27,000, while a DC
+fast charging station costs over $50,000.8 Charging stations can be found at workplace
+parking lots, shopping centers, grocery stores, restaurants, dealers, and existing gaso-
+
+
+
+    6. For a regular EV such as Nissan Leaf, the fuel cost of traveling 100 miles is about $3.6
+assuming that it takes 30 kilowatt hours (kWh) to drive the distance and the electricity price is
+12 cents per kWh. For a conventional gasoline vehicle, the fuel cost is about $14 assuming the
+fuel economy of 25 mpg and gasoline price at $3.5 per gallon.
+    7. According to the California Plug-in Electric Vehicle Owner Survey (2014), 71% of EV
+owners expressed dissatisfaction with public charging infrastructure, coming down from 83% in
+2012 (https://energycenter.org/clean-vehicle-rebate-project/vehicle-owner-survey/feb-2014
+-survey).
+    8. According to the charging station cost report by US Department of Energy Vehicle Tech-
+nologies Ofﬁce (2015), the cost of a level 2 EV charging unit for public use is between $3,000
+and $6,000, and the installation fee is from $600 to $12,700 per unit. Using the average equip-
+ment cost ($ 4,500) and installation fee ($3,000) per unit, the total cost of installing a charging
+station of an average size (3.6 charging units) comes at $27,000. This estimate does not include
+future maintenance and operating cost and is therefore a lower bound estimate. Note 28 pro-
+vides a upper bound estimate, which includes those costs. See “Costs Associated with Non-
+residential Electric Vehicle Supply Equipment” (http://www.afdc.energy.gov/uploads/publication
+/evse_cost_report_2015.pdf).
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 8 页｜印刷第 96 页] =====
+96    Journal of the Association of Environmental and Resource Economists   March 2017
+
+line stations, a point that we will come back to when constructing the instrument for
+the number of charging stations in the EV demand estimation. Owners of charging
+stations are often motivated by a variety of considerations such as boosting their sus-
+tainability credentials, attracting customers for their main business, and providing a
+service for employees. Charging stations are often managed by one of the major na-
+tional operators such as Blink, ChargePoint, and eVgo.
+  The fourth barrier is the long charging time. It takes much longer to charge EVs
+than to ﬁll up gasoline vehicles. A BEV may not be able to get fully charged overnight
+if just using a regular 120 volt electric plug (e.g., it takes 21 hours for a Nissan Leaf to
+get fully charged). To get faster charging, BEV drivers either need to install a charging
+station at home or go to public charging stations. It takes six to eight hours to fully
+charge a Nissan Leaf at a level 2 charging station and only 10–30 minutes at a DC
+fast charging station.9 Unlike BEVs, PHEV batteries can be charged not only by
+an outside electric power source, but by the internal combustion engine as well. Hav-
+ing the second source of power may alleviate range anxiety, but the shorter electric
+range limits the fuel cost savings from EVs.
+
+
+1.2. Government Policy
+The diffusion of electric vehicles together with a clean electricity grid can be an effec-
+tive combination in reducing local air pollution, greenhouse gas emissions, and oil de-
+pendency. The EV technology is widely considered as representing the future of pas-
+senger vehicles. The International Energy Agency projects that by 2050, EVs have the
+potential to account for 50% of light duty vehicle sales.10 Many countries around the
+world have developed goals to develop the EV market and provide support to promote
+the diffusion of this technology (Mock and Zhang 2014).11
+  To reduce the price gap between EVs and their gasoline counterparts, the Energy
+Improvement and Extension Act of 2008, and later the American Clean Energy and
+Security Act of 2009, grant a federal income tax credit for new qualiﬁed EVs. The
+
+
+    9. Consumers do not need to wait for the battery to get fully charged before operating their
+vehicles again. They can recharge batteries by a certain amount depending on the duration of
+their stay at the charging locations while working, shopping, or running errands. Public charging
+stations mainly serve as a backup or complementary charging option to alleviate EV drivers’
+range anxiety. A concern toward DC fast charging is that it can reduce battery life due to the
+nature of charging. In addition, DC fast charging on a large scale can create demand spikes on
+the local electricity grid and exacerbate peak demand.
+   10. Hydrogen vehicles (not yet mass produced) will account for the majority of the remain-
+der (https://www.iea.org/publications/freepublications/publication/EV_PHEV_Roadmap
+.pdf).
+   11. The Chinese government provides a rebate of over $9,000 to BEV buyers and nearly
+$8,000 for PHEV buyers. The UK government offers a grant of up to $7,800 to EV buyers.
+In Japan, EV buyers were eligible for a subsidy of up to $10,000 in 2013 and $8,500 in 2014.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 9 页｜印刷第 97 页] =====
+                                   The Market for Electric Vehicles    Li et al.   97
+
+minimum credit is $2,500 and the credit may be up to $7,500, based on each vehicle’s
+battery capacity and the gross vehicle weight rating. Moreover, several states have es-
+tablished additional state-level incentives to further promote EV adoption such as tax
+exemptions and rebates for EVs and nonmonetary incentives such as high occupancy
+vehicle (HOV) lane access, toll reduction, and free parking. California, through the
+Clean Vehicle Rebate Project, offers a $2,500 rebate to BEV buyers and a $1,500 re-
+bate to PHEV buyers. In addition, federal, state, and local governments provide fund-
+ing to support charging station deployment. For example, the Department of Energy
+provided ECOtality Inc. a $115 million grant to build residential and public charging
+stations in 22 US cities in collaboration with local project partners.
+  Government intervention in this market could be justiﬁed from the following per-
+spectives. First, indirect network effects in the EV market represent a source of market
+failure since marginal consumers/investors only consider the private beneﬁt in their
+decision, and the network size on both sides is less than optimal (Liebowitz and
+Margolis 1995; Church, Gandal, and Krause 2002). In addition, given the nature
+of the market, each side of the market is unlikely to internalize the external effect
+on the other side through market transactions. If EVs are produced by one automaker,
+the automaker would have an incentive to offer a charging station network to increase
+EV adoption. Nissan and GM are the two early producers of EVs, but more and more
+auto makers are entering the competition. Nissan is a large owner of charging stations
+but GM is not.12
+   Second, the external costs from gasoline consumption in the United States and
+many countries around the world are not properly reﬂected by the gasoline tax (Parry
+and Small 2005; Parry et al. 2014). Compared to conventional gasoline vehicles, EVs
+offer environmental beneﬁts when the electricity comes from clean generation such as
+renewables. In regions that depend heavily on coal or oil for electricity generation, EVs
+may not demonstrate an environmental advantage over gasoline vehicles.13 Electricity
+generation continues to become cleaner around the world due to the adoption of
+abatement technologies (e.g., scrubbers), the deployment of renewable generation, and
+the switch from coal to natural gas. In addition, technologies are being developed
+
+
+
+   12. Tesla is building its own proprietary network for Tesla owners only. This suggests that
+they recognize the importance of charging stations in EV adoption, but this would create du-
+plicate systems.
+   13. Zivin, Kotchen, and Mansur (2014) estimate marginal CO2 emissions of electricity pro-
+duction that vary by location and time of the day, and they ﬁnd that charging EVs in some re-
+gions (the upper Midwest) during the recommended off-peak hours of midnight to 4 a.m. even
+generates more carbon emissions than the average conventional gasoline vehicle on the road.
+The environmental beneﬁt of EVs under a different fuel mix of electricity generation is still
+an active research topic, and a critical element that has not been well understood in the literature
+is what types of vehicles (hybrid or gasoline vehicles) EVs replace.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 10 页｜印刷第 98 页] =====
+98    Journal of the Association of Environmental and Resource Economists   March 2017
+
+to integrate EVs and renewable electricity generation such as solar and wind. The in-
+tegration of the intermittent energy source with EV charging not only can help EVs
+fully realize its environmental beneﬁts but also can leverage EV batteries as a storage
+facility to address the issue of intermittency and serve as an energy buffer (Lund and
+Kempton 2008).
+   Third, technology spillovers among ﬁrms often exist, especially in the early stage of
+new technology diffusion (Stoneman and Diederen 1994). The development of EV
+technology requires signiﬁcant costs, but the technology know-how once developed
+can spread through many channels, including worker migration and the product mar-
+ket. Bloom, Schankerman, and van Reenen (2013) estimate that the social returns to
+R&D are larger than the private returns due to positive technology spillovers, implying
+underinvestment in R&D. In addition, the social returns to R&D by larger ﬁrms are
+larger due to stronger spillovers.
+
+
+1.3. Data
+We construct a panel data set consisting of quarterly EV sales by vehicle model and
+the number of charging stations available at 353 MSAs from 2011 to 2013. Table 1
+presents summary statistics of the variables used in our regression analysis. Data on
+quarterly vehicle sales of each EV model in each MSA are purchased from IHS Au-
+tomotive. The sales data include 17 EV models: 10 BEVs and 7 PHEVs. Due to dif-
+ferent introduction schedules, there were two vehicle models in our 2011 data: Nissan
+Leaf and Chevrolet Volt. The 2012 data include four more vehicle models: Ford
+Focus EV, Mitsubishi i-MiEV, Fisker Karma, and Toyota Prius Plug-in. The 2013 data
+include 11 additional models: Honda Accord Plug-in, Ford C-Max Energi, Cadillac
+ELR, Honda Fit EV, Fiat 500E, Smart ForTwo Electric Drive, Tesla Model S, Porsche
+Panamera, Toyota RAV4, Chevrolet Spark EV, and Ford Transit Connect EV. In
+2013, the top four EV models are Nissan Leaf, Chevrolet Volt, Tesla Model S, and
+Toyota Prius plug-in with market shares (sales) of 25.8% (22,610), 24.4% (23,094),
+17.4% (18,650), and 9.4% (12,088), respectively.
+   For our analysis, we focus on the 353 MSAs (out of 381 MSAs in total) for which
+observations are available in all three years, and their EV sales accounted for 83% of
+the national EV sales during our data period. Panel A of ﬁgure 2 depicts the spatial
+pattern of EV ownership (the number of EVs per million people) in the last quarter of
+2013. It shows that large urban areas have a higher concentration of EVs. The MSA
+with the highest concentration is San Jose–Sunnyvale–Santa Clara, CA, with 5,608
+EVs per million people by the end of 2013. The next two MSAs are both nearby: San
+Francisco–Oakland–Fremont and Santa Cruz–Watsonville. The MSA with the low-
+est concentration is Laredo, TX, with only 36 EVs per million people (nine EVs with
+a population of a quarter of a million).
+  We obtain detailed information on locations and open dates of all charging stations
+from the Alternative Fuel Data Center (AFDC) of the Department of Energy. By
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 11 页｜印刷第 99 页] =====
+                                   The Market for Electric Vehicles    Li et al.   99
+
+Table 1. Summary Statistics
+
+Variable                                        Mean         SD
+
+A.Vehicle demand equation:
+   Sales of an EV model                                        9.62             40.01
+  Gasoline prices ($)                                           3.52                 .26
+ EV retail price – tax incentives ($)                      33,161            18,569
+  No. of charging stations                                    22.13             45.74
+   Residential charging stations from the EV project               9.21             65.41
+  Annual personal income ($)                            41,607            82,536
+  Hybrid vehicle sales in 2007                           945             1,859
+  No. of grocery stores                                 278             624
+  Average commute (minutes)                                22.96               3.37
+  College graduate share                                           .40                 .07
+  Use public transport to work share                               .02                 .03
+  Drive-to-work share                                             .88                 .05
+  Share of white residents                                          .78                 .11
+  No. of observations                                   14,563
+B.Charging station equation:
+  No. of charging stations                                      9.94             28.13
+  No. of EV installed base                              134             584
+  Charging station tax credit (%)                                4.56              14.7
+  Public funding or grants                                         .33                 .47
+  No. of grocery stores                                 186             455
+  Hybrid vehicle sales in 2007                           568             1,354
+  Current gasoline prices ($)                                    3.49                 .27
+  Gasoline price last year ($)                                    3.25                 .39
+  Gasoline price two years ago ($)                               2.78                 .59
+  Gasoline price three years ago ($)                             2.78                 .58
+   State EV incentives (rebates 1 tax credits) ($)             1,575             3,121
+  No. of observations                                     4,236
+
+
+
+matching the ZIP code of each charging station to an MSA and using the station open
+date, we construct the total number of public charging stations available in each quar-
+ter for each MSA. Panel B of ﬁgure 2 shows the spatial distribution of charging sta-
+tions (the number of charging stations per million people). The pattern is very similar
+to what we observe in panel A for EV ownership. The correlation coefﬁcient between
+the two variables is 0.63, partly reﬂecting the interdependence of EVs and charging
+stations. The top three MSAs with the most charging stations per million people
+are Corvallis, OR, Olympia, VA, and Napa, CA, with 210, 170, and 117 public
+charging stations per million people, respectively. These three MSAs are the number
+eleventh, ﬁfth, and sixth in terms of the EV concentration in panel A.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 12 页｜印刷第 100 页] =====
+100    Journal of the Association of Environmental and Resource Economists   March 2017
+
+
+
+
+
+   Figure 2. Spatial distribution of EVs and public charging stations. A, Installed base of EVs
+per million people. B, Public charging stations per million people. Map boundaries deﬁne met-
+ropolitan statistical areas. Both graphs are shown for the fourth quarter of 2013.
+
+
+  We collect data on state-level incentives such as tax credits and rebates for both
+electric vehicles and charging stations from AFDC. From the American Chamber
+of Commerce cost-of-living index database, we collect quarterly gasoline prices for
+each MSA from 2008 to 2013. Household demographics are collected from the
+American Community Survey.
+
+
+2. A MODEL OF INDIRECT NETWORK EFFECTS
+In this section, we use a stylized model to illustrate indirect network effects on both
+sides of the market (EV demand and charging station investment) and to show how
+indirect network effects give rise to feedback loops. We then conduct simulations to
+shed light on how the effectiveness of different types of policies (e.g., subsidizing EV
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 13 页｜印刷第 101 页] =====
+                                  The Market for Electric Vehicles    Li et al.   101
+
+purchases versus charging station investment) hinges on the relative magnitude of in-
+direct network effects on the two sides as well as consumer price sensitivity. The re-
+sults from the simulations provide a theoretical basis for our empirical ﬁndings based
+on real-world data.
+
+
+2.1. Model Setup and Properties
+We assume that EV sales qt(Nt, pt, xt) depends on the number of public charging sta-
+tions in the market (Nt), the price of the EV (pt), and other product characteristics
+combined (xt) that affect consumers’ choice, such as the fuel cost.14 The installed base
+of EVs is the cumulative sum of EV sales minus scrappage by the time t, denoted by
+Q t 5 oth51qh*st,h, where st,h is the survival rate at time t for EVs sold in time h. The
+number of charging stations that have been built Nt(Qt, zt) depends on the EV market
+size Qt and other variables combined zt that might affect the ﬁxed cost of investment.
+To facilitate the illustration, we specify the following functions for EV demand and
+charging station deployment:
+
+                          ln(qt) 5 β1 ln(Nt) 1 β2 ln(pt) 1 β3xt,                    (1)
+
+                           ln(Nt) 5 g1 ln(Qt) 1 g2zt:                         (2)
+
+The EV demand equation arises from a discrete choice model of vehicle demand and
+follows closely the logit model using the market-level data as in Berry (1994). The
+charging station equation can be derived from an entry model as in Gandal et al.
+(2000), and we derive an empirical counterpart to this equation for our speciﬁc con-
+text in the appendix.
+  The parameters β1 and γ1 capture the magnitude of the indirect network effects on
+the two sides. Feedback loops (or two-way feedback) arise if both β1 and γ1 are non-
+zero. Intuitively, a shock to the system, for example, an increase in xt, would change
+EV sales qt, which would in turn affect the installed base Qt11. This would then lead
+to changes in the number of charging stations Nt11 and hence affect qt11. The impact
+would circle back and forth between these two equations. If both β1 and γ1 are
+positive, positive feedback loops would arise, and they can amplify the shocks (either
+positive or negative) in either side of the market, such as a tax credit for EV purchases
+or subsidy on charging station investment. The parameter β2 (negative) is the price elas-
+ticity of demand and captures consumer price sensitivity.
+  To understand the property of the system such as the existence of the steady state
+and its property, we assume that the survival rate st, h is δt – h, where δ < 1. Further
+
+
+
+
+
+   14. We assume that there is only one EV model to ease exposition. Our empirical analysis is
+at the vehicle model level and uses a richer speciﬁcation.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 14 页｜印刷第 102 页] =====
+102    Journal of the Association of Environmental and Resource Economists   March 2017
+
+assume pt 5 p, xt 5 x, and zt 5 z. Substituting equation (2) into equation (1), we
+have:
+
+               ln(qt) – β1g1 ln(qt 1 dQt–1) 5 β1g2z 1 β2 ln ðp) 1 β3x:          (3)
+
+  The right-hand side β1g2z 1 β2 ln(p) 1 β3x is constant with respect to qt, and
+we denote it by c. During period 1, Qt – 1 5 0. Solving the equation, we obtain q1 5
+exp½c/(1 – β1g1) . To solve for the steady state solution (q*, N*), we use the steady
+state condition qt 5 qt11 5 q* and ﬁnd:
+
+                           c – β1g1 ln(1 – d)            –β1g1 ln(1 – d)
+           q* 5 exp           5 q1* exp                           :                     1 – β1g1                  1 – β1g1
+
+                                  c – β1g1 ln(1 – d)
+        N* 5 exp g1             – g1 ln(1 – d) 1 g2z  :
+                          1 – β1g1
+
+  The stock of EVs in the steady state Q* 5 q*/(1 – d) where the outﬂow of EVs
+due to scrappage is equal to the inﬂow from new EV sales.15 To examine the stability
+of the steady state, we write Qt–1 5 qt–1 1 dQt–2 and substitute it into equation (3):
+ ln(qt) – β1g1ln(qt 1 dqt–1 1 d2Qt–2) 5 c. This deﬁnes an implicit function of qt 5
+G(qt–1). When β1g1 < 1, it can be shown that G(0) > 0, G0() > 0, and G00() < 0.
+Therefore, the steady state solution is stable as shown in ﬁgure 3. In our following
+policy analysis, we take β1g1 < 1, which is also conﬁrmed in our empirical analysis.
+  The partial effect of vehicle price p on EV sales in the steady state is:
+
+                   ∂q*           c – β1g1 ln(1 – d)     β2            5 exp                                                       ,
+                  ∂p           1 – β1g1      1 – β1g1
+
+where β2 < 0. When β1g1 < 1, this partial effect is negative as economic theory would
+suggest. Similarly, the changes in other demand side factors captured by x and the changes
+in the factors in the charging station equation z will both shift G(qt–1) in ﬁgure 3 up or
+down and hence affect the steady state solution of EV sales.
+
+
+2.2. Implications on Policy Choices
+Now we conduct simulations to understand how feedback loops magnify policy shocks
+and their implications on policy choices. We ﬁx pt, xt, and zt in equations (1) and (2)
+
+
+   15. Alternatively, the steady state can be equivalently expressed in terms of (Q*, N*). Our
+speciﬁcation rules out (0, 0) as another steady state solution. Having multiple equilibria is often
+a signature property of two-sided markets with indirect network effects due to self-conﬁrming
+expectations (e.g., Gandal et al. 2000). From an empirical perspective, our speciﬁcation is with-
+out loss of generality since the empirical studies in this literature often assume that the nonzero
+stable solution plays out in the data.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 15 页｜印刷第 103 页] =====
+                                  The Market for Electric Vehicles    Li et al.   103
+
+
+
+
+
+   Figure 3. Steady state solution and stability. The expression qt is the number of new EV
+sales in each period; qt 5 G(qt – 1) is the implicit function deﬁned in equation (3); q * is the
+steady state solution.
+
+
+
+
+and assume certain values for model parameters as reported in table 2. We then solve
+for qt, Qt, and Nt sequentially for each period. Because of the positive feedback loops
+(by assuming both β1 and γ1 being positive), EV sales and the number of charging sta-
+tions will keep growing naturally until they reach the steady state where the inﬂow of
+new vehicles equals the outﬂow of vehicles due to scrappage. To examine how positive
+feedback loops could amplify a policy shock, we simulate a scenario where all EV buy-
+ers are provided with a $7,500 subsidy for the ﬁrst ﬁve periods and no more subsidy is
+offered afterward.
+  As shown in panel A in ﬁgure 4, due to both the price effect (captured by β2) and
+the indirect network effects (captured by β1 and γ1), the subsidy increases EV sales
+substantially compared with the no-policy case during the ﬁrst ﬁve periods. When
+the subsidy terminates, EV sales continue to increase through feedback loops but with
+a smaller magnitude. The sales increase due to subsidy gets smaller as feedback loops
+diminish and the two growth paths eventually overlap. In both cases, the path of EV
+sales converges to the same steady state but the policy shock makes the system con-
+verge to the steady state more quickly: indirect network effects expedite this process
+through positive feedback loops.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 16 页｜印刷第 104 页] =====
+104    Journal of the Association of Environmental and Resource Economists   March 2017
+
+                    Table 2. Parameters for Simulating Indirect
+                  Network Effects
+
+                      Coefﬁcients    Values    Variables    Values
+
+                     β1                   .8        p       30,000
+                     β2             –1.5     X          16
+                     β3             1      Z           2
+                        γ1                   .4
+                        γ2             1
+                   δ                    .9
+
+
+   Figure 4, panel B, depicts a similar pattern in the dynamic path of charging station
+deployment. With the positive policy shock on the EV purchase side, the stock of charg-
+ing stations increases quickly for the ﬁrst ﬁve periods and continues to grow at a de-
+creasing rate after the policy. It eventually converges to the same steady state as in the
+no-policy scenario. These two graphs demonstrate that feedback loops from indirect
+network effects magnify a shock to any side of the system and alter the convergence pro-
+cess on both sides.
+  The existence of indirect network effects on both sides of the market could have
+important policy implications. To foster the development of the EV market, policy
+makers can choose to subsidize consumers for EV purchase directly (policy 1) or to
+subsidize charging station investment (policy 2). We conduct simulations to examine
+the relative cost effectiveness of these two policy options. Policy 1 provides EV buyers
+with a subsidy of $7,500 per EV in the ﬁrst ﬁve periods. Policy 2 uses the same ac-
+count of total funding as in policy 1 to build charging stations. We compare the cu-
+mulative sales increase over time due to these two policies (with a 5% annual discount
+rate).16
+  To examine the implication of the relative strength of indirect network effects on
+policy choices, we vary the ratio of β1/γ1 by holding β1 constant while changing γ1.
+Figure 5 depicts, for any given price sensitivity β2 (say –1.5), as β1/γ1 increases
+(i.e., indirect network effects in EV demand become relatively stronger), the second
+policy (subsidy on charging stations) becomes more and more effective measured by
+the increase in cumulative sales over time. The two policies are equivalent when β1/γ1
+is 1 given the price elasticity of –1.5.
+
+
+
+   16. For policy 1, we subtract the EV price by $7,500 to simulate the counterfactual sales in
+the ﬁrst ﬁve periods. The total expenditure of the subsidy policy is then calculated by multiply-
+ing $7,500 with the total EV sales for the ﬁve periods. By assuming the cost of building one
+charging station to be $27,000, we obtain the total number of charging stations that could
+be built with the same amount of funding. We assume that the investment occurs evenly each
+year over the ﬁrst ﬁve periods and we add the number of charging stations that could be funded
+to Nt to simulate the counterfactual outcomes under policy 2.
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 17 页｜印刷第 105 页（推算）] =====
+   Figure 4. Impacts of income tax credits (ﬁve periods) under feedback loops. A, EV sales in-
+crease due to feedback loops. B, Charging stations increase due to feedback loops. EV sales and
+charging stations without subsidy are solutions given by the system deﬁned in section 3. The sim-
+ulated subsidy effects are due to a policy design that gives EV buyers a tax credit of $7,500 for
+the ﬁrst ﬁve periods. The parameters for simulations are reported in table 2, and the intuitive ﬁnd-
+ings remain with different assumptions of the simulation parameters.
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 18 页｜印刷第 106 页] =====
+106    Journal of the Association of Environmental and Resource Economists   March 2017
+
+
+
+
+
+   Figure 5. Policy comparison and relative strength of indirect network effects. This ﬁgure de-
+picts the relationship between the relative policy effects of two subsidy designs and the relative
+strength of the indirect network effects on both sides of the EV market. Policy 1 subsidizes the
+EV purchase by tax credits and policy 2 uses the same amount of funding to subsidize charging
+stations. Given a price elasticity of EVs, policy 2 becomes more and more effective than policy 1
+when the effect of charging stations on EV demand (denoted by β1) becomes larger relative to
+the effect of EV stock on charging stations (denoted by γ1). When the magnitude of the price
+elasticity increases (decreases) and consumers are more (less) sensitive to prices, policy 2 becomes
+less (more) effective relative to policy 1 for a given ratio of β1/γ1.
+
+
+
+
+  In addition to the relative strength of indirect network effects on both sides, the
+policy comparison also depends on the price elasticity of EV demand. When consum-
+ers are more sensitive to prices (e.g., going from –1.5 to –1.6), the policy of subsidizing
+charging stations becomes relatively less effective for a given β1/γ1. This ﬁnding is il-
+lustrated by the outward shift of the curve when the price elasticity changes to –1.4
+and –1.6. The result is intuitive: if consumers are less price sensitive, it would take a
+larger subsidy on EV purchases in order to push consumers to buy EVs, hindering the
+effectiveness of the policy.
+  To summarize, the policy of subsidizing charging stations becomes more effective
+relative to the policy of subsiding EV purchases when indirect network effects on EV
+demand become stronger (holding network effects on the charging station side con-
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 19 页｜印刷第 107 页] =====
+                                  The Market for Electric Vehicles    Li et al.   107
+
+stant) or when consumers are less sensitive to price. These ﬁndings offer a theoretical
+foundation for the policy comparison after our empirical analysis.
+
+
+3. EMPIRICAL FRAMEWORK
+To investigate indirect network effects on both sides of the market, we estimate: (1) an
+EV demand equation that examines the effect of charging stations on EV sales and
+(2) a charging station equation that estimates the effect of athe EV ﬂeet on charging
+station deployment. These equations build upon equations (1) and (2) in the theoret-
+ical model above.
+
+
+3.1. EV Demand
+To describe the empirical demand model of EVs, let k index an EV model such as
+Nissan Leaf and Chevrolet Volt, m index a market (MSA), and t index a year-quarter.
+We estimate the following equation:
+
+              ln(qkmt) 5 β0 1 β1 ln(Nmt) 1 β02Xkmt 1 Tt 1 dkm 1 εkmt,          (4)
+
+where qkmt is the sales of EV model k in market m and year-quarter t.17 The term Nmt
+denotes the total number of public charging stations that have been built in the MSA
+by the end of a given quarter.18 We use the number of charging stations instead of the
+total number of charging outlets to represent the availability of charging infrastructure,
+but the qualitative ﬁndings remain if we use the number of charging units. The expres-
+sion ln(Nmt) captures the effect of charging stations on electric vehicle purchases and
+the log form allows the effect to be diminishing. The term Xkmt is a vector of related
+covariates including the effective purchase price, personal income, and other control
+variables. The effective purchase price of a model is deﬁned as the manufacturer’s sug-
+gested retail price (MSRP) less the related subsidies (tax credits and tax rebates at
+both federal and state levels).
+  We also include a full set of year-quarter (e.g., the ﬁrst quarter of 2011) ﬁxed ef-
+fects and MSA model (e.g., Nissan Leaf in San Francisco) ﬁxed effects in equation (4).
+Year-quarter ﬁxed effects Tt control for national demand shock for EVs common
+across MSAs such as consumer awareness. MSA-model ﬁxed effects δkm not only con-
+trol for time-invariant product attributes such as quality and brand loyalty that could
+
+
+   17. This empirical speciﬁcation is taken to be consistent with our theoretical model and to
+ease results interpretation. The logit model from Berry (1994) implies that the dependent var-
+iable would be ln(skit)– ln(s0mt) where skmt is the market share of model k in market m and time t
+and s0mt is the share of consumers who are not purchasing an EV. These two speciﬁcations pro-
+vide almost identical parameter and elasticity estimates (see table 6).
+   18. In the estimation, we add one to qkmt, Nmt to deal with zero values for some of the ob-
+servations. Our results are robust to excluding observations with zero values on qkmt or Nmt and
+using ln(qkmt) and ln(Nmt).
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 20 页｜印刷第 108 页] =====
+108    Journal of the Association of Environmental and Resource Economists   March 2017
+
+affect vehicle demand but also control for time-invariant local preference for green
+products (Kahn 2007; Kahn and Vaughn 2009) and demand shocks for each model
+(e.g., a stronger preference or dealer presence for Nissan Leaf in San Francisco). The
+term εkmt is the unobserved demand shocks that are time varying and market speciﬁc
+(for example, unobserved local government subsidy for purchasing EVs or market-
+speciﬁc promotions for a vehicle model that vary over time).
+    It is well documented in the vehicle demand literature that failing to control for
+unobserved product attributes could lead to downward bias in the price coefﬁcient es-
+timates (for example, Berry, Levinsohn, and Pakes 1995; Beresteanu and Li 2011).
+MSA-model ﬁxed effects absorbs both observed and unobserved vehicle attributes
+variations that are time invariant, and what is left is the variation of vehicle attributes
+over time. Since most of the EV models in our sample appear for only one year and
+there is little variation of the observed attributes for the models that appear for more
+than one year, we believe that using MSA-model ﬁxed effects could control for unob-
+served product attributes and alleviate the need to use the methodology developed in
+Berry et al. (1995) to deal with price endogeneity where they only have national-level
+sales data (i.e., one market).19 The price coefﬁcient is identiﬁed from the fact that ef-
+fective EV prices vary across markets and over time due to state-level subsidies and
+temporal price variations.
+   Although we include a rich set of control variables, the charging station variable is
+still endogenous due to simultaneity: the unobserved time-varying and market-speciﬁc
+demand shocks could affect charging station investment decisions and hence the stock
+of charging stations. To deal with the endogeneity, we use the IV strategy, and a valid
+IV needs to be correlated with the number of charging stations in an MSA (the en-
+dogenous variable) but not correlated with the unobserved shocks to EV demand.
+The IV we employ is the interaction term between the number of grocery stores
+and supermarkets in an MSA in 2012 with the number of charging stations in all
+MSAs other than the MSA corresponding to a given observation (lagged for one quar-
+ter). Grocery stores and supermarkets are a major owner of charging stations, and they
+build charging stations to attract customers and boost green credentials, among other
+reasons. These places could be good sites for public charging stations because EV driv-
+ers can charge their vehicles while shopping. Nissan has been actively partnering with
+grocery store owners to build charging stations. Kroger, the country’s largest grocery
+store owner, has installed about 300 charging stations in their stores across the coun-
+
+
+   19. The methodology in Berry et al. (1995) uses a contracting mapping technique to ﬁrst
+back out product-level ﬁxed effects (mean utility) in the ﬁrst stage and then uses IV strategy
+to estimate the remaining preference parameters based on the assumption that observed product
+attributes are not correlated with observed product attributes, which could be a strong assump-
+tion (Klier and Linn 2012). As a robustness check, we also include electric range and electric
+mpg in one of the alternative speciﬁcations and the results are qualitatively the same.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 21 页｜印刷第 109 页] =====
+                                  The Market for Electric Vehicles    Li et al.   109
+
+try. Our data show that the number of grocery stores in an MSA is positively corre-
+lated with the number of charging stations.
+   However, the number of grocery stores does not vary with time in our sample pe-
+riod, and it is therefore absorbed by the MSA ﬁxed effects. To introduce temporal
+variation, we multiply it with the lagged number of existing charging stations in all
+MSAs other than the MSA corresponding to a given observation, which captures
+the national-level trend in charging station investment due to aggregate shocks such
+as temporal variations in costs, investor conﬁdence, and federal incentive programs.
+The construction of this IV is similar in spirit to the Bartik instrument used in the
+labor literature to isolate local labor demand changes (Bartik 1991). The intuition
+for the IV is that national shocks to charging station investment (captured by the
+lagged number of charging station in all MSAs other than own) have disproportional
+effects on charging station investment across MSAs: MSAs with a larger number of
+grocery stores and supermarkets (hence better endowment of good sites for charging
+stations) will be affected by these national shocks more than others, leading to varia-
+tions in charging stations across MSAs. Our ﬁrst-stage results in table 4 show that the
+interaction term has a positive and highly statistically signiﬁcant impact on charging
+station investments.
+  We argue that this instrument should satisfy the exogeneity assumption. The
+number of grocery stores and supermarkets is unlikely to affect EV sales directly.
+There might be common unobservables that inﬂuence both the EV sales and the num-
+ber of grocery stores, especially at the cross-sectional level. However, our model con-
+trols for MSA ﬁxed effects and should capture these time-invariant unobservables. At
+the temporal dimension, EV sales vary from year to year but the number of grocery
+stores is very stable given the maturity of the industry. In fact, the number of grocery
+stores is measured at the end of 2012. The temporal variation in the IV comes from
+the total (lagged) number of charging stations in all MSAs other than the own city.
+Time ﬁxed effect would control for time-varying common shocks across MSAs. Ex-
+cluding the home city’s charging stations also removes the concern that one MSA’s
+installation of a large number of charging stations could overly inﬂuence the estimation
+results.
+  Our IV strategy leverages the interaction term between a national-level variable
+with only temporal variation and an MSA-level variable with only spatial variation.
+The rationale behind the IV is that different MSAs have different preexisting condi-
+tions/ability to absorb national shocks to charging station investment such as changes
+in macro-economic conditions and costs. One might be concerned that different
+MSAs may have a different susceptibility to unobservable demand shocks at the na-
+tional level and the number of grocery stores could be correlated with this susceptibil-
+ity for some reason. To address this concern, we include a variety of MSA-level con-
+trols interacting with the time trend. We use the sales of hybrid vehicles in 2007
+(several years before EVs entered the market) to proxy for preference heterogeneity
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 22 页｜印刷第 110 页] =====
+110    Journal of the Association of Environmental and Resource Economists   March 2017
+
+for greener vehicles or environmental friendliness. We also include personal income,
+the share of college graduates among residents, the share of commuters driving to
+work, the share of commuters using public transport to work, and the share of white
+residents. We use the interactions of these variables with the time trend to control for
+potential heterogeneity in the diffusion path of EVs across MSAs. Our results are ro-
+bust to the inclusion of these controls, providing further support that our IV is a valid
+exclusion restriction.
+   In some of the robustness checks, we use local policy variables such as subsidies on
+charging stations as additional IVs and obtain similar results. We do not use them in
+our benchmark speciﬁcations due to the concern that local policies whether subsidiz-
+ing charging stations or EV purchases could be a response to local unobserved demand
+shocks and hence be endogenous.
+
+
+3.2. Charging Station Deployment
+We derive the empirical model of charging station investment from an entry model
+presented in the appendix where the proﬁt depends on both the installed base of
+EVs and the total number of charging stations in a market. Under certain functional
+form assumptions, the total number of charging stations in a free-entry equilibrium is
+given by the following equation:
+
+            ln(Nmt) 5 g0 1 g1 ln(QEVmt ) 1 g02Zmt 1 Tt 1 Jm 1 ςmt,          (5)
+
+
+where Nmt denotes the stock of public charging stations that have been built in market
+m by time t and QEVmt denotes the installed base of EVs by time t. The vector of co-
+variates Zmt includes the state-level tax credit given to charging station investors mea-
+sured as the percentage of the building cost, a dummy variable indicating whether
+there exist public grants or funding to build charging infrastructure, the interaction
+term of number of grocery stores in a MSA in 2012 with the lagged number of charg-
+ing stations in all MSAs other than own (the instrument in the EV demand equation),
+and other control variables.
+  We also include a full set of time and MSA ﬁxed effects. The term Tt denotes year-
+quarter ﬁxed effects to control for time-varying common shocks to charging station
+investment across MSAs such as macro-economic conditions. Market ﬁxed effects
+φm control for time-invariant and MSA-speciﬁc preferences for charging stations.
+For example, some MSAs may be “greener” than others and invest more on alternative
+fuel infrastructure. Similarly, MSAs with a higher population density and a limited
+private installment of charging stations may have more public charging stations. The term
+ζmt is the unobserved shock to charging station investment, for instance, the unobserved
+local policies to support the charging station building. In the estimation, we add one to
+
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 23 页｜印刷第 111 页] =====
+                                  The Market for Electric Vehicles    Li et al.   111
+
+Nmt and QEVmt to deal with zero values for some of the observations. We obtain similar
+results by dropping these observations and use ln(Nmt) and ln(QEVmt ) instead.
+  The issue of endogeneity due to simultaneity also arises in this equation. Both Nmt
+and QEVmt  are stock variables, but the inﬂows to each variable are determined at the
+same time. As a result, time-varying and MSA-speciﬁc shocks to investment decisions
+(the error term in the equation) could be correlated with current EV sales, which are
+part of the installed base. The instrument variables emerge more naturally in this
+equation. In particular, we instrument for the installed base of EVs with a set of cur-
+rent and past gasoline price variables. The fuel cost savings from driving EVs depend
+on the price difference between gasoline and electricity, which varies across locations.
+In MSAs with higher gasoline prices, consumers may have a stronger incentive to pur-
+chase EVs.20 Because the installed base of EVs is the cumulative sales of EVs, we
+include gasoline prices not only in the current quarter but annual gasoline prices in
+the past three years as instruments. For example, for the installed base of EVs in the sec-
+ond quarter in 2013, we use the gasoline price in the second quarter in 2013, the aver-
+age gasoline price in 2012, the average gasoline price in 2011, and the average gasoline
+price in 2010 as instrumental variables.
+   These gasoline price variables (including current and past gasoline prices) should
+affect the installed base, which is conﬁrmed in the ﬁrst-stage regression in table 8.
+But they are unlikely to affect investment decisions directly (i.e., other than through
+the installed base). Since we include both time and MSA ﬁxed effect, the remaining
+variation in gasoline prices is largely driven by how time-varying crude oil prices inter-
+act with market conditions that are likely time-invariant during our data period (e.g.,
+market structure in wholesale and retail gasoline markets and distance to reﬁneries).
+These interactions lead to time-varying and MSA-speciﬁc differences in gasoline prices,
+which are unlikely to be correlated with charging station investment directly. The de-
+cision of charging station investment hinges on, among other things, the EV market
+potential (proxied by the installed base of EVs) and the ﬁxed costs of investment.
+Fixed costs of charging station investment include the cost of equipment (chargers)
+and labor cost, neither of which is likely to be correlated with gasoline price variations
+(after controlling for MSA and time ﬁxed effects). The operating costs of the charger
+largely depend on electricity prices. There is no direct link between electricity and gas-
+oline prices (after controlling for common shocks such as national economic conditions
+using time ﬁxed effects).
+
+
+
+
+
+   20. A report on the ownership cost of EVs by Electric Power Research Institute (2013)
+ﬁnds that increases and decreases in gasoline prices will have a signiﬁcant impact on the relative
+costs of EVs.
+
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 24 页｜印刷第 112 页] =====
+112    Journal of the Association of Environmental and Resource Economists   March 2017
+
+4. ESTIMATION RESULTS
+We ﬁrst present parameter estimates for equations (4) and (5). We then discuss the
+indirect network effects implied by these parameter estimates.
+
+
+4.1. Regression Results for EV Demand
+Columns a–e in table 3 report the ordinary least squares (OLS) estimation results for
+ﬁve different speciﬁcations where we add more control variables successively (ﬁrst-
+stage results reported in table 4). Column a includes only six explanatory variables.
+Column b adds in year-quarter ﬁxed effects to control for time-varying common un-
+observables across MSAs. Column c further adds vehicle model ﬁxed effects to control
+for unobserved product attributes such as quality and brand loyalty that affect con-
+sumer demand. Column d includes rich MSA-model ﬁxed effects to control for both
+unobserved product attributes and MSA-speciﬁc demand shocks for different EV
+models. Column e adds two additional variables to control for potential heterogeneity
+in the diffusion pattern across MSAs. The ﬁrst variable is the interaction term be-
+tween the sales of hybrid vehicles in 2007 (to proxy for preference for green vehicles)
+and the time trend, and the second variable is the interaction between average personal
+income and the time trend. Column f implements a GMM estimation strategy and
+uses the interaction term of number of grocery stores and supermarkets in an MSA
+in 2012 with the lagged number of charging stations in all the other MSAs as the in-
+strument for the number of charging stations.
+   Given the log-log speciﬁcation, the coefﬁcient estimates can be interpreted as elas-
+ticities. All the speciﬁcations provide intuitive and statistically signiﬁcant coefﬁcients
+on the key variables of interests: EV demand increases with a larger network of charg-
+ing stations, a lower vehicle price, and more home charging stations funded by the EV
+project supported by the DOE, and higher income. The coefﬁcient on the charging
+station variable captures indirect network effects from charging station investment
+on EV demand. The GMM results show that a 10% increase in charging stations
+would result in an 8.4% increase in EV sales, which is higher than all the OLS esti-
+mates (ranging from 1.8% to 5%). This suggests that the number of charging stations
+is negatively correlated with the unobserved shocks to EV demand, leading to down-
+ward bias in OLS. One example of unobserved shocks is local EV incentives that local
+governments provide to compensate for the lack of public charging stations. Another
+example is the home charging incentives from local electric utilities. Many local util-
+ities offer a rebate for installing a home charging station and a discounted rate for
+home EV charging as part of the demand side management program. Local govern-
+ments often partner with local utilities to provide more generous home charging incen-
+tives when there is a lack of private investment in public charging stations.
+  The price coefﬁcients change from –0.470 to –0.817 from columns b–c after ve-
+hicle model ﬁxed effects are included. This is consistent with our discussion above:
+vehicle model ﬁxed effects control for unobserved product attributes which could
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 25 页｜印刷第 113 页（推算）] =====
+   )                                                                                                                                from   ln for   f                                                                                                                                                                                                                       prices.         and                                                                                Yes Yes Yes   (       .844***                                                                                                                .050***                                                                                                                                                                                                                                                                            America                                                                                                .001  (.020)                                                                                        (.131)      GMM                                                                                                        (.010)  2.056**  (.855)  .011**  (.005)                                        (.162) –.083  (.206)  .419*  (.220)                                                                                                                                                                                                                                                                                              p-value                                                                                                              –1.288***                                                                                                                                                                                                                      retail                                                                                                                                                                                                      trend                                                                                                                                                                                                                                                                                                       charging                                                                                                                                                                                               North     The                                                                                                                                                              time
+                                       ×                                                                                                                                                                                                                                                                                                                                suggested                                                                                                                                                                                                                                                                                                                                                        ECOtality  2007)  demand.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ln(residential          (e)                                                                                Yes Yes Yes                                                                            by in                                                                                  EV      OLS                                                     .386*  (.217)                                                                                                .003  (.016)                                                                                        (.140)  .059***  (.011)  1.215*  (.695)  .031***  (.003)                                     .177***  (.036) –.033  (.201)                                                                                  of                                                                                                              –1.433***                                                                                                                                                                                                                             level.                                                                                                                                                                                                      sales                                                                                                                                                                                                                                                                                                                                                                                                                                                                            manufacturers’                                                                                                               MSA  managed        trend                                                                                                           are   is  vehicle
+                                                                                                               the
+                                                                          at                                                                                                                                                                                                                      prices        which               potential                                                                                                                                                                                                                                                                                                                                                                    ln(hybrid                                                                                Yes Yes Yes          (d)       .352***                                                                .560**                                                                                                .026**      OLS                                        (.037) .095  (.208)                                                                        (.229)                                                                                        (.142)                                                                                                        (.012)  2.018**  (.852)                                                                                                                                                                   with                                                                                                                                                                                                                      Retail                                                                                                              –1.378***                                                                                                                                                                                                                                                                                                                                            clustered   Project,                                                                                                                                                                                                                                                                                     cities.
+                                                                                                               are EV US                                                                                                                                              MSA.
+                                                                       an                                                                                                                   the 22   correlated                                                                                                                                                                                                                             errors
+                                                                       in   by in be
+          (c)      OLS                                     .502***                                                                                                                                   .729***                                                                                                                                                                                                            could                                                                .019  (.022)                                                                                                                        (.179)                 Yes Yes No          quarter  standard                                        (.021)   1.922***  (.353)   1.908***  (.406)  –.817***  (.179)                                                                                                                   MSA  stations
+                                                                            an                                                                       by                                                                                                               All                                                                            in
+                                                                                                                                                    EVs.                                                                                                                                                                                               built  charging  trend                                                                                                                                                                                  model
+                                                                       by with are             stations
+          (b)      OLS                                     .389***                              .704***                 .035            .664***                                        (.017)   1.186***  (.301)          (.300)  –.470***  (.034)          (.024)          (.161)                 Yes No No         sales)       that   commercial                                                                                                                                                                                  ln(EV   associated   stations and  charging                                                                       is             the
+                                                                                                                                                                   that                                                                                                                                                                                                                                                                  rebates                                                                                                                                                                                                                                                                                             variable                                                                                                               tax                                                                                                                                                                                                                                                                                                                  charging   residential          (a)                                                     No No No      OLS                                        2                                     .378***                              .611***                      .046*            .667***                                        (.017)   1.095***  (.203)          (.203)  –.480***  (.034)          (.025)          (.162)                                        and                     concern
+                                                                                                                                                                                                      level                                                                                                                           the                                                                                                                                                                                                                                                                                                                                dependent  credits   residentialof                                                                                                                                                                                                                                             deploy                                                                                                           The tax                                                                               to  address
+                                                                                  to 0.                                                                                                           trend                                                                               number                                                                                    is                                                                                                                                                                                                                                                         14,563.                                                                                                                                                                                                                                             Energy                                                                       is   state-level                                                                                     time                                                                               of                                                                                                                                project)    ×                                                                                                                                                                                                                                                             column                                                                                                               and   quarterly             included                                EV                                   trend                    of     are last                                                                                                           2007)                                                                                                                                                                                                                                                                  federal             theEquation                                                            from         in       time                                                                                          observations                             Department  trend                                                                                                                              for                                                                       of                                                                                                                                                                                                    effects                                BEV                  incentives)                                                                                                                                                    both   logarithm                                                                                                                                                                                           effects                                                                               US                                                                                                                                                                                                             effects                                                                                                                                                                   time                                                stations)  ×PHEV  ×                                                                                                           sales  ×                                                                                                                                                                         test                                        tax                                                                                                                   the                                                                                                                       the ×                                                                                                       ﬁxedDemand            –              charging                                    ﬁxed      ﬁxed         number  include                                                                            is by                                                price)          price)                                                 income)                              income)                                                                        .01.                                                                                                                                                                                   .05.                                                                                                                                                     vehicle                                           charging                                                                                                                                                                              .10.EV                                              <                                                                                                                                                                                                                                                                                              income)                                                                   price                                                                                                                                            model                                             <
+                                              p                                           <                                                                                                           The             project)           of3.                                             p
+                                           p                                                                                                                                                                                  Note.   incentives EV   supported   * ** ***Table                   Variable      ln(no.                  ln(gasoline                  ln(gasoline               ln(retail                       ln(residential                  ln(personal               ln(hybrid                  ln(personal                    Year-quarter  Vehicle   MSA-model        Tax the and   (personal    underidentiﬁcation
+
+
+
+
+
+                     This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+        All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 26 页｜印刷第 114 页] =====
+114    Journal of the Association of Environmental and Resource Economists   March 2017
+
+          Table 4. First-Stage Results for EV Demand Equation
+
+           Variable
+
+            ln(no. of grocery stores) × ln(lagged national stations)         .139***
+                                                                        (.023)
+             ln(retail price-tax incentives)                              –.193***
+                                                                        (.054)
+            ln(gasoline price) × PHEV                                 .146
+                                                                        (.125)
+            ln(gasoline price) × BEV                                   .064
+                                                                        (.135)
+            ln(residential charging from EV project)                  –.011
+                                                                        (.010)
+           ln(personal income)                                    –.980
+                                                                     (1.035)
+           ln(hybrid vehicle sales in 2007) × time trend                 .010***
+                                                                        (.003)
+           ln(personal income) × time trend                           .018
+                                                                        (.022)
+         R2                                                       .677
+
+               Note. The dependent variable is ln(no. of stations). The number of observa-
+              tions is 14,563. Standard errors (in parentheses) are clustered at the MSA level.
+         The model includes year-quarter ﬁxed effects and MSA-model (e.g., Nissan Leaf
+              in San Francisco) ﬁxed effects.
+                 * p < .10.
+                 ** p < .05.
+                 *** p < .01.
+
+
+be positively correlated with prices. Ignoring unobserved product attributes will bias
+the price coefﬁcient toward zero. Going from columns c–d where MSA-model ﬁxed
+effects are included, the EV demand function changes from being inelastic with a price
+elasticity of –0.817 to being elastic with a price elasticity of –1.378. MSA-model ﬁxed
+effects control for MSA-speciﬁc time-invariant demand shocks (such as environmental
+preference), and these demand shocks could affect state-level tax incentives. For exam-
+ple, higher incentives are used to counter negative demand shocks. Hence MSA ﬁxed
+effects could control for the potential endogeneity in state-level tax incentives. The
+GMM results provide a price elasticity of –1.288. Although this is at the lower
+end of the price elasticity estimates in the literature on automobiles, we believe that
+the magnitude is reasonable compared with the literature for two reasons.21 First,
+
+
+
+   21. Berry et al. (1995) estimate the price elasticities ranging from –3 to –7 for vehicle mod-
+els in 1990 with more expensive models having the smaller price elasticities (in magnitude). The
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 27 页｜印刷第 115 页] =====
+                                  The Market for Electric Vehicles    Li et al.   115
+
+EV buyers are more afﬂuent and hence less price sensitive compared with average ve-
+hicle buyers. Second and perhaps more importantly, EV buyers can be characterized
+as early adopters, and one can argue that many of them choose EVs out of their strong
+environmental concerns and/or making a statement by driving an EV as has been doc-
+umented in the case of hybrid vehicles (e.g., Kahn 2007; Sexton and Sexton 2014).22
+  Lower fuel cost is one of the major beneﬁts of EVs, and higher gasoline prices will
+have a positive impact on EV adoption by increasing future fuel cost savings from driv-
+ing EVs in place of conventional vehicles. To capture the heterogeneous impact of gas-
+oline price on the demand of the two types of EVs, two interaction terms of quarterly
+gasoline prices with BEV and PHEV dummy variables are included. The results from
+all the speciﬁcations ﬁnd a positive and statistically signiﬁcant effect of gasoline price
+on BEV purchase. While the interaction term with PHEV is positive and signiﬁcant
+in columns a–c of table 3, columns d–f do not ﬁnd a signiﬁcant impact of gasoline price
+on PHEV demand when MSA-model ﬁxed effects are included. Intuitively, BEV
+drivers could be more sensitive to gasoline prices than PHEV buyers given that BEVs
+run exclusively on electricity while PHEVs run mostly on gasoline for long-distance
+driving given its short range of battery charge. That is, PHEV drivers do not make a
+long-term commitment to an alternative fuel to the extent that BEV drivers do. In
+addition to gasoline prices, we included electricity prices in previous analysis and
+the coefﬁcient estimate was small in magnitude and statistically insigniﬁcant in all
+speciﬁcations. This could be because (1) the operating cost from using electricity is
+a small portion of vehicle lifetime cost for EVs and (2) there is not much MSA-speciﬁc
+temporal variation in electricity prices. The coefﬁcient on the interaction term be-
+tween hybrid sales in 2007 and time trend is positive and statistically signiﬁcant, im-
+plying that MSAs that had more sales of hybrid vehicles in 2007 (proxy for preference
+for greener products) have a faster diffusion of EVs.
+  The results from these regressions imply that the increased availability of public
+charging stations has a statistically and economically signiﬁcant impact on EV adop-
+tion decisions. Our estimation results conﬁrm that even if most EV drivers can charge
+vehicles at home, better access to public charging facilities elsewhere is still an impor-
+tant demand factor by, for example, alleviating range anxiety.23 Based on the param-
+eter estimates on charging station and price variables, a back-of-the-envelope calcula-
+
+
+
+lower end of price elasticities for vehicle models in 2006 in Beresteanu and Li (2011) is also
+around –3.
+   22. The California Plug-in Electric Vehicle Owner Survey (2014) shows that EV buyers
+have higher household income than buyers of gasoline vehicles and that the environmental con-
+cern is an important motivator for EV purchase: 38% of Nissan Leaf buyers and 18% Chevy
+Volt buyers consider the environmental concern to be the top motivator.
+   23. According to the EV Project report (Idaho National Laboratory 2013), the percentage of
+EV home charging for 22 program areas is about 79% for Nissan Leaf and 84% for Chevrolet Volt.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 28 页｜印刷第 116 页] =====
+116    Journal of the Association of Environmental and Resource Economists   March 2017
+
+tion shows that the demand effect from having one more charging station from the
+sample average of 22.6 is equivalent to that from a reduction of EV price by $961
+(the average price is $33,127). When the number of charging stations increases to
+27.3 (the sample average in 2013), the equivalent price reduction is $795. At the sam-
+ple maximum of 320 charging stations, one more charging station is only equivalent to
+$68 price reduction, showing the diminishing effect implied by the log-log functional
+form.
+
+4.2. Alternative Speciﬁcations for EV Demand
+We take the estimates in column f in table 3 as our baseline speciﬁcation. To check the
+robustness of the results, we estimate a variety of different speciﬁcations, and the re-
+sults are reported in table 5. Column a includes the interaction term between the
+number of charging stations and average commute time to work in the MSA to cap-
+ture the heterogeneous impact of charging stations across cities with different com-
+muting patterns.24 The positive coefﬁcient estimate on the interaction term suggests
+that the availability of charging stations has a larger impact on EV demand in the
+MSAs with a longer commute. This is intuitive since in MSAs where people have
+a longer commute, range anxiety would be more of an issue. Across MSAs, the elas-
+ticity of charging stations with respect to the EV sales ranges from 0.27 to 1.05 de-
+pending on the average commute time.
+  Column b adds the quadratic terms of the time trend variables to our baseline spec-
+iﬁcation to allow more ﬂexible time effect. The coefﬁcient estimates on the key param-
+eters are almost intact. Column c includes the interaction term of charging stations
+with a BEV dummy to capture the different impact of charging stations on BEVs
+and PHEVs. The coefﬁcient estimate on the interaction term is positive while not sta-
+tistically signiﬁcant. Column d includes two more instruments: the tax credits and the
+availability of public funding for building charging stations, both of which appear in
+the charging station equation. We did not include them in our baseline speciﬁcation
+because the exogeneity assumption may not hold for the subsidies as they could be a
+response to unobserved EV demand shocks. Column e removes the price variable in
+the regression to deal with the concern that the price variable, especially state-level in-
+centives, could be endogenous. Column f adds the interaction terms between various
+demographic variables and the time trend to further control for MSA-level heteroge-
+neity in the diffusion pattern. Across these speciﬁcations, the estimated effects of
+charging station availability on EV demand as well as other parameter estimates are
+similar to those from the baseline speciﬁcation in table 3. Column g reports the de-
+
+
+
+
+   24. The average commute time to work at the MSA level is calculated based on combined
+2006–11 samples of the American Community Survey. The average commute time is 22.96 min-
+utes with a standard deviation of 3.37, a minimum of 14.59 and maximum of 35.01.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 29 页｜印刷第 117 页] =====
+                                  The Market for Electric Vehicles    Li et al.   117
+
+mand estimation using the logit model as in Berry (1994), and it produces almost iden-
+tical elasticity estimates as our baseline speciﬁcation.
+  Some states, such as California and Oregon, have adopted a Zero Emission Vehi-
+cle (ZEV) program, which requires a certain part of automakers’ sales to be clean fuel
+vehicles, and some automakers have introduced EV models in those regions only to
+comply with the regulations. To control for more intense competition in those mar-
+kets due to more EV models introduced, column h in table 6 includes ZEV-speciﬁc
+time ﬁxed effects, and the results are similar to previous results with a modest increase
+in the coefﬁcient estimate on charging stations. Column i uses only BEV sales, and
+the estimates are not systematically different from the estimates using the full sam-
+ple with BEVs and PHEVs. Columns  j and k increase the lag of the total number
+of charging stations in all other MSAs to two and three-quarters when construct-
+ing the instrumental variable and there is no substantial change of the estimates ex-
+cept that the coefﬁcient of the charging stations decreased slightly, primarily due to
+loss of observations. However, increasing the lag to more than three-quarters leads
+to weak IV.
+  As shown in column g in table 6, our demand speciﬁcations would yield nearly
+identical results as the Berry logit model. With only EV models in our data, our anal-
+ysis treats all other non-EV models to be in one category (i.e., the outside good). Lim-
+iting the choice set and the substitution pattern across choices could potentially af-
+fect our estimate of the price elasticity and our policy simulations. EV models represent
+a different technology that is dramatically different from conventional gasoline vehi-
+cles; therefore, consumers are likely to consider them as a separate category in making
+purchase decisions, especially given that the EV buyers in our data period are often
+motivated by strong environmental concerns according to the California Plug-in Elec-
+tric Vehicle Owner Survey (2014). Nevertheless, some PHEVs do have conventional
+hybrid counterparts. For example, the Toyota Prius plug in has a hybrid version,
+Toyota Prius. Considering most of PHEVs have limited electric range (11–38 miles),
+some consumers may compare PHEVs with hybrid vehicles. Recognizing this, col-
+umn i in table 6 only include BEV models in the regression. The results are very simi-
+lar to those obtained using the full sample, suggesting that the limitation in our choice
+set and modeling framework may not have a large impact on the key parameters of
+interest.25
+
+
+
+
+   25. EV models only represent less than 0.8% of new vehicle sales in the nation in 2013. In-
+cluding models of other fuel types would not help us identify the indirect network effects since
+their demand does not depend on EV charging stations. We believe that micro-level data with
+the second-choice information is much better suited to assess the substitution pattern between
+EVs and different types of non-EVs than the aggregate data that we currently have. This is an
+ongoing work of the authors.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 30 页｜印刷第 118 页] =====
+             )
+
+             f             (       .851***                                   .440*                              .049***                 .009                                                                                                                                                                  (.150)          (.010)   2.849***                                   GMM                      (.157)              –.093  (.245)          (.256)                                                                                                                                                                                                                                   (1.040)          (.006)                                                                                                                                                                                                                     –1.499***
+
+
+
+
+
+                                       (e)                                                                                                                                                                                                       .054***                                   GMM                .866***  (.165)                                                                                 .037  (.204) .292  (.222)                                                                                                                                                                                  (.009)  2.167**  (.859)  .011**  (.005)
+
+                                       (d)       .791***                                   .440*                              .051***                          .012**                                   GMM                      (.152)              –.075  (.204)          (.218)          (.130)          (.009)  2.026**  (.839)          (.005)                                                                                                                                                                                                                     –1.300***
+
+
+
+
+
+                                       (c)                                                                                                         .817***                                   .424*                              .049***                          .011**                                   GMM                      (.156)              –.079  (.205)          (.221)          (.147)          (.010)  2.059**  (.868)          (.005)                                                                                                                                                                                                                     –1.214***
+
+
+
+
+                                       (b)                                                                                                         .785***                                   .411*                              .048***                 .019                                   GMM                      (.229)              –.090  (.200)          (.217)          (.130)          (.012)  1.710*  (.958)          (.024)                                                                                                                                                                                                                     –1.294***
+
+
+
+
+
+          A
+                                       (a)                                                                                                                            .038***                      .389*                              .049***                              .011***                                                                                                                                                                  (.130)          (.009)   1.896***  (.708)          (.004)                                   GMM          –.282  (.243)          (.010) –.086  (.193)          (.208)                                                                                                                                                                                                                     –1.324***                                                                    Demand,
+                                                                    Vehicle
+                             for                                                                                                                                                                                                                                   project)                      trend                                                                       time
+                                                         EV                 time
+
+                                  ×                                                                                                                 from                                                                                                                    Speciﬁcations                                                 commute       PHEV     BEV                  incentives)                                                                                                                                       stations)  ×  ×  ×                                                 2007)                                                                             tax
+                                                                   in                          –              charging
+                                                                                                                                                                        sales                                                                                                 Additional                                   charging               stations)          price)          price)        price                              income)
+                   5.         of   of
+                                                Table                   Variable      ln(no.          ln(no.                  ln(gasoline                  ln(gasoline               ln(retail                       ln(residential                  ln(personal               ln(hybrid
+
+
+                                     118
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 31 页｜印刷第 119 页] =====
+                                                              to for
+
+   )
+
+
+   (      GMM f                                                                               due                        –.020  (.027)                                      –.023  (.081) –.117  (.116) .071  (.167)  –.100**  (.040)                                                                                                                                                                                                                                   funding                                                                                                                                                                                           11,614
+                                                              is  state
+                                                                                                                                                                                           column  other
+                                                                                                 for
+          (e)                                                                                                         last      GMM                                                                                                                                                                                                          level.                        –.004  (.020)                                                                   the                                                                                                                                                                  dummy                                                                                             for a MSA
+                                                                                                                            that and the
+                                                                                             and   at
+          (d)    .003                                                                                                                                                                                                          stations      GMM                      (.019)                                                                                                                                                                                           14,563               clustered
+                                                              is     are                                                                                      a–e  charging
+                                                                                                 for                                                                                                                                                                                                          errors
+                                                                                                                                                                                                                          columns  credit
+          (c)    .002  (.020)                       .094  (.059)                                        for tax      GMM                                                                                                                                                                                                                                                                              Standard
+                                                                                                                                                                                                                                                                              effects.                                                                                                                                                                                                                                                                                                                                                                                     observations   including                                                              of IVs, ﬁxed
+      GMM          (b)    .044  (.081) –.000  (.001) –.003  (.005)                                                                                                                                                                                           number   additional   MSA-model                                                                                             The                                                                                                 two
+                                                                                                     and
+                                                                                                                                  adds                                                                                                                                                                                                                                                         quarter. d                                                                                                                                                                                                                                            effect,
+          (a)                                                    by      GMM          –.001  (.015)                                                                                             ﬁxed                                                                                                                                                           model  Column
+                                                              by  MSAs.                                                                                                                                                                                           sales)                    year-quarter
+                                                                                                           trend                                    small
+                                                                 in                                                trend2                                                                                                         ln(EV                                                                                                                                                                                                                                            include                                                              is
+                           trend                                                            time                                                                trend2   EV                      trend  ×                                time                                                                                                                                                                                                                                                                   controls
+        ×                                                                                                                                                                                                                                                         variable                     time                 time                      trend       time     ×    ×            battery    ×       work        trend                     added   speciﬁcations
+             ×                                        2007)                                                                time                                                                                                 the All                in                                                                                             share   to       time                ×                        ×                           dependent for
+                                                                                                                                                 .05.                                        sales                                       stations)                                                                                                                                            .10.                                      <(Continued)                              income)                              income)                                                                    transit                                                  .01.                                    <
+                                      p                                                                                                shares                                   share                                                                                             The  values   stations. <                           of5                                    p
+                                   p                                                                                                                                public                                   * ** ***                                                                                                                                                           Note.                                                                                                                                                                                                                                   missing   chargingTable                   Variable           ln(personal               ln(hybrid                  ln(personal          ln(no.            College                      Drive-to-work     Use        White
+
+
+                                                119
+
+
+                         This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+             All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 32 页｜印刷第 120 页] =====
+120    Journal of the Association of Environmental and Resource Economists   March 2017
+
+Table 6. Additional Speciﬁcations for Vehicle Demand, B
+
+               GMM   GMM   GMM   GMM   GMM
+Variable                          (g)           (h)             (i)            ( j)           (k)
+
+ln(no. of charging stations)      .842***      .953***    1.005***      .725***      .683***
+                                (.162)       (.170)      (.281)       (.224)       (.347)
+ln(gasoline price) × PHEV    –.083        .099                    .127        .176
+                                (.206)       (.211)                    (.204)       (.201)
+ln(gasoline price) × BEV        .420*       .590**      .024        .238        .223
+                                (.220)       (.231)      (.283)       (.218)       (.220)
+ln(retail price – tax
+   incentives)                –1.288***   –1.283***   –.927***   –1.297***   –1.307***
+                                (.131)       (.131)      (.268)       (.135)       (.139)
+ln(residential charging from
+ EV project)                  .050***      .049***     .027        .054***      .055***
+                                (.009)       (.011)      (.020)       (.012)       (.011)
+ln(personal income)           2.058**     2.184**      .045       1.764**     2.900***
+                                (.854)       (.933)     (1.362)       (.831)       (.835)
+ln(hybrid vehicle sales
+   in 2007) × time trend        .011**      .006        .013        .014**      .015*
+                                (.005)       (.005)      (.008)       (.006)       (.008)
+ln(personal income) ×
+  time trend                   .001      –.001        .014        .008        .007
+                                (.020)       (.020)      (.032)       (.020)       (.020)
+Observations                 14,563      14,563      6,720      14,328      13,990
+
+   Note. Column g employs the logit model from Berry (1994) and the dependent variable is  ln(skit) –
+ln(s0mt), where skmt is the market share of model k in market m and time t and s0mt is the share of consumers
+who are not purchasing an EV. Column h includes speciﬁc time ﬁxed effects for ZEV states to control for a
+potential competition effect from the introduction of more EV models. Column i includes a sample of only
+BEV models. Columns j and k increase the lag of national number of charging stations to two and three
+quarters when constructing the instrumental variable. All speciﬁcations include year-quarter ﬁxed effects,
+and MSA-model ﬁxed effects. Standard errors are clustered at the MSA level.
+    * p < .10.
+    ** p < .05.
+    *** p < .01.
+
+
+
+4.3. Regression Results for Charging Station Deployment
+Columns a–d in table 7 report the OLS regression results for the charging station
+equation(5) (ﬁrst-stage results reported in table 8). In column a, only the four explan-
+atory variables of interest are included. Column b includes year-quarter ﬁxed effects to
+control for time trends that are common to all MSAs such as federal subsidies for
+building charging stations that occur during a speciﬁc period of time. Column c further
+includes MSA ﬁxed effects to control for time-invariant MSA-level baseline differences
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 33 页｜印刷第 121 页] =====
+                                  The Market for Electric Vehicles    Li et al.   121
+
+Table 7. Charging Station Equation
+
+                     OLS    OLS    OLS    OLS  GMM  GMM
+Variable                           (a)         (b)         (c)        (d)         (e)         ( f )
+
+ln(EV installed base)           .374***   .540***   .136***   .115***   .613***   .659***
+                                (.025)     (.028)    (.029)     (.028)    (.157)    (.157)
+Charging station
+   tax credit (%)              –.005***  –.003*     .003      .003     .012     .012
+                                (.002)     (.002)    (.013)     (.014)    (.014)    (.014)
+Public funding or grants        .099*     .077     .007    –.020     .078     .088
+                                (.060)     (.057)    (.048)     (.047)    (.054)    (.055)
+ln(no. of grocery stores) ×
+   ln(lagged national stations)   .042***   .030***   .183***   .118***   .063**    .058**
+                                (.005)     (.005)    (.017)     (.020)    (.025)    (.025)
+ln(hybrid vehicle sales
+    in 2007) × time trend                                      .018***   .009**    .009*
+                                                               (.003)    (.004)    (.005)
+Year-quarter ﬁxed effects      No      Yes      Yes      Yes      Yes      Yes
+MSA ﬁxed effects          No     No      Yes      Yes      Yes      Yes
+Overidentiﬁcation
+   test (p-value)                                                     .3435    .1347
+Underidentiﬁcation
+   test (p-value)                                                     .0000    .0001
+
+   Note. The number of observations is 4,236. The dependent variable is ln(total number of publicly ac-
+cessible charging stations) in an MSA in a quarter. Tax credit for charging stations is the state-level tax
+credit to cover the cost of installing charging stations and is measured in percentage. Public funding is a
+dummy variable indicating whether public grants for building charging stations are available. ln(no. of gro-
+cery stores) × ln(lagged national stations) is the instrumental variable used in the EV demand equation.
+Column e is the preferred speciﬁcation with gasoline prices in previous years as the IV for ln(EV installed
+base). Column f adds tax incentives for EV purchases as an additional IV. All standard errors are clustered
+at the MSA level.
+    * p < .10.
+    ** p < .05.
+    *** p < .01.
+
+
+
+in charging station investment. Column d adds in the interaction term between the
+hybrid vehicle sales in 2007 (proxy for environmental friendliness) and time trend
+to control for heterogeneity in the diffusion pattern of charging stations.
+   All OLS regressions ﬁnd a positive and statistically signiﬁcant coefﬁcient for the
+installed EV base. The estimate results in column d suggest that a 10% increase in
+the EV ﬂeet size would lead to a 1.2% increase in the number of public charging sta-
+tions. The GMM results in column e show that a 10% increase in EV ﬂeet size would
+result in a 6.1% increase in charging stations. In column f, we add the EV incentives
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 34 页｜印刷第 122 页] =====
+122    Journal of the Association of Environmental and Resource Economists   March 2017
+
+          Table 8. First-Stage Results for Charging Station Equation
+
+           Variable
+
+            ln(current gasoline price)                                   .206
+                                                                        (.233)
+            ln(gasoline price last year)                                 3.304***
+                                                                        (.824)
+            ln(gasoline price two years ago)                            3.236***
+                                                                        (.676)
+            ln(gasoline price three years ago)                           3.087***
+                                                                        (.810)
+           ln(hybrid vehicle sales in 2007) × time trend                 .021***
+                                                                        (.004)
+            ln(no. of grocery stores) × ln(national charging stations)       .085***
+                                                                        (.023)
+          Charging station tax credit (%)                          –.017
+                                                                        (.018)
+           Public funding or grants for stations                       –.228***
+                                                                        (.061)
+         R2                                                       .922
+
+               Note. The number of observations is 4,236. The dependent variable is ln(EV
+              stock). The model includes year-quarter ﬁxed effects and MSA ﬁxed effects. Stan-
+            dard errors (in parentheses) are clustered at the MSA level.
+                 * p < .10.
+                 ** p < .05.
+                 *** p < .01.
+
+
+
+(tax credits and rebates at the federal and state levels) as an additional instrument and
+the coefﬁcient for charging stations increases from 0.613 to 0.659. We take column e
+as our baseline IV speciﬁcation due to the concern that the EV incentives (especially
+those at the state level) could be endogenous as they could be a response to the un-
+observed shocks to the deployment of charging stations.
+  The GMM coefﬁcient estimates are higher than all the OLS estimates, suggesting
+that the installed base of EVs is negatively related to the unobserved shocks to charg-
+ing station investment, leading to downward bias in OLS. An example of the unob-
+served shocks is the unobserved local policies: policy makers may design policies to
+support charging station investment to counteract negative EV demand shocks.
+  The results in column e show that tax credits and the availability of public funding
+for charging stations have positive but statistically insigniﬁcant coefﬁcients. The tax
+credits and public funding are both at the state level. The dependent variable in the
+charging station equation, however, only includes publicly accessible charging stations,
+which are mainly subsidized by the federal government directly through federal proj-
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 35 页｜印刷第 123 页] =====
+                                  The Market for Electric Vehicles    Li et al.   123
+
+ects such as the EV Project and ChargePoint Project. Although state-level tax credits
+and funding also apply to public charging stations, they mostly support the installation
+of charging stations at workplace and multifamily dwellings, which are usually privately
+accessible and are excluded from our analysis. The interaction term of grocery stores
+with the lagged number of stations in all MSAs other than own has a positive and sta-
+tistically signiﬁcant coefﬁcient, consistent with our argument for using it as a relevant
+instrument in the EV demand equation.
+
+
+5. POLICY SIMULATIONS
+Our empirical analysis suggests that indirect network effects exist on both sides of the
+market. In this section, we ﬁrst examine the policy impact of the current federal in-
+come tax credit policy for EV buyers and then compare this policy with an alternative
+policy that subsidizes charging station investment instead.
+
+
+5.1. Impact of Income Tax Credits
+The federal government has adopted several policies to support the EV industry, in-
+cluding providing federal income tax credits for EV purchase, R&D support for bat-
+tery development, and funding for expanding charging infrastructure. The CBO
+(2012) estimates that the total budgetary cost for those policies will be about $7.5 bil-
+lion through 2017. The tax credits for EV buyers account for about one-fourth of the
+budgetary cost and are likely to have the greatest impact on vehicle sales. Under the
+tax credits policy, EVs purchased in or after 2010 are eligible for a federal income tax
+credit up to $7,500. Most popular EV models on the market are eligible for the full
+amount.26 The credit will expire once 200,000 qualiﬁed EVs have been sold by each
+manufacturer.
+   In order to examine the effectiveness of the income tax credit policy in terms of
+stimulating EV sales, we use our parameters estimates from the two baseline GMM re-
+gressions to stimulate the counterfactual sales of EVs that would arise in the absence
+of the $924.2 million worth of tax credits to EV buyers from 2011 to 2013. The im-
+pact of the policy depends not only on the price elasticity of EV demand in the EV
+demand equation but also on the magnitude of indirect network effects captured in
+both equations.
+  We assume in our simulations that the MSRPs will not be affected, implying that
+consumers previously captured all the subsidies. We believe that this is a reasonable
+assumption in the EV launch stage when automakers produce EVs likely at a loss
+
+
+
+
+   26. The only EV models that are not eligible for the full amount of credits are Honda Ac-
+cord Plug-in, Ford C-Max Energi, Porsche Panamera, and Toyota Prius plug-in. And their el-
+igible tax credits are $3,626, $4,007, $4,751.8, and $2,500, respectively. In our policy simula-
+tion, we remove the tax credits based on different models.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 36 页｜印刷第 124 页] =====
+124    Journal of the Association of Environmental and Resource Economists   March 2017
+
+since the production level is far below the efﬁcient production scale.27 While more and
+more states are providing subsidy programs to encourage the adoption of EVs, the re-
+tail prices for electric vehicles have actually been decreasing (for the same model) dur-
+ing our sample period likely due to decreasing production cost and the increasing com-
+petition.
+  Our simulation results in table 9 show that EV sales would have been 56,690 less
+(or 40.44% of the total sales) from 2011 to 2013 without the $924.2 million worth of
+income tax credit to EV buyers. If we shut down feedback loops, the sales contribution
+from the tax credit policy would only have been 33,949 (24.2% of the total sales). This
+implies that feedback loops magnify the policy shock and explain 40% of the sales in-
+crease from the policy. The results suggest that feedback loops have a multiplier effect
+of 1.67. The CBO ﬁnds the policy impact to be 30% of the total EV sales while their
+study only considers the price effect of the tax credit but not the role of indirect net-
+work effects in amplifying the policy effect (CBO 2012). DeShazo et al. (2014) study
+the California Clean Vehicle Rebate Projects for EVs and ﬁnd a 7% increase in EV
+sales from the rebate of $1,838 on average. Neither of these studies takes into account
+indirect network effects, and their estimates likely provide the lower bounds of subsidy
+impacts.
+
+
+5.2. Policy Comparison
+Our stylized model suggests that feedback loops from indirect network effects on both
+sides of the market have important policy implications. A policy shock on one side of
+the market would affect the other side. To promote EV adoption based on a variety of
+rationales as discussed in section 1.2, policy makers face a problem of optimal policy
+design in that the tax revenue can be used to subsidize one or both sides of the market.
+We compare the subsidy policy on EV purchase with an alternative policy of subsi-
+dizing charging station investment. The alternative policy uses the same budget of
+$924.2 million evenly in each quarter during 2011–13 to install charging stations in
+all MSAs (proportional to population). As a lower bound estimate of the investment
+cost of charging stations, we assume the government is only responsible for the pur-
+chase and installation of the charging hardware and the charging station company will
+then operate and maintain the charging stations, as in the case of the EV Project and
+ChargePoint Project, the two federal charging station support programs. As a robust-
+ness check, we also estimate an upper bound investment cost for charging stations as-
+suming the government will also need to maintain and operate those charging stations.
+
+
+
+   27. In a study by Sallee (2011) on the income tax credit on hybrid vehicles after hybrid ve-
+hicles were ﬁrst introduced to the market, he ﬁnds that consumers captured the majority of the
+gains for the income tax subsidy. Automobile assembly lines generally operate most efﬁciently
+with an output of 200,000–250,000 vehicles per platform (Rubenstein 2002). The global sales
+of the most popular EV model, Nissan Leaf, was only 61,027 in 2014.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 37 页｜印刷第 125 页] =====
+                                  The Market for Electric Vehicles    Li et al.   125
+
+Table 9. Policy Impacts of Federal Income Tax Credits for EVs
+
+Time        Observed EV Sales    Counterfactual Sales    Sales Reduction   Percentage
+
+2011–1             1,105                772               333        30.10%
+2011–2             3,241                2,580               661        20.40%
+2011–3             2,813                1,887               926        32.91%
+2011–4             3,900                2,256               1,644        42.16%
+2012–1             4,307                2,015               2,292        53.22%
+2012–2             7,030                3,517               3,513        49.97%
+2012–3             9,662                5,575               4,087        42.30%
+2012–4            12,665                7,838               4,827        38.11%
+2013–1            21,140               12,931               8,209        38.83%
+2013–2            24,803               15,571               9,232        37.22%
+2013–3            25,782               15,679              10,103        39.19%
+2013–4            23,747               12,884              10,863        45.74%
+Total             140,195               83,505              56,690        40.44%
+
+   Note. Counterfactual sales are the simulated sales in all 353 MSAs in our data after removing the fed-
+eral income tax credit for EV buyers (the amount based on different models) while holding everything else
+the same.
+
+
+The lower bound and the upper bound of the charging station investment cost are
+$27,000 and $50,244, respectively.28
+  The policy comparison between these two policies is provided in table 10. We as-
+sume the policy period runs from 2011 to 2013 (i.e., no subsidy available in either
+policy after that). The existing tax credit policy (policy 1) has led to 56,690 more
+EVs from 2011 to 2013, amounting to $16,303 for one additional EV. The policy
+effect will continue to exist until the feedback loops die out in 2055.29 The impact
+on EV sales from this policy in the long term would be 184,049, amounting to
+
+
+   28. According to the charging station cost report by US Department of Energy Vehicle
+Technologies Ofﬁce (2015), the maintenance and operation cost of charging stations include
+the following components: electricity use, network fee, maintenance and repair, and rents in
+parking lots. The average electricity consumption is reported to be 6,864 kWh per year with
+an average network fee of $500 and maintenance fee of $300. Assuming the charging station
+charges customers $0.39 per kWh (the current charging fee of Blink Network supported by
+the EV project) and the average annual parking lot rate being $1,995.12 (the national average
+parking lot rate in 2012 Colliers International Parking Rate Survey), the estimated operation
+and maintenance cost less revenue is $805 per charging unit and $2,896 per station (3.6 units
+per station). Assuming a 10-year life span of a charging station, the discounted total cost of
+maintenance and operation is $23,244 per station and the total investment cost of a charging
+station including initial installation is $50,244.
+   29. We assume that the public charging stations and the installed base of EV drivers keep
+increasing at a rate that was observed in the last quarter of 2013.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 38 页｜印刷第 126 页] =====
+126    Journal of the Association of Environmental and Resource Economists   March 2017
+
+     Table 10. Comparison of EV Income Tax Credit and Charging Station
+     Subsidy Policies
+
+                                      EV Sales Increase
+                                                         from Policy 2
+                       EV Sales Increase
+                                    from Policy 1    Low Cost   High Cost
+
+    2011–1                            333           2,532        1,439
+    2011–2                            661           3,839        2,214
+    2011–3                            926           4,116        2,422
+    2011–4                              1,644           5,937        3,505
+    2012–1                              2,292           6,500        3,891
+    2012–2                              3,513           8,599        5,185
+    2012–3                              4,087           9,074        5,482
+    2012–4                              4,827           9,856        5,966
+    2013–1                              8,209          17,832       10,762
+    2013–2                              9,232          18,340       11,088
+    2013–3                             10,103          18,880       11,443
+    2013–4                             10,863          19,397       11,801
+      Sales increase in 3 years               56,690         124,904       75,199
+     Total increase long-term             184,049         403,558     267,741
+     Total increase in 10 years            168,131         373,748     245,687
+     Government spending per EV         $5,022          $2,290       $3,452
+
+         Note. Both policies use $924.2 million. Policy 1 provides a rebate in the form of tax cred-
+        its for EV buyers with the amount the same as the current income tax credit policy for each
+    EV model. Policy 2 uses the same budget to build charging stations evenly in each quarter in
+        all metro areas weighted by population. We assume investing a charging station has a lower-
+     bound cost of $27,000 and an upper-bound cost of $50,244. Total increase includes vehicle
+       sales increase during the policy effective period and the increase in future years (until 2055)
+      discounted to year 2011 by a 5% discount rate.
+
+
+$5,022 per policy-induced EV purchase. If instead, the government had spent the
+$924.2 million subsidizing charging stations by purchasing and installing charging in-
+frastructure (policy 2 with lower station cost), EV sales would have increased by
+124,904 during these 3 years. The cumulative impact on EV sales from this policy
+until year 2055 would be 403,558, amounting to $2,290 per induced EV, only 46%
+of the unit cost under the existing policy. If the government were also responsible
+for maintaining and operating those stations (policy 2 with higher station cost), EV
+sales would have increased by 75,199 during these three years and 267,741 in the long
+term, amounting to $3,452 per induced EV, still preferable to policy 1.
+  As depicted in ﬁgure 6, policy 2, which subsidizes charging station investment, dem-
+onstrates a dominant advantage in stimulating EV sales in the early stage of the EV mar-
+ket. The $924.2 million spending during the 3 years can install about 18,395 to 34,231
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 39 页｜印刷第 127 页] =====
+                                  The Market for Electric Vehicles    Li et al.   127
+
+
+
+
+
+   Figure 6. Sales impacts from two subsidy policies. Each data point represents EV sales in-
+crease by quarter due to the policy. Policy 1 gives new EV buyers a tax credit of $2,500–$7,500
+based on different models as the current income tax credit policy for EVs. Policy 2 builds charg-
+ing stations in all MSAs with the same total spending as policy 1 by assuming a charging station
+investment cost with a lower bound cost of $27,000 and an upper bound of $50,244.
+
+
+charging stations depending on the actual investment cost. This is more than one-eighth
+to one-fourth of the total number of gasoline stations in the country and almost one
+and half to three times of the current total number of public charging stations in the
+whole country. This large amount of public charging stations should dramatically alle-
+viate or even eliminate range anxiety for potential EV buyers. Our results indicate that
+building charging stations is a more effective way to boost EV sales in the EV launch
+stage. As shown in our regression results, indirect network effects on the EV demand
+side are much stronger than those on the charging station side (coefﬁcient ratio being
+1.4) and consumers are not very sensitive to prices (price elasticity being –1.3). As a re-
+sult, the policy that builds charging stations stimulates EV sales at a much faster pace,
+consistent with our ﬁndings in the model section.
+  The long-run simulations are based on a variety of assumptions and are meant to
+be illustrative. As the technology improves, the EV driving range is likely to increase,
+weakening indirect network effects from charging stations to EV demand. In addition,
+in the longer term, as EVs become more of a serious choice for average vehicle buyers,
+consumer price sensitivity among EV buyers could increase. Both of these changes would
+affect the policy outcomes and weaken the effectiveness of policy 2 relative to policy 1.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 40 页｜印刷第 128 页] =====
+128    Journal of the Association of Environmental and Resource Economists   March 2017
+
+  As discussed in section 4.2, the network size of charging stations has heterogeneous
+impacts on the EV demand across locations with different average commute time.
+This implies heterogeneity in the relative strength of indirect network effects on
+the two sides of the EV market and hence heterogeneity in policy comparison. That
+is, policy 2 may not be always preferred as previous analysis suggests. In MSAs where
+indirect network effects on EV demand are not strong since drivers have shorter com-
+mutes and home charging is enough to ensure their daily trips, policy 1, which subsi-
+dies EV purchase, could be more effective. Figure 7 depicts the relative effectiveness of
+the two policies in promoting EV adoption. The MSA with policy 2 being most ef-
+fective is New York–New Jersey–Long Island (NY-NJ-PA) where the average com-
+mute time is longest, while the MSA with policy 1 being most effective is Grand Forks
+(ND-MN) where the average commute time is shortest. This suggests that a more
+elaborate and cost-effective policy design would be to subsidize charging stations in
+areas with long commute (e.g., large MSAs) but to subsidize EV purchases in areas
+with short commute (e.g., small MSAs). This type of regionally differentiated policy
+could be implemented at the federal level but perhaps more feasibly at the state and
+local levels. For example, in states or cities where the average commute is longer, state
+and local governments should focus on building charging station infrastructure while
+subsidies on EV adoption, for example, through rebate and HOV lane usage, can be
+implemented in states and cities where the average commute is shorter.
+
+
+6. CONCLUSION
+This study ﬁrst demonstrates through a stylized model that positive indirect network
+effects in both EV demand and charging station deployment give rise to feedback
+loops that amplify shocks to the system and have important policy implications. Al-
+though indirect network effects on both sides of the market imply that subsidizing ei-
+ther side of the market will result in an increase in both EV sales and charging stations,
+the relative cost effectiveness of different subsidy policies depends on consumer price
+sensitivity for EVs and the relative magnitude of indirect network effects on the two
+sides of the market.
+  The paper provides to our knowledge the ﬁrst empirical analysis of indirect net-
+work effects in this market and evaluates the impacts of the current federal income
+tax credit program for EV buyers. Our analysis estimates the elasticity of EV adoption
+with respect to charging station availability to be 0.84 and the elasticity of charging
+station investment with respect to the EV installed base to be 0.61. These indirect
+network effects enhance the effectiveness of the tax credit policy, which has contrib-
+uted to 40% of EV sales during 2011–13 and will continue to exhibit a positive effect
+on the market for many years through feedback loops. Given the relative strength of
+indirect network effects on the EV demand side and the low price sensitivity of early
+adopters, subsidizing charging station deployment would be much more cost effective
+than the current policy of subsidizing EV purchases.
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 41 页｜印刷第 129 页（推算）] =====
+                                                        as          across more
+                                                                is                                                                                                                                                                       models   1                                                                                                                                                                                                                                                                                                   investment                                                                                                                                                                                       varies
+                                                                                       the 2                                                                                                                                                                                                                                                          different                  policy                                                                                                                                                                                       policy
+                                                        on                                                             of  where                                                                                                                                                                                                                                         assuming
+                                                          1,                                                                                                                                           based                                                                                                                                                                                                                                                                                              locations                                                                                                                                                                               policy                                                          as    effectiveness are
+                                                                                                                    cost  policy dots                                                                                                                                                                                                                                                                                                                                              $2,500–$7,500         the                                                        of     The                                                                                                                                                                                                                                                                      budgetary       with                                                                                                                                                                       credit                                                                                                                                                                                                                                                                                  policies.                                                                                   tax same                            a                     regions
+                                                                                       the  subsidy The                                                                                                                                                                       buyers with
+                                                                                           two
+                                                        EV MSAs the  demand.
+                                                                                   new all                                                             to EV
+                                                                                                                                           gives in due the
+                            1      on                                                                                                                                                                                                                                         stations   increases                                                                                                                                                                       Policy                                                             EV   stations                                                                                                                                                                                                                                         charging the
+                                                                                                                                                                               builds of   charging                             2  ratio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    (policy2/policy1).     the  public                                                                                                                                                                               Policy   of                                                                                                                                                        plots
+                                                                                                                    EVs.                                                                                                                                                                                                                                                                                                                                                                         effectiveness for ﬁgure  impacts
+                                                                                                                                                                       policy  policy The
+                                                                                                                                                                               credit                                                                                                                                                                                                                                                    $27,000.                                                                                                                                                                                                                                                                                                                                                                                                                             heterogeneous                                                                                       tax
+                                                                                               the                                                                                                                                                        being
+                                                                to                                                                                                                                                                                                                                                                                                                                                                         Heterogeneous                                                                                                                                                                               income
+                                                        7.         due                                                                                                                                                                                                                     station
+                                                                                           per                                                                                                                                                                       Figure  current                                                                                       the cost   locations   effective.
+
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 42 页｜印刷第 130 页] =====
+130    Journal of the Association of Environmental and Resource Economists   March 2017
+
+  Our ﬁndings offer some insights for policy design to promote EV technology. First,
+the policy to expand the charging station network (e.g., through subsidies) would be
+especially effective in the EV launch stage due to the low price sensitivity of early
+adopters and strong indirect network effects from charging stations on EV demand.
+Second, our analysis demonstrates that signiﬁcant spatial differences exist in optimal
+policy design. Together with the ﬁnding from the literature that the environmental
+beneﬁts from EVs exhibit signiﬁcant heterogeneity across locations with a different
+fuel mix of electricity generation, the spatial variation in indirect network effects limits
+one-size-ﬁts-all policies and argues for regionally differentiated policies.
+
+
+
+APPENDIX
+ENTRY MODEL OF CHARGING STATIONS
+The entry model is developed based on Gandal et al. (2000). Denote EV owners’ de-
+mand for charging station j by D(p1, . . . , pN), where N is the number of charging sta-
+tions available in a given market, and pj is the price at charging station j, j 5 1, . . . , N.
+We assume that demands are symmetric in terms of prices at different charging sta-
+tions. Furthermore, we assume that the marginal cost is constant, denoted by c, and
+that the proﬁt function from each EV owner (pj – c)D(p1, :::, pN) is quasi-concave in
+pj. Under these assumptions, there exists an equilibrium in which all stations charge the
+same price, which depends on N, denoted by p(N). Denote the equilibrium markup
+by
+                0     1
+                                    D(p)
+                       J(N) @≡– h    i A
+                                                   ∂D(p)
+                                                       ∂p
+
+and assume φ′(N) < 0, which is consistent with most common competition models.
+Let f (N) 5 J(N)D ðp(N))/N. Then the per period proﬁt of a station in market m
+at time t is pmt 5 QEVmt f (Nmt).
+  Now consider a charging station’s entry decision. If a charging station enters mar-
+ket m at time t, it pays the entry cost Fmt and earns the proﬁt streams (pmt, p(mt11):::),
+generating a discounted proﬁt of –Fmt 1 pmt 1 dpmt11 1 :::, where δ is a discount
+factor common to all stations. If a station enters market m at time t 1 1, it generates
+a discounted proﬁt of –dFmt11 1 dpmt11 1 d2pmt12:::. In a free-entry equilibrium
+ﬁrms must be indifferent between these two options. This implies
+
+                       Fmt – dFmt11 5 pmt 5 QEVmt f (Nmt):
+
+   Taking the natural logarithms of both sides, we can get
+
+                    ln(Fmt – dFmt11) 5 ln( f (Nmt)) 1 ln(QEVmt ):             (A1)
+
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 43 页｜印刷第 131 页] =====
+                                  The Market for Electric Vehicles    Li et al.   131
+
+  We specify the entry cost as
+
+                       ln(Fmt – dFmt11) 5 r0 1 r1Zmt 1 tmt,              (A2)
+
+where τmt is the unobserved entry cost, and the vector of covariates Zmt includes the
+state-level tax credit given to charging station investors measured as the percentage
+of the building cost, a dummy variable indicating whether there exists public grants
+or funding to building charging infrastructure, the interaction term of number of gro-
+cery stores in an MSA in 2012 with the lagged number of charging stations in all
+MSAs other than own (the instrument in the EV demand equation), and other con-
+trol variables.
+  We specify the proﬁtability of charging station f(N) as follows
+
+                         ln( f (Nmt)) 5 λ0 1 λ1 ln(QEVmt ) 1 ϑmt,               (A3)
+
+where Nmt is installed base of charging stations by time t which captures the compe-
+tition among charging stations, and ϑmt is an error term that captures the unobserved
+local demand shocks.
+   Furthermore, we decompose the local shock as
+
+                          (tmt – ϑmt)/λ1 5 Tt 1 Jm 1 ςmt,                 (A4)
+
+where Tt is year-quarter dummies that control for time effects common to all the
+MSAs, φm is market ﬁxed effects that control for time-invariant and MSA-speciﬁc
+preferences for charging stations, and ςmt is an term capturing those idiosyncratic local
+demand shocks.
+  From equations (A1), (A2), (A3), and (A4), we can obtain the charging station
+equation (5) in section 3.2:
+
+             ln(Nmt) 5 g0 1 g1 ln(QEVmt ) 1 g2Zmt 1 Tt 1 Jm 1 ςmt,
+
+where g0 5 (r0 – λ0)/λ1, g1 5 –1/λ1, g2 5 r1/λ1.
+
+
+REFERENCES
+Armstrong, Mark. 2006. Competition in two-sided markets. RAND Journal of Economics 37:668–91.
+Bartik, Timothy J. 1991. Who beneﬁts from state and local economic development policies? Kalamazoo, MI:
+
+   Upjohn Institute for Employment Research.
+Beresteanu, Arie, and Shanjun Li. 2011. Gasoline prices, government support, and the demand for hybrid
+    vehicles. International Economic Review 52 (1): 161–82.
+
+Berry, Steven. 1994. Estimating discrete choice models of product differentiation. RAND Journal of Eco-
+    nomics 25 (2): 242–62.
+
+Berry, Steven, James Levinsohn, and Ariel Pakes. 1995. Automobile prices in market equilibrium.
+    Econometrica 63 (4): 841–90.
+
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 44 页｜印刷第 132 页] =====
+132    Journal of the Association of Environmental and Resource Economists   March 2017
+
+Bloom, Nicholas, March Schankerman, and John van Reenen. 2013. Identifying technology spillovers and
+    product market rivalry. Econometrica 81:1347–93.
+
+Caillaud, Bernard, and Bruno Jullien. 2003. Chicken and egg: Competition among intermediation service
+    providers. RAND Journal of Economics 34:309–28.
+CBO (Congressional Budget Ofﬁce). 2012. Effects of federal tax credits for the purchase of electric vehicles.
+    Congressional Budget Ofﬁce, Washington, DC.
+Church, Jeffrey, Neil Gandal, and David Krause. 2002. Indirect network effects and adoption externalities.
+
+    Foerder Institute for Economic Research Working paper, Ramat Aviv, Tel-Aviv.
+
+Clements, Matthew, and Hiroshi Ohashi. 2005. Indirect network effects and the product cycle: Video
+   games in the US, 1994–2002. Journal of Industrial Economics 53:515–42.
+Corts, Kenneth. 2010. Building out alternative fuel retail infrastructure: Government ﬂeet spillovers in E85.
+    Journal of Environmental Economics and Management 59:219–34.
+Corts, Kenneth, and Mara Lederman. 2009. Software exclusivity and the scope of indirect network effects
+    in the US home video game market. International Journal of Industrial Organization 27:121–36.
+
+DeShazo, J. R., Tamara Sheldon, and Richard T. Carson. 2014. Designing policy incentives for cleaner
+    technologies: Lessons from California’s plug-in electric vehicle rebate program. Working paper, Univer-
+
+     sity of California, Los Angeles, Luskin School of Public Affairs.
+
+EPRI (Electric Power Research Institute). 2013. Total cost of ownership model for current plug-in electric
+    vehicles. www.epri.com/abstracts/Pages/ProductAbstract.aspx?ProductIdp000000003002001728.
+
+Farrell, Joseph. and Garth Saloner. 1985. Standardization, compatibility and innovation. RAND Journal of
+    Economics 16 (1): 70–83.
+Gallagher, Kelley, and Erich Muehlegger. 2011. Giving green to get green? Incentives and consumer adop-
+    tion of hybrid vehicle technology. Journal of Environmental Economics and Management 61:1–15.
+
+Gandal, Neil, Michael Kende, and Rafael Rob. 2000. The dynamics of technological adoption in hardware/
+    software systems: The case of compact disc players. RAND Journal of Economics 31:43–61.
+
+Hagiu, Andrei. 2006. Pricing and commitment by two-sided platforms. RAND Journal of Economics
+   37:720–37.
+Heutel, Garth, and Erich Muehlegger. 2012. Consumer learning and hybrid vehicle adoption. Environmen-
+
+     tal and Resource Economics, forthcoming.
+Holland, Stephen, Erin Mansur, and Nicholas Muller. 2015. Are there environmental beneﬁts from driving
+    electric vehicles? The importance of local factors. Working paper.
+
+Huse, Cristian. 2014. Fast and furious (and dirty): How asymmetric regulation may hinder environmental
+
+    policy. Working paper.
+Idaho National Laboratory. 2013. The EV Project summary report Q4 2013. https://avt.inl.gov/sites/default
+   /ﬁles/pdf/EVProj/EVProjectSummaryReportQ42013FINAL.pdf.
+
+Kahn, Matthew. 2007. Do greens drive Hummers or hybrids? Environmental ideology as a determinant of
+   consumer choice. Journal of Environmental Economics and Managment 54 (2): 129–45.
+
+Kahn, Matthew, and Ryan Vaughn. 2009. Green market geography: The spatial clustering of hybrid vehi-
+    cles and LEED registered buildings. B.E. Journal of Economic Analysis and Policy 9 (2): 1935–1682.
+Katz, Michael L., and Carl Shapiro. 1985. Network externalities, competition and compatibility. American
+   Economic Review 75 (3): 424–40.
+
+Klier, Thomas, and Joshua Linn. 2012. New-vehicle characteristics and the cost of the Corporate Average
+    Fuel Economy standard. Rand Journal of Economics 43 (1): 186–213.
+
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+===== [PDF 第 45 页｜印刷第 133 页] =====
+                                  The Market for Electric Vehicles    Li et al.   133
+
+Langer, Ashley, and Shaun McRae. 2014. Fueling alternatives: Evidence from naturalistic driving data.
+
+   Working paper.
+
+Lee, Robin. 2013. Vertical integration and exclusivity in platform and two-sided markets. American Eco-
+   nomic Review 103:2960–3000.
+
+Liebowitz, S. J., and Stephen E. Margolis. 1995. Are network externalities a new source of market failure?
+    Research in Law and Economics 17:1–22.
+Lund, Hendrik, and Willett Kempton. 2008. Integration of renewable energy into the transport and elec-
+     tricity sectors through V2G. Energy Policy 36:3578–87.
+Mock, Peter, and Zifei Zhang. 2014. Driving electriﬁcation: A global comparison of ﬁscal incentive policy
+    for electric vehicles. The International Council on Clean Transportation White paper.
+
+Nair, Harikesh, Pradeep Chintagunta, and Jean-Pierre Dube. 2004. Empirical analysis of indirect network
+    effects in the market of personal digital assistants. Quantitative Marketing and Economics 2:23–58.
+Parry, Ian, Dirk Heine, Eliza Lis, and Shanjun Li. 2014. Getting energy prices right: From principle to practice.
+
+   Washington, DC: International Monetary Fund Press.
+
+Parry, Ian, and Kenneth Small. 2005. Does Britain or the United States have the right gasoline tax? Amer-
+    ican Economic Review 95 (4): 1276–89.
+
+Rochet, Jean-Charles, and Jean Tirole. 2006. Two-sided markets: A progress report. RAND Journal of Eco-
+    nomics 35:645–67.
+Rohlfs, Jeffrey. 1974. A theory of interdependent demand for a communications service. Bell Journal of Eco-
+    nomics 5:16–37.
+
+Rubenstein, James M. 2002. The changing U.S. auto industry: A geographical analysis. Routledge.
+Rysman, Marc. 2004. Competition between networks: A study of the market for Yellow Pages. Review of
+   Economic Studies 71 (2): 483–512.
+
+Sallee, James. 2011. The surprising incidence of tax credits for the Toyota Prius. American Economics Jour-
+    nal: Economics Policy 3:189–219.
+
+Sexton, Steven, and Alison Sexton. 2014. Conspicuous conservation: The Prius halo and willingness to pay
+    for environmental bona ﬁdes. Journal of Environmental Economics and Management 67:303–17.
+Stoneman, Paul, and Paul Diederen. 1994. Technology diffusion and public policy. Economic Journal 104
+    (425): 918–30.
+Weyl, E. Glen. 2010. A price theory of multi-sided platforms. American Economic Review 100:1642–72.
+Zhou, Yiyi. 2014. Failure to launch in two-sided markets: A study of the U.S. video game market. Working
+
+    paper.
+
+Zivin, Joshua, Matthew Kotchen, and Erin Mansur. 2014. Spatial and temporal heterogeneity of marginal
+    emissions: Implications for electric cars and other electricity-shifting policies. Journal of Economic Behav-
+     ior and Organization 107:248–68.
+
+
+
+
+
+             This content downloaded from 050.100.116.095 on February 06, 2019 12:16:44 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).

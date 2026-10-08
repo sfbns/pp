@@ -1,0 +1,168 @@
+{
+  "rank": 7,
+  "item_key": "9HUJHUTJ",
+  "title": "Disentangling sources of vehicle emissions reduction in France: 2003–2008",
+  "authors": [
+    "Xavier D’Haultfoeuille",
+    "Isis Durrmeyer",
+    "Philippe Février"
+  ],
+  "creators": [
+    {
+      "name": "Xavier D’Haultfoeuille",
+      "type": "author"
+    },
+    {
+      "name": "Isis Durrmeyer",
+      "type": "author"
+    },
+    {
+      "name": "Philippe Février",
+      "type": "author"
+    }
+  ],
+  "date": "2016-00-00 2016",
+  "journal": "International Journal of Industrial Organization",
+  "doi": "10.1016/j.ijindorg.2016.05.002",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167718716300352",
+  "collections": [
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "D’Haultfoeuille, X., Durrmeyer, I., & Février, P. (2016). Disentangling sources of vehicle emissions reduction in France: 2003–2008. International Journal of Industrial Organization. https://doi.org/10.1016/j.ijindorg.2016.05.002",
+    "parenthetical": "(D’Haultfoeuille et al., 2016)",
+    "narrative": "D’Haultfoeuille et al. (2016)"
+  },
+  "preferred_pdf_rel": "source_pdfs/07_9hujhutj.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "X7WKNDAS",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:j.ijindorg.2016.05.002.pdf.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\X7WKNDAS\\j.ijindorg.2016.05.002.pdf.pdf",
+    "exists": true,
+    "size": 1528709
+  },
+  "legacy_note_rel": "raw/notes/07_9hujhutj.md",
+  "legacy_old_memory_rel": "raw/paper_memory/07_9hujhutj.md",
+  "fulltext_json_rel": "raw/fulltext/07_9hujhutj.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/07_9hujhutj.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper decomposes the fall in vehicle emissions in France between 2003 and 2008.\n- Its main finding is that policy mattered, but not all policy instruments mattered equally.\n- A large share of the emissions decline is attributed to changing preferences, while registration-tax CO2 sensitivity and feebate design also matter.",
+    "2. Story ladder": "- Real-world tension or puzzle: emissions from new vehicles were falling, but the drivers of that decline were not obvious.\n- Why the puzzle matters now: policy makers need to know whether taxes, fuel prices, or preference shifts are doing the work.\n- What the literature already explains: emission outcomes respond to both fiscal policy and consumer choice.\n- What is still missing or weakly identified: a source-by-source decomposition of the decline.\n- The paper's move: separate the effects of registration taxes, annual taxes, fuel prices, and preference shifts.\n- Main payoff: policy is important, but changing consumer preference explains a surprisingly large part of the decline.",
+    "3. Model or identification core": "- Research design type: structural decomposition / policy attribution.\n- Structural model class or reduced-form design: vehicle-choice model with emissions and tax policy.\n- Key equations or choice objects: household choice among car models under tax schedules and fuel costs.\n- Endogeneity problem: emissions, prices, and taxes are jointly shaped by market equilibrium.\n- Identification strategy: use the structure of taxes and market variation to isolate channels.\n- What assumptions are doing the heavy lifting: stable demand and correct mapping from policy to vehicle attributes.",
+    "4. Data and measurement": "- Unit of observation: new passenger cars / market choices in France.\n- Market definition: French vehicle market over 2003-2008.\n- Main dependent variable: vehicle emissions intensity.\n- Core explanatory variables: registration taxes, annual taxes, feebate incentives, and fuel prices.\n- Instruments / moments / shocks: tax schedule variation and market shares.\n- Important sample restrictions: French new-car market during the study window; OCR gave the broad design more clearly than every data detail.",
+    "5. Findings and mechanisms": "- Baseline result: registration taxes that are more CO2-sensitive reduce CO2 intensity, with a reported elasticity of about 0.1% per 1% increase.\n- Mechanism evidence: feebate design has a crowding-in effect, suggesting policy can shift the composition of purchases.\n- Heterogeneity evidence: annual taxes have little effect, so not all recurring taxes work the same way.\n- Welfare or counterfactual result: changing preferences accounts for roughly 40% of the overall emissions decline.\n- Limits the authors admit: the decomposition depends on the quality of the structural attribution, so some channel shares are model-based rather than directly observed.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: vehicle emissions policy, tax design, and car-demand papers.\n- What exact gap the authors claim: prior work measures policy effects, but not the share of decline due to each source.\n- How the introduction stages novelty: it frames the paper as a decomposition of a real observed emissions reduction.\n- Whether the contribution is data, method, theory, policy, or a combination: policy decomposition plus structural estimation.",
+    "7. Literature review function": "- Where the review sits: in the introduction before the decomposition exercise.\n- How the review is organized: tax policy, fuel costs, consumer choice, and emissions outcomes.\n- Which citations do positioning work: car taxation and emissions-control papers.\n- Which citations do method-validation work: structural auto-demand and policy-counterfactual studies.",
+    "8. Writing structure map": "- Introduction move sequence: emissions decline -> attribution puzzle -> decomposition strategy -> main shares.\n- Section order: policy context, model, data, estimation, decomposition results, conclusion.\n- Where the paper turns from setup to payoff: when it separates preference change from tax effects.\n- How tables/figures are used to move the argument: tables likely show channel shares and policy elasticities; OCR was sufficient for the headline numbers but not for every exhibit label.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"When an outcome moves, the key question is which channel moved it.\"\n- Best transition pattern: move from aggregate trend to channel decomposition.\n- Best contribution sentence pattern: \"We disentangle the sources of the emissions decline.\"\n- Best limitation or implication move: \"Policy design matters, but demand-side preference shifts can be just as important.\"",
+    "10. Memory update": "- Durable economics-writing principle: decomposition is stronger than correlation when multiple policy channels move together.\n- Durable structural-model principle: taxes should be interpreted through the choice margin they actually move.\n- Reusable empirical design idea: build a policy attribution exercise around a real observed aggregate decline.\n- Follow-up paper to pair with this one: a study that decomposes CO2 reductions into pricing, technology, and preference channels in another market."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_9hujhutj_disentangling-sources-of-vehicle-emissions-reduction-in-france-2003-2008\ndescription: Fulltext memory for Disentangling sources of vehicle emissions reduction in France: 2003-2008; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# Disentangling sources of vehicle emissions reduction in France: 2003-2008",
+    "Citation": "- Key: `9HUJHUTJ`\n- DOI: `10.1016/j.ijindorg.2016.05.002`\n- Journal: International Journal of Industrial Organization\n- Year: 2016\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\9HUJHUTJ.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/9HUJHUTJ/9HUJHUTJ.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/9HUJHUTJ.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- We analyze the evolution of CO 2emissions of new vehicles sold in France between 2003 and 2008.",
+    "Story Logic": "- 故事起点：We analyze the evolution of CO 2emissions of new vehicles sold in France between 2003 and 2008.\n- 制度/市场切口：We investigate in particular the eﬀect of two policies introduced during that time: the energy label requirement, which went into eﬀect in the end of 2005, and a feebate based on CO 2emissions of new vehicles in 2008.\n- 模型推进：We estimate a flexible model of demand for automobiles that incorporates consumers’ heterogeneity and valuation of vehicle CO 2emissions.\n- 结论落点：As of April 2014, 19 countries have taxation systems related to vehicle \\mathrm { C O _ { 2 } } emissions.1 The California Clean Cars Law, introduced by the state of California and followed by 13 other states, is another example.",
+    "BLP Model Memory": "- BLP positioning: canonical BLP demand-supply\n- Evidence hits: mixed logit, nested logit, bertrand, marginal cost, welfare, counterfactual, instrument\n- Demand side: 需求侧更像嵌套 logit / 分层离散选择，保留了产品空间替代结构，但异质性比经典 BLP 更轻。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别主要靠制度冲击或自然实验，把外生变化灌进结构模型。\n- Counterfactual / welfare: 论文明确把模型用于税收、补贴、禁令、标签或进入政策的反事实分析。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1. Introduction\n- 4. Estimation results\n- 5. Conclusion\n- Disentangling sources of vehicle emissions reduction in France: 2003-2008✩\n- a r t i c l e i n f o\n- a b s t r a c t\n- International Journal of Industrial Organization 47 (2016) 186-229\n- Contents lists available at ScienceDirect\n- International Journal of Industrial Organization\n- 2. Environmental policies and evolution of \\mathbf { C O _ { 2 } } emissions\n- 2.1. Energy labels and the feebate system\n- 2.2. Evolution of C O _ { 2 } emissions",
+    "Reusable Writing Moves": "- 典型 BLP 写法是先提出现实政策问题，再说明为什么需要结构模型，最后把替代关系转成福利与政策比较。",
+    "OCR Anchors": "- introduction: `1. Introduction` (p.1) - 1. Introduction In this paper, we study the evolution of carbon dioxide \\left( \\mathrm { C O } _ { 2 } \\right) emissions of new vehicles sold in France over the period 2003-2008.\n- estimation: `4. Estimation results` (p.14) - 4. Estimation results\n- conclusion: `5. Conclusion` (p.30) - 5. Conclusion We have shown evidence that, in the French automobile market, consumers shifted their preferences for \\mathrm { C O _ { 2 } } emissions between 2003 and 2008.",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- The paper decomposes the fall in vehicle emissions in France between 2003 and 2008.\n- Its main finding is that policy mattered, but not all policy instruments mattered equally.\n- A large share of the emissions decline is attributed to changing preferences, while registration-tax CO2 sensitivity and feebate design also matter.\n\n- Real-world tension or puzzle: emissions from new vehicles were falling, but the drivers of that decline were not obvious.\n- Why the puzzle matters now: policy makers need to know whether taxes, fuel prices, or preference shifts are doing the work.\n- What the literature already explains: emission outcomes respond to both fiscal policy and consumer choice.\n- What is still missing or weakly identified: a source-by-source decomposition of the decline.\n- The paper's move: separate the effects of registration taxes, annual taxes, fuel prices, and preference shifts.\n- Main payoff: policy is important, but changing consumer preference explains a surprisingly large part of the decline.\n\n- Research design type: structural decomposition / policy attribution.\n- Structural model class or reduced-form design: vehicle-choice model with emissions and tax policy.\n- Key equations or choice objects: household choice among car models under tax schedules and fuel costs.\n- Endogeneity problem: emissions, prices, and taxes are jointly shaped by market equilibrium.\n- Identification strategy: use the structure of taxes and market variation to isolate channels.\n- What assumptions are doing the heavy lifting: stable demand and correct mapping from policy to vehicle attributes.\n\n- Unit of observation: new passenger cars / market choices in France.\n- Market definition: French vehicle market over 2003-2008.\n- Main dependent variable: vehicle emissions intensity.\n- Core explanatory variables: registration taxes, annual taxes, feebate incentives, and fuel prices.\n- Instruments / moments / shocks: tax schedule variation and market shares.\n- Important sample restrictions: French new-car market during the study window; OCR gave the broad design more clearly than every data detail.\n\n- Which papers are treated as the nearest neighbors: vehicle emissions policy, tax design, and car-demand papers.\n- What exact gap the authors claim: prior work measures policy effects, but not the share of decline due to each source.\n- How the introduction stages novelty: it frames the paper as a decomposition of a real observed emissions reduction.\n- Whether the contribution is data, method, theory, policy, or a combination: policy decomposition plus structural estimation.\n\n- Where the review sits: in the introduction before the decomposition exercise.\n- How the review is organized: tax policy, fuel costs, consumer choice, and emissions outcomes.\n- Which citations do positioning work: car taxation and emissions-control papers.\n- Which citations do method-validation work: structural auto-demand and policy-counterfactual studies.",
+  "baseline_core_memory": "- Research design type: structural decomposition / policy attribution.\n- Structural model class or reduced-form design: vehicle-choice model with emissions and tax policy.\n- Key equations or choice objects: household choice among car models under tax schedules and fuel costs.\n- Endogeneity problem: emissions, prices, and taxes are jointly shaped by market equilibrium.\n- Identification strategy: use the structure of taxes and market variation to isolate channels.\n- What assumptions are doing the heavy lifting: stable demand and correct mapping from policy to vehicle attributes.\n\n- BLP positioning: canonical BLP demand-supply\n- Evidence hits: mixed logit, nested logit, bertrand, marginal cost, welfare, counterfactual, instrument\n- Demand side: 需求侧更像嵌套 logit / 分层离散选择，保留了产品空间替代结构，但异质性比经典 BLP 更轻。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别主要靠制度冲击或自然实验，把外生变化灌进结构模型。\n- Counterfactual / welfare: 论文明确把模型用于税收、补贴、禁令、标签或进入政策的反事实分析。",
+  "mechanism_memory": "- Baseline result: registration taxes that are more CO2-sensitive reduce CO2 intensity, with a reported elasticity of about 0.1% per 1% increase.\n- Mechanism evidence: feebate design has a crowding-in effect, suggesting policy can shift the composition of purchases.\n- Heterogeneity evidence: annual taxes have little effect, so not all recurring taxes work the same way.\n- Welfare or counterfactual result: changing preferences accounts for roughly 40% of the overall emissions decline.\n- Limits the authors admit: the decomposition depends on the quality of the structural attribution, so some channel shares are model-based rather than directly observed.\n\n- 故事起点：We analyze the evolution of CO 2emissions of new vehicles sold in France between 2003 and 2008.\n- 制度/市场切口：We investigate in particular the eﬀect of two policies introduced during that time: the energy label requirement, which went into eﬀect in the end of 2005, and a feebate based on CO 2emissions of new vehicles in 2008.\n- 模型推进：We estimate a flexible model of demand for automobiles that incorporates consumers’ heterogeneity and valuation of vehicle CO 2emissions.\n- 结论落点：As of April 2014, 19 countries have taxation systems related to vehicle \\mathrm { C O _ { 2 } } emissions.1 The California Clean Cars Law, introduced by the state of California and followed by 13 other states, is another example.",
+  "result_memory": "- Baseline result: registration taxes that are more CO2-sensitive reduce CO2 intensity, with a reported elasticity of about 0.1% per 1% increase.\n- Mechanism evidence: feebate design has a crowding-in effect, suggesting policy can shift the composition of purchases.\n- Heterogeneity evidence: annual taxes have little effect, so not all recurring taxes work the same way.\n- Welfare or counterfactual result: changing preferences accounts for roughly 40% of the overall emissions decline.\n- Limits the authors admit: the decomposition depends on the quality of the structural attribution, so some channel shares are model-based rather than directly observed.\n\n- Results anchor: ebate based on CO 2 emissions of new vehicles in\n- Conclusion anchor: by about 50%. Even though other phenomena are probably in play in 2009, these evo-",
+  "writing_style_memory": "- Introduction move sequence: emissions decline -> attribution puzzle -> decomposition strategy -> main shares.\n- Section order: policy context, model, data, estimation, decomposition results, conclusion.\n- Where the paper turns from setup to payoff: when it separates preference change from tax effects.\n- How tables/figures are used to move the argument: tables likely show channel shares and policy elasticities; OCR was sufficient for the headline numbers but not for every exhibit label.\n\n- Best framing sentence pattern: \"When an outcome moves, the key question is which channel moved it.\"\n- Best transition pattern: move from aggregate trend to channel decomposition.\n- Best contribution sentence pattern: \"We disentangle the sources of the emissions decline.\"\n- Best limitation or implication move: \"Policy design matters, but demand-side preference shifts can be just as important.\"\n\n- Durable economics-writing principle: decomposition is stronger than correlation when multiple policy channels move together.\n- Durable structural-model principle: taxes should be interpreted through the choice margin they actually move.\n- Reusable empirical design idea: build a policy attribution exercise around a real observed aggregate decline.\n- Follow-up paper to pair with this one: a study that decomposes CO2 reductions into pricing, technology, and preference channels in another market.\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- 1. Introduction\n- 4. Estimation results\n- 5. Conclusion\n- Disentangling sources of vehicle emissions reduction in France: 2003-2008✩\n- a r t i c l e i n f o\n- a b s t r a c t\n- International Journal of Industrial Organization 47 (2016) 186-229\n- Contents lists available at ScienceDirect\n- International Journal of Industrial Organization\n- 2. Environmental policies and evolution of \\mathbf { C O _ { 2 } } emissions\n- 2.1. Energy labels and the feebate system\n- 2.2. Evolution of C O _ { 2 } emissions\n\n- 典型 BLP 写法是先提出现实政策问题，再说明为什么需要结构模型，最后把替代关系转成福利与政策比较。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "structural estimation",
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "instrumental variable",
+    "equilibrium",
+    "substitution",
+    "outside option",
+    "marginal cost",
+    "market definition",
+    "heterogeneity",
+    "fuel economy"
+  ],
+  "fulltext_headings": [
+    "Contents lists available at ScienceDirect",
+    "International Journal of Industrial",
+    "Organization",
+    "Disentangling sources of vehicle emissions reduction",
+    "Article history:",
+    "Received 18 September 2015",
+    "Revised 3 May 2016",
+    "Accepted 4 May 2016",
+    "Available online 17 May 2016",
+    "D12",
+    "H23",
+    "L62",
+    "Q51",
+    "Keywords:",
+    "Environmental policy",
+    "Consumer preferences",
+    "CO 2 emissions",
+    "Automobiles",
+    "We analyze the evolution of CO 2 emissions of new vehicles sold",
+    "1. Introduction",
+    "In this paper, we study the evolution of carbon dioxide (CO 2 ) emissions of new vehi-",
+    "It is unclear yet whether this growing concern for global warming at the societal level",
+    "A growing economic literature, either based on theory, experiments or natural experi-",
+    "Public policies may also modify the information set of bounded rational consumers, af-"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 2,
+      "snippet": "X. D’Haultfœuille et al. / International Journal of Industrial Organization 47 (2016) 186–229 187 \n1. Introduction \nIn this paper, we study the evolution of carbon dioxide (CO 2 ) emissions of new vehi- \ncles sold in France over the p erio d 2003–2008. We seek to understand the 13% average \ndecrease in new vehicle CO 2 emissions over this p erio d, from 156 g/km in January 2003 \nto 136 g in December 2008. In particular, we investigate how people reacted to two French \nenvironmental policies that aimed at mitigating CO 2 emissions from automobiles. The \nﬁrst is the implementation, at the end of 2005, of a European directive compelling man- \nufacturers to indicate CO 2 emissions by labeling every car. The second is the January \n2008 introduction of a feebate that provides a ﬁnancial reward for low-CO 2 -emitting \nvehicles (less than 130 g/km) and a penalty for those with the highest emission"
+    },
+    "data": {
+      "page": 1,
+      "snippet": "reserved. \n✩ We would like to thank the editor and two anonymous referees for their constructive comments. We \nacknowledge Pierre-Louis Debar and Julien Mollet from the CCFA for providing us with the data. We thank \nSylvain Chabé-Ferret, Pierre Dub ois, Philipp e Gagnepain, Christian Huse, Iris Kesternich, Joshua Linn, \nLaurent Linnemer, Philipp Schmidt-Dengler, Katheline Schubert, Michelle Sovinsky, Hidenori Takahashi, \nFrank Verboven, Naoki Wakamori, Christine Zulehner and participants of various seminars and conferences \nfor their remarks. Isis Durrmeyer acknowledges ﬁnancial support from the Deutsche Forschungsgemeinschaft \nthrough SFB-TR 15. \n∗Corresponding author. Tel.: +49 6211811840. \nE-mail addresses: xavier.dhaultfoeuille@ensae.fr (X. D’Haultfœuille), isis.durrmeyer@gmail.com \n(I. Durrmeyer), philippe.fevrier@ensae.fr (P. Février). \nhttp://dx.doi.org/10.1016/j.ijindorg.2016.05.002 \n0167-7187/ © 2016 Elsevier B.V. All rights reserved."
+    },
+    "model": {
+      "page": 1,
+      "snippet": "o policies introduced during that time: the \nenergy label requirement, which went into eﬀect in the end of \n2005, and a feebate based on CO 2 emissions of new vehicles in \n2008. We estimate a ﬂexible model of demand for automobiles \nthat incorporates consumers’ heterogeneity and valuation of \nvehicle CO 2 emissions. Our results show that there has been \na shift in preferences towards low-emitting cars. Moreover, \nthe timing of these changes is consistent with the introduc- \ntion of the two policies. This suggests that the feebate had a \ncrowding-in eﬀect in addition to its price eﬀect. Overall, the \nchange in preferences accounts for 40% of the overall decrease \nin average CO 2 emissions of new cars in the p erio d. \n© 2016 Elsevier B.V. All rights reserved. \n✩ We would like to thank the editor and two anonymous referees for their constructive comments. We \nacknowledge Pierre-Louis Debar and Julien Mollet from the CCFA for providing us with the data. We thank \nSylvain Chabé-Ferret, Pie"
+    },
+    "results": {
+      "page": 1,
+      "snippet": "ebate based on CO 2 emissions of new vehicles in \n2008. We estimate a ﬂexible model of demand for automobiles \nthat incorporates consumers’ heterogeneity and valuation of \nvehicle CO 2 emissions. Our results show that there has been \na shift in preferences towards low-emitting cars. Moreover, \nthe timing of these changes is consistent with the introduc- \ntion of the two policies. This suggests that the feebate had a \ncrowding-in eﬀect in addition to its price eﬀect. Overall, the \nchange in preferences accounts for 40% of the overall decrease \nin average CO 2 emissions of new cars in the p erio d. \n© 2016 Elsevier B.V. All rights reserved. \n✩ We would like to thank the editor and two anonymous referees for their constructive comments. We \nacknowledge Pierre-Louis Debar and Julien Mollet from the CCFA for providing us with the data. We thank \nSylvain Chabé-Ferret, Pierre Dub ois, Philipp e Gagnepain, Christian Huse, Iris Kesternich, Joshua Linn, \nLaurent Linnemer, Philipp Schmidt-Dengler"
+    },
+    "conclusion": {
+      "page": 31,
+      "snippet": "reased \nby about 50%. Even though other phenomena are probably in play in 2009, these evo- \nlutions suggest that the sharp changes following the introduction of the feebate are not \ntemporary. 22 \n5. Conclusion \nWe have shown evidence that, in the French automobile market, consumers shifted \ntheir preferences for CO 2 emissions between 2003 and 2008. This shift seems to be related \n21 For the sake of comparison, the 2008 ﬁgures include car ﬂeets and some exotic cars that are otherwise \nexcluded from our analysis. \n22 This year indeed corresponds to the peak of the economic crisis. The government also introduced a \nscrapping subsidy of 1,000 euros for cars more than 10 years old that were replaced by vehicles emitting \nless than 160 g/km."
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper decomposes the fall in vehicle emissions in France between 2003 and 2008.",
+      "Which papers are treated as the nearest neighbors: vehicle emissions policy, tax design, and car-demand papers."
+    ],
+    "session": [
+      "Retrieve by key/title: 9HUJHUTJ / Disentangling sources of vehicle emissions reduction in France: 2003–2008",
+      "Use collections and journal handles: Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (D’Haultfoeuille et al., 2016) / D’Haultfoeuille et al. (2016)"
+    ],
+    "agent": [
+      "Research design type: structural decomposition / policy attribution.",
+      "BLP positioning: canonical BLP demand-supply"
+    ],
+    "team": [
+      "Best framing sentence pattern: \"When an outcome moves, the key question is which channel moved it.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

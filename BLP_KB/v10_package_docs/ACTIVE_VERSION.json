@@ -1,0 +1,14 @@
+{
+  "version": "v10",
+  "candidate": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\candidate_v10",
+  "manifest": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\CANDIDATE_V10_MANIFEST.json",
+  "manifest_sha256": "4088b91d283adf9b04ea0fe479c2096659e95719aa7c9f0f1fea2e656356c453",
+  "dependency_root": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\dependencies_v6",
+  "dependency_manifest": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\dependencies_v6\\MANIFEST.json",
+  "dependency_manifest_sha256": "d56e07903ec04c73e04235a3752132020f676a429bd9c9796b11d33d3bb57d8c",
+  "file_count": 22,
+  "dependency_count": 82,
+  "installed_promoted": false,
+  "scope": "General BLP skill and explicit general agent; inherited unchanged V9 science, actual unknown-child runtime repair; all prior failures retained",
+  "utc": "2026-10-08T17:43:39.275703+00:00"
+}

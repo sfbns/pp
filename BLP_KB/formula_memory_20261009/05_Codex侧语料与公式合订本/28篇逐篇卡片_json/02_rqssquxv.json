@@ -1,0 +1,176 @@
+{
+  "rank": 2,
+  "item_key": "RQSSQUXV",
+  "title": "Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry",
+  "authors": [
+    "Philippe Aghion",
+    "Antoine Dechezlepretre",
+    "David Hemous",
+    "Ralf Martin",
+    "John Van Reenen"
+  ],
+  "creators": [
+    {
+      "name": "Philippe Aghion",
+      "type": "author"
+    },
+    {
+      "name": "Antoine Dechezlepretre",
+      "type": "author"
+    },
+    {
+      "name": "David Hemous",
+      "type": "author"
+    },
+    {
+      "name": "Ralf Martin",
+      "type": "author"
+    },
+    {
+      "name": "John Van Reenen",
+      "type": "author"
+    }
+  ],
+  "date": "2016-00-00 2016",
+  "journal": "Journal of Political Economy",
+  "doi": "10.1086/684581",
+  "url": "https://doi.org/10.1086/684581",
+  "collections": [
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21",
+    "Econ Core Empirical 2026-03-20"
+  ],
+  "classification": "BLP-adjacent structural policy model",
+  "apa_citation": {
+    "reference": "Aghion, P., Dechezlepretre, A., Hemous, D., Martin, R., & Reenen, J. V. (2016). Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry. Journal of Political Economy. https://doi.org/10.1086/684581",
+    "parenthetical": "(Aghion et al., 2016)",
+    "narrative": "Aghion et al. (2016)"
+  },
+  "preferred_pdf_rel": "source_pdfs/02_rqssquxv.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "93DUJC48",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:684581.pdf.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\93DUJC48\\684581.pdf.pdf",
+    "exists": true,
+    "size": 1715876
+  },
+  "legacy_note_rel": "raw/notes/02_rqssquxv.md",
+  "legacy_old_memory_rel": "raw/paper_memory/02_rqssquxv.md",
+  "fulltext_json_rel": "raw/fulltext/02_rqssquxv.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/02_rqssquxv.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper studies how carbon taxes affect innovation direction in the auto industry.\n- Its central claim is that higher tax-inclusive fuel prices push firms toward clean technologies and away from dirty ones.\n- The deeper point is that innovation is path dependent: today's tax environment shapes tomorrow's technology mix through spillovers and own-history effects.",
+    "2. Story ladder": "- Real-world tension or puzzle: climate policy is often justified by emissions cuts, but it may also redirect inventive effort.\n- Why the puzzle matters now: if taxes change the innovation frontier, policy effects persist beyond current fuel use.\n- What the literature already explains: environmental regulation can stimulate innovation, but often not which direction it moves.\n- What is still missing or weakly identified: evidence on directed technical change in the auto sector with path dependence.\n- The paper's move: use fuel-price/tax variation to trace clean-versus-dirty innovation responses.\n- Main payoff: carbon pricing can reshape the technology trajectory, not just current behavior.",
+    "3. Model or identification core": "- Research design type: directed-technical-change analysis with empirical variation in fuel taxation.\n- Structural model class or reduced-form design: innovation allocation framework linking price incentives to clean and dirty R&D.\n- Key equations or choice objects: firm innovation effort across technology types.\n- Endogeneity problem: tax-inclusive fuel prices are correlated with policy and market conditions.\n- Identification strategy: exploit observed variation in fuel taxation and its interaction with prior innovation states.\n- What assumptions are doing the heavy lifting: stable mapping from price incentives to innovation direction and path dependence.",
+    "4. Data and measurement": "- Unit of observation: firm/industry innovation outcomes in the auto sector.\n- Market definition: automobile industry, with clean and dirty technologies distinguished.\n- Main dependent variable: innovation in clean versus dirty technologies.\n- Core explanatory variables: tax-inclusive fuel prices, prior innovation stock, and spillover environment.\n- Instruments / moments / shocks: not fully recoverable from OCR; likely policy-driven fuel-price variation.\n- Important sample restrictions: auto-industry focus; precise geography and sample window were not fully clear from OCR.",
+    "5. Findings and mechanisms": "- Baseline result: higher fuel prices induce more clean innovation and less dirty innovation.\n- Mechanism evidence: innovation responses are shaped by aggregate spillovers and firms' own previous specialization.\n- Heterogeneity evidence: the paper emphasizes path dependence, so the response differs by prior innovation history.\n- Welfare or counterfactual result: the main payoff is directional change in the innovation frontier rather than a single welfare number.\n- Limits the authors admit: the paper is about innovation direction, not a complete general-equilibrium welfare accounting.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: directed technical change, climate policy, and auto-innovation papers.\n- What exact gap the authors claim: prior work has not pinned down how carbon taxes reallocate inventive effort across technology types.\n- How the introduction stages novelty: it links fuel taxation to innovation direction through the auto industry.\n- Whether the contribution is data, method, theory, policy, or a combination: theory plus empirical evidence.",
+    "7. Literature review function": "- Where the review sits: in the introduction before the innovation analysis.\n- How the review is organized: climate policy, innovation response, and directed technical change.\n- Which citations do positioning work: directed technical change and environmental innovation studies.\n- Which citations do method-validation work: empirical papers on tax incentives and innovation outcomes.",
+    "8. Writing structure map": "- Introduction move sequence: policy relevance -> innovation channel -> path dependence -> empirical strategy -> result.\n- Section order: motivation, conceptual framework, data, empirical design, results, robustness, conclusion.\n- Where the paper turns from setup to payoff: when it shows clean and dirty innovation moving in opposite directions.\n- How tables/figures are used to move the argument: they likely separate raw innovation patterns from path-dependent effects; OCR was not fully sufficient to map every exhibit.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"Carbon pricing matters not only for emissions, but for the direction of inventive effort.\"\n- Best transition pattern: move from static price effects to dynamic innovation effects.\n- Best contribution sentence pattern: \"We show that tax incentives reallocate innovation across technology families.\"\n- Best limitation or implication move: \"The long-run effect matters because innovation today becomes technology choice tomorrow.\"",
+    "10. Memory update": "- Durable economics-writing principle: policy effects are often stronger when traced through the innovation frontier.\n- Durable structural-model principle: path dependence means current state variables belong in the story, not just current prices.\n- Reusable empirical design idea: study how policy changes split innovation across clean and dirty margins.\n- Follow-up paper to pair with this one: a paper on energy taxes and patenting or vehicle technology adoption."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_rqssquxv_carbon-taxes-path-dependency-and-directed-technical-change-evidence-from-the-auto-industry\ndescription: Fulltext memory for Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry",
+    "Citation": "- Key: `RQSSQUXV`\n- DOI: `10.1086/684581`\n- Journal: Journal of Political Economy\n- Year: 2016\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\RQSSQUXV.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/RQSSQUXV/RQSSQUXV.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/RQSSQUXV.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- Uses global firm-level patent data to show that higher fuel prices redirect automobile innovation toward cleaner technologies and that innovation is strongly path dependent.",
+    "Story Logic": "- 故事起点：Uses global firm-level patent data to show that higher fuel prices redirect automobile innovation toward cleaner technologies and that innovation is strongly path dependent.\n- 制度/市场切口：作者先把制度背景或市场摩擦讲清楚，再把结构模型放进去。\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：Main Results Our main results are shown in table 3.",
+    "BLP Model Memory": "- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: counterfactual\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 论文明确把模型用于税收、补贴、禁令、标签或进入政策的反事实分析。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- Descriptive Statistics\n- Main Results\n- Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry\n- Philippe Aghion\n- INSEAD\n- Ralf Martin\n- John Van Reenen\n- I. Introduction\n- II. Theoretical Predictions\n- III. Econometrics\n- General Approach\n- Symmetrically, we can derive an equation for dirty innovation:",
+    "Reusable Writing Moves": "- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。",
+    "OCR Anchors": "- data: `Descriptive Statistics` (p.21) - Descriptive Statistics Figure 4 shows that aggregate triadic clean and dirty patents have been rising over time. Dirty patents increased steadily between 1978 and 1988, fell temporarily, and then rose again between 1992 and 2000, but they have been decreasing during the last 5 years of our data set.\n- results: `Main Results` (p.23) - Main Results Our main results are shown in table 3. Columns 1-3 use the number of clean patents a flow in a firm as the dependent variable and columns 4- 24 journal of political economy This content downloaded from 128.252.067.066 on July 26, 2016 06:26:35 AM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- The paper studies how carbon taxes affect innovation direction in the auto industry.\n- Its central claim is that higher tax-inclusive fuel prices push firms toward clean technologies and away from dirty ones.\n- The deeper point is that innovation is path dependent: today's tax environment shapes tomorrow's technology mix through spillovers and own-history effects.\n\n- Real-world tension or puzzle: climate policy is often justified by emissions cuts, but it may also redirect inventive effort.\n- Why the puzzle matters now: if taxes change the innovation frontier, policy effects persist beyond current fuel use.\n- What the literature already explains: environmental regulation can stimulate innovation, but often not which direction it moves.\n- What is still missing or weakly identified: evidence on directed technical change in the auto sector with path dependence.\n- The paper's move: use fuel-price/tax variation to trace clean-versus-dirty innovation responses.\n- Main payoff: carbon pricing can reshape the technology trajectory, not just current behavior.\n\n- Research design type: directed-technical-change analysis with empirical variation in fuel taxation.\n- Structural model class or reduced-form design: innovation allocation framework linking price incentives to clean and dirty R&D.\n- Key equations or choice objects: firm innovation effort across technology types.\n- Endogeneity problem: tax-inclusive fuel prices are correlated with policy and market conditions.\n- Identification strategy: exploit observed variation in fuel taxation and its interaction with prior innovation states.\n- What assumptions are doing the heavy lifting: stable mapping from price incentives to innovation direction and path dependence.\n\n- Unit of observation: firm/industry innovation outcomes in the auto sector.\n- Market definition: automobile industry, with clean and dirty technologies distinguished.\n- Main dependent variable: innovation in clean versus dirty technologies.\n- Core explanatory variables: tax-inclusive fuel prices, prior innovation stock, and spillover environment.\n- Instruments / moments / shocks: not fully recoverable from OCR; likely policy-driven fuel-price variation.\n- Important sample restrictions: auto-industry focus; precise geography and sample window were not fully clear from OCR.\n\n- Which papers are treated as the nearest neighbors: directed technical change, climate policy, and auto-innovation papers.\n- What exact gap the authors claim: prior work has not pinned down how carbon taxes reallocate inventive effort across technology types.\n- How the introduction stages novelty: it links fuel taxation to innovation direction through the auto industry.\n- Whether the contribution is data, method, theory, policy, or a combination: theory plus empirical evidence.\n\n- Where the review sits: in the introduction before the innovation analysis.\n- How the review is organized: climate policy, innovation response, and directed technical change.\n- Which citations do positioning work: directed technical change and environmental innovation studies.\n- Which citations do method-validation work: empirical papers on tax incentives and innovation outcomes.",
+  "baseline_core_memory": "- Research design type: directed-technical-change analysis with empirical variation in fuel taxation.\n- Structural model class or reduced-form design: innovation allocation framework linking price incentives to clean and dirty R&D.\n- Key equations or choice objects: firm innovation effort across technology types.\n- Endogeneity problem: tax-inclusive fuel prices are correlated with policy and market conditions.\n- Identification strategy: exploit observed variation in fuel taxation and its interaction with prior innovation states.\n- What assumptions are doing the heavy lifting: stable mapping from price incentives to innovation direction and path dependence.\n\n- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: counterfactual\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性信息没有被 OCR 关键词强烈命中，但从论文主题看，替代关系至少在产品层面而不是代表性消费者层面展开。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 论文明确把模型用于税收、补贴、禁令、标签或进入政策的反事实分析。",
+  "mechanism_memory": "- Baseline result: higher fuel prices induce more clean innovation and less dirty innovation.\n- Mechanism evidence: innovation responses are shaped by aggregate spillovers and firms' own previous specialization.\n- Heterogeneity evidence: the paper emphasizes path dependence, so the response differs by prior innovation history.\n- Welfare or counterfactual result: the main payoff is directional change in the innovation frontier rather than a single welfare number.\n- Limits the authors admit: the paper is about innovation direction, not a complete general-equilibrium welfare accounting.\n\n- 故事起点：Uses global firm-level patent data to show that higher fuel prices redirect automobile innovation toward cleaner technologies and that innovation is strongly path dependent.\n- 制度/市场切口：作者先把制度背景或市场摩擦讲清楚，再把结构模型放进去。\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：Main Results Our main results are shown in table 3.",
+  "result_memory": "- Baseline result: higher fuel prices induce more clean innovation and less dirty innovation.\n- Mechanism evidence: innovation responses are shaped by aggregate spillovers and firms' own previous specialization.\n- Heterogeneity evidence: the paper emphasizes path dependence, so the response differs by prior innovation history.\n- Welfare or counterfactual result: the main payoff is directional change in the innovation frontier rather than a single welfare number.\n- Limits the authors admit: the paper is about innovation direction, not a complete general-equilibrium welfare accounting.\n\n- Results anchor: calibrate a microeconomic model of directed technical change to derive\n- Conclusion anchor: In this paper we have combined several patent data sets to analyze di-",
+  "writing_style_memory": "- Introduction move sequence: policy relevance -> innovation channel -> path dependence -> empirical strategy -> result.\n- Section order: motivation, conceptual framework, data, empirical design, results, robustness, conclusion.\n- Where the paper turns from setup to payoff: when it shows clean and dirty innovation moving in opposite directions.\n- How tables/figures are used to move the argument: they likely separate raw innovation patterns from path-dependent effects; OCR was not fully sufficient to map every exhibit.\n\n- Best framing sentence pattern: \"Carbon pricing matters not only for emissions, but for the direction of inventive effort.\"\n- Best transition pattern: move from static price effects to dynamic innovation effects.\n- Best contribution sentence pattern: \"We show that tax incentives reallocate innovation across technology families.\"\n- Best limitation or implication move: \"The long-run effect matters because innovation today becomes technology choice tomorrow.\"\n\n- Durable economics-writing principle: policy effects are often stronger when traced through the innovation frontier.\n- Durable structural-model principle: path dependence means current state variables belong in the story, not just current prices.\n- Reusable empirical design idea: study how policy changes split innovation across clean and dirty margins.\n- Follow-up paper to pair with this one: a paper on energy taxes and patenting or vehicle technology adoption.\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- Descriptive Statistics\n- Main Results\n- Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry\n- Philippe Aghion\n- INSEAD\n- Ralf Martin\n- John Van Reenen\n- I. Introduction\n- II. Theoretical Predictions\n- III. Econometrics\n- General Approach\n- Symmetrically, we can derive an equation for dirty innovation:\n\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "gmm",
+    "equilibrium",
+    "substitution",
+    "market definition",
+    "heterogeneity",
+    "fuel economy"
+  ],
+  "fulltext_headings": [
+    "Carbon Taxes, Path Dependency, and Directed",
+    "Technical Change: Evidence from the",
+    "Auto Industry",
+    "Philippe Aghion",
+    "Harvard University, National Bureau of Economic Research, and Canadian Institute",
+    "Grantham Research Institute and Centre for Economic Performance, London School of Economics",
+    "INSEAD",
+    "Ralf Martin",
+    "Imperial College, Grantham Institute, and Centre for Economic Performance,",
+    "London School of Economics",
+    "John Van Reenen",
+    "Centre for Economic Performance, London School of Economics, and National Bureau",
+    "We would like to thank the editor, two anonymous referees, Daron Acemoglu, Robin",
+    "Burgess, Michael Greenstone, John Hassler, Rebecca Henderson, Ken Judd, Per Krusell,",
+    "Electronically published January 5, 2016",
+    "Introduction",
+    "1 We do not consider radical innovations in upstream industries such as biofuels, for in-",
+    "Ed Lazear, Torsten Persson, David Popp, Esteban Rossi-Hansberg, Nick Stern, and Scott",
+    "Research, Paris, Stanford, Stirling, Stockholm, and Venice have all contributed to improv-",
+    "Social Research Council through the Centre for Economic Performance and the Centre",
+    "We contribute to this literature by focusing on the role of innovation in",
+    "We also connect with work on directed technical change, in particular,",
+    "Finally, we draw on the extensive literature in industrial organization",
+    "5 Further evidence of directed technical change in the context of energy saving can be"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 1,
+      "snippet": "Carbon Taxes, Path Dependency, and Directed\nTechnical Change: Evidence from the\nAuto Industry\nPhilippe Aghion\nHarvard University, National Bureau of Economic Research, and Canadian Institute\nfor Advanced Research\nAntoine Dechezlepreˆtre\nGrantham Research Institute and Centre for Economic Performance, London School of Economics\nDavid He´mous\nINSEAD\nRalf Martin\nImperial College, Grantham Institute, and Centre for Economic Performance,\nLondon School of Economics\nJohn Van Reenen\nCentre for Economic Performance, London School of Economics, and National Bureau\nof Economic Research\nCan directed technical change be used to combat climate change? We\nconstruct new ﬁrm-level panel data on auto industry innovation distin-\nguishing between “dirty” ðinternal combustion engineÞ and “clean”\nðe.g., electric, hybrid, and hydrogenÞ patents across 80 countries over\nWe would like to thank the"
+    },
+    "data": {
+      "page": 1,
+      "snippet": "Centre for Economic Performance, London School of Economics, and National Bureau\nof Economic Research\nCan directed technical change be used to combat climate change? We\nconstruct new ﬁrm-level panel data on auto industry innovation distin-\nguishing between “dirty” ðinternal combustion engineÞ and “clean”\nðe.g., electric, hybrid, and hydrogenÞ patents across 80 countries over\nWe would like to thank the editor, two anonymous referees, Daron Acemoglu, Robin\nBurgess, Michael Greenstone, John Hassler, Rebecca Henderson, Ken Judd, Per Krusell,\nElectronically published January 5, 2016\n[ Journal of Political Economy, 2016, vol. 124, no. 1]\n© 2016 by The University of Chicago. All rights reserved. 0022-3808/2016/12401-0004$10.00\n1\nThis content downloaded from 128.252.067.066 on July 26, 2016 06:26:35 AM\nAll use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c)."
+    },
+    "model": {
+      "page": 3,
+      "snippet": "vate too much in dirty technologies compared\nto the social optimum. This in turn calls for government intervention to “redirect” tech-\nnical change.\n3 Nordhaus ð1994Þ developed a dynamic Ramsey-based model of climate change ðthe\ndynamic integrated climate-economy[DICE]modelÞ, which added equations linking pro-\nduction to emissions. Subsequent contributions have notably examined the implications of\nrisk and discounting for the optimal design of environmental policy. In particular, see Stern\nð2006Þ, Nordhaus ð2007Þ, Weitzman ð2007, 2009Þ, Dasgupta ð2008Þ, Mendelsohn et al. ð2008Þ,\nvon Below and Persson ð2008Þ, and Yohe, Tol, and Anthoff ð2009Þ. Recently, Golosov et al.\nð2014Þ have extended this literature by solving for the optimal policy in a full dynamic stochas-\ntic general equilibrium framework.\ncarbon taxes, path dependency\n3\nThis content downloaded from 128.252.067.066 on July 26, 2016 06:26:35 AM\nAll use subject to University of Chicago Press Terms and Conditions (http://www.journ"
+    },
+    "results": {
+      "page": 4,
+      "snippet": "this issueÞ\ncalibrate a microeconomic model of directed technical change to derive\nquantitative estimates of the optimal climate change policy. The focus of\nour work is more empirical, but we use our results to perform a related\nexercise: we simulate the aggregate evolution of future clean and dirty\nknowledge stocks and analyze how this evolution would be affected by\nchanges in carbon taxes.\nFinally, we draw on the extensive literature in industrial organization\nthat estimates the demand for vehicles ðenergy-efﬁcient and otherwiseÞ\nas a function of fuel prices and other factors.6 We go beyond this work by\nlooking at the rate and direction of innovation.\nThe paper is organized as follows. Section II develops a simple model\nto guide our empirical analysis and Section III presents the econometric\nmethodology. The data are presented in Section IV with some descrip-\nð2004Þ, Gerlagh ð2008Þ, Gerlagh, Kverndokk, and Rosendahl ð2009Þ, and Gans ð2012Þ. In\ncontrast, empirical work on directed tec"
+    },
+    "conclusion": {
+      "page": 47,
+      "snippet": "VII.\nConclusion\nIn this paper we have combined several patent data sets to analyze di-\nrected technical change in the auto sector, which is a key industry of con-\ncern for climate change. We use patenting data from 3,412 ﬁrms and in-\ndividuals between 1965 and 2005 across 80 patent ofﬁces. We exploit the\nfact that tax-inclusive fuel prices ðour proxy for a carbon taxÞ evolve dif-\nferentially over time across countries in our data set and that ﬁrms are\ndifferentially exposed to these price changes because of their heteroge-\nneous market positions in different geographic markets. Consistent with\nour theoretical predictions, we ﬁnd that clean innovation is stimulated\nby increases in the fuel prices whereas dirty innovation is depressed.\nOur second key result is that there is strong evidence for “p"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper studies how carbon taxes affect innovation direction in the auto industry.",
+      "Which papers are treated as the nearest neighbors: directed technical change, climate policy, and auto-innovation papers."
+    ],
+    "session": [
+      "Retrieve by key/title: RQSSQUXV / Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry",
+      "Use collections and journal handles: Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21, Econ Core Empirical 2026-03-20",
+      "Preferred in-text citation handle: (Aghion et al., 2016) / Aghion et al. (2016)"
+    ],
+    "agent": [
+      "Research design type: directed-technical-change analysis with empirical variation in fuel taxation.",
+      "BLP positioning: BLP-adjacent structural policy model"
+    ],
+    "team": [
+      "Best framing sentence pattern: \"Carbon pricing matters not only for emissions, but for the direction of inventive effort.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

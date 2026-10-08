@@ -1,0 +1,790 @@
+{
+  "schema": "enumerated-dependency-snapshot-v6",
+  "created_at_utc": "2026-10-08T15:52:21.158360+00:00",
+  "complete": true,
+  "missing": [],
+  "scope": "Pre-registered bounded routing and technical dependencies, not entire library, all transitive paper cards, OS or external corpus.",
+  "source_run": {
+    "path": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\behavior\\modified_v2\\RUN.json",
+    "sha256": "a75b52d6205f45821659d7bc14b6e3bdafd67487b596141eccd2352dd4d83731",
+    "fields_used": [
+      "file_reads.path",
+      "file_reads.source_kind",
+      "file_reads.sha256"
+    ]
+  },
+  "corrected_instruction": {
+    "original_requested_path": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\corpus_cards.md",
+    "observed_missing": true,
+    "classification": "current delegation path mistake, not a verified dead link in the old skill",
+    "correction": "parent explicitly replaced this request with five existing original.pdf sibling reading_memory.md cards; old project not modified"
+  },
+  "completion_boundary": "Binary copy identity only. Existing reading/completion records are preserved as data, not newly reproduced or certified.",
+  "files": [
+    {
+      "path": "REGISTERED_READ_MAP.json",
+      "sha256": "547e645477af46bcff431d8ef26b7d0bc6a07c7f3421def8c4487fb8e9ebb0aa",
+      "bytes": 13305,
+      "source_path": null,
+      "scope": "generated exact source map"
+    },
+    {
+      "path": "baseline_R6/agents/blp-project-professor.toml",
+      "sha256": "57780ccb859765d37d0b5749c6f2144b754eba516de9da79c1f977f689cb7c70",
+      "bytes": 1585,
+      "source_path": "D:\\codex\\.codex-home\\agents\\blp-project-professor.toml",
+      "copy_verified": true,
+      "scope": "unchanged R6 original control identity, not v6 native loading proof"
+    },
+    {
+      "path": "baseline_R6/skills/blp-project-professor/SKILL.md",
+      "sha256": "d589c33d6c41796cb3a36e5b8618b67fae9d619906eb3446241236d9ec30f4c3",
+      "bytes": 2357,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-project-professor\\SKILL.md",
+      "copy_verified": true,
+      "scope": "unchanged R6 original control identity, not v6 native loading proof"
+    },
+    {
+      "path": "baseline_R6/skills/blp-project-professor/agents/openai.yaml",
+      "sha256": "f6d4d5cdff1f75faae9169276eec744e8522cd95e48d0849daf51596bae52180",
+      "bytes": 319,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-project-professor\\agents\\openai.yaml",
+      "copy_verified": true,
+      "scope": "unchanged R6 original control identity, not v6 native loading proof"
+    },
+    {
+      "path": "baseline_R6/skills/blp-project-professor/references/agent-contract.md",
+      "sha256": "24d5efbd275d30ed35d4b516ff2e82a183a36b7fc0a165b66658c242a7a4e691",
+      "bytes": 1296,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-project-professor\\references\\agent-contract.md",
+      "copy_verified": true,
+      "scope": "unchanged R6 original control identity, not v6 native loading proof"
+    },
+    {
+      "path": "baseline_R6/skills/blp-project-professor/references/five-paper-kernel.md",
+      "sha256": "edf493ddb591810b9895c8edbad913bcac303b05e1bc02509368c5d5c26fe4c5",
+      "bytes": 4160,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-project-professor\\references\\five-paper-kernel.md",
+      "copy_verified": true,
+      "scope": "unchanged R6 original control identity, not v6 native loading proof"
+    },
+    {
+      "path": "baseline_R6/skills/blp-project-professor/references/project-router.md",
+      "sha256": "23729f50aa18a1cef326d285fd207fcd9716a13952eef3a9058463147b5f31fa",
+      "bytes": 1086,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-project-professor\\references\\project-router.md",
+      "copy_verified": true,
+      "scope": "unchanged R6 original control identity, not v6 native loading proof"
+    },
+    {
+      "path": "bridge/INDEX.md",
+      "sha256": "4164a8dff1637947c737fab7ed408b4cbb44a0ee9018c94c64dac16c7bf0bca9",
+      "bytes": 2184,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\INDEX.md",
+      "source_sha256": "4164a8dff1637947c737fab7ed408b4cbb44a0ee9018c94c64dac16c7bf0bca9",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/QUESTION_PROTOCOL.md",
+      "sha256": "8fea004273c008d34ce3eec392ee1564441f81a16852ff214f245fe8083bc1e7",
+      "bytes": 4021,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\QUESTION_PROTOCOL.md",
+      "source_sha256": "8fea004273c008d34ce3eec392ee1564441f81a16852ff214f245fe8083bc1e7",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/README.md",
+      "sha256": "3787624475159254dfff0b245712d41719bb4486e62f9b8c44a4e7060094a21b",
+      "bytes": 923,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\README.md",
+      "source_sha256": "3787624475159254dfff0b245712d41719bb4486e62f9b8c44a4e7060094a21b",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/blp_professor.md",
+      "sha256": "403251b35676f1a66bf3bc011c6aeff50637640074008aa6e0a133bddb834a91",
+      "bytes": 20061,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\blp_professor.md",
+      "source_sha256": "403251b35676f1a66bf3bc011c6aeff50637640074008aa6e0a133bddb834a91",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/economic_foundations_professor.md",
+      "sha256": "cf859e69bf83817a75a446206342c8ed5fb9e5b43bf60a55817fe7f0111809e1",
+      "bytes": 17427,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\economic_foundations_professor.md",
+      "source_sha256": "cf859e69bf83817a75a446206342c8ed5fb9e5b43bf60a55817fe7f0111809e1",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/economics_theory_agent.md",
+      "sha256": "c252019346fa409d111af40befeaba753b42f0d098867ea5ea33c02b0359b43f",
+      "bytes": 19057,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\economics_theory_agent.md",
+      "source_sha256": "c252019346fa409d111af40befeaba753b42f0d098867ea5ea33c02b0359b43f",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/formal_model_designer.md",
+      "sha256": "077ef0552cbc43f5e86630eb6c651b7f0fed31f05c2eced7a0ee2f70fe178cab",
+      "bytes": 15678,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\formal_model_designer.md",
+      "source_sha256": "077ef0552cbc43f5e86630eb6c651b7f0fed31f05c2eced7a0ee2f70fe178cab",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/hypothesis_packager.md",
+      "sha256": "2b1279c6a64e305895729ca61c7861d3a5a5613a0d9e380c37a8ecd56f333b5e",
+      "bytes": 23518,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\hypothesis_packager.md",
+      "source_sha256": "2b1279c6a64e305895729ca61c7861d3a5a5613a0d9e380c37a8ecd56f333b5e",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/idea_generator.md",
+      "sha256": "f564f71c48f252c4ed070305b46db5d374676ee65bf457ff6f6859d97071f5fe",
+      "bytes": 14880,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\idea_generator.md",
+      "source_sha256": "f564f71c48f252c4ed070305b46db5d374676ee65bf457ff6f6859d97071f5fe",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/identification_referee.md",
+      "sha256": "a39539150e4fd7c1f00989607fb8a85f8ce407643fdda4e6d25709980918e69c",
+      "bytes": 21186,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\identification_referee.md",
+      "source_sha256": "a39539150e4fd7c1f00989607fb8a85f8ce407643fdda4e6d25709980918e69c",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/literature_scout.md",
+      "sha256": "f65496ee24b4a9d96a658bd83853ef2c47724591254d3ff880b4667c7c04cad1",
+      "bytes": 14732,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\literature_scout.md",
+      "source_sha256": "f65496ee24b4a9d96a658bd83853ef2c47724591254d3ff880b4667c7c04cad1",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/policy_background_professor.md",
+      "sha256": "09bb9278fe82ba2d339a5cdcb0213503333525c0591ff053663bcfb39a9707b1",
+      "bytes": 14403,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\policy_background_professor.md",
+      "source_sha256": "09bb9278fe82ba2d339a5cdcb0213503333525c0591ff053663bcfb39a9707b1",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/structural_professor.md",
+      "sha256": "286245151ac3ed987c9e3236eaa76f62cf2e2b409d4b0e188e2a684f16f824ca",
+      "bytes": 16722,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\structural_professor.md",
+      "source_sha256": "286245151ac3ed987c9e3236eaa76f62cf2e2b409d4b0e188e2a684f16f824ca",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/theory_professor_1.md",
+      "sha256": "123a05e2e8a87c0dc20cb9715c27a9bee05984319e724164b64a233c50875c7a",
+      "bytes": 17418,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\theory_professor_1.md",
+      "source_sha256": "123a05e2e8a87c0dc20cb9715c27a9bee05984319e724164b64a233c50875c7a",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/theory_professor_2.md",
+      "sha256": "105facdb1ee2ef82958f8e828eb72ba4fe3beccb915333a4ffa27d5738b4e91f",
+      "bytes": 18470,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\theory_professor_2.md",
+      "source_sha256": "105facdb1ee2ef82958f8e828eb72ba4fe3beccb915333a4ffa27d5738b4e91f",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/agent_memories/writing_integrator.md",
+      "sha256": "4eb28b25e491e4350379644077710b89d7a1a6344809846e85b9145b4368b7da",
+      "bytes": 15478,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\agent_memories\\writing_integrator.md",
+      "source_sha256": "4eb28b25e491e4350379644077710b89d7a1a6344809846e85b9145b4368b7da",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "bridge/selection_manifest.csv",
+      "sha256": "d97cb138a73fae130b45a7c1077291df41c72ef624de70991577bd2b74b6c812",
+      "bytes": 36702,
+      "source_path": "D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\08_hypothesis_packaging_45\\selection_manifest.csv",
+      "source_sha256": "d97cb138a73fae130b45a7c1077291df41c72ef624de70991577bd2b74b6c812",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "five_papers/R01_GRV2018/original.pdf",
+      "sha256": "5d729774cbe07f5281ed09097caf3f224be24a2260417e766d8d361b5e8670df",
+      "bytes": 671749,
+      "source_path": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R01_GRV2018\\original.pdf",
+      "source_sha256": "5d729774cbe07f5281ed09097caf3f224be24a2260417e766d8d361b5e8670df",
+      "source_bytes": 671749,
+      "copy_verified": true,
+      "scope": "existing original PDF bytes; no new full-text reading claim"
+    },
+    {
+      "path": "five_papers/R01_GRV2018/reading_memory.md",
+      "sha256": "829089b48a2188fabbe70624a3f41ecf8c02e9e582a29493638d1b7b11d1ce26",
+      "bytes": 20801,
+      "source_path": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R01_GRV2018\\reading_memory.md",
+      "source_sha256": "829089b48a2188fabbe70624a3f41ecf8c02e9e582a29493638d1b7b11d1ce26",
+      "source_bytes": 20801,
+      "copy_verified": true,
+      "scope": "existing sibling reading card bytes; no new full-text reading or completion certification"
+    },
+    {
+      "path": "five_papers/R02_Reynaert_Sallee2021/original.pdf",
+      "sha256": "f478a23b703d83345eb2a90c7db10961bff7499c8332584e559faf08a7e72a68",
+      "bytes": 889304,
+      "source_path": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R02_Reynaert_Sallee2021\\original.pdf",
+      "source_sha256": "f478a23b703d83345eb2a90c7db10961bff7499c8332584e559faf08a7e72a68",
+      "source_bytes": 889304,
+      "copy_verified": true,
+      "scope": "existing original PDF bytes; no new full-text reading claim"
+    },
+    {
+      "path": "five_papers/R02_Reynaert_Sallee2021/reading_memory.md",
+      "sha256": "40c85f83c008bd86ebeeef6b8fa18df2257b4397506d09f7dec1931bccdcb9f1",
+      "bytes": 27490,
+      "source_path": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R02_Reynaert_Sallee2021\\reading_memory.md",
+      "source_sha256": "40c85f83c008bd86ebeeef6b8fa18df2257b4397506d09f7dec1931bccdcb9f1",
+      "source_bytes": 27490,
+      "copy_verified": true,
+      "scope": "existing sibling reading card bytes; no new full-text reading or completion certification"
+    },
+    {
+      "path": "five_papers/R03_Barwick_Kwon_Li2024/original.pdf",
+      "sha256": "c686cef999c93da89ee031f4f8aa2ea6d417aaac05ea481eb29cddb174d1c0ab",
+      "bytes": 812709,
+      "source_path": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R03_Barwick_Kwon_Li2024\\original.pdf",
+      "source_sha256": "c686cef999c93da89ee031f4f8aa2ea6d417aaac05ea481eb29cddb174d1c0ab",
+      "source_bytes": 812709,
+      "copy_verified": true,
+      "scope": "existing original PDF bytes; no new full-text reading claim"
+    },
+    {
+      "path": "five_papers/R03_Barwick_Kwon_Li2024/reading_memory.md",
+      "sha256": "8eb94d5f5e870ca6cdce1d22e87d87a5371478f38b8121bd9a3f47e9101fd080",
+      "bytes": 11433,
+      "source_path": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R03_Barwick_Kwon_Li2024\\reading_memory.md",
+      "source_sha256": "8eb94d5f5e870ca6cdce1d22e87d87a5371478f38b8121bd9a3f47e9101fd080",
+      "source_bytes": 11433,
+      "copy_verified": true,
+      "scope": "existing sibling reading card bytes; no new full-text reading or completion certification"
+    },
+    {
+      "path": "five_papers/R04_Xing_Leard_Li2021/original.pdf",
+      "sha256": "174d8650af63a6abc25f97195c7697d2b42793838fe84210220dd236ad06dcc7",
+      "bytes": 2435899,
+      "source_path": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R04_Xing_Leard_Li2021\\original.pdf",
+      "source_sha256": "174d8650af63a6abc25f97195c7697d2b42793838fe84210220dd236ad06dcc7",
+      "source_bytes": 2435899,
+      "copy_verified": true,
+      "scope": "existing original PDF bytes; no new full-text reading claim"
+    },
+    {
+      "path": "five_papers/R04_Xing_Leard_Li2021/reading_memory.md",
+      "sha256": "3649735702baa3a95c3dfc6d0c690d7d0dc01894b544adcb45c273446ba59a99",
+      "bytes": 25258,
+      "source_path": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R04_Xing_Leard_Li2021\\reading_memory.md",
+      "source_sha256": "3649735702baa3a95c3dfc6d0c690d7d0dc01894b544adcb45c273446ba59a99",
+      "source_bytes": 25258,
+      "copy_verified": true,
+      "scope": "existing sibling reading card bytes; no new full-text reading or completion certification"
+    },
+    {
+      "path": "five_papers/R05_Barwick_et_al2025/original.pdf",
+      "sha256": "a96d97d3af0c120087505b699b6c5ccdb11c8d5dbb924611a1dca3ee174b9a3f",
+      "bytes": 3116019,
+      "source_path": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R05_Barwick_et_al2025\\original.pdf",
+      "source_sha256": "a96d97d3af0c120087505b699b6c5ccdb11c8d5dbb924611a1dca3ee174b9a3f",
+      "source_bytes": 3116019,
+      "copy_verified": true,
+      "scope": "existing original PDF bytes; no new full-text reading claim"
+    },
+    {
+      "path": "five_papers/R05_Barwick_et_al2025/reading_memory.md",
+      "sha256": "2cdd51b4bb046d81706abe33506278f7148b6cb5b2587d92959622c8fcca57d7",
+      "bytes": 14234,
+      "source_path": "D:\\codex\\output\\blp_bundle_20261007\\package\\02_five_BLP_recommendations\\R05_Barwick_et_al2025\\reading_memory.md",
+      "source_sha256": "2cdd51b4bb046d81706abe33506278f7148b6cb5b2587d92959622c8fcca57d7",
+      "source_bytes": 14234,
+      "copy_verified": true,
+      "scope": "existing sibling reading card bytes; no new full-text reading or completion certification"
+    },
+    {
+      "path": "integration/memos/blp_derivations.md",
+      "sha256": "da1fa67241eb55807162f5b5488ec68f4f6f3984f5d847a6e805d3edec98d555",
+      "bytes": 37873,
+      "source_path": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\blp_derivations.md",
+      "source_sha256": "da1fa67241eb55807162f5b5488ec68f4f6f3984f5d847a6e805d3edec98d555",
+      "source_bytes": 37873,
+      "copy_verified": true,
+      "scope": "existing integration evidence; not reread or newly certified"
+    },
+    {
+      "path": "integration/source_ledger.json",
+      "sha256": "f3e64f0f65fe901d6560593b143cb518c0e66d3b132b395d6ad76b1b6a295837",
+      "bytes": 54934,
+      "source_path": "D:\\codex\\output\\blp_skill_integration_20261008\\source_ledger.json",
+      "source_sha256": "f3e64f0f65fe901d6560593b143cb518c0e66d3b132b395d6ad76b1b6a295837",
+      "source_bytes": 54934,
+      "copy_verified": true,
+      "scope": "existing integration evidence; not reread or newly certified"
+    },
+    {
+      "path": "project/00_DURABLE_TASK_BRIEF.md",
+      "sha256": "cecc94ac08881f80bf73ee501d93cba4c8cb03fe3441cae57854565146085efb",
+      "bytes": 5579,
+      "source_path": "D:\\codex\\output\\blp_driving_cycle_structural_research_20260824\\00_DURABLE_TASK_BRIEF.md",
+      "source_sha256": "cecc94ac08881f80bf73ee501d93cba4c8cb03fe3441cae57854565146085efb",
+      "source_bytes": 5579,
+      "copy_verified": true,
+      "scope": "byte identity snapshot before v4 generation; no new literature fulltext-completion claim"
+    },
+    {
+      "path": "project/BLP研究框架与完整推导.md",
+      "sha256": "f3ba3f28042ae48d67d1c3d08757056d9134f56595f9535b306fc5611973bdec",
+      "bytes": 39446,
+      "source_path": "D:\\codex\\output\\blp_skill_integration_20261008\\BLP研究框架与完整推导.md",
+      "source_sha256": "f3ba3f28042ae48d67d1c3d08757056d9134f56595f9535b306fc5611973bdec",
+      "source_bytes": 39446,
+      "copy_verified": true,
+      "scope": "byte identity snapshot before v4 generation; no new literature fulltext-completion claim"
+    },
+    {
+      "path": "project/Claude建议_原始附件.txt",
+      "sha256": "97f7f5f81cc750f4294df7a6e38b98ea62b4d120cfd4b80e533b1856426c9ed4",
+      "bytes": 24045,
+      "source_path": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\Claude建议_原始附件.txt",
+      "source_sha256": "97f7f5f81cc750f4294df7a6e38b98ea62b4d120cfd4b80e533b1856426c9ed4",
+      "source_bytes": 24045,
+      "copy_verified": true,
+      "scope": "byte identity snapshot before v4 generation; no new literature fulltext-completion claim"
+    },
+    {
+      "path": "project/fuel_econ_MEMORY_MAP.md",
+      "sha256": "c4b0e20a99797b658d44b7ae88c50f65cf48a4d1260726770e7822a4916341e0",
+      "bytes": 5238,
+      "source_path": "D:\\codex\\research-memory\\fuel_econ_lit_2026_refresh_20260920\\MEMORY_MAP.md",
+      "source_sha256": "c4b0e20a99797b658d44b7ae88c50f65cf48a4d1260726770e7822a4916341e0",
+      "source_bytes": 5238,
+      "copy_verified": true,
+      "scope": "byte identity snapshot before v4 generation; no new literature fulltext-completion claim"
+    },
+    {
+      "path": "project/national_model_sales_identification_memory.md",
+      "sha256": "911f1f4b27c22f065295887630662be374dc42592d27894b3b48fbcf43e0c670",
+      "bytes": 54321,
+      "source_path": "D:\\codex\\output\\blp_driving_cycle_data_constrained_design_20260825\\national_model_sales_identification_memory.md",
+      "source_sha256": "911f1f4b27c22f065295887630662be374dc42592d27894b3b48fbcf43e0c670",
+      "source_bytes": 54321,
+      "copy_verified": true,
+      "scope": "byte identity snapshot before v4 generation; no new literature fulltext-completion claim"
+    },
+    {
+      "path": "project/sources_inputs_audit.md",
+      "sha256": "08abd78dad0dc458e7e3b369857073a1e46133a4096bfea33036cf1bce8c8bd8",
+      "bytes": 22187,
+      "source_path": "D:\\codex\\output\\blp_skill_integration_20261008\\memos\\sources_inputs_audit.md",
+      "source_sha256": "08abd78dad0dc458e7e3b369857073a1e46133a4096bfea33036cf1bce8c8bd8",
+      "source_bytes": 22187,
+      "copy_verified": true,
+      "scope": "byte identity snapshot before v4 generation; no new literature fulltext-completion claim"
+    },
+    {
+      "path": "routing/economics-expert-reviewer/SKILL.md",
+      "sha256": "6f3ad76ba3bcdbd78c77be43ba731093d48c7ce6d6cb35f22f7ff6bebd6ede88",
+      "bytes": 7595,
+      "source_path": "D:\\codex\\.codex-home\\skills\\economics-expert-reviewer\\SKILL.md",
+      "source_sha256": "6f3ad76ba3bcdbd78c77be43ba731093d48c7ce6d6cb35f22f7ff6bebd6ede88",
+      "source_bytes": 7595,
+      "copy_verified": true,
+      "scope": "byte identity snapshot before v4 generation; no new literature fulltext-completion claim"
+    },
+    {
+      "path": "routing/economics-expert-reviewer/references/evidence-boundaries.md",
+      "sha256": "3d964e600cfb787b07824ce552e6eaba45e2b6ad4b5637d14a87e5e9731da443",
+      "bytes": 2193,
+      "source_path": "D:\\codex\\.codex-home\\skills\\economics-expert-reviewer\\references\\evidence-boundaries.md",
+      "source_sha256": "3d964e600cfb787b07824ce552e6eaba45e2b6ad4b5637d14a87e5e9731da443",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "routing/economics-expert-reviewer/references/results-discussion-conclusion-audit.md",
+      "sha256": "cb1c84e1f5ba554bbe549ca449f4ca0d0506229f9cf4374289c44dfc78ac5e0d",
+      "bytes": 1766,
+      "source_path": "D:\\codex\\.codex-home\\skills\\economics-expert-reviewer\\references\\results-discussion-conclusion-audit.md",
+      "source_sha256": "cb1c84e1f5ba554bbe549ca449f4ca0d0506229f9cf4374289c44dfc78ac5e0d",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "routing/economics-expert-reviewer/references/review-standard.md",
+      "sha256": "f193dc1993bc2cfc04a6dbc52c1aceb23b658413f84b4552f5583f021c5c3a70",
+      "bytes": 1641,
+      "source_path": "D:\\codex\\.codex-home\\skills\\economics-expert-reviewer\\references\\review-standard.md",
+      "source_sha256": "f193dc1993bc2cfc04a6dbc52c1aceb23b658413f84b4552f5583f021c5c3a70",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "routing/economics-expert-reviewer/references/source-routing.md",
+      "sha256": "060f98b52df88512b388fba5a7a4d885800d7536b94cd07f2ed6d6fc15801b9f",
+      "bytes": 2458,
+      "source_path": "D:\\codex\\.codex-home\\skills\\economics-expert-reviewer\\references\\source-routing.md",
+      "source_sha256": "060f98b52df88512b388fba5a7a4d885800d7536b94cd07f2ed6d6fc15801b9f",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "routing/economics-expert-reviewer/references/top-journal-research-protocol.md",
+      "sha256": "de8b5587d93ab8ebcb9499e81836f0ea930e0ab907ac8e5dc95836f9eef66b20",
+      "bytes": 8057,
+      "source_path": "D:\\codex\\.codex-home\\skills\\economics-expert-reviewer\\references\\top-journal-research-protocol.md",
+      "source_sha256": "de8b5587d93ab8ebcb9499e81836f0ea930e0ab907ac8e5dc95836f9eef66b20",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "routing/economics-expert-reviewer/scripts/find_top_journal_memory.py",
+      "sha256": "58c67c5479dea72afb8c03d762f321a851c5a592e770eaa8990c4911cafe5081",
+      "bytes": 6132,
+      "source_path": "D:\\codex\\.codex-home\\skills\\economics-expert-reviewer\\scripts\\find_top_journal_memory.py",
+      "source_sha256": "58c67c5479dea72afb8c03d762f321a851c5a592e770eaa8990c4911cafe5081",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "routing/search_indexes/aej_card_index.json",
+      "sha256": "f451acdd3987ff1cea9d93e81d63fdacd9ff37ee9a373b8ba03b4ff6714cfe2d",
+      "bytes": 224102,
+      "source_path": "D:\\codex\\research-memory\\deep-reading\\aej_full_ocr_20260406\\cards\\second_pass_cards_index_001_107.json",
+      "source_sha256": "f451acdd3987ff1cea9d93e81d63fdacd9ff37ee9a373b8ba03b4ff6714cfe2d",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "routing/search_indexes/aer_card_index.json",
+      "sha256": "bff82b875e2bc4bd28840456370723ed327a758d970a83836fe3a2b0063c1fed",
+      "bytes": 131411,
+      "source_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\cards\\themes\\thematic_clusters_index_001_100.json",
+      "source_sha256": "bff82b875e2bc4bd28840456370723ed327a758d970a83836fe3a2b0063c1fed",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "routing/search_indexes/aer_manifest.json",
+      "sha256": "d53c99f482d6277b31554b6c8f7f5616b151cd43639d75fd756d44136af293c8",
+      "bytes": 138055,
+      "source_path": "D:\\codex\\research-memory\\deep-reading\\aer_full_ocr_20260407\\third_pass_agent_memory_20260608\\indexes\\paper_memory_manifest.json",
+      "source_sha256": "d53c99f482d6277b31554b6c8f7f5616b151cd43639d75fd756d44136af293c8",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "routing/skill-creator/SKILL.md",
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "bytes": 15540,
+      "source_path": "D:\\codex\\.codex-home\\skills\\.system\\skill-creator\\SKILL.md",
+      "source_sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "source_bytes": 15540,
+      "copy_verified": true,
+      "scope": "byte identity snapshot before v4 generation; no new literature fulltext-completion claim"
+    },
+    {
+      "path": "routing/top-journal-hypothesis-packaging/SKILL.md",
+      "sha256": "b7021c3e0e9b73ea0316062a2ec78cb2d8d074f6b5673f38c6766e459604575d",
+      "bytes": 5638,
+      "source_path": "D:\\codex\\.codex-home\\skills\\top-journal-hypothesis-packaging\\SKILL.md",
+      "source_sha256": "b7021c3e0e9b73ea0316062a2ec78cb2d8d074f6b5673f38c6766e459604575d",
+      "source_bytes": 5638,
+      "copy_verified": true,
+      "scope": "byte identity snapshot before v4 generation; no new literature fulltext-completion claim"
+    },
+    {
+      "path": "routing/top-journal-hypothesis-packaging/references/orchestration-contract.md",
+      "sha256": "07d5c2297d9f9ad2bea2003db0f45d535d68d217453eb8532435b8add9a7534c",
+      "bytes": 3013,
+      "source_path": "D:\\codex\\.codex-home\\skills\\top-journal-hypothesis-packaging\\references\\orchestration-contract.md",
+      "source_sha256": "07d5c2297d9f9ad2bea2003db0f45d535d68d217453eb8532435b8add9a7534c",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/SKILL.md",
+      "sha256": "50cdcb50b547b3ac3a1ec966972e6f54bf4272e21658a0ecab3f44b35078bd6f",
+      "bytes": 14684,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\SKILL.md",
+      "source_sha256": "50cdcb50b547b3ac3a1ec966972e6f54bf4272e21658a0ecab3f44b35078bd6f",
+      "source_bytes": 14684,
+      "copy_verified": true,
+      "scope": "archived entry text only; old adapters cannot supersede the current explicit candidate"
+    },
+    {
+      "path": "technical/blp-model-building/references/blp1995_verified_equations.md",
+      "sha256": "f77314873cb6671d4959d93d23c1dcfff54dc8d3b5f400ce61a6ead8c6effdc9",
+      "bytes": 9528,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\references\\blp1995_verified_equations.md",
+      "source_sha256": "f77314873cb6671d4959d93d23c1dcfff54dc8d3b5f400ce61a6ead8c6effdc9",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/references/corpus_and_verification.md",
+      "sha256": "2b2883e5fd6711d1b3c107b4848d325f364601a98a0435a418932b3e38030f83",
+      "bytes": 12239,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\references\\corpus_and_verification.md",
+      "source_sha256": "2b2883e5fd6711d1b3c107b4848d325f364601a98a0435a418932b3e38030f83",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/references/current-project-adapter.md",
+      "sha256": "51784ed47d7fe4a7d7f713521a86b5cc721211ed9e236e8f8a92db287f150b35",
+      "bytes": 4767,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\references\\current-project-adapter.md",
+      "source_sha256": "51784ed47d7fe4a7d7f713521a86b5cc721211ed9e236e8f8a92db287f150b35",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/references/estimation_algorithm_and_code.md",
+      "sha256": "450eb27becf44c1d25a297ea59020e2a05a87c8a471311c71c8b85c8e3a7df43",
+      "bytes": 21079,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\references\\estimation_algorithm_and_code.md",
+      "source_sha256": "450eb27becf44c1d25a297ea59020e2a05a87c8a471311c71c8b85c8e3a7df43",
+      "source_bytes": 21079,
+      "copy_verified": true,
+      "scope": "external technical file explicitly recorded in v2 RUN.file_reads",
+      "v2_recorded_sha256": "450eb27becf44c1d25a297ea59020e2a05a87c8a471311c71c8b85c8e3a7df43",
+      "unchanged_from_v2_recorded_identity": true
+    },
+    {
+      "path": "technical/blp-model-building/references/extension_genealogy.md",
+      "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+      "bytes": 45967,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\references\\extension_genealogy.md",
+      "source_sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/references/identification_and_micro_moments.md",
+      "sha256": "58c52292d44fc32b1b742620ad7205573ea00903cd3494bdfd29c816604d40aa",
+      "bytes": 9183,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\references\\identification_and_micro_moments.md",
+      "source_sha256": "58c52292d44fc32b1b742620ad7205573ea00903cd3494bdfd29c816604d40aa",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/references/micro_foundations.md",
+      "sha256": "ff201686bda9b3656aa30f6f3698a1d15739085e6c135619c46505b71cee4dda",
+      "bytes": 21957,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\references\\micro_foundations.md",
+      "source_sha256": "ff201686bda9b3656aa30f6f3698a1d15739085e6c135619c46505b71cee4dda",
+      "source_bytes": 21957,
+      "copy_verified": true,
+      "scope": "external technical file explicitly recorded in v2 RUN.file_reads",
+      "v2_recorded_sha256": "ff201686bda9b3656aa30f6f3698a1d15739085e6c135619c46505b71cee4dda",
+      "unchanged_from_v2_recorded_identity": true
+    },
+    {
+      "path": "technical/blp-model-building/references/project_china_driving_cycle.md",
+      "sha256": "a8b8100513ef59af6e1110d1b3b613616f5a3ac1077f25b2f5e3c906b64bceb1",
+      "bytes": 33055,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\references\\project_china_driving_cycle.md",
+      "source_sha256": "a8b8100513ef59af6e1110d1b3b613616f5a3ac1077f25b2f5e3c906b64bceb1",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/references/supply_welfare_counterfactual.md",
+      "sha256": "0318be4de53ccb6c268cc69828c4a992efa1aa0e7f7ac8d74d0d51a22eae3d30",
+      "bytes": 8965,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\references\\supply_welfare_counterfactual.md",
+      "source_sha256": "0318be4de53ccb6c268cc69828c4a992efa1aa0e7f7ac8d74d0d51a22eae3d30",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/scripts/belief_aggregate_rank_selftest.py",
+      "sha256": "9bfd0e124e45da1b70f11b20ae2718b48003520d0798a7ef78559ab7a232f8d6",
+      "bytes": 3979,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\scripts\\belief_aggregate_rank_selftest.py",
+      "source_sha256": "9bfd0e124e45da1b70f11b20ae2718b48003520d0798a7ef78559ab7a232f8d6",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/scripts/blp_selftest.py",
+      "sha256": "d12d76104b093b243cac65a37a21bb5419c81bcd02fd4794d401dd63e91583c1",
+      "bytes": 11813,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\scripts\\blp_selftest.py",
+      "source_sha256": "d12d76104b093b243cac65a37a21bb5419c81bcd02fd4794d401dd63e91583c1",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/scripts/income_welfare_selftest.py",
+      "sha256": "f79d673551973a43d72e02b1e4e20566d169f8759ddbc3aa3a77acc2e22a568e",
+      "bytes": 1432,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\scripts\\income_welfare_selftest.py",
+      "source_sha256": "f79d673551973a43d72e02b1e4e20566d169f8759ddbc3aa3a77acc2e22a568e",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/scripts/micro_sampling_selftest.py",
+      "sha256": "0e0c48ea87f2cb2b14246298de05675c3a158df552672cb5cb0dbc2294825418",
+      "bytes": 1996,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\scripts\\micro_sampling_selftest.py",
+      "source_sha256": "0e0c48ea87f2cb2b14246298de05675c3a158df552672cb5cb0dbc2294825418",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/scripts/normalization_selftest.py",
+      "sha256": "7f434306a48c808d4c3ba5fa98acbfcc1478bf68b1ecb5f15b846f9635f6ac4a",
+      "bytes": 1914,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\scripts\\normalization_selftest.py",
+      "source_sha256": "7f434306a48c808d4c3ba5fa98acbfcc1478bf68b1ecb5f15b846f9635f6ac4a",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/blp-model-building/scripts/pyblp_minimal_example.py",
+      "sha256": "2acf9ee417590bb006fe119877d8190487f192f599273f08d9087a99dc658dbb",
+      "bytes": 15189,
+      "source_path": "D:\\codex\\.codex-home\\skills\\blp-model-building\\scripts\\pyblp_minimal_example.py",
+      "source_sha256": "2acf9ee417590bb006fe119877d8190487f192f599273f08d9087a99dc658dbb",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/structural-model-building/SKILL.md",
+      "sha256": "0d7ed8af79bc32a8db0777a7e1018fa6ce669723bda4eaacc02a61eb70b0e8d4",
+      "bytes": 11169,
+      "source_path": "D:\\codex\\.codex-home\\skills\\structural-model-building\\SKILL.md",
+      "source_sha256": "0d7ed8af79bc32a8db0777a7e1018fa6ce669723bda4eaacc02a61eb70b0e8d4",
+      "source_bytes": 11169,
+      "copy_verified": true,
+      "scope": "archived entry text only; old adapters cannot supersede the current explicit candidate"
+    },
+    {
+      "path": "technical/structural-model-building/references/current-project-adapter.md",
+      "sha256": "0b2804587c2a78ffd4d5de84fb993a666ee5343063babc9006dbca35a5ed3384",
+      "bytes": 3878,
+      "source_path": "D:\\codex\\.codex-home\\skills\\structural-model-building\\references\\current-project-adapter.md",
+      "source_sha256": "0b2804587c2a78ffd4d5de84fb993a666ee5343063babc9006dbca35a5ed3384",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/structural-model-building/references/estimation_recipes.md",
+      "sha256": "cbe444187d9346481dd2b7a2347823679d01a29f1b55b4e587d73d494f2493bc",
+      "bytes": 15781,
+      "source_path": "D:\\codex\\.codex-home\\skills\\structural-model-building\\references\\estimation_recipes.md",
+      "source_sha256": "cbe444187d9346481dd2b7a2347823679d01a29f1b55b4e587d73d494f2493bc",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/structural-model-building/references/formula_source_ledger_protocol.md",
+      "sha256": "cd7410f644854b607fe728e354d2a2c91bfee6124f090143f497d2ac3cdca1cd",
+      "bytes": 8009,
+      "source_path": "D:\\codex\\.codex-home\\skills\\structural-model-building\\references\\formula_source_ledger_protocol.md",
+      "source_sha256": "cd7410f644854b607fe728e354d2a2c91bfee6124f090143f497d2ac3cdca1cd",
+      "source_bytes": 8009,
+      "copy_verified": true,
+      "scope": "external technical file explicitly recorded in v2 RUN.file_reads",
+      "v2_recorded_sha256": "cd7410f644854b607fe728e354d2a2c91bfee6124f090143f497d2ac3cdca1cd",
+      "unchanged_from_v2_recorded_identity": true
+    },
+    {
+      "path": "technical/structural-model-building/references/identification_and_claim_ladder.md",
+      "sha256": "92ca796feced5ac99ad0f4f6d936a0bdb479d096d54c30df4f3c3355d518a3fb",
+      "bytes": 10282,
+      "source_path": "D:\\codex\\.codex-home\\skills\\structural-model-building\\references\\identification_and_claim_ladder.md",
+      "source_sha256": "92ca796feced5ac99ad0f4f6d936a0bdb479d096d54c30df4f3c3355d518a3fb",
+      "source_bytes": 10282,
+      "copy_verified": true,
+      "scope": "external technical file explicitly recorded in v2 RUN.file_reads",
+      "v2_recorded_sha256": "92ca796feced5ac99ad0f4f6d936a0bdb479d096d54c30df4f3c3355d518a3fb",
+      "unchanged_from_v2_recorded_identity": true
+    },
+    {
+      "path": "technical/structural-model-building/references/mechanism_construction_and_theory.md",
+      "sha256": "9c680c032d713a5078b636cc9344276f5cc9c6a2339c2baa31e723242df5038e",
+      "bytes": 16657,
+      "source_path": "D:\\codex\\.codex-home\\skills\\structural-model-building\\references\\mechanism_construction_and_theory.md",
+      "source_sha256": "9c680c032d713a5078b636cc9344276f5cc9c6a2339c2baa31e723242df5038e",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/structural-model-building/references/when_and_which_model.md",
+      "sha256": "0f9fdfb85bfb6d2213fdcbf2ed0e0ec0affc4a9c65ee0a9d58a50c240824216a",
+      "bytes": 16344,
+      "source_path": "D:\\codex\\.codex-home\\skills\\structural-model-building\\references\\when_and_which_model.md",
+      "source_sha256": "0f9fdfb85bfb6d2213fdcbf2ed0e0ec0affc4a9c65ee0a9d58a50c240824216a",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/structural-model-building/references/writing_and_delivery.md",
+      "sha256": "5cee3131aba1978939243e3426edb2c3bcf435f5d1fde0b8a92e900fe508c6da",
+      "bytes": 5637,
+      "source_path": "D:\\codex\\.codex-home\\skills\\structural-model-building\\references\\writing_and_delivery.md",
+      "source_sha256": "5cee3131aba1978939243e3426edb2c3bcf435f5d1fde0b8a92e900fe508c6da",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/structural-model-building/scripts/common_component_counterexamples.py",
+      "sha256": "81a7e23db6077d496efead62b27035950fe8c5f89f16a058972d49d7e7b3cafd",
+      "bytes": 2873,
+      "source_path": "D:\\codex\\.codex-home\\skills\\structural-model-building\\scripts\\common_component_counterexamples.py",
+      "source_sha256": "81a7e23db6077d496efead62b27035950fe8c5f89f16a058972d49d7e7b3cafd",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/structural-model-building/scripts/primitive_conditions_selftest.py",
+      "sha256": "cebf2a6d8061907d3d967f6b8c8369a5d6eb81026e4b3f3983e536f848a1e0e8",
+      "bytes": 2687,
+      "source_path": "D:\\codex\\.codex-home\\skills\\structural-model-building\\scripts\\primitive_conditions_selftest.py",
+      "source_sha256": "cebf2a6d8061907d3d967f6b8c8369a5d6eb81026e4b3f3983e536f848a1e0e8",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    },
+    {
+      "path": "technical/structural-model-building/scripts/structural_selftest.py",
+      "sha256": "a18b9f1bb216f2ac8a06bb06e42632f394c8add167ed2afd917825e850295f79",
+      "bytes": 18438,
+      "source_path": "D:\\codex\\.codex-home\\skills\\structural-model-building\\scripts\\structural_selftest.py",
+      "source_sha256": "a18b9f1bb216f2ac8a06bb06e42632f394c8add167ed2afd917825e850295f79",
+      "copy_verified": true,
+      "scope": "registered original bytes before v5 producer; routing/memory only, not new full-paper reading"
+    }
+  ]
+}

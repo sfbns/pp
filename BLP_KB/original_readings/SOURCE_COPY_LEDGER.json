@@ -1,0 +1,836 @@
+[
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\w33378.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P01_w33378.pdf",
+    "sha256": "A96D97D3AF0C120087505B699B6C5CCDB11C8D5DBB924611A1DCA3EE174B9A3F",
+    "bytes": 3116019
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\w32264.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P02_w32264.pdf",
+    "sha256": "C686CEF999C93DA89EE031F4F8AA2EA6D417AAAC05EA481EB29CDDB174D1C0AB",
+    "bytes": 812709
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\1-s2.0-S0140988325000775-main.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P03_EE2025_775.pdf",
+    "sha256": "FA9ABE8D49307CC1FE75D30E04D2FABC7B5B423F1A6F081A6673C122AFEC9153",
+    "bytes": 1004315
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\WP_23-04.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P04_WP2304.pdf",
+    "sha256": "368403B6D2DC015037AFA4825F24603D95B30BC3732A23B9FE5D40901CB025D2",
+    "bytes": 1726080
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\IndustrialPoliciesAndInnovation_Evid_powerpoint.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P05_IndPolSlides.pdf",
+    "sha256": "84AF7ADF17F7D13138B97E3F2E3689AC98CB2E3A9805C55082B16E7FCCE31845",
+    "bytes": 1065242
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\w34763.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P06_w34763.pdf",
+    "sha256": "89F86F99070E2D892AE740E1C414BBA189628042ED71C707528DE804F7258BF2",
+    "bytes": 1319014
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\1-s2.0-S0967070X22002074-main.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P07_TRP_S0967070X22002074.pdf",
+    "sha256": "B1811E90623BCCEB45837595C3ECB39072E3CEFA6F58CAB04A41BFD7B678EFA2",
+    "bytes": 4992462
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\w33032 (1).pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P08_w33032.pdf",
+    "sha256": "8D32A3B9895653508794632686A2FFC1D3DBCF24FEE6529C21D439A139E963E8",
+    "bytes": 1433034
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\__lse.ac.uk_storage_LIBRARY_Secondary_libfile_shared_repository_Content_Gavazza, A_Quantitative analysis_Gavazza_Quantitative analysis_2014.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P09_Gavazza2014.pdf",
+    "sha256": "DB120C22848055A8239F96C7193F07118B231CDB32834989DCB5449250224A61",
+    "bytes": 494373
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\The J Industrial Economics - 2024 - Kaneko - Demand Estimation with Flexible Income Effect  An Application to Pass‐Through.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P10_Kaneko2024_JIE.pdf",
+    "sha256": "26A01D42001B6B4DDD2991201B2A1ED12BD1F624C928264090374286568DC21A",
+    "bytes": 1512532
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\Roberson_2024_Environ._Res._Lett._19_054053.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P11_Roberson2024_ERL.pdf",
+    "sha256": "AE09B841DDC52062552A0545328A8DAED2C09422629A40DF1DD2B062FF15F172",
+    "bytes": 904889
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\s10640-024-00872-z.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P12_EARE_872.pdf",
+    "sha256": "358365C3BE9EBFFF8E7E9A3E831C01C9ADB3C51C0CBC404B1D05AB138C7D2325",
+    "bytes": 3029765
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\Resalevalueguaranteedstrategyinformationsharingandelectricvehiclesadoption.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P13_ResaleValueGuarantee.pdf",
+    "sha256": "EDD212648C9A57F4A2A7FF98443F0BDA6EF0928A7F923EA1918ECB6F80422123",
+    "bytes": 1081288
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\1-s2.0-S0965856426001679-main.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P14_TRA_S0965856426001679.pdf",
+    "sha256": "DB5F6998F028A5DDC28C815D09AC93D470D85BDD8F4149F0D7FFC495C742B1B0",
+    "bytes": 2392375
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\gillingham-et-al-2021-consumer-myopia-in-vehicle-purchases-evidence-from-a-natural-experiment.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P15_Gillingham2021_Myopia.pdf",
+    "sha256": "79E629C100DA04566A33F88714CAAD4FB44F90C6F46A91CFCD7E5EE1B4D9A81D",
+    "bytes": 757766
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\w23340.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P16_w23340.pdf",
+    "sha256": "A66909D8F2C1F1F8DDD93C9167A7240A55672A69E7D49A66C5796496E97A609C",
+    "bytes": 1507862
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\w27644.pdf",
+    "package_path": "01_existing_fuel_batch/original_pdfs/P18_w27644.pdf",
+    "sha256": "0CC883D8CA18C9BD15258C5BC8C8EEF004C7FD95FC2DB3294A66BC396B643E92",
+    "bytes": 1193376
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P01_Barwick_Kwon_Li_Zahur_2025_把成本打下来_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P01_Barwick_Kwon_Li_Zahur_2025_把成本打下来_中译.md",
+    "sha256": "C18F4A4AE184B71D405DB0A858A3A3227399B1E08E8B2368960E22F3CFCE3E4A",
+    "bytes": 60428
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P02_Barwick_Kwon_Li_2024_属性型补贴与市场势力_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P02_Barwick_Kwon_Li_2024_属性型补贴与市场势力_中译.md",
+    "sha256": "61B65D170E340436C21C83079CF5DE7BFD9DD4F62EAADB25EDFC92895F9711FC",
+    "bytes": 102660
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P03_Xia_Zhang_2025_燃油经济性标准与产品结构技术变化_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P03_Xia_Zhang_2025_燃油经济性标准与产品结构技术变化_中译.md",
+    "sha256": "A78793BAEDC07D7DCFE946F147D9A58770BAA6BE82FA1F1593925C70FBD4BB6F",
+    "bytes": 58102
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P04_Leard_Linn_Springel_2023_车辆属性权衡与分配效应_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P04_Leard_Linn_Springel_2023_车辆属性权衡与分配效应_中译.md",
+    "sha256": "D9F082B9F7524D8B9FDDA3C58CE2F3A4DEF047E3EF14F727F02BF57978092821",
+    "bytes": 95784
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P05_Barwick等_2025_产业政策与创新_讲义中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P05_Barwick等_2025_产业政策与创新_讲义中译.md",
+    "sha256": "7C9BCA98ACAC0C28C14547B31CDD7D8C3BCA7079FB164ED669A345A191B7A257",
+    "bytes": 10280
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P06_Zhang_Popp_2026_驱动创新_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P06_Zhang_Popp_2026_驱动创新_中译.md",
+    "sha256": "3A507D6B0E1B795C044427B5AAF46EE600746F9CC1AF5076E2DF2D3920843F18",
+    "bytes": 78941
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P07_Schloter_2022_电动车与汽油车折旧实证_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P07_Schloter_2022_电动车与汽油车折旧实证_中译.md",
+    "sha256": "37214D3A2F90B2E91A55F1783F14A6C6DFB797F4F8A7BFC27D0975D3CD651CE9",
+    "bytes": 44557
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P08_Allcott_等_2026_购买美国货_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P08_Allcott_等_2026_购买美国货_中译.md",
+    "sha256": "0050DF327D49F5A1A990C20E846A2BF375EBDA03A7E50E548BCCA5215127D2FE",
+    "bytes": 67416
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P09_Gavazza_Lizzeri_Roketskiy_2014_二手车市场定量分析_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P09_Gavazza_Lizzeri_Roketskiy_2014_二手车市场定量分析_中译.md",
+    "sha256": "2E843F7001ADD997EBE1CB5C7962DD7CAF30A350C1B3600F5252B05FAAA5AEA9",
+    "bytes": 52213
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P10_Kaneko_Toyama_2025_弹性收入效应需求估计_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P10_Kaneko_Toyama_2025_弹性收入效应需求估计_中译.md",
+    "sha256": "BFC37DCA5AF128A7DB74D354B7642BD12C47F528BEFF98BF30283D3CB8C780DE",
+    "bytes": 79360
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P11_Roberson_2024_电池动力的划算买卖_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P11_Roberson_2024_电池动力的划算买卖_中译.md",
+    "sha256": "F603FA8840371143C9124F8D5AD890F56326986C01299DBDCE587BA51A15E8CF",
+    "bytes": 32380
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P12_Andreassen_Lind_2024_气候技术与价值_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P12_Andreassen_Lind_2024_气候技术与价值_中译.md",
+    "sha256": "171FD6D484E1D4EB8BF66F2343951D697F13DA1866C39D81A90236FA92312B85",
+    "bytes": 66653
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P13_Zhang_Zhao_2021_残值担保与信息共享_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P13_Zhang_Zhao_2021_残值担保与信息共享_中译.md",
+    "sha256": "24CE8950DCF3CEA1245BAF3E0B41CB6B23555C15573C17A05B0BC981A6316953",
+    "bytes": 30841
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P14_Yan_Lin_Chen_2026_V2G混合选择模型_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P14_Yan_Lin_Chen_2026_V2G混合选择模型_中译.md",
+    "sha256": "8E5795FA5B1C92FB091A5555863BAA4DAA2EA5A423F9C89BB5CDCC6AE72CB43E",
+    "bytes": 46137
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P15_Gillingham_Houde_vanBenthem_2021_消费者短视_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P15_Gillingham_Houde_vanBenthem_2021_消费者短视_中译.md",
+    "sha256": "ECDF7B3F9D0DA0CA744735C5A03CD3F34BDDCD945146CC7C9368850781D5DC14",
+    "bytes": 91592
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P16_Bento_Gillingham_Roth_2017_燃油经济性标准与车重离散度_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P16_Bento_Gillingham_Roth_2017_燃油经济性标准与车重离散度_中译.md",
+    "sha256": "D10BD43780C793CC1585693F83F42AA888A3AD32339C2DA1A33B50CD7D3B5C61",
+    "bytes": 43211
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P18_Bai_Barwick_Cao_Li_2022_合资换技术与质量升级_中译.md",
+    "package_path": "01_existing_fuel_batch/translations/P18_Bai_Barwick_Cao_Li_2022_合资换技术与质量升级_中译.md",
+    "sha256": "861E0B6EFCE16ADA2880DBBBEDF176E8C737EDD5B761C277E5CB568C3D81CF0B",
+    "bytes": 57975
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P01_Barwick_Kwon_Li_Zahur_2025_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P01_Barwick_Kwon_Li_Zahur_2025_精读卡.md",
+    "sha256": "2CDD51B4BB046D81706ABE33506278F7148B6CB5B2587D92959622C8FCCA57D7",
+    "bytes": 14234
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P02_Barwick_Kwon_Li_2024_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P02_Barwick_Kwon_Li_2024_精读卡.md",
+    "sha256": "8EB94D5F5E870CA6CDCE1D22E87D87A5371478F38B8121BD9A3F47E9101FD080",
+    "bytes": 11433
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P03_Xia_Zhang_2025_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P03_Xia_Zhang_2025_精读卡.md",
+    "sha256": "6FE032D06EA58333773BEA8667410C9907A48411EA8B1F26D3F1C7271A9AAA82",
+    "bytes": 9214
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P04_Leard_Linn_Springel_2023_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P04_Leard_Linn_Springel_2023_精读卡.md",
+    "sha256": "711ECBE1E1D27DF58CE3C7E9EFAF494D2AC1217248BFF3328BBDEF8AB9BED98C",
+    "bytes": 10472
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P05_Barwick等_2025_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P05_Barwick等_2025_精读卡.md",
+    "sha256": "ED9A58B5AAA548599CA88F994CA645850CCD28D7603F1084D44DA7A024734E8F",
+    "bytes": 16251
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P06_Zhang_Popp_2026_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P06_Zhang_Popp_2026_精读卡.md",
+    "sha256": "AFB5A6BFFEE3774860A9C004EC5A4CAAE5153A24893C398593B4A03C56FD6DC8",
+    "bytes": 22618
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P07_Schloter_2022_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P07_Schloter_2022_精读卡.md",
+    "sha256": "58412AE55C9B35713381972BC719576B0A3B6FC057871F37262C5AE85B326F5B",
+    "bytes": 7453
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P08_Allcott_等_2026_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P08_Allcott_等_2026_精读卡.md",
+    "sha256": "D8E3CACFBD7E1073FD842CA0A7A26E8EF354FF0D29F90E793F67BD136BC73E91",
+    "bytes": 19555
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P09_Gavazza_Lizzeri_Roketskiy_2014_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P09_Gavazza_Lizzeri_Roketskiy_2014_精读卡.md",
+    "sha256": "BDCED36224882A3DCE0D986FFB0C114F03312337DDDC7B33CDC180875E684560",
+    "bytes": 11154
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P10_Kaneko_Toyama_2025_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P10_Kaneko_Toyama_2025_精读卡.md",
+    "sha256": "DFE475864AE58F2FA83A5A3F688D3A6B1C4B00A1A80B03154A989F4B63A0B183",
+    "bytes": 11612
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P11_Roberson_2024_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P11_Roberson_2024_精读卡.md",
+    "sha256": "C4224C974939E6F1450F5DEB6306CD17396BDB299DEF009E65162865BF99EE89",
+    "bytes": 9957
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P12_Andreassen_Lind_2024_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P12_Andreassen_Lind_2024_精读卡.md",
+    "sha256": "5FE046CF29D06135AB137E5BC780A68981E92B4EBBD8546B2B4973B8BD656107",
+    "bytes": 9762
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P13_Zhang_Zhao_2021_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P13_Zhang_Zhao_2021_精读卡.md",
+    "sha256": "98A02A82817245975CB75FE4362AFECF4236E929DE60E64A214403337AD4D9CA",
+    "bytes": 20050
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P14_Yan_Lin_Chen_2026_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P14_Yan_Lin_Chen_2026_精读卡.md",
+    "sha256": "BC4693A38664FBBF21BB02A446AA7BA72BBE757652A9A3BC8DE189B4B40DDC34",
+    "bytes": 24313
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P15_Gillingham2021_消费者短视_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P15_Gillingham2021_消费者短视_精读卡.md",
+    "sha256": "3B7C2D4A98FA433F1887C9EC9E61693BA2F05075D03C249439CA71908F44BDC9",
+    "bytes": 10526
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P16_Bento_Gillingham_Roth_2017_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P16_Bento_Gillingham_Roth_2017_精读卡.md",
+    "sha256": "5465C67B74766847339B4D4CA07C40F085E48F618B0DF9171843AF99DFD27722",
+    "bytes": 12236
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P18_Bai_Barwick_Cao_Li_2022_精读卡.md",
+    "package_path": "01_existing_fuel_batch/cards/P18_Bai_Barwick_Cao_Li_2022_精读卡.md",
+    "sha256": "28DF6AE7A5F1DB45A32BA9EB6952171FED4FA52C71F8394866D3E5617EBA0172",
+    "bytes": 16828
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\CHECKPOINT.md",
+    "package_path": "01_existing_fuel_batch/CHECKPOINT.md",
+    "sha256": "2F393583DB1EE3B164E759B7E7DAB493C645BD04F1D8E30B41F02A4D1259A701",
+    "bytes": 11855
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\manifest.json",
+    "package_path": "01_existing_fuel_batch/manifest.json",
+    "sha256": "056ABC52658AC33389CE6376A462B28F73FFCFD399ED88F5E98B2BB826056050",
+    "bytes": 5594
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\00_文献名录.md",
+    "package_path": "01_existing_fuel_batch/00_文献名录.md",
+    "sha256": "6F2F914F9FDE2F7D19720B65EB0BEE58519778AFD670390A2F30314BF4679D97",
+    "bytes": 3100
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\00_综述报告_燃油经济性与工况切换.md",
+    "package_path": "01_existing_fuel_batch/00_综述报告_燃油经济性与工况切换.md",
+    "sha256": "A199D1349C3C8E32CF6B7636549CC97957E92DAE99BB2BEFE7B5D2D4EF41C976",
+    "bytes": 41066
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P01_w33378.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P01_w33378.txt",
+    "sha256": "E962B391164A84D9717873E8FFBFB2FEC4162BC112413A4C1212A37C80362803",
+    "bytes": 192552
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P02_w32264.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P02_w32264.txt",
+    "sha256": "680DC6DC26226C277695A5BE5F2A0C54B50F734057C39A0616EE0ACCCAB8A122",
+    "bytes": 143553
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P03_EE2025_775.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P03_EE2025_775.txt",
+    "sha256": "4BBB871FC2484B76123FAA0AF21CEAD00BEEB20BB570A567E665FDFB57B5549F",
+    "bytes": 92686
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P04_WP2304.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P04_WP2304.txt",
+    "sha256": "91450090A11C4471BEE224764CA7D47FA2F0DE31FF64E4921479F0EA517B524B",
+    "bytes": 151220
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P05_IndPolSlides.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P05_IndPolSlides.txt",
+    "sha256": "315FFE4D8D5C2134387172FA634868381EE8AA55915358D708557468F6511831",
+    "bytes": 10876
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P06_w34763.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P06_w34763.txt",
+    "sha256": "D1224B527039F93EF38A45B39E78BE6089756C87C6F1C5CCB9ED089E364EAAA8",
+    "bytes": 164178
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P07_TRP_S0967070X22002074.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P07_TRP_S0967070X22002074.txt",
+    "sha256": "D4A4B0A9A339E4ACD7436B0F4A8631C252725D9569A304B59CACEDA56F3D3996",
+    "bytes": 68568
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P08_w33032.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P08_w33032.txt",
+    "sha256": "407317E3961809DC101D75F2F8AC469F7A9402258E77F1003BF5D356544F7824",
+    "bytes": 313807
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P09_Gavazza2014.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P09_Gavazza2014.txt",
+    "sha256": "D8A6D75B5228F7159AA3EA2E3308E2DE2152786DD26B4CEFC688A805E6409383",
+    "bytes": 110042
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P10_Kaneko2024_JIE.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P10_Kaneko2024_JIE.txt",
+    "sha256": "4EF69AB227139616CDAEAE083D667355715BB14B2CBFD300EF991E28CB50B708",
+    "bytes": 146544
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P11_Roberson2024_ERL.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P11_Roberson2024_ERL.txt",
+    "sha256": "6109C28FADFCCE0CFA775F904CA921B203C5B2DF5A917D13EA6FDD0FB0212EB6",
+    "bytes": 44329
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P12_EARE_872.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P12_EARE_872.txt",
+    "sha256": "AD6A93904FB7320A26582FE24EB26BC2E83983CCDAA67873BF71E9787463736D",
+    "bytes": 146437
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P13_ResaleValueGuarantee.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P13_ResaleValueGuarantee.txt",
+    "sha256": "E27683D5A273D44AC40C55D0D5BA2BAF8C0482F6AC4C11E6D7916374737198DC",
+    "bytes": 47634
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P14_TRA_S0965856426001679.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P14_TRA_S0965856426001679.txt",
+    "sha256": "6B66CE3DB7E7065B81E1A19C7CC55EC8E173CB08B63C798432549FE27079E240",
+    "bytes": 75673
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P15_Gillingham2021_Myopia.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P15_Gillingham2021_Myopia.txt",
+    "sha256": "7EF977AD7A729DAB63CE728CBEEA08CE55A640B9631B8F1FB0CD206A05459FB2",
+    "bytes": 111278
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P16_w23340.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P16_w23340.txt",
+    "sha256": "FB4969A2BEAF57A6C9E5338658B47E070204CB99C0C951BF993513D848563A94",
+    "bytes": 82450
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P18_w27644.txt",
+    "package_path": "01_existing_fuel_batch/raw_text/P18_w27644.txt",
+    "sha256": "07313673FE28A157472D42FE7255C1E26088B6A230B21ED82AA15B7681066A8F",
+    "bytes": 153967
+  },
+  {
+    "source": "D:\\codex\\research-memory\\fuel_econ_lit_2026_refresh_20260920\\01_source_status_and_anchor_ledger.md",
+    "package_path": "04_evidence_and_corrections/20260920_refresh/01_source_status_and_anchor_ledger.md",
+    "sha256": "72A1A1A7BF76205B97F467D789FC05B1F66BA20CE8A756141836497785C1DBA6",
+    "bytes": 9388
+  },
+  {
+    "source": "D:\\codex\\research-memory\\fuel_econ_lit_2026_refresh_20260920\\02_project_relevance_and_correction_ledger.md",
+    "package_path": "04_evidence_and_corrections/20260920_refresh/02_project_relevance_and_correction_ledger.md",
+    "sha256": "FDDE32391099EF6C5F9275780131A5EF339AD81421401C80932FC01554AB59E9",
+    "bytes": 8347
+  },
+  {
+    "source": "D:\\codex\\research-memory\\fuel_econ_lit_2026_refresh_20260920\\03_model_identification_update.md",
+    "package_path": "04_evidence_and_corrections/20260920_refresh/03_model_identification_update.md",
+    "sha256": "C43F5DF61C9944D333E8B104BDF0FBB30DC7514D9D9379DFA2727432D285566D",
+    "bytes": 12578
+  },
+  {
+    "source": "D:\\codex\\research-memory\\fuel_econ_lit_2026_refresh_20260920\\04_go_no_go_and_next_steps.md",
+    "package_path": "04_evidence_and_corrections/20260920_refresh/04_go_no_go_and_next_steps.md",
+    "sha256": "BD1D86A4D2F7C0FFC91BEC008D975259DB277DC695A7A9CEF2AE7219783012F4",
+    "bytes": 5928
+  },
+  {
+    "source": "D:\\codex\\research-memory\\fuel_econ_lit_2026_refresh_20260920\\MEMORY_MAP.md",
+    "package_path": "04_evidence_and_corrections/20260920_refresh/MEMORY_MAP.md",
+    "sha256": "C4B0E20A99797B658D44B7AE88C50F65CF48A4D1260726770E7822A4916341E0",
+    "bytes": 5238
+  },
+  {
+    "source": "D:\\codex\\research-memory\\fuel_econ_lit_2026_refresh_20260920\\PACKAGE_MANIFEST.md",
+    "package_path": "04_evidence_and_corrections/20260920_refresh/PACKAGE_MANIFEST.md",
+    "sha256": "F6CCA0E30DA4CAFB03AD83384A45F4EDD01C12735AEC178B5A8441041F6CF3C6",
+    "bytes": 722
+  },
+  {
+    "source": "D:\\codex\\research-memory\\BLP_structural_models_memory_skills_configs_2026-08-24\\01_primary_enhanced_corpus\\source_pdfs\\04_5twrwep3.pdf",
+    "package_path": "02_five_BLP_recommendations/R01_GRV2018/original.pdf",
+    "sha256": "5D729774CBE07F5281ED09097CAF3F224BE24A2260417E766D8D361B5E8670DF",
+    "bytes": 671749
+  },
+  {
+    "source": "D:\\codex\\research-memory\\BLP_structural_models_memory_skills_configs_2026-08-24\\01_primary_enhanced_corpus\\memories\\papers\\04_5twrwep3.md",
+    "package_path": "02_five_BLP_recommendations/R01_GRV2018/reading_memory.md",
+    "sha256": "829089B48A2188FABBE70624A3F41ECF8C02E9E582A29493638D1B7B11D1CE26",
+    "bytes": 20801
+  },
+  {
+    "source": "D:\\codex\\research-memory\\BLP_structural_models_memory_skills_configs_2026-08-24\\01_primary_enhanced_corpus\\raw\\fulltext\\04_5twrwep3.fulltext.txt",
+    "package_path": "02_five_BLP_recommendations/R01_GRV2018/page_fulltext.txt",
+    "sha256": "B42012C9AF1BE51196EBD3B8A929B7C3A36D93886F1B0C91693B19D3AB52704E",
+    "bytes": 123457
+  },
+  {
+    "source": "D:\\codex\\research-memory\\BLP_structural_models_memory_skills_configs_2026-08-24\\01_primary_enhanced_corpus\\raw\\fulltext\\04_5twrwep3.fulltext.json",
+    "package_path": "02_five_BLP_recommendations/R01_GRV2018/page_fulltext.json",
+    "sha256": "C5A91D6AB758B7518B9856CCC99D49518A7B139736A10C70111CF38D6361BF82",
+    "bytes": 125760
+  },
+  {
+    "source": "D:\\codex\\output\\reynaert_sallee_2021_source.pdf",
+    "package_path": "02_five_BLP_recommendations/R02_Reynaert_Sallee2021/original.pdf",
+    "sha256": "F478A23B703D83345EB2A90C7DB10961BFF7499C8332584E559FAF08A7E72A68",
+    "bytes": 889304
+  },
+  {
+    "source": "D:\\codex\\reynaert_sallee_2021_gaming_china_cycle_close_read_20260822.md",
+    "package_path": "02_five_BLP_recommendations/R02_Reynaert_Sallee2021/reading_memory.md",
+    "sha256": "40C85F83C008BD86EBEEEF6B8FA18DF2257B4397506D09F7DEC1931BCCDCB9F1",
+    "bytes": 27490
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\w32264.pdf",
+    "package_path": "02_five_BLP_recommendations/R03_Barwick_Kwon_Li2024/original.pdf",
+    "sha256": "C686CEF999C93DA89EE031F4F8AA2EA6D417AAAC05EA481EB29CDDB174D1C0AB",
+    "bytes": 812709
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P02_Barwick_Kwon_Li_2024_精读卡.md",
+    "package_path": "02_five_BLP_recommendations/R03_Barwick_Kwon_Li2024/reading_memory.md",
+    "sha256": "8EB94D5F5E870CA6CDCE1D22E87D87A5371478F38B8121BD9A3F47E9101FD080",
+    "bytes": 11433
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P02_Barwick_Kwon_Li_2024_属性型补贴与市场势力_中译.md",
+    "package_path": "02_five_BLP_recommendations/R03_Barwick_Kwon_Li2024/existing_full_translation.md",
+    "sha256": "61B65D170E340436C21C83079CF5DE7BFD9DD4F62EAADB25EDFC92895F9711FC",
+    "bytes": 102660
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P02_w32264.txt",
+    "package_path": "02_five_BLP_recommendations/R03_Barwick_Kwon_Li2024/page_fulltext.txt",
+    "sha256": "680DC6DC26226C277695A5BE5F2A0C54B50F734057C39A0616EE0ACCCAB8A122",
+    "bytes": 143553
+  },
+  {
+    "source": "D:\\codex\\research-memory\\BLP_structural_models_memory_skills_configs_2026-08-24\\01_primary_enhanced_corpus\\source_pdfs\\27_lxuzm7vx.pdf",
+    "package_path": "02_five_BLP_recommendations/R04_Xing_Leard_Li2021/original.pdf",
+    "sha256": "174D8650AF63A6ABC25F97195C7697D2B42793838FE84210220DD236AD06DCC7",
+    "bytes": 2435899
+  },
+  {
+    "source": "D:\\codex\\research-memory\\BLP_structural_models_memory_skills_configs_2026-08-24\\01_primary_enhanced_corpus\\memories\\papers\\27_lxuzm7vx.md",
+    "package_path": "02_five_BLP_recommendations/R04_Xing_Leard_Li2021/reading_memory.md",
+    "sha256": "3649735702BAA3A95C3DFC6D0C690D7D0DC01894B544ADCB45C273446BA59A99",
+    "bytes": 25258
+  },
+  {
+    "source": "D:\\codex\\research-memory\\BLP_structural_models_memory_skills_configs_2026-08-24\\01_primary_enhanced_corpus\\raw\\fulltext\\27_lxuzm7vx.fulltext.txt",
+    "package_path": "02_five_BLP_recommendations/R04_Xing_Leard_Li2021/page_fulltext.txt",
+    "sha256": "632E34052CACC47909C55640B022F8DA4C7FB1EB207ABD1991BAC6E265CE9836",
+    "bytes": 146438
+  },
+  {
+    "source": "D:\\codex\\research-memory\\BLP_structural_models_memory_skills_configs_2026-08-24\\01_primary_enhanced_corpus\\raw\\fulltext\\27_lxuzm7vx.fulltext.json",
+    "package_path": "02_five_BLP_recommendations/R04_Xing_Leard_Li2021/page_fulltext.json",
+    "sha256": "5B05C9896B91CD3ADFE109C4822C51D853A771809D8338DA604FCE997FAD7236",
+    "bytes": 148584
+  },
+  {
+    "source": "C:\\Users\\于舒奕\\Downloads\\w33378.pdf",
+    "package_path": "02_five_BLP_recommendations/R05_Barwick_et_al2025/original.pdf",
+    "sha256": "A96D97D3AF0C120087505B699B6C5CCDB11C8D5DBB924611A1DCA3EE174B9A3F",
+    "bytes": 3116019
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\cards\\P01_Barwick_Kwon_Li_Zahur_2025_精读卡.md",
+    "package_path": "02_five_BLP_recommendations/R05_Barwick_et_al2025/reading_memory.md",
+    "sha256": "2CDD51B4BB046D81706ABE33506278F7148B6CB5B2587D92959622C8FCCA57D7",
+    "bytes": 14234
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\translations\\P01_Barwick_Kwon_Li_Zahur_2025_把成本打下来_中译.md",
+    "package_path": "02_five_BLP_recommendations/R05_Barwick_et_al2025/existing_full_translation.md",
+    "sha256": "C18F4A4AE184B71D405DB0A858A3A3227399B1E08E8B2368960E22F3CFCE3E4A",
+    "bytes": 60428
+  },
+  {
+    "source": "D:\\fuel-econ-lit-2026\\raw_text\\P01_w33378.txt",
+    "package_path": "02_five_BLP_recommendations/R05_Barwick_et_al2025/page_fulltext.txt",
+    "sha256": "E962B391164A84D9717873E8FFBFB2FEC4162BC112413A4C1212A37C80362803",
+    "bytes": 192552
+  },
+  {
+    "source": "D:\\codex\\blp.pdf",
+    "package_path": "03_BLP_foundation/BLP1995_original.pdf",
+    "sha256": "A7F6E505C4CF2B2CE72BFEA5D700454571400E99F7AB9501F7AE9302CBE06D75",
+    "bytes": 993830
+  },
+  {
+    "source": "D:\\codex\\blp_1995_deep_reading_notes.md",
+    "package_path": "03_BLP_foundation/existing_deep_reading_notes.md",
+    "sha256": "932082718CDBF7E342FD0EB4039A4137D1877091479D9D7E7BACD347210ED21A",
+    "bytes": 31876
+  },
+  {
+    "source": "D:\\blp-structural-skill-config\\VERIFICATION_LEDGER.md",
+    "package_path": "04_evidence_and_corrections/existing_formula_VERIFICATION_LEDGER.md",
+    "sha256": "DB86C8A19A3A4DDE410A88B2EAB48F29B8B9DF099EB8D57C5A3919574ACFC977",
+    "bytes": 20442
+  },
+  {
+    "source": "D:\\codex\\research-memory\\BLP_structural_models_memory_skills_configs_2026-08-24\\01_primary_enhanced_corpus\\audits\\csv_manifest_fulltext_audit_2026-04-18.md",
+    "package_path": "04_evidence_and_corrections/old_corpus_coverage_audit.md",
+    "sha256": "5B2078FD6FCE30D458E906505AA14FF9F6537A613FA8E1FA227EAC18C7D35EE9",
+    "bytes": 2187
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_baseline_sources.md",
+    "package_path": "04_evidence_and_corrections/audit_baseline_sources.md",
+    "sha256": "D78A7A66082B58050E97F8A70BD4440B4345D28EE8D394E0D9BC763F9EEEF49B",
+    "bytes": 10638
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_belief_myopia.md",
+    "package_path": "04_evidence_and_corrections/audit_belief_myopia.md",
+    "sha256": "C4AF717916C865C5B85B1B47929C6AB8D221A7984D7ED9E5194AEF91888ACBFE",
+    "bytes": 16672
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_blp_five.md",
+    "package_path": "04_evidence_and_corrections/audit_blp_five.md",
+    "sha256": "7BDC1656D05B77E7D65D347F16F054C461CB49C873F7391B4A33F33AF0414343",
+    "bytes": 10163
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\grv_completion_20261007.md",
+    "package_path": "04_evidence_and_corrections/grv_completion_20261007.md",
+    "sha256": "6BA6E278F789999654A336F53BC855D54DEA8A993066AE80FF2D9BB8FC914D7B",
+    "bytes": 11847
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\xing_completion_20261007.md",
+    "package_path": "04_evidence_and_corrections/xing_completion_20261007.md",
+    "sha256": "B1644BC3260B6B45831F859ABE82031D3F321B33741F59A41C1379160C469C26",
+    "bytes": 14384
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_pages\\GRV2018_PDFp6.png",
+    "package_path": "04_evidence_and_corrections/source_page_images/GRV2018_PDFp6.png",
+    "sha256": "DD9DCCEB4259F25584591B63A942D5DD36BF7F48437BE1D8FBF4080ED7607BFA",
+    "bytes": 197620
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_pages\\P01_PDFp13.png",
+    "package_path": "04_evidence_and_corrections/source_page_images/P01_PDFp13.png",
+    "sha256": "8EE92852163C37B5C31248CE44EC9826965D57CCE83D7909DD33DBF8003A0AC0",
+    "bytes": 211816
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_pages\\P02_PDFp20.png",
+    "package_path": "04_evidence_and_corrections/source_page_images/P02_PDFp20.png",
+    "sha256": "1AB117D7F5C2BB60F1B1CF6B800677AA97388F2F659EA2C6A514DC2FC5C2DC6A",
+    "bytes": 205190
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_pages\\XLL2021_PDFp15.png",
+    "package_path": "04_evidence_and_corrections/source_page_images/XLL2021_PDFp15.png",
+    "sha256": "BE47ECFED8B0F76C09DFB07304FD5BADC2016E5F722CDB884F8CF853F8D69EE7",
+    "bytes": 187087
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_pages\\XLL2021_PDFp17.png",
+    "package_path": "04_evidence_and_corrections/source_page_images/XLL2021_PDFp17.png",
+    "sha256": "E0FD25ACE29C43F507BA0443EE5DB2B3FFACD53194E2578A6EB9E1441BEC670B",
+    "bytes": 251643
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_pages\\XLL2021_PDFp24.png",
+    "package_path": "04_evidence_and_corrections/source_page_images/XLL2021_PDFp24.png",
+    "sha256": "77D952FFEB185C1604BA60A9DC0D3BED7F9274AC75AB9D0DEF1F44D52548A566",
+    "bytes": 143667
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_pages\\XLL2021_PDFp25.png",
+    "package_path": "04_evidence_and_corrections/source_page_images/XLL2021_PDFp25.png",
+    "sha256": "331B95B5BC4B60A17D55804E9D267E2E7234FC11BEC6AC0A806E482EAA55467F",
+    "bytes": 104496
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_pages\\XLL2021_PDFp31.png",
+    "package_path": "04_evidence_and_corrections/source_page_images/XLL2021_PDFp31.png",
+    "sha256": "4026219236717473DECE0F25D69895F66856E280F23D4FE00D7379B462187D7D",
+    "bytes": 129168
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_pages\\XLL2021_PDFp32.png",
+    "package_path": "04_evidence_and_corrections/source_page_images/XLL2021_PDFp32.png",
+    "sha256": "516459248A7242BF183FBE66319EAF1F4957D338B823AA133DFEB2F6EAA80993",
+    "bytes": 141140
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_pages\\XLL2021_PDFp6.png",
+    "package_path": "04_evidence_and_corrections/source_page_images/XLL2021_PDFp6.png",
+    "sha256": "C9D7576CA78C287A5E08C6F5A30C3E4F435B0EBF3D1589DC5D447D60E9A3186D",
+    "bytes": 170541
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_pages\\XLL2021_PDFp8.png",
+    "package_path": "04_evidence_and_corrections/source_page_images/XLL2021_PDFp8.png",
+    "sha256": "7D14CD6D5120654EB09B76A0D0DB1D58098382958E0AC28DD1C14E4DB3CBC02C",
+    "bytes": 212348
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\audit_pages\\XLL2021_PDFp9.png",
+    "package_path": "04_evidence_and_corrections/source_page_images/XLL2021_PDFp9.png",
+    "sha256": "53005028541D5DA97453CA3297EFE1E4B394B52D21B307255F47E5E5E44FAEDA",
+    "bytes": 222914
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\formula_pages\\BLP1995_pdf_09.png",
+    "package_path": "03_BLP_foundation/source_page_images/BLP1995_pdf_09.png",
+    "sha256": "D5071049EF70E9C7D9CE99B241480156CEB270DDEC69FE068D5069F2B74AA15C",
+    "bytes": 312985
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\formula_pages\\BLP1995_pdf_14.png",
+    "package_path": "03_BLP_foundation/source_page_images/BLP1995_pdf_14.png",
+    "sha256": "E39E3620B0EC694C9D1ADB13FDF3F035212A6FAD05289A8B9FAEF1293E461ED9",
+    "bytes": 310268
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\formula_pages\\BLP1995_pdf_15.png",
+    "package_path": "03_BLP_foundation/source_page_images/BLP1995_pdf_15.png",
+    "sha256": "ABC796249BC8CEA0CC269701CF615C67E97223415F82E976DEB1C06CBC8AA741",
+    "bytes": 323477
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\formula_pages\\BLP1995_pdf_25.png",
+    "package_path": "03_BLP_foundation/source_page_images/BLP1995_pdf_25.png",
+    "sha256": "8F7181B9F74C9C14CF7184CB000CC25B869F8693C026247F39BE558CBB0F33A1",
+    "bytes": 276766
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\formula_pages\\BLP1995_pdf_26.png",
+    "package_path": "03_BLP_foundation/source_page_images/BLP1995_pdf_26.png",
+    "sha256": "B3FD84814809E7F944B555DCD1B171E6D1A55E7D461FE090B904A462E67FB173",
+    "bytes": 301603
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\formula_pages\\BLP1995_pdf_27.png",
+    "package_path": "03_BLP_foundation/source_page_images/BLP1995_pdf_27.png",
+    "sha256": "EEF9ADAC15588CD607776CD8F09E77FCAFCC58D5F3AAE8FB6B7680C7223B94CD",
+    "bytes": 325449
+  },
+  {
+    "source": "D:\\codex\\output\\blp_bundle_20261007\\formula_pages\\BLP1995_pdf_28.png",
+    "package_path": "03_BLP_foundation/source_page_images/BLP1995_pdf_28.png",
+    "sha256": "3A7CE2E6197D18F7050E7CB9FC63066360E9B3E7587B727F3FB4B5660A558D5B",
+    "bytes": 349142
+  },
+  {
+    "source": "D:\\blp-lit-recommend-20261002\\BLP经典改造与近期改造文献推荐_20261002.md",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/BLP经典改造与近期改造文献推荐_20261002.md",
+    "sha256": "93D1FBD09F9E1EA151EBD43A71AD949ED2A334377F1723F0816010A0503B273F",
+    "bytes": 20103
+  },
+  {
+    "source": "D:\\blp-lit-recommend-20261002\\CHECKPOINT.md",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/CHECKPOINT.md",
+    "sha256": "BD5C488154CF93B5C514B2971419CCE876F689924E0BBAB3B935CA836DA190AA",
+    "bytes": 7705
+  },
+  {
+    "source": "D:\\blp-lit-recommend-20261002\\marker_check.csv",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/marker_check.csv",
+    "sha256": "7C4F6DDFA0F378A85A92CEC76E11883C18BC4E3E5D35D6B419AF59352DEE2FE4",
+    "bytes": 2192
+  },
+  {
+    "source": "D:\\blp-lit-recommend-20261002\\marker_snippets.md",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/marker_snippets.md",
+    "sha256": "981A743702D5AE092A175624F419148387684D0959CAC1744BFB50C746DCCB9A",
+    "bytes": 22781
+  },
+  {
+    "source": "D:\\blp-lit-recommend-20261002\\crossref_results.json",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/crossref_results.json",
+    "sha256": "0D803EB97AC0ED751FD687CCB5E7ADB2C3CD21CAB8CB4D7AC16982B88C8D205F",
+    "bytes": 6932
+  },
+  {
+    "source": "D:\\auto-demand-lit-2026-09\\原文PDF\\J03_Grieco_2024_QJE_author.pdf",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/original_pdfs/Grieco_2023_author_version.pdf",
+    "sha256": "D34B2ACB0047FF3C87CB809782FA5D39BC5B47F04AA8F9B313EF3E9DCC7EC60E",
+    "bytes": 518589
+  },
+  {
+    "source": "D:\\auto-demand-lit-2026-09\\原文PDF\\W07_Hong_2026_CEPR_author.pdf",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/original_pdfs/Hong_September2026_WP.pdf",
+    "sha256": "754DA49AF92ED60C2D75887F217BA3BBA02391054C14CA54E87C8947A18486C9",
+    "bytes": 10487525
+  },
+  {
+    "source": "D:\\auto-demand-lit-2026-09\\原文PDF\\J10_AleChilet_2026_REStud_journal.pdf",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/original_pdfs/AleChilet_2026_REStud.pdf",
+    "sha256": "5550F66623312152E19B55B224FE2E504AA106390CE246CD87261A011ABF51D0",
+    "bytes": 882609
+  },
+  {
+    "source": "D:\\codex\\research-memory\\pdfs\\Z47HEXTA_Petrin_2002.pdf",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/original_pdfs/Petrin_working_paper.pdf",
+    "sha256": "711A535E98487F90C2301BADB2A24B03152BD6F07729D2E0DD0A71D92CCF9F88",
+    "bytes": 727937
+  },
+  {
+    "source": "D:\\数据说明段_支撑文献md包_20260930\\08_Grieco_Murry_Yurukoglu_2024_QJE_美国汽车业市场势力演变_WP版原文.md",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/existing_Grieco_English_extraction.md",
+    "sha256": "12237529D76AD5E0B1B40A4630D208F8272CAC16C7733395E5651827DEFE3FDF",
+    "bytes": 139535
+  },
+  {
+    "source": "D:\\codex\\research-memory\\deep-reading\\blp40s_20260403\\notes\\25_z47hexta.md",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/existing_Petrin_reading_note.md",
+    "sha256": "A627BEF5C2AB6C20E2A6B81B0DA5F47B6218DAC0750244281D25C1ED27EE5D00",
+    "bytes": 6341
+  },
+  {
+    "source": "D:\\auto-demand-lit-2026-09\\fulltext\\W07.txt",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/W07_original_text.txt",
+    "sha256": "CA30B37D3D70792F59715DD5F0BCF80AA38721B5677CF56A7D7A2635908F0883",
+    "bytes": 160635
+  },
+  {
+    "source": "D:\\auto-demand-lit-2026-09\\cards\\W07.json",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/W07_reading_card.json",
+    "sha256": "C16D917B614EFEB1A48666661D7E5F44388441FD4B34C567369E193E974478BB",
+    "bytes": 2203
+  },
+  {
+    "source": "D:\\auto-demand-lit-2026-09\\fulltext\\J10.txt",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/J10_original_text.txt",
+    "sha256": "19D95019E811810573F46D16A4330F759669BD99E9190494DEF3BD04C88481E9",
+    "bytes": 132988
+  },
+  {
+    "source": "D:\\auto-demand-lit-2026-09\\cards\\J10.json",
+    "package_path": "05_previous_20261002_recommendations_not_all_fully_read/J10_reading_card.json",
+    "sha256": "C99F9693CCF6B90472A7DEC89948D17D27397E474C98755DB101F8D29DBE0EF1",
+    "bytes": 2131
+  }
+]

@@ -1,0 +1,3795 @@
+
+
+===== [PAGE 1] =====
+
+ 
+ 
+Vehicle Attribute Tradeoffs 
+and the Distributional Effects 
+of US Fuel Economy and 
+Greenhouse Gas Emissions 
+Standards 
+Benjamin Leard, Joshua Linn, and Katalin Springel 
+ 
+ 
+Working Paper 23-04 
+March 2023 
+
+
+===== [PAGE 2] =====
+
+Resources for the Future 
+ 
+ i 
+About the Authors 
+Benjamin Leard is a university fellow at Resources for the Future (RFF) as well as an 
+assistant professor and faculty fellow at University of Tennessee. He is an 
+environmental economist who focuses his work on transportation policy, climate 
+change, and discrete choice modeling. His recent work involves estimating household 
+preferences for vehicle attributes and evaluating the costs and benefits of fuel 
+economy and greenhouse gas standards for light duty vehicles. His work has been 
+published in Science and he has been cited in the Washington Post for his research on 
+consumer demand for autonomous vehicles. 
+Joshua Linn is a professor in the Department of Agricultural and Resource Economics 
+at the University of Maryland and a senior fellow at RFF. His research centers on the 
+effects of environmental policies and economic incentives for new technologies in the 
+transportation, electricity, and industrial sectors. His transportation research assesses 
+passenger vehicle taxation and fuel economy standards in the United States and 
+Europe. He has examined the effects of Beijing’s vehicle ownership restrictions on 
+travel behavior, labor supply, and fertility. 
+Katalin Springel is an assistant professor in the Department of Applied Economics at 
+HEC Montréal. Her research focuses on industrial organization, energy and 
+environmental economics, and public economics. 
+Acknowledgments 
+We thank seminar participants at American University, the Congressional Budget 
+Office, the Environmental Protection Agency, HEC Montreal, ITAM, the Pacific 
+Northwest National Laboratory, RFF, and the University of California at Davis and 
+participants at the Association of Environmental and Resource Economists Summer 
+Conference, International Industrial Organization Conference, International Workshop 
+on Empirical Methods in Energy Economics, and Northeast Workshop on Energy 
+Policy and Environmental Economics. We thank the Alfred P. Sloan Foundation for 
+funding this research. This paper supersedes two previously unpublished working 
+papers, “Have US Fuel Economy and Greenhouse Gas Emissions Standards Improved 
+Social Welfare?” and “Pass-Through and Welfare Effects of Regulations that Affect 
+Product Attributes.” 
+ 
+ 
+
+
+===== [PAGE 3] =====
+
+Vehicle Attribute Tradeoffs and the Distributional Effects of US Fuel Economy and Greenhouse Gas Emissions Standards 
+ ii 
+About RFF 
+Resources for the Future (RFF) is an independent, nonprofit research institution in 
+Washington, DC. Its mission is to improve environmental, energy, and natural resource 
+decisions through impartial economic research and policy engagement. RFF is 
+committed to being the most widely trusted source of research insights and policy 
+solutions leading to a healthy environment and a thriving economy.  
+Working papers are research materials circulated by their authors for purposes of 
+information and discussion. They have not necessarily undergone formal peer review. 
+The views expressed here are those of the individual authors and may differ from 
+those of other RFF experts, its officers, or its directors. 
+Sharing Our Work 
+Our work is available for sharing and adaptation under an Attribution-NonCommercial-
+NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license. You can copy and 
+redistribute our material in any medium or format; you must give appropriate credit, 
+provide a link to the license, and indicate if changes were made, and you may not 
+apply additional restrictions. You may do so in any reasonable manner, but not in any 
+way that suggests the licensor endorses you or your use. You may not use the 
+material for commercial purposes. If you remix, transform, or build upon the material, 
+you may not distribute the modified material. For more information, visit 
+https://creativecommons.org/licenses/by-nc-nd/4.0/. 
+ 
+ 
+
+
+===== [PAGE 4] =====
+
+Vehicle Attribute Tradeoffs and the Distributional Effects of US
+Fuel Economy and Greenhouse Gas Emissions Standards
+Benjamin Leard* University of Tennessee and Resources for the Future
+Joshua Linn
+University of Maryland and Resources for the Future
+Katalin Springel
+HEC Montreal
+March 2023
+Abstract
+This paper presents welfare and distributional effects of US passenger vehicle
+fuel economy and greenhouse gas standards between 2012 and 2022.
+We build an
+equilibrium model that allows for endogenous markups, market shares, and nonprice
+attributes.
+The model includes fixed and variable costs of raising fuel economy,
+manufacturer substitution between fuel economy and performance, and heterogeneous
+consumer preferences and manufacturer costs. We estimate all demand and supply
+parameters from observed consumer and manufacturer choices.
+We find that the
+standards have increased social welfare and that consumer undervaluation of fuel
+cost savings accounts for most of the social benefits.
+Manufacturers achieve most
+fuel economy improvements by trading off horsepower rather than adjusting prices or
+adding fuel-saving technology. Due to this compliance strategy, the standards have been
+progressive because high-income households value horsepower much more than low-
+income households do. Consumer undervaluation of fuel cost savings also contributes
+to progressivity.
+Keywords: fuel economy standards, attribute trade-offs, medium run
+JEL codes: L11, L50, L62, Q41
+*Leard (leard@rff.org) i s a n a ssistant p rofessor a t t he U niversity o f Tennessee a nd a  u niversity fellow 
+at Resources for the Future (RFF). Linn (linn@rff.org) is a professor at the University of Maryland and a 
+senior fellow at RFF. Springel (katalin.springel@hec.ca)is an assistant professor at HEC Montreal. We thank 
+seminar participants at American University, the Congressional Budget Office, the Environmental Protection 
+Agency, HEC Montreal, ITAM, the Pacific N orthwest N ational L aboratory, R FF, a nd t he U niversity of 
+California at Davis and participants at the Association of Environmental and Resource Economists Summer 
+Conference, International Industrial Organization Conference, International Workshop on Empirical Methods 
+in Energy Economics, and Northeast Workshop on Energy Policy and Environmental Economics. We thank 
+Alfred P. Sloan Foundation for funding this research. This paper supersedes two previously unpublished 
+working papers, “Have US Fuel Economy and Greenhouse Gas Emissions Standards Improved Social 
+Welfare?” and “Pass-Through and Welfare Effects of Regulations that Affect Product Attributes.”
+1
+
+
+===== [PAGE 5] =====
+
+1
+Introduction
+Economists recognize that government policy, such as antitrust or environmental
+regulations, can affect attributes of products selling in differentiated markets. For example,
+mergers between competing airlines or health care providers, or setting energy efficiency
+standards for home appliances, may affect product quality and offerings (Chen and Gayle
+2019; Johnson and Rhodes 2021; Houde 2018). Studies on the welfare effects of such policies
+typically employ equilibrium models that endogenize product prices and attributes. Attribute
+changes could also have distributional consequences across consumer demographic groups,
+but this literature has largely focused on aggregate welfare implications of attribute choices
+rather than distributional effects across consumers. Most literature on the distributional
+effects of policy considers policy-induced product price changes, holding attributes fixed
+(Weyl and Fabinger (2013), Ganapati et al. (2018)).
+We evaluate the welfare and distributional effects of price and nonprice attribute
+changes caused by US passenger vehicle fuel economy and greenhouse gas (GHG) standards.
+Passenger vehicles are the main source of GHG emissions from the transportation sector.
+Most countries that aim to reduce transportation sector emissions rely primarily on passenger
+vehicle fuel economy and GHG standards, and about half of all new passenger vehicles sold
+globally are subject to such standards. The US standards have tightened since 2005, but they
+have been highly controversial; the Obama, Trump, and Biden administrations successively
+tightened, weakened, and then retightened them.
+Across the three administrations, the
+regulatory agencies – the National Highway Traffic Safety Administration (NHTSA) and
+Environmental Protection Agency (EPA) – have justified their actions based on regulatory
+costs and distribution of costs across income groups.
+We evaluate whether US standards have increased welfare and been progressive or
+regressive across income groups after accounting for their price and nonprice attribute
+changes.
+Klier and Linn (2012) and Whitefoot et al. (2017) find that by trading off
+performance for fuel economy, manufacturers can reduce the welfare costs compared to a
+counterfactual in which performance is exogenous. However, like the broader literature on
+policy and differentiated product markets, these studies consider only the aggregate welfare
+implications of attribute changes. Studies on the distributional effects of the standards, such
+as Jacobsen (2013), Davis and Knittel (2016) and Levinson (2016), endogenize vehicle prices
+or fuel economy but not other attributes, such as performance. We model fuel economy-
+performance tradeoff compliance behavior between 2012 through 2022, when the standards
+tightened by 33 percent. In doing so, our paper represents the first retrospective welfare
+2
+
+
+===== [PAGE 6] =====
+
+analysis of any fuel economy or GHG standards and the first to consider the distributional
+consequences of changes caused by manufacturers trading off nonprice attributes.1
+We estimate the standards’ welfare effects with a model that incorporates advances
+in modeling both the supply and the demand sides of the new-vehicles market. For the
+supply component of the model, manufacturers choose fuel-saving technology, fuel economy,
+horsepower, and prices to maximize profits.
+One can conceive of a frontier in the fuel
+economy–horsepower space. Adopting costly fuel-saving technology causes the frontier to
+shift away from the origin; having chosen a technology level, the manufacturer can move
+along the frontier as it trades off fuel economy for horsepower without affecting production
+costs. It can comply with standards by adjusting prices to increase relative sales of vehicles
+that exceed their fuel economy requirements, adopting fuel-saving technology, and trading
+off horsepower.
+The supply component includes three advances over the literature. First, we allow for
+the possibility that the standards affect the rate of fuel-saving technology adoption as well
+as fuel economy and horsepower changes. Prior papers employing equilibrium models of the
+vehicle market include the assumption that standards do not affect the rate of adoption,
+which contradicts reduced-form evidence in Klier and Linn (2016).
+Second, we introduce a fixed and sunk cost of adding fuel-saving technology that arises
+from redesigning and testing the vehicle.
+Blonigen et al. (2017) estimate that typical
+fixed costs of a redesign amount to around $1 billion, which includes adopting fuel-saving
+technology and other redesign elements, such as restyling the exterior. Adopting emissions-
+reducing technologies likely introduces one-time fixed costs, as discussed in National Research
+Council (2015) and EPA and NHTSA rulemaking, such as EPA (2010). EPA and NHTSA
+assume that a constant markup above marginal costs covers fixed costs, but the economics
+literature has ignored the possibility that firms incur fixed costs when adopting technology.2
+We introduce a redesign cost that increases with the amount of adoption but is fixed with
+respect to sales; unlike EPA and NHTSA assumptions, markups are endogenous. Every five
+years, manufacturers redesign their vehicles and choose fuel-saving technology.
+1The literature has considered welfare effects of relatively small changes in standards’ stringency. Klier
+and Linn (2016) estimate weight, horsepower, and fuel economy effects of US and European GHG standards
+and report back-of-the-envelope estimates of welfare effects caused by the attribute changes; they do not
+perform a distributional analysis. Ito and Sallee (2018) estimate the effects of Japan’s standards on weight
+and estimate aggregate welfare effects of small hypothetical policy changes.
+2More precisely, EPA and NHTSA distinguish between direct costs of an emissions-reducing or fuel-saving
+technology, which include the increase in production costs, and indirect costs, which include all other costs,
+such as both fixed and variable costs. We distinguish between variable and fixed costs rather than direct
+and indirect costs.
+3
+
+
+===== [PAGE 7] =====
+
+The third unique feature of the supply side is that we use manufacturer profit
+maximization first-order conditions and observed attribute choices to estimate all supply
+parameters, including marginal costs, fixed costs of technology adoption, the technological
+trade-off between fuel economy and horsepower, and the shadow prices of the standards.
+We estimate the fixed costs from observed efficiency improvements over time, and we jointly
+estimate marginal costs of production and shadow price of the regulatory constraint from
+observed price and attribute choices. In contrast, most studies, such as Klier and Linn (2012),
+use National Academies of Sciences reports to estimate technology costs. We find that fixed
+costs rise quickly with efficiency improvements. Implied shadow prices of increasing fuel
+economy have the same order of magnitude as the shadow price implied by observed credit
+prices (Leard and McConnell 2017).
+A distinguishing feature of the demand side of the model is that we define vehicles at
+a highly disaggregated level, with several times more unique vehicles than in other studies,
+and we allow for extensive heterogeneity in consumer preferences. The choice set of vehicles
+available for purchase is comparable to that in the agencies’ analysis. The disaggregation
+allows us to estimate more realistic preference parameters and substitution elasticities than
+models that include more aggregated choice sets. We define 20 demographic groups based
+on income (5 groups), age (2 groups), and population density (2 groups). We estimate a
+unique set of preferences using data that cover the study period.
+The main data set is
+built from survey responses of about 1.5 million new-vehicle buyers between 2010 and 2018,
+supplemented with data from the Consumer Expenditure Survey (CEX), IHS Automotive,
+the Bureau of Labor Statistics, and Wards Auto.
+The household survey data include
+demographics such as income, age, and urbanization, which we use to estimate heterogeneous
+preferences for vehicle attributes. We observe wide variation in vehicle purchase patterns
+across groups.
+We find that consumers undervalue fuel economy; a typical consumer is willing to pay
+about $0.22 for $1 of present value fuel cost savings over the life of a vehicle, which is
+consistent with recent literature (e.g., Gillingham et al. (2019)). Low-income consumers are
+more sensitive to vehicle prices and willing to pay substantially less for fuel economy and
+horsepower improvements than high-income consumers.
+These demand estimates indicate three reasons that tightening standards may be
+progressive.
+First, the lower price sensitivity of the highest-income group means that
+manufacturers can pass through more of the compliance costs to vehicles purchased by high-
+income households (such as luxury cars) than low-income households (such as compact cars).
+Second, the larger undervaluation for the lowest-income group indicates that it benefits
+4
+
+
+===== [PAGE 8] =====
+
+more than the highest-income group from fuel economy improvements caused by tighter
+standards; in other words, the demand estimates imply that low-income consumers obtain
+a larger internality benefit over the life of a vehicle that gets better fuel economy. Third,
+low-income consumers care less about the lower performance when manufacturers trade off
+for fuel economy.
+On the other hand, Jacobsen (2013) points out that low-income consumers are more likely
+to buy used vehicles. To the extent that tighter standards reduce demand for new vehicles, as
+the two are substitutes for one another, used vehicle prices would increase. This would harm
+low-income consumers more than others, pushing against the three sources of progressivity
+in the preceding paragraph. Our model includes the used-vehicle channel, which we can
+compare to the three other reasons.
+To assess the overall welfare and distributional effects of the standards, we use the model
+to perform a static analysis of the standards by comparing steady states that occur 10
+years after they are announced.
+Because manufacturers redesign their vehicles every 5
+years, the 10-year period allows two redesigns for compliance. We compare two scenarios:
+maintaining stringency at 2012 levels and tightening to 2022 levels. The scenarios include
+common assumptions about fuel prices, aggregate new vehicle demand, and battery costs
+using data from 2022.
+Our welfare analysis allows for the possibility that consumers
+undervalue the fuel costs of potential purchases.3 Although Busse et al. (2013) conclude
+that consumer choices are consistent with rational behavior, Allcott and Wozny (2014) find
+some evidence of undervaluation, and Leard et al. (2017) and Gillingham et al. (2019) find
+substantial evidence. Thus, at a minimum, the recent literature leaves open the possibility
+that consumers systematically undervalue fuel economy. The regulatory agencies implicitly
+assume consumers undervalue fuel costs, but except for Allcott (2013), the literature
+has reported welfare estimates based on the assumption, either implicit or explicit, that
+consumers fully value fuel costs.4 Consistent with our finding that consumers undervalue
+fuel economy, our counterfactual scenarios use estimated consumer preferences to predict
+their choices and the present discounted value of fuel cost savings to compute welfare.
+3If consumers systematically undervalue fuel costs, manufacturers would have insufficient incentive to
+adopt fuel-saving technology. Fuel economy or GHG standards could increase private welfare and be more
+cost effective than a carbon tax (Allcott and Greenstone 2012).
+4NHTSA and EPA do not explicitly state their assumption that consumers undervalue fuel costs. They
+implicitly assume undervaluation, given their assumption about baseline technology adoption, and that
+technologies that have a certain payback are adopted by manufacturers in the absence of fuel economy and
+GHG regulation. Other technologies are only adopted if it is cost-effective to do so because of regulation.
+The assumed payback period implies a substantial degree of undervaluation (Bento et al. 2018).
+5
+
+
+===== [PAGE 9] =====
+
+Compared to maintaining the 2012 levels, the 2022 standards increased social welfare by
+$83 billion, or about $1,200 per vehicle-buying household; these numbers correspond to the
+lifetime welfare accruing to manufacturers that produced and consumers that bought vehicles
+in a single year. Although it is difficult to compare our estimate directly to ex ante estimates
+by EPA and NHTSA, ours appears to be smaller. Nonetheless, like the agencies predicted,
+we find that standards have improved social welfare substantially. Fuel cost savings, rather
+than GHG emissions reductions, account for the majority of welfare gains, which is also
+consistent with EPA analysis.
+Manufacturers comply with tighter standards by adopting additional fuel-saving
+technology and trading off horsepower, with the latter accounting for the majority of fuel
+economy improvements.
+Manufacturers incur $6 billion of fixed costs for the technology
+adoption in the high-stringency scenario, which represents a substantial portion of overall
+welfare changes.
+We note that the extensive heterogeneity in the model yields accurate estimates
+of manufacturers’ compliance behavior and the standards’ overall benefits and costs.
+Consumers have heterogeneous preference parameters; manufacturers have heterogeneous
+costs for technology adoption and trading off performance. That is, the cost to manufacturers
+of trading off the attributes depends partly on consumer valuation of them. For example,
+Fiat-Chrysler buyers typically have higher willingness to pay (WTP) for performance than
+do Toyota buyers, making it more costly (in terms of forgone profits) for Fiat-Chrysler to
+trade off performance. The simulations reveal substantial variation in compliance strategies
+across manufacturers, which is consistent with observed outcomes.
+Turning to the distributional effects of the standards, we find that tighter standards
+increase welfare of all income groups.
+The 2022 standards increased the welfare of the
+lowest-income group by $1,700 per household. The welfare increase diminishes steadily with
+income; that of the highest-income group is just one-third that of the lowest-income group.
+Thus, the three factors contributing to progressivity (price sensitivity, undervaluation, and
+performance WTP) outweigh the used-vehicle market effects.
+To determine which of those factors explains the estimated progressivity, we simulate
+counterfactual scenarios that include differing assumptions on the preference parameters.
+Assuming no undervaluation among all consumer groups eliminates internality benefits from
+tightening standards, reducing consumer welfare. If we simulate counterfactuals without
+undervaluation, the 2022 standards reduce welfare by $15 billion rather than increase it,
+which is consistent with our finding that fuel cost savings account for most of the estimated
+6
+
+
+===== [PAGE 10] =====
+
+benefits using estimated parameter values.
+The standards remain progressive when we
+eliminate undervaluation, indicating that it does not explain the progressivity. Likewise,
+we estimate standards to be progressive if we simulate counterfactuals assuming that all
+consumers have the same price sensitivity.
+In contrast, if we eliminate consumer heterogeneity in demand for performance, standards
+are regressive. This implies that the consumer preferences for performance, which is indirectly
+affected by the standards, explain the estimated progressivity.
+We focus our modeling on the new-vehicles market to address deficiencies in existing
+models used to evaluate fuel economy standards.
+The literature has identified three
+inefficiencies of standards compared with a carbon tax:
+the rebound effect, vintage-
+differentiated regulation, and the use of tested rather than on-road emissions to assess
+compliance. Our welfare estimates account for the rebound effect and on-road emissions
+using the same approach as the EPA and NHTSA in their welfare analysis, which facilitates
+comparison between our results and theirs.
+Like them, we do not include the effects of
+vintage-differentiated regulation on scrappage of older vehicles. Moreover, we do not include
+certain benefits of higher fuel economy, such as reduced refueling time, because of the
+numerous additional assumptions that would be necessary.
+The results in Jacobsen and
+van Benthem (2015) and the agencies’ analysis suggest that including these margins would
+likely strengthen our finding that the standards have increased social welfare.
+Above, we noted that our estimated total welfare gains of the standards appear to be
+somewhat smaller than the EPA and NHTSA ex ante predictions, although nonetheless we
+find large positive gains. Our analysis differs from theirs in two important ways. First,
+they estimate benefits for a single representative consumer, which precludes distributional
+analysis.
+In contrast, our demand model differentiates consumers according to their
+demographics. Second, the agencies assume the standards do not affect horsepower, which
+eliminates the channel through which the standards have been progressive across income
+groups.
+The papers most closely related to ours are Klier and Linn (2012), Whitefoot et al.
+(2017), Jacobsen (2013), and Reynaert (2021).
+Klier and Linn (2012) and Whitefoot
+et al. (2017) allow trading off fuel economy for horsepower, but they do not include fixed
+costs or technology adoption when standards do not tighten.
+Moreover, their consumer
+preferences are estimated using data from the mid-2000s, and we find evidence that consumer
+preferences have changed substantially over time. Similar to our paper, Jacobsen (2013) uses
+an equilibrium model to estimate welfare effects, but in contrast, he finds that standards
+7
+
+
+===== [PAGE 11] =====
+
+are regressive.
+However, performance is exogenous in Jacobsen (2013), which explains
+our differing results. Finally, like our paper, Reynaert (2021) allows for endogenous fuel
+economy and fixed costs of technology adoption but uses prepolicy data (for the European
+GHG standards) and does not analyze distributional consequences of the standards. Using
+observed gasoline prices and market conditions allows us to characterize the realized welfare
+effects of the standards.
+In short, ours is the first to conduct a retrospective analysis
+of standards and to simultaneously endogenize performance and analyze distributional
+consequences of the standards.
+More broadly, our estimation of supply parameters can be adapted for analyzing other
+markets in which producers design and test their products, choosing multiple attributes that
+consumers value. For example, regulating home appliances’ energy efficiency could induce
+research and development in energy efficiency and affect multiple product attributes (Houde
+and Spurlock 2015).
+2
+Policy Context, Data, and Market Trends
+This section provides a brief overview of US fuel economy and GHG standards, describes
+the main data sources, and summarizes recent trends in the US new passenger vehicle market.
+2.1
+Policy Context
+The 2008 Energy Independence and Security Act requires NHTSA to set fuel economy
+standards through 2030. The 2009 Supreme Court ruling in Massachusetts v. EPA granted
+EPA the authority to regulate passenger vehicles’ GHG emissions under the Clean Air Act. In
+2009, the Obama administration set requirements for the first phase of new joint fuel economy
+and GHG standards, requiring manufacturers to increase the fuel economy and reduce
+tailpipe GHG emissions of passenger vehicles sold during 2012–2016. In 2011, EPA and
+NHTSA set standards through 2025, which would have roughly doubled average new vehicle
+fuel economy between 2005 and 2025.5
+In 2020, the Trump administration substantially
+weakened standards for 2021–2026, which it justified by arguing that lower-than-expected
+gasoline prices reduced the benefits and higher-than-expected technology costs raised the
+costs of tighter standards. In 2022, the Biden administration chose to exceed the original
+Obama standards through 2026.
+5The fuel economy increase refers to the fuel economy used to assess compliance, which is based on a
+specified laboratory testing procedure that yields fuel economy ratings that are roughly 20–25 percent higher
+than those on new vehicles’ window stickers. We use the window sticker values in the demand estimation.
+8
+
+
+===== [PAGE 12] =====
+
+Each manufacturer faces a standard that depends on the sales-weighted fuel economy
+requirements of the vehicles it produces for sale in the United States, which depends on
+class (car or light truck) and footprint (roughly, the area defined by the four wheels). Cars
+have higher fuel economy and lower GHG requirements, and a smaller footprint means a
+higher fuel economy requirement. Consequently, manufacturers that produce more cars and
+smaller vehicles face higher fuel economy standards. As noted, manufacturers can comply
+by adopting fuel-saving technology, trading off horsepower, or adjusting prices to increase
+the market shares of vehicles whose fuel economy exceeds their requirements.
+Along with setting the new federal standards, the federal agencies perform a regulatory
+impact analysis (RIA) that estimates benefits and costs of future standards. It includes
+only fuel-saving technology adoption, treating horsepower and market share as exogenous.
+In 2010, EPA predicted net benefits, defined as the difference between benefits and costs,
+of $228 billion (2018$) for vehicles sold between 2012 and 2016 ($45 billion per year). In
+2011, EPA estimated net benefits of the 2017–2025 standards of $519 billion ($58 billion per
+year). Note that the 2016 standards are the baseline against which the welfare gains of the
+2017–2025 standards were estimated. However, because assumptions differ between the 2010
+and 2011 analyses, it is not appropriate to add the two estimates together to compute total
+net benefits of 2012–2025 standards. Likewise, it is difficult to compare the Trump and Biden
+administration estimates with the Obama estimates because technology and other economic
+assumptions differ.
+2.2
+Data
+The primary data source for our analysis is the InMoment (formerly MaritzCX) New
+Vehicle Customer Survey. InMoment conducts a monthly survey of households that recently
+purchased or leased a new vehicle, with a response rate of about 9 percent. Our data include
+about 1.5 million transactions between 2010 and 2018, which represents about a 1 percent
+sample of new-vehicle buyers.
+The InMoment survey asks detailed questions about the vehicle and household
+demographics. Respondents report sales or lease prices of their recently obtained vehicle,
+which include sale taxes but exclude any credit received from trade-ins.6 These prices may
+be substantially different from the manufacturer’s suggested retail price (MSRP) frequently
+used in studies, because the transaction price reflects the outcome of price negotiations
+between the survey respondent and salesperson or unobserved promotions offered by the
+6For about 10 percent of the transactions, we do not observe prices. We impute prices for these missing
+observations based on observed transaction prices of the most closely related vehicles in the data.
+9
+
+
+===== [PAGE 13] =====
+
+dealer or manufacturer. The advantage of using transaction prices rather than MSRP in our
+empirical analysis is that it reduces concerns about price measurement error. Demographic
+information includes the respondent’s age and years of schooling, household income (defined
+as total annual household income from all sources, including wage and investment, before
+taxes), state of residence, and urbanization (defined by population density).
+The InMoment survey data also include the vehicle identification number for each
+observation.
+This allows us to define vehicles at a highly disaggregated level and yields
+about 1,000 unique vehicle choices for consumers each year. Specifically, a vehicle is defined
+by a unique model year (MY), make, model, trim or series, drive type, fuel type, body style,
+and number of cylinders.
+Each MY is defined as October of the previous calendar year
+to September of the current calendar year. For example, MY 2015 is defined as October
+2014 to September 2015. This definition aligns closely with the typical vehicle production
+cycles observed in practice—that is, vehicle characteristics remain the same during each MY
+but may change across MYs. The level of vehicle aggregation better reflects the choice set
+available to consumers when they make their purchase or lease decision, compared with the
+approach common in the literature, which defines a vehicle at the model level. For example,
+consumers may choose among versions of a model that have different body style (such as
+coupe or sedan) or engine size (such as four-cylinder or six-cylinder); our data distinguish
+these choices. Furthermore, EPA and NHTSA define a unique vehicle in a similar fashion,
+which eases the comparison between our and their welfare analyses of the fuel economy
+and GHG standards. This highly differentiated choice set improves the identification of the
+preference parameters compared with work that relied on more aggregated choice sets. The
+level of disaggregation also alleviates concerns regarding measurement error and the resulting
+bias in the estimated preference parameters.
+We complement the survey data with a variety of other data.
+We use fuel economy
+ratings (miles per gallon) from EPA.7 For each vehicle’s fuel economy, we use combined city
+and highway fuel economy ratings. The fuel-saving technologies include engine technologies,
+such as cylinder deactivation, turbochargers, gasoline direct injection, and valve timing and
+lift, and transmission technologies, such as additional gears and continuously variable or
+dual-clutch transmissions.
+For each vehicle, we merge characteristics data from Wards
+7We link the EPA data to the InMoment data by vehicle, except for body style, which is not reported in
+the EPA data but is unlikely to substantially reduce the available variation in fuel economy. Based on the
+Wards Automotive data, our definition of a unique vehicle (excluding differentiation by body type) preserves
+99 percent of variation in the EPA estimated fuel economy rating across all new vehicles.
+10
+
+
+===== [PAGE 14] =====
+
+Automotive, which include MSRP, horsepower, size-related measures (such as width, height,
+and length), curb weight, and wheelbase.8
+We supplement the main data set by adding new vehicle registration data obtained
+from IHS Automotive and new- and used-vehicle sales from the CEX.9 The IHS data
+include quarterly vehicle registrations for all US households, providing us with market-level
+information on vehicle demand. We obtain a count of used-vehicle purchases by year and
+demographic group from the CEX data to use in our consumer demand model, in which
+we define the outside option as the decision to purchase a used vehicle. We use the IHS
+Automotive and CEX data to correct for nonrandom sampling of the InMoment survey. In
+particular, we construct weights for the observations in the InMoment data to match the
+distribution of sales across vehicles in the IHS data and across demographic groups in the
+CEX data.10
+We define 20 demographic groups:
+5 income groups (constructed to approximately
+represent the income quintiles of the distribution of households in the CEX data), 2 age
+groups (defined as the respondent being younger than the median age of 45 in the data or
+45+), and an urbanization indicator (equaling 1 if the household is located in an area with a
+population density above the median). Additionally, the demographic groups are defined to
+roughly match the count of households in the CEX data for each group.
+The detailed
+demographic information obtained from the InMoment survey allows us to differentiate
+purchases made across different demographic groups and estimate heterogeneous preferences
+for each vehicle attribute. Our choice of demographic groups is motivated by the fact that,
+as the next subsection shows, observed purchase patterns vary substantially within income
+groups and across age groups and urbanization rather than just across income groups.
+Finally, fuel prices come from the US Energy Information Administration. We deflate all
+transaction and fuel prices using the Bureau of Labor Statistics Consumer Price Index and
+adjust them to 2018 US dollars.
+2.3
+Summary Statistics
+Table 1 presents summary statistics. The average transaction price is $35,411, which is
+consistent with market reports.11 The pooled sample column shows average fuel economy is
+8For a small number of vehicle transactions with missing observations, we impute car attributes using
+data from Cars.com.
+9We merge the IHS data to the InMoment survey data by vehicle and the CEX data by MY, make, and
+vehicle class, which is an indicator equaling 1 if the vehicle is a light truck.
+10See Appendix for more details on the weighting procedure.
+11See, for example, https://www.coxautoinc.com/market-insights/kbb-atp-may-2022/.
+11
+
+
+===== [PAGE 15] =====
+
+25.5 miles per gallon, and cost per mile (defined as the relevant fuel price multiplied by the
+rate of fuel consumption per mile) is about 13 cents per mile. Car and SUV sales shares are
+46 and 39 percent; pickup trucks and vans represent the remainder.12
+Although we have 20 demographic groups, because our policy analysis focuses on
+distributional effects of the standards across income groups, the remaining columns report
+average characteristics of vehicles bought by the 5 income groups. As expected, the average
+transaction price increases with income. Low-income households tend to purchase vehicles
+with higher fuel economy, which is consistent with the negative correlation between price
+and fuel economy.
+Throughout the paper, we use the log of the ratio of horsepower to
+weight as a measure of performance, because this variable is directly proportional to the
+time needed to accelerate a vehicle from rest to 60 miles per hour; it is also used commonly
+in the literature (Greene et al. 2018). High-income households tend to buy vehicles that have
+better performance, are larger, and have all-wheel drive and more hybrid, plug-in hybrid,
+and electric vehicles.
+2.4
+Market Trends and Stringency of the Standards
+We plot trends in the new-vehicle market during our sample period (2010–2018). Panel
+A of Figure 1 plots sales-weighted average fuel economy of all US new cars and light trucks
+sold; it increases gradually, by about 6 and 4 miles per gallon (about 19–24 percent relative
+to 2010 levels). In Panel B of Figure 1, we plot the sales-weighted performance for cars and
+light trucks. Performance of light trucks increased rapidly at the beginning and then more
+slowly, whereas car performance was flat in the beginning before increasing. These patterns
+reflect changes in product offerings as well as variation in consumer choices across available
+options.
+Panel C reports vehicle sales-weighted purchase prices (2018$) separately for cars and
+light trucks. Real purchase prices declined gradually for both categories, with the average
+being about $28,000 and $36,000.
+Figure A.1 shows the changes in stringency between 2012 and 2022. For every vehicle
+in the 2012 sample, we plot its footprint, fuel economy, and calculated requirement for 2012
+and 2022. The two panels show the scatter plot for cars and light trucks. In both panels,
+many 2012 vehicles exceed their 2012 requirements (in orange). But the 2022 standard is
+sufficiently stringent that most 2012 vehicles have fuel economy well below their requirements.
+Most of the vehicles exceeding their 2012 requirement have small footprints.
+12These shares changed during our sample period, with SUVs gaining market share.
+12
+
+
+===== [PAGE 16] =====
+
+3
+The Equilibrium Model
+We model the equilibrium of the US market for new light-duty vehicles. This section
+presents the demand and supply sides of the market separately.
+3.1
+Demand
+We define each market as an MY, indicated by t. Households maximize utility by choosing
+among a composite used vehicle and a set of new vehicles. Household i experiences utility
+uijt by choosing vehicle j in MY t, where j = 1, 2, ..., Jt indexes new vehicles available
+in MY t, and j = 0 is a composite used vehicle. We index vehicle attributes by k and
+household characteristics by d. We assign households to demographic groups indexed by g,
+and we define the 20 demographic groups that were discussed in Section 2. The base group
+is defined as being the lowest-income group, young, and urban. The indirect utility uijt of
+household i from choosing vehicle j in market t is
+uijt = vijt + εijt = fgjkt + δjt + εijt.
+(1)
+The term fgjkt includes components of utility that are unique to each household group.
+For example, fgjkt includes a taste parameter for price that differs across income groups. The
+term εijt is household i’s unobserved utility for vehicle j that is unexplained by the observed
+vehicle attributes.
+Under the standard assumption that the error term εijt has a type 1 extreme value
+distribution, the probability that household i chooses vehicle j in market t is
+Prijt =
+evijt
+P
+l evilt .
+(2)
+For each demographic group, we normalize the utility of purchasing the composite used
+vehicle to 0.
+Based on this assumption and Equation (2), in the Appendix, we derive
+an equation linking observed market shares, product attributes and marginal utilities, and
+unobserved product attributes:
+ln(sgjt) −ln(sg0t) = fgjkt + δjt
+(3)
+where sgjt and sg0t are market shares for vehicle j and the outside option (defined as a used
+vehicle purchase) for demographic group g in market t.
+13
+
+
+===== [PAGE 17] =====
+
+We make several comments on the structure of the choice model that yields Equation
+(3). Each of the 20 demographic groups has a unique fgjkt. The heterogeneity implies that
+aggregate substitution patterns are more plausible than those implied by a logit demand
+model without heterogeneity across groups.
+For example, an increase in the price of all
+BMW vehicles has a larger effect on the market share of vehicles purchased by high-
+income than low-income consumers. That is, the model structure relaxes the assumption
+of independence of irrelevant alternatives across demographic groups. Therefore, the cross-
+group heterogeneity allows a price increase for one vehicle to affect market shares of other
+vehicles disproportionately. For example, our model allows a price increase for all BMW
+vehicles to have a larger effect on market shares for Audi than for Chevrolet vehicles.
+Our model is similar in spirit to Berry et al. (1995), in that we model heterogeneous
+preferences for vehicle attributes. An important difference between our model and a random-
+coefficients logit model is that, aside from the error term in Equation (3), our demographic
+groups explain all preference heterogeneity, with no within-group preference heterogeneity.
+For that reason, we include an extensive set of vehicle attributes in fgjkt, as we explain in
+the next section.
+We use Equation (3) as opposed to the traditional random coefficients in Berry et al.
+(1995) to characterize heterogeneity for two reasons.
+First, the distributional analysis
+requires linking household demographics with preferences for vehicle attributes. The demand
+structure allows us to show how the estimated preference parameter values map directly to
+welfare changes for each group. This relationship is less transparent in a random-coefficients
+logit model.
+The second reason is for computational purposes. Random-coefficients models in the
+style of Berry et al. (1995) require simulating choice probabilities and using an inner loop
+contraction mapping; they need significant time to estimate and are prone to convergence
+issues, which can yield biased elasticity estimates (Knittel and Metaxoglou 2014). In contrast,
+our approach estimates the heterogeneity parameters with a fixed effects regression that is
+computationally fast and avoids convergence issues.13
+13Many papers include demand models in which changes in choice sets across markets identify heterogeneity
+parameters, making it difficult to determine whether the implied heterogeneity reflects preferences or
+something else (Ackerberg and Rysman 2005). In contrast, our model identifies heterogeneity parameters
+by variation across demographic groups in response to variation in vehicle attributes across vehicles and
+markets.
+14
+
+
+===== [PAGE 18] =====
+
+3.2
+Supply
+Before describing the supply side of the model, we discuss briefly the three main supply-
+side simplifications in the literature that we relax. First, most literature has ignored the
+possibility that standards can affect attributes besides fuel economy. Goldberg (1998) and
+Jacobsen (2013), among others, hold fixed other attributes, such as horsepower. However, as
+in Knittel (2011), one can conceive of a frontier defined by a level of fuel-saving technology.
+For a given engine size, a manufacturer can retune the engine or make small technology
+changes to reduce horsepower, moving along the frontier. Klier and Linn (2016) show that
+standards have affected performance (using horsepower as a proxy for performance), and Ito
+and Sallee (2018) suggest that standards could affect an even broader range of attributes.
+To our knowledge, only Klier and Linn (2012) and Whitefoot et al. (2017) allow performance
+to be endogenous in their models.
+Second,
+the
+literature
+has
+not properly accounted for technology adoption in
+counterfactuals in which standards do not tighten over time. Knittel (2011) and Klier and
+Linn (2016) show that historically, during periods when standards were not tightening, such
+as the 1990s and early 2000s, manufacturers adopted fuel-saving technologies and used the
+efficiency improvements to increase vehicle size and performance (i.e., horsepower or torque)
+yet maintained a constant level of fuel economy. In contrast, during periods when standards
+tighten, manufacturers adopt more technology and also shift along the frontier, trading off
+performance. This situation implies that tightening standards could increase fuel economy
+but decrease performance, relative to the equilibrium if standards remain fixed, and increase
+the rate of technology adoption.
+Studies that endogenize performance have assumed an
+exogenous rate of technology adoption.
+Third, except for Reynaert (2021), the literature does not include the fixed costs of
+technology adoption. Vehicle manufacturers redesign each vehicle every 5–7 years, and as
+discussed, the economics literature has largely ignored the possibility of fixed costs when
+adopting technology.
+As we explain next, the supply side avoids all three simplifications. Following Klier and
+Linn (2012), we model the supply side in two periods. A set of vehicles in the market have
+initial values of the same attributes included in the demand model.
+Each manufacturer
+maximizes profits.
+In the first period, the manufacturer designs the vehicle and chooses a level of technology,
+Td(j), where the subscript indicates that this is the same for each model, d.
+It has the
+opportunity to add technology for each of the models it sells.
+15
+
+
+===== [PAGE 19] =====
+
+The second period represents the five years that follow the design period, reflecting the
+typical cycle length. Given initial values of fuel economy and horsepower, the manufacturer
+chooses fuel economy, horsepower, and price. The level of technology corresponds directly
+to energy efficiency: a higher level allows the manufacturer to increase fuel economy without
+sacrificing horsepower. Technology is scaled such that increasing Td(j) by 0.01 units allows
+the manufacturer to increase fuel economy by 1 percent. Having chosen a level of technology,
+the manufacturer can trade off fuel economy for performance. Thus, the representation of
+technology corresponds to a production possibilities frontier in horsepower–fuel economy
+space. Increasing the level of Td(j) causes the frontier to shift away from the origin, and after
+choosing Td(j), the manufacturer can move along the frontier as it trades off horsepower for
+fuel economy.
+Thus, increasing technology from the endowed value allows the firm to provide higher
+fuel economy or horsepower (or both). Higher technology causes marginal costs to increase
+according to the function cj(Td(j)). Technology adoption also requires a fixed cost F(Td(j)),
+incurred once for each model, to redesign and test the vehicle. Thus, when deciding whether
+to adopt technology, the firm faces a trade-off between higher revenue, which the technology
+enables, and the additional fixed and variable costs. The existence of the fixed costs implies
+that manufacturers adopt more technology for higher-selling vehicles, all else equal. This is
+consistent with the empirical evidence in Klier and Linn (2016).
+We model the two periods as static. The profit maximization problem is
+max
+{pj,mj,hj,Tk(j)}j∈Jf
+X
+j∈Jf
+[pj −cj(Td(j))]qj(pj,mj, hj) −F(Td(j))
+(4)
+subject to
+X
+j∈Jf
+ 1
+mj
+−1
+Mj
+!
+qj = 0
+(5)
+and
+ln(mj) = ln(m0j) + δh ln(hj) + δw ln(wj) + Td(j)
+(6)
+ln(cj) = ln(c0j) + γTd(j)
+(7)
+16
+
+
+===== [PAGE 20] =====
+
+where pj is the vehicle’s price, mj is the vehicle’s fuel economy, hj is its horsepower, qj is sales,
+Mj is its fuel economy requirement, and wj is its weight. The initial levels of fuel economy
+and marginal costs, prior to technology adoption, are m0j and c0j.Profits are the sum over
+vehicles of quantity multiplied by the difference between price and marginal costs (cj(Td(j))),
+less fixed costs (F(Td(j))). Equation (5) is the regulatory constraint, which requires that
+the firm’s sales-weighted fuel consumption rate (the reciprocal of its fuel economy) equals
+that of the standards. The requirement is indexed by j because it depends on the vehicle’s
+class (car or truck) and footprint.14 The technology is chosen for each model, indexed by
+d(j), during the design period. The fixed costs are incurred in the first period and must be
+recovered during the subsequent five years. Therefore, the sales qj correspond to the sales
+over a five-year period.
+Equation (6) governs the trade-off between horsepower and fuel economy, given the
+vehicle’s exogenous weight and endogenous technology. This equation has the same form as
+that in Klier and Linn (2012), and is consistent with empirical analysis of the trade-off, such
+as in Knittel (2011). The horsepower coefficient represents the tradeoff between horsepower
+and fuel economy; a larger (in magnitude) coefficient indicates a larger fuel economy gain
+from reducing horsepower.
+The final equation links marginal costs to technology. Increasing technology by 0.01,
+which enables a 1 percent fuel economy increase according to Equation (6), increases marginal
+costs by γ percent.
+We do not model credit trading across manufacturers.
+During the first phase of the
+standards, few credits were traded (Leard and McConnell 2017), and only a handful of
+trades have been made.
+Credit trading likely has had modest effects on manufacturers’
+decisions and compliance costs. Nonetheless, omitting this flexibility mechanism from our
+model means that we expect our compliance cost estimates to be higher than those actually
+realized under the program.
+3.3
+Used Vehicle Market
+The model includes a market for used vehicles.
+Because new-vehicle fuel economy
+standards affect new-vehicle attributes and new and used vehicles are substitutes, the
+standards could affect demand for used vehicles (Jacobsen 2013; Bento et al. 2018; Linn
+and Dou 2020; Leard 2022).
+14Other papers, such as Jacobsen (2013), include regulatory constraints that are nonlinear in vehicle sales,
+qj. Our linear constraint is a transformation of the constraint used in those papers.
+17
+
+
+===== [PAGE 21] =====
+
+To account for this effect, we assume that used-vehicle supply is perfectly price inelastic
+and that prices respond to used-vehicle demand changes caused by altering the standards.
+Therefore, if tighter standards reduce demand for new vehicles and increase demand for used
+vehicles, used-vehicle prices increase to restore equilibrium in that market. In practice, this
+involves adjusting the utility of the outside option to compute counterfactual equilibria.
+The assumption of perfectly inelastic supply is broadly consistent with Busse et al.
+(2013), who report small effects of gasoline prices on equilibrium used-vehicle sales. Because
+households are both buyers and sellers of used vehicles, that assumption likely has small
+welfare implications, even though the used-vehicle market includes several times more sales
+than does the new-vehicle market. Jacobsen (2013) finds that accounting for interactions
+between the two markets has important implications for the distribution of welfare effects
+across demographic groups, as high-income households are more likely to buy new vehicles.
+For that reason, we are careful to interpret the estimated distributional effects of standards
+across demographic groups as pertaining only to new-vehicle buyers; in our model, the
+structure of the used-vehicle market has small effects on aggregate welfare estimates for
+these consumers.
+4
+Estimation
+Estimation consists of three stages.
+For computational simplicity, we estimate the
+demand model in two stages in the spirit of Goolsbee and Petrin (2004) and Train and
+Winston (2007). First, we estimate mean utilities for each vehicle and differences in marginal
+utilities between each demographic group and the base demographic group.
+Second, we
+estimate the utility parameters of the base group.15
+Third, we estimate the supply-side
+parameters. In this section, we describe the demand estimation strategy and results, followed
+by supply.
+4.1
+Demand Estimation Strategy
+4.1.1
+First Stage: Heterogeneous Preference Parameters
+In Equation (3), we define fgjkt = P
+k
+P
+g xjkthgtβkg + νgjt. The term xjkt represents vehicle
+j’s value of attribute k in market t; hgt is a dummy variable indicating demographic group
+15In theory, we could estimate the demand model parameters in a single step. In practice, however, this
+would be computationally challenging, given the large number of interactions we include. The first stage
+is a simple fixed effects regression, which allows us to estimate many interaction terms. Estimating these
+interactions in a single step by combining the first and second stages would require minimizing a GMM
+objective function that does not have a closed-form solution.
+18
+
+
+===== [PAGE 22] =====
+
+g; βkg is the difference between the marginal utility of vehicle attribute k for households
+in demographic group g and that of the base group; νgjt represents group g’s unobserved
+mean utility for vehicle j in market t; and xjkt includes seven characteristics: price, fuel
+costs (in dollars per mile), performance (defined as the log of horsepower divided by weight),
+footprint (the product of wheelbase and width), drive type, and dummies for the base and
+high-end versions of a model.
+We include the fuel economy, performance, and footprint
+variables because they are directly related to fuel economy and emissions standards. The
+other variables allow for preference heterogeneity over drive type and trim level (for example,
+high-income consumers may have stronger preferences for high-end trims).
+Inserting this definition in Equation (3) yields the first-stage estimating equation
+ln(sgjt) −ln(sg0t) =
+X
+k
+X
+g
+xjkthgtβkg + δjt + νgjt.
+(8)
+We estimate marginal utilities for the attributes in xjkt. We assign a single price for
+each vehicle model variant. This assumption is consistent with zero search costs and large
+passenger vehicle markets and implies no price discrimination across consumer groups for the
+same vehicle model variant; the latter is consistent with analysis of the US market (Goldberg
+1995).16
+We add these interactions to address possible endogeneity concerns at the household
+group level. In particular, observed attributes, such as fuel economy, could correlate with
+unobserved attributes, which would bias our estimates of WTP for fuel economy. Controlling
+for additional attributes, such as fuel type, drive type, and trim level, reduces this bias.
+As is common in the vehicle demand literature, we compute per-mile fuel costs as the
+price of gasoline in market t divided by fuel economy. This variable is proportional to the
+present discounted value of the vehicle’s fuel costs if the current price of gasoline equals the
+expected real price over the life of the vehicle. Based on the findings in Leard et al. (2017),
+we assume that WTP for a fuel economy increase equals WTP for an equivalent gasoline
+price decrease. Therefore, we use variation in fuel prices and fuel economy to identify the
+fuel cost coefficient, and we use “WTP for fuel economy” synonymously with “WTP for a
+fuel cost reduction.” We estimate each of the vehicle-market fixed effects as well as the 133
+marginal utilities (19 demographic groups and seven characteristics).
+16We estimate the model parameters using relatively recent data (2010–2018) during a time when websites
+such as carmax.com and autotrader.com were commonly used and smartphones were mainstream. These
+technologies have significantly lowered consumer search costs, which supports our single price assumption.
+Using prices that vary by vehicle rather than by demographic group and vehicle reduces measurement error.
+19
+
+
+===== [PAGE 23] =====
+
+Assuming
+that
+the
+group-specific
+utility
+from
+unobserved
+vehicle
+attributes
+is
+uncorrelated with utility from observed vehicle attributes allows us to estimate Equation (3)
+with a fixed effects regression. Supporting this assumption is the extensive set of interactions
+included in this equation, which allow for heterogeneous preferences for high-end trims. This
+assumption is analogous to the assumption made in Berry et al. (1995) that consumer-specific
+utilities for unobserved and observed product attributes are uncorrelated. This assumption
+is implicit in Berry et al. (1995), but it is more apparent here because we adopt a two-
+stage estimation approach.17 The fixed effects δjt control for unobserved attributes that vary
+across trims or engine configurations, such as seating material or the presence of a sunroof.
+Consequently, the interaction terms are identified by preference variation across demographic
+groups, controlling for unobserved attribute variation across trims.18
+Moreover, because
+fixed effects control for mean sales by vehicle and year, first-stage preference parameters
+are identified by within-vehicle market shares; especially low-selling vehicles, such as luxury
+sports cars, do not affect the first-stage parameter estimates excessively. The identifying
+assumption is that observed attributes account for all preference heterogeneity.
+4.1.2
+Second Stage: Preference Parameters of the Base Group
+We define a vehicle by market fixed effect as δjt = P
+k xjkt ¯βk + ξjt. The coefficient ¯βk is
+the marginal utility for the base demographic group of attribute k.19 The term ξjt denotes
+the unobserved mean utility across demographic groups for vehicle j in market t; ξjt includes
+the combined utility from all other attributes that consumers value, such as cargo space or
+seating comfort. In Equation (1), utility for the attributes omitted from xjkt can be included
+17Berry et al. (1995) model preference heterogeneity using random coefficients.
+The empirical design
+assumes that the means and variances of the preference distributions are endogenous and exogenous. Train
+and Winston (2007) adopt a similar but more explicit approach, which has a separate first stage, similar to
+our methodology.
+18In the first stage, we assume no heterogeneity in preferences for unobserved vehicle characteristics such
+as seating material. In the second stage, we address the endogeneity of vehicle price, fuel economy and
+performance, caused by the potential correlation between these characteristics and the unobserved attributes.
+This approach is consistent with exogeneity assumptions made in mixed logit specifications (Berry et al. 2004;
+Goolsbee and Petrin 2004; Train and Winston 2007). Also similar to Berry et al. (1995), we do not instrument
+for buyer or group-specific price endogeneity. Berry et al. (1995) model heterogeneous preferences for product
+attributes with random coefficients. The implicit assumption with estimating the random coefficients is that
+the heterogeneous preferences are uncorrelated with individual specific error terms.
+We adopt a weaker
+assumption because we control for observed product attributes. However, we recognize that our approach
+could still suffer from “first-stage endogeneity,” which is why we have added those vehicle attributes to the
+first stage.
+19It is common in the discrete choice literature to define the product’s mean utility and deviations from it,
+such as in Berry et al. (1995). Instead, we define the utility of the base demographic group and differences
+between it and that of other demographic groups.
+20
+
+
+===== [PAGE 24] =====
+
+in ξjt, in which case, utility does not vary across households, or, if it does vary, it does so
+randomly and is included in εijt.
+It is common in the literature (see Goolsbee and Petrin (2004) and Train and Winston
+(2007)) to recover the mean marginal utilities for the vehicle characteristics in a second stage,
+in which the vehicle-market fixed effect is regressed on these attributes. By analogy, we could
+estimate the marginal utilities for the base demographic group by regressing the estimated
+fixed effects ˆδjt from Equation (8) on the seven attributes, all of which vary by vehicle and
+year.
+However, the vehicle-market fixed effects include both the observed attributes, xjkt, and
+the unobserved utility, ξjt.
+The latter includes attributes that are unobserved, such as
+cabin comfort. According to the first-order condition for price in the profit maximization
+problem (Equation (4)), price is an implicit function of the observed and unobserved nonprice
+attributes of other vehicles sold by the manufacturer and those sold by other manufacturers.
+For example, if a manufacturer redesigns the cabin to increase comfort, it may increase the
+price because the improvement raises demand for that vehicle. Because unobserved cabin
+comfort is correlated with the observed price, regressing the vehicle-market fixed effects on
+observed price and other attributes would likely yield inconsistent results.
+Berry et al. (1995) and many subsequent papers instrument for price using the attributes
+of other vehicles, such as performance. This approach is based on the correlation between
+a vehicle’s price and the attributes of other vehicles in the first-order condition for price in
+the profit maximization problem (Equation (4)). It assumes that nonprice attributes are
+exogenous, but the literature on the valuation of vehicle attributes has raised concerns that
+these attributes, such as fuel economy and performance, may be correlated with unobserved
+characteristics (Busse et al. (2013); Allcott and Wozny (2014); Sallee et al. (2016); Leard et al.
+(2017)). Failing to control for this correlation can lead to inconsistent valuation estimates
+for the nonprice attributes.
+We address this possibility by introducing a new approach that builds on the traditional
+IV approach. Specifically, we form three sets of moment conditions using three sources of
+plausibly exogenous variation. Using the additional sources of variation, we instrument for
+price and nonprice attributes (i.e., fuel economy and performance), unlike most prior vehicle
+demand estimation that instruments only for price.20
+Furthermore, nonprice attributes
+have traditionally been used to construct instruments for price (Berry et al. 1995).
+We
+20These additional sources of variation are necessary to ensure enough correlation with the endogenous
+attributes to reduce weak instruments bias.
+21
+
+
+===== [PAGE 25] =====
+
+are unable to use fuel economy and performance as instruments because we assume that
+they are endogenous.
+The first source of variation derives from the first-order condition for price. Manufacturers
+typically change some attributes more often than others. Attributes related to the power
+train, such as fuel economy, can be adjusted frequently by retuning the engine or replacing
+components of the engine and transmission.
+On the other hand, manufacturers change
+physical dimensions much less frequently, typically only during major redesigns every 5–7
+years.
+Based on this regularity, we develop the first moment condition using the sales-
+weighted mean width, length, and height of vehicles sold by other manufacturers that belong
+to the same market segment and the same attributes of other vehicles sold by the same
+manufacturer but belonging to a different market segment. Denoting the price and share
+parameter instruments by zjt, the moment condition for price is
+G1 ¯β
+
+=
+T
+X
+t=1
+Jt
+X
+j=1
+(δjt −¯βxjt)zjt.
+(9)
+We argue that this condition is valid during the period in which width, length, and height
+are fixed, or roughly 5–7 years. Product entry and exit generates variation within redesigns.
+The second and third moment conditions are made possible by the detail of our vehicle
+data and based on fuel economy and engine performance variation across closely related
+vehicles. The second source of variation exploits our observation of many pairs of vehicles
+that are identical in all aspects (market, make, model, trim/series, fuel type, drive type,
+and body style) except that one has a higher-performance engine. Consequently, such twins
+typically have the same seating material and other features, reducing concerns of omitted
+variables bias. Table 2 provides information about the top five-selling twins. The twins help
+identify WTP for performance and fuel costs because only engine size varies, which affects
+both. The granular definition of a vehicle enables the second and third moment conditions,
+as twins can only be defined at the submodel level. We form the second moment condition
+by defining market by vehicle twin fixed effects, τjt:
+G2 ¯β
+
+=
+T
+X
+t=1
+Jt
+X
+j=1
+x′
+jt(δjt −¯βxjt −τjt).
+(10)
+For the third moment condition, we define φj as the interaction of all the attributes that
+define a vehicle except its market. In the data, two vehicles that have a common value of
+φj have the same make, model, trim/series, fuel type, drive type, body style, number of
+22
+
+
+===== [PAGE 26] =====
+
+engine cylinders, and displacement. These vehicles may have different horsepower and fuel
+economy, due to changes over time in the way an engine is tuned or differences in the specific
+components in the engine or transmission. The moment condition is
+G3 ¯β
+
+=
+T
+X
+t=1
+Jt
+X
+j=1
+x′
+jt(δjt −¯βxjt −φj).
+(11)
+Whereas the second moment condition uses cross-sectional variation in performance and
+fuel economy across twins sold in the same market, the third uses time series variation
+in performance and fuel costs caused by adopting fuel-saving technology.
+This moment
+condition is similar to the identification strategy in Leard et al. (2017).21
+An implicit
+assumption is that changes in fuel economy and performance within the same vehicle are
+uncorrelated with changes in other unobserved attributes that consumers value.
+We estimate all second-stage parameters in ¯β with GMM and do so jointly instead of
+individually because the variation we exploit likely influences multiple endogenous variables.
+For instance, price may respond to fuel economy, given empirical evidence by Busse et al.
+(2013); Langer and Miller (2013); Leard et al. (2017), among others. Furthermore, vehicle
+prices and fuel costs are correlated with engine size, as illustrated in Table 2. The second
+and third moment conditions provide complementary variation that improves identification,
+compared to using one or the other. We stack the three moment conditions and use the
+two-step GMM estimator.
+Thus, the identification strategy addresses the bias arising from correlation between
+observed and unobserved vehicle attributes.
+The assumptions are that the physical
+dimensions of other vehicles and variations of fuel economy and horsepower within τjt and
+φj are uncorrelated with unobserved attributes. Because τjt and φj control for model and
+trim, the coefficient estimates are consistent even if manufacturers package the engine and
+transmission configuration with a particular trim. For example, many manufacturers offer a
+“sport” trim that includes a larger engine. Even if it differs in other unobserved dimensions,
+such as cabin features or exterior styling, τjt and φj control for such differences.22
+21Leard et al. (2017) instrument for fuel economy and performance using engine technology adoption.
+We avoid instrumenting to exploit all the variation over time in fuel economy and performance, including
+technology adoption and engine retuning that is independent of technology adoption. We found that this is
+necessary to have sufficient variation to identify the preference parameters for fuel economy and performance.
+22Klier and Linn (2012) also address this source of endogeneity using proprietary information about engine
+attributes. Our method does not require engine data and could be used by researchers who do not have
+access to such data. Whitefoot et al. (2017) also instrument for endogenous vehicle attributes, but they
+use as independent variables power train attributes that can vary between redesigns, potentially yielding
+inconsistent estimates.
+23
+
+
+===== [PAGE 27] =====
+
+4.2
+Demand Estimation Results
+Because the demand model includes a large number of parameters, we describe parameter
+estimates that are most directly relevant to the counterfactuals:
+price sensitivity and
+marginal utility of fuel costs and performance. Figure 2 shows the average implied own-
+price elasticity of demand for each of the five income groups. It varies from about –5 to –3
+across the groups, with the middle group equaling −4.06. Lower-income households are more
+price sensitive than higher-income households, a finding that is consistent with the literature
+(Train and Winston 2007) and the summary statistics in Table 1, as low-income households
+tend to buy less expensive vehicles.
+Panel A of Figure 3 shows each income group’s implied WTP for a 1 percent fuel economy
+increase. This equals the ratio of each group’s fuel economy and price coefficients. Lower-
+income households tend to have a lower WTP for fuel economy.
+In principle, low-income consumers could have lower WTP because they expect to drive
+their vehicles fewer miles or have higher discount rates. To assess whether these factors
+are driving their lower WTP, Figure 4 shows implied valuation ratios for fuel cost savings.
+The ratio equals the WTP for a 1-percent fuel economy increase divided by the present
+discounted value of the fuel cost savings caused by the increase. The ratio represents how
+much households are willing to pay for a $1 reduction in lifetime fuel costs. Full valuation
+that is consistent with a neoclassical model of decision making predicts a valuation ratio of
+1. The Appendix describes assumptions for lifetime miles driven, private discount rates, and
+expectations of gasoline prices needed to compute the ratios. Our estimates imply that most
+demographic groups undervalue fuel costs, with a mean valuation ratio of 0.22.
+This average valuation ratio is equivalent to approximately a 3-year payback period based
+on the relationship between the valuation ratio and payback periods provided in Figure S.2
+in the Supplementary Materials of Bento et al. (2018). This implied payback period is similar
+to what the federal agencies implicitly assume about consumer valuation of fuel economy in
+their analyses of the standards (NHTSA 2022).23
+23The agencies assume a payback period of 2.5 years.
+In the final RIA of the 2024-2026 standards,
+NHTSA states “when assessing potential buyers’ likely response to requiring manufacturers to meet higher
+fuel economy targets, we assume that buyers of new cars and light trucks value fuel costs over the first 30
+months they own and use them.” (NHTSA 2022, p.81). This assumption significantly affects the overall
+benefits they accrue to consumers due to tightening standards.
+It also affects the extent to which the
+standards change new vehicle sales due to changes in the price and fuel economy of new vehicles.
+In
+particular, NHTSA states “The [new vehicle] price elasticity acts on an adjusted average price increase,
+by calculating the average price increase net of some portion of realized fuel savings (the first 30 months in
+this analysis).” (NHTSA 2022, p.70).
+24
+
+
+===== [PAGE 28] =====
+
+The valuation ratios vary from 0.09 to 0.56, with lower-income households tending toward
+a lower valuation. This result is consistent with the summary data shown in Table 1, where
+high-income households are more likely to purchase hybrid, plug-in hybrid, and electric
+vehicles. On the other hand, the summary statistics also show that low-income households
+purchase vehicles with slightly higher fuel economy, which at first appears inconsistent
+with our estimated WTP patterns.
+However, this relationship is explained by the fact
+that inexpensive gasoline vehicles, such as small, entry-level cars, tend to have higher fuel
+economy. After controlling for price sensitivity and other observed vehicle characteristics,
+we find a positive relationship between income and WTP for fuel cost savings.
+Panel B of Figure 3 shows WTP for a 1 percent horsepower increase; household
+preferences vary considerably across income groups.
+The average WTP for a 1 percent
+increase in horsepower is $114. This is comparable to the estimates reported in Leard et al.
+(2017), and within the range reported in Greene et al. (2018).
+The positive correlation
+between WTP and income is consistent with the pattern in Table 1, which shows that high-
+income households buy more horsepower. Note that implied WTP from the demand model
+is the ratio of the performance and price coefficients. Low-income households have a larger
+(in magnitude) price coefficient and a smaller performance coefficient; overall, WTP for
+horsepower increases with income because the horsepower coefficient increases more steeply
+than the price coefficient decreases. Although not shown, differences in WTP across income
+groups are statistically significant at the 5-percent level or better.
+Next, we present results from two model validation exercises.
+Figure A.2 shows the
+predicted attribute means, by demographic group, against the observed sales-weighted
+averages.
+The values fall close to a 45-degree line, indicating that the model predicts
+accurately the attribute means by demographic group.
+We assess the model’s ability to predict market shares out of sample. Each panel in
+Figure A.3 plots predicted market shares against observed 2018 market shares. The market
+shares are computed by brand and class because we observe almost no brand–class entry and
+exit. Panel A plots the no-change 2010-2018 forecast against observed 2018 market shares.
+The scatter is considerably less if we use the demand model, as in Panel B, indicating that
+the model outperforms a no-change forecast.
+In our model, for a particular demographic group, the utility function parameters do
+not vary across households or the vehicles they choose. To validate our assumption, we re-
+estimate the model on a subset of our data. For each vehicle and market, we randomly sample
+MY-vehicle-group observations and re-estimate the parameters using the chosen subsample.
+25
+
+
+===== [PAGE 29] =====
+
+Then, we use the estimated coefficients to compute the market shares out of sample. If
+the demand model assumptions were not valid, it would predict the out-of-sample market
+shares poorly. However, Panel C shows that the predicted and observed market shares are
+strongly correlated, and the correlation is nearly as strong as when we use the full sample
+to estimate the demand parameters, as in Panel B. The similarity supports the assumption
+that preferences for observed attributes do not vary within demographic groups.
+4.3
+Supply Estimation Strategy
+We estimate the parameters of the supply model using first-order conditions of the
+manufacturer problem (Equation (4)). The shadow price, trade-off between horsepower and
+fuel economy, and marginal costs are estimated via pricing decisions and movement along the
+production possibility frontier in Equation (6). We outline the strategy here; the Appendix
+provides additional estimation details.
+We begin by estimating the trade-off between fuel economy and horsepower (i.e., the
+coefficient δh in Equation (6)). We assume that we measure fuel economy with error, and
+we regress log fuel economy on log horsepower, vehicle weight, year fixed effects, and vehicle
+fixed effects. A vehicle-year represents a unique observation, and the estimation is similar to
+Knittel (2011). The horsepower coefficient is the elasticity of fuel economy to horsepower,
+and it is identified by within-vehicle variation over time in choices of fuel economy and
+horsepower.
+Given the trade-off for fuel economy in Equation (6), we have three sets of first-order
+conditions:
+price, fuel economy, and fuel-saving technology.
+For each vehicle j, these
+conditions are
+X
+k∈Jf
+
+pk −ck −λf
+ 1
+mk
+−1
+Mk
+ ∂qk
+∂pj
++ qj = 0,
+(12)
+X
+k∈Jf
+
+pk −ck −λf
+ 1
+mk
+−1
+Mk
+  ∂qk
+∂mj
++ ∂qk
+∂hj
+∂hj
+∂mj
+!
++ λf
+1
+(mj)2qj = 0,
+(13)
+X
+k∈Jf
+
+pk −ck −λf
+ 1
+mk
+−1
+Mk
+  ∂qk
+∂mj
+∂mj
+∂Td(j)
++ ∂qk
+∂hj
+∂hj
+∂Td(j)
+!
+−qj
+∂cj
+∂Td(j)
+−
+∂F
+∂Td(j)
+= 0. (14)
+26
+
+
+===== [PAGE 30] =====
+
+The unknown parameters that we estimate are the J vehicle-specific marginal costs, ck,
+the trade-off coefficient for horsepower and fuel economy in Equation (6) denoted by δh,
+manufacturer-specific shadow costs, λf, and the derivative of fixed costs with respect to
+technology. We estimate the parameters in a series of steps. In the first step, we initialize
+a guess for the marginal costs ck. In the second, given this guess, we rearrange first-order
+condition (13) such that the equation is linear in the manufacturer’s shadow costs, λf. We
+then estimate a regression to fit a value for λf that minimizes the squared distance of the
+linear equation. We do this separately for each set of manufacturer equations to obtain a
+manufacturer-specific shadow cost. In the third step, with these estimated shadow costs, we
+solve for marginal costs ck in the first-order condition (12). These estimated marginal costs
+become our new guess of the marginal costs. We then repeat the second and third steps until
+the change in marginal costs across iterations is sufficiently small (within 0.01 percent).
+The final steps involve substituting estimates for the marginal costs ck and shadow costs
+λf in Equation (14) and estimating technology costs and fixed costs. We assume that each
+vehicle model has a unique fixed cost that varies linearly with the level of technology.
+We estimate these fixed-cost coefficients and the marginal-cost coefficient γ with a linear
+regression of Equation (14).
+The fixed costs are identified by outward shifts of the frontier over time and the
+assumption that the fixed costs rationalize observed technology choices. We estimate the
+function governing technology costs, F(Td(j)). To simplify the estimation, we normalize each
+model’s technology endowment to 0 in the first MY it is observed and assume that fixed
+costs are a quadratic function of the technology change, Td(j). Under these assumptions,
+∂F
+∂Tj = 2σTk(j), where σ is a parameter to be estimated. Having estimated marginal costs ck
+and shadow costs λf, Equation (14) is linear in technology and includes just the one unknown
+parameter σ. Similar to the procedure for estimating λf, we estimate a regression to fit a
+value for σ that minimizes the squared distance of the linear equation.
+4.4
+Supply Estimation Results
+Tables 3–5 summarize the results of estimating the supply-side parameters. The first
+column of Table 3 reports each firm’s mean marginal costs. The variation across firms is
+intuitive; for example, Hyundai, which primarily sells low-price cars and crossovers, has lower
+marginal costs than Daimler, which sells luxury vehicles.
+The average fuel economy standard shadow cost per vehicle is computed by applying
+the envelope theorem to the firm’s profit maximization problem. The shadow cost equals
+27
+
+
+===== [PAGE 31] =====
+
+the derivative of the firm’s profits with respect to its fuel economy requirement and varies
+substantially across manufacturers. For example, it is close to zero for Honda, which indicates
+that Honda vehicles have similar average fuel economy to the levels required by the standards.
+In contrast, it is nearly $3,000 for Fiat-Chrysler, which indicates that these vehicles have
+lower fuel economy than the requirements. Note that the cross-firm variation in the table
+accounts for the footprint-based standards. Compared to uniform standards that do not
+depend on vehicle attributes, the footprint-based standards reduce cross-firm variation in
+the average shadow price because firms selling larger vehicles are subject to lower standards.
+The top panel of Table 4 shows the estimated trade-off between fuel economy and
+horsepower for cars and light trucks (i.e., the coefficient δh in Equation (6)). The table
+reports the horsepower coefficient, which is interpreted as an elasticity. The magnitudes
+are twice as large as those estimated in Klier and Linn (2016). We are using more recent
+data but otherwise the same methodology, which indicates that the trade-off has become less
+severe over time.
+The bottom panel of Table 4 reports the estimate of the efficiency coefficient in Equation
+(7). To estimate these coefficients, we use the same sample as in the top panel (except for
+dropping a few observations because of missing data). The dependent variable is the log of
+marginal costs. The independent variable is the vehicle’s fuel-saving technology computed
+using its fuel economy endowment in its initial year in the sample and estimates from Panel A
+to impute fuel-saving technology levels for subsequent years. The coefficients are interpreted
+as elasticities, and the estimate in the first column means that increasing a car’s efficiency
+by 1 percent causes marginal costs to increase by 0.54 percent. The elasticity for trucks is
+of similar magnitude. As we note in the introduction, these coefficients are larger than if
+we estimate the same parameters using results from the 2011 NHTSA Regulatory Impact
+Analysis of the 2017–2025 standards. In other words, based on observed fuel economy choices,
+we estimate higher costs of increasing fuel economy than the agencies predicted.
+Table 5 provides context for the estimated fixed costs of technology adoption.
+Each
+column shows the costs of increasing fuel economy by the percentage indicated in the column
+heading.
+We compare the increase in marginal costs with the increase in average fixed
+costs—the ratio of the change in fixed costs to the vehicle’s sales. Marginal costs increase
+roughly linearly with the fuel economy improvement. However, average fixed costs increase
+rapidly. This is reasonable because raising fuel economy by more than a few percentage points
+usually involves simultaneously adopting multiple fuel-saving technologies, which complicates
+the redesign process. Because the standards required a 33 percent average fuel economy
+28
+
+
+===== [PAGE 32] =====
+
+increase, the numbers in this table indicate that fixed costs play an important role in the
+overall welfare analysis.
+5
+Welfare Analysis
+This section describes the two central scenarios simulated to estimate the overall welfare
+and distributional effects across income groups of tightening fuel economy standards from
+2012 to 2022 levels.
+We find that the standards have increased social welfare and been
+progressive across income groups. The remainder of the section reports additional scenarios
+that show that WTP for horsepower explains the progressivity of the standards.
+5.1
+Definition of Baseline and Central Policy Scenarios
+In the baseline scenario, the standards are maintained at their 2012 levels for MYs
+2012–2022. Figure A.1 shows that the standards tightened by about 33 percent over these 10
+years. We use 2012 rather than 2011 because 2011 was a transitional year and manufacturers
+had the option of complying with uniform or footprint-based standards.
+The simulations are performed using the set of vehicles available in the market in 2018,
+which is the most recent data year. We assume that the standards do not affect vehicle
+entry, exit, or any attributes other than price, fuel economy, and horsepower.24 Under these
+assumptions, the baseline scenario and any other scenario include the same set of vehicles.
+Moreover, vehicle weight and mean utility (ξjt) do not vary across scenarios. Therefore, if
+we define the set of vehicles in the simulations to include those sold in 2011, we would have
+to impute weight and ξjt for each vehicle entering the market after 2011. Because about
+18 percent of models and 70 percent of vehicles sold in 2018 entered after 2011, this would
+require substantial imputation. We avoid having to impute ξjt by using data from the last
+year, 2018. For these vehicles, we use the observed fuel prices, vehicle characteristics, fuel
+economy requirements, and estimated marginal costs, fixed costs, and technology parameters
+estimated using the methodology described in the previous section.
+The model is static and includes two periods.
+During the first period, the regulator
+announces the level of the standards and the firm chooses a level of technology.
+In the
+baseline scenario, the standards correspond to the values of those actually applied to MY
+24All welfare analyses of the standards have made these assumptions implicitly. Wollmann (2018) argues
+that bankruptcy policy could affect product entry. In principle, fuel economy standards could also affect
+entry and exit, but for computational reasons, we assume that these decisions are exogenous. Moreover,
+we assume that standards do not affect redesign frequency, which is necessary because of the length of our
+sample period. We are not aware of evidence that standards have affected redesign frequency.
+29
+
+
+===== [PAGE 33] =====
+
+2012, depicted by the orange marks in Figure A.1. Because models are typically redesigned
+every five years, we can conceive of the first period as representing 2011, when the standards
+were determined, and the second period as representing the steady state in 2022, which is
+10 years and two redesigns later.
+We simulate the equilibrium in 2022 to approximate a steady state, using observed
+national average fuel prices and market-wide new vehicle sales.
+We do not model the
+transitional dynamics of compliance with the standards, which is the same as most of the
+literature (e.g., (Whitefoot et al. 2017)). However, unlike most of the literature, we interpret
+the steady state as occurring 10 years after the standards are announced. That allows us to
+account for technology adoption in a scenario in which standards do not tighten over time.
+Note that the EPA and NHTSA welfare analysis models transitional dynamics.25
+The equilibrium for the baseline scenario is found iteratively.26 On average, firms have to
+increase fuel economy by about 1 mpg from 2011 levels to comply with the 2012 standards.
+We determine the initial conditions for the simulation by assuming that manufacturers use
+technology adoption, trade off horsepower in equal amounts, and do not adjust prices from
+observed 2018 levels.
+These assumptions determine initial conditions and not simulated
+outcomes, and they are consistent with Klier and Linn (2016) and Reynaert (2021), who
+find that standards have not caused manufacturers to adjust prices to encourage sales of
+vehicles that exceed their fuel economy or GHG requirements. Starting from that initial
+condition, each firm chooses technology (Tmt), fuel economy, and price to maximize profits.
+Each decision is the best response given choices of all other firms in the market, and we loop
+over firms and iterate across the entire market until simulated choices converge to within the
+chosen tolerance.27
+25The EPA and NHTSA analyses include banking and borrowing of credits over time and credit trading
+across firms, as allowed under the regulations.
+These provisions reduce compliance costs, relative to
+regulations that do not include them. However, a few cross-firm credit trades have occurred (Leard and
+McConnell 2017), suggesting that this provision has not affected compliance costs substantially. Between
+2012 and 2022, most firms complied, on average.
+Given the few cross-firm trades, it is likely that the
+overcomplying firms are banking credits in anticipation of tighter standards.
+A welfare analysis of the
+2012–2022 standards should not include this overcompliance, as it is caused by standards that apply in later
+years. For this reason, in the simulations, we assume that all firms exactly comply with the standards.
+26Convergence of the model is not guaranteed; for a minority of vehicles, the model may cycle among two
+or more sets of price and attributes. These situations typically affect lower-selling vehicles and vehicles sold
+by small manufacturers.
+27Specifically, the tolerance is set such that each firm’s average fuel consumption rate is within 0.1 percent
+of its standard, and the maximum price change across iterations across vehicles in the market is 1 percent.
+For a few firms, the model does not converge after 50 iterations; we use the simulated technology and
+attributes from the final iteration. Achieving convergence is especially challenging for Jaguar–Land Rover,
+which sells a small number of high-end vehicles and faces particularly stringent standards, but this company
+accounts for less than 0.1 percent of total sales in the market.
+30
+
+
+===== [PAGE 34] =====
+
+The central policy scenario is the same as the baseline, except that firms must achieve
+the 2022 standards. Welfare effects are calculated by comparing equilibriums in the baseline
+and central policy scenarios. The welfare analysis includes changes in consumer welfare,
+manufacturer profits, and the global value of avoided carbon dioxide emissions.
+To facilitate comparison with the agencies’ welfare analysis, we follow Allcott (2013)
+and Train (2015) to adjust for consumer undervaluation and measure changes in consumer
+welfare based on experienced utility. For this calculation, we assume a 3 percent real discount
+rate for consistency with EPA (2010). We assume a rebound effect of 10 percent, which is
+the same as the assumption the agencies make for the 2010 and 2011 analyses. Because
+the welfare calculations correct for consumer undervaluation but do not include the benefits
+from additional driving, we use the same Harberger approximation as EPA and NHTSA. All
+plug-in vehicle subsidies are financed by lump-sum taxes on households in the market.
+For firms, we compute profits by including fixed costs. Finally, we compute the social
+damages of carbon dioxide emissions using estimates from EPA (2022), using the same 3
+percent discount rate that we use for the fuel savings calculations.
+Note that we do not include refueling time costs and external costs of fine particulate
+matter, accidents, noise, congestion, and energy security. Estimating these costs and benefits
+requires many assumptions that lie outside the scope of the paper.
+However, EPA and
+NHTSA estimate combined net welfare benefits of $7 billion for these categories, so including
+them would strengthen our findings that the standards have increased social welfare.
+5.2
+Welfare Effects of 2022 Standards
+Column (1) of Table 6 shows results for the baseline, which includes the 2012 standards.
+The results pertain to a steady state using 2022 market conditions. The fuel economy credit
+price is $76 per 1 percent improvement (raising a vehicle’s fuel economy by 1 percent would
+provide the manufacturer with $76 worth of credits per unit of sales). Panel C shows that
+vehicles sold in 2022 (the steady-state year) would emit 770 million metric tons of carbon
+dioxide over their lifetimes, creating damages of $88 billion. The average fuel consumption
+rate is 0.044 gallons per mile, which corresponds to 23 miles per gallon.28
+Column (2) shows the results for the 2022 standards; comparing the first two columns
+indicates the consequences of adopting the 2022 rather than 2012 levels.
+Tightening
+standards roughly doubles the fuel economy shadow price, causing manufacturers to adopt
+technology that increases fuel efficiency by 4 percentage points (not shown in the table) and
+28Appendix Tables A.1 and A.2 report additional outcomes for the baseline and other scenarios.
+31
+
+
+===== [PAGE 35] =====
+
+reduce average horsepower by about 19 percent. Average fuel economy increases by about
+30 percent (Panel D). Panel B shows that the 2022 standards increase consumer welfare by
+$74 billion, or $70 billion after subtracting the lump-sum taxes that finance the subsidies.
+Tighter standards increase consumer welfare because consumers undervalue fuel cost
+savings. The shadow price in column (1) is positive, which indicates that the 2012 standards
+cause consumers to buy more fuel economy than they would without standards. However,
+the 2012 standards do not fully correct for consumer undervaluation, which is why the 2022
+standards increase consumer welfare. The implication is that the savings from the higher fuel
+economy outweigh price changes and horsepower reductions caused by the tighter standards.
+The standards reduce manufacturer profits by about $1 billion. Additional technology
+adoption in the 2022 scenario causes fixed costs to increase by about $1 billion, and the fuel
+economy improvements also increase marginal costs. That the reduction in profits is about
+the same as the increase in fixed costs implies that manufacturers are (on average) able to
+pass through to consumers the marginal but not fixed cost increases. This result underscores
+the importance of including fixed costs in the model.
+Panel E shows that the 2022 standards increase social welfare by about $83 billion.
+The change in aggregate consumer surplus explains most of this gain, as the value of the
+consumer welfare gains is about 4 times the value of the carbon dioxide reductions (Panel C).
+The relative importance of the consumer welfare gains is consistent with EPA and NHTSA
+analysis of the standards. It is tempting to compare our estimate of annual social welfare
+gains ($83 billion) with the sum of the annual welfare gains from the agencies’ 2010 and 2011
+welfare analyses ($103 billion). However, as we noted in Section 2, the agencies’ analyses
+include differing assumptions, and it is not appropriate to simply add the two. Nonetheless,
+our estimates are broadly consistent with theirs, if a bit lower.
+The Appendix provides
+additional comparisons between our analysis and theirs.
+Figure 5 shows the consumer welfare changes by income group. The Estimated bars
+represent the per-household change between the 2022 and 2012 standards (the difference
+between columns (2) and (1) in Table 6). Welfare increases for all income groups, and the
+2022 standards are progressive, as the increase is negatively correlated with income.
+5.3
+Why Are the Standards Progressive?
+This subsection reports results of additional scenarios that investigate the source of
+the progressivity illustrated in Figure 5; In the introduction, we note three potential
+explanations. First, low-income consumers undervalue fuel cost savings by more than high-
+32
+
+
+===== [PAGE 36] =====
+
+income consumers, indicating that they may benefit more from fuel economy increases that
+tighter standards cause. Second, low-income consumers have lower WTP for horsepower
+and may care less about horsepower reductions.
+Third, low-income consumers are more
+price sensitive, and manufacturers may be less able to pass through cost increases to prices
+for vehicles that they are most likely to purchase.
+Columns (3)–(10) of Table 6 investigate the first explanation. Each scenario includes
+the level of stringency indicated in the first row of the table. To illustrate the effects of
+undervaluation on progressivity, we define scenarios that reduce its extent in one of two
+ways. The first involves multiplying the fuel cost coefficient in the utility function by 2 or
+4, where the latter nearly eliminates undervaluation on average (the average valuation ratio
+across income groups is 0.22). The second way involves increasing each group’s fuel cost
+parameter to cut the group’s undervaluation in half (columns (7) and (9)) or to eliminate it
+(columns (8) and (10). The two approaches differ in that the first approach increases WTP
+of all groups by the same proportion, whereas the second increases WTP by more for the
+low-income groups, because they have larger undervaluation.
+Table 6 reports the aggregate welfare results for these scenarios. Reducing undervaluation
+diminishes the welfare gains of the 2022 standards, and full valuation (columns (8) and (10))
+causes the 2022 standards to reduce social welfare. This is consistent with the importance of
+the consumer welfare gains in column (2) in driving the overall welfare gains. In fact, with
+full valuation, tighter standards harm consumers on average. Note that tighter standards
+benefit consumers with more modest undervaluation than what we estimate; see Panel E for
+columns (5) and (9).29
+In Figure 5, the bars show the welfare changes by income group for the alternative
+assumptions on consumer preferences. In all cases, the tighter standards remain progressive,
+as they increase consumer welfare by more (or decrease it by less) for the low-income
+compared to the high-income groups. Thus, we conclude that undervaluation is not driving
+the estimated progressivity of the standards.
+Table 7 and Figure 6 report results from scenarios that consider the other potential
+explanations of progressivity: horsepower WTP and price sensitivity. Columns (11) and
+(12) replace each group’s performance coefficient with the mean across all groups, and
+columns (13) and (14) replace each group’s price coefficient with the mean coefficient. Table
+7 shows that these alternative values do not significantly affect the overall welfare results. For
+29Increasing the fuel cost parameters in these scenarios affects the levels of consumer welfare in the 2012
+and 2022 standards. Our interest lies in the difference between the two scenarios rather than the levels in
+any scenario.
+33
+
+
+===== [PAGE 37] =====
+
+example, the 2022 standards increase welfare by $80 and $75 billion, rather than $83 billion.
+However, Figure 6 shows that using the mean horsepower coefficient reduces the standards’
+progressivity. In contrast, using the mean price coefficient retains the progressivity. We
+conclude from these results that the WTP for horsepower drives the estimated progressivity,
+demonstrating the importance of including welfare changes caused by attribute changes in
+evaluating the distributional effects.
+6
+Conclusion
+The US market for new passenger vehicles presents a challenge to analyzing the welfare
+effects of fuel economy and GHG standards.
+Despite the numerous studies of consumer
+demand for new vehicles, the literature estimating welfare effects of the standards has
+largely ignored three key supply-side factors:
+trade-offs between performance and fuel
+economy, technology adoption that would occur without the standards, and fixed costs of
+that adoption.
+Moreover, welfare estimates have ignored the possibility that consumers
+systematically undervalue fuel costs when purchasing a vehicle, and the literature has not
+considered the implications of vehicle attribute changes for the distributional effects of the
+standards.
+We analyze the fuel economy and GHG standards that covered MYs 2012–2022, using
+an equilibrium model of the passenger vehicles market that addresses these supply and
+behavioral factors. In the demand component of the model, consumers choose among a highly
+differentiated set of vehicles; preferences for price and attributes vary across demographic
+groups. Using data from a household survey of recent vehicle buyers, we estimate substantial
+preference heterogeneity across demographic groups. In particular, low-income households
+tend to be more price sensitive and value fuel cost savings and performance less than high-
+income households. Consistent with recent literature, on average, consumers undervalue fuel
+cost savings and prefer increases in horsepower to increases in fuel economy.
+In the supply component of the model, manufacturers choose prices, fuel economy,
+horsepower, and fuel-saving technology, where technology adoption increases both fixed and
+marginal costs. We estimate all cost parameters using first-order conditions to a firm’s profit
+maximization problem and observed attribute choices.
+We simulate two central scenarios, which represent maintaining the 2012 level of standards
+from 2012 through 2022 (the baseline) and tightening standards to 2022 levels (the central
+policy case). In both scenarios, the regulatory agencies announce the standards in 2012
+and we simulate the steady state equilibrium in 2022.
+In the intervening 10 years,
+34
+
+
+===== [PAGE 38] =====
+
+manufacturers can adjust prices to boost market shares of vehicles that exceed their fuel
+economy requirements, adopt fuel-saving technology, or trade off horsepower.
+We find that the 2022 standards increased social welfare by $83 billion for vehicles sold in
+2022, which is broadly similar to ex ante predictions by the regulatory agencies. Consumer
+welfare gains, rather than carbon dioxide emissions reductions, account for most of the overall
+gains, which is consistent with the agencies’ predictions. Consumer welfare increases because
+of the large amount of undervaluation that we estimate, which demonstrates the importance
+of undervaluation in justifying tighter standards; without it, the 2022 standards decrease
+social welfare by about $14 billion. Our total welfare estimates appear to be smaller than
+the agencies’ ex ante predictions, although we find that the standards have increased total
+welfare substantially. However, the models they employ to quantify benefits and costs of
+standards are not capable of estimating distributional consequences of the standards across
+consumer groups.
+We find that the 2022 standards are progressive due to features of supply and demand. On
+the supply side, manufacturers comply partly by trading off horsepower. On the demand side,
+we estimate that high-income households have a stronger preference for engine performance
+(i.e., horsepower). Together, these forces imply that the benefits of the standards concentrate
+among new vehicle buyers on the low end of the income distribution.
+Our model focuses on the new-vehicle market to address the shortcomings in the
+literature. We follow EPA (2012) to incorporate the effects of standards on vehicle use.
+Accounting for changes in used vehicle scrappage would not overturn the main conclusion
+that the standards have increased social welfare.
+During our period of analysis, plug-in vehicles (all-electric or plug-in hybrid) accounted
+for less than 5 percent of the market; for simplicity, our model allows for limited preference
+heterogeneity across demographic groups for plug-in vehicles. However, the market share of
+these vehicles is expected to continue rising. Although our work is focused on evaluating
+standards during a period where plug-in vehicles played a minor role in compliance, we
+anticipate that they will be much more important in the coming years as manufacturers
+transition their fleets away from the internal combustion engine.
+Plug-in vehicles have
+considerable trade-offs when compared to gasoline vehicles, including significant differences
+in price, driving range, refueling time, and horsepower. We expect that our framework that
+accounts for these trade-offs on both the consumer and producer sides of the new vehicle
+market will be useful for understanding the social welfare implications of future changes to
+the standards.
+35
+
+
+===== [PAGE 39] =====
+
+References
+Ackerberg, D. A. and M. Rysman (2005). Unobserved product differentiation in discrete-choice
+models: Estimating price elasticities and welfare effects. RAND Journal of Economics 36(4),
+1–19.
+Allcott, H. (2013). The welfare effects of misperceived product costs: Data and calibrations from
+the automobile market. American Economic Journal: Economic Policy, 5(3), 30–66.
+Allcott, H. and M. Greenstone (2012). Is there an energy efficiency gap?
+Journal of Economic
+Perspectives 14(5), 3–28.
+Allcott, H. and N. Wozny (2014). Gasoline prices, fuel economy, and the energy paradox. Review
+of Economics and Statistics 96, 779–795.
+Bento, A., K. Roth, and Y. Zuo (2018). Vehicle lifetime trends and scrappage behavior in the US
+used car market. The Energy Journal 39(1).
+Berry, S., J. Levinsohn, and A. Pakes (1995).
+Automobile prices in market equilibrium.
+Econometrica 63(4), 841–890.
+Berry, S., J. Levinsohn, and A. Pakes (2004). Differentiated products demand systems from a
+combination of micro and macro data: The new car market. Journal of Political Economy 112(1),
+68–105.
+Blonigen, B. A., C. R. Knittel, and A. Soderbery (2017).
+Keeping it fresh: Strategic product
+redesigns and welfare. International Journal of Industrial Organization 53, 170–214.
+Busse, M., C. Knittel, and F. Zettelmeyer (2013). Are consumers myopic? Evidence from new and
+used car purchases. American Economic Review 103(1), 220–256.
+Chen, Y. and P. G. Gayle (2019). Mergers and product quality: Evidence from the airline industry.
+International Journal of Industrial Organization 62, 96–135.
+Davis, L. W. and C. R. Knittel (2016). Are fuel economy standards regressive? NBER Working
+Paper No. 22925. Cambridge, MA: National Bureau of Economic Research.
+EPA (2010).
+Regulatory Impact Analysis: Final Rulemaking to Establish Light-Duty Vehicle
+Greenhouse Gas Emission Standards and Corporate Average Fuel Economy Standards. EPA-
+420-R-10-009 April 2010.
+EPA (2012). Regulatory Impact Analysis: Final Rulemaking for 2017–2025 Light-Duty Vehicle
+Greenhouse Gas Emission Standards and Corporate Average Fuel Economy Standards. EPA-
+420-R-12-016 August 2012.
+EPA (2022). Supplementary Material for the Regulatory Impact Analysis for the Supplemental
+Proposed Rulemaking,“Standards of Performance for New, Reconstructed, and Modified Sources
+and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review”.
+EPA-HQ-OAR-2021-0317 September 2022.
+EPA, CARB, and NHTSA (2016). Draft Technical Assessment Report: Midterm Evaluation of
+Light-Duty Vehicle Greenhouse Gas Emission Standards and Corporate Average Fuel Economy
+36
+
+
+===== [PAGE 40] =====
+
+Standards for Model Years 2022–2025. EPA-420-D-16-900 July 2016.
+Ganapati, S., J. Shapiro, and R. Walker (2018). The incidence of carbon taxes in US manufacturing:
+Lessons from energy cost pass-through.
+NBER Working Paper No. 22281. Cambridge, MA:
+National Bureau of Economic Research.
+Gillingham, K., S. Houde, and A. Van Benthem (2019). Consumer myopia in vehicle purchases:
+Evidence from a natural experiment.
+NBER Working Paper No. 25845. Cambridge, MA:
+National Bureau of Economic Research.
+Goldberg, P. K. (1995). Product differentiation and oligopoly in international markets: The case
+of the US automobile industry. Econometrica: Journal of the Econometric Society, 891–951.
+Goldberg, P. K. (1998). The effects of the corporate average fuel efficiency standards in the US.
+The Journal of Industrial Economics 46(1), 1–33.
+Goolsbee, A. and A. Petrin (2004). The consumer gains from direct broadcast satellites and the
+competition with cable tv. Econometrica 72(2), 351–381.
+Greene, D., A. Hossain, J. Hofmann, G. Helfand, and R. Beach (2018). Consumer willingness to
+pay for vehicle attributes: What do we know?
+Transportation Research Part A: Policy and
+Practice 118, 258–279.
+Houde, S. (2018). The incidence of course certification: Evidence from the energy star program.
+Technical report, HEC Lausanne.
+Houde, S. and C. A. Spurlock (2015). Do energy efficiency standards improve quality? Evidence
+from a revealed preference approach.
+Ito, K. and J. M. Sallee (2018). The economics of attribute-based regulation: Theory and evidence
+from fuel economy standards. Review of Economics and Statistics 100(2), 319–336.
+Jacobsen, M. (2013).
+Evaluating U.S. fuel economy standards in a model with producer and
+consumer heterogeneity. American Economic Journal: Economic Policy 5(2).
+Jacobsen, M. and A. van Benthem (2015).
+Vehicle scrappage and gasoline policy.
+American
+Economic Review 105(3), 1312–1338.
+Johnson, J. P. and A. Rhodes (2021). Multiproduct mergers and quality competition. The RAND
+Journal of Economics 52(3), 633–661.
+Klier, T. and J. Linn (2012). New vehicle characteristics and the cost of the corporate average fuel
+economy standard. RAND Journal of Economics 43(1), 186–213.
+Klier, T. and J. Linn (2016). The effect of vehicle fuel economy standards on technology adoption.
+Journal of Public Economics 133, 41–63.
+Knittel, C. (2011). Automobiles on steroids: Product attribute trade-offs and technological progress
+in the automobile sector. American Economic Review 101(7), 3368–3399.
+Knittel, C. R. and K. Metaxoglou (2014). Estimation of random-coefficient demand models: two
+empiricists’ perspective. Review of Economics and Statistics 96(1), 34–59.
+37
+
+
+===== [PAGE 41] =====
+
+Langer, A. and N. Miller (2013). Automakers’ short-run responses to changing gasoline prices.
+Review of Economics and Statistics 95(4), 1198–1211.
+Leard, B. (2022). Estimating consumer substitution between new and used passenger vehicles.
+Journal of the Association of Environmental and Resource Economists 9(1), 27–49.
+Leard, B., J. Linn, and V. McConnell (2017).
+Fuel prices, new vehicle fuel economy, and
+implications for attribute-based standards. Journal of the Association of Environmental and
+Resource Economists 4(3), 659–700.
+Leard, B., J. Linn, and Y. Zhou (2017).
+How much do consumers value fuel economy and
+performance?
+Evidence from technology adoption.
+Report. Washington, DC: Resources for
+the Future.
+Leard, B. and V. McConnell (2017).
+New markets for pollution and energy efficiency: Credit
+trading under automobile greenhouse gas and fuel economy standards. Review of Environmental
+Economics and Policy 11(2), 207–226.
+Levinson, A. (2016). Energy efficiency standards are more regressive than energy taxes: Theory
+and evidence. NBER Working Paper No. 22956. Cambridge, MA: National Bureau of Economic
+Research.
+Linn, J. and X. Dou (2020). How do US passenger vehicle fuel economy standards affect purchases
+of new and used vehicles? Journal of Environmental Economics and Management 102.
+National Research Council (2015). Cost, effectiveness, and deployment of fuel economy technologies
+for light-duty vehicles. Washington DC: National Academies Press.
+NHTSA (2022).
+Final Regulatory Impact Analysis: Final Rulemaking for Model Years 2024-
+2026 Light-Duty Vehicle Corporate Average Fuel Economy Standards.
+U.S. Department of
+Transportation, National Highway Traffic Safety Administration. Office of Regulatory Analysis
+and Evaluation, National Center for Statistics and Analysis, Washington, D.C..
+Petrin, A. (2002). Quantifying the benefit of new products: the case of minivan. Journal of Political
+Economy 110, 705–729.
+Reynaert, M. (2021). Abatement Strategies and the Cost of Environmental Regulation: Emission
+Standards on the European Car Market. Review of Economic Studies 88(1), 454–488.
+Sallee, J., S. West, and W. Fan (2016). Do consumers recognize the value of fuel economy? Evidence
+from used car prices and gasoline price fluctuations. Journal of Public Economics 134, 61–73.
+Train, K. (2015). Welfare calculations in discrete choice models when anticipated and experienced
+attributes differ: A guide with examples. Journal of Choice Modelling 16, 15–22.
+Train, K. E. and C. Winston (2007). Vehicle choice behavior and the declining market share of
+U.S. automakers. International Economic Review 48, 1469–1496.
+Weyl, E. and M. Fabinger (2013). Pass-through as an economic tool: Principles of incidence under
+imperfect competition. Journal of Political Economy 121(3), 528–583.
+38
+
+
+===== [PAGE 42] =====
+
+Whitefoot, K. S., M. L. Fowlie, and S. J. Skerlos (2017).
+Compliance by design: Influence of
+acceleration tradeoffs on CO2 emissions and costs of fuel economy and greenhouse gas regulations.
+Environmental Science and Technology 51(18), 10307–10315.
+Wollmann, T. G. (2018).
+Trucks without bailouts:
+Equilibrium product characteristics for
+commercial vehicles. American Economic Review 108(6), 1364–1406.
+Figures
+39
+
+
+===== [PAGE 43] =====
+
+Figure 1: Trends in Vehicle Attributes, 2010–2018
+15
+17
+19
+21
+23
+25
+27
+29
+31
+33
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Panel A: Fuel economy (miles per gallon)
+Cars
+Light trucks
+-2.9
+-2.89
+-2.88
+-2.87
+-2.86
+-2.85
+-2.84
+-2.83
+-2.82
+-2.81
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Panel B: Log (horsepower / weight)
+Cars
+Light trucks
+20,000
+25,000
+30,000
+35,000
+40,000
+45,000
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Panel C: Transaction price (2018 dollars)
+Cars
+Light trucks
+Notes: The figure shows the sales-weighted average attributes of all new cars and light trucks
+sold in the United States between 2010 and 2018.
+40
+
+
+===== [PAGE 44] =====
+
+Figure 2: Own-Price Elasticity of Demand by Income Group
+-6.0
+-5.0
+-4.0
+-3.0
+-2.0
+-1.0
+0.0
+<$44k
+$44-91k
+$91-123k
+$123-185k
+>$185k
+Notes: Each bar shows the own-price elasticity of demand for the indicated income group. The estimates
+are computed from the estimated demand model coefficients, and all estimates are weighted across vehicles
+and markets using predicted market shares as weights.
+41
+
+
+===== [PAGE 45] =====
+
+Figure 3: Willingness to Pay for Fuel Economy and Performance by Income Group
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+<$44k
+$44-91k
+$91-123k
+$123-185k
+>$185k
+Panel A: Willingness to pay for 1-percent fuel economy increase ($)
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+<$44k
+$44-91k
+$91-123k
+$123-185k
+>$185k
+Panel B: Willingness to pay for 1-percent horsepower increase ($)
+Notes: Panel A reports the WTP for a 1 percent fuel economy increase, and Panel B reports the WTP for a
+1 percent performance increase in 2018$. Each bar shows the estimate for the indicated demographic group.
+The estimates are computed from the estimated demand model coefficients, and all estimates are weighted
+across vehicles and markets using predicted market shares as weights.
+42
+
+
+===== [PAGE 46] =====
+
+Figure 4: Estimated Valuation Ratios by Income Group
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+<$44k
+$44-91k
+$91-123k
+$123-185k
+>$185k
+Notes: The figure uses the WTP estimates from Figure 3. See Appendix for details on the calculations.
+43
+
+
+===== [PAGE 47] =====
+
+Figure 5: Consumer Surplus Changes by Income Group (2022–2012 Standards): Baseline
+and Alternative Fuel Cost Parameters
+-1,500
+-1,000
+-500
+0
+500
+1,000
+1,500
+2,000
+Lowest (<$44k)
+Second ($44-91k)
+Third ($91-123k)
+Fourth ($123-185k)
+Highest (>$185k)
+Estimated
+Multiply by 2
+Multiply by 4
+Cut undervaluation in half
+Full valuation
+Notes: The figure reports the average consumer welfare change per household in 2018$ by income group
+and scenario. The estimated results correspond to scenarios in Table 6. The Estimated bars represent the
+scenarios in columns 1 and 2, the Multiply by 2 bars represent scenarios in columns 3 and 5, the Multiply
+by 4 bars represent scenarios in columns 4 and 6, the Cut undervaluation in half bars represent scenarios in
+columns 7 and 9, and the Full valuation bars represent scenarios in columns 8 and 10.
+44
+
+
+===== [PAGE 48] =====
+
+Figure 6: Consumer Surplus Changes by Income Group (2022–2012 Standards): Alternative
+Horsepower and Price Coefficients
+0
+200
+400
+600
+800
+1,000
+1,200
+1,400
+1,600
+1,800
+2,000
+Lowest (<$44k)
+Second ($44-91k)
+Third ($91-123k)
+Fourth ($123-185k)
+Highest (>$185k)
+Mean hp
+Mean price sensitivity
+Notes: The figure reports the average consumer welfare change per household in 2018$ by income group
+and scenario. The estimated results correspond to scenarios in Table 7. The Mean hp bars represent the
+scenarios in columns 11 and 12; the Mean price sensitivity bars represent scenarios in columns 13 and 14.
+45
+
+
+===== [PAGE 49] =====
+
+Tables
+Table 1: Summary Statistics
+Vehicle attribute
+Pooled
+sample
+Income group
+<$44k
+$44-91k
+$91-
+123k
+$123-
+185k
+>$185k
+Transaction price
+(2018$)
+35,411
+29,664
+33,744
+37,061
+40,024
+48,069
+(12,537)
+(8,258)
+(9,876)
+(11,499
+(12,983)
+(16,794)
+Miles per gallon
+25.51
+26.70
+25.48
+24.83
+24.63
+24.16
+(8.18)
+(6.46)
+(7.36)
+(8.15)
+(9.56)
+(11.48)
+Cost per mile (2018 $)
+0.130
+0.122
+0.129
+0.134
+0.136
+0.140
+(0.044)
+(0.040)
+(0.043)
+(0.045)
+(0.045)
+(0.046)
+Horsepower/weight
+0.059
+0.056
+0.059
+0.060
+0.062
+0.065
+(0.013)
+(0.011)
+(0.012)
+(0.013)
+(0.013)
+(0.015)
+Footprint
+49.23
+47.78
+49.23
+49.98
+50.33
+51.04
+(6.66)
+(6.46)
+(6.68)
+(6.76)
+(6.61)
+(6.26)
+Cylinders
+5.029
+4.660
+4.982
+5.200
+5.333
+5.606
+(1.384)
+(1.203)
+(1.342)
+(1.406)
+(1.441)
+(1.541)
+Hybrid share
+0.026
+0.020
+0.027
+0.030
+0.032
+0.031
+(0.160)
+(0.140)
+(0.161)
+(0.172)
+(0.176)
+(0.174)
+Plug-in hybrid share
+0.002
+0.001
+0.002
+0.003
+0.004
+0.006
+(0.051)
+(0.032)
+(0.043)
+(0.055)
+(0.066)
+(0.080)
+Electric share
+0.004
+0.001
+0.002
+0.003
+0.007
+0.014
+(0.062)
+(0.032)
+(0.045)
+(0.058)
+(0.081)
+(0.116)
+Car share
+0.461
+0.565
+0.452
+0.399
+0.382
+0.362
+(0.498)
+(0.496)
+(0.498)
+(0.490)
+(0.486)
+(0.481)
+SUV share
+0.387
+0.297
+0.382
+0.430
+0.461
+0.514
+(0.487)
+(0.457)
+(0.486)
+(0.495)
+(0.498)
+(0.500)
+All wheel drive share
+0.235
+0.151
+0.214
+0.262
+0.304
+0.402
+(0.424)
+(0.358)
+(0.411)
+(0.440)
+(0.460)
+(0.490)
+Notes:
+The data include sales counts and characteristics of passenger vehicles sold during 2010-2018.
+Standard deviations are reported in parentheses.
+46
+
+
+===== [PAGE 50] =====
+
+Table 2: Attribute Comparison for Highest-Selling 2015 Engine Twin Vehicles
+Name
+Engine
+displ.
+(liters)
+Price
+(2018 $)
+Miles
+per
+gallon
+Horsepower
+/ weight
+(pounds)
+2015
+sales
+Sales
+share
+(%)
+Toyota Camry FWD
+2.5
+26,171
+28
+0.045
+293,249
+2.18
+3.5
+31,648
+25
+0.077
+14,919
+0.11
+Nissan Altima FWD
+2.5
+26,041
+28
+0.057
+240,552
+1.79
+3.5
+31,015
+26
+0.079
+8,064
+0.06
+Ford F150 XL Gas
+2.7
+36,486
+22
+0.079
+46,401
+0.34
+3.5
+36,227
+19.5
+0.085
+197,240
+1.47
+Subaru Forester Touring
+2
+32,974
+25
+0.069
+9,564
+0.07
+2.5
+28,232
+27
+0.050
+154,107
+1.15
+Chevrolet Silverado 1500
+4.3
+34,280
+18.3
+0.059
+58,277
+0.43
+5.3
+39,877
+18.6
+0.073
+84,493
+0.63
+Notes: The table reports vehicle characteristics and sales of the top five highest-selling vehicle twins during
+the 2015 market year. Twins are vehicle pairs that share the same model year, make, model, trim name,
+fuel type, body style, and drive type but have different engine configurations. The sales share is the vehicle’s
+sales multiplied by 100 and divided by total new vehicle sales in 2015.
+47
+
+
+===== [PAGE 51] =====
+
+Table 3: Estimated Marginal Costs, Shadow Costs, and Markups by Manufacturer
+Firm
+Marginal costs
+($/vehicle)
+Fuel economy
+standard shadow cost
+($/vehicle)
+Percentage markup
+General Motors
+29,795
+1,650
+24
+Toyota
+24,594
+1,637
+25
+Ford
+27,313
+1,743
+24
+Fiat Chrysler
+23,747
+2,803
+24
+Honda
+20,892
+91
+28
+Nissan
+21,862
+1,144
+27
+Hyundai
+16,874
+1,133
+30
+Subaru
+19,849
+877
+27
+Volkswagen
+24,897
+1,852
+25
+Mazda
+19,135
+796
+28
+BMW
+37,398
+1,819
+21
+Daimler
+41,945
+1,951
+19
+Tesla
+81,372
+-27,168
+22
+Volvo
+42,219
+806
+18
+Notes: The table shows the sales-weighted mean marginal costs, fuel economy shadow cost, and percentage
+markup using observations from 2018. The standard shadow cost is computed from the last term in Equation
+(13). Markup is the difference between the transaction price and the sum of marginal costs and shadow cost.
+48
+
+
+===== [PAGE 52] =====
+
+Table 4: Estimated Fuel Economy–Horsepower Trade-Off and Marginal Cost Function
+Panel A. Dependent variable is log fuel economy
+Cars
+Trucks
+Log horsepower
+–0.55
+–0.69
+(0.04)
+(0.06)
+N
+5,863
+5,801
+R-squared
+0.986
+0.949
+Panel B. Dependent variable is log marginal costs
+Cars
+Trucks
+Fuel-saving technology
+0.54
+0.59
+(0.11)
+(0.11)
+N
+5,845
+5,785
+R-squared
+0.863
+0.735
+Change in marginal costs per mpg
+716
+999
+(140)
+(161)
+Notes: Standard errors are in parentheses, robust to heteroskedasticity. Panel A reports estimates
+of the horsepower coefficient in Equation (6). Each column reports the results from estimating
+a regression in which the dependent variable is log fuel economy and independent variables
+include the log of horsepower, year fixed effects, and vehicle fixed effects. A vehicle and year
+represent a unique observation. Panel B reports results from similar regressions, except that the
+dependent variable is the log of estimated marginal costs and the independent variable is fuel-
+saving technology, computed from Equation (6).
+49
+
+
+===== [PAGE 53] =====
+
+Table 5: Changes in Marginal Costs and Average Fixed Costs from Raising Fuel Economy
+Percentage efficiency increase
+1
+5
+10
+Marginal costs (2018 $)
+150
+745
+1474
+(61)
+(302)
+(599)
+{139}
+{688}
+{1362}
+Average fixed costs (2018 $)
+5
+122
+488
+(50)
+(1243)
+(4972)
+{2}
+{40}
+{161}
+Notes: Each cell reports the mean with standard deviation in parentheses and
+the median in brackets. The top three rows report marginal costs of increasing
+fuel economy by the percentage indicated in the column heading. The bottom
+three rows report average fixed costs of increasing fuel economy.
+50
+
+
+===== [PAGE 54] =====
+
+Table 6: Welfare Effects of 2022 Standards: Baseline and Alternative Fuel Cost Parameters
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+Year of standards
+2012
+2022
+2012
+2012
+2022
+2022
+2012
+2012
+2022
+2022
+Cost-per-mile
+coefficient
+Estimated
+Estimated
+Multiply
+by 2
+Multiply
+by 4
+Multiply
+by 2
+Multiply
+by 4
+Reduce
+under-
+valuation
+50 percent
+No under-
+valuation
+Reduce
+under-
+valuation
+50 percent
+No under-
+valuation
+Panel A: Credit prices
+Fuel economy
+($/1% mpg
+improvement)
+76
+151
+29
+15
+127
+105
+19
+15
+121
+91
+Panel B: Private welfare
+Consumer welfare
+(billion $)
+367
+441
+638
+940
+687
+936
+720
+1076
+748
+1059
+Profits (billion $)
+114
+113
+115
+114
+113
+112
+115
+114
+113
+113
+Subsidy expenditure
+(billion $)
+4
+8
+3
+3
+6
+4
+3
+3
+6
+4
+Panel C: CO2 emissions and damages
+Emissions
+(billion metric tons)
+0.77
+0.63
+0.78
+0.72
+0.64
+0.64
+0.78
+0.69
+0.64
+0.65
+Damages (billion $))
+87
+71
+88
+81
+72
+72
+88
+78
+72
+73
+Panel D: Log (horsepower / weight), fuel consumption rate
+Log (horsepower /
+weight)
+-2.68
+-2.89
+-2.69
+-2.78
+-2.91
+-2.93
+-2.69
+-2.85
+-2.93
+-2.96
+Fuel consumption rate
+(gallons / mile)
+0.044
+0.036
+0.045
+0.041
+0.036
+0.036
+0.045
+0.039
+0.036
+0.036
+Panel E: Social welfare
+Total welfare (billion $)
+391
+474
+661
+970
+772
+972
+744
+1109
+784
+1095
+Welfare change
+(2022 - 2012 standards,
+billion $)
+83.3
+61.2
+1.8
+39.8
+-14.5
+Notes: Each column reports outcomes for 2022 from adopting fuel economy standards in 2017. Level of standard refers to the model year of the NHTSA
+footprint coefficients. The table uses the estimated horsepower and price coefficients. Columns 1 and 2 use the estimated cost-per-mile coefficients. Columns
+3–6 multiply the coefficients by the factor indicated in the row heading; columns 5 and 6 imply almost no undervaluation on average. Columns 7–10 scale
+cost-per-mile coefficients by the gap between the demographic group’s valuation ratio and full valuation. The fuel economy credit price is the value of a
+1 percent fuel economy improvement, holding fixed all market shares. Consumer welfare includes welfare changes caused by changes in vehicle prices, fuel
+economy, and horsepower using the present discounted value of fuel costs over the vehicle’s lifetime. Emissions and damages reflect emissions over the lifetimes
+of the vehicles. Total welfare is the sum of consumer welfare and profits, net of subsidy expenditure and CO2 damages.
+51
+
+
+===== [PAGE 55] =====
+
+Table 7: Welfare Effects of 2022 Standards: Alternative Horsepower and Price Coefficients
+(11)
+(12)
+(13)
+(14)
+Year of standards
+2012
+2022
+2012
+2022
+Horsepower coefficient
+Mean for
+all groups
+Mean for
+all groups
+Estimated
+Estimated
+Price coefficient
+Estimated
+Estimated
+Mean for
+all groups
+Mean for
+all groups
+Panel A: Credit prices
+Fuel economy ($/1% mpg
+improvement)
+77
+162
+76
+144
+Panel B: Private welfare
+Consumer welfare (billion
+$)
+361
+441
+368
+442
+Profits (billion $)
+115
+113
+115
+114
+Subsidy expenditure
+(billion $)
+4
+9
+5
+9
+Panel C: CO2 emissions and damages
+Emissions (billion metric
+tons)
+0.77
+0.63
+0.77
+0.63
+Damages (billion $))
+87
+81
+87
+81
+Panel D: Log (horsepower / weight), fuel consumption rate
+Log (horsepower / weight)
+-2.68
+-2.87
+-2.67
+-2.86
+Fuel consumption rate
+(gallons / mile)
+0.448
+0.363
+0.447
+0.364
+Panel E: Social welfare
+Total welfare (billion $)
+385
+474
+392
+476
+Welfare change (2022 -
+2012 standards, billion $)
+89.1
+83.9
+Notes: Each column reports outcomes for year 2022 from adopting fuel economy standards in 2012 (identical to
+Table 6, except that the scenarios include the parameter assumptions indicated in the second row of the table).
+52
+
+
+===== [PAGE 56] =====
+
+Appendix
+Data
+This section provides further details on the data construction. For each unique vehicle and
+MY, we compute the average transaction price in InMoment and assign this as its purchase
+price. For the 10 percent of vehicles without reported transaction prices, we estimate based
+on the most closely related vehicle in the data with an observed transaction price.
+For
+example, suppose that some other observations of vehicles with the same make, model, trim,
+model year, and purchase year have reported transaction prices. For the matching vehicles
+with nonmissing data, we compute the average difference between MSRP and transaction
+price (in dollars). For the vehicle with a missing transaction price, the imputed price is
+the sum of its MSRP and the calculated difference between transaction price and MSRP.
+We repeat this procedure by sequentially aggregating the vehicle definition until we obtain
+imputed prices for all vehicles in the InMoment data.
+As noted in the main text, we use the Consumer Expenditure Survey (CEX) data to
+weight household observations in the InMoment data.
+The CEX samples about 7,000
+US households each quarter, and, importantly for our purposes, the survey data include
+demographic information and whether the household purchased a new or used vehicle in the
+current quarter or the quarter before being surveyed. We use the CEX survey weights to
+compute the total new and used vehicles obtained by demographic group and year.
+We construct weights for the InMoment household observations in three steps. First, we
+construct a weight variable so that the total new purchases by MY and demographic group
+matches total new purchases by year and demographic group in the CEX. Second, we adjust
+the household weights so that the vehicle’s share of sales in total sales by MY equals the
+corresponding share according to the IHS data. Third, we adjust the household weights so
+that total new vehicles obtained by MY in the InMoment data match total vehicles obtained
+by year in the IHS data. After constructing these weights, we compute the total new vehicles
+obtained by MY, vehicle, and demographic group.
+This approach assumes implicitly that variation in survey response rates across
+demographic groups is orthogonal to such variation across vehicles.
+Reversing the order
+has little effect on the estimated parameters of the consumer demand model.
+53
+
+
+===== [PAGE 57] =====
+
+Model and Estimation
+Derivation of Market Share Equation
+We derive the market share Equation (3). We begin by observing that the household’s
+utility from purchasing a vehicle is the same as the utility another household in the same
+demographic group g would experience from choosing the same vehicle, so that vijt ≡vgjt.
+Consequently, the probability that the household chooses a particular vehicle is the same for
+all households belonging to g, and we can aggregate the choice probabilities to market shares
+by demographic group, vehicle, and market:
+sgjt =
+evgjt
+P
+l evglt .
+(A.1)
+Taking the natural log of both sides of Equation (A.1) yields
+ln(sgjt) = vgjt −ln(
+X
+l
+vglt).
+(A.2)
+Normalizing the utility of the outside good to 0 for each demographic group implies that
+ln sg0t = −ln(P
+l vglt). Substituting this log share into Equation (A.2), rearranging, and
+substituting the definition of utility from Equation (1) yields the market share equation in
+the main text, Equation (3).
+Definition of the Outside Option
+We review how the literature handles the outside option and argue that in our setting,
+conditioning on buying a vehicle (new or used) is appropriate. Berry et al. (1995; 2004) and
+Petrin (2002) define the outside good as the decision to not buy a new vehicle. Consequently,
+their choice models apply to all US households during their sample periods. The models can
+be used to simulate the effects of a policy or vehicle entry and exit on total new vehicle sales
+and consumer welfare.
+In contrast, many recent vehicle demand models exclude an outside good because utility
+from this option does not represent a structural parameter (Train and Winston 2007); it
+is often normalized to zero and therefore is unaffected by policy changes (Berry et al.
+1995; 2004).
+As a result, including the outside good in the demand model estimation
+and postestimation simulation exercises may provide inconsistent inferences about welfare.
+Furthermore, the definition of utility from the outside good is broad and not well defined.
+54
+
+
+===== [PAGE 58] =====
+
+Households deciding not to buy a new vehicle in a given period do so for many different
+reasons. For example, they may not drive at all, be financially constrained, be satisfied with
+their current vehicle portfolio, or choose a used vehicle.
+We reduce these concerns by narrowing the definition of the outside good to purchasing
+a used vehicle. Conditioning on buying a (new or used) vehicle sharpens the interpretation
+of the outside good utility: households that choose the outside good receive the utility
+from the new vehicle that is common to their demographic group. Although this definition
+does not provide a structural interpretation for the outside good utility, it does make our
+inferences about welfare more consistent than the standard method of defining the outside
+good. Because our demand model is estimated using several years of data, our substitution
+patterns between new and used vehicles are identified by their changing attributes. Because
+the average attributes of used vehicles do not change much relative to the market for new
+vehicles, changes in new vehicle attributes identify the substitution patterns between new and
+used vehicles. For example, during our sample period, tightening new vehicle fuel economy
+standards caused new vehicle fuel economy to increase rapidly. These fuel economy changes
+help identify substitution patterns for each demographic group.
+Calculation of Valuation Ratios
+The valuation ratios in Table 4 are the ratio of the WTP for a 1-percent fuel economy
+increase to the present discounted value of the resulting fuel savings, which equal the
+difference in the present discounted value of fuel costs with and without that increase.
+We begin by calculating the present discounted value of the fuel costs without the increase,
+which is given by PDVgjt =
+Pt+T
+τ=t
+πjτVgτfτ
+mjt(1+rg)τ . T is the maximum lifetime of the vehicle, πjτ
+is the probability that it is not retired before year τ (which is sometimes referred to as the
+”survival probability rate”), Vgτ is the number of miles the vehicle is driven in year τ, fτ is
+the real fuel price in year τ, mjt is its fuel economy, and rg is the real discount rate. We
+use assumptions on fuel prices, vehicle miles traveled (VMT), scrappage rates, and discount
+rates. For fuel prices, we assume that the price in market t equals the real fuel price in all
+subsequent years τ. Using household-level data from the 2017 National Household Travel
+Survey (NHTS), we estimate unique VMT-by-age schedules separately for cars and light
+trucks and each of the 20 demographic groups. Figures A.4 and A.5 display estimated VMT
+schedules for a few of the demographic groups.
+We estimate unique scrappage rates for cars and light trucks using R. L. Polk vehicle
+registration data from 2002 to 2014. The data provide vehicle counts by class, age, and year.
+55
+
+
+===== [PAGE 59] =====
+
+From these data, we compute annual average scrappage rates as the difference in vehicle
+counts divided by prior year counts for each vehicle class. The rates are identical to those in
+the appendix of Leard et al. (2017).
+We use vehicle loan rates in the InMoment survey data to compute average discount
+rates by demographic group (Tables A.3 and A.4). The tables show that the loan rates vary
+considerably across groups; low-income households typically face higher rates.
+Having computed the present discounted value of fuel costs for each demographic group,
+vehicle, and market, we compute the change in fuel costs caused by a 1-percent fuel economy
+increase.
+We compute the average change for each group using as weights the vehicle
+market shares predicted by the demand model for all markets in the estimation sample.
+The valuation ratios are then computed as the ratio of the estimated WTP for fuel cost
+savings and the average change in fuel costs.
+Comparison of Our Cost Estimates with Department of Transportation
+Estimates
+Having estimated vehicle-specific marginal costs and manufacturer-specific shadow prices
+in Section 4.3, we can estimate the elasticity of marginal costs to fuel economy; because of
+the normalization of efficiency (Td(j)), it is the same as the elasticity of marginal costs to
+efficiency. Following Knittel (2011), we specify a log-log model, and we control for other
+vehicle attributes:
+lncjt = γlnmjt + Xjtη + ϖj + ςt + µjt.
+(A.3)
+The coefficient γ is the desired elasticity. We estimate this equation by OLS, expecting a
+positive estimate of γ. The vector Xjt includes variables that may be correlated with fuel
+economy and also affect marginal costs: the log of weight and interactions of market fixed
+effects with body type fixed effects. The equation also includes vehicle fixed effects (ϖj)
+to absorb fixed variation within a vehicle.
+These fixed effects control for cross-sectional
+correlation between fuel economy and unobserved attributes, such as cabin size. The fuel
+economy coefficient is identified by variation in marginal costs within a vehicle and over time,
+which largely arises from retuning the engine or adding fuel-saving technologies. The market
+fixed effects (ςt) control for fixed variation across vehicles in marginal costs.
+An alternative to using Equation (A.3) to estimate the relationship between marginal
+costs and fuel economy is to use Department of Transportation estimates of the costs of fuel-
+56
+
+
+===== [PAGE 60] =====
+
+saving technologies. As part of the 2016 Technical Assessment Report, the Department of
+Transportation uses its technology cost model to estimate the costs of meeting the standards
+(EPA et al. 2016). The estimation algorithm begins with a set of vehicles in 2016, recording
+the fuel economy, retail price, and set of technologies for each vehicle. The agency uses the
+model to simulate compliance with future standards; over time, technologies are added to
+the vehicles so that manufactures achieve the specified standards. The model keeps track
+of changes over time in fuel economy and technology costs. The agency assumes that the
+vehicle’s price increases in proportion to the cost increase. The result of the simulation is a
+panel data set of vehicles over time, including fuel economy and retail price.
+We obtained these data, and for each vehicle and year t > 2016, we compute the log ratio
+of its price in that year to its price in 2016 and compare the log ratio of fuel economy in
+that year to fuel economy in 2016. Because the agency assumes that retail prices are a fixed
+markup over production costs, regressing the log price ratio on the log fuel economy ratio is
+equivalent to regressing the log production cost ratio on the log fuel economy ratio; the fuel
+economy coefficient is typically about 0.15, depending on the additional controls we include
+and the sample. This estimate is smaller thanthose in Table A.5 using Equation (A.3).
+The estimates in Table A.5 and the estimates using Department of Transportation data
+have two important differences.
+First, the Department of Transportation cost estimates
+pertain to technologies that the agency projected would be adopted after 2016, whereas those
+in Table A.5 reflect the cost of adding technologies during the sample period (2012–2018).
+In principle, the Department of Transportation cost estimates could be higher or lower than
+ours. On the one hand, in the Department of Transportation model, the manufacturers
+adopt technologies roughly in order of decreasing cost-effectiveness. Consequently, the cost
+of a given fuel consumption improvement increases over time, which causes the Department
+of Transportation data to yield higher cost estimates than ours. On the other hand, the
+Department of Transportation model includes technological change over time, which reduces
+the cost of adopting a particular technology after 2018 compared to the cost before 2018.
+These two effects oppose one another.
+The second difference is that in Table A.5, the
+dependent variable is the marginal cost of producing the vehicle, whereas in the Department
+of Transportation data, it is the average production cost. For the reasons provided in the
+main text, we prefer to use the estimates from Equation (A.3) in the policy simulations.
+57
+
+
+===== [PAGE 61] =====
+
+Computing
+Vehicle
+Prices
+and
+Attributes
+in
+Policy
+Counterfactuals
+We explain the algorithm for computing the equilibrium vehicle prices, fuel economy, and
+shadow price in the baseline and policy counterfactuals. The endogenous variables include
+vehicle prices, fuel economy, technology, and shadow price. In equilibrium, the vehicle prices,
+fuel economy, and technology choices satisfy Equations (12) through (14) and Equation (6).
+Finally, each firm must satisfy the regulatory constraint, Equation (5). Consequently, the
+number of unknowns equals the number of equilibrium equations.
+For each equilibrium, we choose an initial guess for the prices, fuel economy, technology,
+and shadow price. In the baseline scenario, we use the observed price and fuel economy
+choices along with the estimated shadow price from Section 4. In the benchmark policy
+scenario, the initial guess consists of the observed 2018 vehicle prices and a proportional fuel
+economy and technology improvement for each vehicle.
+The algorithm proceeds as follows. For each firm, given a shadow price and vehicle prices,
+we use Equations (13)and (14) to compute the technology and fuel economy of each vehicle.
+Then, conditional on technology and fuel economy, we use Equation (12) to compute the price
+of each vehicle. We compare the difference between the firm’s average fuel consumption rate
+(the reciprocal of fuel economy) and that required by the standard and adjust the shadow
+price accordingly. Given the new shadow price, we recompute technology, fuel economy, and
+prices and iterate until convergence. After cycling through each firm in this manner, we
+repeat the procedure until the choices of all firms converge.
+58
+
+
+===== [PAGE 62] =====
+
+Appendix Figures
+Figure A.1: Fuel Economy for Vehicles Sold in 2011 and Requirements in 2012 and 2022
+15
+20
+25
+30
+35
+40
+45
+35
+40
+45
+50
+55
+60
+65
+70
+Miles per gallon
+Footprint (square feet)
+Panel A: Cars
+2012 fuel economy
+2012 requirement
+2022 requirement
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+35
+40
+45
+50
+55
+60
+65
+70
+Miles  per gallon
+Footprint (square feet)
+Panel B: Light trucks
+2012 fuel economy
+2012 requirement
+2022 requirement
+Notes: Each circle and x represent a unique vehicle sold in 2011. Each blue circle is its fuel economy, in
+miles per gallon, plotted against its footprint, in square feet (computed as the product of the wheelbase
+and width). Each orange x shows the vehicle’s fuel economy requirement in 2012, and each black x shows
+the fuel economy requirement in 2022.
+59
+
+
+===== [PAGE 63] =====
+
+Figure A.2: Comparison of Predicted and Observed Attributes by Demographic Group and
+Year
+25,000
+30,000
+35,000
+40,000
+45,000
+50,000
+55,000
+60,000
+25,000
+35,000
+45,000
+55,000
+65,000
+Panel A: Transaction price (dollars)
+0.12
+0.13
+0.14
+0.15
+0.16
+0.17
+0.18
+0.19
+0.12
+0.13
+0.14
+0.15
+0.16
+0.17
+0.18
+0.19
+Panel B: Fuel cost (dollars) per mile
+-2.94
+-2.89
+-2.84
+-2.79
+-2.74
+-2.94
+-2.89
+-2.84
+-2.79
+-2.74
+Panel C: Log (horsepower / weight)
+44
+46
+48
+50
+52
+54
+56
+44
+46
+48
+50
+52
+54
+Panel D: Footprint (square feet)
+Notes: For each demographic group, we compute the predicted mean attribute indicated in the
+panel title using the vehicle market shares predicted by the model. The figure plots the predicted
+mean against the observed sales-weighted mean.
+60
+
+
+===== [PAGE 64] =====
+
+Figure A.3: Comparison of Predicted and Observed 2018 Market Shares by Demographic
+Group, Brand, and Class: No-Change vs. Demand Model
+0
+0.02
+0.04
+0.06
+0.08
+0.1
+0.12
+0.14
+0
+0.02
+0.04
+0.06
+0.08
+0.1
+0.12
+0.14
+Predicted market share
+Observed market share
+Panel A: No-change forecast
+0
+0.02
+0.04
+0.06
+0.08
+0.1
+0.12
+0.14
+0
+0.02
+0.04
+0.06
+0.08
+0.1
+0.12
+0.14
+Predicted market share
+Observed market share
+Panel B: Demand model
+Notes: Vehicles are aggregated by brand and class. The figure plots the predicted against observed 2018
+market share by aggregated vehicle and demographic group. In Panel A, the figure shows the no-change
+forecast against observed 2018 market shares. In Panel B, the prediction uses the demand model.
+61
+
+
+===== [PAGE 65] =====
+
+Figure A.4: Estimated Car VMT Schedules for Selected Demographic Groups
+62
+
+
+===== [PAGE 66] =====
+
+Figure A.5: Estimated Light Truck VMT Schedules for Selected Demographic Groups
+63
+
+
+===== [PAGE 67] =====
+
+Appendix Tables
+64
+
+
+===== [PAGE 68] =====
+
+Table A.5: Estimated Elasticity of Marginal Costs to Fuel Economy
+Dependent variable is log of marginal costs
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Panel A: Cars
+Log fuel economy
+0.437
+0.439
+0.442
+0.434
+0.400
+0.437
+(0.042)
+(0.042)
+(0.042)
+(0.044)
+(0.046)
+(0.042)
+Log weight
+0.306
+0.312
+0.304
+0.416
+0.503
+0.306
+(0.139)
+(0.139)
+(0.140)
+(0.163)
+(0.127)
+(0.139)
+R-squared
+0.956
+0.956
+0.957
+0.959
+0.959
+0.957
+Observations
+2,507
+2,507
+2,507
+2,507
+2,507
+2,507
+Panel B: Light trucks
+Efficiency
+0.345
+0.346
+0.338
+0.332
+0.371
+0.351
+(0.039)
+(0.039)
+(0.039)
+(0.040)
+(0.042)
+(0.039)
+Log weight
+0.712
+0.712
+0.711
+0.726
+0.636
+0.742
+(0.186)
+(0.192)
+(0.186)
+(0.208)
+(0.170)
+(0.188)
+R-squared
+0.896
+0.896
+0.875
+0.902
+0.899
+0.897
+Observations
+2,897
+2,897
+2,897
+2,897
+2,897
+2,897
+Year fixed effects
+interacted with:
+Body type
+fixed effects
+Body type
+and drive
+type fixed
+effects
+Body type
+and fuel type
+fixed effects
+Body type
+and make
+fixed effects
+Body type
+and engine
+size fixed
+effects
+Body type
+and
+cylinders
+fixed effects
+Notes: Each column and panel show the results of a separate regression. Observations are by vehicle and market. The
+dependent variable is the log marginal costs estimated from Equation (12). The table shows coefficient estimates with
+the standard error in parentheses, robust to heteroskedasticity.
+All regressions include vehicle fixed effects, and the
+independent variables are described in the bottom row of the table.
+65
+
+
+===== [PAGE 69] =====
+
+Table A.1: Additional Effects of 2022 Standards: Baseline and Valuation Parameters
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+Year of standards
+2012
+2022
+2012
+2012
+2022
+2022
+2012
+2012
+2022
+2022
+Cost-per-mile
+coefficient
+Estimated
+Estimated
+Multiply
+by 2
+Multiply
+by 4
+Multiply
+by 2
+Multiply
+by 4
+50% under-
+valuation
+No under-
+valuation
+50% under-
+valuation
+No under-
+valuation
+Panel A: Plug-in market share
+Plug-in market share
+0.024
+0.048
+0.017
+0.014
+0.035
+0.026
+0.015
+0.015
+0.033
+0.023
+Panel B: New and used prices
+Average new
+vehicle price (2018$)
+33,678
+35,457
+33,749
+34,112
+35,227
+35,191
+33,796
+34,401
+35,248
+35,179
+Average used vehicle
+price (2018$)
+-976
+1,950
+-571
+-663
+1,185
+274
+-557
+-702
+1,134
+187
+Notes: The table reports additional results for the scenarios reported in Table 6.
+66
+
+
+===== [PAGE 70] =====
+
+Table A.2: Additional Effects of 2022 Standards: Price and Horsepower Coefficients
+(11)
+(12)
+(13)
+(14)
+Year of standards
+2012
+2022
+2012
+2022
+Horsepower coefficient
+Mean for
+all groups
+Mean for
+all groups
+Estimated
+Estimated
+Price coefficient
+Estimated
+Estimated
+Mean for
+all groups
+Mean for
+all groups
+Panel A: Plug-in market share
+Plug-in market share
+Panel B: New and used prices
+Average new vehicle price
+(2018$)
+33,676
+35,592
+33,872
+35,870
+Average used vehicle price
+(2018$)
+-1059
+1,896
+-1,282
+1,613
+Notes: The table reports additional results for the scenarios reported in Table 7.
+67
+
+
+===== [PAGE 71] =====
+
+Table A.3: Vehicle Attributes by Demographic Group—Rural
+Income
+Age
+group
+Price
+(2015$)
+APR
+Share
+light
+truck
+Share
+hybrid
+or
+plug-in
+Fuel
+economy
+Horsepower
+/
+weight
+Foot-
+print
+2016
+fuel
+economy
+requirement
+Share
+used
+< 44k
+< 45
+26,950
+5.33
+0.36
+0.015
+25.9
+0.056
+54.9
+31.2
+0.95
+(7,881)
+(6.0)
+(0.011)
+(7.4)
+(3.5)
+44k - 91k
+< 45
+30,677
+4.81
+0.52
+0.018
+23.9
+0.059
+58.0
+29.7
+0.92
+(9,182)
+(6.4)
+(0.013)
+(9.1)
+(3.6)
+91k - 123k
+< 45
+33,270
+4.03
+0.63
+0.018
+22.6
+0.059
+59.6
+28.8
+0.90
+(9,544)
+(6.5)
+(0.012)
+(9.4)
+(3.6)
+123k - 185k
+< 45
+36,708
+3.54
+0.67
+0.023
+22.1
+0.061
+60.4
+28.4
+0.81
+(11,132)
+(6.6)
+(0.012)
+(9.2)
+(3.5)
+> 185k
+< 45
+43,614
+3.16
+0.72
+0.038
+21.3
+0.063
+61.5
+27.9
+0.77
+(14,693)
+(7.4)
+(0.014)
+(8.7)
+(3.3)
+< 44k
+>= 45
+29,465
+4.60
+0.52
+0.018
+24.1
+0.058
+57.9
+29.7
+0.85
+(8,133)
+(5.9)
+(0.012)
+(9.0)
+(3.6)
+44k - 91k
+>= 45
+32,091
+4.01
+0.59
+0.028
+23.1
+0.059
+59.3
+29.1
+0.85
+(9,042)
+(6.3)
+(0.013)
+(9.2)
+(3.5)
+91k - 123k
+>= 45
+34,637
+3.58
+0.61
+0.038
+22.9
+0.061
+59.7
+28.8
+0.81
+(10,291)
+(6.6)
+(0.014)
+(9.2)
+(3.4)
+123k - 185k
+>= 45
+37,039
+3.32
+0.62
+0.040
+22.4
+0.062
+60.1
+28.7
+0.80
+(11,684)
+(6.8)
+(0.014)
+(9.1)
+(3.4)
+> 185k
+>= 45
+43,716
+2.96
+0.64
+0.049
+21.8
+0.065
+61.1
+28.3
+0.73
+(15,104)
+(7.4)
+(0.015)
+(8.9)
+(3.3)
+Notes: The table shows the purchases-weighted mean attribute or market share for each demographic
+group, with standard deviations in parentheses. The sample includes all vehicles purchased 2010–2018.
+68
+
+
+===== [PAGE 72] =====
+
+Table A.4: Vehicle Attributes by Demographic Group—Urban
+Income
+Age
+group
+Price
+(2015
+$)
+APR
+Share
+light
+truck
+Share
+hybrid
+or
+plug-in
+Fuel
+economy
+Horsepower
+/
+weight
+Foot-
+print
+2016
+fuel
+economy
+requirement
+Share
+used
+< 44k
+< 45
+26,529
+5.07
+0.28
+0.023
+26.9
+0.055
+53.9
+31.8
+0.92
+(7,567)
+(6.0)
+(0.011)
+(6.7)
+(3.3)
+44k - 91k
+< 45
+30,253
+4.45
+0.42
+0.030
+25.3
+0.058
+55.7
+30.6
+0.90
+(9,199)
+(6.8)
+(0.012)
+(7.3)
+(3.4)
+91k - 123k
+< 45
+33,071
+3.92
+0.51
+0.040
+24.5
+0.059
+57.0
+29.8
+0.85
+(10,286)
+(8.0)
+(0.013)
+(7.6)
+(3.4)
+123k - 185k
+< 45
+36,421
+3.39
+0.58
+0.049
+23.8
+0.060
+58.2
+29.2
+0.77
+(11,626)
+(8.8)
+(0.013)
+(7.9)
+(3.4)
+> 185k
+< 45
+43,263
+2.97
+0.63
+0.057
+23.1
+0.063
+58.8
+28.7
+0.63
+(15,183)
+(9.7)
+(0.014)
+(7.1)
+(3.3)
+< 44k
+>= 45
+27,965
+4.65
+0.39
+0.028
+25.7
+0.057
+55.4
+30.8
+0.81
+(7,921)
+(6.0)
+(0.012)
+(7.3)
+(3.4)
+44k - 91k
+>= 45
+31,371
+4.13
+0.48
+0.040
+24.8
+0.059
+56.7
+30.0
+0.78
+(9,442)
+(6.6)
+(0.013)
+(7.6)
+(3.3)
+91k - 123k
+>= 45
+33,739
+3.62
+0.50
+0.050
+24.3
+0.060
+57.1
+29.8
+0.79
+(10,749)
+(7.1)
+(0.013)
+(7.4)
+(3.2)
+123k - 185k
+>= 45
+36,539
+3.29
+0.52
+0.061
+24.1
+0.062
+57.4
+29.6
+0.74
+(12,285)
+(7.9)
+(0.014)
+(7.4)
+(3.2)
+> 185k
+>= 45
+43,699
+2.89
+0.55
+0.079
+23.4
+0.064
+58.5
+29.2
+0.62
+(15,627)
+(9.1)
+(0.015)
+(7.2)
+(3.2)
+Notes: The table shows the purchases-weighted mean attribute or market share for each demographic
+group, with standard deviations in parentheses. The sample includes all vehicles purchased 2010–2018.
+69
+
+
+===== [PAGE 73] =====
+
+Resources for the Future 
+ 
+ iii 
+ 

@@ -1,0 +1,180 @@
+{
+  "rank": 23,
+  "item_key": "ZGZYZSJQ",
+  "title": "The Market for Electric Vehicles: Indirect Network Effects and Policy Design",
+  "authors": [
+    "Shanjun Li",
+    "Lang Tong",
+    "Jianwei Xing",
+    "Yiyi Zhou"
+  ],
+  "creators": [
+    {
+      "name": "Shanjun Li",
+      "type": "author"
+    },
+    {
+      "name": "Lang Tong",
+      "type": "author"
+    },
+    {
+      "name": "Jianwei Xing",
+      "type": "author"
+    },
+    {
+      "name": "Yiyi Zhou",
+      "type": "author"
+    }
+  ],
+  "date": "2017-00-00 2017",
+  "journal": "Journal of the Association of Environmental and Resource Economists",
+  "doi": "10.1086/689702",
+  "url": "https://doi.org/10.1086/689702",
+  "collections": [
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "BLP-adjacent structural policy model",
+  "apa_citation": {
+    "reference": "Li, S., Tong, L., Xing, J., & Zhou, Y. (2017). The Market for Electric Vehicles: Indirect Network Effects and Policy Design. Journal of the Association of Environmental and Resource Economists. https://doi.org/10.1086/689702",
+    "parenthetical": "(Li et al., 2017)",
+    "narrative": "Li et al. (2017)"
+  },
+  "preferred_pdf_rel": "source_pdfs/23_zgzyzsjq.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "EDM4HIXH",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:689702.pdf.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\EDM4HIXH\\689702.pdf.pdf",
+    "exists": true,
+    "size": 3568479
+  },
+  "legacy_note_rel": "raw/notes/23_zgzyzsjq.md",
+  "legacy_old_memory_rel": "raw/paper_memory/23_zgzyzsjq.md",
+  "fulltext_json_rel": "raw/fulltext/23_zgzyzsjq.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/23_zgzyzsjq.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper estimates indirect network effects in the EV market, focusing on the feedback between EV sales and charging-station deployment.\n- Its answer is that the feedback loop is quantitatively important and changes the policy ranking.\n- The key policy result is that equal spending on charging stations can generate much more adoption than the same spending on EV subsidies.",
+    "2. Story ladder": "- Real-world tension or puzzle: EV adoption and charging infrastructure coevolve.\n- Why the puzzle matters now: policy makers often subsidize buyers, but the infrastructure side may be the binding margin.\n- What the literature already explains: EV adoption is well studied, but the two-sided network mechanism is undermeasured.\n- What is still missing or weakly identified: a clean estimate of the feedback loop and its policy implications.\n- The paper's move: estimate the two-sided network effects and then simulate policy.\n- Main payoff: a better ranking of buyer subsidies versus charging-station subsidies.",
+    "3. Model or identification core": "- Research design type: structural estimation with instrumental variables.\n- Structural model class or reduced-form design: two-sided network-effects model plus simulation.\n- Key equations or choice objects: EV demand, charging-station supply, and the feedback between them.\n- Endogeneity problem: charging stations and EV stock are jointly determined.\n- Identification strategy: Bartik-style IV for charging stations and gasoline prices as a shifter for EV stock.\n- What assumptions are doing the heavy lifting: the exclusion of the instruments from the demand and supply errors.",
+    "4. Data and measurement": "- Unit of observation: quarterly EV sales by model and charging deployment in 353 metropolitan areas.\n- Market definition: US metro EV markets from 2011 to 2013.\n- Main dependent variable: EV sales and charging-station deployment.\n- Core explanatory variables: buyer subsidies, station availability, gasoline prices.\n- Instruments / moments / shocks: Bartik-style variation and gasoline-price variation.\n- Important sample restrictions: the panel is limited to the adoption period when the network feedback is visible.",
+    "5. Findings and mechanisms": "- Baseline result: indirect network effects matter enough that about 40 percent of the tax-credit sales increase is explained by feedback loops.\n- Mechanism evidence: the market is not just responding to subsidies; it is responding to the co-movement of vehicle stock and charging access.\n- Heterogeneity evidence: the policy effect varies across metro areas and market depth.\n- Welfare or counterfactual result: equal spending on charging stations can be more than twice as effective as buying EV subsidies.\n- Limits the authors admit: the policy ranking depends on the estimated strength of the two-sided network effect.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: EV subsidy papers, network-effect papers, and infrastructure adoption papers.\n- What exact gap the authors claim: prior work had not jointly estimated both sides of the EV market in a way that supported policy simulation.\n- How the introduction stages novelty: first the network logic, then the need for data, then the policy design implication.\n- Whether the contribution is data, method, theory, policy, or a combination: method plus policy design.",
+    "7. Literature review function": "- Where the review sits: early introduction.\n- How the review is organized: by mechanism, not by topic alone.\n- Which citations do positioning work: EV adoption and infrastructure literature show why the two-sided market matters.\n- Which citations do method-validation work: Bartik-style IV and network-economics citations justify the design.",
+    "8. Writing structure map": "- Introduction move sequence: coevolution puzzle -> undermeasured feedback -> identification strategy -> policy ranking.\n- Section order: intro -> model -> data -> identification -> estimates -> simulations -> conclusion.\n- Where the paper turns from setup to payoff: once the feedback loop is quantified.\n- How tables/figures are used to move the argument: network-effect estimates and simulation tables likely do the main persuasive work.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"If both sides of the market respond to each other, policy has to be evaluated on both sides.\"\n- Best transition pattern: \"We next identify the feedback loop and then simulate policy.\"\n- Best contribution sentence pattern: \"The market design implication is different once infrastructure is endogenous.\"\n- Best limitation or implication move: make the policy ranking conditional on the strength of the estimated network effect.",
+    "10. Memory update": "- Durable economics-writing principle: when a market has two-sided feedback, say so before you present policy results.\n- Durable structural-model principle: a subsidy can have a larger effect through a network channel than through its direct demand effect.\n- Reusable empirical design idea: Bartik-style instruments are useful for infrastructure-market endogeneity.\n- Follow-up paper to pair with this one: any EV policy paper where charging deployment and vehicle adoption move together."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_zgzyzsjq_the-market-for-electric-vehicles-indirect-network-effects-and-policy-design\ndescription: Fulltext memory for The Market for Electric Vehicles: Indirect Network Effects and Policy Design; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# The Market for Electric Vehicles: Indirect Network Effects and Policy Design",
+    "Citation": "- Key: `ZGZYZSJQ`\n- DOI: `10.1086/689702`\n- Journal: Journal of the Association of Environmental and Resource Economists\n- Year: 2017\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\ZGZYZSJQ.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/ZGZYZSJQ/ZGZYZSJQ.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/ZGZYZSJQ.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- The market for plug-in electric vehicles (EVs) exhibits indirect network effects due to the interdependence between EV adoption and charging station investment.",
+    "Story Logic": "- 故事起点：The market for plug-in electric vehicles (EVs) exhibits indirect network effects due to the interdependence between EV adoption and charging station investment.\n- 制度/市场切口：The federal income tax credit of up to $7,500 for EV buyers contributed to about 40% of EV sales during 2011-13, with feedback loops explaining 40% of that increase.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：The federal income tax credit of up to $7,500 for EV buyers contributed to about 40% of EV sales during 2011-13, with feedback loops explaining 40% of that increase.",
+    "BLP Model Memory": "- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, marginal cost, markup, counterfactual, instrument, gmm\n- Demand side: 需求侧是结构化离散选择/差异化产品需求系统，重点是恢复替代关系与价格弹性。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧并非完全缺席，作者至少把进入、定价或市场结构响应嵌进均衡框架。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1.1. Industry Background\n- 1.3. Data\n- 2.1. Model Setup and Properties\n- 4. ESTIMATION RESULTS\n- 2.2. Implications on Policy Choices\n- 6. CONCLUSION\n- The Market for Electric Vehicles: Indirect Network Effects and Policy Design\n- Shanjun Li, Lang Tong, Jianwei Xing, Yiyi Zhou\n- The Market for Electric Vehicles\n- 1. INDUSTRY AND POLICY BACKGROUND AND DATA\n- 1.2. Government Policy\n- 2. A MODEL OF INDIRECT NETWORK EFFECTS",
+    "Reusable Writing Moves": "- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。",
+    "OCR Anchors": "- background: `1.1. Industry Background` (p.4) - 1.1. Industry Background Tesla Motors played a significant role in the comeback of electric vehicles by introducing Tesla Roadster, an all-electric sports car, in 2006 and beginning general production in March 2008.\n- data: `1.3. Data` (p.9) - 1.3. Data We construct a panel data set consisting of quarterly EV sales by vehicle model and the number of charging stations available at 353 MSAs from 2011 to 2013.\n- model: `2.1. Model Setup and Properties` (p.12) - 2.1. Model Setup and Properties We assume that EV sales q _ { t } ( N _ { t } , p _ { t } , x _ { t } ) depends on the number of public charging stations in the market (Nt), the price of the EV \\left( { { p } _ { t } } \\right) , and other product characteristics combined \\left( x _ { t } \\right) that affect consumers’ choice, such as the fuel cost.14 The installed base of EVs is the cumulative sum of EV sales minus scrappage by the time t , denoted by Q _ { t } = \\Sigma _ { b = 1 } ^ { t } q _ { b } { * } s _ { t , b } , where s _ { t ^ { \\prime } b } is the survival rate at time t for EVs sold in time h.\n- estimation: `4. ESTIMATION RESULTS` (p.23) - 4. ESTIMATION RESULTS We first present parameter estimates for equations (4) and (5).\n- counterfactual: `2.2. Implications on Policy Choices` (p.13) - 2.2. Implications on Policy Choices Now we conduct simulations to understand how feedback loops magnify policy shocks and their implications on policy choices.\n- conclusion: `6. CONCLUSION` (p.39) - 6. CONCLUSION This study first demonstrates through a stylized model that positive indirect network effects in both EV demand and charging station deployment give rise to feedback loops that amplify shocks to the system and have important policy implications.",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- The paper estimates indirect network effects in the EV market, focusing on the feedback between EV sales and charging-station deployment.\n- Its answer is that the feedback loop is quantitatively important and changes the policy ranking.\n- The key policy result is that equal spending on charging stations can generate much more adoption than the same spending on EV subsidies.\n\n- Real-world tension or puzzle: EV adoption and charging infrastructure coevolve.\n- Why the puzzle matters now: policy makers often subsidize buyers, but the infrastructure side may be the binding margin.\n- What the literature already explains: EV adoption is well studied, but the two-sided network mechanism is undermeasured.\n- What is still missing or weakly identified: a clean estimate of the feedback loop and its policy implications.\n- The paper's move: estimate the two-sided network effects and then simulate policy.\n- Main payoff: a better ranking of buyer subsidies versus charging-station subsidies.\n\n- Research design type: structural estimation with instrumental variables.\n- Structural model class or reduced-form design: two-sided network-effects model plus simulation.\n- Key equations or choice objects: EV demand, charging-station supply, and the feedback between them.\n- Endogeneity problem: charging stations and EV stock are jointly determined.\n- Identification strategy: Bartik-style IV for charging stations and gasoline prices as a shifter for EV stock.\n- What assumptions are doing the heavy lifting: the exclusion of the instruments from the demand and supply errors.\n\n- Unit of observation: quarterly EV sales by model and charging deployment in 353 metropolitan areas.\n- Market definition: US metro EV markets from 2011 to 2013.\n- Main dependent variable: EV sales and charging-station deployment.\n- Core explanatory variables: buyer subsidies, station availability, gasoline prices.\n- Instruments / moments / shocks: Bartik-style variation and gasoline-price variation.\n- Important sample restrictions: the panel is limited to the adoption period when the network feedback is visible.\n\n- Which papers are treated as the nearest neighbors: EV subsidy papers, network-effect papers, and infrastructure adoption papers.\n- What exact gap the authors claim: prior work had not jointly estimated both sides of the EV market in a way that supported policy simulation.\n- How the introduction stages novelty: first the network logic, then the need for data, then the policy design implication.\n- Whether the contribution is data, method, theory, policy, or a combination: method plus policy design.\n\n- Where the review sits: early introduction.\n- How the review is organized: by mechanism, not by topic alone.\n- Which citations do positioning work: EV adoption and infrastructure literature show why the two-sided market matters.\n- Which citations do method-validation work: Bartik-style IV and network-economics citations justify the design.",
+  "baseline_core_memory": "- Research design type: structural estimation with instrumental variables.\n- Structural model class or reduced-form design: two-sided network-effects model plus simulation.\n- Key equations or choice objects: EV demand, charging-station supply, and the feedback between them.\n- Endogeneity problem: charging stations and EV stock are jointly determined.\n- Identification strategy: Bartik-style IV for charging stations and gasoline prices as a shifter for EV stock.\n- What assumptions are doing the heavy lifting: the exclusion of the instruments from the demand and supply errors.\n\n- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, marginal cost, markup, counterfactual, instrument, gmm\n- Demand side: 需求侧是结构化离散选择/差异化产品需求系统，重点是恢复替代关系与价格弹性。\n- Utility construction: 效用写法围绕价格、产品属性、不可观测质量以及个体异质性展开，等价于把平均效用和个体偏离拆开理解。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧并非完全缺席，作者至少把进入、定价或市场结构响应嵌进均衡框架。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+  "mechanism_memory": "- Baseline result: indirect network effects matter enough that about 40 percent of the tax-credit sales increase is explained by feedback loops.\n- Mechanism evidence: the market is not just responding to subsidies; it is responding to the co-movement of vehicle stock and charging access.\n- Heterogeneity evidence: the policy effect varies across metro areas and market depth.\n- Welfare or counterfactual result: equal spending on charging stations can be more than twice as effective as buying EV subsidies.\n- Limits the authors admit: the policy ranking depends on the estimated strength of the two-sided network effect.\n\n- 故事起点：The market for plug-in electric vehicles (EVs) exhibits indirect network effects due to the interdependence between EV adoption and charging station investment.\n- 制度/市场切口：The federal income tax credit of up to $7,500 for EV buyers contributed to about 40% of EV sales during 2011-13, with feedback loops explaining 40% of that increase.\n- 模型推进：核心推进动作是把差异化产品需求或供给均衡模型嵌入实证问题，而不是停留在 reduced-form。\n- 结论落点：The federal income tax credit of up to $7,500 for EV buyers contributed to about 40% of EV sales during 2011-13, with feedback loops explaining 40% of that increase.",
+  "result_memory": "- Baseline result: indirect network effects matter enough that about 40 percent of the tax-credit sales increase is explained by feedback loops.\n- Mechanism evidence: the market is not just responding to subsidies; it is responding to the co-movement of vehicle stock and charging access.\n- Heterogeneity evidence: the policy effect varies across metro areas and market depth.\n- Welfare or counterfactual result: equal spending on charging stations can be more than twice as effective as buying EV subsidies.\n- Limits the authors admit: the policy ranking depends on the estimated strength of the two-sided network effect.\n\n- Results anchor: data. Section 2 presents a simple model of indirect network effects and uses simula-\n- Conclusion anchor: ilding charging station infrastructure while",
+  "writing_style_memory": "- Introduction move sequence: coevolution puzzle -> undermeasured feedback -> identification strategy -> policy ranking.\n- Section order: intro -> model -> data -> identification -> estimates -> simulations -> conclusion.\n- Where the paper turns from setup to payoff: once the feedback loop is quantified.\n- How tables/figures are used to move the argument: network-effect estimates and simulation tables likely do the main persuasive work.\n\n- Best framing sentence pattern: \"If both sides of the market respond to each other, policy has to be evaluated on both sides.\"\n- Best transition pattern: \"We next identify the feedback loop and then simulate policy.\"\n- Best contribution sentence pattern: \"The market design implication is different once infrastructure is endogenous.\"\n- Best limitation or implication move: make the policy ranking conditional on the strength of the estimated network effect.\n\n- Durable economics-writing principle: when a market has two-sided feedback, say so before you present policy results.\n- Durable structural-model principle: a subsidy can have a larger effect through a network channel than through its direct demand effect.\n- Reusable empirical design idea: Bartik-style instruments are useful for infrastructure-market endogeneity.\n- Follow-up paper to pair with this one: any EV policy paper where charging deployment and vehicle adoption move together.\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- 1.1. Industry Background\n- 1.3. Data\n- 2.1. Model Setup and Properties\n- 4. ESTIMATION RESULTS\n- 2.2. Implications on Policy Choices\n- 6. CONCLUSION\n- The Market for Electric Vehicles: Indirect Network Effects and Policy Design\n- Shanjun Li, Lang Tong, Jianwei Xing, Yiyi Zhou\n- The Market for Electric Vehicles\n- 1. INDUSTRY AND POLICY BACKGROUND AND DATA\n- 1.2. Government Policy\n- 2. A MODEL OF INDIRECT NETWORK EFFECTS\n\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "structural estimation",
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "policy analysis",
+    "identification strategy",
+    "instrumental variable",
+    "gmm",
+    "equilibrium",
+    "substitution",
+    "markup",
+    "marginal cost",
+    "two-sided market",
+    "network effects",
+    "market definition",
+    "heterogeneity",
+    "fuel economy",
+    "charging infrastructure",
+    "consumer demand"
+  ],
+  "fulltext_headings": [
+    "The Market for Electric Vehicles:",
+    "Indirect Network Effects and Policy Design",
+    "Shanjun Li, Lang Tong, Jianwei Xing, Yiyi Zhou",
+    "Abstract: The market for plug-in electric vehicles (EVs) exhibits indirect network",
+    "JEL Codes: L62, Q48, Q58",
+    "Keywords: Electric vehicles, Indirect network effects, Policy design",
+    "THE ELECTRIFICATION of the transportation sector through the diffusion of plug-",
+    "Shanjun Li (corresponding author) is an associate professor at Cornell University in the School",
+    "Jacobs Professor at Cornell University in the School of Electric and Computer Engineering",
+    "2015 International Industrial Organization Conference, 3rd Northeast Workshop on Energy",
+    "Since the introduction of the mass-market models into the United States in late",
+    "The objective of this study is to empirically quantify the importance of indirect net-",
+    "3. Similar national goals exist in many other countries: the Chinese government set up a goal",
+    "Journal of the Association of Environmental and Resource Economists",
+    "March 2017",
+    "Taking advantage of a rich data set of quarterly new EV sales by model and de-",
+    "EV stock on charging station deployment, we use current and historic gasoline prices",
+    "With the parameter estimates, we examine the effectiveness of the federal income",
+    "4. Throughout our analysis, we treat the tax credit as a full-amount rebate due to the lack of",
+    "The Market for Electric Vehicles",
+    "Hagiu (2006), Rochet and Tirole (2006), and Weyl (2010), and empirical work in-",
+    "5. Although exhibiting indirect networks, the EV market differs from the canonical two-sided",
+    "Third, our analysis contributes to the rich literature on the diffusion of vehicles",
+    "Kahn (2007), Kahn and Vaughn (2009), and Sexton and Sexton (2014) examine the"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 1,
+      "snippet": "The Market for Electric Vehicles:\nIndirect Network Effects and Policy Design\nShanjun Li, Lang Tong, Jianwei Xing, Yiyi Zhou\nAbstract: The market for plug-in electric vehicles (EVs) exhibits indirect network\neffects due to the interdependence between EV adoption and charging station invest-\nment. Through a stylized model, we demonstrate that indirect network effects on\nboth sides of the market lead to feedback loops that could alter the diffusion process\nof the new technology. Based on quarterly EV sales and charging station deployment\nin 353 metro areas from 2011 to 2013, our empirical analysis ﬁnds indirect network\neffects on both sides of the market, with those on the EV demand side being stron-\nger. The federal income tax credit of up to $7,500 for EV buyers contributed to\nabout 40% of EV sales during 2011–13, with feedback loops explaining 40% of that\nincrease. A policy of equal-sized spending but subsidizi"
+    },
+    "data": {
+      "page": 3,
+      "snippet": "determines the effectiveness of different poli-\ncies. Therefore, understanding indirect network effects could help develop more effec-\ntive policies to promote EV adoption.\nTaking advantage of a rich data set of quarterly new EV sales by model and de-\ntailed information on public charging stations in 353 Metropolitan Statistical Areas\n(MSAs) from 2011 to 2013, we quantify indirect network effects on both sides of\nthe market by estimating two equations: a demand equation for EVs that quantiﬁes\nthe effect of the availability of public charging stations on EV sales, and a charging\nstation equation that quantiﬁes the effect of the EV stock on the deployment of charg-\ning stations. Recognizing the endogeneity issue due to simultaneity in both equations,\nwe employ an instrumental variable strategy to identify indirect network effects. To\nestimate the network effects of charging stations on EV adoption, we use a Bartik\n(1991)–style instrument for the endogenous number of electric charging sta"
+    },
+    "model": {
+      "page": 1,
+      "snippet": "yi Zhou\nAbstract: The market for plug-in electric vehicles (EVs) exhibits indirect network\neffects due to the interdependence between EV adoption and charging station invest-\nment. Through a stylized model, we demonstrate that indirect network effects on\nboth sides of the market lead to feedback loops that could alter the diffusion process\nof the new technology. Based on quarterly EV sales and charging station deployment\nin 353 metro areas from 2011 to 2013, our empirical analysis ﬁnds indirect network\neffects on both sides of the market, with those on the EV demand side being stron-\nger. The federal income tax credit of up to $7,500 for EV buyers contributed to\nabout 40% of EV sales during 2011–13, with feedback loops explaining 40% of that\nincrease. A policy of equal-sized spending but subsidizing charging station deploy-\nment could have been more than twice as effective in promoting EV adoption.\nJEL Codes: L62, Q48, Q58\nKeywords: Electric vehicles, Indirect network effects, Policy d"
+    },
+    "results": {
+      "page": 5,
+      "snippet": "he\ndata. Section 2 presents a simple model of indirect network effects and uses simula-\ntions to show how feedback loops amplify shocks. Section 3 lays out the empirical\nmodel. Section 4 presents the estimation results. In section 5, we present the policy\nsimulations and compare the existing income tax credit policy with an alternative pol-\nicy. Section 6 concludes.\n1. INDUSTRY AND POLICY BACKGROUND AND DATA\nIn this section, we ﬁrst present industry background, focusing on important barriers to\nEV adoption and then discuss current government policies. Next we present the data\nused in the empirical analysis.\n1.1. Industry Background\nTesla Motors played a signiﬁcant role in the comeback of electric vehicles by introduc-\ning Tesla Roadster, an all-electric sports car, in 2006 and beginning general produc-\ntion in March 2008. However, the model had a price tag of over $120,000, out of the\nprice range for average buyers. Nissan Leaf ($33,000) and Chevrolet Volt ($41,000)\nThe Market for Elec"
+    },
+    "conclusion": {
+      "page": 40,
+      "snippet": "ilding charging station infrastructure while\nsubsidies on EV adoption, for example, through rebate and HOV lane usage, can be\nimplemented in states and cities where the average commute is shorter.\n6. CONCLUSION\nThis study ﬁrst demonstrates through a stylized model that positive indirect network\neffects in both EV demand and charging station deployment give rise to feedback\nloops that amplify shocks to the system and have important policy implications. Al-\nthough indirect network effects on both sides of the market imply that subsidizing ei-\nther side of the market will result in an increase in both EV sales and charging stations,\nthe relative cost effectiveness of different subsidy policies depends on consumer price\nsensitivity for EVs and the relative magnitude of indirect network effects on the two\nsides of the market.\nThe paper provides to our knowledge the ﬁrst empirical analysis of indirect net-\nwork effects in this market and evaluates the impacts of the current federal income\nta"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper estimates indirect network effects in the EV market, focusing on the feedback between EV sales and charging-station deployment.",
+      "Which papers are treated as the nearest neighbors: EV subsidy papers, network-effect papers, and infrastructure adoption papers."
+    ],
+    "session": [
+      "Retrieve by key/title: ZGZYZSJQ / The Market for Electric Vehicles: Indirect Network Effects and Policy Design",
+      "Use collections and journal handles: Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Li et al., 2017) / Li et al. (2017)"
+    ],
+    "agent": [
+      "Research design type: structural estimation with instrumental variables.",
+      "BLP positioning: BLP-adjacent structural policy model"
+    ],
+    "team": [
+      "Best framing sentence pattern: \"If both sides of the market respond to each other, policy has to be evaluated on both sides.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "version": "20261008-constructive-v8",
+  "default_mode": "research",
+  "mode_by_task": {
+    "idea": "research",
+    "mechanism": "research",
+    "model": "research",
+    "audit": "audit",
+    "evaluation": "audit",
+    "formula_verification": "audit",
+    "small_edit": "edit",
+    "continue": "resume",
+    "resume": "resume",
+    "restart_checkpoint": "resume",
+    "reproduction": "audit",
+    "review": "audit"
+  },
+  "recommendation": {
+    "ranking": "conditional",
+    "requires_next_action": true,
+    "unidentified_fallback": "restricted_model_or_bounds_or_sensitivity"
+  },
+  "roles": {
+    "general": "blp_professor",
+    "project": "blp_project_professor"
+  },
+  "source_control": {
+    "canonical_source": "D:/codex/output/blp_agent_skill_upgrade_20261008/candidate_v10/skills/blp-project-professor",
+    "mirror_write": "explicit_authorization_only",
+    "r6_installed_source": "historical_unchanged_not_this_version",
+    "contract_sha256": "da454d6021a1cf48dd6d0af75ea3594c8a80903619b035bc990874eecc9c472c",
+    "registered_read_map": "../dependencies_v6/REGISTERED_READ_MAP.json"
+  },
+  "references": [
+    "references/agent-contract.md",
+    "references/project-router.md",
+    "references/data-assets.md",
+    "references/five-paper-kernel.md",
+    "references/constructive-model-design.md",
+    "references/reading-boundary.md",
+    "references/model-formula-ledger.md"
+  ],
+  "task_key_semantics": "Normalized task labels, not a natural-language classifier or executable dispatcher. User purpose controls ambiguous requests; aliases are explicit examples.",
+  "runtime_guard": {
+    "script": "scripts/runtime_guard.py",
+    "mandatory": "before explicit candidate loading claim",
+    "candidate_manifest": "../CANDIDATE_V10_MANIFEST.json",
+    "dependencies_manifest": "../dependencies_v6/MANIFEST.json",
+    "on_failure": "stop_no_silent_old_version_fallback",
+    "semantic_grade": false,
+    "native_discovery": false,
+    "relative_path_base": "candidate_root",
+    "dependency_root": "../dependencies_v6",
+    "runtime_environment": "skills/blp-project-professor/references/runtime-environment.json",
+    "output_policy": "fresh_nonexistent_directory_only; refuse_without_overwriting_prior_evidence"
+  },
+  "continuation": {
+    "script": "scripts/dispatch_checkpoint.py",
+    "checkpoint_fields": [
+      "ACTIVE_OBJECT",
+      "LAST_CONFIRMED_RESULT",
+      "NEXT_EXECUTABLE_ACTION",
+      "INPUT_PATHS",
+      "ACCEPTANCE_EVENT"
+    ],
+    "honor_command_array_and_cwd": true,
+    "first_tool_atomic_dispatch": true
+  },
+  "edit_transaction": {
+    "script": "scripts/verified_text_edit.py",
+    "interface": "unique literal old/new replacement; caller supplies same command-array with {TARGET} placeholder; fresh out; true rollback/patch evidence"
+  }
+}

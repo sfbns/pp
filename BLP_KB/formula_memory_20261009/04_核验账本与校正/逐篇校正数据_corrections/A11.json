@@ -1,0 +1,17 @@
+{
+  "images": "D:\\blp-auto-fulltext-pack-20261008\\work\\pages\\A11_pNN.png（本轮渲染）",
+  "paper_note": "ReStud 期刊版（93(1): 35–71），期刊页 = PDF 页 + 34。文字层干净，公式被抽成碎片。下列各式本轮看原页图转写；式 (10)–(12)（嵌套结构与份额）与式 (17)–(24) 本包未校正。本文需求价格系数 \\alpha 带符号进入 \\delta_j。",
+  "items": [
+    {"page": 6, "label": "(1)", "latex": "\\pi_f(\\boldsymbol a^J)-\\mathbb EK_f(\\boldsymbol a^J)-\\mathbb EA_f(\\boldsymbol a^J)\\ \\ge\\ \\pi_f(\\boldsymbol a^N)-\\mathbb EK_f(\\boldsymbol a^N)", "check": "本轮看图", "note": "参与约束；\\mathbb EK_f(\\boldsymbol a)\\equiv P_f(\\boldsymbol a)K_f(\\boldsymbol a) 为预期违规罚金，\\mathbb EA_f 为预期反垄断罚金"},
+    {"page": 6, "label": "(2)", "latex": "\\pi_f(\\boldsymbol a^N)-\\mathbb EK_f(\\boldsymbol a^N)\\ \\ge\\ \\pi_f(a^J_f,\\boldsymbol a^N_{-f})-\\mathbb EK_f(a^J_f,\\boldsymbol a^N_{-f})", "check": "本轮看图", "note": "非合作均衡的定义"},
+    {"page": 6, "label": "(3)", "latex": "\\mathbb EK_f(a^J_f,\\boldsymbol a^N_{-f})-\\mathbb EK_f(\\boldsymbol a^J)\\ \\ge\\ \\pi_f(a^J_f,\\boldsymbol a^N_{-f})-\\pi_f(\\boldsymbol a^J)", "check": "本轮看图", "note": "命题 1"},
+    {"page": 7, "label": "(4)", "latex": "\\pi_f(\\boldsymbol a^J)-\\mathbb EK_f(\\boldsymbol a^J)-\\mathbb EA_f(\\boldsymbol a^J)\\ \\ge\\ \\pi_f(a^J_f,\\boldsymbol a^N_{-f})-\\mathbb EK_f(a^J_f,\\boldsymbol a^N_{-f})", "check": "本轮看图", "note": ""},
+    {"page": 18, "label": "(7)", "latex": "U_{ij}=\\delta_j+\\mu_{ij}+\\bar\\varepsilon_{ij}", "check": "本轮看图", "note": "outside u_{i0}=\\bar\\varepsilon_{i0}；\\bar\\varepsilon_{ij} 按 Cardell (1997) 的嵌套 logit 分布，十个车身尺寸组 c=0,\\dots,9"},
+    {"page": 18, "label": "(8)", "latex": "\\delta_j=\\alpha p_j+x_j(a_j)\\beta+\\xi_j", "check": "本轮看图", "note": "减排选择 a_j（尿素罐容积）经后备箱空间等特征 x_j(a_j) 进入效用"},
+    {"page": 18, "label": "(9)", "latex": "\\mu_{ij}=\\sigma_p p_j\\nu_{ip}+\\sum_k\\sigma_k x_{jk}(a_{jk})\\nu_{ik}", "check": "本轮看图", "note": "\\nu_{ip},\\nu_{ik} 为标准正态"},
+    {"page": 21, "label": "(13)", "latex": "\\boldsymbol{mc}=\\boldsymbol p-\\big(\\Omega\\odot S(\\boldsymbol a,\\boldsymbol p)\\big)^{-1}\\boldsymbol s,\\qquad S_{jh}=-\\frac{\\partial s_h(\\boldsymbol a,\\boldsymbol p)}{\\partial p_j}", "check": "本轮看图", "note": "原页印作 \\boldsymbol{mc}=\\boldsymbol p+(\\Omega\\odot S(\\boldsymbol a,\\boldsymbol p))^{-1}\\boldsymbol s。在原文自己的定义 S_{jh}=-\\partial s_h/\\partial p_j 下，(\\Omega\\odot S)^{-1}s 是正的加价，加号是笔误，照抄会得到 mc>p；上式为正确写法，等价于 \\boldsymbol p+(\\Omega\\odot J^{\\top})^{-1}\\boldsymbol s（J_{jh}=\\partial s_j/\\partial p_h）"},
+    {"page": 21, "label": "(14)", "latex": "mc_j=\\eta_x x_j+\\eta_a a_j+\\eta_{wg}\\,a_j\\,WG_j+\\omega_j", "check": "本轮看图", "note": "WG_j 为工作组（合谋）成员虚拟变量"},
+    {"page": 21, "label": "(15)", "latex": "\\mathbb EK_f(a^J_f,\\boldsymbol a^N_{-f})\\ \\ge\\ \\mathbb E\\pi_f(a^J_f,\\boldsymbol a^N_{-f})-\\mathbb E\\pi_f(\\boldsymbol a^N)+\\mathbb EK_f(\\boldsymbol a^N)", "check": "本轮看图", "note": "单方低减排时预期罚金的下界"},
+    {"page": 21, "label": "(16)", "latex": "\\mathbb EK_f(\\boldsymbol a^J)+\\mathbb EA_f(\\boldsymbol a^J)\\ \\le\\ \\mathbb E\\pi_f(\\boldsymbol a^J)-\\mathbb E\\pi_f(\\boldsymbol a^N)+\\mathbb EK_f(\\boldsymbol a^N)", "check": "本轮看图", "note": "合谋方案下预期罚金的上界"}
+  ]
+}

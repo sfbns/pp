@@ -1,0 +1,182 @@
+{
+  "rank": 24,
+  "item_key": "X8Y7RF84",
+  "title": "The Role of Government in the Market for Electric Vehicles: Evidence from China",
+  "authors": [
+    "Shanjun Li",
+    "Xianglei Zhu",
+    "Yiding Ma",
+    "Fan Zhang",
+    "Hui Zhou"
+  ],
+  "creators": [
+    {
+      "name": "Shanjun Li",
+      "type": "author"
+    },
+    {
+      "name": "Xianglei Zhu",
+      "type": "author"
+    },
+    {
+      "name": "Yiding Ma",
+      "type": "author"
+    },
+    {
+      "name": "Fan Zhang",
+      "type": "author"
+    },
+    {
+      "name": "Hui Zhou",
+      "type": "author"
+    }
+  ],
+  "date": "2022-00-00 2022",
+  "journal": "Journal of Policy Analysis and Management",
+  "doi": "10.1002/pam.22362",
+  "url": "https://doi.org/10.1002/pam.22362",
+  "collections": [
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "BLP-adjacent structural policy model",
+  "apa_citation": {
+    "reference": "Li, S., Zhu, X., Ma, Y., Zhang, F., & Zhou, H. (2022). The Role of Government in the Market for Electric Vehicles: Evidence from China. Journal of Policy Analysis and Management. https://doi.org/10.1002/pam.22362",
+    "parenthetical": "(Li et al., 2022)",
+    "narrative": "Li et al. (2022)"
+  },
+  "preferred_pdf_rel": "source_pdfs/24_x8y7rf84.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "",
+    "link_mode": -1,
+    "content_type": "application/pdf",
+    "path": "fallback-local-pdf",
+    "resolved_path": "D:\\codex\\blp_structural_memory_2026-04-18\\source_pdfs\\24_x8y7rf84.pdf",
+    "exists": true,
+    "size": 3990271
+  },
+  "legacy_note_rel": "raw/notes/24_x8y7rf84.md",
+  "legacy_old_memory_rel": "raw/paper_memory/24_x8y7rf84.md",
+  "fulltext_json_rel": "raw/fulltext/24_x8y7rf84.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/24_x8y7rf84.fulltext.txt",
+  "llm_json_rel": "raw/ocr_llm/24_x8y7rf84.llm.json",
+  "llm_md_rel": "raw/ocr_llm/24_x8y7rf84.llm.md",
+  "note_sections": {
+    "1. One-paragraph thesis": "- 故事起点：This paper is a product of the Office of the Chief Economist, Infrastructure Vice Presidency.\n- BLP positioning: BLP-adjacent structural policy model\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.",
+    "2. Story ladder": "- 故事起点：This paper is a product of the Office of the Chief Economist, Infrastructure Vice Presidency.\n- 制度/市场切口：This study examines the effectiveness of various policy measures that underlie the rapid development of the EV market in China, by far the world's largest such market.\n- 模型推进：The empirical framework addresses the potential endogeneity of key variables, such as local policies and charging infrastructure, by using a city‐border‐regression design and instrumental variable approach.\n- 结论落点：This study examines the effectiveness of various policy measures that underlie the rapid development of the EV market in China, by far the world's largest such market.",
+    "3. Model or identification core": "- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, welfare, counterfactual, instrument\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "4. Data and measurement": "- study examines the policy and market drivers behind the rapid development of the electric vehicle market in China, by far the largest one in the world. The analysis is based on the most comprehensive data on electric vehicle sales, local and central government incentive programs, and charging stations in 150 cities fro\n- Recovered section headings: The Role of Government in the Market for Electric Vehicles, Shanjun Li, Xianglei Zhu, Yiding Ma, Fan Zhang, Hui Zhou, Public Disclosure Authorized, Policy Research Working Paper, WORLDBANKGROUP, Infrastructure Vice Presidency Office of the Chief Economist August 2020",
+    "5. Findings and mechanisms": "- -varying local unobservables common in the same cluster, as well as cluster-brand-year fixed effects to control for demand shocks that are specific to each brand in a cluster.\n- majority of city residents in China live in apartment complexes and do not have space to build private charging; and cities are denser, which allows public charging stations to serve more drivers.",
+    "6. Contribution construction": "- 故事起点：This paper is a product of the Office of the Chief Economist, Infrastructure Vice Presidency.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.",
+    "7. Literature review function": "- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+    "8. Writing structure map": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 Industry Background and Data Description\n- 2.3 Data Description\n- 3.2 Identification Strategy\n- 5 Policy Analysis\n- 6 Conclusion\n- The Role of Government in the Market for Electric Vehicles\n- Shanjun Li\n- Xianglei Zhu\n- Yiding Ma\n- Fan Zhang\n- Hui Zhou",
+    "9. Reusable writing moves": "- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。",
+    "10. Memory update": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_x8y7rf84_the-role-of-government-in-the-market-for-electric-vehicles-evidence-from-china\ndescription: Fulltext memory for The Role of Government in the Market for Electric Vehicles: Evidence from China; stores story logic, BLP model construction, estimation, counterfactual use, and writing structure.\ntype: reference\n---\n\n# The Role of Government in the Market for Electric Vehicles: Evidence from China",
+    "Citation": "- Key: `X8Y7RF84`\n- DOI: `10.1002/pam.22362`\n- Journal: Journal of Policy Analysis and Management\n- Year: 2022\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\X8Y7RF84.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/X8Y7RF84/X8Y7RF84.llm.json`\n- Digest JSON: `D:/codex/tmp/blp_full_read_20260417/digests/X8Y7RF84.json`",
+    "Read Status": "- 本记忆基于全文 OCR 解析结果整理，不是只看题目、摘要或 Zotero 元数据。\n- OCR 流程使用 MinerU 优先、DirectML 加速、输出 `llm.md` / `llm.json` / `chunks.jsonl`。",
+    "Story Question": "- This paper is a product of the Office of the Chief Economist, Infrastructure Vice Presidency.",
+    "Story Logic": "- 故事起点：This paper is a product of the Office of the Chief Economist, Infrastructure Vice Presidency.\n- 制度/市场切口：This study examines the effectiveness of various policy measures that underlie the rapid development of the EV market in China, by far the world's largest such market.\n- 模型推进：The empirical framework addresses the potential endogeneity of key variables, such as local policies and charging infrastructure, by using a city‐border‐regression design and instrumental variable approach.\n- 结论落点：This study examines the effectiveness of various policy measures that underlie the rapid development of the EV market in China, by far the world's largest such market.",
+    "BLP Model Memory": "- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, welfare, counterfactual, instrument\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+    "Writing Memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 Industry Background and Data Description\n- 2.3 Data Description\n- 3.2 Identification Strategy\n- 5 Policy Analysis\n- 6 Conclusion\n- The Role of Government in the Market for Electric Vehicles\n- Shanjun Li\n- Xianglei Zhu\n- Yiding Ma\n- Fan Zhang\n- Hui Zhou",
+    "Reusable Writing Moves": "- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。",
+    "OCR Anchors": "- abstract: `Abstract` (p.1) - Abstract To promote the development and diffusion of electric vehicles, central and local governments in many countries have adopted various incentive programs. This study examines the policy and market drivers behind the rapid development of the electric vehicle market in China, by far the largest one in the world.\n- introduction: `1 Introduction` (p.3) - 1 Introduction The study presents a comprehensive empirical analysis on various driving forces with a focus on the role of government behind the rapid growth of the electric vehicle (EV) market in China based on the most detailed data ever complied on this important market. An electrified transportation system together with a clean electricity grid holds the promise to reduce fossil fuel usage, local pollution, and greenhouse gas emissions (GHGs).\n- background: `2 Industry Background and Data Description` (p.7) - 2 Industry Background and Data Description\n- data: `2.3 Data Description` (p.14) - 2.3 Data Description Vehicle data We obtain EVs sales at the city-quarter-trim level from 2015 to 2018. Our sample of analysis has 150 cities.\n- estimation: `3.2 Identification Strategy` (p.19) - 3.2 Identification Strategy We address the first two sources of endogeneity, unobserved product attributes and simultaneity using the instrumental variable method. For the third source of endogeneity, we use a cityborder regression design to address selection of local policies.\n- counterfactual: `5 Policy Analysis` (p.27) - 5 Policy Analysis In this section, we conduct simulations to examine the role of the underlying driving factors behind the dramatic growth of China’s EV market. Based on the model estimates, we simulate the counterfactual EV sales by removing each policy or non-policy factor one at a time.\n- conclusion: `6 Conclusion` (p.30) - 6 Conclusion This study provides to our knowledge the first empirical analysis on the underlying driving factors behind the rapid growth of the world’s largest EV market, China. The analysis is based on the most comprehensive data on China’s EV market including EV sales, charging infrastructure, and various central and local policies during 2015-2018.",
+    "Memory Notes": "- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。"
+  },
+  "theory_design_memory": "- 故事起点：This paper is a product of the Office of the Chief Economist, Infrastructure Vice Presidency.\n- BLP positioning: BLP-adjacent structural policy model\n- This note was synthesized from prior paper memory and recovered fulltext anchors when a legacy close-reading note was unavailable.\n\n- 故事起点：This paper is a product of the Office of the Chief Economist, Infrastructure Vice Presidency.\n- 制度/市场切口：This study examines the effectiveness of various policy measures that underlie the rapid development of the EV market in China, by far the world's largest such market.\n- 模型推进：The empirical framework addresses the potential endogeneity of key variables, such as local policies and charging infrastructure, by using a city‐border‐regression design and instrumental variable approach.\n- 结论落点：This study examines the effectiveness of various policy measures that underlie the rapid development of the EV market in China, by far the world's largest such market.\n\n- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, welfare, counterfactual, instrument\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。\n\n- study examines the policy and market drivers behind the rapid development of the electric vehicle market in China, by far the largest one in the world. The analysis is based on the most comprehensive data on electric vehicle sales, local and central government incentive programs, and charging stations in 150 cities fro\n- Recovered section headings: The Role of Government in the Market for Electric Vehicles, Shanjun Li, Xianglei Zhu, Yiding Ma, Fan Zhang, Hui Zhou, Public Disclosure Authorized, Policy Research Working Paper, WORLDBANKGROUP, Infrastructure Vice Presidency Office of the Chief Economist August 2020\n\n- 故事起点：This paper is a product of the Office of the Chief Economist, Infrastructure Vice Presidency.\n- Contribution should be read as gap -> structural recovery of the missing margin -> policy or welfare payoff.\n\n- Use the literature review to position the missing endogenous margin or equilibrium object, not just to summarize prior applications.\n- Track separately the design lineage and the mechanism lineage when citing related papers.",
+  "baseline_core_memory": "- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, welfare, counterfactual, instrument\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。\n\n- BLP positioning: BLP-adjacent structural policy model\n- Evidence hits: discrete choice, welfare, counterfactual, instrument\n- Demand side: 全文表明作者在做结构化产品需求分析，但 OCR 证据不足以把需求形式精确钉死到某个 logit 变体。\n- Utility construction: 模型核心仍然是“价格 + 产品属性 + 未观测质量”决定选择概率，再由市场份额把需求参数识别出来。\n- Heterogeneity: 异质性是关键层：作者依赖收入、偏好差异、使用场景或消费者类型来刻画不同群体的替代弹性。\n- Supply side: 供给侧较轻或被外生化，论文重心更偏需求恢复、替代矩阵和消费者/社会福利。\n- Identification / estimation: 识别依赖工具变量、GMM 或其他矩条件来处理价格与产品属性的内生性。\n- Counterfactual / welfare: 模型的终点不是参数本身，而是福利、反事实和政策比较。",
+  "mechanism_memory": "- -varying local unobservables common in the same cluster, as well as cluster-brand-year fixed effects to control for demand shocks that are specific to each brand in a cluster.\n- majority of city residents in China live in apartment complexes and do not have space to build private charging; and cities are denser, which allows public charging stations to serve more drivers.\n\n- 故事起点：This paper is a product of the Office of the Chief Economist, Infrastructure Vice Presidency.\n- 制度/市场切口：This study examines the effectiveness of various policy measures that underlie the rapid development of the EV market in China, by far the world's largest such market.\n- 模型推进：The empirical framework addresses the potential endogeneity of key variables, such as local policies and charging infrastructure, by using a city‐border‐regression design and instrumental variable approach.\n- 结论落点：This study examines the effectiveness of various policy measures that underlie the rapid development of the EV market in China, by far the world's largest such market.",
+  "result_memory": "- -varying local unobservables common in the same cluster, as well as cluster-brand-year fixed effects to control for demand shocks that are specific to each brand in a cluster.\n- majority of city residents in China live in apartment complexes and do not have space to build private charging; and cities are denser, which allows public charging stations to serve more drivers.\n\n- Results anchor: -varying local unobservables common in the same cluster, as well as cluster-brand-year fixed effects to control for demand shocks that are specific to each brand in a cluster.\n- Conclusion anchor: majority of city residents in China live in apartment complexes and do not have space to build private charging; and cities are denser, which allows public charging stations to serve more drivers.",
+  "writing_style_memory": "- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 Industry Background and Data Description\n- 2.3 Data Description\n- 3.2 Identification Strategy\n- 5 Policy Analysis\n- 6 Conclusion\n- The Role of Government in the Market for Electric Vehicles\n- Shanjun Li\n- Xianglei Zhu\n- Yiding Ma\n- Fan Zhang\n- Hui Zhou\n\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。\n\n- 这篇文章的正文结构大体按下面的顺序推进：\n- 1 Introduction\n- 2 Industry Background and Data Description\n- 2.3 Data Description\n- 3.2 Identification Strategy\n- 5 Policy Analysis\n- 6 Conclusion\n- The Role of Government in the Market for Electric Vehicles\n- Shanjun Li\n- Xianglei Zhu\n- Yiding Ma\n- Fan Zhang\n- Hui Zhou\n\n- 在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。\n- 把模型的价值落在反事实与福利，而不是只汇报需求系数和价格弹性。\n\n- 后续回忆这篇论文时，优先调用它的故事梯子、模型嵌入位置、识别策略和反事实落点，而不是只记结论。\n- 如果需要公式级别细节，可以直接回到对应 `llm.json` 的 equation chunks 与 model / estimation section。",
+  "professional_vocab": [
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "policy analysis",
+    "identification strategy",
+    "instrumental variable",
+    "gmm",
+    "equilibrium",
+    "substitution",
+    "outside option",
+    "two-sided market",
+    "network effects",
+    "heterogeneity",
+    "fuel economy",
+    "charging infrastructure",
+    "consumer demand"
+  ],
+  "fulltext_headings": [
+    "The Role of Government in the Market for Electric Vehicles",
+    "Shanjun Li",
+    "Xianglei Zhu",
+    "Yiding Ma",
+    "Fan Zhang",
+    "Hui Zhou",
+    "Public Disclosure Authorized",
+    "Policy Research Working Paper",
+    "WORLDBANKGROUP",
+    "Infrastructure Vice Presidency Office of the Chief Economist August 2020",
+    "Policy Research Working Paper 9359",
+    "Abstract",
+    "Produced by the Research Support Team",
+    "The Role of Government in the Market for Electric Vehicles: Evidence from China",
+    "1 Introduction",
+    "2 Industry Background and Data Description",
+    "2.1 Industry Background",
+    "2.2 Government Policies",
+    "2.2.1 Policy Rationales",
+    "2.2.2 Financial Incentives",
+    "2.2.3 Non-financial Incentives",
+    "2.3 Data Description",
+    "3 Empirical Model and Identification",
+    "3.1 EV Demand"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 2,
+      "snippet": "Policy Research Working Paper 9359\nAbstract\nTo promote the development and diffusion of electric vehicles, central and local governments in many countries have adopted various incentive programs. This study examines the policy and market drivers behind the rapid development of the electric vehicle market in China, by far the largest one in the world. The analysis is based on the most comprehensive data on electric vehicle sales, local and central government incentive programs, and charging stations in 150 cities from 2015 to 2018. The study addresses the potential endogeneity of key variables, such as local policies and charging infrastructure, using the border regression\ndesign and instrumental variable method. The analysis shows that central and local subsidies accounted for over half of the electric vehicles sold during"
+    },
+    "data": {
+      "page": 2,
+      "snippet": "study examines the policy and market drivers behind the rapid development of the electric vehicle market in China, by far the largest one in the world. The analysis is based on the most comprehensive data on electric vehicle sales, local and central government incentive programs, and charging stations in 150 cities from 2015 to 2018. The study addresses the potential endogeneity of key variables, such as local policies and charging infrastructure, using the border regression\ndesign and instrumental variable method. The analysis shows that central and local subsidies accounted for over half of the electric vehicles sold during the data period. Investment in charging infrastructure is much more cost-effective than consumer purchase subsidies. In addition, the policy that merely provided electric vehicles a distinctively license plate was strikingly effective. These findings demonstrate the varying efficacy across policy instruments and highlight the critical role of government in promoti"
+    },
+    "model": {
+      "page": 4,
+      "snippet": "new fleet by automaker.\n1Tesla Motors was instrumental in the come-back of EVs by introducing Tesla Roadster, an all-electric sport car in 2006 and beginning general production in March 2008. But the model with a price tag of over $120,000 was out of the price range of average buyers. When first introduced in the US market in December 2010, Nissan Leaf had a price tag of $33,000 and Chevrolet Volt $41,000.\n2Sources: https://www.marklines.com and https://insideevs.com/.\n3In China, electric two-wheelers, including electric bikes and electric motorcycles – is another type of alternative fuel vehicle, that has experienced explosive growth over the past few decades. Sales of electric two-wheelers started in 1999 and started to take off in 2004 when 40,000 were sold. Since then, more than 20 million are sold each year and there are now over 300 million motorized two-wheelers on the road. Electric two-wheelers provide a low-cost low-emission mobility that fills an important niche in China’s t"
+    },
+    "results": {
+      "page": 7,
+      "snippet": "-varying local unobservables common in the same cluster, as well as cluster-brand-year fixed effects to control for demand shocks that are specific to each brand in a cluster.\nBased on the regression results, we conduct simulations to examine the effects of each policy and non-policy drivers and compare the cost-effectiveness of different policies. Our analysis provides the following three key findings that are robust across various specifications and sample cuts. First, generous consumer subsidies from central and local governments (about 26% of pre-subsidy vehicle prices) played a crucial role in the rapid growth of the market by explaining over half of the EVs sold during our data period. The impact is similar in magnitude to that of the subsidy programs in the United States and Norway in Li et al. (2017) and Springel (2019). Second, there are significant indirect network effects from charging infrastructure on EV demand.\n4"
+    },
+    "conclusion": {
+      "page": 31,
+      "snippet": "majority of city residents in China live in apartment complexes and do not have space to build private charging; and cities are denser, which allows public charging stations to serve more drivers.\n6 Conclusion\nThis study provides to our knowledge the first empirical analysis on the underlying driving factors behind the rapid growth of the world’s largest EV market, China. The analysis is based on the most comprehensive data on China’s EV market including EV sales, charging infrastructure, and various central and local policies during 2015-2018. There are three key findings. First, generous consumer subsidies from both central and local government played a crucial role and explained at least half of the EV sales during our data period. Second, while the green plate policy has a low program cost, its impact is substantial and highlights the important psychological and social dimensions of the diffusion of environmentally friendly technologies. Third, the availability of charging infrast"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "故事起点：This paper is a product of the Office of the Chief Economist, Infrastructure Vice Presidency.",
+      "故事起点：This paper is a product of the Office of the Chief Economist, Infrastructure Vice Presidency."
+    ],
+    "session": [
+      "Retrieve by key/title: X8Y7RF84 / The Role of Government in the Market for Electric Vehicles: Evidence from China",
+      "Use collections and journal handles: Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Li et al., 2022) / Li et al. (2022)"
+    ],
+    "agent": [
+      "BLP positioning: BLP-adjacent structural policy model",
+      "BLP positioning: BLP-adjacent structural policy model"
+    ],
+    "team": [
+      "在模型章节之前先把市场、制度、样本和关键摩擦讲透，让后面的结构设定像是被场景推出而不是凭空假设。",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

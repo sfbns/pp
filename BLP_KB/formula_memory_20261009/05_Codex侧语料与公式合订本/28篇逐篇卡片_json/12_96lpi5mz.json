@@ -1,0 +1,161 @@
+{
+  "rank": 12,
+  "item_key": "96LPI5MZ",
+  "title": "Greenhouse Gas Abatement Cost Curves of the Residential Heating Market: A Microeconomic Approach",
+  "authors": [
+    "Caroline Löffler",
+    "Harald Hecking"
+  ],
+  "creators": [
+    {
+      "name": "Caroline Löffler",
+      "type": "author"
+    },
+    {
+      "name": "Harald Hecking",
+      "type": "author"
+    }
+  ],
+  "date": "2017-00-00 2017",
+  "journal": "Environmental and Resource Economics",
+  "doi": "10.1007/s10640-016-0052-0",
+  "url": "https://link.springer.com/article/10.1007/s10640-016-0052-0",
+  "collections": [
+    "BLP_1995_Citing_Literature_2026-03-21",
+    "Green Demand Applications"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Löffler, C., & Hecking, H. (2017). Greenhouse Gas Abatement Cost Curves of the Residential Heating Market: A Microeconomic Approach. Environmental and Resource Economics. https://doi.org/10.1007/s10640-016-0052-0",
+    "parenthetical": "(Löffler & Hecking, 2017)",
+    "narrative": "Löffler and Hecking (2017)"
+  },
+  "preferred_pdf_rel": "source_pdfs/12_96lpi5mz.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "I4HL5VZC",
+    "link_mode": 0,
+    "content_type": "application/pdf",
+    "path": "storage:Michelsen_Madlener_2016_Heating_Abatement_Costs_EWI.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\I4HL5VZC\\Michelsen_Madlener_2016_Heating_Abatement_Costs_EWI.pdf",
+    "exists": true,
+    "size": 717442
+  },
+  "legacy_note_rel": "raw/notes/12_96lpi5mz.md",
+  "legacy_old_memory_rel": "raw/paper_memory/12_96lpi5mz.md",
+  "fulltext_json_rel": "raw/fulltext/12_96lpi5mz.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/12_96lpi5mz.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper builds greenhouse-gas abatement cost curves for the residential heating market using a microeconomic approach.\n- Its key message is that welfare-based abatement costs are generally higher than simple engineering equipment costs.\n- The important twist is that once consumer behavior is modeled explicitly, policy rankings can change, and subsidies may dominate carbon taxes under misperception.",
+    "2. Story ladder": "- Real-world tension or puzzle: abatement cost curves are often built from technical costs, not from household welfare.\n- Why the puzzle matters now: climate policy should reflect actual consumer decisions in durable-energy markets.\n- What the literature already explains: technical abatement is cheaper on paper than it may be in welfare terms.\n- What is still missing or weakly identified: a microeconomic, welfare-based cost curve for residential heating.\n- The paper's move: estimate costs from household choice and welfare, not just equipment engineering.\n- Main payoff: the true marginal cost of abatement can be substantially higher, and behavioral errors can flip policy rankings.",
+    "3. Model or identification core": "- Research design type: welfare-based cost-curve construction.\n- Structural model class or reduced-form design: household choice model for residential heating technologies.\n- Key equations or choice objects: heating-system adoption, costs, and welfare under alternative policies.\n- Endogeneity problem: equipment costs, preferences, and policy incentives affect observed adoption jointly.\n- Identification strategy: recover household willingness to pay and compare policy counterfactuals.\n- What assumptions are doing the heavy lifting: stable preferences and the chosen welfare metric over the heating choice set.",
+    "4. Data and measurement": "- Unit of observation: residential heating choices / household-level technology adoption.\n- Market definition: residential heating market.\n- Main dependent variable: greenhouse-gas abatement cost.\n- Core explanatory variables: technology costs, consumer preferences, carbon tax, and subsidy design.\n- Instruments / moments / shocks: not fully extracted from OCR; likely product-market moments and policy scenarios.\n- Important sample restrictions: residential heating sector only; OCR capture of the detailed data section was partial.",
+    "5. Findings and mechanisms": "- Baseline result: welfare-based abatement costs are generally higher than technical equipment costs.\n- Mechanism evidence: household welfare and behavioral distortions matter for the cost curve.\n- Heterogeneity evidence: if households maximize utility, carbon taxes are welfare-efficient; with misperceptions, subsidies can have lower marginal abatement costs.\n- Welfare or counterfactual result: policy ranking depends on behavioral assumptions, not just engineering costs.\n- Limits the authors admit: the curve is micro-founded but still depends on model specification and the policy scenario set.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: abatement cost curve, residential energy, and behavioral policy papers.\n- What exact gap the authors claim: existing cost curves often ignore welfare and consumer misperceptions.\n- How the introduction stages novelty: by explicitly contrasting technical and welfare-based abatement costs.\n- Whether the contribution is data, method, theory, policy, or a combination: method plus policy design.",
+    "7. Literature review function": "- Where the review sits: in the opening discussion of abatement-cost construction.\n- How the review is organized: technical cost curves, microeconomic welfare, and behavioral policy design.\n- Which citations do positioning work: abatement cost and residential heating studies.\n- Which citations do method-validation work: household-demand and welfare-evaluation papers.",
+    "8. Writing structure map": "- Introduction move sequence: engineering benchmark -> welfare critique -> micro approach -> policy ranking.\n- Section order: background, model, data, estimation, cost curves, policy comparison, conclusion.\n- Where the paper turns from setup to payoff: when the welfare-based curve overtakes the technical-cost benchmark.\n- How tables/figures are used to move the argument: cost-curve figures and policy-comparison tables likely drive the result; OCR clearly supported the headline conclusions.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"A technical cost curve is not the same as a welfare cost curve.\"\n- Best transition pattern: move from engineering cost to household welfare.\n- Best contribution sentence pattern: \"We build a microeconomic abatement curve rather than a purely technical one.\"\n- Best limitation or implication move: \"Behavioral assumptions can reverse the ranking of carbon tax and subsidy instruments.\"",
+    "10. Memory update": "- Durable economics-writing principle: policy cost curves should be built on the welfare metric that policy actually cares about.\n- Durable structural-model principle: consumer misperceptions can make a subsidy cheaper at the margin than a carbon tax.\n- Reusable empirical design idea: translate technology adoption into abatement cost curves using household welfare.\n- Follow-up paper to pair with this one: a micro-welfare study of residential electrification or heat-pump adoption."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_96lpi5mz_greenhouse-gas-abatement-cost-curves-of-the-residential-heating-market-a-microec\ndescription: Fulltext BLP reading memory for Greenhouse Gas Abatement Cost Curves of the Residential Heating Market: A Microeconomic Approach; includes story logic, BLP model shape, writing structure, and policy payoff.\ntype: reference\n---\n\n# Greenhouse Gas Abatement Cost Curves of the Residential Heating Market: A Microeconomic Approach",
+    "Citation": "- Key: `96LPI5MZ`\n- DOI: `10.1007/s10640-016-0052-0`\n- Journal: Environmental and Resource Economics\n- Year: 2017\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\96LPI5MZ.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/96LPI5MZ/96LPI5MZ.llm.json`",
+    "Read Status": "- 本记忆基于全文 OCR 结果，不是只基于题录摘要。\n- OCR 引擎：MinerU 优先，DirectML 加速，关闭表格识别以避免已知编码错误；输出为 `llm.md` + `llm.json` + `chunks.jsonl`。",
+    "Story Question": "- 核心问题：In this paper, we develop a microeconomic approach to deduce greenhouse gas abatement cost curves of the residential heating sector.",
+    "Story Logic": "- 从问题出发：In this paper, we develop a microeconomic approach to deduce greenhouse gas abatement cost curves of the residential heating sector.\n- 把识别对象具体化：Our research is based on a system dynamics microsimulation of private households’ investment decisions for heating systems to the year 2030.\n- 用结构模型推进：In this paper, we develop a microeconomic approach to deduce greenhouse gas abatement cost curves of the residential heating sector.\n- 最后把结果落到政策/福利含义：By accounting for household-specific characteristics, we investigate the welfare costs of different abatement policies in terms of the compensating variation and the excess burden.",
+    "How BLP Enters": "- 分类判断：BLP-style differentiated-product demand\n- 触发证据：discrete choice, marginal cost, welfare\n- 读法提醒：这里的“BLP”既可能是严格的随机系数需求+供给均衡，也可能只是沿用差异化产品结构需求与福利反事实的传统。",
+    "Model Shape": "- Demand side: 需求侧使用离散选择/产品差异化需求框架。 市场份额/替代关系是识别核心对象。\n- Heterogeneity: 文中通过异质偏好、车型属性、收入/里程/地区或消费者画像来刻画替代弹性。\n- Supply side: 文中显式处理供给侧，通常是 Nash-Bertrand 定价、边际成本恢复与均衡反事实。\n- Identification / estimation: 识别中明确出现工具变量/外生冲击。\n- Counterfactual / welfare: 摘要直接说明会做福利/反事实模拟，因此模型的终点是政策比较而不仅是弹性估计。",
+    "Writing Structure": "- 从 OCR 章节树看，正文大体按照下面顺序展开：\n- Greenhouse Gas Abatement Cost Curves of the Residential Heating Market – a Microeconomic Approach.\n- AUTHORS Caroline Dieckhöner Harald Hecking\n- EWI Working Paper, No 12/16\n- Oktober 2012\n- Institute of Energy Economics at the University of Cologne (EWI) www.ewi.uni-koeln.de\n- Institute of Energy EconomicsInstitute Energy Economics at the University of Cologne (EWI)at of Cologne\n- Tel.: +49 (0)221 277 29-100\n- Fax: +49 (0)221 277 29-400\n- CORRESPONDING AUTHOR\n- Caroline Dieckhöner\n- Institute of Energy Economics at the University of Cologne (EWI)\n- Tel: +49 (0)221 277 29-312\n- Fax: +49 (0)221 277 29-400\n- Caroline.Dieckhoener@ewi.uni-koeln.de\n- ISSN: 1862-3808\n- Greenhouse gas abatement cost curves of the residential heating market - a microeconomic approach\n- AUTHORS\n- Caroline Dieckhöner (EWI)\n- Harald Hecking (EWI)\n- EWI Working Paper, No 12/16\n- October 2012\n- Institute of Energy Economics at the University of Cologne (EWI) www.ewi.uni-koeln.de\n- Institute of Energy EconomicsInstitute Energy Economics at the University of Cologne (EWI)at of Cologne\n- Tel.: +49 (0)221 277 29-100\n- Fax: +49 (0)221 277 29-400\n- CORRESPONDING AUTHOR\n- Caroline Dieckhöner\n- Institute of Energy Economics at the University of Cologne (EWI)\n- Tel: +49 (0)221 277 29-100\n- Fax: +49 (0)221 277 29-400",
+    "Reusable Writing Moves": "- 把模型估计直接连到政策反事实，而不是只停留在弹性或系数。\n- 在模型前先铺设数据与制度背景，让后面的结构设定看起来是被场景逼出来的。",
+    "OCR Section Anchors": "- introduction: `1. Introduction and Background` (p.4)\n- data: `4. Data and Methodology` (p.17)\n- results: `5. Results` (p.19)\n- counterfactual: `Welfare effects of different policies` (p.12)\n- conclusion: `6. Conclusion` (p.26)",
+    "Memory Notes": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "theory_design_memory": "- The paper builds greenhouse-gas abatement cost curves for the residential heating market using a microeconomic approach.\n- Its key message is that welfare-based abatement costs are generally higher than simple engineering equipment costs.\n- The important twist is that once consumer behavior is modeled explicitly, policy rankings can change, and subsidies may dominate carbon taxes under misperception.\n\n- Real-world tension or puzzle: abatement cost curves are often built from technical costs, not from household welfare.\n- Why the puzzle matters now: climate policy should reflect actual consumer decisions in durable-energy markets.\n- What the literature already explains: technical abatement is cheaper on paper than it may be in welfare terms.\n- What is still missing or weakly identified: a microeconomic, welfare-based cost curve for residential heating.\n- The paper's move: estimate costs from household choice and welfare, not just equipment engineering.\n- Main payoff: the true marginal cost of abatement can be substantially higher, and behavioral errors can flip policy rankings.\n\n- Research design type: welfare-based cost-curve construction.\n- Structural model class or reduced-form design: household choice model for residential heating technologies.\n- Key equations or choice objects: heating-system adoption, costs, and welfare under alternative policies.\n- Endogeneity problem: equipment costs, preferences, and policy incentives affect observed adoption jointly.\n- Identification strategy: recover household willingness to pay and compare policy counterfactuals.\n- What assumptions are doing the heavy lifting: stable preferences and the chosen welfare metric over the heating choice set.\n\n- Unit of observation: residential heating choices / household-level technology adoption.\n- Market definition: residential heating market.\n- Main dependent variable: greenhouse-gas abatement cost.\n- Core explanatory variables: technology costs, consumer preferences, carbon tax, and subsidy design.\n- Instruments / moments / shocks: not fully extracted from OCR; likely product-market moments and policy scenarios.\n- Important sample restrictions: residential heating sector only; OCR capture of the detailed data section was partial.\n\n- Which papers are treated as the nearest neighbors: abatement cost curve, residential energy, and behavioral policy papers.\n- What exact gap the authors claim: existing cost curves often ignore welfare and consumer misperceptions.\n- How the introduction stages novelty: by explicitly contrasting technical and welfare-based abatement costs.\n- Whether the contribution is data, method, theory, policy, or a combination: method plus policy design.\n\n- Where the review sits: in the opening discussion of abatement-cost construction.\n- How the review is organized: technical cost curves, microeconomic welfare, and behavioral policy design.\n- Which citations do positioning work: abatement cost and residential heating studies.\n- Which citations do method-validation work: household-demand and welfare-evaluation papers.",
+  "baseline_core_memory": "- Research design type: welfare-based cost-curve construction.\n- Structural model class or reduced-form design: household choice model for residential heating technologies.\n- Key equations or choice objects: heating-system adoption, costs, and welfare under alternative policies.\n- Endogeneity problem: equipment costs, preferences, and policy incentives affect observed adoption jointly.\n- Identification strategy: recover household willingness to pay and compare policy counterfactuals.\n- What assumptions are doing the heavy lifting: stable preferences and the chosen welfare metric over the heating choice set.",
+  "mechanism_memory": "- Baseline result: welfare-based abatement costs are generally higher than technical equipment costs.\n- Mechanism evidence: household welfare and behavioral distortions matter for the cost curve.\n- Heterogeneity evidence: if households maximize utility, carbon taxes are welfare-efficient; with misperceptions, subsidies can have lower marginal abatement costs.\n- Welfare or counterfactual result: policy ranking depends on behavioral assumptions, not just engineering costs.\n- Limits the authors admit: the curve is micro-founded but still depends on model specification and the policy scenario set.\n\n- 从问题出发：In this paper, we develop a microeconomic approach to deduce greenhouse gas abatement cost curves of the residential heating sector.\n- 把识别对象具体化：Our research is based on a system dynamics microsimulation of private households’ investment decisions for heating systems to the year 2030.\n- 用结构模型推进：In this paper, we develop a microeconomic approach to deduce greenhouse gas abatement cost curves of the residential heating sector.\n- 最后把结果落到政策/福利含义：By accounting for household-specific characteristics, we investigate the welfare costs of different abatement policies in terms of the compensating variation and the excess burden.",
+  "result_memory": "- Baseline result: welfare-based abatement costs are generally higher than technical equipment costs.\n- Mechanism evidence: household welfare and behavioral distortions matter for the cost curve.\n- Heterogeneity evidence: if households maximize utility, carbon taxes are welfare-efficient; with misperceptions, subsidies can have lower marginal abatement costs.\n- Welfare or counterfactual result: policy ranking depends on behavioral assumptions, not just engineering costs.\n- Limits the authors admit: the curve is micro-founded but still depends on model specification and the policy scenario set.\n\n- Results anchor: abatement cost curves of the\n- Conclusion anchor: would be obtained under an allowance market that developed under a cap and trade system. They come to",
+  "writing_style_memory": "- Introduction move sequence: engineering benchmark -> welfare critique -> micro approach -> policy ranking.\n- Section order: background, model, data, estimation, cost curves, policy comparison, conclusion.\n- Where the paper turns from setup to payoff: when the welfare-based curve overtakes the technical-cost benchmark.\n- How tables/figures are used to move the argument: cost-curve figures and policy-comparison tables likely drive the result; OCR clearly supported the headline conclusions.\n\n- Best framing sentence pattern: \"A technical cost curve is not the same as a welfare cost curve.\"\n- Best transition pattern: move from engineering cost to household welfare.\n- Best contribution sentence pattern: \"We build a microeconomic abatement curve rather than a purely technical one.\"\n- Best limitation or implication move: \"Behavioral assumptions can reverse the ranking of carbon tax and subsidy instruments.\"\n\n- Durable economics-writing principle: policy cost curves should be built on the welfare metric that policy actually cares about.\n- Durable structural-model principle: consumer misperceptions can make a subsidy cheaper at the margin than a carbon tax.\n- Reusable empirical design idea: translate technology adoption into abatement cost curves using household welfare.\n- Follow-up paper to pair with this one: a micro-welfare study of residential electrification or heat-pump adoption.\n\n- 把模型估计直接连到政策反事实，而不是只停留在弹性或系数。\n- 在模型前先铺设数据与制度背景，让后面的结构设定看起来是被场景逼出来的。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。",
+  "professional_vocab": [
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "equilibrium",
+    "substitution",
+    "marginal cost",
+    "market definition",
+    "heterogeneity"
+  ],
+  "fulltext_headings": [
+    "AUTHORS",
+    "Harald Hecking",
+    "EWI Working Paper, No 12/16",
+    "Oktober 2012",
+    "Institute of Energy Economics at the University of Cologne (EWI)",
+    "Greenhouse Gas Abatement Cost Curves of the",
+    "CORRESPONDING AUTHOR",
+    "ISSN: 1862-3808",
+    "Institute of Energy Economics",
+    "Alte Wagenfabrik",
+    "Germany",
+    "Harald Hecking (EWI)",
+    "October 2012",
+    "Greenhouse gas abatement cost curves of the residential",
+    "Abstract",
+    "Keywords:",
+    "Household behavior, discrete choice, Pigou, greenhouse gas abatement costs",
+    "ISSN: 1862 3808",
+    "1. Introduction and Background",
+    "Hecking)",
+    "We have chosen this approach because the abatement potential of many externalities depends",
+    "From that we",
+    "2. Previous research",
+    "These models use aggregated empirical data to investigate the"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 5,
+      "snippet": "heating market – a\nmicroeconomic approach\nCaroline Dieckh¨onera,∗∗, Harald Heckinga,∗∗\naInstitute of Energy Economics at the University of Cologne (EWI), Vogelsanger Str. 321, 50827 Cologne, Germany\nAbstract\nIn this paper, we develop a microeconomic approach to deduce greenhouse gas abatement cost curves of the\nresidential heating sector. By accounting for household behavior, we ﬁnd that welfare-based abatement costs\nare generally higher than pure technical equipment costs. Our results are based on a microsimulation of\nprivate households’ investment decision for heating systems until 2030. The households’ investment behavior\nin the simulation is derived from a discrete choice estimation which allows investigating the welfare costs\nof diﬀerent abatement policies in terms of the compensating variation and the excess burden. We simulate\ngreenhouse gas abatements and welfare costs of carbon taxes and subsidies on heating system investments\nuntil 2030 to deduce abatement curves. Given util"
+    },
+    "data": {
+      "page": 9,
+      "snippet": "rent bottom-up models and models to analyze residential energy\nconsumption, i.e. mainly technology-based energy demand modeling approaches. These bottom-up models\nare based on extensive disaggregated data and components that inﬂuence energy demand on an individual\ndetailed level. This model type is often applied to identify cost-eﬃcient technology options for achieving\ncertain greenhouse gas emission abatement targets. There are also a variety of top-down models that focus\non rather macroeconomic relationships.\nThese models use aggregated empirical data to investigate the\ninterrelation of the energy sector and the economy as a whole by variables like GDP, income, temperature\nand prices of energy carriers. Mansur et al. (2008) analyze the impact of climate change on energy demand\nand welfare in the US applying a discrete-continuous model of fuel choice and energy consumption. They\nﬁnd a potential increase of American energy expenditures and welfare losses caused by temperature rise.\nMad"
+    },
+    "model": {
+      "page": 6,
+      "snippet": "costs. There\nare microeconomic analyses that investigate the impact of environmental policies: Tra (2010) evaluates the\nbeneﬁts of air quality improvements in a discrete choice locational equilibrium model that accounts for wel-\nfare impacts of policy interventions in a microeconomic context. However, to date there are few attempts to\n2"
+    },
+    "results": {
+      "page": 5,
+      "snippet": "abatement cost curves of the\nresidential heating sector. By accounting for household behavior, we ﬁnd that welfare-based abatement costs\nare generally higher than pure technical equipment costs. Our results are based on a microsimulation of\nprivate households’ investment decision for heating systems until 2030. The households’ investment behavior\nin the simulation is derived from a discrete choice estimation which allows investigating the welfare costs\nof diﬀerent abatement policies in terms of the compensating variation and the excess burden. We simulate\ngreenhouse gas abatements and welfare costs of carbon taxes and subsidies on heating system investments\nuntil 2030 to deduce abatement curves. Given utility maximizing households, our results suggest a carbon\ntax to be the welfare eﬃcient policy. Assuming behavioral misperceptions instead, a subsidy on investments\nmight have lower marginal greenhouse gas abatement costs than a carbon tax.\nKeywords:\nHousehold behavior, discrete choice"
+    },
+    "conclusion": {
+      "page": 10,
+      "snippet": "would be obtained under an allowance market that developed under a cap and trade system. They come to\nthe conclusion that these marginal abatement costs are not closely related to the marginal welfare costs. The\nmarginal abatement costs of their model vary over countries and are sometimes above and sometimes below\nthe marginal welfare costs and therefore they conclude that they should not be used to derive estimates of\nwelfare change.\nA recent study on greenhouse gas abatement curves on the micro-level has been published by McKinsey\n& Company, Inc. (2009) which establishes a cost-eﬃcient greenhouse gas abatement curve for diﬀerent\nenergy eﬃciency measures. Huntington (2011) discusses the overestimation of the reduction potential in\nthe McKinsey & Company, Inc. (2009) study. According to Huntington (2011), McKinsey & Company, Inc.\n(2009) neglect the real behavior of private households assuming"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper builds greenhouse-gas abatement cost curves for the residential heating market using a microeconomic approach.",
+      "Which papers are treated as the nearest neighbors: abatement cost curve, residential energy, and behavioral policy papers."
+    ],
+    "session": [
+      "Retrieve by key/title: 96LPI5MZ / Greenhouse Gas Abatement Cost Curves of the Residential Heating Market: A Microeconomic Approach",
+      "Use collections and journal handles: BLP_1995_Citing_Literature_2026-03-21, Green Demand Applications",
+      "Preferred in-text citation handle: (Löffler & Hecking, 2017) / Löffler and Hecking (2017)"
+    ],
+    "agent": [
+      "Research design type: welfare-based cost-curve construction.",
+      "Check how the paper modifies or simplifies canonical BLP before borrowing its structure."
+    ],
+    "team": [
+      "Best framing sentence pattern: \"A technical cost curve is not the same as a welfare cost curve.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

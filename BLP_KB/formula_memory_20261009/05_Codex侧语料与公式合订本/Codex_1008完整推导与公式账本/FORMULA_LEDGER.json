@@ -1,0 +1,220 @@
+[
+  {
+    "id": "P01",
+    "status": "project-extension",
+    "latex": "L^k_{jt}=\\text{可见标签},\\qquad T^k_{jmt}=\\text{共同道路口径真实性能},\\qquad\nB^k_{ijmt}=\\mathbb E_i[T^k_{jmt}\\mid L_{jt},I_{imt}]. \\tag{P01}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "项目定义；Reynaert–Sallee2021 PDF18/刊页389启发真实/感知属性区分，非其原式",
+    "assumptions": "L标签与T共同道路口径分开；B为消费者信息集下的主观期望，不由研究者观察T自动得到"
+  },
+  {
+    "id": "D02",
+    "status": "standard-derived",
+    "latex": "\\Delta g=\\Delta T-\\Delta L;\\qquad\n\\frac{d|T-L|}{dL}=-\\operatorname{sgn}(T-L)\\quad(T\\ne L). \\tag{D02}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "差分恒等式和绝对值导数",
+    "assumptions": "导数保持T固定且T不等于L；绝对差缩小不等于所有消费者信念改善"
+  },
+  {
+    "id": "P03",
+    "status": "project-extension",
+    "latex": "\\widehat L^{old}_{jt}=\\widehat f^{old}_{-j}(H_{j,t-1},\\text{预定车型年龄等}),\\qquad\nW_{jt}=L^{new}_{jt}-\\widehat L^{old}_{jt}. \\tag{P03}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "项目预测设计；不是论文原式",
+    "assumptions": "旧制训练、交叉拟合、处理前硬件与车型年龄；W并非真实差距或自动有效IV"
+  },
+  {
+    "id": "D04",
+    "status": "standard-derived",
+    "latex": "G^B_{ijmt}=\\mathbb E_i\\!\\left[\\sum_{h=1}^{H_i}\n\\frac{S_{ih}v_{ih}}{100(1+r_i)^h}\n\\left(q^F_{mh}B^F_{ijmh}+q^E_{imh}B^E_{ijmh}\\right)\\right]. \\tag{D04}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "现值预算推导；GRV2018 PDF6–9/刊页198–201 式1–5为成本资本化参照",
+    "assumptions": "能源单位L或kWh/100km、公里除100、存活/里程/持有期/贴现一致；PHEV模式不重复计价"
+  },
+  {
+    "id": "P05",
+    "status": "project-extension",
+    "latex": "V^D_{ijmt}=x_{jmt}'\\beta_i+\\xi_{jmt}\n-\\alpha_i\\left[p_{jmt}-b_{jmt}-\\frac{\\mathbb E_iRV_{ij}}{(1+r_i)^{H_i}}+\\gamma_iG^B_{ijmt}\\right]\n-\\kappa_i A_i^B(I_{ijmt},C_{mt})+Q_{ijmt}. \\tag{P05}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "准线性预算与随机效用的项目扩展",
+    "assumptions": "净购价、残值、预期使用成本、不便与质量分开；gamma无量纲，alpha效用/元；机制不得重复计价"
+  },
+  {
+    "id": "D06",
+    "status": "standard-derived",
+    "latex": "\\gamma=\\frac{|\\beta_{B^F}|}{|\\beta_p|K_m}. \\tag{D06}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "同一消费者货币边际效用之比；GRV2018式1–5为参照",
+    "assumptions": "K单位元/(L/100km)已约束；信念/里程/注意未分离时仅有效比率"
+  },
+  {
+    "id": "P07",
+    "status": "project-extension",
+    "latex": "B^F_{ij}=a_iL^F_j+(1-a_i)\\mu^F_{ij},\\qquad 0\\le a_i\\le1. \\tag{P07}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "受限标签—先验信念映射，借鉴R&S真实/感知楔子但非已识别Bayes参数",
+    "assumptions": "a在0与1之间；mu、a的独立信息与识别另需证据"
+  },
+  {
+    "id": "D08",
+    "status": "standard-derived",
+    "latex": "B=\\mu+w(y-\\mu),\\qquad w=\\frac{\\tau_0^2}{\\tau_0^2+\\sigma^2},\\qquad\n\\operatorname{Var}(T\\mid y)=\\frac{\\tau_0^2\\sigma^2}{\\tau_0^2+\\sigma^2}. \\tag{D08}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "独立正态先验/噪声的条件正态恒等式",
+    "assumptions": "nu独立于T，正确偏差校正，方差正；不能凭销量分别识别先验与噪声精度"
+  },
+  {
+    "id": "P24",
+    "status": "project-extension",
+    "latex": "\\Delta B^F=a_1\\Delta L^F-(a_1-a_0)(\\mu^F-L_0^F).\n\\tag{P24}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "P07前后两式直接相减",
+    "assumptions": "mu保持不变，a和L可改变；a增大可使悲观先验下B下降，并不需要gamma或独立信任改变"
+  },
+  {
+    "id": "D09",
+    "status": "standard-derived",
+    "latex": "A_i(R)=\\mathbb E[(D_i-R)_+],\\qquad\nA_i'(R)=-\\Pr(D_i>R),\\quad A_i''(R)=f_{D_i}(R)\\ge0. \\tag{D09}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "正部损失期望的标准微积分推导",
+    "assumptions": "R已知且行程有连续密度；真实性能不确定时先对D与R联合分布取期望，不把A(E[R])冒充E[A(R)]"
+  },
+  {
+    "id": "D10",
+    "status": "standard-derived",
+    "latex": "R_j^{phys}=\\frac{100u_jK_j}{e_j},\\qquad\nM_j^{battery}=\\frac{1000K_j}{D_j^{pack}}, \\tag{D10}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "能量/里程与质量单位换算的工程恒等式；非BKL原式",
+    "assumptions": "K额定kWh，u可用占比，e道路kWh/100km，Dpack为包级Wh/kg；不是车型换标造成技术进步"
+  },
+  {
+    "id": "D11",
+    "status": "standard-derived",
+    "latex": "U_{ijmt}=V^D_{ijmt}+\\varepsilon_{ijmt},\\quad\nP_{ijmt}=\\frac{\\exp V^D_{ijmt}}{1+\\sum_{r\\in\\mathcal J_{mt}}\\exp V^D_{irmt}},\\quad\ns_{jmt}=\\int P_{ijmt}\\,dF_m(i),\\quad q_{jmt}=M_{mt}s_{jmt}. \\tag{D11}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "IID I型极值随机效用概率及聚合",
+    "assumptions": "冲击尺度1、outside确定效用0；F为潜在消费者类型分布，市场规模不是已购新车数"
+  },
+  {
+    "id": "D12",
+    "status": "standard-derived",
+    "latex": "\\log s_{jmt}-\\log s_{0mt}=x_{jmt}'\\bar\\beta-\\alpha(p_{jmt}+\\gamma G^B_{jmt})\n-\\kappa A^B_{jmt}+\\text{固定效应}+\\xi_{jmt}. \\tag{D12}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "同质Logit份额比恒等式",
+    "assumptions": "代表类型及相同选择集/归一化；不是把非线性异质指标取均值后的精确BLP"
+  },
+  {
+    "id": "P13",
+    "status": "project-extension",
+    "latex": "\\mathbb E[q_{jt}\\mid\\mathcal I]=\n\\exp\\left[\\eta_j+\\lambda_{d(j),t}\n+\\sum_d\\sum_{\\ell\\ne\\ell_0}\n\\theta_{d\\ell}E_j^0\\mathbf1\\{d(j)=d\\}\\mathbf1\\{t-T_c=\\ell\\}\n+C_{jt}^{pre\\,\\prime}\\zeta\\right]. \\tag{P13}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "本项目共同法定批次×预定暴露的PPML事件研究",
+    "assumptions": "动力×月FE下为动力内部相对响应，非全国总ATT；平行趋势/硬件/退出/生成变量推断另验"
+  },
+  {
+    "id": "D14",
+    "status": "standard-derived",
+    "latex": "\\delta_j^{(n+1)}=\\delta_j^{(n)}+\\log s_j^{obs}-\\log s_j(\\delta^{(n)},\\theta),\\qquad\n\\widehat\\theta=\\arg\\min_\\theta g_N(\\theta)'W_Ng_N(\\theta),\\quad\ng_N=N^{-1}\\sum Z_{jmt}\\xi_{jmt}(\\theta). \\tag{D14}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "Berry份额反演与IV矩；BLP1995 PDF25–26/刊页864–865",
+    "assumptions": "给定非线性参数和有效份额；GMM局部秩/排除限制不由反演自动证明",
+    "source_verification": "BLP source anchors unchanged. BH2024 published target Section2.1/Thm1/Assumption8/Thm2 checked separately, not a source-exact aggregate-panel identification proof."
+  },
+  {
+    "id": "D15",
+    "status": "standard-derived",
+    "latex": "\\frac{\\partial s_j}{\\partial z}=\\int P_{ij}\n\\left[\\frac{\\partial V_{ij}}{\\partial z}-\\sum_{r=0}^J P_{ir}\\frac{\\partial V_{ir}}{\\partial z}\\right]dF(i). \\tag{D15}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "Logit概率链式法则后按同一类型积分",
+    "assumptions": "求直接偏导时固定对手状态、xi、参数；均衡价格响应须另加总导数"
+  },
+  {
+    "id": "D16",
+    "status": "standard-derived",
+    "latex": "\\frac{\\partial s_E}{\\partial z}=\\int P_{iE}(1-P_{iE})\n\\left(\\overline V'_{iE}-\\overline V'_{i,-E}\\right)dF(i). \\tag{D16}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "对组内Logit概率加总的条件均值差恒等式",
+    "assumptions": "outside属于互补集合；积分中保持同一类型；组份额变化不是家庭实际转车轨迹"
+  },
+  {
+    "id": "P17",
+    "status": "project-extension",
+    "latex": "\\Delta V_{ij}\\simeq-\\alpha_i\\gamma_iK_i\\Delta B^F_{ij}\n-\\kappa_i\\Delta A_i^B-\\rho_i\\Delta H_j. \\tag{P17}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "P05在固定货币系数/其他属性下的局部效用分解",
+    "assumptions": "gammaK等固定、价格不变；H独立风险渠道须另识别，不能默认从客观差距得到"
+  },
+  {
+    "id": "D18",
+    "status": "standard-derived",
+    "latex": "\\Delta L^F\\le\\frac{-\\kappa_i\\Delta A_i^B-\\rho_i\\Delta H_j}\n{\\alpha_i\\gamma_iK_i a_i},\\quad a_i>0. \\tag{D18}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "P17加a固定、Delta B=a Delta L的个体不减效用条件",
+    "assumptions": "alpha gamma K a>0；仅固定对手/价格个体阈值，非全国或均衡销量阈值"
+  },
+  {
+    "id": "D19",
+    "status": "standard-derived",
+    "latex": "0=s_j+\\sum_r H_{jr}(p_r-c_r)\\frac{\\partial s_r}{\\partial p_j},\\qquad\n\\Delta_{jr}=-H_{jr}\\frac{\\partial s_r}{\\partial p_j},\\quad\n\\eta=p-c=\\Delta^{-1}s. \\tag{D19}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "多产品利润FOC；BLP1995 PDF14–15/刊页853–854 式3.2–3.6",
+    "assumptions": "Jacobian按份额行/价格列时要转置；全国共同价格跨地区需M加权；成本不等于技术效率"
+  },
+  {
+    "id": "D20",
+    "status": "standard-derived",
+    "latex": "CS_i^D=\\frac{1}{\\alpha_i}\\log\\!\\sum_{j=0}^{J}\\exp V^D_{ij}. \\tag{D20}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "IID EV expected-max identity加准线性钱度量；Small–Rosen条件",
+    "assumptions": "同一消费者alpha>0且不随价格/收入改变；收入效应规格须改CV/EV补偿根",
+    "source_verification": "Target-verified 1979 NBERWP319 printedpp33–34 Eq5.9 is NEGATIVE compensated-expenditure change; positiveCS gain here independently derived under fixed individualalpha/no income effects. 1981 typeset original not verified."
+  },
+  {
+    "id": "D21",
+    "status": "standard-derived",
+    "latex": "W_i^E=\\frac{1}{\\alpha_i}\\left[\\log\\!\\sum_j e^{V^D_{ij}}+\n\\sum_jP^D_{ij}(V^E_{ij}-V^D_{ij})\\right]. \\tag{D21}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "同一决策选择的体验评价；R&S2021 PDF29/刊页400为福利区分参照，表达为标准推导",
+    "assumptions": "同一EV冲击、按VD选择再以VE评价；不允许按VE重选来冒充体验福利；规范gamma基准预先声明"
+  },
+  {
+    "id": "P22",
+    "status": "project-extension",
+    "latex": "\\mathcal V_f(S_t)=\\max_{a_f,g_f}\\left\\{\\pi_f(S_t;a_f,g_f)-C_f(a_f,g_f)\n+\\delta_f\\mathbb E[\\mathcal V_f(S_{t+1})\\mid S_t,a_f,g_f]\\right\\}. \\tag{P22}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "示意动态厂商Bellman扩展，不是静态BLP估计结果",
+    "assumptions": "投资成本、技术/规制状态转移与动态识别另需数据；专利不是自动状态变量"
+  },
+  {
+    "id": "P23",
+    "status": "project-extension",
+    "latex": "\\mathbb E[Pat_{ft}\\mid X]=\\exp\\!\\left[\\eta_f+\\lambda_t+\n\\sum_{\\ell\\ne\\ell_0}\\vartheta_\\ell Exposure_f^0\\mathbf1\\{t-T=\\ell\\}+X_{ft}'\\chi\\right]. \\tag{P23}",
+    "source_scope": "Local source anchors and detailed derivations in memos/blp_derivations.md, foundations_beliefs_myopia.md, identification_audit.md; not source-exact transcription.",
+    "empirical_status": "not estimated; stated restrictions required; illustrative extensions are not identified",
+    "basis": "预政策产品组合加权企业暴露的专利PPML事件研究设计",
+    "assumptions": "固定基期权重、企业与年月FE、申请滞后/删失/产业政策；不以专利量直接等同创新质量"
+  }
+]

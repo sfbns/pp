@@ -1,0 +1,173 @@
+{
+  "rank": 11,
+  "item_key": "FMISYR9Z",
+  "title": "Fuel taxation, emissions policy, and competitive advantage in the diffusion of European diesel automobiles",
+  "authors": [
+    "Eugenio J. Miravete",
+    "María J. Moral",
+    "Jeff Thurk"
+  ],
+  "creators": [
+    {
+      "name": "Eugenio J. Miravete",
+      "type": "author"
+    },
+    {
+      "name": "María J. Moral",
+      "type": "author"
+    },
+    {
+      "name": "Jeff Thurk",
+      "type": "author"
+    }
+  ],
+  "date": "2018-00-00 2018",
+  "journal": "The RAND Journal of Economics",
+  "doi": "10.1111/1756-2171.12243",
+  "url": "https://doi.org/10.1111/1756-2171.12243",
+  "collections": [
+    "Auto Market and Policy",
+    "BLP_1995_Citing_Literature_2026-03-21"
+  ],
+  "classification": "canonical BLP demand-supply",
+  "apa_citation": {
+    "reference": "Miravete, E. J., Moral, M. J., & Thurk, J. (2018). Fuel taxation, emissions policy, and competitive advantage in the diffusion of European diesel automobiles. The RAND Journal of Economics. https://doi.org/10.1111/1756-2171.12243",
+    "parenthetical": "(Miravete et al., 2018)",
+    "narrative": "Miravete et al. (2018)"
+  },
+  "preferred_pdf_rel": "source_pdfs/11_fmisyr9z.pdf",
+  "preferred_pdf_source": {
+    "attachment_key": "P2IUP26Q",
+    "link_mode": 1,
+    "content_type": "application/pdf",
+    "path": "storage:1756-2171.12243.pdf.pdf",
+    "resolved_path": "C:\\Users\\于\\Zotero\\storage\\P2IUP26Q\\1756-2171.12243.pdf.pdf",
+    "exists": true,
+    "size": 836324
+  },
+  "legacy_note_rel": "raw/notes/11_fmisyr9z.md",
+  "legacy_old_memory_rel": "raw/paper_memory/11_fmisyr9z.md",
+  "fulltext_json_rel": "raw/fulltext/11_fmisyr9z.fulltext.json",
+  "fulltext_txt_rel": "raw/fulltext/11_fmisyr9z.fulltext.txt",
+  "llm_json_rel": "",
+  "llm_md_rel": "",
+  "note_sections": {
+    "1. One-paragraph thesis": "- The paper argues that fuel-tax and emissions policies helped diffuse diesel vehicles in Europe.\n- It shows that those policies favored diesel in ways that also acted like non-tariff trade barriers.\n- The policy implication is that environmental rules can generate competitive effects that look like protectionism.",
+    "2. Story ladder": "- Real-world tension or puzzle: diesel diffusion was not just a technology story; policy was shaping relative advantage.\n- Why the puzzle matters now: climate and trade policy often interact in hidden ways.\n- What the literature already explains: fuel taxes and emissions policy can change vehicle mix.\n- What is still missing or weakly identified: a structural estimate of the trade-policy equivalent of those effects.\n- The paper's move: use a structural model to translate policy-induced diesel diffusion into NTB equivalents.\n- Main payoff: emissions policy can function like an implicit trade barrier.",
+    "3. Model or identification core": "- Research design type: structural trade and diffusion analysis.\n- Structural model class or reduced-form design: diffusion model with competitive advantage in vehicle adoption.\n- Key equations or choice objects: adoption of diesel automobiles across European markets.\n- Endogeneity problem: policy, technology, and market share co-evolve.\n- Identification strategy: estimate a structural model of diffusion and map policy changes into tariff equivalents.\n- What assumptions are doing the heavy lifting: model-based translation from policy effects to trade barriers.",
+    "4. Data and measurement": "- Unit of observation: European automobile diffusion / market shares.\n- Market definition: European diesel automobile market.\n- Main dependent variable: diesel diffusion and relative market advantage.\n- Core explanatory variables: fuel taxes, emissions policy, and policy-induced cost differences.\n- Instruments / moments / shocks: not fully extracted from OCR; the main variation is policy and market diffusion patterns.\n- Important sample restrictions: European diesel diffusion context; exact country sample should be checked if used in replication.",
+    "5. Findings and mechanisms": "- Baseline result: fuel taxation and emissions policy favored diesel vehicles.\n- Mechanism evidence: policies altered relative costs and competitive advantage across powertrains.\n- Heterogeneity evidence: the effect is strongest where tax and emissions policy align.\n- Welfare or counterfactual result: the implied nontariff trade policy effect is equivalent to an import tariff two to three times the official rate.\n- Limits the authors admit: the NTB translation is model-based, so the equivalence is an interpretation of the structural estimates.",
+    "6. Contribution construction": "- Which papers are treated as the nearest neighbors: diesel diffusion, fuel taxation, and trade-policy studies.\n- What exact gap the authors claim: prior work has not measured the NTB content of emissions policy.\n- How the introduction stages novelty: it ties environmental regulation to competitive advantage and trade effects.\n- Whether the contribution is data, method, theory, policy, or a combination: structural method plus policy interpretation.",
+    "7. Literature review function": "- Where the review sits: in the introduction and context sections.\n- How the review is organized: diesel diffusion, fuel taxes, emissions policy, and trade analogies.\n- Which citations do positioning work: car technology diffusion and taxation papers.\n- Which citations do method-validation work: structural trade and adoption models.",
+    "8. Writing structure map": "- Introduction move sequence: policy-induced diffusion -> competitive advantage -> trade-equivalent implication.\n- Section order: background, model, estimation, results, counterfactual interpretation, conclusion.\n- Where the paper turns from setup to payoff: when policy effects are recast as tariff equivalents.\n- How tables/figures are used to move the argument: diffusion patterns and policy-comparison tables likely carry the evidence; OCR was clear on the main equivalence claim.",
+    "9. Reusable writing moves": "- Best framing sentence pattern: \"An environmental policy can also be a market-access policy.\"\n- Best transition pattern: move from diffusion pattern to competitive interpretation.\n- Best contribution sentence pattern: \"We quantify the trade-policy equivalent of emissions policy.\"\n- Best limitation or implication move: \"A policy's effect on technology choice can reshape competitive advantage.\"",
+    "10. Memory update": "- Durable economics-writing principle: policy can be evaluated in adjacent domains, not just the domain it targets.\n- Durable structural-model principle: diffusion models are useful when policy changes market share over time.\n- Reusable empirical design idea: translate environmental policy effects into trade-equivalent units.\n- Follow-up paper to pair with this one: a study on fuel-economy standards as hidden industrial policy."
+  },
+  "old_memory_sections": {
+    "__preamble__": "---\nname: paper_fmisyr9z_fuel-taxation-emissions-policy-and-competitive-advantage-in-the-diffusion-of-eur\ndescription: Fulltext BLP reading memory for Fuel taxation, emissions policy, and competitive advantage in the diffusion of European diesel automobiles; includes story logic, BLP model shape, writing structure, and policy payoff.\ntype: reference\n---\n\n# Fuel taxation, emissions policy, and competitive advantage in the diffusion of European diesel automobiles",
+    "Citation": "- Key: `FMISYR9Z`\n- DOI: `10.1111/1756-2171.12243`\n- Journal: The RAND Journal of Economics\n- Year: 2018\n- OCR source PDF: `D:\\codex\\tmp\\blp_full_read_20260417\\staged_pdfs\\FMISYR9Z.pdf`\n- OCR JSON: `D:/codex/tmp/blp_full_read_20260417/parsed_all/FMISYR9Z/FMISYR9Z.llm.json`",
+    "Read Status": "- 本记忆基于全文 OCR 结果，不是只基于题录摘要。\n- OCR 引擎：MinerU 优先，DirectML 加速，关闭表格识别以避免已知编码错误；输出为 `llm.md` + `llm.json` + `chunks.jsonl`。",
+    "Story Question": "- 核心问题：Economic integration agreements have significantly decreased import tariffs.",
+    "Story Logic": "- 从问题出发：Economic integration agreements have significantly decreased import tariffs.\n- 把识别对象具体化：We investigate whether national policies can be an effective replacement for tariffs to protect domestic industry.\n- 最后把结果落到政策/福利含义：We show that (a) European fuel taxes and vehicle emissions policy favored diesel vehicles, a technology popular with European consumers but largely offered only by domestic automakers; (b) European automakers benefited from pro‐diesel fuel taxes and a lenient NO x emissions policy to earn significant profits from diesel cars; and (c) that both policies amounted to significant nontariff trade policies equivalent to an import tariff between two to three times the official rate",
+    "How BLP Enters": "- 分类判断：canonical BLP demand-supply\n- 触发证据：random coefficients, discrete choice, bertrand, marginal cost, markup, welfare, counterfactual, instrument\n- 读法提醒：这里的“BLP”既可能是严格的随机系数需求+供给均衡，也可能只是沿用差异化产品结构需求与福利反事实的传统。",
+    "Model Shape": "- Demand side: 需求侧明显是随机系数离散选择框架。 市场份额/替代关系是识别核心对象。\n- Heterogeneity: 文中通过异质偏好、车型属性、收入/里程/地区或消费者画像来刻画替代弹性。\n- Supply side: 文中显式处理供给侧，通常是 Nash-Bertrand 定价、边际成本恢复与均衡反事实。\n- Identification / estimation: 识别中明确出现工具变量/外生冲击。\n- Counterfactual / welfare: 模型最终用于反事实比较：税收、补贴、禁令、配额、标签政策、进入冲击或福利分配。",
+    "Writing Structure": "- 从 OCR 章节树看，正文大体按照下面顺序展开：\n- Fuel taxation, emissions policy, and competitive advantage in the diffusion of European diesel automobiles\n- Eugenio J. Miravete∗\n- Mar´ıa J. Moral∗∗\n- Jeff Thurk∗∗∗\n- 1. Introduction\n- RAND Journal of Economics Vol. 49, No. 3, Fall 2018 pp. 504–540\n- Check for updates\n- MIRAVETE, MORAL AND THURK\n- THE RAND JOURNAL OF ECONOMICS\n- 2. The European market for diesel automobiles in the 1990s\n- MIRAVETE, MORAL AND THURK\n- THE RAND JOURNAL OF ECONOMICS\n- 7 See the 2004 report “Why Diesel?” from the European Association of Automobile Manufacturers (ACEA).\n- 8 Thurk (2017) evaluates the financial implications for VOLKSWAGEN due to the quick imitation of the TDI.\n- FIGURE 1\n- TRENDS IN THE EUROPEAN AUTOMOBILE MARKET [Color figure can be viewed at wileyonlinelibrary.com]\n- TABLE 1 Car Model Characteristics By Origin and Engine Types\n- MIRAVETE, MORAL AND THURK\n- 3. Why are diesels popular in Europe?\n- THE RAND JOURNAL OF ECONOMICS\n- FIGURE 2\n- FUEL PRICES GROSS AND NET OF TAXES (1994 EURO-CENTS/LITER) [Color figure can be viewed at wileyonlinelibrary.com]\n- MIRAVETE, MORAL AND THURK\n- FIGURE 3\n- EUROPE AND US EMISSIONS STANDARDS [Color figure can be viewed at wileyonlinelibrary.com]\n- 4. An equilibrium oligopoly model of the automobile industry\n- MIRAVETE, MORAL AND THURK\n- THE RAND JOURNAL OF ECONOMICS\n- In estimating costs, we make a common assumption that firms have Cobb-Douglas cost functions, therefore:\n- 5. Estimation",
+    "Reusable Writing Moves": "- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。",
+    "OCR Section Anchors": "- introduction: `1. Introduction` (p.0)\n- estimation: `5. Estimation` (p.11)\n- conclusion: `7. Concluding remarks` (p.26)",
+    "Memory Notes": "- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。"
+  },
+  "theory_design_memory": "- The paper argues that fuel-tax and emissions policies helped diffuse diesel vehicles in Europe.\n- It shows that those policies favored diesel in ways that also acted like non-tariff trade barriers.\n- The policy implication is that environmental rules can generate competitive effects that look like protectionism.\n\n- Real-world tension or puzzle: diesel diffusion was not just a technology story; policy was shaping relative advantage.\n- Why the puzzle matters now: climate and trade policy often interact in hidden ways.\n- What the literature already explains: fuel taxes and emissions policy can change vehicle mix.\n- What is still missing or weakly identified: a structural estimate of the trade-policy equivalent of those effects.\n- The paper's move: use a structural model to translate policy-induced diesel diffusion into NTB equivalents.\n- Main payoff: emissions policy can function like an implicit trade barrier.\n\n- Research design type: structural trade and diffusion analysis.\n- Structural model class or reduced-form design: diffusion model with competitive advantage in vehicle adoption.\n- Key equations or choice objects: adoption of diesel automobiles across European markets.\n- Endogeneity problem: policy, technology, and market share co-evolve.\n- Identification strategy: estimate a structural model of diffusion and map policy changes into tariff equivalents.\n- What assumptions are doing the heavy lifting: model-based translation from policy effects to trade barriers.\n\n- Unit of observation: European automobile diffusion / market shares.\n- Market definition: European diesel automobile market.\n- Main dependent variable: diesel diffusion and relative market advantage.\n- Core explanatory variables: fuel taxes, emissions policy, and policy-induced cost differences.\n- Instruments / moments / shocks: not fully extracted from OCR; the main variation is policy and market diffusion patterns.\n- Important sample restrictions: European diesel diffusion context; exact country sample should be checked if used in replication.\n\n- Which papers are treated as the nearest neighbors: diesel diffusion, fuel taxation, and trade-policy studies.\n- What exact gap the authors claim: prior work has not measured the NTB content of emissions policy.\n- How the introduction stages novelty: it ties environmental regulation to competitive advantage and trade effects.\n- Whether the contribution is data, method, theory, policy, or a combination: structural method plus policy interpretation.\n\n- Where the review sits: in the introduction and context sections.\n- How the review is organized: diesel diffusion, fuel taxes, emissions policy, and trade analogies.\n- Which citations do positioning work: car technology diffusion and taxation papers.\n- Which citations do method-validation work: structural trade and adoption models.",
+  "baseline_core_memory": "- Research design type: structural trade and diffusion analysis.\n- Structural model class or reduced-form design: diffusion model with competitive advantage in vehicle adoption.\n- Key equations or choice objects: adoption of diesel automobiles across European markets.\n- Endogeneity problem: policy, technology, and market share co-evolve.\n- Identification strategy: estimate a structural model of diffusion and map policy changes into tariff equivalents.\n- What assumptions are doing the heavy lifting: model-based translation from policy effects to trade barriers.",
+  "mechanism_memory": "- Baseline result: fuel taxation and emissions policy favored diesel vehicles.\n- Mechanism evidence: policies altered relative costs and competitive advantage across powertrains.\n- Heterogeneity evidence: the effect is strongest where tax and emissions policy align.\n- Welfare or counterfactual result: the implied nontariff trade policy effect is equivalent to an import tariff two to three times the official rate.\n- Limits the authors admit: the NTB translation is model-based, so the equivalence is an interpretation of the structural estimates.\n\n- 从问题出发：Economic integration agreements have significantly decreased import tariffs.\n- 把识别对象具体化：We investigate whether national policies can be an effective replacement for tariffs to protect domestic industry.\n- 最后把结果落到政策/福利含义：We show that (a) European fuel taxes and vehicle emissions policy favored diesel vehicles, a technology popular with European consumers but largely offered only by domestic automakers; (b) European automakers benefited from pro‐diesel fuel taxes and a lenient NO x emissions policy to earn significant profits from diesel cars; and (c) that both policies amounted to significant nontariff trade policies equivalent to an import tariff between two to three times the official rate",
+  "result_memory": "- Baseline result: fuel taxation and emissions policy favored diesel vehicles.\n- Mechanism evidence: policies altered relative costs and competitive advantage across powertrains.\n- Heterogeneity evidence: the effect is strongest where tax and emissions policy align.\n- Welfare or counterfactual result: the implied nontariff trade policy effect is equivalent to an import tariff two to three times the official rate.\n- Limits the authors admit: the NTB translation is model-based, so the equivalence is an interpretation of the structural estimates.\n\n- Results anchor: alternative policies we consider and maintained the import share observed in the data. Moreover,\n- Conclusion anchor: mean compensating variation as a percent of median retail price in the data. Compensating",
+  "writing_style_memory": "- Introduction move sequence: policy-induced diffusion -> competitive advantage -> trade-equivalent implication.\n- Section order: background, model, estimation, results, counterfactual interpretation, conclusion.\n- Where the paper turns from setup to payoff: when policy effects are recast as tariff equivalents.\n- How tables/figures are used to move the argument: diffusion patterns and policy-comparison tables likely carry the evidence; OCR was clear on the main equivalence claim.\n\n- Best framing sentence pattern: \"An environmental policy can also be a market-access policy.\"\n- Best transition pattern: move from diffusion pattern to competitive interpretation.\n- Best contribution sentence pattern: \"We quantify the trade-policy equivalent of emissions policy.\"\n- Best limitation or implication move: \"A policy's effect on technology choice can reshape competitive advantage.\"\n\n- Durable economics-writing principle: policy can be evaluated in adjacent domains, not just the domain it targets.\n- Durable structural-model principle: diffusion models are useful when policy changes market share over time.\n- Reusable empirical design idea: translate environmental policy effects into trade-equivalent units.\n- Follow-up paper to pair with this one: a study on fuel-economy standards as hidden industrial policy.\n\n- 典型写法是先讲现实难题，再说明 reduced-form 不够，于是转向结构模型来回答替代、均衡与福利问题。\n\n- 以后如果要调用这篇文献，不要只记结论，优先调用它的故事推进顺序、模型嵌入位置、以及政策反事实是如何从模型里走出来的。\n- 如果后续需要更细的公式级回忆，可以直接回到对应 OCR JSON 的 equation chunks 与 model/estimation section excerpt。",
+  "professional_vocab": [
+    "discrete choice",
+    "counterfactual",
+    "welfare",
+    "identification strategy",
+    "gmm",
+    "equilibrium",
+    "substitution",
+    "outside option",
+    "markup",
+    "marginal cost",
+    "market definition",
+    "heterogeneity",
+    "fuel economy",
+    "attribute-based regulation",
+    "consumer demand",
+    "differentiated product"
+  ],
+  "fulltext_headings": [
+    "RAND Journal of Economics",
+    "Fuel taxation, emissions policy,",
+    "We show that (a) European fuel taxes and vehicle emissions policy favored diesel vehicles, a",
+    "Introduction",
+    "Multilateral trade agreements among countries have driven import tariffs to historic lows",
+    "MIRAVETE, MORAL AND THURK",
+    "Our setting is the European marketplace where (largely) European diesel vehicles constitute",
+    "We show that fuel taxation and vehicle emissions standards chosen by European regulators",
+    "The second channel corresponds to the increased marginal cost required to meet a stricter",
+    "By not choosing stricter NOx emissions standards, European regulators implicitly reduced the",
+    "THE RAND JOURNAL OF ECONOMICS",
+    "We quantify the effects of alternative fuel taxation and vehicle emissions policies via counter-",
+    "We use the estimated model to measure the implicit protective value of these policies, that is,",
+    "Economists, policy experts, and politicians have all expressed concerns over the ability of",
+    "Goldberg and Verboven (2001) evaluate sources for cross-country dispersion of vehicle prices in",
+    "Europe prior to 1993, whereas Goldberg and Verboven (2005) document that the creation of the",
+    "Our contribution is to evaluate the tariff-equivalence of domestic policies and thereby demonstrate",
+    "United States will also likely result in the effective disappearance of diesel vehicles from the US",
+    "It is tempting to view our results as an indictment of European policy or proof that Euro-",
+    "The European market for diesel automobiles in the 1990s",
+    "Diesel designed an internal combustion engine in which heavy fuel self-ignites after being injected",
+    "In 1989, Volkswagen introduced the turbocharged direct injection (TDI) diesel engine in its",
+    "Figure 1 (b) shows that diesel vehicles became increasingly popular not only in Spain but all over",
+    "In Table 1, we document the dramatic transformation in the number and characteristics of"
+  ],
+  "anchors": {
+    "intro": {
+      "page": 1,
+      "snippet": "y\nto earn signiﬁcant proﬁts from diesel cars; and (c) that both policies amounted to signiﬁcant\nnontariff trade policies equivalent to an import tariff between two to three times the ofﬁcial rate.\n1.\nIntroduction\n■\nMultilateral trade agreements among countries have driven import tariffs to historic lows\n(Bergstrand, Larch, and Yotov, 2015). When application of traditional protectionist policies such as\ntariffs and quotas becomes harder due to trade liberalization agreements, governments may resort\nto less obvious regulations designed to protect domestic industries (Bhagwati and Ramaswami,\n1963; Staiger, 1995; Bagwell and Staiger, 2001; Ederington, 2001). In this article, we consider\n∗The University of Texas at Austin, Centre for Competition Policy/UEA, and CEPR; miravete@eco.utexas.edu.\n∗∗UNED, Paseo Senda del Rey, GRiEE and GRIPICO; mjmoral@cee.uned.es.\n∗∗∗University of Notre Dame; jthurk@nd.edu.\nThis article supersedes “Protecting the European Automobile Industry through Environmenta"
+    },
+    "data": {
+      "page": 2,
+      "snippet": "ms sold gasoline-powered vehicles which not only used a more expensive\nfuel, but also faced stricter emissions standards than their diesel-powered competition.\nWe use detailed automobile registration data from Spain—a country with diesel adoption\nrates representative of Europe—to estimate a structural discrete-choice oligopoly model of hori-\nzontally differentiated goods similar to Berry, Levinsohn, and Pakes (1995), henceforth BLP. The\nmodel is ﬂexible enough to generate reasonable substitution patterns between similar products\nand account for product characteristics known to consumers and ﬁrms but not to the researcher.\nOur data have two important features. First, the sample covers the years immediately following\nthe introduction of the turbodiesel engine in 1989—a major improvement in diesel technology,\nwhich proved to be very popular among consumers, as diesel penetration increased from 10% to\n50% in less than a decade. Second, the sample also covers a period in which European auto"
+    },
+    "model": {
+      "page": 2,
+      "snippet": "ir diesel-powered competition.\nWe use detailed automobile registration data from Spain—a country with diesel adoption\nrates representative of Europe—to estimate a structural discrete-choice oligopoly model of hori-\nzontally differentiated goods similar to Berry, Levinsohn, and Pakes (1995), henceforth BLP. The\nmodel is ﬂexible enough to generate reasonable substitution patterns between similar products\nand account for product characteristics known to consumers and ﬁrms but not to the researcher.\nOur data have two important features. First, the sample covers the years immediately following\nthe introduction of the turbodiesel engine in 1989—a major improvement in diesel technology,\nwhich proved to be very popular among consumers, as diesel penetration increased from 10% to\n50% in less than a decade. Second, the sample also covers a period in which European automakers\nfaced increased competition from Asian automakers.\nWe show that fuel taxation and vehicle emissions standards chosen by Eu"
+    },
+    "results": {
+      "page": 3,
+      "snippet": "h employed the\nalternative policies we consider and maintained the import share observed in the data. Moreover,\nwe show both policies played important roles in protecting domestic ﬁrms. We view these results\nas evidence that national policies can indeed amount to signiﬁcant nontariff trade barriers.\nEconomists, policy experts, and politicians have all expressed concerns over the ability of\nnational policies to ﬁll the void left by import tariffs, but identifying and quantifying effects of\nnontariff barriers (NTBs) has proven difﬁcult. Our results, therefore, amount to an important and\nnovel contribution as, to the best of our knowledge, this study is the ﬁrst to measure the effects\nof a NTB using an estimated structural model. The advantage of our structural approach is that it\nenables us to account for the optimal equilibrium responses of consumers and ﬁrms to alternative\npolicies, thereby increasing the reliability of our conclusions.\nWe are not the ﬁrst to evaluate the trade effects"
+    },
+    "conclusion": {
+      "page": 25,
+      "snippet": "mean compensating variation as a percent of median retail price in the data. Compensating\nvariation in “Alternative Policies + Tariff” also includes lump-sum payment for increased tariff revenue.\nOur conclusion is that the average European consumer is better off each year under the\ncurrent policies. This is not surprising, because the alternative policies we consider both decrease\nfuel economy (due to higher diesel fuel taxes and a reduction in diesel fuel efﬁciency) and may\nincrease the retail price of diesels (due to “EPA” abatement costs). These negative welfare effects\ngrow over time as diesels become increasingly popular. In terms of relative magnitudes, the\nchange in welfare amounts to 1.14% of median retail price on average when cost of modifying\ndiesel engines are nil, though the relative impact is nearly double at the end of the decade, when\ndiesels are clearly dominant in several automobile segments. If meeting the alternative emissions\nstandards requires positive abatement c"
+    }
+  },
+  "stop_hook": {
+    "memdir": [
+      "The paper argues that fuel-tax and emissions policies helped diffuse diesel vehicles in Europe.",
+      "Which papers are treated as the nearest neighbors: diesel diffusion, fuel taxation, and trade-policy studies."
+    ],
+    "session": [
+      "Retrieve by key/title: FMISYR9Z / Fuel taxation, emissions policy, and competitive advantage in the diffusion of European diesel automobiles",
+      "Use collections and journal handles: Auto Market and Policy, BLP_1995_Citing_Literature_2026-03-21",
+      "Preferred in-text citation handle: (Miravete et al., 2018) / Miravete et al. (2018)"
+    ],
+    "agent": [
+      "Research design type: structural trade and diffusion analysis.",
+      "Check how the paper modifies or simplifies canonical BLP before borrowing its structure."
+    ],
+    "team": [
+      "Best framing sentence pattern: \"An environmental policy can also be a market-access policy.\"",
+      "Preserve the paper-specific story ladder and model-payoff link when compressing into shared memory."
+    ],
+    "autodream": [
+      "Merge with papers sharing the same policy instrument, endogenous margin, or substitution object.",
+      "Promote recurring identification and writing patterns into the master BLP and writing memories."
+    ]
+  }
+}

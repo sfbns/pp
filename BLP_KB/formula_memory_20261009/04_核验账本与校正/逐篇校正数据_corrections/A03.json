@@ -1,0 +1,14 @@
+{
+  "images": "D:\\blp-auto-fulltext-pack-20261008\\work\\pages\\A03_pNN.png（本轮渲染）",
+  "paper_note": "作者版（2023-03-09）文字层干净，但公式被抽成一行行碎片。下列各式本轮看原页图转写。注意本文价格系数 \\alpha_{it} 带符号（以 +\\alpha_{it}p_{jt} 进入效用，取负值）。本地只有作者版，期刊版是否已改正下列笔误未核。",
+  "items": [
+    {"page": 10, "label": "(1)", "latex": "u_{ijt}=\\beta_{it}\\mathbf x_{jt}+\\alpha_{it}p_{jt}+\\xi_{jt}+\\epsilon_{ijt}", "check": "本轮看图", "note": "outside：u_{i0t}=\\gamma_t+\\epsilon_{i0t}；\\xi_{jt}=\\tau_t+\\tilde\\xi_{jt}，E[\\tilde\\xi_{jt}\\mid\\mathbf z_{jt}]=0"},
+    {"page": 10, "label": "(2)", "latex": "\\forall j\\in\\mathscr C_t:\\ E[\\xi_{jt}-\\xi_{jt-1}]=E\\big[(\\tau_t-\\tau_{t-1})+(\\tilde\\xi_{jt}-\\tilde\\xi_{jt-1})\\big]=0", "check": "本轮看图", "note": "\\mathscr C_t 为未改款的持续车型；归一化 \\tau_0=0"},
+    {"page": 11, "label": "(3)", "latex": "\\alpha_{it}=\\bar\\alpha+\\sum_h\\alpha_h D^h_{it}", "check": "本轮看图", "note": ""},
+    {"page": 11, "label": "(4)", "latex": "\\beta_{ik}=\\bar\\beta_k+\\sum_h\\beta_{kh}D^h_{it}+\\sigma_k\\nu_{ik}", "check": "本轮看图", "note": "D_{it} 的分布取自 CPS，\\nu_{ik} 独立标准正态"},
+    {"page": 12, "label": "(5)", "latex": "s_{jt}=\\int_i\\frac{\\exp(\\beta_{it}\\mathbf x_{jt}+\\alpha_{it}p_{jt}+\\xi_{jt})}{\\exp(\\gamma_t)+\\sum_{l\\in\\mathscr J_t}\\exp(\\beta_{it}\\mathbf x_{lt}+\\alpha_{it}p_{lt}+\\xi_{lt})}\\,dF(i)", "check": "本轮看图", "note": ""},
+    {"page": 12, "label": "(6)", "latex": "s_{jt}+\\sum_{k\\in\\mathscr J^m_t}(p_{kt}-c_{kt})\\,\\frac{\\partial s_{kt}}{\\partial p_{jt}}=0", "check": "本轮看图（放大核对）", "note": "原页印作 s_{jt}+\\sum_{k\\in\\mathscr J^m_t}(p_{jt}-c_{jt})\\,\\partial s_{jt}/\\partial p_{kt}=0，下标写反，为作者版笔误；上式为与 BLP (3.3) 一致的正确写法"},
+    {"page": 18, "label": "(7)", "latex": "\\frac{p-mc}{p}=\\frac{1}{\\text{elas}}=\\frac{s}{p}\\times\\frac{1}{ds/dp}", "check": "本轮看图", "note": "原页如此；按字面 ds/dp<0 时右端为负，弹性须取绝对值，即 (p-mc)/p=-\\frac{s}{p}\\big/\\frac{ds}{dp}（单产品厂商情形）"},
+    {"page": 23, "label": "(8)", "latex": "CS_t(\\gamma)=\\int_i\\frac{1}{\\alpha_{it}}\\left[\\log\\Big(\\exp(\\gamma)+\\sum_{j\\in\\mathscr J_t}\\exp\\big(\\beta_{it}\\mathbf x_{jt}+\\alpha_{it}p^{(\\gamma)}_{jt}+\\xi_{jt}\\big)\\Big)-\\gamma\\right]dF_t(i)", "check": "本轮看图", "note": "原页如此。本文 \\alpha_{it}<0，按字面 1/\\alpha_{it} 会使补偿变化为负，钱度量应除以 -\\alpha_{it}（即 |\\alpha_{it}|）。其后 \\widetilde{CS}_t=\\frac{1}{T}\\sum_{v=0}^{T}CS_t(\\gamma_v)，v 从 0 到 T 共 T+1 项，与 1/T 不一致，按文意为对 39 个年份的 \\gamma 取平均"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "images": "D:\\blp-auto-fulltext-pack-20261008\\work\\pages\\A10_pNN.png（本轮渲染）",
+  "paper_note": "本地为 2025-03-27 作者版（正式刊 AEJ: Economic Policy 18(2): 107–140），页码即 PDF 页码。下列各式本轮看原页图转写；第 16–17 页的 (8)(9) 与附录式未校正。",
+  "items": [
+    {"page": 12, "label": "(1)", "latex": "u_{ijmt}=\\underbrace{\\beta^{b}_iBEV_j+\\beta^{p}_iPHEV_j+\\beta^{r}_ir_{jt}+\\beta^{d}\\log(d_{jmt})}_{\\text{仅电动车}}\\ \\underbrace{-\\,\\alpha\\frac{p_{jt}}{y_{imt}}+x_{jmt}\\beta^{x}_i+\\xi_{jmt}+\\varepsilon_{ijmt}}_{\\text{全部车型}}", "check": "本轮看图", "note": "市场为州 m × 年 t；r_{jt} 为续航，d_{jmt} 为充电站数，价格以 p/y 进入"},
+    {"page": 14, "label": "(2)", "latex": "\\max_{p,r}\\ \\pi_{ft}\\equiv\\sum_{j\\in\\mathcal J_{ft}}\\big(p_{jt}+\\lambda_{jt}-mc_{jt}(r_{jt},w_{jt};\\theta_s)\\big)\\,s_{jmt}(p,r,d,x,\\xi;\\sigma)\\,\\mathcal M_{mt}", "check": "本轮看图", "note": "原页如此。正文说利润是各州利润的加权和，式中却没有对 m 求和；(3)(4) 中有 \\sum_m\\phi_{mt}，按文意 (2) 应含 \\sum_m。\\lambda_{jt} 为补贴，厂商收到 p_{jt}+\\lambda_{jt}"},
+    {"page": 14, "label": "(3)", "latex": "\\frac{\\partial\\pi_{ft}}{\\partial p_{jt}}=\\sum_m\\phi_{mt}\\Big\\{s_{jmt}+\\sum_{k\\in\\mathcal J_{ft}}\\big(p_{kt}+\\lambda_{kt}-mc_{kt}\\big)\\frac{\\partial s_{kmt}}{\\partial p_{jt}}\\Big\\}=0", "check": "本轮看图", "note": "\\phi_{mt}=\\mathcal M_{mt}/\\sum_{m'}\\mathcal M_{m't}"},
+    {"page": 14, "label": "(4)", "latex": "\\frac{\\partial\\pi_{ft}}{\\partial r_{jt}}=\\sum_m\\phi_{mt}\\Big\\{-\\frac{\\partial mc_{jt}}{\\partial r_{jt}}s_{jmt}+\\sum_{k\\in\\mathcal J_{ft}}\\big(p_{kt}+\\lambda_{kt}-mc_{kt}\\big)\\frac{\\partial s_{kmt}}{\\partial r_{jt}}\\Big\\}=0", "check": "本轮看图", "note": "续航的一阶条件：加价被续航成本挤压（集约边际）对比续航带来的需求（扩展边际）与对自家其他产品的蚕食"},
+    {"page": 15, "label": "(5)", "latex": "\\pi_{mt}=Q^{EV}_{mt}\\,\\underbrace{\\frac{\\mathcal D(p^{e}(d_{mt}))\\,(p^{e}-c^{e})}{d_{mt}}}_{\\equiv\\vartheta(d_{mt})}", "check": "本轮看图", "note": "充电站进入（沿 Springel 2021）；Q^{EV} 为在用电动车存量"},
+    {"page": 15, "label": "(6)", "latex": "-F_{mt}+\\rho\\pi_{m,t+1}+\\rho^2\\pi_{m,t+2}+\\dots=-\\rho F_{m,t+1}+\\rho^2\\pi_{m,t+2}+\\rho^3\\pi_{m,t+3}+\\dots", "check": "本轮看图", "note": "自由进入：t 期与 t+1 期进入无差异。原文称 \\rho 为 discount rate，按式中用法它是贴现因子"},
+    {"page": 15, "label": "(7)", "latex": "\\log(\\vartheta(d_{mt}))=-\\log(\\rho)-\\log(Q^{EV}_{mt})+\\log\\big(F_{mt}-\\rho F_{m,t+1}\\big)", "check": "本轮看图", "note": "原页如此。由 (6) 直接得到的是 \\rho\\pi_{m,t+1}=F_{mt}-\\rho F_{m,t+1}，即左侧与 Q^{EV} 应为 t+1 期；原式时序下标不一致，使用时按入场年份统一。其后设 \\vartheta(d_{mt})=(\\kappa d_{mt})^{\\iota}"}
+  ]
+}

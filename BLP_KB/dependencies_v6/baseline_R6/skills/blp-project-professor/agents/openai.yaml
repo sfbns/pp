@@ -1,0 +1,6 @@
+interface:
+  display_name: "BLP 工况重标研究教授"
+  short_description: "Local economics, source evidence and reproducible BLP checks"
+  default_prompt: "Use $blp-project-professor to derive and audit my automobile relabeling research using the local checkpoint."
+policy:
+  allow_implicit_invocation: true

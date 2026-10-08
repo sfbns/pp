@@ -1,0 +1,14 @@
+{
+  "images": "D:\\blp-auto-fulltext-pack-20261008\\work\\pages\\A06_pNN*.png（本轮渲染与放大）",
+  "paper_note": "Journal of Industrial Economics 期刊版（73(1)），期刊页 = PDF 页 + 185。下列各式本轮看原页图转写；第 10 页起的估计与转嫁式未校正。",
+  "items": [
+    {"page": 7, "label": "(1)", "latex": "\\max_{(\\mathbf m,j)\\in\\mathbb R^{d_m}_{+}\\times\\mathbf J}U(\\mathbf m,j)\\quad\\text{s.t.}\\quad \\mathbf P_{\\mathbf m}'\\mathbf m+p_j\\le y_i", "check": "本轮看图", "note": "\\mathbf m 为连续选择的其他商品，j=0 为不购买（p_0=0）"},
+    {"page": 7, "label": "(2)", "latex": "V(\\mathbf P_{\\mathbf m},y-p_j,j)\\equiv\\max_{\\mathbf m\\in\\mathbb R^{d_m}_{+}}U(\\mathbf m,j)\\quad\\text{s.t.}\\quad\\mathbf P_{\\mathbf m}'\\mathbf m\\le y_i-p_j", "check": "本轮看图", "note": "条件间接效用：对 (\\mathbf P_{\\mathbf m},y-p_j) 零次齐次，对 y-p_j 递增"},
+    {"page": 7, "label": "(3)", "latex": "U(\\mathbf m,j)=v(j)+u(\\mathbf m)", "check": "本轮看图", "note": ""},
+    {"page": 7, "label": "(4)", "latex": "V(\\mathbf P_{\\mathbf m},y-p_j,j)=v(j)+\\tilde V(\\mathbf P_{\\mathbf m},y-p_j)", "check": "本轮看图", "note": "其后以计价物处理：\\tilde V(P^m,y-p_j)=u\\big((y-p_j)/P^m\\big)，记 f(y-p_j)\\equiv\\tilde V(P^m,y-p_j)，只要求弱递增"},
+    {"page": 8, "label": "(5)–(6)", "latex": "v_{ij}=\\beta'X_j+\\xi_j+\\varepsilon_{ij},\\ j=1,\\dots,J;\\qquad v_{i0}=\\varepsilon_{i0}", "check": "本轮看图", "note": ""},
+    {"page": 8, "label": "(7)", "latex": "V_{ij}=\\begin{cases}f(y_i-p_j)+\\beta'X_j+\\xi_j+\\varepsilon_{ij}, & j=1,\\dots,J\\\\ f(y_i)+\\varepsilon_{i0}, & j=0\\end{cases}", "check": "本轮看图", "note": "准线性特例 V_{ij}=\\alpha(y_i-p_j)+\\beta'X_j+\\xi_j+\\varepsilon_{ij}；BLP 特例 V_{ij}=\\alpha\\ln(y_i-p_j)+\\beta'X_j+\\xi_j+\\varepsilon_{ij}"},
+    {"page": 9, "label": "(8)", "latex": "\\mathbf J_{it}=\\{0\\}\\cup\\{j\\in\\{1,\\dots,J_t\\}:\\ y_{it}-p_{jt}\\ge0\\}", "check": "本轮看图", "note": "预算约束决定个人选择集"},
+    {"page": 9, "label": "(10)", "latex": "s_{ijt}(y_{it})=\\frac{\\mathbf 1\\{y_{it}\\ge p_{jt}\\}\\exp\\big(f(y_{it}-p_{jt})+\\beta'X_{jt}+\\xi_{jt}\\big)}{\\exp(f(y_{it}))+\\sum_{k=1}^{J_t}\\mathbf 1\\{y_{it}\\ge p_{kt}\\}\\exp\\big(f(y_{it}-p_{kt})+\\beta'X_{kt}+\\xi_{kt}\\big)}", "check": "本轮看图（放大核对）", "note": "原页分母最后一项印作 \\xi_{jt}，应为 \\xi_{kt}（求和下标为 k），排印笔误"}
+  ]
+}

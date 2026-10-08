@@ -1,0 +1,755 @@
+{
+  "schema": "blp-modular-source-ledger-v9",
+  "dependency_root": "BLP_KB/dependencies_v6",
+  "dependency_manifest_sha256": "d56e07903ec04c73e04235a3752132020f676a429bd9c9796b11d33d3bb57d8c",
+  "registered_read_map_sha256": "547e645477af46bcff431d8ef26b7d0bc6a07c7f3421def8c4487fb8e9ebb0aa",
+  "source_policy": "Only exact enumerated dependencies_v6 snapshots. All node source ranges actually opened in this subtask. No external paper/body live load, no new full-paper completion claim. The original_snapshot field records registered bytes only. New interface derivations are tagged D/I in the protocol.",
+  "nodes": [
+    {
+      "node_id": "BLP95",
+      "title": "Berry, Levinsohn and Pakes (1995)",
+      "economic_role": "canonical demand BLP; supply only under maintained Bertrand",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/blp1995_verified_equations.md",
+          "sha256": "f77314873cb6671d4959d93d23c1dcfff54dc8d3b5f400ce61a6ead8c6effdc9",
+          "line_start": 10,
+          "line_end": 45,
+          "anchor_sha256_utf8_lf": "46fc38ce413bfdceb17dcfa289760414136c4a4c81a042687d4aa0528b73b452",
+          "first_line": "## 一、需求：从个体到份额",
+          "last_line": "> **实现警告**：`Δ` 的 (j,r) 元素是\"j 的价格 FOC 行、r 的 margin 列\"。若代码把 Jacobian 存成 `J_rj = ∂s_r/∂p_j`，必须写 `Δ = −(Jᵀ ⊙ H)`，H 是同厂指示矩阵。少转置一次就系统性错。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "technical/blp-model-building/references/blp1995_verified_equations.md",
+          "sha256": "f77314873cb6671d4959d93d23c1dcfff54dc8d3b5f400ce61a6ead8c6effdc9",
+          "line_start": 50,
+          "line_end": 85,
+          "anchor_sha256_utf8_lf": "2858224d28cd905ebebd77836aeba22bf0e33735aacf2da08781ccf31eed27b3",
+          "first_line": "## 三、工具变量与识别（p.854 核过）",
+          "last_line": "> 3. **原文 (6.9b) 印的是 `[∂μ_ij/∂p_q]`**，但 `μ_ij` 不含 `p_q`（q≠j），照抄得零。经济上应为 `[∂μ_iq/∂p_q]`。加负号后 `∂s_j/∂p_q = −∫ f_j f_q (∂u_iq/∂p_q) dP > 0`，替代品符号才对。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "utility/inversion/IV-GMM and correctly oriented supply FOC; original page verification is historical technical ledger, not reproduced here"
+    },
+    {
+      "node_id": "CG20",
+      "title": "Conlon and Gortmaker (2020)",
+      "economic_role": "BLP numerical/GMM technical implementation",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/estimation_algorithm_and_code.md",
+          "sha256": "450eb27becf44c1d25a297ea59020e2a05a87c8a471311c71c8b85c8e3a7df43",
+          "line_start": 3,
+          "line_end": 48,
+          "anchor_sha256_utf8_lf": "53fe21eaabd9608d1ed8983738e0c293b0a663e0a653e78bdd8000b4ddced271",
+          "first_line": "## 0. 标准 BLP 怎样估：嵌套不动点与最佳实践",
+          "last_line": "- 用 Salanié–Wolak 二阶近似回归做识别诊断与起始值（式 (8)），不当最终估计。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "technical/blp-model-building/references/micro_foundations.md",
+          "sha256": "ff201686bda9b3656aa30f6f3698a1d15739085e6c135619c46505b71cee4dda",
+          "line_start": 115,
+          "line_end": 134,
+          "anchor_sha256_utf8_lf": "e42229b23a4eae8b5a8d1b01cbec928d7f68ea113642a551ff907adf7482ffe0",
+          "first_line": "## 7. 供给：多产品 Bertrand-Nash 与\"没有成本数据也能估成本\"",
+          "last_line": "**(g) 供给侧为需求识别提供什么** `[O]`（Conlon & Gortmaker 2020 第 4 节 Remark 1，fulltext 第 1632–1640 行）：排除限制要在\"另一条方程里出现的东西\"上找。只进成本的变量 w 给需求提供关于 θ₂（含 α）的过度识别信息；只进需求的变量 v 给供给提供关于加价的信息。两侧通过依赖 θ₂ 的内生加价 η 连在一起。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "NFXP, concentration, instruments, integration, local optimization and supply solver boundaries; historical package/version outcomes not this run"
+    },
+    {
+      "node_id": "PETRIN",
+      "title": "Petrin (2002)",
+      "economic_role": "BLP demographics and micro-moment precedent",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 30,
+          "line_end": 39,
+          "anchor_sha256_utf8_lf": "fb389f57706f8cd649833bd648058eaf948a8e094a04e7ebb81c82c98628d549",
+          "first_line": "### D1 Petrin (2002) JPE：用\"汇总的消费者信息\"补识别",
+          "last_line": "- **来源**：`D:\\blp-lit-recommend-20261002\\BLP经典改造与近期改造文献推荐_20261002.md` 第三节；本地 PDF 文字层坏，只能看 `D:\\blp-lit-recommend-20261002\\pageimg\\petrin_p05–p19.png`，页码为工作论文印刷页。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "type-selection moments added without replacing BLP core; underlying original/page images outside snapshot not loaded"
+    },
+    {
+      "node_id": "GMY",
+      "title": "Grieco, Murry and Yurukoglu (2024)",
+      "economic_role": "BLP demographics, second choice and outside-value precedent",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 41,
+          "line_end": 49,
+          "anchor_sha256_utf8_lf": "dde1a0b8369aed260216f3b3db6d577489324e0f753849a95fcdea47f858fcac",
+          "first_line": "### D2 Grieco, Murry & Yurukoglu (2024) QJE：人口矩 + 第二选择矩 + 外部选项分解",
+          "last_line": "- **三标记**：齐。**来源**：同上报告第四节（一）；全文 `D:\\auto-demand-lit-2026-09\\fulltext\\J03.txt`（2023-03 作者版，页码与期刊版不同）；卡 `D:\\auto-demand-lit-2026-09\\cards\\J03.json`。证据层级为全文定位加模型段人工阅读。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "joint substitution/micro/outside conceptual interfaces only; no transfer of estimates or market-size rule"
+    },
+    {
+      "node_id": "CGMICRO",
+      "title": "Conlon and Gortmaker micro-data framework",
+      "economic_role": "BLP joint aggregate and micro moments",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/estimation_algorithm_and_code.md",
+          "sha256": "450eb27becf44c1d25a297ea59020e2a05a87c8a471311c71c8b85c8e3a7df43",
+          "line_start": 43,
+          "line_end": 48,
+          "anchor_sha256_utf8_lf": "e34ef4fafaea98dab5ca59f2ec01a792cdae748df053c4926a44126253bebedf",
+          "first_line": "### 0.8 加入微观矩时改什么（Conlon & Gortmaker, *Journal of Econometrics*, Article 105926，本机卡 `D:\\codex\\output\\blp_driving_cycle_structural_research_20260824\\iteration3_new_papers_20260824\\03_pass1_cards\\conlon_gortmaker_micro_pyblp.md`）`[O·卡]`",
+          "last_line": "- 用 Salanié–Wolak 二阶近似回归做识别诊断与起始值（式 (8)），不当最终估计。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "technical/blp-model-building/references/identification_and_micro_moments.md",
+          "sha256": "58c52292d44fc32b1b742620ad7205573ea00903cd3494bdfd29c816604d40aa",
+          "line_start": 41,
+          "line_end": 79,
+          "anchor_sha256_utf8_lf": "d371387a429583baeb4afb0d03ba979bb60f903838dbbcd887d39f8e45f87857",
+          "first_line": "## 3. 微观矩：写法与优先级",
+          "last_line": "可执行反例和正确重权见 scripts/micro_sampling_selftest.py；不要用加总为1代替检验类型选择偏差。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "survey selection, micro parts, covariance, buyer reweighting, second-choice admissible set; no universal claim every random coefficient requires micro data; source deletion-factorization is used only for the specified conditional EV1 ranking, not generalized to RCNL joint ranking"
+    },
+    {
+      "node_id": "XLL",
+      "title": "Xing, Leard and Li (2021)",
+      "economic_role": "RC new-product demand and replacement counterfactual",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 198,
+          "line_end": 199,
+          "anchor_sha256_utf8_lf": "74a0d975751c03893ff321942f0f8d5909d8097a3dbb76d9ae8739c2d2166ced",
+          "first_line": "| X1 | Allcott 等 (2024 NBER w33032，2026 修订；IRA \"Buy American\") | **不是 BLP**：校准参数的四层嵌套 logit（动力 → 九级 → 子车型 → 购买或租赁），12 个收入类型；用 Grieco 等的弹性 −5.36、租赁效应与 NVES 第二选择（53% 的 EV 车主第二选择仍是 EV）校准；把动力层移到第二层会使参数越界，作者据此把动力放在顶层；17 家厂商 Bertrand | `D:\\fuel-econ-lit-2026\\cards\\P08_Allcott_等_2026_精读卡.md`；`D:\\auto-demand-lit-2026-09\\cards\\W06.json` |",
+          "last_line": "| X2 | Xing, Leard & Li (2021) JEEM | RC 离散选择 + 家庭调查第二选择；EV 替代的汽油车**燃油经济性比车队平均高 4.2 mpg（更省油、油耗更低）**，12% 的 EV 替代的是混动；忽略这种非随机替代会把 EV 的减排收益高估 39%；联邦税收抵免使 EV 销量增加 29%，但 70% 的抵免给了本来就会买的家庭（原文摘要，`D:\\数据说明段_支撑文献md包_20260930\\14_Xing_Leard_Li_2021_JEEM_电动车替代了什么_原文.md` 第 30 行） | `D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\04_literature\\structural_papers\\27-what-does-an-electric-vehicle-replace.md`；第一—第二选择模板见 `identification_and_micro_moments.md` 第 3 节 |",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "five_papers/R04_Xing_Leard_Li2021/reading_memory.md",
+          "sha256": "3649735702baa3a95c3dfc6d0c690d7d0dc01894b544adcb45c273446ba59a99",
+          "line_start": 336,
+          "line_end": 348,
+          "anchor_sha256_utf8_lf": "a67d23d69546c6644c9a21f6f8754a518a6f45198e4459cd8f4d5c0097f1efa7",
+          "first_line": "### model",
+          "last_line": "",
+          "source_status": "existing registered card opened at these lines; underlying source/coverage inherited as data, not newly certified full reading"
+        }
+      ],
+      "permitted_use": "replacement is nonrandom; deletion changes choice set; micro mechanics taken from CGMICRO anchors, not generic card filler",
+      "original_snapshot": {
+        "snapshot_path": "five_papers/R04_Xing_Leard_Li2021/original.pdf",
+        "sha256": "174d8650af63a6abc25f97195c7697d2b42793838fe84210220dd236ad06dcc7",
+        "read_this_turn": false,
+        "status": "registered original bytes present; this subtask uses the actual listed card/technical anchors, not a new original-paper reading claim"
+      }
+    },
+    {
+      "node_id": "GRV",
+      "title": "Grigolon, Reynaert and Verboven (2018)",
+      "economic_role": "BLP fuel-cost capitalization and mileage heterogeneity",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 62,
+          "line_end": 72,
+          "anchor_sha256_utf8_lf": "8b78e85bf168b6ba7123ca4fbb00b63b18411c4b230a9ee7e158c1b52eb5f13f",
+          "first_line": "### D4 Grigolon, Reynaert & Verboven (2018) AEJ:EP：把未来燃油成本写进价格括号",
+          "last_line": "- **来源**：`D:\\数据说明段_支撑文献md包_20260930\\17_Grigolon_Reynaert_Verboven_2018_AEJEP_燃油成本估值与税收政策_原文.md` 第 I、III 节；28 篇语料卡 `D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\04_literature\\structural_papers\\04-consumer-valuation-of-fuel-costs-and-tax-policy-evidence-from-the-european-car-market.md`。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "five_papers/R01_GRV2018/reading_memory.md",
+          "sha256": "829089b48a2188fabbe70624a3f41ecf8c02e9e582a29493638d1b7b11d1ce26",
+          "line_start": 268,
+          "line_end": 280,
+          "anchor_sha256_utf8_lf": "403dcc067871a180e0d00bbb3a5a80364ad33a07f6876228356317c36157afd3",
+          "first_line": "### model",
+          "last_line": "",
+          "source_status": "existing registered card opened at these lines; underlying source/coverage inherited as data, not newly certified full reading"
+        }
+      ],
+      "permitted_use": "money-unit PV costs, externally anchored mileage scale, within-model substitution; no imported policy number or myopia conclusion",
+      "original_snapshot": {
+        "snapshot_path": "five_papers/R01_GRV2018/original.pdf",
+        "sha256": "5d729774cbe07f5281ed09097caf3f224be24a2260417e766d8d361b5e8670df",
+        "read_this_turn": false,
+        "status": "registered original bytes present; this subtask uses the actual listed card/technical anchors, not a new original-paper reading claim"
+      }
+    },
+    {
+      "node_id": "LU",
+      "title": "Lu (2023)",
+      "economic_role": "fuel-cost RC demand example with restricted outside",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 74,
+          "line_end": 79,
+          "anchor_sha256_utf8_lf": "f8de4fdca11abed8e16b3cdca3e86863a88bc4d69b15e1b8db7202304f5f91dd",
+          "first_line": "### D5 Lu (2023)：生命周期燃油成本 + 里程分布",
+          "last_line": "- **来源**：`D:\\codex\\output\\blp_driving_cycle_structural_research_20260824\\iteration3_new_papers_20260824\\03_pass1_cards\\lu_2023_vehicle_use_heterogeneity_pass1_card.md` 第 4–6 节。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "boundary: composite capitalization/discount and nonpurchase versus alternative-technology outside; not used to establish identification for a new sample"
+    },
+    {
+      "node_id": "RS21",
+      "title": "Reynaert and Sallee (2021)",
+      "economic_role": "BLP demand plus calibrated gaming scenarios",
+      "sources": [
+        {
+          "snapshot_path": "five_papers/R02_Reynaert_Sallee2021/reading_memory.md",
+          "sha256": "40c85f83c008bd86ebeeef6b8fa18df2257b4397506d09f7dec1931bccdcb9f1",
+          "line_start": 197,
+          "line_end": 266,
+          "anchor_sha256_utf8_lf": "6794591dd0d6313f4c44012177e9de7b7ef83b563cbcdcb6a59238c1ee1d82f7",
+          "first_line": "## 五、论文的 BLP 部分到底做了什么",
+          "last_line": "作者把 5% 操纵设为恰好抵消 5% 政策目标的基准，并改变消费者认知 $\\alpha$、标准严厉程度、操纵程度、合规技术成本、outside good 份额和操纵异质性。他们没有估计 $h(g)$，所以不能求出企业真实最优 $g$。[PDF p.28]",
+          "source_status": "existing registered card opened at these lines; underlying source/coverage inherited as data, not newly certified full reading"
+        }
+      ],
+      "permitted_use": "decision versus experience utility and calibrated scenario distinction; not an estimated optimal-gaming cost function",
+      "original_snapshot": {
+        "snapshot_path": "five_papers/R02_Reynaert_Sallee2021/original.pdf",
+        "sha256": "f478a23b703d83345eb2a90c7db10961bff7499c8332584e559faf08a7e72a68",
+        "read_this_turn": false,
+        "status": "registered original bytes present; this subtask uses the actual listed card/technical anchors, not a new original-paper reading claim"
+      }
+    },
+    {
+      "node_id": "GHVB",
+      "title": "Gillingham, Houde and van Benthem (2021)",
+      "economic_role": "non-BLP natural-experiment neighbor",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 168,
+          "line_end": 178,
+          "anchor_sha256_utf8_lf": "663ea977f3a6b2ec30ef296ca38f3e5adb2ef166b44e8429bd05e1d65fa26ef7",
+          "first_line": "### B1 Gillingham, Houde & van Benthem (2021) AEJ:EP：只有标签变的自然实验",
+          "last_line": "  本次原件：`C:\\Users\\于舒奕\\Downloads\\gillingham-et-al-2021-consumer-myopia-in-vehicle-purchases-evidence-from-a-natural-experiment.pdf`，SHA79e629c100da04566a33f88714caad4fb44f90c6f46a91cfcd7e5ee1b4d9a81d；NBER `C:\\Users\\于舒奕\\Zotero\\storage\\AQEDI58V\\w25845.pdf`，SHA491c3259d71be766eca2ba42ec42e032662f31dae4e6bbeafc3b591b6dd9e60a。独立目标页审计及视觉图在 `D:\\codex\\output\\blp_skill_integration_20261008\\memos\\ghvb_original_audit`；目标页核验不是本轮重新通读全文。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "information intervention design and valuation/supply boundaries only; not BLP estimation and not original appendix rereading"
+    },
+    {
+      "node_id": "BELIEF",
+      "title": "Cost/belief composition and aggregate-rank boundary",
+      "economic_role": "new model construction supported by registered technical notes",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 214,
+          "line_end": 223,
+          "anchor_sha256_utf8_lf": "9f255aaa6d701ac0783efd0fa8e419a78c30353f63008a71e0b9de9697aeb6e0",
+          "first_line": "| A 货币化的成本项 | 把机制写成带单位的货币项放进价格括号：`−α_i(p + γG)` | 跨期选择与现值、油价预期（鞅假设）、里程分选 | 与 ξ 正交的运营成本变化（同车型不同发动机、跨国油价）；外部里程分布钉尺度 | μ 里多一个随抽样里程变化的项；报告比值，逐抽样算 | D4、D5、D3、B2 |",
+          "last_line": "**共同纪律**：每种模式都是\"先点名机制落在哪个原语，再给它一条独立的变化或一组微观矩\"。没有独立变化，就只报复合项（`structural-model-building` 的 claim ladder 第 2 节）。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "technical/blp-model-building/references/estimation_algorithm_and_code.md",
+          "sha256": "450eb27becf44c1d25a297ea59020e2a05a87c8a471311c71c8b85c8e3a7df43",
+          "line_start": 152,
+          "line_end": 155,
+          "anchor_sha256_utf8_lf": "92c129f53568cc205343aeb1eb995098f317f297df3a8b48573fb0a455cbc58a",
+          "first_line": "**配方 3 信念增广（标签权重）**（项目 [P]，台账 03 第 2–3 节）",
+          "last_line": "- 单元测试：ω = 0 时纯标签变化不改变选择概率；新旧标签存在已知一一映射且消费者用两种标签形成相同后验时，纯换标尺不应改变选择（表示不变性基准，台账 03 式 (3a)）。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "technical/structural-model-building/references/mechanism_construction_and_theory.md",
+          "sha256": "9c680c032d713a5078b636cc9344276f5cc9c6a2339c2baa31e723242df5038e",
+          "line_start": 35,
+          "line_end": 42,
+          "anchor_sha256_utf8_lf": "03e0c072afa3a1200f1a47aca1158d4b0416206993e75527c8d9ae06076458fb",
+          "first_line": "| 未来成本资本化 | 跨期选择、现值、价格预期（常设鞅） | `−α_i(p + γ G_i)`，G 是带单位的现值 | 与未观测质量正交的运营成本变化；外部里程或持有期分布钉尺度 | 把 γ<1 直接叫短视；用平均系数相除 |",
+          "last_line": "| 动态 | 耐用品持有与替换、学习、跨期替代 | 动态离散选择（嵌套不动点或 CCP 法） | 可观测状态的转移在理性预期下可从数据先估；贴现因子要固定或有排除变量 | 贴现因子与流量效用一般不能同时非参数识别（Magnac & Thesmar 2002）；把主观信念与贴现混为一谈。配方见 `estimation_recipes.md` 第 3 节 |",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "conditional belief identification with known prior/scale and independent valid variation; own D04 derivative is new derivation, not a cited original equation"
+    },
+    {
+      "node_id": "GV14",
+      "title": "Grigolon and Verboven (2014)",
+      "economic_role": "RCNL demand kernel",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 92,
+          "line_end": 97,
+          "anchor_sha256_utf8_lf": "fd43cba0f4a25ec9e5353461dda02e85ede3a1e57d58021527cc81e36d13d985",
+          "first_line": "### D7 Grigolon & Verboven (2014) REStat：RCNL，以及巢参数到底是什么",
+          "last_line": "- **来源**：`D:\\codex\\output\\blp_driving_cycle_structural_research_20260824\\iteration5_welfare_nested_pricing_20260825\\03_pass1_cards\\grigolon_verboven_pass1.md` 与同目录 `galichon_pass1.md`。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "technical/blp-model-building/references/estimation_algorithm_and_code.md",
+          "sha256": "450eb27becf44c1d25a297ea59020e2a05a87c8a471311c71c8b85c8e3a7df43",
+          "line_start": 64,
+          "line_end": 70,
+          "anchor_sha256_utf8_lf": "ea513acfcc038053b1f56f1cada84a95b416817a13bf5b50ef89bd89736fdc0f",
+          "first_line": "## 2. 反演与求解",
+          "last_line": "- reduced-form 的基期 roster 可以把退出后销量记零；BLP 的市场集合 `J_mt` 则按可售集排除退出产品。两者不能混用。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "legal nesting parameters, damping entire log-share difference, structural nesting tests; not cognition interpretation"
+    },
+    {
+      "node_id": "GALICHON",
+      "title": "Galichon (2022)",
+      "economic_role": "GEV/mixed-logit representation theory; not BLP estimation",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/micro_foundations.md",
+          "sha256": "ff201686bda9b3656aa30f6f3698a1d15739085e6c135619c46505b71cee4dda",
+          "line_start": 91,
+          "line_end": 92,
+          "anchor_sha256_utf8_lf": "920b99c9920d1c8ad26d663b017ec15ee2c13dd2efb83fc2a989f1d28b593c94",
+          "first_line": "**(e) 与 nested logit 的关系** `[O·卡]`（Galichon 2022，Econometric Theory 38(2)；本机卡 `D:\\codex\\output\\blp_driving_cycle_structural_research_20260824\\iteration5_welfare_nested_pricing_20260825\\03_pass1_cards\\galichon_pass1.md`）",
+          "last_line": "nested logit 等价于一种特殊的混合 logit：同巢产品共享一个正稳定分布的公共因子。同巢两产品误差相关系数为 `1 − λ_n²`（λ 是 dissimilarity，`λ = 1 − ρ`，所以相关 `= 2ρ − ρ²`，不是 ρ）。**巢参数是对相关结构的限制，不是认知或注意的度量。** Grigolon & Verboven (2014) 用 RCNL 把两种异质性放进同一模型并在欧洲汽车数据上同时拒绝纯 NL 与纯 RC（本机卡同目录 `grigolon_verboven_pass1.md`）。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "technical/blp-model-building/references/supply_welfare_counterfactual.md",
+          "sha256": "0318be4de53ccb6c268cc69828c4a992efa1aa0e7f7ac8d74d0d51a22eae3d30",
+          "line_start": 62,
+          "line_end": 68,
+          "anchor_sha256_utf8_lf": "f75645378109736c35817ab68f8448710b1614115aa7bde7099d788940fdd0da",
+          "first_line": "### (b) nested / RCNL 的 GEV surplus",
+          "last_line": "nested logit 的 dissimilarity 映射：`λ^{NL} = 1 − ρ`，同巢误差精确相关 `= 1 − (λ^{NL})² = 2ρ − ρ²`，**不是** `ρ`。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "dissimilarity/correlation mapping and consistent GEV kernel; underlying original unavailable within snapshot"
+    },
+    {
+      "node_id": "KT25",
+      "title": "Kaneko and Toyama (2025)",
+      "economic_role": "BLP-type inversion/GMM with flexible income effects; not RC baseline",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 81,
+          "line_end": 90,
+          "anchor_sha256_utf8_lf": "9cbb28e4a0d1bd36d84210e681a6a75aaff1bc1f124563e77fcee4bb69b167fa",
+          "first_line": "### D6 Kaneko & Toyama (2025) JIE：把收入效应非参数化",
+          "last_line": "- **来源**：`D:\\fuel-econ-lit-2026\\cards\\P10_Kaneko_Toyama_2025_精读卡.md`；原文 `D:\\fuel-econ-lit-2026\\raw_text\\P10_Kaneko2024_JIE.txt`（p.196 约第 562 行，脚注 37 约第 2034 行）。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "technical/blp-model-building/references/estimation_algorithm_and_code.md",
+          "sha256": "450eb27becf44c1d25a297ea59020e2a05a87c8a471311c71c8b85c8e3a7df43",
+          "line_start": 72,
+          "line_end": 80,
+          "anchor_sha256_utf8_lf": "d330d07f36f4e17f61b17674682c217d6769af513934a3aa63a43c3dc4100512",
+          "first_line": "## 3. 保证符号的参数化",
+          "last_line": "若用对数正态，比较\"完全资本化\"基准时应比较 `E[χ_i]` 或其分位数与 1，**不能把对数均值参数直接与 1 比**。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "income/price curvature and budget support; no general multiproduct pass-through ceiling, no range-curvature claim"
+    },
+    {
+      "node_id": "MW17",
+      "title": "Miller and Weinberg (2017)",
+      "economic_role": "BLP conduct extension",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 150,
+          "line_end": 155,
+          "anchor_sha256_utf8_lf": "cc624bc49393b645f47f53b9e14834511dc77ad4f161407d35a20d0de8a40ee2",
+          "first_line": "### S5 Miller & Weinberg (2017) Econometrica：把竞争方式写进所有权矩阵",
+          "last_line": "- **来源**：`D:\\codex\\output\\blp_driving_cycle_structural_research_20260824\\iteration3_new_papers_20260824\\03_pass1_cards\\miller_weinberg_2017.md` 第 4–5 节。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "profit internalization parameter with maintained regime/comparison restrictions; not illegal collusion or advertising/test manipulation"
+    },
+    {
+      "node_id": "BKL24",
+      "title": "Barwick, Kwon and Li (2024)",
+      "economic_role": "BLP with endogenous attributes and regulatory KKT",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 110,
+          "line_end": 122,
+          "anchor_sha256_utf8_lf": "21572117e7f267e3c5d99ee34cd219e659751ef444591f87217f3aae7fd8a929",
+          "first_line": "### S1 Barwick, Kwon & Li (2024 NBER WP)：企业同时选价格、电池与车重",
+          "last_line": "- **三标记**：齐。**来源**：`D:\\codex\\output\\blp_driving_cycle_structural_research_20260824\\iteration3_new_papers_20260824\\03_pass1_cards\\barwick_kwon_li_2024_pass1_fulltext_card.md`；全文中译 `D:\\fuel-econ-lit-2026\\translations\\P02_Barwick_Kwon_Li_2024_属性型补贴与市场势力_中译.md`。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "five_papers/R03_Barwick_Kwon_Li2024/reading_memory.md",
+          "sha256": "8eb94d5f5e870ca6cdce1d22e87d87a5371478f38b8121bd9a3f47e9101fd080",
+          "line_start": 28,
+          "line_end": 58,
+          "anchor_sha256_utf8_lf": "64fa20430c159b53a87ace2ccbcbf9acddb27f30aa4ffeb41c3fb7de41bc8711",
+          "first_line": "### ★ 供给：把「续航技术前沿」写成一条可估方程",
+          "last_line": "---",
+          "source_status": "existing registered card opened at these lines; underlying source/coverage inherited as data, not newly certified full reading"
+        },
+        {
+          "snapshot_path": "five_papers/R03_Barwick_Kwon_Li2024/reading_memory.md",
+          "sha256": "8eb94d5f5e870ca6cdce1d22e87d87a5371478f38b8121bd9a3f47e9101fd080",
+          "line_start": 118,
+          "line_end": 123,
+          "anchor_sha256_utf8_lf": "1ace04fdc293b5772855326f5df57251dbeb6dba26d4021997624173d25dca67",
+          "first_line": "## 六、可引用的方法学警告",
+          "last_line": "- 结论段自认局限：**框架把产品供给（车型集合）视为给定，未考虑补贴对技术创新的影响**——这一条被姊妹篇 P01（电池干中学）补上。",
+          "source_status": "existing registered card opened at these lines; underlying source/coverage inherited as data, not newly certified full reading"
+        }
+      ],
+      "permitted_use": "engineering frontier, marginal/fixed attribute cost, price and attribute FOC; particular IV assumptions must be re-audited, not universal instruments; technical note governs price sign, and no innovation claim",
+      "original_snapshot": {
+        "snapshot_path": "five_papers/R03_Barwick_Kwon_Li2024/original.pdf",
+        "sha256": "c686cef999c93da89ee031f4f8aa2ea6d417aaac05ea481eb29cddb174d1c0ab",
+        "read_this_turn": false,
+        "status": "registered original bytes present; this subtask uses the actual listed card/technical anchors, not a new original-paper reading claim"
+      }
+    },
+    {
+      "node_id": "ALE",
+      "title": "Ale-Chilet, Chen, Li and Reynaert (2026)",
+      "economic_role": "RCNL and compliance-attribute strategic extension",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 133,
+          "line_end": 142,
+          "anchor_sha256_utf8_lf": "5be513aa2e61e0fd0dad6045968e0fa91176646873637ef8a851a19c106d6842",
+          "first_line": "### S3 Alé-Chilet, Chen, Li & Reynaert (2026) ReStud：对规制属性的合谋",
+          "last_line": "- **三标记**：齐。**来源**：报告第四节（五）；`D:\\auto-demand-lit-2026-09\\fulltext\\J10.txt`（期刊版）；卡 `D:\\auto-demand-lit-2026-09\\cards\\J10.json`。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "attribute FOC and participation-bound logic, sign convention and scenario dependence; not point identification of all penalties or conduct"
+    },
+    {
+      "node_id": "REYNAERT",
+      "title": "Reynaert (2021)",
+      "economic_role": "regulatory response extension",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 144,
+          "line_end": 148,
+          "anchor_sha256_utf8_lf": "7687498371394c335bc8a1af2cdc079822af2825a860612a3e51a69b95911559",
+          "first_line": "### S4 Reynaert (2021) REStud：标准下的四种减排策略",
+          "last_line": "- **来源**：40 篇深读包笔记 `D:\\codex\\research-memory\\deep-reading\\blp40s_20260403\\notes\\29_dzvnrcum.md` 与全文 `fulltext\\29_dzvnrcum.fulltext.txt`（第 13–121 行）。证据层级为全文定位，未核方程。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "real technology versus testing wedge requires road data; source itself says fulltext location, equations not checked"
+    },
+    {
+      "node_id": "NETWORK",
+      "title": "Li, Tong, Xing and Zhou (2017); Springel (2021)",
+      "economic_role": "network/entry neighbors; do not automatically label every cited model BLP",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 157,
+          "line_end": 162,
+          "anchor_sha256_utf8_lf": "787e20a2f7b356b3273162762af48e73b0499baf07e2b9d93779835e13a17b04",
+          "first_line": "### N1 间接网络效应：Li, Tong, Xing & Zhou (2017) JAERE；Springel (2021) AEJ:EP",
+          "last_line": "- **来源**：28 篇语料卡 `D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\04_literature\\structural_papers\\23-the-market-for-electric-vehicles-indirect-network-effects-and-policy-design.md`、`D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\04_literature\\structural_papers\\17-network-externality-and-subsidy-structure-in-two-sided-markets-evidence-from-electric-vehicle-incentives.md`、`D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\04_literature\\structural_papers\\18-optimal-policy-and-network-effects-for-the-deployment-of-zero-emission-vehicles.md`。层级为语料卡，进正文前回原文核数字。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "technical/structural-model-building/references/mechanism_construction_and_theory.md",
+          "sha256": "9c680c032d713a5078b636cc9344276f5cc9c6a2339c2baa31e723242df5038e",
+          "line_start": 38,
+          "line_end": 42,
+          "anchor_sha256_utf8_lf": "caff8dfae2b6a72e4c674dcb8f312f3a7b90f9a99bdacb5713e5a87b707556fd",
+          "first_line": "| 内生产品属性 | 多属性质量选择（Spence 扭曲）、带约束的成本最小化 | 拉格朗日函数，影子价格进属性 FOC | 属性成本移动项、外部工程前沿 | 冻结属性算福利（Barwick–Kwon–Li：只剩 28%–40%） |",
+          "last_line": "| 动态 | 耐用品持有与替换、学习、跨期替代 | 动态离散选择（嵌套不动点或 CCP 法） | 可观测状态的转移在理性预期下可从数据先估；贴现因子要固定或有排除变量 | 贴现因子与流量效用一般不能同时非参数识别（Magnac & Thesmar 2002）；把主观信念与贴现混为一谈。配方见 `estimation_recipes.md` 第 3 节 |",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "conditional network demand versus feedback equilibrium, additional network-side observables/variation; corpus-card only for paper specifics, no numerical borrowing"
+    },
+    {
+      "node_id": "REMMY",
+      "title": "Remmy (2026)",
+      "economic_role": "RC-BLP endogenous quality plus network equilibrium precedent",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 124,
+          "line_end": 131,
+          "anchor_sha256_utf8_lf": "b6dd4fbbf73e1cfbd50cf051700e932d5a6bf345eb1385dc0c16bb6699d467ce",
+          "first_line": "### S2 Remmy (2026) AEJ:EP：可调续航 + 间接网络效应 + 充电站进入",
+          "last_line": "- **来源**：卡 `D:\\auto-demand-lit-2026-09\\cards\\J01.json`（作者稿 2025-03-27 全文）；报告第五节。证据层级为全文人工阅读。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "timing-dependent total derivatives, price/quality/network joint equations; snapshot flags conflicting author-text signs/numbers, so no unconditional sign or precision calibration"
+    },
+    {
+      "node_id": "DYNAMIC",
+      "title": "Dynamic purchase/replacement/learning family",
+      "economic_role": "generic DDC interface, not read-paper inference",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/extension_genealogy.md",
+          "sha256": "70a334a576f301c4c73e8f1f93e30ff818fd6f2a5dad9b271ffdbbc234ae3f17",
+          "line_start": 205,
+          "line_end": 205,
+          "anchor_sha256_utf8_lf": "616479124652f222723c89525299fef7fb21580264c82a184ad78d288aa70742",
+          "first_line": "| X8 | 动态路线：Hu 等 (2025) REStat（J04，只有摘要）、Chou & Derdenger (2025) Marketing Science（J07）、Barwick 等 (2026) NBER w34871（W03，续航焦虑的使用侧连续时间动态模型）、Gavazza 等 (2014) AER（P09，二手市场一般均衡）、Holland, Mansur & Yates (2021) AEJ:EP（转型路径） | 跨期替代、耐用品退出、使用与补能决策、二手市场；W03 可给\"续航不便\"一个有微观基础的货币化量级 | `D:\\auto-demand-lit-2026-09\\cards\\J04.json`、`D:\\auto-demand-lit-2026-09\\cards\\J07.json`、`D:\\auto-demand-lit-2026-09\\cards\\W03.json`、`D:\\fuel-econ-lit-2026\\cards\\P09_Gavazza_Lizzeri_Roketskiy_2014_精读卡.md`、`D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\04_literature\\structural_papers\\21-the-electric-vehicle-transition-and-the-economics-of-banning-gasoline-vehicles.md` |",
+          "last_line": "| X8 | 动态路线：Hu 等 (2025) REStat（J04，只有摘要）、Chou & Derdenger (2025) Marketing Science（J07）、Barwick 等 (2026) NBER w34871（W03，续航焦虑的使用侧连续时间动态模型）、Gavazza 等 (2014) AER（P09，二手市场一般均衡）、Holland, Mansur & Yates (2021) AEJ:EP（转型路径） | 跨期替代、耐用品退出、使用与补能决策、二手市场；W03 可给\"续航不便\"一个有微观基础的货币化量级 | `D:\\auto-demand-lit-2026-09\\cards\\J04.json`、`D:\\auto-demand-lit-2026-09\\cards\\J07.json`、`D:\\auto-demand-lit-2026-09\\cards\\W03.json`、`D:\\fuel-econ-lit-2026\\cards\\P09_Gavazza_Lizzeri_Roketskiy_2014_精读卡.md`、`D:\\codex\\economics_theory_agent_complete_gpt55_xhigh\\kb\\04_literature\\structural_papers\\21-the-electric-vehicle-transition-and-the-economics-of-banning-gasoline-vehicles.md` |",
+          "source_status": "routing/technical boundary only; external paper or card not registered here and not opened this turn"
+        },
+        {
+          "snapshot_path": "technical/structural-model-building/references/mechanism_construction_and_theory.md",
+          "sha256": "9c680c032d713a5078b636cc9344276f5cc9c6a2339c2baa31e723242df5038e",
+          "line_start": 39,
+          "line_end": 42,
+          "anchor_sha256_utf8_lf": "2ac34144152a586eac7ac8bf0e7cd5d1a9980cf4c29925bf416ba58741f1fc09",
+          "first_line": "| 间接网络效应 | 互补性、正反馈；在双边反馈模型中还可能有多重均衡 | 只问给定网络下的条件需求时，可将网络作为明确可能内生的属性；要问网络/补贴的均衡反馈或进入反事实时，才另建网络供给/进入与需求联立 | 条件需求须有效网络变异及排除限制；反馈/进入反事实另需网络侧成本、进入信息、市场闭合与均衡选择。Bartik只是一种需单独论证的候选工具 | 把条件需求都强制升级为双边进入；或以给定网络的需求系数回答网络反馈、忽略多重均衡与临界点 |",
+          "last_line": "| 动态 | 耐用品持有与替换、学习、跨期替代 | 动态离散选择（嵌套不动点或 CCP 法） | 可观测状态的转移在理性预期下可从数据先估；贴现因子要固定或有排除变量 | 贴现因子与流量效用一般不能同时非参数识别（Magnac & Thesmar 2002）；把主观信念与贴现混为一谈。配方见 `estimation_recipes.md` 第 3 节 |",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "Bellman timing/state/transition/discount identification boundary only; specific route papers remain external, some summary-only; no named dynamic paper equation or estimate certified"
+    },
+    {
+      "node_id": "LEARNING",
+      "title": "Barwick, Kwon, Li and Zahur (2025)",
+      "economic_role": "BLP downstream plus upstream bargaining/learning; not arbitrary R&D model",
+      "sources": [
+        {
+          "snapshot_path": "five_papers/R05_Barwick_et_al2025/reading_memory.md",
+          "sha256": "2cdd51b4bb046d81706abe33506278f7148b6cb5b2587d92959622c8fcca57d7",
+          "line_start": 19,
+          "line_end": 43,
+          "anchor_sha256_utf8_lf": "b3b4267de17d229c5b9f9eddd4ee8824686c3813559b6410b058f27b73e2efad",
+          "first_line": "## 二、★★ 方法论：没有成本数据如何估干中学",
+          "last_line": "**稳健性**：重构 IV 排除白名单政策后 $\\gamma_E=-0.147$（基准 −0.140）⇒ 结论不靠白名单。",
+          "source_status": "existing registered card opened at these lines; underlying source/coverage inherited as data, not newly certified full reading"
+        },
+        {
+          "snapshot_path": "five_papers/R05_Barwick_et_al2025/reading_memory.md",
+          "sha256": "2cdd51b4bb046d81706abe33506278f7148b6cb5b2587d92959622c8fcca57d7",
+          "line_start": 118,
+          "line_end": 139,
+          "anchor_sha256_utf8_lf": "12108b1989428e0aecfe147bc5955ae7311f5f057e431ef4c1e75746b7aa760d",
+          "first_line": "## 五、可引用的方法学警告",
+          "last_line": "| **P10 Kaneko-Toyama** | 本文的需求侧是标准 BLP（参数化）；P10 指出参数化收入效应会锁死曲率与传递率。**本文的 204% 放大倍数可能对需求曲率设定敏感——这是一个未被检验的交叉点** |",
+          "source_status": "existing registered card opened at these lines; underlying source/coverage inherited as data, not newly certified full reading"
+        }
+      ],
+      "permitted_use": "specific cost decomposition/experience IV and levels/trend/dynamic restrictions; no amplification number transfer; I08 is own illustrative state, not source-estimated general innovation",
+      "original_snapshot": {
+        "snapshot_path": "five_papers/R05_Barwick_et_al2025/original.pdf",
+        "sha256": "a96d97d3af0c120087505b699b6c5ccdb11c8d5dbb924611a1dca3ee174b9a3f",
+        "read_this_turn": false,
+        "status": "registered original bytes present; this subtask uses the actual listed card/technical anchors, not a new original-paper reading claim"
+      }
+    },
+    {
+      "node_id": "WELFARE",
+      "title": "Supply/welfare implementation technical module",
+      "economic_role": "combined BLP counterfactual and account protocol",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/supply_welfare_counterfactual.md",
+          "sha256": "0318be4de53ccb6c268cc69828c4a992efa1aa0e7f7ac8d74d0d51a22eae3d30",
+          "line_start": 3,
+          "line_end": 39,
+          "anchor_sha256_utf8_lf": "edcf6239d95c6ee4a78d79b196b318b690150c21e1ae7481ca1a546e94d91032",
+          "first_line": "## 1. 多产品 Bertrand",
+          "last_line": "**固定价格反事实不得调用供给求解器**；重新定价基线必须能回放观测价格。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        },
+        {
+          "snapshot_path": "technical/blp-model-building/references/supply_welfare_counterfactual.md",
+          "sha256": "0318be4de53ccb6c268cc69828c4a992efa1aa0e7f7ac8d74d0d51a22eae3d30",
+          "line_start": 51,
+          "line_end": 89,
+          "anchor_sha256_utf8_lf": "20508347796621fab6cc8d6156768c1a40d0ddcef473dd83fbba926215a55bec",
+          "first_line": "## 5. 福利：四条轨道，不能混",
+          "last_line": "**任一部门（能源、固定成本、财政流）缺失，就分列各项，不输出一个伪精确的 `ΔSW`。**",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "matched MNL/GEV/income-effect money metric, fixed versus repricing state and account closure; original source records not reopened this turn"
+    },
+    {
+      "node_id": "SR",
+      "title": "Small and Rosen / Rosen and Small welfare foundation",
+      "economic_role": "discrete-choice welfare theory, not BLP demand estimation",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/micro_foundations.md",
+          "sha256": "ff201686bda9b3656aa30f6f3698a1d15739085e6c135619c46505b71cee4dda",
+          "line_start": 138,
+          "line_end": 152,
+          "anchor_sha256_utf8_lf": "580ded6be718f6aff37aa3573c31427176161f898585ea19a6c5b8c88ede90e9",
+          "first_line": "## 8. 福利：消费者剩余的微观基础",
+          "last_line": "- 信念有误时要分**决策福利**与**体验福利**：保留按决策效用作出的选择，再用真实能耗、真实续航与真实残值评价；不能让消费者按真实效用重新优化后把新 logsum 冒充原政策下的体验福利（台账 03 第 12 节）`[P]`。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "constant marginal utility restrictions, required-compensation versus gain sign, income-effect roots; target-original-page history is reported only and original is not registered here"
+    },
+    {
+      "node_id": "BHATT",
+      "title": "Quality/label welfare identification boundary",
+      "economic_role": "welfare identification neighbor, not a BLP estimate",
+      "sources": [
+        {
+          "snapshot_path": "technical/blp-model-building/references/supply_welfare_counterfactual.md",
+          "sha256": "0318be4de53ccb6c268cc69828c4a992efa1aa0e7f7ac8d74d0d51a22eae3d30",
+          "line_start": 80,
+          "line_end": 82,
+          "anchor_sha256_utf8_lf": "6953b8e8617fb504d5ee74e89be8e742e9d6d5d02d636164c89fea20ed15ec37",
+          "first_line": "### (e) 质量/标签福利的识别边界（Bhattacharya）",
+          "last_line": "删除产品的平均福利还依赖把选择概率积分到价格趋于无穷的尾部支持；有限数据支持通常只给下界，RC logit 的完整尾部来自函数形式外推。必须并列观测支持截断界、尾部截断敏感性，并说明新产品评价是前瞻还是回溯。选择集扩张使 logsum 不下降只是单调性测试，**不是尾部识别测试**。",
+          "source_status": "fixed technical synthesis opened at these lines; its historical O/card labels are preserved reports, not new original-paper reading or certification"
+        }
+      ],
+      "permitted_use": "parametric point predictions versus assumptions/bounds and price-tail support; author identity/precise theorem not claimed from this secondary technical note"
+    }
+  ],
+  "diagnostic_executions": [
+    {
+      "snapshot_path": "technical/blp-model-building/scripts/blp_selftest.py",
+      "sha256": "d12d76104b093b243cac65a37a21bb5419c81bcd02fd4794d401dd63e91583c1",
+      "command": [
+        "C:\\Users\\于舒奕\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "BLP_KB/dependencies_v6\\technical\\blp-model-building\\scripts\\blp_selftest.py"
+      ],
+      "input": "self-contained deterministic/synthetic fixture; no user empirical sample",
+      "exit_status": 0,
+      "stdout": "[PASS] T1a (6.9a)/(6.9b) with leading minus and ∂μ_iq/∂p_q match finite differences  (max abs diff 4.48e-10)\n[PASS] T1b cross-price derivatives are positive (substitutes)\n[PASS] T1c (6.9b) without the leading minus disagrees in sign with the finite-difference Jacobian everywhere off the diagonal  (min |FD cross| 5.32e-03)\n[PASS] T1d (6.9b) with the printed subscript ∂μ_ij/∂p_q gives zero cross derivatives, while finite differences are positive  (max |printed-subscript cross| 0.0e+00)\n[PASS] T2a income spec: demand Jacobian is NOT symmetric  (max|J−Jᵀ| = 0.0030)\n[PASS] T2b markups from BLP Δ satisfy the Bertrand FOC s_j + Σ_r (p_r−mc_r)∂s_r/∂p_j = 0  (max |FOC| = 2.8e-17)\n[PASS] T2c the untransposed Δ violates the FOC when J is asymmetric  (residual 6.65e-03)\n[PASS] T2d quasi-linear price: Jacobian symmetric, so both Δ versions coincide  (max|J−Jᵀ| = 3.2e-10)\n[PASS] T3 Bertrand equilibrium solved with finite-difference derivatives has markups p−mc = 1/[α(1−s)]  (max diff 1.8e-10)\n[PASS] T4a Loss = −signed ΔWTP: first-order scenario calculation reproduces six reported loss cells of GHvB (2021) Table 7\n[PASS] T4b the working-paper footnote-26 version ΔP + ΔP·ΔQ/η_D stays near −294 (printed inconsistency; suspected typo, not author-confirmed)\n[PASS] T4c loss calculation at post-price P1 = 24,206 reproduces ten WP Table D.1 cells; not a pre-price P0 claim\n[PASS] T5a with S_jh = −∂s_h/∂p_j, mc = p − (Ω⊙S)⁻¹s equals the BLP marginal cost\n[PASS] T5b the printed plus sign gives mc > p for every product\n[PASS] T6 E[max_j(V_j+ε_j)] = log Σ exp V_j + Euler γ (i.i.d. type-I EV)  (sim 2.4844 vs 2.4881)\n[PASS] T7a A′(R) = −Pr(D > R)  (-0.1969 vs -0.1969)\n[PASS] T7b A″(R) = f_D(R) ≥ 0, so −κA(R) gives positive, diminishing marginal value of range  (0.00231 vs 0.00232)\n[PASS] T8a E[θ/δ] differs from E[θ]/E[δ] when the price coefficient is heterogeneous  (E[θ/δ]=0.4742, E[θ]/E[δ]=0.3692)\n[PASS] T8b the second-order correction moves E[θ]/E[δ] toward E[θ/δ]  (corrected 0.4742)\nALL PASS\n",
+      "stderr": "",
+      "claim_boundary": "diagnostic coverage only; not evidence a combined model, empirical estimation, native agent, or identification passed"
+    },
+    {
+      "snapshot_path": "technical/blp-model-building/scripts/normalization_selftest.py",
+      "sha256": "7f434306a48c808d4c3ba5fa98acbfcc1478bf68b1ecb5f15b846f9635f6ac4a",
+      "command": [
+        "C:\\Users\\于舒奕\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "BLP_KB/dependencies_v6\\technical\\blp-model-building\\scripts\\normalization_selftest.py"
+      ],
+      "input": "self-contained deterministic/synthetic fixture; no user empirical sample",
+      "exit_status": 0,
+      "stdout": "[PASS] fixed accepted count: printed sum=1.200000; mean=0.300000\n[PASS] fixed proposal count: inverse-probability estimate=0.300553; target=0.300000\n[PASS] nonconstant two-type exact: sbar=0.560000; target=0.228000; accepted=0.228000; proposal=0.228000; withdrawn-extra-division=0.407143\n[PASS] nonconstant two-type simulations: accepted=0.227845; proposal=0.228512\nALL PASS; different counting rules are not interchangeable\n",
+      "stderr": "",
+      "claim_boundary": "diagnostic coverage only; not evidence a combined model, empirical estimation, native agent, or identification passed"
+    },
+    {
+      "snapshot_path": "technical/blp-model-building/scripts/micro_sampling_selftest.py",
+      "sha256": "0e0c48ea87f2cb2b14246298de05675c3a158df552672cb5cb0dbc2294825418",
+      "command": [
+        "C:\\Users\\于舒奕\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "BLP_KB/dependencies_v6\\technical\\blp-model-building\\scripts\\micro_sampling_selftest.py"
+      ],
+      "input": "self-contained deterministic/synthetic fixture; no user empirical sample",
+      "exit_status": 0,
+      "stdout": "[PASS] buyer first-product marginal: correct=0.590909091, reweighted=0.590909091, old-population-integral=0.458333333\n[PASS] same-type first/second joint: sum=1.000000000, first-product marginal=0.590909091\n[PASS] second-choice outside exclusion, inverse survey weights, and rank-deficient compound-parameter counterexample\nALL PASS; probability conditioning alone is not type-distribution conditioning\n",
+      "stderr": "",
+      "claim_boundary": "diagnostic coverage only; not evidence a combined model, empirical estimation, native agent, or identification passed"
+    },
+    {
+      "snapshot_path": "technical/blp-model-building/scripts/income_welfare_selftest.py",
+      "sha256": "f79d673551973a43d72e02b1e4e20566d169f8759ddbc3aa3a77acc2e22a568e",
+      "command": [
+        "C:\\Users\\于舒奕\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "BLP_KB/dependencies_v6\\technical\\blp-model-building\\scripts\\income_welfare_selftest.py"
+      ],
+      "input": "self-contained deterministic/synthetic fixture; no user empirical sample",
+      "exit_status": 0,
+      "stdout": "[PASS] nonlinear-income CV=2.659278955; EV=2.652436608; constant-alpha-logsum-shortcut=0.132392775\n[PASS] both individual utility-restoration roots have residual below 1e-12; CV/EV conventions explicit\nALL PASS; illustration not an estimated welfare effect\n",
+      "stderr": "",
+      "claim_boundary": "diagnostic coverage only; not evidence a combined model, empirical estimation, native agent, or identification passed"
+    },
+    {
+      "snapshot_path": "technical/blp-model-building/scripts/belief_aggregate_rank_selftest.py",
+      "sha256": "9bfd0e124e45da1b70f11b20ae2718b48003520d0798a7ef78559ab7a232f8d6",
+      "command": [
+        "C:\\Users\\于舒奕\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "BLP_KB/dependencies_v6\\technical\\blp-model-building\\scripts\\belief_aggregate_rank_selftest.py"
+      ],
+      "input": "self-contained deterministic/synthetic fixture; no user empirical sample",
+      "exit_status": 0,
+      "stdout": "{\"name\": \"known_prior_independent_aggregate_variation\", \"passed\": true, \"rank\": 3, \"estimated_capitalization\": 0.8499999999999877, \"estimated_belief_weight\": 0.599999999999994, \"assumptions\": \"Known priors, alpha, cost scale and specified nonenergy utility; independent excluded variation, no confounded xi; common parameters. Survey not logically necessary.\"}\n{\"name\": \"constant_prior_free_intercept_nonidentification\", \"passed\": true, \"rank\": 2, \"max_share_gap\": 0.0, \"alternative_parameters\": [1.18, 0.75, 0.68]}\n{\"name\": \"unknown_mileage_scale_confounds_capitalization\", \"passed\": true, \"max_share_gap\": 0.0, \"meaning\": \"Identifies effective gamma times mileage scale, not each free parameter.\"}\n{\"name\": \"belief_weight_not_named_psychology\", \"passed\": true, \"max_share_gap\": 0.0, \"meaning\": \"Even identified information weight does not separate attention from trust when only their product enters.\"}\n{\"name\": \"formal_rank_not_strong_identification\", \"passed\": true, \"rank\": 3, \"condition_number\": 46948433297.52338, \"smallest_singular_value\": 4.846258822451084e-11}\n{\"name\": \"primitive_derivatives_finite_difference\", \"passed\": true, \"max_abs_error\": 3.53556017795853e-10, \"meaning\": \"Does not prove exclusion restrictions or psychological myopia.\"}\nSUMMARY: 6/6; synthetic conditional rank checks only; exit=0\n",
+      "stderr": "",
+      "claim_boundary": "diagnostic coverage only; not evidence a combined model, empirical estimation, native agent, or identification passed"
+    }
+  ],
+  "not_executed": [
+    "pyblp_minimal_example.py",
+    "empirical BLP estimation",
+    "combined RCNL-income/network-dynamic model",
+    "native blp_professor discovery/spawn",
+    "runtime_guard final frozen identity verification (controller-owned)"
+  ],
+  "editing_check_errors": [
+    {
+      "event": "PowerShell quoted inline Python backtick regex",
+      "exit_status": 1,
+      "error": "re.error: unterminated character set at position 1",
+      "repair": "changed command to a literal here-string with chr(96)"
+    },
+    {
+      "event": "same text scanner in default Windows stdout encoding",
+      "exit_status": 1,
+      "error": "UnicodeEncodeError: gbk cannot encode U+2212",
+      "repair": "reran changed command with PYTHONIOENCODING=utf-8; exit 0"
+    }
+  ],
+  "created_at_utc": "2026-10-08T17:23:13.878861+00:00",
+  "diagnostic_runtime": {
+    "executable": "C:\\Users\\于舒奕\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "python_version": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+    "numpy_version": "2.3.3",
+    "scipy_version": "1.17.1",
+    "scope": "All five recorded synthetic diagnostic commands used this interpreter; not a full dependency freeze and not the independent PyBLP/venv evaluator runtime."
+  },
+  "construction_corrections": [
+    {
+      "id": "D03",
+      "scope": "Conditional independent EV1 standard RC-logit ranking only. Nested/RCNL same-shock ranking needs the correct joint-ranking probability, not marginal deletion factorization. This is an explicit model compatibility restriction, not a claim every software second-choice object implements it."
+    },
+    {
+      "id": "D01",
+      "scope": "Unobserved consideration-set generation must enter the state/type distribution with appropriate correlation and independent identification; it is not automatically known or identified."
+    }
+  ]
+}

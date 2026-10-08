@@ -1,0 +1,47 @@
+{
+  "scope": "V9 fresh E/F outputs remain V9 evidence. Five general source files have identical scientific content, only version paths where needed; no new blind V10 science claim",
+  "files": [
+    {
+      "path": "skills/blp-model-building/SKILL.md",
+      "v9_sha256": "866165d17e2e5f205a9430610455181ca7713cbf39d40f211871bd417f9bbc5a",
+      "v10_sha256": "aac6e8d0328300548ddf0e1c68ef6d5c49ebac3728d2d7b5e8c01b573738f3bc",
+      "exact_bytes": false,
+      "line_endings_may_differ": true,
+      "other_scientific_changes_after_text_normalization": false
+    },
+    {
+      "path": "skills/blp-model-building/references/文献模块来源账本.json",
+      "v9_sha256": "cdd986fd5a5a9cf1fb83d4278449d30fc9cfeaa70f60c9a211ed0f3a51ab7c59",
+      "v10_sha256": "cdd986fd5a5a9cf1fb83d4278449d30fc9cfeaa70f60c9a211ed0f3a51ab7c59",
+      "exact_bytes": true,
+      "line_endings_may_differ": false,
+      "other_scientific_changes_after_text_normalization": false
+    },
+    {
+      "path": "skills/blp-model-building/references/构造与组合协议.md",
+      "v9_sha256": "691bbc37c9ec4904cfabccd6f319f9e340b9ca9cef26b6a6013ced54d5d4edd3",
+      "v10_sha256": "f0efbee7c9ee1c5e31a5d62e9de375d74ee15f9cbf12b49af1df947e0d6a61c1",
+      "exact_bytes": false,
+      "line_endings_may_differ": true,
+      "other_scientific_changes_after_text_normalization": false
+    },
+    {
+      "path": "skills/blp-model-building/references/模块集成图.md",
+      "v9_sha256": "169945f4dbe44f4a44f1558e70594a2179137c5042eaf4115052f24ea35a2b86",
+      "v10_sha256": "b9adbfc9b9d2094daab6d8fba475bb5917c2e859c4c54af6da9055edb4751d38",
+      "exact_bytes": false,
+      "line_endings_may_differ": true,
+      "other_scientific_changes_after_text_normalization": false
+    },
+    {
+      "path": "agents/blp-professor.toml",
+      "v9_sha256": "5add81d666e89de6b85dda16accb61fa48d835716a9210535498aab68a13d6ab",
+      "v10_sha256": "fb6eae3a0bc5e636b77cf47303acbb4b1b64d09bd82c11a67492ffbbf2ff1329",
+      "exact_bytes": false,
+      "line_endings_may_differ": true,
+      "other_scientific_changes_after_text_normalization": false
+    }
+  ],
+  "source_behavior_freeze_sha256": "35194a38c3775f16e94072f8a4e2fdb8deb171a338dba27a0c2568857a65e618",
+  "comparison": "UTF8 text normalizing line endings plus candidate version paths; exact raw identity separately reported. No mathematical-content change."
+}

@@ -1,0 +1,11 @@
+{
+  "images": "D:\\blp-auto-fulltext-pack-20261008\\work\\pages\\A05_pNN.png（本轮渲染）",
+  "paper_note": "AEJ: Economic Policy 期刊版（10(3): 193–225），期刊页 = PDF 页 + 192。下列各式本轮看原页图转写，与 bundle 内 model_formula_checked.md 一致。e_{jk} 单位为升/公里；中国数据若用升/百公里须再除以 100。\\beta^m_i 是年行驶里程，不是油耗偏好。",
+  "items": [
+    {"page": 6, "label": "(1)", "latex": "u_{ijk}=x_{jk}\\beta^{x}_i-\\alpha_i\\big(p_{jk}+\\gamma\\,G_{ijk}\\big)+\\xi_{jk}+\\varepsilon_{ijk}", "check": "本轮看图", "note": "j 为车型、k 为发动机版本；\\alpha_i 为收入的边际效用"},
+    {"page": 7, "label": "(2)", "latex": "G_{ijk}=E\\Big[\\sum_{s=1}^{S}(1+r)^{-s}\\,\\beta^{m}_i\\,e_{jk}\\,g_{ks}\\Big]", "check": "本轮看图", "note": "outside u_{i00}=\\varepsilon_{i00}；\\gamma 为 Allcott–Wozny 的注意权重或未来估值参数，\\gamma=1 正确权衡，\\gamma<1 低估未来；g_{ks} 为 s 期燃油价格（欧元/升）"},
+    {"page": 8, "label": "(3)", "latex": "G_{ijk}=\\rho\\,\\beta^{m}_i\\,e_{jk}\\,g_k", "check": "本轮看图", "note": "假设油价随机游走，E[g_{ks}]=g_k"},
+    {"page": 8, "label": "(4)", "latex": "\\rho\\equiv\\sum_{s=1}^{S}(1+r)^{-s}=\\frac1r\\Big[1-(1+r)^{-S}\\Big]", "check": "本轮看图", "note": "资本化系数，取值于 [0,S]"},
+    {"page": 8, "label": "(5)", "latex": "u_{ijk}=x_{jk}\\beta^{x}_i-\\alpha_i\\big(p_{jk}+\\gamma\\rho\\,\\beta^{m}_i e_{jk}g_k\\big)+\\xi_{jk}+\\varepsilon_{ijk}", "check": "本轮看图", "note": "\\gamma 与 \\rho 不能与里程尺度分开识别，用里程经验分布作先验，识别的是 \\gamma\\rho"}
+  ]
+}

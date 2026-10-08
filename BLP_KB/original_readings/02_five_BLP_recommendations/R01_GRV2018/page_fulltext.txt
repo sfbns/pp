@@ -1,0 +1,2154 @@
+--- PAGE 1 ---
+American Economic Journal: Economic Policy 2018, 10(3): 193–225 
+https://doi.org/10.1257/pol.20160078
+193
+Consumer Valuation of Fuel Costs and Tax Policy: 
+Evidence from the European Car Market†
+By Laura Grigolon, Mathias Reynaert, and Frank Verboven*
+To what extent do car buyers undervalue future fuel costs, and what 
+does this imply for tax policy? To address both questions, we show 
+it is crucial to account for consumer mileage heterogeneity. We use 
+product-level data for a panel of European countries and exploit fuel 
+cost variation by engine. Despite a modest undervaluation of fuel 
+costs, fuel taxes are more effective in reducing fuel usage than prod-
+uct taxes. They also perform better in terms of welfare, even when 
+usage demand is held fixed. The reason is that fuel taxes better target 
+high mileage consumers to purchase fuel efficient cars. (JEL D12, 
+H25, H31, L62, L71)
+G
+overnments are using a variety of policies to reduce ​CO​2​ emissions from pas-
+senger cars. A central question in this debate is whether it is preferable to focus 
+on fuel taxes or on policies that encourage the sales of fuel efficient cars, such as 
+standards or product taxes based on the cars’ fuel economy. Fuel taxes are often 
+favored because they directly influence the car usage decision and hence the amount 
+of ​CO​2​ emissions. Furthermore, they may also indirectly influence the car purchase 
+decision if consumers take into account their expected future fuel costs. However, 
+if driving behavior is rather inelastic and if consumers are myopic and ignore future 
+fuel cost savings when purchasing a car, then it may be more effective to directly 
+influence the car purchase decision through standards or through up-front product 
+taxes on cars with low fuel economy (possibly combined with product subsidies 
+on cars with high fuel economy). In sum, fuel taxes may be more effective because 
+they reduce car usage when driving behavior is not perfectly inelastic, while product 
+taxes may be more effective because they can stimulate consumers to buy more fuel 
+efficient cars if there is an investment inefficiency because of consumer myopia (see 
+Allcott and Greenstone 2012 for a recent detailed review).
+* Grigolon: McMaster University, 1280 Main Street West Hamilton, ON L8S 4M4, Canada (email: Laura.
+Grigolon@mcmaster.ca); Reynaert: Toulouse School of Economics, University of Toulouse Capitole, 21 Allée 
+de Brienne, 31000 Toulouse, France (email: Mathias.Reynaert@gmail.com); Verboven: University of Leuven, 
+Naamsestraat 69, B-3000 Leuven, Belgium, and C.E.P.R. London (email: Frank.Verboven@kuleuven.be). We are 
+particularly grateful to the three referees for helpful comments. We also thank Bruno De Borger, Jan Bouckaert, 
+James Sallee, Jo Van Biesebroeck, and seminar participants at several seminars and conferences. We also gratefully 
+acknowledge financial support from the Science Foundation–Flanders (FWO), the KU Leuven Research Council 
+(Program Financing grant) and SSHRC (Insight Development Grant). The authors declare that they have no rele-
+vant or material financial interests that relate to the research described in this paper.
+† Go to https://doi.org/10.1257/pol.20160078 to visit the article page for additional materials and author 
+disclosure statement(s) or to comment in the online discussion forum.
+
+--- PAGE 2 ---
+194	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+In this paper, we contribute to this debate by properly accounting for consumer 
+heterogeneity, which implies an important advantage of fuel taxes over product 
+taxes that has not been considered before. Fuel taxes better target the right consum-
+ers, those with a high mileage, to purchase the most fuel efficient cars. This targeting 
+effect makes fuel taxes more effective in reducing total fuel usage than product taxes, 
+even when consumers are moderately shortsighted and mileage is perfectly inelas-
+tic. We establish this result in two steps. We first ask whether consumers undervalue 
+or correctly value the discounted future fuel costs when purchasing a new car. After 
+estimating the degree of consumer myopia, we then compare the effectiveness of a 
+fuel and product tax in reducing total fuel usage and ​CO​2​ emissions, where the taxes 
+are held revenue equivalent. We also compare the welfare effects of both taxes in 
+correcting for the externality costs of driving. In both steps, it is crucial to account 
+for consumer heterogeneity. In the first step, accounting for consumer heterogene-
+ity avoids possibly biased parameter estimates of consumers’ valuation of future 
+fuel costs. In the second step, mileage heterogeneity implies that heavy users (and 
+hence heavy polluters) will be more responsive to fuel taxes than product taxes, with 
+implications for both the effectiveness and welfare effects of the taxes.
+To address these questions, we build on the aggregate random coefficients logit 
+demand model of Berry, Levinsohn, and Pakes (1995), and introduce a specification 
+that accounts for heterogeneous responses to fuel costs because consumers may differ 
+in their annual mileage. We conservatively assume that driving behavior (mileage) is 
+perfectly inelastic with respect to the fuel price. We show that the relative effective-
+ness of fuel taxes versus product taxes in reducing total fuel usage depends on two 
+key parameters: consumers’ valuation of future fuel costs and mileage heterogeneity.
+To estimate the demand model, we use detailed data at the level of the car model 
+and engine variant for a panel of seven European countries during 1998–2011. The 
+institutional features of the European car market provide a new way to help iden-
+tify consumer responses to fuel costs because for most car models consumers can 
+choose between two engine types: gasoline and diesel. Diesel cars are typically more 
+expensive (by on average about 30 percent), but they also involve much lower fuel 
+costs because of a higher fuel economy (by about 20 percent) and a lower diesel fuel 
+price (by about €0.20 per liter, depending on the specific country’s fuel tax policy). 
+The consumers’ intertemporal choice problem is correspondingly simpler in Europe 
+than in the United States, since consumers can trade-off the higher initial purchase 
+price of a diesel engine against the future fuel cost savings of an otherwise nearly 
+identical car. To empirically identify consumer responses to fuel costs, we include 
+car model fixed effects, thereby exploiting fuel cost variation between engines of 
+the same car model. Chugh, Cropper, and Narain (2011) and Verboven (2002) also 
+exploit fuel cost variation between gasoline and diesel cars: the former in a hedonic 
+price study of Indian twin car models, the latter in a demand study that focuses on 
+substitution within both fuel types but abstracts from substitution across products. 
+Our approach complements other recent identification approaches, mainly for the 
+US market, where diesel cars are practically absent: these studies typically can rely 
+on rich time-series variation in the price of gasoline, interacted with fuel economy 
+variation across products (e.g., Klier and Linn 2010; Li, Timmins, and von Haefen 
+2009; Allcott and Wozny 2014; Busse, Knittel, and Zettelmeyer 2013; Langer and
+
+--- PAGE 3 ---
+VOL. 10 NO. 3
+195
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+Miller 2013; and Sallee, West, and Fan 2016). We document that time series varia-
+tion is not important in our setting to identify consumer responses to fuel economy.1
+Regarding the valuation of future fuel costs, we find evidence of only modest 
+undervaluation: for one euro saving in discounted future fuel costs, consumers are 
+willing to pay €0.91 in the form of a higher initial purchase price, and the hypothesis 
+of correct valuation cannot be rejected. This estimate remains robust in a variety of 
+other specifications, and it is obtained under assumptions that are favorable to find-
+ing undervaluation, i.e., a relatively low interest rate (compared to market rates at 
+which households can borrow) and a relatively long average vehicle lifetime.
+Regarding the effectiveness of fuel taxes versus product taxes, we find that it is 
+crucial to account for mileage heterogeneity. Without accounting for mileage het-
+erogeneity, a fuel tax would be slightly less effective than a product tax in reducing 
+total fuel usage, because of the modest undervaluation of future fuel costs. However, 
+once we account for mileage heterogeneity, a fuel tax turns out to be more effective 
+because it specifically targets the high mileage consumers to substitute to cars with 
+a higher fuel economy. In our base specification, a €0.50 fuel tax reduces total fuel 
+usage by an additional 6.1 percent, in comparison with a revenue equivalent product 
+tax. In our robustness analysis, fuel taxes remain more effective than product taxes, 
+but the gap becomes smaller. In particular, a fuel tax reduces total fuel usage by an 
+additional 0.6 percent in comparison with a product tax when we add a conservative 
+upper bound on the heterogeneity in fuel cost valuation for other reasons than mile-
+age (such as discounting or fuel price expectations, as in Anderson, Kellogg, and 
+Sallee 2013).2 Note that these conclusions depend on our finding that there is only 
+limited undervaluation of future fuel costs. If there would be stronger consumer 
+myopia, our conclusion would be reversed: a product tax would then be more effec-
+tive in reducing total fuel usage (despite the mileage heterogeneity).3
+To further explore the effectiveness of fuel taxes under mileage heterogeneity, 
+we also consider the impact of separately raising the price of diesel fuel or gaso-
+line fuel (rather than simultaneously raising both). This is of broader interest, since 
+countries are increasingly using fuel-specific tax policies to encourage the adoption 
+of cars with alternative fuels (such as methanol). We find that the role of mileage 
+heterogeneity becomes even more important under such fuel-specific tax policies. 
+For example, raising the diesel fuel price without changing the gasoline fuel price 
+implies a drop in diesel market share by 12.3 percent, but a disproportionately larger 
+drop in diesel fuel usage by 37.8 percent.4 We also find that the lower fuel costs for 
+diesel cars explain about half of the diesel market share in Europe, though less so in 
+the most recent years.
+1 The time-series variation in gasoline prices tends to be larger in the United States than in Europe, and the car 
+sales and price information is often observed at a higher frequency (monthly instead of annually). 
+2 Intuitively, the gap in effectiveness shrinks because consumers no longer only sort on mileage but also on other 
+factors. Further work is needed to assess whether the added heterogeneity is independent as we assumed, or perhaps 
+positively correlated with mileage. 
+3 These conclusions are obtained under the assumption that driving behavior is perfectly inelastic. If we would 
+allow driving behavior to depend on fuel prices, our results would be strengthened in favor of fuel taxes, since fuel 
+taxes would also induce consumers to reduce their car usage. 
+4 Miravete, Moral, and Thurk (forthcoming) studies how the favorable treatment of diesel cars may have pro-
+tected the domestic European producers against foreign competition in the Spanish market. They do not explicitly 
+model mileage heterogeneity, and our analysis implies that this entails even greater environmental costs.
+
+--- PAGE 4 ---
+196	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+Finally, we consider the welfare implications of our analysis. We compare the 
+impact of a fuel and product tax on the various welfare components: decision con-
+sumer surplus, consumer losses from mis-optimization (internality), externality 
+costs, and tax revenues. We find that a fuel tax performs much better than a product 
+tax, even when usage demand itself is perfectly inelastic. Fuel taxes require a lower 
+total tax amount to achieve the same externality reduction because they directly 
+target the high mileage consumers. In contrast, product taxes affect all consumers 
+in the same way, which results in lower welfare gains despite the modest under-
+valuation of future fuel costs. This again stresses the importance of accounting for 
+mileage heterogeneity in car taxation policy.
+Our paper relates to several strands in the literature. First, our finding of at most 
+only modest undervaluation of future fuel costs contributes to a long empirical 
+debate since Hausman (1979). He estimated consumers’ implicit interest rates in 
+their intertemporal trade-off between paying a higher initial purchase price for air 
+conditioners in exchange for future energy cost savings. Most work on the automo-
+bile market appears to find mixed evidence for the degree of undervaluation of future 
+fuel costs; see Greene (2010) and Helfand and Wolverton (2011) for recent reviews. 
+Allcott and Wozny (2014) finds evidence of moderate undervaluation, while Busse, 
+Knittel, and Zettelmeyer (2013); Sallee, West, and Fan (2016); Chugh, Cropper, and 
+Narain (2011); and Verboven (2002) find more or less correct valuation of future 
+fuel costs relative to the initial purchase price of a car. Bento, Li, and Roth (2012) 
+shows through simulations that a failure to account for consumer heterogeneity in 
+willingness to pay for fuel costs may be responsible for a sorting bias toward finding 
+undervaluation, but they do not provide an empirical analysis to quantify its impor-
+tance. Our paper incorporates mileage heterogeneity to avoid this bias, and at the 
+same time, it also incorporates other sources of consumer heterogeneity to avoid a 
+reverse sorting bias. To our knowledge, no other work has systematically incorpo-
+rated this to investigate whether consumers undervalue future fuel costs.5
+Second, we contribute to a literature that compares the effectiveness and wel-
+fare effects of energy taxes versus product taxes and standards. Allcott and Wozny 
+(2014) provides a detailed review on the relative effectiveness of both policy instru-
+ments. On the one hand, energy taxes directly affect usage, so they can be effective 
+in reducing energy consumption if usage is sufficiently elastic. On the other hand, 
+a product tax on the energy-inefficient product (or a subsidy on the energy-efficient 
+product in their discussion) can better encourage the demand for energy-efficient 
+products if consumers undervalue future energy cost savings, thereby reducing an 
+investment inefficiency.6 Our contribution to this debate is to show that even if usage 
+demand is fully inelastic and if consumers do not value future fuel costs to their full 
+5 Verboven (2002) incorporates mileage heterogeneity to explain the consumers’ decision to buy a gasoline 
+or diesel car and obtains estimates on their implicit interest rates when trading off the higher purchase price of a 
+diesel engine against the future fuel cost savings. However, he focuses only on the decision to buy a gasoline or 
+diesel engine, conditional on purchasing a certain car model. Although this avoids biases in estimating implicit 
+interest rates, the framework does not allow us to assess how taxes shift consumers to purchase other cars in policy 
+counterfactuals. 
+6 Jacobsen (2013) and Jacobsen and van Benthem (2015) show that product taxes may also distort the used 
+car market and households’ scrappage decision. Our data is limited to new vehicle sales so we abstract from these 
+effects in our analysis.
+
+--- PAGE 5 ---
+VOL. 10 NO. 3
+197
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+extent, an energy tax can still be more effective than a product tax. The reason is 
+that if consumers are heterogeneous in their annual mileage, an energy tax better 
+targets the high mileage consumers than a product tax.7 Because high users are 
+most affected by energy taxes, they are more inclined to substitute toward more fuel 
+efficient products.
+Other work has also covered several aspects of consumer heterogeneity, but did 
+not treat usage heterogeneity and the possibility of fuel cost undervaluation in a 
+unified empirical framework. In a related theoretical paper, Allcott, Mullainathan, 
+and Taubinsky (2014) compares the combined welfare effects of an energy tax and 
+a product tax. They also stress the role of consumer heterogeneity, but they focus 
+on heterogeneity in the extent of undervaluation (or “attentiveness”). In our welfare 
+analysis, we focus on the role of mileage heterogeneity, a natural starting point since 
+this distribution is directly observed. Nevertheless, in future work it would be inter-
+esting to extend the welfare evaluation to allow for both heterogeneity in attentive-
+ness, mileage, and product quality. Our welfare analysis is also complementary to 
+recent work by Jacobsen et al. (2016). They develop a sufficient statistic to measure 
+the welfare loss of not accounting for heterogeneity in externalities when design-
+ing taxes. Innes (1996) and Fullerton and West (2002, 2010) indeed showed that 
+energy taxes are preferable in a framework with heterogeneity that considers both 
+choices of mileage and vehicle.8 Compared to this literature, our structural frame-
+work explicitly focuses on the role of mileage heterogeneity and how this impacts 
+the performance of fuel versus product taxes, while allowing for mean undervalu-
+ation of consumers.
+Third, there is a large literature on estimating demand systems for automobiles. 
+Berry, Levinsohn, and Pakes (1995); Petrin (2002); and others have shown how to 
+make use of aggregate sales data to estimate rich substitution patterns between dif-
+ferentiated cars. While this work has often included a random taste coefficient for 
+“miles per dollar,” we show how to relate this random coefficient more explicitly to 
+consumer mileage heterogeneity. This makes it possible to use the aggregate demand 
+model to address environmental questions such as the effects of tax policies on total 
+fuel usage, whereas previous applications with aggregate data could only assess a 
+more limited set of effects.9 There is already an important empirical literature that 
+uses micro-level data to thoroughly investigate the effects of ­environmental policies 
+on both car purchase and car usage decisions (e.g., Goldberg 1998; Bento et al. 
+7 Our finding that an energy tax can be more effective than a product tax does not mean that a product tax cannot 
+be effective in itself. In an interesting recent paper, Klier and Linn (2015) uses data from three EU countries and 
+finds that product taxes can considerably shift sales toward cars with lower emissions. Our own results confirm 
+this, but in addition, we show that energy taxes are even more effective because they better target consumers with 
+different mileage. 
+8 See also Feng, Fullerton, and Gan (2013) and Knittel and Sandler (forthcoming) for a discussion about welfare 
+effects of taxation in transport with heterogenous users. 
+9 For example, Adamou, Clerides, and Zachariadis (2014) estimates an aggregate demand system to assess the 
+effects of feebates in Germany (combination of car subsidy for fuel efficient cars with tax for fuel inefficient cars). 
+They can look at the effects on demand and consumer surplus, but not at the effects on fuel usage since they do not 
+explicitly model consumer mileage. Huse and Lucinda (2014) considers the effects of a Swedish subsidy program 
+to cars with sufficiently low ​CO​2​ emissions (where cars are more likely to be eligible if they run on alternative 
+fuels). They assess the effects on demand and emissions, but without accounting for mileage heterogeneity in the 
+demand model.
+
+--- PAGE 6 ---
+198	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+2009; Gillingham 2012; and D’Haultfæuille, Givord, and Boutin 2014). However, 
+applications with micro data are typically limited to a single country and a short 
+time period. Our aggregate demand model with mileage heterogeneity thus consid-
+erably broadens the scope of applications, since aggregate data can be analyzed for 
+a large set of countries and a longer time period.
+The remainder of the paper is organized as follows. Section I develops the demand 
+model, incorporating the consumers’ intertemporal trade-off between the initial pur-
+chase price of the car and future fuel costs, and highlighting the key parameters 
+that drive consumer responses to fuel taxes versus product taxes: a future valuation 
+parameter and mileage heterogeneity. Section II describes the data and Section III 
+provides details on the empirical estimation strategy and the identification issues. 
+Section IV presents and discusses the demand parameter estimates and implications 
+for consumers’ valuation of future fuel costs. Section V presents policy counterfac-
+tuals—in particular, a comparison between fuel tax and product taxes based on fuel 
+economy. Section VI concludes.
+I.  The Model
+When consumers decide to purchase a new car, they face the intertemporal 
+trade-off between the initial purchase price of the car and the expected future fuel 
+costs. Forward-looking consumers have a high willingness to pay for fuel efficient 
+cars that save on fuel costs, whereas myopic consumers have a low willingness to 
+pay for such cars. In subsection IA, we model this intertemporal choice problem. We 
+model the consumers’ discounted expected future fuel costs in the aggregate random 
+coefficients logit demand model of Berry, Levinsohn, and Pakes (1995). Our model 
+accounts for heterogeneous responses because consumers may differ in their annual 
+mileage and hence in their expected future fuel costs. In subsection IB, we use this 
+demand model to discuss the different impact of two alternative taxes: a fuel tax and 
+a product tax on the cars’ fuel economy. This will serve as the basis to motivate our 
+demand specification and subsequent policy counterfactuals.
+A. Demand
+There are ​T​ markets, defined as country/year combinations, with ​I​t​ potential con-
+sumers in each market ​t​. Consumers are assumed to purchase a car only in the mar-
+ket where they are located. To simplify notation, we suppress the market subscript ​
+t​ in this section.
+We define a car as a combination of a baseline model ​j​ and engine variant ​k​. 
+Consumer ​i​ may either choose a car model ​j​ with engine variant ​k​ , or decide not 
+to buy a car and consume the outside good ​0​. The decision to buy a car affects the 
+intertemporal budget constraint in two ways. First, consumers pay a capital cost, the 
+initial purchase price ​p​jk​. Second, they pay the present discounted value of expected 
+future fuel costs ​G​ijk​. The conditional indirect utility of consumer ​i​ for car model ​j​ 
+and engine variant ​k​ is
+(1)	
+​u​ijk​  =  ​x​jk​ ​β​ i​ x​ − ​α​i​ ( ​p​jk​ + γ ​G​ijk​ ) + ​ξ​jk​ + ​ε​ijk​ , ​
+
+--- PAGE 7 ---
+VOL. 10 NO. 3
+199
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+where ​x​jk​ is a vector of observed car and engine characteristics and ​ξ​jk​ is an unob-
+served product characteristic. The vector ​β​ i​ x​ captures individual-specific valuations 
+for the product characteristics, ​α​i​ is the marginal utility of income, and ​ε​ijk​ is a 
+remaining individual-specific valuation for car ​jk​ , modeled as an extreme value 
+(logit) random variable. The utility of the outside good is normalized to ​u​i00​ = ​ε​i00​. 
+The parameter ​γ​ is Allcott and Wozny’s (2014) “attention weight” or “future valua-
+tion” parameter. If ​γ = 1​ , consumers correctly trade-off the car’s purchase price ​p​jk​ 
+against the present discounted value of future fuel costs ​G​ijk​. If ​γ < 1​, consumers 
+undervalue future payoffs, and if ​γ > 1​, consumers overvalue the future payoffs.
+Our main focus in (1) is on the specification of ​G​ijk​ , i.e., consumer ​i​’s present 
+discounted value of expected future fuel costs for model ​j​ with engine ​k​. We allow 
+fuel costs ​G​ijk​ to be consumer-specific because of heterogeneity in annual mileage. 
+Furthermore, ​G​ijk​ depends on expected fuel prices, on the relevant time horizon and 
+the interest rate. More precisely, we define the present value of expected fuel costs 
+over the car’s lifetime as follows:
+(2)	
+​G​ijk​  =  E​[​ ∑ 
+s=1
+​ 
+S
+  ​ ​(1 + r)​ −s​ ​β​ i​ m​ ​e​jk​ ​g​ks​]​, ​
+where ​β​ i​ m​ is consumer ​i​’s expected annual mileage, measured in kilometers (km); ​
+e​jk​ is the fuel consumption of car ​j​ with engine ​k​ , measured in liter per kilometer (or 
+“gallons per mile” in the United States), i.e., the inverse of a car’s fuel economy; ​g​ks​ 
+is the fuel price of engine type ​k​ (either gasoline or diesel fuel) at time ​s​ , measured in 
+€ per liter; ​r​ is the interest rate at which consumers discount future fuel costs; and ​S​ is 
+the time horizon over which consumers value fuel cost savings, which may be related 
+to the car’s expected lifetime.10 We model annual mileage and expected future fuel 
+costs in a way that makes the expression for ​G​ijk​ simple and identification transparent.
+First, we allow annual mileage ​β​ i​ m​ to be heterogeneous across consumers using the 
+empirical distribution of mileage. This addresses a possible sorting bias in aggregate 
+demand models that would arise if high mileage consumers choose to buy more fuel 
+efficient cars (as discussed in Bento, Li, and Roth 2012). It also enables us to assess 
+how consumers with different mileage respond to alternative tax policies.11 Our 
+specification assumes that annual mileage ​β​ i​ m​ is perfectly inelastic, i.e., independent 
+of the fuel price. Empirical evidence shows that the driving behavior is indeed rel-
+atively inelastic; see, e.g., Goldberg (1998); Hughes, Knittel, and Sperling (2008); 
+Bento et al. (2009); and Gillingham (2012). If we would allow driving behavior to 
+depend on fuel prices, our result that a fuel tax is more effective than a product tax 
+would be strengthened.
+10 In practice, vehicle lifetime may not be fixed but may partly depend on mileage, and we account for this 
+possibility in a robustness analysis below. 
+11 Other work has accounted for mileage heterogeneity by using micro-level data, see e.g., Bento et al. (2009) 
+and Gillingham (2012) for the US market. Allcott and Wozny (2014) accounts for mileage heterogeneity in an 
+aggregate nested logit model by measuring average annual mileage per car model. Their approach does not, how-
+ever, allow for policy counterfactuals since it does not account for the possibility that consumers with different 
+mileages substitute to other cars in response to tax policies.
+
+--- PAGE 8 ---
+200	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+Second, we assume that fuel prices for each engine type ​k​ , ​g​ks​ , follow a random 
+walk, so the consumers’ expected fuel price at time ​s​ is equal to the current fuel 
+price (at time ​s  =  0​): ​E​[​g​ks​]​  =  ​g​k​. This assumption is consistent with recent find-
+ings of Anderson, Kellogg, and Sallee (2013). Some studies have instead considered 
+alternative models for expectations about future fuel prices (based on actual future 
+prices or past prices). In a literature review, Alquist, Kilian, and Vigfusson (2011) 
+concludes that these alternative models do not appear to outperform models with 
+expectations that are only based on current prices. In our robustness analysis, we 
+will use future prices as a proxy for consumers’ price forecasts of fuel prices, which 
+gives similar results.
+Under these assumptions, we can rewrite the present value of expected future fuel 
+costs for consumer ​i​ buying car ​j​ with engine ​k​ as
+(3)	
+​G​ijk​  =  ρ ​β​ i​ m​ ​e​jk​ ​g​k​ , ​
+i.e., consumer ​i​’s annual mileage ​β​ i​ m​ (in kilometers) times the car’s fuel consump-
+tion ​e​jk​ (in liter/kilometer) times the current fuel price ​g​k​ (in €/liter)km times a 
+capitalization coefficient ​ρ​:
+(4)	
+​ρ  ≡  ​ ∑ 
+s=1
+​ 
+S
+  ​ ​(1 + r)​ −s​  =  ​ 1 
+__ 
+r ​[1 − ​(1 + r)​ −S​]​, ​
+which converts the annual fuel cost ​β​ i​ m​ ​e​jk​ ​g​k​ into a net present value. Intuitively, the 
+capitalization coefficient ​ρ​ measures the extent to which consumers trade-off the ini-
+tial purchase price of a car against annual fuel costs, and lies in the interval ​[ 0, S ]​. If 
+consumers are fully myopic (​r  →  ∞​), then ​ρ  =  0​: consumers then give no weight 
+to current annual fuel costs. In contrast, if consumers do not discount the future 
+(​r  →  0​), then ​ρ  =  S​. Consumers then weigh the current annual fuel costs by a 
+factor ​S​ relative to the purchase price of the car: they count on a “pay-back time” ​S​ 
+when investing in a car with a higher fuel economy.
+We can substitute (3) into (1) to write consumer ​i​’s conditional indirect utility for 
+car model ​j​ and engine variant ​k​ as
+(5)	
+​u​ijk​  =  ​x​jk​ ​β​ i​ x​ − ​α​i​ ( ​p​jk​ + γρ ​β​ i​ m​ ​e​jk​ ​g​k​ ) + ​ξ​jk​ + ​ε​ijk​ .​
+This is close to a standard random coefficients utility specification, where 
+​β​i​  =  ( ​β​ i​ x​ , ​α​i​ , ​β​ i​ m​ )​ are the random coefficients for which means and (co)variances 
+may be estimated. The future valuation parameter ​γ​ and the capitalization coeffi-
+cient ​ρ​ are additional parameters, but they are not separately identified from the 
+scale of ​β​ i​ m​. We will therefore make use of prior information on the empirical distri-
+bution of mileage ​β​ i​ m​ in our empirical analysis, so that ​γρ​ becomes identified from 
+the scale of ​β​ i​ m​.
+One can then use (4) to interpret the estimate of ​γρ​ in three different ways. First, 
+as in Hausman (1979), one can retrieve the consumers’ implicit interest rate ​r​ at 
+which they discount the future, for a given value of the car’s expected lifetime ​S​ and 
+setting ​γ  =  1​. Second, one can retrieve the consumers’ required payback time ​S​ ,
+
+--- PAGE 9 ---
+VOL. 10 NO. 3
+201
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+setting ​r  =  0​ and ​γ  =  1​. Third, as in Allcott and Wozny (2014), one can impose 
+both a market interest rate ​r​ and an expected lifetime ​S​ to retrieve the attention 
+weight parameter ​γ​ , measuring the extent to which consumers undervalue (​γ < 1​) 
+or overvalue the future (​γ > 1​). We will focus on the third approach.
+We complete the demand model by assuming that each consumer ​i​ chooses the 
+model ​j​ with engine ​k​ that maximizes her utility out of all possible alternatives in 
+the choice set (including the outside option). Furthermore, assume that the ran-
+dom coefficients ​β​i​  =  ( ​β​ i​ x​ , ​α​i​ , ​β​ i​ m​ )​ come from a distribution ​F​β​ (β; θ )​ , where ​θ​ are 
+means and (co)variance parameters to be estimated; assume also that ​β​i​ is indepen-
+dent of the individual- and product-specific taste valuations ​ε​ijk​ , which come from 
+the type I extreme value distribution. Under these assumptions, the predicted market 
+share for model ​j​ with engine ​k​ is the probability that ​jk​ gives the highest utility:
+(6)  ​s​jk​(ξ; ρ, θ)​ 
+=  ​∫ β​ 
+ 
+ ​  ​ 
+exp ( ​x​jk​ ​β​ x​ − α( ​p​jk​ + γρ ​β​ m​ ​e​jk​ ​g​k​ ) + ​ξ​jk​ ) 
+ 
+ 
+ 
+ 
+________________________________________ 
+ 
+ 
+ 
+ 
+ 
+1 + ​∑ ​j ′ ​​ 
+J ​ ​∑ ​k ′ ​=1​ 
+​K​​j ′ ​​  ​ exp ( ​x​​j ′ ​k ′ ​​ ​β​ x​ − α( ​p​​j ′ ​k ′ ​​ + γρ ​β​ m​ ​e​​j ′ ​k ′ ​​ ​g​​k ′ ​​ ) + ​ξ​​j ′ ​k ′ ​​ )
+ ​  d​F​β​ (β; θ ).​
+Observed sales can then be equated to the predicted market share times the num-
+ber of potential consumers ​I​ , i.e., ​q​jk​  =  ​s​jk​(ξ; ρ, θ)​ I​. Following Berry, Levinsohn, 
+and Pakes (1995) and subsequent work, the market shares can be approximated by 
+Monte Carlo simulation with ​R​ draws of ​β​i​  =  ( ​β​ i​ x​ , ​α​i​ , ​β​ i​ m​ )​ from the distribution ​
+F​β​ (β ; θ )​.
+B. Consumer Responses to Taxes
+We will estimate the demand model to compare the effectiveness (in reducing 
+total fuel usage) and the total welfare impact of two alternative taxes: a fuel tax and 
+a product tax on the cars’ fuel consumption. We will do this comparison in detail in 
+our policy counterfactuals after having estimated the demand model. In this section, 
+we give an overview of the possible effects of both taxes on the composition of new 
+car sales. This provides economic intuition, and will highlight the specific features 
+that need careful attention in our empirical specification.
+A fuel tax ​t​ k​ G​ is a tax on gasoline and/or diesel fuel ​g​k​ , whereas the product tax ​t​ k​ E​ 
+is a tax on a car’s fuel consumption ​e​jk​. The product tax on a car’s fuel consumption ​
+e​jk​ is equivalent to the commonly used product tax on a car’s ​CO​2​ emissions, since 
+there is a proportional relationship between both. The two taxes affect a consumer’s 
+conditional indirect utility (5) as follows:
+	
+​u​ijk​  =  ​x​jk​ ​β​ i​ x​ − ​α​i​(​p​jk​ + ​t​ k​ E​ ​e​jk​)​ − ​α​i​ γρ ​β​ i​ m​ ​e​jk​(​g​k​ + ​t​ k​ G​)​ + ​ξ​jk​ + ​ε​ijk​ .​
+Previous work has stressed the relative advantages of both taxes. On the one 
+hand, a fuel tax is preferable because it directly reduces usage and hence (pollution) 
+externalities, as long as driving behavior is not perfectly inelastic. On the other 
+hand, a product tax on the cars’ fuel consumption can be preferable if consumers 
+undervalue their future fuel costs when purchasing a durable good. Put differently,
+
+--- PAGE 10 ---
+202	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+a fuel tax mainly serves to correct for externalities by affecting the driving decision, 
+while a product tax on fuel consumption mainly corrects for an investment ineffi-
+ciency from consumer myopia. Allcott and Greenstone (2012) provides interesting 
+further discussion of both effects (where they focus on a subsidy for the energy 
+efficient product, instead of a tax on the energy inefficient product).
+In our analysis, we assume that utilization is perfectly inelastic, so we rule out 
+the possibility that a fuel tax corrects for an externality by reducing utilization. We 
+instead focus on another role of fuel taxes: in the presence of consumer mileage het-
+erogeneity, a fuel tax especially targets the high mileage consumers. Hence, a fuel 
+tax may be more effective in reducing total fuel usage than a product tax, even if it 
+does not directly affect utilization decisions.
+To more precisely see the role of mileage heterogeneity and consumer myopia in 
+the impact of a fuel tax versus a product tax, it is useful to consider the case where 
+the taxes do not depend on the fuel type ​k​ , i.e., ​t​ k​ G​  =  ​t​ G​ and ​t​ k​ E​  =  ​t​ E​ for both gas-
+oline and diesel cars. Using ​q​jk​  =  ​s​jk​(ξ; ρ, θ)​ I​ and the expression (6) for ​s​jk​(ξ; ρ, θ)​ , 
+online Appendix A shows that a small increase of ​t​ G​ and ​t​ E​ has the following effect 
+on the demand for product ​jk​:
+	
+​ ∂ ​q​jk​ 
+____ 
+∂ ​t​ G​ ​  =   −​∫ β​ 
+ 
+ ​ ​α​i​ γρ ​β​ i​ m​ ​s​ijk​(​e​jk​ − ​_ 
+e ​ i​ + ​s​i0​ ​_ 
+e ​ i​)​ d​F​β​ (β ) I,
+	
+​ ∂ ​q​jk​ 
+____ 
+∂ ​t​ E​ ​  =   −​∫ β​ 
+ 
+ ​ ​α​i​ ​s​ijk​(​e​jk​ − ​_ 
+e ​ i​ + ​s​i0​ ​_ 
+e ​ i​)​ d​F​β​ (β ) I​,​
+where ​_ 
+e ​ i​  =  ​∑ j​ ​ ​∑ k​ ​ ​e​jk​ ​s​ijk​ /​(1 − ​s​i0​)​ is the expected fuel consumption over cars pur-
+chased by consumer ​i​. We can make the following two observations.
+First, the effect of both taxes depends on the sign of the term ​e​jk​ − ​_ 
+e ​ i​ + ​s​i0​ ​_ 
+e ​ i​. 
+If all cars would have the same fuel consumption, i.e., ​e​jk​  =  e​ for all ​jk​ , then ​
+e​jk​ − ​_ 
+e ​ i​  =  0​. Both taxes would then reduce the demand for all cars, proportional to 
+the aggregate consumer responses to the outside good ​s​i0​ and the price sensitivity 
+parameter ​α​i​. The effect of both taxes is then similar to the effect of an industry-wide 
+price increase. In contrast, if cars differ in their fuel consumption, then the demand 
+for some cars can increase despite the tax increase. This will be the case for cars 
+with a sufficiently low fuel consumption, i.e., ​e​jk​  <  ​_ 
+e ​ i​ , and when there is limited 
+substitution to the outside good (​s​i0​ small). In sum, both taxes have in common that 
+they shift the composition of new car sales from cars with a high fuel consumption ​
+e​jk​ to cars with a low fuel consumption.
+Second, the effect of both taxes differs because of two factors: the future valua-
+tion parameter (​γ​) and the extent of mileage heterogeneity (​β​ i​ m​). In the absence of 
+mileage heterogeneity (​β​ i​ m​  =  ​β​ m​ for all ​i​), it can be shown that a fuel tax ​t​ G​ has 
+exactly the same demand effect as a revenue-equivalent product tax ​t​ E​ when ​γ  =  1​ , 
+and a weaker impact when ​γ  <  1​ (the investment inefficiency referred to above). 
+When there is mileage heterogeneity, the comparison between the demand impact 
+of both taxes becomes more complicated.
+To summarize this, the price sensitivity parameter ​α​i​ and the extent of substitu-
+tion to the outside good ​s​i0​ determine the general impact of both taxes, whereas the
+
+--- PAGE 11 ---
+VOL. 10 NO. 3
+203
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+future valuation parameter ​γ​ and the extent of mileage heterogeneity ​β​ i​ m​ explain the 
+differences in their impact. In our empirical analysis, we show how these parameters 
+translate into differences in the effectiveness (in reducing total fuel usage) and the 
+total welfare impact of both taxes.
+II.  Data
+Our main dataset is a rich panel of data from the European car market, obtained 
+from a market research firm (JATO). The dataset includes the sales, prices, and 
+product characteristics for every new passenger car sold during 1998–2011 in seven 
+European countries: Belgium, France, Germany, Italy, the Netherlands, Spain, and 
+the United Kingdom. The data cover around 90 percent of the sales in the European 
+Union.
+The unit of observation is at the very detailed level of the car variant ​jk​ , i.e., 
+the combination of a car model ​j​ equipped with engine ​k​. The car model ​j​ is a 
+brand/model/body type combination, e.g., “Volkswagen Golf hatchback,” whereas 
+the engine ​k​ consists of the fuel engine type (gasoline or diesel), displacement and 
+horsepower, e.g., “gasoline, 1,390cc, 59kW”. Our highly disaggregate definition of 
+a car variant makes it possible to capture all possible variation in fuel efficiency 
+and engine performance. After excluding cars with extremely low sales (e.g., 
+Bentley Arnage), we retain on average about 800 car variants per country/year, i.e., 
+180 models with on average 4.4 engines. This results in a panel dataset of approxi-
+mately 80,000 observations (car variants/countries/years).
+Sales are defined as new vehicle registrations. Prices are suggested retail prices, 
+including VAT and registration taxes which differ across markets and engines 
+(separately obtained from the European Automobile Manufacturers Association). 
+According to European survey data reviewed in Goldberg and Verboven (2005), 
+discounts mainly vary by car model and country, which we will account for with a 
+rich set of car and country fixed effects.12 Car characteristics include measures of 
+vehicle size (curb weight, width, length, and height), engine performance (horse-
+power and displacement) and fuel consumption (liter/100 km). In addition, based 
+on a brand’s perceived country of origin, we construct a dummy for whether a model 
+is of foreign or domestic origin in each country.13
+We supplement this dataset with information on fuel prices, the empirical distri-
+bution of annual miles traveled and other country/year-level information. Gasoline 
+and diesel fuel prices by year and country are from the International Energy Agency 
+(IEA 1998–2011). Fuel prices mainly vary over time, rather than across countries. 
+Figure 1 plots the average annual price of gasoline and diesel fuel during 1998–2011 
+(in real year 2000 euros) as well as the difference between the price of gasoline and 
+diesel across countries. The top panel shows that gasoline and diesel fuel prices are 
+12 For the United States, Langer and Miller (2013) exploits detailed transaction data. They find that discounts 
+are higher for cars with higher fuel costs (conditional on time and vehicle fixed effects), and point out that this may 
+imply a downward bias of the fuel cost coefficient by 13.7 percent (or higher). If discounts also vary with fuel costs 
+in Europe, our fuel cost valuation parameter may also be biased downward to some extent. 
+13 For example, the Volkswagen Golf is perceived as domestic by German consumers even though part of the 
+production of Golf takes place in Spain.
+
+--- PAGE 12 ---
+204	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+increasing to reach peaks in 2008 and 2011. Diesel fuel is on average 16 percent 
+less expensive than gasoline fuel, but the gap varies during the period. According 
+to the bottom panel, the price of gasoline is higher than that of diesel in almost all 
+countries. The gap between both fuel prices is the highest in the Netherlands and 
+Belgium. The gap often changes in the same direction across countries, but the mag-
+nitudes of these changes may differ considerably.
+The empirical distribution of annual miles traveled is from the 2007 UK National 
+Travel Survey by the the Department for Transport (2013), a rich nationally 
+0.6
+0.8
+1
+1.2
+1.4
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+ Gasoline
+ Diesel
+−0.1
+0
+0.1
+0.2
+0.3
+0.4
+Belgium
+Germany
+Italy
+Spain
+Average fuel price (euro/liter)
+Difference in gasoline diesel prices
+France
+Great Britain
+Netherlands
+Figure 1. Gasoline and Diesel Prices across Time and Countries
+Notes: The top panel of the figure shows average yearly prices (in real 2005 euros) of gasoline and diesel between 
+1998 and 2011. The bottom panel shows the difference in gasoline and diesel prices for each of the countries 
+between 1998 and 2011.
+Source: DG ECFIN
+
+--- PAGE 13 ---
+VOL. 10 NO. 3
+205
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+representative survey of 20,000 individuals. We plot the distribution in Figure 2. The 
+distribution of mileage is skewed to the right: 20 percent of the population drives 
+less than 7,000 km/year, 50 percent drives less than 10,200 km/year, 80 percent 
+drives less than 18,000 km/year, while 10 percent drives more than 25,000 km/year. 
+According to this survey, average annual mileage is 14,700 km/year. There is no 
+such detailed information on the empirical mileage distribution in other countries of 
+our dataset. Eurostat reports average annual mileages by country, using somewhat 
+differing methodologies. These averages are in line with the most reliable aver-
+age of the distribution reported in the UK National Travel Survey14. We therefore 
+assume that mileage in the other countries follows the same distribution as in the 
+United Kingdom. Finally, we use information on GDP/capita in each country/year 
+to scale car prices and annual fuel costs in the same units across countries, and we 
+use population per country/year to construct the variable for the number of potential 
+consumers.
+Summary Statistics—Table 1 provides summary statistics (mean and standard 
+deviation) for the variables included in our empirical demand model. As one may 
+expect, characteristics that may vary across both models and engines (price, horse-
+power, annual fuel costs) show a higher dispersion around the mean than charac-
+teristics that mainly vary across models (size, height, and the foreign dummy). 
+Furthermore, several characteristics show considerable changes over the sample 
+period: horsepower, fuel efficiency, and the fraction of diesel cars all increased 
+between 1998–2011, whereas prices (relative to income) remained fairly stable.
+Table 2 provides more detailed summary statistics broken down between gaso-
+line and diesel cars. The share of new diesel car sales increased from 31.7 percent 
+14 In the online Appendix, we reestimate the model estimated below by rescaling the UK-survey distribution 
+around the mean from Eurostat for each country. This gives very similar results with a somewhat higher willingness 
+to pay for fuel economy. We prefer to rely on the UK distribution for the main results below because most of the 
+variance in the Eurostat data comes from different underlying measurements by governments. 
+Frequency
+Frequency
+Mile
+0
+1
+2
+4
+6
+7
+10 13 16 22 27 31 42 48
+0
+10
+20
+30
+40
+50
+5
+10
+0
+10
+20
+30
+15
+20
+Figure 2. UK Mileage Survey
+Notes: This figure shows the frequency distribution for the UK mileage survey in 2007. The left panel has x-axis 
+bins in 1,000 of km traveled per year; the mean of the distribution is 14,761 km traveled. The right panel shows the 
+distribution with equal sized 5,000 km bins and a plotted kernel.
+
+--- PAGE 14 ---
+206	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+in 1998 to 57.7 percent in 2011.15 Also the supply of diesel engines has increased 
+proportionately more than that of gasoline engines: there were on average only 
+1.6 diesel engines per car in 1998 (compared with 2.5 gasoline engines per car), 
+and this number increased to 2.5 diesel engines per car in 2011 (and 3.0 gasoline 
+engines per car). Diesel cars have 19 percent higher fuel efficiency than gasoline 
+cars (on average 4.8 L/100 km for diesel cars versus 5.7 L/100 km for gasoline cars 
+in 2011). Furthermore, as mentioned above, diesel fuel tends to be 16 percent less 
+expensive than gasoline fuel costs. At the same time, a diesel car is on average 29 
+percent more expensive than its gasoline counterpart.
+15 This trend is common to all European countries, but there are also notable differences across countries (not 
+shown in the table). Belgium, France, and Spain reached the highest share of diesel cars in 2011 (respectively, 
+75.2 percent, 69.0 percent, and 69.0 percent), whereas the Netherlands had the lowest share (30.5 percent). The 
+shares of diesel cars in the other countries varied between 45.5 percent and 55.4 percent. These differences may 
+stem from unobserved country-specific factors, such as taxes or fuel station networks. To account for this, we inter-
+act the diesel variation with country-specific fixed effects. 
+Table 1—Summary Statistics
+All years
+1998 
+2011 
+Variable
+Mean
+SD
+Mean
+Mean
+Sales (1,000 units)
+1.8
+5.1
+2.7
+1.3
+Price/Income
+1.1
+0.7
+1.1
+1.1
+Fuel consumption (L/100 km)
+7.3
+2.1
+7.8
+6.3
+Yearly fuel costs/income (​× 100​)
+4.3
+1.5
+4.7
+4.3
+Horsepower (in kW)
+107.4
+54.6
+85.1
+122.0
+Size (1,000 cm​ ​ 2​ )
+76.7
+9.9
+74.0
+79.5
+Height (cm)
+148.5
+10.7
+144.1
+150.1
+Foreign (0 –1)
+0.9
+0.4
+0.8
+0.9
+Diesel (0 –1)
+0.4
+0.5
+0.3
+0.5
+Months market presence (1–12)
+11.4
+1.8
+11.4
+11.5
+Observations
+82,151
+4,380
+6,898
+Notes: The table reports means and standard deviations of the main variables for all years and 
+for years 1998 and 2011 separately. The total number of observations (model/engines combi-
+nations and markets) is 82,166, where markets refer to 7 countries and 14 years.
+Table 2—Summary Statistics by Engine Type
+1998
+2011
+Gasoline
+Diesel
+Gasoline
+Diesel
+Market share (percent)
+68.3
+31.7
+42.3
+57.7
+Number variants per model
+2.5
+1.6
+3.0
+2.5
+Fuel consumption (L/100 km)
+7.4
+6.2
+5.7
+4.8
+Price/income
+0.7
+0.9
+0.6
+0.9
+Notes: The table reports summary statistics by engine type (gasoline and diesel) in year 1998 
+and 2011. Fuel consumption and price/income are averages weighted by the number of units 
+sold.
+
+--- PAGE 15 ---
+VOL. 10 NO. 3
+207
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+III.  Estimation
+We have a panel of ​T​ markets, defined as country-year combinations, to estimate 
+the taste parameters of the market share system (6). We reintroduce the subscript ​
+t​ to refer to these markets. For each market ​t​ and each car model ​j​ with engine ​k​ , 
+we observe the sales ​q​jkt​ , prices ​p​jkt​ , fuel consumption ​e​jkt​ , a vector of other prod-
+uct characteristics ​x​jkt​, and the fuel price ​g​kt​ (gasoline or diesel fuel). The observed 
+market shares are computed as the sales ​q​jkt​ divided by the number of potential 
+consumers ​I​t​ , ​s​jkt​  =  ​q​jkt​ /​I​t​ , and these observed shares are set equal to the predicted 
+shares as given by (6).
+We first discuss the specification of the taste parameters. Next, we discuss the 
+assumptions regarding the error term ​ξ​jk​ and the GMM estimator. Finally, we discuss 
+specific computational aspects of the estimator.
+Specification of the Taste Parameters.—The taste parameters to be estimated are ​
+γρ​ and ​θ​ , where ​γρ​ measures the extent to which consumers trade-off the initial 
+purchase price of a car against annual fuel costs, and ​θ​ is a vector of distributional 
+parameters for the random coefficients ​β​i​ = ( ​β​ i​ x​ , ​α​i​ , ​β​ i​ m​ )​ with distribution ​F​β​ (β; θ )​. 
+Recall that ​β​ i​ x​ measures the individual-specific valuations for the product charac-
+teristics ​x​jkt​ , ​α​i​ is the marginal utility of income, and ​β​ i​ m​ is consumer ​i​’s annual 
+mileage. As discussed in Section I, ​γρ​ is not separately identified from the scale 
+of ​β​ i​ m​. Furthermore, estimating a large number of distributional parameters ​θ​ , i.e., 
+means and (co)variances, is computationally challenging, so we impose a number 
+of restrictions.
+First, we assume that ​β​ i​ m​ follows the empirical distribution of mileage. The mile-
+age distribution we observe (discussed in Section II) is a conditional distribution, 
+i.e., conditional on having purchased a car, while we need the unconditional dis-
+tribution in our empirical model. In online Appendix A.3, we show how to map 
+the observed conditional distribution into the unconditional distribution for ​β​ i​ m​. 
+Incorporating the empirical distribution of mileage avoids a restrictive functional 
+form and also ensures identification of ​γρ​. Second, following the previous literature, 
+we assume ​β​ i​ x​ is normally distributed and we only estimate means and standard 
+deviations of ​β​ i​ x​ , so we restrict their covariances to be equal to zero:
+	
+​β​ i​ x​  =  ​
+_
+ 
+β ​ x​ + ​Σ​ x​ ​ν​ i​  x​,​
+where ​
+_
+ 
+β ​ x​ are the mean valuations, ​Σ​ is a diagonal matrix with standard deviations ​
+σ​ x​ on the diagonal, and ​ν​ i​  x​ are standard normal random variables. Third, we specify ​
+α​i​ to be inversely proportional to income ​y​t​ in market ​t​ , so ​α​i​  =  α/​y​t​.16
+16 Similar to Berry, Levinsohn, and Pakes (1995), this specification approximates a Cobb-Douglas specifica-
+tion ​α ln​(​y​t​ − ​p​jkt​ − γρ ​β​ i​  m​ ​e​jkt​ ​g​kt​)​  ≈  α ​y​t​ − αγ ​p​jkt​/​y​t​ − αγρ ​β​ i​ m​ ​e​jkt​ ​g​kt​/​y​t​ , when capitalized car expenditures are 
+small relative to capitalized income. It is particularly convenient in our setting with many countries with differing 
+exchange rates because prices and fuel expenditures are expressed in local prices relative to local income. We also 
+considered a specification where ​α​i​ follows the empirical distribution of income, ​α​i​  =  α/​y​i​ , in a simpler specifica-
+tion with fewer other random coefficients. This produced similar results, but was computationally much slower, so 
+we focus on the model where ​α​i​  =  α/​y​t​ and a richer set of other random coefficients.
+
+--- PAGE 16 ---
+208	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+The specification of the conditional indirect utility of consumer ​i​ for car model ​j​ 
+and engine variant ​k​ then becomes
+(7)	
+​u​ijkt​  =  ​x​jkt​ ​β​ i​ x​ − α ​p​jkt​/​y​t​ − αγρ ​β​ i​ m​ ​e​jkt​ ​g​kt​/​y​t​ + ​ξ​jkt​ + ​ε​ijkt​ .​
+We will directly estimate and report ​αγρ​ as the “fuel cost parameter,” and then 
+retrieve the future valuation parameter ​γ​ from dividing the estimate of ​αγρ​ by the 
+estimate of the price parameter ​α​ and a value of the capitalization coefficient ​ρ​ 
+(using the interest rate ​r​ and time horizon ​S​). The vector of product characteristics ​
+x​jkt​ includes horsepower, size (width times length), height, foreign, and a diesel 
+dummy variable interacted by country dummy variables. The latter captures val-
+uation differences for diesel engines across countries, including unobserved dif-
+ferences in taxation or in fuel station networks for diesel cars. We estimate mean 
+valuations ​β​ x​ for all of these variables, and in addition, standard deviations ​σ​ x​ for 
+horsepower, size, and foreign. In online Appendix B, we report specifications with 
+additional random coefficients: this gives similar results, but less precise estimates 
+for some of our main parameters of interest. This is consistent with earlier find-
+ings of Reynaert and Verboven (2014) on the difficulties in precisely estimating too 
+many random coefficient parameters.
+GMM Estimator.—We exploit the panel nature of our dataset and specify the 
+unobserved product characteristic as
+(8)	
+​ξ​jkt​  =  ​ξ​j​ + ​ξ​t​ + ​ξ ̃ ​jkt​ , ​
+where ​ξ​j​ are fixed effects capturing time-invariant unobserved characteristics for a 
+car model ​j​ , and ​ξ​t​ captures market fixed effects, modeled as country-specific fixed 
+effects interacted with a time trend and a squared time trend. Since some models 
+were introduced or eliminated within a year, we also include a set of fixed effects 
+for the number of months for which the model was available in a country within 
+a given year. The last term, ​ξ ̃ ​jkt​ , is the residual error term capturing the remain-
+ing unobserved characteristics varying across models, engines, and markets. Since 
+we include a full set of car model fixed effects, the demand parameters are identi-
+fied from variation across engine variants within car models. The variation in the 
+up-front purchase price and the expected fuel costs across cars will be of primary 
+importance to identify the extent to which consumers discount the future.
+The variation in fuel costs comes from four sources: aggregate fuel cost changes 
+over time (different from the quadratic time trend), differences between gasoline and 
+diesel engines, differences between engines within a fuel type holding fuel prices 
+fixed, and remaining differences between engines within a fuel type stemming from 
+fuel price variation. To assess the importance of each source, we regress our fuel 
+cost variable on all other control variables included in the main specification, and 
+then partition the variance of the residual fuel costs. We find that aggregate variation 
+in fuel prices over time explains less than 0.01 percent of the total variance of fuel 
+costs. Differences between gasoline and diesel engines explain 13 percent of the 
+variance in fuel costs. Differences between engines within the same fuel type explain
+
+--- PAGE 17 ---
+VOL. 10 NO. 3
+209
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+77 percent of the variance in fuel costs. The remaining 10 percent comes from fuel 
+cost changes within engines and fuel type due to fuel price changes. Hence, most 
+of the variation in fuel costs comes from engine variation (between and within fuel 
+type). This is different from the existing literature, which has mainly relied on dif-
+ferences in fuel prices over time to identify the extent to which consumers discount 
+future fuel cost savings.
+The error terms ​ξ ̃ ​jkt​ enter the market share system (6) in a highly nonlinear way. 
+Following Berry (1994); Berry, Levinsohn, and Pakes (1995); and the subsequent 
+literature, we use a contraction mapping to invert the market share system and solve 
+for the vector of error terms ​ξ​t​ ̃ ​ in each market ​t​.
+We account for the fact that price is an endogenous variable, which may be cor-
+related with the error term ​ξ ̃ ​jkt​. The main identification assumption is that the error 
+term is mean independent of the other product characteristics, ​E( ​ξ ̃ ​jkt​ | ​z​t​ )  =  0​ , 
+where ​z​t​ is a matrix of all other product characteristics (including ​x​t​ , but also fuel 
+consumption ​e​t​ and fuel prices ​g​t​). This assumption requires that all product char-
+acteristics, except prices, are uncorrelated with unobserved car variant quality, 
+conditional on the car model fixed effects. This appears reasonable in the short 
+run when manufacturers cannot easily redesign their products. To the extent ​ξ ̃ ​jkt​ 
+is correlated with the observed product characteristics, this may potentially bias 
+the parameters.
+These conditional moment restrictions imply an infinite number of unconditional 
+moment restrictions
+	
+​E​(​h​jt​ ( ​x​t​ ) ​ξ ̃ ​jkt​)​  =  0​,
+where ​h​jt​ ( ​x​t​ )​ is a vector of instruments formed by any function of the exogenous 
+​x​t​. The GMM estimator for the complete vector of parameters is then the solution to
+	
+​min​ 
+ϕ​  ​ ​ξ ̃ ​(ϕ​) ′ ​h(z​) ′ ​Ωh(z )​ξ ̃ ​(ϕ) ,​
+where the vectors and matrices are stacked over all markets, ​ϕ​ is the vector of param-
+eters (​γρ​ and ​θ​), and ​Ω​ is a weighting matrix using first-step residuals to account for 
+heteroskedasticity.17 To construct the instruments ​h(z)​ , we follow Berry, Levinsohn, 
+and Pakes (1995) and use the own-product characteristics, sums of the characteris-
+tics of other products of the same firm, and sums of characteristics of other firms’ 
+products. These instruments influence the markups of the differentiated products 
+(either positively or negatively), and therefore serve as instruments for price. We 
+also considered cost shifters as alternative instruments for price: following Reynaert 
+and Verboven (2014), we include unit labor costs in the country of production, a 
+dummy variable for whether the country of production and destination are the same, 
+and steel prices interacted with vehicle weight (as a product-level cost shifter). Since 
+steel prices and labor costs were not available for the year and country of production 
+17 To minimize the objective function, we concentrate out the linear parameters ​β​ and the market fixed effects ​
+ξ​t​ as discussed in Nevo (1999). Furthermore, following Baltagi (1994), we use a within transformation of the data 
+to eliminate the car model fixed effects ​ξ​j​.
+
+--- PAGE 18 ---
+210	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+of about 8 percent of the observations and since the cost production process is more 
+complicated, we do not take this as our main specification, but report the results in 
+online Appendix B.
+We use these instruments in a first stage to obtain initial parameter estimates and 
+construct optimal instruments following Chamberlain (1987) and Berry, Levinsohn, 
+and Pakes (1999). In a second stage, we use these optimal instruments to obtain 
+more efficient parameter estimates, especially for the variances of the random coef-
+ficients. Reynaert and Verboven (2014) provides detailed Monte Carlo evidence 
+and an application with actual data to demonstrate that optimal instruments indeed 
+greatly improve the efficiency of the estimator for this model.
+Computational Considerations.—We account for a variety of computational 
+issues to which recent work has drawn attention (see, for example, Goldberg and 
+Hellerstein’s 2013 checklist). First, we approximate the high-dimension market 
+share integral using 500 draws of a quasi-random number sequence for each of 
+the 98 markets. The empirical distribution of mileage consists of 100 nodes, such 
+that each mileage is interacted with 5 draws on the other dimensions. Second, we 
+use a tight convergence level of ​1​e​ −12​ for the contraction mapping to solve the 
+market share system in the inner loop within the GMM objective function. Third, 
+to minimize the GMM objective function, we use a state-of-the-art optimization 
+algorithm (the interior/direct algorithm in Knitro), provide analytical derivatives, 
+and set a strict tolerance level at ​1​e​ −6​. Fourth, we use a set of 50 starting values to 
+search for a global minimum, and verify the solution by checking the first-order and 
+second-order conditions. Finally, as discussed above, we use optimal instruments in 
+a second stage, which greatly improves the efficiency of the estimator, in particular 
+for the standard deviations of the random coefficients.
+IV.  Empirical Results
+Although the importance of heterogeneity in consumer preferences has been 
+emphasized in other work, the specific implications on how this may affect the esti-
+mated valuation of future fuel cost savings has received limited attention. To assess 
+how ignoring heterogeneity of consumer preferences may bias the extent to which 
+consumers trade-off the car purchase price against future fuel cost savings, we com-
+pare three alternative models. The first model is a simple logit model that imposes ​
+β​ i​ x​  =  ​β​ x​ and ​β​ i​ m​  =  ​β​ m​ (i.e., the mean of the observed mileage distribution). The 
+second model allows for heterogeneity in mileage and hence in the valuation of 
+fuel costs, using the empirical mileage distribution ​β​ i​ m​ , while continuing to restrict ​
+β​ i​ x​  =  ​β​ x​. The third model is our full random coefficients model, which allows for 
+both mileage heterogeneity and heterogeneity in the valuations of some other car 
+characteristics.
+We first discuss the parameter estimates, and then what these imply for consum-
+ers’ valuations of future fuel cost savings.
+Parameter Estimates.—Table 3 reports the parameter estimates for these three 
+demand models. First, consider the simple logit model. Price and annual fuel costs
+
+--- PAGE 19 ---
+VOL. 10 NO. 3
+211
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+have the expected negative effect on utility, with ​α  =  − 4.52​ and ​αγρ  =  − 39.03​.18 
+This implies ​γρ  =  8.63​ , which we discuss in detail below. The price parameter ​α​ 
+is in line with previous results in the literature. In the online Appendix (Table B.1), 
+we show that not using any instruments leads to a very low estimated price elasticity. 
+We also present the first stage of the instrumental variable regression and find that 
+the excluded instruments (sums of other product characteristics) correlate strongly 
+with prices and are jointly significant with an F-stat of 291. Finally, we reestimate 
+the logit model with cost shifters as additional instrumental variables. When we 
+include the cost shifters as instruments, the price coefficient becomes smaller in 
+absolute value, implying a higher estimate of ​γρ​ between ​10.6​ and ​13.28​.19
+18 Online Appendix Table B.2 replicates Table 3 with mileages from Eurostat instead of the United Kingdom 
+survey. 
+19 The cost shifters we add in online Appendix Table B.1 are a measure of labor costs and a dummy for produc-
+tion in market of sales (Cost IV I). In column Cost IV II, we add the steel price in the market of production and the 
+steel price interacted with weight (both in logs). The estimated interaction of steel price with weight in the first stage 
+is negative, which may be due to a gradual shift from steel to aluminum to comply with environmental regulations. 
+This suggests that our cost instruments do not yet capture all elements of the production process (other relevant 
+inputs, role of regulations that induce a shift from steel to aluminum). A more detailed analysis with additional data 
+on product-specific cost shifters would be interesting in future research. 
+Table 3—Parameter Estimates for Alternative Demand Models
+Logit
+RC Logit I
+RC Logit II
+Est.
+SE
+Est.
+SE
+Est.
+SE
+Panel A. Mean valuations
+Price/inc. (​α​)
+−4.52
+0.19
+−6.22
+0.22
+−5.33
+0.21
+Fuel costs/inc. (​αγρ​)
+−39.03
+1.41
+−46.48
+0.94
+−47.11
+9.22
+Power (kW/100)
+2.28
+0.14
+2.60
+0.17
+0.25
+0.61
+Size (​cm​ 2​/10,000)
+13.25
+0.44
+16.69
+0.48
+16.77
+2.02
+Height (cm/100)
+3.00
+0.30
+4.45
+0.32
+5.19
+0.33
+Foreign
+−0.83
+0.02
+−0.75
+0.02
+−0.89
+0.04
+Panel B. Standard deviations of valuations
+Power (kW/100)
+−
+−
+−
+−
+1.95
+0.25
+Size
+−
+−
+−
+−
+4.31
+2.04
+Foreign
+−
+−
+−
+−
+0.49
+0.43
+Mileage distribution
+	
+No
+	
+Yes
+	
+Yes
+Panel C. Valuations of future fuel costs
+Fuel costs/price (​γρ​)
+8.63
+0.55
+7.47
+0.24
+8.84
+1.77
+Future valuation ​γ​ (​r  =  6%​)
+0.89
+0.06
+0.77
+0.02
+0.91
+0.18
+Consumer loss from mis-optim. (€)
+73.07
+328.13
+39.71
+Implicit interest rate (​T  =  10​)
+2.77
+5.69
+2.31
+Implicit interest rate (​T  =  15​)
+7.87
+10.32
+7.48
+Notes: The table reports the parameter estimates and standard errors for the different demand models. The logit 
+assumes homogeneous mileage (​β​ i​ m​ = ​
+_
+ 
+β ​ m​) and homogeneous valuations for characteristics in ​x​jkt​ (​β ​ i​ x​ = ​
+_
+ 
+β ​ x​). The 
+random coefficients Logit I assumes heterogeneous mileage (​β​ i​ m​) and homogeneous valuations for all the other 
+characteristics in ​x​jkt​ (​β ​ i​ x​ = ​
+_
+ 
+β ​ x​). The random coefficients Logit II assumes heterogeneous mileage (​β​ i​ m​) and hetero-
+geneous valuations for characteristics in ​x​jkt​ (​β​ i​ x​). Each specification includes model, market/diesel, and market/
+time controls. The total number of observations (combinations of model/engine/market) is 82,151, where mar-
+kets refer to 7 countries and 14 years. Panel C reports: the Ratio Fuel Costs/Price (γρ), which converts annual 
+costs into their present discounted value; the attention weight or future valuation parameter (γ), calculated assum-
+ing a market interest rate r = 6 percent and an expected car longevity S = 15; the consumer surplus losses due to 
+mis-optimization per vehicle in euros; and the implicit interest rate that sets γ = 1 assuming a lifetime of 10 and 
+15 years.
+
+--- PAGE 20 ---
+212	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+The estimated mean valuations ​β​ x​ for horsepower, size (length times width), 
+and height are positive, while the mean valuation for foreign cars is negative. The 
+­valuation of a diesel engine (apart from fuel costs) differs across countries (accord-
+ing to the market/diesel controls, not shown in Table 3): diesel cars have a lower 
+mean utility in Germany, the United Kingdom, and especially in the Netherlands. 
+This may be due to unobserved higher car taxes, less elaborated diesel fuel station 
+network, the popularity of alternative fuels (such as LPG in the Netherlands) or 
+other unobserved preference differences.20
+Now consider the random coefficients logit model with only mileage heterogene-
+ity, and no heterogeneity for other characteristics (RC Logit I). Price and fuel costs 
+again have the expected negative effect on utility, and the magnitude of the fuel cost 
+effect slightly decreases (​α  =  − 6.22​ and ​αγρ  =  − 46.48​). The estimated mean 
+valuations of the other product characteristics ​β​ x​ all have the same signs and are 
+similar in magnitude as in the simple logit model.
+Finally, consider the full random coefficients logit with heterogeneity for other 
+characteristics (​σ​ x​) in addition to fuel costs (RC Logit II). As in the other two models, 
+price and fuel costs have a negative effect on utility. Similarly, the mean valuation 
+for size and height is positive, while the mean valuation for foreign cars is negative. 
+The mean valuation for horsepower now becomes insignificant, but there is substan-
+tial heterogeneity around the mean, implying that about half of the consumers value 
+horsepower positively. There is also significant heterogeneity in the valuation of size, 
+but essentially all consumers have a positive valuation. The standard deviation for the 
+valuation of foreign cars is not significantly different from zero.
+We considered a detailed sensitivity analysis with respect to various assumptions 
+of our demand model. Online Appendix Table B.2 presents parameter estimates 
+under alternative measures of our fuel cost variable: the use of average fuel prices 
+per market (taking out the variation in fuel prices over time), the use of future prices 
+instead of spot prices, the use of mean mileage reported by Eurostat for each coun-
+try instead of the UK survey, and the use of model*fuel type fixed effects instead 
+of model fixed effects. The empirical results remain very similar. Intuitively, this is 
+because fuel cost variation is more important across engines and fuel types than over 
+time or countries, as discussed above.
+Online Appendix Table B.3 presents alternative specifications for our base ran-
+dom coefficients model (RC Logit II): a model that includes a random coefficient 
+for fuel type (RC Logit III),21 a model that adds heterogeneity in the valuation of 
+fuel costs for other reasons than mileage (RC Logit IV),22 and a model that allows 
+20 Online Appendix Table B.5 presents the results for the logit model, estimated separately for each of the 
+countries. The parameter estimates have robust signs, and with some exceptions, the magnitudes of the effects are 
+broadly comparable. 
+21 Ideally, we would include such random coefficients for each country because the mean valuations differ 
+considerably by country. However, this specification proved difficult to estimate, which is why we do not consider 
+this to be our main specification. 
+22 We follow Anderson, Kellogg, and Sallee (2013), who report additional heterogeneity in fuel cost valuation 
+for other reasons than mileage (such as discounting and forecasting). We conservatively increase the variance of 
+fuel cost valuation across sampled individuals by a factor of seven, by adding additional independent and normally 
+distributed draws to each mileage type. This additional heterogeneity in fuel cost expectations may also impact our 
+tax comparison as we assess below.
+
+--- PAGE 21 ---
+VOL. 10 NO. 3
+213
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+vehicle lifetime to vary according to the consumer’s annual mileage (RC Logit V).23 
+For all specifications, we obtain similar empirical results. We therefore focus our 
+subsequent analysis on the base specification RC Logit II, but we will also provide 
+robustness analysis in the counterfactuals for the other models.
+Implications for Valuation of Future Fuel Cost Savings.—What do our estimates 
+imply for consumers’ valuations of future fuel cost savings? To address this ques-
+tion, the starting point is the coefficient ​γρ​ , which converts annual fuel costs into the 
+present discounted value. It is simply the ratio of the estimated fuel cost coefficient ​
+αγρ​ over the estimated price coefficient ​α​. As discussed above, we can then use the 
+expression of ​ρ​ given by (4) to draw conclusions about consumers’ intertemporal 
+preferences. More specifically, we follow Allcott and Wozny (2014), and assume 
+a time horizon ​S​ and market interest rate ​r​ to obtain a value for ​ρ​ and retrieve the 
+attention weight or future valuation parameter ​γ​ : this measures the extent to which 
+consumers undervalue (​γ  <  1​) or overvalue the future (​γ  >  1​). Alternatively, as 
+in Hausman (1979), we can set ​γ  =  1​ and assume a time horizon ​S​ to retrieve the 
+consumers’ implicit interest rate ​r​; or we can set ​γ  =  1​ and ​r  =  0​ to retrieve the 
+consumers’ required payback time.
+Panel C of Table 3 compares the findings for the three different demand models. 
+To compute ​γ​ , we set ​r  =  6 percent​ as in Allcott and Wozny (2014) and assume a 
+time horizon ​S  =  15​ (at the higher end of Eurostat estimates of expected vehicle 
+life between ​S  =  10​ and ​S  =  15​). Setting a relatively low value ​r  =  6 percent​ 
+and a relatively high value ​S  =  15​ makes it more likely to find undervaluation of 
+future payoffs; online Appendix Table B.4 presents estimated ​γ​ for a broader range 
+of ​r  =  0, 3, 6, 10 percent​ and ​S  =  10, 15​.24
+The logit model implies that ​γρ  =  8.63​ , which is precisely estimated with 
+a standard error of 0.55. Setting ​γ  =  1​ and ​r  =  0​ , this can be interpreted as a 
+required payback time of 8.63 years for an investment in a more fuel efficient car. 
+Equivalently, using the above values of ​r​ and ​S​ , the implied attention weight param-
+eter is ​γ  =  0.89​ , which implies a moderate undervaluation of future fuel cost sav-
+ings. Finally, setting ​γ  =  1​ , our estimates imply the consumers’ implicit interest 
+rate is 7.9 percent when they use a time horizon ​S  =  15​ , and it is 2.8 percent when 
+they use ​S  =  10​.
+The random coefficients logit model with only mileage heterogeneity implies 
+slightly more undervaluation: the required payback time (​γρ​) is ​7.47​ years, which 
+corresponds to an attention weight parameter of ​γ  =  0.77​ and implicit interest rates 
+in the range of 10.3 percent (​S  =  15​) and 5.7 percent (​S  =  10​).
+23 We assume a vehicle’s maximum lifetime distance is ​β​ max​  =  250,000​ km, so that the vehicle lifetime of 
+individual ​i​ is ​S​i​  =  ​β​ max​/​β​ i​ m​ (up to the nearest integer). Furthermore, we assume a scrapping rate ​ψ​s​ in year ​s​ 
+(based on table 1 of Jacobsen and van Benthem 2015) and setting ​ψ​20​  =  1​). The present value of fuel costs over 
+a car’s lifetime then becomes:
+​​G​ijk​ =  ​ ∑ 
+s=1
+​ 
+​S​i​
+ ​ ​(1 + r )​ −s​(1 − ​ψ​s​)​ ​β​ i​ m​ ​e​jk​ ​g​ks​ .​ 
+24 Allcott and Wozny (2014) uses a richer model for vehicle life, allowing for an annual depreciation rate. In 
+principle, we could also adopt such an approach, but this would make the expressions less transparent and make 
+the model more difficult to estimate. It is in any case not clear whether consumers are sufficiently sophisticated to 
+incorporate all this information.
+
+--- PAGE 22 ---
+214	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+Finally, the full model, which also allows for heterogeneity in the valuation of 
+other product characteristics, results in a coefficient of ​γρ  =  8.84​ , so that the atten-
+tion weight parameter is ​γ  =  0.91​. This again implies some moderate (but statisti-
+cally insignificant) undervaluation of future fuel cost savings.
+In all models, the consumer surplus losses per vehicle from mis-optimization are 
+small: €73 in the first model, €328 in the second model, and €40 in the third model. 
+Note that this type of low undervaluation may be interpreted as rational inattention 
+from the consumers’ point of view, if it is costly to compute future fuel savings 
+exactly; see Sallee (2014).
+In sum, we find only moderate undervaluation with an attention weight of ​
+γ  =  0.91​ for European consumers. This is similar to Busse, Knittel, and Zettelmeyer 
+(2013), and higher than the ​γ ​ = 0.76 obtained by Allcott and Wozny (2014). As 
+such, the European car market shows only very limited evidence for an “energy 
+paradox,” according to which consumers are puzzlingly slow in investing in energy 
+efficiency (Jaffe and Stavins 1994). A possible explanation is the rather high fuel 
+prices in Europe, which makes it more profitable for consumers to pay attention to 
+future fuel costs. Furthermore, almost every car comes with either a gasoline engine 
+and a diesel engine (with a higher initial purchase price, but also lower future fuel 
+costs): this makes it easier to compare products that are otherwise nearly identical 
+(see, also, Verboven 2002) on the effectiveness and welfare impact of alternative tax 
+policies.
+V.  Policy Counterfactuals
+As shown in the previous section, to obtain reliable estimates of consumers’ valu-
+ations of future fuel cost savings it is important to account for consumer heterogene-
+ity, both regarding their mileage and other dimensions. What do our findings imply 
+for the effectiveness and the welfare impact of alternative tax policies?
+As discussed in Section I, we discuss the impact of two tax policies: a fuel tax ​t​ k​ G​ 
+(on gasoline and/or diesel fuel) and a product tax ​t​ k​ E​ (on a car’s fuel consumption 
+​e​jk​). Both taxes are representative for a broader group of policies that governments 
+can use in order to reduce externalities. A fuel tax is equivalent to a carbon tax and 
+can be seen as a Pigouvian tax that directly prices the externality. A product tax 
+changes the relative prices of products with different efficiencies and will have sim-
+ilar effects as subsidies for efficient vehicles, feebates, or fuel economy standards.
+In subsection VA, we compare the effectiveness of a fuel tax and a product tax in 
+terms of their capability to reduce total fuel usage. To make this comparison, we start 
+from a fuel tax increase by €0.50 per liter, which is about twice the size of the fuel 
+tax of $1 per gallon often considered in several US studies. We compare this with 
+a revenue-equivalent product tax per unit of fuel consumption ​e​jk​ (in L/100 km), 
+i.e., a product tax that generates the same revenues as the capitalized expected reve-
+nues from the fuel tax increase by €0.50.
+In subsection VB, we compare the total welfare impact of the fuel tax and prod-
+uct tax. We first calculate the impact of a fuel tax increase on total welfare. We then 
+compare this with an externality-equivalent product tax, which reduces the external-
+ity by the same amount.
+
+--- PAGE 23 ---
+VOL. 10 NO. 3
+215
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+We mainly focus on the results for Germany in 2011, the largest country in the most 
+recent year of our dataset. Computational details are given in online Appendix A.
+A. Effectiveness of Fuel versus Product Taxes
+In this section, we are mainly interested in the effectiveness of both taxes in terms 
+of their capability to reduce total fuel usage; but to provide background information, 
+we first discuss how both taxes affect the composition of new car sales and the sales-
+weighted average fuel consumption (where, as discussed earlier, fuel consumption 
+is the inverse of fuel economy). As an extension, we also compare the effects of 
+discriminatory taxes by fuel type (gasoline versus diesel), and show how these help 
+to explain the market share of diesel cars across European countries.
+In Section I, we already discussed that the price sensitivity parameter ​α​i​ and the 
+extent substitution to the outside good ​s​i0​ determine the general demand impact of 
+both taxes, whereas the future valuation parameter ​γ​ and the extent of mileage het-
+erogeneity ​β​ i​ m​ explain the differences in their impact. We now show how this can be 
+translated empirically.
+Effects on the Composition of New Car Sales.—To evaluate how a fuel and prod-
+uct tax affect the composition of new car sales, we take into account that these taxes 
+may affect car prices, assuming multiproduct Bertrand competition.25 Following 
+Berry, Levinsohn, and Pakes (1995) and related literature, firms have constant mar-
+ginal costs and choose prices to maximize profits over all products they produce, 
+taking as given the prices set by the other firms. We use the first-order conditions 
+to recover the firms’ marginal costs; the implied markups are on average around 
+26 percent, which is comparable to the estimates obtained in BLP. We then compute 
+the new equilibrium prices after the fuel or product tax change.26 After having com-
+puted the effect of both taxes on the sales and prices of every car ​jk​ , we aggregate 
+these effects to market share and price effects of four fuel consumption quartiles. 
+This is similar to what Busse, Knittel, and Zettelmeyer (2013) reports for fuel taxes, 
+based on an entirely different identification approach. Since our approach is based 
+on the estimates of a structural demand model, we can report interesting additional 
+information. First, we can compare the impact of a fuel tax on the market shares with 
+the impact of a (revenue-equivalent) product tax. Second, we are able to compute 
+the market share effects not only under the actual estimate of the future valuation 
+parameter (​γ  =  0.91​), but also under alternative scenarios with full forward look-
+ing behavior (​γ  =  1​) and strong consumer myopia (​γ  =  0.5​). This more detailed 
+comparison provides useful background intuition to interpret the different impact of 
+both taxes on the average fuel consumption of the sold cars and on total fuel usage.
+Table 4 shows the tax effects by fuel consumption quartile, based on the estimates 
+of the full model with heterogeneity in both mileage and in the valuation of other 
+25 In online Appendix B, we show the results when car prices are not affected (as under perfect competition). 
+26 With multiproduct firms, there may in principle be multiple Bertrand equilibria. We experimented with alter-
+native solution methods (Newton versus fixed point iteration on the inverted first-order conditions) and starting 
+values, but did not find instances of convergence to other equilibria.
+
+--- PAGE 24 ---
+216	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+product characteristics. According to panel A of Table 4, under the actual future 
+valuation parameter (​γ  =  0.91​) a €0.50 fuel tax increase raises the market share 
+of cars in the lowest fuel consumption quartile by 2.2 percentage points (from a 
+market share of 36.6 percent to 38.8 percent). The market shares of the other fuel 
+consumption quartiles all drop. In particular, the market share of cars in the highest 
+fuel consumption quartile drops by 0.7 percentage points (or 12 percent). Hence, 
+a fuel price increase implies a quite considerable change in the composition of car 
+sales from the high to the low fuel consumption cars.27 If consumers would be fully 
+forward looking (​γ  =  1​), the fuel tax increase would only have a slightly larger 
+impact on the composition of car sales. Conversely, with strong consumer myopia 
+(​γ  =  0.5​), the fuel tax increase would have had a smaller impact. Notice, finally, 
+that the taxes have only a small impact on average car prices, implying that there is 
+a high degree of tax pass-through. Because of this, the tax effects are similar under 
+perfect competition, as shown in the online Appendix Table B.6.28
+Panel B of Table 4 compares these findings with those of a revenue- 
+equivalent product tax increase. This amounts to a tax of €699 per unit of fuel 
+consumption ​e​jk​ (so this would amount to a product tax of €3,495 for a car that 
+consumes 5 liters per 100 km). Under the actual estimate of ​γ  =  0.91​ , the product 
+27 These numbers are somewhat lower, but still of a comparable order of magnitude as those in Busse, Knittel, 
+and Zettelmeyer (2013), based on an entirely different identification approach. This may be because of a generally 
+larger cost sensitivity (with respect to prices and fuel costs) in the United States, or because of a different identifi-
+cation approach. 
+28 The high tax pass-through may be due to the assumption of constant marginal costs or the functional form of 
+the demand model. However, if pass-through would in practice be lower (say because of increasing marginal costs), 
+this would likely not differ much between the fuel and product taxes, given that there is only limited undervaluation. 
+Table 4—The Effect of a Fuel Tax and a Product Tax on Market Shares by Fuel Consumption 
+Quartile
+ ​γ  =  0.50​ 
+ ​γ  =  0.91​ 
+ ​γ  =  1.00​ 
+Change in market share
+Current
+Percentage 
+point
+€ ​Δp​ 
+Percentage 
+point
+€ ​Δp​ 
+Percentage 
+point
+€ ​Δp​ 
+Panel A. Fuel tax
+Tax per liter
+€0.50
+€0.50
+€0.50
+Fuel consumption Q1 (lowest)
+37
+1.5
+−15
+2.2
+−31
+2.4
+−39
+Fuel consumption Q2
+37
+−0.3
+−14
+−0.4
+−30
+−0.5
+−36
+Fuel consumption Q3
+20
+−0.6
+−15
+−1.0
+−29
+−1.1
+−32
+Fuel consumption Q4 (highest)
+6
+−0.5
+−16
+−0.7
+−21
+−0.8
+−23
+Panel B. Revenue equivalent product tax
+Tax per liter/100 km
+€832
+€699
+€662
+Fuel consumption Q1 (lowest)
+37
+3.8
+−41
+3.0
+−37
+2.9
+−37
+Fuel consumption Q2
+37
+−0.5
+−47
+−0.4
+−44
+−0.4
+−43
+Fuel consumption Q3
+20
+−1.7
+−52
+−1.4
+−47
+−1.4
+−45
+Fuel consumption Q4 (highest)
+6
+−1.5
+−52
+−1.2
+−44
+−1.1
+−41
+Notes: The table reports the effects of a €0.50 fuel tax and a revenue-equivalent product tax on the market shares 
+and prices of new cars aggregated by quartile of fuel consumption, under Bertrand-Nash pricing. The effects are 
+computed under strong consumer myopia (γ = 0.50), under the actual estimate of consumer valuation of fuel 
+costs (γ = 0.91), and under full forward looking behavior (γ = 1.00), on the basis of the parameter estimates of 
+RC Logit II in Table 3. The figures refer to Germany in 2011. Q1 = quartile 1; Q2 = quartile 2; Q3 = quartile 3; 
+Q4 = quartile 4.
+
+--- PAGE 25 ---
+VOL. 10 NO. 3
+217
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+tax increase has a larger effect on the composition of new car sales than the fuel tax. 
+This is also the case if consumers would be fully forward looking, and even more 
+strongly so under strong consumer myopia (​γ  =  0.5​).
+Effects on Sales-Weighted Average Fuel Consumption and Total Fuel Usage.—
+Table 5 shows how these sales composition effects translate into the sales-weighted 
+average fuel consumption and the total annual fuel usage. To make a clean compar-
+ison across the specifications, we set ​γ  =  1​ because for all models, ​γ​ was indeed 
+close to one. In the online Appendix (Table B.7), we show the results under con-
+sumer myopia (​γ  =  0.5​).
+It is instructive to start with the results from the simple logit model without mile-
+age and other heterogeneity (first two rows of Table 5). In this case, the fuel tax and 
+the product tax have the same impact: they both improve average fuel consumption 
+by 2.2 percent and reduce total fuel usage by 31.9 percent. This is as expected since 
+consumers are forward looking and all have the same mileage. Note that the large 
+magnitude of the total fuel usage reduction is due to an implausibly large substitu-
+tion to the outside good in the simple logit model.
+In the random coefficients logit with mileage heterogeneity (RC Logit I) and 
+additional heterogeneity (RC Logit II), the fuel tax has a smaller impact on the 
+sales-weighted average fuel consumption than the product tax. This is consistent 
+with our earlier finding that a fuel tax has a smaller impact on the composition of 
+new car sales than a product tax under consumer heterogeneity. More importantly, 
+Table 5—The Effect of a Fuel Tax and a Product Tax on Fuel Consumption and Fuel Usage
+Outside good  
+percentage point change
+Fuel consumption 
+percent change
+Fuel usage 
+percent change
+Logit
+Fuel tax
+14.06
+−2.16
+−31.89
+Revenue equivalent product tax
+14.06
+−2.16
+−31.89
+RC Logit I—Mileage only
+Fuel tax
+10.78
+−0.80
+−38.19
+Revenue equivalent product tax
+7.33
+−1.49
+−22.97
+RC Logit II
+Fuel tax
+5.71
+−1.16
+−18.13
+Revenue equivalent product tax
+4.84
+−1.53
+−12.00
+RC Logit III—Extra RC on fuel cost
+Fuel tax
+6.53
+−1.05
+−20.54
+Revenue equivalent product tax
+5.66
+−1.33
+−13.76
+RC Logit IV—Extra heterogeneity in fuel cost
+Fuel tax
+3.78
+−1.85
+−9.52
+Revenue equivalent product tax
+3.74
+−1.96
+−8.96
+RC Logit V—Lifetime varies with miles
+Fuel tax
+6.23
+−1.17
+−16.20
+Revenue equivalent product tax
+5.87
+−1.29
+−12.78
+Notes: The table reports the effect of a €0.50 fuel tax and a revenue-equivalent product tax on the share of the 
+outside good, average fuel consumption, and total annual fuel usage. The simulations are based on the parameter 
+estimates in Table 3 and online Appendix Table B.3. In each model, we set γ = 1, so there is no variation in under-
+valuation across the different models. The figures refer to Germany in 2011.
+
+--- PAGE 26 ---
+218	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+despite the smaller impact on the cars’ average fuel consumption, the fuel tax has 
+a larger impact on total fuel usage. According to RC Logit II, the fuel tax reduces 
+total fuel usage by 18.1 percent, whereas a product tax only reduces total fuel usage 
+by 12.0 percent. So a fuel tax reduces total fuel usage by an additional 6.1 percent. 
+Intuitively, this is because the fuel tax mainly targets the high mileage consum-
+ers, who are most likely to substitute to cars with a lower fuel consumption (better 
+fuel economy).29 This conclusion also holds under the actual estimate of ​γ  =  0.91​ 
+(instead of ​γ  =  1​). However, with stronger consumer myopia the conclusion would 
+be reversed, and a product tax becomes more effective in reducing total fuel usage. 
+For example, if ​γ  =  0.5​ , a product tax would reduce total fuel usage by 15.2 per-
+cent, compared with a reduction by only 12.0 percent under a fuel tax (see Table B.7 
+in the online Appendix).
+The remaining rows of Table 5 show a sensitivity analysis, based on the estimates 
+of extensions of the random coefficients models presented in online Appendix Table 
+B.3: RC Logit III (extra random coefficient on fuel type), RC Logit IV (extra het-
+erogeneity in fuel cost valuation for other reasons than mileage), and RC Logit V 
+(vehicle lifetime varying according to consumer’s actual mileage). In all models, 
+fuel taxes retain their advantage over product taxes in reducing total fuel usage. 
+However, especially in RC Logit IV, the difference in impact between both taxes 
+becomes less pronounced: the targeting effect is weaker because consumers do not 
+only sort based on mileage but also on other factors.30
+In sum, in all models where we account for mileage heterogeneity, a fuel tax 
+is more effective than a product tax in reducing total fuel usage (despite the fact 
+that it performs worse in improving the average fuel consumption of the sold cars). 
+Intuitively, this is because a fuel tax better targets the high mileage consumers 
+and consumers are sufficiently forward looking to take these future fuel taxes into 
+account. A product tax would only be more effective if there would be sufficiently 
+strong consumer myopia.
+Effects of Discriminatory Taxes by Fuel Type.—The above counterfactuals 
+compared the impact of fuel and product taxes, without discriminating between 
+the fuel type. We now consider the effects of discriminatory fuel taxes. This is of 
+broad interest, since countries are increasingly using fuel-specific tax policies to 
+encourage the adoption of cars with alternative fuels (such as methanol). We con-
+sider here the effects of discriminatory taxes toward gasoline and diesel fuel. Most 
+European countries have followed such a discriminatory policy during the past 
+decades, with considerably lower taxes for diesel than for gasoline fuel. A justi-
+fication of this policy was the promotion of diesel cars, which have much lower ​
+CO​2​ emissions. More recently, there is an increasing pressure to harmonize the 
+gasoline and ­diesel fuel prices (up to the level of the gasoline fuel price), because 
+29 This is confirmed from a breakdown by mileage quartile: the lowest mileage quartile reduces fuel usage by 
+much less than the largest quartile (not shown in Table 5). 
+30 As discussed in the online Appendix, RC Logit IV considers a conservative upper bound on the heterogeneity 
+in fuel cost valuation for other reasons than mileage.
+
+--- PAGE 27 ---
+VOL. 10 NO. 3
+219
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+of an increased awareness of the negative effects of diesel on local air quality, 
+despite the lower ​CO​2​ emissions.31
+Table 6 shows the effects of a €0.50 gasoline and/or diesel fuel tax for the full 
+random coefficients logit model. A €0.50 gasoline fuel tax increase would increase 
+the diesel market share by 13.7 percentage points. This results in a disproportionate 
+reduction of gasoline fuel usage by 40.5 percent and in an increase of diesel fuel 
+usage by 24.2 percent. Conversely, a €0.50 diesel fuel tax increase would reduce 
+the diesel market share by 12.3 percent, which results in a disproportionate reduc-
+tion of diesel fuel usage by 37.8 percent and in an increase in gasoline fuel usage 
+of 27.7 percent. There is a disproportionately greater impact on fuel usage than on 
+market shares because especially the high mileage consumers substitute in response 
+to the taxes. As a robustness check (online Appendix Table B.8), we performed the 
+same counterfactuals for RC Logit III (which includes a random coefficient for fuel 
+type). We obtain similar conclusions, though the substitution between fuel types 
+is lower. Finally, note that the shifts between fuel types are correspondingly much 
+smaller in a logit model without mileage heterogeneity (not shown).
+In sum, a discriminatory fuel tax can imply a considerable shift in usage between 
+fuel types due to the presence of mileage heterogeneity. This finding may also be 
+relevant for policies toward other fuels (such as methanol).
+Do Discriminatory Taxes Explain the Diesel Market Share in Europe?—We now 
+take a different perspective, and ask to which extent the observed discriminatory fuel 
+taxes and differences in fuel consumption can explain the market share of diesel cars 
+across different European countries over time. This serves as a further ­examination 
+of the implications of our model and is also of independent interest in light of the 
+importance of diesel cars in Europe.
+Table 7 shows the results. The first three columns show the currently observed 
+gaps in fuel prices and fuel consumption between gasoline and diesel cars, and the 
+diesel market shares in the seven countries in 1998 and 2011. Diesel fuel was on 
+average $0.50 per liter less expensive than gasoline fuel in 1998. The highest die-
+sel fuel discounts applied in Belgium, France, and the Netherlands (€0.25–€0.29 
+31 Miravete, Moral, and Thurk (forthcoming) stresses these negative environmental effects of diesel fuel, and 
+analyzes how the favorable fuel taxation toward diesel cars in Europe may have protected European firms from 
+foreign competition. 
+Table 6—The Effect of a Fuel Tax on Gasoline and Diesel Separately
+Fuel usage
+Diesel share
+All cars percentage 
+change
+Gasoline cars 
+percent change
+Diesel cars 
+percent change
+Percentage 
+point change
+Fuel tax, gasoline only
+−9.7
+−40.5
+24.2
+13.7
+Fuel tax, diesel only
+−3.5
+27.7
+−37.8
+−12.3
+Fuel tax, gas and diesel
+−16.8
+−21.8
+−11.4
+2.4
+Notes: The table reports the effect of a discriminatory €0.50 fuel tax for gasoline and diesel cars on total fuel usage. 
+The simulations are based on the parameter estimates of RC Logit II in Table 3. The figures refer to Germany in 
+2011.
+
+--- PAGE 28 ---
+220	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+per liter), while there was no discount in the United Kingdom. The gap between 
+the gasoline and diesel fuel price somewhat narrowed for all countries in 2011. 
+Furthermore, diesel cars had a lower average fuel consumption of about 
+2 L/100 km in 1998, and this advantage further improved in 2011. The lower fuel 
+price and lower fuel consumption coincides with market shares for diesel cars in the 
+range of 15–52 percent in 1998, and 30–75 percent in 2011.
+The last three columns show how the diesel market share would change if the fuel 
+price gap and fuel consumption gap were eliminated. If the price of diesel fuel would 
+be harmonized to the level of gasoline fuel in 1998, the market share of diesel cars 
+would have been 7–11 percent lower (with the exception of the United Kingdom, 
+where there was no fuel price gap). If, in addition, the fuel consumption of diesel 
+and gasoline cars would be equalized, the market share of diesel cars would have 
+been an additional 5–13 percent lower. In 1998, both factors together explain about 
+40 percent of the diesel market share in Belgium, the United Kingdom, and Spain, 
+an even larger fraction of 53 percent in France and Italy, and 67 percent in Germany 
+and the Netherlands.32 By 2011, the importance of both factors in explaining the 
+diesel market share has diminished because the gap between gasoline and diesel 
+fuel prices narrowed, while diesel cars further gained in popularity. Nevertheless, 
+32 Note that our model explains a considerably larger part of the diesel market share than Linn (2014), who does 
+not allow for heterogeneous consumer responses to fuel costs. 
+Table 7—Explaining the Diesel Market Shares across Countries
+Current situation
+Change in diesel share: Equalization of
+Fuel 
+price gap
+Fuel cons. 
+gap
+Diesel share 
+percent
+Fuel price 
+percent
+Fuel cons. 
+percent
+Both 
+percent
+Panel A. Year 1998
+Belgium
+−0.25
+−1.91
+52
+−10
+−11
+−21
+France
+−0.26
+−2.04
+38
+−11
+−9
+−20
+Germany
+−0.22
+−2.35
+15
+−5
+−5
+−10
+Great Britain
+0.00
+−2.24
+15
+0
+−6
+−6
+Italy
+−0.19
+−2.08
+21
+−7
+−6
+−13
+Netherlands
+−0.29
+−2.12
+21
+−8
+−6
+−14
+Spain
+−0.11
+−1.85
+51
+−9
+−13
+−21
+Panel B. Year 2011
+Belgium
+−0.24
+−2.01
+75
+−4
+−16
+−20
+France
+−0.19
+−1.81
+69
+−4
+−13
+−16
+Germany
+−0.16
+−2.23
+46
+−4
+−14
+−18
+Great Britain
+0.04
+−2.04
+50
+2
+−14
+−12
+Italy
+−0.13
+−2.05
+56
+−3
+−14
+−18
+Netherlands
+−0.28
+−2.22
+30
+−5
+−12
+−15
+Spain
+−0.07
+−2.08
+69
+−2
+−15
+−17
+Notes: The table reports: in the first three columns, the currently observed gaps in fuel prices and fuel consump-
+tion between gasoline and diesel cars, and the diesel market shares in the seven countries of our dataset in 1998 
+(panel A) and 2011 (panel B); in the last three columns, how the diesel market share would change if the fuel price 
+gap and fuel consumption gap were eliminated. The simulations are based on the parameter estimates of RC Logit 
+II in Table 3.
+
+--- PAGE 29 ---
+VOL. 10 NO. 3
+221
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+­discriminatory fuel taxes and differences in fuel consumption still explain about 30 
+percent of the diesel market share across countries.33
+B. Welfare Effects
+We now compare the welfare impact of a fuel tax and a product tax. Total welfare 
+is the sum of tax revenues, consumer surplus, and the environmental externalities 
+from car usage.34 Following Allcott (2013), when consumers may undervalue future 
+fuel costs, consumer surplus is the sum of decision consumer surplus (the usual 
+consumer surplus, at the level of the undervaluation parameter ​γ​) and belief error 
+(the difference between actual and perceived spending on fuel costs); see online 
+Appendix A.3 for details.
+The impact of the taxes on tax revenues and on consumer surplus can be directly 
+computed from our demand estimates. To compute the impact on the environmental 
+externalities, we proceed as follows. First, we calculate the externality per liter of 
+fuel that justifies the current fuel tax levels (based on the first-order conditions for 
+welfare maximization), and we find this to be in the range of 1€ to 1.04€ per liter, 
+depending on the specification.35 Next, we assume the perceived public awareness 
+of the externality per liter increases, and then compare the impact of a fuel increase 
+with the impact of an “externality-neutral” product tax increase, i.e., a product tax 
+increase that achieves the same level of externality reduction.
+Table 8 shows the results. We provide a comparison between the simple logit 
+benchmark and the base specification (RC logit II), which accounts for mileage 
+and other consumer heterogeneity. Panel A considers a first scenario: the impact of 
+a tax increase after a general increase in the externality by €0.20 (say because of 
+an increase in car congestion). In the logit model without mileage heterogeneity, a 
+fuel tax and a product tax perform equally well: they would both raise welfare by 
+265 million euro. There is, however, a difference in the sources behind these gains. 
+Under a fuel tax, there is a larger increase in tax revenues than under a product tax 
+(+1,565 million euro versus +954 million euro). But at the same time, consumers 
+experience extra losses from their belief error (the so-called internality by Allcott 
+2013), while these losses go down under a product tax. Intuitively, a fuel tax raises 
+more tax revenues, but consumers are partly unaware of these extra taxes and the 
+overall impact of both taxes is the same.
+In the random coefficients model, a fuel tax performs considerably better than an 
+externality neutral product tax in correcting for the increased externality: it raises total 
+welfare by 186 million euro, versus only by 112 million euro for the product tax. This 
+is essentially due to the much lower impact of a fuel tax on decision consumer surplus 
+33 In the online Appendix (Table B.9), we show the results in an extended model with an additional random 
+coefficient on fuel type (RC logit III). The results are qualitatively the same, but the magnitudes are smaller because 
+consumers substitute less between fuel types. 
+34 To simplify the exposition, we assume car prices are set competitively, so that there is no producer surplus. 
+Our results are similar if we consider multiproduct Bertrand-Nash pricing with constant marginal costs. 
+35 This is higher but of comparable order of magnitude than outside estimates of externality costs, which attempt 
+to directly estimate the cost of ​CO​2​ and other emissions, congestion costs, and accident externalities. For example, 
+a recent IMF report (Parry et al. 2014) estimates the total externality to be €0.58 for gasoline and €0.82 for diesel 
+in Germany 2010, and €0.72 for gasoline and €0.95 for diesel in France.
+
+--- PAGE 30 ---
+222	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+(which decreases by only 3.4 billion euro versus 5.3 billion euro under a product tax) 
+because a lower tax amount is required to achieve the same externality reduction when 
+there is mileage heterogeneity. Intuitively, this is because fuel taxes directly target the 
+high mileage consumers, while product taxes affect all consumers in the same way.
+Panel B of Table 8 considers an alternative scenario: the impact of a diesel tax 
+increase after an increase in the externality of diesel cars. This reflects current pol-
+icy awareness that diesel cars are not less polluting than gasoline cars (in terms of ​
+CO​2​ emissions), but actually are likely more polluting (because of ​NO​x​ and other 
+emissions). To keep the analysis simple, we separately calculate the externality per 
+usage of gasoline and diesel that rationalize the current gasoline and diesel taxation 
+and then we raise the externality usage of diesel to the same level of gasoline. The 
+results give a similar picture: taxing diesel fuel or diesel cars has the same impact on 
+welfare in the absence of mileage heterogeneity, but taxing diesel fuel is much more 
+preferable than taxing diesel cars under mileage heterogeneity.
+In sum, these findings show that it is generally preferable to impose fuel taxes 
+than product taxes to correct for usage externalities, even when usage demand itself 
+is perfectly inelastic.
+VI.  Conclusion
+We have analyzed to which extent car buyers undervalue future fuel costs, and 
+what this implies for the effectiveness of alternative tax policies. We specifically 
+Table 8—The Welfare Effects of a Fuel Tax versus a Product Tax
+Change in Mln euro:
+Revenue
+Consumer 
+surplus
+Belief error 
+(internality)
+Externality
+Welfare
+Panel A. General externality increase and corrective taxes
+Logit (​γ  =  0.89​)
+Fuel tax
+1,565
+−335
+−116
+2,165
+265
+Product tax
+954
+−335
+496
+2,165
+265
+RC Logit II (​γ  =  0.91​)
+Fuel tax
+2,246
+−3,409
+−234
+1,584
+186
+Product tax
+3,512
+−5,294
+310
+1,584
+112
+Panel B. Diesel externality increase and corrective diesel taxes
+Logit (​γ  =  0.89​)
+Fuel tax
+1,009
+−1,389
+−107
+632
+146
+Product tax
+761
+−1,389
+141
+632
+146
+RC Logit II (​γ  =  0.91​)
+Fuel tax
+1,555
+−1,547
+−185
+364
+187
+Product tax
+2,579
+−2,923
+30
+364
+50
+Notes: The table reports the effects of a €0.50 fuel tax and an externality-neutral product tax on welfare. Welfare 
+changes are the sum of changes in tax revenues, decision consumer surplus, belief error, and the environmental 
+externality. Panel A considers the effect of an increase in the price of fuel by €0.20, and an increase in the external-
+ity by €0.20 above the level that justifies the current fuel tax. Panel B considers the effect of an increase in the price 
+of diesel by €0.20, and an increase in the perceived externality of diesel up to the level of that justifies the current 
+gasoline tax. The simulations are based on the parameter estimates of RC Logit II in Table 3. The figures refer to 
+Germany in 2011.
+
+--- PAGE 31 ---
+VOL. 10 NO. 3
+223
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+demonstrated the importance of accounting for consumer heterogeneity in car utili-
+zation and other dimensions.
+To estimate the demand model, we used detailed data at the level of the car model 
+and engine variant for a panel of seven European countries during 1998–2011. The 
+institutional features of the European car market provided a new way to identify 
+consumer responses to fuel costs, because for most car models consumers can 
+choose between either a gasoline or diesel engine. To empirically identify consumer 
+responses to fuel costs, we thus exploit fuel price variation by fuel type (i.e., gaso-
+line or diesel) across countries and over time, interacted with variation in fuel con-
+sumption across products.
+We find evidence of only modest undervaluation of future fuel costs. To obtain 
+this estimate, it was important to account for both mileage heterogeneity and hetero-
+geneity in the valuation of other car characteristics. We then draw implications for 
+the effectiveness of fuel taxes versus product taxes (based on a car’s fuel consump-
+tion). Despite the modest undervaluation, we find that a fuel tax is more effective 
+in reducing fuel usage than a revenue-equivalent product tax on fuel consumption 
+because it specifically targets the high mileage consumers to substitute to cars with 
+a lower fuel consumption. Discriminatory taxes by fuel type lead to disproportion-
+ately larger shifts in fuel type usage than in market shares, because they especially 
+target high mileage consumers. Furthermore, we find that fuel taxes perform much 
+better in terms of total welfare to achieve a same level of externality reduction.
+Because our framework makes use of aggregate demand data, it can be used to 
+address a variety of other environmental questions based on datasets for many coun-
+tries over a long time period. In future research, it would therefore be interesting to 
+apply our framework to investigate the effects of specific policies that countries have 
+followed over the past years.
+REFERENCES
+Adamou, Adamos, Sofronis Clerides, and Theodoros Zachariadis. 2014. “Welfare Implications of Car 
+Feebates: A Simulation Analysis.” Economic Journal 124 (578): F420–43.
+Allcott, Hunt. 2013. “The Welfare Effects of Misperceived Product Costs: Data and Calibrations from 
+the Automobile Market.” American Economic Journal: Economic Policy 5 (3): 30–66.
+Allcott, Hunt, and Michael Greenstone. 2012. “Is There an Energy Efficiency Gap?” Journal of Eco-
+nomic Perspectives 26 (1): 3–28.
+Allcott, Hunt, Sendhil Mullainathan, and Dmitry Taubinsky. 2014. “Energy policy with externalities 
+and internalities.” Journal of Public Economics 112: 72–88.
+Allcott, Hunt, and Nathan Wozny. 2014. “Gasoline Prices, Fuel Economy, and the Energy Paradox.” 
+Review of Economics and Statistics 96 (5): 779–95.
+Alquist, Ron, Lutz Kilian, and Robert J. Vigfusson. 2013. “Forecasting the Price of Oil.” In Handbook 
+of Economic Forecasting, Vol. 2A, edited by Graham Elliott and Allan Timmermann, 427–507. 
+Amsterdam: North-Holland.
+Anderson, Soren T., Ryan Kellogg, and James M. Sallee. 2013. “What do consumers believe about 
+future gasoline prices?” Journal of Environmental Economics and Management 66 (3): 383–403.
+Baltagi, Badi H. 1994. Econometric Analysis of Panel Data. 1st ed. Chichester, UK: John Wiley and 
+Sons.
+Bento, Antonio M., Lawrence H. Goulder, Mark R. Jacobsen, and Roger H. von Haefen. 2009. “Dis-
+tributional and Efficiency Impacts of Increased US Gasoline Taxes.” American Economic Review 
+99 (3): 667–99.
+Bento, Antonio M., Shanjun Li, and Kevin Roth. 2012. “Is there an energy paradox in fuel economy? 
+A note on the role of consumer heterogeneity and sorting bias.” Economics Letters 115 (1): 44–48.
+
+--- PAGE 32 ---
+224	
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY
+AUGUST 2018
+Berry, Steven T. 1994. “Estimating Discrete-Choice Models of Product Differentiation.” RAND Jour-
+nal of Economics 25 (2): 242–62.
+Berry, Steven, James Levinsohn, and Ariel Pakes. 1995. “Automobile Prices in Market Equilibrium.” 
+Econometrica 63 (4): 841–90.
+Berry, Steven, James Levinsohn, and Ariel Pakes. 1999. “Voluntary Export Restraints on Automobiles: 
+Evaluating a Trade Policy.” American Economic Review 89 (3): 400–430.
+Busse, Meghan R., Christopher R. Knittel, and Florian Zettelmeyer. 2013. “Are Consumers Myopic? 
+Evidence from New and Used Car Purchases.” American Economic Review 103 (1): 220–56.
+Chamberlain, Gary. 1987. “Asymptotic efficiency in estimation with conditional moment restrictions.” 
+Journal of Econometrics 34 (3): 305–34.
+Chugh, Randy, Maureen Cropper, and Urvashi Narain. 2011. “The cost of fuel economy in the Indian 
+passenger vehicle market.” Energy Policy 39 (11): 7174–83.
+Department for Transport. 2013. “National Travel Survey.” https://www.gov.uk/government/collec-
+tions/national-travel-survey-statistics.
+D’Haultfœuille, Xavier, Pauline Givord, and Xavier Boutin. 2014. “The Environmental Effect of Green 
+Taxation: The Case of the French Bonus/Malus.” Economic Journal 124 (578): F444–80.
+Feng, Ye, Don Fullerton, and Li Gan. 2013. “Vehicle choices, miles driven, and pollution policies.” 
+Journal of Regulatory Economics 44 (1): 4–29.
+Fullerton, Don, and Sarah E. West. 2002. “Can Taxes on Cars and on Gasoline Mimic an Unavailable 
+Tax on Emissions?” Journal of Environmental Economics and Management 43 (1): 135–57.
+Fullerton, Don, and Sarah E. West. 2010. “Tax and Subsidy Combinations for the Control of Car Pol-
+lution.” B.E. Journal of Economic Analysis and Policy 10 (1): Article 3.
+Gillingham, Kenneth. 2012. “Selection on Anticipated Driving and the Consumer Response to Chang-
+ing Gasoline Prices.” http://www.idep.eco.usi.ch/paper-gillingham-186992.pdf.
+Goldberg, Pinelopi Koujianou. 1998. “The Effects of the Corporate Average Fuel Efficiency Standards 
+in the US.” Journal of Industrial Economics 46 (1): 1–33.
+Goldberg, Pinelopi Koujianou, and Rebecca Hellerstein. 2013. “A Structural Approach to Identify-
+ing the Sources of Local Currency Price Stability.” Review of Economic Studies 80 (1): 175–210.
+Goldberg, Pinelopi K., and Frank Verboven. 2005. “Market integration and convergence to the Law of 
+One Price: Evidence from the European car market.” Journal of International Economics 65 (1): 
+49–73.
+Greene, David L. 2010. How Consumers Value Fuel Economy: A Literature Review. U.S. Environmen-
+tal Protection Agency. Oak Ridge, TN, March.
+Grigolon, Laura, Mathias Reynaert, and Frank Verboven. 2018. “Consumer Valuation of Fuel Costs 
+and Tax Policy: Evidence from the European Car Market: Dataset.” American Economic Journal: 
+Economic Policy. https://doi.org/10.1257/pol.20160078.
+Hausman, Jerry A. 1979. “Individual Discount Rates and the Purchase and Utilization of Energy-Us-
+ing Durables.” Bell Journal of Economics 10 (1): 33–54.
+Helfand, Gloria, and Ann Wolverton. 2011. “Evaluating the Consumer Response to Fuel Economy: A 
+Review of the Literature.” International Review of Environmental and Resource Economics 5 (2): 
+103–46.
+Hughes, Jonathan E., Christopher R. Knittel, and Daniel Sperling. 2008. “Evidence of a Shift in the 
+Short-Run Price Elasticity of Gasoline Demand.” Energy Journal 29 (1): 113–34.
+Huse, Cristian, and Claudio Lucinda. 2014. “The Market Impact and the Cost of Environmental Pol-
+icy: Evidence from the Swedish Green Car Rebate.” Economic Journal 124 (578): F393–419.
+Innes, Robert. 1996. “Regulating Automobile Pollution under Certainty, Competition, and Imperfect 
+Information.” Journal of Environmental Economics and Management 31 (2): 219–39.
+International Energy Agency (IEA). 1998–2011. Energy Prices and Taxes. Paris: Organisation for 
+Economic Co-operation and Development.
+Jacobsen, Mark R. 2013. “Evaluating US Fuel Economy Standards in a Model with Producer and 
+Household Heterogeneity.” American Economic Journal: Economic Policy 5 (2): 148–87.
+Jacobsen, Mark R., and Arthur A. van Benthem. 2015. “Vehicle Scrappage and Gasoline Policy.” 
+American Economic Review 105 (3): 1312–38.
+Jacobsen, Mark R., Christopher R. Knittel, James M. Sallee, and Arthur A. van Benthem. 2016. “Suf-
+ficient Statistics for Imperfect Externality-Correcting Policies.” National Bureau of Economic 
+Research (NBER) Working Paper 22063.
+Jaffe, Adam B., and Robert N. Stavins. 1994. “The energy paradox and the diffusion of conservation 
+technology.” Resource and Energy Economics 16 (2): 91–122.
+Klier, Thomas, and Joshua Linn. 2010. “The Price of Gasoline and New Vehicle Fuel Economy: Evi-
+dence from Monthly Sales Data.” American Economic Journal: Economic Policy 2 (3): 134–53.
+
+--- PAGE 33 ---
+VOL. 10 NO. 3
+225
+GRIGOLON ET AL.: CONSUMER VALUATION OF FUEL COSTS AND TAX POLICY
+Klier, Thomas, and Joshua Linn. 2015. “Using Taxes to Reduce Carbon Dioxide Emissions Rates 
+of New Passenger Vehicles: Evidence from France, Germany, and Sweden.” American Economic 
+Journal: Economic Policy 7 (1): 212–42.
+Knittel, Christopher R., and Ryan Sandler. Forthcoming. “The Welfare Impact of Indirect Pigouvian 
+Taxation: Evidence from Transportation.” American Economic Journal: Economic Policy.
+Langer, Ashley, and Nathan H. Miller. 2013. “Automakers’ Short-Run Responses to Changing Gaso-
+line Prices.” Review of Economics and Statistics 95 (4): 1198–1211.
+Li, Shanjun, Christopher Timmins, and Roger H. von Haefen. 2009. “How Do Gasoline Prices Affect 
+Fleet Fuel Economy?” American Economic Journal: Economic Policy 1 (2): 113–37.
+Linn, Joshua. 2014. “Explaining the Adoption of Diesel Fuel Passenger Cars in Europe.” MIT Center 
+for Energy and Environment Policy Research (CEEPR) Working Paper 2014-003.
+Miravete, Eugenio J., Maria J. Moral, and Jeff Thurk. Forthcoming. “Protecting the European Auto-
+mobile Industry through Environmental Regulation: The Adoption of Diesel Engines.” RAND Jour-
+nal of Economics.
+Nevo, Aviv. 2000. “A Practitioner’s Guide to Estimation of Random-Coefficients Logit Models of 
+Demand.” Journal of Economics and Management Strategy 9 (4): 513–48.
+Parry, Ian, Dirk Heine, Eliza Lis, and Shajun Li. 2014. Getting Energy Prices Right: From Principle 
+to Practice. Washington, DC: International Monetary Fund.
+Petrin, Amil. 2002. “Quantifying the Benefits of New Products: The Case of the Minivan.” Journal of 
+Political Economy 110 (4): 705–29.
+Reynaert, Mathias, and Frank Verboven. 2014. “Improving the performance of random coefficients 
+demand models: The role of optimal instruments.” Journal of Econometrics 179 (1): 83–98.
+Sallee, James M. 2014. “Rational Inattention and Energy Efficiency.” Journal of Law and Economics 
+57 (3): 781–820.
+Sallee, James M., Sarah E. West, and Wei Fan. 2016. “Do consumers recognize the value of fuel econ-
+omy? Evidence from used car prices and gasoline price fluctuations.” Journal of Public Econom-
+ics 135: 61–73.
+Verboven, Frank. 2002. “Quality-Based Price Discrimination and Tax Incidence: Evidence from Gas-
+oline and Diesel Cars.” RAND Journal of Economics 33 (2): 275–97.

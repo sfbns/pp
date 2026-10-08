@@ -1,0 +1,3291 @@
+==============================================================================
+【文献】Barwick, Kwon & Li (2024). Attribute-Based Subsidies and Market Power: An Application to Electric Vehicles. NBER Working Paper w32264 (March 2024).
+【编号】A09　【简称】BKL2024　【分组】供给侧
+【原文 PDF】D:\codex\output\blp_bundle_20261007\package\01_existing_fuel_batch\original_pdfs\P02_w32264.pdf
+【页数】57 页　【页码换算】印刷页码 = PDF 页码 − 2（前 2 页为封面或前置页）
+【文本来源】PyMuPDF 抽取 PDF 文字层（按版面块排序）
+【公式校正】9 条，按页附在对应页末（以「公式校正」标出），LaTeX 书写，均已对照原页图
+【校正说明】NBER w32264（2024 年 3 月）文字层干净，公式被抽成碎片。下列各式本轮看原页图转写，与 2026-08-24 的 300 dpi 转写表一致（该表把式 (9) 记在 PDF 第 21 页，实际在第 22 页）。本文价格系数 \alpha_i 为正，以 -\alpha_i(\tilde P-b) 进入效用。含税消费者价格的定义式 (7) 在前文数据部分，本包未校正。
+【核对页图】D:\blp-auto-fulltext-pack-20261008\work\pages\A09_pNN.png（本轮渲染）；本包 核对页图\ 文件夹内有副本
+【使用提醒】正文是机器抽取的原文，不是译文；公式区以页末校正或原 PDF 为准。页标记中的 PDF 页码可直接用于在原 PDF 中翻页定位。
+==============================================================================
+
+===== [PDF 第 1 页] =====
+                  NBER WORKING PAPER SERIES
+
+
+
+
+
+           ATTRIBUTE-BASED SUBSIDIES AND MARKET POWER:
+             AN APPLICATION TO ELECTRIC VEHICLES
+
+                                    Panle Jia Barwick
+                                Hyuk-Soo Kwon
+                                     Shanjun Li
+
+                              Working Paper 32264
+                            http://www.nber.org/papers/w32264
+
+
+             NATIONAL BUREAU OF ECONOMIC RESEARCH
+                            1050 Massachusetts Avenue
+                                Cambridge, MA 02138
+                                 March 2024
+
+
+We thank seminar participants at the 2021 Econometrica Society Summer Meeting, 2022 NBER
+EEE summer institute, Berkeley-Harvard-Yale joint environmental economics seminar, Caltech,
+Chicago IO+ Conference, Columbia University, ETH Zurich, ITAM, Jinan University, Michigan
+State University, Peking University, Santa Clara University, Stanford, Stony Brook University,
+Sun Yat-Sen University, Toulouse School of Economics, Tsinghua University, UC-Berkeley,
+UCLA,  University  of Aberdeen,  University  of  British Columbia,  University  of Chicago,
+University of Mannheim, University of Oklahoma, University of Pennsylvania, Toronto, UT-
+Austin, UW- Madison, Virtual International Seminar in Environmental and Energy Economics,
+and Zhejiang University as well as Hunt Allcott, Luming Chen, Jack Collison, Pierre Dubois,
+Larry Goulder, Sébastien Houde, Koichiro Ito, Mark Jacobsen, Ryan Kellogg, Youming Liu,
+Charles Murry,  Francesca  Molinari, James  Sallee,  Binglin Wang, Yucheng Wang, Tom
+Wollmann, and Tianli Xia for helpful comments. Jinge Li, Yiding Ma, and Binglin Wang
+provided excellent research assistance. There is no relevant materials and financial relationship to
+disclose. The views expressed herein are those of the authors and do not necessarily reflect the
+views of the National Bureau of Economic Research.
+
+NBER working papers are circulated for discussion and comment purposes. They have not been
+peer-reviewed or been subject to the review by the NBER Board of Directors that accompanies
+official NBER publications.
+
+© 2024 by Panle Jia Barwick, Hyuk-Soo Kwon, and Shanjun Li. All rights reserved. Short
+sections of text, not to exceed two paragraphs, may be quoted without explicit permission
+provided that full credit, including © notice, is given to the source.
+
+===== [PDF 第 2 页] =====
+Attribute-based Subsidies and Market Power: an Application to Electric Vehicles
+Panle Jia Barwick, Hyuk-Soo Kwon, and Shanjun Li
+NBER Working Paper No. 32264
+March 2024
+JEL No. L13,L52,L62,Q58
+
+                         ABSTRACT
+
+Attribute-based subsidies (ABS) are commonly used to promote the diffusion of energy-efficient
+products, whose manufacturers often wield significant market power. We develop a theoretical
+framework  for the optimal design of ABS  to account  for endogenous product  attributes,
+environmental externalities, and market power. We then estimate an equilibrium model of China's
+vehicle market under ABS and conduct counterfactual simulations to evaluate the welfare
+impacts of various subsidy designs. Compared to the uniform subsidies, ABS lead to higher
+product quality and are more effective in mitigating quantity distortions, albeit with a modest
+environmental cost. Between 42% to 62% of welfare gains under ABS relative to uniform
+subsidies are attributed to more desirable product attributes, with the remainder explained by
+reductions in market power distortions. Allowing subsidy redistribution through product-level
+subsidies, as suggested by our theoretical model, further enhances welfare gains by an additional
+34%to 62%. Among the ABS designs, China's notched subsidy design based on driving range
+leads  to vehicle downsizing  that undermines welfare  benefits. Subsidies based on battery
+capacity, as implemented in the U.S., achieve the highest welfare gains by effectively balancing
+market power and environmental impacts.
+
+Panle Jia Barwick                                  Shanjun Li
+University of Wisconsin-Madison                       Cornell University
+Department of Economics                          405 Warren Hall
+1180 Observatory Dr                                       Ithaca, NY 14853
+Madison, WI 53706                                and NBER
+and CEPR                                        SL2448@cornell.edu
+and also NBER
+panle.barwick@gmail.com
+
+Hyuk-Soo Kwon
+Stanford Institute for Economic Policy Research
+Stanford University
+hskwon.econ@gmail.com
+
+
+
+
+
+A data appendix is available at http://www.nber.org/data-appendix/w32264
+
+===== [PDF 第 3 页｜印刷第 1 页] =====
+1  Introduction
+
+
+Attribute-based regulations are common across industries and countries, where the intensity of reg-
+
+ulations is contingent upon speciﬁc attributes of the entities being regulated. Prominent examples
+
+in the environmental and energy areas include Corporate Average Fuel Economy Standards for
+
+passenger vehicles, the New Source Review Program for power plants, and consumer subsidies for
+
+energy efﬁcient products (Stavins, 2006). While existing research has investigated the advantages
+
+of attribute-based regulations (Ito and Sallee, 2018; Kellogg, 2018), the literature has largely ab-
+
+stracted away from ﬁrms’ market power, a common feature in markets subject to attribute-based
+
+regulations. Our paper bridges this gap and analyzes both theoretically and empirically the optimal
+
+design of attribute-based subsidies (ABS), one type of attribute-based regulations, in oligopolistic
+
+industries. To the best of our knowledge, our framework represents the ﬁrst attempt in the literature
+
+to incorporate three key features — namely market power, externalities, and endogenous attributes
+
+of products by multi-product ﬁrms — in the context of attribute-based policy design.
+
+  ABS in our setting take the form of a two-part subsidy (i.e., a two-part tariff): a base sub-
+
+sidy that is the same across products and a variable subsidy that is tied to product attributes. This
+
+is common in practice and standard in the theoretical literature. Our theoretical analyses begin
+
+by considering an ideal benchmark where a government can perfectly target the environmental
+
+externality and faces no budget constraints, and there is a single-product monopoly. It is straight-
+
+forward to show that the government can achieve the ﬁrst-best social outcome with a Pigouvian
+
+policy design, where the base subsidy fully addresses quantity distortion, and the variable subsidy
+
+corrects environmental externality. In practice, all three assumptions are likely violated. Environ-
+
+mental externality may be hard to quantify and target, governments face limited budgets, and many
+
+industries are characterized by differentiated product oligopolies.
+
+  When a government has a limited budget, it is sub-optimal to tie the variable subsidy to en-
+
+vironmental externality as prescribed by the traditional Pigouvian subsidy. This would entail a
+
+limited base subsidy to address market power distortions when the budget constraint is binding.
+
+We show that the optimal policy design for a single-product monopoly is characterized by the
+
+contract curve between the social surplus indifference curves and the private surplus indifference
+
+curves in the product attribute space. Under multi-product oligopolies, optimality conditions re-
+
+quire higher subsidies to products that exhibit potentially high welfare gains for the marginal unit
+
+and products whose demand is more responsive to subsidies in order to equalize the marginal social
+
+surplus generated by each subsidy dollar across all products.
+
+   The theoretical characterization of optimal policy design crucially hinges on the underlying
+
+consumer preferences and production technology. With the theoretical insights in hand, we turn to
+
+
+                                       1
+
+===== [PDF 第 4 页｜印刷第 2 页] =====
+the empirical analysis of the market for electric vehicles (EVs). Together with a cleaner electricity
+
+grid, EVs offer considerable promise for reducing carbon emissions and local air pollution. Many
+
+governments have provided generous consumer purchase subsidies, with global public spending on
+
+consumer EV subsidies approaching $30 billion in 2021 (IEA, 2022). The design of these subsidies
+
+varies across countries. Some countries tie the subsidy amount to vehicle attributes, such as driving
+
+range in China and Japan, battery capacity in the U.S. and India, and vehicle size and weight in
+
+South Korea. Other countries offer uniform subsidies, as seen in Germany, the Netherlands, and
+
+Sweden. Our analysis focuses on China, by far the world’s largest automobile and EV market,
+
+accounting for 40% of global new passenger vehicle sales and 60% of global EV sales in 2022.
+
+  We estimate an equilibrium model of the Chinese automobile market by extending the frame-
+
+work in Berry et al. (1995) to incorporate endogenous attributes. Our model allows ﬁrms to change
+
+product designs in response to subsidy schemes, which is a crucial factor in the welfare impacts
+
+and policy comparisons. The demand side captures rich consumer preference heterogeneity and
+
+controls for extensive ﬁxed effects to capture local variations that affect demand for EVs and ICEs.
+
+On the supply side, ﬁrms choose prices and design vehicle attributes (battery capacity and vehicle
+
+weight net of battery) for EVs to maximize proﬁts. Crucially, both the marginal and ﬁxed cost of
+
+production depend on vehicle attributes.
+
+   To estimate consumer preferences, we utilize China’s notched subsidy design, where the sub-
+
+sidy amount is a step-wise function of the driving range and varies across vehicle models and
+
+over time. This design creates a regression discontinuity type of variation that facilitates the iden-
+
+tiﬁcation of consumer preference.  In addition, we employ cost-side shifters as instruments for
+
+endogenous product attributes, such as information on battery suppliers which affects costs but are
+
+unlikely to directly affect demand. On the supply side, we use variation in prices (after controlling
+
+for markups) and the attributes chosen by ﬁrms to recover the curvature of the variable and ﬁxed
+
+cost of production with respect to attributes. Variations in various taxes and demand shifters serve
+
+as powerful instruments for product attributes that could be correlated with cost shocks.
+
+   With model primitives estimated, we next conduct counterfactual simulations to compare the
+
+uniform subsidy (which does not target attributes) with commonly used ABS, such as those based
+
+on driving range, battery capacity, and vehicle weight. Solving the industry equilibrium for a given
+
+policy design requires ﬁnding new prices for hundreds of EVs and ICEs as well as new attributes
+
+for all EVs. Searching for the optimal policy design that maximizes social surplus necessitates
+
+solving the industry equilibrium hundreds of times. To address computational challenges, we
+
+design an iterative Newton–Raphson algorithm that greatly speeds up the solution process.
+
+   Our counterfactual simulations provide several key ﬁndings.  First, China’s notched subsidy
+
+
+
+                                       2
+
+===== [PDF 第 5 页｜印刷第 3 页] =====
+design leads to a large welfare loss relative to a linear subsidy, consistent with ﬁndings in the public
+
+ﬁnance literature. Compared to a linear subsidy, the current policy generates excess bunching at
+
+the range cutoffs and distorts automakers’ choices of vehicle weight and battery capacity to reach
+
+the cutoffs. On the other hand, it provides no incentives for ﬁrms to improve the driving range
+
+between the cutoffs.
+
+   Second, ABS generates signiﬁcant gains in consumer surplus relative to the uniform subsidy,
+ranging from ¥226 million in 2017 under the notched range-based design to ¥643 and ¥680
+
+million under capacity- and weight-subsidies, respectively. ABS induces more desirable vehicle
+
+attributes and more effectively addresses quantity distortions than the uniform subsidy. The in-
+
+crease in consumer surplus is relatively modest for range-based policies because it leads to vehicle
+
+downsizing, which is undesirable to consumers.  Firms producing BEVs also beneﬁt from the
+
+ABS design that redistributes subsidies from the low-end spectrum of the vehicle attribute space
+
+to the high-end spectrum, though such proﬁt gains are an order of magnitude smaller than in-
+
+creases in consumer surplus and are more than offset by proﬁt losses of ICEs. The environmental
+
+performance of the EV ﬂeet deteriorates moderately under ABS as sales shift to larger and less
+
+environmentally friendly EVs. In total, ABS designs result in signiﬁcant welfare gains compared
+to the uniform subsidy, ranging from ¥97.2 million under the current notched range subsidy to
+¥448 million under the capacity subsidy in 2017.
+
+    Third, a decomposition exercise indicates that changes in vehicle attributes account for 42-
+
+62% of total welfare gains under ABS relative to the uniform subsidy. The reduction in market
+
+power distortions explains the remaining 38% to 58% of the welfare gains. Allowing subsidy
+
+redistribution at the product level, as suggested by the theoretical discussions, further enhances
+
+welfare gains by another 34% to 62%.  Fixing vehicle attributes, as is commonly done in the
+
+literature, signiﬁcantly understates aggregate welfare gains and leads to the erroneous conclusion
+
+that ﬁrm proﬁt increases for the auto sector. These ﬁndings underscore the role of endogenous
+
+product attributes in understanding the impacts of attribute-based subsidies.
+
+   Our study contributes to four strands of literature. First, our paper advances the emerging lit-
+erature on attribute-based regulations and imperfect corrective policies.1 Relative to non-attribute-
+
+based regulations, attribute-based regulations could exhibit efﬁciency advantages by reducing abate-
+
+ment costs across heterogeneous ﬁrms and mitigating demand uncertainty (Ito and Sallee, 2018;
+
+Kellogg, 2018, 2020). While the previous studies abstract away market power, our study con-
+
+tributes to this literature by examining the welfare implications of attribute-based regulations under
+
+   1Jacobsen et al. (2020) provides an intuitive and easy-to-implement method to quantify the efﬁciency loss from
+imperfect corrective policies under the perfectly competitive assumption: the R2 from a regression of true externalities
+on the policy attribute/variable measures the welfare gain from the imperfect policies relative to policy ideals.
+
+
+                                       3
+
+===== [PDF 第 6 页｜印刷第 4 页] =====
+imperfectly competitive markets.2 Both our theoretical model and empirical analysis highlight the
+
+important tradeoff between market power and environmental externalities in policy design.
+
+   Second, our study adds to the large literature on the effects of subsidies on energy-efﬁcient
+
+products, such as alternative-fuel vehicles (Beresteanu and Li, 2011; Sallee, 2011; Li et al., 2017a;
+
+Kiso, 2021; Springel, 2019; Remmy, 2022; Kwon, 2023; Wang and Xing, 2023), home appliances
+
+(Boomhower and Davis, 2014; Houde and Aldy, 2017), and residential solar panels (Gillingham
+
+and Tsvetanov, 2019; Pless and van Benthem, 2019; Langer and Lemoine, 2018). These studies
+
+focus on understanding demand responses to subsidies and identifying policy elements that could
+
+increase consumer and ﬁrm adoption. Unlike these studies, our analysis also examines the impact
+
+of subsidies on product attributes. Echoing the literature on endogenous attributes (Fan, 2013;
+
+Fan and Yang, 2016; Wollmann, 2018; Crawford et al., 2019; Barahona et al., 2023), our ﬁndings
+
+illustrate the important welfare and policy implications of ﬁrms’ ability to choose product designs
+
+in response to government policies.
+
+    Third, our study contributes to the literature that examines the impacts of government policies
+
+on the passenger vehicle market. Earlier studies have documented the changes in vehicle attributes
+
+and technology adoption in response to the U.S. fuel economy regulations (Knittel, 2011; Anderson
+
+et al., 2011; Klier and Linn, 2016). Our study is more closely related to studies that endogenize
+
+product attributes in response to the fuel economy and carbon emissions regulations or government
+
+bailout (Klier and Linn, 2012; Whitefoot et al., 2017; Wollmann, 2018; Reynaert, 2021; Leard et
+
+al., 2023). Our paper sheds light on the underlying forces of the optimal subsidy design in the
+
+presence of market power and multi-product oligopoly and compares equilibrium outcomes under
+
+different designs.
+
+    Lastly, our paper is related to the literature on pollution control in the presence of other dis-
+
+tortions. The literature shows that the efﬁciency of environmental taxes could be compromised by
+
+pre-existing distortions such as market power (Buchanan, 1969; Barnett, 1980), distortionary taxes
+
+(Bovenberg and Goulder, 1996; Goulder et al., 1997), and imperfect information and consumer
+
+inattention (Allcott and Taubinsky, 2015; Allcott and Sunstein, 2015). Our study is also closely re-
+
+lated to Fowlie et al. (2016), which documents that market-based emission regulations in the U.S.
+
+cement industry affect ﬁrm entry and exit, and exacerbate distortions from market power. Our pa-
+
+per contributes to this literature by emphasizing the importance of endogenous product attributes,
+
+which affect social welfare through both environmental externalities and quantity distortion.
+
+   The paper proceeds as follows. Section 2 presents the theoretical characterization of an optimal
+
+policy design. Section 3 explains the policy background and provides descriptive data evidence.
+
+  2A recent exception is Kiso (2021) which shows that a subsidy design where the amount of subsidy is inversely
+related to product prices could reduce ﬁrm market power and improve the cost-effectiveness of the subsidy program.
+
+
+                                       4
+
+===== [PDF 第 7 页｜印刷第 5 页] =====
+Section 4 and Section 5 discuss the empirical framework and estimation results. Section 6 conducts
+
+the counterfactual simulations and welfare decomposition. Section 7 concludes.
+
+
+2  Theoretical Framework
+
+
+In this section, we present a theoretical framework for optimal attribute-based subsidies to address
+
+environmental externalities in the presence of market power and endogenous attributes. As a key
+
+departure from the literature of pollution control under market power (Buchanan, 1969; Barnett,
+
+1980; Fowlie et al., 2016), ﬁrms respond to government policies by changing both prices and
+
+product attributes in our model. A product (e.g., an EV) is characterized by a K-element attribute
+vector x = (x1, x2, ... , xK). Both consumer willingness-to-pay (WTP) in monetary terms, B(x),
+and the marginal cost of production, C(x), depend on product attributes. The product generates
+environmental externalities represented as φ · e(x) per unit of output, where φ  is a scalar and
+reﬂects the marginal social beneﬁt or damage of the environmental externality. For EVs, e(x)
+represents emission reductions relative to the dirty alternatives and φ ·e(x) captures health beneﬁts
+and other positive externalities. The aggregate demand for the product is denoted by Q(P, x),
+
+where P is the product price.
+
+   Throughout the theoretical analysis, we assume that consumer WTP for the product attributes
+
+B(x) is additively separable from the price disutility in demand:
+
+
+                               Q(P, x) = Q P−B(x)  .
+
+
+This demand function is motivated by discrete choice models where utility depends on prices and
+
+attributes additively. Allowing for arbitrary interactions between B(x) and product prices P with
+
+multi-product oligopolies presents signiﬁcant challenges, with the equilibrium existence in this
+setting only recently established.3 As we illustrate below, the additive separability makes the ﬁrms’
+
+choices of prices and attributes independent and greatly simpliﬁes the model. Most importantly,
+
+it enables us to characterize the optimal policy design in the presence of market power, which has
+
+not been done in the literature. A limitation of the additivity assumption is that the marginal value
+
+of product attributes is the same across consumers, which rules out the Spence distortion in quality
+
+provision (Spence, 1975). While our theoretical model abstracts away from the Spence distortion,
+
+   3This is achieved in Chade and Swinkels (2021) under the assumptions of quasi-linear preferences and ranked
+production costs. That is, a low-quality ﬁrm has an advantage in producing low-quality goods, and a high-quality
+ﬁrm has an advantage in producing high-quality goods. In addition, consumers’ WTP for quality increases with their
+private type. Analyzing optimal policy design with general preferences and production technology remains an open
+question.
+
+
+                                       5
+
+===== [PDF 第 8 页｜印刷第 6 页] =====
+the empirical analysis adopts a much richer demand system that allows heterogeneous marginal
+
+values of product attributes across consumers. We discuss the importance of the Spence distortion
+
+for the counterfactual analyses in Section 6.
+
+   The theoretical analysis compares the privately and socially optimal outcomes and discusses
+
+the choice of policy instruments to rectify market failures with and without a government budget
+constraint.4 To build intuition, we ﬁrst analyze the baseline case of a single-product monopoly
+
+before extending our results to an oligopoly with differentiated products.
+
+
+2.1  Choices by Monopoly and Social Planner
+
+Consider a monopoly that chooses price and attributes to maximize proﬁt:
+
+
+                       max P−C(x) Q P−B(x)  .
+                                                P, x
+
+The privately optimal price Pm and attributes xo satisfy the following ﬁrst-order conditions:
+
+                          Pm −C(xo)       1
+                          =                          [P] :
+                             Pm                                             εP(Pm, xo),                               (1)
+                            [xk] :  Bk(xo)−Ck(xo) = 0 for  k = 1,2,...,K,                      (2)
+
+
+where εP(P, x) is the price elasticity of demand. The subscript k in Equation (2) stands for the
+partial derivative with respect to the k-th element of x.5 We use xo to denote the monopolist’s
+
+choices absent government intervention. The additive B(x) and P in aggregate demand, together
+
+with a marginal cost that is constant in quantity, makes the ﬁrm’s choices of attributes independent
+of price.6 The monopolist’s decision becomes a two-stage problem: it ﬁrst selects attributes that
+
+maximize the per-unit private surplus, B(x) −C(x), and then sets the price to extract as much
+
+consumer surplus as possible.
+
+   The social planner maximizes the social welfare that consists of consumer surplus, producer
+
+   4Government subsidies are transfers and do not directly affect social welfare except through changing product
+attributes and quantity. We abstract from distortionary taxes.
+   5The setup can accommodate monopoly, monopolistic competition, and a perfectly competitive environment. With
+monopolistic competition, Q(·) denotes the ﬁrm’s residual demand. With perfect competition, the ﬁrm’s demand
+becomes ﬂat, and εP(P, x) approaches inﬁnity, yielding a markup of zero, i.e., P−C(x) = 0.
+   6To see the intuition, consider a simple change of variables. Deﬁne ¯P = P −B(x), which can be interpreted as a
+base price with the minimum quality. The proﬁt equation becomes (¯P + B(x) −C(x))Q(¯P), thus the optimal choice
+of attributes is independent of price.
+
+
+
+
+
+                                       6
+
+===== [PDF 第 9 页｜印刷第 7 页] =====
+surplus, and the externality:
+
+               Z Q(P, x)
+     SW(P, x) =       [B(x)+Q−1(s)−P]ds + P−C(x) Q(P, x) +φ ·e(x)Q(P, x),
+                      0
+                                               |   Producer{zsurplus  }  |   Externality{z     }                 |        Consumer{z surplus       }
+
+where Q−1(.) is the inverse of Q(P−B(x)). The socially optimal price P∗and attributes x∗satisfy
+
+the following ﬁrst-order conditions:
+
+                    [P] :     P∗−C(x∗)+φ ·e(x∗) = 0,                                     (3)
+                     [xk] :  Bk(x∗)−Ck(x∗)+φ ·ek(x∗) = 0 for  k = 1,2,...,K.                (4)
+
+
+The derivation of Equations (3) and (4) is in Appendix A.1. The ﬁrst-order conditions differ
+
+from Equations (1) and (2) because attributes are chosen to maximize per-unit social surplus,
+B(x) −C(x) + φ · e(x), and price reﬂects the social cost of production, C(x∗) −φ · e(x∗). The
+socially optimal price P∗eliminates the quantity distortion at the socially optimal attributes x∗that
+
+internalize the environmental externality.
+
+   To facilitate graphical illustrations, we assume the attribute space is two-dimensional. Figure 1
+
+displays the differences in price, attributes, quantity, and social welfare between the privately and
+socially optimal solutions. Panel (a) depicts the attribute space with two attributes: x1 and x2. The
+top dotted contour lines are iso-quant curves for the social surplus, B(x)−C(x)+φ ·e(x), while
+the bottom dashed contour lines represent the iso-quant curves for the private surplus, B(x)−C(x).
+The monopolist chooses xo, which is privately optimal, while the planner’s choice, x∗, has a larger
+
+environmental beneﬁt and is socially optimal.
+
+   Panels (b) to (d) plot the demand and supply curves, deadweight losses, and social surplus in
+
+the product market. Panel (b) draws the demand and supply curves that are associated with the
+
+attributes chosen by the monopolist. The red triangle labeled as DWL1 is the deadweight loss from
+the suboptimal quantity, Qm(·), due to market power and the positive environmental externality.
+
+This is standard in the literature. Panel (c) adds demand and supply at the socially optimal at-
+
+tributes. We plot the non-trivial case where the demand curve associated with the socially optimal
+attributes x∗shifts to the left relative to that for xo at any given price level. While x∗reﬂects the
+socially optimal and environmentally friendly design, xo is more appealing to consumers.7 The
+ﬁrst-best outcome is given by (x∗, P∗(x∗), Q∗(x∗)).
+
+   Panel (d) illustrates the welfare loss from the monopoly relative to the ﬁrst-best outcome. The
+
+   7By construction, since xo maximizes the private surplus and x∗maximizes the social surplus, the cost curve
+C(x∗) is above C(xo) while the social cost curve C(x∗)−φ ·e(x∗) is below C(xo)−φ ·e(xo).
+
+
+                                       7
+
+===== [PDF 第 10 页｜印刷第 8 页] =====
+deadweight loss labeled as DWL2 arises from distortions in both attributes (xo vs. x∗) and quantity
+(Qm(·) vs. Q∗(·)). The difference between DWL1 in Panel (b) and DWL2 in Panel (d) represents
+the additional deadweight losses as a result of product attribute distortions.
+
+
+Attribute-based Subsidies  The social planner can use attribute-based subsidies to address dis-
+tortions.8 Common subsidies consist of a two-part tariff, T +t ·z(x), where T is the base subsidy
+
+invariant to attributes, t is the subsidy intensity, and z(x) is the policy attribute that depends on
+
+product attributes. For example, the policy attribute is driving range in China (which is a function
+of vehicle weight and battery capacity) and battery capacity in the U.S..9 With attribute-based
+
+subsidies, the ﬁrm’s proﬁt maximization problem is:
+
+
+                  max P−C(x)+T +t ·z(x) Q P−B(x)                          (5)
+                                     P, x
+                             Pz −C(xz)+T +t ·z(xz)       1
+                              =                     [P] :
+                                       Pz                                                          εP(Pz, xz),
+                      [xk] :  Bk(xz)−Ck(xz)+t ·zk(xz) = 0 for   i = 1,2,...,K.
+
+The solution to the proﬁt maximization problem is denoted by (Pz(T, t), xz(t)) for a given policy
+
+triad (T,t,z). Note that the base subsidy T affects price but not product design. This is intuitive
+
+as T is invariant to attributes. In contrast, both the subsidy intensity t and the policy attribute z(x)
+
+affect product design. Given the monopolist’s response, the social planner chooses the optimal
+
+policy instrument to maximize social welfare.
+
+
+Perfect Targeting  We begin with a theoretical benchmark of perfect targeting, where the policy
+
+attribute is proportional to the externality (e.g., z = e). It is simple to show that the government can
+
+obtain the ﬁrst-best with perfect targeting. The proof is provided in Appendix A.1.
+
+Proposition 1. Under perfect targeting (e.g., z = e), the per-unit subsidy following the two-part
+structure T ∗+t∗· e(x), where t∗= φ and T ∗are chosen such that Pe(T ∗, φ) = C(xe(φ)) −φ ·
+e(xe(φ)), achieves the socially ﬁrst-best outcome of Pe(T ∗, φ) = P∗and xe(φ) = x∗.
+
+The optimal subsidy T ∗+t∗·e(x) is Pigouvian and incentivizes the monopolist to internalize the
+environmental externality. The subsidy intensity t∗induces socially optimal attributes x∗, while
+
+   8The discussion focuses on subsidies because EVs generate positive externalities. Our framework also applies to
+taxes that correct negative externalities.
+   9The formula for EV subsidies in the U.S. is $2500+$415*(kWh-4), with a minimum battery capacity of 4 kWh
+and a maximum subsidy of $7500. China’s range-based subsidies have a notched design but can be approximated by
+a two-part tariff (see Section 3). We evaluate the welfare distortions of the notched design in Section 6.
+
+
+                                       8
+
+===== [PDF 第 11 页｜印刷第 9 页] =====
+the base subsidy T ∗offsets market power and leads to socially optimal quantity Q∗(x∗).10
+
+   The top two graphs of Figure 2 illustrate the optimal policy design.  Panel (a) presents the
+
+attribute space. Under perfect targeting z(x) = e(x), the ﬁrm’s response function is the straight
+line that connects x∗and xo.11 A positive t pulls the ﬁrm to move closer to x∗, while a negative
+t pushes the ﬁrm’s product design further away from x∗. The optimal subsidy intensity t∗induces
+the monopolist to choose the socially optimal x∗. Panel (b) plots the product space. Under x∗and
+the optimal base subsidy T ∗, the monopolist chooses the socially optimal price P∗(x∗) and quantity
+Q∗(x∗). The green-shaded triangle represents the social welfare under the ﬁrst-best outcome. To
+
+address distortions in both the attribute and product spaces, neither T nor t ·z(x) alone is sufﬁcient.
+
+
+Imperfect Targeting  In practice, perfect targeting is rarely feasible. Under imperfect targeting
+with z(x) ̸= e(x), the socially optimal attributes, x∗, are usually unattainable. In response to sub-
+
+sidy T +t · z(x), the monopoly chooses attributes along the line that is determined by the policy
+
+target z(x). The product attribute that achieves the highest per-unit social surplus under the policy
+attribute z(x) is denoted by xz in Panel (c) of Figure 2. This is the tangency point between the
+
+social surplus indifference curve and the ﬁrm’s response line. The subsidy intensity that achieves
+xz is denoted by tz. Panel (d) depicts the equilibrium outcome in the product space. Given at-
+tributes xz, the quantity that equates price with social marginal cost of production is Q∗(xz). The
+government uses base subsidy T z to achieve Q∗(xz). The social surplus is smaller than in Panel
+
+(b), reﬂecting the social planner’s inability to perfectly target externalities.
+
+
+2.2  Attribute-based Regulations with Budget Constraints
+
+The discussion thus far has implicitly assumed that the social planner has inﬁnite resources. In
+
+practice, governments often face a limited budget, which results in a trade-off between reducing
+
+the environmental externality and mitigating the quantity distortion. This section examines the
+
+implications of a budget constraint on the optimal policy design.
+
+   Panel (a) of Figure 3 illustrates the tension between addressing environmental distortions and
+
+quantity distortions for a given policy attribute z subject to a budget constraint. The equilibrium
+
+attribute that maximizes social surplus under policy z without a budget constraint, denoted as
+xz        is the tangency point between the ﬁrm’s response curve and the social surplus indifference  w/o BC,
+
+  10Subsidies are transfers and do not directly affect social welfare except through changing product attributes and
+price. We abstract away from the distortion of tax collection to fund subsidies.
+  11Following Ito and Sallee (2018), we use a quadratic loss function and assume the policy attribute z is linear in x.
+These two assumptions imply that the iso-surplus curves are ellipses and that the monopoly chooses product attributes
+along a straight line that passes through xo. See Appendix A.1 for details.
+
+
+                                       9
+
+===== [PDF 第 12 页｜印刷第 10 页] =====
+curve. However, xz      requires a large subsidy intensity t and leaves limited funds for the base                    w/o BC
+subsidy T to address quantity distortions. As shown in Appendix A.2, the equilibrium product
+
+attribute associated with the optimal policy T and t that maximizes social welfare under z with
+budget level R, xz                      with BC=R, lies between the monopolist’s choice without intervention, xo, and
+xz  w/o BC. The smaller the budget, the closer xzwith BC=R is to xo.
+   Before presenting the optimal policy design, we ﬁrst discuss a lemma showing that the per-
+
+unit private surplus, B(x)−C(x), is closely related to the equilibrium quantity achievable under a
+
+given budget constraint. It serves as a sufﬁcient statistic for a policy’s ability to address the quantity
+
+distortion.
+
+Lemma 1. Consider two policy triads (T,t,z) and (T ′,t′,z′) that satisfy the budget constraint R:
+ T +t ·z xz(t)  ·Q Pz(T,t), xz(t) = T ′ +t′ ·z′ xz′(t′)  ·Q Pz′(T ′,t′), xz′(t′) = R. Then,
+
+B xz(t) −C xz(t) ⪌B xz′(t′) −C xz′(t′)  implies Q Pz(T,t),xz(t) ⪌Q Pz′(T ′,t′), xz′(t′)  .
+
+
+The proof of Lemma 1 is in Appendix A.2. Lemma 1 facilitates comparisons between different
+policy triads. Suppose two policy triads (T,t,z) and (T ′,t,′ z′) entail identical government ex-
+
+penses. If the policy triad (T,t,z) leads to product attributes with a higher per-unit private surplus
+B xz(t) −C xz(t)  , then the equilibrium quantity under (T,t,z) is higher as well.
+   This can be seen by rewriting ﬁrm proﬁt in Equation (5) using a change of variable ¯P = P −
+B(x): π(·) = [¯P + B(x) −C(x) + T + t · z(x)]Q(¯P). The effect of B(x) −C(x) on the proﬁt
+is similar to that of the subsidy T + t · z(x).  Intuitively, since higher per-unit subsidies lead to
+
+higher sales, so does higher B(x) −C(x). As a higher quantity implies a lower deadweight loss,
+
+B(x) −C(x) becomes a sufﬁcient statistic for the effectiveness of the policy triads to address
+
+quantity distortions and deadweight loss under market power.
+
+  Lemma 1 is a stepping stone in establishing Proposition 2 below that characterizes the optimal
+
+policy design with a budget constraint. Since the per-unit private surplus, B(x) −C(x), only de-
+
+pends on product attributes, its sufﬁcient-statistics property allows us to depict quantity distortions
+
+in the attribute space without referencing the product market. Higher iso-quant private surplus
+
+curves represent equilibrium outcomes with lower quantity distortions. In the meantime, the per-
+unit social surplus, B(x)−C(x)+φ ·e(x), captures the externality. Higher iso-quant social surplus
+curves represent equilibrium outcomes that exhibit higher environmental beneﬁts. These two sets
+
+of iso-quant curves capture the two types of distortions that the government tries to mitigate. This
+
+intuition is the foundation of the characterization of the optimal policy design below.
+
+
+
+
+                                      10
+
+===== [PDF 第 13 页｜印刷第 11 页] =====
+Optimal Policy Triads with budget constraints  Panel (b) of Figure 3 compares two policy
+triads (T,t,z) and (T ′,t′,z′) that are associated with an identical budget R. The subsidy rates
+(T,t) and (T ′,t′) are chosen optimally to maximize social welfare with budget R under z and z′,
+respectively. Let xz                          denote the equilibrium outcome under policy triads (T,t,z). Suppose                       with BC=R
+it is not a tangent point between the social iso-quant curve of B(x)−C(x)+φ ·e(x) and the private
+                                                                                          intersects theiso-quant curve of B(x)−C(x). The private iso-quant curve that passes xz                                                                                          with BC=R
+response curve under policy z′ at ˜x. Let (˜T, ˜t,z′) denote the policy triad that leads to equilibrium
+outcome ˜x under budget R.12 By construction, policy triad (T ′,t′,z′) delivers a higher social
+welfare than policy (˜T, ˜t,z′) with budget level R. We now show that policy (˜T, ˜t,z′) achieves
+
+higher social welfare than (T,t,z). Since their corresponding equilibrium product attributes ˜x and
+xz           are on the same private iso-quant curve with budget R, they lead to the same equilibrium  with BC=R
+quantity in the product market (by Lemma 1). However, ˜x is on a higher social iso-quant curve and
+hence delivers more environmental beneﬁts than xz                                                             with BC=R. Hency, policy triad (˜T, ˜t,z′) achieves
+higher social welfare than (T,t,z). By induction, (T ′,t′,z′) dominates (˜T, ˜t,z′), which in turn
+dominates (T,t,z) in terms of social welfare. In fact, the social planner can do better than (T ′,t′,z′),
+
+as prescribed by Proposition 2 below.
+
+
+Proposition 2. Deﬁne the contract curve as the collection of tangent points of the iso-social- and
+iso-private-surplus curves with xo and x∗as the two endpoints.
+
+    i)  If a policy triad (T R, tR, zR) maximizes the social welfare for a given budget R, its equilib-
+     rium product attribute xzR(tR) lies on the contract curve.
+
+    ii)  If a product attribute x is on the contract curve, there exists a budget level R and correspond-
+      ing optimal policy triad (T R, tR, zR) such that the equilibrium product attribute xzR(tR) is
+
+      equal to x.
+
+   iii) As R increases, xzR(tR) moves away from xo towards x∗along the contract curve.
+
+The proof is in Appendix A.2. Proposition 2 argues that the optimal policy designs are associ-
+
+ated with the product attributes that are the tangent points between the iso-social- and iso-private-
+
+surplus curves. In addition, every point on the contract curve is associated with an optimal policy
+
+design. Suppose an optimal policy design results in an equilibrium product attribute not on the
+
+contract curve. By the argument above, there exists at least one policy design that generates higher
+
+social welfare, and vice versa.
+
+  12The subsidy intensity ˜t induces the monopoly to choose ˜x under policy target z′. The corresponding base subsidy
+˜T is determined by ˜t and z′ given R.
+
+
+                                      11
+
+===== [PDF 第 14 页｜印刷第 12 页] =====
+   Panel (c) of Figure 3 draws four tangency points: x1, x2, x3, and x4, each of which represents
+
+an equilibrium attribute vector under a different budget. The four lines passing through them
+represent the associated policy attributes, {z1,z2,z3,z4}. The corresponding budget level is denoted
+by {R1,R2,R3,R4}. Proposition 2 implies that a higher level of budget is needed to move from x1
+to x4: R1 < R2 < R3 < R4. The contract curve represents product attributes that are associated with
+
+the constrained optimal policy triads (T,t,z) with different budget levels. As the budget increases,
+the planner’s choice moves towards x∗to focus more on the environmental externality, given the
+
+increased ability (via subsidies) to tackle market power with a higher budget.
+
+
+2.3  Oligopoly with Differentiated Products
+
+While the setting of a single-product monopoly helps illustrate the trade-offs between mitigating
+
+different sources of distortions with a budget constraint, most industries subject to ABS operate
+
+in an oligopolistic market structure with differentiated products.  In these situations, the extent
+
+of quantity distortion and environmental externalities differ across products, making the optimal
+
+allocation of subsidies among products an important consideration.
+   Suppose there are J products ( j = 1, ... , J) with characteristics x j, consumer beneﬁt B(x j),
+marginal cost Cj, and demand Qj. Assume that the social planner can allocate the budget across
+products using product-speciﬁc subsidies b j = Tj +t · z(x j), where ∑j bjQ j = R. Appendix A.3
+shows that the optimal subsidy allocation can be characterized as follows:
+
+                                εbj j +∑k̸=j mkQkm jQ j εbk j
+                 b j = µ ·m j ·                           for  j = 1, ..., J,                   (6)
+                      1+εbj j +∑k̸=j bkQkbjQ j εbk j
+
+where µ > 0 is the inverse of the shadow value of the budget constraint and is the same across all
+                                                                                       ∂Qk bj
+products, and m j = Pj −Cj(x j)+φ ·e(x j) is the social markup of product j. Lastly, εbk j = ∂b j Qk
+is the demand elasticity of product k with respect to the subsidy for product  j. With independent
+                                                           εbj j
+demand, Equation (6) simpliﬁes to bj = µ · mj ·        . This formula is intuitive.  It indicates that                                                1+εbj j
+we should allocate more subsidies to products that exhibit potentially high welfare gains for the
+
+marginal unit and whose demand is responsive to subsidies. Such an allocation will ensure that the
+
+marginal social surplus generated by the last dollar of subsidy is equalized across products.
+
+   Equation (6) requires a product-speciﬁc base subsidy Tj, which may be politically and ad-
+ministratively challenging. Appendix A.3 describes the ﬁrst-order conditions that characterize the
+
+optimal policy triad (T,t,z), though there is no analytic formula given the complexity. Nonethe-
+
+less, the theoretical results highlight three critical roles of an optimal policy design: encourage
+
+
+
+                                      12
+
+===== [PDF 第 15 页｜印刷第 13 页] =====
+quantity expansion, incentivize the provision of environmentally friendly attributes, and allocate
+
+subsidies across differentiated products.
+
+
+2.4  Discussions
+
+Our theoretical framework illustrates the trade-off between addressing environmental externali-
+
+ties and mitigating market power under a limited budget. The optimal policy triad (T,t,z) needs
+
+to strike the right balance to address these two market failures with differentiated products and
+
+varying degrees of distortions. In any speciﬁc context, the optimal subsidy design is ultimately
+
+an empirical question and hinges on consumer preferences, production costs, environmental exter-
+
+nalities, and the nature of competition. Our empirical analysis incorporates these key objects to
+
+compare different policy designs in terms of their impacts on market outcomes and social welfare.
+
+     It is worth noting that while our theoretical model abstracts away from the Spence distortion,
+
+the presence of such a distortion provides another rationale for implementing ABS in industries
+
+with oligopolies and heterogeneous consumers. This is because the privately chosen attributes x
+
+might not maximize the aggregate B(x)−C(x) in a society with heterogeneous consumers, leading
+
+to quality distortion. In these contexts, ABS has the potential to also address quality distortion, as
+
+demonstrated in Section 6.
+
+
+3  Background and Data
+
+
+In this section, we discuss the industry background, describe the data, and present stylized facts
+
+that motivate the structural analyses in Section 4.
+
+
+3.1  Industry and Policy Background
+
+Since the introduction of mass-market EV models in 2010, worldwide passenger EV sales reached
+
+10.2 million units, or 14% of the passenger vehicle market in 2022. Many countries have outlined
+
+aggressive goals to electrify passenger transportation (Appendix Figure A2). Norway aims to
+
+achieve 100% electric among new vehicle sales by 2025, the Netherlands 100% by 2030, the U.S.
+
+50% by 2030, and China 40% by 2030. The market share of EVs among new vehicle sales in these
+
+countries in 2022 was 90%, 35%, 7%, and 29%, respectively.
+
+   China became the largest EV market in 2015, and its global share increased to 60% by 2022
+
+(Appendix Figure A3). More than half of all EVs on the road worldwide were in China. While
+
+there was a proliferation of EV producers with many brands in 2022, the market remains concen-
+
+
+                                      13
+
+===== [PDF 第 16 页｜印刷第 14 页] =====
+trated with the top ﬁve EV ﬁrms accounting for 55% of the market.13 The largest EV ﬁrm, BYD,
+
+had a market share of nearly 30% in 2022. In comparison, the number of EV brands in the U.S.
+
+was 40 in 2022. The U.S. market was more concentrated, with Tesla accounting for over 45% and
+
+the top ﬁve ﬁrms accounting for about 80% of the market in 2022.
+
+   The rapid growth of the EV market in China was at least partly driven by the generous con-
+
+sumer subsidies from both central and local governments as well as non-ﬁnancial incentives as
+
+documented in Li et al. (2022). The Chinese government considers the EV sector a strategic prior-
+
+ity to increase the global competitiveness of its domestic automobile industry and to reduce energy
+
+consumption and emissions from the transportation sector. Accelerating EV adoption is an impor-
+
+tant strategy to achieve China’s national average fuel economy targets of four liters/100km (or 47
+
+mpg) and 3.2 liters/100km (or 74 mpg) by 2025 and 2030, respectively.
+
+   China’s central government initially introduced consumer subsidies in select pilot cities before
+
+2014. By 2014, these initiatives had expanded to 88 cities before a nationwide implementation
+
+in 2016. Consumers pay for the post-subsidy price at the time of purchase and subsidies are dis-
+
+tributed to automakers either quarterly or annually by the government. Table 1 presents the sched-
+
+ules of central subsidies from 2013 to 2018. The subsidies are based on the driving range and
+set differently for battery electric vehicles (BEVs) and plug-in hybrid electric vehicles (PHEVs).14
+
+For BEVs, the subsidies are notched with several cutoffs. The minimum range requirement in-
+
+creased from 80km in 2013 to 100km in 2016 and further increased to 150km in 2018, while the
+
+amount of subsidies was reduced over time. For PHEVs, the subsidy was uniform across models
+
+with a minimum range requirement of 50km that remained constant, though the subsidy amount
+
+decreased over time.
+
+     It is important to note that the driving range of EVs is not self-reported by the automakers.
+
+Rather, all vehicles undergo rigorous testing by government-designated agencies, with the result-
+
+ing data publicly disclosed by the Ministry of Industry and Information Technology (MIIT). Fur-
+
+thermore, the subsidy schedules were jointly formulated and disseminated by four governmental
+
+bodies: MITT, the Ministry of Finance (MoF),the Ministry of Science and Technology (MoST),
+
+and the National Development and Reform Commission (NRDC). The lead time of policy an-
+nouncement varied but it was typically several quarters.15 In these policy contexts, opportunities
+
+  13During our sample period, approximately half of the traditional ICE producers also manufactured EVs (including
+both BEVs and PHEVs), while 60% to 80% of EV ﬁrms also produced ICEs. For instance, there were 37 Chinese
+automobile producers in 2018. Of these, 26 were ICE ﬁrms and 28 specialized in EVs. 17 of these companies were
+involved in the production of both ICEs and EVs.
+  14To incentivize quality improvement, the government tightened the eligibility rules in 2018 by incorporating addi-
+tional technical requirements that include the minimum battery density of 105Wh/kg and minimum energy efﬁciency
+in kWh/100km as a function of vehicle weight. Consumer subsidies for EVs were phased out by the end of 2022.
+  15For example, the four government agencies jointly published the draft of the 2016 subsidy policy on April 26,
+
+
+                                      14
+
+===== [PDF 第 17 页｜印刷第 15 页] =====
+for automakers to manipulate driving range data or inﬂuence the selection of range cutoffs are
+
+likely minimized. Nevertheless, as we document below, automakers can and do respond to the
+
+changes in subsidy schedules by modifying vehicle attributes.
+
+   As shown in Table A1, central subsidies amount to 11-28% of consumer prices for most range
+
+groups. In addition to the central subsidies, many cities provided additional consumer subsidies up
+
+to the amount of central subsidies. In total, central and local subsidies add up to 30-60% of product
+prices.16 We collected comprehensive information on both central and local EV subsidies and
+
+control for them in our analysis. In addition to consumer subsidies, cities offer several non-ﬁnancial
+
+incentives: exemption from driving restrictions, exemption from vehicle purchase restrictions, and
+
+green license plate policy. We control for these local policies via city by year by fuel type ﬁxed
+
+effects in our analysis.
+
+
+3.2  Data and Descriptive Evidence
+
+Data Description  Our analysis is based on three main data sets from 2015 to 2018: (1) annual
+
+vehicle registration data by city and vehicle model for both ICEs and EVs; (2) data on detailed
+
+vehicle attributes by model; and (3) comprehensive central and local ﬁnancial and non-ﬁnancial
+
+policies. We deﬁne a product by its model name, vehicle type (sedan, SUV, minivan/MPV, and
+
+crossover), fuel type, engine displacement, and driving range (in the case of EVs). Our analysis
+
+focuses on the 40 cities with the largest EV sales in China during the sample period, accounting for
+
+69% of national EV sales. We have panel data with a total of 34,329 observations, covering 497
+
+ICE, 38 PHEV, and 164 BEV products. Appendix B provides details on the sample construction.
+
+    In addition, our analysis beneﬁts from multiple auxiliary data sets, including (1) nationally rep-
+
+resentative household surveys on new vehicle buyers from 2015 to 2017 that allow us to construct
+
+micro-moments to identify consumer preference heterogeneity; (2) battery supplier information by
+
+vehicle model, which proves to be powerful supply-side instruments; and (3) all new vehicle mod-
+
+els that the government tested for safety and functionality from August 2014 to December 2018,
+
+including roughly half of the models that were not eventually launched commercially. The last
+
+data set enables us to estimate the engineering relationship between EV driving range and vehicle
+
+attributes; see Section 4.2 below.
+
+  We do not observe transaction prices and use MSRPs in our estimation. MSRPs are set by
+
+2014 to solicit public comments. The ﬁnalized 2016 policy was announced on April 29, 2015.
+  16Only EVs produced by domestic companies or joint ventures are eligible for central subsidies, with imported EVs
+excluded. Local subsidies use the same range cutoffs as the central subsidies and are pegged to central subsidies in
+most cases.
+
+
+
+                                      15
+
+===== [PDF 第 18 页｜印刷第 16 页] =====
+manufacturers and are the same nationwide for each model-year. Evidence in Appendix B indicates
+
+that price discounts are limited in China due to the practice of “minimum retail price maintenance”
+
+(RPM), whereby automakers either explicitly or implicitly prohibit dealers from selling below a
+
+preset price to reduce price competition among dealers (Barwick et al., 2021).
+
+  New vehicle purchases are subjected to four types of taxes: consumption tax from 1% to 40%
+
+depending on engine size, value-added tax at 17%, import tariffs at 25% (if applicable), and sales
+tax normally set at 10% but varies with engine size over time during our data period.17 MSRPs
+
+include the consumption tax, value-added tax, and import tariffs, while the sales tax is levied on
+MSRP exclusive of the value-added tax. Let ˜P denote the consumer price of a vehicle and P the
+
+producer price:
+
+                       ˜P = MSRP× 1+tValueAdded+tSales , P = MSRP× 1−tConsumption .                    (7)                                            1+tValueAdded                         1+tValueAdded
+
+
+We use consumer price in demand estimation and producer price in calculating ﬁrm (post-tax)
+
+proﬁts. These tax rates exhibit rich variation and are strong instruments for vehicle prices.
+
+  We follow the industry’s convention and deﬁne nine vehicle segments (mini sedan, sub-compact
+
+sedan, compact sedan, mid-size sedan, large sedan, compact SUV, mid-size SUV, large SUV, and
+
+MPV/van). We control for brand ﬁxed effects and segment ﬁxed effects in our demand and supply
+
+analyses. China’s charging station infrastructure has improved signiﬁcantly over time. We use
+
+city-year by fuel type (ICE and EV) ﬁxed effects in all demand speciﬁcations to control for the
+
+time-varying charging network.
+
+   Table 2 presents the summary statistics. EVs are, on average, 27% more expensive than gaso-
+
+line vehicles, 15.6 times more fuel efﬁcient (using the EPA’s conversion rate between electricity
+
+and fuel), but are 7% lighter (in vehicle weight net of battery weight) and 13% less powerful in
+terms of horsepower.18 The average driving range is 208km with a battery capacity of 29.9kWh.
+
+
+Descriptive Evidence on Attribute Changes  Figure 4 shows the histogram of driving range on
+
+an annual basis from 2015 to 2018. The dark blue bars represent vehicle models with a driving
+
+range that is just above the subsidy cutoffs. These graphs display two salient features. First, the
+
+distribution of the driving range exhibits pronounced bunching at the cutoffs, likely the result of
+
+the notched subsidy design. Notched schedules generate bunching and could lead to efﬁciency
+
+  17An unconventional feature of China’s tax system is that consumption tax is included in the “pre-tax” price and
+therefore is in the tax base for other taxes. For example, if the pre-tax price is ¥100k and the consumption tax is 25%,
+the manufacturer gets ¥75k while the government collects ¥25k as the consumption tax.
+  18Throughout the entire analysis, we use ‘net vehicle weight’, which is vehicle weight net of battery weight, as the
+measure of vehicle weight.
+
+
+                                      16
+
+===== [PDF 第 19 页｜印刷第 17 页] =====
+losses relative to a continuous subsidy schedule, which we study in one of the counterfactual sim-
+ulations.19 Second, a noticeable annual shift to the right in the range distribution highlights EV
+
+ﬁrms’ strong responses to policy incentives. For instance, during the period from 2013 to 2015
+
+when the minimum range requirement was 80km, all vehicles in the market had ranges exceeding
+
+80km. In 2016, when the minimum requirement was raised to 100km, accompanied by a substan-
+
+tial jump in subsidies between 100km and 150km, all vehicles in our sample surpassed the 150km
+
+range threshold. Subsequently, in 2018, as the government introduced new cutoffs at 300km and
+
+400km, bunching emerged around these new range limits, a pattern absent in earlier years.
+
+  How did automakers manage to enhance their driving ranges in response to policy changes?
+
+The driving range is primarily affected by battery capacity and vehicle weight, both of which can be
+
+adjusted relatively quickly. Figure 5 illustrates the year-to-year changes in vehicle weight (exclud-
+
+ing battery weight) on the x-axis and battery capacity on the y-axis. Blue circles represent models
+
+with increased driving ranges, while red diamonds are models with decreased driving ranges. The
+
+size of the symbol corresponds to the magnitude of the change. Almost all vehicles in our sample
+
+expanded their driving ranges, with some increases exceeding 100km. These enhancements in the
+
+driving range were accompanied by signiﬁcant increases in battery capacity and, quite often, a
+
+reduction in net vehicle weight. Given the evidence presented in this ﬁgure, we focus on ﬁrms’
+
+choices of battery capacity and vehicle weight in the structural model below.
+
+
+4  Empirical Framework
+
+
+The empirical framework is an equilibrium model of the automobile sector with both the demand
+
+and supply sides in the spirit of Berry et al. (1995). A key departure of our model is that we
+
+endogenize multiple product attributes on the supply side. As shown in the theoretical model,
+
+ﬁrms’ attribute choices in response to policies affect both environmental externality and quantity
+
+distortion (market power).  Allowing endogenous product attributes turns out to be critical for
+
+the welfare analysis across different attribute-based subsidy designs. Throughout the estimation
+
+and counterfactual simulations, we assume ICE attributes are exogenous (prices are endogenous),
+
+both because of limited changes during our sample relative to those for EVs and computational
+
+traceability.
+
+  19A large literature has examined policy inefﬁciencies with notches. Notched design in regulations (e.g., standards
+or taxes) could lead to compliance test manipulation (Sallee and Slemrod, 2012), tax evasion (Almunia and Lopez-
+Rodriguez, 2018), and price discrimination (Houde, 2022, 2018).
+
+
+
+
+
+                                      17
+
+===== [PDF 第 20 页｜印刷第 18 页] =====
+4.1  Demand Side
+
+Consumer i chooses from a set of available products J = {0,1,2,...,J} that includes both ICEs
+
+and EVs, where j = 0 represents the outside option of not buying a new vehicle. Let m represent a
+
+market (i.e., city) and t denote time (i.e., year). Consumer i’s utility from vehicle model j ( j ̸= 0)
+
+in market m and year t is speciﬁed as:
+
+                            ui jmt = −αi(˜Pjmt −b jmt)+x jmtβi +ξ jmt +εi jmt.                      (8)
+
+
+The utility of the outside option is normalized to zero: ui0mt = 0 for all i, m, and t. Consumer price
+of model  j in market m at time t, ˜Pjmt, is deﬁned in Equation (7) that accounts for various taxes.
+For eligible EVs, the effective price paid by consumers is net of time-varying central and local
+
+subsidies bjmt.
+  We use an extensive list of demand controls xjmt that consists of three categories. The ﬁrst cat-
+egory includes product attributes that are commonly used in this literature, such as vehicle weight,
+
+horsepower, fuel economy and engine size for ICEs and PHEVs, and driving range for PHEVs
+
+and BEVs. The second category is a rich set of ﬁxed effects, including city-by-year-by-fuel type
+
+(ICE or EV) ﬁxed effects to control for time-varying city-level demand shocks for different fuel
+
+types, brand (e.g., BMW) by year-by-fuel type ﬁxed effects to control for demand shocks or brand
+
+awareness over time that could be especially important for the nascent EV technology, segment
+
+(e.g., small sedan) ﬁxed effects, and vintage (the year when a model was launched) ﬁxed effects.
+
+In addition, we collect a comprehensive list of non-ﬁnancial incentives that local governments
+
+use to encourage EV adoption, such as exemption from driving restrictions and vehicle purchase
+
+restrictions, green license plate policies, etc. The literature has shown that these non-ﬁnancial
+
+policies can be effective drivers of EV market penetration (Li et al., 2022). The city-year-fuel type
+
+ﬁxed effects included in our baseline model absorb these local incentives as well as changes in
+
+the charging infrastructure. Finally, ξ jmt represents unobserved attributes of model  j or demand
+shocks to j in market m at time t, and εi jmt is an idiosyncratic preference shock that is assumed to
+have an i.i.d. type I extreme value distribution.
+   Parameters βi = {βik | k = 1,...,K} represent heterogeneous preference for vehicle attributes.
+Preferences for attribute k are deﬁned as βik = ¯βk +σkνik, where ¯βk is the mean preference constant
+across all individuals and σkνik stands for individual i’s deviation from the population average.
+We assume νik follows a normal distribution and σk captures preferences heterogeneity. The price
+coefﬁcient is speciﬁed as αi = exp(α1 +α2log(yim)+σpνip) and depends on consumer i’s income,
+yim. We use log-income to moderate the skewness in the income distribution to facilitate the model
+
+
+
+                                      18
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(8)  u_{ijmt}=-\alpha_i(\tilde P_{jmt}-b_{jmt})+x_{jmt}\beta_i+\xi_{jmt}+\varepsilon_{ijmt}
+    核对方式：本轮看图；说明：outside u_{i0mt}=0；\beta_{ik}=\bar\beta_k+\sigma_k\nu_{ik}；\alpha_i=\exp(\alpha_1+\alpha_2\log(y_{im})+\sigma_p\nu_{ip})；b_{jmt} 为中央与地方补贴
+----- 【公式校正结束】 -----
+
+===== [PDF 第 21 页｜印刷第 19 页] =====
+ﬁt. The random price coefﬁcient νip is log-normally distributed, and σp captures the dispersion of
+the price sensitivity.
+
+   As is standard in the literature, we decompose utility ui jmt in Equation (8) into three elements:
+1) the mean utility δjmt(θ1) = x jmt ¯β+ξ jmt that is common across all individuals, 2) the consumer-
+speciﬁc utility µijmt(θ2) = −αi(˜Pjmt −b jmt)+∑k σkx jktνikmt, and 3) the idiosyncratic preference
+shock εi jmt. Product j’s sales share in market m at time t can be speciﬁed as:
+
+                                Z     eδjmt(θ1)+µi jmt(θ2)
+                   S jmt(θ1,θ2) =                          1+∑k eδkmt(θ1)+µikmt(θ2)dF(µ).
+
+Market shares are computed by aggregating individual choice probabilities. We match these model
+
+predictions to the observed market shares in the estimation in Section 5.
+
+
+4.2  Supply Side
+
+All automakers, whether producing EVs or ICEs, choose the prices of their products to maximize
+
+total proﬁts. Firms also choose vehicle weight (net of battery weight) and battery capacity for their
+EV models to achieve a desired driving range in response to EV subsidies:20
+
+           max ∑ π j(P ,k,w,b)−∑ FCj(k j,w j)   s. t. D j(k j,w j) ≥Dc.                 {Pj,kj,w j}                            j∈Jf                      j∈Jf
+
+Note that k j and w j are battery capacity and net vehicle weight, respectively. The operating proﬁt
+from selling product j is the product of per-unit variable proﬁt and total units sold: πj(P ,k,w,b) =
+ Pj −mcj(k j,w j) ·Q j(˜P ,D,w,b).21 The per-unit variable proﬁt depends on the MSRP and taxes
+and the marginal cost of production mc j(k j,w j). Aggregate consumer demand Q j is the sum of
+demand in each market and depends on post-subsidy prices ˜P −b, driving range D, and vehicle
+
+weight w of all vehicles. The subsidy amount depends on a model’s driving range and the subsidy
+schedule: b j = bc ·1{D j ≥Dc}, where Dc is the highest cutoff satisﬁed by model j and bc denotes
+the subsidy amount for vehicles whose driving range exceeds Dc. Note that battery capacity k does
+not directly enter consumer demand because battery capacity alone does not generate consumer
+
+utility except for its effects on the driving range. Nevertheless, vehicle weight w does enter utility
+directly due to consumers’ preference for vehicle safety. Finally, ﬁxed costs FCj(k j,w j) reﬂect
+expenses ﬁrms incur when (re)designing product attributes.
+
+  20Our model is static so we suppress the time dimension t in the supply analysis for notational simplicity.
+  21The EV subsidy differs across cities due to differential local subsidies. The discussion here abstracts away from
+differences in local subsidy for notation simplicity, but the empirical analysis accounts for it. Consumer price and
+producer price are deﬁned in equation (7) that accounts for taxes.
+
+
+                                      19
+
+===== [PDF 第 22 页｜印刷第 20 页] =====
+  We now discuss the three sets of supply-side model primitives: the technology frontier for the
+
+driving range, the marginal cost function, and the ﬁxed cost function. We assume the technology
+
+frontier that determines the relationship between driving range, battery capacity, and net vehicle
+
+weight is as follows:
+                  D j(k j,w j) = ηkkj +ηww j +κ j.                               (9)
+
+The error term κj captures motor efﬁciency, vehicle frame aerodynamics, and factors unrelated
+to battery capacity and vehicle weight. To estimate the technology frontier, we utilize data on
+
+all models that have undergone MIIT’s inspection for market entry, including models that were
+
+not eventually launched in the market. This nearly doubles the number of observations as half
+
+of the designed models did not make it to commercial launch. We assume that the technology
+frontier is accessible to all ﬁrms.22 The estimation of Equation (9) is performed separately from
+
+the estimation of the marginal and ﬁxed cost parameters.
+
+   The marginal cost function is assumed to take the following form:
+
+                mc j(k j,w j) = 1{EVj}·ρtγk k j +γw w j +G′jγg +ω j,                  (10)
+
+where 1{EVj} is equal to one if model  j is an EV and ρt represents the decline in battery cost
+(per kWh) over time. This decline is inﬂuenced by factors such as improvements in production
+efﬁciency and battery technology. For example, ρ = 0.9 implies a 10% reduction in the battery
+cost each year. The vector Gj includes other vehicle attributes (e.g., horsepower, engine size, and
+fuel efﬁciency), as well as fuel type, segment, year, and brand ﬁxed effects. Lastly, ωj captures
+unobserved shocks to the marginal cost. The parameters to be estimated are ρ, γk (these two for
+EVs only), γw, and γg.
+   As shown in Figure 5, EV ﬁrms make frequent adjustments to vehicle attributes, especially
+
+battery capacity and vehicle weight. As a result, k j and w j are likely to be correlated with the
+marginal cost shocks ωj. For instance, a negative marginal cost shock may lead ﬁrms to reduce
+battery and net vehicle weight for cost savings. We explain how to address the endogeneity issue
+
+below in Section 4.3.
+
+   Following Fan (2013), we use the following ﬁxed cost speciﬁcation for EV models:
+
+                ∂FCj                 ∂FCj
+               = φk +FE +νkj  and    = φw +FE +νwj ,
+                  ∂k j                ∂w j
+
+where φk and φw capture the slope of the ﬁxed costs for battery capacity and vehicle weight, re-
+
+  22We take the technology frontier as given. Barwick et al. (2024) analyzes how government subsidies accelerate the
+evolution of the technology frontier through learning by doing.
+
+
+                                      20
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(9)  D_j(k_j,w_j)=\eta_k k_j+\eta_w w_j+\kappa_j
+    核对方式：本轮看图；说明：续航技术前沿：续航 D 对电池容量 k 与净车重 w 线性；\kappa_j 含电机效率、风阻等；用全部工信部送检车型（含未上市）单独估计
+(10)  mc_j(k_j,w_j)=\mathbb 1\{EV_j\}\cdot\rho^{t}\gamma_k\,k_j+\gamma_w\,w_j+G_j'\gamma_g+\omega_j
+    核对方式：本轮看图；说明：\rho^t 为每 kWh 电池成本的逐年下降（\rho=0.9 即每年降 10%），是 \rho 的 t 次方而非下标
+（固定成本，未编号）  \frac{\partial FC_j}{\partial k_j}=\phi_k+FE+\nu^k_j,\qquad \frac{\partial FC_j}{\partial w_j}=\phi_w+FE+\nu^w_j
+    核对方式：本轮看图；说明：沿 Fan (2013)
+----- 【公式校正结束】 -----
+
+===== [PDF 第 23 页｜印刷第 21 页] =====
+spectively. As in the marginal cost speciﬁcation, we include segment, year, and brand ﬁxed effects
+
+to capture the variation in the slope of the ﬁxed costs across models (fuel type is irrelevant as we
+only estimate the ﬁxed costs for EVs). We allow the ﬁxed cost residuals νkj and νwj to be correlated
+with battery capacity kj and vehicle weight w j.
+   Firm  f that produces EVs solves a constrained optimization problem by maximizing the fol-
+
+lowing Lagrangian function:
+
+          Lf = ∑ πj(P ,k,w,b)−∑ FC(k j,w j)+ ∑ λj[D j(k j,w j)−Dc],
+                          j∈Jf                      j∈Jf                  j∈Jf
+
+where λj is the shadow value of relaxing the driving range constraint.  It varies across vehicle
+models and is positive when D j = Dc and zero otherwise.
+   With the supply side primitives, the ﬁrst-order conditions of prices and attributes are:
+
+    FOC for Pj : Qj +    (Pl −mcl)∂Ql = 0, ∀j;                                        (11)          ∑                                 ∂Pj                              l∈Jf
+                   −mcl)∂Ql = ρtγk Q j −   λ j     ηk +φk +FE +νkj , ∀j;       (12)    FOC for k j : ∑ (Pl                         ∂k j
+                       l∈Jf                |{z}∂mc j       shadow|{z}value |{z}∂Dj   |     ∂FCj{z    }
+                                                         ∂kj                        ∂k j             ∂kj
+                   −mcl)∂Ql = γw Qj −    λj    ηw +φw +FE +νwj , ∀j.      (13)    FOC for w j : ∑ (Pl                         ∂wj
+                        l∈Jf                |{z}∂mc j       shadow|{z}value |{z}∂Dj   |     ∂FCj{z    }
+                                             ∂w j                      ∂wj          ∂w j
+
+The ﬁrst-order condition for prices is standard in the literature and allows researchers to recover the
+
+marginal cost mc j for every product given demand estimates. Once the marginal costs are recov-
+ered, we use the marginal cost function (Equation (10)) and the remaining two FOCs (Equations
+
+(12) and (13)) to estimate the supply side parameters jointly.
+
+    In addition to endogenous attributes in these equations — battery capacity k j and vehicle weight
+w j are correlated with marginal and ﬁxed cost shocks, ωj, νkj , and νwj — there is another challenge
+that arises from the binding constraints of range subsidies. The Lagrangian multiplier λj, the
+shadow value of relaxing the constraint on ﬁrm proﬁt, is product-speciﬁc and unobserved. The
+
+only theoretical constraint on λ j is that it is positive for products whose ranges are at the subsidy
+cutoff.23 Assuming νkj and νwj  are mean independent of exogenous shifters but without further
+assumptions, Equations (12) and (13) would lend to inequality conditions in the form of E[λj|Wj] ≥
+
+  23Among the 279 EV model-year observations, 41% has a driving range at a cutoff and is associated with λj > 0.
+We assume the cutoff is binding if the driving range is equal to or exceeds the cutoff by less than 5km.
+
+
+
+                                      21
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+（拉格朗日函数，未编号）  \mathscr L_f=\sum_{j\in J_f}\pi_j(\boldsymbol P,\boldsymbol k,\boldsymbol w,\boldsymbol b)-\sum_{j\in J_f}FC(k_j,w_j)+\sum_{j\in J_f}\lambda_j\big[D_j(k_j,w_j)-D_c\big]
+    核对方式：本轮看图；说明：\lambda_j 为放松续航约束的影子价值，D_j=D_c（卡在补贴门槛）时为正，否则为零
+(11)  \text{价格：}\ Q_j+\sum_{l\in J_f}(P_l-mc_l)\frac{\partial Q_l}{\partial P_j}=0,\ \forall j
+    核对方式：本轮看图
+(12)  \text{电池容量：}\ \sum_{l\in J_f}(P_l-mc_l)\frac{\partial Q_l}{\partial k_j}=\underbrace{\rho^{t}\gamma_k}_{\partial mc_j/\partial k_j}Q_j-\lambda_j\underbrace{\eta_k}_{\partial D_j/\partial k_j}+\underbrace{\phi_k+FE+\nu^k_j}_{\partial FC_j/\partial k_j},\ \forall j
+    核对方式：本轮看图
+(13)  \text{车重：}\ \sum_{l\in J_f}(P_l-mc_l)\frac{\partial Q_l}{\partial w_j}=\underbrace{\gamma_w}_{\partial mc_j/\partial w_j}Q_j-\lambda_j\underbrace{\eta_w}_{\partial D_j/\partial w_j}+\underbrace{\phi_w+FE+\nu^w_j}_{\partial FC_j/\partial w_j},\ \forall j
+    核对方式：本轮看图
+----- 【公式校正结束】 -----
+
+===== [PDF 第 24 页｜印刷第 22 页] =====
+0, where Wj are exogenous shifters. We discuss how we address these issues in Section 4.3 below.
+
+
+4.3  Estimation and Identiﬁcation
+
+Demand Analysis  Our estimation of demand parameters follows the literature (Berry et al.,
+
+1995; Petrin, 2002; Berry et al., 2004) with a key difference: in addition to prices, we also al-
+
+low driving range and vehicle weight to be endogenous. These attributes are adjusted frequently
+
+and likely correlated with the demand shock ξ jm. We use four sets of IVs (9 in total) for these en-
+dogenous variables: 1) the central subsidies, 2) sales tax rates, 3) wheelbase, and 4) battery weight
+
+interacted with battery supplier dummies.
+
+   The central subsidies are step functions of the driving range, as shown in Table 1, and create a
+
+regression-discontinuity type of variation in vehicle prices. In addition, both the subsidy amount
+
+and the driving range cutoffs change over time, generating rich variation in the sample. Analyzing
+
+demand responses to vehicles with driving ranges slightly below and above the subsidy thresholds
+
+helps identify the price sensitivity. The identiﬁcation assumption is that the variation in prices
+induced by the discrete jumps in subsidies provides a plausible source of exogenous variation.24
+
+The central subsidies are also powerful instruments for driving range and vehicle weight, as shown
+
+in Figure 5.
+
+    Similarly, the discrete changes in sales tax rates with respect to engine size provide another
+
+source of useful exogenous variation. The sales tax rate is normally set at 10%, but it was lowered
+
+to 5% in 2015 and 2016, and reset to 7.5% in 2017 for vehicles with an engine size of 1.6 liters
+
+or lower. Engine size is included in the utility function. Our identiﬁcation assumption is that the
+
+unobserved product attribute ξ does not change discretely with engine size. Both central subsidies
+and sales tax rates are strongly correlated with prices.
+
+   The third set of IVs follows the strategy in Whitefoot et al. (2017), which recognizes that
+
+vehicle design is a multi-stage process that could take several years.  In particular, the vehicle
+
+frame (and hence wheelbase) is determined in the early stage of the vehicle design. Wheelbase
+
+affects vehicle attributes such as vehicle weight.  It also affects battery capacity because battery
+
+packs are stored beneath the ﬂoorboard of vehicles, between the front and rear wheels. We assume
+
+that wheelbase does not enter consumer utility directly because consumers are unlikely to care
+
+about this attribute or know the wheelbase size.
+
+   The fourth set of IVs is based on battery weight and battery suppliers. It serves as a set of stan-
+
+  24As discussed in Section 3.1, the subsidy schedule was established by the central government and was unlikely to
+be inﬂuenced by ﬁrm lobbying. In addition, our rich set of controls and ﬁxed effects alleviate concerns that the subsidy
+schedule is correlated with demand shocks ξ.
+
+
+
+                                      22
+
+===== [PDF 第 25 页｜印刷第 23 页] =====
+dard supply-side instruments for demand analysis. These cost-side shifters affect the battery price
+
+and, consequently, the vehicle price. Battery weight and supplier identity also affect the driving
+
+range and vehicle weight but are excluded from consumer utility because they are typically un-
+
+known to consumers. This makes them suitable instruments for driving range and vehicle weight.
+
+We categorize battery suppliers into three groups: BYD, CATL, and others. BYD is the largest
+
+EV maker in China and supplies batteries for its own EV models. CATL is the largest battery
+
+supplier and supply for many EV producers. We include three battery supplier dummies and their
+
+interactions with battery weight, yielding six IVs.
+
+   To facilitate the identiﬁcation of heterogeneous consumer preferences, we construct micro-
+
+moments based on a household survey of new vehicle buyers (Petrin, 2002; Berry et al., 2004). We
+
+use the model to ﬁt the observed shares of vehicle buyers by six income groups based on household
+annual income (below ¥48k, ¥48-72k, ¥72-96k, ¥96-120k, ¥120-144k, and above ¥144k) by
+
+year for 2015-2017, leading to a total of 15 micro-moments.
+
+   The demand estimation is carried out using simulated GMM and a nested contraction mapping
+
+to recover product-speciﬁc mean utility δ jmt. The two sets of moment conditions are:
+
+   • Moment condition 1: E[ξ jmt(θ)|Zjmt] = 0, where Z is a vector of exogenous variables for
+      the demand analysis
+
+   • Moment condition 2: Predicted shares = observed shares of vehicle buyers by income group
+
+
+Supply Analysis  As mentioned in Section 4.2, there are two challenges in taking Equations
+
+(10), (12), and (13) to data to estimate cost parameters. First, vehicle attributes are endogenous.
+
+We leverage three sets of IVs: central subsidies, consumption tax, and sales-weighted average
+
+gasoline price interacting with fuel type. Subsidies affect sales and vehicle attributes, as discussed
+
+above, but are unlikely to be correlated with production cost shocks. The consumption tax rate is
+
+zero for BEVs but has seven different levels in the range of 1-40% for ICEs and PHEVs, depending
+
+on engine size. The consumption tax directly enters producer price as shown in Equation (7) and
+
+likely affects attribute choices such as vehicle weight. The third instrument is the weighted average
+
+of gasoline prices across cities for each model, where the weight is a model’s city-level sales shares.
+
+This variable takes a larger value if the corresponding vehicle model is popular in cities with higher
+
+gasoline prices. High gasoline prices result in high user costs for ICEs and boost demand for EVs.
+
+The identiﬁcation assumption is that gasoline prices, which are heavily regulated in China, are not
+affected by cost shocks to EV production.25
+
+  25The NRDC sets the ceiling of retail gasoline prices by province based on the moving average price of crude oil on
+the international market. Retail prices usually stay close to the ceiling price set by the NRDC (Chen and Sun, 2021).
+
+
+                                      23
+
+===== [PDF 第 26 页｜印刷第 24 页] =====
+   The second challenge in estimating the supply-side parameters arises because the product-
+
+speciﬁc Lagrangian multiplier λj is unobserved. We propose two solutions. Our ﬁrst solution
+follows Moon and Schorfheide (2009) and adds a slackness parameter to Equations (12) and (13)
+that captures the population average shadow value conditioning on exogenous shifters E[λ j|Wj].
+This converts inequality constraints to equality conditions and allows us to recover cost parameters
+
+via a standard GMM procedure. Our second solution imposes parametric assumptions on λj to
+reﬂect the fact that it captures changes in ﬁrm proﬁts when the range constraint tightens by one
+
+unit.  If the subsidy threshold increases by 1km, then ﬁrm  f could lose up to the incremental
+
+subsidy amount times its sales of product  j. In light of this, we assume that the shadow value is
+proportional to Q j: λ j ≃ζ ·Q j if λ j > 0, where ζ is a parameter to be estimated.
+  We estimate the cost parameters (ρ,γ,φ,ζ) jointly with GMM using Equations (10), (12), and
+(13), where the cost shocks are assumed to be mean independent of instruments Wj:
+
+                    E[ωj|Wj] = 0, E[νkj |Wj] = 0, and E[νwj |Wj] = 0.                   (14)
+
+
+We use data on both ICEs and EVs for the ﬁrst set of moment conditions on marginal cost shocks
+
+ωj, yielding a total of 1540 model-year observations. The other two sets of moment conditions
+on νkj and νwj  only use data on EVs (as FOCs for attributes are irrelevant for ICEs), with 279
+model-year observations
+
+   Covariation of prices and vehicle attributes, net of product markups, is informative of the cur-
+
+vature of the variable cost curve. Firms’ choices of battery capacities and vehicle weights at the
+
+model level allow us to learn about the ﬁxed costs of choosing different attributes. For example, if
+
+the driving ranges increase signiﬁcantly when the government increases subsidies for long-range
+
+models, the ﬁxed cost of adding battery capacity cannot be prohibitively high. The parametric
+
+assumptions on the cost structure also help with the supply-side identiﬁcation.
+
+
+5  Estimation Results
+
+5.1  Demand Estimates
+
+Table 3 presents estimates of the preference parameters in Equation (8). All columns control for
+
+city-by-year-by-fuel type (ICE of EV) ﬁxed effects, brand-by-year-by-fuel type ﬁxed effects, seg-
+
+ment ﬁxed effects, and vintage ﬁxed effects. The ﬁrst column shows results from a simple multino-
+
+mial logit model using OLS. The second column instruments for price, vehicle weight, and driving
+
+range using the four sets of IVs discussed in Section 4.3. As common in the demand literature, the
+
+
+                                      24
+
+----- 【公式校正｜对照原页图逐式转写，LaTeX】 -----
+(14)  E[\omega_j\mid W_j]=0,\qquad E[\nu^k_j\mid W_j]=0,\qquad E[\nu^w_j\mid W_j]=0
+    核对方式：本轮看图；说明：\lambda_j 不可观测，作者两种处理：加松弛参数 E[\lambda_j\mid W_j]，或设 \lambda_j\simeq\zeta\,Q_j（\lambda_j>0 时）；成本参数 (\rho,\gamma,\phi,\zeta) 用 (10)(12)(13) 联合 GMM
+----- 【公式校正结束】 -----
+
+===== [PDF 第 27 页｜印刷第 25 页] =====
+OLS coefﬁcient estimate on vehicle price is positive (implying an upward-sloping demand curve)
+
+due to the positive correlation between demand shocks (i.e., unobserved product attributes) and
+
+prices. The OLS coefﬁcient estimates on vehicle weight and engine size are also counter-intuitive.
+
+Once we instrument for price and the endogenous attributes, these coefﬁcients are all intuitively
+
+signed, highlighting the importance of controlling for price and attribute endogeneity.
+
+   Column (3) reports results from the random coefﬁcient model with heterogeneous preferences.
+
+As in Column (2), all parameter estimates are intuitively signed: consumers prefer heavy vehicles,
+
+EVs with a longer driving range, vehicles with better fuel efﬁciency, and more powerful and larger
+
+engines. High-income households are less price sensitive. In addition, the sizeable and signiﬁcant
+
+σp suggests signiﬁcant heterogeneity in price sensitivity among households with different income
+levels. In addition to the price, we allow random coefﬁcients on the constant term, the EV indica-
+
+tor, and the engine displacement. The random coefﬁcient on the constant term captures differences
+
+in the outside option across individuals (used vehicles or public transit) and is large and statisti-
+
+cally signiﬁcant. The random coefﬁcient estimate on the EV dummy is also large and statistically
+
+signiﬁcant, implying a large preference heterogeneity for EV purchases among consumers. The
+
+random coefﬁcients for other vehicle attributes, such as horsepower, fuel economy, and engine size
+
+are insigniﬁcant, partly due to the extensive list of ﬁxed effects.
+
+   Figure 6 plots demand elasticities and markups. Given substantial differences between EV
+
+models’ MSRPs and post-subsidy prices, both panels use post-subsidy consumer prices, which
+
+are more appropriate for documenting demand patterns. The left panel depicts the price semi-
+elasticities: the percentage change in sales for a ¥1,000 reduction in own prices. The increase in
+
+the percentage of sales is more pronounced for cheaper vehicles, implying more sensitive demand.
+
+Demand for EVs is less price-sensitive than that for ICEs at comparable prices. This is partly due
+
+to the higher income levels of EV buyers and the relatively smaller number of alternatives among
+
+EV models. The implied price elasticities range from -1.74 to -6.50, with an average of -4.15 and
+
+a sales-weighted average of -4.36. These estimates are in line with the literature on ICEs and EVs
+
+(Li et al., 2017a; Li, 2018; Xing et al., 2021; Muehlegger and Rapson, 2022; Springel, 2019). The
+
+right panel in Figure 6 shows markups (i.e., price minus the marginal cost) for all vehicles. High-
+
+end models are more proﬁtable: markups increase with prices. This is an important feature that we
+
+examine in counterfactual simulations below. EVs tend to have higher markups than ICEs, driven
+
+by less intense competition in the EV segment and the pass-through of EV subsidies.
+
+   Based on our demand estimates, shutting down central subsidies and allowing ﬁrms to adjust
+
+attributes in response to subsidy removal would reduce EV sales by 70.9% in 2017. The estimated
+
+sales impact is slightly larger than, though broadly in line with that from Li et al. (2022), which
+
+
+
+                                      25
+
+===== [PDF 第 28 页｜印刷第 26 页] =====
+shows that the subsidies attributed to 55% of EVs during the same data period based on a less
+
+ﬂexible demand model and simulations with product attributes ﬁxed. EV subsidies in the U.S. and
+
+Norway generated sales impact of similar magnitude (Li et al., 2017a; Springel, 2019).
+
+
+5.2  Supply Side Estimates
+
+Technology Frontier  Table 4 presents estimation results for the driving-range technology fron-
+
+tier separately for BEVs and PHEVs because they use different technologies. The ﬁrst two columns
+
+utilize all BEVs and PHEVs (at the trim level) that underwent the driving range test administered
+
+by China’s MIIT. It has nearly twice as many observations as the subset of trims that were com-
+
+mercially launched, which forms the basis of the subsequent analysis on marginal costs and ﬁxed
+
+costs. The last two columns report results using the subset of commercially launched trims. All
+
+regressions include ﬁxed effects for report dates to control for the technology progress over time
+
+as well as potential changes in testing technology and methodology. These two sets of estimates
+
+are nearly identical for BEVs and slightly more precise for PHEVs using the full sample.
+   The adjusted R2 is 0.9 for BEVs and over 0.7 for PHEVs, suggesting a good model ﬁt. Our
+
+policy analysis below is based on the results from the full sample in Columns (1) and (2). For both
+
+EVs and PHEVs, an additional 1 kWh of battery capacity increases the driving range by about 6
+
+km, aligning with industry consensus. A 10kg increase in net vehicle weight reduces the driving
+
+range by 1.1km for BEVs and about 0.5km for PHEVs (the average EV weighs 1,220kg, exclusive
+
+of batteries). EV batteries’ energy density is a crucial factor that determines how much power a
+
+battery stores, given the weight. Raising the battery density by 1kWh/10kg increases the driving
+
+range by a whopping 27km for BEVs, perhaps not surprising given the average battery density of
+1.1kWh/10kg.26
+
+   Vehicle weight has a smaller impact on the driving range for PHEVs than BEVs, which is
+
+intuitive because PHEVs are powered by both a battery motor and a gasoline engine.  Battery
+
+density has a counter-intuitive sign but is imprecisely estimated for PHEVs, likely due to the small
+
+battery size in PHEVs and the fact that battery capacity rather than density determines the driving
+
+range. As expected, a larger engine size for PHEVs is associated with a longer driving range:
+
+raising the engine displacement by one liter increases its driving range by 5.7km.
+
+  26Battery density is at the core of the EV battery technology. Most EV makers, with the notable exception of BYD,
+outsourced battery production to battery suppliers during our data period. We assume EV ﬁrms take the battery density
+as given when choosing battery capacity and vehicle weight.
+
+
+
+
+
+                                      26
+
+===== [PDF 第 29 页｜印刷第 27 页] =====
+Cost Functions  Table 5 reports supply-side parameter estimates from three speciﬁcations. Col-
+
+umn (1) reports the OLS results for the marginal cost Equation (10). Columns (2) and (3) estimate
+
+the marginal and ﬁxed cost parameters simultaneously using GMM as shown in Equation (14).
+
+The difference in Columns (2) and (3) lies in the treatment of the shadow value (i.e., Lagrangian
+
+multiplier) λj in Equations (12) and (13). Column (2) adds a slackness parameter that converts
+inequality conditions to equalities following Moon and Schorfheide (2009). Column (3) speciﬁes
+
+the product-speciﬁc shadow values λj as a function of sales. We use Column (3) for counterfactual
+analyses that require knowing the shadow value for each vehicle. All estimations include year, fuel
+
+type, segment, and brand ﬁxed effects separately for marginal costs and ﬁxed costs.
+
+  We report the parameter estimates for the marginal cost in Panel A and the ﬁxed cost in Panel
+
+B. The slackness parameter and the shadow value parameter are presented in Panel C. Compared
+
+with the results from GMM which addresses the endogeneity of vehicle attributes, OLS estimates
+
+on net vehicle weight and especially battery capacity are biased toward zero, suggesting a negative
+
+correlation between unobserved cost shocks and these attributes. Results in Columns (2) and (3)
+
+are very similar, indicating that cost estimates are robust to how we treat the shadow values. Based
+on the results in Column (3), adding 10kg of vehicle weight increases the marginal cost by ¥1,130
+
+for both ICEs and EVs.
+    Increasing battery capacity by 1kWh in EVs costs ¥3,620 in 2015, the base year. The co-
+
+efﬁcient estimate of ρ, which captures the reduction in battery cost as the technology improves,
+is 0.803 and statistically different from 1. In other words, the marginal cost of battery capacity
+declined by 19.7% annually and fell to ¥1,874 per kWh by 2018. The nearly 20% annual cost
+
+reduction — likely driven by technological progress, economies of scale, and learning by doing in
+
+the rapidly evolving battery industry — aligns remarkably well with estimates from the literature
+(Ziegler and Trancik, 2021) and industry reports.27 Figure 7 plots our estimates of the battery cost
+
+against the battery pack price per kWh from Bloomberg New Energy Finance’s annual battery price
+
+surveys. The pattern of annual reduction in battery prices is very similar between our estimates and
+
+the industry surveys. Bloomberg’s battery pack prices are 28-35% lower than our marginal cost
+
+estimates, which is intuitive because our estimates include not only the cost of purchasing battery
+
+packs but also installation costs.
+   The estimates of γother in Panel A are similar across columns and have intuitive signs: marginal
+costs increase with horsepower, engine size, and fuel efﬁciency. Marginal costs decreased signiﬁ-
+
+cantly over time, reﬂecting both the technological progress and economies of scale as EV produc-
+
+tion ramped up.
+
+  27See Bloomberg New Energy Finance report on November 26, 2023 at https://about.bnef.com/blog/lith
+ium-ion-battery-pack-prices-hit-record-low-of-139-kwh/.
+
+
+                                      27
+
+===== [PDF 第 30 页｜印刷第 28 页] =====
+   The estimated parameters in Panel B capture the slope of the ﬁxed cost function with respect
+
+to battery capacity and vehicle weight. The coefﬁcient estimates on battery capacity are large,
+
+positive, and statistically signiﬁcant, implying that the ﬁxed cost of production increases with
+
+battery size. The coefﬁcient estimates for vehicle weight are noisy. Designing larger vehicles can
+
+be more expensive, but the use of lighter materials to reduce weight can also be costly.
+   The estimated slackness parameter (i.e., the average shadow value E[λ j|Wj] for observations
+with a driving range at the cutoffs) in Panel C is large, indicating that relaxing the range cutoffs
+
+could result in signiﬁcant beneﬁts. This is consistent with the shadow value estimate in Column
+(3), where an automaker is willing to pay ¥140 per EV to reduce the driving range cutoff by 1km.
+Given the average subsidy of ¥100 to ¥390 per km, these estimates indicate that the automakers
+
+are willing to forego a considerable fraction of the subsidies to relax these constraints.
+
+
+6  Counterfactual Simulations
+
+
+In this section, we conduct counterfactual simulations to examine the impact of ABS on ﬁrm
+
+choices, consumer demand, and environmental externalities, following the theoretical discussions
+in Section 2. We compare ﬁve subsidy designs for BEVs.28 The ﬁrst scenario is a uniform subsidy
+
+that is the same across all EV models. This serves as a benchmark for four attribute-based designs.
+
+The second scenario represents the current notched range-based subsidies. The third scenario im-
+
+plements linear range-based subsidies with a two-part tariff in the form of T +t· driving range,
+
+where T and t are chosen to maximize the social welfare subject to the government’s budget con-
+
+straint. The fourth and ﬁfth scenarios follow the same two-part structure but are based on battery
+
+capacity and vehicle weight, respectively. Appendix C.3 provides details and a discussion of the
+simulation algorithm.29
+
+   Throughout the counterfactual analyses, we hold attributes for ICE models ﬁxed. This simpli-
+
+ﬁcation is driven by two considerations. First, the market share of EVs was less than 3% before
+
+2017 and 5.5% in 2018. EV subsidies likely had a limited impact on the attributes of ICEs. Sec-
+
+ond, solving for the new market equilibrium is computationally intensive with a larger number
+
+of multiple-product ﬁrms. Endogenizing attribute choices for ICEs would make the optimization
+
+more demanding due to the presence of many ICE models. Our simulations are based on the 2017
+
+  28We maintain the existing subsidy rate for PHEVs (see Table 1), but allow their attributes to change in response to
+different subsidy designs for BEVs.
+  29The counterfactual analyses are computationally intensive. Searching for the optimal choices of T and t for each
+subsidy design requires evaluating many guesses of T and t. For each guess, we need to solve the entire industry equi-
+librium with hundreds of vehicle prices for both ICEs and EVs and endogenous attributes for both BEVs and PHEVs.
+We provide analytical gradients for the Newton–Raphson algorithm that greatly speeds up the solution process.
+
+
+                                      28
+
+===== [PDF 第 31 页｜印刷第 29 页] =====
+cohort, though results are qualitatively similar with other cohorts. To facilitate comparison, we
+ﬁxed the total subsidy amount from the central government at ¥6.33 billion as under the observed
+policy in 2017 throughout all counterfactual simulations.30
+
+    Social welfare is the sum of consumer surplus and ﬁrm proﬁts minus the cost of emissions.
+
+The environmental beneﬁt for an EV model is calculated as the monetized savings from emission
+
+reductions (including CO2 and local pollutants PM, SO2, and NOx) relative to alternative ICEs that
+the EV replaces, following the literature (Holland et al., 2016; Xing et al., 2021). The calculation
+
+crucially considers the following: 1) substitution patterns between EVs and ICEs, based on our
+
+demand estimates; 2) tailpipe emissions standards and average fuel economy of ICEs that an EV
+
+replaces, 3) the energy efﬁciency of an EV model in kWh/km, calculated as the ratio of battery
+
+capacity over driving range; 4) the emission intensity of thermal power generation and the share
+
+of thermal power generation in the province where an EV is sold; and 5) the monetized marginal
+
+health damages of different pollutants. See Appendix C.1 for more details.
+
+  We additionally evaluate accident externalities in robustness analyses. Accident externalities
+
+from trafﬁc safety vary under different policy scenarios due to changes in vehicle weight. Heavier
+
+vehicles are shown to impose larger accident externalities (Li, 2012; Anderson and Auffhammer,
+
+2014; Bento et al., 2017). Appendix C.2 presents details on the calculation of accident externalities.
+
+They are approximately half the magnitude of environmental externalities and do not change the
+
+welfare results qualitatively.
+
+
+6.1  Optimal Subsidy Rates
+
+We report the optimal ABS policy design in the form of T +t ·z in Table A3. To illustrate how we
+
+solve for these optimal designs, Figure A4 depicts the equilibrium consumer surplus, ﬁrm proﬁt,
+
+and emissions as we vary the subsidy intensity t for each of the three ABS designs. The base
+
+subsidy T is determined by the budget constraint. As the subsidy intensity t rises, ﬁrms respond
+
+by producing EVs with extended driving ranges, increased battery capacity, and greater vehicle
+
+weights.  Initially, this boosts consumer surplus. However, as t continues to increase, consumer
+
+surplus begins to decline for two reasons. First, marginal and ﬁxed costs of production increase
+
+in vehicle attributes, leading to higher consumer prices. Second, the marginal utility derived from
+
+these attributes diminishes. Consequently, consumer surplus is concave in t.
+
+   The environmental beneﬁt from the emission reduction diminishes as the subsidy intensity t
+
+increases across all three ABS designs.  This is driven by two mechanisms.  First, ABS offers
+
+  30This is the total central subsidy that was distributed to the 40 cities in our sample. We ﬁx local subsidy designs at
+the observed level.
+
+
+                                      29
+
+===== [PDF 第 32 页｜印刷第 30 页] =====
+greater incentives for vehicles with enhanced attributes and changes the composition of vehicle
+
+sales in favor of larger and heavier models. This sales channel results in a ﬂeet that is less fuel
+
+efﬁcient on average. Second, a higher subsidy intensity t encourages the provision of the targeted
+
+attribute for a given vehicle. Capacity- and weight-based subsidies lead to larger battery capacities
+
+and vehicle weights, which reduce fuel efﬁciency and diminish environmental beneﬁts. While a
+
+higher subsidy intensity under the range-based subsidy prompts the downsizing of vehicles and
+
+improves environmental performance for a given vehicle, this effect is dominated by changes in
+
+the composition of EV sales (the sales channel).
+
+   Firms’ proﬁts from selling BEVs are moderately concave in subsidy intensity t for range- and
+
+capacity-based subsidies and close to ﬂat for weight-based subsidies. This is partly because higher
+
+subsidies are offset by the increases in the costs of offering these attributes. Altogether, the social
+welfare is concave in t, with a well-deﬁned optimal subsidy intensity t∗and the corresponding T ∗.
+
+
+6.2  Notched vs. Linear Subsidies
+
+We ﬁrst compare equilibrium outcomes under the observed notched subsidy to the linear subsidy.
+
+Under the notched design, the range cutoffs are 100km, 150km, and 250km, and the corresponding
+subsidy levels are ¥20k, ¥36k, and ¥44k, respectively, as shown in Table 1. Under the linear
+design, the per-unit subsidy is ¥24,704 + ¥70 × driving range, which gives ¥31.7k, ¥35.2k, and
+¥42.2k for vehicles with a driving range of 100km, 150km, and 250km, respectively.
+
+   Figure 8 plots the distribution of the BEV driving range under the notched design in red and
+
+the linear design in blue. The contrast between the two distributions is stark: while there is strong
+
+bunching with the notched subsidy design, bunching disappears with the linear subsidy design. As
+
+documented by Sallee and Slemrod (2012) in the context of fuel economy standards, there are two
+
+inefﬁciencies associated with a notched policy. First, there might be excessive bunching whereby
+
+ﬁrms alter weight and battery capacity to reach the driving range cutoffs. Second, ﬁrms have no
+
+incentive to improve attributes incrementally between the cutoffs.
+
+   Table A4 tabulates changes in vehicle attributes, prices, marginal costs, and sales separately
+
+for BEVs with driving ranges at the subsidy cutoffs and for those with driving ranges away from
+
+the cutoffs. Transitioning from notched to linear subsidies prompts automakers to adjust the char-
+
+acteristics of individual vehicles, depending on whether the cutoffs are binding or not. Models at
+
+the cutoffs experience increases in net vehicle weight and decreases in battery capacity, resulting
+
+in reduced driving ranges. MSRPs, marginal costs, and subsidies all decline. Conversely, vehicles
+
+with driving range away from the cutoffs witness increases in battery capacity and reductions in
+
+vehicle weight as ﬁrms respond to the stronger incentive to provide range under the linear policy.
+
+
+                                      30
+
+===== [PDF 第 33 页｜印刷第 31 页] =====
+These disparate responses underscore the distortions inherent to the notched policy.
+
+   Sales for BEV models with the longest driving ranges increase while sales for the other groups
+
+drop, because the former group has more desirable attributes and receives much larger subsidies
+under the linear design. Lastly, social welfare improves by ¥135 million annually, as shown in
+
+Table 6 below.
+
+
+6.3  Welfare Analysis
+
+We ﬁrst discuss differences in vehicle attributes under different ABS designs, then examine welfare
+
+implications, and ﬁnish with a welfare decomposition exercise that highlights underlying channels.
+
+
+Changes in Vehicle Attributes  Figure 9 illustrates the average vehicle price, battery capacity,
+
+net vehicle weight, and driving range under the uniform subsidy and the four ABS designs: the
+
+current notched range-based subsidy and linear subsidy designs based on driving range, battery
+
+capacity, and vehicle weight.
+
+   Vehicle prices are higher under all ABS designs than under the uniform subsidy. This is due
+
+to the increased provision of vehicle attributes that consumers desire. The capacity subsidy results
+
+in the largest price increase of 6.3%. The increase in prices reﬂects the fact that capacity-based
+
+subsidies prompt ﬁrms to increase the provision of battery capacity, vehicle weight, and driving
+
+range the most relative to all other designs.
+
+   Panels (b)-(d) exhibit an intuitive pattern: ﬁrms increase the vehicle attribute that is targeted
+
+by the policy. For example, battery capacity is the highest under capacity-based subsidy compared
+
+to all other designs. Vehicle weight is the largest and driving range is the lowest under weight-
+
+based subsidy, highlighting the trade-off between vehicle weight and driving range. Range-based
+
+subsidies incentivize ﬁrms to increase battery capacity while reducing vehicle weight, leading to
+
+the longest driving range but the lowest vehicle weight.
+
+
+Changes in Markups A key theoretical insight of Section 2 is that ABS designs can also effec-
+
+tively mitigate market power and quantity distortions. To illustrate this, Figure 10 plots changes in
+markups Pj(x)−Cj(x) for products in each quartile of the price distribution when we move from
+the uniform subsidy to ABS designs. Each of the four panels depicts changes for one of the four
+
+ABS designs. A consistent pattern emerges across all panels: markups decrease for products above
+
+the median price and they increase for products below the median price. Notably, the reduction in
+
+markups for products above the median price is most pronounced under capacity-based subsidy.
+
+Given that high markups are typically associated with quantity distortions, and such distortions are
+
+
+                                      31
+
+===== [PDF 第 34 页｜印刷第 32 页] =====
+more pronounced among higher-priced products, capacity-based subsidy appears most effective at
+
+addressing quantity distortions among all policies we examine.
+
+
+Changes in Sales  Table A5 reports changes in sales for BEVs with different qualities when we
+
+move from the uniform subsidy to ABS. We divide the BEVs into high-quality models (where
+the WTP is above the median of ¥130k) and low-quality models (WTP below ¥130k) using con-
+sumer WTP under the uniform policy.31 The uniform subsidy favors low-quality models com-
+
+pared to ABS. High-quality models receive more subsidies under ABS, especially with weight-
+
+and especially capacity-based subsidies. The sales impact under different designs is an important
+
+underlying channel for the welfare comparison we discuss below.
+
+
+Welfare Comparison  Table 6 presents changes in welfare under different ABS designs relative
+
+to the uniform subsidy, where welfare is consumer surplus plus ﬁrm proﬁt net of the monetized
+
+cost of emissions. We use the uniform subsidy as the baseline because it does not directly target
+
+product attributes. All cells report changes when we move from the uniform subsidy to ABS.
+
+   There are several key ﬁndings from this table.  First, all ABS designs generate signiﬁcant
+gains in consumer surplus relative to the uniform subsidy, ranging from ¥226 million in 2017
+under the notched design to ¥643 and ¥680 million under capacity- and weight-based subsidies,
+
+respectively. These consumer gains arise from two channels.  First, ABS subsidies induce more
+
+desirable vehicle attributes, as shown in Figure 9. Second, ABS designs more effectively address
+
+quantity distortions that arise from market power and high mark-ups, as demonstrated in Figure 10.
+
+The increase in consumer surplus is relatively modest for range-based designs because it leads to
+
+vehicle downsizing, which is undesirable to consumers.
+
+   Firms producing BEVs beneﬁt from the ABS designs that redistribute subsidies from the low-
+
+end models to the high-end ones.  Sales of high-end products increase signiﬁcantly relative to
+
+the uniform subsidy (see Table A5). These vehicles are more proﬁtable and boost the proﬁts of
+BEVs.32 Compared to gains in consumer surplus, however, proﬁt increases from selling EVs are
+
+about an order of magnitude smaller and slightly negative for the notched design. The increase in
+
+BEV proﬁts is mostly offset by losses in ICE proﬁts. In general, automakers collectively suffer a
+
+net loss under ABS relative to the uniform subsidy.
+
+  31The average WTP for each model is simulated using 150 pseudo consumers in each market and 10,000 idiosyn-
+cratic preference shocks for each pseudo consumer, εi jm.  It is deﬁned as the payment level that makes consumers
+indifferent between buying and not buying the vehicle.
+  32The proﬁt gains of BEVs is much lower at ¥5.4 million under the weight-based subsidy because increasing
+vehicle weight is costly. Both the marginal and ﬁxed costs of production increase signiﬁcantly with heavier vehicles.
+
+
+
+                                      32
+
+===== [PDF 第 35 页｜印刷第 33 页] =====
+   The environmental performance of the EV ﬂeet worsens as sales shift to larger and less environ-
+
+mentally friendly EVs under ABS. Compared to the uniform subsidy, the social cost of emissions
+increases by ¥70 million under the notched range subsidy to ¥182 million under the weight sub-
+
+sidy. The environmental performance under the weight-based design is the most compromised
+
+due to the EVs becoming heavier. As a robustness check, Table A6 reports changes in accident
+
+externalities, which are about half of the welfare cost of the increased emissions. Perhaps not
+
+surprisingly, weight-based subsidies lead to the largest increase in accident externality due to the
+
+larger vehicle weight.
+
+    In total, ABS designs result in signiﬁcant welfare gains compared to the uniform subsidy,
+ranging from ¥97.2 million under the current notched range subsidy to ¥448 million under the
+
+capacity subsidy. These gains stem from consumer beneﬁts outweighing the losses in automakers’
+
+proﬁts and the social costs associated with increased emissions.
+
+   Second, the capacity-based subsidy design — the policy implemented in the U.S. — yields the
+
+largest welfare gain. This design strikes the best balance between moderating negative environ-
+
+mental externalities and mitigating quantity distortions as a result of market power. This is because
+
+the variation in market power across products has a higher correlation with battery capacity than it
+
+does with other attributes. As a result, capacity-based subsidies can more effectively correct quan-
+
+tity (i.e., market power) distortion than other designs as outlined in Section 2.2 and illustrated in
+
+Figure 10. In addition, capacity-based subsidies incentivize ﬁrms to produce high-quality vehicles,
+
+further boosting consumer surplus.
+
+    Third, the uniform subsidy design that is adopted in several European countries turns out to
+
+be less efﬁcient than ABS as a result of two countervailing forces. On the one hand, the uniform
+
+subsidy increases the market share of smaller vehicles due to the relatively higher subsidies for
+
+these vehicles and achieves the best environmental outcome. On the other hand, the uniform
+
+subsidy does not provide incentives for quality provision, and ﬁrms produce vehicles with smaller
+
+batteries and lower weight (see Figure 9). Overall, the environmental beneﬁt is outweighed by a
+
+much higher expense of consumer surplus due to the lower consumer WTP for smaller and low-
+
+quality vehicles.
+
+
+Welfare Decomposition  ABS designs could improve welfare through several channels: they
+
+mitigate market power and redistribute subsidies toward products with more severe distortions. If
+
+quality under-provision is relevant, ABS also incentivizes attribute provision. These channels are
+
+intertwined in the welfare analyses above. We perform a decomposition exercise to disentangle
+
+them and further understand the role of each of the channels.
+
+
+
+                                      33
+
+===== [PDF 第 36 页｜印刷第 34 页] =====
+   Let Y o = (Xo,P o,Qo,Ro) denote the equilibrium outcomes under the uniform subsidy: vec-
+
+tors of vehicle attributes, prices, quantities, and total subsidies for each product under the uniform
+policy. The total subsidy for a given product is the per-unit subsidy times quantity: R j = bj · Qj.
+Let Y ′ = (X′,P ′,Q′,R′) denote equilibrium outcomes under an ABS alternative. We decompose
+the welfare changes, ∆SW = SW(Y ′)−SW(Y o), into the following two components:
+
+∆SW = SW(X′,P ′,Q′,R′)−SW(Xo,P o,Qo,Ro)
+   = SW(X′,P ′,Q′,R′)−SW(X′, P , Q,Ro) +SW(X′, P , Q,Ro)−SW(Xo,P o,Qo,Ro),                             e e            e e
+        |      Beneﬁts from Mitigating{z   Market Power    }  |         Beneﬁts from Improved{z      Attributes       }
+
+where (X′, P , Q,Ro) refers to the scenario that ﬁxes subsidy expenditures across products at Ro,         e e
+but adjusts attributes to X′ and allows ﬁrms to choose prices P (which pins down quantities Q) to                                            e                      e
+maximize proﬁt given X′ and Ro.
+
+    In the ﬁrst channel, which is labeled ‘Beneﬁts from Mitigating Market Power,’ products receive
+different subsidies according to the ABS design while attributes are ﬁxed at X′. Vehicles equipped
+
+with better attributes beneﬁt from higher subsidies, which lowers the post-subsidy markups. The
+only difference between SW(X′,P ′,Q′,R′) and SW(X′, P , Q,Ro) arises from subsidy levels                                           e e
+across products (and the associated price responses) which allows us to measure the effectiveness
+
+of ABS subsidies in mitigating market power distortions. In the second channel, which is labeled
+‘Beneﬁts from Improved Attributes,’ the subsidies across products are ﬁxed at Ro while product
+
+attributes change. This isolates the welfare effect of attribute changes separate from changes in
+
+the level of subsidies across products as a result of ABS. As pointed out in Section 2.1, while our
+
+theoretical setup rules out the Spence distortion, the presence of such a distortion serves as another
+
+rationale for ABS designs.
+
+    In addition to the decomposition exercise, we conduct another counterfactual simulation that is
+motivated by Section 2.3, where we allocate subsidies across products in the form of Tj +t ∗z(Xj)
+with a product-speciﬁc base subsidy Tj. This enables the government to redistribute subsidies more
+effectively across products with varying degrees of market failures.33 We call this the ‘Subsidy
+Redistribution Channel.’ Denote these outcomes as ˆY = (X′, Pˆ , Q,ˆ R),ˆ  where Rˆ = ˆb· Qˆ and ˆb is
+the vector of product-speciﬁc optimal subsidies and Pˆ (Q)ˆ stands for the optimal prices (quantities)
+given ˆb. The magnitude of welfare changes ∆SW = SW(ˆY ) −SW(Y ′) speaks to the importance
+
+of subsidy redistribution.
+
+   Table 7 reports the welfare results. Columns (1) to (3) in Panel A show that changes in at-
+
+  33ABS designs in the form of T +t ∗z(Xj) also redistribute subsidies across products, though the extent of redistri-
+bution is somewhat limited.
+
+
+                                      34
+
+===== [PDF 第 37 页｜印刷第 35 页] =====
+tributes account for 42-62% of total welfare gains. These results echo the importance of endog-
+
+enizing product attributes in evaluating ABS. Columns (4) to (6) in Panel A illustrate that ABS
+
+designs effectively address market power distortions, which explains the remaining 38% to 58%
+
+of the welfare gains. The capacity- and weight-based designs allocate larger subsidies to products
+
+with more severe market power (and quantity) distortions, resulting in a larger boost to consumer
+
+surplus. However, the gains are partially offset by increased emissions. Overall, all ABS designs
+
+lead to signiﬁcant welfare gains relative to uniform subsidies.
+   Allowing subsidy redistribution in the form of Tj + t ∗z(Xj) further improves welfare. The
+magnitude of the welfare gains is comparable to the gains associated with reducing market power,
+from ¥143 million for range policy to ¥190 million for weight policy, enhancing welfare gains
+
+by another 34% to 62% (Panel B of Table 7). A third of these additional welfare gains can be
+
+attributed to increases in ﬁrm proﬁts, with the remainder explained by improvements in consumer
+
+surplus and a moderate decline in environmental beneﬁts.
+
+
+Endogenous Attributes   Finally, to shed light on the importance of endogenizing product at-
+
+tributes, we conduct simulations holding product attributes ﬁxed and only allowing prices and
+
+sales to adjust, as commonly done in the literature. The results are in Table A7. While the sign of
+
+the total welfare changes is the same as the baseline results in Table 6, the magnitude of the impact
+
+is only 28% of the baseline results for capacity and weight subsidies and 40% for range subsidies.
+
+In addition, ﬁxing product attributes leads to the spurious conclusion that ABS designs increase
+
+ﬁrm proﬁts, contrary to the results shown in Table 6 with endogenous attributes.
+
+
+7  Conclusion
+
+
+Attribute-based subsidies (ABS) are commonly used to promote the diffusion of energy efﬁcient
+
+products. These products are often manufactured by ﬁrms with market power. To the best of our
+
+knowledge, this study offers the ﬁrst theoretical and empirical analysis of how ABS affects product
+
+attributes, consumer demand, and environmental externalities in a differentiated product oligopoly.
+
+   Our theoretical model traces out the locus of optimal EV subsidy design with a two-part subsidy
+
+structure under varying government budget constraints, highlighting the importance of balancing
+
+environmental externalities and market power distortions in policy design. The empirical analysis
+
+uses China’s passenger vehicle market to evaluate the impact of ABS. Counterfactual simulations
+
+indicate that, although the uniform EV subsidy generates the largest emission reductions, ABS
+
+generates signiﬁcant gains in overall welfare relative to the uniform subsidy. It does so by incen-
+
+
+
+                                      35
+
+===== [PDF 第 38 页｜印刷第 36 页] =====
+tivizing quality provision and alleviating quantity distortions. Battery capacity subsidies generate
+
+the largest increase in social welfare relative to uniform subsidies and other ABS designs because
+
+they most effectively balance quantity distortions and environmental impacts. The analysis also
+
+underscores the importance of including endogenous product attributes when evaluating the wel-
+
+fare impacts of ABS. Our framework takes product offerings as given and does not consider the
+
+effect of government subsidies on technological innovations, which we leave for future research.
+
+References
+
+Allcott, Hunt and Cass R. Sunstein, “Regulating Internalities,” Journal of Policy Analysis and
+
+  Management, 2015, 34 (3), 698–705.
+
+  and Dmitry Taubinsky, “Evaluating Behaviorally Motivated Policy: Experimental Evidence
+
+  from the Lightbulb Market,” American Economic Review, August 2015, 105 (8), 2501–38.
+
+Almunia, Miguel and David Lopez-Rodriguez, “Under the radar: The effects of monitoring
+
+  ﬁrms on tax compliance,” American Economic Journal: Economic Policy, 2018, 10 (1), 1–38.
+
+Anderson, Michael L. and Maximilian Auffhammer, “Pounds That Kill: The External Costs of
+
+  Vehicle Weight,” Review of Economic Studies, 2014, 81, 535–571.
+
+Anderson, Soren T, Ian WH Parry, James M Sallee, and Carolyn Fischer, “Automobile fuel
+
+  economy standards: Impacts, efﬁciency, and alternatives,” Review of Environmental Economics
+
+  and Policy, 2011, 5 (1), 89–108.
+
+Bai, Jie, Panle Barwick, Shengmao Cao, and Shanjun Li, “Quid Pro Quo, Knowledge Spillover
+
+  and Industrial Quality Upgrading,” 2020. Working Paper.
+
+Barahona, Nano, Cristóbal Otero, and Sebastián Otero, “Equilibrium Effects of Food Labeling
+
+   Policies,” Econometrica, 2023, 91 (3), 839–868.
+
+Barnett, A. H., “The Pigouvian Tax Rule Under Monopoly,” The American Economic Review,
+
+  1980, 70 (5), 1037–1041.
+
+Barwick, Panle J., Hyuksoo Kwon, Shanjun Li, and Nahim Zahur, “Drive Down the Cost:
+
+  Learning by Doing and Government Policy in the Global Electric Vehicle Battery Industry,”
+
+  2024.
+
+Barwick, Panle Jia, Shengmao Cao, and Shanjun Li, “Local Protectionism, Market Structure,
+
+  and Social Welfare: China’s Automobile Market,” American Economic Journal: Economic Pol-
+
+   icy, 2021, 13 (4), 112–51.
+
+
+                                      36
+
+===== [PDF 第 39 页｜印刷第 37 页] =====
+Bento, Antonio, Kenneth Gillingham, and Kevin Roth, “The Effect of Fuel Economy Standards
+
+  on Vehicle Wight Dispersion and Accident Fatalities,” 2017. Working Paper.
+
+Beresteanu, Arie and Shanjun Li, “Gasoline Prices, Government Support, and the Demand for
+
+  Hybrid Vehicles,” International Economic Review, 2011, 52 (1), 161–182.
+
+Berry, S., J. Levinsohn, and A. Pakes (2004), “Differentiated Products Demand Systems from a
+
+  Combination of Micro and Macro Data: The New Car Market,” Journal of Political Economy,
+
+  2004, pp. 68–105.
+
+Berry, Steven T., James Levinsohn, and Ariel Pakes, “Automobile Prices in Market Equilib-
+
+  rium,” Econometrica, 1995, 63 (4), 841–890.
+
+Boomhower, Judson and Lucas W. Davis, “A Credible Approach for Measuring Inframarginal
+
+  Participation in Energy Efﬁciency Programs,” Journal of Public Economics, 2014, 113, 67–79.
+
+Bovenberg, A. Lans and Lawrence H. Goulder, “Optimal Environmental Taxation in the Pres-
+
+  ence of Other Taxes: General- Equilibrium Analyses,” The American Economic Review, 1996,
+
+  86 (4), 985–1000.
+
+Buchanan, James M., “External Diseconomies, Corrective Taxes, and Market Structure,” The
+
+  American Economic Review, 1969, 59 (1), 174–177.
+
+Chade, Hector and Jeroen Swinkels, “Screening in Vertical Oligopolies,” Econometrica, 2021,
+
+  89 (3), 1265–1311.
+
+Chen, Hao and Zesheng Sun, “International crude oil price, regulation and asymmetric response
+
+  of China’s gasoline price,” Energy Economics, 2021, 94, 105049.
+
+Crawford, Gregory S, Oleksandr Shcherbakov, and Matthew Shum, “Quality overprovision
+
+   in cable television markets,” American Economic Review, 2019, 109 (3), 956–95.
+
+Davis, Lucas W, “The effect of driving restrictions on air quality in Mexico City,” Journal of
+
+   Political Economy, 2008, 116 (1), 38–81.
+
+Fan, Ying, “Ownership consolidation and product characteristics: A study of the US daily news-
+
+  paper market,” American Economic Review, 2013, 103 (5), 1598–1628.
+
+  and Chenyu Yang, “Competition, product proliferation and welfare: A study of the us smart-
+
+  phone market,” Available at SSRN 2506423, 2016.
+
+Fowlie, Meredith, Mar Reguant, and Stephen P Ryan, “Market-based emissions regulation and
+
+  industry dynamics,” Journal of Political Economy, 2016, 124 (1), 249–302.
+
+
+
+                                      37
+
+===== [PDF 第 40 页｜印刷第 38 页] =====
+Gillingham, Kenneth and Tsvetan Tsvetanov, “Hurdles and steps: Estimating demand for solar
+
+  photovoltaics,” Quantitative Economics, 2019, 10 (1), 275–310.
+
+Goulder, Lawrence H., Ian W. H. Parry, and Dallas Burtraw, “Revenue-Raising versus Other
+
+  Approaches to Environmental Protection: The Critical Signiﬁcance of Preexisting Tax Distor-
+
+   tions,” The RAND Journal of Economics, 1997, 28 (4), 708–731.
+
+Holland, Stephen P., Erin T. Mansur, and Nicholas Z. Muller, “Are There Environmental Ben-
+
+  eﬁts from Driving Electric Vehicles? The Importance of Local Factors,” American Economic
+
+  Review, 2016, 106 (12), 3700–3729.
+
+Houde, Sébastien, “The incidence of coarse certiﬁcation: Evidence from the ENERGY STAR
+
+  Program,” 2018. Working Paper.
+
+    , “Bunching with the stars: How ﬁrms respond to environmental certiﬁcation,” Management
+
+  Science, 2022, 68 (8), 5569–5590.
+
+  and Joseph E. Aldy, “Consumers’ Response to State Energy Efﬁcient Appliance Rebate Pro-
+
+  grams,” American Economic Journal: Economic Policy, November 2017, 9 (4), 227–55.
+
+Huo, Hong, Qiang Zhang, Fei Liu, and Kebin He, “Climate and environmental effects of electric
+
+  vehicles versus compressed natural gas vehicles in China: a life-cycle analysis at provincial
+
+   level,” Environmental science & technology, 2013, 47 (3), 1711–1718.
+
+IEA,   “Global  EV   Outlook   2022,”    Technical   Report,    IEA,    Paris   2022.
+
+  https://www.iea.org/reports/global-ev-outlook-2022.
+
+Ito, Koichiro and James M Sallee, “The economics of attribute-based regulation: Theory and
+
+  evidence from fuel economy standards,” Review of Economics and Statistics, 2018, 100 (2),
+
+  319–336.
+
+Jacobsen, Mark R., Christopher R. Knittel, James M. Sallee, and Arthur A. van Benthem,
+
+  “The Use of Regression Statistics to Analyze Imperfect Pricing Policies,” Journal of Political
+
+  Economy, 2020, 128 (5), 1826–1876.
+
+Jerch, Rhiannon, Panle Jia Barwick, Shanjun Li, and Jing Wu, “The Impact of Road Rationing
+
+  on Housing Demand and Sorting,” Journal of Urban Economics, 2023. forthcoming.
+
+Kellogg, Ryan, “Gasoline price uncertainty and the design of fuel economy standards,” Journal of
+
+  Public Economics, 2018, 160, 14–32.
+
+    , “Output and attribute-based carbon regulation under uncertainty,” Journal of Public Economics,
+
+  2020, 190, 104246.
+
+
+                                      38
+
+===== [PDF 第 41 页｜印刷第 39 页] =====
+Kiso, Takahiko, “A Subsidy That Is Inversely Related to the Product Price,” Economic Journal,
+
+  2021. forthcoming.
+
+Klier, Thomas and Joshua Linn, “New-vehicle characteristics and the cost of the Corporate
+
+  Average Fuel Economy standard,” The RAND Journal of Economics, 2012, 43 (1), 186–213.
+
+  and     , “The effect of vehicle fuel economy standards on technology adoption,” Journal of
+
+  Public Economics, 2016, 133, 41–63.
+
+Knittel, Christopher R, “Automobiles on steroids: Product attribute trade-offs and technological
+
+  progress in the automobile sector,” American Economic Review, 2011, 101 (7), 3368–99.
+
+Kwon, Hyuk-soo, “Subsidies versus Tradable Credits for Electric Vehicles: The Role of Market
+
+  Power in the Credit Market,” 2023. Working Paper.
+
+Langer, Ashley and Derek Lemoine, “Designing dynamic subsidies to spur adoption of new
+
+  technologies,” Technical Report, National Bureau of Economic Research 2018.
+
+Leard, Benjamin, Joshua Linn, and Yichen Christy Zhou, “How Much Do Consumers Value
+
+  Fuel Economy and Performance? Evidence from Technology Adoption,” The Review of Eco-
+
+  nomics and Statistics, 01 2023, 105 (1), 158–174.
+
+Li, Shanjun, “Trafﬁc Safety and Vehicle Choice: Quantifying the Effects of the ‘Arms Race’ on
+
+  American Roads,” Journal of Applied Econometrics, 2012, 27, 34–62.
+
+    , “Better lucky than rich? Welfare analysis of automobile license allocations in Beijing and
+
+  Shanghai,” Review of Economic Studies, 2018, 85 (4), 2389–2428.
+
+    , Lang Tong, Jianwei Xing, and Yiyi Zhou, “The Market for Electric Vehicles: Indirect Net-
+
+  work Effects and Policy Impacts,” Journal of the Association of Environmental and Resources
+
+  Economists, 2017, 4 (1), 89–133.
+
+    , Xianglei Zhu, Yiding Ma, Fan Zhang, and Hui Zhou, “The Role of Government in the Mar-
+
+  ket for Electric Vehicles: Evidence from China,” Journal of Policy Analysis and Management,
+
+  2022, 41 (2), 450–485.
+
+Li, Xin, Konstantinos J Chalvatzis, and Dimitrios Pappas, “China’s electricity emission inten-
+
+   sity in 2020–an analysis at provincial level,” Energy Procedia, 2017, 142, 2779–2785.
+
+Moon, Hyungsik Roger and Frank Schorfheide, “Estimation with overidentifying inequality
+
+  moment conditions,” Journal of Econometrics, 2009, 153 (2), 136–154.
+
+Muehlegger, Erich and David S. Rapson, “Subsidizing low- and middle-income adoption of
+
+
+
+                                      39
+
+===== [PDF 第 42 页｜印刷第 40 页] =====
+   electric vehicles: Quasi-experimental evidence from California,” Journal of Public Economics,
+
+  2022, 216, 104752.
+
+Narain, Urvashi and Chris Sall, Methodology for Valuing the Health Impacts of Air Pollution:
+
+  Discussion of Challenges and Proposed Solutions, The World Bank, 2016.
+
+Parry, Ian WH, Mr Dirk Heine, Eliza Lis, and Shanjun Li, Getting energy prices right: From
+
+  principle to practice, International Monetary Fund, 2014.
+
+Petrin, Amil, “Quantifying the beneﬁt of new products: the case of minivan,” Journal of Political
+
+  Economy, 2002, 110 (4), 705–729.
+
+Pless, Jacquelyn and Arthur A. van Benthem, “Pass-Through as a Test for Market Power: An
+
+  Application to Solar Subsidies,” American Economic Journal: Applied Economics, October
+
+  2019, 11 (4), 367–401.
+
+Remmy, Kevin, “Adjustable product attributes, indirect network effects, and subsidy design: The
+
+  case of electric vehicles,” 2022. Working Paper.
+
+Reynaert, Mathias, “Abatement strategies and the cost of environmental regulation: Emission
+
+  standards on the European car market,” Review of Economic Studies, 2021, 88, 454–488.
+
+Sallee, James, “The Surprising Incidence of Tax Credits for the Toyota Prius,” American Eco-
+
+  nomics Journal: Economics Policy, 2011, 3, 189–219.
+
+Sallee, James M and Joel Slemrod, “Car notches: Strategic automaker responses to fuel economy
+
+   policy,” Journal of Public Economics, 2012, 96 (11-12), 981–999.
+
+Sills, Jennifer, Helai Huang, Fangrong Chang, David C. Schwebel, Peishan Ning, Peixia
+
+  Cheng, and Guoqing Hu, “Improve trafﬁc death statistics in China,” Science, 2018, 362 (6415),
+
+  650–650.
+
+Spence, A. Michael, “Monopoly, Quality, and Regulation,” The Bell Journal of Economics, 1975,
+
+  6 (2), 417–429.
+
+Springel, Katalin, “Network Externality and Subsidy Structure in Two-Sided Markets: Evidence
+
+  from Electric Vehicle Incentives,” American Economic Journal: Economic Policy, 2019, 13 (4),
+
+  393–432.
+
+Stavins, Robert N., “Vintage-Differentiated Environmental Regulation,” Stanford Environmental
+
+  Law Journal, 2006, pp. 29–63.
+
+Tang, Ling, Xiaoda Xue, Jiabao Qu, Zhifu Mi, Xin Bo, Xiangyu Chang, Shouyang Wang,
+
+
+
+                                      40
+
+===== [PDF 第 43 页｜印刷第 41 页] =====
+  Shibei Li, Weigeng Cui, and Guangxia Dong, “Air pollution emissions from Chinese power
+
+  plants based on the continuous emission monitoring systems network,” Scientiﬁc Data, 2020, 7
+
+  (320), 2052–4463.
+
+Wang, Jingyuan and Jianwei Xing, “Subsidizing Industry Growth in a Market with Lemons:
+
+  Evidence from the Chinese Electric Vehicle Market,” 2023. Working Paper.
+
+Whitefoot, Kate, Meredith Fowlie, and Steven J. Skerlos, “Compliance by Design: Inﬂuence
+
+  of Acceleration Trade-offs on CO2 Emissions and Costs of Fuel Economy and Greenhouse Gas
+  Regulations,” Environmental Science & Technology, 2017, (18), 10307–10315.
+
+Wollmann, Thomas G, “Trucks without bailouts: Equilibrium product characteristics for com-
+
+  mercial vehicles,” American Economic Review, 2018, 108 (6), 1364–1406.
+
+Xing, Jianwei, Benjamin Leard, and Shanjun Li, “What Does an Electric Vehicle Replace?,”
+
+  Journal of Environmental Economics and Management, 2021, 107, 102432.
+
+Ziegler, Micah S. and Jessica E. Trancik, “Re-examining rates of lithium-ion battery technology
+
+  improvement and cost decline,” Energy & Environmental Science, 2021, 14, 1635–1651.
+
+
+
+
+
+                                      41
+
+===== [PDF 第 44 页｜印刷第 42 页] =====
+Figures & Tables
+
+
+               Figure 1: Attribute Choices and Social Welfare under Monopoly
+
+                            (a) Attribute Space                                   (b) Product Market with xo
+        x2                                        P
+
+                                                         Iso-social-surplus:
+                                   B(x)−C(x)+φ ·e(x)
+
+                    x∗                                                               Pm(xo)              DWL1
+
+
+                                                                                                  C(xo)
+                               xo
+                                                                   P∗(xo)                         C(xo)−φ ·e(xo)
+
+                                                             Iso-private-surplus:
+                                          B(x)−C(x)
+                                                                          Q P−B(xo)
+                                                      x1                                                                         Qm(xo)        Q∗(xo)          Q
+
+
+                   (c) Impact of Attribute Change                                (d) Product Market with x∗
+
+      P                                       P
+
+
+
+
+                                                    DWL2 =        -                                                              Pm(xo)
+
+                                              C(x∗)                                                     C(x∗)
+    P∗(xo)                             C(xo)                                                     C(xo)
+                                  C(xo)−φ ·e(xo)                                       C(xo)−φ ·e(xo)
+    P∗(x∗)                               C(x∗)−φ ·e(x∗)   P∗(x∗)                               C(x∗)−φ ·e(x∗)
+                              Q B(P−B(xo)                                 Q P−B(xo)
+                               Q P−B(x∗)                                   Q P−B(x∗)
+
+                           Q∗(xo)  Q∗(x∗)       Q                   Qm(xo)     Q∗(xo)  Q∗(x∗)       Q
+
+
+Notes: Panel (a) depicts the attribute space where the contour lines represent the iso-quant curves for the private
+surplus B(x) −C(x) and social surplus B(x) −C(x) + φ · e(x). The monopolist chooses xo and the social planner
+picks x∗. Panel (b) illustrates the product market outcomes conditioning on product design xo. Pm(xo) and Qm(xo)
+are the price and quantity chosen by the monopolist while the socially optimal price and quantity are P∗(xo) and
+Q∗(xo). The red triangle DWL1 is the deadweight loss due to market power when the attributes are chosen at xo.
+Panel (c) depicts the impact of attribute change from xo to x∗. xo maximizes the private surplus B(x) −C(x), so
+the green solid-line triangle (with the base deﬁned by line C(xo)) is larger than the red solid-line triangle (with the
+base deﬁned by line C(x∗)). x∗generates the largest social surplus B(x) −C(x) + φ · e(x), hence the pink shaded
+triangle (with the base deﬁned by C(x∗) −φ · e(x∗)) is greater than the green shaded triangle (with the base deﬁned
+by C(xo)−φ ·e(xo)). The ﬁrst best is deﬁned as {x∗, P∗(x∗), Q∗(x∗)}. Panel (d) illustrates the welfare loss from the
+monopoly relative to the ﬁrst best. It shows the distortions from two market failures: i) product attributes is distorted
+due to environmental externality; and ii) quantity is distorted due to both market power and environmental externality.
+The difference between Qm(xo) and Q∗(xo) is driven by market power while that between Q∗(xo) and Q∗(x∗) is
+driven by the fact that attribute xo is less environmental friendly than attribute x∗.
+
+
+
+                                      42
+
+===== [PDF 第 45 页｜印刷第 43 页] =====
+                     Figure 2: Perfect Targeting vs. Imperfect Targeting
+
+
+                                      Case I: Perfect Targeting
+
+
+                  (a) Attribute Space                                            (b) Product Market
+ x2                                     P
+
+
+                                                      SW(x∗)
+             x∗= xo +t∗·d⇀xe
+
+                       t > 0                  d⇀xe                P∗(x∗)                             C(x∗)−t∗·e(x∗)
+                          xo               T ∗
+                                                                       C(x∗)−t∗·e(x∗)−T ∗
+                                          t < 0
+                                                      Q P−B(x∗)                                           MR
+                                               x1                Q∗(x∗)               Q
+
+
+                                     Case II: Imperfect Targeting
+
+                  (c) Attribute Space                                            (d) Product Market
+ x2                                    P
+
+
+                                                       SW(xz)
+                  x∗
+
+                  d⇀xe     A                                      P∗(xz)                          C(xz)−φ ·e(xz)
+              xz            xo                                                                            C(xz)−tz ·z(xz)                                d⇀xz                                        z                                         T
+                           B                                       C(xz)−(T z +tz ·z(xz))
+
+                                                    Q P−B(xz)                                          MR
+                                               x1               Q∗(xz)                Q
+
+Notes: Panels (a) and (b) depict the case of perfect targeting, while Panels (c) and (d) illustrate the case of imperfect
+targeting. Panel (a) shows that the optimal subsidy intensity t∗induces the ﬁrm to choose the socially optimal attributes
+x∗. The line connecting xo and x∗denotes the ﬁrm’s best responses to different subsidy intensities: any point on the
+line represents the ﬁrm’s optimal attribute choice for a given subsidy intensity t (see Appendix A.1). Panel (b) shows
+that given x∗, the optimal base subsidy T ∗induces the monopoly to choose the socially optimal quantity Q∗(x∗). The
+green triangle represents the social welfare under the ﬁrst-best outcome. Panel (c) shows that when the policy attribute
+differs from the externality (i.e., z ̸= e), the ﬁrst-best attributes x∗cannot be attained as the ﬁrm responds to the subsidy
+intensity t along the line connecting xo and xz. The best attribute that is attained under imperfect targeting is xz. Panel
+(d) illustrates the optimal choice of T given xz. T z induces monopoly to choose Q∗(xz), the socially optimal quantity
+for product design xz. The green triangle represents the social welfare with {xz, P∗(xz) Q∗(xz)}, which is smaller
+than the green triangle in Panel (b).
+
+
+
+
+                                      43
+
+===== [PDF 第 46 页｜印刷第 44 页] =====
+                      Figure 3: Policy Choice with a Budget Constraint
+
+
+           (a) Second-Best Attribute Choice                         (b) Policy Comparison
+ x2              Iso-social-surplus (SNB)            x2
+                                                                                                                  z′
+                      x∗
+      dSNB          xz      < 0         w/o BC           dt
+                                                        x∗
+                                                                                                    ˜x
+                          xz                                       with BC=R
+                 dSNB             d⇀xz                                      xo
+                            dt             > 0                                      xz
+                              xo                                         with BC=R
+                                                                                                     z
+
+
+
+                                                                                                    x1                                                 x1
+
+
+                                         (c) Optimal Policy Attribute
+                           x2
+                                                 Optimal policy attribute changes
+                                                                     as budget increases
+
+
+                                   x∗     4                                             3
+                                               2
+
+                                                1
+                                               xo
+
+
+                                                           z1 z2 z3 z4
+                                                                         x1
+
+
+Notes: This ﬁgure demonstrates the optimal choices of policy attribute z and subsidy intensity t when the planner
+cannot eradicate market power due to a limited budget. In Panel (a), ‘xzw/o BC’ provides the highest per-unit social
+surplus given the policy attribute z without a budget constraint. With a limited budget, the planner chooses subsidy
+rates (T,t) to maximize social welfare under z with budget R, which induces the monopolist to choose ‘xzwith BC=R.’
+Panel (b) compares two policy attributes. Suppose policy attribute z does not go through a tangency point between
+iso-social-surplus and iso-private surplus curves. Any policy line that penetrates the blue lens leads to higher social
+welfare with the same budget constraint. For example, policy z′ (and its corresponding optimally chosen subsidy rates
+(T ′,t′)) dominates z (and T,t) in terms of social welfare. Panel (c) illustrates the choice of optimal policy attribute
+z. The red dots in Panel (c) are the tangency points between the iso-social- and iso-private-surplus curves. As the
+government budget increases, the optimal policy line shifts from z1 to z4, and the corresponding product attributes
+move away from xo toward x∗.
+
+
+                                      44
+
+===== [PDF 第 47 页｜印刷第 45 页] =====
+        Figure 4: Distribution of Driving Ranges among BEV Models during 2015-2018
+
+
+                              (a) 2015                                               (b) 2016
+
+
+
+
+
+                              (c) 2017                                               (d) 2018
+
+
+
+
+
+Notes: The horizontal lines represent the driving ranges of BEVs with a bin size of 10km. The dark blue bars represent
+the BEV models with a driving range just above the policy thresholds of the corresponding years. The light blue bars
+show the number of BEVs for which the driving range cutoffs are not binding. Bunching is pronounced. In addition,
+ﬁrms adjust driving ranges in response to the annual changes in subsidy cutoffs.
+
+
+
+
+
+                                      45
+
+===== [PDF 第 48 页｜印刷第 46 页] =====
+                           Figure 5: Changes in Vehicle Attributes
+
+
+
+
+
+Notes: The top ﬁgure plots the year-to-year changes in net vehicle weight (exclusive of battery weight) on x-axis,
+and battery capacity on y-axis by vehicle model. The blue circles depict models with increasing driving ranges; the
+size of the circle represents the magnitude of the change. The red diamonds depict models with decreasing driving
+ranges; these changes are small, as shown by the sizes of the diamonds. The bottom ﬁgure depicts the histograms of
+the changes in driving range.
+
+                       Figure 6: Semi-elasticities and Implied Markups
+
+                      (a) Semi-elasticity                                             (b) Markup
+
+
+
+
+
+Notes: The left panel plots the price semi-elasticities, the % increase in sales when the price decreases by ¥1,000,
+against consumer prices (net of central and local subsidies). The right panel plots the markups (ﬁrm price as deﬁned
+in Equation (7) minus marginal cost) against post-subsidy consumer prices. The red dots represent EVs while the blue
+dots represent ICEs.
+
+
+
+
+
+                                      46
+
+===== [PDF 第 49 页｜印刷第 47 页] =====
+             Figure 7: Bloomberg Battery Pack Prices and Estimated Battery Costs
+
+
+
+
+
+Notes:  The blue bars represents Lithium-ion battery pack price (in 2018 $/kWh) from 2012 to 2018 from
+BloombergNEF’s annual battery price survey. The pink bars show the battery cost estimates from our model. Our
+cost estimates are higher than Bloomberg prices because they include additional costs, such as installation costs. Ac-
+cording to BloombergNEF’s survey, battery costs declined by around 20% annually from 2012 to 2018, consistent
+with our estimates.
+
+
+                         Figure 8: Notched versus Linear Subsidies
+
+
+
+
+
+Notes: The ﬁgure depicts the observed distribution of BEVs’ driving ranges under the notched subsidy policy in 2017
+(in red) and the counterfactual distribution under the linear subsidy design (T +t· driving range) (in blue). Aggregate
+subsidy expenditures are the same under both designs. With a linear subsidy, bunching along the cutoffs disappears
+and the social welfare increases by ¥135 million.
+
+
+
+                                      47
+
+===== [PDF 第 50 页｜印刷第 48 页] =====
+                  Figure 9: Vehicle Attributes under Different Policy Designs
+
+                     (a) Vehicle price (MSRP)                                (b) Battery capacity
+
+
+
+
+
+                           (c) Net weight                                       (d) Driving range
+
+
+
+
+
+Notes: The plots depict average vehicle attributes (price, battery capacity, net vehicle weight exclusive of battery
+weight, and driving range) under the uniform subsidy and four attribute-based subsidies (ABS) for BEVs. All ﬁve
+scenarios have the same subsidy budget. The base subsidy rate T and the subsidy intensity t under linear ABS are
+chosen to maximize social welfare given the budget level.
+
+
+
+
+
+                                      48
+
+===== [PDF 第 51 页｜印刷第 49 页] =====
+    Figure 10: Markup Changes under ABS Relative to Uniform Subsidies by Price Quartiles
+
+
+                    (a) Notched Range Subsidy                            (b) Linear Range Subsidy
+
+
+
+
+
+                       (c) Capacity Subsidy                                  (d) Weight Subsidy
+
+
+
+
+
+Notes: The plots illustrate changes in markups (measured by post-subsidy consumer price minus marginal cost) when
+we move from a uniform subsidy to attribute-based subsidies (ABS) in each quartile of the price distribution (denoted
+by the x-axis). Relative to the uniform subsidy, ABS designs lead to a much bigger reduction in markups for products
+with above-median prices. These products tend to experience larger quantity distortions as a result of high markups.
+Capacity subsidy leads to the largest markup reduction among higher-priced products.
+
+
+
+
+
+                                      49
+
+===== [PDF 第 52 页｜印刷第 50 页] =====
+              Table 1: Consumer Subsidies for EVs from the Central Government
+
+             Type    Range    2013    2014    2015    2016    2017    2018
+
+               ≥80km   35,000  33,250  31,500       -           -           -
+                ≥100km                            25,000  20,000       -
+                ≥150km  50,000  47,500  45,000  45,000  36,000  15,000
+          BEV  ≥200km                                            24,000
+                ≥250km  60,000  57,000  54,000  55,000  44,000  34,000
+                ≥300km                                            45,000
+                ≥400km                                            50,000
+
+         PHEV  ≥50km   35,000  33,250  31,500  30,000  24,000  22,000
+
+Notes: The table presents subsidies in ¥ for EV buyers offered by the central government from 2013 to 2018. The
+exchange rate between US dollar and Chinese RMB was between 6.2 and 7 (¥/$) during the period.
+
+
+                                Table 2: Summary Statistics
+
+                                      ICEs                       EVs
+                           # of Obs.     Mean   Std. Dev.    # of Obs.    Mean   Std. Dev.
+
+  Panel A: Model-city-year observations for demand-side analysis
+
+   Sales                        28,661   1056.58   1335.01        5,628   150.07     659.92
+  MSRP (¥10k)                28,661      15.46       8.79        5,628     19.62       6.93
+  Net weight (10kg)             28,661     141.32      21.87        5,628   121.90      41.10
+  Horsepower                  28,661     146.29      37.17        5,628   127.47      92.67
+  Fuel economy (L/100km)       28,661       6.85       0.95        1,433      1.74       0.36
+  Engine size (L)               28,661       1.66       0.25        1,433      1.60       0.32
+   Central subsidy (¥10k)                   -              -              -        5,628      3.76       1.32
+  Local subsidy (¥10k)                     -              -              -        5,628      1.33       1.41
+  Driving range (km)                        -              -              -        5,628   208.02     112.11
+   Battery capacity (kWh)                   -              -              -        5,628     29.94      15.85
+   Battery density (kWh/10kg)             -              -              -        5,628      1.11       0.23
+
+  Panel B: Model-year observations for supply-side analysis
+
+   Sales                          1,261  24014.72  30916.53         279  3027.20   4493.07
+  MSRP (¥10k)                  1,261      14.40       8.48         279     19.43       7.58
+  Net weight (10kg)              1,261     142.52      23.88         279   118.66      38.44
+  Horsepower                    1,261     144.77      37.13         279   116.06      80.88
+  Fuel economy (L/100km)        1,261       6.99       1.06          61      1.79       0.40
+  Engine size (L)                 1,261       1.66       0.26          61      1.59       0.32
+  Driving range (km)                        -              -              -         279   205.68     105.19
+   Battery capacity (kWh)                   -              -              -         279     29.72      15.73
+   Battery density (kWh/10kg)             -              -              -         279      1.10       0.23
+
+Notes: Panel A shows the summary statistics for the demand analysis that uses city by year by model level observations
+during 2015-2018 for the top 40 cities with the largest EV sales in China. Panel B shows the summary statistics for the
+supply-side analysis that uses model-by-year level observations. The summary statistics for fuel economy and engine
+size under the EV columns are only computed for PHEVs. There are 84 ﬁrms, 497 ICE models, 164 BEV models, and
+38 PHEV models during the sample period.
+                                      50
+
+===== [PDF 第 53 页｜印刷第 51 页] =====
+                        Table 3: Estimates of Preference Parameters
+
+
+                                                        (1)             (2)             (3)
+                                OLS Logit    IV Logit     Full Model
+                                             Coef.   S.E.  Coef.   S.E.  Coef.   S.E.
+
+          Linear Parameters
+            Price (¥10k)                        0.01   0.00   -0.16   0.02         -        -
+            log(net vehicle weight)              -0.15   0.12    2.48   0.51    5.58   0.30
+            log(driving range)                   0.46   0.07    0.87   0.09    1.09   0.16
+           Fuel economy (L/100km)            -0.05   0.01   -0.14   0.03   -0.23   0.03
+          Horsepower                         0.00   0.00    0.01   0.00    0.02   0.00
+          Engine size (displacement, L)        -0.21   0.05    0.81   0.12    0.83   0.05
+
+
+                                                                        p
+           Price Sensitivity: αi = −exp(α1 +α2log(yim)+σpνim)
+          α1 (constant)                                   -        -         -        -    2.31   0.35
+          α2 (income)                                    -        -         -        -   -1.21   0.12
+         σp (random coefﬁcient on price)            -        -         -        -    0.59   0.11
+
+         Other Random Coefﬁcients: σx
+           Constant                                        -        -         -        -    3.16   0.28
+       EV                                               -        -         -        -    1.72   0.57
+          Displacement (L)                              -        -         -        -    0.25   0.62
+
+          No. of observations                  34,329       34,329       34,329
+
+Notes: Column (1) reports results for the multinomial logit regression without any instruments. Columns (2) and
+(3) instrument price, vehicle weight, and driving range with four sets of IVs: (1) the central subsidies; (2) the
+sales tax rate; (3) wheelbase; and (4) supplier dummies and their interactions with battery weight. Column (3) is
+the random coefﬁcient multinomial logit model and is estimated using simulated GMM with micro-moments. Net
+vehicle weight is the same as curb weight for ICEs and excludes battery weight for EVs. The price coefﬁcient αi is
+                                             p                                         p
+speciﬁed as −exp(α1 +α2log(yim)+σpνim where yim is consumer income and νim is unobserved preference shocks
+(i.i.d. log-normal draws). All regressions include city-by-year-by-fuel type (ICE or EV) ﬁxed effects, brand-by-
+year-by-fuel type ﬁxed effects, segment ﬁxed effects, and vintage ﬁxed effects (the year when the model was ﬁrst
+introduced into the market).
+
+
+
+
+
+                                     51
+
+===== [PDF 第 54 页｜印刷第 52 页] =====
+               Table 4: Technology Frontier: Determinants of Driving Range
+
+
+                                              Full Sample           Commercially Launched
+                            BEVs      PHEVs      BEVs      PHEVs
+                                            (1)             (2)             (3)              (4)
+     Dep. var: driving range (km)  Coef.   S.E.   Coef.   S.E.   Coef.   S.E.   Coef.    S.E.
+
+      Battery capacity (kWh)         6.17   0.15    6.07   0.29    6.05   0.19    4.24    0.37
+     Net vehicle weight (10kg)      -1.06   0.07   -0.47   0.05   -1.06   0.08   -0.37    0.07
+      Battery density (kWh/10kg)   27.24   7.47   -8.00   7.48  24.25   9.55   -3.00  10.32
+      Engine displacement (L)                      5.68   3.53                14.60    4.75
+
+     # of observations               926         175         553          86
+      Adj. R2                          0.90          0.79          0.90           0.74
+
+Notes: The dependent variable is driving range in km. The results are from OLS. Columns (1) and (2) use the full
+sample that includes all BEVs and PHEVs (at the trim level) that underwent the driving range test administered by
+China’s Ministry of Industry and Information Technology (MIIT). MIIT conducted 22 batches of tests during our
+sample period, for a total of 926 BEV trims and 175 PHEV trims. Columns (3) and (4) use the subset of trims
+that were commercially launched in the Chinese market. Columns (1) and (3) report results for BEVs and Columns
+(2) and (4) report results for PHEVs. Net vehicle weight excludes the weight of batteries. All regressions include
+the ﬁxed effects for the test result announcement dates to control for the technology progress as well as potential
+differences in testing technology and methodology over time.
+
+
+
+
+
+                                     52
+
+===== [PDF 第 55 页｜印刷第 53 页] =====
+              Table 5: Marginal Cost, Fixed Cost, and Shadow Value Estimates
+
+
+                                                       (1)                   (2)                   (3)
+                                 OLS       GMM with     GMM with
+                                              common slackness   model speciﬁc λj
+  Panel A: Marginal cost (¥10k)           Coef.      S.E.     Coef.      S.E.     Coef.      S.E.
+
+     γw    Net vehicle weight (10kg)         0.08      0.01      0.11      0.01      0.11      0.01
+      γk     Battery capacity (kWh)           0.05      0.01      0.36      0.05      0.36      0.04
+    ρ     Battery cost depreciation                              0.80      0.03      0.80      0.03
+
+           Horsepower                      0.02      0.00      0.02      0.00      0.02      0.00
+           Displacement (L)                 2.68      0.37      2.60      0.45      2.60      0.45
+            Fuel consumption (L/100km)     -0.69      0.11     -0.65      0.11     -0.67      0.11
+    γ other   Year FE (base year: 2015)
+           2016                            -0.43      0.15     -0.28      0.15     -0.29      0.15
+           2017                            -0.98      0.15     -0.68      0.15     -0.69      0.15
+           2018                            -1.71      0.16     -1.15      0.16     -1.17      0.16
+
+  Panel B: Fixed cost (¥10k)
+
+    φw    Net vehicle weight (10kg)                           -24.53     85.34    -37.40     74.58
+     φk     Battery capacity (kWh)                           842.96   414.53     907.4     299.6
+
+  Panel C: Shadow value (¥10k/1km)
+
+  E[λ|W]  Slackness parameter                                198.9      89.1
+     ζ      Sales                                                                0.014     0.007
+
+Notes: Column (1) reports the OLS results for the marginal cost Equation (10). Columns (2) and (3) estimate all
+marginal and ﬁxed cost parameters simultaneously using GMM. Column (2) estimates the slackness parameters in
+Equations (12) and (13) for observations with binding constraints following Moon and Schorfheide (2009). Column
+(3) estimates the product-speciﬁc shadow value λj as a function of sales. The number of observations is 1,540 for
+Panel A and 279 for Panels B and C. In Panel A, parameters γw and γ other (coefﬁcients for other exogenous variables
+in the marginal cost equation) are for both EVs and ICEs; the other parameters are only for EVs. Parameters γw and
+ρt · γk represent the marginal cost slope with respect to weight and battery capacity, and ρ captures battery costs’
+annual depreciation relative to the base year 2015. The estimated battery cost decreased from ¥3,620/kWh in 2015
+to ¥1,874/kWh in 2018. In Panel B, φw and φk represent the slope of ﬁxed costs with respect to net vehicle weight
+and battery capacity. In Panel C, the ζ estimate implies that EV makers are willing to pay ¥140 per vehicle to
+reduce the binding driving range constraint by 1km. All estimations include year, fuel type, segment, and brand
+ﬁxed effects separately for marginal costs and ﬁxed costs.
+
+
+
+
+
+                                     53
+
+===== [PDF 第 56 页｜印刷第 54 页] =====
+           Table 6: Welfare Impacts of ABS Subsidies Relative to Uniform Subsidy
+
+
+                                          Changes relative to the uniform subsidy
+
+                                        Notched      Linear
+                                                                   Capacity     Weight
+                                        Range     Range
+                                                        (1)           (2)           (3)           (4)
+
+          ∆Total welfare (in ¥mil.)             97.2       232.1       448.0       376.7
+
+
+         ∆Consumer surplus                 226.2       316.7       643.2       679.9
+
+                     BEV           -16.0        57.0        92.1          5.4
+         ∆Firm Proﬁt      PHEV            -3.8         -4.7         -8.9         -7.3
+                          ICE            -38.8        -52.6      -123.3      -119.5
+
+                                  Total           -58.6         -0.2        -40.1      -121.5
+
+                        CO2            60.6        71.9       131.2       151.7
+          ∆Emissions      PM               1.2          1.6          3.0          3.6
+                      NOx              8.1        10.5        18.4        20.7
+                         SO2              0.5          0.4          2.6          5.8
+
+                                  Total            70.4        84.4       155.2       181.8
+
+Notes: Aggregate central subsidies are ﬁxed in all columns. The unit is ¥million (in 2017) for all cells. Each cell
+represents the change under an attribute-based subsidy (ABS) relative to the uniform subsidy. The four columns are
+the observed notched-range subsidy and the optimal linear design (i.e., the two-part tariff) based on driving range,
+battery capacity, and vehicle weight, respectively. The rows titled ‘∆Emissions’ represent monetized health damages
+(in ¥mil.) from increased emissions: a positive value implies an increase in the health costs of emissions relative to
+the uniform subsidy.
+
+
+
+
+
+                                      54
+
+===== [PDF 第 57 页｜印刷第 55 页] =====
+                       Table 7: Channels Underlying Welfare Changes
+
+
+                                  Panel A: Welfare Decomposition
+
+  Welfare changes relative                   Beneﬁts from                        Beneﬁts from
+  to uniform subsidy                     Improved Attributes                  Mitigating Market Power
+  (in ¥mil.)                       Range    Capacity     Weight       Range    Capacity     Weight
+                                              (1)           (2)           (3)             (4)           (5)           (6)
+
+  ∆Total welfare                        97.8       277.7       209.5         134.3       170.3       167.2
+
+                  CS          138.8       375.3       401.5         178.0       267.9       278.5
+ ∆CS and Proﬁt
+                         Proﬁt         -16.1        -49.1      -138.8           15.9          9.0        17.3
+
+                           Total         122.7       326.3       262.7         193.8       276.8       295.8
+
+  ∆Emissions                          24.9        48.6        53.2           59.6       106.5       128.6
+
+
+
+                        Panel B: Welfare Changes from Subsidy Redistribution
+
+                    Welfare gains from                   ABS Design with
+                     subsidy redistribution                           Optimal Tj
+                         (in ¥mil.)                          Range    Capacity     Weight
+                                                                        (1)           (2)           (3)
+
+                   ∆Total welfare                          143.2       152.6       190.2
+
+                                  CS           121.8       112.6       153.6
+             ∆CS and Proﬁt
+                                              Proﬁt           36.8        50.7        55.5
+
+                                                   Total          158.6       163.3       209.1
+
+                  ∆Emissions                               15.4        10.7        18.9
+
+
+Notes: Aggregate central subsidies are ﬁxed in all columns. The unit is ¥million (in 2017) for all cells. Panel A
+decomposes welfare gains into two sources: improved attributes and reduced market power distortions. In the ﬁrst
+three columns, we ﬁx subsidy expenditures at the baseline (the uniform subsidy) but use the equilibrium attributes
+associated with each ABS and allow ﬁrms to adjust prices and quantities given the ABS attributes. This isolates the
+effect of improved attributes. In the last three columns, attributes are the same as the ﬁrst three columns but subsidies
+adjust to the ABS level. ABS designs provide more subsidies to products with above-median prices and are more
+effective at mitigating market power distortions. In Panel B, we allocate subsidies optimally at the product level in the
+form of Tj +t ∗z(X) with a product-speciﬁc base subsidy Tj. Welfare further improves due to the improved subsidy
+redistribution that better addresses varying degrees of distortions among products (i.e., higher subsidies to products
+with more severe distortions and with demand more responsive to subsidies).
+
+
+
+
+
+                                      55
