@@ -81,13 +81,15 @@ BLP模型学习与记忆 (4).pdf
 
 - [2026-10-08 20:01 UTC] 列出并解压全部 12 个 zip 到 scratchpad/x/z01..z12（未改原件）。读取 candidate_v10：`blp-model-building/SKILL.md`、`构造与组合协议.md`、`模块集成图.md`、`agents/blp-professor.toml`、`agents/blp-project-professor.toml`。
 - [2026-10-08 20:01 UTC] 建立本断点文件。
+- [2026-10-08 20:08 UTC] **安装完成**：`.claude/skills/{blp-model-building, blp-project-professor, structural-model-building, economics-expert-reviewer, top-journal-hypothesis-packaging}`；`.claude/agents/{blp-professor, blp-project-professor, blp-referee}.md`；文本知识库 `BLP_KB/`（514 文件，21MB）；`CLAUDE.md` 配置文件；`tools/extract_pdfs.sh`。已 commit `111b3e2` 并 push。用户拒绝了 hooks 方案 → 改为 CLAUDE.md + 自我计时（每次重要步骤 `date -u` 检查）。
+- [2026-10-08 20:16 UTC] **记忆吸收完成**：演练稿（用户核验记号：δ, μ, ξ, Δ, b=Δ⁻¹s，(6.9b) 负号更正）、BLP1995 逐式核验、微观基础、供给福利四轨、工况项目层（制度时点、楔子事实：ICE +7.7%、PHEV 油耗 +59.3%/纯电续航 −17.3%、BEV 证据薄；外推法 corr 0.8746、可靠度 0.754）、构造协议 D01–D09、项目内核 V6-M01–M04、GRV2018（γρ、里程分布、γ=0.91）、GHVB2021（同硬件重标、估值 0.16–0.39、ΔWTP 换算）、RS2021（x̃=x−(1−α)g，决策/体验福利）、Barwick 续航焦虑、BKL2024（续航前沿 D=η_k k+η_w w+κ，容量不直接进效用）、中国补贴（续航基础 × 能量密度系数 × 能耗系数）、CAFC 公式（NEV 倍数）、残值渠道、认知不足。
+- [2026-10-08 20:18 UTC] **渲染管线完成**：`tools/build_pdf.sh`（pandoc+XeLaTeX，Noto Serif CJK SC，amsmath/mathtools/bm），测试页渲染正确（中文、\tag、aligned、\boxed、表格）。
 
 ## D. 待完成（下一步）
 
-1. 安装 skill/agent 到 `.claude/skills/`、`.claude/agents/`（路径重绑定为仓库内副本 `BLP_INSTALL/`），写 `CLAUDE.md`、钩子。
-2. 精读：项目 skill（blp-project-professor 全部 references）、dependencies_v6/project、演练稿、BLP1995 逐式核验、GRV2018/RS2021/BKL2024/XLL2021/Barwick2025、Gillingham 短视、燃油工况综述、01_完整研究框架与逐式推导.md、07 tex。
-3. 搭建 LaTeX 渲染管线（XeLaTeX+CJK 或 pandoc+KaTeX→Chromium PDF），先做渲染测试。
-4. 逐模型推导 M0→M7，每个模型写入 `deliverables/`，派第三方审议 agent 评分，迭代到阈值；记录评分账本 `MEMORY/review_ledger.md`。
+1. ~~安装~~（完成） 2. ~~精读~~（完成） 3. ~~渲染管线~~（完成）
+4. **正在做**：写 `deliverables/00_总论_研究定位与机制.md`（一段话回答“研究什么、贡献、需求升降两种解释、信任/欺诈命名”）、`deliverables/M0_基础回归.md`、`deliverables/M1_基准BLP.md`；然后派 blp-referee（opus, effort max）审 M1（目标≥90）、M0（≥85）。
+5. 逐模型推导 M0→M7，每个模型写入 `deliverables/`，派第三方审议 agent 评分，迭代到阈值；记录评分账本 `MEMORY/review_ledger.md`。
 5. 汇总终稿 md + pdf，commit + push。
 
 ## E. 断点时间戳日志
@@ -95,3 +97,4 @@ BLP模型学习与记忆 (4).pdf
 | 时间 (UTC) | 事件 |
 |---|---|
 | 2026-10-08 20:01 | 首次写入断点 |
+| 2026-10-08 20:18 | 第 2 次断点：安装+记忆+渲染完成；下一步写 M0/M1 |
