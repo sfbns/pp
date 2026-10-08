@@ -1,0 +1,177 @@
+{
+  "scope": "Reopened preserved original/current roles; no new source modification",
+  "roles": [
+    {
+      "set": "original_formula",
+      "role": "MODIFIED_FILE.md",
+      "path": "D:\\codex\\output\\blp_bundle_20261007\\package\\03_BLP_foundation\\formula_transaction\\MODIFIED_FILE.md",
+      "sha256": "107a16555552bedf174fcfde75acd568c3ac31b2bcd48c0e8b9ec470cde5cb77",
+      "reopened": true
+    },
+    {
+      "set": "original_formula",
+      "role": "DIFF_FILE.patch",
+      "path": "D:\\codex\\output\\blp_bundle_20261007\\package\\03_BLP_foundation\\formula_transaction\\DIFF_FILE.patch",
+      "sha256": "6c41ca85634d21215e5046f8f254a3b6ce9eaf7685db6b0d7b91cada0759b3f4",
+      "reopened": true
+    },
+    {
+      "set": "original_formula",
+      "role": "VERIFICATION.txt",
+      "path": "D:\\codex\\output\\blp_bundle_20261007\\package\\03_BLP_foundation\\formula_transaction\\VERIFICATION.txt",
+      "sha256": "1128fb41277a1411424591faff5e43aae1d0a2c570de27e916d0b3ca7700fdf2",
+      "reopened": true
+    },
+    {
+      "set": "original_formula",
+      "role": "ROLLBACK.sh",
+      "path": "D:\\codex\\output\\blp_bundle_20261007\\package\\03_BLP_foundation\\formula_transaction\\ROLLBACK.sh",
+      "sha256": "a9adf95787aebba8b2b744771a4183b40f4acfed36eea0a457cadda57ea620f0",
+      "reopened": true
+    },
+    {
+      "set": "current_config",
+      "role": "MODIFIED_FILE.zip",
+      "path": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\MODIFIED_FILE.zip",
+      "sha256": "bbd2acf30481262348cfba0b34601a0efe2705739bf589b1b3a12e6600fba1f7",
+      "bytes": 92114,
+      "reopened": true
+    },
+    {
+      "set": "current_config",
+      "role": "DIFF_FILE.patch",
+      "path": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\DIFF_FILE.patch",
+      "sha256": "869f226f3a388cabeab34b251d07db764e451f0c73908cda1825585539b7fafe",
+      "bytes": 126218,
+      "reopened": true
+    },
+    {
+      "set": "current_config",
+      "role": "VERIFICATION.txt",
+      "path": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\VERIFICATION.txt",
+      "sha256": "aaf0776f72978bbeb17a87abe12c007ce8444ba9f2624eb421c998e4f4f38db3",
+      "bytes": 137466,
+      "reopened": true
+    },
+    {
+      "set": "current_config",
+      "role": "ROLLBACK.sh",
+      "path": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\ROLLBACK.sh",
+      "sha256": "15d52a92186c5a12fa3be6e5a58e5f941854c4cabaca07044ea387f7d3dc958c",
+      "bytes": 326,
+      "reopened": true
+    }
+  ],
+  "current_config_same_input_exits": [
+    3,
+    0,
+    3
+  ],
+  "original_formula_followup": {
+    "status": "PASS",
+    "changed_symbol": "BLP (1995) equation (6.13): fixed-accepted-draw importance-sampling normalization 1/ns",
+    "behaviors": [
+      {
+        "input": {
+          "ns": 4,
+          "bar_s": 0.6,
+          "fbar": [
+            0.6,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "fj": [
+            0.3,
+            0.3,
+            0.3,
+            0.3
+          ],
+          "expected": 0.3
+        },
+        "normalization": "missing",
+        "share_estimate": 1.2,
+        "expected_share": 0.3,
+        "normalization_check": "FAIL"
+      },
+      {
+        "input": {
+          "ns": 4,
+          "bar_s": 0.6,
+          "fbar": [
+            0.6,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "fj": [
+            0.3,
+            0.3,
+            0.3,
+            0.3
+          ],
+          "expected": 0.3
+        },
+        "normalization": "1/ns",
+        "share_estimate": 0.3,
+        "expected_share": 0.3,
+        "normalization_check": "PASS"
+      },
+      {
+        "input": {
+          "ns": 4,
+          "bar_s": 0.6,
+          "fbar": [
+            0.6,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "fj": [
+            0.3,
+            0.3,
+            0.3,
+            0.3
+          ],
+          "expected": 0.3
+        },
+        "normalization": "missing",
+        "share_estimate": 1.2,
+        "expected_share": 0.3,
+        "normalization_check": "FAIL"
+      }
+    ],
+    "evaluation_exits": [
+      0,
+      0,
+      0
+    ],
+    "SH_exit": 0,
+    "restored_hash_matches_original": true,
+    "all_original_four_roles_reopened_unchanged": {
+      "D:\\codex\\research-memory\\BLP_structural_models_memory_skills_configs_2026-08-24\\03_economics_theory_agent\\kb\\03_structural_models\\foundations\\01-user-verified-blp-model-construction-walkthrough-2026-05-20.md": "fdde3c6065a03f629928761e0ea71cd3f2b7f193656b8124758157eb6d207b18",
+      "D:\\codex\\output\\blp_bundle_20261007\\package\\03_BLP_foundation\\formula_transaction\\MODIFIED_FILE.md": "107a16555552bedf174fcfde75acd568c3ac31b2bcd48c0e8b9ec470cde5cb77",
+      "D:\\codex\\output\\blp_bundle_20261007\\package\\03_BLP_foundation\\formula_transaction\\DIFF_FILE.patch": "6c41ca85634d21215e5046f8f254a3b6ce9eaf7685db6b0d7b91cada0759b3f4",
+      "D:\\codex\\output\\blp_bundle_20261007\\package\\03_BLP_foundation\\formula_transaction\\VERIFICATION.txt": "1128fb41277a1411424591faff5e43aae1d0a2c570de27e916d0b3ca7700fdf2",
+      "D:\\codex\\output\\blp_bundle_20261007\\package\\03_BLP_foundation\\formula_transaction\\ROLLBACK.sh": "a9adf95787aebba8b2b744771a4183b40f4acfed36eea0a457cadda57ea620f0"
+    },
+    "no_source_write": true
+  },
+  "writer_fixture": {
+    "BASELINE": {
+      "stdout": "92.000000\r\n",
+      "stderr": "",
+      "exit_status": 0
+    },
+    "MODIFIED": {
+      "stdout": "96.000000\r\n",
+      "stderr": "",
+      "exit_status": 0
+    },
+    "ROLLBACK": {
+      "stdout": "92.000000\r\n",
+      "stderr": "",
+      "exit_status": 0
+    }
+  }
+}

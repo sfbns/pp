@@ -1,0 +1,257 @@
+{
+  "schema": "independent-blp-upload-backup-check-v1",
+  "status": "PASS",
+  "utc_started": "2026-10-08T18:30:19.398107+00:00",
+  "verifier_path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\verify_upload_backup.py",
+  "verifier_sha256": "e410d21218a23ae0e692b89a4157727672f18c3c77969b3d0b3326a2e7d6bced",
+  "command_array": [
+    "C:\\Users\\于舒奕\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "D:\\codex\\output\\blp_v10_upload_backup_20261009\\verify_upload_backup.py",
+    "--manifest",
+    "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BACKUP_MANIFEST.json",
+    "--report",
+    "D:\\codex\\output\\blp_v10_upload_backup_20261009\\INDEPENDENT_BACKUP_CHECK.json"
+  ],
+  "manifest": {
+    "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BACKUP_MANIFEST.json",
+    "sha256": "f3ba7a8c283406dd656e329bc9b3c355a2315ea5d55ca865fc18b3f16df22974"
+  },
+  "source_checks": {
+    "audit_zip": {
+      "path": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\BLP改进版_独立审查与回滚证据_20261008.zip",
+      "sha256": "69caf2f6cc2e93eea2dff41e91da64f9475ff343a772d2fde86494bceba48e54",
+      "bytes": 42002670,
+      "members": 8029,
+      "crc_ok": true,
+      "safe_unique_paths": true
+    },
+    "reading_zip": {
+      "path": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\BLP改进版_原文与轻量阅读包_20261008.zip",
+      "sha256": "8a52f8ebce49b4713ed20d6af7d2cad8a02972541da4afd68272f442b7176105",
+      "bytes": 54038874,
+      "members": 163,
+      "crc_ok": true,
+      "safe_unique_paths": true
+    },
+    "original_zip": {
+      "sha256": "cd7fe87ac06479a85c2a8f4c250bcdcc52235782ff72bcd0b4a5a6fc128f6b11",
+      "members": 166,
+      "crc_ok": true,
+      "safe_unique_paths": true,
+      "container_bytes_included": false,
+      "expanded_member_bytes_verified": true
+    }
+  },
+  "source_coverage": {
+    "audit_members": 8029,
+    "reading_only_members_preserved": 38,
+    "identical_source_overlap": 124,
+    "expanded_original_members": 166,
+    "current_workspace_sidecars": 5,
+    "all_manifest_source_bytes_match": true
+  },
+  "extraction_root": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z",
+  "logical_root": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009",
+  "archives": [
+    {
+      "name": "BLP_v10_上传备份_01_技能Agent配置与记忆.zip",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BLP_v10_上传备份_01_技能Agent配置与记忆.zip",
+      "bytes": 7820928,
+      "sha256": "1751b2bcde1a28060bd228dacbf475ba1519a466e73eac68ee69c70ec3bb6cf8",
+      "payload_members": 169,
+      "members": 171,
+      "crc_ok": true,
+      "safe_unique_paths": true,
+      "manifest_matches": true,
+      "all_payload_sha256_match_source_and_manifest": true,
+      "at_most_24000000_bytes": true,
+      "below_25000000_bytes": true
+    },
+    {
+      "name": "BLP_v10_上传备份_02_文献原文与公式.zip",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BLP_v10_上传备份_02_文献原文与公式.zip",
+      "bytes": 23478386,
+      "sha256": "6aaa247eb740cd203b560960e51386e6ce159290068fc915848cb3d3dd3307a1",
+      "payload_members": 78,
+      "members": 80,
+      "crc_ok": true,
+      "safe_unique_paths": true,
+      "manifest_matches": true,
+      "all_payload_sha256_match_source_and_manifest": true,
+      "at_most_24000000_bytes": true,
+      "below_25000000_bytes": true
+    },
+    {
+      "name": "BLP_v10_上传备份_03_文献原文与公式.zip",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BLP_v10_上传备份_03_文献原文与公式.zip",
+      "bytes": 23086401,
+      "sha256": "f2d1d64e7e0cf8d6dede5bcbaa3bdef3128e17efbca4af7a94ec75841add5d2e",
+      "payload_members": 88,
+      "members": 90,
+      "crc_ok": true,
+      "safe_unique_paths": true,
+      "manifest_matches": true,
+      "all_payload_sha256_match_source_and_manifest": true,
+      "at_most_24000000_bytes": true,
+      "below_25000000_bytes": true
+    },
+    {
+      "name": "BLP_v10_上传备份_04_完整审查与回滚证据.zip",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BLP_v10_上传备份_04_完整审查与回滚证据.zip",
+      "bytes": 23489896,
+      "sha256": "3be94e0ced180d7a1e57d9107242cb093eb33707286ca419c5e2ed5f65f0f69a",
+      "payload_members": 5374,
+      "members": 5376,
+      "crc_ok": true,
+      "safe_unique_paths": true,
+      "manifest_matches": true,
+      "all_payload_sha256_match_source_and_manifest": true,
+      "at_most_24000000_bytes": true,
+      "below_25000000_bytes": true
+    },
+    {
+      "name": "BLP_v10_上传备份_05_完整审查与回滚证据.zip",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BLP_v10_上传备份_05_完整审查与回滚证据.zip",
+      "bytes": 12226147,
+      "sha256": "0dced450735243573b162e5d97fc6f469a7b8e07961bcc4edde36e4e892a11ed",
+      "payload_members": 2531,
+      "members": 2533,
+      "crc_ok": true,
+      "safe_unique_paths": true,
+      "manifest_matches": true,
+      "all_payload_sha256_match_source_and_manifest": true,
+      "at_most_24000000_bytes": true,
+      "below_25000000_bytes": true
+    }
+  ],
+  "logical_payload_members": 8240,
+  "all_extracted_payload_hashes_match": true,
+  "restore_command_execution": {
+    "command_array": [
+      "C:\\Users\\于舒奕\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009\\restore_audit_duplicates.py",
+      "--root",
+      "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009"
+    ],
+    "cwd": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009",
+    "exit_status": 0,
+    "literal_stdout": "{\"status\": \"PASS\", \"restored_or_matched\": 253, \"scope\": \"byte-identical isolated PDF copies only; no new reading or rerun claim\"}\r\n",
+    "literal_stderr": "",
+    "stdout_bytes_hex": "7b22737461747573223a202250415353222c2022726573746f7265645f6f725f6d617463686564223a203235332c202273636f7065223a2022627974652d6964656e746963616c2069736f6c617465642050444620636f70696573206f6e6c793b206e6f206e65772072656164696e67206f7220726572756e20636c61696d227d0d0a",
+    "stderr_bytes_hex": "",
+    "capture_mode": "raw bytes decoded as utf8 without newline normalization",
+    "recheck": "Existing restored copies reverified by unchanged source restore script",
+    "utc": "2026-10-08T18:32:57.000547+00:00"
+  },
+  "duplicate_pdf_restore": {
+    "mapped": 253,
+    "all_omitted_and_retained_hashes_match": true
+  },
+  "current_configuration": {
+    "candidate_files_matched": 22,
+    "dependency_files_matched": 82
+  },
+  "historical_freeze": {
+    "manifest_file_counts": {
+      "BEHAVIOR_FREEZE.json": 8,
+      "BEHAVIOR_V10_FREEZE.json": 470,
+      "BEHAVIOR_V2_FREEZE.json": 8,
+      "BEHAVIOR_V3_FREEZE.json": 59,
+      "BEHAVIOR_V4_FREEZE.json": 127,
+      "BEHAVIOR_V5_FREEZE.json": 239,
+      "BEHAVIOR_V6_FREEZE.json": 299,
+      "BEHAVIOR_V8_FREEZE.json": 543,
+      "BEHAVIOR_V9_FREEZE.json": 289,
+      "UNSCORED_V7_RUNTIME_FAILURE_FREEZE.json": 252
+    },
+    "v3_v10_and_unscored_v7_union_matched": 1690,
+    "all_including_early_normalized_union_matched": 1702,
+    "pycache_files_matched": 1,
+    "git_files_matched": 360
+  },
+  "two_four_role_sets": [
+    {
+      "set": "original_formula",
+      "role": "MODIFIED_FILE.md",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009\\沿用公式四角色\\MODIFIED_FILE.md",
+      "sha256": "107a16555552bedf174fcfde75acd568c3ac31b2bcd48c0e8b9ec470cde5cb77",
+      "reopened": true,
+      "source_bytes_match": true
+    },
+    {
+      "set": "original_formula",
+      "role": "DIFF_FILE.patch",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009\\沿用公式四角色\\DIFF_FILE.patch",
+      "sha256": "6c41ca85634d21215e5046f8f254a3b6ce9eaf7685db6b0d7b91cada0759b3f4",
+      "reopened": true,
+      "source_bytes_match": true
+    },
+    {
+      "set": "original_formula",
+      "role": "VERIFICATION.txt",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009\\沿用公式四角色\\VERIFICATION.txt",
+      "sha256": "1128fb41277a1411424591faff5e43aae1d0a2c570de27e916d0b3ca7700fdf2",
+      "reopened": true,
+      "source_bytes_match": true
+    },
+    {
+      "set": "original_formula",
+      "role": "ROLLBACK.sh",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009\\沿用公式四角色\\ROLLBACK.sh",
+      "sha256": "a9adf95787aebba8b2b744771a4183b40f4acfed36eea0a457cadda57ea620f0",
+      "reopened": true,
+      "source_bytes_match": true
+    },
+    {
+      "set": "current_config",
+      "role": "MODIFIED_FILE.zip",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009\\MODIFIED_FILE.zip",
+      "sha256": "bbd2acf30481262348cfba0b34601a0efe2705739bf589b1b3a12e6600fba1f7",
+      "reopened": true,
+      "source_bytes_match": true
+    },
+    {
+      "set": "current_config",
+      "role": "DIFF_FILE.patch",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009\\DIFF_FILE.patch",
+      "sha256": "869f226f3a388cabeab34b251d07db764e451f0c73908cda1825585539b7fafe",
+      "reopened": true,
+      "source_bytes_match": true
+    },
+    {
+      "set": "current_config",
+      "role": "VERIFICATION.txt",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009\\VERIFICATION.txt",
+      "sha256": "aaf0776f72978bbeb17a87abe12c007ce8444ba9f2624eb421c998e4f4f38db3",
+      "reopened": true,
+      "source_bytes_match": true
+    },
+    {
+      "set": "current_config",
+      "role": "ROLLBACK.sh",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009\\ROLLBACK.sh",
+      "sha256": "15d52a92186c5a12fa3be6e5a58e5f941854c4cabaca07044ea387f7d3dc958c",
+      "reopened": true,
+      "source_bytes_match": true
+    }
+  ],
+  "sources_unchanged_during_verification": true,
+  "scope": "Independent byte identity, safe standard ZIP extraction, and PDF duplicate restore only; no new reading, scoring, model execution, native agent loading, or broader external-library backup claim.",
+  "exit_status": 0,
+  "utc_finished": "2026-10-08T18:32:20.818292+00:00",
+  "prior_restore_command_execution_text_capture": {
+    "command_array": [
+      "C:\\Users\\于舒奕\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009\\restore_audit_duplicates.py",
+      "--root",
+      "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009"
+    ],
+    "cwd": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\_independent_verify\\20261008T183021412696Z\\BLP_v10_backup_20261009",
+    "exit_status": 0,
+    "literal_stdout": "{\"status\": \"PASS\", \"restored_or_matched\": 253, \"scope\": \"byte-identical isolated PDF copies only; no new reading or rerun claim\"}\n",
+    "literal_stderr": "",
+    "stdout_line_endings_normalized_by_text_mode": true
+  }
+}

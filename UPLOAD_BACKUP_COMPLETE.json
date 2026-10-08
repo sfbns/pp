@@ -1,0 +1,167 @@
+{
+  "status": "COMPLETE",
+  "active_object": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\candidate_v10",
+  "scope": "All payload of two verified delivery archives, with original nested ZIP expanded, plus current completion sidecars. Not the entire Zotero library or unregistered recursive external KB.",
+  "archived_score_unchanged": {
+    "blp_model_building_skill": 87,
+    "blp_agent_config": 86
+  },
+  "archives": [
+    {
+      "name": "BLP_v10_上传备份_01_技能Agent配置与记忆.zip",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BLP_v10_上传备份_01_技能Agent配置与记忆.zip",
+      "bytes": 7820928,
+      "sha256": "1751b2bcde1a28060bd228dacbf475ba1519a466e73eac68ee69c70ec3bb6cf8",
+      "members": 171,
+      "category": "core",
+      "payload_members": 169,
+      "crc_ok": true,
+      "below_decimal_25MB": true
+    },
+    {
+      "name": "BLP_v10_上传备份_02_文献原文与公式.zip",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BLP_v10_上传备份_02_文献原文与公式.zip",
+      "bytes": 23478386,
+      "sha256": "6aaa247eb740cd203b560960e51386e6ce159290068fc915848cb3d3dd3307a1",
+      "members": 80,
+      "category": "literature",
+      "payload_members": 78,
+      "crc_ok": true,
+      "below_decimal_25MB": true
+    },
+    {
+      "name": "BLP_v10_上传备份_03_文献原文与公式.zip",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BLP_v10_上传备份_03_文献原文与公式.zip",
+      "bytes": 23086401,
+      "sha256": "f2d1d64e7e0cf8d6dede5bcbaa3bdef3128e17efbca4af7a94ec75841add5d2e",
+      "members": 90,
+      "category": "literature",
+      "payload_members": 88,
+      "crc_ok": true,
+      "below_decimal_25MB": true
+    },
+    {
+      "name": "BLP_v10_上传备份_04_完整审查与回滚证据.zip",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BLP_v10_上传备份_04_完整审查与回滚证据.zip",
+      "bytes": 23489896,
+      "sha256": "3be94e0ced180d7a1e57d9107242cb093eb33707286ca419c5e2ed5f65f0f69a",
+      "members": 5376,
+      "category": "audit",
+      "payload_members": 5374,
+      "crc_ok": true,
+      "below_decimal_25MB": true
+    },
+    {
+      "name": "BLP_v10_上传备份_05_完整审查与回滚证据.zip",
+      "path": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BLP_v10_上传备份_05_完整审查与回滚证据.zip",
+      "bytes": 12226147,
+      "sha256": "0dced450735243573b162e5d97fc6f469a7b8e07961bcc4edde36e4e892a11ed",
+      "members": 2533,
+      "category": "audit",
+      "payload_members": 2531,
+      "crc_ok": true,
+      "below_decimal_25MB": true
+    }
+  ],
+  "total_logical_payload_files": 8240,
+  "original_literature_members": 166,
+  "all_archive_bytes_below_25000000": true,
+  "original_zip_container_stored": false,
+  "original_zip_member_contents_all_preserved": true,
+  "independent_backup_check": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\INDEPENDENT_BACKUP_CHECK.json",
+  "independent_backup_check_sha256": "8f103f57e89d13e5dde4f8c14da7ef77b65e56b9fef6a3e6f2afd49b8b8a08a0",
+  "manifest": "D:\\codex\\output\\blp_v10_upload_backup_20261009\\upload_ready\\BACKUP_MANIFEST.json",
+  "manifest_sha256": "f3ba7a8c283406dd656e329bc9b3c355a2315ea5d55ca865fc18b3f16df22974",
+  "four_roles_preserved_reopened": [
+    {
+      "set": "original_formula",
+      "role": "MODIFIED_FILE.md",
+      "path": "D:\\codex\\output\\blp_bundle_20261007\\package\\03_BLP_foundation\\formula_transaction\\MODIFIED_FILE.md",
+      "sha256": "107a16555552bedf174fcfde75acd568c3ac31b2bcd48c0e8b9ec470cde5cb77",
+      "reopened": true
+    },
+    {
+      "set": "original_formula",
+      "role": "DIFF_FILE.patch",
+      "path": "D:\\codex\\output\\blp_bundle_20261007\\package\\03_BLP_foundation\\formula_transaction\\DIFF_FILE.patch",
+      "sha256": "6c41ca85634d21215e5046f8f254a3b6ce9eaf7685db6b0d7b91cada0759b3f4",
+      "reopened": true
+    },
+    {
+      "set": "original_formula",
+      "role": "VERIFICATION.txt",
+      "path": "D:\\codex\\output\\blp_bundle_20261007\\package\\03_BLP_foundation\\formula_transaction\\VERIFICATION.txt",
+      "sha256": "1128fb41277a1411424591faff5e43aae1d0a2c570de27e916d0b3ca7700fdf2",
+      "reopened": true
+    },
+    {
+      "set": "original_formula",
+      "role": "ROLLBACK.sh",
+      "path": "D:\\codex\\output\\blp_bundle_20261007\\package\\03_BLP_foundation\\formula_transaction\\ROLLBACK.sh",
+      "sha256": "a9adf95787aebba8b2b744771a4183b40f4acfed36eea0a457cadda57ea620f0",
+      "reopened": true
+    },
+    {
+      "set": "current_config",
+      "role": "MODIFIED_FILE.zip",
+      "path": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\MODIFIED_FILE.zip",
+      "sha256": "bbd2acf30481262348cfba0b34601a0efe2705739bf589b1b3a12e6600fba1f7",
+      "bytes": 92114,
+      "reopened": true
+    },
+    {
+      "set": "current_config",
+      "role": "DIFF_FILE.patch",
+      "path": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\DIFF_FILE.patch",
+      "sha256": "869f226f3a388cabeab34b251d07db764e451f0c73908cda1825585539b7fafe",
+      "bytes": 126218,
+      "reopened": true
+    },
+    {
+      "set": "current_config",
+      "role": "VERIFICATION.txt",
+      "path": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\VERIFICATION.txt",
+      "sha256": "aaf0776f72978bbeb17a87abe12c007ce8444ba9f2624eb421c998e4f4f38db3",
+      "bytes": 137466,
+      "reopened": true
+    },
+    {
+      "set": "current_config",
+      "role": "ROLLBACK.sh",
+      "path": "D:\\codex\\output\\blp_agent_skill_upgrade_20261008\\ROLLBACK.sh",
+      "sha256": "15d52a92186c5a12fa3be6e5a58e5f941854c4cabaca07044ea387f7d3dc958c",
+      "bytes": 326,
+      "reopened": true
+    }
+  ],
+  "observed_prior_behaviors": {
+    "current_config_exits": [
+      3,
+      0,
+      3
+    ],
+    "label_weight_0_6_to_0_8_stdout": [
+      92,
+      96,
+      92
+    ],
+    "label_weight_evaluation_exits": [
+      0,
+      0,
+      0
+    ],
+    "BLP_1995_6_13_normalization_1_over_ns": [
+      1.2,
+      0.3,
+      1.2
+    ],
+    "formula_evaluation_exits": [
+      0,
+      0,
+      0
+    ]
+  },
+  "model_iteration_restarted": false,
+  "source_originals_unchanged": true,
+  "utc": "2026-10-08T18:34:05.866917+00:00"
+}
