@@ -82,3 +82,70 @@ print(f"RE: mean dB = {dB.mean():+.4f}, share of models with dB<0 = {(dB<0).mean
 BN_os = belief(1.45, LN_, tN)                         # over-skeptical under NEDC
 dB_os = BX - BN_os
 print(f"over-skeptical NEDC (zeta_N=1.45): mean dB = {dB_os.mean():+.4f}, share dB<0 = {(dB_os<0).mean():.3f}")
+
+print("== H. corrective dividend and experienced welfare when gamma<1 (two cars + outside) ==")
+from scipy.optimize import brentq as _brentq
+from scipy.special import logsumexp as _lse
+L2 = np.array([6.0, 9.0]); xi2 = np.array([3.0, 4.5]); a2 = 0.5; z0 = 1.30
+def W_exp(zeta, gam):
+    VD = np.r_[0.0, xi2 - a2*gam*zeta*L2]          # decision utility (outside first)
+    VN = np.r_[0.0, xi2 - a2*z0*L2]                # normative utility (true cost, full capitalization)
+    P = np.exp(VD - _lse(VD))
+    return _lse(VD) + P @ (VN - VD)
+for gam in (1.0, 0.8, 0.6):
+    base = W_exp(z0, gam)                          # welfare after correcting beliefs to the objective ratio
+    approx = (2-gam)*z0/gam
+    if gam < 1:
+        thr = _brentq(lambda z: W_exp(z, gam) - base, z0/gam + 1e-6, 10.0)
+    else:
+        thr = z0
+    print(f"gamma={gam}: correcting zeta_N -> {z0} improves experienced welfare iff zeta_N > {thr:.3f} (2nd-order approx {approx:.3f})")
+
+print("== I. money risk-premium channel: magnitude under CRRA over lifetime wealth ==")
+v_I = 1/(1/s0**2 + 1/(0.5**2 + se**2/20))
+Om = lambda t: v_I*t**2/(v_I+t**2)
+dOm = Om(0.35) - Om(0.60)
+RRA, Wealth, Kf = 2.0, 2e6, 6950.0
+Rabs = RRA/Wealth
+print(f"Omega_N={Om(0.60):.4f}, Omega_X={Om(0.35):.4f}, dOmega={dOm:.4f} (L/100km)^2; R={Rabs:.1e}/yuan")
+print(f"risk-premium belief-equivalent (R/2)K(-dOmega) = {0.5*Rabs*Kf*(-dOm):.2e} L/100km; RRA needed to offset dB=+0.05: {0.05/(0.5*Kf*(-dOm))*Wealth:.0f}")
+
+print("== J. information option value: RE beliefs, logsum convexity, powertrain-group share ==")
+rngJ = np.random.default_rng(7); Mk, Jk, cJ = 4000, 8, 0.8
+SN, SX, bwN, bwX = [], [], [], []
+for _ in range(Mk):
+    T = 8 + rngJ.standard_normal(Jk); xi = 0.5*rngJ.standard_normal(Jk)
+    Ob = T + 0.5*rngJ.standard_normal(Jk) + 1.5/np.sqrt(20)*rngJ.standard_normal(Jk)
+    sO2 = 0.25 + 2.25/20; vv = 1/(1+1/sO2); Ot = vv*(8 + Ob/sO2)
+    LN_ = (T - 0.60*rngJ.standard_normal(Jk))/1.30; LX_ = (T - 0.35*rngJ.standard_normal(Jk))/(1.30/1.077)
+    kN, kX = vv/(vv+0.36), vv/(vv+0.1225)
+    BN = kN*1.30*LN_ + (1-kN)*Ot; BX = kX*(1.30/1.077)*LX_ + (1-kX)*Ot
+    for B, S, bw in ((BN, SN, bwN), (BX, SX, bwX)):
+        u = xi - cJ*(B - 8); IV = _lse(u); S.append(np.exp(IV)/(np.exp(IV)+np.exp(1.5)))
+        P = np.exp(u - IV); bw.append(P @ B)
+print(f"mean group share N={np.mean(SN):.4f} X={np.mean(SX):.4f} (relative change {100*(np.mean(SX)/np.mean(SN)-1):+.2f}%); "
+      f"choice-weighted belief N={np.mean(bwN):.3f} X={np.mean(bwX):.3f}")
+
+print("== K. PHEV: posterior uncertainty and the concave electric-drive share UF(R) ==")
+from scipy.stats import lognorm as _lognorm
+mD, sdD = 40.0, 30.0
+sig = np.sqrt(np.log(1+(sdD/mD)**2)); mu_ = np.log(mD) - sig**2/2
+Dd = _lognorm(s=sig, scale=np.exp(mu_))
+UF = lambda R: Dd.expect(lambda d: np.minimum(d, R))/mD
+BR, sdR = 60.0, 15.0
+grid = BR + sdR*np.linspace(-4, 4, 161); wts = norm.pdf(grid, BR, sdR); wts /= wts.sum()
+EUF = sum(w*UF(max(r, 0.0)) for r, w in zip(grid, wts))
+print(f"UF(E[R])={UF(BR):.4f}  E[UF(R)]={EUF:.4f}  (posterior sd {sdR} km lowers the expected electric share)")
+
+print("== L. M2-A: mechanical zero average belief change, and the joint nature of gamma_N=gamma_X ==")
+gam_, kX_, wbar_ = 0.6, 0.6, 0.077
+print(f"naive consumers with constant gamma={gam_}: M2-A reads gamma_X = gamma*(1+kappa_X*wbar) = {gam_*(1+kX_*wbar_):.4f}")
+
+print("== M. residual support after product and month fixed effects (national fuel price series) ==")
+rngM = np.random.default_rng(11); Jm, Tm = 300, 36
+Lm = rngM.uniform(5, 9, Jm)
+for sd_p in (0.10, 0.01):
+    Kt_ = 1 + sd_p*rngM.standard_normal(Tm)
+    X = np.outer(Lm, Kt_)                                   # K_t * L_j
+    Xd = X - X.mean(1, keepdims=True) - X.mean(0, keepdims=True) + X.mean()
+    print(f"time sd of energy price {sd_p:.0%}: residual variance share of K*L after two-way FE = {Xd.var()/X.var():.4%}")
